@@ -1,0 +1,1510 @@
+{
+ "lente": "cientifica",
+ "modulo": "M13",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 15,
+ "busquedas_pendientes": [
+  "WebSearch no hechas por prioridad tras hallar la vía BNPHU/DGE: Évian y Sosúa (A-185), convenios de braceros 1952 y 1959 (A-187), Sáez 1988 y los 30.000 de la parroquia de Dajabón (A-169), bases de Roorda, Cadeau y Price-Mars (A-190), Bulmer-Thomas y series económicas, lingüística del /r/ (A-170), antropología forense (A-191); el pedido del crítico solo cubría censos/anuarios y la base de la cifra de Vega.",
+  "Pedir copia (request-a-copy) al BNPHU de: informes de la Receptoría de 1937 y 1938 (BNPHU/2759, 2760), 'Censo nacional' de 1936 (BNPHU/138), 'Bosquejo geográfico-estadístico' de 1938 (BNPHU/1595), 'Primer censo nacional' de 1920 (BNPHU/1938), Anuario 1946-47 (BNPHU/3134).",
+  "Consulta in situ o por correo: AGN (Fondo Receptoría; USB de 2019 con los informes 1907-1940), NARA RG 139 (informes especiales de inspectores 1931-39) y Anuarios estadísticos de la DGE 1937-1940 (Biblioteca del Congreso).",
+  "Google Books 429 impidió descargar el PDF de pleno acceso 'Dominican Republic: Summary of Biostatistics' (U.S. Bureau of the Census, 1945; id OE3XAAAAMAAJ, view_all_pages) y de la fuente Preliminary Inventory PI 148 (id V78LAAAAYAAJ); reintentar más tarde.",
+  "dLOC (SobekCM/JS) y UF Digital Collections: búsqueda por 'anuario estadístico dominicana' no ejecutable con curl (aplicación JavaScript).",
+  "Boletín Estadístico de la DGE, II época, nº 5 (sept.-oct. 1952, pp. 23-25: población nacida en el extranjero) y Boletín de Información Estadística: sin copia localizada."
+ ],
+ "lagunas": [
+  "Volumen original del censo de 1935 y sus instrucciones a los empadronadores: no hay copia abierta. Lo más cercano es la republicación de 1953 con cuadros de color y de extranjeros (S01) y la cartilla de 1945 (S03). 'Censo nacional' 1936 (S23) está restringido en el BNPHU. Los Anuarios 1937-1940 y 'Población ... distribuida por nacionalidades' (1937, 19 pp.) se localizan solo por bibliografía (S13, S19, S20).",
+  "No existe cifra primaria de haitianos del censo de 1935: el total de extranjeros es 73.070 (S01), pero los 52.657 haitianos y los 8.442 de siete provincias del Cibao son de segunda mano. La cifra 8.492 'del censo de 1936' sigue sin aparecer en ninguna fuente abierta (posible errata de 8.442).",
+  "Rótulo original del cuestionario de 1935 ('mulato' o 'mestizo'): el cuadro de 1953 dice 'Mestizo'; Turits y otros dicen 'mulato'. Sin resolver.",
+  "Informes anuales de la Receptoría de 1936-1939 (S06-S08): localizados en el BNPHU pero con acceso restringido; HathiTrust, ONE y SIDALC devuelven 403; la USB de la ADH/AGN de 2019 no está en línea. No se pudo comprobar si traen cuadros de movimiento de personas; el registro de Google Books (S22) sugiere que no hablan de 'Haitians' ni de 'immigrants' (evidencia débil).",
+  "Base declarada de la cifra de Vega (4.000-6.000): resuelta en parte. Según Herrera (S12), se funda en el censo de 1935 de siete provincias, en el comunicado de la DGE de 17-XII-1937, en el testimonio de la Legación británica y en un informe de inteligencia militar de EE. UU. de diciembre de 1937 basado en cónsules, banqueros, diplomáticos e 'inspectores de aduanas'. Vega vol. II no se pudo abrir; los informes de inspectores (NARA RG 139, 1931-39) no se han visto.",
+  "El censo de 1950 mide nacionalidad declarada, no ascendencia: los dominicanos de ascendencia haitiana nacidos en el país no se cuentan como haitianos. La lengua materna 'francesa' (25.405) da una cota del orden de magnitud de la segunda generación pero no nombra el criollo.",
+  "Cuadro 5 del volumen de 1958 (color por común) y Cuadro 11 (nacidos en el extranjero por común) no se extrajeron.",
+  "Estadísticas haitianas de entradas y salidas, series económicas (Bulmer-Thomas), genómica y arqueología: no aplican o no se buscaron en esta ronda (alcance del crítico)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "color, no la raza (censo de 1950)",
+   "tradicion": "estadística oficial dominicana (DGE, 1953)",
+   "nota": "El Resumen de 1953 declara que se registró «el color, no la raza», con cuatro categorías (blanca, negra, mestiza, amarilla) por «apreciación del empadronador». El cuadro de 1935 en la misma publicación lleva el título «Raza y color». Distinguir categoría estatal de identidad: el glosario ya recoge el rótulo intermedio (mulato/mestizo/indio); falta anotar que el rótulo cambia entre censos (mestizo 1950, mulato 1945 y 1960) y que 1950 es «color, no raza»."
+  },
+  {
+   "termino": "lengua materna «francesa» (censo de 1950)",
+   "tradicion": "estadística oficial dominicana",
+   "nota": "Categoría del censo de 1950 (25.405 personas) que no nombra el criollo haitiano; define lengua materna como la que hablaban los padres en la niñez. No usar como sinónimo de 'haitianos': incluye a hijos de inmigrantes nacidos en el país y, en una parte pequeña, a otros hablantes de francés."
+  },
+  {
+   "termino": "Receptoría de Aduanas (Dominican Customs Receivership)",
+   "tradicion": "oficial estadounidense y dominicana",
+   "nota": "Administración estadounidense de las aduanas dominicanas (1905-1941) bajo la Convención de 1907 y, desde 1924, la de 1924; abolida por la Convención Trujillo-Hull (31-III-1941). Término descriptivo, no cargado; en la tradición dominicana a veces 'intervención financiera'."
+  }
+ ],
+ "fuentes": [
+  {
+   "ref": "S01",
+   "titulo": "Tercer censo nacional de población 1950: resumen general (incluye los cuadros comparativos de 1935: raza y color, dominicanos y extranjeros)",
+   "autor": "República Dominicana, Dirección General de Estadística (Sección de Publicaciones)",
+   "anio": "1953",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3281",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/0430a5ca-97e3-41e8-9a46-08a5357f4f3b/content (PDF de 32,9 MB y 115 páginas; HTTP 200; es el archivo que se leyó)",
+    "https://bd.bnphu.gob.do/server/api/core/items/3e7e6bd7-9f58-4feb-b762-30ddaf4dfbbc (ficha DSpace; licencia CC BY-NC-ND 3.0 US)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tabulación oficial de la propia oficina que produjo los datos; los cuadros cuadran entre sí (1.479.417 = 1.406.347 + 73.070; la suma provincial de haitianos del volumen de 1958 da exactamente 18.772) y coinciden con las cifras de la ONU; el sesgo es el de una dictadura y el del «color por apreciación del empadronador».",
+   "proveniencia": "Dirección General de Estadística, Ciudad Trujillo, 1953; resumen de resultados definitivos del Tercer Censo Nacional (6-VIII-1950) para el público, con un prefacio y un texto histórico de tono encomiástico hacia el régimen de Trujillo (pp. I-X). De primera mano: las tabulaciones de 1950 y la republicación de las cifras de 1935, censo que ejecutó el Partido Dominicano y que la DGE publicó solo en parte según este mismo texto. Escaneo de microfilm con capa de OCR muy dañada en los cuadros: los números de los cuadros se leyeron sobre la imagen de cada página.",
+   "extractos": [
+    {
+     "ubicacion": "p. VII (PDF p. 17)",
+     "cita_original": "El Segundo Censo Nacional de Población fué levantado el 13 de mayo de 1935. Se encargó de su ejecución el Partido Dominicano, siendo publicado parcialmente, en sus más destacadas características por la Dirección General de Estadística.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. VII (PDF p. 17)",
+     "cita_original": "realizada la tarea del Censo con recursos insuficientes, sin el completo dominio de la instrucción necesaria acerca de la materia, en el interior, por parte de los Enumeradores, Inspectores y Sub-Inspectores",
+     "traduccion": "Autocrítica de la DGE sobre el censo de 1920 (cita las «Breves Explicaciones» del volumen de 1923); la misma página da el total de 1920: 894.665 habitantes.",
+     "afirmaciones": [
+      "A-188",
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. XIV (PDF p. 24)",
+     "cita_original": "Color.- Se determinó el color, no la raza, de las personas empadronadas. Se clasificó la población en blanca, negra, mestiza y amarilla, según el caso, y de acuerdo a la apreciación del empadronador, quien fué instruido para que salvo en circunstancias especiales, hiciese esta pregunta.",
+     "traduccion": "Contraste con la cédula de identidad: el censo de 1950 no tiene la categoría «indio».",
+     "afirmaciones": [
+      "A-189",
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. XIV (PDF p. 24)",
+     "cita_original": "Nacionalidad.- Esta pregunta cubrió dos aspectos: en primer lugar se anotó: «dominicano», «naturalizado dominicano» o «extranjero», de acuerdo con la declaración de la persona interrogada.",
+     "traduccion": "La nacionalidad se registró por declaración del interrogado; los hijos de haitianos nacidos en el país cuentan como dominicanos.",
+     "afirmaciones": [
+      "A-188",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "p. 11 (PDF p. 43), Cuadro 9",
+     "cita_original": "CUADRO No. 9.- RAZA Y COLOR DE LA POBLACION DE LA REPUBLICA DOMINICANA POR ZONA Y SEXO: CENSO 1935. La República 1,479,417 (zona urbana 263,625; rural 1,215,792): Blanco 192,733; Negro 287,677; Mestizo 998,668; Amarillo 339",
+     "traduccion": "Primaria de las cifras de 1935 por color. Porcentajes calculados aquí: blanco 13,03 %; negro 19,45 %; mestizo 67,51 %; amarillo 0,02 %. Varones: 94.082 / 156.132 / 500.152 / 338; hembras: 98.651 / 131.545 / 498.516 / 1. El cuadro republicado en 1953 rotula la categoría intermedia «Mestizo», no «mulato».",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 11 (PDF p. 43), Cuadro 8",
+     "cita_original": "CUADRO No. 8.- COLOR DE LA POBLACION DE LA REPUBLICA DOMINICANA POR ZONA Y SEXO: CENSO 1950. La República 2,135,872 (urbana 508,408; rural 1,627,464): Blanco 600,994; Negro 245,032; Mestizo 1,289,285; Amarillo 561",
+     "traduccion": "Porcentajes calculados aquí: blanco 28,14 %; negro 11,47 %; mestizo 60,36 %; amarillo 0,03 %.",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 23 (PDF p. 55), Cuadro 14",
+     "cita_original": "CUADRO No. 14.- POBLACION DOMINICANA Y EXTRANJERA, POR ZONA Y SEXO: CENSOS 1950 Y 1935. Extranjeros: 1950, 32,623 (22,506 varones; 10,117 hembras); 1935, 73,070 (46,029; 27,041). Dominicanos: 1950, 2,103,249; 1935, 1,406,347 (naturalizados: 1,767 y 750)",
+     "traduccion": "En 1935 los extranjeros eran 73.070 de 1.479.417 (4,9 %): es el techo absoluto del conteo de haitianos de ese censo. Zona rural 1935: 59.349 extranjeros; 1950: 22.670.",
+     "afirmaciones": [
+      "A-166",
+      "A-188",
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (PDF p. 54), Cuadro 13",
+     "cita_original": "CUADRO No. 13.- POBLACION NACIDA EN EL EXTRANJERO, SEGUN PAIS DE NACIMIENTO, POR ZONA Y SEXO: CENSO 1950. La República 34,654 (23,623 varones; 11,032 hembras). Haití 19,193 (13,543; 5,650); zona urbana 1,195; zona rural 17,998",
+     "traduccion": "La suma de sexos del total da 34.655: discrepancia de 1 en el original.",
+     "afirmaciones": [
+      "A-186",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 24 (PDF p. 56), Cuadro 15",
+     "cita_original": "CUADRO No. 15.- POBLACION DE LA REPUBLICA DOMINICANA, SEGUN NACIONALIDAD: CENSO 1950. Dominicana 2,103,249; Haitiana 18,772 (13,275 varones; 5,497 hembras; urbana 1,080; rural 17,692); Inglesa 4,797; Puertorriqueña 1,706; Española 1,599",
+     "traduccion": "Los 18.772 «haitianos» de 1950 son nacionales de Haití; los 421 nacidos en Haití que no figuran aquí (19.193 − 18.772) son dominicanos naturalizados u otras nacionalidades (inferencia).",
+     "afirmaciones": [
+      "A-186",
+      "A-188",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "p. 24 (PDF p. 56), Cuadro 16",
+     "cita_original": "CUADRO No. 16.- LENGUA MATERNA DE LA POBLACION DE LA REPUBLICA DOMINICANA POR ZONA Y SEXO: CENSO 1950. Española 2,093,195; Francesa 25,405 (16,747; 8,658; rural 23,431); Inglesa 12,140",
+     "traduccion": "«Lengua materna» es la que hablaban los padres en la niñez del empadronado (p. XIV). La categoría «francesa» no nombra el criollo haitiano.",
+     "afirmaciones": [
+      "A-177",
+      "A-186"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-166",
+    "A-177",
+    "A-186",
+    "A-188",
+    "A-189",
+    "A-190"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE CON PRIMARIA lo que el corpus daba de segunda mano: (1) las cifras de 1935 por color (13/68/19 %: 192.733 / 998.668 / 287.677) salen de esta tabla y no solo de Price-Mars, Lyonnet o Larrazábal citados por Turits; (2) el total de extranjeros de 1935 (73.070) y de 1950 (32.623). OJO con la nomenclatura: esta tabla rotula la categoría intermedia de 1935 como «Mestizo» (igual que 1950), mientras que la cartilla de 1945 (S03) y el cuestionario de 1960 (S17) usan «mulato»; el rótulo del cuestionario original de 1935 sigue sin verse, de modo que la afirmación «mestizo 1920 → mulato 1935 → mestizo 1950» (A-189) no está confirmada para 1935. [CÁLCULO PROPIO, interpretación a contrastar] La proporción de blancos pasa de 13,0 % a 28,1 % entre 1935 y 1950 (de 192.733 a 600.994, +212 %) y la de negros de 19,5 % a 11,5 %: el aumento de 408.261 blancos equivale a casi 12 veces toda la población nacida en el extranjero en 1950, de cualquier origen (34.654, Cuadro 13), de modo que no puede ser inmigración y mide sobre todo un cambio de clasificación por el empadronador (a lo sumo, una parte demográfica por mortalidad y fecundidad diferenciales). Discrepancia con R1: la ONU (1948) daba la zona urbana de 1935 como 266.565 y la rural como 1.212.852; este cuadro da 263.625 y 1.215.792 (mismo total). Tasas calculadas: 1920→1935 (894.665 → 1.479.417) ≈ 3,5 % anual; 1935→1950 (→ 2.135.872) ≈ 2,4 % anual. Sin cifra primaria de haitianos de 1935: el 52.657 sigue de segunda mano; aquí solo consta el total de extranjeros."
+  },
+  {
+   "ref": "S02",
+   "titulo": "Tercer censo nacional de población 1950 (edición completa de 866 páginas: cuadros por provincia y común, nacionalidad, lengua materna)",
+   "autor": "República Dominicana, Dirección General de Estadística (Oficina Nacional del Censo)",
+   "anio": "1958",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3280",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/4ccb4ba1-53b5-48d8-987c-c48c5184e76a/content (PDF de 349 MB, 934 páginas PDF; HTTP 200; se descargó al scratchpad, no al repositorio)",
+    "https://bd.bnphu.gob.do/server/api/core/items/cc8b0aca-e6ac-4dde-9f9a-43bd68a20e40"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición definitiva y completa de los datos del censo por la propia DGE; la suma de los 'haitianos' por provincia (Cuadro 12) reproduce exactamente los 18.772 del resumen de 1953 y el total por lengua materna francesa (25.405) también cuadra.",
+   "proveniencia": "Dirección General de Estadística, Ciudad Trujillo, 1958 (prefacio del director Sócrates Barinas Coiscou); el resumen había salido en 1953. Es el único volumen censal de la era de Trujillo con cuadros por común localizado en acceso abierto. Se leyeron la introducción, el texto analítico de las provincias (pp. XXX-XXXVII) y los Cuadros 12 (nacionalidad por provincia, comunes y distritos municipales, pp. 147-177) y 13 (lengua materna, pp. 178-188), las tablas sobre la imagen de cada página porque la capa de OCR es ilegible en los números.",
+   "extractos": [
+    {
+     "ubicacion": "p. IV (PDF p. 5)",
+     "cita_original": "A lo largo de la frontera dominico-haitiana, y en las regiones próximas a la misma, una vez terminado el trazado material de la línea fronteriza [...] fueron creadas cinco provincias: Benefactor, Bahoruco, Libertador, San Rafael e Independencia",
+     "traduccion": "Advierte que la división provincial cambió entre 1930 y 1950: los totales provinciales de 1935 y de 1950 no son directamente comparables.",
+     "afirmaciones": [
+      "A-181",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "p. XXXVII (PDF p. 28)",
+     "cita_original": "Del total de 32,623 extranjeros el 57.54% eran haitianos radicados casi en su totalidad en la zona rural, y dedicados preferentemente a los trabajos agrícolas en los Centrales Azucareros.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. XXX (PDF p. 21)",
+     "cita_original": "De las 3,110 personas nacidas en el extranjero que residían en esta provincia, 2,989, el 96.1%, eran de nacionalidad haitiana, lo que es fácilmente explicable habida cuenta la cercanía de esta provincia a la vecina República de Haití.",
+     "traduccion": "Provincia de Bahoruco. Sobre Barahona (misma página): «El número de extranjeros (inmigración externa) era de 2,046, en su mayoría haitianos, trabajadores importados por la industria azucarera».",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. XXXI (PDF p. 22)",
+     "cita_original": "Independencia [...] Poseía, en 1950, la densidad de población más baja de toda la República: 10.3 habitantes por Km². Es una provincia fronteriza. De las 658 personas nacidas en el extranjero y radicadas en su territorio, 648 eran haitianos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186",
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "pp. 151 y 153 (PDF pp. 210 y 212), Cuadro 12, columna «Haitiana», total",
+     "cita_original": "Haitiana (total): La República 18,772 | Montecristi 2 | Libertador 1 | Independencia 648 | Santiago 14 | Puerto Plata 226 | Espaillat 3 | Duarte 5 | La Vega 22 | Samaná 18",
+     "traduccion": "Nacionales de Haití en 1950 en las provincias del noroeste y el Cibao. En las siete provincias del Cibao del conteo de 1935 (Montecristi, Santiago, Puerto Plata, Espaillat-Moca, La Vega, Duarte, Samaná; 8.442 haitianos según Herrera/Vega) la suma de 1950 es 290.",
+     "afirmaciones": [
+      "A-166",
+      "A-186",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "pp. 151 y 153 (PDF pp. 210 y 212), Cuadro 12, columna «Haitiana», total",
+     "cita_original": "Haitiana (total): El Seibo 4,667 | La Altagracia 3,437 | Bahoruco 2,989 | San Pedro de Macorís 2,702 | Barahona 1,658 | Distrito de Santo Domingo 1,178 | Trujillo 1,167",
+     "traduccion": "Siete provincias suman 17.798 de 18.772 (94,8 %); sin el Distrito de Santo Domingo, las seis provincias del sur y el este azucareros suman 16.620 (88,5 %).",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "pp. 147-148 (PDF pp. 206-207), Cuadro 12, columnas «Total» y «Nacionalidad dominicana»",
+     "cita_original": "Libertador: total 26,470; dominicanos 26,450 | Montecristi: total 82,588; dominicanos 82,396 | La República: total 2,135,872; dominicanos 2,103,249",
+     "traduccion": "Extranjeros de todas las nacionalidades en 1950: Libertador (Dajabón, Loma de Cabrera, Restauración) 20; Montecristi 192.",
+     "afirmaciones": [
+      "A-166",
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "pp. 179 y 181 (PDF pp. 238 y 240), Cuadro 13 «Lengua materna», columna «Francesa»",
+     "cita_original": "Francesa (total): La República 25,405 | Montecristi 13 | Libertador 5 | Independencia 948 | Bahoruco 4,644 | La Altagracia 4,289 | San Pedro de Macorís 3,555 | El Seibo 5,953",
+     "traduccion": "La lengua materna francesa (25.405) supera a los nacidos en Haití (19.193) en unos 6.200: orden de magnitud de la segunda generación nacida en el país, concentrada en las mismas provincias azucareras (inferencia; el censo no nombra el criollo).",
+     "afirmaciones": [
+      "A-177",
+      "A-186"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-177",
+    "A-181",
+    "A-186",
+    "A-188",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "[CÁLCULO PROPIO, a contrastar] Comparación de ámbito: los 8.442 haitianos del censo de 1935 en siete provincias del Cibao (Montecristi 3.816; Santiago 1.255; Puerto Plata 2.313; Moca 112; La Vega 284; Duarte 301; Samaná 361; de Herrera 2022a, segunda mano, que cita el comunicado de la DGE del 17-XII-1937) frente a 290 nacionales de Haití en esas mismas provincias en 1950 (3,4 %); en Montecristi + Libertador, 3 frente a 3.816. Cautelas: (a) cambios de límites provinciales entre 1935 y 1950 (cinco provincias fronterizas creadas; la común de Julia Molina pasó de Duarte a Samaná en junio de 1945 (S02, p. XXXI); Libertador pudo formar parte de Montecristi en 1935 [POR VERIFICAR]); (b) la nacionalidad se registró por declaración y los hijos de haitianos nacidos en el país cuentan como dominicanos; (c) 1950 es posterior a la matanza, las expulsiones y el cierre de la frontera, de modo que la caída mide el resultado, no la causa; (d) la definición operativa de «haitiano» en 1935 no se conoce. La cifra de haitianos en provincias de plantación en 1950 respalda, sin probarlo, A-186. El volumen incluye también los Cuadros 5 (color por común, PDF pp. 117-127) y 11 (nacidos en el extranjero por país y común, PDF pp. 186-205), no extraídos aquí."
+  },
+  {
+   "ref": "S03",
+   "titulo": "Censo especial urbano de Ciudad Trujillo: cartilla de instrucciones a los enumeradores (10 de marzo de 1945)",
+   "autor": "República Dominicana, Dirección General de Estadística",
+   "anio": "1945",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3527",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/6eb44288-a338-4184-8f0f-a4f1c2b14c36/content (PDF de 45 MB, 50 páginas; HTTP 200)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el instrumento interno que la propia DGE dio a los empadronadores: no es una explicación para el público, sino la instrucción operativa; sellada por la Biblioteca Nacional.",
+   "proveniencia": "DGE, Ciudad Trujillo, marzo de 1945, para los enumeradores de un censo urbano especial ordenado por el Decreto 2514 (10-III-1945). No es el censo nacional de 1935 ni el de 1950, pero es la única cartilla de la DGE de la era de Trujillo localizada en abierto y muestra cómo se instruía la pregunta de color y de nacionalidad diez años después del censo de 1935 y cinco antes del de 1950.",
+   "extractos": [
+    {
+     "ubicacion": "p. 15 (PDF p. 31), párr. 32",
+     "cita_original": "32.- COLUMNA 6 (COLOR) - El Enumerador deberá definir con claridad uno de estos colores: Blanco Negro Mulato Amarillo.",
+     "traduccion": "Cuatro colores, sin «indio» y con «mulato» (en 1950 será «mestizo»).",
+     "afirmaciones": [
+      "A-189",
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (PDF p. 45), párr. 60",
+     "cita_original": "60.- COLUMNAS 30 Y 31 (NACIONALIDAD) - Indique en la columna 30 la nacionalidad de origen del empadronado y en la columna 31 si se ha naturalizado dominicano.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 1 (PDF p. 3)",
+     "cita_original": "El Censo de Ciudad Trujillo cuya ejecución está ordenada por el Decreto No.2514 del Honorable Presidente de la República, de fecha 10 de Marzo de 1945, consistirá en un Censo de Edificaciones y un Censo de Población de la Zona Urbana.",
+     "traduccion": "El texto cita luego la «Ley No. 318 [...] (Ley sobre Censos Nacionales)» con fecha «19 de Julio del año 1945», fecha imposible para un decreto de marzo de 1945: Aybar Mella (S04) sitúa la ley antes de mediados de 1943.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Solo instruye dos de las preguntas relevantes (color y nacionalidad); no define el criterio de color más allá de «definir con claridad» (a diferencia del Resumen de 1950: «según la apreciación del empadronador»). Ciudad Trujillo era la zona de menor presencia haitiana: la cartilla no habla de la frontera ni de bateyes. La fecha de la Ley 318 es inconsistente en el propio documento [POR VERIFICAR en la Gaceta Oficial]."
+  },
+  {
+   "ref": "S04",
+   "titulo": "Génesis, evolución y futuro de la estadística en la República Dominicana (conferencia pronunciada en el Ateneo Dominicano, 1952)",
+   "autor": "Aybar Mella, Salvador (Director General de Estadística)",
+   "anio": "1952",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3189",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/1e121e6d-00ce-4c1b-a897-51e59794f499/content (PDF de 21 MB, 80 páginas PDF; HTTP 200)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testimonio institucional del director de la oficina que hizo los censos de 1950 y publicó los de 1935; informa de primera mano sobre organización y cobertura, pero juzga su propia obra y la del régimen (parte encomiástica).",
+   "proveniencia": "Conferencia de Salvador Aybar Mella, Director General de Estadística, en el Ateneo Dominicano (julio de 1952), editada por la DGE (Sección de Publicaciones). Escrita para el público culto de Ciudad Trujillo, con el interés de presentar la estadística como obra del régimen. De primera mano: la organización de la DGE (ley 1023 de noviembre de 1935; Decreto 6091 de 1949) y su valoración de los censos de 1920, 1935 y 1950. OCR muy irregular (letras sueltas): las citas se reconstruyeron letra a letra.",
+   "extractos": [
+    {
+     "ubicacion": "p. 27 (PDF p. 53)",
+     "cita_original": "Pasó el tiempo desde entonces hasta el año 1920, en que, durante la ocupación americana, se levantó un censo que también resultó incompleto [...] Muchos fueron los pueblos que dejaron de censarse, sobre todo en el Este, donde existía una banda de guerrilleros, y las regiones fronterizas donde casi el tránsito era imposible.",
+     "traduccion": "Cobertura del censo de 1920: faltan pueblos del este y de la región fronteriza.",
+     "afirmaciones": [
+      "A-188",
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. 27 (PDF p. 53)",
+     "cita_original": "En el año 1935 fué cuando por primera vez se realizó un censo completo, cuando el país sentado bases firmes, ya que el Presidente Trujillo implantó la responsabilidad política bajo una organización que permitió la realización de dicho censo [...] la elaboración fué sencilla, porque no se disponía de los medios necesarios",
+     "traduccion": "Autoevaluación de la DGE: 1935 «fue un buen censo», aunque con elaboración sencilla y sin la preparación técnica para resultados «científicamente elaborados».",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 29 (PDF p. 57)",
+     "cita_original": "conforme a la misma [la Ley No. 318] éstos deben celebrarse en el país, cada quince años, y como el último había sido el de 1935, coincidió el nacional de 1950 con el Continental del mismo año.",
+     "traduccion": "Ley 318: censos cada quince años.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-177",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sesgo conocido: el autor evalúa su propia institución. Los números de página impresa (27, 29) se leyeron en el encabezado; el PDF intercala una página de texto OCR ilegible entre cada dos páginas impresas (80 páginas PDF). La ley de creación de la DGE (1023, noviembre de 1935) consta en la p. 14 impresa (PDF p. 27). No dice nada de raza, nacionalidad ni haitianos."
+  },
+  {
+   "ref": "S05",
+   "titulo": "Guide to Federal Records: Records of the Dominican Customs Receivership, Record Group 139 (con la entrada de Record Group 350 sobre la Oficina de Asuntos Insulares)",
+   "autor": "National Archives and Records Administration (NARA), Guide to Federal Records (Matchette et al., 1995; versión web actualizada)",
+   "anio": "1995",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.archives.gov/research/guide-fed-records/groups/139.html",
+   "urls_alternativas": [
+    "https://www.archives.gov/research/guide-fed-records/groups/350.html (RG 350, Bureau of Insular Affairs; HTTP 200; leído)",
+    "https://catalog.hathitrust.org/Record/101510032 (Preliminary inventory of the records of the Dominican customs receivership, RG 139; aparece en una búsqueda, NO se abrió: HathiTrust devuelve 403)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrumento de descripción archivística oficial del depositario; describe qué existe y dónde está, no el contenido de los documentos.",
+   "proveniencia": "NARA, Washington, guía general de fondos federales; describe el fondo de la Receptoría de Aduanas Dominicana (1905-1941), administrada por la Oficina de Asuntos Insulares del Departamento de Guerra. Sirve para localizar la fuente física de los informes que cita Vega.",
+   "extractos": [
+    {
+     "ubicacion": "RG 139, 139.2",
+     "cita_original": "Special reports of receivership inspectors relating to customhouse administration and smuggling, 1931-39.",
+     "traduccion": "Informes especiales de los inspectores de la Receptoría sobre administración aduanera y contrabando, 1931-39.",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "RG 139, 139.2 (Related Records)",
+     "cita_original": "Most records of the receivership are in the Archivo General de la Nacion, Santo Domingo, Dominican Republic.",
+     "traduccion": "La mayor parte de los registros de la Receptoría está en el AGN de Santo Domingo.",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "RG 139, 139.1",
+     "cita_original": "Abolished: March 31, 1941, pursuant to the Trujillo-Hull Convention.",
+     "traduccion": "Abolida el 31-III-1941 conforme a la Convención Trujillo-Hull.",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "RG 139, 139.1 (Finding Aids)",
+     "cita_original": "Kenneth W. Munden, comp., Preliminary Inventory of the Records of the Dominican Receivership, PI 148 (1962).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "RG 350 (URL alternativa), 350.1",
+     "cita_original": "Supervised the Dominican Customs Receivership, 1905-39, and Haitian Customs Receivership, 1920-24.",
+     "traduccion": "Funciones de la Oficina de Asuntos Insulares.",
+     "afirmaciones": [
+      "A-166"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Responde al segundo punto del crítico: la base «informes de aduanas de EE. UU.» de la cifra de Vega es una fuente archivística (RG 139 en NARA: informes especiales de inspectores 1931-39; y fondo en el AGN), no una serie publicada. Otras listas de apoyo: Munden, List of Records of the Bureau of Insular Affairs relating to the Dominican Customs Receivership, 1905-1940, Special List 5 (NARA, 1943, 29 pp.), localizada solo por catálogo (catalogo.biblio.unc.edu.ar/Record/ffyh.67503; no abierta). El contenido concreto de esos informes de inspectores NO se ha visto. HathiTrust y el catálogo de NARA no permiten confirmar digitalización."
+  },
+  {
+   "ref": "S06",
+   "titulo": "Report of the thirty-first fiscal period: Dominican Customs Receivership under the American-Dominican Convention of 1924, for calendar year 1937, together with summary of commerce (el repositorio la rotula, por error, «twenty-sixth fiscal period»)",
+   "autor": "República Dominicana, Oficina del General Receptor de Aduanas (Receptoría Dominicana de Aduanas, bajo la Oficina de Asuntos Insulares de EE. UU.)",
+   "anio": "1938",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/2759",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/dcd6ab2a-8f97-4b68-91a9-1f57a41a5f48/full (ficha; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/items/dcd6ab2a-8f97-4b68-91a9-1f57a41a5f48 (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/f34be919-4e48-4900-8169-234cedeee63d/content (PDF de unos 41 MB: HTTP 401, exige iniciar sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial anual del General Receptor al Gobierno de EE. UU.; se juzga por la ficha y el resumen de portada, no por el contenido, que no se pudo leer.",
+   "proveniencia": "Informe anual del General Receptor de Aduanas Dominicanas (funcionario estadounidense, Santo Domingo) a la Oficina de Asuntos Insulares del Departamento de Guerra (EE. UU.), imprimido por la U.S. Government Printing Office; ejemplar de la Colección Patrimonio Dominicano de la Biblioteca Nacional Pedro Henríquez Ureña (digitalizado en 2023). Contenido declarado: transacciones financieras de la Receptoría, deuda, estadísticas de comercio exterior y rentas internas; no estadísticas de población ni de migración.",
+   "extractos": [
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "Sir. In accordance with the provisions of the general regulations goveming the administration, there is respectfully transmitted liere with the annual report of the Dominican Customs Receivership for the calendar year 1937, the thirty-fírst fiscal period of operation by virtue of the American-Dominican Convention.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "The overseas trade of the country is shown in a complete summary of commerce, statistical data of imports and exports, assembled for convenient reference. The collection of internal revenue which the Receivership handled for Government account in 1937, entirely independent of customs collections, is discussed in a sepárate chapter",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Año de la matanza (133 páginas impresas). Reporte para el punto 2 del crítico: el informe de 1937 existe en el BNPHU pero su PDF requiere clave o petición de copia (HTTP 401 en content). El OCR del resumen contiene erratas de lectura (goveming, liere, thirty-fírst, sepárate). Otros volúmenes de la serie en el mismo repositorio (todos con 401), por año de emisión: 1928 (BNPHU/3313 y 4261), 1930 (2974), 1931 (2592), 1933 (2754), 1934 (2755), 1935 (2756), 1936 (2757), 1937 (2758), 1939 (2760). Vega (S09/S10) dice que casi todos los informes de 1907-1938 están en 5 volúmenes del BNPHU y que los de 1939 y 1940 se los prestó Hugo Tolentino Dipp. Un registro de Google Books de la serie (id hLe3reKaAA8C, vista solo de fragmentos; ver S22) contiene «calendar year 1937»; Online Books Page (Penn) no enlaza ningún informe de la serie 1925-1940 en HathiTrust de libre acceso. Si un lector con acceso lo abre: buscar «Haitian frontier», «deputy receivers» (Dajabón, Monte Cristi), «land ports» y cualquier cuadro de pasajeros."
+  },
+  {
+   "ref": "S07",
+   "titulo": "Report of the thirty-second fiscal period: Dominican Customs Receivership under the American-Dominican Convention of 1924, for calendar year 1938, together with summary of commerce (el repositorio la rotula, por error, «twenty-sixth fiscal period»)",
+   "autor": "República Dominicana, Oficina del General Receptor de Aduanas (Receptoría Dominicana de Aduanas, bajo la Oficina de Asuntos Insulares de EE. UU.)",
+   "anio": "1939",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/2760",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/dbe17f58-f008-4c95-a247-4be0dd0d9195/full (ficha; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/items/dbe17f58-f008-4c95-a247-4be0dd0d9195 (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/2889dd72-bc37-4c9b-9662-866c94550826/content (PDF de unos 41 MB: HTTP 401, exige iniciar sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial anual del General Receptor al Gobierno de EE. UU.; se juzga por la ficha y el resumen de portada, no por el contenido, que no se pudo leer.",
+   "proveniencia": "Informe anual del General Receptor de Aduanas Dominicanas (funcionario estadounidense, Santo Domingo) a la Oficina de Asuntos Insulares del Departamento de Guerra (EE. UU.), imprimido por la U.S. Government Printing Office; ejemplar de la Colección Patrimonio Dominicano de la Biblioteca Nacional Pedro Henríquez Ureña (digitalizado en 2023). Contenido declarado: transacciones financieras de la Receptoría, deuda, estadísticas de comercio exterior y rentas internas; no estadísticas de población ni de migración.",
+   "extractos": [
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "Sir: The report of operations of the Dominican Customs Receivership for the calendar year 1938, thirty-second fiscal period under the Convention, is respectfully submitted herewith. As directed by the general regulations goveming, the report embraces all financial transactions of the Receivership during the year.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "a complete summary of commerce, with statistical data of imports and exports, compared with the trade of 1937, is incorporated as appendix C. A chapter deais with the country’s external lebt represented by outstanding Dominican customs bonds",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Año posterior a la matanza (134 páginas): su apéndice C compara el comercio de 1938 con el de 1937. PDF con 401 en el repositorio (ver S06). Erratas de OCR: goveming, deais, lebt."
+  },
+  {
+   "ref": "S08",
+   "titulo": "Report of the thirtieth fiscal period: Dominican Customs Receivership under the American-Dominican Convention of 1924, for calendar year 1936, together with summary of commerce (el repositorio la rotula, por error, «twenty-sixth fiscal period»)",
+   "autor": "República Dominicana, Oficina del General Receptor de Aduanas (Receptoría Dominicana de Aduanas, bajo la Oficina de Asuntos Insulares de EE. UU.)",
+   "anio": "1937",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/2758",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/21441072-32c1-4a4f-9456-53d26c7db6b5/full (ficha; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/items/21441072-32c1-4a4f-9456-53d26c7db6b5 (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/4eaa99fc-1718-4f15-a2f6-0c8dc813f016/content (PDF de unos 41 MB: HTTP 401, exige iniciar sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial anual del General Receptor al Gobierno de EE. UU.; se juzga por la ficha y el resumen de portada, no por el contenido, que no se pudo leer.",
+   "proveniencia": "Informe anual del General Receptor de Aduanas Dominicanas (funcionario estadounidense, Santo Domingo) a la Oficina de Asuntos Insulares del Departamento de Guerra (EE. UU.), imprimido por la U.S. Government Printing Office; ejemplar de la Colección Patrimonio Dominicano de la Biblioteca Nacional Pedro Henríquez Ureña (digitalizado en 2023). Contenido declarado: transacciones financieras de la Receptoría, deuda, estadísticas de comercio exterior y rentas internas; no estadísticas de población ni de migración.",
+   "extractos": [
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "Sir: The tliirtieth annual report of fmancial transactions of the Dominican customs receivership for the calendar year 1936 is respectfully submitted hcrewith.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract (OCR de la carta de remisión)",
+     "cita_original": "'A summary of coimnerce of the foreign trade is incorporated, complete in the usual statistical tables, showing by groups and schedules the volume of imports and exports, together with comparison of similar trade in 1935.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Año previo a la matanza (139 páginas, la más extensa de la serie 1934-1939). PDF con 401 (ver S06). Erratas de OCR: tliirtieth, fmancial, hcrewith, coimnerce. El texto dice que existe un informe paralelo en español para el Gobierno dominicano «necesariamente reducido»."
+  },
+  {
+   "ref": "S09",
+   "titulo": "Bernardo Vega presentó informes de la receptoría de aduana, 1907-1940 (Diario Libre)",
+   "autor": "Diario Libre (redacción)",
+   "anio": "2019",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/actualidad/bernardo-vega-presento-informes-de-la-receptoria-de-aduana-1907-1940-CE13245531",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Noticia de agencia sobre un acto de la Academia Dominicana de la Historia, que reproduce lo dicho por Vega (autor de la serie y de la cifra discutida); da hechos de localización y formato, no de contenido.",
+   "proveniencia": "Diario Libre, 1-VII-2019, crónica del acto del 28/30-VI-2019 en la Academia Dominicana de la Historia, donde Bernardo Vega presentó la edición digital de «Los informes de la receptoría de Aduana, 1907-1940». Sin firma. Interés: divulgación cultural.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "Los informes estaban dispersos, e incompletos, en diferentes instituciones como la Biblioteca del Banco Central de la República Dominicana o el Archivo General de la Nación. Finalmente, en la Biblioteca Nacional Pedro Henríquez Ureña fueron localizados casi todos los informes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "sección «Entrega en USB»",
+     "cita_original": "se decidió digitalizarlos y grabarlos en memorias USB, para de esta manera preservar los informes originales",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "los informes estaban escritos en inglés y se organizaban en una «Sección narrativa» y cuatro apéndices (“A”, “B”, “C” y “D”), en los que se daba cuenta de las diversas estadísticas sobre el comercio dominicano, transacciones financieras, países con los que se comerciaba, productos exportados e importados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Confirma lo que el crítico daba como [VERIFICADO: diariolibre.com, CE13245531]. Vega describe el contenido de los apéndices como estadísticas de comercio y finanzas; no menciona población ni migración. Es la prueba de que NO hay edición en línea: la distribución fue en USB. El ejemplar digital existe también en el AGN (digitalizado por el equipo de Roberto Cassá)."
+  },
+  {
+   "ref": "S10",
+   "titulo": "Bernardo Vega destaca importancia de los informes de la receptoría de aduana, 1907-1940 (Acento)",
+   "autor": "Servicios de Acento.com.do",
+   "anio": "2019",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/bernardo-vega-destaca-importancia-de-los-informes-de-la-receptoria-de-aduana-1907-1940-8700550.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Misma noticia que Diario Libre (nota de prensa común), con un dato adicional de procedencia de los ejemplares; no es independiente de S09.",
+   "proveniencia": "Acento.com.do, 2-VII-2019, texto de agencia propia sobre el acto de la ADH. Interés: divulgación. Cuenta como una sola fuente con S09.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "Han transcurrido 111 años desde que fue publicado el primer informe anual y casi ocho décadas desde el último, en 1940. La existencia de estos informes es muy limitada, conseguir todos los ejemplares para digitalizarlos no fue tarea sencilla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "penúltimo párrafo",
+     "cita_original": "al doctor Roberto Cassá y a su equipo del Archivo General de la Nación, quienes hicieron un extraordinario trabajo de digitalización [...] y al doctor Hugo Tolentino Dipp, quien prestó los informes de los años 1935 a 1940",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "último párrafo",
+     "cita_original": "Los referidos informes fueron entregados al público en un dispositivo USB.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Discrepancia interna entre las dos versiones de la misma nota: Diario Libre dice que el BNPHU tenía los informes de 1907 a 1938 y que Tolentino Dipp facilitó los de 1939 y 1940; Acento dice que Tolentino prestó los de 1935 a 1940. La disponibilidad en línea debe declararse como: fuente física (BNPHU, AGN, NARA RG 139) y USB de la ADH/AGN de 2019, sin copia abierta localizada."
+  },
+  {
+   "ref": "S11",
+   "titulo": "Report of the fourteenth fiscal period, Dominican Customs Receivership under the American-Dominican Convention of 1907, for the calendar year 1920, together with summary of commerce for 1920",
+   "autor": "República Dominicana, Oficina del General Receptor de Aduanas (Clarence H. Baxter, General Receiver); Bureau of Insular Affairs, War Department",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/reportdominican00affagoog",
+   "urls_alternativas": [
+    "https://archive.org/download/reportdominican00affagoog/reportdominican00affagoog_djvu.txt (texto OCR, 174 KB; HTTP 200)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial original del General Receptor, escaneado por Google; es el único de la serie en archive.org y sirve de patrón del contenido y de la plantilla de los informes de los años treinta.",
+   "proveniencia": "Clarence H. Baxter, General Receptor, Santo Domingo, 2-V-1921, a la Oficina de Asuntos Insulares; incluye el personal de la Receptoría a 31-XII-1920, con puertos terrestres de la frontera haitiana. De primera mano en lo financiero y comercial. Es de 1920: NO cubre los años de la matanza.",
+   "extractos": [
+    {
+     "ubicacion": "l. 112-114 del txt",
+     "cita_original": "Sir: The fourteenth annual report of financial transactions and trade statistics of the Dominican Customs Receivership for the convention year ending December 31, 1920, in accordance with general regulations governing, is respectfully presented herewith.",
+     "traduccion": "Informe anual de transacciones financieras y estadísticas de comercio; ver Apéndices A (finanzas), B, C (comercio) y D (personal).",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "l. 32183 del txt (Apéndice D, resumen del personal a 31-XII-1920)",
+     "cita_original": "Number of employees in service, Dec. 31 [OCR: «SI»], 1920. Office of the general receiver 29 [...] Special inspectors 7 Land ports, Haitian frontier 4 Deputy receivers, seacoast entry ports 9",
+     "traduccion": "La Receptoría tenía 4 empleados en puertos terrestres de la frontera haitiana y 7 inspectores especiales en 1920.",
+     "afirmaciones": [
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "l. 3026 del txt (Apéndice A)",
+     "cita_original": "15. Expenses of frontier customs service, inaugiurated October, 1912. . 150, 862. 51",
+     "traduccion": "Gastos del servicio aduanero fronterizo, inaugurado en octubre de 1912.",
+     "afirmaciones": [
+      "A-166"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Solo indica el diseño de la serie y que había funcionarios de la Receptoría en la frontera (1920); no hay en el texto de 1920 cuadros de población ni de movimientos de personas (búsqueda de «immigra», «passenger», «emigra», «population» sin resultado en el texto OCR; las únicas menciones de «Haitian» son los rótulos del personal). Para 1937 no hay equivalente abierto. Los inspectores y delegados fronterizos de los años treinta (nombres, número) no se conocen sin los volúmenes de 1936-1939 (S06-S08)."
+  },
+  {
+   "ref": "S12",
+   "titulo": "La cantidad de víctimas del genocidio de 1937 (Acento, columna de opinión)",
+   "autor": "Herrera, Rafael Darío",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-cantidad-de-victimas-del-genocidio-de-1937-9036506.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de un historiador dominicano que reconstruye con precisión el cómputo de Vega y su base, pero de segunda mano (Vega vols. I-II) y con un juicio propio («el cálculo más acertado»).",
+   "proveniencia": "Rafael Darío Herrera, historiador dominicano, Acento, 26-II-2022. Resume Trujillo y Haití de Bernardo Vega (vols. I y II) y el comunicado de la DGE de diciembre de 1937. Interés: defensa del cálculo de Vega frente a las cifras altas.",
+   "extractos": [
+    {
+     "ubicacion": "párr. «Un informe del Servicio de Inteligencia Militar…»",
+     "cita_original": "Un informe del Servicio de Inteligencia Militar norteamericano, publicado en los primeros días de diciembre, establecía un rango entre 5,000 y 6,000 víctimas. El mismo se basó en informaciones proporcionadas por estadounidenses residentes en República Dominicana, tales como cónsules, banqueros, diplomáticos e inspectores de aduanas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. «El 17 de diciembre de 1937…»",
+     "cita_original": "El 17 de diciembre de 1937 los directores de Estadística, Vicente Tolentino, y del Censo, Mario Fermín Cabral, publicaron de nuevo la población residente en las siete provincias del Cibao, según datos del censo de 1935. Dicha población haitiana ascendía a 8,442",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Para realizar un estimado…»",
+     "cita_original": "A esta última cantidad le resta 6,150 que incluye 4,200 haitianos que escaparon a la matanza e ingresaron a Haití por Juana Méndez, 950 haitianos que según el Ministro inglés regresaron a Haití en barco por Puerto Plata y un estimado de 1,000",
+     "traduccion": "Cálculo de Vega según Herrera: 8.442 + 3.000 (de los 30.000 braceros deportados de Cuba) = 11.442; − 6.150 = 5.292.",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-188",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0198",
+   "notas": "RELECTURA DE R2 (la fila F-0198 ya estaba leída en R1; aquí se precisa para el crítico). Respuesta al punto 2: la «base de aduanas» de la cifra baja no es la serie de informes anuales de la Receptoría (S06-S08, que son de comercio y finanzas, S09) sino el testimonio de inspectores de aduanas estadounidenses dentro de informes diplomáticos y de inteligencia militar (el de diciembre de 1937: 5.000-6.000), recogidos por Vega en el vol. II con archivos de EE. UU. [inferencia a partir de este texto y de la guía de NARA (S05): los informes de inspectores 1931-39 existen en RG 139]. Limitación de método (análisis propio): el cómputo parte de haitianos de NACIONALIDAD de siete provincias (8.442; los extranjeros totales del país eran 73.070 en 1935, S01) y no incluye a los dominicanos nacidos de padres haitianos, que las propias fuentes sobre 1937 (Turits) cuentan entre las víctimas; por eso la cifra baja y las altas no miden la misma población. 4.200 + 950 + 1.000 = 6.150 ✓. La cifra 8.492 «del censo de 1936» (A-166) sigue sin aparecer en ninguna fuente abierta; una búsqueda específica la dio atribuida a Vega en un texto de prensa que no se pudo abrir (El Caribe, F-0392: 403; sin copia en Wayback)."
+  },
+  {
+   "ref": "S13",
+   "titulo": "General Censuses and Vital Statistics in the Americas: An Annotated Bibliography of the Historical Censuses and Current Vital Statistics (entrada «Dominican Republic», pp. 41-42)",
+   "autor": "Library of Congress, Census Library Project (Irene B. Taeuber, ed.; Bureau of the Census)",
+   "anio": "1943",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/in.ernet.dli.2015.228999",
+   "urls_alternativas": [
+    "https://archive.org/download/in.ernet.dli.2015.228999/2015.228999.General-Censuses_djvu.txt (texto OCR, 451 KB; HTTP 200)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Bibliografía anotada de la Biblioteca del Congreso contemporánea a los hechos (1943), basada en los ejemplares que tenía la biblioteca; describe qué publicó la DGE y con qué contenido.",
+   "proveniencia": "Library of Congress, Census Library Project, Washington, 1943, para estadísticos y planificadores de guerra; anota los censos históricos y las estadísticas vitales de cada país de las Américas con ficha de cada volumen. Interés: guía bibliográfica. Escaneo de la Digital Library of India (copia que sí es de acceso abierto; las copias de Internet Archive de la misma obra son de préstamo).",
+   "extractos": [
+    {
+     "ubicacion": "p. 41, «Historical»",
+     "cita_original": "The second census, taken in 1935, covered race, religion, literacy, nationality, labor force, and urban-rural residence. No statistics on the age distribution of the population have been located. The results of this census were published in the issues of the Anuario estadistico for the years 1937, 1938, and 1939.",
+     "traduccion": "El segundo censo, de 1935, cubrió raza, religión, alfabetismo, nacionalidad, fuerza de trabajo y residencia urbano-rural; sus resultados se publicaron en los Anuarios estadísticos de 1937, 1938 y 1939.",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 42, «Census of 1935»",
+     "cita_original": "Poblacion de la Republica Dominicana distribuida por nacionalidades. Cifras del censo nacional de 1935. Ciudad Trujillo, 1937. 19 pp. [...] Population is given by nationality and sex for provinces and communes.",
+     "traduccion": "Localiza el volumen donde figura la población por nacionalidad y sexo de provincias y comunes en 1935 (19 pp., 1937).",
+     "afirmaciones": [
+      "A-166",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 42, «Census of 1935», Anuario 1937",
+     "cita_original": "Ano 1937. Capitulo II. Censo de la Republica Dominicana, observaciones historicas, pp. 84-111 [...] Density by province, sex and citizenship status, urban and rural residence, nationality, marital condition, race or color, literacy, religion, labor force, and physical defects.",
+     "traduccion": "Localiza en el Anuario de 1937 los cuadros de 1935 por nacionalidad y por «raza o color».",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 42, «Current national vital statistics»",
+     "cita_original": "Anuario estadistico de la Republica Dominicana. 1940 [...] In the 1940 issue, separate sections are devoted to marriages divorce, and mortality, pp. 68-414, and fertility, pp. 832-847. Migration statistics are included.",
+     "traduccion": "El Anuario de 1940 incluye estadísticas de migración.",
+     "afirmaciones": [
+      "A-186",
+      "A-166"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-186",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "OCR con erratas (m por n, etc.); las citas se normalizaron. Es una bibliografía: no da cifras. Marca el itinerario de búsqueda de los volúmenes de 1935: (1) «Población de la República Dominicana distribuida por nacionalidades» (1937, 19 pp.); (2) Anuarios 1937 (cap. II, pp. 84-111), 1938 (t. I, pp. 78-151) y 1939 (t. I, censo de habitaciones 1935); (3) Anuario 1940, con «migration statistics». Ninguno de los cuatro tiene copia abierta localizada (S19, S25)."
+  },
+  {
+   "ref": "S14",
+   "titulo": "Demographic Yearbook / Annuaire démographique 1949-50: cuadro 1 (Population, area and density) y bibliografía de fuentes por país",
+   "autor": "United Nations, Statistical Office",
+   "anio": "1950",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/1949-50%20DYB.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación internacional de cifras oficiales con bibliografía de las fuentes nacionales; no corrige ni verifica el censo; el OCR de la capa de texto es ruidoso (tablas) y se leyeron solo las líneas citadas.",
+   "proveniencia": "Naciones Unidas, Nueva York, 1951; recoge del censo dominicano de 1935 el total y la ficha bibliográfica del volumen de la DGE. De segunda mano respecto del censo, de primera mano en la fecha de publicación y en la lista de volúmenes.",
+   "extractos": [
+    {
+     "ubicacion": "cuadro 1, línea 5074 del texto extraído",
+     "cita_original": "Dominican Republic - Republique Dominicaine ... 13 V 1935 1 479417 B2",
+     "traduccion": "Último censo dominicano a la fecha de la edición: 13-V-1935, 1.479.417 habitantes.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "bibliografía «Dominican Republic», líneas 49694-49716 del texto extraído (p. 518)",
+     "cita_original": "Población de la República Dominicana, según las sucesivas modificaciones territoriales, a partir del 13 de mayo de 1935, día en que se levantó el segundo censo de población hasta el 1° de enero de 1946 [...] Ciudad Trujillo, 1946. iv, 354 p.",
+     "traduccion": "Ficha del volumen de la DGE que reparte la población de 1935 según los cambios territoriales (no se pudo abrir: ver S20).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Confirma el total de 1935 (coincide con el cuadro 14 de S01: 1.479.417). El código «B2» es del propio Anuario (calidad de los datos); su definición no se leyó. Los anuarios 1951-1961 de la ONU descargados en esta ronda (1949-50, 1951, 1952, 1953, 1954, 1957-1961) repiten totales (1950: 2.121.083 preliminar en 1952; 2.135.872 definitivo desde 1953) y no se halló en ellos ningún cuadro de nacionalidad ni de raza de la RD (búsqueda por encabezados sobre la capa de OCR, no exhaustiva); el cuadro de nacidos en el extranjero de 1950 con Haití = 19.193 ya lo recogió R1 en el Anuario de 1956."
+  },
+  {
+   "ref": "S15",
+   "titulo": "Demographic Yearbook / Annuaire démographique 1953: bibliografía de fuentes censales («Dominican Republic - République Dominicaine, Census of 1950»)",
+   "autor": "United Nations, Statistical Office",
+   "anio": "1953",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/1953%20DYB.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Lista oficial de las publicaciones censales de cada país en ese año; útil como índice de dónde se publicó cada tabulación.",
+   "proveniencia": "ONU, Nueva York, 1954; ficha bibliográfica de los volúmenes del censo de 1950 de la DGE, compilada a partir de los ejemplares recibidos por la ONU.",
+   "extractos": [
+    {
+     "ubicacion": "bibliografía «Dominican Republic», líneas 35518-35520 del texto extraído (p. 364)",
+     "cita_original": "[Población económicamente activa; número de jefes por tamaño de familia; población nacida en el extranjero] [...] Ibid., II época, no. 5, septiembre-octubre 1952, p. 23-25.",
+     "traduccion": "Boletín estadístico de la DGE, II época, n.º 5 (sept.-oct. 1952), pp. 23-25: publicó la población nacida en el extranjero del censo de 1950.",
+     "afirmaciones": [
+      "A-188",
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "bibliografía «Dominican Republic», líneas 35525-35527 del texto extraído (p. 364)",
+     "cita_original": "Tercer censo nacional de población, 1950. Ciudad Trujillo, 1952- . Vol. 1. Común de San Cristóbal. 1952. xxxv, 170 p.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-186",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sirve de localizador: el Boletín Estadístico de la DGE (II época, 1952-1953) es otro vehículo del censo de 1950 (no localizado en línea). El mismo volumen da la cifra 2.135.872 del 6-VIII-1950 (cuadro 1, línea 4919). Texto OCR ruidoso."
+  },
+  {
+   "ref": "S16",
+   "titulo": "Demographic Yearbook / Annuaire démographique 1954: cuadro 1 (Population, area and density): República Dominicana, censo de 6-VIII-1950",
+   "autor": "United Nations, Statistical Office",
+   "anio": "1954",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/dybsets/1954%20DYB.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cifra oficial del censo reproducida por la ONU, idéntica a la del Resumen de la DGE (S01).",
+   "proveniencia": "ONU, Nueva York, 1955; extrae del censo dominicano de 1950 el total, el área y la densidad.",
+   "extractos": [
+    {
+     "ubicacion": "cuadro 1, línea 7010 del texto extraído",
+     "cita_original": "Dominican Republic - Republique Dominicaine. 6 VIII 1950 2 135872 A5 [...] 48734",
+     "traduccion": "Total del censo de 1950 y área de 48.734 km².",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Cifra coincidente con el Cuadro 15 de S01 (2.135.872). El área oficial de la ONU (48.734 km²) es algo mayor que la del volumen de 1958 (48.442,23 km² «incluyendo sus islas adyacentes», p. XV; el OCR lee «40.442.23» pero la densidad de 44,1 hab./km² que da el propio texto exige ≈48.440): diferencia de unos 290 km² (0,6 %) sin explicar en las fuentes leídas. El Anuario de 1952 trae 2.121.083 como cifra preliminar de agosto de 1950 (línea 6367)."
+  },
+  {
+   "ref": "S17",
+   "titulo": "Cuarto Censo Nacional de Población 1960 (Form. CP-1-1960): cédula del cuestionario familiar (4 páginas)",
+   "autor": "República Dominicana, Dirección General de Estadística; copia de IPUMS International (Universidad de Minnesota)",
+   "anio": "1960",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://international.ipums.org/international/resources/census_forms/america_north/do1960ef_dominican_republic_enumeration_form.es.pdf",
+   "urls_alternativas": [
+    "https://international.ipums.org/international-action/sample_details/country/do (ficha IPUMS: día del censo 7-VIII-1960; HTTP 200)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrumento censal original escaneado; la pregunta se lee sobre la imagen porque la capa de texto es defectuosa.",
+   "proveniencia": "DGE, 1960, último censo con pregunta de color del siglo XX. Alojado por IPUMS-I. Se usa aquí como contraste de nomenclatura con 1935, 1945 y 1950 (punto 1 del crítico).",
+   "extractos": [
+    {
+     "ubicacion": "p. 2, pregunta 5",
+     "cita_original": "COLOR.- B, blanco; M, mulato; N, negro; A, amarillo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-189",
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 2, pregunta 10",
+     "cita_original": "NACIONALIDAD.- (Solo para los nacidos en el extranjero). Escriba la nacionalidad actual del informante.",
+     "traduccion": "En 1960 la nacionalidad solo se pregunta a los nacidos en el extranjero.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0605",
+   "notas": "Reabierta en R2 (PDF de 394 KB, 4 páginas, HTTP 200). Con ella la serie de rótulos de la categoría intermedia queda así: 1920 «mestizo» (vía R1), 1935 «Mestizo» en el cuadro republicado por la DGE en 1953 (S01), 1945 «mulato» (S03; censo urbano especial), 1950 «mestizo» (S01), 1960 «mulato» (aquí): oscila; ninguna fuente primaria vista da el rótulo de la cédula de 1935."
+  },
+  {
+   "ref": "S18",
+   "titulo": "Censos de población y vivienda de RD: apuntes para su historia (1) (Acento, columna de opinión)",
+   "autor": "Mejía Santana, Julio César",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/censos-de-poblacion-y-vivienda-de-rd-apuntes-para-su-historia-1-9100279.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de un demógrafo (sin aparato de citas): su valoración de la omisión censal se apoya en conciliaciones demográficas indirectas, no en el volumen de 1935.",
+   "proveniencia": "Julio César Mejía Santana, demógrafo dominicano, Acento, 31-VIII-2022, primera de una serie sobre la historia de los censos; el texto trata la cobertura y calidad. Interés: crítica a la gestión censal; sin referencia directa a la frontera.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 6 (sobre cobertura)",
+     "cita_original": "el muy alto crecimiento de la población en esos 15 años podría estar revelando una muy alta omisión en el primero [...] o un sobre ajuste en el segundo censo con la intencionalidad del régimen trujillista de mostrar el crecimiento demográfico como éxito de su política de poblamiento",
+     "traduccion": "Sobre los dos primeros censos nacionales, 1920 y 1935 («esos 15 años»).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Hipótesis de dos signos (omisión en 1920 o sobreajuste en 1935); no dice cuál prevalece. Tasa de crecimiento calculada aquí con S01: 3,5 % anual entre 1920 y 1935 y 2,4 % entre 1935 y 1950. Es la parte 1 de una serie (la parte 3, sobre lo étnico-racial, es F-0067)."
+  },
+  {
+   "ref": "S19",
+   "titulo": "Anuario estadístico de la República Dominicana (número de 1940)",
+   "autor": "República Dominicana, Dirección General de Estadística",
+   "anio": "1940",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://books.google.com/books?id=ICAMAQAAMAAJ",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Anuario oficial de la DGE; se confirma su existencia por la ficha de Google Books (sin texto: «No eBook available», solo fragmentos); su contenido se conoce por la bibliografía de la Biblioteca del Congreso (S13).",
+   "proveniencia": "DGE, Dirección General de Estadística Nacional, Ciudad Trujillo, 1940; ficha de la edición «Issue 2». Ejemplar en bibliotecas de EE. UU.; las otras ediciones del mismo registro (1939, 1952, 1953) tampoco tienen vista previa.",
+   "extractos": [
+    {
+     "ubicacion": "ficha de Google Books",
+     "cita_original": "Results of the 1935 census published in the annuals for 1936-1939.",
+     "traduccion": "Resultados del censo de 1935 publicados en los anuarios de 1936-1939.",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sin acceso al texto. Es el Anuario con «migration statistics» según S13: pedir copia física (Biblioteca del Congreso, BNPHU, AGN). El BNPHU solo tiene digitalizado el Anuario 1946-47 (BNPHU/3134; 753 pp.; 401). La ficha da 1936-1939 para la publicación de los resultados de 1935, mientras que S13 da 1937, 1938 y 1939."
+  },
+  {
+   "ref": "S20",
+   "titulo": "Población de la República Dominicana según las sucesivas modificaciones territoriales a partir del 13 de mayo de 1935 [...] hasta el 1° de enero de 1946",
+   "autor": "República Dominicana, Dirección General de Estadística (Sección de Publicaciones)",
+   "anio": "1946",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://books.google.com/books?id=8-TGAAAAMAAJ",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Volumen oficial de la DGE (354 pp.) con la población de 1935 distribuida por cabeceras y secciones según los cambios territoriales; se confirma su existencia por la ficha (sin texto).",
+   "proveniencia": "DGE, Ciudad Trujillo, 1946, con índice alfabético de comunes y distritos municipales y notas sobre el método de la población probable (según la ficha de la ONU, S14).",
+   "extractos": [
+    {
+     "ubicacion": "ficha de Google Books",
+     "cita_original": "Población de la República Dominicana según las sucesivas modificaciones territoriales a partir del 13 de mayo de 1935 [...] Sección de Publicaciones, 1946 - 354 pages",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sin acceso al texto (solo ficha). Su índice muestra «Detalle por cabeceras y secciones»: sería el volumen para reconstruir la población de 1935 de Montecristi-Dajabón con los límites de la época. Hay tres fichas más del mismo título (uPspMwEACAAJ, aSMgxwEACAAJ, orBgjwEACAAJ) sin vista previa."
+  },
+  {
+   "ref": "S21",
+   "titulo": "Historia, metodología y organización de los censos en República Dominicana, 1920-1993",
+   "autor": "Nicasio, Irma",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://books.google.com/books?id=LtlCAAAAYAAJ",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de la propia ONE sobre la historia censal (129 pp.); se confirma su existencia por la ficha de Google Books; no se pudo leer.",
+   "proveniencia": "Oficina Nacional de Estadística (ONE), Santo Domingo, 1998; autora Irma Nicasio. Descripción: conceptos, definiciones y variables investigadas en los censos.",
+   "extractos": [
+    {
+     "ubicacion": "ficha de Google Books (contenido)",
+     "cita_original": "CONCEPTOS DEFINICIONES Y VARIABLES INVESTIGADAS EN LOS CENSOS 1 Censo de población 19 Período de referencia 20",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sería la obra de referencia para las definiciones censales de 1920, 1935 y 1950 (color, nacionalidad, empadronador). No tiene vista previa. La ONE (www.one.gob.do) devuelve 403 (Cloudflare) a curl y WebFetch."
+  },
+  {
+   "ref": "S22",
+   "titulo": "Report of the ... Fiscal Period, Dominican Customs Receivership under the American-Dominican Convention [...] together with Summary of Commerce (registro de Google Books que incluye el año civil 1937)",
+   "autor": "República Dominicana, Oficina del General Receptor de Aduanas",
+   "anio": "1933",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://books.google.com/books?id=hLe3reKaAA8C",
+   "urls_alternativas": [
+    "https://books.google.com/books?id=hLe3reKaAA8C&q=Haitian&hl=en (búsqueda interna: «20 pages matching Haitian»)",
+    "https://books.google.com/books?id=hLe3reKaAA8C&q=Haitians&hl=en (búsqueda interna: ningún resultado)",
+    "https://books.google.com/books?id=hLe3reKaAA8C&q=immigrants&hl=en (búsqueda interna: ningún resultado)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Solo se ve el recuento de páginas con una palabra y la nube de términos de Google; el volumen no tiene vista previa y el año del registro (1933) no coincide con el contenido (1937).",
+   "proveniencia": "Registro de Google Books de la serie de informes del General Receptor; los «common terms» incluyen «calendar year 1937», «deputy receivers», «Dajabón», «Monte Cristi», «Haiti» y «nationality of vessels». Es prueba indirecta de que existe un volumen con el año civil 1937, no de lo que dice.",
+   "extractos": [
+    {
+     "ubicacion": "ficha de Google Books, «From inside the book»",
+     "cita_original": "20 pages matching Haitian in this book",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "ficha de Google Books, búsqueda «Haitians»",
+     "cita_original": "Your search - Haitians - did not match any documents.",
+     "traduccion": "Constatación de ausencia, muy limitada: 0 páginas con «Haitians» y 0 con «immigrants» en el fragmento indexado de Google.",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Evidencia débil y de signo negativo: en el texto indexado del volumen que incluye 1937, «Haitian» aparece en 20 páginas (probablemente como adjetivo en nombres de puertos terrestres y de comercio por países) pero «Haitians» e «immigrants» no. No prueba que el informe no hable de ellos (el índice de Google puede estar incompleto), y no se pudo leer ninguna página. Los términos de la nube (Dajabón, Monte Cristi, deputy receivers) sí muestran que la Receptoría seguía teniendo oficinas de aduana en la frontera en la época."
+  },
+  {
+   "ref": "S23",
+   "titulo": "Censo nacional (proclama del censo; Editorial La Nación, 23 páginas)",
+   "autor": "República Dominicana",
+   "anio": "1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/138",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/9c5c76bc-2f22-4545-8183-e508114e1aae (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/c0e43f78-a0a6-4676-ae01-787bc0259b58/content (HTTP 401: acceso con sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Publicación oficial de la DGE; se juzga por la ficha, no se leyó.",
+   "proveniencia": "Ciudad Trujillo, Editorial La Nación, 1936; el archivo se llama «CensoNacionalRD1936_Proclama.pdf». Posible proclama oficial o resumen del censo de 13-V-1935 y de sus instrucciones.",
+   "extractos": [
+    {
+     "ubicacion": "ficha DSpace, dc.identifier.citation",
+     "cita_original": "República Dominicana. (1936). Censo nacional. Ciudad Trujillo, República Dominicana: Editorial La Nación.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Es el único objeto del repositorio que podría contener el texto o las instrucciones del censo de 1935 (asiento «República Dominicana - Censos - 1936»). Para leerlo hay que pedir copia al BNPHU (request-a-copy) o ir a la sala. No consta qué es exactamente (proclama, ley, resumen) [POR VERIFICAR]."
+  },
+  {
+   "ref": "S24",
+   "titulo": "Primer censo nacional (1920; 31 páginas)",
+   "autor": "República Dominicana, Secretaría de Estado (Interior y Policía)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1938",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/5221ff87-3160-4190-8b6c-2e15987aa5af (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/743cc7ce-809d-4780-b4fe-9b4a3b426a04/content (HTTP 401: acceso con sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Publicación oficial de la DGE; se juzga por la ficha, no se leyó.",
+   "proveniencia": "Santo Domingo, 1920 (impreso del primer censo nacional, el de 24-XII-1920, bajo la ocupación estadounidense); la edición completa es Censo de la República Dominicana, Santo Domingo, 1923, xiii + 160 pp. (según la bibliografía de la Biblioteca del Congreso, S13).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-177",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Daría las cifras primarias de 1920 (894.665 hab.; 28.258 haitianos según DGE vía Corten y Duarte; 10.972 en Montecristi según Herrera) para el contraste con 1935 y 1950. Sin acceso (401)."
+  },
+  {
+   "ref": "S25",
+   "titulo": "Bosquejo geográfico-estadístico sobre la República Dominicana (53 páginas)",
+   "autor": "República Dominicana, Dirección General de Estadística",
+   "anio": "1938",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1595",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/63f7881d-3ec8-427f-83d5-68425940c719 (metadatos DSpace; HTTP 200)",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/c1d85d8e-0ab8-4151-9e19-bda22525ce1b/content (HTTP 401: acceso con sesión o «request-a-copy»)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (archivo)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Publicación oficial de la DGE; se juzga por la ficha, no se leyó.",
+   "proveniencia": "DGE, Ciudad Trujillo, 1938, un año después de la matanza; resume geografía y estadísticas básicas [POR VERIFICAR si incluye la población de 1935 por nacionalidad].",
+   "extractos": [],
+   "afirmaciones": [
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Candidato a contener la población de 1935 por nacionalidad poco después de la matanza. Sin acceso (401). Otras publicaciones de la DGE del BNPHU en las mismas condiciones: Anuario estadístico 1946-47 (BNPHU/3134, 753 pp.), Álbum estadístico gráfico 1944 (BNPHU/3274), Población de la República censada en 1950 (BNPHU/2419), Cuarto censo 1960 resumen (BNPHU/3279), Estudio estadístico del comercio exterior 1920-1939 (BNPHU/3137)."
+  },
+  {
+   "ref": "S26",
+   "titulo": "HathiTrust (catálogo y API): intentos de localizar los informes de la Receptoría 1937-1938, los anuarios y los volúmenes del censo de 1935",
+   "autor": "HathiTrust Digital Library (consorcio universitario)",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://catalog.hathitrust.org/Search/Home?lookfor=Report+of+the+Dominican+Customs+Receivership&type=title",
+   "urls_alternativas": [
+    "https://catalog.hathitrust.org/Search/Home?lookfor=censo+poblacion+republica+dominicana+1935&type=all (WebFetch: HTTP 403)",
+    "https://catalog.hathitrust.org/api/volumes/brief/oclc/1234.json (curl: HTTP 403, desafío de Cloudflare)",
+    "https://babel.hathitrust.org/cgi/ls?q1=%22customs+receivership%22+dominican&a=srchls&anyall1=phrase&lmt=ft (curl: HTTP 403, «Just a moment...»)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal fiable cuyo contenido no se pudo comprobar: el desafío anti-robots bloquea curl y WebFetch.",
+   "proveniencia": "Consorcio HathiTrust; el catálogo, la API y la búsqueda de texto completo devolvieron 403 en las tres vías probadas en esta sesión.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-166",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0242",
+   "notas": "Dos hallazgos relacionados con HathiTrust vía otras fuentes: (a) The Online Books Page (Penn) enlaza solo registros de Receptoría de 1905-1915 en HathiTrust (Record 002815935, 008955972, 008382473, 000530949, 008955973, 100697134), ninguno de la serie 1925-1940; (b) una búsqueda web da el registro catalog.hathitrust.org/Record/101510032 (Preliminary inventory of the records of the Dominican customs receivership, RG 139), no abierto. Conclusión práctica: no hay copia abierta localizada del informe de 1937 ni de 1938 fuera del BNPHU (restringido) y de la USB de 2019."
+  }
+ ],
+ "tabla_censos_primaria": [
+  {
+   "censo": "1935 (13-V-1935; segundo censo nacional; ejecutado por el Partido Dominicano)",
+   "poblacion_total": "1.479.417 (V 750.704; M 728.713; urbana 263.625; rural 1.215.792) [S01, Cuadros 9 y 14; coincide con la ONU, S14]",
+   "dominicanos_extranjeros": "dominicanos 1.406.347 (naturalizados 750); extranjeros 73.070 (V 46.029; M 27.041; urbana 13.721; rural 59.349) [S01, Cuadro 14]",
+   "haitianos": "52.657 (segunda mano: Machado Báez, DGE vía Corten y Duarte, Diario Libre; techo primario = 73.070 extranjeros); 8.442 en siete provincias del Cibao (Herrera/Vega, comunicado de la DGE de 17-XII-1937; segunda mano)",
+   "color": "Blanco 192.733 (13,03 %); Negro 287.677 (19,45 %); Mestizo 998.668 (67,51 %); Amarillo 339 (0,02 %) [S01, Cuadro 9, rótulo «Raza y color»]",
+   "estado": "volumen original del censo no localizado en abierto; cifras de color y extranjeros ahora primarias vía S01; nomenclatura original del cuestionario de 1935 sin ver (el cuadro de 1953 dice «Mestizo»)"
+  },
+  {
+   "censo": "1945 (censo especial urbano de Ciudad Trujillo; solo instrucciones)",
+   "poblacion_total": "no consta",
+   "color": "categorías de las instrucciones: Blanco, Negro, Mulato, Amarillo [S03]",
+   "estado": "instrucciones primarias (no cifras)"
+  },
+  {
+   "censo": "1950 (6-VIII-1950; tercer censo nacional)",
+   "poblacion_total": "2.135.872 (V 1.070.742; M 1.065.130; urbana 508.408; rural 1.627.464) [S01, S14-S16]",
+   "dominicanos_extranjeros": "dominicanos 2.103.249 (naturalizados 1.767); extranjeros 32.623 (V 22.506; M 10.117; urbana 9.953; rural 22.670) [S01, Cuadro 14]",
+   "haitianos": "18.772 por nacionalidad (V 13.275; M 5.497; urbana 1.080; rural 17.692) [S01 Cuadro 15; S02 Cuadro 12; 57,54 % de los extranjeros]; 19.193 nacidos en Haití (13.543; 5.650) [S01 Cuadro 13]; lengua materna francesa 25.405 [S01 Cuadro 16]",
+   "color": "Blanco 600.994 (28,14 %); Negro 245.032 (11,47 %); Mestizo 1.289.285 (60,36 %); Amarillo 561 (0,03 %) [S01, Cuadro 8; «color, no la raza»; apreciación del empadronador]",
+   "estado": "volumen completo (866 pp.) leído en parte: S02"
+  },
+  {
+   "censo": "1960 (7-VIII-1960; cuarto censo)",
+   "poblacion_total": "no se consultó volumen",
+   "color": "categorías del cuestionario: B blanco, M mulato, N negro, A amarillo [S17]",
+   "estado": "cuestionario primario (no cifras)"
+  }
+ ],
+ "tabla_haitianos_1950_por_provincia": {
+  "fuente": "S02 (Tercer censo 1950, vol. de 1958, Cuadro 12, columna «Haitiana», total), leído sobre la imagen de las páginas 151 y 153; suma = 18.772 (coincide con S01 Cuadro 15)",
+  "por_provincia": {
+   "El Seibo": 4667,
+   "La Altagracia": 3437,
+   "Bahoruco": 2989,
+   "San Pedro de Macorís": 2702,
+   "Barahona": 1658,
+   "Distrito de Santo Domingo": 1178,
+   "Trujillo": 1167,
+   "Independencia": 648,
+   "Puerto Plata": 226,
+   "La Vega": 22,
+   "Benefactor": 20,
+   "Samaná": 18,
+   "Santiago": 14,
+   "Trujillo Valdez": 6,
+   "Duarte": 5,
+   "Azua": 5,
+   "San Rafael": 4,
+   "Espaillat": 3,
+   "Montecristi": 2,
+   "Libertador": 1
+  },
+  "suma_comprobada": 18772,
+  "siete_provincias_cibao_1935_vs_1950": {
+   "1935 (Herrera/Vega, segunda mano)": {
+    "Montecristi": 3816,
+    "Santiago": 1255,
+    "Puerto Plata": 2313,
+    "Moca (Espaillat)": 112,
+    "La Vega": 284,
+    "Duarte": 301,
+    "Samaná": 361,
+    "total": 8442
+   },
+   "1950 (S02, mismas provincias con límites de 1950)": {
+    "Montecristi": 2,
+    "Santiago": 14,
+    "Puerto Plata": 226,
+    "Espaillat": 3,
+    "La Vega": 22,
+    "Duarte": 5,
+    "Samaná": 18,
+    "total": 290
+   },
+   "advertencia": "Los límites provinciales cambiaron entre 1935 y 1950 y la definición operativa de «haitiano» en 1935 no se conoce; la comparación es de orden de magnitud, no de serie homogénea."
+  }
+ },
+ "respuesta_al_critico": {
+  "punto_1_censos_1935_y_1950": "Resuelto en lo esencial por vía distinta a la prevista: el repositorio de la Biblioteca Nacional (BNPHU) tiene abiertos el Resumen general de 1950 (1953), con los cuadros de 1935 (color y extranjeros) y las definiciones de color y nacionalidad (S01), y el volumen completo de 1950 con los haitianos por provincia y común (S02); la cartilla de 1945 da las instrucciones de la DGE a los empadronadores (S03) y el director de Estadística describe en 1952 la cobertura de 1920 y 1935 (S04). No se obtuvieron los volúmenes de 1935 ni sus instrucciones (S23 restringido; S13 y S19-S20 solo localizan los volúmenes). Los Anuarios de la ONU 1949-1954 y 1957-1961 se consultaron: dan totales y la bibliografía de volúmenes; no se halló en ellos (búsqueda por encabezados en la capa de OCR, no exhaustiva) ningún cuadro de nacionalidad o raza de la RD (S14-S16). El contraste con el cuestionario de 1960 (F-0605) está en S17.",
+  "punto_2_informes_de_aduanas": "Los informes anuales de la Receptoría (1936-1939) están en el BNPHU (restringidos) y en el AGN/USB de 2019, no en línea; su contenido declarado es comercio y finanzas (S06-S11), no población. La 'base de aduanas' de Vega parece ser el testimonio de inspectores de aduanas estadounidenses incorporado a informes diplomáticos y de inteligencia militar de 1937-1938 (S12), no esa serie; los informes especiales de inspectores 1931-39 se conservan en NARA RG 139 (S05). El único informe en archive.org es el de 1920 (S11)."
+ },
+ "incidencias": [
+  "Hallazgo mayor: el repositorio de la Biblioteca Nacional Pedro Henríquez Ureña (bd.bnphu.gob.do, DSpace 7) expone una API REST que sí responde a curl (/server/api/discover/search/objects?query=...), con la que se localizaron y probaron uno a uno los bitstreams (200 abierto; 401 con sesión). Abiertos: Resumen general del censo de 1950 (1953), censo de 1950 completo (1958, 349 MB), cartilla de 1945 y la conferencia de Aybar Mella (1952). Restringidos (401): Censo nacional 1936, Primer censo 1920, Bosquejo 1938, Anuario 1946-47, Álbum 1944, Población 1950 censada, Cuarto censo 1960, y toda la serie de informes de la Receptoría (1928, 1930-1939).",
+  "pdftotext (instalado en /mingw64) falla con rutas de más de 260 caracteres: los PDF se movieron a una carpeta corta en %TEMP% y se convirtieron allí; los PDF de más de 300 MB y de 45 MB de la BNPHU y de la ONU se bajaron fuera del repositorio.",
+  "La capa de OCR del censo de 1950 es inservible en los cuadros (microfilm, letras sueltas): todas las cifras de tablas se leyeron sobre imágenes renderizadas con PyMuPDF y se verificaron con sumas (18.772 de haitianos por provincia = Cuadro 15; 25.405 de lengua francesa = suma por provincia; 1.479.417 = dominicanos + extranjeros; 1935 y 1950 por color suman los totales).",
+  "Discrepancias detectadas y declaradas: urbana/rural de 1935 (ONU 1948 vía R1: 266.565 / 1.212.852; DGE 1953: 263.625 / 1.215.792); suma de sexos de nacidos en el extranjero 1950 (34.655 frente a 34.654); área del país (ONU 48.734 km² frente a 48.442,23 km² del volumen de 1958, tras corregir el OCR «40.442.23» con la densidad de 44,1); fecha de la Ley 318 sobre censos (cartilla: 19-VII-1945, imposible; Aybar: antes de mediados de 1943).",
+  "El censo de 1953 rotula 'Mestizo' la categoría intermedia de 1935; la cartilla de 1945 y el cuestionario de 1960 usan 'mulato'; esto no confirma ni refuta el 'mulato' del cuestionario de 1935 (A-189).",
+  "HathiTrust (catálogo, API y búsqueda de texto completo), ONE (one.gob.do) y SIDALC (sidalc.net) devuelven 403 (Cloudflare) a curl y WebFetch; Google Books devolvió 429 en la descarga de PDF de pleno acceso y 403 en el endpoint de texto; Wayback no tiene copia del artículo de El Caribe (F-0392).",
+  "S01 y S02 no sustituyen la fila F-0067 (censos 1920-1960, fiabilidad baja por apoyarse en Wikipedia y columnas) pero sí deberían ser sus fuentes primarias para 1935 y 1950; se devuelven como filas nuevas para que el integrador decida si las funde.",
+  "F-0198 (Herrera) y F-0605 (IPUMS 1960) se reabrieron y se devuelven con id_existente; F-0242 (HathiTrust) se devuelve como fallo-fetch con el detalle de los tres intentos."
+ ]
+}

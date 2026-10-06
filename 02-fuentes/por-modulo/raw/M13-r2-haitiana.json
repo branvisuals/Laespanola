@@ -1,0 +1,1819 @@
+{
+ "lente": "haitiana",
+ "modulo": "M13",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 36,
+ "busquedas_pendientes": [
+  "site:dloc.com «Revue de la Société haïtienne d'histoire» 1937 OR Trujillo OR Lescot (se hizo una consulta general sin resultados; la Revue no está en UFDC/dLOC y el índice RSHHGG Lab está caído)",
+  "Price-Mars 1953 tomo III español completo (pasaje «rêve inutile») en dLOC, solo se grepeó la cifra de 1937 en las 252 páginas OCR",
+  "Michel-Rolph Trouillot, Haiti: State against Nation (1990), pasajes sobre 1937 y Duvalier-Trujillo",
+  "Claude Moïse, Le projet national de Dumarsais Estimé; Constitutions et luttes de pouvoir en Haïti (t. 2)",
+  "Leslie Péan, Haïti, économie politique de la corruption, t. III (Le saccage, 1915-1956) y AlterPresse 2013 (bloqueado por cortafuegos)",
+  "Julio Jean-Pierre Audain, Les ombres d'une politique néfaste (México, 1976), p. 125 y ss.",
+  "Daniel Supplice, Zafra: sucre, sueur et sang (2009), p. 51; Dictionnaire biographique (2001)",
+  "Georges Corvington, Port-au-Prince au cours des ans, t. 1934-1950 (1991): solo préstamo en archive.org",
+  "Jean Casimir, The Haitians: A Decolonial History (2020), pasajes 1937",
+  "Programas escolares del MENFP y manuales de historia de Haití sobre 1937 (dos consultas en francés e inglés sin resultados)",
+  "Archivo de Radio Haïti (Duke) por palabras clave: protegido por Anubis; solo se exploró la API de metadatos de dLOC",
+  "Jean M. Jan, Collecta IV: Diocèse du Cap-Haïtien, documents 1929-1960 (Rennes, 1967), p. 82: lista de 2.130 nombres de Ouanaminthe (citado por Turits)",
+  "Haiti Sun, 28-XII-1958 y números de 1959 (reunión Duvalier-Trujillo; Mervilus lo cita)",
+  "Le Matin (Puerto Príncipe) 1937-1938 en dLOC, si está digitalizado"
+ ],
+ "lagunas": [
+  "No se pudo leer ninguna edición de Suzy Castor, Le massacre de 1937 et les relations haïtiano-dominicaines (CRESFED 1988; C3 Éditions 2017/2018) ni Migración y relaciones internacionales (UASD, 1987): solo fichas, una reseña tras muro (Le Nouvelliste, 22-V-2018), citas indirectas (J. Dupuy 2025, Desroses 2023) y una biografía. La base de las cifras atribuidas a Castor («12.000 o más», A-167; «environ 20.000», J. Dupuy 2025) sigue sin verificar.",
+  "No se localizó la base de la cifra de Lescot (12.168, F-0056); la de Price-Mars (12.136 muertos y 2.419 rescapés) se leyó en el original francés y su base declarada es solo «calculs partiels», informes de sobrevivientes y testimonios del cura de Ouanaminthe y del obispo Jan. Turits (F-0174) cita una lista de 2.130 nombres recogida por el P. Émile Robert en Ouanaminthe (Jan 1967, p. 82): no localizada.",
+  "No hay texto original del discurso de Dajabón (2-X-1937): dos versiones francesas distintas en prensa haitiana reciente (Dupuy: «Et nous devons continuer à résoudre ce problème»; Desroses: «Ce remède va se poursuivre»); J. Dupuy remite a Castor 1988, p. 16, sin cotejo.",
+  "El tomo III español de Price-Mars no se leyó completo: la frase «rêve inutile» (A-193) no aparece en el OCR de los tomos I y II del original francés; falta confirmar si está en otra edición.",
+  "No hay análisis académico haitiano leído sobre 1941-1944 (Lescot-Trujillo) ni sobre 1957-1961 (Duvalier-Trujillo) más allá de Price-Mars (hasta 1953), Manigat (F-0113 t. 5), las fichas oficiales de la Embajada de Haití en Francia y notas de divulgación (Mervilus). Le Nouvelliste en UFDC no cubre 1939-1944.",
+  "Radio Haïti: solo se leyeron los metadatos de dLOC; el audio de Guy Alexandre y Bernardo Vega (13-IV-1996) no se escuchó; el cargo de embajador de Alexandre no se verificó.",
+  "AlterPresse (cortafuegos), BAnQ (captcha), Duke (Anubis), Loop Haïti (ECONNREFUSED), Le National y Le Nouvelliste (muros): no se leyeron los textos completos; no se eludió ningún bloqueo.",
+  "Libros escolares y programas del MENFP sobre 1937: no localizados; la afirmación de un «doble silencio» (Théodat vía AyiboPost, F-0323) sigue sin contraste en documentos curriculares.",
+  "Moniteur: la comprobación del silencio de octubre-noviembre de 1937 se hizo por palabras clave en OCR ruidoso; Moniteur de diciembre de 1937 a febrero de 1938 no se rastreó (salvo M13-N78)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "noche triste (la nuit triste)",
+   "tradicion": "haitiana",
+   "nota": "Le Nouvelliste, 28-I-1950, p. 1, llama así a la matanza de 1937 por analogía con la «Noche Triste» de Hernán Cortés; otro nombre haitiano junto a «kout kouto», «masak 1937» y «massacre de 1937»."
+  },
+  {
+   "termino": "vêpres dominicaines",
+   "tradicion": "haitiana",
+   "nota": "Nombre francés usado en prensa haitiana (Le Nouvelliste, 4-XII-1937: «Les Vêpres dominicaines»; reseña de Castor, 2018) por analogía con las Vísperas sicilianas; falta en el glosario."
+  },
+  {
+   "termino": "Masak Kout Kout / Kout kouto",
+   "tradicion": "haitiana",
+   "nota": "The Haitian Times (2024) y sobrevivientes de Dosmond/Ferrier usan «Masak Kout Kout» y «kout kouto» («golpe de cuchillo»); el glosario solo recoge «Kout kouto»."
+  },
+  {
+   "termino": "antihaitianismo histórico / antihaitianismo de Estado",
+   "tradicion": "dominicana-haitiana",
+   "nota": "Distinción de Moya Pons (conferencia de 1995, citada por Mervilus 2019): el antihaitianismo «de Estado» arranca tras 1937; Saint-Victor 2016 lo formula como «idéologie d'État sous Trujillo». Sirve para A-179."
+  },
+  {
+   "termino": "bovarysme racial (bovarismo racial)",
+   "tradicion": "haitiana",
+   "nota": "Expresión atribuida a Price-Mars (por Henríquez Vásquez, Clío 159, 1998) para la autoidentificación racial dominicana; Price-Mars la deriva de su «bovarysme collectif» de 1928 [POR VERIFICAR el uso exacto en la obra de 1953]."
+  },
+  {
+   "termino": "Confédération quisqueyenne",
+   "tradicion": "haitiana",
+   "nota": "Proyecto federal haitiano-dominicano defendido en 1942 por el general Nemours, presidente del Senado (cita en Price-Mars 1953, t. II p. 322); Price-Mars lo llama «utopie»; no es la «isla una e indivisible» de 1805-1846, sino su versión pacífica y federal."
+  },
+  {
+   "termino": "dominicanisation de la frontière",
+   "tradicion": "haitiana",
+   "nota": "Le Nouvelliste (28-I-1950) escribe «dominicanisation» entre comillas como fin mediato de Trujillo en 1937; Manigat (F-0113 t. 5) y Saint-Victor 2016 emplean «dominicaniser»; el glosario no lo registra."
+  },
+  {
+   "termino": "diplomatie de la zafra / zafratisme",
+   "tradicion": "haitiana",
+   "nota": "Neologismos de Mervilus (2019) para el negocio bilateral de braceros entre gobiernos; marcado por su crítica a los políticos haitianos."
+  },
+  {
+   "termino": "rescapés (supervivientes)",
+   "tradicion": "haitiana",
+   "nota": "Price-Mars (1953) y la prensa de 1937 usan «rescapés» para los sobrevivientes que cruzaron a Haití; la traducción española del t. II/III escribe «heridos que se escaparon» (de ahí el «heridos» de A-167)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "La République d'Haïti et la République Dominicaine. Les aspects divers d'un problème d'histoire, de géographie et d'ethnologie, tomes I y II, texto original francés (Port-au-Prince, Collection du Tricinquantenaire de l'Indépendance d'Haïti, 1953; impreso en Lausana el 30-XII-1953)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00002/Mars_RD_Haiti_fr_2.pdf",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00001/Mars_RD_Haiti_fr_1.pdf",
+    "https://dloc.com/UF00095932/00002",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/09/53/12/00001/RDHaities3_bw_Page_219.txt",
+    "https://archive.org/download/la-republica-de-haiti-y-la-republica-dominicana-jean-price-mars-1953/La%20rep%C3%BAblica%20de%20Hait%C3%AD%20y%20la%20Rep%C3%BAblica%20Dominicana%20-%20Jean%20Price%20Mars%20-%201953_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto original francés de la obra canónica haitiana, leído en el PDF escaneado de UFDC (tomo II, 329 pp.; tomo I, 230 pp.; OCR con ruido, una página cotejada a la vista); el autor es testigo y parte (ministro de Relaciones Exteriores en 1946, embajador en Ciudad Trujillo 1947-49) y no declara base documental para sus cifras.",
+   "proveniencia": "Jean Price-Mars (1876-1969), médico, etnólogo, senador, ministro de Relaciones Exteriores de Estimé desde agosto de 1946 y luego embajador de Haití en Ciudad Trujillo (cerca de dos años). Escribe en Puerto Príncipe y Ciudad Trujillo (el colofón del t. II dice «Ciudad Trujillo, R. D., 1948 - Pétionville, Haïti, 1953») para el lector haitiano y dominicano, dentro de la colección oficial del Tercer Cincuentenario de la Independencia; la edición se imprimió en Lausana el 30-XII-1953 (2.020 ejemplares). Interés: demostrar el carácter histórico y étnico de la separación y refutar la doctrina racial de Peña Batlle y Balaguer. Primera mano para 1946-1949 (negociaciones, caso Roland) y testigo cercano de 1937; para 1937 usa informes de sobrevivientes, del cónsul Arnold Fabre, del obispo Jan y de periodistas estadounidenses.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, cap. XI, p. 310 (PDF p. 301)",
+     "cita_original": "La certitude de l'effroyable nouvelle vint au jour le jour du Cap-Haïtien où à l'hôpital se faisait l'internement d'importants convois de survivants horriblement blessés à l'arme blanche.",
+     "traduccion": "La certeza de la espantosa noticia llegó día a día desde Cabo Haitiano, donde en el hospital se internaban grandes convoyes de supervivientes horriblemente heridos a arma blanca.",
+     "afirmaciones": [
+      "A-165",
+      "A-167"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 311 (PDF p. 302) [OCR: «ù» por «à»]",
+     "cita_original": "Nous Dominicains, disait ce personnage, nous revendiquons notre responsabilité dans cette fort regrettable affaire. Mais ce que vous ne savez pas, M. l'Ambassadeur, c'est que nous possédons des pièces authentiques qui attestent la participation formelle quoique indirecte d'éminentes personnalités haïtiennes à la perpétration du drame.",
+     "traduccion": "«Nosotros, dominicanos, reivindicamos nuestra responsabilidad en este asunto muy lamentable. Pero lo que usted no sabe, señor embajador, es que poseemos documentos auténticos que atestiguan la participación formal, aunque indirecta, de eminentes personalidades haitianas en la perpetración del drama.» (interlocutor dominicano anónimo relatado por Price-Mars; hecho oído, sin documento)",
+     "afirmaciones": [
+      "A-172",
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 312 (PDF p. 303)",
+     "cita_original": "Il est impossible de savoir exactement à quel nombre s'éleva la quantité de gens tués puisque aucune enquête officielle ne l'a jamais fixé.",
+     "traduccion": "Es imposible saber con exactitud a qué número ascendió la cantidad de personas muertas, puesto que ninguna investigación oficial lo ha fijado jamás.",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 312 (PDF p. 303)",
+     "cita_original": "Les uns l'évaluent à 12 000, d'autres à 15, 20 ou 25 000. Autant que des calculs partiels peuvent nous rapprocher de la vérité, il est possible de s'arrêter au chiffre de 12136 tués et de 2419 rescapés.",
+     "traduccion": "Unos lo evalúan en 12.000, otros en 15, 20 o 25.000. En la medida en que cálculos parciales puedan acercarnos a la verdad, es posible detenerse en la cifra de 12.136 muertos y 2.419 sobrevivientes («rescapés»). [Cifra de Price-Mars; base declarada: solo «calculs partiels»]",
+     "afirmaciones": [
+      "A-167",
+      "A-168",
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "ed. española (trad. Aldao y Muñoz Azpiri), tomo II/III, dLOC imagen 219 (RDHaities3_bw_Page_219.txt) [OCR sin tildes]",
+     "cita_original": "podemos limitarnos a la cifra de 12.136 muertos y 2.419 heridos que se escaparon.",
+     "traduccion": "[Misma frase en la traducción española: «heridos que se escaparon»; el original francés dice «rescapés». La glosa «heridos» del registro A-167 proviene de la traducción, no del original.]",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 312, nota 1 (PDF p. 303)",
+     "cita_original": "Cette liste des localités dominicaines où ont eu lieu les tueries a été établie par des rapports et des recoupements des survivants.",
+     "traduccion": "Esta lista de localidades dominicanas donde ocurrieron las matanzas fue establecida mediante informes y cotejos de los sobrevivientes. [Price-Mars enumera unas 60 localidades en el texto, de Dajabón y Montecristi a Las Matas y Bánica]",
+     "afirmaciones": [
+      "A-165",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "t. II, pp. 315-316 (PDF pp. 306-307) [versión cotejada a la vista en p. 315]",
+     "cita_original": "L'accord reçut sa pleine exécution en ce qui concerne le versement des $ 750.000. Encore faut-il ajouter qu'une première tranche de la valeur fut payée à la date fixée, l'autre ou les autres tranches furent l'objet d'une nouvelle transaction sur laquelle nous manquons de renseignements.",
+     "traduccion": "El acuerdo recibió plena ejecución en lo tocante al pago de los 750.000 dólares. Cabe añadir, sin embargo, que una primera cuota fue pagada en la fecha fijada y que la otra u otras cuotas fueron objeto de una nueva transacción sobre la cual carecemos de informaciones. [Autocontradicción: «plena ejecución» y «nueva transacción»; fecha del acuerdo errada en p. 315: «31 janvier 1939»]",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 315 (PDF p. 306) [OCR: «ù payer»]",
+     "cita_original": "S'engage à payer une indemnité de $ 750.000 que le gouvernement haïtien était libre d'employer au mieux des intérêts des personnes qui avaient éprouvé des préjudices au cours de ces événements.",
+     "traduccion": "Se compromete a pagar una indemnización de 750.000 dólares que el gobierno haitiano era libre de emplear de la mejor manera en interés de las personas que habían sufrido perjuicios en el curso de estos hechos.",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 316 (PDF p. 307)",
+     "cita_original": "ce fut cette valeur qui servit à créer trois centres de colonies agricoles, destinées à retenir les paysans de la région frontalière sur le sol haïtien, l'un au morne des Commissaires, un autre à Dosmond et le troisième à Biliguy",
+     "traduccion": "fue ese valor el que sirvió para crear tres centros de colonias agrícolas, destinadas a retener a los campesinos de la región fronteriza en suelo haitiano: uno en Morne des Commissaires, otro en Dosmond y el tercero en Biliguy. [Contradice la versión «la indemnización nunca llegó a las víctimas»; coincide con C. Dupuy 2013 y con Kirsil Joseph en F-0322]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 316 (PDF p. 307)",
+     "cita_original": "Les paysans, insatisfaits, désertèrent les colonies agricoles, et - chose extraordinairement étrange - recommencèrent à émigrer dans la République dominicaine, clandestinement",
+     "traduccion": "Los campesinos, insatisfechos, desertaron de las colonias agrícolas y, cosa extraordinariamente extraña, volvieron a emigrar clandestinamente a la República Dominicana.",
+     "afirmaciones": [
+      "A-186",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 316 (PDF p. 307)",
+     "cita_original": "Nul n'a jamais entendu parler de la recherche des coupables, ni de leur punition et encore moins de la publicité exemplaire consacrée à ces châtiments.",
+     "traduccion": "Nadie ha oído jamás hablar de la búsqueda de los culpables ni de su castigo, y mucho menos de la publicidad ejemplar dada a esos castigos.",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 308 (PDF p. 299)",
+     "cita_original": "un autre instrument diplomatique qui fut signé le 9 mars 1935 par M. Sténio Vincent et M. Rafael Leonidas Trujillo y Molina",
+     "traduccion": "otro instrumento diplomático que fue firmado el 9 de marzo de 1935 por Sténio Vincent y Rafael Leónidas Trujillo Molina. [Fecha errada en Price-Mars: el Protocolo de revisión es del 9-III-1936; el acuerdo del 27-II-1935 es otro. Añade que los haitianos se quejaron de «plus de 50.000 carreaux» cedidos en 1929]",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 317 (PDF p. 308)",
+     "cita_original": "n'était-il pas l'homme le plus qualifié pour amener un apaisement dans nos rapports avec le gouvernement dominicain puisqu'il était également l'ami personnel de M. Trujillo?",
+     "traduccion": "¿No era acaso [Lescot] el hombre más calificado para traer un apaciguamiento en nuestras relaciones con el gobierno dominicano, puesto que era también amigo personal de Trujillo? [Elección de Lescot, 17-IV-1941, vista por Price-Mars]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. II, p. 319 (PDF p. 310), cita a Hicks, Blood in the Streets, p. 181",
+     "cita_original": "La preuve en est que c'est moi qui, l'année dernière, ai financé l'élection d'Elie Lescot, le nouveau Président d'Haïti.",
+     "traduccion": "«La prueba es que fui yo quien, el año pasado, financió la elección de Élie Lescot, el nuevo presidente de Haití.» (declaración atribuida a Trujillo en 1942 a un corresponsal de United Press, según Price-Mars vía A. C. Hicks; no cotejada con Hicks)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. II, p. 320 (PDF p. 311)",
+     "cita_original": "dans cette lettre, dont la teneur n'a jamais été démentie que nous sachions, l'expéditeur rappelait au destinataire leurs corrélations d'affaires, les prêts d'argent et les obligations de l'un envers l'autre.",
+     "traduccion": "en esa carta, cuyo contenido jamás fue desmentido que sepamos, el remitente [Trujillo] recordaba al destinatario [Lescot] sus relaciones de negocios, los préstamos de dinero y las obligaciones del uno hacia el otro. [Fotocopia clandestina difundida c. 1944-45]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. II, p. 320 (PDF p. 311)",
+     "cita_original": "Le 11 septembre 1942, le gouvernement haïtien promulgua un décret-loi qui réglementa l'émigration haïtienne. Il la soumit à des formalités qui jugulèrent l'exploitation de la main-d'œuvre haïtienne dont certaines compagnies sucrières avaient l'habitude de l'autre côté de la frontière.",
+     "traduccion": "El 11 de septiembre de 1942 el gobierno haitiano promulgó un decreto-ley que reglamentó la emigración haitiana, sometiéndola a formalidades que frenaron la explotación de la mano de obra haitiana a la que ciertos ingenios estaban acostumbrados al otro lado de la frontera. [Price-Mars lo llama un aspecto de «la guerre économique»]",
+     "afirmaciones": [
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 322 (PDF p. 313), cita del general Nemours (Les Présidents Lescot et Trujillo, 1942)",
+     "cita_original": "c'est parce que j'ai caressé ce rêve des deux Républiques qui se partagent l'île, fraternellement unies dans la Confédération Quisqueyenne, prélude et annonciatrice de la Confédération Antiléenne",
+     "traduccion": "[es] porque he acariciado ese sueño de las dos Repúblicas que se reparten la isla, fraternalmente unidas en la Confederación Quisqueyana, preludio y anunciadora de la Confederación Antillana. [Presidente del Senado haitiano en 1942, visitante en Ciudad Trujillo; Price-Mars discrepa]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 324 (PDF p. 315)",
+     "cita_original": "dans le discours célèbre qu'il a prononcé à Villa Elias Pilla et reproduit par le quotidien « La Nacion» du 18 novembre 1942",
+     "traduccion": "en el célebre discurso que pronunció en Villa Elías Piña y reprodujo el diario La Nación del 18 de noviembre de 1942. [Fecha de publicación 18-XI; la traducción española del t. III dice «16 de noviembre»; ver notas]",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 325 (PDF p. 316)",
+     "cita_original": "Donc, en définitive, une fédération haïtiano-dominicaine sous la dénomination de Quisqueya est une utopie. Utopie du côté dominicain. Utopie du côté haïtien.",
+     "traduccion": "Así pues, en definitiva, una federación haitiano-dominicana bajo la denominación de Quisqueya es una utopía. Utopía del lado dominicano. Utopía del lado haitiano.",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 325 (PDF p. 316)",
+     "cita_original": "la loi de 1939 sur l'immigration qui établit que tout individu qui voudrait séjourner sur le territoire dominicain paierait un droit de $ 500 s'il n'est pas de race caucasique ou autochtone américaine. Cependant, la même loi autorisait les usines sucrières à recruter la main-d'œuvre noire à l'occasion de la coupe de canne saisonnière",
+     "traduccion": "la ley de 1939 sobre inmigración que establece que todo individuo que quisiera residir en el territorio dominicano pagaría un derecho de 500 dólares si no es de raza caucásica o autóctona americana. Sin embargo, la misma ley autorizaba a los ingenios a reclutar mano de obra negra para la zafra estacional [paráfrasis de un autor haitiano; falta el texto de la ley]",
+     "afirmaciones": [
+      "A-185",
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 327 (PDF p. 318)",
+     "cita_original": "la nation était composée, au 13 mai 1935, de 1.479.417 habitants, divisés comme suit en catégories« raciales»: 998.733 métis (mestizos), 287.160 nègres, 192.733 blancs, 339 jaunes.",
+     "traduccion": "la nación se componía, al 13 de mayo de 1935, de 1.479.417 habitantes, repartidos en categorías «raciales»: 998.733 mestizos, 287.160 negros, 192.733 blancos, 339 amarillos. [Equivale a 67,5 %, 19,4 % y 13,0 %; Price-Mars cita el «Album de Oro» de 1935. Escribe «métis (mestizos)», no «mulatos»]",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 327 (PDF p. 318)",
+     "cita_original": "De ce nombre total, il faut déduire le nombre exact de la population dominicaine ainsi réparti: 994.420 métis (mestizos), 227.160 nègres, 184.741 blancs.",
+     "traduccion": "De ese total hay que deducir el número exacto de la población dominicana, así repartido: 994.420 mestizos, 227.160 negros, 184.741 blancos. [Por diferencia: ~4.300 mestizos, ~60.000 negros y ~8.000 blancos no dominicanos; ~72.600 extranjeros con los 339 amarillos. Una página más abajo escribe «227.150 nègres»: posible errata]",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 329, nota 3 (PDF p. 320)",
+     "cita_original": "depuis le dernier Accord signé le 5 janvier 1952 et ratifié en avril 1952, entre la République d'Haïti et la République Dominicaine qui règlemente l'émigration saisonnière des ouvriers haïtiens en territoire dominicain",
+     "traduccion": "desde el último Acuerdo firmado el 5 de enero de 1952 y ratificado en abril de 1952, entre la República de Haití y la República Dominicana, que reglamenta la emigración estacional de los obreros haitianos en territorio dominicano. [El «5 de febrero de 1952» de Mervilus 2019 no coincide]",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 331 (PDF p. 322)",
+     "cita_original": "ainsi s'explique l'obstination de nos paysans à franchir la frontière haïtiano-dominicaine à tout prix, légalement ou clandestinement, même après le massacre de 1937.",
+     "traduccion": "así se explica la obstinación de nuestros campesinos en cruzar la frontera haitiano-dominicana a toda costa, legal o clandestinamente, incluso después de la matanza de 1937.",
+     "afirmaciones": [
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 332 (PDF p. 323)",
+     "cita_original": "Puis, brusquement, l'orage éclata, à propos de l'affaire du colonel Astrel Roland.",
+     "traduccion": "Luego, bruscamente, estalló la tormenta a propósito del caso del coronel Astrel Roland. [Price-Mars, embajador de Estimé en Ciudad Trujillo; sigue la «guerra fría» y la intervención de la OEA, pp. 332-333]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. II, p. 229 (PDF p. 220)",
+     "cita_original": "Jusqu'à Geffrard, l'idée qui prévalut dans la partie occidentale, ce fut que l'indivisibilité du territoire de l'île d'Haïti était indispensable pour défendre la sécurité du gouvernement et du peuple qui en ont la possession.",
+     "traduccion": "Hasta Geffrard, la idea que prevaleció en la parte occidental fue que la indivisibilidad del territorio de la isla de Haití era indispensable para defender la seguridad del gobierno y del pueblo que la poseen. [La frase de A-193, «de Toussaint Louverture a Fabre Geffrard», no está así: Price-Mars escribe «de Toussaint Louverture à Faustin 1er» en la misma página]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 204 (PDF p. 202) [OCR: «flit» por «fût»]",
+     "cita_original": "cet échec mit fin au vain rêve de ceux qui considéraient que même par la force, il était nécessaire que toute l'île fût soumise à la direction de la République d'Haïti",
+     "traduccion": "ese fracaso puso fin al vano sueño de quienes consideraban que, aun por la fuerza, era necesario que toda la isla estuviera sometida a la dirección de la República de Haití. [Es lo más próximo a «rêve inutile» hallado en t. I-II; trata del fracaso de Faustin I en 1856]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 122 (PDF p. 120)",
+     "cita_original": "Ce discours a été publié dans « La Nacion» le 18 novembre 1942.",
+     "traduccion": "Este discurso fue publicado en La Nación el 18 de noviembre de 1942. [Price-Mars lo califica de «doctrine néo raciste» pronunciada en Elías Piña por Peña Batlle, ministro del Interior]",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 124 (PDF p. 122) [OCR: «ahusons»]",
+     "cita_original": "Cette doctrine, si nous ne nous abusons, est un témoignage authentique du racisme le plus candide qui soit dans la netteté et l'ingénuité de son expression.",
+     "traduccion": "Esta doctrina, si no nos engañamos, es un testimonio auténtico del racismo más cándido que pueda haber, por la nitidez y la ingenuidad de su expresión. [Réplica directa a Peña Batlle (Elías Piña, 1942) en t. I pp. 122-129]",
+     "afirmaciones": [
+      "A-179",
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Préface, p. 11 (PDF p. 9)",
+     "cita_original": "Voici déjà de longues années depuis que je porte la gestation d'un livre objectif sur les relations haïtiano-dominicaines.",
+     "traduccion": "Hace ya largos años que llevo la gestación de un libro objetivo sobre las relaciones haitiano-dominicanas. [Sigue: «En des publications diverses de 1937 à 1944...» y «je restai près de deux ans à la tête de cette Mission [Ciudad Trujillo]... j'ai commencé à coordonner la matière du livre». Matiza A-193: la obra se declara fruto de años de trabajo y no solo respuesta a Peña Batlle]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-167",
+    "A-168",
+    "A-169",
+    "A-172",
+    "A-173",
+    "A-176",
+    "A-179",
+    "A-180",
+    "A-181",
+    "A-183",
+    "A-185",
+    "A-186",
+    "A-187",
+    "A-188",
+    "A-189",
+    "A-190",
+    "A-192",
+    "A-193"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Resuelve F-0109 con el TEXTO ORIGINAL FRANCÉS (tomos I y II; el tomo II es la URL del registro). (1) A-167: la cifra de Price-Mars es «12136 tués et 2419 rescapés» (original francés, t. II p. 312); «heridos» de A-167 viene de la traducción española («2.419 heridos que se escaparon», dLOC imagen 219). Base declarada: solo «calculs partiels»; reconoce que ninguna investigación oficial fijó la cifra y da una lista de localidades «établie par ... les survivants»; no cita lista nominal ni la cifra de Lescot (12.168): [POR VERIFICAR] si la cercanía de ambas cifras indica una fuente común. Menciona que otros estiman 12.000, 15.000, 20.000 o 25.000. (2) A-193: la frase «rêve inutile» NO aparece en el texto OCR de los tomos I y II; lo más próximo es «vain rêve» (t. II p. 204, sobre el fracaso de Faustin I en 1856) y «utopie» (p. 325, sobre la federación). El pasaje de la indivisibilidad dice «de Toussaint Louverture à Faustin 1er» (p. 229), no «à Fabre Geffrard»: la cita del columnista de Acento es una paráfrasis [POR VERIFICAR si existe en el t. III español, no leído completo]. La obra sí discute expresamente la doctrina de Peña Batlle (t. I pp. 122-129; t. II pp. 323-326), pero su prefacio sitúa la gestación desde 1937 y la redacción durante la misión en Ciudad Trujillo; el colofón fecha el impreso el 30-XII-1953 (Optique de marzo de 1954 anuncia «Ont paru»; Manigat la fecha «1954»). (3) A-180: el original francés dice que el discurso de Elías Piña fue publicado en La Nación el 18-XI-1942 (t. I p. 122; t. II p. 324); la traducción española dice 18 en el t. I y «16» en el t. III (imagen 236); Saint-Victor (nota 22, vía Sagás) fecha el discurso el 16-XI-1942 [interpretación: 16 = pronunciación, 18 = publicación; número de La Nación sin verificar]. (4) A-189: las cifras 13 %/19 %/68 % que cita Turits (HAHR 2002, n. 5) salen de Price-Mars; el original da recuentos absolutos del censo de 1935 y escribe «mestizos» (no «mulatos»). (5) Errores de fecha internos: «31 janvier 1939» por 1938 (p. 315) y «9 mars 1935» (p. 308). Sesgo: autor parte en la polémica, élite letrada haitiana, adversario declarado de Peña Batlle; fiable para lo que vivió y para la recepción haitiana, no para cifras ni para los motivos de Trujillo; sobre las causas de 1937 solo apunta presión demográfica, racismo latente y un «mystère» (p. 311). Manigat (c. 1957, F-0113) escribe que Price-Mars «n'en traite pratiquement pas» la matanza; el cap. XI (pp. 309-316) la trata.",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Du nouveau chez Clio. Critique de l'ouvrage du Dr Price-Mars « La République d'Haïti et la République Dominicaine » (Optique, revue mensuelle, Port-au-Prince, agosto de 1954, pp. 66-82 del impreso)",
+   "autor": "Manigat, Leslie F.",
+   "anio": "1954",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00093110/00005",
+   "urls_alternativas": [
+    "https://ufdc.ufl.edu/AA00093110/00005",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/09/31/10/00005/Optique-1954-08.pdf",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/09/31/10/00002/Optique-1954-03_pdf.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña crítica contemporánea de un historiador haitiano joven (formación Annales), leída en el PDF de dLOC (OCR con ruido); valor para la recepción haitiana de la obra, no para hechos de 1937.",
+   "proveniencia": "Leslie F. Manigat (1930-2014), entonces joven historiador, luego director de asuntos políticos de la cancillería haitiana (1953-57) y presidente de Haití en 1988. Publica la reseña en Optique, revista mensual de Puerto Príncipe (1954-1957, con redacción en la sede de Le Nouvelliste), unos ocho meses después de la salida del libro, para el lector culto haitiano. Se declara no especialista en etnología y juzga el libro como historia diplomática y tesis.",
+   "extractos": [
+    {
+     "ubicacion": "p. 67 (PDF p. 69)",
+     "cita_original": "Deux tranches d'histoire diplomatique : Washington D. C. et Ciudad Trujillo, R. D., « les deux pôles de la politique étrangère d'Haïti » selon Mars",
+     "traduccion": "Dos tramos de historia diplomática: Washington y Ciudad Trujillo, «los dos polos de la política exterior de Haití» según Price-Mars. [Manigat lee el libro de 1953 como obra de relaciones con la RD de Trujillo]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 68 (PDF p. 70)",
+     "cita_original": "C'est donc une thèse et Mars ne s'en cache pas. Tout le livre est d'ailleurs écrit sur un ton direct de prise à partie.",
+     "traduccion": "Es, pues, una tesis, y Price-Mars no lo oculta. Todo el libro está escrito, además, en un tono directo de confrontación.",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 70 (PDF p. 72)",
+     "cita_original": "au XXe siècle, les rôles semblent renversés : la thèse de l'Unité est sous-jacente à la politique Trujilliste et Haïti se fait maintenant l'avocat de la coexistence dans la juxtaposition pour sauvegarder son indépendance.",
+     "traduccion": "en el siglo XX los papeles parecen invertidos: la tesis de la Unidad subyace a la política trujillista y Haití se hace ahora abogado de la coexistencia en la yuxtaposición para salvaguardar su independencia. [Lectura haitiana de 1954: la indivisibilidad pasó a ser, en la práctica, un temor haitiano ante Trujillo]",
+     "afirmaciones": [
+      "A-179",
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "pp. 81-82 (PDF pp. 83-84)",
+     "cita_original": "parler comme Pena Battle « d'homogénéité et de pureté de sang espagnol » chez le dominicain, n'est-ce pas passer à pieds joints sur les acquisitions les plus positives des recherches scientifiques",
+     "traduccion": "hablar como Peña Batlle de «homogeneidad y pureza de sangre española» en el dominicano, ¿no es pasar por encima de los resultados más positivos de las investigaciones científicas? [Manigat resume aquí el t. I, p. 128, de Price-Mars]",
+     "afirmaciones": [
+      "A-179",
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 82 (PDF p. 84)",
+     "cita_original": "Qui ne voit qu'en ruinant les « doctrines de supériorité de race » échafaudées de l'autre côté de la frontière, l'auteur ne lance une invitation à nous, de ce côté-ci, à penser nos problèmes en termes haïtiens",
+     "traduccion": "¿Quién no ve que, al arruinar las «doctrinas de superioridad de raza» levantadas al otro lado de la frontera, el autor nos invita a nosotros, de este lado, a pensar nuestros problemas en términos haitianos? [Apoya la lectura de A-193: obra concebida frente a las doctrinas raciales dominicanas]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "Optique, marzo de 1954, sección «Haïti: Ont paru», p. 78 del PDF (…/00002/Optique-1954-03_pdf.txt)",
+     "cita_original": "Ont paru : Du Dr. Price-Mars : La République d'Haïti et la République Dominicaine.",
+     "traduccion": "Han aparecido: del Dr. Price-Mars, La República de Haití y la República Dominicana. [Terminus ante quem de la publicación: marzo de 1954]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179",
+    "A-180",
+    "A-193"
+   ],
+   "id_existente": "F-0804",
+   "notas": "Reintegra F-0804 en M13 (antes solo M08). El registro da pp. 66-73 aprox.; el artículo ocupa pp. 66-82 del impreso (PDF pp. 68-84). Manigat admite que el libro es «une thèse» polémica contra los «théoriciens racistes de l'Est» (cita p. 57 del t. I) y critica su método (historia-relato, digresiones). No discute 1937. En su curso de c. 1957 (publicado en Éventail t. 4, F-0113) afirma que Price-Mars «n'en traite pratiquement pas» la matanza; el cap. XI del t. II (F-0109) la trata en ocho páginas, de modo que su juicio se refiere a las causas. Sesgo: crítico de método más que de la tesis; escribe quien luego será funcionario de la cancillería. Los 36 números de Optique 1954-57 disponibles en dLOC (AA00093110) se rastrearon por palabras clave: sin otras piezas sobre 1937; solo menciones de Price-Mars y un poema de Nicolás Guillén (Optique, ago. 1955) con el verso «Sang sur le couteau de Trujillo» [no se registra como fuente: autor cubano].",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Micro-Témoin: « Trujillo et Haïti », Guy Alexandre et Bernardo Vega (partes 1 y 2) (Radio Haïti-Inter, 13-IV-1996)",
+   "autor": "Radio Haïti-Inter (Dominique, Jan J., productor); Alexandre, Guy; Vega, Bernardo",
+   "anio": "1996",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://api.dloc.patron.uflib.ufl.edu/AA00074577/00001/citation?format=json",
+   "urls_alternativas": [
+    "https://api.dloc.patron.uflib.ufl.edu/AA00074576/00001/citation?format=json",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/07/45/77/00001/AA00074577_00001_xml.txt",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/07/45/76/00001/AA00074576_00001_xml.txt",
+    "https://dloc.com/AA00074577/00001"
+   ],
+   "verificacion": "descargada-parcial",
+   "formato": "txt",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó el resumen catalográfico trilingüe (kreyòl, francés, inglés) de dLOC/Duke; el audio no se escuchó y la página de Duke exige una verificación anti-bots (Anubis) que no se eludió.",
+   "proveniencia": "Programa «Micro-Témoin» de Radio Haïti-Inter (Puerto Príncipe; Jean Dominique y colaboradores; archivo sonoro en Duke, espejado en dLOC bajo CC BY-NC-SA 4.0), emitido el 13-IV-1996. Guy Alexandre, comentarista haitiano, presenta el libro de Bernardo Vega, Trujillo y Haití (vol. 1, 1930-37), cuyo primer volumen acababa de publicarse en francés; en la parte 2 interviene Vega. Para audiencia urbana y rural haitiana, en francés y kreyòl.",
+   "extractos": [
+    {
+     "ubicacion": "registro AA00074576 (parte 1), campo «Abstract» [francés]",
+     "cita_original": "Guy Alexandre parle du livre de Bernardo Vega, TRUJILLO ET HAÏTI, dont le premier volume vient de paraitre en français. Il met l'accent sur le contexte historique et politique du massacre de 1937, où l'armée dominicaine avait massacré des Haïtiens en République Dominicaine.",
+     "traduccion": "Guy Alexandre habla del libro de Bernardo Vega, Trujillo y Haití, cuyo primer volumen acaba de aparecer en francés. Subraya el contexto histórico y político de la matanza de 1937, en la que el ejército dominicano masacró haitianos en la República Dominicana.",
+     "afirmaciones": [
+      "A-166",
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "registro AA00074577 (parte 2), campo «Abstract» [inglés]",
+     "cita_original": "Dominican historian Bernardo Vega discusses his book TRUJILLO Y HAITÍ, focusing particularly on the 1937 massacre of Haitians in the Dominican Republic.",
+     "traduccion": "El historiador dominicano Bernardo Vega comenta su libro Trujillo y Haití, centrándose en particular en la matanza de haitianos de 1937 en la República Dominicana. [Catálogo; no cuantifica víctimas]",
+     "afirmaciones": [
+      "A-166",
+      "A-174"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-173",
+    "A-174"
+   ],
+   "id_existente": "F-0315",
+   "notas": "Reintegra F-0315 en M13 con ambas partes (AA00074576 y AA00074577; el registro solo cita la segunda). Valor: localización y datación del primer volumen de Vega en francés (abril de 1996; Manigat, F-0113 t. 5, djvu l. 18959-18962, dice que Unibank patrocinó la traducción francesa y organizó una presentación en 1996 «à l'hôtel Christopher»). El registro catalográfico no da cifra ni tesis de Vega o de Alexandre sobre 1937: no puede sostener A-166 ni A-174 por sí solo. [POR VERIFICAR: Guy Alexandre fue embajador haitiano en la RD en los años 1990; títulos de otros programas de Radio Haïti en Duke que lo dicen aparecieron en resultados de búsqueda y no se abrieron.] Otros programas de Radio Haïti hallados por exploración de la API de dLOC (AA00073000-AA00076500) sobre 1937/braceros en 1976-1999 (p. ej., AA00075005, AA00075301, AA00073373-74, AA00073577-78) ya están en M13 o pertenecen a M14.",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "The last survivors: Elders recount the 1937 Parsley Massacre and life after in Haiti (The Haitian Times, 4-X-2024)",
+   "autor": "Francisque, Edxon (The Haitian Times)",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://haitiantimes.com/2024/10/04/haitian-parsley-massacre-last-survivors-speak/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica con cinco testimonios nominales (nombre, edad, lugar) recogidos en 2024 por un corresponsal de Ouanaminthe, a 87 años de los hechos; la cifra de 20.000 es del periodista, sin base.",
+   "proveniencia": "Edxon Francisque, periodista de Ouanaminthe (economista por la UEH, corresponsal de Radio Nationale d'Haïti y de Radio Alliance), para The Haitian Times (Nueva York/Puerto Príncipe), en la serie sobre los sobrevivientes de 2024. Entrevista en Dosmond y Ferrier, a unas 20 millas (~32 km) de Dajabón, en kreyòl/español, a Vital Princivil (111), Sorélia Anténor (103), Damuscar Bien-Aimé, Dumel Saintilnord (89) y Kirsil Joseph. Interés: reclamar reparaciones y juicio.",
+   "extractos": [
+    {
+     "ubicacion": "párr. de apertura (tras los datos de lugar)",
+     "cita_original": "Or, as Haitians in that part of the country call it, the Masak Kout Kout, in which more than 20,000 Haitians were slaughtered.",
+     "traduccion": "O, como la llaman los haitianos de esa parte del país, la Masak Kout Kout, en la que más de 20.000 haitianos fueron masacrados. [Cifra del periodista, sin fuente; nombre local en kreyòl]",
+     "afirmaciones": [
+      "A-169"
+     ]
+    },
+    {
+     "ubicacion": "Vital Princivil (111 años)",
+     "cita_original": "I didn’t have the chance to go to school or learn a trade in Haiti after the massacre because I was born in the Dominican Republic in Monte Cristi. My birth certificate is still there.",
+     "traduccion": "No tuve oportunidad de ir a la escuela ni de aprender un oficio en Haití después de la matanza porque nací en la República Dominicana, en Monte Cristi. Mi acta de nacimiento sigue allí.",
+     "afirmaciones": [
+      "A-165",
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "Sorélia Anténor (103 años)",
+     "cita_original": "As a 15–year–old in 1937, Sorélia Anténor remembers the week of the massacre well. Over five to seven days, she often told her children, Trujillo’s soldiers turned their guns, knives, machetes and sticks on anyone they thought was Haitian.",
+     "traduccion": "A los 15 años, en 1937, Sorélia Anténor recuerda bien la semana de la matanza. Durante cinco a siete días, solía contar a sus hijos, los soldados de Trujillo volvieron sus armas, cuchillos, machetes y palos contra cualquiera que creyeran haitiano.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "Damuscar Bien-Aimé (de 15 años en 1937)",
+     "cita_original": "One of the stories he heard about why the Kout Kouto occurred is that the massacre stemmed from a failed land deal between Trujillo and Vincent, the Haitian president at the time. Whether the story is true is not known, as there are many theories.",
+     "traduccion": "Una de las historias que oyó sobre por qué ocurrió el Kout Kouto es que la matanza surgió de un negocio de tierras fallido entre Trujillo y Vincent, el presidente haitiano de entonces. Se ignora si es verdad, pues hay muchas teorías. [Tradición oral de motivos; sin corroboración]",
+     "afirmaciones": [
+      "A-172",
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "Kirsil Joseph (nacida en Soudjang, Dajabón; 1 año en 1937)",
+     "cita_original": "“I am currently living on the land of the colony where President Vincent built a house to enable us to work,” she explained. “He gave us some bowls and tin spoons to eat with.”",
+     "traduccion": "«Vivo actualmente en la tierra de la colonia donde el presidente Vincent construyó una casa para que pudiéramos trabajar», explicó. «Nos dio unos cuencos y cucharas de lata para comer.» [Corrobora la colonia agrícola de Dosmond fundada con la indemnización]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "Dumel Saintilnord (89 años)",
+     "cita_original": "He lamented that no government authorities – local, municipal, or national – have ever come to see him or check on survivors like him.",
+     "traduccion": "Lamentó que ninguna autoridad del gobierno, local, municipal o nacional, haya ido nunca a verlo ni a interesarse por sobrevivientes como él.",
+     "afirmaciones": [
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-172",
+    "A-173",
+    "A-177",
+    "A-192"
+   ],
+   "id_existente": "F-0322",
+   "notas": "Reintegra F-0322 en M13 (A-165, A-169, A-177 y, nuevo, A-192). Dos de cinco sobrevivientes dicen haber nacido en territorio dominicano (Princivil, Joseph: «birth certificate» perdido o dejado), lo que apoya A-177 (población de nacionalidad ambigua) con voz oral; Kirsil Joseph confirma la existencia de una colonia de Vincent en Dosmond, coincidente con Price-Mars (F-0109, p. 316) y C. Dupuy 2013. Sesgo: relatos de 87 años después, reclamación de reparaciones; la cifra «más de 20.000» y la historia del «negocio de tierras» no tienen base.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Omisiones e invenciones en la obra de Jean Price-Mars «La República de Haití y la República Dominicana» (Clío, n.º 159, 1998, pp. 3-24)",
+   "autor": "Henríquez Vásquez, Francisco Alberto",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-1998-159-003-024.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Réplica polémica y documentada de un miembro de la Academia Dominicana de la Historia, centrada en 1821-1844; OCR sin tildes; se leyeron el comienzo, los pasajes sobre Price-Mars y el final, no los 22 pp. enteros.",
+   "proveniencia": "Francisco Alberto Henríquez Vásquez, miembro de la Academia Dominicana de la Historia, publica en Clío (Santo Domingo, 1998) una crítica de la tesis de Price-Mars sobre la anexión haitiana de 1822 y la independencia dominicana de 1844. Para lectores dominicanos; interés: refutar la «historiografía haitiana» y defender la lectura dominicana de la Independencia. Lee los «tres tomos» de la edición española.",
+   "extractos": [
+    {
+     "ubicacion": "p. 4 (PDF p. 2) [OCR sin tildes; se normalizan]",
+     "cita_original": "Pero los historiadores haitianos, unánimemente, al analizar las causas reales de esa búsqueda desesperada de ayuda exterior de la Diplomacia Dominicana, obvian adjudicarle, cual deberían de hacer honestamente, tanto a la dictadura vitalicia de Boyer como a los sucesivos Gobiernos que lo sustituyeron en el poder, toda la responsabilidad histórica que le corresponde",
+     "traduccion": "[Tesis del autor: la historiografía haitiana, «unánimemente», omite la responsabilidad de Boyer y sus sucesores (deuda de 1825) en la búsqueda dominicana de protectores.] Es la crítica dominicana a Price-Mars como exponente de «la historiografía de Haití».",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 5 (PDF p. 3)",
+     "cita_original": "Veamos, por ejemplo, lo que en ese sentido expresa el Dr. Jean Price Mars en su conocida obra «La República de Haití y la República Dominicana», concepto que reitera machaconamente, una y otra vez a lo largo del texto que conforma los tres tomos de dicha obra en español.",
+     "traduccion": "[Cita en español; confirma que la edición española tiene tres tomos y que Henríquez Vásquez trata la obra como la expresión canónica de la tesis haitiana.]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 19 (PDF p. 17)",
+     "cita_original": "Hay otra tesis igualmente malintencionada y dañina, esgrimida por los historiadores haitianos en contra del pueblo dominicano, que el Dr. Price-Mars ha bautizado de «bovarismo racial», según la cual los dominicanos son tan racistas que aun teniendo un alto porcentaje de sangre negra en sus venas, se consideran blancos.",
+     "traduccion": "[Cita en español; el crítico atribuye a Price-Mars el término «bovarismo racial» para la autoidentificación dominicana; lo rechaza.]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-193"
+   ],
+   "id_existente": "F-0676",
+   "notas": "Reintegra F-0676 en M13 (A-193). El artículo no trata 1930-1961; sirve para (a) la recepción dominicana de Price-Mars (la obra se lee como respuesta a la «historiografía» y las doctrinas del otro lado; «bovarismo racial»), (b) saber que la edición española tiene tres tomos. Sesgo: polémica explícita (título: «Omisiones e invenciones»); no cita pasajes de 1937 ni la cifra de 12.136.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "AlterPresse, artículos spip.php?article13563 y article6524 sobre 1937 (contenido no leído)",
+   "autor": "AlterPresse (agencia haitiana alternativa de prensa)",
+   "anio": "s. f.",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://alterpresse.org/spip.php?article13563",
+   "urls_alternativas": [
+    "https://alterpresse.org/spip.php?article6524",
+    "https://www.alterpresse.org/spip.php?article15331"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "200 (página de bloqueo «Pare-feu Domaine public»)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "El servidor devuelve HTTP 200 con una página de cortafuegos («Désolé, l'accès à cette ressource a été bloqué»), no el artículo; no se eludió el bloqueo.",
+   "proveniencia": "AlterPresse, agencia de prensa alternativa con sede en Puerto Príncipe (Haití), publica desde 2001 en francés; los tres artículos (13563, 6524, 15331) se localizaron por búsqueda y tratarían la matanza de 1937 [POR VERIFICAR: contenido y autoría; para 15331 el buscador lo asoció a Leslie Péan, «Haïti-Rép. Dominicaine: Une responsabilité partagée dans le crime», 2013, no comprobado].",
+   "extractos": [],
+   "afirmaciones": [],
+   "id_existente": "F-0326",
+   "notas": "Intento de resolución fallido: las tres URL (con y sin «www») devuelven la misma página de bloqueo del cortafuegos del dominio. Péan, Leslie, citado por Mervilus (2019) como «AlterPresse, 18-X-2013, 3 de 3», sigue sin leerse; ver también su obra Haïti, économie politique de la corruption, t. III (Le saccage, 1915-1956) [no localizada en abierto].",
+   "modulos": [
+    "M13"
+   ]
+  },
+  {
+   "titulo": "80e anniversaire du massacre de 1937: un devoir de mémoire et de responsabilité citoyenne (Le Nouvelliste, 11-X-2017)",
+   "autor": "Cincir, Amos; Noël, Worlgenson",
+   "anio": "2017",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/177630/80e-anniversaire-du-massacre-de-1937-un-devoir-de-memoire-et-de-responsabilite-citoyenne",
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo son visibles los dos primeros párrafos; el resto exige cuenta (muro de acceso); crónica de un acto, no estudio.",
+   "proveniencia": "Le Nouvelliste (Puerto Príncipe) cubre el 11-X-2017 el simposio internacional organizado por el Centre Challenges (director ejecutivo Watson Denis) y C3 Éditions el 11 y 12 de octubre de 2017; esa editorial publicó después el libro de Castor sobre 1937.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo de resumen (visible)",
+     "cita_original": "le Centre Challenges, en partenariat avec C3 Éditions, organise les 11 et 12 octobre 2017 une conférence internationale qui s'inscrit dans le cadre d'un devoir de mémoire de responsabilité citoyenne.",
+     "traduccion": "el Centre Challenges, en colaboración con C3 Éditions, organiza el 11 y 12 de octubre de 2017 una conferencia internacional que se inscribe en un deber de memoria y de responsabilidad ciudadana. [Tema: «1937-2017: Remémoration du 80e anniversaire du massacre des Haïtiens en République dominicaine, histoire, mémoire et devoir de mémoire»; «une dizaine d'experts haïtiens, dominicains et américains»]",
+     "afirmaciones": [
+      "A-171"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-171"
+   ],
+   "id_existente": "F-0319",
+   "notas": "Sin cambio de acceso (muro). Aporta el dato institucional: el simposio de 2017 (Centre Challenges + C3 Éditions) es el contexto editorial de la edición de C3 del libro de Castor y del libro Terreurs de frontière (2021) editado por Watson Denis. No se localizó programa ni actas.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Castor, Suzy, Le massacre de 1937 et les relations haïtiano-dominicaines (CRESFED, 1988; C3 Éditions, colección Bohio, 2017/2018)",
+   "autor": "Castor, Suzy",
+   "anio": "1988; 2017-2018",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://search.library.wisc.edu/catalog/9912848093802121",
+   "urls_alternativas": [
+    "https://lenouvelliste.com/article/187684/suzy-castor-raconte-le-massacre-de-1937-et-les-relations-haitiano-dominicaines",
+    "https://scienceetbiencommun.pressbooks.pub/haitiennes/chapter/suzy-castor-historienne-et-militante/",
+    "https://lenouvelliste.com/article/260472/les-relations-entre-haiti-et-la-republique-dominicaine-1930-1937-de-lentente-cordiale-au-massacre-des-haitiens"
+   ],
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "La obra no es accesible; solo se leyeron fichas, una reseña tras muro (Jeanty 2018) y citas indirectas (J. Dupuy 2025); no se conoce su base documental.",
+   "proveniencia": "Suzy Castor (n. 1936), historiadora haitiana, fundadora del CRESFED (1986); la obra circula en dos ediciones haitianas: CRESFED 1988 (J. Dupuy 2025 y Pressbooks la fechan así) y C3 Éditions, Delmas, colección Bohio (216 pp.; 2017 según el catálogo de Wisconsin, 2018 según Le Nouvelliste, que la reseña el 22-V-2018 con muro). Antecedente: Migración y relaciones internacionales (el caso haitiano-dominicano), UASD, 1987.",
+   "extractos": [
+    {
+     "ubicacion": "Le Nouvelliste, 22-V-2018 (Jeanty, G. J.), párr. visibles de la reseña",
+     "cita_original": "Entre les 2 et 4 octobre 1937, des milliers de ressortissants haïtiens furent assassinés en République dominicaine. Ce génocide, perpétré en partie par l'armée et la police dominicaines sur ordre du dictateur Rafael Leónidas Trujillo, reste dans l'histoire sous l'appellation de vêpres dominicaines.",
+     "traduccion": "Entre el 2 y el 4 de octubre de 1937, miles de ciudadanos haitianos fueron asesinados en la República Dominicana. Este genocidio, perpetrado en parte por el ejército y la policía dominicanos por orden del dictador Rafael Leónidas Trujillo, queda en la historia bajo el nombre de «vêpres dominicaines». [Resumen editorial de la reseña, no texto de Castor; el resto tras muro]",
+     "afirmaciones": [
+      "A-171"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-171"
+   ],
+   "id_existente": "F-0114",
+   "notas": "No se pudo leer el libro ni extractos. Hallazgos nuevos: (a) existe una edición haitiana de 1988 (CRESFED) además de la de C3 (2017/2018); el registro y R1 solo conocían la de C3 y la de 1987 de la UASD; (b) J. Dupuy 2025 cita Castor (CRESFED 1988, p. 16) para el discurso de Trujillo en Dajabón y le atribuye «environ 20.000» (A-169), mientras A-167 le atribuye «12.000 o más» (vía prensa dominicana): las dos atribuciones siguen sin base verificada [POR VERIFICAR]; (c) Desroses 2023 le atribuye que la matanza «marquait d'un sceau officiel» la preponderancia dominicana en la isla (interpretación, sin página). Consultas hechas sin éxito para obtener extractos: catálogo, Google Books (API con cuota agotada), Le Nouvelliste (muro), Loop Haïti (ECONNREFUSED), Le National (muro).",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Nouvelliste, n.º 22.393, sábado 4 de febrero de 1950, p. 1: «L'Importante Interview du Dr Price Mars au Nouvelliste» (rectificación al informe secreto de Peña Batlle del 9-V-1949 y memorándum de Price-Mars de 1946)",
+   "autor": "Price-Mars, Jean (entrevista); Le Nouvelliste (Chauvet, Ernest G., dir.-prop.)",
+   "anio": "1950-02-04",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/00/00/81/07181/UF00000081_07181.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto impreso de época, leído a la vista en la imagen de la página (recorte a 80 ppp, tres columnas); es un testimonio personal de Price-Mars sobre hechos de 1946, escrito en plena polémica (1950).",
+   "proveniencia": "Le Nouvelliste, diario privado de Puerto Príncipe (fundado en 1896; dirigido por Ernest G. Chauvet), digitalizado por UFDC/dLOC. El 2-II-1950 publicó un comunicado de la Embajada de Haití en Washington sobre el «rapport secret» que Manuel Arturo Peña Batlle, entonces embajador dominicano en Puerto Príncipe, dirigió el 9-V-1949 a la cancillería dominicana y que un antiguo secretario de esa embajada filtró. Dos días después el diario entrevista a Price-Mars, exministro de Relaciones Exteriores y exembajador en Ciudad Trujillo, que rectifica la versión de Peña Batlle y reproduce el memorándum que entregó a los dominicanos en la frontera en 1946. Contexto: conflicto Estimé-Trujillo y caso Astrel Roland (OEA).",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, col. 1 (respuesta de Price-Mars; lectura a la vista)",
+     "cita_original": "Le rôle que M. Pena Battle a prêté au Président de la République est tout à fait incorrect et archi-faux.",
+     "traduccion": "El papel que el Sr. Peña Batlle ha atribuido al Presidente de la República [Estimé] es totalmente incorrecto y archifalso. [Se refiere a la afirmación de que Estimé habría pedido los buenos oficios del embajador brasileño do Rio Branco]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 1-2",
+     "cita_original": "Quand j'eus l'honneur d'être appelé par S. E. M. Dumarsais Estimé à la direction du Département des Relations Extérieures, le 19 Août 1946",
+     "traduccion": "Cuando tuve el honor de ser llamado por S. E. Dumarsais Estimé a la dirección del Departamento de Relaciones Exteriores, el 19 de agosto de 1946 [...]. [Sigue el relato: oferta de buenos oficios de do Rio Branco en septiembre, almuerzo en Le Refuge y entrevista en la frontera entre el canciller dominicano y Price-Mars]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 3 (memorándum, puntos 2.º a 4.º; se omite la frase sobre derecho de pesca en «Sept Frères»)",
+     "cita_original": "2e Remise en discussion du «MODUS OPERANDI»: Redressement des clauses constituant des frictions: Contrôle des frontières et réduction des incidents frontaliers; 3o. Signature d'un nouveau Traité Commercial. Réouverture des marchés frontaliers. [...] 4o Conditionnement de l'émigration temporaire des travailleurs saisonniers. Contrat à signer entre les États avec contrôle de leurs Représentants officiels;",
+     "traduccion": "2.º Reabrir la discusión del «modus operandi»: corrección de las cláusulas que generan fricciones, control de fronteras y reducción de incidentes fronterizos; 3.º Firma de un nuevo Tratado Comercial, reapertura de los mercados fronterizos [...]; 4.º Condicionamiento de la emigración temporal de los trabajadores estacionales: contrato a firmar entre los Estados con control de sus representantes oficiales.",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 3",
+     "cita_original": "Ce fut au cours de cette entrevue, et devant l'assistance, que je produisis le MEMORANDUM suivant, dont l'acceptation, après examen, par le Gouvernement Dominicain devait conditionner les modalités des relations haïtiano-dominicaines",
+     "traduccion": "Fue en el curso de esa entrevista, y ante los presentes, cuando presenté el siguiente MEMORÁNDUM, cuya aceptación, tras examen, por el Gobierno Dominicano debía condicionar las modalidades de las relaciones haitiano-dominicanas.",
+     "afirmaciones": [
+      "A-187",
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187",
+    "A-193"
+   ],
+   "id_existente": "",
+   "notas": "HALLAZGO para A-187: la propuesta de un contrato interestatal para la emigración estacional de braceros (con control de «représentants officiels») figura en el memorándum que Price-Mars, ministro de Relaciones Exteriores de Estimé, presentó a los dominicanos en 1946, seis años antes del Acuerdo del 5-I-1952; es base primaria haitiana para la atribución de Vega (F-0281, «concebido por Price-Mars y Peña Batlle», sin base en el registro) [interpretación: la atribución a Peña Batlle exige el lado dominicano; Martínez, Clío 2016, documenta la reunión del 28-IX-1946]. Fechas: Price-Mars dice «au mois de Septembre» (sin día) para la oferta de do Rio Branco; Martínez fecha el encuentro de cancilleres en Elías Piña-Belladère el 28-IX-1946. La entrevista no discute 1937. Sesgo: Price-Mars defiende su gestión y la de Estimé frente a Peña Batlle en medio del conflicto de 1950. Lectura con recortes de imagen; la OCR del PDF es muy ruidosa en este número.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Nouvelliste, n.º 22.391, viernes 3 de febrero de 1950, p. 1: «La lettre du Pdt. Trujillo. Notre Chef d'État a dédaigné d'y répondre» (carta de Trujillo a Estimé, Ciudad Trujillo, 13-XII-1949)",
+   "autor": "Trujillo Molina, Rafael L. (carta); Le Nouvelliste (Chauvet, Ernest G., dir.-prop.)",
+   "anio": "1950-02-03",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/00/00/81/07180/UF00000081_07180.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto de una carta oficial reproducido en francés por un diario de época, leído a la vista en tres recortes a 100 ppp; es la traducción que el diario publicó, no el original español.",
+   "proveniencia": "Le Nouvelliste publica en portada, en francés, la carta que Trujillo envió a Estimé el 13-XII-1949 con motivo del bicentenario de Puerto Príncipe, con el titular de que el jefe del Estado haitiano «a dédaigné d'y répondre». Se difunde en plena crisis por el caso Roland y por las emisiones de La Voz Dominicana; el diario es hostil a Trujillo. La carta es de Trujillo (firma «Rafael L. Trujillo»), no del diario.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, cols. 3-4 (carta, 3.º párrafo)",
+     "cita_original": "nous les Dominicains nous avons souffert du choc de nombreuses invasions haïtiennes visant à détruire nos institutions et notre indépendance. En 1822 le Président Boyer, en 1844 le Président Hérard, en 1845 le Président Pierrot, en 1849, 1852 et 1856 le Président Soulouque, puis Empereur Faustin Ier, envahirent le territoire dominicain",
+     "traduccion": "[La sinceridad de estas felicitaciones no se altera por el hecho de que ayer nuestros dos países fueron antagonistas de un gran drama de libertad, en el cual] nosotros, los dominicanos, sufrimos el choque de numerosas invasiones haitianas dirigidas a destruir nuestras instituciones y nuestra independencia. En 1822 el presidente Boyer, en 1844 el presidente Hérard, en 1845 el presidente Pierrot, en 1849, 1852 y 1856 el presidente Soulouque, luego emperador Faustino I, invadieron el territorio dominicano",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, cols. 3-4 (continuación)",
+     "cita_original": "et l'ensanglantèrent en autant de guerres inclémentes pour la seule raison que les populations de cette partie de l'Ile ne consentaient pas à sacrifier leurs désirs inébranlables de vivre sous l'égide d'une organisation politique propre et souveraine.",
+     "traduccion": "y lo ensangrentaron en otras tantas guerras inclementes por la sola razón de que las poblaciones de esta parte de la isla no consentían en sacrificar sus deseos inquebrantables de vivir bajo la égida de una organización política propia y soberana.",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 3 (carta, párr. siguiente)",
+     "cita_original": "La République Dominicaine ne s'est jamais distinguée dans l'histoire de ses relations par un esprit agressif. Victime de l'incompréhension qui pendant longtemps prévalait chez les dirigeants haïtiens",
+     "traduccion": "La República Dominicana nunca se distinguió en la historia de sus relaciones por un espíritu agresivo. Víctima de la incomprensión que durante mucho tiempo prevaleció entre los dirigentes haitianos [...].",
+     "afirmaciones": [
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179"
+   ],
+   "id_existente": "",
+   "notas": "Documento de Trujillo (13-XII-1949) que muestra, doce años después de 1937, el encuadre histórico oficial dominicano «invasiones haitianas 1822-1856» frente a la «indivisibilidad» haitiana, usado en carta de cortesía por el bicentenario. Aporta a A-179 (ideología de Estado) una fuente primaria del propio Trujillo, pero no sobre la datación (no cita a Peña Batlle). El texto original español no se localizó [POR VERIFICAR] (esta es la versión francesa del diario). El titular indica la reacción haitiana: Estimé no respondió.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Nouvelliste, n.º 22.387, sábado 28 de enero de 1950, p. 1: «Pour l'histoire. Les Points sur les i (III)», columna sin firma nominal sobre la injerencia de Trujillo y el 1937",
+   "autor": "Le Nouvelliste (Chauvet, Ernest G., dir.-prop.); columnista no identificado (serie «Les Points sur les i»; la entrega IV del 3-II-1950 cierra con «XXX»)",
+   "anio": "1950-01-28",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/00/00/81/07175/UF00000081_07175.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto impreso leído a la vista (tres recortes a 100 ppp); es una columna polémica sin autor identificado ni fuentes, útil como versión haitiana de 1950, no como prueba de los hechos.",
+   "proveniencia": "Columna de la página 1 de Le Nouvelliste (Puerto Príncipe), tercera entrega de una serie «Pour l'histoire» publicada en el momento del caso Roland (enero de 1950). Escribe un colaborador anónimo para el lector urbano haitiano; tesis: Trujillo interviene en los asuntos haitianos con ayuda de políticos haitianos («Vincent-Lescot-Trujillo et Cie»), y 1937 fue el desenlace de una conjura contra Vincent. No cita documentos ni testigos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, cols. 1-2 (apertura de la entrega III)",
+     "cita_original": "Comment expliquer les événements si confus d'Octobre 1937 et, particulièrement, le massacre des 22.000 Haïtiens sans défense dans la nuit du 3 Octobre? D'après les informations que nous possédons, voici notre explication du massacre qui passera dans l'Histoire sous le nom de la noche triste (la nuit triste).",
+     "traduccion": "¿Cómo explicar los acontecimientos tan confusos de octubre de 1937 y, en particular, la matanza de 22.000 haitianos indefensos en la noche del 3 de octubre? Según las informaciones que poseemos, he aquí nuestra explicación de la matanza que pasará a la Historia con el nombre de la noche triste. [Cifra de 22.000 sin base; fecha «noche del 3»]",
+     "afirmaciones": [
+      "A-165",
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 1",
+     "cita_original": "Une chose reste certaine: politiciens haïtiens et dominicains sont d'accord pour provoquer un incident sur la frontière, incident dont le but immédiat du côté haïtien est le renversement du Gouvernement du Président Vincent et le but médiat du côté dominicain, la «dominicanisation» de la frontière et, si possible, une petite promenade militaire sur le territoire haïtien",
+     "traduccion": "Una cosa sigue cierta: políticos haitianos y dominicanos se ponen de acuerdo para provocar un incidente en la frontera, incidente cuyo fin inmediato del lado haitiano es el derrocamiento del Gobierno del presidente Vincent y cuyo fin mediato del lado dominicano es la «dominicanización» de la frontera y, si es posible, un pequeño paseo militar por territorio haitiano. [Tesis de conjura sin pruebas]",
+     "afirmaciones": [
+      "A-172",
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, cols. 2-3",
+     "cita_original": "cette délégation ou plus exactement certains membres de cette délégation, — entre autres Tomas Hernandez Franco —, avaient pour mission de préparer la «Cinquième Colonne» à Port-au-Prince et d'avoir une dernière conversation avec le Candidat à la Présidence qui devait remplacer Vincent en cas de succès du mouvement projeté.",
+     "traduccion": "esa delegación, o más exactamente ciertos miembros de ella, entre otros Tomás Hernández Franco, tenían por misión preparar la «Quinta Columna» en Puerto Príncipe y tener una última conversación con el candidato a la presidencia que debía reemplazar a Vincent si el movimiento proyectado tenía éxito. [Alude a la delegación dominicana de agosto de 1937 (Ortega Frier); sin fuente]",
+     "afirmaciones": [
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, col. 3",
+     "cita_original": "Combien grande est l'erreur de ces politiciens haïtiens qui croient pouvoir s'appuyer sur Trujillo pour prendre le pouvoir ! [...] Ainsi s'expliquent Vincent - Lescot - Trujillo et Cie.",
+     "traduccion": "¡Qué grande es el error de esos políticos haitianos que creen poder apoyarse en Trujillo para tomar el poder! [...] Así se explican Vincent - Lescot - Trujillo y Cía.",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-172",
+    "A-173",
+    "A-190"
+   ],
+   "id_existente": "",
+   "notas": "Versión haitiana de 1950 de las causas de 1937: no es una decisión autónoma de Trujillo sino una conjura con complicidades haitianas contra Vincent (compárese con el testimonio anónimo dominicano en Price-Mars 1953, F-0109, p. 311, y con la historia oral de «negocio de tierras» en F-0322). Cifra de 22.000 sin base, dentro de la banda haitiana de 1950 (más que los 12.136 de Price-Mars en 1953). Término: «noche triste» (analogía con Hernán Cortés, desarrollada en la columna). [POR VERIFICAR: el autor; las entregas I-II no se leyeron.] En la misma serie, entrega IV (3-II-1950), el texto sobre Roland dice que «Roland est l'homme de Trujillo avant même son transfert dans la diplomatie» (lectura OCR, no cotejada a la vista).",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Moniteur, journal officiel de la République d'Haïti, 92.º año, 17 ediciones del 4-X al 29-XI-1937 (lunes y jueves): búsqueda de menciones de la matanza",
+   "autor": "République d'Haïti (Candelon Rigaud, directeur du Moniteur)",
+   "anio": "1937",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04810/10-04-1937_pdf.txt",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04811/10-07-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04812/10-11-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04813/10-14-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04814/10-18-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04815/10-21-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04816/10-25-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04817/10-28-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04818/11-01-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04819/11-04-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04820/11-08-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04821/11-11-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04823/11-15-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04823/11-18-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04824/11-22-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04825/11-25-1937_pdf.txt",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/04826/11-29-1937_pdf.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Constatación de ausencia por búsqueda de palabras clave en el texto OCR (ruidoso, sin tildes en muchas líneas) de 17 ediciones; no se leyeron íntegras.",
+   "proveniencia": "Diario oficial del Estado haitiano (publica leyes, decretos, actas del Senado y la Cámara, comunicaciones protocolares), digitalizado por UFDC/dLOC. Las ediciones del 4-X al 29-XI-1937 cubren el periodo de la matanza, las negociaciones y el comienzo de la reclamación diplomática.",
+   "extractos": [
+    {
+     "ubicacion": "17 ediciones, 4-X a 29-XI-1937 (texto OCR; búsqueda de «massacre», «Dajabon», «Gondra», «Trujillo», «Ciudad Trujillo», «Dominicanie», «rescap», «carnage», «tuerie», «Hispaniola»)",
+     "cita_original": "",
+     "traduccion": "En las 17 ediciones del 4-X al 29-XI-1937 no hay ningún resultado para «massacre», «Dajabon», «Gondra», «Trujillo», «Dominic*», «Dominicanie», «rescap», «tuerie» ni «Hispaniola»; «carnage» solo como topónimo («Habitation Carnage»); «frontière» una sola vez, el 7-X-1937, en una descripción de linderos de un terreno («A l'Est: la frontière haïtiano-dominicaine», cerca de Morne la Selle). «Dominicain» solo aparece fuera de ese rango: 6, 13 y 16 de septiembre (visita de Ortega Frier y comisiones) y 2 de diciembre (crédito de repatriamiento, ya registrado como M13-N78). [Constatación de ausencia en OCR, no cita]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "edición del 22-XI-1937 (OCR parcial y ruidoso), resolución de la Cámara de Diputados",
+     "cita_original": "l'Ile de «La Navase»",
+     "traduccion": "[En la edición del 22-XI-1937 la Cámara vota una resolución sobre la isla de «La Navase» (Navassa) y la plena desocupación del país por EE. UU.; en las páginas rastreadas no hay debate sobre la matanza, que Le Nouvelliste ya llevaba tres semanas cubriendo.]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-192"
+   ],
+   "id_existente": "",
+   "notas": "Apoya, como constatación de silencio del órgano oficial (no como prueba), la versión de que el gobierno de Vincent no trató públicamente la matanza (A-192; Turits/Island Luminous: «prohibited public discussion»); contrasta con Le Nouvelliste, que sí informó (M13-N52 a N61) bajo censura parcial. Limitación: el OCR omite partes; una ausencia de palabra clave no equivale a ausencia de texto. No se buscó en las ediciones de diciembre de 1937 a febrero de 1938 salvo la del 2-XII (M13-N78).",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Moniteur, journal officiel de la République d'Haïti, lunes 6 de febrero de 1950, pp. 103-104: arrêté de Dumarsais Estimé que abre un crédito para indemnizar a la Comisión Especial de Juristas haitianos «formée à l'occasion de l'actuel conflit haïtiano-dominicain»",
+   "autor": "République d'Haïti (Dumarsais Estimé, président; Secrétaire d'État des Relations Extérieures)",
+   "anio": "1950-02-06",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/05161/02-06-1950.pdf",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/05161/02-06-1950_pdf.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial impreso, considerando leído a la vista en la imagen de la p. 103 (continúa en p. 104); es un acto administrativo breve.",
+   "proveniencia": "Diario oficial haitiano, arrêté presidencial con considerandos en el contexto del conflicto Estimé-Trujillo (caso Roland, 1949-50); abre un crédito extraordinario para indemnizar a los miembros de la comisión de juristas que representó a Haití ante la comisión de investigación de la OEA (enero-febrero de 1950). El Moniteur no da aquí los nombres; Martínez (Clío 2016, p. 401) cita a Bellegarde, Kernisan, Carrié y Delatour y a Price-Mars.",
+   "extractos": [
+    {
+     "ubicacion": "p. 103, col. 3 (final), considerandos del último arrêté de la página",
+     "cita_original": "Considérant qu'il convient d'accorder des indemnités aux membres de la Commission Spéciale des Juristes Haïtiens formée à l'occasion de l'actuel conflit haïtiano-dominicain",
+     "traduccion": "Considerando que conviene conceder indemnizaciones a los miembros de la Comisión Especial de Juristas Haitianos formada con ocasión del actual conflicto haitiano-dominicano. [Los arrêtés contiguos están fechados el 4-II-1950; la fecha de este no se leyó]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "id_existente": "",
+   "notas": "Prueba oficial haitiana, de fecha concreta, de que el gobierno de Estimé calificaba de «conflit haïtiano-dominicain» la crisis de 1949-50 y creó una comisión de juristas; sirve de base primaria a la secuencia que Martínez (Clío 2016) reconstruye con los archivos de la OEA. No trata 1937 ni braceros. El número del Moniteur y la fecha del arrêté no se leyeron en el recorte.",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Élie Léocadie Lescot (1941-1946) (ficha n.º 26 de la Embajada de Haití en Francia)",
+   "autor": "Embajada de Haití en Francia; Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne (obra de base)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/07/26.-Elie-Le%CC%81ocadie-Lescot-1941-1946.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis oficial de 4 pp. sin notas, derivada de una obra de referencia haitiana; solo útil como versión institucional.",
+   "proveniencia": "Ficha biográfica oficial publicada en 2021 por la Embajada de Haití en Francia (serie «Chefs d'État haïtiens»), elaborada a partir de Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne, Chefs d'État en Haïti: Gloire et misères, 1804-1986 (Fondation pour la Recherche Iconographique et Documentaire y Archives Nationales d'Haïti). Escribe para un público general; sin notas; interés institucional de presentar a los jefes de Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2 (perfil personal)",
+     "cita_original": "Accusé d'avoir été à la solde de Trujillo, Lescot président n'est ni chaud partisan de Trujillo ni un homme vénal : il hypothèque et perd sa maison du Manoir des Lauriers pour aider Juan Bosch, opposant à Trujillo",
+     "traduccion": "Acusado de haber estado a sueldo de Trujillo, Lescot, ya presidente, no es ni ferviente partidario de Trujillo ni hombre venal: hipoteca y pierde su casa del Manoir des Lauriers para ayudar a Juan Bosch, opositor de Trujillo.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 3 (el mandato)",
+     "cita_original": "Un complot ourdi aux casernes Dessalines, que l'on pense commandité par Trujillo pour faire assassiner Lescot, entraîne l'exécution sans jugement de sept sous-officiers et soldats et le limogeage des colonels Jules André et Durcé Armand.",
+     "traduccion": "Un complot urdido en los cuarteles Dessalines, que se piensa encargado por Trujillo para hacer asesinar a Lescot, acarrea la ejecución sin juicio de siete suboficiales y soldados y la destitución de los coroneles Jules André y Durcé Armand. [Coincide con la lectura de Price-Mars de 1944: el complot con armas de «Préstamo y Arriendo»]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 3 (el mandato)",
+     "cita_original": "Il décrète le nonce Silvani persona non grata et le renvoie à Rome.",
+     "traduccion": "Declara al nuncio Silvani persona non grata y lo devuelve a Roma. [Silvani medió en el acuerdo de 1938]",
+     "afirmaciones": [
+      "A-176"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-176"
+   ],
+   "id_existente": "",
+   "notas": "Versión oficial haitiana de la relación Lescot-Trujillo: «accusé d'avoir été à la solde de Trujillo» pero exculpado; contrasta con Price-Mars 1953 (F-0109, p. 319: Trujillo se jacta de haber financiado su elección, vía Hicks) y con Mervilus (Paulino habría sugerido a Lescot en 1940). El expediente de la ficha es desmentido o matizado por ellos; no hay documentos en ninguno de los textos. [POR VERIFICAR: la expulsión del nuncio Silvani en 1941 y su fecha.] Discrepancia de fecha: la ficha dice que Lescot fue elegido el 15-IV-1941 por 56 votos de 58 (p. 2); Price-Mars (F-0109, t. II p. 317) dice «le 17 avril 1941 ... à l'unanimité des suffrages».",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Dumarsais Estimé (1946-1950) (ficha n.º 27 de la Embajada de Haití en Francia)",
+   "autor": "Embajada de Haití en Francia; Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne (obra de base)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/07/27.-Dumarsais-Estime%CC%81-1946-1950.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis oficial de 4 pp. sin notas, derivada de una obra de referencia haitiana.",
+   "proveniencia": "Ficha biográfica oficial publicada en 2021 por la Embajada de Haití en Francia (serie «Chefs d'État haïtiens»), elaborada a partir de Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne, Chefs d'État en Haïti: Gloire et misères, 1804-1986 (Fondation pour la Recherche Iconographique et Documentaire y Archives Nationales d'Haïti). Escribe para un público general; sin notas; interés institucional de presentar a los jefes de Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2 (perfil personal)",
+     "cita_original": "Il appuie toutes les modifications constitutionnelles voulues par Vincent dont il devient le secrétaire d'Etat de l'Instruction publique, de l'Agriculture et du Travail de novembre 1937 à novembre 1940.",
+     "traduccion": "Apoya todas las modificaciones constitucionales deseadas por Vincent, de quien llega a ser secretario de Estado de Instrucción Pública, Agricultura y Trabajo de noviembre de 1937 a noviembre de 1940. [Estimé, que en abril de 1936 había propuesto el Nobel de la Paz para Vincent y Trujillo, entra en el gabinete de Vincent un mes después de la matanza]",
+     "afirmaciones": [
+      "A-181",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "p. 1 (acontecimientos mayores)",
+     "cita_original": "Inauguration de la ville nouvelle de Belladère (1948)",
+     "traduccion": "Inauguración de la ciudad nueva de Belladère (1948). [Ciudad fronteriza frente a Elías Piña, escenario del encuentro de cancilleres de 1946 y de Magloire-Trujillo en 1951]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 3 (el mandato)",
+     "cita_original": "Un complot contre la sûreté de l'Etat est découvert, lié au président dominicain Trujillo.",
+     "traduccion": "Se descubre un complot contra la seguridad del Estado, vinculado al presidente dominicano Trujillo. [Contexto: abril-mayo de 1950, estado de sitio y caída de Estimé el 10-V-1950]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-181",
+    "A-192"
+   ],
+   "id_existente": "",
+   "notas": "Versión oficial haitiana sobre Estimé: noirismo, caída el 10-V-1950 y complot ligado a Trujillo; la ficha no menciona el caso Roland ni la OEA. Para el texto sobre 1949-1950 ver Le Nouvelliste 28-I, 3-II y 4-II-1950, el Moniteur del 6-II-1950 y Martínez (Clío 2016). Dato nuevo: Estimé pasó del Nobel de la Paz para Vincent y Trujillo (1-IV-1936, J. Dupuy 2025) al gabinete de Vincent (nov. 1937).",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Paul Magloire (1950-1956) (ficha n.º 28 de la Embajada de Haití en Francia)",
+   "autor": "Embajada de Haití en Francia; Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne (obra de base)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/07/28.-Paul-Magloire-1950-1956.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis oficial de 4 pp. sin notas; condensa 1951-52 en una frase imprecisa (Héctor Trujillo, acuerdo).",
+   "proveniencia": "Ficha biográfica oficial publicada en 2021 por la Embajada de Haití en Francia (serie «Chefs d'État haïtiens»), elaborada a partir de Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne, Chefs d'État en Haïti: Gloire et misères, 1804-1986 (Fondation pour la Recherche Iconographique et Documentaire y Archives Nationales d'Haïti). Escribe para un público general; sin notas; interés institucional de presentar a los jefes de Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 4 (le monde extérieur)",
+     "cita_original": "Les relations, carrément mauvaises sous Estimé, reprennent avec la République Dominicaine. Hector Trujillo vient en visite officielle, un accord est signé pour l'embauche légale des travailleurs saisonniers haïtiens en République Dominicaine.",
+     "traduccion": "Las relaciones, francamente malas bajo Estimé, se reanudan con la República Dominicana. Héctor Trujillo viene en visita oficial y se firma un acuerdo para la contratación legal de trabajadores estacionales haitianos en la República Dominicana.",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187"
+   ],
+   "id_existente": "",
+   "notas": "Versión institucional haitiana: la reanudación con la RD y el acuerdo de braceros se presentan bajo Magloire. Datos que la ficha no da: fecha (5-I-1952, F-0338; Price-Mars 1953; Manigat 2007, F-0113), el encuentro Magloire-Trujillo del 19-II-1951 con Rafael Trujillo (M13-N44), ni la visita de Héctor B. Trujillo (abril de 1952, M13-N63). La cronología es consistente con la lectura de Manigat (F-0113 t. 5): Magloire, no Duvalier, firmó el primer acuerdo.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: François Duvalier (1957-1971) (ficha n.º 30 de la Embajada de Haití en Francia)",
+   "autor": "Embajada de Haití en Francia; Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne (obra de base)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/07/30.-Franc%CC%A7ois-Duvalier-1957-1971.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis oficial de 4 pp. sin notas; no trata 1957-61 con Trujillo.",
+   "proveniencia": "Ficha biográfica oficial publicada en 2021 por la Embajada de Haití en Francia (serie «Chefs d'État haïtiens»), elaborada a partir de Oriol, Michèle; Vilaire, Patrick; Wieser, Corinne, Chefs d'État en Haïti: Gloire et misères, 1804-1986 (Fondation pour la Recherche Iconographique et Documentaire y Archives Nationales d'Haïti). Escribe para un público general; sin notas; interés institucional de presentar a los jefes de Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 3 (le monde extérieur)",
+     "cita_original": "Arc-bouté sur un nationalisme volontiers menaçant, Duvalier est en conflit avec tous ses voisins. L'arrivée au pouvoir de Juan Bosch en République Dominicaine permet l'installation là-bas de nombreux opposants.",
+     "traduccion": "Apoyado en un nacionalismo gustosamente amenazante, Duvalier está en conflicto con todos sus vecinos. La llegada al poder de Juan Bosch en la República Dominicana permite la instalación allí de numerosos opositores. [Se refiere a 1963; sobre Trujillo (1957-61) la ficha no dice nada]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "id_existente": "",
+   "notas": "Constatación de silencio: la ficha oficial de Duvalier no menciona a Trujillo, la reunión de Malpasse-Jimaní (22-XII-1958, M13-N64) ni el convenio de braceros de 1959 (M13-N50, N51, N71); su única referencia dominicana es la de Bosch en 1963 (M14). Para esa etapa ver Mervilus y Saint-Victor, y los primarios de R1.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le massacre de 1937 (columna «Le Coin de l'histoire», Le Nouvelliste, 9-X-2013)",
+   "autor": "Dupuy, Charles",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/122206/Le-massacre-de-1937.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato detallado de un columnista de historia de un diario de referencia, con fechas, nombres y cifras del acuerdo, pero sin notas ni fuentes; las cifras de la indemnización coinciden con FRUS 1938 y el Moniteur de 1939, pero contiene errores de fecha.",
+   "proveniencia": "Charles Dupuy, autor de la columna «Le Coin de l'histoire» (Le Nouvelliste, Puerto Príncipe), cuyo pie anuncia la aparición de su 5.º tomo recopilatorio; escribe en octubre de 2013, en el 76.º aniversario, para el lector urbano haitiano. Narrativa de síntesis sin citas; usa los mismos hechos que Price-Mars (cónsul Fabre, obispo Jan, Carrié, Silvani, colonias agrícolas).",
+   "extractos": [
+    {
+     "ubicacion": "párr. «Ces assassinats massifs...»",
+     "cita_original": "Bien que l'évaluation du nombre exact des victimes de ce carnage soit bien difficile à établir, les observateurs les plus crédibles s'accordent habituellement autour du chiffre de vingt mille morts qui leur semble assez juste et nullement exagéré.",
+     "traduccion": "Aunque la evaluación del número exacto de víctimas de esta carnicería es muy difícil de establecer, los observadores más creíbles suelen coincidir en torno a la cifra de veinte mil muertos, que les parece bastante justa y de ningún modo exagerada. [Sin base ni autores]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Le 15 octobre...»",
+     "cita_original": "Le 15 octobre, le ministre plénipotentiaire d'Haïti à Ciudad Trujillo, Evremont Carrié et le ministre d'État dominicain des Relations extérieures, Joaquin Balaguer, signaient un accord",
+     "traduccion": "El 15 de octubre, el ministro plenipotenciario de Haití en Ciudad Trujillo, Evremont Carrié, y el secretario de Estado dominicano de Relaciones Exteriores, Joaquín Balaguer, firmaban un acuerdo [para evitar «comentarios exagerados» sobre los incidentes de la frontera norte]. [Price-Mars: «accord du 15 octobre 1937» firmado por Carrié con el ministro dominicano de Relaciones Exteriores; este autor da el nombre de Balaguer]",
+     "afirmaciones": [
+      "A-172",
+      "A-175"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Selon cet accord...»",
+     "cita_original": "Trujillo s'engageait à verser sept cent cinquante mille dollars au gouvernement haïtien, lequel donnait l'assurance que la somme serait employée au mieux des intérêts des victimes. La première tranche de deux cent cinquante mille dollars servit en effet à construire des colonies agricoles à Osmond, à Grand-Bassin, à Saltadère, à Biliguy et au Morne-des-Commissaires",
+     "traduccion": "Trujillo se comprometía a pagar setecientos cincuenta mil dólares al gobierno haitiano, el cual aseguraba que la suma se emplearía de la mejor manera en interés de las víctimas. La primera cuota, de doscientos cincuenta mil dólares, sirvió en efecto para construir colonias agrícolas en Osmond [Dosmond], Grand-Bassin, Saltadère, Biliguy y Morne-des-Commissaires. [Error del autor: el acuerdo se firmó en Washington el 31-I-1938, no en Puerto Príncipe el 26-II-1938]",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Selon cet accord...» (continuación)",
+     "cita_original": "Trujillo devait payer le solde de cinq cent mille dollars par tranches de cent mille [...]. En février 1939 cependant, Trujillo obtenait de la part des officiels haïtiens un rabais de deux cent vingt-cinq mille dollars après qu'il leur eut avancé par anticipation un peu plus de la moitié du solde, soit la somme de deux cent soixante-quinze mille dollars.",
+     "traduccion": "Trujillo debía pagar el saldo de quinientos mil dólares en cuotas de cien mil [...]. En febrero de 1939, sin embargo, Trujillo obtenía de los funcionarios haitianos una rebaja de doscientos veinticinco mil dólares después de haberles adelantado, anticipadamente, algo más de la mitad del saldo: doscientos setenta y cinco mil dólares. [250.000 + 275.000 = 525.000; 500.000 - 275.000 = 225.000]",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "párr. «La question des dédommagements...»",
+     "cita_original": "les citoyens indignés demeurèrent convaincus que les hauts fonctionnaires haïtiens avaient été stipendiés par Trujillo, lequel les avait probablement corrompus avec un argent qu'ils se seraient mesquinement empressés de partager.",
+     "traduccion": "los ciudadanos indignados siguieron convencidos de que los altos funcionarios haitianos habían sido sobornados por Trujillo, que probablemente los corrompió con un dinero que se habrían apresurado mezquinamente a repartirse. [Creencia popular recogida por el autor; sin prueba]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Chaque réfugié...»",
+     "cita_original": "On apprendra par la suite comment la direction des grandes compagnies sucrières dominicaines avaient refusé de livrer les braceros haïtiens aux éléments provocateurs lesquels, armés de piques et de machettes, les réclamaient à l'entrée de leurs usines.",
+     "traduccion": "Se sabrá después que la dirección de las grandes compañías azucareras dominicanas se negó a entregar a los braceros haitianos a los elementos provocadores que, armados de picas y machetes, los reclamaban a la entrada de los ingenios. [Apoya A-186; sin fuente]",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Le samedi 2 octobre 1937...»",
+     "cita_original": "Aux Dominicains qui se plaignent des déprédations de la part des Haïtiens qui vivent parmi eux, je réponds: nous régleront cette affaire! D'ailleurs, nous avons déjà commencé! Environ trois cents Haïtiens ont été tués à Banica. Et nous devons continuer à résoudre ce problème.",
+     "traduccion": "A los dominicanos que se quejan de las depredaciones de parte de los haitianos que viven entre ellos, les respondo: ¡arreglaremos este asunto! Por lo demás, ¡ya hemos comenzado! Unos trescientos haitianos han sido muertos en Bánica. Y debemos continuar resolviendo este problema. [Traducción francesa, sin cita de fuente]",
+     "afirmaciones": [
+      "A-182"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-172",
+    "A-175",
+    "A-176",
+    "A-182",
+    "A-186",
+    "A-190",
+    "A-192"
+   ],
+   "id_existente": "",
+   "notas": "Aporta trazabilidad aritmética a la cifra de 525.000 (A-176): 250.000 (primera cuota, FRUS 1938 l. 504 y 521, 26-II-1938) + 275.000 (pago anticipado de febrero de 1939; Moniteur 9-III-1939, M13-N36, «transaction ... 275.000 dollars») = 525.000; la «rebaja» de 225.000 es 500.000 - 275.000. La suma total pagada sigue sin una primaria que la enuncie [POR VERIFICAR]. Segunda versión francesa del discurso de Dajabón (comparar con Desroses 2023 y J. Dupuy 2025): el original español sigue sin localizarse (A-182). Errores del autor: fecha/lugar del acuerdo (31-I-1938, Washington), «ministre ... Balaguer» el 15-X-1937 [POR VERIFICAR contra el Moniteur del 4-XI-1937 o el texto del acuerdo], cifra de 20.000 sin fuente. Sesgo: relato patriótico y de indignación popular («vente au rabais du sang des malheureux paysans»).",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Les relations entre Haïti et la République Dominicaine (1930-1937): De l'entente cordiale au massacre des Haïtiens (Le Nouvelliste, 2-X-2025)",
+   "autor": "Dupuy, Joël (historien y diplomático)",
+   "anio": "2025",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/260472/les-relations-entre-haiti-et-la-republique-dominicaine-1930-1937-de-lentente-cordiale-au-massacre-des-haitiens",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio documental breve (11 min de lectura) de un historiador y diplomático haitiano con bibliografía y notas parciales, que sintetiza obras secundarias (Castor 1988, Corvington 1991, Manigat 2001, Supplice 2001 y 2009, Saint-Victor 2016); sin fuentes primarias propias.",
+   "proveniencia": "Joël Dupuy, historiador y diplomático haitiano, publica en el diario Le Nouvelliste (Puerto Príncipe) el 2-X-2025, en el 88.º aniversario, una síntesis de la «entente cordiale» 1930-1937 y de la matanza. Escribe para lectores haitianos y desde una posición de diplomático; cita explícitamente a Suzy Castor (CRESFED 1988, p. 16), a Daniel Supplice (Zafra, 2009, p. 51) y a Hérold Jean-François (1995).",
+   "extractos": [
+    {
+     "ubicacion": "sección 1, párr. sobre el 21-VIII-1937",
+     "cita_original": "L'Ambassadeur Dominicain en poste à Port-au-Prince. M. Enrique Jiménez, montrait des signes évidents de nervosité tandis que la presse locale faisait écho de rumeurs inquiétantes sur la nature d'incidents frontaliers au nord du pays en cette fin de septembre 1937.",
+     "traduccion": "El embajador dominicano en Puerto Príncipe, Enrique Jiménez, mostraba signos evidentes de nerviosismo mientras la prensa local se hacía eco de rumores inquietantes sobre la naturaleza de incidentes fronterizos en el norte del país a fines de septiembre de 1937.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "sección 1, párr. sobre 1936",
+     "cita_original": "le 1er avril 1936 les députés Dumarsais Estimé et Christian Laporte avaient proposé à la chambre législative de voter une résolution qui demandait au comité du Prix Nobel de la Paix de décerner le prix Nobel de la Paix de 1936 aux deux présidents Vincent et Trujillo.",
+     "traduccion": "el 1 de abril de 1936 los diputados Dumarsais Estimé y Christian Laporte habían propuesto a la cámara legislativa votar una resolución que pedía al comité del Premio Nobel de la Paz otorgar el Nobel de la Paz de 1936 a los dos presidentes, Vincent y Trujillo. [Coincide con Moniteur 3-IV-1941 y 18-III-1948, M13-N39 y N42]",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "sección 2, párr. «En effet, avec l'arrivée de Trujillo...»",
+     "cita_original": "Celui-ci est un génocide orchestré par l'armée et la police dominicaines sur environ 20.000 travailleurs agricoles haïtiens et de leurs familles installées dans les zones frontalières, nous rapporte Suzy castor, sous l'ordre du Président Trujillo.",
+     "traduccion": "Este es un genocidio orquestado por el ejército y la policía dominicanos sobre unos 20.000 trabajadores agrícolas haitianos y sus familias instaladas en las zonas fronterizas, nos refiere Suzy Castor, bajo la orden del presidente Trujillo. [Atribuye «environ 20.000» a Castor sin página; la nota 6 remite a Castor 1988, p. 16, solo para la cita de Dajabón]",
+     "afirmaciones": [
+      "A-169",
+      "A-171",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "sección 2, párr. «En effet, avec l'arrivée de Trujillo...» (cita de Dajabón; nota 6)",
+     "cita_original": "Aux dominicains qui se plaignent de ces déprédations de la part des haïtiens qui vivent parmi eux, je réponds : « Nous règlerons cette affaire. » D'ailleurs, nous avons déjà commencé. Environ trois cents haïtiens ont été tués à Banica. Et nous devons continuer à résoudre ce problème",
+     "traduccion": "A los dominicanos que se quejan de estas depredaciones de parte de los haitianos que viven entre ellos, respondo: «Arreglaremos este asunto». Por lo demás, ya hemos comenzado. Unos trescientos haitianos han sido muertos en Bánica. Y debemos continuar resolviendo este problema. [Versión francesa que remite a Castor 1988, p. 16; difiere de la de Desroses 2023 («Ce remède va se poursuivre»)]",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "sección 2, párr. «Alors, après l'évènement de 1937...»",
+     "cita_original": "Il a encouragé la venue des européens de l'est, d'italiens et de japonais pour blanchir la population dominicaine, surtout celle en zone frontalière afin de repousser la menace haïtienne",
+     "traduccion": "Alentó la llegada de europeos del este, italianos y japoneses para blanquear la población dominicana, sobre todo la de la zona fronteriza, a fin de rechazar la amenaza haitiana. [Sin fuente verificable en el HTML; nota [8] no identificada]",
+     "afirmaciones": [
+      "A-174",
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-171",
+    "A-174",
+    "A-181",
+    "A-182",
+    "A-185",
+    "A-190"
+   ],
+   "id_existente": "",
+   "notas": "Es la segunda fuente haitiana (con Desroses 2023) que reproduce en francés la cita de Dajabón, y la única que la remite a Castor (CRESFED 1988, p. 16); no cotejada con Castor [POR VERIFICAR]. Su atribución «environ 20.000» a Castor contradice la atribución «12.000 o más» de A-167: ninguna de las dos se verificó contra el libro. Sesgo: síntesis de diplomático; subraya la «entente cordiale» de 1930-37 y la ruptura de 1937; no discute motivos alternativos.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Les fondements historiques du racisme dominicain. Les origines de l'antihaitianismo (Histoire Engagée, 4-II-2016; versión retrabajada de textos previos en Nouveaux Cahiers du socialisme y AlterPresse)",
+   "autor": "Saint-Victor, Alain",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://histoireengagee.ca/les-fondements-historiques-du-racisme-dominicain-les-origines-de-lantihaitianismo/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de síntesis de un historiador haitiano con notas a secundarias (Sagás, Torres-Saillant, Candelario, Howard, Heinl y Heinl); sin fuentes primarias; sus cifras de 1937 y 1958 remiten a obras sin cotejar.",
+   "proveniencia": "Alain Saint-Victor, historiador haitiano [POR VERIFICAR: afiliación académica actual; la fecha 4-II-2016 viene de la bibliografía de J. Dupuy 2025, no de la página], publica en 2016 en el sitio colectivo canadiense Histoire Engagée una versión retrabajada de artículos suyos aparecidos en Nouveaux Cahiers du socialisme y en AlterPresse. Escribe para público general francófono; tesis: el antihaitianismo es una ideología de dominación de la élite dominicana, convertida en ideología de Estado bajo Trujillo.",
+   "extractos": [
+    {
+     "ubicacion": "sección sobre Trujillo, párr. «Au cours du long règne...»",
+     "cita_original": "Après le massacre de 1937 (selon certaines estimations entre 20 et 30 000 personnes y ont perdu la vie), le gouvernement de Trujillo y entreprit une intense campagne religieuse et éducative",
+     "traduccion": "Tras la matanza de 1937 (según ciertas estimaciones entre 20.000 y 30.000 personas perdieron la vida), el gobierno de Trujillo emprendió allí una intensa campaña religiosa y educativa. [Rango sin autor ni base: «selon certaines estimations»]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre Trujillo, párr. sobre Peña Batlle",
+     "cita_original": "Aux yeux de Pena Battle, le massacre de 1937 était nécessaire car l'Haïtien étant de la pure race africaine «est faible, mais très prolifique […]»",
+     "traduccion": "A los ojos de Peña Batlle, la matanza de 1937 era necesaria porque el haitiano, siendo de pura raza africana, «es débil, pero muy prolífico [...]». [Inferencia de Saint-Victor; la nota 22 remite al discurso de Elías Piña del 16-XI-1942 (vía Sagás), cinco años posterior a la matanza y no un texto sobre ella]",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "sección final",
+     "cita_original": "Sous Trujillo, l'antihaitianisme se transforme en idéologie d'État et imprègne les institutions publiques.",
+     "traduccion": "Bajo Trujillo, el antihaitianismo se transforma en ideología de Estado e impregna las instituciones públicas.",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre Trujillo, párr. «Cette idéologie raciste, toutefois...»",
+     "cita_original": "François Duvalier tira grand profit d'un accord signé en 1958 avec Trujillo, accord qui lui permit de gagner 7 millions dollars par an et qui procura une main-d'œuvre esclave aux industries sucrières",
+     "traduccion": "François Duvalier sacó gran provecho de un acuerdo firmado en 1958 con Trujillo, que le permitió ganar 7 millones de dólares al año y proporcionó una mano de obra esclava a las industrias azucareras. [Nota 25: Heinl y Heinl 1978; no verificado; cf. Mervilus: «entre 6 y 8 millones» y primarias de M13: convenio con Moniteur de enero de 1959]",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre el siglo XIX, párr. «L'identité nationale dominicaine...»",
+     "cita_original": "Cette thèse, défendue principalement par Jean Price-Mars[10], est encore objet de débats.",
+     "traduccion": "Esta tesis, defendida principalmente por Jean Price-Mars, sigue siendo objeto de debate. [«Esta tesis» = que la ocupación de Boyer habría sido querida por buena parte de la población dominicana; nota 10: Price-Mars, tomo I, 1953]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-179",
+    "A-187",
+    "A-190",
+    "A-193"
+   ],
+   "id_existente": "",
+   "notas": "Útil como lectura haitiana contemporánea del vínculo 1937 - ideología de Estado - braceros (antihaitianismo «de Estado» que no impide negociar mano de obra), cercana a Derby/Turits y a Moya Pons (citado por Mervilus). La frase sobre Peña Batlle es una atribución interpretativa. El 1958 de «un accord signé en 1958» alude a la reunión Duvalier-Trujillo de 22-XII-1958; los convenios de braceros están en la Gaceta del 29-XII-1959 y el Moniteur de enero-febrero de 1959 (R1). [El texto escribe «Pena Battle (1902-1954)»: dato de fecha no cotejado].",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le Massacre 1937: un devoir de mémoire (Rezo Nòdwès, octubre de 2023; también Le National, 3-X-2023, con muro)",
+   "autor": "Desroses, Bleck Dieuseul",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://rezonodwes.com/2023/10/haiti-rd-le-massacre-1937-un-devoir-de-memoire/",
+   "urls_alternativas": [
+    "https://lenational.org/post_article.php?tri=1356"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Ensayo de opinión en medio digital ciudadano, con notas parciales, que atribuye a Price-Mars un número que este no da y cita su tomo II con una paginación (p. 378) que no corresponde al original francés (el tomo II termina en la p. 334).",
+   "proveniencia": "Bleck Dieuseul Desroses, colaborador de medios haitianos (Rezo Nòdwès, Le National), escribe en octubre de 2023, en plena crisis por el canal de Ouanaminthe y las deportaciones, para el lector haitiano; mezcla a Price-Mars, Almoina, Ratzel, Ferro y Castor (C3 Éditions, 2018) y se apoya en Mervilus y en identitescaraibes.org.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Le discours de Trujillo à Dajabon»",
+     "cita_original": "Pour les Dominicains qui se plaignaient des déprédations par les Haïtiens qui vivent parmi eux, les vols de bétail, des provisions, fruits, etc., [...] j'ai répondu : Je vais corriger cela. Et nous avons déjà commencé à remédier à la situation. Trois cents Haïtiens sont morts aujourd'hui à Bánica. Ce remède va se poursuivre",
+     "traduccion": "Para los dominicanos que se quejaban de las depredaciones de los haitianos que viven entre ellos, los robos de ganado, provisiones, frutos, etc., [...] he respondido: voy a corregir eso. Y ya hemos comenzado a remediar la situación. Trescientos haitianos han muerto hoy en Bánica. Este remedio va a continuar. [Versión francesa más cercana a la cita que circula en inglés y español (A-182); sin fuente]",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "párr. tras el relato de Price-Mars",
+     "cita_original": "Au décompte, plus de 20 000 paysans haïtiens ont été massacrés à armes à feu, à couteaux sous les yeux passifs de l'armée et des autorités dominicaines qui font état par la suite d'actes isolés et d'incidents mineurs.",
+     "traduccion": "Al recuento, más de 20.000 campesinos haitianos fueron masacrados a tiros y a cuchilladas ante los ojos pasivos del ejército y de las autoridades dominicanas, que luego hablan de actos aislados e incidentes menores. [Sin fuente; la cifra de Price-Mars (t. II, p. 312) es 12.136]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre la indemnización",
+     "cita_original": "Celle-ci prévoyait le versement de 750 000 dollars à l'État haïtien en guise de dédommagement pour les familles des victimes. En réalité, seulement 525 000 dollars sont versées à raison de 25 dollars par victime.",
+     "traduccion": "Esta preveía el pago de 750.000 dólares al Estado haitiano como indemnización para las familias de las víctimas. En realidad solo se pagaron 525.000 dólares, a razón de 25 dólares por víctima. [Sin fuente; 525.000/25 = 21.000 víctimas implícitas]",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre la reacción haitiana",
+     "cita_original": "L'attitude défaitiste des autorités haïtiennes créa un profond malaise au sein de l'institution militaire et porta un groupuscule d'officiers à ourdir, en novembre 1937, une conspiration contre le président Sténio Vincent.",
+     "traduccion": "La actitud derrotista de las autoridades haitianas creó un profundo malestar en el seno de la institución militar y llevó a un grupúsculo de oficiales a urdir, en noviembre de 1937, una conspiración contra el presidente Sténio Vincent. [Price-Mars (p. 316-317) fecha la conjura de oficiales hacia fines de 1937 y enero de 1938 (coronel Calixte)]",
+     "afirmaciones": [
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-176",
+    "A-182",
+    "A-190",
+    "A-192"
+   ],
+   "id_existente": "",
+   "notas": "Prueba de circulación de las cifras «20.000» y «525.000» en la prensa haitiana actual (ambas sin fuente); el pasaje de Price-Mars que cita sí es exacto en contenido (cf. F-0109), pero la cifra de 20.000 la añade el autor. Sesgo: ensayo emocional; atribuye a Castor la tesis de la «preponderancia dominicana». Le National (3-X-2023) lleva el mismo título y el mismo autor, tras muro (solo el párrafo inicial se leyó con WebFetch).",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Le génocide d'octobre 1937 (Haiti-Référence, «Anniversaires du mois», 14-X-2017)",
+   "autor": "Haiti-Référence (sitio dirigido por Jean M. Antoine; texto sin firma)",
+   "anio": "2017",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.haiti-reference.info/pages/2017/10/14/le-genocide-doctobre-1937/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Efeméride sin firma con notas mínimas (una cita de Norweb vía Nixon, 1969-83; el documento de la Unión Panamericana de 1938); las cifras de «7.000 del gobierno» y «30.000» no tienen fuente.",
+   "proveniencia": "Haiti-Référence, sitio haitiano de referencia («Dictionnaire», «Notables», «Anniversaires du mois»), publica el 14-X-2017 una nota conmemorativa sin firma que califica la matanza de genocidio. Para público general haitiano y de la diáspora.",
+   "extractos": [
+    {
+     "ubicacion": "párr. «Les historiens n'ont jamais pu...»",
+     "cita_original": "Le gouvernement haïtien d'alors parla de 7,000 compatriotes assassinés, mais le nombre de 30,000 furent avancés par les enquêteurs et les chercheurs un peu plus tard.",
+     "traduccion": "El gobierno haitiano de entonces habló de 7.000 compatriotas asesinados, pero los investigadores y estudiosos adelantaron algo más tarde la cifra de 30.000. [Sin fuente; la «cifra del gobierno» de 7.000 no coincide con ningún otro texto de M13]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Le refus de complicité...»",
+     "cita_original": "Avec l'approbation du président Trujillo, une campagne systématique d'extermination a été conduite contre les résidents Haïtiens… et menée avec une efficacité impitoyable par la police nationale et l'armée…",
+     "traduccion": "Con la aprobación del presidente Trujillo, se ha conducido una campaña sistemática de exterminio contra los residentes haitianos... y llevada con una eficacia despiadada por la policía nacional y el ejército... [Atribuido a un cable del embajador Norweb, vía Nixon, FDR and Foreign Affairs, 1969-83, vol. 7, pp. 121-125; no cotejado con FRUS]",
+     "afirmaciones": [
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Stenio Vincent...»",
+     "cita_original": "accepta une maigre indemnité des Dominicains. US$750,000.00 d'après le document de règlement du litige",
+     "traduccion": "aceptó una magra indemnización de los dominicanos: 750.000 dólares según el documento de arreglo de la controversia. [Nota 3: Settlement of the Dominican-Haitian controversy, Unión Panamericana, 1938, p. 3]",
+     "afirmaciones": [
+      "A-176"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-172",
+    "A-176",
+    "A-190"
+   ],
+   "id_existente": "",
+   "notas": "Introduce una cifra haitiana nueva, 7.000, atribuida sin fuente al «gobierno haitiano de entonces» (no a Vincent ni a una comisión), junto a «30.000» (que coincide con Hurbon 1987, F-0888, también sin base). Sesgo: nota conmemorativa. Se registra para que la tabla de cifras de A-190 incluya el rango haitiano 7.000-30.000 con autoría «anónima».",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Engaños y verdades (Rebelión, 17-VII-2015)",
+   "autor": "Boisrolin, Henry (coordinador del Comité Democrático Haitiano)",
+   "anio": "2015",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://rebelion.org/?p=333658",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión de un activista haitiano de izquierda (sentencia TC/0168/13 y deportaciones de 2015) sin fuentes; invierte la secuencia documentada de la negociación de 1938.",
+   "proveniencia": "Henry Boisrolin, coordinador del Comité Democrático Haitiano, escribe en español para el portal de izquierdas Rebelión el 17-VII-2015, en plena crisis de deportaciones tras el Plan de Regularización; contexto: crítica al gobierno de Martelly y a la élite haitiana («oligarquía») por pasividad en 1937 y 2015. Voz haitiana en español y no académica.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "Hasta ahora, los historiadores no se ponen de acuerdo en cuanto a la cantidad de personas asesinadas desde el 28 de setiembre de 1937 hasta el 8 de octubre del mismo año. Las autoridades dominicanas hablan siempre que fueron más de 500 y las haitianas más de 12.000.",
+     "traduccion": "[Original en español.] Sitúa el inicio el 28-IX y el fin el 8-X; atribuye a las autoridades dominicanas «más de 500» y a las haitianas «más de 12.000».",
+     "afirmaciones": [
+      "A-165",
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "la insólita y vergonzosa demanda de 750.000 dólares que había realizado el presidente Sténio Vincent de Haití. Una suma que Trujillo logró disminuir a unos 525.000 dólares.",
+     "traduccion": "[Original en español.] Presenta 750.000 como la demanda de Vincent y 525.000 como lo que Trujillo «logró disminuir»; FRUS 1938 y Price-Mars dan 1.500.000 como demanda haitiana y 750.000 como acuerdo.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "la indemnización nunca llegó a los familiares de las víctimas sino que quedó en las manos de algunos funcionarios haitianos.",
+     "traduccion": "[Original en español.] Afirma sin fuente que la indemnización no llegó a las víctimas.",
+     "afirmaciones": [
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-167",
+    "A-176",
+    "A-190",
+    "A-192"
+   ],
+   "id_existente": "",
+   "notas": "Representa la «crítica haitiana» de la destinación del dinero (A-192) en su versión radical; es contradicha parcialmente por Price-Mars (colonias agrícolas), C. Dupuy 2013 y el testimonio de Kirsil Joseph (F-0322). Sirve de evidencia de la circulación de 525.000 y de «más de 12.000» como cifra de las autoridades haitianas en la prensa de izquierda. Sin fuentes.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Contribution traditionnelle des politiciens haïtiens dans la construction de l'antihaïtianisme d'État en République Dominicaine (Medium, 22-IX-2019) y Un aperçu de la machine à tuer de Rafael Trujillo (Medium, 31-V-2018)",
+   "autor": "Mervilus, Gilbert (Medium: «Don Gilberto»)",
+   "anio": "2018-2019",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://gilbertmervilus.medium.com/contribution-traditionnelle-des-politiciens-ha%C3%AFtiens-dans-la-construction-de-lantiha%C3%AFtianisme-3be2b65cffe0",
+   "urls_alternativas": [
+    "https://gilbertmervilus.medium.com/un-aper%C3%A7u-de-la-machine-%C3%A0-tuer-de-rafael-trujillo-4d41454ed6df"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Notas de blog de un activista haitiano con citas parciales de Péan, Audain, Estrella Veloz y Heinl; documentos reproducidos como imágenes sin referencia verificable; fecha del convenio de 1952 errada.",
+   "proveniencia": "Gilbert Mervilus [POR VERIFICAR: abogado y militante de derechos humanos haitiano; firma como «Don Gilberto» en Medium] publica en 2018 y 2019 dos notas (la segunda, el 22-IX-2019) donde enlaza la «diplomacia de la zafra» con el antihaitianismo de Estado, apoyándose en Moya Pons (1995), Julio Jean-Pierre Audain (1976), Leslie Péan (AlterPresse, 2013; L'ensauvagement macoute), Santiago Estrella Veloz, Eddy Berg y Héctor Luis Martínez (Clío 2016). Interés: denunciar la complicidad de políticos haitianos.",
+   "extractos": [
+    {
+     "ubicacion": "párr. sobre Magloire (nota de 2019)",
+     "cita_original": "Le 5 février 1952 le Général de division Paul Eugène Magloire inaugure la modernité zafratique. Désormais les parties disposent d'un instrument légal pour faire affaires.",
+     "traduccion": "El 5 de febrero de 1952 el general de división Paul Eugène Magloire inaugura la modernidad «zafrática». En adelante las partes disponen de un instrumento legal para hacer negocios. [Fecha errónea: el acuerdo es del 5-I-1952 (Price-Mars, F-0338)]",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre 1958 (nota de 2019)",
+     "cita_original": "Le 22 décembre 1958, Rafael Leonidas Trujillo et François Duvalier signèrent un pacte de protection mutuelle. [...] De décembre 1958 à l'assassinat de Trujillo en mai 1961, «[…] Duvalier gagnait entre 6 et 8 millions US dans la vente des braceros»",
+     "traduccion": "El 22 de diciembre de 1958, Trujillo y Duvalier firmaron un pacto de protección mutua. [...] De diciembre de 1958 al asesinato de Trujillo en mayo de 1961, «Duvalier ganaba entre 6 y 8 millones de dólares en la venta de braceros». [Cita sin origen identificado en la nota]",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre la carta a Fouché (nota de 2019)",
+     "cita_original": "Par suite du refus du Gouvernement Sylvain d'exécuter l'accord que j'avais avec le Gouvernement MAGLOIRE pour l'envoi de travailleurs en République Dominicaine, la moitié de la récolte de canne est restée sur pied cette année.",
+     "traduccion": "Por el rechazo del Gobierno de Sylvain a ejecutar el acuerdo que yo tenía con el Gobierno de Magloire para el envío de trabajadores a la República Dominicana, la mitad de la cosecha de caña ha quedado en pie este año. [Carta atribuida a Trujillo, 6-V-1957, a Luc Fouché; fuente no indicada [POR VERIFICAR]]",
+     "afirmaciones": [
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre Lescot (nota de 2019)",
+     "cita_original": "En 1940, le général dominicain Anselmo Antonio Paulino Alvarez suggéra au «Benefactor»-président Rafael Trujillo le choix d'Elie Lescot comme président d'Haiti.",
+     "traduccion": "En 1940, el general dominicano Anselmo Antonio Paulino Álvarez sugirió al «Benefactor»-presidente Rafael Trujillo la elección de Élie Lescot como presidente de Haití. [Sin fuente; la nota de 2018 lo atribuye a Eddy Berg]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-186",
+    "A-187"
+   ],
+   "id_existente": "",
+   "notas": "Sirve como mapa de pistas, no como evidencia: (a) fecha de 5-II-1952 (contra 5-I-1952 de F-0109/F-0338/Manigat); (b) pacto de 22-XII-1958 (la declaración conjunta publicada en Le Nouvelliste, M13-N64, no menciona braceros); (c) carta a Fouché de 1957, de ser auténtica, mostraría que el acuerdo de Magloire seguía vigente en 1957 pese al vencimiento del 25-II-1958 (A-187, M13-N71); (d) cita a «Price-Mars» como epígrafe («Empêcher l'émigration clandestine au prix des châtiments drastiques contre les embaucheurs ...»): no hallada en el OCR de los tomos I y II de F-0109 [POR VERIFICAR]; (e) dice que Trujillo, con Estimé, usó «La Voz Dominicana» y que la caída de Calixte-candidato fue desviada por Estimé (sin fuente). Pistas útiles: Péan, AlterPresse, 18-X-2013 y L'ensauvagement macoute, p. 528 (pago de 2 millones el 14-I-1986), Audain 1976 (p. 125), Estrella Veloz, Martínez (Clío 2016).",
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Astrel Roland en el diferendo entre Trujillo y Estimé, 1946-1950 (Clío, n.º 192, jul.-dic. 2016, pp. 361-408; discurso de ingreso a la Academia Dominicana de la Historia)",
+   "autor": "Martínez, Héctor Luis",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2016-192-361-408.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio con documentos de los archivos de la OEA (Washington) y bibliografía haitiana, leído en las pp. 361-368 y 401 de 48; es discurso académico de ingreso, con enfoque en el papel de Roland como «señuelo» de Trujillo.",
+   "proveniencia": "Héctor Luis Martínez, historiador y profesor de la UASD, pronuncia este discurso de ingreso a la Academia Dominicana de la Historia en noviembre de 2016 (el pie del texto dice «2026» por errata); usa documentos de la OEA y obras como Pierre-Charles (1979) y Vega. Escribe para la Academia (público dominicano) sobre el conflicto Trujillo-Estimé; cita fuentes haitianas. Se registra pese a ser de tradición dominicana porque cubre el vacío 1946-1950 pedido para la lente haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 362 (PDF p. 2)",
+     "cita_original": "A comienzos de 1946, el Gobierno del presidente haitiano Elie Lescot estaba afectado por una fuerte crisis provocada por los efectos de su ruptura con Trujillo, de quien había sido aliado y marioneta hasta 1944",
+     "traduccion": "[Original en español.] Caracteriza a Lescot como «aliado y marioneta» de Trujillo hasta su ruptura en 1944 (interpretación del autor).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "pp. 365-366 (PDF pp. 5-6)",
+     "cita_original": "el encuentro de los cancilleres Jean Price-Mars y Manuel Arturo Peña Batlle, realizado en Elías Piña y Belladere, el 28 de septiembre de 1946; la Misión Despradel a Puerto Príncipe, en diciembre de ese año; y el intercambio de embajadas con la llegada de Jean Price-Mars a Ciudad Trujillo, en mayo de 1947.",
+     "traduccion": "[Original en español.] Fecha el encuentro de cancilleres en la frontera el 28-IX-1946 y la llegada de Price-Mars a Ciudad Trujillo en mayo de 1947.",
+     "afirmaciones": [
+      "A-187",
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "p. 366 (PDF p. 6), cita del informe de Peña Batlle del 9-V-1947 (archivos de la OEA)",
+     "cita_original": "Yo vivía dentro de una irritante discriminación, asistiendo solamente a reuniones de carácter diplomático, y a sitios de acceso público. La música dominicana era proscripta de toda diversión haitiana.",
+     "traduccion": "[Original en español, según Martínez; informe de Peña Batlle, «La agresión política en América: Trujillo contra Haití», Puerto Príncipe, 9-V-1947.] Describe el aislamiento de la misión dominicana en Puerto Príncipe en 1947, desde la mirada de Peña Batlle.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 401 (PDF p. 41)",
+     "cita_original": "El 24 de enero de 1950, se reunió con Jean Price-Mars, junto a los juristas Dantés Bellegarde, Clovis Kernisan, Evremont Carrié y Ferdinand Delatour, comisionados por el Gobierno Haitiano con la finalidad de estudiar la injerencia de Trujillo en la política interna de Haití",
+     "traduccion": "[Original en español.] La Comisión de investigación de la OEA se reunió en Puerto Príncipe con Price-Mars y los juristas comisionados por Haití; el Moniteur del 6-II-1950 ordena indemnizar a esa «Commission Spéciale des Juristes Haïtiens».",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-187",
+    "A-193"
+   ],
+   "id_existente": "",
+   "notas": "Tradición registrada: dominicana; se incluye por su valor para 1946-1950 y por citar a historiadores haitianos (Pierre-Charles 1979) y al texto de Price-Mars. Los dos hechos (encuentro en la frontera de septiembre de 1946; comisión de juristas de enero de 1950) están corroborados por fuentes haitianas primarias de esta ronda (Le Nouvelliste 4-II-1950; Moniteur 6-II-1950). Sesgo: lectura dominicana del «señuelo» Roland. No se leyeron las pp. 369-400 ni 402-408.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Un mundo destruido, una nación impuesta: la masacre haitiana de 1937 en la República Dominicana (Estudios Sociales, n.º 133, jul.-sep. 2003, pp. 77 ss.; versión resumida de HAHR 82:3, 2002), notas 2, 3 y 5 y bibliografía",
+   "autor": "Turits, Richard Lee",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/191/178/360",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico con aparato crítico; aquí solo se leyeron las notas 2, 3 y 5 y la bibliografía para trazar bases de cifras haitianas.",
+   "proveniencia": "Richard L. Turits (Universidad de Chicago, luego Michigan) publica en 2002 en HAHR y en 2003 en versión resumida en español (Estudios Sociales, AGN, Santo Domingo). Su nota 2 recoge las bases de cifras (Balaguer 1985; Sáez 1988; entrevistas de 1987-88 con el P. Robert) y remite a una fuente eclesiástica haitiana, Jan (1967). Se registra para este módulo porque identifica la única fuente haitiana de base de una lista nominal de víctimas.",
+   "extractos": [
+    {
+     "ubicacion": "n. 2, pp. 77-78",
+     "cita_original": "Un mes después de lo ocurrido, en Ouanaminthe, Haití (al otro lado del río desde Dajabón), el P. Émile Robert y otro sacerdote recogieron entre los refugiados los nombres de 2,130 personas asesinadas, si bien sólo pudieron entrevistar a un pequeño grupo de los que escaparon",
+     "traduccion": "[Original en español.] Fuente de base de una lista nominal de 2.130 víctimas recogida un mes después en Ouanaminthe por sacerdotes; Turits remite a Jan (1967), p. 82, y a una carta de Melville Monk (3-XI-1937, NARA RG 84). Es el único dato de lista nominal haitiana con autor y lugar.",
+     "afirmaciones": [
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "bibliografía",
+     "cita_original": "JAN, JEAN M. (1967), Col/ecta IV: Diocese du Cap-Haitien documents, 1929-1960, Rennes, Simon.",
+     "traduccion": "[OCR del PDF de Estudios Sociales; título: Collecta IV: Diocèse du Cap-Haïtien, documents 1929-1960, Rennes, Simon, 1967.] Obra eclesiástica haitiana (obispo Jean-Marie Jan, Cabo Haitiano) no localizada en línea.",
+     "afirmaciones": [
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "n. 5, p. 79",
+     "cita_original": "en un censo de 1935, 13% de la población fue registrada como «blanca», 19% «negra» y 68% «mestiza». Ver PRICE-MARS, JEAN (1958), p. 181",
+     "traduccion": "[Original en español.] Turits cita las proporciones del censo de 1935 a través de Price-Mars (ed. española de Madrid, 1958); el original francés da los recuentos absolutos (998.733 mestizos; 287.160 negros; 192.733 blancos) en t. II p. 327 (F-0109).",
+     "afirmaciones": [
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-189",
+    "A-190"
+   ],
+   "id_existente": "F-0174",
+   "notas": "Reintegra F-0174 con una comprobación de bases, no con nuevo contenido de Turits: (1) la lista de 2.130 nombres de Ouanaminthe se apoya en Jan (1967), obra eclesiástica haitiana; (2) las proporciones 13/19/68 % del censo de 1935 se remontan a Price-Mars, que cita el «Album de Oro» de 1935 (F-0109). El padre Robert (entrevistado en Guadalupe en 1988) estimaba «por lo menos 15.000» muertos, dato oral.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  },
+  {
+   "titulo": "Comprendre Haïti. Essai sur l'État, la nation, la culture (Paris, Karthala, 1987; edición electrónica UQAM), p. 34 y nota 10",
+   "autor": "Hurbon, Laënnec",
+   "anio": "1987",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/contemporains/hurbon_laennec/comprendre_haiti/comprendre_haiti.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo académico con notas; la cifra de 1937 no lleva nota ni fuente (se comprobó la nota 10).",
+   "proveniencia": "Laënnec Hurbon (n. 1940), sociólogo haitiano, escribe en 1987 en Francia (CNRS), tras la caída de Jean-Claude Duvalier, un ensayo sobre el Estado, la nación y la cultura; el apartado sobre migración (pp. 33-35) resume la historia de la emigración haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 34, apartado «Un rappel de l'évolution de la migration haïtienne»",
+     "cita_original": "Un coup d'arrêt semble être marqué avec le massacre de 30 000 Haïtiens ordonné par le dictateur Trujillo à Santo Domingo en 1937.",
+     "traduccion": "Un freno parece marcarse con la matanza de 30.000 haitianos ordenada por el dictador Trujillo en Santo Domingo en 1937. [La frase no tiene nota; la nota 10 (p. 34) remite a Lundahl sobre datos de migración y reconoce que no hay análisis sistemático]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 34, nota 10",
+     "cita_original": "On trouvera aussi quelques données empiriques sur la migration haïtienne dans Mats LUNDHAL, ibid., p. 624-635, qui reconnaît qu'aucune analyse systématique des facteurs déterminants de cette migration n'a été faite.",
+     "traduccion": "También se hallarán algunos datos empíricos sobre la migración haitiana en Mats Lundahl, ibid., pp. 624-635, quien reconoce que no se ha hecho ningún análisis sistemático de los factores determinantes de esa migración.",
+     "afirmaciones": [
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-190"
+   ],
+   "id_existente": "F-0888",
+   "notas": "Comprobación pedida por el crítico: la cifra «30 000» de Hurbon (1987, p. 34) no tiene base declarada (ni nota ni cita); coincide con el extremo alto de la banda «20-30.000» de Saint-Victor 2016 y con «30,000» de Haiti-Référence 2017, ambos también sin base. Su dato «hacia 1950, 19 000 haitianos» tampoco se funda.",
+   "urls_alternativas": [],
+   "modulos": [
+    "M13"
+   ],
+   "http_status": "200"
+  }
+ ]
+}

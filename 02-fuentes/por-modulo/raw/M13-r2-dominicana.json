@@ -1,0 +1,2200 @@
+{
+ "lente": "dominicana",
+ "modulo": "M13",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 27,
+ "busquedas_pendientes": [
+  "Hernández, Frank Marino (1973) sobre la inmigración haitiana: ficha en el catálogo de la ADH/AGN para cotejar los 52.657 haitianos de 1935 (Torres-Saillant cita 'Hernández 1973: 34-35')",
+  "Cassá, Roberto, «El racismo en la ideología de la clase dominante dominicana», Ciencia (INTEC) 3:1 (1976), pp. 59-86",
+  "Sáez, José Luis, Los jesuitas en la República Dominicana, t. I (1988), pp. 60-71 (Gallego 1937; 30.000 en la parroquia de Dajabón): catálogo de la ADH o del Archivo Histórico de las Antillas",
+  "Baud, «Constitutionally White: The Forging of a National Identity in the Dominican Republic» (Ethnicity in the Caribbean, 1996) en acceso abierto",
+  "Listín Diario y La Nación del 3-4 de octubre de 1937: hemeroteca de la BNPHU (si se concede acceso) o microfilm; el AGN solo digitaliza desde 1961",
+  "Cuello (1985) y Cuello (1997, contratos de braceros 1952-1986): copia abierta o ficha con índice",
+  "Moya Pons, Manual de historia dominicana (cap. sobre la era de Trujillo), pasaje de los ~18.000 haitianos: edición abierta o préstamo digital",
+  "Balaguer, La palabra encadenada (1985), p. 300 (17.000): copia abierta",
+  "Gaceta Oficial n.º 4424 (29-XII-1931) y el decreto del modelo de cédula (1932): Biblioteca del AGN (koha) o petición de copia de 'Legislación acerca de la cédula personal de identidad' (BNPHU, 1954)",
+  "Manuales actuales del MINERD (8.º grado y bachillerato) con el texto sobre 1937: portal historiadominicana.do (su API REST devolvió 406 por ModSecurity) o Educando",
+  "Memoria de relaciones exteriores de 1937 (BNPHU, 658 pp.): petición de copia"
+ ],
+ "lagunas": [
+  "El texto del discurso de Dajabón del 2-X-1937 (A-182) sigue sin localizar: ni la Colección Bernardo Vega ni el Catálogo de víctimas del AGN se pudieron abrir (agn.gob.do y colecciones.agn.gob.do dan 403 con desafío de Cloudflare); la prensa del AGN empieza en 1961 (Instructivo del AGN, PDF p. 7); la BNPHU no tiene el Listín Diario de 1937 y la Memoria de Relaciones Exteriores de 1937 (658 pp.) requiere solicitud de copia.",
+  "El expediente judicial de 1937-38 (A-183) sigue sin primaria dominicana: solo la versión oficial (Memorandum de 10-XII-1937: 'investigación policíaca' completada el 8-XI-1937; compromiso de 'investigación judicial') y FRUS 1938 ('about 70 vagrants').",
+  "Ley 247 (G.O. 4424), reglamento y modelo de cédula (A-164): sigue sin evidencia primaria de que la cédula consignara 'indio'. Lo nuevo es la versión rival (Candelario, vía reseña de Rodríguez 2023 y ficha de MUSE; Sagás; Betances) y la cartilla censal de 1945 (Blanco, Negro, Mulato, Amarillo, sin 'indio'); la compilación fiscal de 1954 (BNPHU) está por pedir.",
+  "Volúmenes originales del censo de 1935 y del conteo de 1936 (A-188, A-189): solo el Resumen del censo de 1950 republica el cuadro 'Raza y color' 1935 y la población extranjera 1935, pero la OCR no deja leer las celdas; la copia 'Censo nacional' 1936 de la BNPHU (23 pp.) parece ser la proclama.",
+  "Textos de Sáez (1988; 2002), Cuello (1985; 1997), Vega (vols. 1-4), Moya Pons (Manual), Balaguer (La palabra encadenada), Hernández (1973), Cassá (1976), Candelario (libro), Mayes (libro) y Sagás (libro) no se leyeron: solo reseñas, fichas editoriales o citas de segunda mano. Las cifras 17.000 (Balaguer) y 18.000 (Moya Pons) siguen sin primaria; Betances 1985 también da ~18 mil sin base, Despradel 1974 35 mil sin base.",
+  "Silencios: la Iglesia (Sáez 2019 documenta la misión jesuita de Dajabón desde 1936, pero no menciona la matanza; Hall 2021 cita a Pittini como mensajero de 250.000 USD en febrero de 1938); los rayanos y sobrevivientes (Bourgeois 2023 con registros parroquiales; Ornes 1958 y el pastor Barnes) solo llegan filtrados por investigadores; la base 'Permisos de residencia 1940-1954' del AGN (haitianos) no se pudo abrir. No hay testimonio directo de rayano o migrante leído en esta ronda.",
+  "Textos escolares del MINERD sobre 1937: solo el estudio comparado de González Canalda (2019), que analiza 1937 en los dos manuales haitianos y no en los dominicanos; falta un manual dominicano con el texto.",
+  "Constitutionally White (Baud 1996) no se obtuvo; la versión rival de Baud que se lee es la de 1993 (racismo anti-haitiano reciente, sintetizado por Trujillo)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "«incidente(s) ocurrido(s) en la frontera norte entre dominicanos y haitianos» / «incidente entre particulares dominicanos y haitianos»",
+   "tradicion": "dominicana (oficial, 1937-38)",
+   "nota": "Término oficial del Estado dominicano en el comunicado del 15-X-1937 y en el Memorandum del 10-XII-1937 (BNPHU); Trujillo lo repite en la entrevista a Prensa Unida. Es la versión oficial recogida por A-172; no debe usarse como descripción. Balaguer lo llamó también «pequeños incidentes» (columna de Vega 2022)."
+  },
+  {
+   "termino": "«dominicanización de la frontera» / «nacionalización fronteriza» / «nacionalización de las fronteras»",
+   "tradicion": "dominicana (oficial: Peña Batlle 1942; Balaguer 1955-1983)",
+   "nota": "Nombre oficial del programa de colonización, evangelización, escuela y control en las regiones fronterizas desde 1936-42. Peña Batlle (16-XI-1942) lo llama «plan oficial de dominicanización de la frontera»; Balaguer, «nacionalización fronteriza» (1955, prólogo; 1983 según F-0277 n. 3). Crítica: Despradel 1974; Mateo 1993."
+  },
+  {
+   "termino": "«cultura rayana»",
+   "tradicion": "dominicana (académica: Raymundo González 2010; Bourgeois 2023)",
+   "nota": "Cultura bilingüe y de doble pertenencia de los habitantes de la raya (la frontera); amplía la entrada «Rayano» del glosario. Se usa para describir la sociedad anterior a 1937; Bourgeois 2023 advierte (con Derby 1994) que había distinción clara entre dominicanos y haitianos, aunque cultural y no racial ni nacional."
+  },
+  {
+   "termino": "«genocidio» (de haitianos, 1937)",
+   "tradicion": "dominicana crítica (Despradel 1974; Bautista Betances 1985; Herrera 2022; Turits 2002) frente a «matanza» (Estado) y «corte» (popular)",
+   "nota": "La calificación de genocidio aparece en la bibliografía dominicana desde los años 70-80 (Despradel: «el genocidio de 35 mil haitianos»; Bautista Betances: «un genocidio sin precedentes en la historia dominicana»); el Estado dominicano y la tradición oficial dicen «incidente» o «corte». Se registra como interpretación, no como hecho (A-171)."
+  },
+  {
+   "termino": "«Era de Trujillo» / «trujillato» / «trujillismo»",
+   "tradicion": "dominicana (oficial: 'Era de Trujillo', 25 años de historia; crítica: trujillato, trujillismo, dictadura)",
+   "nota": "El régimen se nombró 'Era de Trujillo' (colección oficial de 1955, 'La era de Trujillo: 25 años de historia dominicana'); los críticos usan 'trujillato' y 'trujillismo'. Para el período 1930-1961 el corpus usa 'dictadura de Trujillo' como término descriptivo y anota el nombre oficial."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Instructivo: Recursos digitales en la web (Archivo General de la Nación, PDF de julio de 2025): Colección Bernardo Vega, Permisos de residencia 1940-1954, Catálogo de víctimas de la dictadura, Prensa diaria dominicana",
+   "autor": "Archivo General de la Nación (República Dominicana) (Roberto Cassá, director general; Daniel García, investigación)",
+   "anio": "2025",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/Instructivo-_Recursos_digitales_en_la_web_Final02.pdf",
+   "urls_alternativas": [
+    "https://agn.gob.do/",
+    "https://colecciones.agn.gob.do/opac/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Descripción institucional del propio AGN de sus bases digitales (cifras de fichas e imágenes, fondos que alimentan el catálogo de víctimas); describe las bases, no el contenido de los documentos.",
+   "proveniencia": "Folleto de 12 páginas del AGN (director general Roberto Cassá) que enseña al público a consultar en la web del AGN las bases de datos de fondos y colecciones digitales. Escrito por el propio archivo, con el interés de difundir sus servicios; sabe de primera mano qué fondos describe y cuántas imágenes tiene, no lo que dicen los documentos. Sirve de hoja de ruta para la evidencia resolutoria de 1937-38 (fondos Presidencia, Interior y Policía, Ejército Nacional, Procuraduría General).",
+   "extractos": [
+    {
+     "ubicacion": "Colección Bernardo Vega, PDF p. 8",
+     "cita_original": "Se trata de una compilación documental realizada por el historiador Bernardo Vega en archivos de Estados Unidos, Inglaterra y República Dominicana. Conforma un acervo de primer orden",
+     "traduccion": "[Los extractos de este PDF se citan por página del PDF.]",
+     "afirmaciones": [
+      "A-182",
+      "A-183",
+      "A-184",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "Colección Bernardo Vega, PDF p. 8",
+     "cita_original": "Incluye información sobre los primeros gobiernos republicanos, la primera intervención norteamericana (1916-1924), el gobierno de Horacio Vásquez (1924-1930), la dictadura de Rafael L. Trujillo (1930-1961)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-182",
+      "A-183",
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "Colección Bernardo Vega, PDF p. 8",
+     "cita_original": "Se digitalizaron 176 microfilms y 158 cajas de documentos en papel. El balance de este trabajo arrojó un total de 29,104 fichas de descripción y 199,795 imágenes",
+     "traduccion": "[Volumen de la colección: base para estimar cuánto de la documentación de EE. UU. sobre 1937 está en línea.]",
+     "afirmaciones": [
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "Prensa diaria dominicana, PDF p. 7",
+     "cita_original": "Esta base de datos ofrece la consulta en línea de artículos publicados a partir del año 1961 en los periódicos Patria, La Nación, Listín Diario, El Caribe y La Información",
+     "traduccion": "[Confirma que el Listín Diario de octubre de 1937 no está en línea en el AGN.]",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "Permisos de residencia, PDF p. 9",
+     "cita_original": "Base de datos que permite localizar información de ciudadanos de otros países que solicitaron o renovaron permisos de residencia durante el periodo 1940-1954. El mayor volumen de registros corresponde a las nacionalidades española, china, italiana, haitiana e inglesa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "Catálogo de víctimas de la dictadura, PDF p. 11",
+     "cita_original": "Pone a disposición de los usuarios informaciones contenidas en la prensa escrita y en documentos localizados en los fondos Presidencia de la República, Secretaría de Estado de Interior y Policía, Ejército Nacional",
+     "traduccion": "[La frase sigue: «Procuraduría General de la República y Secretaría de Estado de Relaciones Exteriores».]",
+     "afirmaciones": [
+      "A-165",
+      "A-183"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-166",
+    "A-182",
+    "A-183",
+    "A-184",
+    "A-186",
+    "A-187",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Las bases mismas NO se pudieron abrir: curl y WebFetch a agn.gob.do y colecciones.agn.gob.do devuelven HTTP 403 con la pantalla de verificación de Cloudflare ('Just a moment...'); no se intentó eludirla. Por tanto el contenido de la Colección Bernardo Vega (docs. 738.39, Norweb, Banica), del Catálogo de víctimas (1937-38, Dajabón, Montecristi, Procuraduría General) y de Permisos de residencia sigue sin consultar: hay que pedirlo al AGN o hacerlo desde un navegador humano. Complementa a F-0246 (portal AGN, catálogo de publicaciones) y a M13-N23/N24 (fichas de colecciones.agn.gob.do leídas en la ronda 1). [POR VERIFICAR] si la base de víctimas indexa 1937 y qué tipología (a-e) la contiene."
+  },
+  {
+   "titulo": "Informativo AGN, Año III, n.º 3 (enero-julio de 2017): donación de la Colección Bernardo Vega al AGN y política de recuperación de documentos en el exterior",
+   "autor": "Archivo General de la Nación (República Dominicana)",
+   "anio": "2017",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/Informativo_AGN_enero_-_julio_2017.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Boletín institucional de noticias del AGN: describe la colección con cifras y declaraciones de Vega, sin catálogo ni citas de documentos.",
+   "proveniencia": "Boletín del AGN de 2017 (director Roberto Cassá) que reseña la entrega de la colección documental de Bernardo Vega y fija la política de copiar documentos de archivos extranjeros. Escrito por el personal del AGN para un público de investigadores y mecenas (agradece al empresario Juan B. Vicini Lluberes), con interés institucional; recoge declaraciones de Vega, Sang Ben y Tejada sobre origen y alcance de la colección.",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 1",
+     "cita_original": "la colección Bernardo Vega proveniente sobre todo del Archivo Nacional de Estados Unidos y los documentos remitidos desde Londres por el entonces embajador británico Steven Fischer",
+     "traduccion": "[Origen: documentación de la RD copiada de archivos de EE. UU. y del Reino Unido.]",
+     "afirmaciones": [
+      "A-182",
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 9",
+     "cita_original": "quien enfatizó que en adelante los investigadores no tendrán que ir a Washington a revisar esa valiosa información",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 9",
+     "cita_original": "aclaró que los documentos que no están incluidos, después de 1959, es porque no se encuentran aún digitalizados en Estados Unidos, aunque informó que sí están desclasificados",
+     "traduccion": "[El corte en 1959 no afecta a 1937-38.]",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 9",
+     "cita_original": "Serán sometidos a revisión, descripción y tratamiento archivístico cada uno de los casi 135 mil documentos y colgados en la página web del AGN",
+     "traduccion": "[Cifra de documentos (~135.000) distinta de las 199.795 imágenes del Instructivo: unidades distintas.]",
+     "afirmaciones": [
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-182",
+    "A-183",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "La página es un boletín de 17 páginas a varias columnas; las citas están tomadas de la extracción en orden de lectura (pdftotext sin -layout). Los dos números (135.000 documentos; 29.104 fichas y 199.795 imágenes en el Instructivo de 2025) corresponden a unidades distintas y a momentos distintos de la catalogación. No dice qué parte trata de Haití o de 1937. Fecha de entrega de la colección: no precisada en las páginas leídas [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Trujillo: Little Caesar of the Caribbean (New York: Thomas Nelson & Sons, 1958)",
+   "autor": "Ornes, Germán E. (Germán Emilio Ornes Coiscou) [segundo apellido POR VERIFICAR]",
+   "anio": "1958",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/trujillolittleca013349mbp/trujillolittleca013349mbp_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/trujillolittleca013349mbp"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testimonio de un periodista dominicano exiliado, bien informado de la vida interna del régimen pero sin aparato crítico y con la cifra de 1937 sin base declarada.",
+   "proveniencia": "Germán E. Ornes, dominicano que fue editor jefe de El Caribe, al que llama «la máquina de propaganda trujillista», hasta un exilio posterior a 1956 (relato propio, l. 4226-4227 y 4301 del txt; fecha exacta POR VERIFICAR), escribió el libro en Nueva York para el público estadounidense, con propósito abiertamente antitrujillista (prefacio). Nació hacia 1919 (tenía 11 años en 1930, l. 154) y no fue testigo de 1937. Sabe de primera mano la censura periodística y el funcionamiento del régimen; las cifras de 1937 y el relato del caso Barnes son de segunda mano.",
+   "extractos": [
+    {
+     "ubicacion": "l. 4966-4968 del txt (djvu)",
+     "cita_original": "Then the jury of international public opinion found him guilty as charged of ordering and directing the massacre of more than 15,000 Haitians living in the Dominican Republic",
+     "traduccion": "Entonces el jurado de la opinión pública internacional lo halló culpable de ordenar y dirigir la matanza de más de 15.000 haitianos que vivían en la República Dominicana.",
+     "afirmaciones": [
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "l. 7579-7581 del txt (djvu)",
+     "cita_original": "The Army as a whole bears part of the responsibility for the horrible massacre of 15,000 Haitian peasants in October 1937",
+     "traduccion": "El Ejército en su conjunto comparte la responsabilidad de la horrible matanza de 15.000 campesinos haitianos en octubre de 1937.",
+     "afirmaciones": [
+      "A-165",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "l. 10640-10641 del txt (djvu)",
+     "cita_original": "big news events like the massacre of 15,000 Haitians on Dominican soil in 1937 are still waiting to be reported in full by the local press",
+     "traduccion": "hechos noticiosos de bulto como la matanza de 15.000 haitianos en suelo dominicano en 1937 siguen esperando ser contados por completo por la prensa local.",
+     "afirmaciones": [
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "l. 6854-6857 del txt (djvu); caso del pastor episcopal Charles Raymond Barnes, muerto el 27-VII-1938",
+     "cita_original": "Barnes had smuggled out of the country a few letters, addressed to friends and relatives in the United States, giving vivid accounts of the massacre of Haitian peasants ordered by the Generalissimo a few months earlier",
+     "traduccion": "Barnes había sacado del país unas cartas, dirigidas a amigos y parientes en EE. UU., con relatos vívidos de la matanza de campesinos haitianos ordenada por el Generalísimo unos meses antes.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "l. 4990-4991 del txt (djvu)",
+     "cita_original": "Trujillo offered haven in Dominican territory, in 1938, to 100,000 suffering German refugees seeking safer homes.",
+     "traduccion": "Trujillo ofreció en 1938 refugio en territorio dominicano a 100.000 refugiados alemanes sufrientes que buscaban hogares más seguros.",
+     "afirmaciones": [
+      "A-185"
+     ]
+    },
+    {
+     "ubicacion": "l. 4996-4997 del txt (djvu)",
+     "cita_original": "not even 1,000 of the 100,000 invited refugees ever set foot on Dominican soil",
+     "traduccion": "ni siquiera 1.000 de los 100.000 refugiados invitados pisaron suelo dominicano.",
+     "afirmaciones": [
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-168",
+    "A-172",
+    "A-185"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Cifra: 15.000 con la base 'jurado de la opinión pública internacional' y sin cálculo propio (es de segunda mano; coincide con la cifra de Turits y Paulino, no es independiente). Para A-185 sirve de contraste crítico dominicano con la versión oficial de Évian: el texto afirma que menos de 1.000 de los 100.000 invitados llegaron (cifra sin fuente; las cifras de Sosúa, ~750, siguen sin primaria). El caso Barnes es un relato de oídas: el propio Ornes dice que 'los detalles quedan sepultados bajo versiones contradictorias' (l. 6866-6867). Voz dominicana de la oposición exiliada; sesgo: antitrujillista militante. El caso Barnes no se contrastó con fuente diplomática de EE. UU. [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Historia apresurada de la presencia jesuita en el Caribe de habla castellana (Estudios Sociales, año 51, vol. XLII, n.º 159, mayo-agosto 2019, pp. 127-132)",
+   "autor": "Sáez, José Luis, S.J.",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/137/127/253",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo breve de un historiador eclesiástico de la ADH con notas a prensa de época; solo documenta la fundación de la misión fronteriza, no su papel en 1937.",
+   "proveniencia": "José Luis Sáez, S.J., sacerdote jesuita hispanodominicano y miembro de número de la Academia Dominicana de la Historia (nota al pie del artículo), resume la historia de su orden en el Caribe hispano para la revista del Centro Bonó (jesuita). Habla desde dentro de la Iglesia; sabe de primera mano los archivos de la orden (cita ARSI) y cita el Listín Diario de 26-VII-1936. Es la fuente (con Sáez 1988-90) del dato de los misioneros que el resto de la literatura usa para estimar víctimas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 129 (PDF p. 3); la fecha del acuerdo, 15-IV-1935, está en la frase anterior",
+     "cita_original": "el Estado dominicano —léase el gobierno de Rafael L. Trujillo— firmó un acuerdo con la Iglesia dominicana para la “cristianización” de la parte norte de la frontera con Haití, entregándole luego esta misión a La Compañía de Jesús",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 129 (PDF p. 3)",
+     "cita_original": "El que sería primer superior de la misión fronteriza, el P. Felipe Gallego, S.J., llegó por vez primera a Dajabón, entonces dotado de una pequeña capilla de madera con techo de zinc, el domingo 1.º de agosto de 1936",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. 129 (PDF p. 3)",
+     "cita_original": "Pronto se unirían los PP. Segundo Vázquez (5 septiembre 1936), el H. Juan José Muñoa (5 enero 1937), el P. Eloy Mariscal (6 febrero 1937), el P. Andrés Álvarez (27 de junio de 1937",
+     "traduccion": "[Los jesuitas ya estaban en Dajabón en octubre de 1937: de esa presencia salen los testimonios de misioneros que Bourgeois, Turits y Derby citan vía Sáez 1988.]",
+     "afirmaciones": [
+      "A-169"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-177",
+    "A-181"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Silencio por ausencia: el artículo (6 pp.) no menciona la matanza de 1937 ni a Haití más allá de la 'cristianización de la frontera'. El dato de los ~30.000 residentes en la parroquia de Dajabón (cálculo residual de A-169, que la ronda 1 atribuye a Turits citando a Sáez) y el 80-90 % de desaparecidos en la montaña que Bourgeois 2023 cita de Gallego (1937) vía Sáez están en Sáez, Los jesuitas en la República Dominicana, I (Santo Domingo, 1988), pp. 60-71 [según el crítico y Bourgeois; el libro no se localizó en línea]. La nota 6 remite a Listín Diario 47: 15.213 (26-VII-1936), p. 3, col. 3 (primaria no leída; no digitalizada en línea). Lente: voz de la Iglesia."
+  },
+  {
+   "titulo": "A la sombra de los mangos. Frontera(s), raza y nación en República Dominicana (Cuadernos Inter.c.a.mbio sobre Centroamérica y el Caribe, vol. 20, n.º 2, e56252, 2023)",
+   "autor": "Bourgeois, Catherine",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.redalyc.org/journal/4769/476974800006/476974800006.pdf",
+   "urls_alternativas": [
+    "https://revistas.ucr.ac.cr/index.php/intercambio/article/view/56252"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo arbitrado (CC BY-NC-ND) de una antropóloga con trabajo de campo en la frontera norte 2007-2021 y análisis de archivos parroquiales de Dajabón.",
+   "proveniencia": "Catherine Bourgeois, antropóloga (investigadora independiente en Ciudad de México en 2023, según el artículo; doctorado en Ciencias Políticas y Sociales por la Universidad Libre de Bruselas, 2016, según un resumen de búsqueda de su CV, no abierto), publica en una revista arbitrada de la UCR un balance de su estudio socio-antropológico en la zona fronteriza dominico-haitiana norte (2007-2021) con registros parroquiales, testimonios y entrevistas. Sabe de primera mano los libros de bautizos y matrimonios de Dajabón y las conmemoraciones de 1937; la reconstrucción de 1937 es de segunda mano (Derby y Turits, Vega, Sáez).",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 11",
+     "cita_original": "Historiadores y sociólogos dominicanos llaman esta cultura la “cultura rayana” (González, 2010)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12; cita a Raymundo González (2010)",
+     "cita_original": "los rayanos (habitantes de la frontera) eran bilingües y poseían una doble cultura",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 11",
+     "cita_original": "Los registros de bautizos y de matrimonios de la parroquia de Dajabón (norte de la zona fronteriza, del lado dominicano) de la época muestran las alianzas y uniones entre dominicanos y haitianos en toda la región",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12",
+     "cita_original": "los trabajos de Lauren Derby (1994) muestran que existía una noción clara de distinción entre haitianos y dominicanos. Las distinciones entre las dos poblaciones a nivel local no tenían tanto que ver con el territorio, la nacionalidad o lo racial, sino con lo cultural",
+     "traduccion": "[Matiz a la tesis de igualitarismo: distinción cultural clara, no racial ni nacional.]",
+     "afirmaciones": [
+      "A-178"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 14",
+     "cita_original": "Con su llegada al poder en 1930, el dictador Rafael L. Trujillo continuó el programa de nacionalización de la frontera a través de medidas que se pueden organizar en cuatro módulos: colonización, represión, evangelización y discurso antihaitiano (Capdevila, 1998)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179",
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 15; cita Bourgeois 2016, p. 115",
+     "cita_original": "Muestran una caída drástica del porcentaje de niños y niñas de apellidos francófonos y creolófonos bautizados en la parroquia de Dajabón: su número llega a un 41 % de los infantes bautizados entre diciembre de 1936 y octubre de 1937, y solo a un 2 % para el año siguiente",
+     "traduccion": "[Indicador demográfico indirecto, no un recuento de víctimas.]",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 15; cita 'Gallego, 1937 como se cita en Sáez, 1988'",
+     "cita_original": "los testimonios de sacerdotes que recorrieron la zona, después de la masacre, o que recibieron víctimas y familiares de desaparecidos en Haití hablan de un 80 % o 90 % de gente desaparecida en la zona montañosa de la frontera",
+     "traduccion": "[Voz de la Iglesia (misioneros jesuitas) vía Sáez 1988; el original no se localizó.]",
+     "afirmaciones": [
+      "A-168",
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 15; cita Bourgeois 2018a",
+     "cita_original": "Los cuerpos fueron arrojados en el Río Masacre y en fosas comunes. No hubo entierros y los militares prohibieron las celebraciones en memoria a todos los desaparecidos hombres, mujeres e infantes",
+     "traduccion": "[Afirmación sin referencia a exhumaciones ni estudio forense.]",
+     "afirmaciones": [
+      "A-191",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 16; cita Derby y Turits 2006",
+     "cita_original": "La mayoría de la población civil dominicana no participó en la masacre y a veces intentó esconder a vecinos y parientes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-178"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-168",
+    "A-169",
+    "A-172",
+    "A-177",
+    "A-178",
+    "A-179",
+    "A-181",
+    "A-190",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Hallazgo pedido por el crítico (silencios: rayanos, Iglesia, migrantes). El artículo recoge además la 'primera versión oficial' (agricultores y ganaderos dominicanos excedidos por robos; Sánchez Lustrino, 1938, que niega la participación militar), la obligación de cédula para cruzar la frontera (Derby 1994) y el rango 12.000-20.000 'desaparecidos' (Báez Evertsz 1984; Derby y Turits 2006). No aporta fuente primaria nueva sobre la orden de Trujillo. La referencia 'Bourgeois 2016' (tesis ULB, Au-delà des collines [título según F-0294; no verificado]) y 'Bourgeois 2018a' (capítulo de F-0294) no se leyeron aparte. Sesgo: crítica del discurso nacionalista antihaitiano y de sus efectos migratorios (según su propio resumen). Los registros parroquiales son la única base cuasi-censal independiente del Estado para la zona."
+  },
+  {
+   "titulo": "Una frontera-refugio: dominicanos y haitianos contra el Estado (1870-1930) (Estudios Sociales, año XXVI, n.º 92, abril-junio de 1993, pp. 39-64; trad. de Montserrat Planas Alberti)",
+   "autor": "Baud, Michiel",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/441/427/853",
+   "urls_alternativas": [
+    "https://www.academiadominicanahistoria.org.do/wp-content/uploads/2021/07/MichielBaud-MCE.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico con aparato de notas y base en archivos dominicanos (AGN, Gobierno Militar; prensa) de un historiador especialista de la RD; la parte posterior a 1930 es de síntesis.",
+   "proveniencia": "Michiel Baud (Universidad Erasmiana de Rotterdam al publicar, según la nota 1 del artículo; después director del CEDLA en Ámsterdam y miembro correspondiente extranjero de la ADH, según la ficha de la ADH) publica en la revista del Centro Bonó una versión en español de su estudio de la sociedad fronteriza 1870-1930 'basado principalmente en documentos dominicanos'. Habla desde la historia social comparada, con interés en mostrar la autonomía de la frontera frente al Estado. Sabe de primera mano los expedientes del AGN (Gobierno Militar, Interior y Policía); lo que dice de 1937 y de Trujillo es síntesis.",
+   "extractos": [
+    {
+     "ubicacion": "p. 40 (PDF p. 2)",
+     "cita_original": "En la República Dominicana esta política fue complementada por una ideología anti-haitiana de inspiración racial. Esto condujo durante el régimen de Trujillo (1930-1961) a una vehemente política nacionalista",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179",
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 40 (PDF p. 2); resumen inicial del artículo",
+     "cita_original": "una violenta represión que condujo a la matanza de miles de haitianos en el año 1937",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "p. 42 (PDF p. 4) (OCR corregido: «espariol», «cofor»)",
+     "cita_original": "Casi todos eran bilingües: hablaban español y creol francés (patois). Los juicios sobre su procedencia haitiana se basaban usualmente en el color de la piel",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. 62 (PDF p. 24); dos frases separadas por un párrafo",
+     "cita_original": "En el curso del siglo XX, el anti-haitianismo tomó un giro de racismo virulento […] Finalmente, durante el régimen de Trujillo, fueron sintetizados en una coherente ideología racista",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "nota 24, p. 62 (PDF p. 24) (OCR corregido: «Ullimamente»)",
+     "cita_original": "Esta idea acerca de los orígenes relativamente recientes del racismo anti-haitiano no es común en la historiografía dominicana. Últimamente, Bernardo Vega ha sugerido una visión parecida, 1988: 24-25",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179",
+      "A-174"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-174",
+    "A-177",
+    "A-179",
+    "A-181"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0140",
+   "notas": "Corrige F-0140: la URL registrada (academiadominicanahistoria.org.do/.../MichielBaud-MCE.pdf) es solo la ficha biográfica de Baud en la ADH (1 página); el texto de 'Una frontera-refugio' está en la URL de Estudios Sociales 92 (PDF de 2,6 MB, 1.133 líneas). 'Constitutionally White' (Ethnicity in the Caribbean, ed. Gert Oostindie, 1996) NO se localizó en acceso abierto: sigue pendiente. Versión rival de la disputa 8: Baud fecha el racismo anti-haitiano virulento en el siglo XX (azúcar, mano de obra, movimiento obrero) y su síntesis en Trujillo, y admite que la idea 'no es común en la historiografía dominicana' (nota 24). El artículo cubre 1870-1930: sobre 1937 solo dice lo citado. Caracteriza la zona fronteriza con 'nichos de autonomía política y económica', lo que apoya A-177 pero no la igualdad de A-178."
+  },
+  {
+   "titulo": "A Case of Mistaken Identity: Antihaitianismo in Dominican Culture (ensayo en copia web de un curso, otoño de 2001)",
+   "autor": "Sagás, Ernesto",
+   "anio": "s. f. (c. 2001)",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "http://web.archive.org/web/20150915080647/http://faculty.webster.edu/corbetre/haiti/misctopic/dominican/antihaiti.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis breve, sin notas a página pero con lista de referencias, del autor del primer libro monográfico sobre el antihaitianismo; sirve como mapa de su tesis, no para hechos del período.",
+   "proveniencia": "Ernesto Sagás (filiación no dada en la copia; POR VERIFICAR) escribió el ensayo para un público universitario no especialista; la copia es material de curso (Ling 001, Universidad de Pensilvania, otoño 2001, según el registro) y no trae fecha ni datos de publicación. Tesis: el antihaitianismo es el resultado de una evolución larga de prejuicio racial (colonial), refinada en el siglo XIX y elevada a ideología de Estado con Trujillo, orquestada por élites. Cita a Tolentino Dipp, Despradel, Peña Batlle 1954, Balaguer 1947.",
+   "extractos": [
+    {
+     "ubicacion": "sección «The Origins of Antihaitianismo», párr. 1",
+     "cita_original": "The early origin of what later came to be known as antihaitianismo is to be found in the racial prejudices of the Spanish inhabitants of the colony of Santo Domingo (Tolentino Dipp 1973, 1992)",
+     "traduccion": "El origen temprano de lo que luego se llamó antihaitianismo está en los prejuicios raciales de los habitantes españoles de la colonia de Santo Domingo (Tolentino Dipp 1973, 1992).",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "párr. introductorio",
+     "cita_original": "Antihaitianismo is actually the present manifestation of the long-term evolution of racial prejudice, the selective interpretation of historical facts, and the creation of a nationalist Dominican false consciousness",
+     "traduccion": "El antihaitianismo es en realidad la manifestación actual de la evolución a largo plazo del prejuicio racial, la interpretación selectiva de hechos históricos y la creación de una falsa conciencia nacionalista dominicana.",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "sección «Antihaitianismo in the Trujillo Era», párr. 1",
+     "cita_original": "Relations between Haiti and the Dominican Republic from 1930 to 1937 were essentially cordial. In 1937, however, a massacre of Haitians by the Trujillo regime marked a drastic turn in Trujillo's Haitian policy",
+     "traduccion": "Las relaciones entre Haití y la RD de 1930 a 1937 fueron esencialmente cordiales. En 1937, sin embargo, una matanza de haitianos por el régimen de Trujillo marcó un giro drástico en su política haitiana.",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "sección «Antihaitianismo in the Trujillo Era», párr. 1",
+     "cita_original": "Trujillo used the 1937 massacre as the starting point of his policy to secure, develop, and transform the Dominican borderlands into a national showcase",
+     "traduccion": "Trujillo usó la matanza de 1937 como punto de partida de su política para asegurar, desarrollar y transformar la frontera dominicana en una vitrina nacional.",
+     "afirmaciones": [
+      "A-172",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "sección «The Origins of Antihaitianismo», sobre el mito del indio",
+     "cita_original": "Mulattoes, who make up the majority of the Dominican population, disappeared, to be replaced by the Dominican indio",
+     "traduccion": "Los mulatos, que son la mayoría de la población dominicana, desaparecieron, sustituidos por el indio dominicano.",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "cita de Peña Batlle 1954, pp. 67-68 (en la traducción de Sagás)",
+     "cita_original": "That type is frankly undesirable. Of pure African race, he cannot represent for us any ethnic incentive",
+     "traduccion": "Ese tipo es francamente indeseable. De raza netamente africana, no puede representar para nosotros incentivo étnico alguno.",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "sección «Antihaitianismo in the Trujillo Era»",
+     "cita_original": "Law 391 imposed jail terms, fines, and sometimes deportation for those found practicing voudou or luá (Gaceta Oficial, 20 September 1943)",
+     "traduccion": "La Ley 391 imponía cárcel, multas y a veces deportación a quienes practicaran vudú o luá (Gaceta Oficial, 20 de septiembre de 1943).",
+     "afirmaciones": [
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-172",
+    "A-179",
+    "A-180",
+    "A-181"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0840",
+   "notas": "Resuelve el pedido del crítico de releer F-0840: versión rival de la disputa 8 (origen colonial/decimonónico del antihaitianismo, 'estado' bajo Trujillo) y de la disputa 10 ('indio' como mito del siglo XIX que sustituye al mulato). La copia en web.archive.org se abrió y leyó completa en esta sesión (27.428 caracteres); el original de penn.edu sigue sin abrirse. La fecha del texto original es [POR VERIFICAR]. La cita de Peña Batlle es de Política de Trujillo (1954); no es de 1942. Lo de 'relaciones esencialmente cordiales 1930-1937' es afirmación de Sagás sin fuente en este texto."
+  },
+  {
+   "titulo": "Race and Politics in the Dominican Republic (Gainesville: University Press of Florida, 2000), ficha de Fulcrum con tabla de contenidos",
+   "autor": "Sagás, Ernesto",
+   "anio": "2000",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.fulcrum.org/concern/monographs/2801pj71g",
+   "urls_alternativas": [
+    "https://floridapress.org/9780813017631/race-and-politics-in-the-dominican-republic"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó la ficha de Fulcrum (títulos de capítulos y descripción); el libro está tras acceso institucional.",
+   "proveniencia": "Ernesto Sagás, University Press of Florida, 2000. Primer libro dedicado al antihaitianismo: sigue sus raíces coloniales, su refinamiento a fines del siglo XIX y su elevación a ideología de Estado con Trujillo (descripción editorial). La ficha de Fulcrum muestra un candado ('no tiene acceso') y la tabla de contenidos.",
+   "extractos": [
+    {
+     "ubicacion": "ficha de Fulcrum, tabla de contenidos (cap. 2 y 3), vía WebFetch (resumen del modelo; títulos por cotejar con la ficha)",
+     "cita_original": "Antihaitianismo and State Ideology during the Trujillo Era; Antihaitianismo as a Political Tool for Trujillo",
+     "traduccion": "El antihaitianismo y la ideología de Estado en la era de Trujillo; El antihaitianismo como herramienta política de Trujillo",
+     "afirmaciones": [
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0083",
+   "notas": "Resuelve parcialmente F-0083: la URL de Fulcrum es https://www.fulcrum.org/concern/monographs/2801pj71g (la búsqueda por 'concern/monographs?q=' dio 404); confirma que NO es acceso abierto ('You don't have access to this book'), de modo que el libro sigue sin leerse. Capítulos según la ficha: 1 «Antihaitianismo: From Colonialism to the Twentieth Century»; 2 «Antihaitianismo and State Ideology during the Trujillo Era»; 3 «Antihaitianismo as a Political Tool for Trujillo»; 4 «Antihaitianismo Ideology in the Post-Trujillo Period»; 5 «Balaguer and the Cohabitation of Antihaitianismo with Democracy». Los títulos pasaron por el resumen del modelo de WebFetch: [POR VERIFICAR] literalmente. Lo que dice Sagás sobre 1937 se toma del ensayo F-0840, no del libro."
+  },
+  {
+   "titulo": "El racismo integrante del antihaitianismo [el título impreso dice «antihaitianismo haitiano»: errata evidente] (Estudios Sociales, año XVIII, n.º 59, enero-marzo de 1985, pp. 61-76)",
+   "autor": "Bautista Betances, Agapito",
+   "anio": "1985",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/661/647/1293",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de enfoque sociológico en la revista del Centro Bonó, con notas, de tesis explícita (clase dominante) y sin trabajo de archivo; sus citas de Balaguer y Peña Batlle son de segunda mano.",
+   "proveniencia": "Agapito Bautista Betances publica en 1985 (Joaquín Balaguer era presidente) una periodización del antihaitianismo (colonia, ocupación de 1822-44, siglo XIX, Era de Trujillo, actualidad) que dice inspirada en el trabajo de Lil Despradel, con enfoque sociológico crítico; el texto menciona la solidaridad hacia los haitianos de 'un gran número de miembros de la Iglesia católica'. Sabe de oídas la matanza de 1937; no cita archivo propio.",
+   "extractos": [
+    {
+     "ubicacion": "p. 61 (PDF p. 1), 1.- Antecedente: período colonial",
+     "cita_original": "En realidad, el racismo en las clases altas dominicanas tiene sus orígenes en la época colonial",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 63 (PDF p. 3)",
+     "cita_original": "la continua recurrencia al mecanismo del indio fue configurando una raza social, \"el indio dominicano\", que fue patentizada definitivamente durante la dictadura de Trujillo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 63 (PDF p. 3)",
+     "cita_original": "en todos los censos que clasifican la población dominicana en colores, la cantidad de blancos e \"indios\" es siempre superior a la de los negros. Esto porque a la hora de especificar el color, el mulato claro es un \"blanco\", el mulato oscuro es un \"indio\", y el negro es un \"indio oscuro\"",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 72 (PDF p. 12), 2.4 La Era de Trujillo",
+     "cita_original": "Durante la dictadura de Trujillo el antihaitianismo adquirió su forma definitiva, siendo Peña Batlle su mayor exponente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 73 (PDF p. 13) (OCR: «18 mH» = «18 mil»)",
+     "cita_original": "la matanza de unos 18 mil haitianos; un genocidio sin precedentes en la historia dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-168",
+      "A-171"
+     ]
+    },
+    {
+     "ubicacion": "p. 73 (PDF p. 13); carta de Balaguer a El Tiempo (Bogotá), 11-X-1945, citada de C. Cornielle 1980",
+     "cita_original": "Los incidentes de 1937, contrariamente a lo que afirman los enemigos del gobierno dominicano, fueron provocados por las incursiones armadas que las poblaciones de Haití, radicadas en las zonas fronterizas, venían realizando con frecuencia sistemática",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-168",
+    "A-171",
+    "A-172",
+    "A-179",
+    "A-189"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0872",
+   "notas": "Dominicano crítico-interno (1985) que ofrece: (a) una versión rival de la disputa 8 (raíz colonial, no 1937); (b) la cifra de ~18.000 sin base (coincide con la atribuida a Moya Pons; no independiente); (c) la cita de la carta de Balaguer a El Tiempo (Bogotá, 11-X-1945), de la que da fuente de segunda mano (Cornielle, Proceso histórico domínico-haitiano, 1980, pp. 239-240): [POR VERIFICAR] el original. Cautela de A-189: la afirmación de que 'en todos los censos' el mulato claro cuenta como blanco y el oscuro como 'indio' NO se cumple en los instrumentos leídos aquí (cartilla de 1945: Blanco, Negro, Mulato, Amarillo; censo de 1950: blanca, negra, mestiza, amarilla), donde 'indio' no es categoría censal; podría referirse a la cédula o al uso social. El texto no cita fuente primaria para la categoría. Sesgo: tesis de clase; no mide el antihaitianismo popular."
+  },
+  {
+   "titulo": "República Dominicana, o la cuestión racial como misterio (reseña de April J. Mayes, The Mulatto Republic: Class, Race, and Dominican National Identity, 2014) (A Contracorriente, vol. 12, n.º 1, otoño de 2014, pp. 394-400)",
+   "autor": "San Miguel, Pedro L.",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://acontracorriente.chass.ncsu.edu/index.php/acontracorriente/article/download/1341/2280/4306",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña extensa y crítica de un historiador universitario especialista en la RD que resume la tesis de Mayes sin sustituir la lectura del libro.",
+   "proveniencia": "Pedro L. San Miguel (Universidad de Puerto Rico, Recinto de Río Piedras, según el PDF), autor de La isla imaginada, reseña el libro de Mayes (2014) y aprovecha para plantear la pregunta de fondo de la historiografía dominicana sobre raza: si el antihaitianismo es esencia nacional o perversión instilada por las clases dominantes o por el Estado trujillista. Sabe de primera mano la bibliografía; no sustituye al libro de Mayes.",
+   "extractos": [
+    {
+     "ubicacion": "p. 397 (PDF p. 4)",
+     "cita_original": "Tal es el caso de su argumentación en torno a la existencia en la República Dominicana, en el siglo XIX, de imaginarios e ideologías que no suscribían las posturas abiertamente racistas y antihaitianas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 399 (PDF p. 6)",
+     "cita_original": "¿será la sociedad dominicana—es decir, su gente, el pueblo—verdaderamente racista y, por extensión antihaitiana, o será ello sólo una especie de espejismo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 399 (PDF p. 6); continúa: «—como arguyen varios intelectuales dominicanos, sobre todo de los identificados con la izquierda política—o por el Estado, sobre todo en su versión trujillista»",
+     "cita_original": "serán, más bien, una perversión instilada en la sociedad por sus clases dominantes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 398 (PDF p. 5)",
+     "cita_original": "el de cómo vincular las ideologías expresadas por los intelectuales con las creencias, las percepciones y las vivencias de las masas anónimas de dominicanos de la centuria antepasada",
+     "traduccion": "[Límite metodológico: la historia de las ideas de élite no prueba las creencias de las masas.]",
+     "afirmaciones": [
+      "A-179",
+      "A-178"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-178",
+    "A-179"
+   ],
+   "modulos": [
+    "M09",
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0143",
+   "notas": "Mismo texto ya registrado como vía de F-0143; se añade M13. The Mulatto Republic (Mayes) NO se leyó; solo esta reseña. Mayes (San Pedro de Macorís; Hostos y Luperón) sostiene según San Miguel que en el siglo XIX hubo ideologías raciales distintas del antihaitianismo; San Miguel opina que Bonó pensó mejor el asunto y que la hispanidad de las élites de San Pedro fue reacción a la inmigración. San Miguel no fecha el antihaitianismo: plantea la disyuntiva (esencia nacional vs. producto de élites/Estado). Útil para A-179: el debate de fondo es abierto y dividido entre dominicanos de izquierda (perversión instilada) y otros."
+  },
+  {
+   "titulo": "Introduction to Dominican Blackness (Dominican Studies Research Monograph Series, CUNY Dominican Studies Institute, 2.ª ed., 2010; 1.ª ed. 1994)",
+   "autor": "Torres-Saillant, Silvio",
+   "anio": "2010 (1.ª ed. 1994)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.ccny.cuny.edu/sites/default/files/dsi/upload/Introduction_to_Dominican_Blackness_Web.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica con aparato de notas del director fundador del CUNY DSI; las cifras y la afirmación sobre la cédula son de segunda mano (Hernández 1973) y sin primaria.",
+   "proveniencia": "Silvio Torres-Saillant (profesor en Syracuse University según la nota del autor del PDF; fundador del CUNY DSI según el prólogo) publicó la monografía en 1994 y la reeditó en 2010 con una nueva introducción (el prólogo de la 2.ª ed. lo dice); es una de las voces centrales de la crítica a la identidad racial dominicana (posición declarada en el prólogo: primer análisis de la historia dominicana 'a través de un lente racial'). Escribe para el público académico de la diáspora; sabe de primera mano la historiografía y la sociedad dominicana, no los expedientes de la cédula.",
+   "extractos": [
+    {
+     "ubicacion": "p. 45 (PDF p. 50)",
+     "cita_original": "Thus, the regime gave currency to the term indio (Indian) to denominate the complexion of people of mixed ancestry. The term assumed official status in so far as the national identification card (cédula) gave it as a skin color designation during the three decades of the dictatorship and beyond",
+     "traduccion": "Así, el régimen dio curso al término indio para denominar la tez de las personas de ascendencia mixta. El término adquirió estatus oficial en la medida en que la cédula de identidad nacional lo consignaba como designación de color de piel durante las tres décadas de la dictadura y después.",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 45 (PDF p. 50)",
+     "cita_original": "the cultural commissars of the Trujillo regime preferred it primarily because the term was devoid of any semantic allusion to the African heritage and would, thus, accord with their negrophobous definition of Dominicanness",
+     "traduccion": "los comisarios culturales del régimen de Trujillo lo preferían sobre todo porque el término carecía de toda alusión semántica a la herencia africana y, así, concordaba con su definición negrófoba de la dominicanidad. [Interpretación del autor, no hecho.]",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 14 (PDF p. 19)",
+     "cita_original": "by 1920 a national census recorded 28,258 Haitian residents in the country, a figure which would rise to 52,657 by 1935 (Hernández 1973: 34-35)",
+     "traduccion": "hacia 1920 un censo nacional registró 28.258 residentes haitianos en el país, cifra que subiría a 52.657 en 1935 (Hernández 1973: 34-35).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 14 (PDF p. 19); cita Hernández 1973: 53 y Báez Evertsz 1986: 194",
+     "cita_original": "Scholars agree, however, that due to an existing trend of clandestine or illegal traffic of Haitian braceros (sugar cane cutters), as well as to the informal migration patterns of individual workers, the official sources cannot guarantee an accurate quantification of their presence",
+     "traduccion": "Los estudiosos coinciden, sin embargo, en que, por el tráfico clandestino o ilegal de braceros haitianos (cortadores de caña) y por las pautas informales de migración de trabajadores individuales, las fuentes oficiales no pueden garantizar una cuantificación exacta de su presencia.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-188"
+   ],
+   "modulos": [
+    "M00",
+    "M09",
+    "M11",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0295",
+   "notas": "Resuelve F-0295: curl devuelve 403, pero WebFetch entrega el PDF (500 KB, 71 páginas) y queda guardado como archivo; se leyó con pdftotext. Contiene la afirmación secundaria más citada sobre la cédula (la categoría 'indio' en la cédula 'durante las tres décadas de la dictadura y después') pero SIN cita de primaria: A-164 sigue sin texto de Ley, reglamento o ejemplar de cédula. Para la cifra de 52.657 haitianos en 1935, la fuente es Hernández 1973 (pp. 34-35) [Frank Marino Hernández; no se localizó la obra; [POR VERIFICAR] título exacto]. No tiene la cifra de 8.492. Sesgo: tesis de la negrofobia estatal y del 'indio' como negación de la negritud; la versión rival (indio como estrategia de soberanía) es la de Candelario."
+  },
+  {
+   "titulo": "El negro detrás de la oreja de Ginetta Candelario (reseña de la edición en español, Editorial Universitaria Bonó) (Estudios Sociales, año 55, vol. XLV, n.º 167, enero-junio de 2023, pp. 150-158)",
+   "autor": "Rodríguez, Duleidys",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/1086/1033/2105",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña extensa en una revista del Centro Bonó que resume con precisión los argumentos de Candelario (traducción 2023); no sustituye al libro ni aporta evidencia primaria sobre la cédula.",
+   "proveniencia": "Duleidys Rodríguez [filiación no dada en el PDF leído; POR VERIFICAR] reseña para la revista del Centro Bonó la edición en español (tercera publicación de la colección Diáspora de la Editorial Universitaria Bonó, tras Torres-Saillant y García Peña) del libro de Candelario. Lo presenta a un público dominicano como parte de la crítica de la dominicanidad en relación triangular con Haití y EE. UU.",
+   "extractos": [
+    {
+     "ubicacion": "p. 155 (PDF p. 6)",
+     "cita_original": "La autora sitúa esta teoría indigenista como la carta jugada, por una parte, para sustentar la idea de nación, separada de la metrópolis, y por otra para enfatizar las diferencias con el vecino país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 155 (PDF p. 6); sobre el Museo del Hombre Dominicano",
+     "cita_original": "forjar su discurso de la condición racial del dominicano como no blanco, frente a España (y a su propia realidad), pero también como no negro de cara a Haití, aunque siempre indígena",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 154 (PDF p. 5); sobre los relatos de viajeros 1796-1932",
+     "cita_original": "La autora concluye que estos relatos desempeñaron un papel decisivo en los discursos de la élite dominicana de filiación hispánica",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-179"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Hallazgo para la versión rival de la disputa 10 ('indio' como estrategia de soberanía; Candelario) que el crítico pedía. Texto Estudios Sociales 167 (2023). El libro original (Duke UP, 2007) no se leyó: la reseña no menciona la cédula ni la dictadura de Trujillo; sitúa la teoría indigenista en el siglo XIX (Haití, España, EE. UU.) y en el Museo del Hombre Dominicano. Es decir, deja sin respuesta A-164 (hecho de la cédula) y solo informa sobre la interpretación. [POR VERIFICAR] qué dice Candelario sobre la cédula (capítulo 'Perceiving Dominicanidad boundaries' y bibliografía sobre 1930-1961). Complementa a F-0081 (ficha de Duke/MUSE) y a F-0608 (reseña de Roth)."
+  },
+  {
+   "titulo": "Black behind the Ears: Dominican Racial Identity from Museums to Beauty Shops (Durham: Duke University Press, 2007), ficha editorial en Project MUSE",
+   "autor": "Candelario, Ginetta E. B.",
+   "anio": "2007",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://muse.jhu.edu/book/68694",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó la ficha editorial (descripción y capítulos), vía WebFetch; el libro está bajo derechos.",
+   "proveniencia": "Ginetta Candelario (la ficha de MUSE leída no da su afiliación; POR VERIFICAR) basa el libro en etnografía de un salón de belleza de Washington Heights, entrevistas en varias ciudades y análisis del Museo del Hombre Dominicano y del Smithsonian. Tesis: no es un deseo de blancura sino una norma de ser indio e hispano lo que guía los discursos de identidad dominicanos; ambos son vehículos de soberanía frente a España, Haití y EE. UU.",
+   "extractos": [
+    {
+     "ubicacion": "descripción editorial en Project MUSE (vía WebFetch; texto pasado por el resumen del modelo: cotejar con la ficha)",
+     "cita_original": "it is not a desire for whiteness that guides Dominican identity discourses and displays. Instead, it is an ideal norm of what it means to be both indigenous to the Republic (indios) and “Hispanic.”",
+     "traduccion": "no es un deseo de blancura lo que guía los discursos y exhibiciones de la identidad dominicana, sino una norma ideal de lo que significa ser a la vez indígena de la República (indios) e «hispano».",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "descripción editorial en Project MUSE (vía WebFetch; ídem)",
+     "cita_original": "Both indigeneity and Hispanicity have operated as vehicles for asserting Dominican sovereignty in the context of the historically triangulated dynamics of Spanish colonialism, Haitian unification efforts, and U.S. imperialism.",
+     "traduccion": "Tanto la indigeneidad como la hispanidad han funcionado como vehículos para afirmar la soberanía dominicana en el contexto de las dinámicas históricamente triangulares del colonialismo español, los esfuerzos haitianos de unificación y el imperialismo estadounidense.",
+     "afirmaciones": [
+      "A-164",
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-179"
+   ],
+   "modulos": [
+    "M00",
+    "M13",
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0081",
+   "notas": "Se añade M13 a F-0081: es la versión rival de la disputa 10 (el crítico la señalaba ausente de M13). Las dos frases coinciden con las que el registro ya tiene verificadas en la reseña de H-Net; aquí proceden de la ficha de MUSE vía WebFetch: son texto del editor, [POR VERIFICAR] literalmente. Capítulos según la ficha: 1 «It Is Said That Haiti Is Getting Blacker and Blacker»; 2 «The Africans Have No [Public] History»; 3 «I Could Go the African American Route»; 4 «They Are Taken into Account for Their Opinions»; 5 «Black Women Are Confusing, but the Hair Lets You Know». El libro no trata la cédula como objeto central; A-164 sigue sin primaria."
+  },
+  {
+   "titulo": "Las fuentes documentales de la diplomacia mexicana y los acontecimientos en la frontera domínico-haitiana de 1937 (Clío, año 90, n.º 201, enero-junio de 2021, pp. 317-348)",
+   "autor": "Muñoz, Laura",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Clio-2021-201-317-348.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo arbitrado de una historiadora del Instituto Mora basado en el Archivo Histórico de la Secretaría de Relaciones Exteriores de México (Exp. III-2361-1), publicado por la ADH.",
+   "proveniencia": "Laura Muñoz (Instituto Mora, Ciudad de México) lee la correspondencia del embajador mexicano en Washington, Francisco Castillo Nájera, que presidió las reuniones oficiosas del 2 de diciembre de 1937 en adelante. Publicada por la Academia Dominicana de la Historia (Clío 201) para dar a conocer ese acervo a los historiadores dominicanos; su interés es archivístico, no revisionista. Sabe de primera mano los cables y oficios mexicanos, no los dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 332 (PDF p. 16)",
+     "cita_original": "los organizadores sabían muy bien que las matanzas de ciudadanos haitianos habían continuado, incluso hasta el 22 de noviembre, que la cifra rondaba entre los ocho y los diez mil muertos y que se hablaba ya de hecatombes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 321 (PDF p. 5); cita del telegrama del encargado mexicano Arjonilla, octubre de 1937",
+     "cita_original": "demuestran intención de gobierno dominicano hacer simulacro investigación y aplicación sanciones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "p. 325 (PDF p. 9); informe de Castillo Nájera tras hablar con Welles y con el ministro de Haití",
+     "cita_original": "con el objeto de consolidarse, el presidente Trujillo fomentó las matanzas de trabajadores haitianos, provocando así un incidente internacional que pudiera conducir a una guerra con sus vecinos",
+     "traduccion": "[Opinión de diplomáticos de 1937 recogida por Castillo Nájera; no prueba el móvil.]",
+     "afirmaciones": [
+      "A-173",
+      "A-174"
+     ]
+    },
+    {
+     "ubicacion": "p. 330 (PDF p. 14); expectativa atribuida al gobierno haitiano en noviembre de 1937 (nota 22)",
+     "cita_original": "conformarse con el castigo a los oficiales del ejército que habían participado en la matanza y con una módica indemnización",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-176",
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "p. 342 (PDF p. 26); comentario de Castillo Nájera sobre el acuerdo del 31-I-1938",
+     "cita_original": "Bien sabía el Gobierno Dominicano que la situación económica por que atraviesa el Gobierno de la República de Haití le habría de obligar, al fin, a convenir en un arreglo monetario",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-167",
+    "A-173",
+    "A-174",
+    "A-176",
+    "A-183",
+    "A-190",
+    "A-192"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0280",
+   "notas": "Ya registrada (F-0280, fiabilidad alta) pero ausente de M13.md (ronda 1): se lee ahora completa y se aportan extractos por afirmación. Aporta la vía de cables mexicanos (AHSREM, Exp. III-2361-1) como evidencia independiente de las de EE. UU. sobre la secuencia diplomática (A-175) y sobre el rango 8.000-10.000 conocido por los diplomáticos en noviembre de 1937 (no es una cifra de víctimas verificada: es lo que se 'sabía'). Matiz: el informe mexicano de 'tres mil' y el de 'ocho a diez mil' son estados distintos del rumor; ver A-190. Sesgo: documentos diplomáticos mexicanos con interés propio (mediación), vistos por la autora desde la historia diplomática."
+  },
+  {
+   "titulo": "Peña Batlle y su concepto histórico de la nación dominicana (Ecos, Instituto de Historia de la UASD, año 2, n.º 3, 1994, pp. 10-?; versión también en Estudios Americanos, CSIC)",
+   "autor": "González, Raymundo",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/46/58/64",
+   "urls_alternativas": [
+    "https://estudiosamericanos.revistas.csic.es/index.php/estudiosamericanos/article/download/810/805/806"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio académico con notas y citas verificables de un historiador dominicano (ADH) sobre la evolución ideológica de Peña Batlle; la datación de textos de Peña Batlle es explícita.",
+   "proveniencia": "Raymundo González (historiador dominicano; en 2013 firmaba como miembro de la Academia Dominicana de la Historia, Caribbean Studies 41:2) publicó el estudio en la revista del Instituto de Historia de la UASD en 1994. Es una lectura crítico-interna de Peña Batlle (1902-1954): de socialista burgués en 1932 y 'hostosiano' a teórico del despotismo y la hispanidad. Escribe para un público académico de izquierda-liberal; sabe de primera mano los textos de Peña Batlle y la bibliografía (Cassá, Vega 1988).",
+   "extractos": [
+    {
+     "ubicacion": "p. 25 (PDF p. 16)",
+     "cita_original": "Al incremento de la represión política y económica agregó la matanza de miles de nacionales haitianos en territorio dominicano. El hecho, perpetrado por el régimen despótico en octubre de 1937, muestra hasta qué punto se vivía un clima de terror y xenofobia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "nota 44, p. 25 (PDF p. 16)",
+     "cita_original": "glosando el famoso discurso de Peña Batlle, \"El sentido de una política\" (1942) en Elías Piña, encuentra el quid de la cuestión haitiana Hernández Franco, Tomás: \"Síntesis, magnitud y solución de un problema\", Cuadernos Dominicanos de Cultura, núm. 1 (septiembre 1943)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179",
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 28 (PDF p. 19)",
+     "cita_original": "La matanza de haitianos, había convertido en cuestión de estado la historia de las relaciones fronterizas con Haití",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 28 (PDF p. 19); sobre Historia de la cuestión fronteriza dominico-haitiana, t. I (1946)",
+     "cita_original": "La introducción -ya citada- es un texto de 1938, con modificaciones, que no entronca sino superficialmente con la cita de Marcelino Menéndez Pelayo puesta como epígrafe",
+     "traduccion": "[La introducción doctrinal del libro de 1946 procede de un texto de 1938, es decir, posterior a la matanza de 1937 y anterior al discurso de Elías Piña.]",
+     "afirmaciones": [
+      "A-179",
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 13 (PDF p. 4); con nota 7 a Cassá, «El racismo en la ideología de la clase dominante dominicana», Ciencia 3:1 (1976), pp. 59-86",
+     "cita_original": "el prejuicio antihaitiano, cuyos antecedentes trascienden el alcance de este artículo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 42 (PDF p. 33); sobre La isla de la Tortuga de Peña Batlle",
+     "cita_original": "proporcionaría una justificación histórica de la matanza perpetrada por el régimen trujillista en 1937",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-172",
+    "A-179",
+    "A-180"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0277",
+   "notas": "Ya registrada (F-0277) pero ausente de M13.md. Fecha de la conferencia de Elías Piña: este artículo la da como 1942 ('El sentido de una política' (1942)); el catálogo BNPHU (M13 ficha F-0069) la fija el 16-XI-1942: coherente. Aporta (a) lectura crítica dominicana que sitúa a Peña Batlle como teórico posterior a 1937; (b) la datación del prólogo de 1946 (texto de 1938); (c) la referencia a Cassá 1976 (no localizada en línea) como estudio de la raíz racista previa. La edición 'Ecos 3' tiene 52+ páginas impresas (offset impresa = PDF+9). Fecha de Hernández Franco 1943 confirma que la glosa ideológica nace ya en 1943. Sesgo: crítica marxista-liberal; fiabilidad alta por precisión de fuentes."
+  },
+  {
+   "titulo": "¿Cómo se miran haitianos y dominicanos en los libros de texto escolares? (Ecos, año XXVI, vol. 1, n.º 17, enero-junio de 2019, pp. 89-121)",
+   "autor": "González Canalda, María Filomena",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/230/169/172",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio comparado de 9+9 manuales por una autora de textos escolares y miembro de la ADH; sobre 1937 solo describe los manuales haitianos.",
+   "proveniencia": "María Filomena González Canalda (profesora de historia, autora de textos de Ciencias Sociales, Premio Nacional de Historia 2009 y 2014, miembro correspondiente nacional de la ADH) presentó el trabajo en un seminario del AGN en 2017 y lo publicó en Ecos. Compara 9 manuales dominicanos y 9 haitianos de primaria y secundaria. Escribe para docentes e historiadores; busca desmentir que los textos haitianos enseñen a odiar a los dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 117 (PDF p. 29); cita de un manual haitiano de primaria (Roy Fombrun et al., Histoire d'Haïti, p. 93)",
+     "cita_original": "En octubre de 1937, bajo el gobierno de Vincent, diez mil haitianos son asesinados en la frontera por los dominicanos. Esta odiosa masacre conocida con el nombre de “masacre del perejil”, fue ordenada por el dictador dominicano Rafael Leónidas Trujillo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 118 (PDF p. 30); cita del mismo manual haitiano ('Recuerdo')",
+     "cita_original": "Vincent acepta una indemnización a favor de las víctimas. Este arreglo es humillante e insatisfactorio para los haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "p. 120 (PDF p. 32); Conclusiones",
+     "cita_original": "En los libros de texto dominicanos del Nivel Básico la interpretación que se presenta de manera generalizada es la que ofrece la historia oficial",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-167",
+    "A-172",
+    "A-192"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0102",
+   "notas": "Ya registrada (F-0102; M13 en su lista de módulos). Sirve de contraste escolar: los manuales haitianos citan 10.000 muertos y consideran 'humillante e insatisfactorio' el arreglo de Vincent; sobre cómo trata 1937 un manual del MINERD el artículo no dice nada (solo analiza 1937 en los dos manuales haitianos que lo mencionan). Falta localizar un manual dominicano actual y su texto sobre 1937 (laguna). La cita de las figuras de 20.000 'agricultores' del manual haitiano de secundaria no se reproduce."
+  },
+  {
+   "titulo": "Memorandum de los Ministros Plenipotenciarios de la República Dominicana en Washington a los representantes diplomáticos de EE. UU., México, Cuba y Haití, relativo a las medidas que pueden adoptarse para evitar rozamientos entre la República Dominicana y la de Haití con motivo de la solicitud de mediación hecha por el Gobierno haitiano el día 12 de noviembre de 1937 (Ciudad Trujillo: Imprenta Listín Diario, 1937; Washington, 10-XII-1937; incluye la entrevista de Trujillo a Prensa Unida)",
+   "autor": "República Dominicana (Ministros Plenipotenciarios en Washington; entrevista de Rafael L. Trujillo a Arturo Pellerano Sarda, Prensa Unida)",
+   "anio": "1937",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/ed0552be-716d-412c-8430-8116ebc1e155/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/3574",
+    "https://bd.bnphu.gob.do/items/ba21af1a-2823-4c8d-abe2-a69a9c4dd49b"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial dominicano impreso en 1937 (copia escaneada de la BNPHU, OCR ruidoso pero legible) que reproduce las notas diplomáticas y la posición del Gobierno; es fuente primaria de la versión oficial, no de los hechos.",
+   "proveniencia": "Folleto de ~30 páginas impreso por el Listín Diario en Ciudad Trujillo en 1937, con el memorándum que los ministros plenipotenciarios dominicanos en Washington presentaron (fecha al pie de la p. 22: Washington, 10-XII-1937) a la comisión oficiosa de EE. UU., México, Cuba y Haití, más una entrevista concedida por Trujillo a Arturo Pellerano Sarda, director del Listín Diario, para Prensa Unida (pp. 23-27). Escrito por el Estado dominicano para sustentar que no había diferencia internacional que mediar; reproduce, copiándolas, la nota haitiana del 10-X, el comunicado conjunto del 15-X y el cable de Vincent del 12-XI. Interés: negar la mediación y encuadrar los hechos como 'incidente'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 3 (PDF p. 3); nota haitiana del 10-X-1937 copiada por el Memorandum",
+     "cita_original": "Desde el 2 de octubre en curso ha sido llevado a conocimiento del Gobierno haitiano, por oficiales de la Guardia haitiana destacados en Juana Méndez",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "p. 4; comunicado conjunto del 15-X-1937 copiado por el Memorandum",
+     "cita_original": "Con el fin de evitar que algunos incidentes ocurridos en la frontera norte entre dominicanos y haitianos produzcan comentarios exagerados y contrarios a la armonía",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-175"
+     ]
+    },
+    {
+     "ubicacion": "p. 5; comunicado conjunto del 15-X-1937",
+     "cita_original": "Que el Gobierno Dominicano, al reprobar enérgicamente los hechos que se le han denunciado ha abierto inmediatamente una investigación minuciosa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 9; cablegrama de Vincent del 12-XI-1937, copiado por el Memorandum",
+     "cita_original": "Miles de mis compatriotas han sido las infelices víctimas de estos hechos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-175",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "p. 10; mismo cablegrama de Vincent",
+     "cita_original": "esta investigación, hasta ahora unilateral, debido a la poca confianza que ella inspira en la opinión pública haitiana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "p. 11; posición dominicana",
+     "cita_original": "no habiendo existido entre el Gobierno dominicano y el de la República de Haití ni la sombra de una semejante diferencia hasta el momento en que éste hizo la solicitud de intervención amistosa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-175"
+     ]
+    },
+    {
+     "ubicacion": "p. 16; posición dominicana sobre el alcance del acuerdo del 15-X",
+     "cita_original": "Que la investigación que se compromete a hacer el Gobierno dominicano es una investigación judicial, puesto que está destinada a fijar responsabilidades y que será seguida de juicios por los tribunales de justicia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "p. 23; presentación de la entrevista de Trujillo a Prensa Unida",
+     "cita_original": "el doloroso incidente ocurrido en la frontera dominico-haitiana entre particulares dominicanos y haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 25; respuesta de Trujillo (tercera pregunta)",
+     "cita_original": "Con ese acuerdo el gobierno dominicano dió plena satisfacción al gobierno haitiano, ordenando la investigación debida y el castigo de las personas que resultasen culpables",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 26; respuesta de Trujillo (cuarta pregunta)",
+     "cita_original": "entre el acuerdo del 15 de octubre y el 8 de noviembre, día en que se completó la investigación policíaca, hay un lapso de 23 días",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-183"
+     ]
+    },
+    {
+     "ubicacion": "pp. 25-26 (PDF p. 25); respuesta de Trujillo (tercera pregunta)",
+     "cita_original": "Hubo un incidente, y éste fue cerrado el 15 de octubre por la concorde voluntad de las partes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-172",
+    "A-175",
+    "A-183",
+    "A-192"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Hallazgo del buscador en la Biblioteca Digital de la BNPHU (bd.bnphu.gob.do; API DSpace /server/api/discover/search/objects): es de los pocos ítems de época con descarga abierta (los demás dan 401 y piden 'request-a-copy'). Aporta (1) la versión oficial en palabras de la época: 'incidentes... entre dominicanos y haitianos', 'incidente... entre particulares', 'investigación judicial', 'investigación policíaca completada el 8-XI-1937'; (2) el texto del cablegrama de Vincent del 12-XI (los 'miles'); (3) la afirmación de que Haití no pidió plazos hasta el 12-XI. NO contiene el discurso de Dajabón ni el expediente judicial ni cifras de víctimas dominicanas. Atribuye a Balaguer la firma del comunicado del 15-X como secretario de Estado de Relaciones Exteriores interino (pp. 25) [coincide con F-0280 y con la columna de Vega]. Cuidado: el texto es propaganda oficial; la 'investigación' que menciona es la que FRUS 1938 (despacho de Atwood, expediente 738.39/255) describe como 'arrest of about 70 vagrants'. Sesgo: máximo (parte interesada). Cita la numeración impresa (el PDF tiene la misma numeración que la página impresa)."
+  },
+  {
+   "titulo": "Las etapas del antihaitianismo en la República Dominicana: el papel de los historiadores (1974), capítulo en Pierre-Charles (ed.), Política y sociología en Haití y la República Dominicana (México: UNAM, 1974, pp. 83-107); reproducido en Bosch y Lora (coords.), Antología del pensamiento crítico dominicano contemporáneo (Buenos Aires: CLACSO, 2016, pp. 303-327)",
+   "autor": "Despradel, Lil",
+   "anio": "1974 (ed. 2016)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://diccionario.funglode.org/wp-content/uploads/2018/09/AntologiaPensaminetoCriticoDominicano.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo académico de 1974 de orientación marxista con notas y bibliografía; las cifras de 1937 son sin fuente y contienen un error de fecha (1935).",
+   "proveniencia": "Lil Despradel (autora de una tesis de 1969 que ella misma cita como «Despradel, 1969») escribió el ensayo para el volumen de Gérard Pierre-Charles publicado por la UNAM (México) en 1974: es la periodización de referencia del antihaitianismo (colonial, siglo XIX, 1844, Trujillo) que citan Sagás y Bautista Betances. La antología de CLACSO (2016) la recoge como pensamiento crítico dominicano. Habla desde la crítica de clase; sabe de primera mano la historiografía dominicana de élite, no los hechos de 1937.",
+   "extractos": [
+    {
+     "ubicacion": "p. 321 (PDF p. 322)",
+     "cita_original": "Sin embargo, Trujillo adoptó los valores de las clases dominantes, llevando al paroxismo su ideología racial. El gran teórico de esta ideología en este periodo fue un historiador, cuya obra responde al mismo espíritu que la de Américo Lugo: Manuel Arturo Peña Batlle",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 322 (PDF p. 323); sobre el discurso de Peña Batlle en Elías Piña, 1942",
+     "cita_original": "Pues en 1942, aunque muy ligado a las compañías norteamericanas propietarias de los ingenios, el gobierno de Trujillo podía darse el lujo —por razones ideológicas— de levantarse contra las inmigraciones haitianas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179",
+      "A-180",
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 322 (PDF p. 323) (el texto dice «1935»; los hechos son de 1937)",
+     "cita_original": "en 1935, la burocracia trujillista siguió el consejo de las clases superiores, quienes propugnaban la limpieza del país de las influencias haitianas. El sistema trujillista utilizó el único medio rápido de limpieza que conocía; el resultado fue el genocidio de 35 mil haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190",
+      "A-171",
+      "A-174"
+     ]
+    },
+    {
+     "ubicacion": "p. 322 (PDF p. 323)",
+     "cita_original": "Sin embargo, los ingenios necesitaban la mano de obra haitiana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-171",
+    "A-174",
+    "A-179",
+    "A-180",
+    "A-186",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Voz crítico-interna de 1974 (antes de Turits/Derby 1993): sitúa el antihaitianismo como fenómeno de clase y de etapas, con la ideología racial 'llevada al paroxismo' por Trujillo; cifra de 35.000 muertos sin base y con fecha errónea (1935): ejemplo de la dispersión de cifras que A-190 pide documentar (techo del rango 4.000-40.000). Sobre A-186: dice que los ingenios necesitaban la mano de obra haitiana y que las inmigraciones continuaron 'controladas por el régimen'; no cita fuente primaria. Fecha del discurso de Elías Piña: 1942, coherente con F-0069 y el catálogo BNPHU (16-XI-1942). El capítulo ocupa las pp. 303-327 de la antología (impresa = PDF - 1)."
+  },
+  {
+   "titulo": "El conflicto ideológico del trujillismo (1993), capítulo de Mito y cultura en la Era de Trujillo (Santo Domingo: Editora Colores / Librería Trinitaria e Instituto del Libro, 1993, pp. 129-160); reproducido en Bosch y Lora (coords.), Antología del pensamiento crítico dominicano contemporáneo (CLACSO, 2016, pp. 329-353)",
+   "autor": "Mateo, Andrés L.",
+   "anio": "1993 (ed. 2016)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://diccionario.funglode.org/wp-content/uploads/2018/09/AntologiaPensaminetoCriticoDominicano.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de crítica ideológica sin trabajo de archivo; cita textos de Peña Batlle verificables con año y página, aunque no hace trabajo de archivo.",
+   "proveniencia": "Andrés L. Mateo (autor de Mito y cultura en la Era de Trujillo, Santo Domingo, 1993) analiza el edificio mítico de la ideología trujillista y su 'antihaitianismo' como 'épica racial'; cita 'El sentido de una política' de Peña Batlle (1942, ed. 1954). Es la lectura literaria-ideológica interna que la antología de CLACSO (coord. Matías Bosch y Quisqueya Lora) presenta como pensamiento crítico dominicano.",
+   "extractos": [
+    {
+     "ubicacion": "p. 341 (PDF p. 342)",
+     "cita_original": "Ese signo de amparo funciona también con otro componente de la ideología del absolutismo trujillista, el Antihaitianismo, pero su invocación lleva sumergida la memoria de la Masacre de 1937",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 341 (PDF p. 342)",
+     "cita_original": "Su existencia como factor de consenso es anterior al trujillismo, y entre los muchos ingredientes que acumula, cabalgando en el memorial de agravios de las diversas invasiones haitianas a la parte dominicana, está el racismo",
+     "traduccion": "[Versión rival: antihaitianismo anterior a Trujillo, como factor de consenso; el trujillismo lo convierte en «épica racial».]",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 341 (PDF p. 342); cita de Peña Batlle, «El sentido de una política» (1942)",
+     "cita_original": "Para los dominicanos la frontera es una valla social, étnica, económica y religiosa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 337 (PDF p. 338)",
+     "cita_original": "En 1942, Peña Batlle proclamó como principio de la política de frontera “evitar que nuestra nacionalidad se contamine” (Peña Batlle, 1954: 66)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-172",
+    "A-179",
+    "A-180"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "El mismo PDF de la antología (546 páginas) que Despradel. Aporta el segundo testigo dominicano (1993) de la fecha y la frase del discurso de Elías Piña (1942), con la cita 'valla social, étnica, económica y religiosa' que A-180 atribuye a Peña Batlle. Las citas de Peña Batlle van por la edición de 1954 (Política de Trujillo): no es el impreso de 1943. Sobre la fecha: Mateo dice 1942, sin día. Mateo no da cifras de víctimas."
+  },
+  {
+   "titulo": "Génesis, evolución y futuro de la estadística en la República Dominicana (conferencia de Salvador Aybar Mella; Ciudad Trujillo: Dirección General de Estadística, 1952)",
+   "autor": "Aybar Mella, Salvador",
+   "anio": "1952",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/1e121e6d-00ce-4c1b-a897-51e59794f499/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/7d4690cf-e05f-48ee-8d93-ecf4a982abdd"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato institucional de un funcionario de la Dirección General de Estadística sobre la historia de los censos (1920, 1935); autoevaluación del propio régimen, con OCR muy ruidoso.",
+   "proveniencia": "Salvador Aybar Mella (1914-1987), funcionario de la Dirección General de Estadística (organismo creado por la ley 1023 de noviembre de 1935 y activo desde enero de 1936) pronunció la conferencia de 1952 sobre la historia de la estadística nacional; la publicó el propio organismo. Conoce de primera mano la organización de los censos de 1935 y 1950, pero habla de ellos como obra de Trujillo; el texto da por 'buen censo' el de 1935 sin evaluarlo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 27 impresa (PDF p. 53); sobre el censo de 1920 (la frase empieza «Muchos fueron [OCR: «fug ron»] los pueblos que dejaron de censarse…»)",
+     "cita_original": "los pueblos que dejaron de censarse, sobre todo en el Este, donde existía una banda de guerrilleros, y las regiones fronterizas donde casi el tránsito era imposible",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 27 impresa (PDF p. 53)",
+     "cita_original": "En el año 1935 fué cuando por primera vez se realizó un censo completo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "p. 27 impresa (PDF p. 53)",
+     "cita_original": "Sin embargo, la elaboración fué sencilla, porque no se disponía de los medios necesarios, ni de la preparación técnica que pudiera ofrecer resultados científicamente elaborados",
+     "traduccion": "[Admite que la tabulación de 1935 fue rudimentaria.]",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Fuente oficial sobre la construcción del censo de 1935 (A-188): el propio estadístico del régimen dice que 1935 fue el primer censo completo pero de elaboración sencilla y sin preparación técnica, y que el de 1920 dejó sin censar regiones fronterizas 'donde casi el tránsito era imposible'. No da instrucciones a empadronadores ni definición de nacionalidad de 1935 (no están en este texto). La OCR tiene letras sueltas; las citas se verificaron por equivalencia de letras (sin espacios ni tildes). Fiabilidad media por el sesgo apologético."
+  },
+  {
+   "titulo": "Tercer censo nacional de población 1950: resumen general (Ciudad Trujillo: Dirección General de Estadística, 1953), cuadros 8-9 (color 1950 y raza y color 1935) y 14 (población dominicana y extranjera 1950 y 1935)",
+   "autor": "República Dominicana, Dirección General de Estadística (Secretaría de Estado de Trabajo, Economía y Comercio; director Abelardo E. Achécar)",
+   "anio": "1953",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/0430a5ca-97e3-41e8-9a46-08a5357f4f3b/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/3e7e6bd7-9f58-4feb-b762-30ddaf4dfbbc"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Publicación oficial del propio censo que define sus categorías; la OCR del PDF es ruidosa y las tablas están desordenadas, por lo que solo se verificaron títulos, definiciones y totales.",
+   "proveniencia": "Resumen de 116 páginas del censo de 1950 publicado por la Dirección General de Estadística de Trujillo (dependiente de la Secretaría de Estado de Trabajo, Economía y Comercio, Lic. Arturo Despradel). Escrito por el Estado para dar cifras de población; republica comparativamente los datos de 1935 (cuadros 9, 10, 14), por lo que sirve de acceso indirecto al censo de 1935. Sabe de primera mano las instrucciones a empadronadores de 1950; de 1935 solo reproduce cifras.",
+   "extractos": [
+    {
+     "ubicacion": "p. XIV impresa (PDF p. 24), 'Color'",
+     "cita_original": "Se determinó el color, no la raza, de las personas empadronadas. Se clasificó la población en blanca, negra, mestiza y amarilla, según el caso, y de acuerdo a la apreciación del empadronador",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "p. 11 impresa (PDF p. 43); título de la tabla",
+     "cita_original": "CUADRO No. 9.- RAZA Y COLOR DE LA POBLACION DE LA REPUBLICA DOMINICANA POR ZONA Y SEXO: CENSO 1935",
+     "traduccion": "[El 1950 titula su tabla «Color»; el de 1935 se titula «Raza y color»: cambio de definición. Las celdas de 1935 no se leen en la OCR.]",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "índice, cuadro 14, PDF p. 9; la tabla (p. 23 impresa) no se lee en la OCR",
+     "cita_original": "POBLACION DOMINICANA Y EXTRANJERA, POR ZONA Y SEXO. CENSOS 1950 Y 1935",
+     "traduccion": "[Existe en el resumen de 1950 una tabla con la población extranjera de 1935; la cifra de haitianos no se pudo leer.]",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 10 (religión), p. 12 impresa (PDF p. 44): totales de población 1950 y 1935",
+     "cita_original": "LA REPUBLICA 2.135.872 1,479.417",
+     "traduccion": "[Totales nacionales: 2.135.872 habitantes en 1950 y 1.479.417 en 1935.]",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Primaria parcial para A-188 y A-189 sin los volúmenes originales de 1935 (la copia BNPHU 'Censo nacional' de 1936, 23 pp., no se pudo bajar: 401). Hallazgos: (1) en 1950 el empadronador anota el color 'no la raza' en cuatro categorías (blanca, negra, mestiza, amarilla): 'indio' no es categoría censal; (2) el resumen republica el cuadro 'Raza y color' de 1935 con total de 1.479.417 habitantes (el mismo total que el que citan Diario Libre y otras fuentes, con 52.657 haitianos): las celdas por color no se leen en la OCR [POR VERIFICAR: 13 % blancos, 68 % mulatos, 19 % negros]; (3) la tabla por nacionalidad 1935 (cuadro 14) existe, pero la cifra de haitianos no se lee. Hay que releer el PDF de 349 MB 'Tercer censo nacional de población 1950' (BNPHU, handle 3e7e6bd7... / cc8b0aca...) o los volúmenes originales de 1935 en el AGN/ONE. Compárese con la Cartilla de 1945 (mulato, no mestizo)."
+  },
+  {
+   "titulo": "Censo especial urbano de Ciudad Trujillo: cartilla de instrucciones a los enumeradores (Ciudad Trujillo: Dirección General de Estadística, 1945; Decreto n.º 2514 del 10-III-1945)",
+   "autor": "República Dominicana, Dirección General de Estadística",
+   "anio": "1945",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/6eb44288-a338-4184-8f0f-a4f1c2b14c36/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/91fda763-5947-4e29-b9eb-3ad84de5e5ed"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrucciones oficiales a los empadronadores con las categorías de color del propio censo; OCR a dos columnas desordenado en la columna de color, por lo que la cita es reconstruida.",
+   "proveniencia": "Cartilla de 50 páginas de la Dirección General de Estadística para el censo de edificaciones y población de la zona urbana de Ciudad Trujillo ordenado por el Decreto 2514 (10-III-1945). Instruye a los enumeradores columna por columna (nombre, residencia, parentesco, sexo, COLOR, nacionalidad...). Escrita por la burocracia estadística del régimen; es de las pocas instrucciones censales de época localizadas en línea.",
+   "extractos": [
+    {
+     "ubicacion": "p. 15 impresa (PDF p. 31), art. 32 de la cartilla (lectura reconstruida del OCR a dos columnas: «COLUMNA 6 (COLOR) … Blanco, Negro, Mulato, Amarillo»)",
+     "cita_original": "COLUMNA 6 (COLOR) - El Enumerador deberá definir con claridad uno de estos colores: Blanco, Negro, Mulato, Amarillo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-189",
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "p. 3 del PDF; disposiciones legales",
+     "cita_original": "Decreto No.2514 del Honorable Presidente de la República, de fecha 10 de Marzo de 1945",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Evidencia primaria sobre la nomenclatura censal bajo Trujillo: en 1945 el empadronador debía elegir entre Blanco, Negro, Mulato y Amarillo (no 'mestizo' ni 'indio'); en 1950 el censo usó blanca, negra, mestiza y amarilla (véase la ficha del Resumen del censo de 1950). Esto apoya el cambio mulato→mestizo entre 1935/1945 y 1950 que plantea A-189 (la cédula, en cambio, sigue sin primaria para 'indio': A-164). Limitación: es un censo urbano de la capital, no nacional; la instrucción de 1935 sigue sin localizar. El PDF dice «Ley No. 318 del 19 de Julio del año 1945» (Ley sobre Censos Nacionales); M13-N86 y Aybar Mella 1952 la ubican en julio de 1943 [POR VERIFICAR el año]."
+  },
+  {
+   "titulo": "La era de Trujillo: 25 años de historia dominicana: El pensamiento vivo de Trujillo (selección, prólogo y notas de Joaquín Balaguer; Ciudad Trujillo: Impresora Dominicana, 1955; Junta Ejecutiva Pro-Celebración del 25.º Aniversario de la Era de Trujillo)",
+   "autor": "Trujillo Molina, Rafael L.; Balaguer, Joaquín (selección, prólogo y notas)",
+   "anio": "1955",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/8a656636-22dc-43a4-a081-95cbaac930a1/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/9a6dc980-e5d9-4292-903f-ee813cefa7e5"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Antología oficial de discursos y mensajes de Trujillo seleccionada por Balaguer para la conmemoración de 1955: auténtica como discurso, pero editada y hagiográfica; solo prueba cómo el régimen quiso contarse.",
+   "proveniencia": "Volumen de la colección oficial 'La Era de Trujillo, 25 años de historia dominicana' (Junta Pro-Celebración, 1955), con selección y prólogo de Joaquín Balaguer. Reúne mensajes y discursos de Trujillo; incluye un discurso (cabecera corrida «Evolución de la democracia en…») pronunciado en un acto internacional y que, según se deduce de la 'décimo-tercera' conferencia sanitaria que inaugura, es el de la XIII Conferencia Sanitaria Panamericana (Ciudad Trujillo, 1950) [fecha POR VERIFICAR]. Escrito para la glorificación del régimen.",
+   "extractos": [
+    {
+     "ubicacion": "p. 10 impresa (PDF p. 13); prólogo de Balaguer",
+     "cita_original": "la solución dada por Trujillo al problema de la nacionalización de nuestras fronteras con Haití",
+     "traduccion": "[«nacionalización de las fronteras»: término oficial; el texto no menciona 1937.]",
+     "afirmaciones": [
+      "A-181",
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 192 impresa (PDF p. 195); discurso de Trujillo (cabecera «Evolución de la democracia en…»)",
+     "cita_original": "Desde 1933 me puse en contacto con el entonces Presidente de Haití, Doctor Sténio Vincent",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 192 impresa (PDF p. 195)",
+     "cita_original": "En noviembre del 1933 nos encontramos oficialmente en el extremo norte de la frontera",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 193 impresa (PDF p. 196)",
+     "cita_original": "Circunstancias sobrevenidas posteriormente a la fijación matemática de los límites me convencieron de que aquella sola operación no era bastante para despejar determinados problemas sociales provenientes de la convivencia",
+     "traduccion": "[Trujillo presenta la «dominicanización» como respuesta a «problemas sociales de la convivencia», sin mencionar 1937.]",
+     "afirmaciones": [
+      "A-172",
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 193 impresa (PDF p. 196)",
+     "cita_original": "el Gobierno Dominicano debía tomar sobre sí la enorme tarea de transformar todo el contenido humano y económico de sus regiones fronterizas para incorporarlo real y efectivamente al dominio nacional",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 194 impresa (PDF p. 197)",
+     "cita_original": "Hasta 1949 se han fomentado en las regiones fronterizas 16 colonias agrarias, con una población de 11,695 habitantes, de los cuales 2,925 trabajan la tierra a título de colonos",
+     "traduccion": "[Cifras oficiales de colonización fronteriza hasta 1949.]",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-172",
+    "A-179",
+    "A-181"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Silencio por ausencia verificable: en las pp. 191-194 que cuentan la política fronteriza de 1933 a 1949, el texto no menciona 1937 ni la matanza (búsqueda de «1937» en el PDF solo da la fecha de la plata acuñada, la deuda y el cierre del período 1932-1937). Útil para A-181 (visión oficial de amistad con Vincent: 'acuerdos sucesivos del 1935 y del 1936'; entrevista 'extremadamente cordial' de noviembre de 1933) y para A-172/A-179 (la 'dominicanización' como programa social presentado como respuesta a 'problemas sociales de la convivencia'). No se ha localizado la fecha ni el título completos del discurso [POR VERIFICAR]. Volumen de 77 MB (PDF); OCR con errores: las citas se verificaron por equivalencia de letras."
+  },
+  {
+   "titulo": "Mensaje depositado el 27 de febrero de 1947 en el Congreso Nacional por el presidente Rafael L. Trujillo Molina para darle cuenta de su gestión durante el año 1946 (Ciudad Trujillo: Talleres Tipográficos de Virgilio Montalvo, 1947)",
+   "autor": "Trujillo Molina, Rafael L.",
+   "anio": "1947",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/server/api/core/bitstreams/084bb103-5e08-4fdf-8afe-f6bd453db473/content",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/items/14f8bd35-82b2-44f8-936b-94c6b9ced8e3"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial anual del presidente al Congreso; fecha y cargos son verificables, la interpretación es del régimen.",
+   "proveniencia": "Mensaje anual del presidente al Congreso (art. 49, apartado 22 de la Constitución) con la rendición de cuentas de 1946, de 137 páginas. Escrito por el propio Poder Ejecutivo. Aporta cómo el régimen presenta sus relaciones con Haití en 1946-47, en paralelo con la doctrina de Peña Batlle.",
+   "extractos": [
+    {
+     "ubicacion": "p. 50 impresa (PDF p. 49)",
+     "cita_original": "En este sentido es digna de especial referencia la creación de nuestra Embajada en Haití, nuestro más próximo vecino, para hacerse cargo de la cual fué designado el licenciado Manuel A. Peña Batlle, quien hasta ese momento ocupaba la Cartera de Relaciones Exteriores",
+     "traduccion": "[El teórico de la «dominicanización de la frontera» fue en 1946-47 el primer embajador dominicano en Haití (cf. Le Moniteur, 20-I-1947, M13-N41).]",
+     "afirmaciones": [
+      "A-179",
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 51 impresa (PDF p. 50); misión especial a los actos del aniversario de la independencia de Haití (29-XII-1946)",
+     "cita_original": "Esta Misión la presidió el propio Embajador Peña Batlle",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179",
+    "A-181"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Los mensajes de 1943, 1946 y 1950 ya constan en M13 (N07-N09); este de 1947 no. Es evidencia de que la diplomacia cordial coexistía con la doctrina de la valla fronteriza (Peña Batlle, embajador y ex canciller). No contiene las cifras de 1937 ni el discurso de Dajabón. Verificación parcial: solo se leyeron los pasajes sobre Haití (4 coincidencias en 5.397 líneas)."
+  },
+  {
+   "titulo": "Ricardo Pittini: Roman Catholic Archbishop of Santo Domingo (1935-1961), cap. 9 de Andrea Canepari (ed.), The Italian Legacy in the Dominican Republic (Philadelphia: Saint Joseph's University Press, 2021), pp. 137-141 (versión digital de la ADH, pp. 138-142 del flipbook)",
+   "autor": "Hall, Michael R.",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://italianlegacyrden.academiadominicanahistoria.org.do/files/assets/basic-html/page-142.html",
+   "urls_alternativas": [
+    "https://italianlegacyrden.academiadominicanahistoria.org.do/files/assets/basic-html/page-138.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo de un historiador de Georgia Southern University en un volumen colectivo con aparato de notas; el dato de 1938 es una nota final que remite a Sáez 2002, sin documento citado.",
+   "proveniencia": "Michael R. Hall, profesor de historia latinoamericana y relaciones exteriores de EE. UU. en Georgia Southern University, escribe la biografía del arzobispo Ricardo Pittini para un volumen sobre la herencia italiana en la RD (ed. Andrea Canepari, SJU Press 2021, alojado por la Academia Dominicana de la Historia). Se apoya en Sáez (Monseñor Pittini, 2002), Wiarda, Betances, Moya Pons. Sabe la historia eclesiástica de segunda mano.",
+   "extractos": [
+    {
+     "ubicacion": "p. 137 impresa (flipbook p. 138)",
+     "cita_original": "the Roman Catholic Church and the Trujillo dictatorship were engaged in a successful symbiotic relationship. For most of the dictator’s regime, the Church supported the regime, and the regime supported the Church",
+     "traduccion": "la Iglesia católica y la dictadura de Trujillo mantuvieron una relación simbiótica exitosa. Durante la mayor parte del régimen del dictador, la Iglesia apoyó al régimen y el régimen apoyó a la Iglesia.",
+     "afirmaciones": [
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "nota final 12, p. 141 impresa (flipbook p. 142)",
+     "cita_original": "According to ecclesiastical historian José Luis Sáez, Pittini’s willingness to work with Trujillo’s regime is exemplified by his trip to Haiti in February 1938, when he delivered a check for $250,000 to compensate Haiti for the 15,000 Haitians killed in the Dominican Republic in 1937 during the Parsley Massacre",
+     "traduccion": "Según el historiador eclesiástico José Luis Sáez, la disposición de Pittini a colaborar con el régimen de Trujillo se ejemplifica en su viaje a Haití en febrero de 1938, cuando entregó un cheque de 250.000 dólares para compensar a Haití por los 15.000 haitianos muertos en la RD en 1937 en la matanza del perejil.",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-172",
+    "A-176",
+    "A-192"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Silencio de la Iglesia (sección Silencios): el capítulo no menciona ninguna condena eclesiástica de 1937; sí confirma al nuncio-obispo como mensajero del pago. Coincide con FRUS 1938 (primer pago efectivo de 250.000 USD el 26-II-1938, F-0050; A-176). La cifra de 15.000 es la del propio Hall/Sáez, sin base. Fuente primaria citada: Sáez, Monseñor Pittini (Santo Domingo: Amigo del Hogar, 2002), p. 33 [no localizada en línea]. [POR VERIFICAR] si Pittini viajó con el nuncio Silvani o lo hizo a título propio. Para A-185 (Sosúa) el capítulo no aporta."
+  },
+  {
+   "titulo": "Bibliografía: el conflicto dominico-haitiano (Memorias. Revista Digital de Historia y Arqueología desde el Caribe, n.º 28, enero-abril de 2016, pp. 1-17)",
+   "autor": "Rodríguez, Amaury; Pérez, Jessy",
+   "anio": "2016",
+   "tipo": "terciaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.redalyc.org/pdf/855/85545264011.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Guía bibliográfica de un artículo universitario: sirve como índice para localizar obras (Cuello 1985 y 1997, Vega, Victoriano-Martínez), no como evidencia.",
+   "proveniencia": "Bibliografía comentada del conflicto domínico-haitiano publicada en la revista de la Universidad del Norte (Barranquilla). Útil como índice de la producción dominicana: confirma los datos bibliográficos de Cuello (1985; 1997) y de Vega (2007), y registra el título 'Rayanos y Dominicanyorks' (2014).",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 4, bibliografía",
+     "cita_original": "Cuello, H. J. I. (1985). Documentos del conflicto dominico-haitiano de 1937. Santo Domingo: Editora Taller",
+     "traduccion": "[Datos bibliográficos de F-0100: Cuello H., José Israel (1985). Editora Taller.]",
+     "afirmaciones": [
+      "A-173",
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 4, bibliografía (título completo continúa: «Detalles y comparaciones de los documentos que regularon el reclutamiento de trabajadores haitianos para las zafras…»)",
+     "cita_original": "Cuello, H. J. I. (1997). Contratación de mano de obra haitiana destinada a la industria azucarera dominicana, 1952-1986",
+     "traduccion": "[Obra que compara los textos de los contratos de 1952 y siguientes: pista para A-187.]",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12, bibliografía",
+     "cita_original": "Victoriano-Martínez, R. A. (2014). Rayanos y Dominicanyorks: la dominicanidad del siglo XXI",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12, bibliografía",
+     "cita_original": "Vega, B. (2007). Trujillo y Haití: la agresión contra Lescot. Santo Domingo: Fundación Cultural Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-173",
+    "A-177",
+    "A-182",
+    "A-187"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Terciaria: no es evidencia. Se registra porque es el índice más útil que apareció para localizar a los autores dominicanos del módulo (Cuello, Vega, Báez Evertsz, Franco, Cassá). No se leyeron las obras. Cuello (1997) puede resolver la laguna de los textos de los contratos de braceros de 1952-1986 (A-187) si se consigue; no hay copia abierta localizada."
+  },
+  {
+   "titulo": "Biblioteca Digital de la Biblioteca Nacional Pedro Henríquez Ureña (BNPHU), repositorio DSpace bd.bnphu.gob.do (colección «Patrimonio Dominicano»): libros y folletos de la Era de Trujillo",
+   "autor": "Biblioteca Nacional Pedro Henríquez Ureña (Santo Domingo)",
+   "anio": "s. f.",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/discover/search/objects?query=haitianos%201937"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Repositorio institucional con registros bibliográficos y archivos escaneados de impresos de época; la mayoría de los PDF requiere solicitud de copia.",
+   "proveniencia": "La BNPHU publica en DSpace 7 su biblioteca digital con folletos y libros oficiales de 1930-1961 (Memorias de Secretarías, Mensajes presidenciales, censos, libros de propaganda del régimen, textos de Peña Batlle y Balaguer). El campo 'abstract' contiene el arranque del texto OCR. Es la mejor hemeroteca/biblioteca de época con acceso parcial en línea; la prensa diaria (Listín Diario 1937) no está.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-164",
+    "A-172",
+    "A-180",
+    "A-182",
+    "A-183",
+    "A-188",
+    "A-189",
+    "A-193"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "MÉTODO (reproducible): API de búsqueda https://bd.bnphu.gob.do/server/api/discover/search/objects?query=...; por cada ítem /server/api/core/items/{uuid}/bundles y HEAD a /server/api/core/bitstreams/{uuid}/content (200 = abierto, 401 = request-a-copy). De unos 100 ítems revisados en barridos por trece consultas ('haitianos', 'cédula', 'censo', 'Trujillo', 'inmigración', 'Peña Batlle', 'Balaguer'...) pocos son de descarga abierta. ABIERTOS (200) y leídos aquí: Memorandum dominicano de 1937 (ba21af1a, 7,9 MB); Censo especial urbano de Ciudad Trujillo, cartilla de 1945 (91fda763); Tercer censo nacional 1950, resumen general (3e7e6bd7); Génesis, evolución y futuro de la estadística (7d4690cf); La era de Trujillo: el pensamiento vivo de Trujillo (9a6dc980); Mensaje de 27-II-1947 (14f8bd35). ABIERTOS pero no leídos: Mensaje presidencial de 1936 (8081e56a); Mensaje de 26-XII-1949 (255a8ba2); Mensaje de 1957 (9ad76d2c; ya M13-N10 vía Senado); Mensaje de 1959 (a593ada0); Tercer censo nacional de población 1950, texto completo 349 MB (cc8b0aca); Informe trimestral de Interior y Policía, 737 pp. (95314634; fecha 1941 en el catálogo, pero contiene datos de 1954-55: [POR VERIFICAR] la fecha). RESTRINGIDOS (401, pedir copia; metadatos leídos): Memoria de Relaciones Exteriores de 1937 (f8a1994d, 658 pp., presentada 27-II-1938 por Ortega Frier); Legislación acerca de la cédula personal de identidad, 1954 (ef870d5a, 156 pp.); Censo nacional 1936 (9c5c76bc, 23 pp.); El sentido de una política, 1943 (77a28938); La república de Haití y la república dominicana de Price-Mars, ed. 1995 (5478675a, 929 pp.); Díaz Ordóñez, El más antiguo y grave problema antillano, 1938 (170a7990, 59 pp., La Opinión; [POR VERIFICAR] contenido); Balaguer, La política internacional de Trujillo, Bogotá 1942 (54b9f8c3, 126 pp.); Sánchez i Sánchez, El caso dominico-haitiano, 1958 (6726d259); La frontera de la RD con Haití, 1958 (6d1480db); Viau, Le président Trujillo et la République d'Haïti, 1956 (b9b8047d); Memoria del Ejército Nacional 1939 (f448b44b); Discursos, mensajes y proclamas de Trujillo, varios tomos (49adaca5, e9ce180b, ade5652c, 97ecc8e3, cc784139, 5bb67e3c, 5a8b3a0a); Capacidad de la RD para absorber refugiados, 1945-46 (1c97d75a, 4bb95004). Esos son los candidatos para una petición de copia (investigador humano) que cerraría las lagunas del discurso de Dajabón (A-182), del expediente judicial (A-183), de la cédula (A-164) y de los censos (A-188, A-189). La prensa diaria de 1937 no aparece. Una búsqueda no encuentra el expediente judicial ni el discurso de Dajabón."
+  },
+  {
+   "titulo": "El sentido de una política (Ciudad Trujillo: Imprenta La Nación, 1943, 17 pp.): discurso pronunciado en Villa Elías Piña el 16 de noviembre de 1942 (registro BNPHU/2283; original en español)",
+   "autor": "Peña Batlle, Manuel Arturo",
+   "anio": "1943",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://bd.bnphu.gob.do/items/77a28938-de71-40f5-ac7a-168f36921356",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/2283",
+    "https://bd.bnphu.gob.do/server/api/core/items/77a28938-de71-40f5-ac7a-168f36921356",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/e663c48c-0acf-4938-af94-c829b31bed80/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Se leyó el registro (fecha, ocasión y arranque del texto); el PDF del discurso no se pudo descargar (401).",
+   "proveniencia": "Folleto de 17 páginas editado por La Nación en 1943 con el discurso de Manuel A. Peña Batlle (ministro de Trujillo; el cargo exacto en 1942 es POR VERIFICAR), en un acto de adhesión y gratitud a Trujillo por el plan oficial de dominicanización de la frontera. Escrito para la población fronteriza y la opinión dominicana; es la formulación de Estado de la 'valla social, étnica, económica y religiosa' (según Mateo 1993 y otros).",
+   "extractos": [
+    {
+     "ubicacion": "campo dc.description del registro",
+     "cita_original": "(Discurso pronunciado en Villa Elias Piña el 16 de Noviembre del 1942, en la manifestación que allí tuvo efecto en testimonio de adhesión y gratitud al Generalísimo Trujillo. con motivo del plan oficial de dominicanización de la frontera).",
+     "traduccion": "[Resuelve la fecha del discurso: 16 de noviembre de 1942, en español; el impreso es de 1943.]",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "campo dc.description.abstract (arranque del texto OCR)",
+     "cita_original": "la más vieja, difícil y complicada cuestión de Estado que haya ocupado jamás la mente y la atención de nuestros gobernantes: me refiero a la delicada cuestión fronteriza que desde 1844 nos dividió de Haití",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180",
+      "A-179"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179",
+    "A-180"
+   ],
+   "modulos": [
+    "M00",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M09",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0069",
+   "notas": "Acceso: el registro (metadatos y el campo de resumen, que recoge el arranque del texto) se lee por la API pública /server/api/core/items/{uuid}; el PDF (bitstream) responde 401 y exige 'solicitar una copia' (request-a-copy); no se intentó eludirlo. Los extractos son de los campos de metadatos del registro, no del texto del documento. Complementa la 'Parte 2' de F-0069 (traducción inglesa, BNPHU/2270): el original español tiene su propio registro (BNPHU/2283; 17 páginas frente a 16 de la versión inglesa) y confirma la fecha 16-XI-1942 y la ocasión (Villa Elías Piña, entonces cabecera de la nueva provincia San Rafael). El resumen cita la 'cuestión fronteriza que desde 1844 nos dividió de Haití' como 'la más vieja, difícil y complicada cuestión de Estado': es el marco oficial. No se leyó la frase 'valla social, étnica, económica y religiosa'; la cita viene de Mateo 1993 (fuente 19 de este informe). Texto del documento: pendiente de solicitar copia."
+  },
+  {
+   "titulo": "Legislación acerca de la cédula personal de identidad: otras disposiciones de interés general (Ciudad Trujillo: Secretaría de Estado del Tesoro y Crédito Público, 1954, 156 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado del Tesoro y Crédito Público",
+   "anio": "1954",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/items/ef870d5a-e536-4157-b1fb-1f3f7fffa568",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/2781",
+    "https://bd.bnphu.gob.do/server/api/core/items/ef870d5a-e536-4157-b1fb-1f3f7fffa568",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/b750d2c7-8429-42ae-9b6b-e4c23e420bb7/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial de la legislación de la cédula hasta 1954 (candidato a contener el modelo y los datos exigidos); solo se leyó el registro.",
+   "proveniencia": "Folleto de 156 páginas del Tesoro y Crédito Público para empleados fiscales y contribuyentes: reúne 'todas las disposiciones legales, debidamente actualizadas', incluidas las tarifas anteriores, sobre el impuesto de la cédula [POR VERIFICAR qué leyes recoge: la Ley 247 de 1931 es la base conocida]. Escrito por la administración fiscal; su interés es recaudatorio. Procede de la biblioteca de la familia Reyes Duluc.",
+   "extractos": [
+    {
+     "ubicacion": "campo dc.description.abstract del registro",
+     "cita_original": "la Secretaría de Estado del Tesoro y Crédito Público se complace en ofrecer en este folleto todas las disposiciones legales, debidamente actualizadas, relativas a dicho impuesto y a las funciones de las oficinas encargadas de su aplicación",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164"
+   ],
+   "modulos": [
+    "M13",
+    "M14",
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Acceso: el registro (metadatos y el campo de resumen, que recoge el arranque del texto) se lee por la API pública /server/api/core/items/{uuid}; el PDF (bitstream) responde 401 y exige 'solicitar una copia' (request-a-copy); no se intentó eludirlo. Los extractos son de los campos de metadatos del registro, no del texto del documento. Hallazgo para A-164 (Ley 247 de 1931 y modelo de cédula): este folleto es la compilación más cercana en el tiempo (1954) a los textos de la Ley 247, su reforma de 1935 (Ley 911) y la Ley 372 de 1940 [las dos últimas ya leídas en M13-N85 y F-0058: no listan 'indio']. Pedir copia al BNPHU; buscar en él: 'color', 'indio', 'modelo de cédula'. Es una compilación fiscal: probablemente solo reproduzca los artículos de recaudación y de funciones de las oficinas, no el modelo de la cédula."
+  },
+  {
+   "titulo": "Memoria de relaciones exteriores de 1937 (Ciudad Trujillo: Listín Diario, 1938, 658 pp.), presentada a Trujillo por el secretario de Estado Julio Ortega Frier el 27-II-1938",
+   "autor": "República Dominicana, Secretaría de Estado de Relaciones Exteriores (Julio Ortega Frier)",
+   "anio": "1938",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/items/f8a1994d-f041-4f19-bfa2-6935864f3fd1",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/3362",
+    "https://bd.bnphu.gob.do/server/api/core/items/f8a1994d-f041-4f19-bfa2-6935864f3fd1",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/eef025bc-7631-4c06-a282-ba7668f3e961/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Memoria oficial con la versión del Estado dominicano sobre 1937 (candidata a contener el comunicado del 15-X, las notas, el Memorandum y el acuerdo de enero de 1938); solo se leyó el registro.",
+   "proveniencia": "Memoria anual de la Cancillería correspondiente a 1937, de 658 páginas, presentada el 27-II-1938 por Julio Ortega Frier, quien sustituyó a Balaguer en noviembre de 1937 (Vega, Acento 29-III-2022) y, según el despacho de Norweb de FRUS 1938 (A-184), sostuvo la doctrina 'neo-white'. Escrita por el Estado dominicano para el presidente y el Congreso. La copia consta como 'Colección Patrimonio Dominicano'.",
+   "extractos": [
+    {
+     "ubicacion": "campo dc.description del registro",
+     "cita_original": "(Presentada al Excelentísimo Señor Presidente de la República, Generalísimo Doctor Rafael Leónidas Trujillo Molina, Benefactor de la Patria, por el Secretario de Estado de Relaciones Exteriores, Julio Ortega Frier. el 27 de febrero, 1938)",
+     "traduccion": "[Ortega Frier es quien, según F-0050 (FRUS 1938, A-184), habló de «persons of African blood… undesirable aliens».]",
+     "afirmaciones": [
+      "A-172",
+      "A-175",
+      "A-184"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-172",
+    "A-175",
+    "A-184"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Acceso: el registro (metadatos y el campo de resumen, que recoge el arranque del texto) se lee por la API pública /server/api/core/items/{uuid}; el PDF (bitstream) responde 401 y exige 'solicitar una copia' (request-a-copy); no se intentó eludirlo. Los extractos son de los campos de metadatos del registro, no del texto del documento. Pista de máxima prioridad para A-172, A-175 y A-183: la Memoria de 1937 debe recoger la versión oficial del 'incidente', las notas con Haití y la investigación judicial. La Memoria de 1936 (M13-N02) y la de 1939 (M13-N01) ya constan en M13; esta de 1937 (publicada 1938) falta. Copia pedible. [POR VERIFICAR] que el catálogo cita 'Memoria de relaciones exteriores de 1938' (campo identifier.citation) mientras el título dice 1937: la presentación del 27-II-1938 indica que es la del año 1937."
+  },
+  {
+   "titulo": "Censo nacional (Ciudad Trujillo: Editorial La Nación, 1936, 23 pp.; archivo «CensoNacionalRD1936_Proclama.pdf»)",
+   "autor": "República Dominicana",
+   "anio": "1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/items/9c5c76bc-2f22-4545-8183-e508114e1aae",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/138",
+    "https://bd.bnphu.gob.do/server/api/core/items/9c5c76bc-2f22-4545-8183-e508114e1aae",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/c0e43f78-a0a6-4676-ae01-787bc0259b58/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Registro bibliográfico de un folleto de 23 pp. cuyo nombre de archivo sugiere la proclamación del censo, no los resultados; solo se leyó el registro.",
+   "proveniencia": "Folleto de La Nación de 1936, de 23 páginas, que por el nombre del archivo ('Proclama') parece la proclama del censo de 1935 y no los cuadros. Procedencia exacta [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "campo dc.identifier.citation del registro",
+     "cita_original": "República Dominicana. (1936). Censo nacional. Ciudad Trujillo, República Dominicana: Editorial La Nación",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Acceso: el registro (metadatos y el campo de resumen, que recoge el arranque del texto) se lee por la API pública /server/api/core/items/{uuid}; el PDF (bitstream) responde 401 y exige 'solicitar una copia' (request-a-copy); no se intentó eludirlo. Los extractos son de los campos de metadatos del registro, no del texto del documento. No son los volúmenes del censo de 1935. Quedan sin localizar en línea los volúmenes publicados del censo nacional de 1935 y del conteo de 1936 (laguna A-188/A-189); lo más cercano leído es el Resumen del Censo de 1950 (fuente 21) que republica algunos cuadros de 1935, y la cartilla de 1945."
+  },
+  {
+   "titulo": "La República de Haití y la República Dominicana: diversos aspectos de un problema histórico, geográfico y etnológico. Desde el origen de la isla antillana en 1492 hasta la evolución de los dos Estados que comparten la soberanía de la misma en 1953 (reimpresión de la primera versión española, con nueva introducción; Santo Domingo: Sociedad Dominicana de Bibliófilos, 1995, 929 pp.)",
+   "autor": "Price-Mars, Jean (trad. Martín Aldao y José Luis Muñoz Azpiri)",
+   "anio": "1995 (orig. 1953)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://bd.bnphu.gob.do/items/5478675a-2d77-4b3b-a126-6aba24f9d484",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/handle/BNPHU/3157",
+    "https://bd.bnphu.gob.do/server/api/core/items/5478675a-2d77-4b3b-a126-6aba24f9d484",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/b6cc1a07-25c9-499b-a139-e0052ad837bc/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Registro bibliográfico de la reimpresión dominicana de la traducción de la obra de Price-Mars; el PDF (194 MB) no se pudo descargar (401).",
+   "proveniencia": "Reimpresión de 1995 por la Sociedad Dominicana de Bibliófilos de la primera versión española de La République d'Haïti et la République Dominicaine (1953, 2 vols.), con nueva introducción, notas e índice onomástico; la copia perteneció a la biblioteca de Guaroa Ginebra. La edición dominicana de 1995 es la que cita San Miguel (reseña de Mayes, nota 3).",
+   "extractos": [
+    {
+     "ubicacion": "campo dc.description del registro",
+     "cita_original": "Reimpresión de la primera versión española con nueva introducción",
+     "traduccion": "[Confirma que existe una traducción española con nueva introducción de 1995; no contiene el pasaje «rêve inutile».]",
+     "afirmaciones": [
+      "A-193"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-193"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Acceso: el registro (metadatos y el campo de resumen, que recoge el arranque del texto) se lee por la API pública /server/api/core/items/{uuid}; el PDF (bitstream) responde 401 y exige 'solicitar una copia' (request-a-copy); no se intentó eludirlo. Los extractos son de los campos de metadatos del registro, no del texto del documento. Pista para A-193 (Price-Mars 1953 y el «rêve inutile»): la versión española (traductores Aldao y Muñoz Azpiri) está en el BNPHU con petición de copia. Antes se citaba la edición francesa de 1953 'bajo derechos'. [POR VERIFICAR] si esta edición reproduce el prefacio de 1953 que habría respondido a Peña Batlle."
+  },
+  {
+   "titulo": "La República Dominicana y Haití frente al futuro (Santo Domingo: FLACSO, 1998; ed. Rubén Silié, Orlando Inoa, Arnold Antonin; capítulo de Silié «Aspectos socio-históricos sobre la inmigración haitiana a la República Dominicana»)",
+   "autor": "Silié, Rubén (ed.); Inoa, Orlando; Antonin, Arnold",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22307/3/LFLACSO-01-Silie.pdf",
+   "urls_alternativas": [
+    "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22307/2/LFLACSO-Silie-ED-PUBCOM.pdf",
+    "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22631/2/LFLACSO-Silie.pdf"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "No se pudo leer: el repositorio de FLACSO-Ecuador devuelve 403 con una página de 'Verificación de acceso' en tres bitstreams distintos.",
+   "proveniencia": "Libro de FLACSO República Dominicana (1998) coordinado por Rubén Silié (historiador y luego embajador en Haití) con Orlando Inoa (autor de F-0270) y Arnold Antonin (cineasta haitiano), sobre la inmigración haitiana y el futuro de las relaciones bilaterales; el capítulo de Silié reconstruye los aspectos socio-históricos de la inmigración. Voz dominicana académica de los años 90.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M13",
+    "M14",
+    "M15"
+   ],
+   "id_existente": "F-0296",
+   "notas": "Segundo intento en esta ronda con tres URL del repositorio (22307/3, 22307/2, 22631/2): curl devuelve HTTP 403 y una página HTML de 'Verificación de acceso' (2.728 bytes), como en la ronda 1; es una comprobación anti-bot que no se intentó eludir. Queda sin leer. Una búsqueda lista además los capítulos sueltos (10469/22800/*, por ejemplo LFLACSO-09-Silie.pdf) del mismo repositorio, que están sujetos al mismo bloqueo."
+  },
+  {
+   "titulo": "La llamada Masacre del Perejil (El Caribe, edición impresa en línea)",
+   "autor": "El Caribe (redacción)",
+   "anio": "s. f.",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.elcaribe.com.do/edicion-impresa/la-llamada-masacre-del-perejil/",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "No se pudo leer: la URL devuelve 403 con la pantalla de verificación de Cloudflare ('Just a moment...').",
+   "proveniencia": "Periódico dominicano El Caribe, que Germán E. Ornes (su director en los años 1940-50) llama «la máquina de propaganda trujillista» (Ornes 1958, l. 4226-4227; fuente 3 de este informe). Artículo sin firma sobre 1937 que, según un resumen de búsqueda, cita a Vega (8.492 haitianos en el censo de 1936) [POR VERIFICAR].",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0392",
+   "notas": "Retry en esta ronda (curl): HTTP 403 y HTML de desafío de Cloudflare (5.601 bytes); WebFetch tampoco abre la edición impresa; no se intentó eludir. La cifra de 8.492 haitianos (A-166) sigue sin fuente leída: Herrera 2022 da 8.442 para siete provincias del Cibao en 1935 [F-0272]; el resumen de 1950 republica el censo de 1935 (fuente 21) pero la OCR no deja leer la cifra por nacionalidad."
+  },
+  {
+   "titulo": "Los orígenes de la ideología trujillista (obra de Diógenes Céspedes; título según la ficha biobibliográfica de El Nuevo Diario)",
+   "autor": "Céspedes, Diógenes",
+   "anio": "s. f.",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://elnuevodiario.com.do/diogenes-cespedes/",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo consta el título en una ficha biobibliográfica de prensa (leída en la ronda 1; en esta ronda la URL devuelve 403); el texto de la obra no se localizó en línea en dos búsquedas.",
+   "proveniencia": "Diógenes Céspedes (n. 1941, Premio Nacional de Ensayo 1983 y de Literatura 2007) figura como autor del ensayo sobre los orígenes de la ideología trujillista; existe una versión con Andrés Blanco Díaz en 'Vigil Díaz / Zacarías Espinal. Obras' (distinta). Voz crítico-interna de la crítica literaria dominicana.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0098",
+   "notas": "La ficha de El Nuevo Diario (https://elnuevodiario.com.do/diogenes-cespedes/) respondió 403 a curl («Checking your browser… Javascript required») y a WebFetch en esta ronda, aunque la ronda 1 la había leído: el título consta solo por esa lectura previa (M13.md). Segunda ronda: dos búsquedas con el título no devolvieron el texto (ni en Estudios Sociales, ni en Ecos, ni en el sitio de la Funglode); lo que sí aparece es crítica de la misma tradición: Andrés L. Mateo (1993, fuente 19) y Raymundo González (1994, fuente 15). Un resumen de búsqueda atribuye a Céspedes la frase de que 'una de las formas de eficacia de la ideología trujillista residía en la repetición de hipérboles' [POR VERIFICAR; sin extracto]. Sigue 'no-localizada'."
+  }
+ ]
+}
