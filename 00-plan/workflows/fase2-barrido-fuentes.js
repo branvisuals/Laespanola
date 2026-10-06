@@ -20,6 +20,11 @@ export const meta = {
 //   args.registrar_solo : modulos cuya busqueda y fusion ya existen en disco (M##.md y M##.nuevas/existentes/cobertura.csv
 //                         de una corrida anterior): se omiten busqueda y fusion y corren solo critico, segunda ronda si hace
 //                         falta y registrador. Ejemplo: ["M05","M06"].
+//   args.reparar        : reparaciones previas a los modulos, cada una {modulo, tipo, ...}:
+//                         {modulo:"M09", tipo:"unir-md", fuente:"02-fuentes/por-modulo/M09.corrida-1.md"} une una version
+//                         antigua de la bibliografia con la actual; {modulo:"M00", tipo:"integrar-raw", archivos:[rutas de JSON
+//                         crudos]} integra JSON de buscadores no fusionados como ronda adicional. Cada reparacion termina con
+//                         su registrador (en serie, como los modulos) y su commit.
 //
 // AVISO SOBRE REANUDAR (aprendido el 2026-10-06): la cache de resumeFromRunId reproduce solo el prefijo de llamadas agent()
 // que coincide en ORDEN con la corrida anterior. Con varios modulos en vuelo el orden no es determinista, asi que una
@@ -40,6 +45,7 @@ const MAX_B2 = Math.min(80, MAX_B1)
 const FECHA = (args && args.fecha) || '2026-10-06'
 const MODELOS = (args && args.modelos) || {}
 const REGISTRAR_SOLO = (args && Array.isArray(args.registrar_solo)) ? args.registrar_solo : []
+const REPARAR = (args && Array.isArray(args.reparar)) ? args.reparar : []
 const opt = (rol, extra) => Object.assign({}, MODELOS[rol] ? { model: MODELOS[rol] } : {}, extra)
 
 const MODULOS = {
@@ -221,7 +227,7 @@ function promptFusion(m, archivosRaw, ronda, faltantes) {
   const base = `${REPO}\\02-fuentes\\por-modulo\\${m.id}`
   const cabecera = ronda === 1
     ? `Eres el FUSIONADOR del modulo ${m.id} (${m.periodo}). Cinco buscadores ciegos entre si han escrito sus resultados en estos JSON: ${archivosRaw.join(' ; ')}. Leelos enteros (python -X utf8 con json). ANTES DE ESCRIBIR: comprueba si ya existe ${md} de una corrida anterior. Si existe, NO lo sustituyas ni lo borres: integra los JSON como una ronda adicional conservando todas sus fichas, sus ids F-#### definitivos y sus secciones (los ids provisionales nuevos continuan la numeracion M##-Nxx desde el ultimo usado), y anota la nueva ronda en la seccion 7. Lo mismo con los CSV auxiliares si existen: se amplian, no se reemplazan.`
-    : `Eres el FUSIONADOR DE SEGUNDA RONDA del modulo ${m.id} (${m.periodo}). Ya existe ${md} con la ronda 1 y los archivos ${base}.nuevas.csv, ${base}.existentes.csv y ${base}.cobertura.csv. Los buscadores de la segunda ronda han escrito: ${archivosRaw.join(' ; ')}. Integra la ronda 2 en los cuatro archivos SIN perder nada de la ronda 1: continua la numeracion provisional (M##-Nxx) donde quedo, anade filas, actualiza las secciones 1 a 7 y escribe en la seccion 6 las peticiones del critico que siguen sin resolverse. Peticiones del critico (JSON): ${JSON.stringify(faltantes, null, 1)}`
+    : `Eres el FUSIONADOR DE SEGUNDA RONDA del modulo ${m.id} (${m.periodo}). Ya existe ${md} con la ronda 1 y los archivos ${base}.nuevas.csv, ${base}.existentes.csv y ${base}.cobertura.csv. Los buscadores de la segunda ronda han escrito: ${archivosRaw.join(' ; ')}. Integra la ronda 2 en los cuatro archivos SIN perder nada de la ronda 1: continua la numeracion provisional (M##-Nxx) donde quedo, anade filas, actualiza las secciones 1 a 7 y escribe en la seccion 6 las peticiones del critico que siguen sin resolverse. Si los tres CSV auxiliares ya no existen (porque un registrador anterior los integro en registro.csv y los borro), crealos de nuevo SOLO con lo que aporta esta ronda (las fuentes que ya tienen F-#### en registro.csv van a existentes.csv, no a nuevas.csv). Nunca sustituyas ni borres el M##.md existente: se amplia. Peticiones del critico (JSON): ${JSON.stringify(faltantes, null, 1)}`
   return `${REGLAS}
 ${cabecera}
 
@@ -254,9 +260,20 @@ Pregunta y responde con evidencia:
 Usa hasta 40 busquedas (WebSearch) y los fetch que necesites para comprobar que lo que pides existe en linea y donde (no pidas lo que no existe). suficiente = true solo si las afirmaciones sin fuente son el 10% o menos del modulo y no hay desequilibrio grave entre tradiciones. En faltantes, cada entrada lleva la lente que debe buscarla (una de: dominicana, haitiana, colonial-primaria, internacional, cientifica), consultas concretas (con site:, idioma, autor, titulo) y las afirmaciones afectadas. Se concreto y breve: maximo 15 faltantes, las mas importantes primero. No escribas archivos.`
 }
 
-function promptRegistro(m, fusion) {
+function promptUnirMd(m, fuenteRel) {
+  const md = `${REPO}\\02-fuentes\\por-modulo\\${m.id}.md`
   const base = `${REPO}\\02-fuentes\\por-modulo\\${m.id}`
-  const resumen = fusion ? `Resumen del fusionador: ${fusion.n_fuentes} fuentes, ${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes, ${fusion.n_cobertura} pares de cobertura; problemas: ${JSON.stringify(fusion.problemas)}` : 'Sin resumen del fusionador.'
+  const vieja = `${REPO}\\${fuenteRel.replace(/\//g, '\\')}`
+  return `${REGLAS}
+Eres el FUSIONADOR DE REPARACION del modulo ${m.id} (${m.periodo}). Existen dos versiones de la bibliografia anotada del modulo: ${md} (la actual, fusion de la segunda corrida) y ${vieja} (la fusion de la primera corrida, que la segunda sustituyo por error). Las dos usan ids F-#### definitivos de ${REPO}\\02-fuentes\\registro.csv; si encuentras algun id provisional (${m.id}-Nxx o Nxx suelto), resuelvelo contra registro.csv por URL o por autor+titulo+anio y, si de verdad no existe, dejalo como ${m.id}-Nxx y ponlo en nuevas.csv.
+TAREA: reescribe ${md} como la UNION de ambas versiones, con la estructura de siete secciones que ya tienen: conserva todas las fichas de las dos (una misma fuente en ambas = una sola ficha con los extractos de las dos, sin repetir citas), une la tabla de la seccion 1 y la matriz de la seccion 3, recompón las secciones 4, 5 y 6 con lo de ambas, y en la seccion 7 deja constancia de las dos corridas y de esta reparacion con fecha ${FECHA}. No pierdas ninguna cita, ubicacion ni URL. No anadas nada de tu memoria. Trabaja con python -X utf8 (los archivos pesan mas de 1 MB): extrae las fichas por id, compara y escribe; no reescribas a mano.
+Escribe ademas: ${base}.nuevas.csv (cabecera id_provisional,tipo,autor,titulo,anio,idioma,tradicion,modulos,url,acceso,fiabilidad,notas; normalmente solo la cabecera), ${base}.existentes.csv (cabecera id,url,acceso,fiabilidad,modulos,notas; solo si alguna ficha recuperada aporta una URL verificada o un acceso mejor que el registro) y ${base}.cobertura.csv (cabecera afirmacion,fuente,modulo,verificacion,ubicacion; TODOS los pares afirmacion-fuente de las fichas de la version antigua, con fuente = F-####; el registrador deduplica contra 03-afirmaciones/cobertura.csv). Valida los tres CSV con python -X utf8 (csv, utf-8, newline=''). Al terminar, borra ${vieja} del disco (ya integrado; sigue en el historial de git) y comprueba con grep que ${md} no contiene ids provisionales ni la cadena "corrida-1.md".
+Devuelve la salida estructurada (archivo, n_fuentes, n_nuevas, n_existentes, n_cobertura, afirmaciones_cubiertas, afirmaciones_sin_fuente, terminos_nuevos, lagunas, problemas).`
+}
+
+function promptRegistro(m, fusion, extra) {
+  const base = `${REPO}\\02-fuentes\\por-modulo\\${m.id}`
+  const resumen = (fusion ? `Resumen del fusionador: ${fusion.n_fuentes} fuentes, ${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes, ${fusion.n_cobertura} pares de cobertura; problemas: ${JSON.stringify(fusion.problemas)}` : 'Sin resumen del fusionador.') + (extra ? ` INSTRUCCION ADICIONAL PARA ESTE MODULO: ${extra}` : '')
   return `${REGLAS}
 Eres el REGISTRADOR del modulo ${m.id}. Trabajas EN SERIE: ningun otro registrador toca registro.csv, cobertura.csv ni git mientras tu trabajas, pero otros modulos pueden haber anadido filas desde que se escribio tu modulo, asi que relee todo. ${resumen}
 PASOS:
@@ -350,22 +367,59 @@ async function procesarModulo(id) {
   return out
 }
 
-// Pool de trabajadores: EN_VUELO modulos a la vez, en el orden de prioridad; cada modulo termina (y hace push) antes de que su trabajador tome el siguiente
-const pendientes = MODULOS_A_CORRER.slice()
+async function procesarReparacion(rep) {
+  const id = rep.modulo
+  const m = Object.assign({ id }, MODULOS[id])
+  const out = { modulo: id, reparacion: rep.tipo, ronda1: [], critico: null, ronda2: [], fusion: null, registro: null, estado: 'ok' }
+  let fusion = null, extra = ''
+  if (rep.tipo === 'unir-md') {
+    log(`${id}: reparacion: union de ${rep.fuente} con ${id}.md`)
+    fusion = await agent(promptUnirMd(m, rep.fuente), opt('fusionador', { label: `${id}:reparacion:unir-md`, phase: 'Fusion', schema: FUSION_SCHEMA }))
+    extra = `este modulo viene de una reparacion que unio dos versiones de ${id}.md; el archivo ${rep.fuente} ya esta integrado y borrado del disco: stagea su borrado con git rm -q -- ${rep.fuente}. nuevas.csv puede traer solo la cabecera; cobertura.csv trae pares que en su mayoria ya existen (dedup normal).`
+  } else if (rep.tipo === 'integrar-raw') {
+    log(`${id}: reparacion: integracion de ${rep.archivos.length} JSON crudos no fusionados`)
+    const archivos = rep.archivos.map(a => `${REPO}\\${a.replace(/\//g, '\\')}`)
+    fusion = await agent(promptFusion(m, archivos, 2, []), opt('fusionador', { label: `${id}:reparacion:integrar-raw`, phase: 'Fusion', schema: FUSION_SCHEMA }))
+    extra = `este modulo viene de una reparacion que integro JSON crudos de una corrida anterior (${rep.archivos.join(', ')}) como ronda adicional; esos JSON ya estan en git y no se tocan.`
+  } else {
+    out.estado = 'reparacion-desconocida'; log(`${id}: tipo de reparacion desconocido: ${rep.tipo}`); return out
+  }
+  if (!fusion) { out.estado = 'fallo-fusion'; log(`${id}: la reparacion no termino; sin registrar`); return out }
+  out.fusion = fusion
+  log(`${id}: reparacion fusionada: ${fusion.n_fuentes} fuentes, ${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes, ${fusion.n_cobertura} pares`)
+  const registro = await enSerie(() => agent(promptRegistro(m, fusion, extra), opt('registrador', { label: `${id}:reparacion:registro`, phase: 'Registro', schema: REGISTRO_SCHEMA })))
+  out.registro = registro
+  if (!registro) { out.estado = 'fallo-registro'; log(`${id}: el registrador de la reparacion no termino; revisar a mano`); return out }
+  log(`${id}: reparacion registrada (${registro.n_nuevas} nuevas, ${registro.n_actualizadas} actualizadas, ${registro.n_cobertura} pares; registro con ${registro.total_registro} filas); commit ${registro.commit}; push ${registro.push_ok ? 'ok' : 'FALLO'}`)
+  if (registro.problemas && registro.problemas.length) log(`${id}: problemas de registro: ${registro.problemas.join(' | ')}`)
+  return out
+}
+
+// Pool de trabajadores: EN_VUELO elementos a la vez (primero las reparaciones, luego los modulos en el orden de prioridad); cada elemento termina (y hace push) antes de que su trabajador tome el siguiente
+const pendientes = REPARAR.map(r => ({ reparacion: r })).concat(MODULOS_A_CORRER.map(id => ({ modulo: id })))
 const resultados = []
 async function trabajador(n) {
   while (pendientes.length) {
-    const id = pendientes.shift()
+    const item = pendientes.shift()
+    if (item.reparacion) {
+      const id = item.reparacion.modulo
+      if (!MODULOS[id]) { log(`reparacion con modulo desconocido: ${id}`); continue }
+      try { resultados.push(await procesarReparacion(item.reparacion)) }
+      catch (e) { log(`${id}: error de orquestacion en la reparacion: ${e && e.message}`); resultados.push({ modulo: id, reparacion: item.reparacion.tipo, estado: 'error', detalle: String(e && e.message) }) }
+      continue
+    }
+    const id = item.modulo
     if (!MODULOS[id]) { log(`modulo desconocido: ${id}`); continue }
     try { resultados.push(await procesarModulo(id)) }
     catch (e) { log(`${id}: error de orquestacion: ${e && e.message}`); resultados.push({ modulo: id, estado: 'error', detalle: String(e && e.message) }) }
   }
 }
-log(`Fase 2: ${MODULOS_A_CORRER.length} modulos en este orden: ${MODULOS_A_CORRER.join(', ')}; ${EN_VUELO} en vuelo; fecha ${FECHA}; modelos por rol: ${JSON.stringify(MODELOS)}`)
-await parallel(Array.from({ length: Math.min(EN_VUELO, MODULOS_A_CORRER.length) }, (_, i) => () => trabajador(i)))
+log(`Fase 2: ${REPARAR.length} reparacion(es) y ${MODULOS_A_CORRER.length} modulos en este orden: ${MODULOS_A_CORRER.join(', ')} (registrar_solo: ${REGISTRAR_SOLO.join(', ') || 'ninguno'}); ${EN_VUELO} en vuelo; fecha ${FECHA}; modelos por rol: ${JSON.stringify(MODELOS)}`)
+await parallel(Array.from({ length: Math.min(EN_VUELO, pendientes.length) }, (_, i) => () => trabajador(i)))
 
 const resumen = resultados.map(r => ({
   modulo: r.modulo,
+  reparacion: r.reparacion || '',
   estado: r.estado,
   buscadores_r1: r.ronda1 ? r.ronda1.length : 0,
   busquedas: (r.ronda1 || []).concat(r.ronda2 || []).reduce((s, x) => s + (x.busquedas_usadas || 0), 0) + (r.critico ? (r.critico.busquedas_usadas || 0) : 0),
