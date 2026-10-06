@@ -1,0 +1,1210 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M05",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 22,
+ "busquedas_pendientes": [
+  "Caro, José Antonio, 'Estado General de las Poblaciones de la Ysla Española de Santo Domingo, con el número de su vecindario a fines de 1769 y el que en el de 1782 le regula el Racionero Dn. Josef Sánchez de Valverde', Boletín del Museo del Hombre Dominicano III (octubre de 1973), pp. 327-331 (fuente de las cifras de 1769 y 1782 de Moya Pons 1974): una búsqueda sin resultado; probar el repositorio del Museo del Hombre Dominicano.",
+  "Álvarez de Abreu, 'Compendiosa Noticia de la Ysla de Santo Domingo' (abril de 1740), en Rodríguez Demorizi, Relaciones históricas de Santo Domingo, t. III (1957), pp. 259-272 (base de las 30.058 personas de 1739): una búsqueda sin resultado; archive.org no tiene la obra de Rodríguez Demorizi.",
+  "HGPD t. II, cap. 4 (pp. 201-248): no hay PDF abierto en el sitio de la ADH (solo noticias y fichas); falta probar el flipbook de la ADH y la plataforma de la editorial.",
+  "site:pares.cultura.gob.es 'Santo Domingo 988' padrón 1782 (PARES devuelve 429 a curl y a WebFetch; no se reintentó tras pausas largas). Con el hallazgo de Moya Pons 1974, esta consulta pasa a ser la prioritaria para separar el padrón oficial de 1782-83 (60.962) del 'conteo de 1782' regulado por Valverde (119.600).",
+  "Persée: 'Les esclaves dans la zone d'occupation anglaise de Saint-Domingue en 1796' (Houdaille 1971, pop_0032-4663_1971_num_26_1_5087), por si cuadra el cuadro de capitación de 1789 (el PDF de 1973 exige captcha).",
+  "Malouet, Collection de mémoires et correspondances officielles sur l'administration des colonies (1802; archive.org collectiondem01malo, collectiondem04malo, collectiondem05malo): grep de cuadros de población de Saint-Domingue de 1789.",
+  "Garran-Coulon t. I en la copia de Manioc: la descarga se cortó a 12.982.577 de 40.469.257 bytes; se sustituyó por la copia de archive.org (rapportsurlestro00fran), de modo que no hace falta; sí falta cotejar con el original impreso de la p. 15 la lectura '434,429' de Mozard frente a Edwards.",
+  "Real Cédula de 31-V-1789 (Instrucción sobre educación, trato y ocupaciones de los esclavos): texto completo (Konetzke t. III; Saco, libro VII en es.wikisource menciona la cédula, pero el texto no está en línea).",
+  "Mozard, tableau de la population et du commerce de Saint-Domingue de 1788 (el que cita Garran, t. I, pp. 15 y 37-38): localizar el original presentado al Comité de salut public (año II).",
+  "Expediente español de la reducción del maniel de Bahoruco (AGI Santo Domingo; Peralta, Chávez y Mendoza, 1785-1786) y Deive 1985, Los cimarrones del maniel de Neiba: sin texto abierto.",
+  "Rodríguez Demorizi, Relaciones históricas de Santo Domingo y la visita de Morell de Santa Cruz (1739-1740): archive.org no devuelve ninguna ficha por autor o título."
+ ],
+ "lagunas": [
+  "A-054: el recuento primario de agosto de 1789 (ANOM C9A/163) sigue sin abrir (ANOM responde con desafío Anubis en recherche-anom.culture.gouv.fr y 000 en anom.archivesnationales.culture.gouv.fr; no se evadió). Lo que sí se logró fue trazar el origen de cada cifra en circulación: 24.848 libres de color y unos 30.000 blancos son los que Moreau atribuye en 1791 a un 'recensement de 1790' (el 24.848 coincide exactamente con el que Geggus y Garrigus dan para el recuento de agosto de 1789, ANOM C9A/163, lo que sugiere el mismo recuento con otra fecha; no demostrable sin el original); 405.564 es el número de esclavos sobre el que Marbois calcula la capitación a 3 libras en un texto firmado el 13-VII-1789 (la frase no dice si el rol es de 1788 o de 1789); 509.642 esclavos, 35.440 blancos y 26.666 libres de color son los 'états/relevés' de 1789 sobre Marbois según Garran (1797); 434.429 es el cuadro de Mozard para 1788 según Garran, y el mismo 434.429 figura como 'esclavos rurales' en Edwards 1797 (M05-N29); 405.528 es el 'dénombrement' de 1788 según Barré de Saint-Venant (1802), casi idéntico al de Marbois. No hay base común: lo contabilizado en 1788-1789 va de unos 405.000 (capitación) a 509.642 (Garran), y ninguna base primaria leída da 465.000-500.000: el valor más próximo es el 509.642 de Garran; el 465.429 aparece en Placide-Justin 1826 sin base. La tríada 30.831 / 24.848 / 434.424 que un snippet atribuye a una brochure de Paris 1 no se pudo abrir (cours.univ-paris1.fr devuelve una página de acceso de Moodle con 200); el 30.831 de Edwards y el 24.848 de Moreau 1791 no son el mismo recuento.",
+  "A-054: Houdaille (Population 1973, pp. 859-872) está identificado en Persée (pop_0032-4663_1973_num_28_4_15523) pero solo se abre la primera página (introducción); el PDF (docAsPDF) devuelve 403 y la descarga lleva captcha, que no se evadió. No se sabe si el artículo discute el recuento de 1789.",
+  "A-056 (hallazgo de la ronda): Moya Pons (Eme Eme, 1974, p. 10 y nota 32) distingue tres conteos del siglo XVIII y dos de ellos no son un padrón oficial: 30.058 personas en 1739 (cómputo suyo de los conteos parroquiales de la visita pastoral del arzobispo Álvarez de Abreu; su tabla IV suma 30.158), 70.625 en 1769 (padrones parroquiales; su tabla V da 61.729 libres + 8.900 esclavos = 70.629) y 119.600 en 1782, que el documento fuente que cita (Caro 1973) titula 'el que en el de 1782 le regula el Racionero Dn. Josef Sánchez de Valverde', es decir una regulación del propio Valverde, no el padrón de 1782-83 del AGI (60.962 según Sevilla Soler). Las dos cifras de 1782 (119.600 y 60.962) no son, pues, dos lecturas del mismo recuento. Moya Pons señala además que su propio 119.600 'no parece muy preciso, pero [...] está por debajo de los otros estimados contemporáneos'.",
+  "A-056: ningún padrón español de 1737-1789 abierto en texto primario. PARES (AGI Santo Domingo 988, padrón de 1782-83) devuelve 429 a curl y a WebFetch. Los datos primarios accesibles son derivados: Moreau 1796 (125.000 = 110.000 libres + 15.000 esclavos; ciudad de Santo Domingo 20.000 recensados y al menos 25.000; recensement de 1737 de 6.000 almas; Santiago 3.000 en 1724, 8.000 en 1764, más de 27.000 en 1796) y la corrección de Sánchez Valverde; Moreau no da la fuente de ninguna de las cifras de conjunto, salvo 'dit Valverde' para el método de los censos parroquiales.",
+  "A-056 y A-061: dos cifras para el este español en el decenio de 1730 siguen sin conciliar: 'unos 6.000 almas, la capital apenas 500' (Moreau 1796, p. 141, que cita un 'recensement de 1737'; igual en Valverde y Schoenrich) frente a 18.410 hacia 1718 y 30.058 hacia 1739 (Moya Pons, Historia colonial, p. 306, según Jáuregui y Solodkow 2014) y 25.806 hacia 1740 (Álvarez de Abreu, según Sevilla Soler). Ni Moreau ni Valverde dicen qué cuenta ese 6.000 (¿solo blancos o vecinos de la capital?). Las otras dos cifras de ese decenio proceden de la misma visita pastoral del arzobispo Álvarez de Abreu (1739-1740): 25.806 según la relación del arzobispo (Sevilla Soler) y 30.058 según el cómputo de Moya Pons 1974 (p. 10; su tabla IV suma 30.158) de los conteos parroquiales; las dos se parecen entre sí y no al 6.000 de Moreau.",
+  "A-057: la 'convención de 1731' (Deive, El Día, Pierre 2023) no aparece ni en Moreau, Loix et constitutions t. III (1722-1749) ni en el preámbulo del tratado de Aranjuez tal como lo reproduce Cantillo; lo que sí está documentado antes de 1777 es: (1) convenios provisionales de los comandantes ('convenios que interinamente han solido hacerse por los comandantes de ambas posesiones', Aranjuez, preámbulo), (2) los 'conventions et traités secrets' de Sorel y Montholon con el capitán general español sobre fugitivos (c. 1723, citados en 1728), (3) la 'convención provisional' de Solano y Vallière (25-VIII-1773, dígito final ilegible en el OCR de Cantillo, pero Moreau sitúa la visita de Solano a Port-au-Prince el 12-16 de agosto de 1773), y (4) el 'tratado definitivo sub spe rati' de límites firmado en la Atalaya el 29-II-1776 por Solano y el conde de Ennery, con el instrumento de los comisarios Joaquín García y vizconde de Choiseul de 28/29-VIII-1776. Quedan sin documento: los convenios de 1762 y 1773 propiamente dichos (solo su mención), el texto del tratado de la Atalaya fuera de la descripción incorporada a Aranjuez y el expediente de la comisión de límites.",
+  "A-062: no se leyó la sentencia del teniente criminal del Cabo ni el relato de la ejecución de Makandal (el arrêt del Conseil confirma la sentencia el 20-I-1758 y la devuelve al teniente criminal; no narra la ejecución). Tampoco se halló el expediente español de la reducción del maniel de Bahoruco (AGI, PARES 429), ni voces de los cimarrones fuera del relato de sus enemigos.",
+  "A-058: ninguna de las cuatro obras de Raimond describe la esclavitud del este español (grep de 'espagnol', 'maronage', 'Bahoruco' y 'Santo Domingo' en la Observations, la Réponse, el Mémoire de 1793 y las Réflexions de 1793: sin resultados útiles); la voz de los libres de color solo cubre Saint-Domingue francés. Sobre los libres de color del este español (mayoría hacia 1789, según el glosario) no hay primera persona.",
+  "Raimond (Réponse, 1791) afirma que el recuento general no anotaba el color porque se formaba con declaraciones de los propietarios y que muchos libres de color se contaban como blancos; esa afirmación es de parte y no se pudo contrastar con el recuento original."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "traité sub spe rati (Atalaya, 29-II-1776)",
+   "tradicion": "francesa/española",
+   "nota": "'Traité des Limites, sub spe rati' (Loix et constitutions t. V, p. 663) o 'tratado definitivo sub spe rati firmado en la Atalaya' (Cantillo): acuerdo de límites firmado por los gobernadores Solano y d'Ennery bajo reserva de ratificación de las coronas, antecedente directo y base del art. 1 de Aranjuez (1777). Matiza 'primera frontera formal': Aranjuez es la primera ratificada por ambas coronas, no la primera delimitada por escrito."
+  },
+  {
+   "termino": "convención provisional / convenios de los comandantes (1773)",
+   "tradicion": "española",
+   "nota": "Fórmula del preámbulo de Aranjuez ('convenios que interinamente han solido hacerse por los comandantes de ambas posesiones'; 'convención provisional ... Solano ... marqués de Valiere'). Nombra los acuerdos de límites y policía anteriores a 1776."
+  },
+  {
+   "termino": "paquets appelés Macandals",
+   "tradicion": "francesa colonial",
+   "nota": "El arrêt de règlement del Conseil du Cap (11-III-1758, OCR '1778') llama 'Macandals' a los paquetes ficelés atribuidos a prácticas mágicas y venenos; el nombre propio del condenado pasó a significar 'veneno y envenenador' (nota editorial de Moreau en Loix et constitutions t. IV, p. 218) y 'la injure la plus atroce' entre esclavos. La tradición haitiana escribe Makandal."
+  },
+  {
+   "termino": "nègres espagnols pris en marronage / vendus comme épaves",
+   "tradicion": "francesa colonial",
+   "nota": "Práctica francesa de vender como 'épaves' (bienes sin dueño) a los esclavos aprehendidos y no reclamados en tres meses; el convenio de 1776 la suspendió para los esclavos del lado español (ordenanza de 30-III-1776). Término del régimen de devolución de fugitivos."
+  },
+  {
+   "termino": "sang-mêlés / personnes de couleur propriétaires (Raimond)",
+   "tradicion": "haitiana (autodenominación)",
+   "nota": "Raimond se llama a sí mismo 'homme de couleur', 'citoyen de couleur' y 'sang-mêlé' y define 'gens de couleur ou sang-mêlés' como el producto de mulatos entre sí o con blancos (Observations, 1791, p. 2); distingue la 'classe des gens de couleur libres et propriétaires' de los esclavos. El glosario recoge 'affranchis / gens de couleur libres'; esta es la autodefinición de 1791."
+  },
+  {
+   "termino": "imposition municipale par tête de nègres / droit sur les esclaves",
+   "tradicion": "francesa colonial",
+   "nota": "Capitación municipal que financiaba los puentes en Saint-Domingue (3 livres por esclavo en 1788; reducida a 2 livres 5 sols 'pour cette année' [1789], según Marbois). Es la base fiscal de los 'recensemens des esclaves' de 1785-1789 y explica su subregistro previo."
+  }
+ ],
+ "incidencias": [
+  "Presupuesto: 22 búsquedas contadas (18 llamadas a WebSearch, una de ellas con 5 subconsultas automáticas) frente a 80 permitidas; 2 WebFetch (PARES y búsqueda de Persée) y unas 60 descargas con curl/python (archive.org, Manioc, Persée, ADH, Redalyc, Wikisource). No se usó Firecrawl.",
+  "Garran-Coulon t. I en Manioc: beta-omk.manioc.org corta la conexión a los 12.982.577 bytes de 40.469.257 (probados curl -C, Range con urllib y 15 reintentos) y el PDF es solo imagen (sin capa de texto). Se leyó la misma obra en archive.org (rapportsurlestro00fran, tomo I; tt. II-IV en rapportsurlestro01fran, 02fran, 03fran, sin cifras de 1789). El mirror manioc.martinique.univ-antilles.fr sí sirvió el PDF completo de la traducción de Moreau (72.193.073 bytes) en una sola petición; el mirror no se probó con Garran porque ya se tenía la copia de archive.org.",
+  "Moya Pons (Eme Eme, 1974) apareció tras la cuarta formulación de la búsqueda (repositorioinvestigare.pucmm.edu.do, DSpace; el bitstream se sirve como PDF con capa de texto ruidosa: la ficha HTML y el enlace de descarga dan 200). Las tablas IV y V están impresas con las columnas desalineadas (p. ej., las 23 cifras de 1769 de la tabla V suman 64.350, no 61.729): solo se usan sus totales y el texto de la p. 10, cotejado con imagen.",
+  "Cifras de Garran verificadas sobre la imagen de las páginas: pp. 15, 16 y 18 de rapportsurlestro00fran (509,642 = 284,307 + 225,335; 35,440 = 24,660 + 10,780; 26,666 = 14,602 + 12,064; 35,440 + 26,666 = 62,106). Atención: el OCR dice 'Moreau' o 'MozaiJ'; la imagen dice 'Mozard' (T. C. Mozard, jefe de oficina del Comité de salut public, citado por Garran en la p. 38). La atribución del 434.429 a 'Moreau' que arrastraba M05.md no es de Garran.",
+  "Cifras de Moreau 1791 (pp. 35-36) y de Marbois (p. 47) verificadas sobre imagen. En Marbois el OCR dejaba ilegible el número de esclavos gravados: la imagen dice '405,564' (15 sous por cabeza = 304.173 livres, 'environ 300,000 liv.', coherente). Raimond (Réponse, p. 62) imprime 'En 1781' donde Moreau (p. 36) imprime 'En 1681' (imagen): errata de Raimond o del OCR.",
+  "Barré de Saint-Venant (1802) da 405.528 esclavos para 1788 en palabras ('quatre cent cinq mille cinq cent vingt-huit'), frente a los 405.564 de Marbois (capitación); la diferencia (36) puede ser lectura de Barré o de la edición; no se pudo cotejar con imagen.",
+  "El OCR de Loix et constitutions t. IV imprime 'Du 11 Mars 1778' para el arrêt de règlement sobre los 'Macandals', pero su posición entre arrêts del 10 y del 18 de marzo de 1758 (l. 11718 y 11795) indica 1758. En t. V el OCR da '177^' para el tratado de límites sub spe rati (Cantillo: 29-II-1776) y '26'/'29 Février' para las ordenanzas de 14-VII y 14-X de 1776; la grafía del día no es segura.",
+  "Cantillo (1843, OCR): la convención provisional de Solano y Vallière se lee '25 de agosto de 177)'; el último dígito es ilegible. El instrumento de los comisarios aparece como '29 del mes de agosto' en el preámbulo y '28 de agosto de 1776' en el artículo; son dos lecturas del mismo texto.",
+  "El título que M05.md daba como 'Moreau, tableau de 1788' para el 434.429 queda corregido: lo presenta Mozard (según Garran). Con esto, 434.429 en Edwards 1797 (esclavos rurales) y en Garran 1797 (tableau de Mozard, 1788) tienen un origen común probable, a verificar sobre Edwards.",
+  "Persée: la página HTML del artículo de Houdaille (200) solo muestra la introducción; docAsPDF devuelve 403 y la descarga exige captcha; no se evadió.",
+  "ANOM: recherche-anom.culture.gouv.fr responde con un desafío proof-of-work de Anubis y anom.archivesnationales.culture.gouv.fr no conecta (000); PARES devuelve 429 a curl y a WebFetch; HathiTrust 403; Gallica 400 a una URL de prueba. Ninguna barrera se evadió.",
+  "La brochure de Paris 1 (cours.univ-paris1.fr, 'Brochure 2e sem 2023-2024') y los dos PDF de la misma plataforma que daban 30.831 / 24.848 / 434.424 devuelven 200 con una página HTML de Moodle (acceso restringido); no se pueden citar. Los 24.848 de esa tríada coinciden con Moreau 1791 (p. 35); el 30.831 con Edwards 1797 (M05-N29); el 434.424 difiere por 5 del 434.429 de Edwards y Garran.",
+  "El scratchpad es compartido; este agente trabajó en la subcarpeta m05r2 del scratchpad; ningún archivo del repositorio salvo este JSON."
+ ],
+ "fuentes": [
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/rapportsurlestro00fran",
+    "https://beta-omk.manioc.org/files/original/13172/MMC16051-1.pdf (descarga cortada a 12.982.577 de 40.469.257 bytes; PDF sin capa de texto)",
+    "https://www.manioc.org/notice-download/13172 (ficha de Manioc: 'Domaine public', Médiathèque Michel-Crépeau, La Rochelle)"
+   ],
+   "http_status": "200 (djvu.txt 809.914 bytes, 18.706 líneas; imágenes de las pp. 15, 16 y 18 leídas)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Cifras de 1788-1789 de Saint-Domingue (todas de Garran, con su base declarada): esclavos 509.642 (284.307 varones + 225.335 mujeres; 'états dressés sous l'intendant Marbois', 1789) frente a 434.429 (tableau de Mozard para 1788); blancos 35.440 (24.660 + 10.780; 'tableaux de Marbois'); libres de color 26.666 (14.602 + 12.064; 'relevés faits en 1789'), que Garran suma a los blancos para 62.106 libres; nota: 40.000 libres de color según una carta del marqués de la Feuillade a los Estados Generales (vía Brissot). Para 1764 da 200.000 esclavos y, en nota, 249.098 'según recensemos de 1779' (Necker). Estas cifras NO coinciden con 30.826/27.548/465.429 (Placide-Justin), ni con 30.831/24.848/434.429 (Edwards/Geggus). Hecho/interpretación: la frase 'les animaux domestiques peuvent se multiplier dans l'esclavage; l'espèce humaine [...] dépérit' es juicio de Garran, no dato. Tomos II-IV (archive.org rapportsurlestro01fran, 02fran, 03fran; 1.108.118, 1.388.731 y 1.505.684 bytes) no contienen recuentos de 1789 (grep de 'recensement', '30,8', '434,', '24,8').",
+   "titulo": "Garran, Jean-Philippe, Rapport sur les troubles de Saint-Domingue, fait au nom de la Commission des colonies, des Comités de salut public, de législation et de marine, réunis, t. I (Paris, Imprimerie nationale, an V = 1797), cap. I «De la colonie de Saint-Domingue avant la Révolution», §2 «Population de la Colonie», pp. 15-19",
+   "autor": "Garran de Coulon, Jean-Philippe; France, Commission des colonies",
+   "anio": "1797",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/rapportsurlestro00fran/rapportsurlestro00fran_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe parlamentario de 1797 que reproduce cifras de los 'états' de Marbois y de un tableau de Mozard sin dar los documentos; las sumas cuadran y las imágenes confirman los dígitos, pero Garran es testigo de segunda mano de los cuadros originales.",
+   "proveniencia": "Jean-Philippe Garran (de Coulon, 1749-1816), diputado del Loiret, redactó el informe en nombre de la Comisión de colonias y de los comités de salvación pública, legislación y marina de la Convención; se imprimió por orden de la Convención y se distribuyó al Cuerpo legislativo en ventôse del año V (febrero-marzo de 1797). El tomo I es una historia de la colonia antes de la Revolución (cap. I) y de los disturbios de 1789 en adelante. Primera mano: reúne tablas oficiales (Marbois, Mozard) y la bibliografía de los años 1780, que cita en notas. [POR VERIFICAR: propósito inmediato del encargo, afiliación política de Garran y su postura sobre los libres de color.]",
+   "afirmaciones": [
+    "A-054",
+    "A-055"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 15; l. 666 del djvu.txt (cifras cotejadas con la imagen de la p. 15)",
+     "cita_original": "Il n'étoit encore en 1764 que de 200,000. En 1789, suivant les états dressés sous l'intendant Marbois, il alloit à 509,642 esclaves, dont 284,307 mâles, et 225,335 femelles. Le tableau présenté par Mozard pour 1788, est un peu inférieur: il ne va qu'à 434,429 individus des deux sexes.",
+     "traduccion": "[El número de esclavos] no era todavía en 1764 más que de 200.000. En 1789, según los estados levantados bajo el intendente Marbois, ascendía a 509.642 esclavos (284.307 varones y 225.335 mujeres). El cuadro presentado por Mozard para 1788 es algo inferior: solo llega a 434.429 individuos de ambos sexos. (Tres bases distintas para el mismo año: 200.000 en 1764; 509.642 según Marbois, 1789; 434.429 según Mozard, 1788.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 15, nota (*); l. 685 del djvu.txt",
+     "cita_original": "Necker étoit probablement mal instruit lorsqu'il ne portoit le nombre des esclaves qu'à 249,098, suivant des recensemens faits en 1779.",
+     "traduccion": "Necker estaba probablemente mal informado cuando no daba el número de esclavos más que como 249.098, según recuentos hechos en 1779. (Cifra de Necker, De l'administration des finances de la France, t. I, cap. XVIII, p. 314, citada y rechazada por Garran; el OCR lee '249,098'.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 16; l. 707 del djvu.txt (imagen de la p. 16 leída)",
+     "cita_original": "La population blanche étoit dans une disproportion effrayante pour les tyrans des noirs. Elle n'étoit, suivant les tableaux de Marbois, que de 35,440, dont 24,660 mâles, et 10,780 femelles.",
+     "traduccion": "La población blanca estaba en una desproporción espantosa para los tiranos de los negros. No era, según los cuadros de Marbois, más que de 35.440, de ellos 24.660 varones y 10.780 mujeres.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 16; l. 697 del djvu.txt (imagen leída)",
+     "cita_original": "Il falloit à la colonie française de Saint-Domingue, dans ces derniers temps, un recrutement annuel de plus de 40,000 esclaves, que le commerce français n'introduisoit qu'en partie.",
+     "traduccion": "La colonia francesa de Saint-Domingue necesitaba, en estos últimos tiempos, un reclutamiento anual de más de 40.000 esclavos, que el comercio francés solo introducía en parte. (Garran no da la base; 40.000 es el orden del desembarco de 1790 en la base de la trata; A-055.)",
+     "afirmaciones": [
+      "A-055"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 18; l. 804 del djvu.txt (imagen de la p. 18 leída)",
+     "cita_original": "Suivant les relevés faits en 1789, elle étoit alors de 26,666, dont 14,602 mâles et 12,064 femelles.",
+     "traduccion": "Según los recuentos hechos en 1789, [la población de los hombres de color libres] era entonces de 26.666, de ellos 14.602 varones y 12.064 mujeres. (La nota (*) de la misma página: según una carta del marqués de la Feuillade a los Estados Generales, esa población llegaría incluso a 40.000, v. Brissot de Warville, Réflexions sur l'admission aux États-Généraux des députés des colonies, p. 18.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 19; l. 828 del djvu.txt",
+     "cita_original": "Ainsi la totalité des hommes libres de Saint-Domingue ne montoit qu'à 62,106 individus, soit en blancs, soit en hommes de couleur, dont plus des trois cinquièmes étoient mâles. Le nombre des esclaves étoit presque décuple.",
+     "traduccion": "Así, el total de los hombres libres de Saint-Domingue no ascendía más que a 62.106 individuos, blancos u hombres de color, de los que más de tres quintos eran varones. El número de esclavos era casi diez veces mayor. (35.440 + 26.666 = 62.106.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 13 [inferida: la cabecera '(i4)' está en l. 615]; l. 587 del djvu.txt [OCR '6oo'; no cotejado con imagen]",
+     "cita_original": "La population de la colonie s'élevoit alors à 5 ou 600 mille habitans: elle étoit formée par trois sortes d'hommes, les blancs, les hommes de couleur libres et les nègres esclaves.",
+     "traduccion": "La población de la colonia ascendía entonces a 500 o 600 mil habitantes; la formaban tres clases de hombres: los blancos, los hombres de color libres y los negros esclavos. (Cifra redonda de Garran para 1789, sin base; 509.642 + 62.106 = 571.748 con sus propios cuadros.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/considrationsp7882more"
+   ],
+   "http_status": "200 (djvu.txt 105.024 bytes; imágenes de las pp. 35 y 36 leídas)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Moreau llama 'recensement de 1790' al recuento que da 24.848 libres de color y unos 30.000 blancos; Geggus (2024) y Garrigus (2006) fechan el recuento de ANOM C9A/163 en agosto de 1789; no hay forma de probar con este texto que sean el mismo documento. Moreau no cita fuente alguna. En 1797-98 (F-0022) Moreau da otras cifras (40.000 / 28.000 / 452.000, según M05.md). La 'proporción 1 a 166' de los libres de color en 87 años y 'a 7' de los blancos en 109 años son cálculos suyos.",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie, Considérations présentées aux vrais amis du repos et du bonheur de la France, à l'occasion des nouveaux mouvemens de quelques soi-disant Amis-des-noirs (Paris, Imprimerie nationale, 1791), pp. 35-36",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie (diputado de la Martinica a la Asamblea nacional)",
+   "anio": "1791",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/considrationsp7882more/considrationsp7882more_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Panfleto de un diputado colono contra la igualdad de los libres de color: cita un 'recensement de 1790' sin darlo, pero el texto y las cifras se leen con nitidez en la imagen y Raimond las discute punto por punto.",
+   "proveniencia": "Moreau de Saint-Méry (1750-1819), diputado de la Martinica en la Asamblea nacional (portada), publicó el folleto en 1791 (Imprimerie nationale; ejemplar de la John Carter Brown Library) como respuesta a las campañas de la Société des amis des Noirs (portada: 'quelques soi-disant Amis-des-Noirs') sobre los libres de color. [POR VERIFICAR: su posición exacta sobre reservar la legislación a las asambleas coloniales.] Primera mano: conocía los recuentos coloniales y escribió después las Descriptions. Interés: sostener, con cifras, que los colonos favorecen la manumisión (el 'demi-million' anual) y que el aumento de los libres de color prueba benevolencia.",
+   "afirmaciones": [
+    "A-054"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 35 (la cabecera '35' falta en el OCR; pp. 34 y 36-37 sí constan); l. 1554 del djvu.txt (cotejado con la imagen)",
+     "cita_original": "c'est qu'en 1703, comme je l'ai dit, ils n'étoient à Saint-Domingue que 150 inscrits sur les recensemens, & que le recensement de 1790 les porte à 24,848.",
+     "traduccion": "[la prueba] es que en 1703, como lo he dicho, no eran en Saint-Domingue más que 150 inscritos en los recuentos, y que el recuento de 1790 los eleva a 24.848. (Se refiere a los libres de color; Moreau no cita el documento.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 36; l. 1581 del djvu.txt [OCR '4,000 bkncs']; cotejado con la imagen",
+     "cita_original": "En 1681 il y avoit 4,000 blancs à Saint-Domingue, & en 1790 il ne s'en trouve que 30,000.",
+     "traduccion": "En 1681 había 4.000 blancos en Saint-Domingue, y en 1790 no se encuentran más que 30.000. (Cifra redonda de Moreau; los 30.831 de Edwards 1797 podrían ser el recuento exacto detrás de este redondeo, pero ningún texto lo dice.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 35, nota (1) (sobre Grégoire); l. 1559 del djvu.txt [OCR dañado: '177^ à 1787', '7,055 à ï^/p']; cotejado con la imagen",
+     "cita_original": "Il prétend que de 1779 à 1787, c'est-à-dire en huit ans, les gens de couleur se sont augmentés par leur seule population de 7,055 à 19,632.",
+     "traduccion": "[Grégoire] pretende que de 1779 a 1787, es decir en ocho años, la gente de color se aumentó solo por su propia población de 7.055 a 19.632. (Otra serie de libres de color, atribuida por Moreau al abate Grégoire; el 19.632 de 1787 es inferior a los 24.848 de 'del recuento de 1790'.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 36; l. 1593 del djvu.txt [OCR con s larga]; cotejado con la imagen",
+     "cita_original": "Que l'on consulte les comptes rendus de l'administration des finances de Saint-Domingue, pour les dernières années, & l'on verra que nous dépensons annuellement dans cette colonie un demi-million pour faire des affranchis.",
+     "traduccion": "Que se consulten las cuentas rendidas de la administración de las finanzas de Saint-Domingue de los últimos años, y se verá que gastamos anualmente en esta colonia medio millón para hacer libertos. (Afirmación de parte, que Raimond contesta: v. su Réponse, pp. 55-57; contexto, sin cifra de población.)",
+     "afirmaciones": []
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/rponseauxconsi00raim"
+   ],
+   "http_status": "200 (djvu.txt 98.451 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "La Réponse es la única fuente de primera persona de un libre de color que discute la cifra de Moreau (24.848) y la base del recuento. Voz de la tradición haitiana (autodenominación 'citoyen de couleur'). Sesgo: separa 'citoyens-propriétaires de couleur' de los esclavos (p. 2). Paginación tomada de las cabeceras del OCR: (5i) = 51, (5a) = 52, (53), (54), (63), (64).",
+   "titulo": "Raimond, Julien, Réponse aux Considérations de M. Moreau, dit Saint-Méry, député à l'Assemblée nationale, sur les colonies (Paris, Imprimerie du Patriote François, mayo de 1791), pp. 52-54 y 62-63",
+   "autor": "Raimond, Julien (citoyen de couleur de Saint-Domingue)",
+   "anio": "1791",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/rponseauxconsi00raim/rponseauxconsi00raim_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Alegato de parte de un propietario de color, con conocimiento directo de los recuentos y de las costumbres coloniales, pero que no aporta documentos y que defiende un derecho político; sus críticas al recuento son plausibles y no verificables.",
+   "proveniencia": "Julien Raimond (1743?-1802?), 'citoyen de couleur de Saint-Domingue' (portada), vivía en París como agente de los libres de color (su Réclamations de 1790 dice que llevaba cinco años enviado ante el rey); esta Réponse (portada: 'mai 1791', el OCR da 'ia MAI 1791') responde punto por punto a las Considérations de Moreau. [POR VERIFICAR: su condición de propietario de índigo en Aquin y la relación de la fecha con el decreto de 15-V-1791.] Primera mano: conocía los recuentos y las ordenanzas por vivir en la colonia y por sus gestiones ante los ministros. Interés: obtener los derechos de ciudadano activo para los libres de color propietarios, separándolos explícitamente de los esclavos.",
+   "afirmaciones": [
+    "A-054"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 52; l. 1845 del djvu.txt [OCR dañado: 'qua-tahbè-hùït'; leído 'quarante-huit' por el contexto y por Moreau 1791, p. 35]",
+     "cita_original": "en 1703, les hommes de couleur n'étoient à St. Domingue que cent cinquante inscrits sur les recensemens; et que le recensement de 1790 les porte à vingt-quatre mille huit cens quarante-huit.",
+     "traduccion": "[Raimond cita a Moreau:] en 1703 los hombres de color no eran en Saint-Domingue más que ciento cincuenta inscritos en los recuentos, y el recuento de 1790 los eleva a veinticuatro mil ochocientos cuarenta y ocho.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "pp. 52-53; l. 1850 del djvu.txt [OCR '1705' por 1703; 'iè' por 'le']",
+     "cita_original": "on n'avoit pas à cette époque donné des ordres pour désigner leur couleur dans les déclarations que les habitans font de leurs biens. [...] comme le recensement général ne se forme que des déclarations particulières, tous les habitans de couleur, qui n'avoient pas désigné leur couleur, étoient comptés comme blancs",
+     "traduccion": "[en 1703] no se habían dado todavía órdenes para designar su color en las declaraciones que los habitantes hacen de sus bienes. [...] como el recuento general solo se forma de declaraciones particulares, todos los habitantes de color que no habían designado su color eran contados como blancos. (Crítica de Raimond a la comparación de 1703 con 1790; es afirmación de parte.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 54; l. 1899 del djvu.txt",
+     "cita_original": "ce fait prouve que les rôles de recensement sont faits avec plus d'exactitude quant à la désignation de couleur, quoiqu'ils soient encore très-infidèles.",
+     "traduccion": "este hecho prueba que los registros del recuento se hacen con más exactitud en cuanto a la designación del color, aunque siguen siendo muy infieles. (Raimond: los recuentos de 1790 infravaloran todavía a los libres de color; el 24.848 es, a su juicio, un mínimo.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 54; l. 1920 del djvu.txt [OCR '^e cette classe']",
+     "cita_original": "et je soutiens que de cette classe d'hommes, il n'y en a pas deux cens parmi les personnes de couleur libres.",
+     "traduccion": "y sostengo que de esa clase de hombres [nacidos esclavos, criados como esclavos y luego manumitidos] no hay doscientos entre las personas de color libres. (Contra la tesis de Moreau de que los colonos tienden a manumitir; la mayoría de los libres de color había nacido libre.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 62; l. 2186 del djvu.txt [OCR 'j^avoit'; Raimond imprime '1781', Moreau p. 36 imprime '1681']",
+     "cita_original": "En 1781 il y avoit quatre mille blancs à Saint-Domingue, et en 1790, il ne s'en trouve que trente mille.",
+     "traduccion": "En 1781 [sic; Moreau: 1681] había cuatro mil blancos en Saint-Domingue, y en 1790 no se encuentran más que treinta mil. (Raimond cita a Moreau para ironizar; confirma que el 'recuento de 1790' daba en torno a 30.000 blancos.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 63 (tras la cabecera '(63)'); l. 1911 del djvu.txt [OCR 'pas la moitié de mariés']",
+     "cita_original": "Des trente mille blancs qui sont dans ce moment à Saint-Domingue, il n'y en a pas la moitié de mariés avec des femmes blanches.",
+     "traduccion": "De los treinta mil blancos que hay en este momento en Saint-Domingue, no hay ni la mitad casados con mujeres blancas. (Argumento demográfico de Raimond sobre el crecimiento mayor de los libres de color.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/observationssurl7880raim"
+   ],
+   "http_status": "200 (djvu.txt 75.925 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin afirmación del módulo: voz en primera persona de los libres de color de Saint-Domingue (A-054 trata de cifras; A-058 trata del este español, que Raimond no menciona). Paginación según las cabeceras del OCR (3, 5, 11, 13, 14). Raimond cita a 'M. H. D.' (Hilliard d'Auberteuil, M05-N28) para las leyes y costumbres discriminatorias. Su estimación de que apenas 200 libres de color habían sido esclavos y 1.500 eran 'nègres libres' (pp. 13-14) es un cálculo de parte basado, dice, en los rolls de milicias y registros parroquiales (no aportados).",
+   "titulo": "Raimond, Julien, Observations sur l'origine et les progrès du préjugé des colons blancs contre les hommes de couleur; sur les inconvéniens de le perpétuer; la nécessité, la facilité de le détruire; sur le projet du Comité colonial, etc. (Paris, Belin, Desenne, Bailly y Bureau du Patriote François, 1791), pp. 1-13",
+   "autor": "Raimond, Julien (Raymond, homme de couleur de Saint-Domingue)",
+   "anio": "1791",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/observationssurl7880raim/observationssurl7880raim_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de parte de un propietario de color con conocimiento directo de la sociedad colonial; ofrece la visión de los libres de color en primera persona, pero con un relato histórico esquemático y sin documentos.",
+   "proveniencia": "Julien Raimond publicó esta memoria en París (portada: 'janvier 1791'; el OCR da 'zé JANVIER J7s>i'; ejemplar de la John Carter Brown Library) como contribución a la campaña de los libres de color ante la Asamblea nacional; resume en tres 'edades' de la colonia el origen de los libres de color y del prejuicio, que sitúa hacia la guerra de 1744 y la paz de 1749. Interés: probar que los libres de color son propietarios, nacidos libres y distintos de los esclavos, y que el prejuicio es reciente y artificial.",
+   "afirmaciones": [],
+   "extractos": [
+    {
+     "ubicacion": "p. 2; l. 340 del djvu.txt",
+     "cita_original": "On entend, par gens de couleur ou sang-mêlés, le produit des mulâtres entr'eux ou des mulâtres avec des blancs, et de leurs différentes progénitures.",
+     "traduccion": "Se entiende por gente de color o sangre-mezclada el producto de los mulatos entre sí o de los mulatos con blancos y de sus diferentes descendencias. (Autodefinición de 1791.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 3; l. 383 del djvu.txt",
+     "cita_original": "D'autres hommes, moins sensibles que ces premiers, peut-être plus orgueilleux, [...] se contentèrent d'affranchir les enfans ainsi que la femme qui les avoit mis au monde, et donnèrent à ces enfans des terres et quelques esclaves.",
+     "traduccion": "Otros hombres, menos sensibles que los primeros, quizá más orgullosos, [...] se contentaron con manumitir a los hijos así como a la mujer que los había traído al mundo, y dieron a esos hijos tierras y algunos esclavos. (Relato de Raimond del origen de los libres de color propietarios.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 12; l. 733 del djvu.txt [OCR 'habitans-pro- priétâires'; 'avîîîs' = avilis]",
+     "cita_original": "les gens de couleur, habitans-propriétaires de terres et d'esclaves, (et ils sont en grand nombre) ont souffert, et ne se sont point avilis.",
+     "traduccion": "la gente de color, habitantes-propietarios de tierras y de esclavos (y son muchos), han sufrido y no se han envilecido. (Raimond afirma que los libres de color propietarios eran numerosos; sin cifra.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 13; l. 750 del djvu.txt [OCR 'l JoO' = 1 500]",
+     "cita_original": "Sur la totalité de cette classe, il n'y en a pas 200 qui aient été véritablement esclaves et affranchis. Quant aux nègres libres qui sont encore compris dans la classe des gens de couleur libres, il n'y en a pas 1500 en tout",
+     "traduccion": "Sobre la totalidad de esa clase no hay 200 que hayan sido verdaderamente esclavos y manumitidos. En cuanto a los negros libres, que todavía están comprendidos en la clase de la gente de color libre, no hay 1.500 en total. (Estimación de Raimond; la Réponse, p. 55, repite 'environ quinze cens nègres libres'.)",
+     "afirmaciones": []
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/rclamationsadr00raim"
+   ],
+   "http_status": "200 (djvu.txt 12.188 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin afirmación del módulo (contexto de la voz de los libres de color). Texto de petición; las citas son de la propia petición, con una nota de Raimond que atribuye las ordenanzas de rigor a la difusión del libro de Hilliard d'Auberteuil (M05-N28).",
+   "titulo": "Raimond, Julien, Réclamations adressées à l'Assemblée nationale, par les personnes de couleur, propriétaires & cultivateurs de la colonie françoise de Saint-Domingue ([París], 1790; 8 pp.; firmado 'Raimond' en la p. 8)",
+   "autor": "Raimond, Julien",
+   "anio": "1790",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/rclamationsadr00raim/rclamationsadr00raim_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Petición firmada por el propio Raimond ante la Asamblea nacional; testimonio directo de agravios y de su misión de cinco años ante el ministerio, sin cifras ni documentos adjuntos.",
+   "proveniencia": "Folleto de 8 páginas, hacia el verano-otoño de 1790 (la fecha y el lugar son atribuidos por Martin & Walter según los metadatos de archive.org); Raimond pide a la Asamblea nacional que suprima las 'distinctions humiliantes' entre ciudadanos libres de Saint-Domingue y que ordene la elección de representantes de los libres de color; recuerda que desde hacía cinco años ('depuis cinq ans') estaba enviado cerca del soberano y que el administrador Bellecombe lo había presentado al mariscal de Castries (nota (1) de la p. 5).",
+   "afirmaciones": [],
+   "extractos": [
+    {
+     "ubicacion": "pp. 3-4; l. 134 del djvu.txt [OCR con s larga]",
+     "cita_original": "Il n'est pas permis à un homme de Couleur de passer en France, d'y faire élever ses enfans, de porter l'habit qui lui plaît, d'exercer la profession pour laquelle il a reçu de la nature les talens nécessaires, [...] de porter le nom qu'il a reçu de ses pères blancs",
+     "traduccion": "No se permite a un hombre de color pasar a Francia, hacer educar allí a sus hijos, llevar el traje que le plazca, ejercer la profesión para la que ha recibido de la naturaleza el talento necesario [...] ni llevar el nombre que ha recibido de sus padres blancos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 4, nota (1); l. 170 del djvu.txt [OCR con s larga]",
+     "cita_original": "Toutes ces Ordonnances de rigueur & de proscription [...] ne furent faites qu'après la publication des considérations sur la Colonie de St-Domingue que je viens de citer.",
+     "traduccion": "Todas estas ordenanzas de rigor y de proscripción [...] solo se hicieron después de la publicación de las Considérations sur la Colonie de Saint-Domingue que acabo de citar. (Raimond responsabiliza al libro de Hilliard d'Auberteuil, M05-N28, de las leyes discriminatorias.)",
+     "afirmaciones": []
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/descoloniesmoder00barr"
+   ],
+   "http_status": "200 (djvu.txt 651.698 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Es una cuarta base para el número de esclavos: 405.528 (1788, 'dénombrement de Marbois') frente a 405.564 (Marbois, capitación; rol de 1788 o 1789), 434.429 (Mozard, 1788), 509.642 (Marbois, 1789 según Garran) y 452.000 (Moreau 1797-98, M05.md). Los 72.828 esclavos 'occupés dans les villes, bourgs, à la domesticité' son categoría del propio recuento (no hay cifra urbana en los otros). Faltan los números en cifras del recuento; los de aquí están escritos en letras.",
+   "titulo": "Barré de Saint-Venant, Jean, Des colonies modernes sous la zone torride, et particulièrement de celle de Saint-Domingue (París, Brasseur aîné / Brochot, año X = 1802), pp. 53-54",
+   "autor": "Barré de Saint-Venant, Jean",
+   "anio": "1802",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/descoloniesmoder00barr/descoloniesmoder00barr_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de un autor conocedor de la colonia, escrita en 1802; cita el 'dénombrement' de Marbois de 1788 para un cálculo del 'quart de produit' de los esclavos, con las cifras escritas en letras, pero sin documento.",
+   "proveniencia": "Jean Barré de Saint-Venant (1737-1810) publicó la obra en 1802 (año X); el pasaje de las pp. 53-54 analiza el 'pécule', el cuarto de los productos de exportación que se discutía conceder a los cultivadores. Interés: demostrar que ese cuarto no se puede calcular con los datos disponibles. Primera mano: cita el dénombrement de Marbois como cuadro conocido. [POR VERIFICAR: cargo del autor en la colonia y propósito exacto de la obra.]",
+   "afirmaciones": [
+    "A-054"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 53 (cabecera '(53)'); l. 4019 del djvu.txt",
+     "cita_original": "Suivant le dénombrement fait en 1788 par M. de Marbois, alors intendant de Saint-Domingue, la population esclave s'élevait à quatre cent cinq mille cinq cent vingt-huit individus.",
+     "traduccion": "Según el recuento hecho en 1788 por el señor de Marbois, entonces intendente de Saint-Domingue, la población esclava ascendía a 405.528 individuos. (Marbois, p. 47 de su État des finances, escribe 405.564 esclavos gravados con la capitación.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 54 (cabecera '(54)'); l. 4069 del djvu.txt",
+     "cita_original": "Or, suivant le même recensement, on voit que ces différentes classes s'élèvent à soixante-douze mille huit cent vingt-huit individus qui étant déduits de la population totale, elle sera réduite à trois cent trente-deux mille sept cent",
+     "traduccion": "Ahora bien, según el mismo recuento, esas diferentes clases [esclavos de ciudades, domésticos, oficios y los que cultivan víveres] ascienden a 72.828 individuos que, deducidos de la población total, la reducen a 332.700.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 54; l. 4076 del djvu.txt",
+     "cita_original": "comme le recensement a été fait d'après la déclaration des propriétaires qui avaient quelque intérêt à ne pas tout déclarer, par rapport à cette inexactitude, nous ajouterons sept mille trois cents à cette population",
+     "traduccion": "como el recuento fue hecho según la declaración de los propietarios, que tenían algún interés en no declararlo todo, por esa inexactitud añadiremos 7.300 a esa población. (Barré admite el subregistro y lo corrige con una suma arbitraria.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/tatdesfinances01barb",
+    "imagen de la p. 47: https://archive.org/download/tatdesfinances01barb/page/n58_w1400.jpg"
+   ],
+   "http_status": "200 (djvu.txt 193.047 bytes; imagen de las pp. 47-48 leída)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Esta ficha complementa M05-N57 (misma obra; en M05.md la cifra de esclavos de la p. 47 constaba como 'ilegible en el OCR': la imagen da 405,564). En el mismo texto, p. 8 de la edición de 1788 (M05-N30): los recuentos de esclavos pasaron 'de 300,000 têtes à près de 400,000' en menos de tres años por celo administrativo. Conclusión provisional: la cifra fiscal de esclavos de 1788-1789 (≈405.000) no es lo mismo que la población esclava, y el 'recuento' al que remite la tradición para 1789 es una base distinta de esa serie.",
+   "titulo": "Barbé-Marbois, François, marquis de, État des finances de Saint-Domingue, contenant le résumé des recettes & dépenses de toutes les caisses publiques, depuis le 1er janvier 1788, jusqu'au 31 décembre de la même année (París, Imprimerie royale, 1790), p. 47, «Caisse municipale», y p. 48 (firma)",
+   "autor": "Barbé-Marbois, François, marqués de (intendente de Saint-Domingue)",
+   "anio": "1790 (firmado el 13-VII-1789)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/tatdesfinances01barb/tatdesfinances01barb_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial del intendente con cifras fiscales leídas sobre la imagen de la página; es la base administrativa (capitación) de los recuentos de esclavos, con la salvedad de que lo declarado en la capitación subestima la población.",
+   "proveniencia": "François Barbé-Marbois, intendente de Saint-Domingue (desde 1785; 'la troisième année de mon administration', p. 48), publicó el estado de 1788 firmado en Puerto Príncipe el 13-VII-1789 (p. 48) y depositado en el Controle de la Marine; interés: justificar su gestión (puentes y caminos pagados por la caja municipal). Primera mano: cuentas de las cajas públicas.",
+   "afirmaciones": [
+    "A-054"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 47 (hoja n58 de archive.org; imagen leída); l. 2749 del djvu.txt [OCR 'j.C)^'y6^' = 405,564]",
+     "cita_original": "que la diminution de 15 sols par tête de nègres, est à peine sentie; qu'en laissant le droit sur 405,564 esclaves, à 3 liv., comme en 1788, on auroit eu environ 300,000 liv. à ajouter aux 140,000 liv.",
+     "traduccion": "que la disminución de 15 sueldos por cabeza de negros apenas se nota; que dejando el derecho sobre 405.564 esclavos a 3 libras, como en 1788, se habrían tenido unas 300.000 libras que añadir a las 140.000. (405.564 × 15 sueldos = 304.173 libras. El pasaje no dice si 405.564 es el rol de 1788 o el de 1789; el 3 libras es la tarifa de 1788.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 47 (imagen); l. 2727 del djvu.txt",
+     "cita_original": "Les magistrats, de concert avec les administrateurs, en réduisant, pour cette année, l'imposition à deux livres cinq sols par tête de nègres, ont cédé à la satisfaction de diminuer le poids des taxes",
+     "traduccion": "Los magistrados, de acuerdo con los administradores, reduciendo para este año el impuesto a 2 libras 5 sueldos por cabeza de negros, cedieron a la satisfacción de aliviar el peso de las tasas.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 48 (imagen de la hoja n59 leída; l. 2799-2800 del djvu.txt, con la fecha ilegible en el OCR: 'i ^ Juillet i/Sp' = 13 juillet 1789 según la imagen)",
+     "cita_original": "Seront le présent État & les tableaux y annexés, déposés au Contrôle de la Marine. Au Port-au-Prince, le 13 Juillet 1789. Signé, de Marbois.",
+     "traduccion": "El presente Estado y los cuadros anexos serán depositados en el Control de la Marina. En Puerto Príncipe, el 13 de julio de 1789. Firmado, de Marbois. (Fecha de redacción del texto: pocas semanas antes del recuento de agosto de 1789 que cita Geggus.)",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/loixetconstituti04fran"
+   ],
+   "http_status": "200 (djvu.txt 2.583.385 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve el pendiente de M05 ('no se leyó el arrêt'): el arrêt confirma el 20-I-1758 la condena del teniente criminal de ese mismo día (quemado vivo, cenizas al viento) y remite al condenado al teniente criminal; NO narra la ejecución (la fecha de ejecución se apoya en Moreau, Description, t. I p. 652 según r1). El texto condena a Macandal por haber 'séduit' a los negros con 'prestiges' y venenos, no por organizar una conspiración: es lenguaje del acusador, sin voz de Macandal. El arrêt de règlement lleva el año '1778' en el OCR, pero su posición entre arrêts de marzo de 1758 indica 1758.",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie (comp.), Loix et constitutions des colonies françoises de l'Amérique sous le vent, t. IV (1750-1765) (París, 1784): Arrêt du Conseil du Cap sobre Macandal (20-I-1758), pp. 217-218; Arrêt de règlement sobre los «paquets appelés Macandals» (11-III-1758), pp. 222-223; Ordonnance de 4-IV-1758, pp. 224-225",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie (compilador); Conseil supérieur du Cap",
+   "anio": "1758 (arrêts); 1784 (compilación)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/loixetconstituti04fran/loixetconstituti04fran_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Recopilación impresa de los textos oficiales de la justicia colonial (con la nota editorial de Moreau claramente separada del texto del arrêt).",
+   "proveniencia": "Moreau de Saint-Méry recopiló y publicó (1784-1785) los edictos, arrêts, ordenanzas y reglamentos de las colonias de sotavento; el t. IV cubre 1750-1765 y transcribe el arrêt del Conseil supérieur du Cap-Français del 20 de enero de 1758 que confirma la condena del teniente criminal contra François Macandal. Es un texto oficial de la justicia colonial, de los blancos sobre un esclavizado; la nota de Moreau es editorial. Primera mano: el arrêt original y el registro del Conseil.",
+   "afirmaciones": [
+    "A-062",
+    "A-057"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. IV, p. 217; l. 11460 del djvu.txt [OCR 'Ma CAN DAL']",
+     "cita_original": "ARRÊT du Conseil du Cap, touchant l'Empoisonneur MACANDAL et ses Complices, et qui ordonne la publication de l'Edit du mois de Juillet 1682, sur les Poisons. Du 20 Janvier 1758.",
+     "traduccion": "Arrêt del Consejo del Cabo sobre el envenenador Macandal y sus cómplices, que ordena la publicación del edicto de julio de 1682 sobre los venenos. 20 de enero de 1758.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 217; l. 11472 del djvu.txt",
+     "cita_original": "par laquelle il a été déclaré dûment atteint et convaincu de s'être rendu redoutable parmi les Nègres, et de les avoir corrompus et séduits par des prestiges, et fait se livrer à des impiétés et des profanations",
+     "traduccion": "por la cual fue declarado debidamente convicto de haberse hecho temible entre los negros y de haberlos corrompido y seducido con prestigios [hechicerías], y de haberlos hecho entregarse a impiedades y profanaciones. (Sentencia del teniente criminal del Cabo, de ese mismo día.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 217; l. 11491 del djvu.txt",
+     "cita_original": "et à être ensuite brûlé vif, et à cet effet conduit par l'Exécuteur de la haute-Justice sur la place publique de cette Ville, où il seroit attaché à un poteau, pour son corps réduit en cendres, être icelles jetées au vent",
+     "traduccion": "y a ser luego quemado vivo, y para ello conducido por el verdugo a la plaza pública de esta ciudad, donde sería atado a un poste, para que su cuerpo, reducido a cenizas, fuera arrojado al viento.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 218; l. 11506 del djvu.txt",
+     "cita_original": "dit a été par le Conseil qu'il a été bien jugé, mal et sans grief appelé; et pour faire mettre le présent Arrêt à exécution, a renvoyé et renvoie ledit François Macandal, ensemble son procès [...] pardevant ledit Lieutenant Criminel",
+     "traduccion": "el Consejo dijo que había sido bien juzgado y mal apelado y sin agravio; y para ejecutar el presente arrêt remitió a François Macandal con su proceso ante el teniente criminal. (Confirma la sentencia el 20-I-1758; no narra la ejecución.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 218, nota editorial de Moreau; l. 11524 del djvu.txt [OCR 'Macandaî y']",
+     "cita_original": "le nom, justement abhorré, suffit pour désigner tout à la fois un poison et un empoisonneur; c'est encore l'injure la plus atroce qu'un Esclave puisse vomir contre un autre à Saint-Domingue.",
+     "traduccion": "el nombre, justamente aborrecido, basta para designar a la vez un veneno y un envenenador; es todavía el insulto más atroz que un esclavo puede lanzar contra otro en Saint-Domingue. (Nota del compilador, no del arrêt; la memoria de Makandal en 1784.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 222-223 (arrêt de règlement 'Du 11 Mars' [OCR '1778'; posición: 1758]); l. 11768 del djvu.txt",
+     "cita_original": "ordonne que tous Nègres porteurs de paquets ficelés, connus sous le nom de Macandals, les remettront à leurs Maîtres, ou aux Curés des Paroisses, dans la huitaine au plus tard après la dernière publication du présent Arrêt",
+     "traduccion": "ordena que todos los negros portadores de paquetes atados, conocidos con el nombre de Macandals, los entreguen a sus amos o a los curas de las parroquias, a más tardar a los ocho días de la última publicación del presente arrêt. (Los 'macandals' son ya un objeto, no solo un hombre.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 224-225 (ordenanza de 4-IV-1758); l. 11838 del djvu.txt",
+     "cita_original": "faisons défenses à toutes personnes de faire directement ou indirectement aucun commerce sur la frontière avec les Espagnols, ou dans le Bourg d'Ouanaminthe, soit en boutique ou sur la place",
+     "traduccion": "prohibimos a toda persona hacer directa o indirectamente comercio alguno en la frontera con los españoles, o en el burgo de Ouanaminthe, ya sea en tienda o en la plaza. (La administración francesa habla de 'frontière' con el este español en 1738 y 1758; remite a la ordenanza de 30-VI-1738, v. t. III.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/loixetconstituti03fran"
+   ],
+   "http_status": "200 (djvu.txt 2.511.320 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hallazgo clave para A-062 y A-057: ya en 1723-1728 había 'conventions et traités secrets' franco-españoles sobre devolución de fugitivos, que fracasaron 'à cause de la révolte survenue' en la ciudad de Santo Domingo; no son 'tratados' formales entre coronas (el texto no los reproduce) y no sustentan la 'convención de 1731'. En Moreau, Loix et constitutions t. III no hay ninguna convención de 1731 (grep de 'limites', 'convention', 'Espagnols', 'Dajabon', 'Rebouc'). La ordenanza de 1738 tiene el año ilegible en el OCR ('17 3;8') pero su posición entre ordenanzas de 1738 (l. 25600-26095) la fecha.",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie (comp.), Loix et constitutions des colonies françoises de l'Amérique sous le vent, t. III (1722-1749) (París, 1784): Arrêté du Conseil du Petit-Goâve (6-III-1728), pp. 244-245; Ordonnance de 30-VI-1738 (frontera de Fort-Dauphin), p. 506",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie (compilador); Conseil du Petit-Goâve; administradores de Saint-Domingue",
+   "anio": "1728; 1738 (documentos); 1784 (compilación)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/loixetconstituti03fran/loixetconstituti03fran_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial del arrêté del Conseil y de la ordenanza de los administradores en la recopilación impresa; el pasaje de 1728 menciona acuerdos que no se conservan en el volumen.",
+   "proveniencia": "El t. III de Moreau transcribe actos de gobierno y justicia de 1722-1749. El arrêté del Conseil du Petit-Goâve de 6-III-1728 reparte los gastos de un viaje (1723) a la ciudad de Santo Domingo para recobrar esclavos fugitivos 'suivant les conventions et traités secrets' entre el gobernador Sorel, el intendente Montholon y el capitán general español; la ordenanza de 30-VI-1738 prohíbe el comercio en la frontera de Fort-Dauphin con los españoles.",
+   "afirmaciones": [
+    "A-062",
+    "A-057"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. III, pp. 244-245; l. 12709 del djvu.txt (arrêté 'Du 6 Mars 1728')",
+     "cita_original": "pour recouvrer et retirer les Nègres fugitifs de la dépendance de cette Colonie, qui s'étoient retirés dans la dépendance des terres soumises à l'obéissance de Sa Majesté Catholique, suivant les conventions et traités secrets qui ont été faits à cet égard",
+     "traduccion": "para recobrar y retirar los negros fugitivos de la dependencia de esta colonia, que se habían retirado a las tierras sometidas a la obediencia de Su Majestad Católica, según los convenios y tratados secretos que se hicieron a este respecto [entre el marqués de Sorel y Montholon, y el capitán general y otros oficiales de Su Majestad Católica].",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 245; l. 12715 del djvu.txt",
+     "cita_original": "pour l'exécution de ce traité, qui n'a pu avoir lieu à cause de la révolte survenue à cette occasion à ladite Ville de Saint-Domingue",
+     "traduccion": "para la ejecución de este tratado, que no pudo tener lugar a causa de la revuelta ocurrida con ese motivo en dicha ciudad de Santo Domingo. (El viaje de Le Jeune a Santo Domingo fue en 1723; la ciudad de Santo Domingo se alzó contra la devolución.)",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 506; l. 25835 del djvu.txt (ordenanza 'Du 30 Juin 1738' [OCR '17 3;8'])",
+     "cita_original": "font défenses à toutes personnes, de quelque qualité et condition qu'elles soient, de faire à l'avenir, du jour de la publication de ladite Ordonnance, aucun commerce, directement ni indirectement, sur la frontière avec les Espagnols",
+     "traduccion": "prohíben a toda persona, cualquiera que sea su calidad y condición, hacer en adelante, desde el día de la publicación de dicha ordenanza, comercio alguno, directa o indirectamente, en la frontera con los españoles. (Los administradores Larnage y Sartre, para fomentar la nueva ciudad de Fort-Dauphin.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/loixetconstituti05fran"
+   ],
+   "http_status": "200 (djvu.txt 2.606.522 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Esta ficha complementa M05-N27 (misma obra; r1 leyó el tratado de policía y las ordenanzas de 1777). Hallazgos nuevos: (1) existió un 'Traité des Limites, sub spe rati' de 29-II-1776 entre Ennery y Solano, citado por Moreau y por el preámbulo de Aranjuez, que las ordenanzas de julio y octubre de 1776 describen como el tratado 'qui vient de [fixer les limites]'; (2) la administración francesa creó un Inspector General de la Frontera en mayo de 1776 y registró el tratado definitivo en los Consejos; (3) el convenio de 1776 ya suspendía la venta como 'épaves' de los esclavos españoles aprehendidos. La numeración de páginas se infiere de las cabeceras del OCR (663, 664-665, 724-725, 739-740, 770-771).",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie (comp.), Loix et constitutions des colonies françoises de l'Amérique sous le vent, t. V (1766-1779) (París, 1784): Traité des Limites sub spe rati (29-II-1776), p. 663; Ordonnance sur les Nègres espagnols pris en marronage (30-III-1776), pp. 664-665; Ordre du Roi sobre el Inspecteur-Général de la Frontière (13-V-1776); Ordonnances de 14-VII y X-1776; Traité de limites de 3-VI-1777 y Traité de police, pp. 770-771",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie (compilador); Ennery y Vaivre (administradores); Solano; Ossun y Floridablanca",
+   "anio": "1776-1777 (documentos); 1784 (compilación)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/loixetconstituti05fran/loixetconstituti05fran_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Recopilación impresa de textos oficiales, con la fecha de depósito en los Consejos; el OCR es ruidoso en dígitos (v. incidencias).",
+   "proveniencia": "El t. V de Moreau recoge los actos de 1766-1779 y trae, en orden cronológico, el tratado de límites firmado 'sub spe rati' por los gobernadores generales Solano y d'Ennery (29-II-1776), las ordenanzas de los administradores que lo aplican (14-VII y octubre de 1776), la orden del rey que crea el Inspector General de la Frontera (13-V-1776), el depósito del tratado definitivo de Aranjuez en los Consejos del Cabo (8-XII-1777) y de Puerto Príncipe (12-I-1778) y el tratado de policía del 3-VI-1777.",
+   "afirmaciones": [
+    "A-057",
+    "A-062"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. V, p. 663; l. 34453 del djvu.txt [OCR 'sub sperati', 'Du 2_9 Février 177^']",
+     "cita_original": "Traité des Limites, sub spe rati, entre MM. les Comtes d'Ennery et de Solano, Gouverneurs-Généraux des Parties Françoise et Espagnole de Saint-Domingue. Du 29 Février 177[6]. V. le Traité définitif du 3 Juin 1777.",
+     "traduccion": "Tratado de límites, bajo reserva de ratificación, entre los condes de Ennery y de Solano, gobernadores generales de las partes francesa y española de Saint-Domingue. 29 de febrero de 177[6]. Véase el tratado definitivo del 3 de junio de 1777. (Cantillo da 'Atalaya a 29 de febrero de 1776'.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, pp. 664-665 (ordenanza de los administradores 'Du 30 Mars 1776' [OCR '177<^']); l. 34608 del djvu.txt",
+     "cita_original": "le Plénipotentiaire François est convenu qu'on ne vendroit plus ainsi les Nègres Espagnols, et qu'on feroit avertir l'Officier Espagnol le plus à portée de les retirer, et qu'ils seroient nourris dans les prisons sans frais",
+     "traduccion": "el plenipotenciario francés convino en que ya no se venderían así los negros españoles, que se avisaría al oficial español más próximo para que los retirara, y que serían alimentados en las cárceles sin gastos. (Extracto de los 'Traités et conventions' de Ennery y Solano de 29-II-1776, citado por la ordenanza del 30-III-1776: la devolución de fugitivos españoles ya estaba convenida antes de Aranjuez.)",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, hacia p. 692 [paginación inferida; cabecera OCR ilegible]; l. 50930 del djvu.txt (orden del rey 'Du 13 Mai 177<J' [OCR]; el siguiente asiento es de 14-V-1776)",
+     "cita_original": "Ordre du Roi, qui établit M. le Vicomte de Choiseul, en qualité d'Inspecteur-Général de la Frontière de la Partie Françoise de l'Isle Saint-Domingue.",
+     "traduccion": "Orden del rey que establece al vizconde de Choiseul como inspector general de la frontera de la parte francesa de la isla de Saint-Domingue. (Cantillo nombra a un 'brigadier vizconde de Choiseul' como uno de los dos comisarios del instrumento de límites de agosto de 1776; coincide el nombre, la identidad no está verificada.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, pp. 724-725 (ordenanza de 14-VII-1776); l. 38575 del djvu.txt [OCR 'jusqu'au Traite du .<5 Février dernier']",
+     "cita_original": "L'incertitude des limites de la Partie Françoise de Saint-Domingue jusqu'au Traité du [29] Février dernier qui vient de les fixer, avoit fait accorder au-delà du Corps-de-Garde Espagnol des concessions indéterminées quant aux abornemens",
+     "traduccion": "La incertidumbre de los límites de la parte francesa de Saint-Domingue hasta el tratado del [29] de febrero último, que acaba de fijarlos, había hecho conceder, más allá del cuerpo de guardia español, concesiones indeterminadas en cuanto a los amojonamientos. (La ordenanza de julio de 1776 trata el convenio de febrero como límite ya fijado.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, pp. 739-740 (ordenanza 'Du i^ Octobre 1776'); l. 38595 del djvu.txt [OCR 'traité du 26 Février dernier']",
+     "cita_original": "L'incertitude des limites de la Colonie Françoise de Saint-Domingue jusqu'au traité du 26 Février dernier qui vient de les fixer avoit fait accorder au-delà du Corps-de-garde et chemin de ronde Espagnole des concessions",
+     "traduccion": "La incertidumbre de los límites de la colonia francesa de Saint-Domingue hasta el tratado del 26 [sic, ¿29?] de febrero último, que acaba de fijarlos, había hecho conceder, más allá del cuerpo de guardia y camino de ronda españoles, concesiones. (Las ordenanzas de 1776 hablan de la 'ligne actuelle de démarcation' y de 'bornes des limites nationales' numeradas.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 770; l. 40152 del djvu.txt",
+     "cita_original": "Traité arrêté entre les Ministres Plénipotentiaires de Leurs Majestés Très-Chrétienne et Catholique, concernant les Limites des Possessions Françaises et Espagnoles à Saint-Domingue. Du 3 Juin 1777. Déposé au Conseil du Cap, le 8 Décembre suivant. Et à celui du Port-au-Prince, le 12 Janvier 1778.",
+     "traduccion": "Tratado concluido entre los ministros plenipotenciarios de Sus Majestades Cristianísima y Católica sobre los límites de las posesiones francesas y españolas en Saint-Domingue. 3 de junio de 1777. Depositado en el Consejo del Cabo el 8 de diciembre siguiente y en el de Puerto Príncipe el 12 de enero de 1778. (Moreau remite la pieza 'à une autre Partie de l'Ouvrage'.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 771 (Traité de police, art. II); l. 40195 del djvu.txt [OCR 'restitués §x\"\\';tement' = exactement]",
+     "cita_original": "Il a été convenu que les Esclaves des deux Nations seront restitués exactement et fidellement dès qu'ils seront réclamés par l'Officier chargé de cette commission; et quand il sera douteux si le Nègre est François ou Espagnol, il sera détenu en prison",
+     "traduccion": "Se convino en que los esclavos de las dos naciones serán restituidos exacta y fielmente en cuanto sean reclamados por el oficial encargado de esta comisión; y cuando haya duda sobre si el negro es francés o español, será detenido en la cárcel [hasta que se pruebe...]. (Cláusula de devolución de fugitivos, en el tratado de policía y buena vecindad de 3-VI-1777, no en el de límites.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/details/tratadosconveni00cantgoog"
+   ],
+   "http_status": "200 (djvu.txt 4.738.471 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0024",
+   "notas": "Esta ficha añade al r1 el análisis del preámbulo y del art. 1 como testimonio de que Aranjuez no inaugura la delimitación sino que ratifica una serie de convenios provisionales de gobernadores. Matiza A-057 ('la primera frontera formal'): es el primer tratado de límites ratificado por ambas coronas y la primera demarcación con pirámides numeradas, no el primer acuerdo escrito de límites; la 'convención de 1731' sigue sin documento. La fecha de la convención de 1773 ('177)') y la del instrumento de los comisarios (28 o 29 de agosto de 1776) son lecturas inseguras del OCR.",
+   "titulo": "Cantillo, Alejandro del (comp.), Tratados, convenios y declaraciones de paz y de comercio... desde el año de 1700 hasta el día (Madrid, 1843): Tratado de límites en la isla de Santo Domingo, Aranjuez, 3-VI-1777 (preámbulo y art. 1) y Tratado de policía y buena vecindad, pp. 527-535",
+   "autor": "Cantillo, Alejandro del (compilador); Floridablanca, conde de; Ossun, marqués de",
+   "anio": "1777 (tratado); 1843 (edición)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/tratadosconveni00cantgoog/tratadosconveni00cantgoog_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial del siglo XIX del texto de los tratados, con OCR ruidoso en dígitos; el preámbulo relata los antecedentes diplomáticos del tratado.",
+   "proveniencia": "Alejandro del Cantillo (1843) reunió los tratados de España con las potencias de 1700 a su día; el texto del tratado de límites de Aranjuez (3-VI-1777) incluye un preámbulo que cuenta los antecedentes (convenios provisionales de los comandantes; convención provisional de 1773; convenio de límites de la Atalaya de 29-II-1776; instrumento de los comisarios de agosto de 1776) y el art. 1, que incorpora esa descripción. Primera mano: el texto negociado y ratificado por ambas coronas.",
+   "afirmaciones": [
+    "A-057",
+    "A-062"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 527 [inferida: la cabecera '528' aparece en l. 59935]; l. 59812 del djvu.txt",
+     "cita_original": "Las frecuentes desavenencias que de muchos años a esta parte ha habido en la isla de Santo Domingo entre los habitantes españoles y franceses, ya sobre extensión de terrenos o ya sobre otros goces particulares, sin que bastasen a atajarlas los convenios que interinamente han solido hacerse por los comandantes de ambas posesiones",
+     "traduccion": "[original en español]. El preámbulo reconoce convenios interinos de los comandantes de ambas posesiones anteriores a 1777, que no bastaron para zanjar los conflictos de terrenos.",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 527; l. 59834 del djvu.txt [OCR 'convention', 'Valiere', '177)': dígito final ilegible]",
+     "cita_original": "llegó el caso de firmarse una convención provisional en 25 de agosto de 177[3] por el comandante y capitán general de la parte española don José Solano, y el comandante y gobernador de la parte francesa marqués de Valiere",
+     "traduccion": "[original en español]. Convención provisional firmada el 25 de agosto de 177[3] por Solano y el marqués de Vallière (Moreau, Description, t. II, pp. 409-410: Solano estuvo en Port-au-Prince del 12 al 16 de agosto de 1773).",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 527; l. 59848 del djvu.txt [OCR 'etro convenio 6 descripcion']",
+     "cita_original": "lograron concluir y firmar otro convenio o descripción de límites en 29 de febrero del año próximo pasado de 1776; nombrando además comisarios o ingenieros que pasasen unidamente a levantar un plano topográfico de toda la extensión de la frontera",
+     "traduccion": "[original en español]. Segundo convenio o descripción de límites, de 29-II-1776, que nombró comisarios e ingenieros para levantar el plano de toda la frontera de norte a sur y colocar los límites o pilares.",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 528, art. 1; l. 59941 del djvu.txt [OCR 'Atalaya', 'sub spe rati']",
+     "cita_original": "Descripción verbal de los límites de la isla de Santo Domingo acordados y convenidos en el tratado definitivo sub spe rati firmado en la Atalaya a 29 de febrero de 1776 por el gobernador y capitán general de la parte española don José Solano y el conde de Enneri",
+     "traduccion": "[original en español]. El art. 1 de Aranjuez incorpora la descripción de límites del tratado de la Atalaya de 29-II-1776, ejecutada por los comisarios Joaquín García y el vizconde de Choiseul; la línea de demarcación empieza en la costa norte, en la boca del río Dajabón o Massacre, y termina en la costa sur, en la boca del río Pedernales o Anses-à-Pitre, con pirámides numeradas (A-057).",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 534 (preámbulo del tratado de policía y buena vecindad); l. 60700 del djvu.txt [OCR 'ban', 'ano proximo']",
+     "cita_original": "habiendo examinado con toda atención el ajuste provisional que sobre este mismo asunto hicieron y firmaron en 29 de febrero del año próximo pasado de 1776 los respectivos comandantes don José Solano y el conde de Ennery",
+     "traduccion": "[original en español]. El tratado de policía (3-VI-1777) parte del 'ajuste provisional' de 29-II-1776 de Solano y d'Ennery, el mismo en el que Moreau (Loix t. V, p. 664) sitúa la suspensión de la venta de esclavos españoles aprehendidos (A-062).",
+     "afirmaciones": [
+      "A-057",
+      "A-062"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/download/descriptiontopog00more/descriptiontopog00more_djvu.txt (t. I)",
+    "https://archive.org/details/descriptiontopog01more"
+   ],
+   "http_status": "200 (djvu.txt t. II 2.620.111 bytes; t. I 2.550.505 bytes)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0022",
+   "notas": "Añade a lo recogido en r1 (Le Maniel, p. 433; Makandal, p. 652): (1) visita de Solano a Port-au-Prince el 12-16 de agosto de 1773 (p. 409-410); (2) visita del oidor Chavez de Mendoza a Port-au-Prince en mayo de 1785 'pour l'affaire des nègres marons de Bahoruco', con honores del Conseil supérieur (p. 410); (3) Moreau llama 'traité des limites de 1776' al firmado en 1776 y 'traité des limites de 1777' al de Aranjuez (p. 503 y p. 110), y registra un pleito del Cabo de 1784 que atribuye a Francia la pérdida de 72,5 carreaux en el Îlet du Massacre por el tratado.",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie, Description topographique, physique, civile, politique et historique de la partie française de l'isle Saint-Domingue, t. I (Filadelfia, 1797) y t. II (1798): t. I p. 110; t. II pp. 409-410 y 503",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie",
+   "anio": "1797-1798",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/descriptiontopog01more/descriptiontopog01more_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de un testigo y archivero de la colonia que cita documentos oficiales; el OCR (s larga como f) exige cotejo con imagen en las cifras.",
+   "proveniencia": "Moreau de Saint-Méry, magistrado criollo y recopilador de las leyes de las colonias [POR VERIFICAR: el Conseil al que pertenecía], publicó la Description en Filadelfia en 1797-1798 (portada). Primera mano: observación y archivos de la colonia hasta 1789; escrito desde un punto de vista de colono criollo (interés: dar a la parte francesa su dimensión y defender su régimen).",
+   "afirmaciones": [
+    "A-057",
+    "A-062"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. II, p. 410; l. 23210 del djvu.txt (t. II)",
+     "cita_original": "Don Louis Chavez de Mendoza, doyen de l'Audience royale de Santo-Domingo, étant venu au Port-au-Prince au mois de Mai 1785, pour l'affaire des nègres marons de Bahoruco, le conseil supérieur lui offrit les honneurs de la séance, qu'il ne put accepter, faute d'habit noir",
+     "traduccion": "Don Luis Chávez de Mendoza, decano de la Audiencia real de Santo Domingo, habiendo venido a Port-au-Prince en mayo de 1785 por el asunto de los negros cimarrones de Bahoruco, el Consejo superior le ofreció los honores de la sesión, que no pudo aceptar por falta de traje negro. (Prueba de contacto oficial entre ambas partes sobre el maniel en mayo de 1785.)",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "t. II, pp. 409-410 (el pasaje cruza el salto de página); l. 23204 del djvu.txt [OCR 'Jofeph', 'Préfident']",
+     "cita_original": "Don Joseph de Solano, alors Président de la Partie Espagnole, arriva au Port-au-Prince le 12 Août 1773. Les égards, les honneurs de toutes les espèces, l'accompagnèrent depuis la frontière du Mirebalais, par où il arriva, jusqu'au Port-au-Prince.",
+     "traduccion": "Don José de Solano, entonces presidente de la parte española, llegó a Port-au-Prince el 12 de agosto de 1773. Las atenciones y honores de todas clases lo acompañaron desde la frontera de Mirebalais, por donde llegó, hasta Port-au-Prince. (Se queda hasta el 16.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 503; l. 27605 del djvu.txt",
+     "cita_original": "A peine le traité des limites de 1776 était-il signé, que 7 ou 8 personnes s'établirent près du corps-de-garde du bord de la rivière des Anses-à-Pitre",
+     "traduccion": "Apenas firmado el tratado de límites de 1776, 7 u 8 personas se establecieron cerca del cuerpo de guardia de la orilla del río de las Anses-à-Pitre. (Moreau llama al tratado 'de 1776'; en t. I, p. 110, 'traité des limites de 1777' al de Aranjuez.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 110; l. 6996 del djvu.txt [OCR con s larga]",
+     "cita_original": "les archives de ce tribunal supérieur renferment le traité des limites de 1777, qui adopte comme bras gauche du Massacre, la Ravine-à-Cousins; et son arrêt de 1784, qui [...] a prononcé que le traité des limites a dans cette partie de l'îlet du Massacre sacrifié 72 carreaux et demi du territoire français",
+     "traduccion": "los archivos de este tribunal superior contienen el tratado de límites de 1777, que adopta como brazo izquierdo del Massacre la Ravine-à-Cousins, y su arrêt de 1784, que [...] ha declarado que el tratado de límites sacrificó en esta parte del islote del Massacre 72 carreaux y medio del territorio francés. (La aplicación del tratado ya se discutía en 1784.)",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://archive.org/download/A086B263/A086B263_djvu.txt (t. II)",
+    "https://archive.org/details/A086B262"
+   ],
+   "http_status": "200 (djvu.txt t. I 619.647 bytes; t. II 473.833 bytes; imágenes de las pp. 136, 141 y 164-165 leídas)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0021",
+   "notas": "Añade a lo de r1 (125.000 = 110.000 libres + 15.000 esclavos en p. 44; recuento de la capital en p. 135): (1) el método de los censos parroquiales ('dit Valverde'; excluyen a los menores de 7 años) y la corrección a 25.000 para la ciudad de Santo Domingo (p. 136); (2) 'recensement de 1737': 6.000 almas (p. 141, imagen); (3) serie de Santiago: 3.000 (1724), 8.000 (1764), más de 27.000 (c. 1796) (p. 235-236); (4) cuadros de diezmos del ganado de 1760 y 1780 'tirés des registres de la trésorerie' (t. II, pp. 164-166, imagen) y 'recensement général' ganadero de 1780: 200.000 cabezas (t. II, p. 166, OCR y trad. de Montalvo). Ninguna cifra de Moreau para la población total del este tiene base declarada: 125.000 y 25.000 son suyas o de Valverde.",
+   "titulo": "Moreau de Saint-Méry, Médéric Louis Élie, Description topographique et politique de la partie espagnole de l'isle Saint-Domingue (Filadelfia, 1796), t. I pp. 135-136, 141, 235 y t. II pp. 164-166",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie",
+   "anio": "1796",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/A086B262/A086B262_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Moreau no vio la parte española: compiló la descripción a partir de Sánchez Valverde y de documentos que obtuvo (tesorería de Santo Domingo), pero cita sus fuentes cuando las tiene y sus números se leen en la imagen.",
+   "proveniencia": "Moreau de Saint-Méry publicó en Filadelfia (1796) la descripción de la parte española con apoyo en la Idea del valor de Sánchez Valverde (1785) y en documentos de la presidencia (registros de la tesorería, diezmos de 1760 y 1780). Primera mano: parcial; segunda mano: Valverde, un cuadro de diezmos y 'un autre document'. Interés: compararla con la francesa y sostener la 'cesión' a Francia.",
+   "afirmaciones": [
+    "A-056",
+    "A-061"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 135 (l. 9721 del djvu.txt; la cabecera '136' aparece justo después)",
+     "cita_original": "Ils sont dressés, dit Valverde, par des personnes à qui les curés ou vicaires en confient le soin, & qui vont, de maison en maison, vérifier quelles sont les personnes qui ne s'acquittent pas du devoir paschal. Cette forme a le premier inconvénient de ne pas comprendre les enfans au-dessous de 7 ans",
+     "traduccion": "[Los recuentos] los levantan, dice Valverde, personas a quienes los curas o vicarios confían el cuidado, y que van de casa en casa verificando quiénes son las personas que no cumplen con el deber pascual. Esta forma tiene el primer inconveniente de no comprender a los niños menores de 7 años. (Método de los censos parroquiales del este español: es un conteo de confesión, no un padrón civil.)",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 136 (imagen leída); l. 9752 del djvu.txt",
+     "cita_original": "il se trouve 5 ou 6 mille individus non recensés. Ainsi la population totale de la ville & de ses dépendances, doit être portée au moins à 25 mille ames.",
+     "traduccion": "hay 5 o 6 mil individuos no recensados. Así, la población total de la ciudad y de sus dependencias debe llevarse por lo menos a 25 mil almas. (Corrige los 'no más de veinte mil almas' de los recuentos recientes, p. 135.)",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 141 (imagen leída); l. 9952 del djvu.txt [OCR 'Huie: ames ë']",
+     "cita_original": "Un recensement de 1737, montre même que la population totale ne s'élevoit qu'à 6 mille ames & la capitale en comptait à peine cinq cens.",
+     "traduccion": "Un recuento de 1737 muestra incluso que la población total no ascendía más que a 6 mil almas, y que la capital apenas contaba quinientas. (Moreau no cita el recuento; Schoenrich 1918 repite '6000 inhabitants in 1730'; contradice 25.806 hacia 1740, Álvarez de Abreu según Sevilla Soler, y 30.058 hacia 1739, Moya Pons.)",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 140-141 (imagen de la p. 141 leída); l. 9945 del djvu.txt [OCR 'Mexique, En un mot']",
+     "cita_original": "Il fallut, pour fournir aux dépenses du gouvernement, envoyer, chaque année, des sommes du Mexique. En un mot, la pauvreté était si extrême, que la plus grande fête pour la ville de Santo-Domingo, était l'arrivée de l'argent envoyé pour payer les frais d'administration.",
+     "traduccion": "Fue preciso, para atender a los gastos del gobierno, enviar cada año sumas de México. En una palabra, la pobreza era tan extrema que la mayor fiesta de la ciudad de Santo Domingo era la llegada del dinero enviado para pagar los gastos de administración. (Situado mexicano: A-061.)",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 235-236 (la cabecera '236' aparece tras el pasaje); l. 13824 del djvu.txt [OCR con s larga; cotejado con la traducción de Montalvo, p. 231]",
+     "cita_original": "en 1724, on n'y comptait guères que trois mille habitans; que d'après un autre document je n'en trouve que huit mille pour l'époque de 1764 & qu'à présent la population y excède 27 mille ames, quoique Valverde assure que Saint-Yago soit moins peuplé qu'avant 1780",
+     "traduccion": "en 1724 apenas se contaban allí tres mil habitantes; según otro documento no encuentro más que ocho mil para la época de 1764, y ahora la población allí excede de 27 mil almas, aunque Valverde asegura que Santiago está menos poblado que antes de 1780. (Serie del distrito de Santiago, que Moreau da como suya; sin fuente salvo 'un autre document'.)",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 164 (imagen leída; cabecera '164'); l. 7173 del djvu.txt [OCR dañado; leído sobre imagen]",
+     "cita_original": "J'ai un tableau des dixmes sur les animaux en 1760 & un de celles de 1780, tirés des registres de la trésorerie de Saint-Domingue avec les prix auxquels ces dixmes étaient affermées.",
+     "traduccion": "Tengo un cuadro de los diezmos sobre los animales en 1760 y otro de los de 1780, sacados de los registros de la tesorería de Santo Domingo con los precios a que esos diezmos fueron arrendados.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 165 (imagen leída); l. 7199 del djvu.txt [OCR dañado; leído sobre imagen]",
+     "cita_original": "Saint-Yago 500 | 2,400 | 650 | 7,000; La Véga & le Cotuy 200 | 1,600 | 400 | 7,600; Hinche & Saint-Raphaël 350 | 2,200 | 600 | 8,050; Banique & Saint-Jean 450 | 3,400 | 650 | 7,000. Totales: 1,500 Têtes, 9,600 [piastres-gourdes] (1760); 2,300 Têtes, 29,650 (1780)",
+     "traduccion": "Diezmos en cabezas y su importe de arrendamiento en pesos fuertes, 1760 y 1780 (columnas: diezmos 1760 | importe 1760 | diezmos 1780 | importe 1780). Santiago: 500 cabezas y 2.400 pesos en 1760; 650 y 7.000 en 1780. Totales de las cuatro jurisdicciones: 1.500 cabezas y 9.600 pesos (1760); 2.300 y 29.650 (1780). (Las sumas parciales cuadran con los totales.)",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 165 (imagen leída); l. 6126 del djvu.txt [OCR dañado]",
+     "cita_original": "Ce calcul offre pour le nombre des animaux qu'on considérait comme destinés à la reproduction en 1760, quinze mille têtes (dont quinze cens étaient le dixième); [...] on peut y ajouter dix mille autres têtes pour le reste de l'île, ce qui fait un total de vingt-cinq mille.",
+     "traduccion": "Este cálculo da, para el número de animales considerados destinados a la reproducción en 1760, quince mil cabezas (de las cuales mil quinientas eran el décimo); pero como el cuadro solo presenta los distritos que abastecían a la parte francesa, se pueden añadir otras diez mil cabezas para el resto de la isla: un total de veinticinco mil. (Moreau lo multiplica por 5 para estimar 125.000 reses en 1760, y llega a 200.000 en 1780.)",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://beta-omk.manioc.org/files/original/21912/CAE19011.pdf (se corta tras unos 15,6 MB de 72,2 MB)",
+    "https://manioc.univ-antilles.fr/omeka-s/files/original/21912/CAE19011.pdf"
+   ],
+   "http_status": "200 (72.193.073 bytes en una petición desde el mirror de la Martinica; pdftotext con capa de texto)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sirve como cotejo en español de F-0021; los extractos son del traductor, no del autor, y el texto no tiene valor propio salvo para citar página en la tradición dominicana. Las cifras coinciden con el original francés leído en imagen: 125.000, 20.000/25.000, 6.000 en 1737, 3.000/8.000/27.000 en Santiago, 200.000 cabezas en 1780. Contexto editorial: obra encargada por Trujillo (portada); no afecta a las cifras citadas, que se cotejaron.",
+   "titulo": "Moreau de Saint-Méry, M. L. E., Descripción de la parte española de Santo Domingo, trad. del francés por C. Armando Rodríguez, por encargo de Rafael L. Trujillo Molina (Ciudad Trujillo, Editora Montalvo, 1944), pp. 82, 153-154, 158, 231 y 411-413",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie; Rodríguez, C. Armando (trad.)",
+   "anio": "1944 (traducción de 1796)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://manioc.martinique.univ-antilles.fr/omeka-s/files/original/21912/CAE19011.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción de 1944 hecha por encargo del régimen de Trujillo; sin aparato crítico; las cifras citadas coinciden con las del original francés leído en imagen o en OCR (se cotejó cada una).",
+   "proveniencia": "Traducción de C. Armando Rodríguez (Ciudad Trujillo, 1944) de la Description de Moreau, 'por encargo del Generalísimo Rafael L. Trujillo Molina' (portada); ejemplar con sello 'B.U. Caen - Droit-Lettres' digitalizado en Manioc (CAE19011). Se usó para cotejar cifras y para una tabla (diezmos de 1760/1780) que en el original francés está dañada en el OCR.",
+   "afirmaciones": [
+    "A-056",
+    "A-061"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 82; l. 3801 del txt",
+     "cita_original": "en la que están esparcidos 125.000 habitantes, de los cuales 110.000 son libres y 15.000 esclavos, lo que no alcanza a 40 individuos por legua cuadrada",
+     "traduccion": "[original en español]. Cotejo en español del pasaje de F-0021, t. I, p. 44 (125.000 = 110.000 libres + 15.000 esclavos).",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 154; l. 6914 del txt",
+     "cita_original": "Los censos se levantan, dice Valverde, por personas a quienes los curas o vicarios confían ese cuidado, quienes van de casa en casa, a verificar quienes son las personas que no cumplen con el deber pascual. Este sistema tiene el primer inconveniente de no comprender los niños menores de siete años",
+     "traduccion": "[original en español]. Método de los censos parroquiales (v. F-0021, t. I, p. 135).",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 158; l. 7097 del txt",
+     "cita_original": "Un censo efectuado en 1737 demuestra claramente que la población total no llegaba más que a seis mil almas y la capital contaba a penas quinientas.",
+     "traduccion": "[original en español]. Cotejo de F-0021, t. I, p. 141.",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 231; l. 10211 del txt",
+     "cita_original": "en 1724, sólo había tres mil habitantes; que según otro documento sólo encuentro ocho mil para el año de 1764 y que actualmente la población allí excede de 27 mil almas",
+     "traduccion": "[original en español]. Cotejo de F-0021, t. I, pp. 235-236 (distrito de Santiago).",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 411; l. 18012 del txt",
+     "cita_original": "Yo tengo un cuadro de los diezmos sobre los animales en 1760 y otro de los de 1780, copiados de los registros de la tesorería de Santo Domingo, con los precios a que esos diezmos se arrendaron.",
+     "traduccion": "[original en español]. Cotejo de F-0021, t. II, p. 164.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 413; l. 18064 del txt (en el original francés: t. II, hacia p. 166, l. 7236 de A086B263.txt, OCR dañado)",
+     "cita_original": "El número de doscientos mil animales vacunos es, efectivamente, el encontrado en el censo general que el presidente hizo levantar en el mismo año 1780 y si se quiere contar los animales exentos de tributación, se podrá tal vez elevar esta cantidad hasta a doscientos cincuenta mil",
+     "traduccion": "[original en español]. Censo general ganadero de 1780 ordenado por el presidente de la Audiencia: 200.000 reses (250.000 con las exentas de tributo). El 'recensement général' del francés ('celui trouvé par le recensement général que le président fit faire en 1780') es un recuento de ganado, no de población. Compárese con el censo ganadero de 1743 (112.098 reses, AGI SD 314) y el de 1772 (271.000) que recoge Sevilla Soler (M05-N59).",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://repositorioinvestigare.pucmm.edu.do/items/bd589c11-5b1d-4acf-9c99-dd3d10242016/full (ficha del repositorio institucional de la PUCMM)",
+    "https://dloc.com/PUCMMA0011/00010/5j (Eme Eme en dLOC; no abierto)"
+   ],
+   "http_status": "200 (23.240.211 bytes; 26 páginas; capa de texto ruidosa; páginas 10, 18, 23 y 24 leídas sobre imagen)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve el pendiente de r1 ('Moya Pons 1974 no se pudo abrir'). Cifras de Moya Pons 1974: 18.410 (1718, último conteo previo a 1739; tabla I), 30.058 (1739), 70.625 (1769), 119.600 (1782), 71.223 (1819) y 180.000 como proyección (no dato) para 1795. La nota 32 revela que los padrones de 1769 y 1782 vienen del documento titulado 'Estado General de las Poblaciones de la Ysla Española de Santo Domingo con el número de su vecindario a fines de 1769 y el que en el de 1782 le regula el Racionero Dn. Josef Sánchez de Valverde' (Caro 1973), es decir, el 1782 es una 'regulación' de Valverde. Contradice la lectura de Sevilla Soler (M05-N59) solo en apariencia: ella cita un padrón distinto (AGI SD 988, 1782-83, 60.962). Las discrepancias internas de Moya Pons (30.058 en el texto frente a 30.158 en la tabla IV; 70.625 frente a 70.629 en la tabla V) son errata o redondeo de la edición.",
+   "titulo": "Moya Pons, Frank, Nuevas consideraciones sobre la historia de población dominicana: curvas, tasas y problemas (Eme Eme: Estudios Dominicanos, vol. 3, n.º 15, 1974, pp. 3-28), pp. 10-11, notas 30-34 (p. 18) y tablas IV y V (pp. 23-24)",
+   "autor": "Moya Pons, Frank",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorioinvestigare.pucmm.edu.do/bitstreams/4b46f29a-768b-4978-b1e9-6445cb82dd69/download",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historiador profesional que cita en notas los documentos de cada conteo (Álvarez de Abreu 1740; Caro 1973); el texto es una conferencia sin aparato extenso y las tablas están impresas con las columnas desalineadas, por lo que solo se usan totales y cifras del texto.",
+   "proveniencia": "Frank Moya Pons (n. 1944; Universidad de Columbia) leyó el texto como conferencia en la UCMM ('voy a leer aquí hoy por la mañana') y lo publicó en Eme Eme 3(15), 1974. Reconstruye la curva de la población dominicana desde 1492 a 1970 con conteos parroquiales y estimaciones; para el siglo XVIII usa la visita pastoral de Álvarez de Abreu (1739), dos padrones parroquiales publicados por José Antonio Caro (1973) y estimaciones de Valverde. Interés: demostrar un crecimiento regular de 2,3-2,5 % anual durante el siglo XVIII y una 'catástrofe demográfica' en 1795-1819.",
+   "afirmaciones": [
+    "A-056",
+    "A-061"
+   ],
+   "extractos": [
+    {
+     "ubicacion": "p. 10 (imagen leída); l. 381 del txt; notas 30-31 en la p. 18",
+     "cita_original": "en 1739 estuvo de visita pastoral Don Domingo Pantaleón Alvarez de Abreu, Arzobispo de Santo Domingo [...] Computando sus informaciones he encontrado que la población colonial de Santo Domingo en 1739 era de unas 30,058 personas de todos los colores y condiciones sociales",
+     "traduccion": "[original en español]. Cifra de 1739: 30.058 personas, cómputo de Moya Pons de los conteos parroquiales de la visita pastoral de Álvarez de Abreu (fuente: Compendiosa Noticia de abril de 1740, ed. Rodríguez Demorizi 1957, III, 259-272). Contradice el 'recensement de 1737' de 6.000 almas de Moreau (F-0021, p. 141).",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 10 (imagen leída); l. 396 del txt; notas 32-33 en la p. 18",
+     "cita_original": "En 1769 los padrones parroquiales arrojaron una población de 70,625 personas. Si ello es cierto, eso quiere decir que en los últimos 30 años la población creció a una tasa cumulativa anual de 2.4%.",
+     "traduccion": "[original en español]. Cifra de 1769: 70.625 personas (tabla V: 61.729 libres + 8.900 esclavos = 70.629). La nota 33 remite a la p. 331 del documento de Caro (1973).",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 10 (imagen leída); l. 402 del txt",
+     "cita_original": "El censo parroquial de 1782, que no parece muy preciso, pero que está por debajo de los otros estimados contemporáneos, da una población de 119,600 personas.",
+     "traduccion": "[original en español]. Cifra de 1782: 119.600 personas; Moya Pons la califica de poco precisa pero inferior a los otros estimados de la época; su nota 32 identifica la fuente como la 'regulación' de Valverde (v. siguiente extracto).",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 18, nota 32 (imagen leída); l. 865 del txt",
+     "cita_original": "[Son los dos padrones] publicados por José Antonio Caro, \"Estado General de las Poblaciones de la Ysla Española de Santo Domingo, con el número de su vecindario a fines de 1769 y el que en el de 1782 le regula el Racionero Dn. Josef Sanchez de Valverde\", Boletín del Museo del Hombre Dominicano (octubre, 1973), III, 327-331.",
+     "traduccion": "[original en español]. Los 'dos padrones' de Moya Pons son el vecindario de fines de 1769 y la cifra que Valverde 'regula' (calcula) para 1782. No es el padrón del AGI (60.962) que cita Sevilla Soler.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 23, tabla IV (imagen leída; transcripción parcial de filas y total, no cita continua); l. 1083 del txt",
+     "cita_original": "TABLA IV. Conteo general de la población en 1739. Santo Domingo: 1,800 vecinos, 9,000 personas; Santiago: 1,300 vecinos, 6,500 personas; La Vega: 3,000 personas [...] Total 30,158.",
+     "traduccion": "[original en español]. Tabla del conteo de 1739 por población (vecinos y personas): capital 9.000 personas; Santiago 6.500; total 30.158 (el texto de la p. 10 dice 30.058). La columna de vecinos está incompleta en la tabla.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 24, tabla V (imagen leída; transcripción parcial de totales, no cita continua); l. 1117 del txt",
+     "cita_original": "TABLA V. Conteo general de la población en 1769 y 1782. [...] Totales: 61,729 [libres, 1769] más 8,900 esclavos = Total 70,629; 119,600 [1782].",
+     "traduccion": "[original en español]. Totales de la tabla V: 1769 = 61.729 libres + 8.900 esclavos = 70.629; 1782 = 119.600. Las filas por población están impresas con columnas desalineadas y no suman los totales; solo se citan los totales. Dato nuevo: 8.900 esclavos en 1769 (13 % del total), que Carmona 2020 atribuye a 'algunos historiadores'.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 11 (OCR; no cotejado con imagen); l. 483 del txt",
+     "cita_original": "Los datos de 1819 arrojan una población de 71,223 personas en toda la parte española. En comparación con las 119,600 de 1782, estos datos significan que por lo menos el 35% de la población desapareció en el lapso de unos 37 años.",
+     "traduccion": "[original en español]. Contraste de Moya Pons entre 1782 y 1819; sus 180.000 de 1795 son una proyección al 2,5 % anual, no un dato.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    }
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://www.persee.fr/docAsPDF/pop_0032-4663_1973_num_28_4_15523.pdf (403)"
+   ],
+   "http_status": "200 (HTML de la ficha; docAsPDF devuelve 403)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "[POR VERIFICAR] contenido del artículo y su tratamiento del recuento de 1789; no se evadió el captcha. Existen otros artículos de Houdaille en Persée (Population 1971, 1981, 1991) cuya relevancia para M05 no se comprobó.",
+   "titulo": "Houdaille, Jacques, Quelques données sur la population de Saint-Domingue au XVIIIe siècle (Population, 28e année, n.º 4-5, 1973, pp. 859-872; DOI 10.2307/1531260)",
+   "autor": "Houdaille, Jacques",
+   "anio": "1973",
+   "tipo": "cientifica",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://www.persee.fr/doc/pop_0032-4663_1973_num_28_4_15523",
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de demografía histórica en Population (INED) por un especialista; no se pudo leer más que la primera página (introducción).",
+   "proveniencia": "Jacques Houdaille (INED), demógrafo histórico, trabajó sobre registros parroquiales y recuentos de Saint-Domingue; su artículo es la referencia usual para el cotejo de las cifras de población de los años 1780. El HTML de Persée solo reproduce el primer párrafo (historia de la colonia hasta 1697 y 1760); el PDF se descarga con captcha.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-054"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "429 (curl y WebFetch, 6-X-2026)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0239",
+   "notas": "No se intentó saltar el límite de tasa. Sin contenido.",
+   "titulo": "PARES - Portal de Archivos Españoles (AGI, Santo Domingo 988, padrón de 1782-83): consulta directa",
+   "autor": "Ministerio de Cultura (España), Archivo General de Indias",
+   "anio": "s. f.",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/find?nm=&texto=padron+Santo+Domingo+1782",
+   "verificacion": "fallo-fetch",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Archivo de referencia de la documentación del padrón de 1782-83 (AGI Santo Domingo 988), pero sin contenido accesible desde esta red.",
+   "proveniencia": "Portal oficial de archivos españoles; el padrón de 1782-83 consta en la bibliografía como AGI Santo Domingo 988 (Sevilla Soler 1980, M05-N59). Responde con 429 Too Many Requests a todas las peticiones.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-056"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200 con página de desafío Anubis (proof-of-work); 000 en anom.archivesnationales.culture.gouv.fr (6-X-2026)",
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0247",
+   "notas": "Sin contenido. La brochure de Paris 1 y los dos PDF del mismo servidor (cours.univ-paris1.fr), que daban 30.831 / 24.848 / 434.424, devuelven una página de Moodle y no se pudieron citar.",
+   "titulo": "ANOM - Archives nationales d'outre-mer (série C9A, vol. 163: recensement général de Saint-Domingue, 1789)",
+   "autor": "Ministère de la Culture (Francia), Archives nationales d'outre-mer",
+   "anio": "s. f.",
+   "tipo": "portal",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://recherche-anom.culture.gouv.fr/",
+   "verificacion": "fallo-fetch",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Archivo de origen del recuento de agosto de 1789 (según Geggus 2024 y Garrigus 2006), sin contenido accesible.",
+   "proveniencia": "Archivo nacional de la antigua administración colonial francesa; la serie C9A (correspondencia general de Saint-Domingue) contiene el recuento que citan Geggus y Garrigus. No se resolvió el desafío Anubis.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-054"
+   ]
+  }
+ ]
+}

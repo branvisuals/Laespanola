@@ -1,0 +1,1378 @@
+{
+ "lente": "internacional",
+ "modulo": "M05",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 34,
+ "busquedas_pendientes": [
+  "HGPD t. II (R. González de Peña, coord.), cap. 5 'Comportamiento del comercio de esclavos en dos siglos sin plantaciones' (pp. 260-266), cap. 4 p. 211, cap. 12 (pp. 629-703) y p. 242: ninguna copia en línea hallada en 3 búsquedas",
+  "Julián, El contrabando de esclavos en Santo Domingo (AGN, 2023, 2 vols.): sin copia en línea",
+  "R. González 2023, vol. I 'Haciendas y esclavitud (1689-1796)': ign.gob.do da 404 en los cuatro volúmenes; probar el catálogo de la ADH o el IPGH",
+  "Bowett, The English mahogany trade 1700-1793: reintentar bnu.repository.guildhe.ac.uk o la copia de Brunel (BURA)",
+  "Garran-Coulon, Rapport sur les troubles de Saint-Domingue t. I (Manioc MMC16051-1): el handshake TLS de manioc.org falló tras abrirse BBX19011; reintentar",
+  "Trouillot 1982 (Review 5:3): texto completo por JSTOR; la URL del buscador es el Moodle de la USP",
+  "Geggus, Haitian Revolutionary Studies (2002), tablas de exportación de 1789 (solo préstamo en archive.org)",
+  "Marichal y Grafenstein, El secreto del imperio español (2012): situados de Santo Domingo por año; sin copia abierta (CLACSO 403)",
+  "Lienhard 2008 y Tardieu 2024 (Les derniers marrons de Santo Domingo, L'Harmattan): sin texto abierto; Augsburg rechazó la conexión",
+  "Debien, Le marronage aux Antilles françaises au XVIIIe siècle, Caribbean Studies 6:3 (1966): no localizado en manioc.org en 1 búsqueda",
+  "Torres Agudo (tesis de Salamanca sobre los hacendados de Santo Domingo): gredos.usal.es rechazó la conexión con curl y con WebFetch",
+  "Sagás, 'An Apparent Contradiction? Popular Perceptions of Haiti...': ling.upenn.edu da 403; sin intento en Wayback (429 por exceso de peticiones)",
+  "Wheat, Atlantic Africa and the Spanish Caribbean (2016) para A-066; Woodson y Diamond para A-059/A-060: no buscados en esta ronda (fuera del encargo del crítico)",
+  "H-Net Reviews, Persée/HAL/theses.fr sobre Aranjuez, HAHR, The Americas, Journal of Haitian Studies, Small Axe, Slavery & Abolition, Caravelle, Outre-Mers: no consultados",
+  "Texto del Tratado de Aranjuez (F-0024, Cantillo 1843) para cotejar 'policías de frontera' y devolución de fugitivos"
+ ],
+ "lagunas": [
+  "A-065: no existe en lo leído una cuantificación total de la entrada de esclavizados al este por contrabando, cabotaje o compra en Saint-Domingue. Lo mejor que se obtuvo son tres cotas parciales: TASTDB, 9 viajes y 2.368 desembarcados imputados en 1700-1789; Intra-American Slave Trade Database, 85 viajes y 2.142 personas (1.347 de ellas en 1783-1788, casi todas desde Kingston); y el indulto de 1776-77, con 281 declarados en Santiago, 147 en Dajabón y 135 en Puerto Plata (563 en tres plazas del norte). HGPD t. II (cap. 5, pp. 260-266 y cap. 4, p. 211), Julián 2023 (AGN) y R. González 2023 vol. I (ign.gob.do, 404) no se pudieron leer. El total del indulto (AGI-SD 983, AHN-Ultramar libro 683) sigue sin consultarse.",
+  "A-065: la fecha del indulto discrepa (1756 y 1774 según Belmonte 2016, leído solo a través del extractor de WebFetch; mayo de 1776 y ejecución en 1777 según Julián 2014, con legajos). No se resolvió.",
+  "A-061: no hay serie de exportaciones de caoba ni de palo de tinte del este. Bowett (tesis de Brunel) devolvió ECONNREFUSED; Marichal y Grafenstein 2012 (situados por año) no tiene copia abierta; Ulrickson 2018 da la regulación (Real Cédula de 11-IV-1786 que abre la caoba a puertos extranjeros, cuyo original no se ha identificado; estatuto de Higüey de 1789) pero no volúmenes; Sánchez Valverde 1785 solo da la abundancia de caoba y los derechos del ganado que pasa a los franceses; el État général de Barbé de Marbois muestra que el lado francés casi no exportaba maderas (45.000 libras de 186 millones de francos).",
+  "A-062: el texto de la cláusula de Aranjuez sobre devolución de fugitivos y reducción del maniel (F-0024, Cantillo 1843) no se leyó; Belmonte 2015 (ronda 1, AHN-Estado 3373) y Pinto Tortosa 2021 (vía Sevilla Soler 1980) la recogen de segunda mano. La negociación de 1783-1785 queda corroborada por Yingling 2016 (acuerdo provisional y rol de 133 personas) y por Ulrickson 2018 (acuerdos fallidos en 1770, 1780 y 1790), pero ambos y Belmonte 2015 leen los mismos legajos de AGI-SD 1102 (una sola cadena documental). Tardieu 2022 solo en resumen; Lienhard 2008 (Augsburg) y Debien 1966 no accesibles; el origen del maniel discrepa (década de 1740 en Pinto; 'más de cien años' en 1784).",
+  "A-063: no se localizó la fuente primaria de 'dos tercios del comercio exterior francés'. Hay tres bases incompatibles: 40 % (Bastow, sin nota), 'más de un tercio' (Frankema y Masé, ronda 1) y 11/17 = 65 % de las exportaciones francesas en libras esterlinas de 1789 (página de curso de Pitzer, atribuida a Necker sin verificar); y 'dos tercios' de las inversiones francesas de ultramar (Ogle). Las 80.000 toneladas de azúcar se apoyan en el compte primario de 1788 (163,4 millones de libras = unas 80.000 t, conversión propia); las 40.000 de café no: 68,2 millones de libras = unas 33.400 t en 1788 y 34.846 t en 1789 según Blackburn/Pluchon. Trouillot 1982, Garran-Coulon (Manioc: handshake TLS fallido) y Geggus 2002 no se leyeron.",
+  "A-064: la copia de ling.upenn.edu del ensayo de Sagás sigue sin abrir; se usó F-0840 ('A Case of Mistaken Identity', copia web en Wayback), que no es el mismo texto que 'An Apparent Contradiction?'. Pierre-Charles 1974 y Moya Pons 1977 se leen solo vía Sagás. San Miguel solo por reseña. HGPD t. II p. 242 no localizado. Ningún uso de 'dominicano' anterior a 1785 se halló en esta ronda.",
+  "A-056: las bases del este siguen sin padrón: 14.000 esclavizados (Franco 2012 vía Ulrickson; Moreau <=15.000), 25.000 (Cassá), 30.000 (Schoenrich), 35.000 (Cordero Michel, sin fuente trazable). La discrepancia es de base y no se resolvió.",
+  "A-054: ningún padrón respalda 465.000-500.000: el compte de Barbé de Marbois da 405.528 'population noire' en 1788 (ejercicio), Moreau 452.000, Madiou 509.642 más 200.000. Houdaille 1973 (Persée) solo en la primera página.",
+  "Sesgos de la muestra de esta ronda: academia anglófona, atlántica y revisionista (Yingling, Ulrickson, Bastow, Sagás), hispanismo sevillano y madrileño (Belmonte, Pinto Tortosa, Oliva Melgar) y una voz marxista dominicana (Cordero Michel); casi nada de historiografía haitiana o francesa moderna del siglo XVIII."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Negros de mala entrada / indulto de 1776-77",
+   "tradicion": "colonial hispana (administración del Santo Domingo español)",
+   "nota": "Término administrativo para esclavizados introducidos sin pagar derechos; el 'indulto' permitía declararlos, marcarlos y pagar. Descriptivo propuesto: esclavizados introducidos sin registro. La fecha del indulto discrepa entre fuentes (1774 según Belmonte; mayo de 1776 y ejecución en 1777 según Julián)."
+  },
+  {
+   "termino": "Blancos de la tierra",
+   "tradicion": "dominicana colonial (criolla)",
+   "nota": "Autodenominación de los colonos criollos del este sin importar su color (Moya Pons 1977, p. 280, citado por Sagás). Marca de identidad diferenciada del siglo XVIII; Sagás la lee como producto de las élites."
+  },
+  {
+   "termino": "Reducción (del maniel)",
+   "tradicion": "hispana colonial / dominicana",
+   "nota": "Asentamiento pactado o forzado de cimarrones en poblados (Neiba, San Lorenzo de los Minas). Descriptivo: asentamiento de cimarrones. La tradición francesa los nombra 'marrons' y reclamaba su devolución como propiedad."
+  },
+  {
+   "termino": "Esclavitud patriarcal / suave del este",
+   "tradicion": "dominicana clásica; discutida por la dominicana marxista (Cordero Michel) y por la anglófona revisionista",
+   "nota": "Interpretación de A-058. Cordero Michel acepta 'cuasi patriarcal' solo para el esclavo vaquero y la atribuye a la ganadería y no a la religiosidad de los amos. Es una interpretación, no un hecho; no se midió con manumisiones ni castigos."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Colonialism Unraveling: Race, Religion, and National Belonging in Santo Domingo during the Age of Revolutions (tesis doctoral, University of South Carolina)",
+   "autor": "Yingling, Charlton W.",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/20240223011556/https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4951&context=etd",
+   "urls_alternativas": [
+    "https://scholarcommons.sc.edu/etd/3925/ (HTTP 200: ficha y resumen)",
+    "https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4951&context=etd (HTTP 403, desafío de Cloudflare 'Just a moment'; no se intentó saltarlo)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral (USC, dir. Matt D. Childs) con notas a pie detalladas a AGI-Santo Domingo (leg. 1102, 989, 1029), AHN-Estado y prensa de Saint-Domingue; se leyeron los pasajes sobre 1783-1795.",
+   "proveniencia": "Charlton W. Yingling (University of South Carolina, 2016; después publicó Siblings of Soil, 2022). Escrita para un tribunal doctoral estadounidense, con archivo en Sevilla, Madrid y Santo Domingo. Interés declarado en el resumen: mostrar que entre 1784 y 1822 se forjó una política cultural dominicana de la raza y la nación cuyos términos fijaron la relación con Haití. Conoce de primera mano los legajos AGI-SD 1102 (maniel y frontera) y 989.",
+   "extractos": [
+    {
+     "ubicacion": "p. 70 (cap. 1, 'The Maroons of Maniel'; PDF de Wayback)",
+     "cita_original": "in 1783 envoys from Maniel used trusted local proxies to initiate dialogue with Spanish forces. They hoped to gain legal freedom in exchange for peace and resettlement.",
+     "traduccion": "en 1783 emisarios del Maniel usaron intermediarios locales de confianza para iniciar el diálogo con las fuerzas españolas; esperaban obtener la libertad legal a cambio de paz y reasentamiento.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 77",
+     "cita_original": "In 1785 a tentative agreement between the Spanish and the Maniel maroons stipulated that the maroons would be pardoned, relocated to their original colony, and resettled under “civilizing” Catholic tutelage with names recorded to prevent interlopers.",
+     "traduccion": "En 1785 un acuerdo provisional entre los españoles y los cimarrones del Maniel estipuló que serían indultados, reubicados en su colonia de origen y reasentados bajo una tutela católica «civilizadora», con sus nombres registrados para impedir intrusos.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 77",
+     "cita_original": "Ultimately, 133 ethnically-diverse maroons were listed in the treaty. The majority had fled from Saint-Domingue while a handful were from Santo Domingo.",
+     "traduccion": "Al final, 133 cimarrones de orígenes étnicos diversos figuraron en el tratado; la mayoría había huido de Saint-Domingue y unos pocos eran de Santo Domingo.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 82",
+     "cita_original": "In September 1787 King Carlos III, who had sanctioned the creation of the Código Negro, authorized unilateral Spanish pacification of Maniel.",
+     "traduccion": "En septiembre de 1787 el rey Carlos III, que había sancionado el Código Negro, autorizó la pacificación española unilateral del Maniel.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "pp. 68-69",
+     "cita_original": "Their presence pulled the two outward-looking, metropolitan-oriented colonies into a treaty in the 1770s [...] to define interior boundaries, areas previously inscribed as maroon territory on official maps.",
+     "traduccion": "Su presencia empujó a las dos colonias, volcadas hacia fuera y orientadas a sus metrópolis, a un tratado en la década de 1770 para definir límites interiores, zonas antes inscritas como territorio cimarrón en los mapas oficiales.",
+     "afirmaciones": [
+      "A-057",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 39 (cap. 1)",
+     "cita_original": "In the eighteenth century the cattle trade became the tie that bound Santo Domingo to its French neighbor.",
+     "traduccion": "En el siglo XVIII el comercio de ganado se convirtió en el lazo que ataba Santo Domingo a su vecino francés.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (cap. 2; sobre la apertura de la trata de 1789)",
+     "cita_original": "Santo Domingo, mired in problems internal to its island, never actually saw a change from this policy.",
+     "traduccion": "Santo Domingo, atascado en problemas internos de su isla, nunca llegó a ver un cambio por efecto de esa política.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 94",
+     "cita_original": "other slaves sent to the island were “second- or third-hand” castoffs, he said, from Saint-Domingue or elsewhere in the Caribbean.",
+     "traduccion": "los otros esclavos enviados a la isla eran, decía él, desechos «de segunda o tercera mano» de Saint-Domingue o de otras partes del Caribe (Yingling parafrasea a Sánchez Valverde).",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 61",
+     "cita_original": "like the published plea from Sánchez Valverde, depicted an idealized Dominican future of prosperity and racial discipline modeled at least in part on Saint-Domingue, also voiced a Dominican elite identity distinct from Spanish imperatives",
+     "traduccion": "como el alegato publicado de Sánchez Valverde, pintaban un futuro dominicano idealizado de prosperidad y disciplina racial modelado en parte sobre Saint-Domingue, y expresaban también una identidad de élite dominicana distinta de los imperativos españoles.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057",
+    "A-061",
+    "A-062",
+    "A-064",
+    "A-065"
+   ],
+   "modulos": [
+    "M05",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0829",
+   "notas": "HECHO (leído en pp. 70, 77 y 82): contacto de los cimarrones con los españoles en 1783, acuerdo provisional y rol de 133 personas en 1785, autorización de pacificación unilateral en septiembre de 1787. La 'negociación de 1785-86' de A-062 queda corroborada en lo sustantivo, pero fue un acuerdo provisional que parte del maniel no cumplió (jefes: Santiago, Philippe y LaFortune). INTERPRETACIÓN de la autora: el pacto fue una estrategia de los cimarrones; el marco general (una política cultural dominicana de la raza y la nación nace entonces) es revisionista y es justo la tesis que A-064 debe contrastar. Sesgo: historiografía anglófona, atlántica y revisionista; leer la identidad dominicana como 'anticolonial y solidaria con Haití' es una tesis, no un hecho. [POR VERIFICAR] la cláusula de devolución de fugitivos del Tratado de Aranjuez: la tesis no la cita (la búsqueda de 'Aranjuez', '1777' y 'extradit' solo da la extradición de Ogé en 1790-91 y una nota de 1788). Cadena documental: Belmonte 2015 y esta tesis leen los mismos legajos de AGI-SD 1102, de modo que cuentan como una sola cadena y no como dos fuentes independientes."
+  },
+  {
+   "titulo": "'Esclavos que fueron' in Santo Domingo, 1768-1844 (tesis doctoral, University of Notre Dame)",
+   "autor": "Ulrickson, Maria Cecilia",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ndownloader.figshare.com/files/43575072",
+   "urls_alternativas": [
+    "https://api.figshare.com/v2/articles/24740085",
+    "https://curate.nd.edu/articles/thesis/Esclavos_que_fueron_in_Santo_Domingo_1768-1844/24740085",
+    "https://doi.org/10.7274/bn999596n1g"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de Notre Dame basada en protocolos notariales, cabildos y registros parroquiales de Santo Domingo, Higüey y El Seibo; se leyeron los pasajes sobre caoba, manieles, trata y población.",
+   "proveniencia": "Maria Cecilia Ulrickson (University of Notre Dame, 2018). Estudia las emancipaciones de 1795, 1801, 1805 y 1822 y cómo cambió el control de la libertad con cada régimen. El archivo de la ficha de figshare (UlricksonMC062018D.pdf, 3.223.343 bytes) se descargó con HTTP 200 desde ndownloader.figshare.com en esta sesión, a diferencia de la primera ronda, en la que devolvió un desafío de AWS WAF. Licencia 'All Rights Reserved': se citan solo fragmentos breves.",
+   "extractos": [
+    {
+     "ubicacion": "p. 14 (introducción), nota 25 (Franco 2012, p. 160)",
+     "cita_original": "According to one estimate, the colony in 1788 was composed of 24,000 free white inhabitants, 14,000 enslaved persons and 82,000 free individuals of African descent.",
+     "traduccion": "Según una estimación, la colonia en 1788 se componía de 24.000 habitantes blancos libres, 14.000 esclavizados y 82.000 personas libres de ascendencia africana.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 27 (cap. 1)",
+     "cita_original": "Even after a treaty signed around 1762 that legalized part of the contraband cattle trade, inhabitants preferred the underground market to avoid licensing and taxation.",
+     "traduccion": "Aun después de un tratado firmado hacia 1762 que legalizó parte del comercio de ganado de contrabando, los habitantes preferían el mercado clandestino para evitar licencias e impuestos.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 48 (cap. 1), nota 67 (Real Cédula de 11-IV-1786, citada por Jáuregui y Solodkow en su edición de Catani)",
+     "cita_original": "In 1786, the Crown opened the Spanish American mahogany trade to foreign ports.",
+     "traduccion": "En 1786 la Corona abrió el comercio de caoba de la América española a puertos extranjeros.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 47 (cap. 1), nota 66",
+     "cita_original": "A statute from 1789 ordered all mahogany contractors to appear before the cabildo to register and license their contracted workers within fifteen days.",
+     "traduccion": "Un estatuto de 1789 ordenó a todos los contratistas de caoba presentarse ante el cabildo de Higüey para registrar y licenciar a sus trabajadores en quince días.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 55 (cap. 1)",
+     "cita_original": "Governors on both sides of the island had sponsored unsuccessful settlement accords with maniel residents in the 1770s, 1780s, and 1790s.",
+     "traduccion": "Gobernadores de ambos lados de la isla patrocinaron acuerdos de asentamiento, sin éxito, con los residentes del maniel en las décadas de 1770, 1780 y 1790.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 55 (cap. 1)",
+     "cita_original": "At various points, cimarrones in the maniel accepted plans that would require their voluntary reducción to the outskirts of Neiba, only to subsequently withdraw back into the mountains.",
+     "traduccion": "En diversos momentos los cimarrones del maniel aceptaron planes que exigían su reducción voluntaria a las afueras de Neiba, para después replegarse de nuevo a las montañas.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "pp. 55-56 (cap. 1)",
+     "cita_original": "carried on sporadic, clandestine trade [...] with foreign merchants on the coasts bordering the mountainous point",
+     "traduccion": "mantenía un comercio esporádico y clandestino con mercaderes extranjeros en las costas contiguas al punto montañoso (sobre el maniel de Baoruco hacia 1791).",
+     "afirmaciones": [
+      "A-061",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 91 (cap. 2)",
+     "cita_original": "At the turn of the century, Santo Domingo did not have strong connections to the trans-Atlantic slave trade.",
+     "traduccion": "A comienzos del siglo XIX, Santo Domingo no tenía conexiones fuertes con la trata transatlántica.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-061",
+    "A-062",
+    "A-065"
+   ],
+   "modulos": [
+    "M05",
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0756",
+   "notas": "HECHO (con cita): hay acuerdos fallidos con el maniel en las décadas de 1770, 1780 y 1790; la Corona abrió el comercio de caoba a puertos extranjeros en 1786 (la propia autora anota que Jáuregui y Solodkow advierten que la cédula original no se ha identificado en el archivo: [POR VERIFICAR] el documento); un estatuto del cabildo de Higüey de 1789 regulaba la caoba. CIFRA con base: 24.000 / 14.000 / 82.000 (total 120.000) es 'una estimación' que remite a Franco 2012, p. 160, no a un padrón; coincide con la cifra baja de esclavos de Moreau (<=15.000) y se opone a Cordero Michel (35.000) y a Cassá (25.000). INTERPRETACIÓN: la autora lee las ordenanzas de caoba como guerra contra la economía independiente de los libres de color. Nota de periodo: el pasaje de las pp. 157-158 sobre el tráfico marítimo de la caoba (Filadelfia, Baltimore, Curazao...) es de 1802-1809 y no sirve para A-061. Sesgo: historiografía estadounidense centrada en la libertad y la raza; no cuantifica la trata."
+  },
+  {
+   "titulo": "Trans-Atlantic Slave Trade Database: exportación tastdb-exp-2019.csv (36.108 viajes); recuento propio para la costa española de La Española, 1700-1789",
+   "autor": "SlaveVoyages (Trans-Atlantic Slave Trade Database); recuento de esta ronda",
+   "anio": "2019",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.slavevoyages.org/documents/download/tastdb-exp-2019.csv",
+   "urls_alternativas": [
+    "https://www.slavevoyages.org/documents/download/SPSS_Codebook_2019.pdf (HTTP 200, 71 pp., códigos de lugar)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base académica reconocida, pero la cobertura de los viajes hacia la parte española es mínima y casi toda imputada.",
+   "proveniencia": "SlaveVoyages (Emory University y consorcio de universidades), exportación de 2019 del CSV (22.182.700 bytes; 36.108 viajes). Los códigos de lugar se leyeron en el libro de códigos (31100 = La Española española; 31106 = Santo Domingo; 31103 = Monte Cristi; 31104 = Samaná; 36400 = Saint-Domingue). El recuento es mío: filtro MJSELIMP = 31100, YEARAM entre 1700 y 1789.",
+   "extractos": [
+    {
+     "ubicacion": "CSV, filtro MJSELIMP=31100, 1700-1789 (cálculo propio)",
+     "cita_original": "9 viajes: 11954 Jonge Jan 1717 (363); 16538 Robert 1729 (271); 17181 Juno 1748 (273); 10927 Paulus 1759 (397); 36308 King George 1765 (200); 83593 Springfield 1783 (359); 82261 Lion 1786 (359); 33571 Saint Léon 1787 (88); 83898 Union 1788 (359). Suma SLAXIMP = 2.669; suma SLAMIMP = 2.368.",
+     "traduccion": "[VERIFICADO: cálculo propio sobre el CSV] SLAXIMP = embarcados imputados; SLAMIMP = desembarcados imputados. La cifra de 2.368 de la primera ronda corresponde a SLAMIMP; 2.669 es SLAXIMP.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "CSV, filtro MJSELIMP=36400 (Saint-Domingue), 1700-1789 (cálculo propio)",
+     "cita_original": "2.056 viajes; SLAXIMP = 708.840; SLAMIMP = 617.579. En 1790: 144 viajes, SLAMIMP = 41.248.",
+     "traduccion": "[VERIFICADO: cálculo propio sobre el CSV] Saint-Domingue recibió unos 617.600 desembarcados imputados en 1700-1789 frente a unos 2.400 en la parte española: una razón de 1 a 260. El dato de 1790 (41.248) cuadra con los '40.000 desembarcados en 1790' de A-055.",
+     "afirmaciones": [
+      "A-055",
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-055",
+    "A-065"
+   ],
+   "modulos": [
+    "M00",
+    "M03",
+    "M04",
+    "M05",
+    "M09"
+   ],
+   "id_existente": "F-0235",
+   "notas": "HECHO (cálculo propio): 9 viajes y 2.368 desembarcados imputados (2.669 embarcados) para La Española española en 1700-1789. Cobertura y sesgo: la base se alimenta de fuentes de los países tratantes (británicas, holandesas, francesas); no recoge las compras hechas en Saint-Domingue (cabotaje por tierra y mar) ni el pequeño cabotaje desde Cuba, Puerto Rico y Curazao que describe la historiografía dominicana. Por eso la cifra no mide la entrada real de esclavizados al este: es un límite inferior de lo registrado, no una estimación. Complementar con la Intra-American Slave Trade Database (ficha propia de esta ronda). [POR VERIFICAR] si los 9 viajes de TASTDB y los 85 de la base intra-americana son disjuntos: las dos bases dicen que lo son, pero no se cotejaron buque por buque."
+  },
+  {
+   "titulo": "Intra-American Slave Trade Database (I-Am1.0.csv; 11.521 viajes); recuento propio de llegadas a La Española española, 1700-1789",
+   "autor": "SlaveVoyages (Intra-American Slave Trade Database); recuento de esta ronda",
+   "anio": "2019",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.slavevoyages.org/documents/download/I-Am1.0.csv",
+   "urls_alternativas": [
+    "https://slavevoyages.org/blog/downloads-intra-american (HTTP 200, página de descarga con JavaScript)",
+    "https://www.slavevoyages.org/documents/download/SPSS_Codebook_2019.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base académica de la misma familia que TASTDB, con fuente primaria identificada por viaje, pero que cubre sobre todo registros navales británicos.",
+   "proveniencia": "SlaveVoyages (consorcio de universidades). Archivo I-Am1.0.csv, 5.726.508 bytes, 11.521 filas. Recuento propio: arrport, regarr o sla1port en la costa española de La Española (códigos 31100-31199: Isabela, Monte Cristi, Samaná, Santo Domingo, Ocoa, Nizao, Puerto Plata, Saona), yearam <= 1789, personas = tslavesd o, si falta, slaarriv.",
+   "extractos": [
+    {
+     "ubicacion": "CSV, recuento propio de 85 viajes (1717-1789)",
+     "cita_original": "85 viajes, 2.142 personas: década de 1710, 1 viaje (100); 1720, 4 (61); 1730, 5 (105); 1740, 2 (122); 1750, 1 (190); 1760, 11 (217); 1780, 61 (1.347). Lugar de compra: Kingston (35114), 67 viajes, 1.650 personas.",
+     "traduccion": "[VERIFICADO: cálculo propio] Casi dos tercios de lo registrado (1.347 de 2.142) llega en 1783-1788, y casi todo desde Kingston (Jamaica); fuente de los viajes: serie CO 142 ([POR VERIFICAR] que sea el registro naval de Jamaica).",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "CSV, ejemplo de registro (voyageid 103444)",
+     "cita_original": "voyageid 103444; yearam 1785; shipname NS del Belem; arrport 31106 (Santo Domingo); tslavesd 91; plac1tra 35114 (Kingston); sourcea CO 142/22, 22.",
+     "traduccion": "Un viaje de 91 personas de Kingston a Santo Domingo en 1785.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "CSV, mismo filtro aplicado a Saint-Domingue (regarr 36400)",
+     "cita_original": "379 viajes, 7.320 personas (1700-1789).",
+     "traduccion": "[VERIFICADO: cálculo propio] Saint-Domingue recibe por esta vía unas 3,4 veces más personas registradas que la parte española (7.320 frente a 2.142), pero su vía principal es la transatlántica directa (617.579 en TASTDB).",
+     "afirmaciones": [
+      "A-055",
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-055",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (cálculo propio): la trata intercolonial registrada hacia el este suma 85 viajes y 2.142 personas en 1700-1789, con un salto en 1783-1788 (61 viajes, 1.347 personas), casi todo desde Kingston. Sumada a los 2.368 de TASTDB da unas 4.500 personas registradas, frente a una población esclavizada de 14.000 a 35.000 (bases en A-056). Límites: (1) la base no registra las compras por tierra en Saint-Domingue ni el cabotaje desde Cuba, Puerto Rico y Curazao que documenta la historiografía dominicana; (2) las fuentes de la base son británicas, de modo que el salto de 1783-1788 puede reflejar la buena conservación de los registros de Jamaica y no un salto real; (3) los viajes de 1786-1788 coinciden con las 'habilitaciones a la trata' de 1786 y 1789 que Belmonte (2016) dice que fracasaron: ambas cosas pueden ser ciertas si los volúmenes fueron pequeños. No hay un padrón de esclavizados llegados por contrabando: la cifra de A-065 sigue siendo una laguna, ahora acotada por abajo. Ficha nueva (sin F-####): se da de alta."
+  },
+  {
+   "titulo": "Bajo el negro velo de la ilegalidad. Un análisis del mercado de esclavos dominicano 1746-1821 (Nuevo Mundo Mundos Nuevos, jul. 2016; DOI 10.4000/nuevomundo.69478)",
+   "autor": "Belmonte Postigo, José Luis",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://journals.openedition.org/nuevomundo/69478",
+   "urls_alternativas": [
+    "https://doi.org/10.4000/nuevomundo.69478",
+    "https://doaj.org/article/aeb6b7e3bf2d41fdb1c74bea03ae2ef0 (metadatos vía API de DOAJ, HTTP 200)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en revista de acceso abierto, basado en protocolos notariales del AGN-Santo Domingo y de otros archivos; cifras de primera mano pero sin muestra declarada.",
+   "proveniencia": "José Luis Belmonte Postigo (doctor por la Universidad Pablo de Olavide, 2007; profesor en la Universidad de Sevilla). Estudia el mercado de esclavos dominicano de 1746 a 1821 con protocolos notariales (AGN, ARS, ARB y ARH). La página de OpenEdition bloquea a curl con Anubis; se leyó con WebFetch, que devuelve el texto pasado por un extractor: las frases de abajo salen de ese extractor y deben cotejarse en la página antes de entrar en la síntesis.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 7 (según el extractor de WebFetch)",
+     "cita_original": "Desde la península se atendieron a las razones expuestas, decretando dos indultos, uno en 1756 y otro en 1774, para que los vecinos pudieran regularizar sus propiedades, marcasen a sus esclavos y pagasen al menos una parte de los impuestos de entrada.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7 (según el extractor de WebFetch)",
+     "cita_original": "Las habilitaciones a la trata del puerto de Santo Domingo en 1786 y 1789, en este último caso junto a Monte Christi, fracasaron",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4 (según el extractor de WebFetch)",
+     "cita_original": "La introducción de esclavos en Santo Domingo procedentes de Saint Domingue fue una constante a lo largo de buena parte del siglo XVIII.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7 (según el extractor de WebFetch)",
+     "cita_original": "El incremento sostenido del esclavismo en Saint Domingue acrecentó la demanda de carne vacuna. Este hecho fue aprovechado por el sector ganadero dominicano para introducir, legal e ilegalmente, buena parte de su producción.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-061",
+    "A-062",
+    "A-065"
+   ],
+   "modulos": [
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (por verificar en la página): hubo dos indultos para regularizar esclavos introducidos sin pagar derechos (1756 y 1774 según este autor), y las habilitaciones de 1786 y 1789 para la trata por Santo Domingo (y Monte Cristi en 1789) fracasaron. DISCREPANCIA DE FECHAS: Julián (Clío 188, p. 73, con AGI-SD 983 y AHN-Ultramar libro 683) fecha el indulto en mayo de 1776 (gobernador Solano) y su ejecución en 1777; Belmonte da 1774, probablemente la fecha de la gracia real, y 1776-77 sería su aplicación: [POR VERIFICAR] contra el AGI. CIFRAS: Belmonte no da el volumen de esclavizados entrados por contrabando o compra en Saint-Domingue; el extractor reporta una tabla 5 (criollos, bozales y origen desconocido) con bozales de 19,5 % del mercado notarial antes de 1790 y 4,4 % en 1791-1815 [POR VERIFICAR: cifra pasada por extractor, no leída en la tabla]. Por tanto A-065 sigue sin cuantificar por esta vía. Sesgo: hispanismo sevillano de historia social del esclavismo; fuente notarial = solo esclavizados con compraventa registrada, por definición lo legal o legalizado."
+  },
+  {
+   "titulo": "Fundación de Puerto Plata, las Devastaciones de 1605-1606 y su repoblación con inmigrantes canarios en el siglo XVIII (Clío 83(188), pp. 9-85)",
+   "autor": "Julián, Amadeo",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/188.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Académico de número de la ADH con notas a AGI-Santo Domingo 983 y AHN-Ultramar libro 683, pero el pasaje del indulto da solo tres cifras locales y ninguna suma total.",
+   "proveniencia": "Amadeo Julián, académico de número de la Academia Dominicana de la Historia y autor del libro El contrabando de esclavos en Santo Domingo (AGN, 2023), publica en Clío 188 (julio-diciembre de 2014) un estudio de historia local. Descargado en esta sesión (PDF de 3,4 MB, 15.570 líneas de texto; el número completo de Clío). No es la obra de 2023, que no está en línea.",
+   "extractos": [
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "En 1777, se ejecutó en Puerto Plata el indulto de esclavos negros, que se había concedido, en vista de la presencia en la isla de una gran cantidad de esclavos, cuyos dueños no habían pagado los derechos establecidos, por lo cual habían entrado de contrabando a la colonia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "En Puerto Plata, comparecieron 25 criadores, 22 labradores, y 23 propietarios de esclavos que tenían otras ocupaciones, y declararon 135 esclavos, de los cuales 78 eran hombres y 57 mujeres",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "después de Santiago de los Caballeros y Dajabón, en los cuales se declararon 281 y 147 esclavos, respectivamente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 73, nota 89 (continúa en p. 74)",
+     "cita_original": "Libro registro de declaraciones de poseedores de negros de mala entrada",
+     "traduccion": "[Fuente citada: AGI, Santo Domingo, 983, 'Expediente sobre el excesivo número de negros de mala entrada'; y AHN, Ultramar, libro 683, registro de la banda norte para acogerse al indulto del gobernador Solano de mayo de 1776.]",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 70",
+     "cita_original": "En la década de 1750, durante el gobierno de Francisco Rubio y Peñaranda, se concedió a Montecristi la condición de puerto franco o libre, por el tiempo de diez años.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-061",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (con cifras de segunda mano del registro): en el indulto de esclavos de 'mala entrada', ejecutado en 1777 tras la publicación de Solano en mayo de 1776, se declararon 281 esclavizados en Santiago, 147 en Dajabón y 135 en Puerto Plata (78 hombres y 57 mujeres); suma de las tres plazas = 563 [cálculo propio]. Son solo las plazas de la banda norte nombradas en el artículo; no hay total de la colonia. INTERPRETACIÓN del autor: Puerto Plata ocupó el tercer lugar en esclavos introducidos de contrabando y el dato muestra su crecimiento desde 1736. El indulto es una fuente de sesgo conocido: lo declarado es lo que los dueños aceptaron declarar para legalizar. [POR VERIFICAR] los legajos AGI-SD 983 y AHN-Ultramar libro 683 no se consultaron. Sesgo: historiografía de la academia dominicana, local y documental."
+  },
+  {
+   "titulo": "Sistemas de producción esclavista de las dos colonias de la isla de Santo Domingo (Clío 83(188), pp. 87-100; ponencia de 2013 y conferencia de 4-VI-2014)",
+   "autor": "Cordero Michel, Emilio",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/188.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un especialista de la ADH en marco marxista; las cifras proceden de su libro de 2000, de Madiou, Moreau, Tannenbaum y de un texto mimeografiado suyo de 1970, no de padrones.",
+   "proveniencia": "Emilio Cordero Michel, historiador dominicano de tradición marxista, miembro de número de la Academia Dominicana de la Historia y editor de Clío. Texto de una ponencia al II Congreso Internacional 'El Caribe en cuatro tiempos' (junio de 2013) que presentó como conferencia el 4 de junio de 2014, escrita en tono polémico contra lo que llama el racismo antihaitiano de los historiadores clásicos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 89 (cita su libro La Revolución Haitiana y Santo Domingo, 2000, pp. 23-24)",
+     "cita_original": "792 ingenios y trapiches –451 para producir azúcar blanca y 341 azúcar crudo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "p. 91",
+     "cita_original": "Moreau de Saint-Méry ofreció la cifra de 452,000, que es la más conocida",
+     "traduccion": "[Antes: Madiou da 509.642 esclavos en plantaciones más unos 200.000 domésticos y menores, 709.642 en total.]",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "pp. 92-93 (cita a Turnier 1925 vía Pierre-Charles 1965, p. 28)",
+     "cita_original": "en 1788, el comercio exterior de Saint-Domingue, evaluado en 214 millones de francos [...] sobrepasaba al de los Estados Unidos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "p. 93",
+     "cita_original": "destinándose al consumo interno o insular al exportarse en pie, en su casi totalidad, a la colonia de Saint-Domingue",
+     "traduccion": "[Sobre el ganado mayor del este.]",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 93",
+     "cita_original": "su economía descansaba, principalmente, en la actividad pecuaria, la producción de algún tabaco en la región aledaña a Santiago de los Caballeros, de escasos renglones alimenticios, miel de abejas cimarronas, cera, cueros y del corte de maderas preciosas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 94",
+     "cita_original": "cerca del 85% de los artículos de uso y consumo que requería la población colonial eran de procedencia francesa que se introducían desde la colonia de Saint-Domingue",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "p. 94",
+     "cita_original": "El grado de desarrollo del Santo Domingo Español lo evidencia el reducido número de esclavos que existía en el año de 1789: un total de 35,000 de una población de 125,000 personas; esto es, el 28 % del total de los habitantes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 96",
+     "cita_original": "cuasi patriarcal como señaló Marx",
+     "traduccion": "[Contexto: Cordero atribuye el trato 'más dulce' al esclavo vaquero a las relaciones de producción de la ganadería y no a la religiosidad de los amos.]",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 98",
+     "cita_original": "según Mr. Pedron en 1800 estaba integrada por unos 24,000 seres humanos",
+     "traduccion": "[Sobre la esclavitud del Santo Domingo español en 1800; Pedron, Memoria descriptiva, en Rodríguez Demorizi, La era de Francia en Santo Domingo.]",
+     "afirmaciones": [
+      "A-056"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-056",
+    "A-058",
+    "A-061",
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "HECHO con base propia: 35.000 esclavizados de 125.000 habitantes en 1789 (28 %), nota 14 remite a su propio cuadro comparativo de 1970 (mimeo), sin padrón; por tanto es una CIFRA SIN FUENTE PRIMARIA TRAZABLE (D) y alta frente a Moreau (<=15.000), Franco vía Ulrickson (14.000) y Cassá (25.000). Los 451 ingenios de azúcar blanca y 341 de azúcar bruto coinciden con el 'État général' del intendente Barbé de Marbois (451 y 341; ver su ficha). INTERPRETACIÓN: Cordero rechaza la explicación religiosa de la esclavitud 'benigna' y la sustituye por la ganadería; acepta 'cuasi patriarcal' solo en ese sentido. La frase sobre 214 millones de francos de comercio exterior de Saint-Domingue en 1788 la cita de segunda mano (Turnier 1925). Sesgo: marxista, polémico contra la historiografía clásica dominicana; no es una lectura neutral pero sí una versión seria de una disputa de la sección 9."
+  },
+  {
+   "titulo": "Contrabandistas, criollos y mercantilismo español en el siglo XVIII: la resistencia a la Compañía de Barcelona en Santo Domingo (Pedralbes 4, pp. 233-272)",
+   "autor": "Oliva Melgar, José María",
+   "anio": "1984",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://dialnet.unirioja.es/descarga/articulo/85766.pdf",
+   "urls_alternativas": [
+    "https://dialnet.unirioja.es/servlet/articulo?codigo=85766 (HTTP 200, ficha)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de revista universitaria (Universitat de Barcelona) apoyado en AGI-Santo Domingo y AHN-Consejos; la OCR del PDF tiene errores y no conserva todos los folios.",
+   "proveniencia": "José María Oliva Melgar (Universidad de Barcelona), 1984, a partir de su tesis sobre la Real Compañía de Comercio de Barcelona (1755), que tenía el privilegio de Santo Domingo, Puerto Rico y Margarita. Documentos citados: AGI-SD leg. 944 y 1100, AHN-Consejos Suprimidos leg. 21.058. Interés: mostrar el contrabando criollo como resistencia al monopolio.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 253-254 (los folios de la OCR son parciales; nota 53: AHN, Consejos Suprimidos, leg. 21.058)",
+     "cita_original": "Traia en la balandra 106 esclavos de todas las edades, de los que 71 eran hombres y 35 mujeres",
+     "traduccion": "[Llegada a Santo Domingo el 30-III-1770 de la balandra San Luis, capitán Juan Gatell, procedente de Barbados con licencia de compra de 'al menos 100 esclavos'.]",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 233 (epígrafe: informe de los directores de la Compañía, 3-V-1762)",
+     "cita_original": "el incontrastable comun Derecho de las Gentes obligaba a los Gobernadores de las Tres Islas a tolerar muchas veces el ilicito comercio",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061",
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-061",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (documentado): 1769-1771, con licencias de víveres, el gobernador Azlor autorizó viajes a 'islas amigas' en balandras pequeñas; el de Gatell trajo de Barbados 106 esclavizados (71 hombres, 35 mujeres), y el autor deduce que con ellos bastó 'al menos por un tiempo' para las necesidades de los hacendados, pese a que antes se reclamaba mano de obra. Es entrada legal-intercolonial y no contrabando, y es una llegada de 106 personas en un año de los 1770. No hay serie. El pasaje de 1762 es la declaración de los directores de la Compañía: no es prueba del volumen. Sesgo: historia económica del mercantilismo español, desde los intereses de la Compañía; el criollo aparece como contrabandista. [POR VERIFICAR] la cita está corregida de errores de OCR ('10s'=los); cotejar con la imagen del artículo."
+  },
+  {
+   "titulo": "El epistolario de una alianza: las cartas de Jean-François Papillon, Georges Biassou y Toussaint Bréda a las autoridades de Santo Domingo (1791-1794) (Anuario de Estudios Americanos 78(1), pp. 197-222; DOI 10.3989/aeamer.2021.1.07)",
+   "autor": "Pinto Tortosa, Antonio Jesús",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiosamericanos.revistas.csic.es/index.php/estudiosamericanos/article/download/911/904/923",
+   "urls_alternativas": [
+    "https://doi.org/10.3989/aeamer.2021.1.07"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares del CSIC (Escuela de Estudios Hispano-Americanos); el pasaje de contexto de 1773-1777 se apoya en Sevilla Soler 1980 (pp. 341-376) y en Grafenstein y Muñoz 2011.",
+   "proveniencia": "Antonio Jesús Pinto Tortosa (Universidad Europea de Madrid, ORCID 0000-0002-9921-568X). El artículo trata de 1791-1794 (M06), pero su introducción resume el contexto fronterizo de 1697-1789: maniel de Neiba, devolución de fugitivos y secuencia de 1773-1777. Pasaje leído en la p. 200 y notas 10-14 de la misma página.",
+   "extractos": [
+    {
+     "ubicacion": "p. 200",
+     "cita_original": "Este maniel había estado operativo desde la década de 1740 y su mera existencia era gravosa para las autoridades francesas, pues constituía un polo de atracción para los esclavos de Saint-Domingue.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 200",
+     "cita_original": "los franceses exigieron un acuerdo sobre devolución de negros fugitivos a España justo después de la expiración del Tercer Pacto de Familia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 200 (nota 14: Sevilla Soler 1980, pp. 341-376)",
+     "cita_original": "Finalmente, en San Miguel de la Atalaya en 1776 se establecieron las bases para el Tratado de Aranjuez del año siguiente, que recogió el compromiso español de nombrar policías de frontera y reducir el maniel de Neiba de manera definitiva.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 200 (nota 12: Grafenstein y Muñoz 2011, pp. 27-28)",
+     "cita_original": "a la altura de 1790, había en la colonia aproximadamente 450.000 esclavos negros, frente a 30.000 habitantes blancos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-057",
+    "A-062"
+   ],
+   "modulos": [
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (por una secundaria): la cláusula de Aranjuez sobre devolución de fugitivos y sobre la reducción del maniel de Neiba tiene ahora un segundo testigo académico (Pinto Tortosa vía Sevilla Soler 1980), y la fecha de la secuencia es 1773 (San Gabriel de las Caobas, fallido), 1776 (San Miguel de la Atalaya) y 1777 (Aranjuez), que cuadra con la de Murgueitio y no con la de Giusti-Cordero (que dató el acuerdo de límites en 1773). DISCREPANCIA sobre la antigüedad del maniel: 'operativo desde la década de 1740' según Pinto Tortosa, frente a 'más de cien años' según el arzobispo Rodríguez en 1784 (citado por Yingling) y 'un siglo antes' de 1766 según Ulrickson; la fecha de origen no está resuelta. CIFRA: 450.000 esclavos frente a 30.000 blancos hacia 1790 está en la franja baja de A-054 y remite a Grafenstein y Muñoz 2011, no a un padrón. [POR VERIFICAR] el texto del tratado de Aranjuez (Cantillo 1843; F-0024) para confirmar 'policías de frontera' y devolución. Sesgo: hispanismo de historia política y militar; narra desde la Corona."
+  },
+  {
+   "titulo": "État général de la population noire, des manufactures, bestiaux, cultures et des denrées exportées en France, de chaque canton de la colonie de Saint-Domingue, partie française (cuadro n.º XIX del compte de Barbé de Marbois; Port-au-Prince, 14-VII-1789; ejercicio de 1788)",
+   "autor": "Barbé de Marbois, François (intendant de Saint-Domingue)",
+   "anio": "1789",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://beta-omk.manioc.org/files/original/22020/BBX19011.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cuadro oficial del intendente, firmado en el depósito de la Marine del 14-VII-1789 y fundado en los estados de los recibidores del Octroi; se leyó la imagen (la capa de texto del PDF es defectuosa).",
+   "proveniencia": "François Barbé de Marbois, intendant de Saint-Domingue (1785-1789), cuadro n.º XIX de su compte de finances; ejemplar de la Bibliothèque municipale de Bordeaux digitalizado por Manioc (BBX19011, 2 páginas, 1.679.615 bytes). Para el ministerio de la Marina y para la propia administración; busca mostrar la riqueza fiscal de la colonia. Los datos son del ejercicio de 1788, no de 1789. El pliego tiene un desgarro que borra tres filas de cantones del Cap, Port-de-Paix y Mole Saint-Nicolas.",
+   "extractos": [
+    {
+     "ubicacion": "encabezado del cuadro",
+     "cita_original": "ÉTAT GÉNÉRAL DE LA POPULATION NOIRE ; DES Manufactures, Bestiaux, Cultures et des Denrées exportées en France, de chaque Canton de la Colonie de Saint-Domingue, partie Française",
+     "traduccion": "Estado general de la población negra, de las manufacturas, el ganado, los cultivos y los productos exportados a Francia, por cantón de la colonia de Saint-Domingue, parte francesa (ejercicio de 1788 según el Résumé).",
+     "afirmaciones": [
+      "A-054",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "fila de totales y 'Résumé' (imagen, p. 1)",
+     "cita_original": "TOTAUX.. 405,528 Noirs ..... 150,000 Bêtes cavalines ... 70,500 Bêtes à cornes ... 7,646 Manufactures, dont il a été exporté 275,300,469 liv. de valeur estimative, argent de la Colonie ... 186,431,612 fr.",
+     "traduccion": "Totales: 405.528 negros; 7.646 manufacturas, de las que se exportó el equivalente a 275.300.469 libras (moneda de la colonia), 186.431.612 francos.",
+     "afirmaciones": [
+      "A-054",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "fila de totales por cultivo (imagen, p. 1)",
+     "cita_original": "451 | 341 | 70,227,709 liv. sucre terré | 93,177,512 liv. sucre brut | 2,810 cafeteries | 68,151,181 liv. café | 705 cotonneries | 6,286,126 liv. coton | 3,097 indigoteries | 930,106 liv. indigo | 96 cacaoteries | 150,000 liv. cacao",
+     "traduccion": "451 ingenios de azúcar blanco y 341 de azúcar bruto; azúcar terciado 70.227.709 libras y bruto 93.177.512; 2.810 cafetales con 68.151.181 libras de café; algodón 6.286.126; añil 930.106 (la columna de totales dice 930.016 1/2); cacao 150.000. [Conversión propia con 1 libra de marco = 489,5 g, POR VERIFICAR el factor: azúcar 163.405.221 libras = unas 79.990 t; café 68.151.181 libras = unas 33.360 t.]",
+     "afirmaciones": [
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "'Résumé', estimación por precio común",
+     "cita_original": "Bois d'Acajou, Gayac et Campêche, évalués à ... 45,000",
+     "traduccion": "La madera de caoba, guayacán y campeche exportada de la parte francesa (1.800.000 unidades no precisadas) se valoró en 45.000 libras, frente a un total estimado de 186 millones de francos: el lado francés apenas exportaba maderas. Este dato no dice nada sobre las exportaciones del este.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-061",
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (documento primario leído en imagen): la 'población noire' del intendente es 405.528 en 1788 (332.700 en plantaciones por cultivo, 5.828 en ladrilleras y otras industrias, 2.500 en huertas de abasto, 5.500 de oficios y 59.000 en ciudades), por debajo de los 452.000 de Moreau y de los 465.000-500.000 de Geggus y la JCB: el rango de A-054 se apoya en estimaciones y no en un padrón único. EXPORTACIONES con base: azúcar ~80.000 t (cuadra con las '80.000 toneladas' de A-063) pero café ~33.400 t (no 40.000), según el compte de 1788 y la conversión propia. Valor 275,3 millones de libras de la colonia = 186,4 millones de francos. INTERPRETACIÓN: no hay. Límites: el 'población noire' no distingue libres y esclavos; el total de indigo aparece como 930.016 1/2 en la columna y 930.106 en el Résumé (errata de la fuente); el desgarro del pliego impide leer tres filas. Las fichas M05-N30 y M05-N57 (État des finances, 1788 y 1790) son otros documentos del mismo compte."
+  },
+  {
+   "titulo": "The Bitter Taste of Freedom: How Saint-Domingue's Sugar-Slavery Economy Was Built and Destroyed (tesis de máster, Universidad de Ginebra)",
+   "autor": "Bastow, Maximilian Jonathan",
+   "anio": "2025",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://access.archive-ouverte.unige.ch/access/metadata/812e416a-2bef-4111-ab08-359569a4030a/download",
+   "urls_alternativas": [
+    "https://archive-ouverte.unige.ch/unige:187074"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Tesis de máster de 242 páginas sin revisión por pares; útil por sus tablas y por citar a Blackburn, Geggus y Eddins, pero sus cifras son de segunda mano y el 40 % de comercio exterior no lleva nota.",
+   "proveniencia": "Maximilian Bastow, Master in the Political Economy of Capitalism, Universidad de Ginebra, 19 de mayo de 2025 (dirección: Pilar Nogués-Marco). Descargado en esta sesión (18,4 MB, 242 pp.). Interés: economía política de la plantación y del colapso de Saint-Domingue. Se lee solo como índice a las fuentes que cita.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 2, p. 67",
+     "cita_original": "with Saint-Domingue accounting for 40% of its foreign trade and, with the other colonies, accounting for perhaps 15% of French economic growth in the short eighteenth century",
+     "traduccion": "con Saint-Domingue explicando el 40 % de su comercio exterior y, con las otras colonias, quizá el 15 % del crecimiento económico francés del siglo XVIII corto.",
+     "afirmaciones": [
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "cap. 2, pp. 52-53, notas 216-218 (Blackburn 2010, p. 433; Eddins 2022, p. 87)",
+     "cita_original": "produced 87,000 tons of sugar, its output having doubled between 1765 and 1788 alone",
+     "traduccion": "[Sobre 1790 y las 793 plantaciones azucareras de Saint-Domingue.] produjo 87.000 toneladas de azúcar, y su producción se duplicó entre 1765 y 1788.",
+     "afirmaciones": [
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice C, Table C.1 (p. 185; fuente: Blackburn 1996, p. 241, a su vez Pluchon, Toussaint Louverture, p. 275)",
+     "cita_original": "Thousand kgs 1789: White sugar 21549; Raw sugar 42437; Coffee 34846; Cotton 3176; Indigo 344.",
+     "traduccion": "Exportaciones de Saint-Domingue en 1789 en miles de kilos: azúcar blanco 21.549; azúcar bruto 42.437 (suma 63.986 t); café 34.846 t; algodón 3.176 t; añil 344 t. [Cálculo propio de la suma.]",
+     "afirmaciones": [
+      "A-063"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS con base: dos estimaciones del azúcar de 1789-1790 (63.986 t exportadas según Blackburn/Pluchon; 87.000 t producidas según Blackburn 2010) contra las 80.000 t de A-063 y las 80.000 t del compte de 1788; café 34.846 t (no 40.000). La participación de Saint-Domingue en el comercio exterior francés aparece como 40 % (sin nota), 'más de un tercio' en Frankema y Masé y 'dos tercios' en James 1938 sin cita, de modo que 'dos tercios' no resiste: es el extremo alto de un rango de 36-65 % según la base (ver las fichas de Pitzer y Ogle). Sesgo: economía política heterodoxa; fuente terciaria en la práctica."
+  },
+  {
+   "titulo": "Idea del valor de la Isla Española, y utilidades que de ella puede sacar su Monarquía (Madrid, Pedro Marín, 1785): pasajes sobre caoba y derechos del ganado que pasa a los franceses",
+   "autor": "Sánchez Valverde, Antonio",
+   "anio": "1785",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/ideadelvalordela00snguat/ideadelvalordela00snguat_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto primario con OCR defectuoso; se leyeron solo los pasajes sobre caoba y derechos de ganado.",
+   "proveniencia": "Antonio Sánchez Valverde, clérigo criollo de Santo Domingo, escribe en Madrid en 1785 para persuadir a la Corona de que fomente la isla; descripción coetánea y con interés (proyectista). Ejemplar de la Universidad Francisco Marroquín en archive.org, 621.523 bytes de texto OCR.",
+   "extractos": [
+    {
+     "ubicacion": "p. 31 (folio por la OCR; l. 2271-2275 del djvu.txt)",
+     "cita_original": "ninguna es mas abundante en Santo Domingo, que los Caobas.",
+     "traduccion": "[Sobre las producciones vegetales útiles de la isla.]",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 133 (l. 6254-6258 del djvu.txt; OCR corregida de 'Muías' y de la puntuación)",
+     "cita_original": "se ha establecido el ramo de los Derechos, que adeudan las cabezas de ganado mayor, y menor, las de Mulas, y Caballerías, que pasan á los Franceses",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-061"
+   ],
+   "modulos": [
+    "M00",
+    "M05",
+    "M08"
+   ],
+   "id_existente": "F-0020",
+   "notas": "HECHO coetáneo: la Real Hacienda gravaba el ganado mayor y menor, mulas y caballerías que pasaban a los franceses (1785); y la caoba abundaba en el este. NO hay en lo leído cifras de exportación de caoba ni de palo de tinte: lo que A-061 afirma sobre caoba y 'palo de tinte' como producto de venta a Saint-Domingue sigue sin extracto propio (hay mención de maderas tintóreas, 'dá tinte', en el Fútete y el Capá, pp. 32-33). La 'Targeta' de exportaciones de Saint-Domingue de 1776 (hacia las pp. 135-137) es una imagen: la OCR no la recupera. [POR VERIFICAR] la edición impresa para los folios exactos."
+  },
+  {
+   "titulo": "« Slave trade » (Patrimoines partagés - France Amériques, BnF), por Cécile Vidal",
+   "autor": "Vidal, Cécile",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "francesa",
+   "url": "https://heritage.bnf.fr/france-ameriques/en/slave-trade-1",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de divulgación de una historiadora (EHESS) en el portal de la BnF, que cita la base SlaveVoyages; sin notas a página.",
+   "proveniencia": "Cécile Vidal, historiadora de la esclavitud en el Atlántico francés (EHESS), para el portal 'Patrimoines partagés / France Amériques' de la Bibliothèque nationale de France. Divulgación con documentos de Gallica. La primera ronda la dio como 'localizada-bloqueada'; en esta sesión abre con HTTP 200.",
+   "extractos": [
+    {
+     "ubicacion": "párr. sobre destinos de la trata francesa",
+     "cita_original": "Saint-Domingue became the primary destination starting in 1715. Three-quarters of the expeditions and 80% of the enslaved people sold were destined for this colony",
+     "traduccion": "Saint-Domingue se convirtió en el destino principal a partir de 1715; tres cuartas partes de las expediciones y el 80 % de los esclavizados vendidos iban a esa colonia.",
+     "afirmaciones": [
+      "A-055"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "In 1790, the most active year of the French slave trade, 40,000 enslaved people disembarked on Saint-Domingue, including 19,000 at the port Cap Français alone.",
+     "traduccion": "En 1790, el año más activo de la trata francesa, desembarcaron 40.000 esclavizados en Saint-Domingue, 19.000 solo en el Cabo Francés.",
+     "afirmaciones": [
+      "A-055"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-055"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0194",
+   "notas": "HECHO (con base SlaveVoyages): 40.000 desembarcados en 1790, cifra que cuadra con el recuento propio de TASTDB (41.248 imputados en 144 viajes). Los 'unos 800.000 embarcados y 691.116 desembarcados' de A-055 no están en esta página (que da 1.381.404 africanos transportados en barcos franceses en 1551-1875). Sesgo: divulgación académica francesa, que describe la trata desde el Atlántico francés."
+  },
+  {
+   "titulo": "The Other Revolution: Haiti 1789-1804 (exposición de la John Carter Brown Library), parte 1 'Saint-Domingue Before the Revolution' (copia de Wayback de 3-XII-2024)",
+   "autor": "John Carter Brown Library (Brown University)",
+   "anio": "s.f.",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "http://web.archive.org/web/20241203044645/https://www.brown.edu/Facilities/John_Carter_Brown_Library/exhibitions/haitian/pages/part1.html",
+   "urls_alternativas": [
+    "https://www.brown.edu/Facilities/John_Carter_Brown_Library/exhibitions/haitian/pages/part1.html (HTTP 404 en 2026-10-06; la página ya no existe en el sitio de Brown)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de una exposición de una biblioteca universitaria de prestigio, sin firma de autor ni fuente numérica en la página.",
+   "proveniencia": "John Carter Brown Library (Brown University, Providence), exposición en línea sobre la Revolución haitiana, con cédulas de mapas y libros de sus colecciones. Sin autoría individual visible. La URL original que dio la primera ronda devuelve 404; la copia de la Wayback Machine lleva la fecha 20241203044645.",
+   "extractos": [
+    {
+     "ubicacion": "cédula de 'Carte de St. Domingue ou sont marqués les paroisses jurisdictions [ca. 1770]'",
+     "cita_original": "As of 1789, the colony’s population consisted of about 30,000 white residents, a similar number of free blacks and people of color (also called “mulattoes), and roughly 465,000 (perhaps as many as 500,000) slaves of African descent.",
+     "traduccion": "En 1789 la población de la colonia se componía de unos 30.000 residentes blancos, un número similar de libres negros y de color (llamados también «mulatos») y unos 465.000 (quizá hasta 500.000) esclavos de ascendencia africana.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0023",
+   "notas": "CIFRA con base: la página da 30.000 blancos, 'un número similar' de libres de color y 465.000 (hasta 500.000) esclavos, sin citar padrón ni autor; no la llama 'censo', de modo que el título F-0023 ('Censo de Saint-Domingue de 1789') es una etiqueta del registro y no de la fuente. Contraste primario: el compte de Barbé de Marbois da 405.528 'población negra' en 1788 (ver su ficha) y Moreau 452.000; Pinto Tortosa, 450.000 hacia 1790. [POR VERIFICAR] qué padrón o estimación de Moreau/Garran-Coulon sostiene los 465.000. Sesgo: exposición bibliotecaria, anglófona."
+  },
+  {
+   "titulo": "A Case of Mistaken Identity: Antihaitianismo in Dominican Culture (copia web de materiales de curso)",
+   "autor": "Sagás, Ernesto",
+   "anio": "s.f.",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "http://web.archive.org/web/20150915080647/http://faculty.webster.edu/corbetre/haiti/misctopic/dominican/antihaiti.htm",
+   "urls_alternativas": [
+    "https://www.ling.upenn.edu/courses/Fall_2001/ling001/antihaitianismo.html (403, ya anotado en el registro)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis breve y sin notas a página de un autor académico, con lista de referencias; la copia web no trae fecha.",
+   "proveniencia": "Ernesto Sagás (politólogo, autor de Race and Politics in the Dominican Republic, 2000); la copia de la Wayback Machine (15-IX-2015) es una página de materiales de curso. Resume la tesis del libro: antihaitianismo como construcción de élites, con raíces coloniales.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'The Origins of Antihaitianismo', párr. 1",
+     "cita_original": "The early origin of what later came to be known as antihaitianismo is to be found in the racial prejudices of the Spanish inhabitants of the colony of Santo Domingo",
+     "traduccion": "El origen temprano de lo que luego se llamó antihaitianismo está en los prejuicios raciales de los habitantes españoles de la colonia de Santo Domingo.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, párr. 2",
+     "cita_original": "the first glimpses of Dominican nationalism emerged in the 18th century as part of a differentiation struggle from the French",
+     "traduccion": "los primeros destellos de nacionalismo dominicano surgieron en el siglo XVIII como parte de una lucha de diferenciación respecto de los franceses (cita a Pierre-Charles 1974, p. 28).",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, párr. 3",
+     "cita_original": "The Santo Domingo colonists, regardless of their color, soon started calling themselves blancos de la tierra",
+     "traduccion": "Los colonos de Santo Domingo, fuera cual fuera su color, empezaron pronto a llamarse «blancos de la tierra» (cita a Moya Pons 1977, p. 280).",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-064"
+   ],
+   "modulos": [
+    "M05",
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0840",
+   "notas": "INTERPRETACIÓN (versión rival de la disputa 8): Sagás da por cierta una diferenciación criolla del siglo XVIII frente a los franceses, pero la lee como construcción de élites coloniales que 'concibieron y reprodujeron' el rechazo (nacionalismo hispano que el antihaitianismo hereda), no como la existencia de una nación; remite a Pierre-Charles (1974) para el 'primer destello'. Esto casa con A-064 en el hecho (conciencia criolla diferenciada en el XVIII) y lo discute en el significado (nación frente a ideología de élite). Sin dato del gentilicio 'dominicano' (A-064 sub-hecho: no lo trata). Sesgo: historiografía anglófona crítica del nacionalismo dominicano; la copia web es un resumen sin notas, no el capítulo del libro."
+  },
+  {
+   "titulo": "Reseña de Pedro L. San Miguel, La isla imaginada. Historia, identidad y utopía en La Española (Santo Domingo, Ediciones MSC / Editorial Universitaria Bonó, 2022), Historia Mexicana 74(2), pp. 951-955",
+   "autor": "Cervera Molina, Ana Elvira (reseñista); San Miguel, Pedro L. (autor reseñado)",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://scielo.org.mx/pdf/hm/v74n2/2448-6531-hm-74-02-951.pdf",
+   "urls_alternativas": [
+    "https://revistas.colmex.mx/index.php/record/view/26658"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña académica en una revista arbitrada de El Colegio de México; resume el libro pero no lo sustituye.",
+   "proveniencia": "Ana Elvira Cervera Molina reseña la 4.ª edición del libro de San Miguel (puertorriqueño, historiador en Puerto Rico y Estados Unidos). Revista Historia Mexicana (El Colegio de México), vol. 74 n.º 2; el PDF abre en SciELO México (63.840 bytes).",
+   "extractos": [
+    {
+     "ubicacion": "p. 953-954, segundo ensayo 'Discurso racial e identidad nacional'",
+     "cita_original": "la República Dominicana construyó su “yo” racializado frente al “otro” haitiano mediante [...] una fuerte rivalidad",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 954",
+     "cita_original": "se alimentó de la utopía esclavista de Antonio Sánchez Valverde",
+     "traduccion": "[Sobre la rivalidad con Haití, derivada de la partición colonial de La Española.]",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-064"
+   ],
+   "modulos": [
+    "M00",
+    "M05",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0079",
+   "notas": "INTERPRETACIÓN (versión rival, vía reseña): San Miguel lee a Sánchez Valverde como fuente de una 'utopía esclavista' que racializa al 'otro' haitiano; la identidad dominicana nace de esa partición colonial y de esa rivalidad (no hay 'nación' previa a 1844 en el sentido de la tesis dominicana). La reseñista resume; el contenido del capítulo sobre Valverde no se leyó. Complementa a Widmer (N07), Hontanilla (N10) y San Miguel (N13) ya en M05.md. Sesgo: historiografía crítica puertorriqueña de los imaginarios nacionales."
+  },
+  {
+   "titulo": "The Economic Impact of St. Domingue (documento del curso 'The World Since 1492', Pitzer College)",
+   "autor": "— (documento de curso; instructor sin identificar en la página)",
+   "anio": "s.f.",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://pzacad.pitzer.edu/dsegal/1492/Figures%20and%20texts%20not%20protected/Document%20St.%20Domingue's%20Impact.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Lista de cifras de un curso, sin autor, sin fuentes y con una atribución a Necker que no puede comprobarse.",
+   "proveniencia": "Página de materiales de un curso universitario ('The World Since 1492', Pitzer College); sin firma, fecha ni notas. Sirve solo como índice para rastrear el origen del 'dos tercios', no como evidencia.",
+   "extractos": [
+    {
+     "ubicacion": "3.er punto de la lista",
+     "cita_original": "France's export trade was worth less, only 17 million £s, but of this 11million came from Saint Domingue alone.",
+     "traduccion": "El comercio de exportación de Francia valía menos, solo 17 millones de libras esterlinas, pero 11 millones procedían únicamente de Saint-Domingue (1789).",
+     "afirmaciones": [
+      "A-063"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Nivel 4 (terciaria): no es evidencia. Pero la proporción 11/17 = 65 % se aproxima a los 'dos tercios' de A-063 y sugiere de dónde viene la cifra de James (1938) y de la divulgación: de comparar las exportaciones coloniales (incluidas reexportaciones) con las exportaciones francesas, en libras esterlinas, de un año (1789), no del comercio exterior total. [POR VERIFICAR] contra la fuente primaria (Necker, De l'administration des finances, o el cuadro de la Balance du commerce de 1789). La misma lista da 40 % del azúcar europeo."
+  },
+  {
+   "titulo": "« Colony and Metropole » (Island Luminous, Florida International University)",
+   "autor": "Ogle, Gene (John Cabot University, Roma)",
+   "anio": "s.f.",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part01-slide10.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Texto breve de un historiador académico en un sitio pedagógico, con una tabla de 1789 que no se vio y sin notas.",
+   "proveniencia": "Gene Ogle (profesor de la John Cabot University de Roma; Atlántico francés), escribe la cédula 'Colony and Metropole' del sitio educativo Island Luminous de FIU. Divulgación con base en la tabla de exportaciones de 1789 de la página (no accesible en texto).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "According to some estimates, by that decade the colony received 2/3 of all French overseas investments, and its annual exports were worth somewhere between 150 and 170 million livres tournois--for 1789, the year for which this table was drawn up, the value was reckoned to be 162,994,367 livres.",
+     "traduccion": "Según algunas estimaciones, en esa década la colonia recibía dos tercios de todas las inversiones francesas de ultramar, y sus exportaciones anuales valían entre 150 y 170 millones de libras tornesas; para 1789 el valor se calculó en 162.994.367.",
+     "afirmaciones": [
+      "A-063"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Nivel 4 (terciaria). El 'dos tercios' que aparece aquí es de INVERSIONES francesas de ultramar, no de comercio exterior; es otra magnitud que la de A-063. El valor de 162,99 millones de libras tornesas de 1789 es el valor de las exportaciones de la colonia (base: tabla del sitio, sin fuente en la página) y se acerca a los 186,4 millones de francos del compte de 1788 de Barbé de Marbois (275,3 millones de libras coloniales). La página cita también una cuota de SlaveVoyages (192.494 de 706.400, 27,3 %) que no se corresponde con las cifras de A-055 y no se verificó."
+  },
+  {
+   "titulo": "La crainte des « noirs français » dans la Caraïbe et l'Amérique espagnoles (fin XVIIIe - début XIXe siècles) (Annales historiques de la Révolution française 410, pp. 75-99; DOI 10.3917/ahrf.410.0075)",
+   "autor": "Tardieu, Jean-Pierre",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://doi.org/10.3917/ahrf.410.0075",
+   "urls_alternativas": [
+    "https://univ-reunion.hal.science/hal-03986269v1 (ficha HAL, abierta por la API de HAL, HTTP 200)",
+    "https://hal.univ-reunion.fr/hal-03986269/document (Anubis: prueba de trabajo, no se resolvió)",
+    "https://shs.cairn.info/revue-annales-historiques-de-la-revolution-francaise-2022-4-page-75?site_lang=fr (HTTP 403)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares de un especialista en esclavitud española en Hispanoamérica (Univ. de la Réunion, HAL en acceso abierto), leído solo en el resumen.",
+   "proveniencia": "Jean-Pierre Tardieu (hispanista, Universidad de la Reunión). Resumen leído en la API de HAL (api.archives-ouvertes.fr): el texto completo está en HAL con acceso abierto pero detrás de Anubis (HTTP 200 con desafío) y en Cairn (HTTP 403); no se saltaron las protecciones.",
+   "extractos": [
+    {
+     "ubicacion": "resumen en inglés (API de HAL)",
+     "cita_original": "The « French Blacks » of Santo Domingo caused concern within the Spanish empire. The leaders of Santo Domingo, resorting to new trafficking, did not hesitate to sell prisoners captured from their enemies as slaves in Cuba and Puerto Rico, disregarding their freedom.",
+     "traduccion": "Los «negros franceses» de Santo Domingo causaban inquietud en el imperio español. Los dirigentes de Santo Domingo, recurriendo a una nueva trata, no dudaban en vender como esclavos en Cuba y Puerto Rico a los prisioneros capturados al enemigo, sin respetar su libertad.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-065"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Fuera del periodo de M05 (trata de prisioneros de 1793-1804, M06): se registra porque la crítica de completitud pidió a Tardieu para el maniel y porque describe una trata de salida hacia Cuba y Puerto Rico que no entra en la cuenta de llegadas de A-065. NO toca el maniel de Bahoruco de 1785-86 (para eso Tardieu 2022 es la comunicación hal-04782137 y su libro de 2024, Les derniers marrons de Santo Domingo, L'Harmattan, no leído). [POR VERIFICAR] el texto completo. Sesgo: historiografía francesa de archivos españoles; usa la categoría 'noirs français'."
+  },
+  {
+   "titulo": "La construction identitaire des marrons de Saint-Domingue au « maniel » de Bahoruco (Santo Domingo) (comunicación, 2022)",
+   "autor": "Tardieu, Jean-Pierre",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://univ-reunion.hal.science/hal-04782137v1",
+   "urls_alternativas": [
+    "https://hal.science/hal-04782137 (Anubis)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se obtuvo la ficha (título, autor, fecha 2022-10-05) por la API de HAL; sin resumen ni texto; acceso abierto: no.",
+   "proveniencia": "Jean-Pierre Tardieu; ficha HAL hal-04782137 (tipo COMM, 2022-10-05), leída por la API de HAL. No hay texto.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-062"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Es la única comunicación localizada de Tardieu sobre el maniel de Bahoruco; no se pudo leer. Pendiente: su libro de 2024 (L'Harmattan, ISBN 978-2-336-44904-3) y un texto abierto."
+  },
+  {
+   "titulo": "The Maroons of Santo Domingo in the Age of Revolutions: Adaptation and Evasion, 1783-1800 (History Workshop Journal 79(1), pp. 25-51; DOI 10.1093/hwj/dbv010)",
+   "autor": "Yingling, Charlton W.",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://doi.org/10.1093/hwj/dbv010",
+   "urls_alternativas": [
+    "https://academic.oup.com/hwj/article-lookup/doi/10.1093/hwj/dbv010 (HTTP 403, Cloudflare 'Just a moment')",
+    "https://api.crossref.org/works/10.1093/hwj/dbv010 (HTTP 200, metadatos)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en una revista de historia social reconocida, no leído.",
+   "proveniencia": "Charlton W. Yingling, History Workshop Journal 79 (primavera de 2015). Los metadatos salen de Crossref; el artículo no se abrió (Cloudflare). Su contenido sobre el maniel está desarrollado en la tesis de 2016 (F-0829, leída en esta ronda).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-062"
+   ],
+   "modulos": [
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Ficha de la primera ronda: M05-N49. Su argumento para 1783-1800 se lee en la tesis F-0829: la ficha del artículo se mantiene como 'fallo-fetch' (HTTP 403)."
+  },
+  {
+   "titulo": "The English mahogany trade 1700-1793 (tesis, Brunel University London)",
+   "autor": "Bowett, Adam",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://bnu.repository.guildhe.ac.uk/id/eprint/9639/",
+   "urls_alternativas": [
+    "https://bnu.repository.guildhe.ac.uk/9639"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "000",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral basada en estadísticas oficiales de importación, no leída; el repositorio rechazó la conexión.",
+   "proveniencia": "Adam Bowett (Brunel University, 2011); según la ficha del repositorio, se funda en estadísticas e información comercial oficial y estudia la expansión del comercio a Jamaica, América Central, Cuba y La Española. Conexión rechazada (ECONNREFUSED 52.178.192.225:443) con curl y con WebFetch en esta sesión, como en la primera ronda.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-061"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Para A-061 (caoba y palo de tinte del este) sería la mejor serie de importaciones inglesas; sigue pendiente. Reintentar el repositorio de Brunel (BURA) o el depósito de la guildhe."
+  },
+  {
+   "titulo": "Haciendas, esclavitud y campesinado en Santo Domingo (siglo XVIII). Documentos para la historia rural dominicana, vol. I: Haciendas y esclavitud (1689-1796)",
+   "autor": "González, Raymundo",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://ign.gob.do/wp-content/uploads/2024/05/I-Haciendas-y-esclavitud.pdf",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "404",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición documental (IPGH-Sección Dominicana y ADH, octubre de 2023) de un especialista, no leída.",
+   "proveniencia": "Raymundo González (Academia Dominicana de la Historia), edición de documentos del AGI, AGN y otros archivos sobre haciendas y esclavitud de 1689-1796. La URL indexada por el buscador devuelve HTTP 404 (también los otros tres volúmenes del mismo directorio ign.gob.do/wp-content/uploads/2024/05/).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-058",
+    "A-061",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Pendiente: buscar otra ruta en ign.gob.do o el catálogo de la ADH; es la mejor fuente documental sobre el indulto de 1776-77, las haciendas y las manumisiones del este."
+  },
+  {
+   "titulo": "Agrestes e irreligiosos. Los cimarrones negros del maniel de Neiba (Santo Domingo, 1785-1794), en Disidentes, rebeldes, insurgentes (Madrid/Frankfurt, Iberoamericana/Vervuert, 2008), pp. 83-111",
+   "autor": "Lienhard, Martin",
+   "anio": "2008",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://opus.bibliothek.uni-augsburg.de/opus4/files/102476/102476.pdf",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "000",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio de un hispanista suizo sobre fuentes del propio maniel; no leído (conexión rechazada).",
+   "proveniencia": "Martin Lienhard (Universidad de Zúrich). La URL de la Universidad de Augsburgo la dio el buscador como copia del libro o del capítulo (la atribución se basa en el fragmento de la búsqueda: [POR VERIFICAR]); el servidor rechazó la conexión con curl y con WebFetch (ECONNREFUSED 137.250.102.16:443).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-062"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Citado por Pinto Tortosa (2021, nota 13, pp. 83-111) y por Yingling. Pendiente de reintento."
+  },
+  {
+   "titulo": "Motion in the System: Coffee, Color, and Slavery in Eighteenth-Century Saint-Domingue (Review 5(3), pp. 331-388)",
+   "autor": "Trouillot, Michel-Rolph",
+   "anio": "1982",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://edisciplinas.usp.br/mod/resource/view.php?id=2402789",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo clásico de un antropólogo e historiador haitiano, no leído; la URL del buscador es el Moodle de la USP, que devuelve la portada sin sesión.",
+   "proveniencia": "Michel-Rolph Trouillot, Review (Fernand Braudel Center) 5(3), invierno de 1982. El enlace del buscador (e-Disciplinas de la USP) abre la portada del Moodle (HTTP 200, 14.502 bytes), no el PDF.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-063"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto. Según los resúmenes de buscador, entre 1767 y 1789 el volumen de café exportado se cuadruplicó y el valor casi se sextuplicó [POR VERIFICAR: no leído]. Es la fuente que A-063 pide para el café de 1789."
+  },
+  {
+   "titulo": "Quelques données sur la population de Saint-Domingue au XVIIIe siècle (Population 28(4-5), pp. 859-872; DOI 10.2307/1531260)",
+   "autor": "Houdaille, Jacques",
+   "anio": "1973",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://www.persee.fr/doc/pop_0032-4663_1973_num_28_4_15523",
+   "urls_alternativas": [
+    "https://doi.org/10.3917/popu.p1973.28n4-5.0872 (Cairn, HTTP 403)",
+    "https://www.persee.fr/docAsPDF/pop_0032-4663_1973_num_28_4_15523.pdf (HTTP 403)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de demografía histórica del INED, revisado por pares, leído solo en la primera página.",
+   "proveniencia": "Jacques Houdaille (demógrafo histórico, INED), Population, 1973. La página de Persée solo da el comienzo del artículo y los datos bibliográficos; el PDF devolvió 403 a curl y no se trató de evitarlo.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-054"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto: la primera página no trae cifras de 1789. Pendiente de cotejar con Frostin y Ropa, y con el enlace de IIIF de Persée."
+  }
+ ]
+}
