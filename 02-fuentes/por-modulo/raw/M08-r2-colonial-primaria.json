@@ -1,0 +1,1116 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M08",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 10,
+ "busquedas_pendientes": [
+  "Consultas directas en el portal PARES (pares.mcu.es) por 'Fernández de Castro' / 'Haití' 1829-1830 en Estado y Ultramar: WebSearch no indexa PARES; hay que buscar en el portal mismo.",
+  "\"Fernando VII\" reclamación \"parte española\" Haití 1830 en Revista de Indias / Anuario de Estudios Americanos (no se hizo como consulta separada).",
+  "Nouel, Historia eclesiástica de la Arquidiócesis de Santo Domingo, t. III (1914): texto completo en BDH, HathiTrust o archive.org (la búsqueda por autor en archive.org no lo halló).",
+  "Madiou, Histoire d'Haïti, t. VII-VIII (ed. Deschamps 1985-1991 / Verrollot 1904): búsqueda web no hecha; el catálogo de archive.org solo trae la edición de 1847 (3 tomos).",
+  "Rodríguez Demorizi, Relaciones históricas de Santo Domingo: censos de 1812 y 1819 con número de esclavos; AGI Santo Domingo leg. 970 ('Expedientes para arreglar la elección de Diputado en Cortes', censo de 1812; 'Estadística' de El Telégrafo Constitucional, 26-VII-1821).",
+  "Lora Hugi, Transición de la esclavitud al trabajo libre (ADH vol. 100, 2012), cap. «El censo de 1822» (p. 61): PDF no localizado (registro Koha 4476 de la ADH solo da el índice).",
+  "Moreau de Saint-Méry, Description de la partie espagnole (F-0021): hay dos ids en archive.org (A086B262, A086B263) sin descargar, para contrastar la cifra de esclavos de 1785-1790 con Sánchez Valverde y Placide-Justin.",
+  "Pérez Memen, La Iglesia y el Estado en Santo Domingo (1700-1853), 1984: no localizado en línea."
+ ],
+ "lagunas": [
+  "A-094 sigue sin cifra primaria de liberados de 1822: los dos rangos académicos (Ulrickson 2018: 3.000-15.000, sin nota que lo funde; 'más de 10.000' de la prensa y Cordero Michel, sin base) no se apoyan en padrón alguno. Las líneas de base de 1785-1788 son irreconciliables: 12.000-14.000 (Sánchez Valverde 1785; Franco 1788 vía Ulrickson) frente a 30.000 (Placide-Justin 1826 y Mackenzie 1830, que comparten la misma cifra y probablemente la misma fuente). Placide-Justin no es una segunda serie independiente de Mackenzie (Mackenzie lo cita), y el censo de 1824 (este: 61.468) no desglosa esclavos ni edades. Siguen sin leerse los padrones: censo de 1812 (AGI Santo Domingo 970), 'Estadística' de El Telégrafo Constitucional (26-VII-1821), 'El censo de 1822' de Lora 2012 (p. 61) y el Catálogo de protocolos notariales de González Canalda (t. I-II, AGN vols. CDXXXVI-CDXXXVII).",
+  "Catálogo de protocolos notariales 1822-1844 (González Canalda): no se encontró otra copia. IGN devuelve 404; Wayback 429 y luego 404; curate.nd.edu y la UASD (solo 1844-1861) no la alojan; el AGN solo da la ficha bibliográfica en su catálogo de publicaciones (vol. CDXXXVI, 2021).",
+  "Reclamación española de 1830: se localizó la orden de 24-VIII-1829 (BAGN 56) y el memorial de 1824 de Fernández de Castro y la carta de Pérez Guerra de 1822 (BAGN 44-45), pero NO el acta española de las conferencias de 17-30 de enero de 1830 ni el informe posterior del comisionado (Archivo Nacional de Cuba, asuntos políticos leg. 34, sig. 16; AHN Estado; AGI Santo Domingo). La reconstrucción de enero de 1830 sigue apoyada en García (parafrasea las notas), Ardouin y De Pena. Tampoco se halló Nouel (1914) ni la respuesta oficial haitiana en el Recueil t. V n.º 1223 releída contra la española.",
+  "Madiou t. VII-VIII (1827-1846) sigue sin texto en línea; es el relato haitiano más próximo de 1843-1844 con documentos.",
+  "Iglesia: solo hay una mención en Grégoire (1824) y el memorial de 1824; la correspondencia de Valera y los documentos del cabildo eclesiástico de 1822-1830 siguen sin aparecer.",
+  "Universidad (A-098/A-099): se halló un testimonio primario español de julio de 1824 ('la que existía en la Capital de la parte española se ha perdido'), pero ningún decreto de cierre ni matrículas de 1810-1822; el OCR del BAGN es ruidoso y el pasaje debe cotejarse con el impreso o el AGI.",
+  "Voces ausentes: no hay peticiones de libertos de 1822-1830 localizadas en línea; Ulrickson solo ofrece libros parroquiales (FamilySearch) y notarios; Schoelcher y Hill dan testimonio de segunda mano o de viajero."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "libre de la Palma / libres por la República",
+   "tradicion": "dominicana",
+   "nota": "Fórmula de libros parroquiales de Baní, San Cristóbal y Bayaguana (1822-1828) para quien fue liberado por el árbol de la libertad (la palma) o por la ley haitiana; Ulrickson (2018, p. 173) la traduce 'freed by the Palm tree'. Convive con 'esclavo/a que fue de [amo]' y 'liberto por las leyes del Estado'. Término de registro, no de debate; sirve para fechar y cuantificar los casos."
+  },
+  {
+   "termino": "esclavo/a que fue (de)",
+   "tradicion": "dominicana",
+   "nota": "Marca eclesiástica y notarial que conserva el nombre del antiguo amo tras la abolición (Bayaguana, 1822-1828). La ronda 1 recogió 'cultivateur/cultivador' como eufemismo de los documentos haitianos; esta es la contraparte española de los libros parroquiales."
+  },
+  {
+   "termino": "usurpación / ocupación de la parte española (Corona) frente a prise de possession, réunion (Haití)",
+   "tradicion": "espanola",
+   "nota": "En 1822-1830 los textos españoles hablan de 'usurpar' (Pérez Guerra), de 'ocupación' y de 'reclamación de la parte española' (Fernández de Castro; real orden de 1829: 'restitución a S. M. de la parte de la isla que le pertenece'); los haitianos, de 'réunion', 'incorporation' y 'prise de possession' (Ardouin 1832) y de 'demande de restitution'. Hill (1831, testigo jamaiquino) escribe 'cette usurpation de leur territoire'."
+  },
+  {
+   "termino": "taxe extraordinaire / capitation de l'indemnité (contribution extraordinaire)",
+   "tradicion": "haitiana",
+   "nota": "Macaulay (1835, p. 33, n. 1) llama así a la tasa de la ley de 1-V-1826 para pagar los 150 millones; propone que el número de contribuyentes (423.032-423.042) fue tomado por población total por Mackenzie. El glosario ya recoge 'dette de l'indépendance' y 'rançon'; esta es la denominación administrativa."
+  },
+  {
+   "termino": "citoyens de l'Ouest / Haïtiens de l'Est",
+   "tradicion": "haitiana",
+   "nota": "Ardouin (1832, p. 156) habla de 'citoyens de l'Ouest' que se asentaron en el este desde 1822 (San Cristóbal); Ardouin (1860, t. X n. 1) usa 'Haïtiens de l'Est' para los habitantes del este: la nomenclatura de pertenencia que la historiografía dominicana rechaza."
+  }
+ ],
+ "incidencias": [
+  "Presupuesto: 10 llamadas a WebSearch (modo standard, que ejecuta varias subconsultas por llamada; no controlo ese número), 2 a WebFetch y unas 60 descargas con curl a archive.org, AGN, figshare, Vanderbilt, UASD y redalyc. Quedan sin hacer 8 consultas planeadas (ver busquedas_pendientes).",
+  "Corrección al crítico (a): Placide-Justin NO es una serie independiente de Mackenzie. Mackenzie (t. II, p. 109) copia las cifras de 1785 (122.640 + 30.000 = 152.640) de la misma cadena y cita a Placide-Justin por otras (l. 3905 y 4591 de su djvu.txt); y los tres (Placide-Justin 1826, Mackenzie 1830, Macaulay 1835) reproducen un único cuadro oficial de 1824 (este: 61.468 = suma de diez arrondissements, comprobada). Contar como una sola fuente, regla 3. Lo nuevo es la procedencia (Inginac, 1825, prensa inglesa), la hipótesis de Macaulay de que el 'censo' de 71.223 es una matrícula contributiva de 1826 (Mackenzie lo describe como return para repartir la contribución) y la cifra alternativa de Buchon/Humboldt (124.000 para el este).",
+  "Cifras de Placide-Justin verificadas sobre las imágenes del PDF (pp. 503-504; el OCR da 'Sd^ooo' y '134,000' y 'esclavos' en lugar de las cifras legibles 30,000 y 124,000). Cuadro de Macaulay (pp. 31-33) verificado sobre las imágenes del PDF.",
+  "El PDF de Schoelcher devuelve 500 en archive.org durante esta sesión (el djvu.txt, 1,1 MB, responde 200); lo mismo el JSON de números de página: las páginas citadas (156-158, 227, 266) son las de las cabeceras OCR o se reconstruyeron por secuencia, y están así marcadas.",
+  "pdftotext (xpdf) falla con 'Couldn't open file' en las rutas largas del scratchpad de esta máquina; se extrajo el texto con pypdf y PyMuPDF (los PDF del AGN, BAGN 44-45 y 56, y Ulrickson tienen capa de texto; los de archive.org de Google no).",
+  "curate.nd.edu devuelve 202 vacío a curl y doi.org redirige a ese mismo dominio; la API pública de figshare (api.figshare.com/v2/articles/24740085) da el enlace de descarga del PDF de Ulrickson (ndownloader.figshare.com/files/43575072, 3,2 MB, 247 págs.).",
+  "redalyc.org/pdf/392/39238126004.pdf (González Canalda 2014, M08-N70 de la ronda 1) responde hoy 200 con 30 págs.; la ronda 1 lo daba por inaccesible (redalyc caído el 6-X-2026). Contiene casos notariales (Juan Ramos, 1823: 'en la República de Haití no había esclavitud') relevantes a A-095; no se repite como fuente nueva.",
+  "Fechas del catálogo notarial: el catálogo del AGN da 2021 (vol. CDXXXVI, ISBN 978-9945-25-016-9); el PDF del IGN y las fichas de búsqueda dicen 2022.",
+  "Nombre del comisionado: 'Felipe Dávila Fernández de Castro' (García) = 'Felipe Fernández de Castro' (BAGN 44-45, BAGN 56, De Pena). Un 'Felipe Dávila Fernández de Castro' aparece también en el índice de oficios de Relaciones Exteriores del BAGN 44-45 (p. 87, diciembre de 1859) como titular del despacho de esa secretaría dominicana: es otro funcionario u homónimo (no se pudo establecer parentesco) y no debe confundirse con el comisionado de 1829-1830.",
+  "El OCR de los BAGN 44-45 y 56 es muy ruidoso; todas las citas de esos dos boletines están normalizadas y marcadas como tales; ninguna cita del BAGN debe pasar a la síntesis sin cotejar con el impreso o con el AGI/Archivo Nacional de Cuba.",
+  "Derechos: Ulrickson (2018, todos los derechos reservados) y De Pena (2011) solo se citan con fragmentos de menos de 15 palabras; el resto va en paráfrasis en el campo traduccion.",
+  "Las rutas de trabajo del scratchpad compartido tienen archivos de otros agentes; se usó la subcarpeta m08r2prim para evitar colisiones."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Histoire politique et statistique de l'île d'Hayti, Saint-Domingue, écrite sur des documents officiels et des notes communiquées par Sir James Barskett, agent du gouvernement britannique aux Antilles",
+   "autor": "Placide-Justin; Barskett, James (comunicante de documentos y notas, según la portada)",
+   "anio": "1826",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoirepolitiq00justgoog/histoirepolitiq00justgoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/histoirepolitiq00justgoog/histoirepolitiq00justgoog.pdf",
+    "https://archive.org/details/histoirepolitiq00justgoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación parisina de 1826 hecha con documentos oficiales haitianos facilitados por un agente británico: la cifra de 1824 reproduce un documento oficial, pero el resto es de segunda mano y casi no trata el este.",
+   "proveniencia": "Obra publicada en París (Brière, 1826) por «M. Placide-Justin»; la portada atribuye los documentos oficiales y las notas a Sir James Barskett, agente del gobierno británico en las Antillas. Escrita para lectores franceses justo después de la ordenanza de Carlos X (1825), con simpatía hacia la república haitiana pero con desconfianza hacia sus cifras (pide cotejar con 'documentos particulares'). No estuvo en el este; la reunión de 1822 se despacha en un párrafo (pp. 487-488). Mackenzie (1830) lo cita como «generally well-informed historian of Haiti» y comparte con él el cuadro de 1824 y las cifras de 1785 (ver notas). [POR VERIFICAR: biografía del autor; la portada solo da el nombre].",
+   "extractos": [
+    {
+     "ubicacion": "Libro XI, «Population», p. 503 (imagen n.º 510 del PDF de archive.org, leída visualmente; l. 18343-18350 del djvu.txt)",
+     "cita_original": "La population de la partie espagnole était, en 1785, de : Hommes libres 122,640 ; Esclaves 30,000 ; 152,640.",
+     "traduccion": "La población de la parte española era en 1785 de 122.640 hombres libres y 30.000 esclavos (total 152.640). El libro no da autor ni base de la estimación. Compárese Sánchez Valverde (1785), que contaba 'doce o catorce mil' esclavos (ver F-0020 en este mismo archivo).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "Libro XI, p. 504 (imagen n.º 511 del PDF; l. 18398-18407 del djvu.txt; cifras leídas sobre la imagen)",
+     "cita_original": "Une pièce, émanée en 1824 du gouvernement haytien, porte plus haut la population de l'île [...] Habitants de l'ancienne partie espagnole 61,468 ; de l'ancien empire de Christophe 367,721 ; de l'état républicain fondé par Pétion 506,146 ; Total 935,335.",
+     "traduccion": "Un documento emanado en 1824 del gobierno haitiano da una población mayor para la isla: antigua parte española 61.468; antiguo imperio de Christophe 367.721; Estado republicano fundado por Pétion 506.146; total 935.335 (los tres sumandos suman 935.335: cálculo propio). Es el mismo cuadro que Macaulay (1835, p. 32) y Mackenzie (1830, t. II, pp. 110-112) reproducen con el detalle por arrondissement; las tres obras son transmisiones de un único documento oficial.",
+     "afirmaciones": [
+      "A-094",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "Libro XI, p. 504 (l. 18386-18396 del djvu.txt; cifra del este leída sobre la imagen: 124,000, el OCR dice 134,000)",
+     "cita_original": "Sous Dessalines la population s'était déjà accrue : M. Buchon estime, d'après M. de Humboldt, qu'elle est aujourd'hui [...] Total 820,000, dont 124,000 habitent la ci-devant partie espagnole, et 696,000 l'ancienne partie française.",
+     "traduccion": "Con Dessalines la población ya había crecido: Buchon, a partir de Humboldt, la estima hoy en 820.000, de los cuales 124.000 vivirían en la antigua parte española y 696.000 en la antigua parte francesa (el doble de la cifra oficial de 1824 para el este: rango 61.468-124.000 según la fuente).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "Libro XI, p. 504 (l. 18418-18422 del djvu.txt)",
+     "cita_original": "Des documents particuliers, qui nous sont parvenus depuis l'ordonnance du 17 avril, nous font croire le rapport officiel du gouvernement haytien, et l'estimation de M. de Humboldt, un peu exagérées.",
+     "traduccion": "Documentos particulares recibidos tras la ordenanza del 17 de abril [de 1825] hacen pensar al autor que tanto el informe oficial haitiano como la estimación de Humboldt están algo exagerados; sus notas dan 700.000 habitantes como máximo para toda la isla.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "Libro X, p. 488 (encabezado «Histoire d'Hayti. — 1822»; l. 17614-17624 del djvu.txt, OCR corregido)",
+     "cita_original": "Au commencement de 1822, une députation des notables se rendit auprès du président Boyer, au Port-au-Prince. [...] La marche de cette armée fut toute pacifique ; elle s'empara sans coup férir de toutes les villes qui avaient appartenu à l'Espagne.",
+     "traduccion": "A comienzos de 1822 una diputación de notables fue a ver a Boyer a Puerto Príncipe; el ejército avanzó de forma pacífica y tomó sin combatir todas las ciudades que habían sido españolas (versión francesa de 1826; sin mención de la abolición ni de los esclavos).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-104",
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M08",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (a): sí, Placide-Justin da una cifra de 1785 de esclavos del este (30.000) y la serie oficial haitiana de 1824 (este 61.468), pero NO es una segunda serie independiente de la de Mackenzie: Mackenzie (t. II, p. 109) reproduce exactamente 122.640 + 30.000 = 152.640 para 1785 y cita a Placide-Justin por otras cifras (t. II, l. 3905 y 4591 del djvu.txt de notesonhaitimade02mack); la regla 3 del método obliga a contarlos como una sola cadena. Las dos obras transmiten el mismo cuadro oficial de 1824, que Macaulay (1835) dice haber recibido de Inginac en 1825 e insertado en la prensa inglesa. La cifra de 30.000 esclavos en 1785 contradice a Sánchez Valverde (1785: 'doce o catorce mil') y a Franco 2012 vía Ulrickson (14.000 en 1788): queda como dato sin fuente trazable (regla 9). El libro no cuantifica los liberados de 1822. Lectura de pp. 503-504 confirmada sobre las imágenes del PDF (el texto OCR trae 'Sd^ooo' y '134,000'). Sesgo: obra favorable a la república haitiana y a la tesis de que los números oficiales son optimistas; ninguna fuente primaria propia sobre el este."
+  },
+  {
+   "titulo": "Haïti, ou renseignemens authentiques sur l'abolition de l'esclavage et ses résultats à Saint-Domingue et à la Guadeloupe, avec des détails sur l'état actuel d'Haïti et des noirs émancipés qui forment sa population (traduit de l'anglais)",
+   "autor": "Clarkson [Thomas] y Macaulay [Zachary] (cap. I, memoria de 1832 a la Cámara de los Lores, según el propio texto; nombres de pila [POR VERIFICAR]); Hill, Richard (cartas de 1830-1831, cap. II); traductor y compilador anónimos",
+   "anio": "1835",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/hatiourenseign00clar/hatiourenseign00clar_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/hatiourenseign00clar/hatiourenseign00clar.pdf",
+    "https://archive.org/details/hatiourenseign00clar"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación abolicionista de 1835 que reproduce un cuadro oficial haitiano de 1824 (verificado sobre la imagen) y cartas de un testigo directo (R. Hill), pero con una tesis militante y errores de fecha (sitúa la reunión bajo Boyer en 1819).",
+   "proveniencia": "Folleto-recopilación publicado en París (Hachette, 1835) con una dedicatoria a un duque presidente de una sociedad abolicionista (su nombre no consta en el OCR leído). Cap. I: memoria de Clarkson y Macaulay presentada por Buxton a un comité de la Cámara de los Lores en 1832; cap. II: extractos de cartas de Richard Hill, hombre de color nacido en Jamaica y magistrado especial, viajero por Haití en 1830-1831, incluida la parte española (Santiago, Monte Cristi); caps. III-IV: réplica a los 'errores' del cónsul Mackenzie. Su fin es probar que la emancipación haitiana no fue un desastre; por eso defiende las cifras oficiales haitianas frente a Mackenzie.",
+   "extractos": [
+    {
+     "ubicacion": "cap. I, p. 31 (l. 1905-1912 del djvu.txt; imagen n.º 45 del PDF, leída visualmente)",
+     "cita_original": "[...] la population entière ne s'élève pas à plus de 423,042 personnes, de tout âge et de toute classe, savoir : 351,819 pour la partie française, et 71,223 pour la partie espagnole de Saint-Domingue.",
+     "traduccion": "[Cifra que Macaulay atribuye al cónsul Mackenzie:] la población total no pasaría de 423.042 personas, 351.819 en la parte francesa y 71.223 en la española. Macaulay la discute en las páginas siguientes.",
+     "afirmaciones": [
+      "A-094",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 32 (l. 1942-1948 del djvu.txt; imagen n.º 46 del PDF)",
+     "cita_original": "L'état qui suit est une copie du recensement général de la population des trente-trois arrondissemens [...] recensement fait en 1824, et transmis l'année suivante, par le général Irginac, secrétaire d'état, à la personne même qui publie aujourd'hui ce document.",
+     "traduccion": "El estado que sigue es copia del censo general de los 33 arrondissements de la república, hecho en 1824 y enviado al año siguiente por el general Inginac (el texto dice 'Irginac'), a la misma persona que ahora publica el documento, quien lo hizo insertar en los periódicos ingleses de la época.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 32, cuadro «État du recensement de la population, fait en 1824» (l. 1949-2010 del djvu.txt; cifras leídas sobre la imagen)",
+     "cita_original": "4 Santo-Domingo 20,076 ; 11 Port-Plate 10,622 ; 16 Monte-Christo 2,112 ; 22 Saint-Iago 10,419 ; 24 Samana 2,209 ; 25 Neyle 2,581 ; 26 Azua 3,500 ; 27 Saint-Jean 2,745 ; 28 Lamatte 1,026 ; 32 La Véga 6,178 [...] Total 935,335.",
+     "traduccion": "Filas del este del cuadro oficial de 1824: Santo Domingo 20.076; Puerto Plata 10.622; Monte Cristi 2.112; Santiago 10.419; Samaná 2.209; Neiba 2.581; Azua 3.500; San Juan 2.745; Lamatte 1.026; La Vega 6.178. Suma de las diez filas: 61.468 (cálculo propio), idéntica a la cifra del este de Placide-Justin (1826) y de Mackenzie (1830). Sin desglose de esclavos ni de edades.",
+     "afirmaciones": [
+      "A-094",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 33, nota 1 (l. 2084-2089 del djvu.txt; imagen n.º 47 del PDF; la nota imprime 423,032, el cuerpo 423,042)",
+     "cita_original": "Il est à présumer que M. Maskenzie a pris pour le nombre de la population entière d'Haïti celui des habitants qui avaient été jugés en état de contribuer à la taxe extraordinaire imposée pour acquitter l'indemnité due à la France.",
+     "traduccion": "Es de presumir que Mackenzie tomó por población total la de los habitantes considerados en condiciones de pagar la tasa extraordinaria impuesta para saldar la indemnización a Francia (la nota añade que el resto, demasiado pobre o joven para esa capitación, ascendía a cerca de 450.000). Es una presunción del autor, no un hecho documentado; la apoya Mackenzie mismo (t. II, p. 112: 'a population return that was never published, but had been laid on the table of the Chamber of Commons, for the purpose of apportioning the contribution').",
+     "afirmaciones": [
+      "A-103",
+      "A-104",
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 33 (l. 2049-2056 del djvu.txt)",
+     "cita_original": "[Mackenzie] dit par exemple (p. 89) qu'en 1827 la population de Saint-Iago était de 12,000 personnes. Or le recensement officiel de 1824 ne l'avait portée qu'à 10,419, différence égale à peu près à l'augmentation qu'on peut supposer être résultée des naissances.",
+     "traduccion": "Argumento de coherencia interna: Mackenzie da 12.000 habitantes para Santiago en 1827 y el censo de 1824 da 10.419; la diferencia cuadra con el crecimiento natural de tres o cuatro años, lo que, según Macaulay, apoya la fiabilidad del censo oficial.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. II (cartas de R. Hill, [20 de mayo de 1831], Santiago), pp. 164-165 (l. 9156-9170 del djvu.txt)",
+     "cita_original": "Une semaine s'était à peine écoulée que leur commerce se trouva frappé de l'anathème qui proscrivait toute relation avec les îles environnantes. Depuis ce moment Monte-Christ n'a cessé de décheoir.",
+     "traduccion": "Hill, testigo jamaiquino de color: apenas consumada la unión con Haití, el comercio español del norte (ganado y frutos que se vendían a Jamaica) quedó prohibido por la veda de toda relación con las islas vecinas, y Monte Cristi decayó hasta ser 'un pueblo de pescadores'. Año inferido por el título del capítulo (cartas de 1830 y 1831); la 'semana' de Hill es una retrospección imprecisa de la prohibición de exportación de 1823.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "cap. III, pp. 181-182 (l. 10054-10075 del djvu.txt)",
+     "cita_original": "M. Mackenzie nous représente de même les dispositions du Code rural de Boyer, comme aussi despotiques que tout ce qu'on peut imaginer dans aucun système de colonies à esclaves. [...] elles sont démenties par les Codes ruraux insérés dans le rapport du consul lui-même.",
+     "traduccion": "La lectura abolicionista de 1835: el Código Rural de Boyer, según Mackenzie 'tan despótico como cualquier sistema de colonias esclavistas', sería desmentido por los propios textos que el cónsul incluyó; Macaulay y Clarkson niegan que el trabajo haitiano fuera esclavitud. Contrapunto a Schoelcher (1843) y al propio Mackenzie sobre el mismo código.",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-101",
+    "A-103",
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Aporta (1) el cuadro oficial de 1824 con el detalle por arrondissement (ya conocido por Mackenzie, M08-N47), pero con la procedencia declarada (Inginac, 1825, publicado en la prensa inglesa); (2) la hipótesis de que el 'censo' de 423.042 de Mackenzie (71.223 para el este) es en realidad el número de contribuyentes de la tasa extraordinaria de la indemnización, lo que afecta cómo se lee la cifra del este en A-104/A-114 (la apoya que Mackenzie describa su cuadro como un return 'for the purpose of apportioning the contribution'); (3) un testigo directo de color (Hill, 1831) sobre el comercio del norte del este. ERRORES Y SESGOS: Macaulay fecha la reunión bajo Boyer 'en 1819, incluida la parte española' (p. 31), error (la del este es de 1822); el OCR da Maskenzie/Irginac; la nota 1 trae 423,032 frente a 423,042 del cuerpo (errata). Tesis abolicionista que defiende las cifras haitianas. [POR VERIFICAR] identidad exacta de 'Hill' fuera del texto (la nota del propio libro lo describe como jamaiquino de color y magistrado especial). No hay cifra de esclavos liberados en 1822 en el libro."
+  },
+  {
+   "titulo": "Colonies étrangères et Haïti: résultats de l'émancipation anglaise, t. II (Colonies danoises. Haïti. Du droit de visite. Coup d'œil sur l'état de la question d'affranchissement)",
+   "autor": "Schoelcher, Victor",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/coloniestranger00schogoog/coloniestranger00schogoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coloniestranger00schogoog",
+    "https://archive.org/download/coloniestranger00schogoog/coloniestranger00schogoog_hocr_searchtext.txt.gz"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo directo de Haití en 1841 y abolicionista informado, pero con una tesis política, juicios severos sobre Boyer y un relato del este de 1821-1822 sin fuente citada.",
+   "proveniencia": "Victor Schoelcher (1804-1893), publicista abolicionista francés; el tomo II (París, Pagnerre, 1843) incluye el capítulo «Haïti (janvier 1841)», escrito en primera persona tras su estancia en la república (llega por el Cabo Haitiano), precedido de un 'précis historique' de la isla. Escrito para el debate francés sobre la abolición en las colonias francesas: Haití sirve de prueba de que los negros libres trabajan, y de crítica a un gobierno (Boyer) que a su juicio frenó esa prueba. Las páginas sobre 1821-1822 son de segunda mano; la crítica del Código Rural es de observador. [POR VERIFICAR] la fecha exacta de la estancia más allá del encabezado «janvier 1841».",
+   "extractos": [
+    {
+     "ubicacion": "t. II, «Précis historique», p. 157 (l. 6985-6996 del djvu.txt; OCR dañado, texto normalizado; página inferida de la secuencia de cabeceras 157-158-159)",
+     "cita_original": "Aussitôt, les chefs de la ville hissent les couleurs d'Haïti, se déclarent unis à la république de Port-au-Prince, et font publier en même temps un bando qui appelle tous les esclaves à la liberté.",
+     "traduccion": "Santiago, enterado de la proclama de Núñez de Cáceres (1.º de diciembre de 1821), arbola los colores haitianos y publica a la vez un bando que llama a la libertad a todos los esclavos (testimonio de segunda mano de 1843; la fecha del bando está por precisar: el texto la sitúa antes de la entrada de Boyer).",
+     "afirmaciones": [
+      "A-094",
+      "A-095",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 157 (l. 6991-6994 del djvu.txt, OCR normalizado)",
+     "cita_original": "Le sacrifice n'était pas considérable, car le peu d'esclaves qui restaient étaient de vieux serviteurs de famille auxquels il n'avait pas convenu de passer la frontière.",
+     "traduccion": "El sacrificio no era grande, pues los pocos esclavos que quedaban eran viejos criados de familia a los que no había convenido pasar la frontera: juicio cualitativo de un abolicionista francés sobre la escasez de esclavos en Santiago en 1821-22, sin cifra ni fuente (contraste con Ulrickson: 3.000-15.000 en todo el este).",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 157 (l. 6980-6983 del djvu.txt, OCR normalizado)",
+     "cita_original": "Sont citoyens tous les hommes libres, quelle que soit leur couleur. Ce qui revient à dire, les esclaves restent esclaves.",
+     "traduccion": "Schoelcher comenta el artículo de la proclama de Núñez de Cáceres (diciembre de 1821): al definir ciudadanos solo a los hombres libres sin distinción de color, los esclavos seguían siendo esclavos; es decir, la abolición no formaba parte del 'Haití Español' independiente y sí de la unión con Haití.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 158 (l. 7029-7032 del djvu.txt, OCR normalizado)",
+     "cita_original": "Pour l'est, il n'eut véritablement à faire qu'une promenade de Port-au-Prince à Santo-Domingo, et encore n'était-elle pas indispensable.",
+     "traduccion": "En cuanto al este, Boyer solo tuvo que hacer un paseo de Puerto Príncipe a Santo Domingo, y ni siquiera era indispensable. Es una lectura francesa de 1843 que resta mérito a Boyer y presenta la reunión como adhesión local previa (compárese con A-107/A-108).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. II, «Haïti», p. 266 (l. 11915-11925 del djvu.txt; n.º de página reconstruido por la secuencia de cabeceras; OCR dañado, texto normalizado)",
+     "cita_original": "Contentons-nous de dire qu'elle oblige celui qui n'est pas propriétaire à contracter sur une habitation un engagement de trois, six ou neuf ans, et soumet l'engagé à des obligations qui le font tomber dans un état de servage. Il est attaché à la propriété comme un homme de glèbe.",
+     "traduccion": "Sobre el Código Rural: obliga a quien no es propietario a contratarse en una habitación por tres, seis o nueve años y lo somete a obligaciones que lo reducen a un estado de servidumbre, 'atado a la propiedad como un hombre de la gleba'. Observador de 1841; no distingue entre el este y el resto de la república.",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "t. II, «Haïti», p. 227 (l. 10160-10168 del djvu.txt, OCR normalizado)",
+     "cita_original": "[...] si l'on mettait en comparaison le règlement agricole de Toussaint avec le code rural d'Haïti, l'avantage, même sous le rapport des garanties d'indépendance laissées aux cultivateurs, serait tout entier du côté de Toussaint.",
+     "traduccion": "Schoelcher compara el reglamento agrícola de Toussaint con el Código Rural haitiano y concluye que, hasta en las garantías de independencia de los cultivadores, la ventaja sería íntegra de Toussaint: apoya la lectura de A-115 (continuidad Toussaint-Boyer) pero la califica contra Boyer.",
+     "afirmaciones": [
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-101",
+    "A-107",
+    "A-108",
+    "A-115"
+   ],
+   "modulos": [
+    "M08",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (c): leído el tomo II (el PDF de archive.org devolvió 500 en esta sesión; se leyó el djvu.txt, que responde 200, 1,1 MB). Contraste independiente de los británicos (Franklin, Mackenzie, Candler): un francés abolicionista que estuvo en Haití en 1841. Lo útil para M08 es: (1) testimonio cualitativo sobre pocos esclavos en Santiago (A-094); (2) crítica del Código Rural como servidumbre (A-101, A-115); (3) la unión de 1822 vista como 'paseo' sin mérito de Boyer. Sesgos: anti-Boyer; los datos de 1821-22 no llevan fuente. Aviso de paginación: el OCR no trae números de página legibles en las cabeceras; las páginas 156-158 y 266 se infirieron de la secuencia de cabeceras (cotejar con el impreso). No trata la universidad, ni la Iglesia del este, ni la indemnización sobre el este."
+  },
+  {
+   "titulo": "De la liberté de conscience et de culte à Haïti",
+   "autor": "Grégoire, Henri (ancien évêque de Blois)",
+   "anio": "1824",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/delalibertdecon00grgoog/delalibertdecon00grgoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/delalibertdecon00grgoog"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Folleto de 1824 de un obispo constitucional francés amigo de Haití: contemporáneo y bien informado sobre la Iglesia, pero escrito desde París con informes de segunda mano y con fines de exhortación.",
+   "proveniencia": "Henri Grégoire (1750-1831), antiguo obispo constitucional de Blois y abolicionista, escribe en julio de 1824 (París, Baudouin frères) una carta abierta a los haitianos tras quejas de metodistas ingleses por persecución en Puerto Príncipe; defiende la libertad de culto y pide un clero 'verdaderamente nacional'. Interesado en el catolicismo haitiano y en la república, pero sin conocimiento directo de la isla. Se leyeron la portada, el comienzo y las páginas finales y se buscó por palabra clave en el resto (45 KB), por eso se marca descargada-parcial.",
+   "extractos": [
+    {
+     "ubicacion": "p. 42 (l. 1727-1731 del djvu.txt; el OCR numera la página '(4«)')",
+     "cita_original": "Espérons qu'il arrivera le temps où Haïti aura un clergé suffisant et vraiment national, sous la direction du vénérable archevêque de Santo-Domingo et celle de ses coopérateurs.",
+     "traduccion": "Grégoire espera (julio de 1824) que Haití tenga un clero suficiente y verdaderamente nacional bajo la dirección 'del venerable arzobispo de Santo Domingo' y sus colaboradores: es el único dato del folleto sobre el este, y muestra que en 1824 se daba por hecho en París que el arzobispo Valera pasaba a dirigir la Iglesia de toda la isla. No dice nada de bienes eclesiásticos ni de la ley del 8-VII-1824.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-109"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (c), Iglesia: el folleto confirma que en julio de 1824 el arzobispo de Santo Domingo era visto desde París como cabeza futura del clero haitiano, lo que encaja con las gestiones de Boyer para que Valera administrara la Iglesia haitiana (De Pena 2011, p. 42, citando a Pérez Memen) y matiza la lectura de una hostilidad inmediata en 1822-24. Solo una mención; no resuelve A-109 (ley de 1824 y exilio de 1830). Ejemplar con sello de la biblioteca de Harvard (colección Boulay de la Meurthe)."
+  },
+  {
+   "titulo": "'Esclavos que fueron' in Santo Domingo, 1768-1844 (en el catálogo del archivo: Free People of African Descent in Santo Domingo, 1750-1844)",
+   "autor": "Ulrickson, Maria Cecilia",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://curate.nd.edu/articles/thesis/Esclavos_que_fueron_in_Santo_Domingo_1768-1844/24740085",
+   "urls_alternativas": [
+    "https://ndownloader.figshare.com/files/43575072",
+    "https://api.figshare.com/v2/articles/24740085",
+    "https://doi.org/10.7274/bn999596n1g"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral (Notre Dame, 2018) construida sobre protocolos notariales del AGN, libros parroquiales (FamilySearch) y legajos del AGI y del ANOM, con aparato crítico completo.",
+   "proveniencia": "Maria Cecilia Ulrickson (hoy en la Catholic University of America), tesis dirigida por Karen B. Graubart, Universidad de Notre Dame, junio de 2018; derechos reservados («All Rights Reserved»). Estudia las emancipaciones de 1795, 1801, 1805 y 1822 en el este de la isla y las trayectorias de personas libres y libertas de ascendencia africana. Usa fuentes locales (notarios, parroquias, cabildos) y las cita. Es la fuente que, junto a Walker 2018 (F-0151), sostiene la historiografía crítica reciente (A-108); nota: la tesis no resuelve A-094 con una cifra primaria, sino con un rango.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 5, p. 173 (PDF p. 184)",
+     "cita_original": "The emancipation of 1822 freed between three and fifteen thousand individuals",
+     "traduccion": "La emancipación de 1822 liberó entre tres mil y quince mil personas que vivían en esclavitud en el este (rango de la autora, sin nota que lo funde; es el único rango académico localizado: ver Cordero Michel, 'más de una decena de miles', y el 'más de 10.000' de la prensa, sin base).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. 1, p. 14, n. 25 (PDF p. 25), citando a Franco 2012, p. 160",
+     "cita_original": "14,000 enslaved persons and 82,000 free individuals of African descent",
+     "traduccion": "Estimación de la colonia en 1788 según Franco (La población dominicana, 2012): 24.000 blancos libres, 14.000 esclavizados y 82.000 libres de ascendencia africana. Coincide con 'doce o catorce mil' de Sánchez Valverde (1785) y se opone a los 30.000 de Placide-Justin/Mackenzie.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 188 (PDF p. 199), con n. 51 (Santa Bárbara, 25-III-1822, libro 386, FamilySearch)",
+     "cita_original": "freed (libertos) by the laws of the State",
+     "traduccion": "Dos adultos africanos (casta Congo y casta Mandinga) bautizados en marzo de 1822 en la iglesia de Santa Bárbara como 'libertos por las leyes del Estado': aparecen recién llegados por la trata justo cuando se aplicaba la abolición.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 189 (PDF p. 200), con n. 54 (San Cristóbal, bautismo de 1-IX-1822)",
+     "cita_original": "property of Don Domingo González",
+     "traduccion": "En septiembre de 1822, ya declarada la abolición, el cura de San Cristóbal anota a dos africanos adultos ('de Guinea') como 'propiedad de Don Domingo González', que además es su padrino: indicio de que la emancipación llegó con lentitud a una zona de plantaciones.",
+     "afirmaciones": [
+      "A-095",
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 191 (PDF p. 202), n. 61 (Bayaguana, matrimonio de 4-VI-1824, libro 1797-1899, p. 38)",
+     "cita_original": "esclavos que fueron de Venta Rey y aora libres por la Republica",
+     "traduccion": "Registro matrimonial de 1824 que conserva la marca de la esclavitud pasada y el nombre del amo; Ulrickson documenta cinco casos más entre 1824 y 1828 en Bayaguana y, en Baní y San Cristóbal, la fórmula 'libre de la Palma'. Prueba cualitativa de que la libertad se anotaba con un 'ex-' (A-095).",
+     "afirmaciones": [
+      "A-095",
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 194 (PDF p. 205), con n. 64-68",
+     "cita_original": "Most Unification-era contracts were made between former masters and former slaves.",
+     "traduccion": "La mayoría de los contratos de la época de la unificación se firmaron entre antiguos amos y antiguos esclavos. Ulrickson sustenta esto en Lora (2012, p. 104) y en el notario Troncoso y Solano (2-8 contratos al año en 1822-1826, 59 en 1824; ~300 en 1827 tras el Código Rural).",
+     "afirmaciones": [
+      "A-097",
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 194 (PDF p. 205), resumiendo el estudio de Lora sobre 55 contratos de Higüey de 1822",
+     "cita_original": "laborers received a quarter of what they produced",
+     "traduccion": "Según Lora, la mayoría de los 55 contratos de Higüey tras la emancipación fueron aparcerías en las que el trabajador recibía la cuarta parte de lo producido; algunos propietarios incluían acceso comunal a la tierra (A-097: los libertos siguieron con sus amos bajo contrato; la autora lo interpreta, con Lora, como estrategia de los propietarios para conservar el vínculo y proteger tierras sin título).",
+     "afirmaciones": [
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 181 (PDF p. 192), con n. 24 (Walker 2018, pp. 122-123 y 144)",
+     "cita_original": "received land grants under Boyer's land-distribution campaign",
+     "traduccion": "Los pocos antiguos esclavizados que recibieron tierras bajo la campaña de reparto de Boyer probablemente no cultivaron los cultivos comerciales que Boyer exigía; la tierra comunal y los hatos seguían dominando (matiza A-100 y la cifra de campesinado 'surgido' por el reparto).",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 179 (PDF p. 190), con n. 16 (circular de 11-II-1822, Recueil III, n.º 775, p. 448)",
+     "cita_original": "promised land to ex-slaves",
+     "traduccion": "Tras la emancipación Boyer hizo circular una instrucción (11-II-1822) a los coroneles de Azua, Baní, El Seibo, San Juan y Lamatte que prometía tierra a los antiguos esclavos; Ulrickson la cruza con la circular de 22-IV-1822 contra la vagancia.",
+     "afirmaciones": [
+      "A-100",
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 179 (PDF p. 190)",
+     "cita_original": "Labor laws during this early-independence period varied little across regimes and regions.",
+     "traduccion": "Las leyes laborales de los primeros años independientes (Christophe, Pétion, Boyer) variaron poco entre regímenes y regiones: apoya que el Código Rural de 1826 (p. 182) fue una ley agraria nacional y no una medida específica contra el este (A-102), y la continuidad con Toussaint (A-115).",
+     "afirmaciones": [
+      "A-102",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 183 (PDF p. 194), con n. 29-32",
+     "cita_original": "approximately three hundred labor contracts",
+     "traduccion": "En 1827, un año después del Código Rural, solo la notaría de Troncoso y Solano en Santo Domingo redactó unos trescientos contratos laborales que ataban a más de esa cifra de trabajadores por 1 a 9 años: efecto observable de la aplicación del Código en la capital del este.",
+     "afirmaciones": [
+      "A-101",
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 199 (PDF p. 210), con n. 81",
+     "cita_original": "accept into his/her home any person other than his/her family",
+     "traduccion": "De los primeros sesenta contratos de 1827 de esa notaría, treinta y tres prohibían al contratado 'acoger en su casa a cualquier persona que no fuera su familia' (a menudo con remisión expresa al Código Rural): cláusula que convierte en 'vagos' a parientes y amigos no contratados (A-101, A-115).",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, pp. 186-187 (PDF pp. 197-198), nn. 47-48 (Levasseur, AE/B/III/458; Candler 1842, p. 123)",
+     "cita_original": "refuse to renew their contracts",
+     "traduccion": "Cónsul francés Levasseur (1838): los trabajadores de grandes plantaciones 'se niegan a renovar sus contratos'; el misionero Candler (1842): 'the common people refuse to sell their labour subject to its provisions'. Ulrickson concluye que el Código se aplicaba mal y que la resistencia de los libertos y campesinos era generalizada (A-115, A-101).",
+     "afirmaciones": [
+      "A-115",
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 178 (PDF p. 189)",
+     "cita_original": "Unification met the desires of many east Hispaniola's inhabitants",
+     "traduccion": "La unificación respondió a los deseos de muchos habitantes del este, sobre todo gentes libres de color que preferían la incorporación a Haití al dominio colonial español o a un gobierno de las élites criollas; la autora añade que los esclavizados también la recibieron con cautela (A-108).",
+     "afirmaciones": [
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 177 (PDF p. 188)",
+     "cita_original": "sustained parts of the institution of slavery",
+     "traduccion": "'Aun tras la emancipación legal, el Estado haitiano promovió conceptos de criminalidad y ciudadanía que sostuvieron partes de la institución de la esclavitud' (A-096: abolición positiva pero con un sistema de coerción laboral).",
+     "afirmaciones": [
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "conclusión, p. 209 (PDF p. 220)",
+     "cita_original": "Santo Domingo had no slave population at the moment of the 1844 independence.",
+     "traduccion": "Presentada por la autora como parte de un mito fundacional de las élites de 1844: 'en el momento de la independencia no había esclavos en el este'; se usa en esa lectura para silenciar las emancipaciones de 1801, 1805 y 1822.",
+     "afirmaciones": [
+      "A-095"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-096",
+    "A-097",
+    "A-100",
+    "A-101",
+    "A-102",
+    "A-108",
+    "A-115"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (a, parte c): localizada y descargada sin embargo de que curate.nd.edu devuelve 202 vacío a curl y doi.org redirige a esa misma página: la API pública de figshare (api.figshare.com/v2/articles/24740085) da el archivo UlricksonMC062018D.pdf (3,2 MB; md5 608bee23aaaf18b51b8dc6530241d944) y el enlace https://ndownloader.figshare.com/files/43575072 sirve el PDF (247 págs.). Se leyó el cap. 5 (pp. 173-200 impresas) y se buscó el resto. Citas de obra con derechos reservados abreviadas a menos de 15 palabras; el resto va en paráfrasis en 'traduccion'. La cifra '3.000-15.000' no tiene nota de apoyo: es un rango de juicio de la autora que refleja la incertidumbre de la historiografía (Cordero Michel enumera 20.000, 25.000, 35.000 y 90.000 para el este colonial; Franco 14.000 en 1788; Placide-Justin 30.000 en 1785). Para A-094 (nace en D por la regla 9), este rango y los cuadros de 1824 permiten acotar sin resolver: el este tenía 61.468 habitantes en 1824 (cuadro oficial haitiano); aun suponiendo 15.000 liberados, serían hasta ~24 % de esa población, y con 3.000, ~5 % (cálculos propios, interpretación mía, no de Ulrickson). Ulrickson fecha a veces la emancipación en enero de 1822 (p. 175) y otras veces la sitúa 'nueve meses antes' de septiembre de 1822 (p. 189): inconsistencia menor (la proclama bilingüe es del 9-II-1822, F-0065 t. III n.º 774). Una tesis de 2018 no sustituye a Walker 2018 (F-0151, 403 en Deep Blue)."
+  },
+  {
+   "titulo": "Boletín del Archivo General de la Nación, n.º 44-45 (Ciudad Trujillo, enero-abril de 1946), sección «Independencia de 1821»: documentos del Archivo General de Indias copiados por Máximo Coiscou Henríquez (cartas de T. Pérez Guerra, 1822, y Memorial de F. Fernández de Castro sobre la reclamación de la parte española, Madrid, 6 y 8 de julio de 1824)",
+   "autor": "Pérez Guerra, Tomás; Fernández de Castro, Felipe [Dávila Fernández de Castro en García]; Coiscou Henríquez, Máximo (copista); Archivo General de la Nación (ed.)",
+   "anio": "1946",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1946_No_44-45.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición de 1946 de originales del AGI (copiados en Sevilla) con un OCR muy ruidoso: los documentos son contemporáneos y de primera mano, pero son informes interesados de un exiliado y hay que cotejar con el impreso y con el AGI.",
+   "proveniencia": "El Boletín bimestral del AGN dominicano (director Gregorio A. Herrera) publica en 1946 documentos que Máximo Coiscou Henríquez copió en el AGI de Sevilla por encargo del gobierno de la República Dominicana. Pérez Guerra, oficial español salido de Santo Domingo, informa al capitán general de Puerto Rico (31-VII-1822). Felipe Fernández de Castro (nacido en Santo Domingo, antiguo contador e intendente de la Corona en la parte española, después funcionario del ramo de Hacienda de Indias en Madrid e intendente de Cuba en 1829) viaja en 1824 a Santo Domingo y Puerto Príncipe con licencia para reclamar sus bienes, se entrevista con Boyer (28-29 de marzo de 1824) y a su regreso escribe un memorial (Madrid, 6 de julio de 1824) para que la Corona recupere la antigua colonia; Fernández tiene bienes y familia afectados y un interés manifiesto en la reconquista, y escribe contra Núñez de Cáceres y contra Boyer. Los documentos eran inéditos hasta 1946. [POR VERIFICAR: signatura actual en el AGI: el Boletín da «Santo Domingo, Puerto Rico, Gobiernos políticos, 1821-1822, Estante 85, Cajón 5, Legajo 183»; Ulrickson cita el mismo informe como AGI, Audiencia de Santo Domingo, leg. 970].",
+   "extractos": [
+    {
+     "ubicacion": "BAGN 44-45, p. 65 (PDF p. 67; carta de T. Pérez Guerra a la Capitanía General de Puerto Rico, 31-VII-1822; AGI)",
+     "cita_original": "El comercio se halla en un estado muy decadente, pues habiendo abandonado los negros esclavos las haciendas falta la agricultura y con ella los frutos de exportación que lo sostenían.",
+     "traduccion": "Observador español de mediados de 1822 (cinco meses tras la abolición): la agricultura de exportación se resiente porque los esclavos negros han abandonado las haciendas. Transcripción normalizada desde un OCR ruidoso (abreviaturas q.e, tpo. resueltas). Es testimonio de un oficial de la Corona contrario a Boyer, pero confirma el abandono de plantaciones por los libertos que Lora/Ulrickson matizan para otras zonas.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, p. 68 (PDF p. 70; Memorial de F. Fernández de Castro, f. 5-5v; entrevista con Boyer en Puerto Príncipe, 28-29 de marzo de 1824)",
+     "cita_original": "excusando su empresa de haber ocupado la parte española compelido, dijo, del interés y seguridad de ambos territorios",
+     "traduccion": "Boyer, en palabras que le atribuye un enemigo en 1824: justificó la ocupación de la parte española por el interés y la seguridad de ambos territorios, ante la anarquía que veía en el 'Haití español' de Núñez y el riesgo de que otro poder exterior distinto de España la ocupara. Relato de una sola parte; la autoría de las palabras de Boyer es indirecta.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, p. 68 (PDF p. 70; Memorial, f. 5v)",
+     "cita_original": "por la última conspiración descubierta han decapitado en marzo último cuatro individuos y desterrado [...] entre ellos dos sacerdotes; y aun al Arzobispo lo suponían de inteligencia",
+     "traduccion": "Informe de julio de 1824: tras la última conspiración descubierta (marzo de 1824) se decapitó a cuatro individuos y se desterró a otros, entre ellos dos sacerdotes, y se sospechaba que el arzobispo estaba en el secreto. Lectura insegura (OCR muy dañado en 'decapitado', 'desterrado' y 'inteligencia'). Si la conspiración es la de Los Alcarrizos, este texto la fecha en marzo de 1824, no en 1823 (laguna de la ronda 1) [POR VERIFICAR: cotejar con el impreso].",
+     "afirmaciones": [
+      "A-111",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, p. 70 (PDF p. 72; Memorial, f. 8v)",
+     "cita_original": "el mantenimiento de la parte española, que reguló de diez a doce mil pesos fuertes mensuales por el número de tropas y mandatarios en cada cantón",
+     "traduccion": "El autor calcula que la ocupación cuesta al Estado haitiano de diez a doce mil pesos fuertes mensuales en tropas y funcionarios del este (los 'exagerados' lo elevan un tercio más) y que ese gasto genera oposición dentro del propio gobierno de Boyer: dato sobre el peso fiscal de la ocupación para Haití, estimación de parte.",
+     "afirmaciones": [
+      "A-107",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, p. 72 (PDF p. 74; Memorial, f. 10v)",
+     "cita_original": "No hay Universidad ni otro establecimiento de enseñanza; y aun la que existía en la Capital de la parte española se ha perdido, como era consiguiente.",
+     "traduccion": "Fernández de Castro, que vivió allí hasta 1822 y visita Haití en marzo-abril de 1824: la república no tiene universidad ni otro establecimiento de enseñanza (solo un liceo en Puerto Príncipe y una junta que nombra maestros de primeras letras) y la que había en la capital del este 'se ha perdido, como era consiguiente'. Transcripción normalizada y abreviaturas resueltas ('q.e', 'establecim.to', 'consig.te') desde un OCR muy dañado ('exisda' leído como 'existía'). Fecha el cese antes de julio de 1824, no de un decreto; no dice cuándo ni por qué.",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, pp. 74-75 (PDF pp. 76-77; Memorial, ff. 14-14v)",
+     "cita_original": "Aunque yo me ocupé en la anterior memoria de que la libertad de los esclavos [...] podría ser acaso condición exigida por Boyer, he variado mucho ya en esta idea [...] no es la libertad personal entre ellos ya el objeto de la cuestión, sino la libertad general o independencia.",
+     "traduccion": "Un funcionario español de 1824 admite que había pensado que la libertad de los esclavos podría ser condición de Boyer para devolver el este, y dice que ha cambiado de idea porque, a su juicio, 'no es la libertad personal' lo que se discute entre los habitantes, sino la 'libertad general o independencia'. Lectura insegura (OCR muy dañado en la frase intermedia sobre 'el afecto que aquellos tienen'). Valoración de parte de un observador español en 1824, no un hecho: lo que importa es que dejó escrito que la libertad de los esclavos ya no era, a su juicio, la cuestión política en juego.",
+     "afirmaciones": [
+      "A-095",
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 44-45, p. 75 (PDF p. 77; Memorial, ff. 14v-15)",
+     "cita_original": "no ha enajenado los bienes secuestrados tanto tiempo hace a los ausentes de ella",
+     "traduccion": "Dos días antes de la ley de 8-VII-1824 que declaró bienes nacionales los de los ausentes y la Iglesia (A-109), el memorialista escribe (6-VII-1824, Madrid) que Boyer 'no ha enajenado los bienes secuestrados [...] a los ausentes': hasta entonces estaban embargados y no vendidos. Firmado «Madrid y julio 6 de 1824. Felipe Fernz. de Castro». Lectura normalizada desde un OCR ruidoso.",
+     "afirmaciones": [
+      "A-109",
+      "A-111"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-096",
+    "A-098",
+    "A-099",
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (b): fuente primaria española de 1822 y 1824 sobre la parte española bajo Boyer, no vista en la ronda 1 (se leía el Boletín solo de oídas). El 'volumen' del Boletín figura como vol. IX en la nota editorial del BAGN n.º 56 y como vol. VIII en De Pena 2011: [POR VERIFICAR]. Fernández de Castro vivía en Santo Domingo hasta fines de 1821 como intendente de la Corona y se negó a jurar la independencia de Núñez de Cáceres (Memorial, ff. 6v-7; García, t. II, l. 4058-4064, lo muestra alojando al gobernador depuesto Pascual Real); García lo llama 'Felipe Dávila Fernández de Castro'. El OCR es de calidad mala (pdf escaneado; las citas van normalizadas y se señalan como tales); cotejar con el impreso antes de citar en la síntesis. El memorial es un documento de parte (busca que la Corona recupere la colonia); su descripción de Boyer y del este es opinión de un exiliado. OJO: la nota editorial del BAGN 56 dice que los informes de Fernández de Castro sobre 'sus infructuosas gestiones' aparecen aquí, pero los de 1830 (conferencia de enero) no están en este número: lo que hay es el memorial de 1824 (viaje a Haití) y el informe de 1822."
+  },
+  {
+   "titulo": "Boletín del Archivo General de la Nación, n.º 56 (Ciudad Trujillo, 1948), sección «Documentos del Archivo Nacional de Cuba»: instrucciones reservadas de Madrid a Felipe Fernández de Castro, intendente de Cuba, para reclamar al presidente de Haití la devolución de la parte española (24 de agosto de 1829)",
+   "autor": "Secretaría de Estado de Fernando VII (firma atribuida a Manuel González Salmón); Rodríguez Guerra, Luis (transcripción); Archivo General de la Nación (ed.)",
+   "anio": "1948",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1948_No_56.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción de una real orden reservada (Archivo Nacional de Cuba, asuntos políticos, leg. 34, signatura 16) hecha por un comisionado oficial del AGN y editada en 1948; el OCR del PDF es ruidoso pero el texto central es legible.",
+   "proveniencia": "El BAGN n.º 56 (1948) publica documentos que Luis Rodríguez Guerra copió en el Archivo Nacional de Cuba durante una misión oficial dominicana (1941-1943): entre ellos, la comunicación 'muy reservada' de la Secretaría de Estado española (Madrid, 24 de agosto de 1829; firmada, según el OCR, 'Manuel González Salmón') que transcribe la orden al intendente de Cuba, Felipe Fernández de Castro, de trasladarse a Puerto Príncipe y tratar con Boyer la restitución de la parte española. Documento de gobierno, redactado para uso interno y para dar instrucciones diplomáticas; no es una declaración pública.",
+   "extractos": [
+    {
+     "ubicacion": "BAGN 56, «Notas editoriales», p. 55 (PDF p. 57)",
+     "cita_original": "las instrucciones tramitadas por el gobierno español, a Don Felipe Fernández de [Castro], en fecha 24 de agosto de 1829; para que se trasladara desde Cuba a Puerto Príncipe, Haití, a reclamar del Gobierno haitiano la devolución de la parte española de la Isla de Santo Domingo",
+     "traduccion": "Nota editorial de 1948 que fecha y resume la orden: el OCR da 'Gisaro' por 'Castro', corregido por el cuerpo del documento. Añade que los informes de Fernández de Castro sobre sus gestiones 'aparecen en el Boletín n.º 44-45' (ver la entrada anterior).",
+     "afirmaciones": [
+      "A-107",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 56, p. 67 (PDF p. 69; orden reservada, f. 1)",
+     "cita_original": "se indicó desde luego confidencialmente al de S. M. Cristianísima por medio de su Representante en Madrid la intención de la España de recuperar nuestra parte de la isla de Sto. Domingo",
+     "traduccion": "Tras la restauración absolutista de 1823, Fernando VII avisó confidencialmente a Francia de su intención de recuperar la parte española; el texto añade que el gabinete de las Tullerías, ocupado en negociar el reconocimiento de la independencia de la parte francesa, no respondió y 'poco después procedió de modo solemne' a ese reconocimiento (ordenanza de 17-IV-1825).",
+     "afirmaciones": [
+      "A-107",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 56, p. 67 (PDF p. 69)",
+     "cita_original": "se confiere a V. E. la Comisión de trasladarse a Puerto Príncipe y tratar con el actual Presidente de la República de Haití acerca de la restitución á S. M. de la parte de la isla que le pertenece",
+     "traduccion": "El núcleo de la orden de 24-VIII-1829: Fernando VII, de acuerdo con su Consejo de Ministros, encarga la comisión al intendente de Cuba; la lectura de De Pena 2011 (p. 36) añade que las condiciones eran restitución sin plazo de evacuación, compensación a Haití y reconocimiento español de la independencia haitiana una vez restituida la colonia.",
+     "afirmaciones": [
+      "A-107",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 56, p. 67 (PDF p. 69)",
+     "cita_original": "sería el mayor absurdo [...] diferir por más tiempo [...] reconocer al Gobierno actual de Haití cualesquiera que sean los vicios de origen de su presente organización social",
+     "traduccion": "La corte española razona en 1829 que, tras el reconocimiento francés (con indemnización), sería 'el mayor absurdo' seguir sin reconocer a Haití pese a los 'vicios de origen' de su organización social: la indemnización de 1825 funciona aquí como precedente jurídico que obliga a Madrid a reclamar el este sin romper con Haití. Lectura normalizada desde un OCR ruidoso.",
+     "afirmaciones": [
+      "A-107",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 56, p. 68 (PDF p. 70), instrucciones sobre el tono de la gestión",
+     "cita_original": "evitar el contagio de las revoluciones [...] el tiempo calamitoso de la época llamada Constitucional",
+     "traduccion": "La orden manda que el comisionado atribuya la ocupación haitiana al deseo y necesidad de 'evitar el contagio de las revoluciones' ocurridas en el territorio español 'durante el tiempo calamitoso' del trienio constitucional (1820-1823), en vez de usar amenazas: la versión oficial española de la ocupación de 1822 como acto defensivo, no como agresión. Frase central muy dañada en el OCR: solo se citan los fragmentos legibles [POR VERIFICAR: cotejar con el original cubano].",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-107",
+    "A-109"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (b): es el documento primario español de la reclamación de 1830 (la orden, no el acta de la conferencia). La reclamación en sí (enero de 1830; conferencias del 17 al 30 de enero con Inginac, Lespinasse y Frémont) se reconstruye aquí desde García (F-0068), Ardouin t. X (F-0107) y De Pena 2011; el acta española original no se halló en línea (Archivo Nacional de Cuba, asuntos políticos leg. 34, sig. 16; AHN Estado; AGI Santo Domingo). Esta orden reservada de 1829 sí demuestra que la misión fue una decisión del gobierno de Madrid, no solo iniciativa de los emigrados (nota de matiz: el BAGN 44-45 y De Pena muestran que Fernández de Castro la había pedido desde 1822). Cuestión de nombre: 'Felipe Fernández de Castro' en BAGN/De Pena y 'Felipe Dávila Fernández de Castro' en García (t. II, l. 3470 y 4062 del djvu.txt). La firma 'Manuel González Salmón' es lectura del OCR 'Manuel ~om* Saallon' [POR VERIFICAR]."
+  },
+  {
+   "titulo": "The Siblings of Hispaniola: Political Union and Separation of Haiti and Santo Domingo, 1822-1844 (tesis de maestría, Vanderbilt University)",
+   "autor": "De Pena, Gustavo Antonio",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ir.vanderbilt.edu/bitstreams/c4d8eade-ad59-4017-875a-1fb295b9d1ea/download",
+   "urls_alternativas": [
+    "https://ir.vanderbilt.edu/handle/1803/11517"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis de maestría que resume con claridad la misión de 1830 con documentos primarios publicados (BAGN) y cronistas (García, Nouel), pero su interpretación de 'apatía española' es de la autora y la tesis no usa archivos primarios propios.",
+   "proveniencia": "Tesis de maestría en estudios latinoamericanos (Vanderbilt, mayo de 2011; asesores William F. Robinson y Jane Landers) de un estudiante dominicano-estadounidense; revisa la unión política 1822-1844 con énfasis en la política española y francesa. Para la misión de 1830 se apoya en el BAGN 44-45 (1946), el BAGN 56 (1948), García (Compendio), Nouel (Historia eclesiástica, 1914), Pérez Memen (1984) y Moya Pons. Se leyeron las pp. 34-45.",
+   "extractos": [
+    {
+     "ubicacion": "cap. II, p. 36-37 (PDF pp. 41-42), citando BAGN 56 (1948), pp. 65 y 68, nn. 90-91",
+     "cita_original": "return to his Supreme Majesty of the Spanish Part of the island of Santo Domingo",
+     "traduccion": "La 'soberana resolución' reservada de 24-VIII-1829 ordenaba al intendente de Cuba Felipe Fernández de Castro tratar con Boyer la devolución de la parte española, con condiciones: compensación a Haití por sus pérdidas, sin plazo de evacuación y reconocimiento español de la independencia haitiana tras la restitución (De Pena, pp. 36-37).",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "cap. II, p. 38 (PDF p. 43), citando a García, 'Era haitiana'",
+     "cita_original": "the Treaty of Paris of 1814 confirmed that Ferdinand VII enjoyed full authorization",
+     "traduccion": "Resumen de la conferencia de 17-30 de enero de 1830 con Inginac, Lespinasse y Frémont: España alegó el Tratado de París de 1814 y que los pronunciamientos del este no tenían validez sin el consentimiento del rey; Haití alegó Basilea (1795), la indivisibilidad constitucional y los pronunciamientos de 1822. Fuente secundaria de segunda mano sobre un conjunto documental que no se halló en línea.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "cap. II, p. 41 (PDF p. 46)",
+     "cita_original": "Boyer intervened on January 30 and brought the deliberations to an abrupt culmination.",
+     "traduccion": "Boyer cerró la conferencia el 30 de enero de 1830; la misión regresó a La Habana sin acuerdo. Boyer reforzó la defensa (Tavares a Santiago, Moret a Samaná, tropas en Azua, San Juan, Montecristi y La Vega), persiguió a los simpatizantes de Fernando VII y en junio de 1830 ordenó sustituir los escudos de armas españoles por los de la república.",
+     "afirmaciones": [
+      "A-107",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "cap. II, pp. 42-43 (PDF pp. 47-48)",
+     "cita_original": "Valera was forced into exile to La Habana on July 23, 1830.",
+     "traduccion": "El arzobispo Pedro Valera, 'persona non grata' tras la misión según Pérez Memen y Nouel (con atentado fallido de un tal Romero), salió para La Habana el 23-VII-1830. De Pena subraya que no hay fuente que explique por qué Boyer esperó hasta julio. Matiza A-109 (exilio 'en 1830') frente a la versión de Ardouin (salida voluntaria) y la oración fúnebre de 1833 (M08-N49).",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "cap. II, p. 44 (PDF p. 49)",
+     "cita_original": "Spain silently acknowledged the loss of Santo Domingo.",
+     "traduccion": "Conclusión de la autora: España nunca invadió ni volvió a plantear la reclamación en otro foro; la misión de 1830 fue 'a onetime arrangement' empujada por los emigrados dominicanos y no por Madrid. Interpretación de la autora (no un hecho documentado); cf. el periódico madrileño citado por García sobre el coste de 500.000 pesos.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (b): resume la perspectiva española de 1822-1830 a partir de documentos primarios publicados que he leído directamente (BAGN 44-45 y BAGN 56 en esta misma tanda); sirve de guía, no de prueba. Las citas de pp. 36-44 se verificaron contra el PDF. Su cronología de la misión (licencia de enero de 1824; entrevista con Boyer; informe del 6-VII-1824; 'soberana resolución' de agosto de 1829; conferencia de enero de 1830) concuerda con lo que dicen los documentos del BAGN. Sesgo: tesis de 'apatía española' y 'paranoia' de Boyer; es una valoración, no un hecho (regla 6)."
+  },
+  {
+   "titulo": "Compendio de la historia de Santo Domingo, t. II (parte «Era haitiana»), 3.ª ed. (1894): pasaje sobre la misión española de 1830",
+   "autor": "García, José Gabriel",
+   "anio": "1894",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/compendiodelahi02garcgoog/compendiodelahi02garcgoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/compendiodelahi02garcgoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador dominicano del siglo XIX que usa papeles oficiales y recuerdos de testigos, pero no cita sus fuentes y parafrasea las notas diplomáticas; en 1830 reproduce el relato de la parte dominicana.",
+   "proveniencia": "José Gabriel García (1834-1910), Santo Domingo, 1.ª ed. 1867-1868, 3.ª ed. aumentada 1894 (la que se leyó, t. II pp. 145-152): narra la misión de 1830 con las notas intercambiadas (parafraseadas), las medidas de Boyer y la salida del arzobispo. Escribe 60 años después, desde el nacionalismo dominicano restaurador, y no cita el origen de las notas (probablemente actos oficiales haitianos y papeles dominicanos: [POR VERIFICAR]).",
+   "extractos": [
+    {
+     "ubicacion": "t. II, p. 146 (l. 7893-7897 del djvu.txt; nota española de enero de 1830 parafraseada por García)",
+     "cita_original": "que la esclavitud, en los términos en que subsistía por el presente en las naciones civilizadas, era un derecho de patria en el cual ningún Estado ni potencia extrangera podía pretender intervenir sin atentar á la independencia de las naciones",
+     "traduccion": "Argumento español de 1830 según García: la esclavitud, tal como subsistía entonces en las naciones civilizadas, era un derecho de cada patria en el que ningún Estado extranjero podía intervenir sin atentar contra la independencia de las naciones. Es la única posición oficial española de 1830 sobre la esclavitud y muestra que Madrid no ofrecía la abolición del este como contrapartida (A-095/A-096).",
+     "afirmaciones": [
+      "A-095",
+      "A-096",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 147 (l. 7925-7929)",
+     "cita_original": "estaba probado que la ocupación de la parte española provino de un acto que no produjo ningún derecho, cual era el acta de la constitución de la República y la acojida dispensada á los desertores del rey",
+     "traduccion": "La comisión española sostuvo que la ocupación del este se debió a la constitución haitiana y a la acogida de 'desertores del rey', actos sin valor jurídico: resumen de García del argumento español de enero de 1830.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 146 (l. 7905-7909)",
+     "cita_original": "después que el gobierno de Haití entró en esa posesión, los habitantes resistieron, pues hubo oscilaciones y movimientos contra los cuales fué necesario emplear la fuerza",
+     "traduccion": "Según el argumento español de 1830, tras la entrada de Haití los habitantes del este resistieron (oscilaciones y movimientos que obligaron a usar la fuerza), lo que invalidaría la tesis de adhesión voluntaria (A-107/A-108); la comisión citaba, según De Pena, Samaná 1822 y Los Alcarrizos 1824.",
+     "afirmaciones": [
+      "A-107",
+      "A-108",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 147 (l. 7962-7965)",
+     "cita_original": "lo que verificó el 1º de febrero en la misma fragata que le había conducido, dirigiéndose á la Habana á dar cuenta del resultado de su comisión",
+     "traduccion": "La misión terminó el 1.º de febrero de 1830: el comisionado español se marchó a La Habana en la misma fragata, tras recibir de Boyer el 30 de enero la respuesta final (García); García añade que el resultado 'produjo la alarma que era consiguiente, despertando temores en unos y esperanzas en otros'.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 149 (l. 8021-8026)",
+     "cita_original": "se ejercieran, por las autoridades locales varios actos de violencia, que atemorizando á algunas familias distinguidas y á muchos hombres de valimiento, los obligaron á ausentarse para siempre del suelo patrio",
+     "traduccion": "García: a raíz de la alegría que la visita de Fernández de Castro causó entre los dominicanos, las autoridades locales cometieron actos de violencia que forzaron a algunas familias distinguidas y a muchos notables a emigrar para siempre (1830). Relato dominicano sin cifras: relevante para la ola de emigración de A-111, que García sitúa también en 1822-1824 (ver F-0068 en la ronda 1).",
+     "afirmaciones": [
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 149 (l. 8048-8059)",
+     "cita_original": "Según la tradición llevaron las autoridades haitianas su encono con el ilustre prelado, hasta el extremo de mandarle á asesinar con un advenedizo de apellido Romero",
+     "traduccion": "García recoge como 'tradición' el intento de asesinar a Valera por un tal Romero (que se arrodilló y confesó) y fija la salida del arzobispo a La Habana el 'día 23 [OCR: 2;5] de julio de 1830' con su provisor Bernardo Correa y Cidrón. Es tradición oral sin corroboración (D según la regla 5) pero fecha y destino coinciden con Rodríguez Demorizi y De Pena.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 149 (l. 8070-8074)",
+     "cita_original": "un periódico de Madrid, al anunciar el mal resultado de la misión de don Felipe Fernandez de Castro, se atrevió á quejarse de que habia costado quinientos mil pesos",
+     "traduccion": "Según García, la prensa de Madrid reaccionó al fracaso quejándose de que la misión había costado quinientos mil pesos: indicio, de segunda mano, de la indiferencia española ante la reclamación (cf. De Pena, pp. 41-44). [POR VERIFICAR: periódico y fecha; García no los da].",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-096",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0068",
+   "notas": "Misma edición que ya usó la ronda 1 (archive.org compendiodelahi02garcgoog; 3.ª ed. 1894), pero con extractos nuevos sobre la misión de 1830, que la ronda 1 no recogió (solo Ardouin t. X). García llama al comisionado 'Felipe Dávila Fernández de Castro' (t. II, l. 3470 y 4062 del djvu.txt). Las líneas citadas son del archivo original djvu.txt tal como lo sirve archive.org. Sesgo: nacionalista dominicano; lo que atribuye a 'los dominicanos' tras la visita (alegría, violencia posterior) es lectura suya."
+  },
+  {
+   "titulo": "Géographie de l'île d'Haïti, précédée du précis et de la date des événements les plus remarquables de son histoire",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1832",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/gographiedelil05784ardo/gographiedelil05784ardo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/gographiedelil05784ardo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto escolar de 1832 de un diputado y futuro ministro, coetáneo de los hechos y con acceso a documentos oficiales; vale como exposición de la versión oficial haitiana, no como medida neutral.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), mulato, diputado, futuro ministro y senador, publica en Puerto Príncipe en 1832 un compendio escolar de la 'volumineuse Description' de Moreau de Saint-Méry con un 'précis' de la historia de Haití y notas al final. Escrito para la juventud haitiana y como defensa del Estado de Boyer (el autor es partidario de la unificación). Las notas 13-15 contestan a la reclamación española y a las pretensiones francesas; la geografía del este (departamentos del Nordeste y del Sudeste) refleja los datos del gobierno de 1832.",
+   "extractos": [
+    {
+     "ubicacion": "«Précis», pp. 31-32 (l. 1174-1190 del djvu.txt; el marcador '(32)' está en l. 1186)",
+     "cita_original": "le roi d'Espagne envoya auprès du gouvernement de la République un plénipotentiaire chargé de réclamer la restitution de la partie de l'Est. Cette mission, qui eut lieu en 1830, ne pouvait avoir d'autre résultat que celui qu'elle a obtenu",
+     "traduccion": "Versión oficial haitiana de la reclamación de 1830 (1832): el rey de España envió un plenipotenciario a pedir la restitución de la parte del Este; la misión no podía tener otro resultado y el gobierno haitiano tuvo que rechazar la demanda de Su Majestad Católica (p. 32, con la nota 14).",
+     "afirmaciones": [
+      "A-107",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "nota 14, p. 180 (l. 7682-7706 del djvu.txt)",
+     "cita_original": "à l'exception de quelques colons qui se trouvaient absens de la partie de l'Est lors de la prise de possession en 1822, tous les propriétaires ont été maintenus dans leurs biens et reconnus citoyens de l'État",
+     "traduccion": "Ardouin afirma en 1832 que, salvo algunos colonos ausentes del este en 1822, todos los propietarios conservaron sus bienes y fueron reconocidos ciudadanos; a los ausentes una proclama de Boyer del 8-II-1823 les dio cuatro meses más para volver y, vencido el plazo (16 meses), sus bienes pasaron al dominio público. Defensa oficial frente a la reclamación española de indemnizaciones.",
+     "afirmaciones": [
+      "A-111",
+      "A-109",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "nota 14, p. 180 (l. 7700-7706)",
+     "cita_original": "quant à la restitution pure et simple du territoire de l'Est avec le peuple qui l'habite, le tems n'est plus où l'on considérait les hommes comme de vils troupeaux",
+     "traduccion": "Respuesta haitiana al reclamo: la restitución del este 'con el pueblo que lo habita' ya no cabe, porque pasó la época en que se trataba a los hombres como rebaños. Es la versión de un Estado que rechaza el principio de soberanía dinástica sobre la población; no prueba por sí sola la voluntad de los habitantes del este.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "«Représentans», p. 85 (l. 3896-3914 del djvu.txt; el marcador '( 8-j )' en l. 3880 = p. 85; departamentos del Nord-Est (ci-devant Cibao, cap. Santiago) y Sud-Est (ci-devant Ozama, cap. Santo Domingo) descritos en l. 3800-3880)",
+     "cita_original": "ces deux départemens, dont la population n'égale pas le septième des quatre autres, fournissent à la Chambre le cinquième des Représentans",
+     "traduccion": "En 1832 el Nordeste (Santiago, 5 comunas) y el Sudeste (Santo Domingo, 6 comunas) eligen 5 y 7 de los 69 representantes de la Cámara (lectura de la tabla del OCR; total 63 comunas con diputado), un reparto que Ardouin presenta como favorable al este (población menor de una séptima parte de la de los otros cuatro departamentos). Añade: «Santiago n'en fournit qu'un, suivant l'arrêté du Président d'Haïti en date du 27 Février 1822». Cifras de la tabla por confirmar sobre la imagen.",
+     "afirmaciones": [
+      "A-112",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "«Population», p. 91 (l. 4141-4144 del djvu.txt)",
+     "cita_original": "on a toujours été d'opinion que ces recensemens étaient fort inexacts",
+     "traduccion": "Ardouin, a propósito de los censos de antes de 1789 (entre ellos el que da Moreau de Saint-Méry para el este, cifra dañada en el OCR), advierte que siempre se ha considerado que eran muy inexactos: precaución de un funcionario haitiano de 1832 sobre las cifras demográficas coloniales.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "«Saint-Christophe», p. 156 (l. 6685-6697 del djvu.txt)",
+     "cita_original": "en 1822, ce n'était qu'une habitation où s'étaient établis beaucoup de citoyens de l'Ouest",
+     "traduccion": "Sobre Bani/San Cristóbal (quarter de Los Ingenios): en 1822 era una sola habitación donde se habían instalado muchos 'ciudadanos del Oeste'; en 1823 el Estado trazó el burgo de San Cristóbal y requisó una 'cavalerie de terre' para fundarlo. Dato de repoblación y reparto de tierras por el Estado en el este.",
+     "afirmaciones": [
+      "A-100",
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-100",
+    "A-105",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-110",
+    "A-111",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "No confundir con los Études sur l'histoire d'Haïti (F-0107, 1853-1860): esta es una obra anterior, de 1832, impresa en Puerto Príncipe, que ofrece la versión oficial haitiana contemporánea de la misión española de 1830. RESPUESTA AL CRÍTICO (b), cara haitiana en primera mano, pero con la fecha más cercana a los hechos que las notas de Ardouin de 1860 (t. X). Los marcadores de página del OCR ('(32)', '( Ï80 )', '(91 )') son legibles; la tabla de representantes (p. 85) tiene cifras dañadas ('Î7', 'ÏG'): la suma 63 comunas / 69 representantes del texto no cuadra con todas las filas leídas (16+18+8+17+5+7=71), por lo que solo se usan las filas del Nordeste y Sudeste [POR VERIFICAR sobre imagen]. Sesgo: partidario de Boyer; el discurso de la nota 14 es político y de 1832."
+  },
+  {
+   "titulo": "Idea del valor de la isla Española, y utilidades que de ella puede sacar su monarquía",
+   "autor": "Sánchez Valverde, Antonio",
+   "anio": "1785",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/ideadelvalordela00snch/ideadelvalordela00snch_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/ideadelvalordela00snch",
+    "https://archive.org/details/ideadelvalordela00snguat"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial coetáneo escrito por un sacerdote nacido en la colonia que conoce el terreno, pero con fines de promoción (pide reformas a la Corona) y cifras sin base declarada.",
+   "proveniencia": "Antonio Sánchez Valverde (c. 1729-1790), canónigo nacido en Santo Domingo, publica en Madrid (1785) este memorial para persuadir a la Corona de fomentar la parte española de la isla; compara siempre con la colonia francesa vecina. Obra de primera mano sobre el este colonial; solo se leyó el pasaje sobre los esclavos buscado por palabra clave (no se leyó el libro entero). [POR VERIFICAR: año de nacimiento; la ficha de archive.org da 1734-1790].",
+   "extractos": [
+    {
+     "ubicacion": "p. 150 (cabecera '150' en l. 39998; texto en l. 40002-40005 del djvu.txt; la 'ó' entre 'doce' y 'catorce' no se lee en el OCR)",
+     "cita_original": "Nosotros apenas contaremos doce, [ó] catorce mil Esclavos en toda la extension de nuestras Posesiones.",
+     "traduccion": "En 1785 un testigo dominicano cuenta 'apenas doce o catorce mil esclavos' en toda la parte española, frente a los 30.000 de Placide-Justin/Mackenzie para ese mismo año y a los 14.000 de 1788 de Franco vía Ulrickson. Es la única estimación de 1785 hecha en el este, sin base declarada; sirve de línea de base para acotar los liberados de 1822 (A-094), aunque el este perdió población en 1795-1809.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094"
+   ],
+   "modulos": [
+    "M05",
+    "M08"
+   ],
+   "id_existente": "F-0020",
+   "notas": "Resuelve F-0020 (registrada para M05 como localizada-bloqueada: Cervantes Virtual da 403): hay dos copias libres en archive.org (ideadelvalordela00snch y ideadelvalordela00snguat; solo se descargó la primera). Pertenece a M05; se registra aquí porque fija la línea de base de A-094. Cifra a tratar como estimación de un solo testigo (regla 9). Lora 2009 (M08-N01, n. 35) cita la misma estimación por otra edición ('14 mil esclavos... p. 169')."
+  },
+  {
+   "titulo": "Catálogo de publicaciones, Archivo General de la Nación (República Dominicana)",
+   "autor": "Archivo General de la Nación (RD)",
+   "anio": "2025",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/06/Catalogo-de-publicaciones-web.pdf",
+   "urls_alternativas": [
+    "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1946_No_44-45.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Catálogo institucional del propio AGN con datos bibliográficos (volumen, año, páginas, ISBN) de sus publicaciones.",
+   "proveniencia": "Catálogo de 88 páginas del Archivo General de la Nación de la República Dominicana (junio de 2025) que lista sus publicaciones por volumen. Sirve aquí para fijar los datos de los catálogos notariales de María Filomena González Canalda y como guía de las rutas de descarga de las publicaciones del AGN (los PDFs del boletín cuelgan de https://agn.gob.do/wp-content/uploads/2025/07/BAGN_AÑO_No_NN.pdf; las páginas HTML del sitio devuelven 403 a curl).",
+   "extractos": [
+    {
+     "ubicacion": "pp. 73-74 del catálogo (líneas 3013-3025 del texto extraído)",
+     "cita_original": "Catálogo de protocolos notariales (1822-1844), tomo I — María Filomena González Canalda — 552 páginas, formato 7×10 pulgadas — Volumen: CDXXXVI, 2021 — ISBN: 978-9945-25-016-9",
+     "traduccion": "Datos oficiales del catálogo de protocolos de 1822-1844 (t. I, vol. CDXXXVI, 2021; t. II, vol. CDXXXVII, 2021, ISBN 978-9945-25-017-6; el PDF alojado por el IGN y las fichas de búsqueda dicen 2022). La misma página lista Libertad Igualdad: Protocolos notariales de José Troncoso y Antonio Abad Solano, 1822-1840 (vol. CLXXXVII, 2013, 334 pp., ISBN 978-9945-074-79-6).",
+     "afirmaciones": [
+      "A-097",
+      "A-094"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-097"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Se registra como 'portal' (finding aid) porque documenta la existencia, el volumen y el ISBN de los catálogos notariales que la ronda 1 no pudo leer. Cierra la duda sobre el año: el catálogo del AGN da 2021 (la ficha IGN y el buscador dicen 2022). No contiene texto de los protocolos."
+  },
+  {
+   "titulo": "Catálogo de protocolos notariales (1822-1844), tomos I y II (AGN, vols. CDXXXVI y CDXXXVII)",
+   "autor": "González Canalda, María Filomena",
+   "anio": "2021",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://ign.gob.do/wp-content/uploads/2024/09/Ciencias-Puras-Catalogo-de-protocolos-notariales-1822-1844-Tomo-I-2.pdf",
+   "urls_alternativas": [
+    "https://agn.gob.do/wp-content/uploads/2025/06/Catalogo-de-publicaciones-web.pdf",
+    "https://redalyc.org/pdf/392/39238126004.pdf"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "404",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrumento de descripción archivística del AGN hecho por la archivista que catalogó el fondo, base de las citas de Lora y de las propias de González Canalda.",
+   "proveniencia": "María Filomena González Canalda (UASD, maestría en Archivística) cataloga los protocolos notariales del AGN de 1822-1844 (tomo I: notarios José Troncoso y Antonio Abad Solano, 35 libros; tomo II: otros fondos). Publicación del AGN (2021, 552 pp. cada tomo). Es la base documental de su artículo de 2014 (M08-N70, Caribbean Studies) y de la tesis de que de más de 4.500 actas solo una trata de expropiación (entrevista BBC/El Día).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-094",
+    "A-097"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "RESPUESTA AL CRÍTICO (a, parte b): NO se encontró otra copia. La URL del IGN devuelve 404 hoy (6-X-2026; la respuesta es una página HTML de error de 262 KB); la Wayback devuelve 429 y, reintentada, 404 en el espejo 'web/2025'; curate.nd.edu, el repositorio VIP de la UASD (solo los catálogos de 1844-1861) y el AGN (HTML 403) no la alojan. Lo que sí se confirmó: (1) el catálogo oficial del AGN (entrada 12 de este archivo) da volumen, año (2021) e ISBN de los dos tomos y de Libertad Igualdad (2013); (2) el artículo de 2014 de la autora (M08-N70) está hoy en redalyc.org/pdf/392/39238126004.pdf con respuesta 200, y contiene casos de notarías: Juan Ramos reclama en 1823 un certificado de libre 'puesto que en la República de Haití no había esclavitud' (p. 108 del artículo; A-095) y antiguas esclavas domésticas africanas de Santo Domingo que hacen vida independiente y testan entre 1824 y 1834 (contraste con A-097); el artículo no da ninguna cifra de liberados. Pendiente: pedirla directamente al AGN o a la autora; no inventar su contenido."
+  },
+  {
+   "titulo": "Period French translation of an original Spanish report on Haitian land and sea forces in the eastern part of Hispaniola during the Haitian occupation of Santo Domingo (informe de reconocimiento de Diego de Lira, Mayagüez, diciembre de 1823)",
+   "autor": "Lira, Diego de (autor del informe original, según el librero); traductor al francés anónimo",
+   "anio": "1823",
+   "tipo": "terciaria",
+   "idioma": "fr",
+   "tradicion": "espanola",
+   "url": "https://globusrarebooks.com/books/period-french-translation-of-an-original-spanish-r",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Ficha de un librero de manuscritos antiguos; sirve solo como indicio de un documento primario cuyo contenido no se ha visto.",
+   "proveniencia": "Listado de venta (Globus Rare Books) de un manuscrito que traduce al francés un informe español de reconocimiento militar de la parte este de la isla, hecho por encargo del gobernador de Puerto Rico, Miguel de la Torre, tras un viaje de diciembre de 1823; según el librero describe tropas haitianas, puestos militares, demografía y disturbios en El Seibo. Solo se leyó el resumen que devolvió WebFetch de la página; no se vio el manuscrito.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-107",
+    "A-111"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Pista de archivo, no fuente citable: indica que la Capitanía General de Puerto Rico espió la parte este en 1823 y que existen copias en francés (¿ANOM/Archivo de Indias?). Las fechas y atribuciones del librero (p. ej. 'Boyer unificó la isla en 1820') no son fiables y no se repiten. Si el original está en AGI (Santo Domingo / Puerto Rico), es el tipo de informe que busca el crítico de completitud para 1822-1830."
+  }
+ ]
+}
