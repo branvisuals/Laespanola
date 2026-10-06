@@ -1,0 +1,2103 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M09",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 9,
+ "busquedas_pendientes": [
+  "Peña Batlle, Historia de la cuestión fronteriza dominico-haitiana: consulta de la edición de 1946/2012 en biblioteca física (ADH, Biblioteca Nacional, AGN) o préstamo; consulta Google Books/HathiTrust bajo búsqueda de palabras (Hincha, Las Caobas, 1844, 1856)",
+  "Gallica: texto plano de los dos memoriales de 1896 (texteBrut con verificación de seguridad; reintentar tras la espera o con autorización humana) y lectura de los demás pasajes (memoria haitiana pp. 16-43, 53-72 y anexos; memoria dominicana pp. 1-9 y 16-48 y sus 'documents')",
+  "Madiou, Histoire d'Haïti t. VIII (1843-1846): dLOC, AGN Koha (q=an:74380), ed. Deschamps 1989; HathiTrust record 011984236 cuando se permita el acceso",
+  "García, Guerra de la Separación Dominicana (1890/1994): texto de las pp. 72-73 (parte de Santana del 12-II-1856 sobre Las Caobas y Cachimán) y de la compilación completa",
+  "Quai d'Orsay (Archives diplomatiques, Correspondance politique Haïti vols. 10-13): consulta de los originales de Levasseur y Moges, y de las piezas 2 y 3 del acto del 16-XII-1843",
+  "dLOC: Le Moniteur haïtien 1844-1859 para los números sobre Hinche, Las Cahobas y la campaña de 1855-56 (AA00098214)",
+  "Colección de Leyes t. III (1855-1859), no localizada en Memoria Histórica (decretos Núm. 459 y 507 citados por la memoria haitiana, p. 49)",
+  "Senado Consultor 1856-1858 y 1854-1855: lectura completa (solo búsqueda de palabras); Consejo Conservador 1845-1848: lectura (solo búsqueda de palabras)",
+  "Búsquedas WebSearch previstas y no hechas: 'Recueil général des lois d'Haïti 1846-1860 texto' (t. IX-XI), 'Mémoire de la République Dominicaine à Léon XIII original español 1896', 'Clío 1941 Tejera documentos fronteriza' (otros números), 'rayanos 1844-1861 testimonio'"
+ ],
+ "lagunas": [
+  "Peña Batlle (1946) sigue sin texto: no hay PDF en línea y la estructura (qué libro trata 1844-1861) no se pudo verificar; Troncoso (1955) dice que solo se había publicado el primer tomo.",
+  "Los memoriales de 1896 de Haití y de la República Dominicana solo se pudieron leer por imagen (Gallica no dio texto plano); quedan sin leer sus anexos documentales (cartas, decretos de 1818-1857) y buena parte de la argumentación.",
+  "El t. VIII de Madiou (F-0106) no está en archive.org ni en Gallica y HathiTrust devuelve 403.",
+  "Los originales del Quai d'Orsay no se consultaron; el volumen de 1944 es selección parcial y deja fuera el acto n.º 1 del 16-XII-1843 y las piezas 2 y 3 que Levasseur menciona.",
+  "La Exposición del 15-XII-1843 solo existe en copia francesa certificada; no se localizó el original (¿español?) ni las firmas autógrafas de los otros cuatro firmantes.",
+  "Los habitantes de Hincha, Las Caobas, San Miguel, San Rafael y Bánica no tienen voz propia en ninguna de estas fuentes: todo viene de gobiernos, congresos y memoriales; los únicos datos son que no eligieron a sus diputados (1857), que eran «en general haitianos» (Bobadilla 1844; memoria dominicana de 1896) y que gente de esas comunes servía en el regimiento de Las Matas (1847).",
+  "No se localizó documentación haitiana primaria de 1844-1861 sobre el Plateau (decretos, partes, censos); el Recueil Linstant Pradine abierto en archive.org llega solo a 1845 (t. VIII).",
+  "El decreto electoral dominicano de 1844 (Núm. 14) y el de 1857 tienen el signo de repetición sin cifra para las cinco comunes: la interpretación (sin escaño asignado) se basa en la suma impresa y no está cotejada con el impreso original.",
+  "Las citas de la Memoria de Santana de 1860 en pp. 372 y 375 y de la Memoria del Recueil t. V no fueron cotejadas contra imagen."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Plan Levasseur",
+   "tradicion": "dominicana",
+   "nota": "Nombre que la historiografía dominicana (García, Coiscou Henríquez 1936-37) da al proyecto de protectorado francés de diciembre de 1843-1844; presupone la autoría del cónsul. Los firmantes de diciembre de 1843 lo llaman «exposición» y hablan de «protección»; la memoria haitiana de 1896 dice que Levasseur «en conçut le plan»; Levasseur dice que lo negoció «avec leurs véritables représentants»."
+  },
+  {
+   "termino": "«partie espagnole» / «les Espagnols» / «Espagnols haïtiens» (para los habitantes del Este en 1843-44)",
+   "tradicion": "francesa",
+   "nota": "Uso de Levasseur y Moges para el Este y su población; Hérard ya dice «Dominicains» en julio de 1843 y la prensa haitiana de octubre de 1844 «Haïtiens de l'Est»: tres nombres rivales del mismo grupo en el mismo año. Moges llama al Este «la plus grande moitié d'Haïti» (23-VII-1844)."
+  },
+  {
+   "termino": "Port Républicain / Puerto Republicano",
+   "tradicion": "haitiana",
+   "nota": "Nombre de Puerto Príncipe en diciembre de 1843-1844 en documentos franceses, dominicanos (la Exposición, la fecha de Levasseur) y haitianos (Le Manifeste); no figura en el glosario."
+  },
+  {
+   "termino": "marotas / maroteros (merodeo)",
+   "tradicion": "dominicana",
+   "nota": "Decreto de Santana 5-VIII-1854 (Colección de Leyes, Núm. 346): «el merodéo (vulgo las marotas)... merodistas (maroteros)»; el Mensaje del Gobierno Provisional de 1857 habla de «la antigua costumbre del merodeo». Término para el robo y tráfico de ganado a través de la línea."
+  },
+  {
+   "termino": "pueblos o comunes «que no hayan podido elegir»",
+   "tradicion": "dominicana",
+   "nota": "Fórmula del Congreso de Moca (9-XII-1857) para las comunes del Plateau (Hincha, San Miguel, San Rafael, Las Caobas, Bánica) cuyos diputados fueron designados por el propio Congreso; la ley de división territorial de 1858 los llama «pueblos... que dependen de la Provincia de Azua»."
+  },
+  {
+   "termino": "tregua",
+   "tradicion": "ninguna",
+   "nota": "Nombre que ambos Estados dan a las pausas de 1856-57 (Soulouque) y 1859-1864 (cinco años, bajo mediación de Francia e Inglaterra, Geffrard); Haití lo usa para evitar el «reconocimiento» de la independencia dominicana (memoria de 1896, p. 13)."
+  },
+  {
+   "termino": "fiction territoriale / possessions effectives",
+   "tradicion": "haitiana",
+   "nota": "Términos de la memoria haitiana de 1896 (p. 15) para la doctrina de la isla entera («fiction») frente a la posesión efectiva que sustituye en 1867-1874; los haitianos la llaman también «unité de territoire et de souveraineté» (p. 13) y Boyer en 1830 «propriété indivisible»."
+  },
+  {
+   "termino": "statu quo post bellum de 1856 / uti possidetis de 1874",
+   "tradicion": "ninguna",
+   "nota": "Las dos lecturas rivales del art. 4 del tratado de 1874 («possessions actuelles»): la dominicana (1856) y la haitiana (1874); la fecha de 1856 se menciona por primera vez en 1883 según Haití (memoria de 1896, p. 45)."
+  },
+  {
+   "termino": "fusion (paz y fusión entre las dos repúblicas)",
+   "tradicion": "haitiana",
+   "nota": "El presidente haitiano Domingue en enero de 1875 (Le Moniteur, 23-I-1875) habla de «rétablir la paix et la fusion entre la République d'Haïti et la République Dominicaine»: uso oficial haitiano de «fusion» para la reconciliación entre dos repúblicas, relevante para los sentidos de «fusión» en el debate sobre Duarte."
+  },
+  {
+   "termino": "acogidos en Haití",
+   "tradicion": "dominicana",
+   "nota": "Santana (1860) para los dominicanos de la frontera sur que se refugiaron en Haití tras la derrota de la «facción» de Domingo Ramírez; con «traidores» y «sublevados» es el vocabulario oficial."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Correspondencia de Levasseur y de otros agentes de Francia relativa a la Proclamación de la República Dominicana, 1843-1844 (Colección Trujillo, Publicaciones del Centenario de la República; Documentos y estudios históricos; Santiago de los Caballeros, Editorial El Diario, 1944)",
+   "autor": "Levasseur (cónsul general de Francia en Haití; nombre de pila no consta en el volumen); Moges, Alphonse de (contralmirante); Guizot, François (ministro); Barrot, Adolphe; Juchereau de Saint-Denys, Eustache; Fresnel, D. J.; ed. Coiscou Henríquez, Máximo; dir. Peña Batlle, Manuel Arturo",
+   "anio": "1944 (documentos de 1843-1844)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf",
+   "urls_alternativas": [
+    "http://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-search.pl?q=ti%3ACorrespondencia+de+Levasseur"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Transcripción fiel (imagen nítida, capa OCR ruidosa) de despachos originales del archivo diplomático francés, pero selección parcial confesada por los editores y agentes con interés directo en un protectorado, que informan de oídas sobre lo que ocurría en Santo Domingo.",
+   "proveniencia": "Documentos escogidos por el licenciado Máximo Coiscou Henríquez en el archivo del Ministerio de Negocios Extranjeros de Francia (despachos de Levasseur, del contralmirante Moges, del comisario Barrot y del cónsul Juchereau de Saint-Denys, con anexos de prensa y proclamas), transcritos por un auxiliar paleógrafo de la misión dominicana en París y publicados en 1944 por el Gobierno dominicano en la Colección Trujillo (dirigida por Peña Batlle) para el centenario de la República; Coiscou los había publicado ya con notas en Clío 1936-1937. La propia nota explicativa avisa que la mirada es «esencialmente parcial» a favor de un protectorado francés. Registro Koha de la ADH: Colección Trujillo, Serie 3, Documentos y estudios históricos, vol. 2 (la portada OCR lee «III»).",
+   "extractos": [
+    {
+     "ubicacion": "Nota explicativa de los editores, p. VIII impr. (PDF p. 8); cotejada en imagen",
+     "cita_original": "El análisis de las circunstancias históricas se enfoca desde un punto de vista esencialmente parcial, proyectándolo siempre en el sentido de las posibilidades y conveniencias que para Francia ofrece un protectorado sobre el territorio.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 3, Levasseur a Guizot, Port-au-Prince, 6-III-1843 (Fol. 250 v.), p. 31 impr. (PDF p. 47)",
+     "cita_original": "la Partie Espagnolle veut aussi faire son insurrection, mais les sentiments qui détermineraient cette population à prendre les armes contre le Président Boyer ne seraient pas de même nature que ceux qui ont soulevé le Sud.",
+     "traduccion": "la parte española también quiere hacer su insurrección, pero los sentimientos que llevarían a esa población a tomar las armas contra el presidente Boyer no serían de la misma naturaleza que los que sublevaron al Sur.",
+     "afirmaciones": [
+      "A-118",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 3, misma carta (Fol. 250 v.-251), p. 31 impr. (PDF p. 47)",
+     "cita_original": "Cette portion du territoire qui appartenait autrefois à l'Espagne, est peuplée d'une race d'hommes qui n'a jamais pu, et qui ne pourra jamais, sympathiser avec la race noire.",
+     "traduccion": "Esta porción del territorio que antes pertenecía a España está poblada por una raza de hombres que nunca ha podido, ni podrá jamás, simpatizar con la raza negra. [Percepción racializada de un cónsul francés en 1843, no un hecho: es el lente con que el agente que impulsa el protectorado describe a sus interlocutores.]",
+     "afirmaciones": [
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 3, misma carta (Fol. 251-251 v.), pp. 31-32 impr. (PDF pp. 47-48)",
+     "cita_original": "Cette population espagnole qui s'élève à peine à 100,000 âmes [...] pourra-t-elle conserver son indépendance contre des adversaires six fois plus nombreux ? Cela n'est pas probable, et les Espagnols eux-mêmes le comprennent si bien qu'ils songent, dit-on, à se placer sous une protection étrangère.",
+     "traduccion": "Esta población española que apenas llega a 100.000 almas [...] ¿podrá conservar su independencia frente a adversarios seis veces más numerosos? No es probable, y los españoles mismos lo comprenden tan bien que piensan, según se dice, en ponerse bajo una protección extranjera. [Cifra: ~100.000 (este) frente a ~600.000 (resto de la isla), estimación del cónsul sin base declarada.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30, Levasseur a Guizot, Port-au-Prince, 31-XII-1843, n.º 93 (Fol. 261), p. 238 impr. (PDF p. 254)",
+     "cita_original": "les hommes les plus éminents et les plus éclairés de cette population, rêvaient une scission à la suite de laquelle ils pourraient rendre à leur province le caractère de nationalité espagnole",
+     "traduccion": "los hombres más eminentes e ilustrados de esa población soñaban con una escisión tras la cual podrían devolver a su provincia el carácter de nacionalidad española. [Relato del cónsul sobre 1838-1842; usa «scission» y «nationalité espagnole», no «indépendance».]",
+     "afirmaciones": [
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30 (Fol. 263), p. 241 impr. (PDF p. 257)",
+     "cita_original": "Effrayé, avec raison, des malheureuses conséquences que pourrait avoir, pour les intérêts français, l'influence de l'action directe de l'Angleterre, ou même de l'Espagne [...] je ne négligeai rien pour éloigner, pour empêcher, l'établissement de cette influence.",
+     "traduccion": "Alarmado, con razón, por las desgraciadas consecuencias que podría tener para los intereses franceses la influencia directa de Inglaterra, o incluso de España [...] no descuidé nada para alejar, para impedir, el establecimiento de esa influencia. [Móvil declarado del cónsul: interés francés frente a Inglaterra y España.]",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30 (Fol. 265 v.), p. 245 impr. (PDF p. 261)",
+     "cita_original": "Les Espagnols sont venus au-devant de tous mes désirs, et c'est avec leurs véritables représentants librement élus par le peuple que j'ai repris mes négociations.",
+     "traduccion": "Los españoles han salido al encuentro de todos mis deseos, y es con sus verdaderos representantes, libremente elegidos por el pueblo, con quienes he retomado mis negociaciones. [Afirmación del cónsul sobre su interlocutor; «libremente elegidos» no se corrobora aquí.]",
+     "afirmaciones": [
+      "A-127",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30 (Fol. 266), p. 246 impr. (PDF p. 262)",
+     "cita_original": "le 16 décembre j'ai consenti à recevoir, des mains de sept des représentants de la province espagnole, l'acte par lequel ils placent, au nom de leurs commettants, leur territoire sous la puissante protection de la France",
+     "traduccion": "el 16 de diciembre consentí en recibir, de manos de siete de los representantes de la provincia española, el acta por la cual colocan, en nombre de sus comitentes, su territorio bajo la poderosa protección de Francia.",
+     "afirmaciones": [
+      "A-127",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30 (Fol. 268), p. 248 impr. (PDF p. 264) y (Fol. 268 v.) p. 249 impr. (PDF p. 265); cotejado en imagen en p. 249",
+     "cita_original": "A Santo Domingo est un prêtre d'une haute influence et tout dévoué aux idées d'un protectorat français. [...] Le Vicaire Général Portes (c'est le nom de ce vénérable ecclésiastique) exerce déjà une grande autorité sur tous les prêtres de son diocèse.",
+     "traduccion": "En Santo Domingo hay un sacerdote de gran influencia y totalmente adicto a las ideas de un protectorado francés. [...] El vicario general Portes (es el nombre de este venerable eclesiástico) ejerce ya una gran autoridad sobre todos los sacerdotes de su diócesis.",
+     "afirmaciones": [
+      "A-127",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 30 (Fol. 268 v.-269), pp. 249-250 impr. (PDF pp. 265-266); cotejado en imagen en p. 249",
+     "cita_original": "A St. Yaque réside un Général Vasquez, dont la réputation est grande parmi les Espagnols. A Azua, commande le Général Mendoza qui jouit aussi d'une grande popularité.",
+     "traduccion": "En Santiago reside un general Vásquez, de gran reputación entre los españoles. En Azua manda el general Mendoza, que goza también de gran popularidad. [El cónsul los cita como hombres ya favorables al protectorado.]",
+     "afirmaciones": [
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 32, Levasseur a Guizot, Port-au-Prince, 7-VII-1844, n.º 110 (Fol. 9 v.-10), p. 264 impr. (PDF p. 280); cotejado en imagen",
+     "cita_original": "Mes premières conférences eurent lieu d'abord avec le Ministre de la Justice, Mr. Ferri, qui n'hésita pas à reconnaître presque spontanément que le Gouvernement haïtien était désormais dans l'impuissance de faire rentrer les Espagnols sous son obéissance.",
+     "traduccion": "Mis primeras conferencias fueron con el ministro de Justicia, Sr. Ferri, que no vaciló en reconocer casi espontáneamente que el Gobierno haitiano era en adelante impotente para hacer volver a los españoles a su obediencia. [Relato del cónsul de una posición haitiana de junio de 1844; sin contraparte haitiana en este volumen.]",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 32 (Fol. 11-11 v.), pp. 265-266 impr. (PDF pp. 281-282)",
+     "cita_original": "une occupation territoriale enfin, qui ne pouvait être que celle de Samana concédée par les Espagnols reconnus indépendans par la République d'Haïti sous le protectorat de la France",
+     "traduccion": "una ocupación territorial, en fin, que no podía ser sino la de Samaná, concedida por los españoles reconocidos independientes por la República de Haití bajo el protectorado de Francia. [Conferencia del 15-VI-1844 entre Levasseur, Moges y ministros haitianos, según Levasseur.]",
+     "afirmaciones": [
+      "A-133",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 33, contralmirante Moges al ministro de Marina, a bordo de «La Néréide», 8-VII-1844, n.º 66 (Fol. 17), p. 273 impr. (PDF p. 289)",
+     "cita_original": "Cette situation, si nous savons, non pas la déserter mais l'accueillir et en profiter, c'est la reprise ou conquête morale de l'ancienne St. Domingue.",
+     "traduccion": "Esta situación, si sabemos no desertar de ella sino acogerla y aprovecharla, es la reconquista o conquista moral de la antigua Saint-Domingue. [Móvil francés explícito del jefe naval.]",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 33 (Fol. 18 v.), p. 275 impr. (PDF p. 291)",
+     "cita_original": "Il se montrait disposé à reconnaître l'indépendance de l'Est sous notre protectorat et médiation, à la condition large d'un sursis qui trouvait dans cette mesure sa garantie réelle.",
+     "traduccion": "[El gabinete haitiano] se mostraba dispuesto a reconocer la independencia del Este bajo nuestro protectorado y mediación, con la amplia condición de una prórroga que hallaba en esa medida su garantía real. [Versión de Moges sobre el gabinete provisional haitiano de junio de 1844.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 33 (Fol. 19 v.-20), p. 277 impr. (PDF p. 293)",
+     "cita_original": "une faible minorité s'emporte, déteste la France, veut l'indépendance absolue, conteste fièrement le droit d'aliéner Samana. Cette minorité profitant de la mort d'un des braves frères Santana, fait sa petite révolution ou renversement de Junte, à Sto. Domingo le 9 Juin",
+     "traduccion": "una débil minoría se exalta, detesta a Francia, quiere la independencia absoluta y disputa con altivez el derecho de enajenar Samaná. Esa minoría, aprovechando la muerte de uno de los bravos hermanos Santana, hace su pequeña revolución o derribo de la Junta en Santo Domingo el 9 de junio. [Perspectiva francesa hostil a la minoría duartista.]",
+     "afirmaciones": [
+      "A-131",
+      "A-130",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 33 (Fol. 19 v.-20), p. 277 impr. (PDF p. 293)",
+     "cita_original": "ses chefs s'empressent de déclarer au Consul que rien n'est changé dans les demandes ou promesses à la France",
+     "traduccion": "sus jefes se apresuran a declarar al cónsul que nada ha cambiado en las peticiones o promesas a Francia. [Tras el 9 de junio de 1844 el grupo que desplazó a la Junta de Bobadilla ratificó, según Moges, la petición de protectorado.]",
+     "afirmaciones": [
+      "A-127",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 34, Moges al ministro de Marina, 17-VII-1844, n.º 73 (Fol. 24), p. 282 impr. (PDF p. 298)",
+     "cita_original": "Les agitateurs principaux sont un général Duarte, jeune homme sans service comme sans réputation, et un ancien esclave nommé Puello qui commande la Place de Santo Domingo.",
+     "traduccion": "Los agitadores principales son un general Duarte, joven sin servicios ni reputación, y un antiguo esclavo llamado Puello que manda la plaza de Santo Domingo. [Descripción de un oficial francés partidario de Santana y del protectorado; no es juicio neutral.]",
+     "afirmaciones": [
+      "A-131",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 34 (Fol. 24-24 v.), pp. 282-283 impr. (PDF pp. 298-299)",
+     "cita_original": "Ces deux hommes, après s'être mutuellement donné des grades, à la tête de quelques centaines de noirs, se sont emparés de la Junte dont ils ont éliminé plusieurs membres.",
+     "traduccion": "Esos dos hombres, tras haberse dado mutuamente grados, a la cabeza de unos cientos de negros, se han apoderado de la Junta de la que han eliminado a varios miembros. [Mismo sesgo; confróntese con el decreto de la Junta de 22-VIII-1844 en la Colección de Leyes.]",
+     "afirmaciones": [
+      "A-131",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 34 (Fol. 25), p. 283 impr. (PDF p. 299)",
+     "cita_original": "Enfin, le 12 au soir, ce brave soldat à qui sa Patrie doit en grande partie son indépendance, a fait son entrée, avec environ deux mille hommes bien armés, dans la ville où il a été reçu avec enthousiasme.",
+     "traduccion": "Por fin, el 12 por la noche, ese bravo soldado a quien su patria debe en gran parte su independencia ha hecho su entrada, con unos dos mil hombres bien armados, en la ciudad donde fue recibido con entusiasmo. [~2.000 hombres: estimación de Moges.]",
+     "afirmaciones": [
+      "A-131",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 34 (Fol. 25 v.-26), p. 283 impr. (PDF p. 299)",
+     "cita_original": "C'est un homme sans culture, mais au cœur droit, désintéressé et dévoué à sa patrie. Il est dévoué aussi à la cause de la protection française.",
+     "traduccion": "Es un hombre sin cultura, pero de corazón recto, desinteresado y devoto de su patria. Está también adicto a la causa de la protección francesa. [Santana, según Moges, 17-VII-1844.]",
+     "afirmaciones": [
+      "A-127",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 34 (Fol. 27-27 v.), p. 285 impr. (PDF p. 301)",
+     "cita_original": "du Général en chef Santana, l'homme important du Pays, et de l'État-Major général de son armée qu'on évalue à quatre à cinq mille hommes",
+     "traduccion": "del general en jefe Santana, el hombre importante del país, y del Estado Mayor general de su ejército que se evalúa en cuatro a cinco mil hombres. [Cifra de un oficial extranjero sin base declarada.]",
+     "afirmaciones": [
+      "A-119",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 35, Levasseur a Guizot, 18-VII-1844, n.º 111 (Fol. 31 v.), p. 288 impr. (PDF p. 304)",
+     "cita_original": "ils sentaient maintenant la faute qu'ils avaient commise de ne s'être point décidés, après la conférence du 15 juin, à proposer au Gouvernement français, comme base du sursis sollicité, l'indépendance de la partie de l'Est, sous le protectorat de la France",
+     "traduccion": "sentían ahora la falta que habían cometido al no decidirse, tras la conferencia del 15 de junio, a proponer al Gobierno francés, como base de la prórroga solicitada, la independencia de la parte del Este bajo el protectorado de Francia. [Los ministros haitianos, según Levasseur.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 36, Guizot a Levasseur, París, 20-VII-1844 (Fol. 43), p. 292 impr. (PDF p. 308); cotejado en imagen",
+     "cita_original": "La partie espagnole de l'Île était Indépendante de fait et déjà constituée en un État séparé.",
+     "traduccion": "La parte española de la isla era independiente de hecho y estaba ya constituida en un Estado separado. [Descripción del ministro francés de la situación hacia mayo de 1844.]",
+     "afirmaciones": [
+      "A-117",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 36 (Fol. 44 v.-45), pp. 292-293 impr. (PDF pp. 308-309)",
+     "cita_original": "le gouvt du Roi, après avoir balancé les avantages et les inconvéniens d'une occupation de territoire dans Haïti, a reconnu que les inconvéniens l'emportaient de beaucoup sur les avantages et qu'il ne convenait point à la France de reprendre pied sur le sol de cette île",
+     "traduccion": "el gobierno del Rey, tras sopesar las ventajas y los inconvenientes de una ocupación de territorio en Haití, ha reconocido que los inconvenientes superaban con mucho a las ventajas y que no convenía a Francia volver a poner pie en el suelo de esta isla.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 36 (Fol. 47-47 v.), pp. 294-295 impr. (PDF pp. 310-311)",
+     "cita_original": "Nous avons reconnu l'indépendance d'Haïti et nous entendons la respecter, soit que l'unité de l'État haïtien continue de subsister, soit qu'il se divise en plusieurs États [...] Disposés à reconnaître les divers États qui pourraient s'y former",
+     "traduccion": "Hemos reconocido la independencia de Haití y entendemos respetarla, ya subsista la unidad del Estado haitiano, ya se divida en varios Estados [...] Dispuestos a reconocer los diversos Estados que pudieran formarse allí.",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 37, Moges al ministro de Marina, 23-VII-1844, n.º 74 (Fol. 52-52 v.), pp. 297-298 impr. (PDF pp. 313-314)",
+     "cita_original": "L'Est est indépendant par le succès de ses armes et nous appelle malgré ses agitations. [...] Ce Gouvernement avait paru prendre son parti de la séparation de l'Est et être décidé à reconnaître la séparation et l'indépendance de cette plus grande moitié d'Haïti sous notre protection",
+     "traduccion": "El Este es independiente por el éxito de sus armas y nos llama pese a sus agitaciones. [...] Ese Gobierno había parecido resignarse a la separación del Este y decidido a reconocer la separación y la independencia de esa mayor mitad de Haití bajo nuestra protección. [Moges usa «séparation» e «indépendance» como sinónimos y llama al Este «la plus grande moitié d'Haïti».]",
+     "afirmaciones": [
+      "A-117",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 39, Guizot a Levasseur, 25-VII-1844 (Fol. 72 v.-73), p. 315 impr. (PDF p. 331)",
+     "cita_original": "Nous approuvons, Monsieur, la portion de votre plan consistant à faire sortir [...] la reconnaissance formelle de la République de Santo Domingo par le Gouvernement haïtien lui-même sous notre médiation et sous notre garantie.",
+     "traduccion": "Aprobamos, señor, la parte de su plan que consiste en hacer salir [...] el reconocimiento formal de la República de Santo Domingo por el propio Gobierno haitiano bajo nuestra mediación y nuestra garantía. [Pero véase la negativa a ocupar Samaná en la misma carta.]",
+     "afirmaciones": [
+      "A-133",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 40, Levasseur a Guizot, Puerto Republicano, 26-VII-1844 (Fol. 77 v.-78), p. 320 impr. (PDF p. 336); cotejado en imagen",
+     "cita_original": "Ce démembrement de la partie de l'Est m'épouvante, il serait notre ruine, car c'est dans la partie espagnole surtout que sont les ressources que nous pourrons exploiter le plus promptement et le plus avantageusement. Nous avons là des mines, des bois, dont nous pouvons tirer de grandes richesses.",
+     "traduccion": "Este desmembramiento de la parte del Este me espanta, sería nuestra ruina, pues es en la parte española sobre todo donde están los recursos que podremos explotar más pronto y con más ventaja. Allí tenemos minas, bosques, de los que podemos sacar grandes riquezas. [Palabras atribuidas por Levasseur al enviado haitiano Dupuy; motivo económico, de segunda mano.]",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 40 (Fol. 79 v.), p. 323 impr. (PDF p. 339)",
+     "cita_original": "il nous sera facile d'organiser une bonne armée de six à huit mille hommes avec laquelle nous aurons bientôt remis la partie espagnolle sous l'obéissance de la République",
+     "traduccion": "nos será fácil organizar un buen ejército de seis a ocho mil hombres con el cual pronto habremos vuelto a someter la parte española a la obediencia de la República. [Plan haitiano de julio de 1844 según Dupuy vía Levasseur; cifra de proyecto, no de efectivos reales.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 41, Moges al ministro de Marina, 28-VII-1844 (Fol. 84 v.), p. 330 impr. (PDF p. 346) y p. 331",
+     "cita_original": "Cette partie espagnole, dite maintenant République Dominicaine, offre cette singularité, peu grave au fond, de deux présidents, ou Chefs suprêmes de cette société.",
+     "traduccion": "Esta parte española, llamada ahora República Dominicana, ofrece la singularidad, poco grave en el fondo, de dos presidentes, o jefes supremos de esa sociedad. [Duarte y Santana en julio de 1844.]",
+     "afirmaciones": [
+      "A-131",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 41 (Fol. 84 v.-85), p. 331 impr. (PDF p. 347)",
+     "cita_original": "Entre cet homme vaillant, patriote, généreux, et le général Duarte, sans influence militaire aucune, il est probable que la masse des habitans, l'armée et les événements n'hésiteront pas longtemps.",
+     "traduccion": "Entre ese hombre valiente, patriota, generoso [Santana, «véritable libérateur de son pays»] y el general Duarte, sin influencia militar alguna, es probable que la masa de los habitantes, el ejército y los acontecimientos no vacilen mucho tiempo.",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 42, J. D. Fresnel (francés residente en Santo Domingo) a Levasseur, 20-VIII-1844 (Fol. 120), p. 334 impr. (PDF p. 350)",
+     "cita_original": "Duarte et ses collègues s'emparèrent du pouvoir, et menacèrent tous ceux qui étaient français ou d'origine française ; cherchant à tourner l'esprit des noirs, et à leur faire entendre que la demande du protectorat avait pour but non seulement de livrer une portion du territoire à la France, mais encore d'y rétablir l'esclavage.",
+     "traduccion": "Duarte y sus colegas se apoderaron del poder y amenazaron a todos los que eran franceses o de origen francés; procurando volver contra ellos el ánimo de los negros y hacerles entender que la petición de protectorado tenía por objeto no solo entregar una porción del territorio a Francia sino además restablecer allí la esclavitud. [Testimonio de un protegido de Levasseur, hostil a Duarte.]",
+     "afirmaciones": [
+      "A-131",
+      "A-132",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 44, Levasseur a Guizot, Port-au-Prince, 21-X-1844 (Fol. 128), p. 344 impr. (PDF p. 360)",
+     "cita_original": "Payer à la France le terme échu pour ôter tout prétexte à cette puissance de s'opposer aux hostilités. Fabriquer quelques millions de gourdes en papier pour subvenir aux frais de la guerre.",
+     "traduccion": "Pagar a Francia el plazo vencido para quitarle todo pretexto de oponerse a las hostilidades. Fabricar algunos millones de gourdes en papel para costear la guerra. [Plan haitiano de reconquista del Este (octubre de 1844) según Levasseur.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 47, Guizot a Levasseur, París, 20-XI-1844 (Fol. 151 v.), p. 363 impr. (PDF p. 379)",
+     "cita_original": "Il importe que Mr Juchereau de St Denis renonce définitivement à ce projet [le protectorat] [...] nous lui prêterons volontiers nos bons offices pour le faire reconnaître par l'ancienne partie française, mais nous ne nous engagerons pas pour elle dans un protectorat officiel",
+     "traduccion": "Importa que el Sr. Juchereau de Saint-Denys renuncie definitivamente a ese proyecto [el protectorado] [...] le prestaremos de buen grado nuestros buenos oficios para que sea reconocida por la antigua parte francesa, pero no nos comprometeremos por ella en un protectorado oficial.",
+     "afirmaciones": [
+      "A-127",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-130",
+    "A-131",
+    "A-132",
+    "A-133"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Volumen de 389 páginas PDF (impresa = PDF-16; verificado con imágenes en pp. 249, 264, 292, 311-313, 320, 353, 371-372). Se leyeron los documentos 3, 17, 30-32, 33-42, 44-45 y 47 y el apéndice; no se leyeron íntegros los 1-29 (marzo-diciembre de 1843, sobre la revolución haitiana y la misión Barrot). Distinto de la traducción de 1996 de la Correspondencia de Saint-Denys (M09-N57): aquí el texto francés original de Levasseur y Moges. Hallazgo clave para A-127: el «Plan Levasseur» está documentado en un acto fechado en «Port Républicain, 15 Xbre 1843», copia certificada el 12-I-1844 (ficha propia), antes del Manifiesto del 16-I-1844 y del 27-II-1844. Sesgos: Levasseur magnifica su papel (se atribuye haber fomentado el movimiento desde 1842), Moges y Fresnel son hostiles a Duarte y a los haitianos; nada de esto prueba por sí solo el sentir dominicano. Los folios citados son los del archivo francés (Corr. politique, Haïti, vols. 10-13). [POR VERIFICAR: los originales del Quai d'Orsay; el nombre de pila de Levasseur.]"
+  },
+  {
+   "titulo": "Exposición de los habitantes de la parte española de Santo Domingo al Gobierno francés solicitando su protección para constituirse en República independiente y ofreciendo la península de Samaná («Plan Levasseur»), Puerto Republicano / Port Républicain, 15-XII-1843, copia certificada de 12-I-1844 (doc. 31 de la Correspondencia de Levasseur)",
+   "autor": "Báez, Buenaventura; Valencia, Manuel María; Díaz de Peña, José (Santiago); Texera [Tejera], Nepomuceno; Abreu, Francisco X.; Roxas, M. A.; Castillo, Remigio del",
+   "anio": "1843 (copia certificada 1844)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf#page=267",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento redactado por sus propios firmantes y enviado a Francia, pero conservado solo en copia francesa certificada (solo tres firmas autógrafas) y editado desde un volumen con sesgo pro-protectorado.",
+   "proveniencia": "Exposición dirigida al Gobierno francés por siete representantes de la «province espagnole» en Puerto Príncipe (llamado entonces «Port Républicain»): Buenaventura Báez, Manuel María Valencia, José Díaz de Peña, Nepomuceno Texera, Francisco X. Abreu, M. A. Roxas y Remigio del Castillo. Levasseur dice que el 16-XII-1843 recibió «de manos de siete de los representantes» el acta (n.º 1) que coloca su territorio bajo protección de Francia; el volumen anexa esta pieza a su despacho del 31-XII-1843 (que sea ese mismo acta n.º 1 es inferencia). García (citado por la memoria haitiana de 1896) dice que eran en su mayoría diputados a la Asamblea Constituyente haitiana. La pieza del archivo es una copia certificada el 12-I-1844; contiene un resumen de agravios del Este desde 1821 y seis bases de protectorado. Se publicó en 1944 con traducción castellana (apéndice).",
+   "extractos": [
+    {
+     "ubicacion": "Doc. 31, anexo al 30, «Port Républicain, 15 Xbre 1843» (Fol. 270-282), p. 253 impr. (PDF p. 269)",
+     "cita_original": "Ce qui touchait les anciens maîtres, ce n'était point l'abolition de l'esclavage, puisque c'avait été un fait admis du jour où l'on avait projeté l'indépendance politique, mais c'étaient les moyens, c'était la manière d'agir avec lesquels on accomplissait cette mesure au milieu d'un peuple simple, bon et de bonne foi.",
+     "traduccion": "Lo que afectaba a los antiguos amos no era la abolición de la esclavitud, puesto que había sido un hecho admitido desde el día en que se proyectó la independencia política, sino los medios, la manera de obrar con que se cumplía esa medida en medio de un pueblo sencillo, bueno y de buena fe. [Grupo de elite de 1843 sobre 1822; texto conservado en copia francesa.]",
+     "afirmaciones": [
+      "A-132",
+      "A-129",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 31 (Fol. 275 v.), p. 255 impr. (PDF p. 271)",
+     "cita_original": "il donna des ordres réitérés pour que tous les actes publics se fissent en français, ce qui revenait à dire qu'aucun habitant de l'Est ne pourrait plus être employé",
+     "traduccion": "dio órdenes reiteradas para que todos los actos públicos se hicieran en francés, lo que equivalía a decir que ningún habitante del Este podría ya ser empleado. [Agravio lingüístico y de exclusión de cargos; énfasis en la administración de Boyer.]",
+     "afirmaciones": [
+      "A-118",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 31 (Fol. 280 v.-281), p. 259 impr. (PDF p. 275)",
+     "cita_original": "fidèles à leurs habitudes de vandalisme, ils pilleraient les restes des propriétés particulières échappés aux flammes, violeraient les femmes et profaneraient les temples.",
+     "traduccion": "fieles a sus costumbres de vandalismo, saquearían los restos de las propiedades particulares salvados de las llamas, violarían a las mujeres y profanarían los templos. [Retórica sobre las tropas haitianas en caso de guerra civil, en un texto escrito para obtener la ayuda francesa.]",
+     "afirmaciones": [
+      "A-129",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 31 (Fol. 281), p. 259 impr. (PDF p. 275), estipulación 1",
+     "cita_original": "La Partie orientale de l'île de St. Domingue connue comme Espagnole, prendra le nom de République Dominicaine, libre et indépendante, s'administrant par elle-même.",
+     "traduccion": "La parte oriental de la isla de Santo Domingo conocida como Española tomará el nombre de República Dominicana, libre e independiente, administrándose por sí misma. [El nombre «República Dominicana» ya figura en diciembre de 1843.]",
+     "afirmaciones": [
+      "A-127",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 31 (Fol. 282), p. 260 impr. (PDF p. 276), estipulación 4",
+     "cita_original": "Le Gouvernement Français nommera un gouverneur chargé du pouvoir exécutif, dont les fonctions dureront dix ans ; néanmoins, la France s'engage à ne point retirer ce gouverneur si le Sénat de la République décrétait la continuation de ses fonctions.",
+     "traduccion": "El Gobierno francés nombrará un gobernador encargado del poder ejecutivo, cuyas funciones durarán diez años; no obstante, Francia se compromete a no retirarlo si el Senado de la República decretase la continuación de sus funciones.",
+     "afirmaciones": [
+      "A-127",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 31 (Fol. 282), p. 260 impr. (PDF p. 276), estipulación 6",
+     "cita_original": "En reconnaissance de la haute protection de la France, la nouvelle République fera l'abandon de la presqu'île de Samana et la cédera à la France.",
+     "traduccion": "En reconocimiento de la alta protección de Francia, la nueva República hará abandono de la península de Samaná y la cederá a Francia.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, traducción castellana de la pieza 31, pp. 371-372 impr. (PDF pp. 387-388); cotejado en imagen",
+     "cita_original": "Firmados: Buenaventura Baez — M. M. Valencia — José Díaz de Peña — Nepomuceno Texera — Francisco X. Abreu — M. A. Roxas — Remigio de[l] Castillo. Por copia conforme: Puerto Republicano. 12 Enero 1844.",
+     "traduccion": "[Siete firmantes. Nota 2 de los editores: «Sólo las firmas de José Santiago Díaz de Peña, Buenaventura Baez y M. M. Valencia, que van al final del documento, son autógrafas.»] [«Nepomuceno Texera» coincide en nombre con el J. N. Tejera, diputado por San Rafael en 1844: identidad probable, no verificada.]",
+     "afirmaciones": [
+      "A-118",
+      "A-127",
+      "A-130"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-130",
+    "A-132"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "El volumen la llama «Exposición»; la historiografía dominicana (García, Coiscou) la incluye en el «Plan Levasseur». Ninguno de los firmantes es Santana ni Duarte: es el grupo de Báez, Valencia y Díaz de Peña, que luego figuran en el Congreso de San Cristóbal. El texto es traducción al francés de un original (probablemente español) no localizado [POR VERIFICAR]. Léase con el despacho 30 (31-XII-1843) del que es anexo. Contraste con A-132: aquí el abolicionismo se presenta como hecho admitido desde 1821; el agravio es el modo."
+  },
+  {
+   "titulo": "Comunicación de la Junta Central Gubernativa al cónsul de Francia Juchereau de Saint-Denys sobre el reconocimiento y protección de Francia, con adhesión de Pedro Santana y del Estado Mayor del ejército del Sur, Santo Domingo, 12-VII-1844 (doc. 38 de la Correspondencia de Levasseur)",
+   "autor": "Junta Central Gubernativa (firma «Fdo. Sanchez», presidente; Mercenario, Delorve, Jimenes, Pujol, Moreno); adhesión de Santana, Díaz, Tavera, Duvergé, Alfau y otros del Estado Mayor del ejército del Sur",
+   "anio": "1844",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf#page=328",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto español de una comunicación oficial con lista de firmantes, copiado en el archivo francés (fol. 69) y leído en la imagen del impreso; es copia, no el original, y su finalidad es persuadir al cónsul.",
+   "proveniencia": "Nota enviada por la Junta Central Gubernativa de Santo Domingo a Juchereau de Saint-Denys el 12-VII-1844, el mismo día de la entrada de Santana en la capital, para desmentir la prensa haitiana que decía que los dominicanos querían volver a Haití y repudiaban el protectorado francés. El cónsul la transmitió a Levasseur y a Moges; Moges la menciona el 17-VII-1844 y la anexó a su despacho a París del 23-VII-1844 (n.º 74). Destinatario: el Gobierno francés; interés: obtener reconocimiento y protectorado.",
+   "extractos": [
+    {
+     "ubicacion": "Doc. 38, anexo al n.º 37 (Fol. 69), p. 312 impr. (PDF p. 328); cotejado en imagen",
+     "cita_original": "Dios Patria y Libertad. República Dominicana. Santo-Domingo, Julio 12 de 1844 y 1º de la Patria. La Junta Central Gubernativa. Al Señor Eustaquio de Juchereau de St. Denis, cónsul de S. M. el Rey de los Franceses.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-116",
+      "A-117",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 38 (Fol. 69), p. 312 impr. (PDF p. 328); cotejado en imagen",
+     "cita_original": "Un artículo impreso en la capital de Puerto Príncipe, y algunas noticias de particulares nos han hecho conocer que el Gobierno Haitiano se cree que los Dominicanos tienen ideas de unirse bajo su antigua dominación y que repugnan la protección de La Francia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-127",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 38, pp. 312-313 impr. (PDF pp. 328-329); cotejado en imagen",
+     "cita_original": "no queremos guardar un silencio que podría acreditar semejante falsedad, por lo que nos dirigimos a Vd. con respecto al reconocimiento y protección de la Francia, lo que deseamos concluir definitivamente tan pronto como se presenten agentes de S. M. el Rey de los franceses con poderes suficientes al efecto.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 38, p. 313 impr. (PDF p. 329); cotejado en imagen",
+     "cita_original": "el Presidente de la Junta Fdo. Sanchez. Félix Mercenario. Delorves. Jimenez. C. Pujol. C. Moreno. [...] Pedro Santana. Lucas Dias. Fernando Tabera. A. Dubergé. Juan Francisco. Mariano. Pedro Linarès. Abad Alfau.",
+     "traduccion": "[Lista de firmantes: Junta Central Gubernativa y, aparte, el Estado Mayor del ejército del Sur. El nombre de pila de «Sanchez» no consta; la historiografía lo identifica con Francisco del Rosario Sánchez, presidente de la Junta tras el 9 de junio de 1844 [POR VERIFICAR].]",
+     "afirmaciones": [
+      "A-127",
+      "A-131",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 38, p. 313 impr. (PDF p. 329); cotejado en imagen",
+     "cita_original": "Nos, General y Estado Mayor de la Armada Dominicana del Sud, habiendo sido informados a nuestra entrada en esta ciudad de la presente carta dirigida al Señor Cónsul, nos asociamos de corazón a los sentimientos en ella expresados y ofrecemos defendernos contra todos aquellos que fueren de opinión contraria. Sto. Domingo 12 de Julio 1844 año 1o.",
+     "traduccion": "[La adhesión de Santana y su Estado Mayor lleva la fecha de su entrada en la capital, el 12 de julio de 1844.]",
+     "afirmaciones": [
+      "A-127",
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-127",
+    "A-130",
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Muestra que la petición de protectorado no era solo del grupo conservador: la nota lleva la firma del presidente de la Junta (identificado en la tradición con F. del R. Sánchez, aliado de Duarte) y la de Santana el mismo 12 de julio; contrasta con la lectura de que el protectorado fue idea exclusiva de Bobadilla y Santana. Moges (8-VII-1844) cuenta que tras el 9 de junio la nueva Junta reafirmó la petición. Léase junto a Le Manifeste (20-X-1844), que afirma que Duarte y Valverde se opusieron al protectorado en mayo de 1844. M09-N57 trae la Resolución de la Junta del 8-III-1844 (bases del protectorado)."
+  },
+  {
+   "titulo": "Proclamation au peuple et à l'armée de Charles Hérard aîné, Quartier général de Santo Domingo, 27 juillet 1843 («Quant à vous, Dominicains...») (doc. 17 de la Correspondencia de Levasseur; impreso adjunto al despacho de Levasseur del 12-IX-1843)",
+   "autor": "Hérard, Charles (aîné), general de división, representante del Gobierno provisional haitiano en el Norte y el Este",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf#page=158",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Proclama impresa de un jefe del gobierno haitiano, reproducida íntegra como anexo; documento de parte, que dice lo que el poder haitiano proclamaba, no lo que ocurría.",
+   "proveniencia": "Proclama impresa en Santo Domingo por Hérard, entonces jefe del ejército expedicionario del Gobierno provisional tras la caída de Boyer (marzo de 1843), durante su viaje por el Este (julio-agosto de 1843). Se dirige al pueblo y al ejército, expone el programa de la Reforma («Regeneración») y se vuelve hacia los «Dominicains». Levasseur la adjuntó a su despacho de septiembre de 1843 (n.º 16 del volumen).",
+   "extractos": [
+    {
+     "ubicacion": "Doc. 17, anexo al n.º 16 (Fol. 26-29), p. 149 impr. (PDF p. 165)",
+     "cita_original": "la clameur publique révélait une conspiration dans votre sein ; sans doute elle existait, mais la masse ne l'a pas comprise",
+     "traduccion": "el clamor público revelaba una conspiración en vuestro seno; sin duda existía, pero la masa no la comprendió. [Hérard, 27-VII-1843, ante la ciudad de Santo Domingo.]",
+     "afirmaciones": [
+      "A-118",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 17, p. 149 impr. (PDF p. 165)",
+     "cita_original": "vous concevez que vos intérêts, votre bonheur, résident dans l'unité nationale, qu'il est impossible que vous soyez détachés de la République haïtienne, qu'aucun autre pavillon ne saurait maintenir vos libertés.",
+     "traduccion": "vosotros concebís que vuestros intereses, vuestra felicidad, residen en la unidad nacional, que es imposible que seáis separados de la República haitiana, que ninguna otra bandera podría mantener vuestras libertades. [Se usa «Dominicains» ya en 1843.]",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 17, p. 149 impr. (PDF p. 165)",
+     "cita_original": "Rappelez-vous que vos oppresseurs, réfugiés à l'étranger, profiteront du moment où vous serez en hostilité avec la République pour fondre sur vous afin de river de nouveau les chaînes de l'esclavage que nous avons brisées pour vous.",
+     "traduccion": "Recordad que vuestros opresores, refugiados en el extranjero, aprovecharán el momento en que estéis en hostilidad con la República para abalanzarse sobre vosotros y remachar de nuevo las cadenas de la esclavitud que hemos roto por vosotros.",
+     "afirmaciones": [
+      "A-126",
+      "A-125",
+      "A-132"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 17, p. 149 impr. (PDF p. 165)",
+     "cita_original": "Nous sommes tous haïtiens : la Régénération sera le bien commun partagé par égale portion entre le peuple entier : vous serez libres, heureux, comme tous nos concitoyens, pourvu que vous soyez fidèles à la constitution que vos représentants auront votée en votre nom.",
+     "traduccion": "Todos somos haitianos: la Regeneración será el bien común repartido por igual entre todo el pueblo; seréis libres, felices, como todos nuestros conciudadanos, con tal que seáis fieles a la constitución que vuestros representantes habrán votado en vuestro nombre.",
+     "afirmaciones": [
+      "A-125",
+      "A-129"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-118",
+    "A-125",
+    "A-126",
+    "A-129",
+    "A-130",
+    "A-132"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Complementa las proclamas de Hérard de 1844 del Recueil (M09-F-0065). Prueba que el argumento de seguridad antiesclavista («river de nouveau les chaînes de l'esclavage») y el de unidad nacional se expresaban en 1843, antes de la separación. Hérard dice que existía una conspiración en Santo Domingo (la Trinitaria y el movimiento reformista); la fuente no identifica autores. Hallazgo menor: «Dominicains» como gentilicio de los habitantes del Este en un texto oficial haitiano de 1843."
+  },
+  {
+   "titulo": "Artículo de «Le Manifeste» (Puerto Príncipe / Port Républicain), 20-X-1844, sobre las causas y tendencias de la revolución separatista de la parte española, con cartas de Saint-Thomas y Curazao (doc. 45 de la Correspondencia de Levasseur, anexo al despacho del 21-X-1844)",
+   "autor": "Redactores de «Le Manifeste» (periódico de Puerto Príncipe; su vínculo oficial no consta); corresponsales en Saint-Thomas y Curazao; extractos de «L'Avenir» (Pointe-à-Pitre) y «El Clamor Público» (Madrid)",
+   "anio": "1844",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf#page=362",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/2530CorrespondenciadeLevasseurydeotrosagentesdeFrancia.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de prensa partidista conservado como anexo diplomático francés, con noticias de segunda mano de corresponsales; sirve como prueba de qué argumentos haitianos circulaban en 1844, no de los hechos que narra.",
+   "proveniencia": "Número de «Le Manifeste» del 20-X-1844 que Levasseur envió a Guizot el 21-X-1844 pidiendo que lo leyera con atención, sin poder confirmarlo por falta de comunicación con Santo Domingo. Reproduce cartas de corresponsales de Saint-Thomas (17-IX y 4-X-1844) y de Curazao (6-X-1844) sobre el destierro de Valverde, Mella, Sánchez y otros, la persecución de Duarte y la moción de Bobadilla; cierra con un editorial que discute el derecho de «los haitianos del Este» a separarse y llama al gobierno a actuar. Es el texto francés original de lo que M09-N57 reproduce en traducción española de 1996 como «Le Manifeste, 20-X-1844».",
+   "extractos": [
+    {
+     "ubicacion": "Doc. 45, anexo al 44, «Port Républicain, 20 octobre 1844» (Fol. 131 r.-132 r.), p. 347 impr. (PDF p. 363)",
+     "cita_original": "Le docteur Valverde avait, comme Duarte, vivement combattu, dans la séance du 26 mai, la motion de Thomas Bobadilla concernant le protectorat de la France ; et ayant encore été opposant à une nouvelle motion traitée huis-clos, mais qu'il a rendue publique, il a été banni.",
+     "traduccion": "El doctor Valverde había combatido vivamente, como Duarte, en la sesión del 26 de mayo, la moción de Tomás Bobadilla sobre el protectorado de Francia; y habiéndose opuesto además a una nueva moción tratada a puerta cerrada pero que él hizo pública, fue desterrado. [Versión de corresponsales en Saint-Thomas, no confirmada por acta dominicana en este volumen.]",
+     "afirmaciones": [
+      "A-127",
+      "A-130",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, pp. 347-348 impr. (PDF pp. 363-364)",
+     "cita_original": "Cette dernière motion a eu pour but : de placer la partie de l'Est entièrement sous la souveraineté de la France qui devrait la considérer désormais comme une de ses colonies, les Dominicains faisant en même temps l'offre d'unir leurs forces à celles que la France pourrait éventuellement envoyer contre la République haïtienne",
+     "traduccion": "Esta última moción tuvo por objeto colocar la parte del Este enteramente bajo la soberanía de Francia, que debería considerarla en adelante como una de sus colonias, ofreciendo los dominicanos al mismo tiempo unir sus fuerzas a las que Francia pudiera enviar eventualmente contra la República haitiana. [Acusación de una fuente haitiana hostil; sin corroboración dominicana.]",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 348 impr. (PDF p. 364)",
+     "cita_original": "Un navire marchand anglais partant dans ce moment pour l'Angleterre, Santana y a fait embarquer les généraux Ramon Mella et Francisco Sánchez, le commandant Pedro Pina, le capitaine Illas et quelques autres.",
+     "traduccion": "Un buque mercante inglés que parte en este momento para Inglaterra, Santana ha hecho embarcar en él a los generales Ramón Mella y Francisco Sánchez, al comandante Pedro Pina, al capitán Illas y a algunos otros. [Carta de Saint-Thomas del 17-IX-1844 reproducida por la prensa haitiana.]",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 348 impr. (PDF p. 364)",
+     "cita_original": "bien des individus regrettent que la séparation ait été prononcée ; le docteur Valverde, dans son indignation, témoigna lui-même qu'il préférerait rester haïtien [que de] devenir français.",
+     "traduccion": "muchos lamentan que la separación se haya pronunciado; el doctor Valverde, en su indignación, declaró él mismo que preferiría seguir siendo haitiano a hacerse francés. [La OCR omite «que de»; testimonio de segunda mano, de prensa haitiana.]",
+     "afirmaciones": [
+      "A-117",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 350 impr. (PDF p. 366)",
+     "cita_original": "La misère est tellement grande à Santo Domingo que les soldats disent, en parodiant la Junte : Dios, Patria, Esclavitud, y carne flaca ! (Dieu, Patrie, esclavage et viande maigre !)",
+     "traduccion": "La miseria es tan grande en Santo Domingo que los soldados dicen, parodiando a la Junta: Dios, Patria, Esclavitud y carne flaca. [Parodia del lema «Dios, Patria y Libertad» según un corresponsal; el rumor de reesclavización sirvió de arma política, véase doc. 42.]",
+     "afirmaciones": [
+      "A-132",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 351 impr. (PDF p. 367)",
+     "cita_original": "Les deux [...] ont été déportés à Hambourg ; ces haïtiens habitaient Seybo depuis 40 ans !",
+     "traduccion": "Los dos [...] han sido deportados a Hamburgo; ¡esos haitianos vivían en El Seibo desde hacía 40 años! [Carta de Curazao del 6-X-1844; el apellido es ilegible en la OCR. Testimonio hostil sobre expulsión de haitianos residentes en el Este.]",
+     "afirmaciones": [
+      "A-134",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 353 impr. (PDF p. 369); cotejado en imagen",
+     "cita_original": "En proclamant notre indépendance, nous avons naturellement statué en faveur de l'intégralité du peuple habitant l'île entière ; et nous eussions été coupables d'agir autrement, sous le rapport des sentimens d'humanité et sous celui de la politique",
+     "traduccion": "Al proclamar nuestra independencia, resolvimos naturalmente en favor de la integridad del pueblo que habita la isla entera; y habríamos sido culpables de obrar de otro modo, desde el punto de vista de los sentimientos de humanidad y de la política. [Artículo haitiano de octubre de 1844.]",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 353 impr. (PDF p. 369); cotejado en imagen",
+     "cita_original": "1°, une grande fraction des habitans de l'Est gémissait dans les liens de l'esclavage, ou sous les lois absurdes des préjugés de couleur, n'étant pas blancs ; 2°, notre indépendance ne pouvait être avantageusement maintenue et défendue, qu'au moyen de la possession de toute l'île.",
+     "traduccion": "1.º, una gran fracción de los habitantes del Este gemía en los lazos de la esclavitud o bajo las leyes absurdas de los prejuicios de color, por no ser blancos; 2.º, nuestra independencia no podía ser mantenida y defendida ventajosamente sino mediante la posesión de toda la isla.",
+     "afirmaciones": [
+      "A-125",
+      "A-126",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 355 impr. (PDF p. 371)",
+     "cita_original": "Ainsi s'accomplit la pensée de Dessalines, du libérateur de notre patrie ! L'île entière ne reconnaîtra plus que les mêmes lois et le même régime, jusqu'au moment où les événements viendront briser l'unité nationale réalisée au prix de tant de sacrifices.",
+     "traduccion": "Así se cumplió el pensamiento de Dessalines, el libertador de nuestra patria. La isla entera no reconocerá ya sino las mismas leyes y el mismo régimen, hasta que los acontecimientos vengan a romper la unidad nacional realizada al precio de tantos sacrificios. [Sobre la unificación de 1822; «venga a romper», es decir, 1844.]",
+     "afirmaciones": [
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 356 impr. (PDF p. 372)",
+     "cita_original": "Haïti n'est-elle pas notre commune patrie ? Qui peut nier que les intérêts et les droits ne soient identiques entre toutes les portions de sa population ?",
+     "traduccion": "¿No es Haití nuestra patria común? ¿Quién puede negar que los intereses y los derechos son idénticos entre todas las porciones de su población? [Argumento haitiano contra la separación; 'Haïtiens de l'Est' es la denominación del texto para los separatistas.]",
+     "afirmaciones": [
+      "A-125",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, p. 357 impr. (PDF p. 373)",
+     "cita_original": "à l'esclavage qu'y maintenait la constitution dominico-colombienne, succéda la liberté [...] aux préjugés de couleur qu'elle maintenait par ces seuls faits, succéda un régime plus en harmonie avec les lumières du siècle",
+     "traduccion": "a la esclavitud que mantenía allí la constitución dominico-colombiana sucedió la libertad [...] a los prejuicios de color que mantenía por esos solos hechos sucedió un régimen más en armonía con las luces del siglo. [Evaluación haitiana de 1822 sobre el Este; la «constitución dominico-colombiana» es la de Núñez de Cáceres, 1821.]",
+     "afirmaciones": [
+      "A-129",
+      "A-132",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Doc. 45, pp. 358-359 impr. (PDF pp. 374-375)",
+     "cita_original": "Laissera-t-elle se consolider une prétendue république, destinée évidemment à donner un pied-à-terre aux puissances qui voudraient essayer de la conquérir [...] Son devoir est tracé",
+     "traduccion": "¿Dejará consolidarse una pretendida república, destinada evidentemente a dar un punto de apoyo a las potencias que quisieran intentar conquistarla [a Haití] [...] Su deber está trazado. [Fundamento de seguridad del llamado a la guerra; «prétendue république».]",
+     "afirmaciones": [
+      "A-126",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-130",
+    "A-131",
+    "A-132",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Misma pieza que M09-N57 (anexos del tomo I de la Correspondencia del cónsul de Francia, trad. 1996): aquí el original francés con numeración del volumen de 1944, útil para cotejar la traducción. El editorial razona a la vez por antiesclavismo/prejuicio de color (A-129) y por seguridad (A-126) y por unidad nacional (A-125); la nota (a) del texto menciona 5-600.000 libras de tabaco (producción del Este bajo Boyer) como argumento de que el Este «ganó» con la unificación. Las noticias de Saint-Thomas son de segunda mano y se contradicen en parte con las actas dominicanas (la prensa haitiana habla de un decreto del 24-VIII que pone a Duarte fuera de la ley; la Colección de Leyes trae la Resolución de la Junta del 22-VIII-1844, Núm. 17, que declara traidores y destierra a Duarte, Mella, Sánchez y otros)."
+  },
+  {
+   "titulo": "Correspondencia diplomática de Levasseur, de Moges, Barrot, etc. Años 1843 y 1844. Edición y notas del Licdo. Máximo Coiscou Henríquez (serie en Clío, n.os 19-27, 1936-1937)",
+   "autor": "Coiscou Henríquez, Máximo (ed.)",
+   "anio": "1936-1937",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1937-005-025-023-028.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1937-005-026-047-050.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1937-005-027-091-092.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1936-004-021-087-093.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1936-004-022-120-123.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1936-004-023-144-150.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición con notas de quien consultó los originales en París y base del volumen de 1944, pero con glosas interpretativas de su época y OCR deficiente (dos columnas) que impide leerla íntegra.",
+   "proveniencia": "Serie publicada en Clío (órgano de la ADH) entre 1936 y 1937 por Máximo Coiscou Henríquez, comisionado del Gobierno dominicano a los archivos de España y Francia; reproduce en francés extractos del archivo del Quai d'Orsay (vols. 10-13, con folios) y añade notas en español. La nota 60 y la referencia a su «Contribución al estudio del Plan Levasseur» muestran que ya leía el episodio en clave de salvación nacional.",
+   "extractos": [
+    {
+     "ubicacion": "Clío n.º 25 (ene.-feb. 1937), p. 23, nota 60 de M. C. H.; cotejada en imagen",
+     "cita_original": "la decisiva irradiación de Duarte en la Junta Gubernativa: nos permitieron escapar a las consecuencias posibles del llamado Plan Levasseur. En cuanto a Francia, era su actitud la del fuerte frente al débil, y esa actitud nos es bien conocida.",
+     "traduccion": "[Coiscou Henríquez enumera lo que, a su juicio, salvó a los dominicanos del «llamado Plan Levasseur»: el patriotismo haitiano frente a la misión Barrot, las circunstancias favorables a las aspiraciones nacionales y «la decisiva irradiación de Duarte en la Junta Gubernativa».] [Glosa del editor en 1937, interpretación nacionalista con tintes duartianos; no un hecho documentado.]",
+     "afirmaciones": [
+      "A-127",
+      "A-130",
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-127",
+    "A-128",
+    "A-130"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Descargados n.os 19-27 (nueve PDF); solo se leyó con atención la p. 23 del n.º 25 (imagen) y se hojearon las notas de los n.os 21-24 y 26 (menciones al «Plan Levasseur» y al art. 210 de la Constitución). El texto de la serie se solapa con el volumen de 1944 (ficha propia). Valor: mostrar cómo la historiografía dominicana de 1937 nombra y enmarca el «Plan Levasseur»; fuente de la «Contribución al estudio del Plan Levasseur» (folleto citado por él, no localizado). [POR VERIFICAR: contenido íntegro de los 9 números.]"
+  },
+  {
+   "titulo": "Arbitrage du Très Saint Père le Pape entre la République d'Haïti et la République Dominicaine sur l'interprétation de l'article 4 du traité du 9 novembre 1874 passé entre les deux Républiques. Mémoire de la République d'Haïti (1896)",
+   "autor": "República de Haití (comisionados especiales ante la Santa Sede); Tribunal de arbitraje de 1895",
+   "anio": "1896",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k61336824",
+   "urls_alternativas": [
+    "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k61336824/f73/full/1300,/0/native.jpg"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Alegato oficial de parte (Haití) ante un árbitro, con documentos y citas de fuentes dominicanas y españolas, pero orientado a sostener la tesis del uti possidetis de 1874.",
+   "proveniencia": "Memoria que Haití presentó a León XIII en el arbitraje convenido en 1895 sobre el art. 4 del tratado de 1874; Paris, Société anonyme de l'imprimerie J. Kugelmann, 1896; 193 vistas en Gallica (dominio público, «avec mode texte»). Estructura: pleins pouvoirs, protocolo y tratado de arbitraje (1895), tratados de 1867 y 1874, y la memoria con «Historique» (pp. 3-29), «Discussion» (pp. 31-67), resumen (p. 69) y anexos de notas diplomáticas (pp. 73-118+). Escrita por el Estado haitiano 52 años después de 1844 para probar que «possessions actuelles» significa lo poseído en 1874, no el statu quo de 1856.",
+   "extractos": [
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 7 (vue Gallica f75); leído en imagen",
+     "cita_original": "C'est au point que Baez, comme le racontent discrètement ses compatriotes, alors maire d'Azua et le même qui devint plus tard et plusieurs fois Président de la République Dominicaine, dénonça la conspiration au Gouvernement d'Haïti dès qu'il en eut connaissance",
+     "traduccion": "Hasta tal punto que Báez, como cuentan discretamente sus compatriotas, entonces alcalde de Azua y el mismo que luego sería varias veces presidente de la República Dominicana, denunció la conspiración al Gobierno de Haití en cuanto tuvo conocimiento de ella. [Nota 1: el aviso habría pasado por un haitiano llamado Liautaud, residente en Azua. Afirmación sin fuente citada y que contrasta con la firma de Báez en la Exposición de diciembre de 1843: [POR VERIFICAR].]",
+     "afirmaciones": [
+      "A-118",
+      "A-127",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), pp. 8-9 (vues Gallica f76-f77)",
+     "cita_original": "Du reste, ce mouvement vint du dehors et est principalement dû au zèle d'un étranger entreprenant. C'est à Port-au-Prince que fut concertée la prise d'armes de Santo Domingo.",
+     "traduccion": "Por lo demás, este movimiento vino de fuera y se debe principalmente al celo de un extranjero emprendedor. En Puerto Príncipe se concertó el alzamiento de Santo Domingo. [Tesis oficial haitiana de 1896; el «extranjero» es Levasseur.]",
+     "afirmaciones": [
+      "A-118",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 9 (vue Gallica f77)",
+     "cita_original": "Le Consul général de France, résidant à Port-au-Prince, M. Levasseur, en conçut le plan au bénéfice de son pays. Séparation et indépendance de Santo Domingo sous le protectorat de la France, qui aurait pour sa part la cession absolue de la péninsule et de la baie de Samana.",
+     "traduccion": "El cónsul general de Francia, residente en Puerto Príncipe, Sr. Levasseur, concibió el plan en beneficio de su país: separación e independencia de Santo Domingo bajo el protectorado de Francia, que tendría por su parte la cesión absoluta de la península y de la bahía de Samaná. [Cita a J. G. García, Compendio, 1.ª ed., t. 2, p. 76 («plan convenido en Puerto Príncipe entre la mayoría de los representantes [...] y M. Levasseur»); no es independiente de García.]",
+     "afirmaciones": [
+      "A-127",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 10 (vue Gallica f78)",
+     "cita_original": "des commissaires spéciaux partirent pour obtenir (solicitar) l'adhésion des différentes populations. Et ce furent ces populations qui, adhérant successivement au mouvement séparatiste, se sont, depuis lors, formées en Etat indépendant sous le nom de République Dominicaine",
+     "traduccion": "partieron comisionados especiales para obtener (solicitar) la adhesión de las distintas poblaciones. Y fueron esas poblaciones las que, adhiriéndose sucesivamente al movimiento separatista, se han constituido desde entonces en Estado independiente con el nombre de República Dominicana.",
+     "afirmaciones": [
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), pp. 10-11 (vues f78-f79)",
+     "cita_original": "Ils mirent ainsi dans leur Constitution que les limites du nouvel État étaient celles de 1777. Ils faisaient par là exactement ce qu'avaient fait les Haïtiens qui, depuis 1804, mettaient dans leur loi constitutionnelle que toute l'île, qu'ils ne possédaient pas encore tout entière, formait cependant le territoire de l'État.",
+     "traduccion": "Pusieron así en su Constitución que los límites del nuevo Estado eran los de 1777. Hacían con ello exactamente lo que habían hecho los haitianos, que desde 1804 ponían en su ley constitucional que toda la isla, que aún no poseían entera, formaba sin embargo el territorio del Estado. [Equiparación haitiana de las dos doctrinas territoriales; el art. 3 de 1844 dice 1793, no 1777.]",
+     "afirmaciones": [
+      "A-120",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), pp. 10-11 (vues f78-f79)",
+     "cita_original": "Ils prononcèrent aussi la confiscation de toutes les propriétés particulières que pouvaient avoir les Haïtiens chez eux.",
+     "traduccion": "Pronunciaron también la confiscación de todas las propiedades particulares que pudieran tener los haitianos en su territorio. [Versión haitiana de 1896; los decretos dominicanos (Colección de Leyes, Núm. 8, 20-IV-1844, y Núm. 52, 1845) la corroboran como secuestro y bienes nacionales.]",
+     "afirmaciones": [
+      "A-134"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 11 (vue f79)",
+     "cita_original": "Dès qu'il eut assuré l'unité et ramené le calme dans la partie occidentale, le Gouvernement haïtien se tourna du côté de l'Est pour le faire rentrer sous son autorité. Ce fut dès lors et par la suite l'objet de ses plus constants efforts.",
+     "traduccion": "Tan pronto como aseguró la unidad y devolvió la calma a la parte occidental, el Gobierno haitiano se volvió hacia el Este para hacerlo volver a su autoridad. Fue desde entonces y después el objeto de sus más constantes esfuerzos.",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 11 (vue f79)",
+     "cita_original": "L'armée haïtienne pénétrait plus ou moins avant dans le pays dominicain ; mais, travaillée par des conspirations ourdies dans son sein, elle était bientôt défaite. Poursuivie à son tour plus ou moins par les Dominicains, elle repassait la frontière. Et chaque parti reprenait bientôt les positions respectivement occupées par l'un en face de l'autre.",
+     "traduccion": "El ejército haitiano penetraba más o menos adentro del país dominicano; pero, minado por conspiraciones urdidas en su seno, era pronto derrotado. Perseguido a su vez más o menos por los dominicanos, repasaba la frontera. Y cada parte recobraba pronto las posiciones respectivamente ocupadas una frente a la otra.",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 11 n. 2 y p. 12 n. (vues f79-f80); texto español citado de la Gaceta de Gobierno del 12-II-1856",
+     "cita_original": "encontrándose los Haitianos entre el lugar nombrado «El puerto» y la población de Caobas, no tan solo ocupando esos puntos, sino con sus avanzadas posesionadas en Caciman, según parte del jefe de las fronteras del sur",
+     "traduccion": "[Cita de un parte oficial de Santana (Gaceta de Gobierno, 12-II-1856; recopilado en García, Guerra de la Separación Dominicana, pp. 72-73): en febrero de 1856 los haitianos ocupaban El Puerto y la población de Las Caobas, con avanzadas en Cachimán, y las tropas dominicanas los desalojaron de esos puestos y regresaron al cantón de Las Matas.]",
+     "afirmaciones": [
+      "A-119",
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 12 (vue f80)",
+     "cita_original": "fait toutes sortes de démarches auprès des Puissances Étrangères, l'une après l'autre et quelquefois en même temps, soit pour s'annexer, soit pour demander leur protectorat, soit pour leur offrir des stations à Samana ou à la baie de Mancenille.",
+     "traduccion": "hecho toda clase de gestiones ante las potencias extranjeras, una tras otra y a veces al mismo tiempo, ya para anexarse, ya para pedir su protectorado, ya para ofrecerles estaciones en Samaná o en la bahía de Mancenille. [Lectura haitiana de 1896 de las gestiones dominicanas de 1844-1861.]",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 13 (vue f81)",
+     "cita_original": "le Président Geffrard, qui le remplaça au pouvoir, se prêta à des relations pacifiques et amicales, en ayant soin d'éviter ce qui pourrait être pris pour une reconnaissance de l'Indépendance dominicaine. Il se borna, sous la médiation des consuls de France et d'Angleterre, à consentir une trêve de cinq ans.",
+     "traduccion": "el presidente Geffrard, que lo reemplazó en el poder, se prestó a relaciones pacíficas y amistosas, cuidando de evitar lo que pudiera tomarse por un reconocimiento de la independencia dominicana. Se limitó, bajo la mediación de los cónsules de Francia y de Inglaterra, a consentir una tregua de cinco años.",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 13 n. 1 (vue f81)",
+     "cita_original": "Dans le système politique et la croyance générale des Haïtiens depuis 1804, l'unité de territoire et de souveraineté était indispensable dans l'île pour garantir leur sûreté comme peuple libre et indépendant, prévenir surtout les dangers du voisinage, côte à côte sur une île petite, d'une Puissance possesseur d'esclaves",
+     "traduccion": "En el sistema político y la creencia general de los haitianos desde 1804, la unidad de territorio y de soberanía era indispensable en la isla para garantizar su seguridad como pueblo libre e independiente y prevenir sobre todo los peligros de la vecindad, lado a lado en una isla pequeña, de una potencia poseedora de esclavos. [Exposición oficial de 1896 de la doctrina como seguridad antiesclavista; añade «L'abolition de l'esclavage et la promesse des Dominicains pour l'inaliénabilité du territoire ont sans doute changé ces dispositions».]",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 14 (vue f82)",
+     "cita_original": "durant ce temps comme auparavant depuis l'époque de la séparation, les frontières étaient restées telles que les avaient faites les événements : du côté d'Haïti surtout. Car les Dominicains, eux, étaient venus après la cessation des hostilités occuper par exemple les bourgs de Dajabon et de Banica.",
+     "traduccion": "durante ese tiempo, como antes desde la época de la separación, las fronteras habían quedado tal como las habían hecho los acontecimientos: del lado de Haití sobre todo. Pues los dominicanos, ellos, habían venido tras el cese de las hostilidades a ocupar, por ejemplo, las villas de Dajabón y de Bánica. [Tesis haitiana del statu quo 1844-1861; se refiere a 1859-1865.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 15 (vue f83)",
+     "cita_original": "il fallait en première ligne abandonner la fiction territoriale pour s'en tenir au principe des possessions effectives.",
+     "traduccion": "había que abandonar en primer lugar la ficción territorial para atenerse al principio de las posesiones efectivas. [El Estado haitiano califica de «fiction territoriale» su doctrina de 1805-1846; se refiere a los preliminares de 1867-1874.]",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 44 (vue f112)",
+     "cita_original": "« Par possessions actuelles on doit entendre les possessions qu'a fixées le statu quo post bellum en 1856. » (Textuel.)",
+     "traduccion": "«Por posesiones actuales debe entenderse las posesiones que fijó el statu quo post bellum en 1856.» (Textual.) [La tesis dominicana, citada por la memoria haitiana.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 45 (vue f113)",
+     "cita_original": "il nous a fallu redescendre jusqu'en 1883 pour trouver, à l'occasion de cette discussion, la première mention de ce statu quo de 1856.",
+     "traduccion": "hemos tenido que remontarnos hasta 1883 para hallar, con ocasión de esta discusión, la primera mención de ese statu quo de 1856. [Argumento haitiano: la fecha de 1856 no figura en el tratado de 1874.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 46 (vue f114); proyecto dominicano de 1883",
+     "cita_original": "les deux peuples occuperont sur la frontière les mêmes points qui se trouvaient au pouvoir de chacun d'eux en 1856, devant s'entendre que l'arrangement provisoire ne préjudiciera le moindrement aux droits que chaque peuple peut avoir",
+     "traduccion": "los dos pueblos ocuparán en la frontera los mismos puntos que estaban en poder de cada uno en 1856, entendiéndose que el arreglo provisional no perjudicará en lo más mínimo los derechos que cada pueblo pueda tener [sobre alguna porción del territorio fronterizo ocupado actualmente o provisionalmente por el otro]. [Redacción propuesta por los plenipotenciarios dominicanos en 1883 (conferencias de abril-mayo de 1883).]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 48 (vue f116)",
+     "cita_original": "Depuis la révolution de 1844, les deux pays ont été en guerre ouverte et déclarée. Jusqu'à janvier 1859 la guerre a été active et soutenue. [...] En cette même année 1859, le Gouvernement du Président Geffrard, sous la médiation de la France et de l'Angleterre, concéda une trêve de cinq années.",
+     "traduccion": "Desde la revolución de 1844 los dos países estuvieron en guerra abierta y declarada. Hasta enero de 1859 la guerra fue activa y sostenida. [...] Ese mismo año de 1859 el Gobierno del presidente Geffrard, bajo la mediación de Francia y de Inglaterra, concedió una tregua de cinco años. [Argumento haitiano contra la tesis de que la guerra terminó en 1856.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 50 (vue f118)",
+     "cita_original": "l'Empereur Soulouque fut le chef d'État haïtien le plus persistant à vouloir refaire l'unité politique de l'île. Il n'eut jamais de rapports pacifiques avec les Dominicains, qu'il a toujours considérés comme des insurgés rebelles et qu'il n'a jamais perdu l'espoir de réduire.",
+     "traduccion": "el emperador Soulouque fue el jefe de Estado haitiano más persistente en querer rehacer la unidad política de la isla. Nunca tuvo relaciones pacíficas con los dominicanos, a quienes siempre consideró insurgentes rebeldes y a los que nunca perdió la esperanza de reducir. [Y añade que el armisticio de 1850 fue de un mes y el de 1851 de un año, solo para preparar la sumisión.]",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 50 (vue f118)",
+     "cita_original": "tant que durerait l'Empire, les campagnes dans l'Est ne cesseraient pas. Ces campagnes de l'Empire, ou plutôt la façon de les faire, étaient devenues impopulaires.",
+     "traduccion": "mientras durase el Imperio, las campañas en el Este no cesarían. Esas campañas del Imperio, o más bien la manera de hacerlas, se habían vuelto impopulares. [Argumento usado, según la memoria, en la revolución que derribó a Soulouque en 1859: voz haitiana contraria a las campañas.]",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 52 (vue f120)",
+     "cita_original": "La Constitution d'Haïti ne compta plus l'île entière pour son territoire qu'en 1867, époque de la conclusion du premier traité, resté imparfait. Quant aux Dominicains, ce n'est qu'en 1875 qu'en conséquence du traité conclu l'année précédente, ils effacèrent de leur Constitution de l'époque les limites du traité d'Aranjuez.",
+     "traduccion": "La Constitución de Haití no contó ya la isla entera como su territorio sino en 1867, época de la conclusión del primer tratado, que quedó imperfecto. En cuanto a los dominicanos, solo en 1875 [...] borraron de su Constitución de entonces los límites del tratado de Aranjuez.",
+     "afirmaciones": [
+      "A-124",
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République d'Haïti (1896), p. 52 (vue f120); discurso del presidente Domingue, Le Moniteur, 23-I-1875",
+     "cita_original": "Après trente années d'hostilités regrettables entre la partie de l'Est de l'île et nous, il était réservé au Président Gonzalez et à moi de rétablir la paix et la fusion entre la République d'Haïti et la République Dominicaine",
+     "traduccion": "Tras treinta años de hostilidades lamentables entre la parte del Este de la isla y nosotros, estaba reservado al presidente González y a mí restablecer la paz y la fusión entre la República de Haití y la República Dominicana. [Domingue ante la Asamblea, 1875; «fusion» como paz entre dos repúblicas.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-120",
+    "A-124",
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128",
+    "A-130",
+    "A-131",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Leída por imágenes IIIF (pp. 5-15 y 44-52, vistas f73-f84 y f112-f120; p. = vista − 68). La descarga de texto plano de Gallica (texteBrut) devolvió una página de verificación de seguridad y luego HTTP 429: no se evadió; la lectura fue visual, y las citas son transcripción propia de la imagen. No leídos: pp. 16-43, 53-72 y anexos (incluidos los documentos citados). Es la contraparte haitiana de la memoria dominicana de 1896 (ficha propia). Señales de fiabilidad: confunde 1777 con 1793 (art. 3 de 1844), da dos fechas distintas para la caída de Soulouque (p. 13: abdicación 15-I-1859; p. 50: revolución del 25-I-1859), y la acusación a Báez (p. 7) no cita fuente. [POR VERIFICAR: citas internas (Gaceta de Gobierno 12-II-1856; El Dominicano 16-II-1856 y 8-XII-1855; Gaceta de Santo Domingo 7-IV-1877 y 17-XI-1874).]"
+  },
+  {
+   "titulo": "Traduction. Mémoire que la Légation extraordinaire de la République Dominicaine à Rome présente à Sa Sainteté Léon XIII, très digne Pontife régnant et juge arbitre dans le désaccord existant entre la République Dominicaine et celle d'Haïti (1896)",
+   "autor": "República Dominicana (Legación extraordinaria en Roma); traducción al francés",
+   "anio": "1896",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-rd",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5796576w",
+   "urls_alternativas": [
+    "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5796576w/f13/full/1300,/0/native.jpg"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Alegato oficial de parte (RD) ante un árbitro, traducido al francés; concede hechos desfavorables a su tesis (posesión haitiana del Plateau central), pero argumenta en favor del statu quo de 1856.",
+   "proveniencia": "Memoria de la Legación extraordinaria dominicana ante León XIII (árbitro designado en 1895) sobre la interpretación del art. 4 del tratado de 1874; edición francesa «Traduction», Paris, Société anonyme de l'imprimerie J. Kugelmann, 1896 (52 vistas; el original español no se localizó). Contiene la historia de la isla, la cuestión de los límites y una colección de documentos numerados; el interés dominicano es sostener el statu quo post bellum de 1856 frente al uti possidetis de 1874 de Haití.",
+   "extractos": [
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 11 (vue Gallica f13); leído en imagen",
+     "cita_original": "l'y obligèrent, sans doute, son ardent désir d'unifier l'île et son dessein de contrebalancer les races, en rendant difficiles pour quelque temps les guerres de caste",
+     "traduccion": "lo obligaron, sin duda, su ardiente deseo de unificar la isla y su designio de contrabalancear las razas, dificultando por algún tiempo las guerras de casta. [Sobre Boyer en 1822, lectura dominicana de 1896.]",
+     "afirmaciones": [
+      "A-125",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 11 (vue f13)",
+     "cita_original": "Ce fut en ce temps-là (1822) que tombèrent sous la domination d'Haïti, ensemble avec les autres qui constituaient la Partie espagnole, les communes de Hinche et de Lascaobes. Des écrivains haïtiens de renom ont avancé autre chose [...]",
+     "traduccion": "Fue entonces (1822) cuando cayeron bajo la dominación de Haití, junto con las demás que constituían la parte española, las comunes de Hincha y de Las Caobas. Escritores haitianos de renombre han sostenido otra cosa [...]. [Tesis dominicana: Hincha y Las Caobas eran de la parte española antes de 1822.]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 12 (vue f14)",
+     "cita_original": "Tous ces documents d'origine haïtienne, de même que la lettre du président Boyer à Nuñez de Caceres du 11 janvier 1822, prouvent que Hinche et Las Caobas ne faisaient pas partie, en ce temps, de la République d'Haïti.",
+     "traduccion": "Todos esos documentos de origen haitiano, lo mismo que la carta del presidente Boyer a Núñez de Cáceres del 11 de enero de 1822, prueban que Hincha y Las Caobas no formaban parte, en ese tiempo, de la República de Haití. [Documentos dominicanos n.os 3, 5-10 de la memoria, no leídos aquí.]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 13 (vue f15); leído en imagen",
+     "cita_original": "Ils proclament tout de suite les limites de celle-ci comme les limites du nouvel État, mais ne réussissent pas à déloger Haïti des bourgades de Saint-Raphaël, Saint-Michel, Hinche et Lascaobes, très éloignées de leurs autres quartiers, et déjà habitées en grande partie par les Haïtiens qui avaient passé les anciennes limites.",
+     "traduccion": "Proclaman enseguida los límites de aquella [la antigua colonia española] como los del nuevo Estado, pero no consiguen desalojar a Haití de las aldeas de San Rafael, San Miguel, Hincha y Las Caobas, muy alejadas de sus otros barrios y ya habitadas en gran parte por los haitianos que habían pasado los antiguos límites. [Concesión de la memoria dominicana de 1896; coincide con el discurso de Bobadilla de 26-IX-1844, «habitantes en general haitianos».]",
+     "afirmaciones": [
+      "A-120",
+      "A-131",
+      "A-133",
+      "A-134"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), pp. 13-14 (vues f15-f16)",
+     "cita_original": "Santo-Domingo a alors comme 125,000 habitants : Haïti dépasse 800,000 habitants.",
+     "traduccion": "Santo Domingo tiene entonces unos 125.000 habitantes; Haití sobrepasa los 800.000. [Cifras de 1844 de un alegato de 1896, sin base declarada; compárese con las de Levasseur en 1843: ~100.000 y ~600.000.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 14 (vue f16); leído en imagen",
+     "cita_original": "Pendant douze ans on lutte presque constamment : Haïti envahissant, Santo-Domingo résistant, jusqu'à ce que les désastres de 1856 aient fait comprendre à la fin au peuple haïtien que Santo-Domingo est inébranlable dans sa résolution d'être indépendant.",
+     "traduccion": "Durante doce años se lucha casi constantemente: Haití invadiendo, Santo Domingo resistiendo, hasta que los desastres de 1856 hicieron comprender por fin al pueblo haitiano que Santo Domingo es inquebrantable en su resolución de ser independiente.",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 14 (vue f16)",
+     "cita_original": "La lutte cesse en cette année-là, pour ne plus se renouveler, et les deux peuples se maintiennent sur les points qu'ils avaient occupés durant la guerre.",
+     "traduccion": "La lucha cesa ese año, para no renovarse, y los dos pueblos se mantienen en los puntos que habían ocupado durante la guerra. [Tesis dominicana del statu quo de 1856.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 14 (vue f16)",
+     "cita_original": "en fait la République Dominicaine occupe la majeure partie de l'ancienne Partie espagnole et Haïti le reste, soit les communes de Saint-Michel, Saint-Raphaël, Lascaobes, Hinche et une partie de la juridiction de Banica.",
+     "traduccion": "de hecho la República Dominicana ocupa la mayor parte de la antigua parte española y Haití el resto, es decir, las comunes de San Miguel, San Rafael, Las Caobas, Hincha y una parte de la jurisdicción de Bánica.",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 14 (vue f16)",
+     "cita_original": "une portion de cette dernière continue, de fait, à être occupée par Haïti, quoique sans titre aucun, si ce n'est celui de simple occupation par la force des armes.",
+     "traduccion": "una porción de esta última [la parte ex española] sigue de hecho ocupada por Haití, aunque sin título alguno, salvo el de simple ocupación por la fuerza de las armas. [Calificación jurídica dominicana; la haitiana difiere.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mémoire de la République Dominicaine (1896), p. 15 (vue f17); leído en imagen",
+     "cita_original": "Un traité spécial fixera ultérieurement la démarcation des limites des deux États. En attendant ils se maintiendront dans leurs possessions actuelles.",
+     "traduccion": "Un tratado especial fijará ulteriormente la demarcación de los límites de los dos Estados. Entretanto se mantendrán en sus posesiones actuales. [Art. 7 del convenio preliminar de 26-VII-1867 entre Cabral y Salnave, citado por la memoria dominicana.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-120",
+    "A-125",
+    "A-128",
+    "A-129",
+    "A-131",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Leída por imágenes IIIF (vistas f3, f5, f7, f13-f17; p. = vista − 2). Gallica no entregó texto plano (verificación de seguridad / 429, no evadidos). No leídos: pp. 1-9 y 16-48 (colonial, 1861-1895, documentos). Contraparte dominicana de la memoria haitiana de 1896 (ficha propia): ambas coinciden en que en 1844-1856 Haití conservó San Miguel, San Rafael, Las Caobas, Hincha y parte de Bánica; discrepan en el título jurídico y en qué partes de Dajabón-Bánica ocupó cada uno después. Hallazgo: la memoria dominicana reconoce que los cuatro pueblos estaban «ya habitados en gran parte por los haitianos». [POR VERIFICAR: documentos n.º 3 y 12 de la memoria (carta de Boyer a Núñez de Cáceres, tratado de España de 1855).]"
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones emanadas de los poderes Legislativo y Ejecutivo de la República Dominicana, t. I (1844-1847, ed. oficial 1880) y t. II (1848-1854, ed. 1881): decretos, constitución y leyes sobre las comunes de la frontera y la línea militar (extractos nuevos sobre rayanos y Plateau central)",
+   "autor": "República Dominicana (Junta Central Gubernativa, Congreso, Poder Ejecutivo); ed. oficial Imprenta de García Hermanos",
+   "anio": "1880-1881 (actos de 1844-1854)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/1e37da81-a220-4605-8eb8-66cc7289ea6e/content",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/4f2aef45-fbba-4f09-a50d-54e259efc7e6/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial impresa de los actos, con texto de época íntegro, pero edición póstuma (36 años) y OCR ruidoso en el escaneo de Google.",
+   "proveniencia": "Misma obra que M09-N51 (id provisional del módulo; no está en registro.csv): recopilación mandada hacer por decreto del Congreso Nacional de 1854, que comienza con el Manifiesto de 16-I-1844; t. I trae la Constitución de 1844 y las leyes de 1844-1847; t. II las de 1848-1854. Se registra aparte porque trae extractos nuevos sobre el silencio de la frontera (comunes Hincha, Cahobas, Bánica, San Miguel, San Rafael) y el régimen de «líneas».",
+   "extractos": [
+    {
+     "ubicacion": "t. I, Núm. 14 (Decreto de la J. C. G. convocando a elecciones, 24-VII-1844), pp. 21-22 impr. (PDF pp. 20-21), considerandos",
+     "cita_original": "Considerando: que despues de haber sacudido el yugo de los Haitianos, su primer deber es hacer un llamamiento á los pueblos para que ejerciendo su Soberanía, formen la Constitucion política, y tracen el Gobierno que mejor convenga, segun los principios ya consagrados en la Manifestacion de 16 de Enero",
+     "traduccion": "[Preámbulo oficial de julio de 1844: «sacudir el yugo de los haitianos» y remisión al Manifiesto del 16 de enero como principios consagrados.]",
+     "afirmaciones": [
+      "A-117",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 14, anexo «Cuadro del número de individuos que se han de nombrar [...] para componer el Congreso Constituyente», p. 25 impr. (PDF p. 24); cotejado en imagen",
+     "cita_original": "Azua, como cabeza de departamento, debe nombrar dos miembros . . 2. San Juan, uno 1. Las Matas, uno 1. Neiba, uno 1. Cahoba ,, Hincha ,, Bánica ,, San Miguel ,, San Rafael ,, [...] Total . . . 32",
+     "traduccion": "[En el cuadro impreso las cinco comunes del Plateau (Cahoba, Hincha, Bánica, San Miguel, San Rafael) llevan solo el signo de repetición (,,) en la columna de cifras. Las cifras explícitas suman 32 = el «Total» impreso; si el signo valiera «1» el total sería 37. El decreto no les asigna, pues, escaño explícito. Interpretación a cotejar con el impreso original [POR VERIFICAR].]",
+     "afirmaciones": [
+      "A-133",
+      "A-131",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Constitución de 6-XI-1844, Título II «Del territorio», art. 2-3, p. 39 impr. (PDF p. 38)",
+     "cita_original": "Art. 2. La parte Española de la Isla de Santo Domingo y sus Islas adyacentes, forman el territorio de la República Dominicana. Art. 3. Los límites de la República Dominicana, son los mismos que en 1793 la dividian por el lado del Occidente de la parte francesa, y estos límites quedan definitivamente fijados.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-120",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. I, firmas del Congreso Constituyente de San Cristóbal, 6-XI-1844, pp. 58-59 impr. (PDF pp. 57-58)",
+     "cita_original": "Antonio Jimenes, diputado por Bánica [...] José Mateo Perdomo, diputado por Hincha [...] Juan P. Andujar, diputado por Cahobas [...] J. N. Tejera, diputado por San Rafael",
+     "traduccion": "[Cuatro de las cinco comunes del Plateau firmaron la Constitución con diputado propio; no figura firma por San Miguel. Bobadilla dijo el 26-IX-1844 que Caoba, Hincha, San Miguel y San Rafael estaban ocupadas por los haitianos; cómo fueron elegidos esos diputados no consta en las actas conservadas.]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 40 (Ley sobre la administración provincial, 9-VI-1845), art. 2, p. 139 impr. (PDF p. 138)",
+     "cita_original": "La Provincia de Compostela de Azua, se subdivide en nueve comunes, y son: Azua, (cabeza de Provincia), Neyba, San Juan, Hincha, Las Matas de Farfan, Bánica, Cahobas, S. Rafael y S. Miguel.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 229 (Decreto del P. E. señalando prest a la guarnición en las fronteras, Báez, 11-XII-1850), p. 175 impr.",
+     "cita_original": "Siendo imprescindible conciliar las medidas de seguridad con las necesidades de las guarniciones de los cantones de Neyba, las Matas y Guayubin [...] Los Comandantes de armas y ayudantes de plaza de Neyba, Las Matas, San Juan, Guayubin y Monte Cristi [...] en razon de estar en servicio en la misma línea de las fronteras.",
+     "traduccion": "[La «línea de las fronteras» de diciembre de 1850 se define por Neiba, Las Matas, San Juan, Guayubín y Montecristi; la omisión de Bánica, Hincha, Cahobas, San Rafael y San Miguel no prueba por sí sola quién las controlaba.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 346 (Decreto del P. E. imponiendo penas a los merodistas en las fronteras, Santana, 5-VIII-1854), pp. 389-390 impr. (PDF p. 395)",
+     "cita_original": "Se prohibe á los habitantes de la República Dominicana pasar las líneas militares actualmente ocupadas por las partes beligerantes, sin expreso mandato del Gobierno; y toda persona que las pase, ó que de inteligencia con el enemigo sustraiga, conduzca, reciba, compre, venda, permute [...] animales ó cualesquiera bienes ó efectos pertenecientes á los habitantes de la parte de Occidente",
+     "traduccion": "[Art. 1: prohíbe cruzar las «líneas militares ocupadas por las partes beligerantes» y comerciar con bienes de «los habitantes de la parte de Occidente»; el considerando alude a la mediación de Inglaterra y Francia. Nota: M09-N51 lo fecha 2-VIII-1854 (decreto del Congreso Nacional); el decreto de Santana es del 5-VIII.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 346, art. 2, p. 390 impr.",
+     "cita_original": "los que de connivencia ó á sabiendas permitan ó toleren el pase ó el merodéo (vulgo las marotas), ó no persigan con todo rigor á los merodistas (maroteros), serán castigados igualmente segun lo requiera el caso.",
+     "traduccion": "[«Marotas» y «maroteros» son los términos populares de la época para el merodeo y los merodeadores: indicio de tráfico y robo de ganado a través de la línea en plena guerra.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 355 (Ley sobre administración provincial, 1854), art. 4, p. 403 impr. (PDF p. 409)",
+     "cita_original": "La Provincia de Compostela de Azua se subdivide en las comunes siguientes: Azua, cabeza de Provincia, Neyba, San Juan, las Matas, Bánica, Hincha, San Rafael, San Miguel y Cahobas.",
+     "traduccion": "[En 1854, tras la revisión constitucional de febrero, el Estado dominicano seguía contando legalmente esas cinco comunes dentro de la provincia de Azua.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-120",
+    "A-129",
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "= M09-N51: unificar al integrar; M09 solo extrajo del t. II el preámbulo del Núm. 346 y lo fechó 2-VIII-1854. Hallazgo: en 1844 y 1857 el aparato electoral dominicano lista las cinco comunes sin cifra explícita (signo de repetición) y el total impreso solo suma las cifras explícitas; en 1857 el Congreso de Moca declara expresamente que «el Decreto de convocatoria no lo determinaba» (ficha propia). Cotejo visual solo de la p. 25 del t. I. Los decretos Núm. 8 y 52 de 1844-1845 sobre bienes de haitianos ya están en M09-N51."
+  },
+  {
+   "titulo": "Colección Trujillo, Centenario de la República 1844-1944, Serie II, Documentos legislativos, vol. I: Algunos actos relativos a la instalación del primer Congreso Constituyente (discurso de Tomás Bobadilla, 26-IX-1844) y Cuadro electoral (extractos nuevos sobre las poblaciones ocupadas)",
+   "autor": "Bobadilla, Tomás (discurso en nombre de la Junta Central Gubernativa); Archivo General de la Nación (ed.); Peña Batlle, Manuel Arturo (dir.); Rodríguez Demorizi, Emilio (recop.)",
+   "anio": "1944 (documentos de 1844)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/5c6840f3-d6bb-4472-aaaf-7b6294e8ca6c/content",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial de actos de 1844 (la propia colección admite que uniformó ortografía), con discurso de un firmante del Manifiesto; documento de parte y retórico.",
+   "proveniencia": "Misma obra que M09-N19 (id provisional; tomo I de la Serie II de la Colección Trujillo, 1944). Contiene los actos de instalación del Congreso Constituyente de San Cristóbal (24-IX-1844): discurso de Bobadilla a nombre de la Junta (26-IX-1844), discurso de Valencia, informe de la Comisión de Constitución. El archivo del Congreso se perdió; el texto procede de impresos de la época.",
+   "extractos": [
+    {
+     "ubicacion": "Discurso de Tomás Bobadilla ante el Congreso Constituyente, San Cristóbal, 26-IX-1844, p. 15 impr. (PDF p. 38); cotejado en imagen",
+     "cita_original": "Nuestras armas vencedoras han llegado por las fronteras del Norte y Sud, hasta nuestros antiguos límites, pues aunque los enemigos ocupan únicamente las poblaciones de Caoba, Hincha, San Miguel y San Rafael, siendo estos habitantes en general haitianos y los Gobiernos de Puerto-Príncipe y del Norte, habiendo solicitado una suspensión de armas",
+     "traduccion": "[La Junta, por boca de Bobadilla, declara en septiembre de 1844 que las poblaciones de Las Caobas, Hincha, San Miguel y San Rafael seguían ocupadas por el enemigo y que sus habitantes eran «en general haitianos»; añade que los gobiernos de Puerto Príncipe y del Norte habían pedido una suspensión de armas hasta enviar quien tratase.]",
+     "afirmaciones": [
+      "A-131",
+      "A-133",
+      "A-134"
+     ]
+    },
+    {
+     "ubicacion": "Discurso de Bobadilla, 26-IX-1844, p. 13 impr. (PDF p. 36)",
+     "cita_original": "Apenas resonó el grito de Separación, la Junta creyó de necesidad que todos empuñaran las armas para sostener la libertad adquirida. Los pueblos todos correspondieron a su llamada, más de veinte mil hombres, todos ciudadanos padres de familia, se reunieron",
+     "traduccion": "[Cifra oficial de movilización: «más de veinte mil hombres», sin recuento ni base; compárese con los 4.000-5.000 de Moges y los 2.000 de la entrada de Santana.]",
+     "afirmaciones": [
+      "A-119",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "Discurso de Bobadilla, 26-IX-1844, p. 12 impr. (PDF p. 35)",
+     "cita_original": "Ejércitos formidables se prepararon por el Norte y el Sud para venir con las ideas más hostiles, en una mano la tea incendiaria y en la otra el puñal, para destruir nuestros campos y poblados, violar nuestras vírgenes y mujeres, robar, pillar y asesinar.",
+     "traduccion": "[Retórica oficial dominicana de septiembre de 1844 sobre las tropas haitianas; la propia Junta decía a Francia en diciembre de 1843 algo parecido (Exposición, doc. 31).]",
+     "afirmaciones": [
+      "A-129",
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-119",
+    "A-128",
+    "A-129",
+    "A-131",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "= M09-N19: unificar al integrar. M09 ya extrajo de este mismo pasaje solo la cláusula sobre la suspensión de armas (A-133) y omitió «los enemigos ocupan únicamente las poblaciones de Caoba, Hincha, San Miguel y San Rafael, siendo estos habitantes en general haitianos». Este es el único texto dominicano de 1844 que declara el carácter de la población del Plateau; la Memoria dominicana de 1896 lo reafirma («déjà habitées en grande partie par les Haïtiens»). Nótese que Bánica no figura entre las ocupadas en 1844."
+  },
+  {
+   "titulo": "Actas de sesiones del Soberano Congreso Constituyente de Moca, 1857-1858 (Documentos legislativos, Senado de la República; con Apéndice de documentos: decreto electoral de 25-IX-1857 y Ley sobre división territorial de 3-III-1858)",
+   "autor": "Congreso Constituyente de Moca; Gobierno Provisional de la República (Santiago de los Caballeros); Archivo General de la Nación / Senado de la República (ed.)",
+   "anio": "1857-1858",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/0a5348bd-fdc6-4f2d-aceb-177393c6ccd8/content",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Actas oficiales impresas (escaneo nítido) del congreso del bando antibaecista, con decretos y leyes en apéndice; fuente de parte pero directa.",
+   "proveniencia": "Actas del Congreso Constituyente reunido en Moca (diciembre de 1857-marzo de 1858) por el Gobierno Provisional surgido del Manifiesto de Santiago del 7-VII-1857 contra Buenaventura Báez; preceden a la Constitución de Moca de 1858. El volumen, digitalizado por el Senado (Memoria Histórica, 331 vistas), incluye mensajes del Ejecutivo, discursos y un apéndice de 21 documentos. M09 lo listó como «no descargado» (hallazgo para la Fase 3).",
+   "extractos": [
+    {
+     "ubicacion": "Sesión del 9-XII-1857, p. 21 impr. (PDF p. 42); cotejado en imagen",
+     "cita_original": "Elegir Diputados para representar los pueblos o Comunes que no hayan podido elegir. La Comisión de elección dió lectura de lo siguiente: Monte Plata y Boyá, Hincha, San Miguel, San Rafael, Las Caobas y Bánica.",
+     "traduccion": "[Orden del día del Congreso de Moca (Gobierno Provisional de Santiago, tras el derrocamiento de Báez): el propio Congreso elige diputados por las comunes que «no hayan podido elegir».]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Sesión del 9-XII-1857, p. 21 impr. (PDF p. 42); cotejado en imagen",
+     "cita_original": "Discutióse el número de Diputados que a cada una de estas Comunes debía corresponder, puesto que el Decreto de convocatoria no lo determinaba, y fué resuelto elegir uno por cada Común",
+     "traduccion": "[El decreto de convocatoria de 25-IX-1857 no asignaba escaño a esas comunes (véase el cuadro del art. 21, Apéndice, p. 203).]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Sesión del 9-XII-1857, p. 21 impr. (PDF p. 42); cotejado en imagen",
+     "cita_original": "José Concepción Tabera, Diputado por Bánica, por una mayoría de diez y siete votos; Gregorio Rivas, Diputado por Hincha, por una mayoría de veinte y cuatro votos; Antonio Molina, Diputado por San Rafael, por una mayoría de diez y ocho votos; Alfred Deetjen, Diputado por las Caobas [...]; José María Rodríguez, Diputado por San Miguel",
+     "traduccion": "[Cinco diputados por comunes ocupadas, elegidos por los diputados presentes (17 a 25 votos) y no por sus vecinos. «Alfred Deetjen» (Las Caobas) por una mayoría de veinticinco votos; «José María Rodríguez» (San Miguel) por veinte.]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Sesión del 14-XII-1857, p. 36 impr. (PDF p. 57); cotejado en imagen",
+     "cita_original": "José María Rodríguez, por San Miguel, José Concepción Taberas, por Bánica, Antonio Rodríguez Díaz Molina, por San Rafael, Gregorio Rivas por Hincha, los cuales, uno a uno, acercándose a la Presidencia prestaron juramento de cumplir bien su encargo y fueron instalados en sus puestos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Mensaje del Gobierno Provisional al Congreso, p. 31 impr. (PDF p. 52); cotejado en imagen",
+     "cita_original": "La antigua costumbre del merodeo dió lugar a comunicaciones de una parte y otra, a la devolución de los animales robados, a la persecución y castigo de los culpables, y a protesta de parte del Emperador Soulouque sobre su intención de respetar religiosamente la tregua celebrada con la República.",
+     "traduccion": "[Rutina de contacto fronterizo en 1857: devolución de animales robados y persecución de culpables entre autoridades de ambos lados, bajo una «tregua» con el Imperio.]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Mensaje del Gobierno Provisional, p. 31 impr. (PDF p. 52); cotejado en imagen",
+     "cita_original": "Amenazada la República por la presencia de fuerzas enemigas en las fronteras del vecino Estado [...] el Gobierno no vaciló un instante en poner en las fronteras dos ejércitos [...] habiendo retirado el enemigo sus tropas y no habiendo ya motivos plausibles de temor, se ordenó el licenciamiento del Ejército.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, Documento n.º 2 (Decreto del Gobierno Provisional convocando las asambleas electorales, Santiago, 25-IX-1857), art. 21, p. 203 impr. (PDF p. 224); cotejado en imagen",
+     "cita_original": "La Provincia de Azua elegirá siete Diputados en la forma siguiente: Compostela de Azua, 3; Neiba, 1; San Juan, 1; Barahona, 1; Las Matas de Farfán, 1; Bánica, ,, ; Hincha, ,, ; San Rafael, ,, ; San Miguel, ,, ; Las Caobas, ,, ; Total 7",
+     "traduccion": "[Igual que en 1844: las cifras explícitas suman el total (7) y las cinco comunes del Plateau llevan solo el signo de repetición.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, Documento n.º 10 (Ley sobre división territorial, 3-III-1858), art. 4, p. 228 impr. (PDF p. 249); cotejado en imagen",
+     "cita_original": "desde la Sierra del Puerto, donde parten los límites de la República fijados por el Tratado de Aranjuez de 3 de Junio de 1777 con los de Haití, corriendo toda la cordillera del centro de la Isla",
+     "traduccion": "[Límite del Departamento del Ozama en 1858: el Congreso constituyente invoca Aranjuez 1777 (la Constitución de 1844 decía 1793).]",
+     "afirmaciones": [
+      "A-120",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, Documento n.º 10, art. 5, p. 228 impr. (PDF p. 249); cotejado en imagen",
+     "cita_original": "También pertenecen a este Departamento y dependen de la Provincia de Azua: los pueblos de Bánica, Hincha, San Rafael, San Miguel de la Atalaya y las Caobas.",
+     "traduccion": "[Fórmula de 1858: «pueblos» que «pertenecen y dependen» (no figuran entre las «Comunes»), aparte de las comunes de la provincia.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-120",
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Descargado y leído por búsqueda de palabra (Hincha, Cahoba/Caobas, San Miguel, San Rafael, Bánica, merodeo, frontera) en la capa OCR (582 KB) y cotejo visual de las pp. 21, 31, 36, 203 y 228; no se leyó el resto de las actas. Importa para los silencios: los vecinos de las cinco comunes no eligieron a quienes los representaron en 1857 ni (según el cuadro) en 1844; sus «diputados» fueron designados por el congreso. No hay texto sobre cuántos habitantes tenían ni a qué Estado pagaban impuestos. Nota: Bánica figura aquí entre las comunes que «no hayan podido elegir» en 1857, mientras la memoria haitiana de 1896 dice que Dajabón y Bánica fueron ocupadas por dominicanos tras el cese de hostilidades: tensión no resuelta."
+  },
+  {
+   "titulo": "Memoria del General Libertador (Pedro Santana) al Ministro sobre el uso de las facultades extraordinarias en la pacificación de la Provincia de Azua y las fronteras del Sur, mayo-agosto de 1860, en Actas de sesiones del Senado Consultor, 1859-1861 (Documentos legislativos, Senado de la República)",
+   "autor": "Santana, Pedro (el texto firma como «General Libertador»; firma no leída); Senado Consultor de la República Dominicana",
+   "anio": "1860",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/85a6bf77-25e1-4649-a969-53a6cc531472/content",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe militar de un jefe que justifica ante el Senado sus facultades extraordinarias, con sesgo propio, pero con datos concretos de lugares y fechas; escaneo nítido (cotejado en pp. 369-371).",
+   "proveniencia": "Memoria que Santana, entonces jefe del ejército que marchó a las fronteras del Sur, presenta al Ministro para cumplir el art. 36 de la Constitución sobre su misión de «pacificar la Provincia de Azua y restablecer el orden en las fronteras del Sur» (marcha del 18-V-1860; sublevación de la «facción» de Domingo Ramírez en Neiba, Las Matas, El Cercado y Vallejuelo, en connivencia, según el Senado, con los haitianos). Leída en el Senado Consultor tras una carta de A. Alfau del 16-VIII-1860; incluye la Orden del día del 2-VII-1860 sobre el robo de ganado.",
+   "extractos": [
+    {
+     "ubicacion": "Memoria del General Libertador al Ministro de Guerra, pp. 369-370 impr. (PDF pp. 390-391); cotejado en imagen en p. 369",
+     "cita_original": "Desde aquella época, la facción no pisó más en suelo seguro y tuvo que retirarse a Haití, llevándose delante cuantas familias habitaban aquellos lugares, con la sola excepción de los que habiendo quedado a retaguardia de nuestras tropas por pertenecer a Vallejuelo [...] no tuvieron salida directa para Haití como El Cercado",
+     "traduccion": "[Mayo-junio de 1860: tras la derrota de la facción de Domingo Ramírez, familias de El Cercado fueron llevadas a Haití; las de Vallejuelo, que quedaron atrás, fueron trasladadas por Santana a San José de Ocoa.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del General Libertador, pp. 369-370 impr. (PDF pp. 390-391); cotejado en imagen",
+     "cita_original": "La facción, aunque vencida, no quedó menos en posibilidad de hacernos el daño de retener las familias más allá de los límites actuales de la República, porque tolerada, o mejor dicho, consentida por los haitianos, pudo el traidor Domingo Ramírez establecer guardias que impidiesen la vuelta",
+     "traduccion": "[Santana acusa a las autoridades haitianas de consentir guardias que retenían a los dominicanos que habían pasado a Haití; usa la expresión «límites actuales de la República».]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del General Libertador, p. 371 impr. (PDF p. 392); cotejado en imagen",
+     "cita_original": "La inmoralidad en que estaba enviciada una parte de las poblaciones fronterizas, continuaba aún [...] dí la Orden del día de 2 de Julio, condenando a la pena de muerte a todos los que fuesen a robar animales u otros objetos de propiedad haitiana, o que ejerciesen ese tráfico en nuestro territorio",
+     "traduccion": "[Orden del día del 2-VII-1860: pena de muerte para quienes robasen ganado u otros bienes haitianos o comerciasen con ellos en territorio dominicano; el Estado atribuye el «vicio» a las poblaciones fronterizas.]",
+     "afirmaciones": [
+      "A-133",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del General Libertador, p. 371 impr. (PDF p. 392); cotejado en imagen",
+     "cita_original": "ha obligado al Gobierno haitiano, a publicar en sus fronteras otra igual, que nos da la doble garantía de que en lo sucesivo se respetará la propiedad dominicana.",
+     "traduccion": "[Reciprocidad: el Gobierno haitiano publicó en 1860 una orden igual en sus fronteras.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del General Libertador, p. 371 impr. (PDF p. 392); cotejado en imagen",
+     "cita_original": "Asimismo juzgué conveniente alejar de las fronteras las familias de esos individuos y las de los acogidos en Haití",
+     "traduccion": "[Desplazamiento forzoso de familias fronterizas de Las Matas; «los acogidos en Haití» son quienes se refugiaron al otro lado.]",
+     "afirmaciones": [
+      "A-133",
+      "A-134"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del General Libertador, p. 372 impr. (PDF p. 393) [OCR; cotejo visual pendiente]",
+     "cita_original": "creí conveniente que una población tan considerable como la de El Cercado y tan ventajosamente situada en frente de los haitianos, que necesariamente ha de guardar una parte de las fronteras, fuese constituída en Puesto Militar; en el mismo caso se hallaba Sabana Mula, perteneciente a Bánica",
+     "traduccion": "[Creación de puestos militares dependientes de Las Matas en El Cercado y Sabana Mula en 1860.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Senado Consultor, discusión de la Memoria, intervención de T. Bobadilla, p. 375 impr. (PDF p. 396) [OCR; cotejo visual pendiente]",
+     "cita_original": "la rebelión que el traidor Domingo Ramírez y otros, en connivencia con los haitianos, suscitaron [...] enormes gastos que se han reclamado a aquel Gobierno por haber violado la tregua que existía",
+     "traduccion": "[Bobadilla en el Senado (1860) afirma que el Gobierno haitiano violó la tregua de 1859 y que se le reclamaron los gastos.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-129",
+    "A-131",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M09",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "Descubierta por búsqueda de palabra «fronteras» en el volumen que M09 dejó «no descargado» (Senado Consultor 1859-1861, 146 MB). Es una de las pocas fuentes oficiales con vida cotidiana de rayanos (robo de ganado, familias llevadas a Haití, puestos militares); sigue siendo una voz del Estado dominicano, que describe a la población fronteriza como «inmoral». Ejército de «más de cuatro mil hombres» en Las Matas-San Juan (p. 369; cifra de Santana, sin base). Las citas p. 372 y p. 375 proceden del OCR sin cotejo visual. [POR VERIFICAR: firma y fecha exacta de la Memoria.]"
+  },
+  {
+   "titulo": "Actas de sesiones del Congreso Nacional, 1845-1849 (Documentos legislativos, Senado de la República): Mensaje del Presidente al Congreso de 1846 y Memoria del Poder Ejecutivo de 1848",
+   "autor": "Santana, Pedro (Presidente de la República); Consejo de Ministros; Congreso Nacional de la República Dominicana",
+   "anio": "1846-1848",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/b4db593d-246d-4463-8435-98783fd0bf09/content",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Actas oficiales impresas y escaneo nítido (cotejado en pp. 35 y 148); informes de parte del Ejecutivo, no evaluación independiente.",
+   "proveniencia": "Volumen del Senado (Memoria Histórica, 277 vistas) con las actas del Congreso Nacional de 1845 a 1849, que contiene los Mensajes anuales del Presidente y las Memorias de los ministros; M09 lo listó como «no descargado». Los extractos vienen del Mensaje de apertura de 1846 (campaña haitiana de julio de 1845) y de la Memoria de 1848 sobre los acuerdos del Consejo de Ministros de agosto de 1847.",
+   "extractos": [
+    {
+     "ubicacion": "Mensaje del Presidente de la República al Congreso Nacional (1846), p. 35 impr. (PDF p. 54); cotejado en imagen",
+     "cita_original": "las invasiones que hicieron nuestros enemigos los haitianos por todos puntos de las fronteras que dividen nuestro territorio, habiendo logrado posesionarse en el mes de Julio de los pueblos de Dajabón y Las Matas de Farfán. Este acontecimiento obligó al Gobierno a movilizar toda la República y marchar contra el enemigo",
+     "traduccion": "[Campaña haitiana de julio de 1845 según Santana.]",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Mensaje del Presidente de la República (1846), p. 35 impr. (PDF p. 54); cotejado en imagen",
+     "cita_original": "las prevenciones que la prudencia me hizo tomar para socorrer los habitantes de las Comunes de Bánica, las Matas, San Juan y Neiba, cuando se quemaron aquellos pueblos, y que era de esperarse viniesen a buscar un refugio en esta Capital",
+     "traduccion": "[Pueblos incendiados en la campaña de 1845 y población fronteriza desplazada hacia la capital.]",
+     "afirmaciones": [
+      "A-119",
+      "A-133",
+      "A-134"
+     ]
+    },
+    {
+     "ubicacion": "Memoria del Poder Ejecutivo al Congreso Nacional de 1848 (acuerdos del Consejo de Ministros, 23-VIII-1847), p. 148 impr. (PDF p. 167); cotejado en imagen",
+     "cita_original": "el regimiento de Las Matas de Farfán se compone de individuos de las Comunes de Las Caobas, Hincha, Bánica, Comendador, y de todos los lugares circunvecinos [...] a cualquier grito de alarma son de los primeros que se presentan para hacer frente al enemigo",
+     "traduccion": "[En agosto de 1847 el regimiento dominicano de Las Matas se componía de gente de Las Caobas, Hincha, Bánica y Comendador: exiliados o vecinos de las comunes del Plateau que servían al Estado dominicano. El año se infiere del texto («el citado año de 1847») [POR VERIFICAR].]",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-131",
+    "A-133",
+    "A-134"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Búsqueda de palabra en OCR (583 KB) y cotejo visual de las pp. 35 y 148. No se leyó el resto; los otros volúmenes del Senado descargados (Congreso Nacional 1851-1853, Consejo Conservador 1845-1848, Senado Consultor 1854-1855) no contenían menciones útiles de Hincha, Cahobas, San Miguel o San Rafael (solo listas fiscales y de comunes). La URL del handle es una suposición (no abierta)."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti (Collection Linstant Pradine), t. V (1827-1833): n.º 1225, Proclamation du Président Boyer sur la réclamation de la partie de l'Est par le roi d'Espagne (6-II-1830), y piezas de la misión de Felipe Fernández de Castro (enero de 1830)",
+   "autor": "Boyer, Jean-Pierre (Presidente de Haití); comisionados haitianos Inginac, Lespinasse y Frémont; Pradine, Linstant (ed.)",
+   "anio": "1830 (acto); 1860s (ed.)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/download/recueilgnral03hait/recueilgnral03hait_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial de actos publicados por el propio gobierno haitiano (el Recueil reproduce la brochure de 1830 «in extenso»); OCR defectuoso y texto interlineado con las piezas anexas, citas reconstruidas con cuidado.",
+   "proveniencia": "Proclama del presidente Boyer del 6-II-1830 explicando a los haitianos por qué rechazó la reclamación del rey de España Fernando VII sobre la «partie de l'Est», transmitida por el plenipotenciario Felipe Fernández de Castro (poderes del 25-VIII-1829; conferencias del 17-19-I-1830). El Recueil de Linstant Pradine, publicado en París en el siglo XIX, copia la proclama y las piezas de la correspondencia entre Castro y los comisionados haitianos (n.º 1225 y siguientes, pp. 312-319 y ss.). Es el origen oficial del argumento de seguridad de la doctrina de la isla «indivisible», citado luego por la memoria haitiana de 1896 (p. 13).",
+   "extractos": [
+    {
+     "ubicacion": "Recueil général, t. V (1827-1833), n.º 1225, Proclamation de Boyer, Port-au-Prince, 6-II-1830, p. 312 impr. (OCR ruidoso)",
+     "cita_original": "La réponse à cette demande ne pouvait être douteuse ; elle découlait naturellement de notre Constitution de décembre 1806, qui s'exprime ainsi : L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent, forment le territoire de la République d'Haïti.",
+     "traduccion": "La respuesta a esta demanda [la reclamación del rey de España] no podía ser dudosa; se desprendía naturalmente de nuestra Constitución de diciembre de 1806, que dice: «La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República de Haití».",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Recueil, t. V, n.º 1225, pp. 313-314 impr. (OCR ruidoso)",
+     "cita_original": "Les fondateurs du pacte social qui nous régit, en proclamant ainsi, à cette époque, le vœu national, n'avaient aucunement anticipé sur les possessions de Sa Majesté Catholique ; ils n'ont fait qu'exercer un droit [...] qui résulte nécessairement du principe conservateur qui a fondé l'existence et garanti la sécurité de la plupart des peuples.",
+     "traduccion": "Los fundadores del pacto social que nos rige, al proclamar así en aquella época el voto nacional, no habían anticipado en modo alguno sobre las posesiones de Su Majestad Católica; solo ejercieron un derecho [...] que resulta necesariamente del principio conservador que ha fundado la existencia y garantizado la seguridad de la mayoría de los pueblos.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "Recueil, t. V, n.º 1225, p. 316 impr. (OCR ruidoso)",
+     "cita_original": "n'était-il pas incontestable que le peuple régénéré dût considérer et déclarer, dans l'intérêt de sa conservation et de sa sûreté future, tout le territoire, dans son intégrité, comme sa propriété indivisible ?",
+     "traduccion": "¿no era incontestable que el pueblo regenerado debía considerar y declarar, en interés de su conservación y de su seguridad futura, todo el territorio, en su integridad, como su propiedad indivisible? [Tras recordar la expedición de 1802 y la «proscripción» que alcanzó también al Este.]",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "Recueil, t. V, n.º 1225, pp. 318-319 impr. (OCR ruidoso)",
+     "cita_original": "Si deux peuples ayant la même forme de gouvernement n'ont pu vivre ensemble, sur cette terre, dans la paix du voisinage, cette leçon ne doit pas être perdue pour nous ; elle nous apprend qu'un peuple naissant, créé par la liberté, ne pourrait, sans danger pour son existence nationale, rester en contact avec une nation gouvernée par des institutions contraires.",
+     "traduccion": "Si dos pueblos con la misma forma de gobierno no pudieron vivir juntos en esta tierra en la paz de la vecindad, esa lección no debe perderse para nosotros; nos enseña que un pueblo naciente, creado por la libertad, no podría, sin peligro para su existencia nacional, permanecer en contacto con una nación gobernada por instituciones contrarias. [Boyer, 1830, sobre España y Francia; «instituciones contrarias» incluye la esclavitud.]",
+     "afirmaciones": [
+      "A-126",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Recueil, t. V, 1830, piezas de la misión Castro (Respuesta a la primera nota, enero de 1830), p. 318 impr. (OCR ruidoso)",
+     "cita_original": "ont déclaré le 1er janvier 1804, libre et indépendant de la domination française et de toute domination étrangère ; en conséquence, le peuple haïtien, en proclamant, le 27 décembre 1806, sa Constitution, devait nécessairement [...] ne reconnaître pour limites de son territoire que celles tracées par la nature.",
+     "traduccion": "declararon el 1.º de enero de 1804 libre e independiente de la dominación francesa y de toda dominación extranjera; en consecuencia, el pueblo haitiano, al proclamar el 27 de diciembre de 1806 su Constitución, debía necesariamente [...] no reconocer por límites de su territorio sino los trazados por la naturaleza. [Nota de los comisionados haitianos a Felipe Fernández de Castro, enero de 1830.]",
+     "afirmaciones": [
+      "A-125",
+      "A-126",
+      "A-124"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-125",
+    "A-126"
+   ],
+   "modulos": [
+    "M06",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Mismo corpus que M09-F-0065 (t. VIII, archive.org recueilgnral00hait); aquí el t. V (identificador archive.org recueilgnral03hait; numeración local del identificador: 03 = t. V, 1827-1833). El texto del OCR intercala la proclama con las piezas anexas; las líneas citadas del _djvu.txt están en torno a las 22.440-22.800 [no cotejadas contra imagen]. Responde a lo que M09 dejó como pendiente de A-125/A-126 («proclamas de Boyer no leídas») y es de 1830, no de 1822: faltan las proclamas de Boyer de 1822."
+  },
+  {
+   "titulo": "Papers Relating to the Foreign Relations of the United States (FRUS), 1911, doc. 193: The Legation of Haiti to the Department of State, aide-mémoire (translation), Washington, April 27, 1911, on the Haitian-Dominican boundary arbitration (File No. 738.3915/61)",
+   "autor": "Legación de Haití en Washington (aide-mémoire); Departamento de Estado de EE. UU. (ed.)",
+   "anio": "1911",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1911/d193",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1911/d190",
+    "https://history.state.gov/historicaldocuments/frus1912/ch40"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento diplomático oficial publicado por el Departamento de Estado; es traducción de una nota de parte (Haití), útil para su posición, no para los hechos de 1844-1874.",
+   "proveniencia": "Aide-mémoire presentado por la Legación de Haití al Departamento de Estado el 27-IV-1911, cuando EE. UU. ofrecía sus buenos oficios para un nuevo arbitraje de la frontera; resume las posiciones haitiana y dominicana sobre el art. 4 del tratado de 1874 («possessions actuelles»: uti possidetis de 1874 frente a statu quo post bellum de 1856) y la historia de los convenios de 1895 y 1898. FRUS 1911, pp. 162-163.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1911, doc. 193, Legación de Haití al Departamento de Estado, aide-mémoire, Washington, 27-IV-1911 (File 738.3915/61), p. 162",
+     "cita_original": "Following the partition that took place in 1844 in the Republic of Haiti war prevailed for a long period between the eastern Provinces of Haiti and the central Government.",
+     "traduccion": "Tras la partición ocurrida en 1844 en la República de Haití, hubo guerra durante largo tiempo entre las provincias orientales de Haití y el gobierno central. [Vocabulario oficial haitiano de 1911: «partition», «eastern Provinces».]",
+     "afirmaciones": [
+      "A-118",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1911, doc. 193, pp. 162-163",
+     "cita_original": "But the Dominican Government claimed, in 1883, that Article IV of the treaty did not prescribe for the purpose of delimitation the uti possidetis of 1874 when the treaty of peace was signed but rather the uti possidetis of 1856, from which time, in the opinion of the Dominican Government, there was a cessation of the hostilities",
+     "traduccion": "Pero el Gobierno dominicano sostuvo, en 1883, que el art. IV del tratado no prescribía a efectos de delimitación el uti possidetis de 1874, fecha de la firma del tratado de paz, sino el de 1856, desde cuando, en opinión del Gobierno dominicano, hubo cese de hostilidades. [Tesis dominicana según la Legación haitiana; el texto cita a la vez los «arts. 12 y IV», incoherencia de la traducción.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1911, doc. 193, p. 162",
+     "cita_original": "The Haitian Government contends and always contended that the uti possidetis of 1874 is that adopted and sanctioned by the treaty of peace [...] inasmuch as the phrase “present possessions” can have no other meaning than that of the possessions held by the two peoples at the time of the signature of the treaty of peace.",
+     "traduccion": "El Gobierno haitiano sostiene y siempre sostuvo que el uti possidetis de 1874 es el adoptado y sancionado por el tratado de paz [...] pues la frase «posesiones actuales» no puede tener otro sentido que el de las posesiones que detentaban los dos pueblos en el momento de la firma del tratado de paz.",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-118",
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Los documentos FRUS 1911 d190 (nota haitiana del 14-III-1911) y 1912 ch40 (arbitraje de límites) se abrieron pero no aportan citas sobre 1844-1861. Documento de 1911, útil como testigo de la posición haitiana sobre la separación y sobre «present possessions»; no sustituye a las memorias de 1896. Hay incoherencia en la traducción oficial (art. 12 / art. IV)."
+  },
+  {
+   "titulo": "FRUS 1920, vol. I, doc. 308: Minister Russell (Santo Domingo) to the Secretary of State, August 12, 1920, with enclosed Dominican-Haitian exchange on the protocol of arbitration of the boundary (article 4 of the treaty of 1874)",
+   "autor": "Russell, William W. (ministro de EE. UU.); Marix, A. T. (Gobierno Militar de Santo Domingo); Magloire, Félix (ministro de Haití); Departamento de Estado (ed.)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1920v01/d308",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1920v01/d306",
+    "https://history.state.gov/historicaldocuments/frus1920v01/d311"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documentos oficiales publicados por el Departamento de Estado con traducciones de notas de las partes; tardíos respecto del período 1844-1861.",
+   "proveniencia": "Anexos de un despacho del ministro estadounidense en Santo Domingo durante la ocupación militar (1916-1924): memorándum haitiano (2-VIII-1920) con adiciones al protocolo de arbitraje papal y borrador de contestación dominicana. Discuten el art. 4 del tratado de 1874 («possessions actuelles»). FRUS 1920, vol. I, pp. 304-306; los docs. 306 y 311 traen el borrador y el proyecto final del protocolo.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308 (Russell a Secretario de Estado, 12-VIII-1920; anexo: memorándum del ministro haitiano Magloire, 2-VIII-1920, y respuesta dominicana en borrador), pp. 304-306",
+     "cita_original": "in view of the fact that Haiti has always occupied and peopled the territory in question for a lapse of time, and that it would be impossible today for the Dominican Republic to indemnify the Haitian Landowners for their property located and established in said territory",
+     "traduccion": "en vista de que Haití ha ocupado y poblado siempre el territorio en cuestión durante un lapso de tiempo, y de que hoy sería imposible a la República Dominicana indemnizar a los propietarios haitianos por sus bienes situados y establecidos en dicho territorio. [Cláusula propuesta por Haití en 1920; testimonio de propietarios y población haitianos en la zona disputada.]",
+     "afirmaciones": [
+      "A-133",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308, subenclosure 2 (borrador de nota dominicana, agosto de 1920), p. 306",
+     "cita_original": "the arbiter would be granted powers to dictate regulations and provisions of any kind and to adjust all matters, whatever they may be, of uti possidetis, status quo, or any other point which might arise.",
+     "traduccion": "al árbitro se le concederían poderes para dictar reglas y disposiciones de cualquier clase y arreglar todos los asuntos, cualesquiera que sean, de uti possidetis, statu quo o cualquier otro punto que pueda surgir. [El Gobierno Militar dominicano, bajo ocupación de EE. UU., en 1920.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Los extractos solo ilustran la herencia de la cuestión de «posesiones actuales» (1874-1920) y mencionan «Haitian Landowners» en la zona; no dicen nada sobre la gente que vivía allí en 1844-1861. La OCR no aplica: texto HTML de history.state.gov."
+  },
+  {
+   "titulo": "Cuestión fronteriza dominico-haitiana: palabras escritas por E. Tejera y leídas en la presentación de credenciales de los plenipotenciarios dominicanos encargados de celebrar un tratado de paz con Haití (1874), Clío, n.os 49-50, 1941, p. 167",
+   "autor": "Tejera, Emiliano",
+   "anio": "1874 (discurso); 1941 (publicación)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1941-009-049-050-167.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro (una página) de un discurso de un plenipotenciario, publicado en la revista de la ADH; no es sobre 1844-1861, sino un testigo de 1874 sobre cómo se leía la separación.",
+   "proveniencia": "Discurso de Emiliano Tejera ante el gobierno haitiano al presentar credenciales en 1874; la comisión dominicana (Tejera, José G. García, Carlos Nouel, J. B. Zafra) no llegó entonces a un acuerdo. Publicado en Clío (ADH) en 1941 bajo el título «Cuestión fronteriza dominico-haitiana». Es la pieza que el crítico señaló como «Tejera 1941»: no es un estudio de la frontera 1844-1861.",
+   "extractos": [
+    {
+     "ubicacion": "Clío n.os 49-50 (1941), p. 167, «Cuestión fronteriza dominico-haitiana. Palabras escritas por E. Tejera y leídas en la presentación de credenciales de los plenipotenciarios dominicanos encargados de celebrar un tratado de paz con Haití (1874)»; cotejado en imagen",
+     "cita_original": "Los acontecimientos del 44 fueron el resultado del error del 22.",
+     "traduccion": "[Emiliano Tejera, 1874: lectura de la separación como corrección de la unificación de 1822.]",
+     "afirmaciones": [
+      "A-117",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Clío n.os 49-50, p. 167; cotejado en imagen",
+     "cita_original": "Hoy es una creencia jeneral, unánime, que las dos colonias de Santo Domingo que antes formaban parte de los dominios de España i Francia deben ser dos naciones soberanas, ligadas por los vínculos de una amistad franca i pura, celosas de mantener a toda costa i contra todo su independencia i la integridad de sus respectivos territorios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "Clío n.os 49-50, p. 167, nota (*); cotejado en imagen",
+     "cita_original": "No se llegó entonces a ningún acuerdo. Los Plenipotenciarios fueron E. Tejera, José G. García, Carlos Nouel i J. B. Zafra.",
+     "traduccion": "[El tratado definitivo de 9-XI-1874 lo firmaron Nouel, Cocco y Caminero: esta misión de Tejera fue un intento anterior.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-125",
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "El PDF (2,6 MB) tiene una sola página; la OCR de pdftotext era ilegible en dos columnas y se leyó la imagen. No contiene datos sobre Hincha, Las Caobas ni los rayanos. Sirve a A-133 como indicio de que en 1874 el Gobierno dominicano presentaba el tratado como deseo «compartido» por Haití."
+  },
+  {
+   "titulo": "La colonización de la frontera dominicana en la segunda mitad del siglo XVIII: la fundación de San Rafael, Las Caobas y San Miguel de la Atalaya, Clío, n.º 167, 2004, pp. 113-146 (conferencia en la ADH, 25-III-2004)",
+   "autor": "Hernández González, Manuel",
+   "anio": "2004",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2004-167-113-146.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico (Universidad de La Laguna) basado en documentos del AGI y del AHN, con cifras demográficas y archivísticas citadas, sobre el origen colonial de los pueblos que luego quedaron en el Plateau.",
+   "proveniencia": "Conferencia de Manuel Hernández González (Universidad de La Laguna, Tenerife) en la Academia Dominicana de la Historia el 25-III-2004, con financiación del Gobierno de Canarias; reconstruye con documentos del AGI, AHN y fuentes francesas la fundación, con familias canarias y haciendas de barones, de San Rafael de la Angostura, Las Caobas y San Miguel de la Atalaya (c. 1760-1780) y su dependencia del cabildo de Hincha.",
+   "extractos": [
+    {
+     "ubicacion": "Clío n.º 167 (2004), pp. 113-146, introducción (p. 113)",
+     "cita_original": "El área fronteriza con el Santo Domingo Francés fue una de los objetivos colonizadores de las autoridades españolas para contrarrestar la expansión gala en la isla. Por ello, habían dado pie a la formación de nuevas poblaciones con familias canarias en ellas, tales como Bánica o Hincha.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Clío n.º 167, pp. 113-146 (pasaje sobre Hincha, c. p. 117)",
+     "cita_original": "Hincha, desde su fundación en 1704, vertebró en torno a sí el dinamismo regional. Esa riqueza acumulada propició la formación de un grupo oligárquico local",
+     "traduccion": "[La OCR leía «tomo»; corregido a «torno» por contexto.]",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Clío n.º 167, pp. 113-146 (pasaje sobre San Rafael, c. pp. 119-120)",
+     "cita_original": "En 1783 contaba ya con 1,079 habitantes. Su censo ganadero era una década antes de 2,000 reses.",
+     "traduccion": "[San Rafael de la Angostura, 1783; base: AHN Madrid, Consejos, leg. 20579, según el artículo.]",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "Clío n.º 167, pp. 113-146 (pasaje sobre San Miguel de la Atalaya, c. pp. 128-129)",
+     "cita_original": "En 1782 San Miguel de la Atalaya alcanzó la población de 1,131 habitantes.",
+     "traduccion": "[Base: AGI, Santo Domingo, leg. 930, según el artículo.]",
+     "afirmaciones": [
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M05",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Secundaria; se incluye por el contexto colonial de las comunes que en 1844-1874 estuvieron bajo Haití (los «rayanos» del Plateau eran, en origen, pobladores canarios y gente del hato). No trata 1844-1861. Se leyó por búsqueda de palabras y fragmentos; la OCR perdió algunos acentos (cotejo textual con la edición pendiente). Las páginas precisas de los pasajes son aproximadas."
+  },
+  {
+   "titulo": "Historia de la cuestión fronteriza dominico-haitiana (Ciudad Trujillo, Luis Sánchez Andújar, 1946, 476 pp.; 2.ª ed. Sociedad Dominicana de Bibliófilos, 1988, 483 pp.; 3.ª ed. Colección Bibliófilos-Banreservas vol. 9, 2012, 530 pp., ISBN 978-9945-457-41-4)",
+   "autor": "Peña Batlle, Manuel Arturo",
+   "anio": "1946",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=11878",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=3385",
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=10342",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-1955-023-102-001-012.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra del ideólogo del hispanismo trujillista, apoyada en documentos de archivo según quienes la citan, pero de la que no se localizó el texto; solo fichas de catálogo y una mención de 1955.",
+   "proveniencia": "Peña Batlle (1902-1954), jurista, historiador y secretario de Estado de Trujillo, escribió esta historia como fundamento de las negociaciones de 1929-1936; la edición de 1946 es de Ciudad Trujillo. Registros de la Biblioteca Vetilio Alfau Durán (ADH): 3385 (2.ª ed., 1988), 10342 (3.ª ed., 2012), 11878 (1.ª ed., 1946, con dedicatoria del autor y anotaciones manuscritas, colección VAD). Ninguno tiene texto en línea.",
+   "extractos": [
+    {
+     "ubicacion": "Troncoso Sánchez, Pedro, «Las Guerras Europeas de Santo Domingo» (discurso de ingreso en la ADH, 12-XII-1954), Clío n.º 102, ene.-mar. 1955, p. 2",
+     "cita_original": "«Historia de la cuestión fronteriza dominico-haitiana», de la cual no se ha publicado sino el primer tomo",
+     "traduccion": "[Troncoso, en 1954-55: de la obra de Peña Batlle solo se había publicado el primer tomo. Contradice el dato de la crítica (libro III sobre 1844-1861) y la afirmación de un buscador de dos tomos en 1946: la estructura queda sin verificar.]",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Troncoso Sánchez, Clío n.º 102 (1955), pp. 2-3 [página exacta no cotejada]",
+     "cita_original": "La de más larga elaboración es la historia de la cuestión fronteriza, en la que trabajó desde su juventud y la cual tuvo importancia fundamental en las negociaciones que precedieron al arreglo definitivo",
+     "traduccion": "[Peña Batlle trabajó la historia fronteriza desde joven y la usó en las negociaciones del Tratado de 1929-1936.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-125",
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Búsquedas realizadas: WebSearch (3 consultas) y catálogo Koha de la ADH; no hay PDF en archive.org (consulta por API), ADH ni AGN (catálogo de publicaciones). La mención «libro III trata 1844-1861» viene del encargo del crítico y de un resultado de buscador no verificado: [POR VERIFICAR]. Los pasajes de Peña Batlle (1946, p. 168) que conoce M09 llegan vía Espada (Clío 167, 2004). Pendiente: consulta física de la edición de 1946 o 2012."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. VIII: années 1843-1846 (Port-au-Prince, Imprimerie J. Verrollot, 1904; reed. Éditions Henri Deschamps, 1985/1989)",
+   "autor": "Madiou, Thomas",
+   "anio": "1904",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://catalog.hathitrust.org/Record/011984236",
+   "urls_alternativas": [
+    "https://gallica.bnf.fr/ark:/12148/bpt6k53240349"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano clásico y coetáneo de los hechos, pero el t. VIII es póstumo y de contenido compilatorio; no se pudo leer.",
+   "proveniencia": "Madiou (1814-1884), historiador haitiano de la elite de color del Sur; los t. I-III salieron en 1847-48; el volumen de 1843-1846 lo publicó su familia en 1904. Se intentó abrir: HathiTrust (catálogo y API de bib, HTTP 403 con desafío de Cloudflare, no evadido); Gallica (la ark bpt6k53240349 resultó ser el t. 1 de 1847-48; la búsqueda SRU de Gallica solo devuelve ese t. 1 y la «Capitulation du Cap», 1845); archive.org (API: solo los t. 1-3 de 1847-48); Manioc (solo «Capitulation du Cap (1803)», 29 pp.).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-117",
+    "A-119",
+    "A-125"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0106",
+   "notas": "F-0106 sigue sin resolverse: el t. VIII de Madiou no está en acceso abierto en archive.org ni en Gallica (solo el t. 1), y HathiTrust devuelve 403. Pendientes: dLOC (digital library of the Caribbean), AGN Koha (biblioteca.agn.gob.do, q=an:74380), ed. Deschamps 1989 (368 pp.) o ejemplar físico. El contenido de Madiou sobre 1844 sigue conocido solo por Eller (2013) y por la memoria haitiana de 1896 (que cita a García, no a Madiou)."
+  },
+  {
+   "titulo": "Levantamiento documental: la situación dominico-haitiana (Estudios Sociales, vol. XXVII, n.º 98, octubre-diciembre 1994)",
+   "autor": "Vargas, Tahira (Centro de Estudios Sociales P. Juan Montalvo)",
+   "anio": "1994",
+   "tipo": "terciaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/406/392",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Bibliografía comentada de un centro de estudios sociales, útil solo como índice para llegar a fuentes de los niveles 1-3; no es evidencia.",
+   "proveniencia": "Lista de obras, artículos y documentos sobre la cuestión dominico-haitiana preparada en 1994 para el Centro Juan Montalvo, con una sección sobre el proceso histórico donde figuran varias obras de la cuestión de límites de 1874-1896 (entre ellas la tesis de Carías Dominici sobre el arbitraje de León XIII). Publicada por el AGN en Estudios Sociales.",
+   "extractos": [
+    {
+     "ubicacion": "Estudios Sociales, vol. XXVII, n.º 98 (oct.-dic. 1994), pp. 59-?, secc. «Estudios y artículos sobre el proceso histórico», n.º 7",
+     "cita_original": "Carias Dominici, Francisco. «L'arbitrage du pape Leon XIII sur l'interprétation de l'article 4 du Traité de 1874 passé entre la République Dominicaine et Haïti», Tesis de Derecho, Universidad de París, 1955, p. 230.",
+     "traduccion": "[Pista: estudio jurídico francés de 1955 sobre el arbitraje papal; no localizado.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "Estudios Sociales n.º 98, secc. «Estudios y artículos...», n.os 15, 17, 18, 26, 29, 30",
+     "cita_original": "Dolbemar, Jean Joseph. Nos limites Frontières. La question dominicaine; Port-au-Prince, 1893. [...] García Mella, Moisés. «La cuestión límites». Edic. Rafael Montalvo, Santo Domingo, 1923. [...] La frontera de la República Dominicana con Haití; Ed. La Nación, 1946.",
+     "traduccion": "[Pistas de obras sobre la frontera del siglo XIX (haitiana 1893; dominicanas 1896, 1911, 1921, 1923, 1946: [apellido ilegible en la OCR] 1896; Machado 1911; Montolío 1911; MacLean y Pina Chevalier 1921), todas sin texto localizado en esta ronda.]",
+     "afirmaciones": [
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Terciaria: índice de pistas, no evidencia. Se leyó solo la primera sección bibliográfica (pp. 59-63 aprox.); la OCR contiene errores («Sillin;», «Dolbemar»). Útil para la Fase 3: localizar las obras de 1893-1923 sobre la frontera (Dolbemar 1893, García Mella 1923, Machado 1911, Montolío 1911, MacLean y Pina Chevalier 1921)."
+  }
+ ]
+}

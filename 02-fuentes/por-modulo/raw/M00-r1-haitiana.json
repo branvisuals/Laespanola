@@ -1,0 +1,2934 @@
+{
+ "lente": "haitiana",
+ "modulo": "M00",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 53,
+ "busquedas_pendientes": [
+  "Jean Casimir, The Haitians: A Decolonial History, capítulo sobre Ayiti/Kiskeya y 'contreplantation' (texto en acceso abierto o fragmento de UNC Press)",
+  "Michel-Rolph Trouillot, Haiti: State Against Nation / Silencing the Past (muse.jhu.edu), pasajes sobre el nombre y la isla",
+  "Chemins critiques vol. 2 n.º 4 (diciembre de 1992) 'République dominicaine et Haïti': sumario y artículos",
+  "INHACOR, Haïti et la République Dominicaine. Les voies d'une coopération (1991-1995): ficha y texto",
+  "Bureau national d'ethnologie / Jacques Roumain sobre los 'Indiens d'Haïti' y la arqueología haitiana (1940-1980)",
+  "Hérard Dumesle, Voyage dans le Nord d'Hayti (1824), pasajes sobre los vestigios indios (Gallica devolvió 429)",
+  "Madiou, Histoire d'Haïti t. VI-VIII (1989-91), 'réunion de l'Est' (reedición Deschamps)",
+  "Tejera Penson, 'Rectificaciones históricas. ¿Quid de Quisqueya?' (1908) y Fouchard (1988: 78), citados por Charlier Doucet (lente dominicana)",
+  "Programas oficiales del MENFP de ciencias sociales (2.º-3.er ciclo fundamental) y Cadre d'Orientation Curriculaire 2021, grep de 'Taïno' y 'Hispaniola'",
+  "Akademi Kreyòl Ayisyen / Valdman / Dejean: préstamos taínos en kreyòl y etimología de 'Ayiti' en kreyòl",
+  "Decreto del 28 de noviembre de 1983 (Jour de l'Indien et de la Culture) y su vigencia",
+  "Libro 'L'Ayiti des Indiens' de Fombrun (Deschamps, 1992) y 'Histoire d'Haïti: Des origines à l'Indépendance' (1995)",
+  "Dessalines Reader (haitidoi.com): transcripciones de la proclamación del 28-IV-1804 y notas de Gaffield sobre 'Hayti'",
+  "Haïti Observateur / Radio Kiskeya: usos del nombre 'Kiskeya' en prensa haitiana contemporánea"
+ ],
+ "lagunas": [
+  "No localicé la explicación contemporánea de la elección del nombre Haïti por Boisrond-Tonnerre ni por Dessalines: el volumen de 1851 no la da y Ardouin (t. VI) dice 'on ne sait par qui' se emitió la idea; Madiou solo dice que 'sortit de toutes les bouches'. La atribución a Dessalines o a Boisrond-Tonnerre es de la tradición posterior.",
+  "Fouchard, 'Pourquoi Haïti? Où, quand et par qui fut choisi de redonner à notre patrie le nom indien d'Haïti', Revue de la SHHG n.º 145 (1984), pp. 13-17, y Mangonès (1934, Revue SHHG vol. 5 n.º 15) no se localizaron en línea; el índice RSHHGG Lab (www.rshhgglab.com) y dLOC no respondieron o no lo indexan en la búsqueda; Geggus, 'The Naming of Haiti' (NWIG 1997), devolvió 403.",
+  "La afirmación de Fombrun de que el U.S. Geographic Board decidió 'Hispaniola' en 1930 no tiene fuente en su texto ni la localicé [POR VERIFICAR].",
+  "Beauvoir-Dominique (F-0118): Duke devuelve el desafío Anubis; no encontré un texto impreso sobre elementos taínos en el vodou. F-0117 (Hurbon, Le barbare imaginaire), F-0113 (Manigat, Éventail), F-0120 (Gilbert) y los demás autores de F-0176 (Soukar, Bello, Buteau, Turnier) no se localizaron en acceso libre; Trouillot (F-0111) y Casimir no se leyeron.",
+  "Ninguna fuente haitiana en kreyòl sobre el nombre o la filiación: las búsquedas en kreyòl solo devolvieron sitios de turismo y la etimología 'Ayiti-Tomè' sin cita.",
+  "Textos y programas del MENFP: solo vi manuales por intermedio del análisis de Gourgues (2015) y el manual de 1906; no obtuve los programas oficiales ni el Cadre d'Orientation Curriculaire 2021 (F-0064) en lo referente a los taínos; el manual de Dorsainvil (F-0481) no se pudo leer porque el servidor corta el PDF (~52 MB) y queda dañado.",
+  "No hallé repertorio toponímico haitiano con etimologías (solo la lista, de calidad dudosa, del documento ONU 2007, Nau 1854 y el manual de 1906); la etimología concreta de Jakmèl, Léogâne, Cibao, Ozama, Artibonite, etc. queda [POR VERIFICAR] (A-020).",
+  "Ninguna voz haitiana sobre la genética: la tesis de la filiación taína 'frente a los datos genéticos' (A-017) solo se contrasta con Nau (1854), Madiou (1847) y Fombrun (2000); no hay respuestas haitianas a Schurr 2026, Simms 2010 ni Wilson 2012 en la prensa consultada.",
+  "No hay fuente haitiana que desarrolle la hipótesis de Quisqueya como nombre ciguayo (A-005) ni el apartado sobre Oviedo y Hernando Colón (A-002 en su parte no verificada): los autores haitianos usan a Charlevoix, Pedro Mártir (Madiou, Charlier Doucet) o dan los nombres sin fuente.",
+  "Voces disidentes del relato oficial: solo hallé a Bonnet (1821, vía Bellegarde 1953), a Charlier Doucet (2014) y la crítica de Hurbon (1987); faltan Manigat, Casimir y los historiadores noiristas y marxistas (H. Trouillot, Denis) sobre la doctrina de la isla indivisible.",
+  "Los discursos de Estado del 1 de enero, 18 de noviembre y 17 de octubre y las fiestas nacionales de 1804-1822 no se buscaron en este módulo (se dejan a M06-M09).",
+  "Sin acceso al Madiou en reedición moderna (t. IV-VIII, 1989-91): para 1821-1822 se usó Ardouin t. IX y el Recueil général t. III; la brochure que Boyer imprimió en enero de 1822 con los documentos de la reunión no se localizó aparte."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "réunion de la partie de l'Est / unité de l'île / annexion / occupation de la partie orientale (para 1822)",
+   "tradicion": "haitiana",
+   "nota": "La tradición haitiana no usa un único término para el acto de 1822: Ardouin (1853) 'réunion'; Bellegarde y Lhérisson (1906) 'Unité de l'île'; Janvier (1886) 'réunion', 'annexion de la partie espagnole' y 'occupé la partie orientale'; Bellegarde (1953) 'réunion de la Partie de l'Est' y 'rêve d'unification'; Théodat 1997 (trad. cast.) 'anexó'; Boyer (1822) 'réunissant', 'famille', 'fusion'. El glosario solo registra 'Unification, réunification de l'île'."
+  },
+  {
+   "termino": "Séparatistes de l'Est / scission de l'Est",
+   "tradicion": "haitiana",
+   "nota": "Bellegarde (1953) llama 'Séparatistes de l'Est' (y 'unionistes' a los favorables en 1821) a los dominicanos; Janvier (1886) 'scission définitive de l'Est'; el índice del manual de 1906 dice 'Séparation de la Partie de l'Est'. Complementa la fila 'Proclamación dominicana del 27 de febrero de 1844'."
+  },
+  {
+   "termino": "partie espagnole d'Haïti / l'Est d'Haïti / État indépendant de la partie espagnole d'Haïti",
+   "tradicion": "haitiana",
+   "nota": "Nombre que da Ardouin (t. IX) al Estado de Núñez de Cáceres de 1821 y a la parte oriental ('partie espagnole d'Haïti'); Charlier Doucet (2014) lo traduce 'État Indépendant d'Haïti espagnol' (= 'Haití Español' dominicano, A-011). Boyer (1822) usa 'partie de l'Est' y 'partie espagnole de l'île'."
+  },
+  {
+   "termino": "Armée indigène / indigènes d'Haïti (1803-1804)",
+   "tradicion": "oficial-haiti",
+   "nota": "Término del Acta de 1804 y de las proclamas de Dessalines: 'indigène' = nativo de la isla frente al colono francés (esclavos y libres), no etnónimo taíno; debe distinguirse del 'indigénisme' cultural de los años 20 (Price-Mars) y de 'indien'/'aborigène'. Refuerza la fila 'Corriente intelectual haitiana que reivindica la raíz africana' del glosario."
+  },
+  {
+   "termino": "aborigènes d'Haïti / premiers Haïtiens / période indienne / race rouge ou américaine",
+   "tradicion": "haitiana",
+   "nota": "Nombres que dan a los taínos Madiou (1847), Nau (1854), Ardouin y el manual de Bellegarde y Lhérisson (1906: 'période indienne', 'premiers Haïtiens', 'race rouge ou Américaine'); 'taïno' como etnónimo aparece solo en textos de fines del siglo XX y XXI (Fombrun 2000, Livre Blanc 2015, manuales de 3.er ciclo) y 'nytaino' en Nau es un rango noble. Complementa la fila 'Pueblo indígena de la isla en 1492'."
+  },
+  {
+   "termino": "Quisqueyens / Quisqueyanos (gentilicio) y Confédération Quisqueyenne",
+   "tradicion": "haitiana",
+   "nota": "En Haití 'Quisqueya' designa la isla entera (Price-Mars 1953, Fombrun 2000, Livre Blanc 2015, Université Quisqueya fundada en 1988), mientras en el uso dominicano designa el país (Charlier Doucet 2014; Théodat 1997-98 lo usa así). 'Confédération Quisqueyenne': proyecto de federación del general Nemours (1942), rechazado por Price-Mars como 'utopie'. Grafía criolla 'Kiskeya' (Charlier Doucet)."
+  },
+  {
+   "termino": "Ayti / Ayiti / Hayti / Haïti (grafías)",
+   "tradicion": "haitiana",
+   "nota": "Fouchard (1972) escribe 'Ayti' para el nombre aborigen y 'Haïti' para la isla actual; 'Ayiti' es la forma criolla oficial (Constitución de 1987, PCGN 2024) y se usa en prensa decolonial; Boyer (1822, versión castellana) escribe 'Hayti'; Madiou (1847) 'Haïti' y 'Quiesqueia'. Para el glosario: la grafía misma marca posición."
+  },
+  {
+   "termino": "Jour de l'Indien et de la Culture (28-XI-1983)",
+   "tradicion": "oficial-haiti",
+   "nota": "Conmemoración instituida por el gobierno de Jean-Claude Duvalier el 28 de noviembre de 1983, según Dominique Domerçant (Le Nouvelliste, 27-XI-2008); el 28-XI-1493 se asocia a las primeras señales de resistencia indígena. [POR VERIFICAR el decreto y su vigencia posterior.]"
+  },
+  {
+   "termino": "Toussaint 'envahit la partie de l'Est' / 'annexion' de 1801",
+   "tradicion": "haitiana",
+   "nota": "Corvington (1992) escribe 'envahit' y 'annexion' para 1801 (el glosario solo registra 'Unification de 1801' en la tradición haitiana); Madiou/Ardouin usan 'conquête' y 'réunion'. Evidencia de que la tradición haitiana no es uniforme en este vocabulario."
+  },
+  {
+   "termino": "insularité intégrale (Théodat) / île une et indivisible como sûreté de l'indépendance",
+   "tradicion": "haitiana",
+   "nota": "Lectura geográfica y de seguridad de la doctrina territorial (Ardouin 1850s: 'sûreté de l'indépendance proclamée'; Théodat 1997 'insularidad integral' como 'piedra angular de su sistema de defensa'); el propio Estado de 1830 la argumenta como 'droit acquis' y 'limites tracées par la nature' (Recueil général t. V)."
+  },
+  {
+   "termino": "fusion (Boyer, 1822)",
+   "tradicion": "oficial-haiti",
+   "nota": "Pista para M08: una instrucción oficial del gobierno de Boyer a un agente en el Este (Recueil général t. III, pp. 453-455, documento sin encabezado legible en el OCR) dice 'afin que la fusion soit parfaite, et que la différence qui existait naguère [...] disparaisse'. [POR VERIFICAR su número y fecha.]"
+  },
+  {
+   "termino": "Ayiti-Tomè (etimología popular fon de 'Ayiti')",
+   "tradicion": "haitiana",
+   "nota": "Algunos sitios divulgativos dan 'Ayiti-Tomè' como expresión fon ('desde hoy esta tierra es nuestra tierra') y segunda etimología del nombre, además de la taína; no la encontré en ninguna fuente primaria ni académica haitiana. [POR VERIFICAR; tratar como tradición oral sin corroboración (D).]"
+  }
+ ],
+ "incidencias": [
+  "Modo A: toda URL de las fichas se abrió con curl (HTTP 200) en esta sesión salvo las marcadas fallo-fetch: brill.com (403 CloudFront, también con WebFetch), repository.duke.edu (200 con pantalla Anubis, sin contenido), persée docAsPDF (403; solo el resumen de Mappemonde), rshhgglab.com (sin conexión), classiques.uqac.ca (conexión rechazada; se usó el espejo classiques.uqam.ca, mismos textos), gallica.bnf.fr (429 por exceso de peticiones), webarchive.unesco.org 'texte_haiti_biennale_luanda.pdf' (página de verificación de sesión; el texto UNESCO citado en A-010 no se pudo verificar).",
+  "WebFetch devuelve un resumen de un modelo pequeño y no se usó como fuente de citas; los textos se leyeron con curl y pdftotext (-enc UTF-8) y las citas se comprobaron por script contra el texto extraído, con tolerancia de OCR (similitud >= 0,93 en la mayoría; entre 0,85 y 0,93 en diez extractos de Madiou, Ardouin, Janvier, Price-Mars t. II y Recueil général cuyo OCR es muy ruidoso, verificados por fragmentos); todas las citas tienen <= 60 palabras.",
+  "pdftotext falló con ciertos nombres de archivo en la carpeta de trabajo (p. ej. 'manioc_pap.pdf'); copiar a un nombre corto lo resolvió. El PDF del manual de Dorsainvil en manioc.org (F-0481, 50,6 MB declarados) se corta en el servidor (descargas de 4-10 MB y un límite de 52 MB por rangos): el archivo queda dañado y no se pudo leer.",
+  "La paginación de las obras de archive.org (OCR _djvu.txt) se infiere de los encabezados corrientes; en Ardouin t. VI y IX, Madiou y el Recueil général puede errar una o dos páginas. La numeración de las constituciones es la de la transcripción MJP (Janvier 1886), no la del impreso oficial.",
+  "El registro ya contenía fuentes de otras lentes o módulos que coinciden con las que encontré: F-0479 (Watson Denis, Le Nouvelliste), F-0481 (Dorsainvil), F-0177 (Nau; su URL de archive.org es la reedición de 1963), F-0063 (Constitución de 1987) y F-0027/29/32/33/37/41 (constituciones); se devuelven con id_existente para que se fusionen los extractos de M00.",
+  "Hurbon (1987, p. 91) atribuye al 'art. 4 de la Constitución de 1805' la fórmula 'tout Africain ou Indien et leurs descendants sont habiles à devenir Haïtiens'; el texto de 1805 no la contiene; está en 1816 art. 44 ('Africain, Indien et ceux issus de leur sang') y en 1843 art. 7 / 1846 art. 6. Esto afecta a A-017.",
+  "Nau (1854/1894) sostiene dos cosas aparentemente opuestas: en el prefacio niega ser descendiente biológico de los aborígenes y en el apéndice dice que su sangre se mezcló 'en una certaine proportion' con las razas siguientes; los manuales escolares citan solo la segunda frase.",
+  "Dos documentos oficiales haitianos usan 'Quisqueya' para la isla (Livre Blanc 2015; ONU 2007) y la Constitución de 1987 usa 'île d'Haïti'; el geógrafo Théodat (1997-98) y la antropóloga Charlier Doucet (2014) usan 'Quisqueya' para la parte dominicana: la tradición haitiana no es uniforme sobre el nombre.",
+  "Las cifras que se dan tienen base declarada solo en parte: población indígena 1492: 3.000.000 (Las Casas y 'otros'; Price-Mars lo llama 'évaluation arbitraire'), 700.000 (Moreau, citado por Price-Mars), 'más de un millón' (Price-Mars 1956), 2.000.000 (Madiou 'au dire des historiens espagnols'; Bellegarde y Lhérisson 'environ deux millions' [base no declarada]); superficie de la isla 76.480 (Théodat 1998; Livre Blanc 2015), 77.250 (Price-Mars vía Bellegarde), 77.253 km² (Théodat 1997); Haití 27.700 (Anglade 1982) y 27.750 km² (PCGN 2024; Livre Blanc 2015). Ninguna cifra tiene fuente primaria trazable en estos textos.",
+  "Archivos no escritos en el repositorio: solo se creó este JSON; las descargas (Madiou, Ardouin, Nau, Price-Mars, Bellegarde, etc.) quedaron en la carpeta temporal de la sesión; el directorio temporal compartido contiene archivos de otros agentes (p. ej. 'dat2020.*') que no son míos y no se tocaron.",
+  "F-0117 (Hurbon) se devuelve solo como ficha 'solo-localizada' (autoridad BnF con fecha 1988; el registro dice 1987); F-0118 y F-0176 quedan sin resolver o resueltos solo en parte (Byron)."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Constitution de Saint-Domingue du 8 juillet 1801 (Toussaint Louverture), título I, art. 1",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1801",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1801.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución de la colonia francesa de Saint-Domingue, redactada por la Asamblea Central (Port-au-Prince, 1801) bajo el mando de Toussaint Louverture, que acababa de ocupar la parte española; se hizo para fijar la autonomía de la colonia dentro del Imperio francés. Aporta, de primera mano, la definición oficial del territorio de 1801.",
+   "extractos": [
+    {
+     "ubicacion": "Titre I, art. 1",
+     "cita_original": "Saint-Domingue dans toute son étendue, et Samana, la Tortue, la Gonâve, les Cayemites, l'Ile-à-Vaches, la Saône et autres îles adjacentes, forment le territoire d'une seule colonie, qui fait partie de l'Empire français",
+     "traduccion": "Saint-Domingue en toda su extensión, y Samaná, la Tortuga, la Gonâve [...] forman el territorio de una sola colonia, que forma parte del Imperio francés.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M06"
+   ],
+   "id_existente": "F-0027",
+   "notas": "En 1801 el nombre oficial de toda la isla bajo Toussaint es 'Saint-Domingue' (colonial), no 'Haïti'; el cambio de nombre a Haïti es posterior (1804). La fecha exacta de la promulgación (3 jul. según la introducción editorial de la página, 8 jul. en otras fuentes) [POR VERIFICAR]. Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution impériale d'Haïti du 20 mai 1805 (Dessalines): arts. 1, 14, 15 y 18",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1805",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1805.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución otorgada en la proclamación del Imperio de Jacques I (Dessalines), 20 de mayo de 1805, redactada por una asamblea de generales y secretarios y publicada en Haití; para el pueblo haitiano y para las potencias extranjeras; con el interés de consolidar la independencia y la unidad militar.",
+   "extractos": [
+    {
+     "ubicacion": "Déclaration préliminaire, art. 1",
+     "cita_original": "Le peuple habitant l'île ci-devant appelée Saint-Domingue, convient ici de se former en État libre, souverain et indépendant de toute autre puissance de l'univers, sous le nom d'Empire d'Haïti.",
+     "traduccion": "El pueblo que habita la isla antes llamada Saint-Domingue acuerda constituirse en Estado libre, soberano e independiente [...] bajo el nombre de Imperio de Haití.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Déclaration préliminaire, art. 14",
+     "cita_original": "les Haïtiens ne seront désormais connus que sous la dénomination génériques de Noirs.",
+     "traduccion": "los haitianos ya no serán conocidos sino bajo la denominación genérica de negros.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "De l'Empire, art. 15",
+     "cita_original": "L'Empire d'Haïti est un et indivisible ; son territoire est distribué en six divisions militaires.",
+     "traduccion": "El Imperio de Haití es uno e indivisible; su territorio se reparte en seis divisiones militares.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "De l'Empire, art. 18",
+     "cita_original": "Sont parties intégrantes de l'Empire les îles ci-après désignées : Samana, la Tortue, la Gonâve, les Cayemites, l'île à Vache, la Saône, et autres îles adjacentes.",
+     "traduccion": "Son partes integrantes del Imperio las islas siguientes: Samaná, la Tortuga, la Gonâve, los Cayemites, Île-à-Vache, la Saona y otras islas adyacentes.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M09"
+   ],
+   "id_existente": "F-0029",
+   "notas": "Hecho (texto): el art. 1 define el territorio como 'la isla antes llamada Saint-Domingue' y le da el nombre de Haïti; el art. 18 incluye Samaná y la Saona entre las islas adyacentes, es decir, islas del extremo oriental, aunque el texto no dice que la parte oriental esté bajo control. Interpretación (mía, no del texto): la lectura 'isla entera' depende de 'la isla' y de Samaná; Ardouin y Watson Denis (ver sus fichas) la leen así. El art. 14 es la formulación constitucional del significado 'Noirs' (no 'Indiens') para el pueblo haitiano. ATENCIÓN: la fórmula 'tout Africain ou Indien et leurs descendants' NO está en esta constitución (el texto MJP no contiene 'Indien'; el art. 4 es 'La loi est une pour tous'); está en 1816 art. 44 y en 1843-1846. Hurbon (1987, p. 91) la atribuye por error 'al art. 4 de la Constitución de 1805' (ver ficha Hurbon). Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution de la République d'Haïti du 27 décembre 1806 (Pétion): título II, art. 29",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1806",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1806.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución de la República del Oeste y Sur (Pétion, Senado), aprobada el 27 de diciembre de 1806 tras el asesinato de Dessalines; en 1806 el Norte (Christophe) se había separado. Fija en el texto el nombre 'isla de Haití' para el territorio de una república que solo controlaba el oeste y el sur.",
+   "extractos": [
+    {
+     "ubicacion": "Titre II, Du Territoire, art. 29",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent forment le territoire de la République d'Haïti.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República de Haití.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-008",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M07",
+    "M09"
+   ],
+   "id_existente": "F-0032",
+   "notas": "Este art. 29 pasa casi sin cambio al art. 40 de 1816 y al art. 1 de 1843 y 1846. Es la cláusula que el gobierno de Boyer cita en 1830 ante España (ver ficha del Recueil général t. V). La Digithèque MJP añade una introducción editorial en la que dice que Boyer 'réunifie l'île'; ese verbo es de la Digithèque, no del texto. Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution de l'État d'Haïti du 17 février 1807 (Christophe): arts. 6 y 37",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1807",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1807.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución del Estado de Haití del Norte (Henri Christophe, presidente y generalísimo), 17 de febrero de 1807, aprobada por un consejo de mandatarios convocado por el general en jefe; documento de un poder rival de Pétion.",
+   "extractos": [
+    {
+     "ubicacion": "Titre II, art. 6",
+     "cita_original": "Le gouvernement d'Haïti prend le titre et sera connu sous la dénomination d'État d'Haïti.",
+     "traduccion": "El gobierno de Haití toma el título y será conocido bajo la denominación de Estado de Haití.",
+     "afirmaciones": [
+      "A-006"
+     ]
+    },
+    {
+     "ubicacion": "art. 37",
+     "cita_original": "Le peuple d'Haïti ne fait point de conquêtes hors de son île, et se borne à conserver son territoire.",
+     "traduccion": "El pueblo de Haití no hace conquistas fuera de su isla y se limita a conservar su territorio.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "El art. 37 usa 'son île' sin precisar si es la isla entera o el territorio del Norte; no se debe leer como renuncia ni como reclamo sobre la parte oriental. Muestra que el nombre 'Haïti' lo llevaban a la vez el Estado del Norte (1807) y la República del Sur (1806): ambos poderes haitianos adoptaron el nombre. Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution de la République d'Haïti de 1816 (Pétion): arts. 40, 41 y 44",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1816",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1816.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Revisión constitucional de Pétion (2 de junio de 1816, presidencia vitalicia, bicameralismo), hecha después de la guerra civil con Christophe; mantiene el artículo sobre el territorio de 1806 y añade la categoría 'Indien'; para el Estado y las potencias extranjeras.",
+   "extractos": [
+    {
+     "ubicacion": "Titre II, art. 40",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent, forment le territoire de la République.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "art. 41",
+     "cita_original": "La République d'Haïti est une et indivisible",
+     "traduccion": "La República de Haití es una e indivisible.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Titre III, art. 44",
+     "cita_original": "Tout Africain, Indien et ceux issus de leur sang, nés dans les colonies ou en pays étrangers, qui viendraient résider dans la République seront reconnus Haïtiens, mais ne jouiront des droits de citoyen qu'après une année de résidence.",
+     "traduccion": "Todo africano, indio y los descendientes de su sangre, nacidos en las colonias o en país extranjero, que vengan a residir en la República serán reconocidos haitianos, pero solo gozarán de los derechos de ciudadano tras un año de residencia.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M09"
+   ],
+   "id_existente": "F-0033",
+   "notas": "CONFIRMA el art. 44 de 1816 señalado en A-017 como base documental posible: el texto está verificado (art. 44, no otra numeración) y también aparece en la edición de Janvier leída en archive.org (lesconstitutions00janv, l. 5181). Hecho: la categoría 'Indien' figura junto a 'Africain' como vía de acceso a la condición de haitiano (para quien llega a residir; no es una cláusula de filiación biológica). Que ello exprese una filiación política con los taínos es interpretación (A-017). Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution de la République d'Haïti du 30 décembre 1843: arts. 1, 2, 5 y 6",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1843.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución votada por la Asamblea constituyente reunida tras la caída de Boyer (revolución de 1843), con diputados del este (dominicanos) y del oeste; es la última antes de la separación del este. Fechada 30-XII-1843 por la Digithèque MJP; fecha exacta [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "Titre I, art. 1",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de la République.",
+     "traduccion": "La isla de Haití y las islas adyacentes que de ella dependen forman el territorio de la República.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "art. 2",
+     "cita_original": "Ces départements sont : Le Sud, l'Ouest, l'Artibonite, le Nord, le Cibao, l'Ozama.",
+     "traduccion": "Estos departamentos son: Sur, Oeste, Artibonito, Norte, Cibao, Ozama.",
+     "afirmaciones": [
+      "A-020",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "art. 5",
+     "cita_original": "La République Haïtienne est une et indivisible, essentiellement libre, souveraine et indépendante. Son territoire est inviolable et ne peut être aliéné par aucun traité.",
+     "traduccion": "La República haitiana es una e indivisible [...]. Su territorio es inviolable y no puede ser enajenado por ningún tratado.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "art. 6",
+     "cita_original": "Sont Haïtiens tous individus nés en Haïti ou descendant d'Africain ou d'Indien",
+     "traduccion": "Son haitianos todos los nacidos en Haití o descendientes de africano o de indio.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0037",
+   "notas": "Hecho: en 1843 (un año antes del 27 de febrero de 1844) la constitución haitiana ya nombra dos departamentos del este, 'le Cibao' y 'l'Ozama' (topónimos de origen taíno; la etimología concreta es [POR VERIFICAR]). El art. 6 convierte 'descendant d'Africain ou d'Indien' en criterio de pertenencia nacional (A-016/A-017). Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Constitution de la République d'Haïti de 1846: arts. 1, 5 y 6",
+   "autor": "Estado haitiano (asamblea o consejo constituyente de la época); transcripción: Digithèque MJP, Université de Perpignan",
+   "anio": "1846",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1846.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional primario, transcrito de Janvier (1886) y coincidente con la edición de Janvier leída por separado en archive.org para los arts. 44 (1816), 6-7 (1843) y 5-6 (1846); falta cotejo con el impreso oficial.",
+   "proveniencia": "Constitución del periodo de Riché (1846), redactada tras el paréntesis de 1843-1846; mantiene la fórmula territorial de 1806-1843 aun después del 27-II-1844.",
+   "extractos": [
+    {
+     "ubicacion": "Titre I, art. 1",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de la République.",
+     "traduccion": "La isla de Haití y las islas adyacentes que de ella dependen forman el territorio de la República.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Titre II, art. 5",
+     "cita_original": "Sont Haïtiens, tous individus nés en Haïti et descendant d'Africains ou d'Indiens",
+     "traduccion": "Son haitianos todos los nacidos en Haití y descendientes de africanos o de indios.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "art. 6",
+     "cita_original": "Tout Africain ou Indien et leurs descendants sont habiles à devenir Haïtiens.",
+     "traduccion": "Todo africano o indio y sus descendientes pueden llegar a ser haitianos.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M09"
+   ],
+   "id_existente": "F-0041",
+   "notas": "Tras la separación de 1844, la constitución de 1846 sigue diciendo que el territorio de la República es 'la isla de Haití' (art. 1). No hay renuncia al este en el texto, aunque la parte oriental ya funcionaba como Estado dominicano; la renuncia solo aparece en el Tratado de 1874 y en el art. 8 de 1987. Texto de la Digithèque MJP (Univ. de Perpiñán), que declara reproducir a Janvier, Les Constitutions d'Haïti (1886); no cotejado en esta ronda con Le Moniteur ni con el impreso original. La introducción editorial de la página es de la Digithèque (francesa), no del texto constitucional."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. III (1818-1823): documentos de Boyer sobre la reunión de la 'partie de l'Est' (enero-junio de 1822)",
+   "autor": "Linstant-Pradine, A. (ed.); Estado haitiano (Boyer)",
+   "anio": "1851 (ed., París, A. Durand); documentos de 1822",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral05hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral05hait/recueilgnral05hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección de textos oficiales (órdenes, proclamas, cartas) editada por un jurista haitiano; el editor añade notas históricas con tesis oficial; texto del OCR de archive.org, no cotejado con Le Télégraphe ni con los impresos de la época.",
+   "proveniencia": "A. Linstant-Pradine (m. 1884), editor haitiano [profesión POR VERIFICAR], edita en París la colección oficial de las leyes y actos de gobierno desde 1804; el tomo III (en el IA 'recueilgnral05hait') recoge 1818-1823. Los documentos son del presidente Boyer y de su secretario general Inginac; el destinatario es el ejército, las comunas del Este, el Senado y los gobernadores extranjeros; el interés es legitimar la reunión de 1822.",
+   "extractos": [
+    {
+     "ubicacion": "n.º 770, 'Ordre général de l'armée en campagne pour l'Est', Port-au-Prince, 15-I-1822, p. 438 (l. 25125-25129)",
+     "cita_original": "pour la campagne qui s'ouvre pour la partie de l'Est de la République.",
+     "traduccion": "para la campaña que se abre para la parte Este de la República.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "Carta de Boyer al comandante de la fragata francesa Duchesse de Berry, Santo-Domingo, 10-II-1822, p. 452 (l. 25916-25919)",
+     "cita_original": "Le pavillon haïtien flottant déjà à Samana, comme sur tous les points du territoire formant ci-devant la partie espagnole de l'île",
+     "traduccion": "Flotando ya la bandera haitiana en Samaná, como en todos los puntos del territorio que formaba antes la parte española de la isla.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "n.º 788, circular y proclama 'Aux habitants de la partie de l'Est', Port-au-Prince, 15-VI-1822, p. 471 (l. 26994-27001)",
+     "cita_original": "Haitiens, En vous réunissant à la famille à laquelle vous appartenez, vous avez satisfait au vœu de la Constitution, qui garantit la liberté et l'indépendance de la patrie.",
+     "traduccion": "Haitianos: al reuniros con la familia a la que pertenecéis habéis satisfecho el voto de la Constitución, que garantiza la libertad y la independencia de la patria.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "misma proclama, versión castellana impresa en nota (l. 27003-27006)",
+     "cita_original": "Juan-Pedro Boyer, Presidente de Hayti, A los habitantes de la parte del Oriente. Haytianos",
+     "traduccion": "Juan Pedro Boyer, presidente de Hayti, a los habitantes de la parte del Oriente. Haytianos.",
+     "afirmaciones": [
+      "A-011",
+      "A-006"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-011"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: en 1822 el gobierno de Boyer llama 'partie de l'Est' o 'partie espagnole de l'île' a lo que acaba de incorporar y 'Haïtiens/Haytianos' a sus habitantes; la versión castellana oficial escribe 'Presidente de Hayti' y 'parte del Oriente' (nombre 'Hayti' en grafía castellana de 1822). Interpretación: 'réunir' y 'famille' son el vocabulario de la reunión. Pista para M08 (no extraída): en las pp. 453-455 hay instrucciones a un agente del gobierno ('l'intérêt de la République est que le peuple de la partie de l'Est change [...] d'habitudes et de mœurs pour adopter celles de la République, afin que la fusion soit parfaite', l. 25944-25948), cuyo encabezado no es legible en el OCR [POR VERIFICAR su número y fecha]. Paginación inferida de los marcadores '(n) [1822]' del OCR (puede errar una página). El nombre 'Haïti espagnol' no aparece en estas páginas: busqué 'Haïti espagnol' y no hallé coincidencias en t. III."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. V (1827-1833): proclama de Boyer del 6-II-1830 y respuesta de los comisionados haitianos al plenipotenciario español Felipe Fernández de Castro",
+   "autor": "Linstant-Pradine, A. (ed.); Estado haitiano (Boyer; comisionados Inginac, Lespinasse y Frémont)",
+   "anio": "1851 (ed.); documentos de 1830",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral03hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral03hait/recueilgnral03hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial haitiano de 1830 en que el Estado expone su título sobre la parte oriental; el OCR es muy ruidoso en estas páginas y se verificaron solo los fragmentos citados.",
+   "proveniencia": "Linstant-Pradine edita en 1851 el t. V (1827-1833) de la colección oficial; el 6-II-1830 Boyer informa a los haitianos de la reclamación del rey de España (misión de Felipe Fernández de Castro, enero de 1830) y publica en un folleto ('Réclamation de la partie de l'Est d'Haïti par l'Espagne') la correspondencia; los comisionados (Inginac, Lespinasse, Frémont) responden por escrito al enviado español.",
+   "extractos": [
+    {
+     "ubicacion": "proclama de Boyer, Port-au-Prince, 6-II-1830, p. ~310-311 (l. 22414-22422)",
+     "cita_original": "Haïtiens, Le roi d'Espagne a réclamé du gouvernement de la République la remise de la partie de l'Est d'Haïti.",
+     "traduccion": "Haitianos: el rey de España ha reclamado al gobierno de la República la entrega de la parte Este de Haití.",
+     "afirmaciones": [
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "misma proclama, p. 312 (l. 22434-22438)",
+     "cita_original": "La réponse à cette demande ne pouvait être douteuse; elle découlait naturellement de notre Constitution, de décembre 1806",
+     "traduccion": "La respuesta a esta petición no podía ser dudosa: se desprendía naturalmente de nuestra Constitución de diciembre de 1806.",
+     "afirmaciones": [
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "respuesta de los comisionados, p. 318 (l. 22765-22775)",
+     "cita_original": "la partie Est de cette île, ayant été cédée par l'Espagne à la France dès 1795 par le traité de Bâle, et la France l'occupant depuis 1801, s'est trouvée indispensablement comprise dans le territoire que les Haïtiens, pour leur sûreté et leur conservation, ont déclaré le 1er janvier 1804 libre et indépendant",
+     "traduccion": "la parte Este de esta isla, habiendo sido cedida por España a Francia desde 1795 por el tratado de Basilea, y ocupándola Francia desde 1801, quedó comprendida de manera indispensable en el territorio que los haitianos, por su seguridad y conservación, declararon libre e independiente el 1.º de enero de 1804.",
+     "afirmaciones": [
+      "A-008",
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "respuesta de los comisionados, p. 318 (l. 22774-22778)",
+     "cita_original": "le gouvernement ne s'est pas opposé à ce que, en l'année 1809, le pavillon espagnol fût arboré dans la partie de l'Est, par une portion d'indigènes qui avaient reçu d'Alexandre Pétion des armes et des munitions",
+     "traduccion": "el gobierno no se opuso a que, en el año 1809, se izara la bandera española en la parte del Este por una porción de indígenas que habían recibido de Alexandre Pétion armas y municiones.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "respuesta de los comisionados, p. 319 (l. 22819-22822)",
+     "cita_original": "Haïti avait la possession de fait de tout le territoire antérieurement à l'ordonnance dont il est question.",
+     "traduccion": "Haití tenía la posesión de hecho de todo el territorio con anterioridad a la ordenanza de que se trata.",
+     "afirmaciones": [
+      "A-008",
+      "A-009"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-008",
+    "A-009",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE CLAVE para A-008/A-009/A-010 por el lado haitiano oficial: en 1830 el Estado de Haití, ante la reclamación de España, no invoca solo el nombre 'Haïti' sino la secuencia Basilea 1795 -> ocupación francesa 1801 -> independencia 1804 -> Constitución de 1806 ('l'île d'Haïti ... forment le territoire') y 'limites tracées par la nature' (l. 22771-22773 del OCR); añade que España 'n'a jamais fait aucune protestation' contra ese artículo entre 1809 y 1821 (l. 22780-22785) y cuenta la reunión de 1822 como petición espontánea de los habitantes. Es la formulación jurídica de la 'isla indivisible' como derecho adquirido, anterior a cualquier invocación del nombre taíno. La cita del art. de 1806 la hace el propio Boyer (proclama): 'décembre 1806' coincide con la Constitución del 27-XII-1806 (ficha F-0032). OCR muy dañado en estas páginas (p. ej. 'Haítiens', 'cetle lie'): cada cita se verificó por fragmentos y se normalizó; contrastar con un facsímil antes de citar literalmente. Paginación aproximada por marcadores OCR '[1830] (3nn)'."
+  },
+  {
+   "titulo": "Haïti, Constitution de 1987 (texto de la edición MJP): preámbulo y arts. 5, 8 y 215",
+   "autor": "Asamblea Constituyente de Haití (1987)",
+   "anio": "1987",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1987.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional vigente, ya registrado y leído para M16; aquí solo se añaden los artículos pertinentes a M00.",
+   "proveniencia": "Constitución de 29 de marzo de 1987, redactada por la Asamblea Constituyente tras la caída de Jean-Claude Duvalier; la transcripción MJP reproduce la brochure oficial ('Constitution de la République d'Haïti 29 mars 1987', 85 pp.).",
+   "extractos": [
+    {
+     "ubicacion": "Chapitre II, art. 8 a)",
+     "cita_original": "La partie occidentale de l'île d'Haïti ainsi que les îles adjacentes : la Gonâve, La Tortue, l'île à Vache, les Cayemites, La Navase, La Grande Caye et les autres îles de la Mer Territoriale ; Il est limité à l'Est par la République Dominicaine",
+     "traduccion": "La parte occidental de la isla de Haití así como las islas adyacentes [...]; limita al Este con la República Dominicana.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Titre I, art. 5",
+     "cita_original": "Tous les Haïtiens sont unis par une langue commune le Créole.",
+     "traduccion": "Todos los haitianos están unidos por una lengua común, el criollo.",
+     "afirmaciones": [
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Titre VI, art. 215",
+     "cita_original": "les monuments, les ruines, les sites des grands faits d'armes de nos ancêtres, les centres réputés de nos croyances africaines et tous les vestiges du passé sont placées sous la protection de l'État",
+     "traduccion": "los monumentos, las ruinas, los sitios de las grandes gestas de nuestros ancestros, los centros reputados de nuestras creencias africanas y todos los vestigios del pasado quedan bajo la protección del Estado.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Préambule",
+     "cita_original": "conformément à son Acte d'indépendance de 1804",
+     "traduccion": "conforme a su Acta de Independencia de 1804.",
+     "afirmaciones": [
+      "A-006"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M11",
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0063",
+   "notas": "AÑADE extractos de M00 a F-0063. Hecho: la Constitución de 1987 sigue nombrando 'l'île d'Haïti' (y no 'Hispaniola' ni 'Quisqueya') pero limita el territorio a su 'partie occidentale': el nombre de la isla se conserva, el reclamo territorial se abandona. En el patrimonio (art. 215) los 'ancêtres' y las 'croyances africaines' son la referencia de la memoria nacional; no hay mención de taínos ni de 'Indiens' en los arts. 5, 8 ni 215 del texto MJP (verificado por búsqueda de 'Indien/aborigène/Ayiti/Kiskeya': 0 coincidencias salvo 'Haïti'). Interpretación: lo anterior apoya (sin probarlo) que la filiación 'taína' no es doctrina constitucional vigente, aunque sí el nombre. La versión inglesa con enmiendas es F-0514."
+  },
+  {
+   "titulo": "Noms géographiques des zones d'Haïti (Neuvième Conférence des Nations Unies sur la normalisation des noms géographiques, doc. E/CONF.98/CRP.36)",
+   "autor": "Milbin, Daniel (Haïti); presentado por Haïti ante la ONU",
+   "anio": "2007 (18-VII-2007)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-36.pdf",
+   "urls_alternativas": [
+    "https://unstats.un.org/unsD/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-36.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial de 5 pp. presentado por el Estado haitiano ante la ONU, sin aparato crítico ni etimologías; sirve como declaración de la posición del Estado sobre los nombres, no como estudio filológico.",
+   "proveniencia": "Daniel Milbin, de la Dirección de cartografía del Instituto Haitiano de Estadística e Informática (IHSI) [afiliación POR VERIFICAR: el documento dice 'Préparé par Daniel Milbin, Haïti' y cita al Servicio de Cartografía del IHSI], redacta en 2007, para la 9.ª Conferencia de la ONU sobre nombres geográficos (Nueva York, 21-30 de agosto de 2007), un resumen de la toponimia haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "§1 'Introduction', p. 2",
+     "cita_original": "ce territoire, avant sa découverte par Christophe Colomb en 1492, était habité par des Indiens de la caraïbe.",
+     "traduccion": "este territorio, antes de su descubrimiento por Cristóbal Colón en 1492, estaba habitado por indios del Caribe.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "§1, Tableau 1 'Noms d'origine indienne d'Haïti', p. 2",
+     "cita_original": "Tableau 1. Noms d'origine indienne d'Haiti Nom d'origine indienne Nom actuel Haiti, Quisqueya, Boyo, Haiti",
+     "traduccion": "Cuadro 1. Nombres de origen indio de Haití: 'Haiti, Quisqueya, Boyo' -> nombre actual 'Haiti'.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007",
+      "A-020"
+     ]
+    },
+    {
+     "ubicacion": "§1, nota 1, p. 2",
+     "cita_original": "De nos jours encore certaines zones gardent leur nom indien : Cibao, Abricot, Enriquillo, Lascahobas, Malanga, etc.",
+     "traduccion": "Todavía hoy algunas zonas conservan su nombre indio: Cibao, Abricot, Enriquillo, Lascahobas, Malanga, etc.",
+     "afirmaciones": [
+      "A-020"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-007",
+    "A-012",
+    "A-020"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Documento del Estado haitiano (2007) que cataloga 'Haiti, Quisqueya, Boyo' como los nombres de origen indio de la isla y fija 'Haiti' como nombre actual. LA LISTA DE TOPÓNIMOS DE LA NOTA 1 ES DUDOSA: 'Abricot' es palabra francesa (nombre de fruta) y 'Enriquillo' un nombre de pila español-dominicano; 'Malanga' es de origen africano según la mayoría de los diccionarios [POR VERIFICAR contra Tejera; no consulté etimologías]. La tabla confirma el uso oficial de 'Quisqueya' como nombre de la isla en un documento ONU de Haití; no da origen ni significado. Que este tipo de lista pueda contener errores es un dato sobre la calidad de la toponimia oficial, no sobre la tesis de la continuidad toponímica."
+  },
+  {
+   "titulo": "Livre Blanc sur la sécurité et la défense nationale pour le développement économique et social durable d'Haïti (junio de 2015), cap. I 'Patrimoine historique et culturel' y cap. sobre geografía",
+   "autor": "République d'Haïti (Commission d'élaboration du Livre Blanc, bajo el Ministerio de Defensa; mensaje del presidente Michel Joseph Martelly)",
+   "anio": "2015 (junio)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://www.haitilibre.com/docs/Livre_Blanc.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial del Estado haitiano, redactado por una comisión con apoyo técnico de la Junta Interamericana de Defensa de la OEA; el 'survol historique' es una síntesis de manual sin aparato crítico; la copia en línea es la que aloja HaïtiLibre.",
+   "proveniencia": "Libro Blanco redactado por la Commission d'élaboration du Livre Blanc, creada por Arrêté présidentiel del 16 de septiembre de 2014 bajo el liderazgo del Ministerio de la Defensa, con apoyo técnico de la Junta Interamericana de Defensa (OEA); lo firma el presidente Michel Joseph Martelly en el mensaje inicial (4-6) y se publica en junio de 2015 para la ciudadanía haitiana y para los Estados de la OEA, con el interés de defender la necesidad de una fuerza militar disuasoria.",
+   "extractos": [
+    {
+     "ubicacion": "cap. I, 'Survol historique', A. Période espagnole, p. 19 (l. 517-519)",
+     "cita_original": "L'île d'Hispaniola - constituée de 76480 km2 - est entrée officiellement dans l'histoire par le débarquement, aux côtes nord-ouest, de Christophe Colomb le 6 décembre 1492.",
+     "traduccion": "La isla de La Española, de 76.480 km², entró oficialmente en la historia por el desembarco, en las costas del noroeste, de Cristóbal Colón el 6 de diciembre de 1492.",
+     "afirmaciones": [
+      "A-002"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, A. Période espagnole, p. 20 (l. 522-524)",
+     "cita_original": "Sous l'occupation espagnole de l'île, la population des taïnos a été pratiquement exterminée dans un laps de temps d'environ un quart de siècle",
+     "traduccion": "Bajo la ocupación española de la isla, la población taína fue prácticamente exterminada en un lapso de alrededor de un cuarto de siglo.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, C. Période haïtienne, p. 21 (l. 551-556)",
+     "cita_original": "Voulant renouer avec l'esprit de liberté des Taïnos de l'époque précolombienne, qui appelaient le pays Haïti, Quisqueya ou Bohio [...] les révolutionnaires ont choisi de renommer le pays : Haïti, dont la signification est « terre haute, terre montagneuse ».",
+     "traduccion": "Queriendo retomar el espíritu de libertad de los taínos de la época precolombina, que llamaban al país Haití, Quisqueya o Bohío [...], los revolucionarios eligieron rebautizar el país: Haití, cuyo significado es 'tierra alta, tierra montañosa'.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-006",
+      "A-007",
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "cap. 'Situation géographique', p. 30 (l. 672-674)",
+     "cita_original": "La République d'Haïti occupe le tiers occidental de l'île d'Hispaniola ou Quisqueya.",
+     "traduccion": "La República de Haití ocupa el tercio occidental de la isla de La Española o Quisqueya.",
+     "afirmaciones": [
+      "A-003",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "mismo cap., pp. 30-31 (l. 677-679)",
+     "cita_original": "La surface totale de la République d'Haïti est de 27,750 Km2 (27,560 km2 de terre et 190 km2 d'eau)",
+     "traduccion": "La superficie total de la República de Haití es de 27.750 km² (27.560 km² de tierra y 190 km² de agua).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-012"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE OFICIAL RECIENTE (2015) PARA EL NOMBRE Y LA SUPERFICIE. Hecho: el Estado haitiano usa a la vez 'île d'Hispaniola' (nombre del manual de 'survol historique', 76.480 km²) y 'Hispaniola ou Quisqueya' para la isla, y enseña el tríptico 'Haïti, Quisqueya ou Bohio' como los tres nombres taínos; el significado oficial de Haïti es 'terre haute, terre montagneuse'. Contrasta con la Constitución de 1987 (art. 8: 'l'île d'Haïti'). Superficie de la isla: 76.480 km² (misma cifra que Théodat 1998); Haití 27.750 km² (misma que PCGN 2024); 27.750/76.480 = 36,3 %: 'tiers occidental' es aproximación. 'Colomb ... dénommant du coup Indiens les taïnos' (l. 520): el documento usa 'taïnos' como etnónimo. Señalo que el documento sitúa 'Colomb donna le nom de Môle Saint Nicolas' (l. 520) y fecha la presencia francesa 'en 1635' y el nombre 'Saint Domingue' dado por Colbert en 1664 (l. 531-538) [POR VERIFICAR; M04]. Paginación: números de página impresos en el texto extraído. Las citas proceden de pdftotext; la numeración de páginas es la impresa en el documento."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. I (1492-1799), con la Introduction del autor",
+   "autor": "Madiou, Thomas",
+   "anio": "1847",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti01madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti01madi/histoiredhaiti01madi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primera historia completa de Haití, escrita en Port-au-Prince por un autor que recogio testimonios de actores de 1791-1843, pero la parte indigena (cap. I) compila cronistas europeos sin aparato critico y con tesis nacional.",
+   "proveniencia": "Thomas Madiou (1814-1884), historiador y funcionario haitiano, publica en Port-au-Prince (imprenta J. Courtois, 1847) el primer tomo de su Histoire d'Haïti para el publico haitiano; el abrege de la obra fue adoptado en 1845 por el Consejo de Ministros para la ensenanza de la historia (segun el propio autor, Introduction). Es noirista en la tradicion posterior; usa 'Haïtiens' para los aborigenes y escribe 'notre ile', 'notre patrie'. Primera mano: testimonios de contemporaneos para la parte revolucionaria; para 1492-1520 depende de cronistas europeos.",
+   "extractos": [
+    {
+     "ubicacion": "Introduction (l. 235-237 del _djvu.txt)",
+     "cita_original": "Cette histoire est particulièrement celle de la race africaine transplantée en Haïti, et devenue libre par sa propre énergie",
+     "traduccion": "Esta historia es en particular la de la raza africana trasplantada a Haití y que llegó a ser libre por su propia energía.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Introduction (l. 429-431)",
+     "cita_original": "les Castillans virent s'étendre devant eux une terre majestueuse, riche de végétation et peuplée: c'était Haïti, notre patrie.",
+     "traduccion": "los castellanos vieron extenderse ante ellos una tierra majestuosa, rica en vegetación y poblada: era Haití, nuestra patria.",
+     "afirmaciones": [
+      "A-002",
+      "A-010",
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Introduction (l. 446-450)",
+     "cita_original": "Cette race, sortant de l'Afrique, plus vigoureuse que celle des Indiens, soumise aussi à l'esclavage, brisera ses chaînes et formera une nation nouvelle: Elle reprendra le nom des Aborigènes",
+     "traduccion": "Esta raza, venida de África, más vigorosa que la de los indios, sometida también a la esclavitud, romperá sus cadenas y formará una nación nueva: tomará de nuevo el nombre de los aborígenes.",
+     "afirmaciones": [
+      "A-008",
+      "A-010",
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 2 (l. 815-817)",
+     "cita_original": "une terre que les Insulaires de Cuba nommaient Haïti (terre montagneuse) ou Quiesqueia (grande terre).",
+     "traduccion": "una tierra que los insulares de Cuba llamaban Haití (tierra montañosa) o Quiesqueia (gran tierra).",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, hacia la 'paz de Enriquillo' (l. 1519-1521)",
+     "cita_original": "Aujourd'hui il n'existe pas un seul Haïtien, même dans les quartiers de Boya, de Seybe et d'Higuey, qui appartienne directement à la race aborigène.",
+     "traduccion": "Hoy no existe un solo haitiano, ni siquiera en los barrios de Boyá, Seibo e Higüey, que pertenezca directamente a la raza aborigen.",
+     "afirmaciones": [
+      "A-012",
+      "A-016"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-012",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0106",
+   "notas": "HECHO/INTERPRETACION/SIGNIFICADO. Hecho (de Madiou, no verificado por mi): Madiou da 'Haïti (terre montagneuse) ou Quiesqueia (grande terre)' como los dos nombres con que los 'insulares de Cuba' designaban la isla; atribuye 'Quiesqueia' a un informe de Cuba, mientras que el cronista que la recoge es Pedro Martir (A-001/A-003): Madiou no cita fuente en ese pasaje [POR VERIFICAR su fuente: probablemente Charlevoix]. Interpretacion: la africana 'reprendra le nom des Aborigènes' (1847) es una profecia/tesis histórica anterior en siete años al prefacio de Nau (1854): la filiacion es politica y por sucesion del pais, no biologica. Madiou tambien afirma que no queda ni un descendiente directo de los aborigenes ni siquiera en Boyá, Seibo o Higüey (el este): una afirmacion haitiana de 1847 sobre la 'extincion' que contrasta con la tesis de la supervivencia taina (Guitar) [POR VERIFICAR contra M01-M03]. Usa 'Haïtiens' para los taínos y no usa 'taíno' como etnónimo (0 coincidencias de 'taino/arawak/arouaque' en el tomo). El IA da 'Port-au-Prince, J. Courtois, 1847' para t. I; t. III lleva 1848 en portada. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. III (1803-1807): elección del nombre Haïti, ceremonia de los Gonaïves y proclamas de Dessalines",
+   "autor": "Madiou, Thomas",
+   "anio": "1848",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti03madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti03madi/histoiredhaiti03madi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato escrito unos 44 años después por un haitiano que entrevistó a actores (Bonnet, Borgella, Ardouin, etc.), pero con tesis nacional y sin citar las fuentes de la ceremonia.",
+   "proveniencia": "Madiou (Port-au-Prince, J. Courtois, 1848, 'Tome troisième') narra el reinado de Dessalines para el público haitiano. En el prefacio al t. I agradece a Borgella, Bonnet, Ardouin y otros por 'explicaciones'. Watson Denis (2024) cita sus frases sobre el 'nom primitif'.",
+   "extractos": [
+    {
+     "ubicacion": "t. III, p. 104 (l. 5974-5979)",
+     "cita_original": "On songea tout de suite à donner un nouveau nom à cette terre qui formait un nouvel Etat. Le nom d'Haïti rappelant les aborigènes de l'île qui s'étaient fait exterminer en défendant leur liberté, sortit de toutes les bouches.",
+     "traduccion": "Se pensó enseguida en dar un nuevo nombre a esa tierra que formaba un nuevo Estado. El nombre de Haití, que recordaba a los aborígenes de la isla que se habían hecho exterminar defendiendo su libertad, salió de todas las bocas.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 114 (l. 6652-6657): ceremonia del 1.º de enero de 1804",
+     "cita_original": "Le ciel était rempli du nom d'Haïti que les indigènes avaient donné à leur nouvelle patrie. Ce nom primitif de la contrée leur rappelait un peuple qui avait préféré l'extermination à la servitude.",
+     "traduccion": "El cielo estaba lleno del nombre de Haití que los indígenas habían dado a su nueva patria. Ese nombre primitivo de la comarca les recordaba un pueblo que había preferido el exterminio a la servidumbre.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "t. III, nota hacia pp. 315-316 (l. 20346-20350)",
+     "cita_original": "Ce même Gérin qui fournissait des plans à Dessalines voulait, en 1808, que St. Domingue, après avoir pris son ancien nom d'Haïti, fût divisé en quatre Cacicats unis seulement par un lien fédéral",
+     "traduccion": "Ese mismo Gérin, que proporcionaba planes a Dessalines, quería, en 1808 [sic en el OCR], que Saint-Domingue, tras tomar su antiguo nombre de Haití, se dividiera en cuatro cacicazgos unidos solo por un lazo federal.",
+     "afirmaciones": [
+      "A-008",
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 142 (l. 8412): proclamación del 28-IV-1804 publicada en Madiou",
+     "cita_original": "Oui, j'ai sauvé mon pays, j'ai vengé l'Amérique.",
+     "traduccion": "Sí, he salvado a mi país, he vengado a América.",
+     "afirmaciones": [
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-008",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M06"
+   ],
+   "id_existente": "F-0106",
+   "notas": "Hecho (según Madiou): el nombre Haïti 'sortit de toutes les bouches' tras la victoria; no atribuye la propuesta a una persona. Interpretacion: le atribuye la motivación de rememorar a los aborígenes 'exterminados'. Madiou escribe que el nombre se dio a 'cette terre qui formait un nouvel Etat' y que las tropas francesas habían abandonado 'tous les points de l'ancienne partie française' (l. 5967-5969): en ese pasaje el territorio inmediato es el de la antigua parte francesa, no hay afirmación explícita de la isla entera. La nota de la p. ~316 (Gérin) está en el OCR con el año '1808', dudoso para un plan anterior a la independencia [POR VERIFICAR]. Watson Denis (Le Nouvelliste, 30-XII-2024, F-0479) cita estas frases con paginación de la reedición moderna (pp. 145, 147, 150, 151), distinta de la de 1848. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Mémoires pour servir à l'histoire d'Haïti (Boisrond-Tonnerre), con actos políticos de Boisrond-Tonnerre y étude historique et critique de Saint-Rémy",
+   "autor": "Boisrond-Tonnerre, Louis (Félix); Saint-Rémy, Joseph (des Cayes)",
+   "anio": "1851",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/mmoirespourser00bois",
+   "urls_alternativas": [
+    "https://archive.org/download/mmoirespourser00bois/mmoirespourser00bois_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación editorial de 1851 de actos de 1804 (proclamas de Dessalines) con estudio de Saint-Rémy; el volumen imprime la proclamación del 1-I-1804, pero sin cotejo con el original de Gonaïves.",
+   "proveniencia": "Joseph Saint-Rémy (Cayes, 1815-1858), abogado haitiano residente en París, edita en 1851 (París, France libraire) los escritos de Boisrond-Tonnerre, secretario de Dessalines, y los acompaña de un estudio; escribe para un público francés y haitiano, con interés de rehabilitar a los fundadores. Boisrond-Tonnerre redactó los actos de 1804.",
+   "extractos": [
+    {
+     "ubicacion": "Étude historique et critique, p. v (l. 179-182)",
+     "cita_original": "Haïti, cette île que les Européens appelaient la Reine des Antilles, dans laquelle, après avoir fait disparaître la race indigène, ils ont succombé eux-mêmes sous le courroux d'une autre race qu'ils avaient transportée pour remplacer leurs victimes.",
+     "traduccion": "Haití, esa isla que los europeos llamaban la Reina de las Antillas, en la cual, tras hacer desaparecer la raza indígena, sucumbieron ellos mismos bajo la cólera de otra raza que habían transportado para sustituir a sus víctimas.",
+     "afirmaciones": [
+      "A-010",
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Proclamación del 1-I-1804 tal como la imprime el volumen, pp. 5-6 (l. 974-976)",
+     "cita_original": "Citoyens indigènes, hommes, femmes, filles et enfants, portez vos regards sur toutes les parties de cette île",
+     "traduccion": "Ciudadanos indígenas, hombres, mujeres, muchachas y niños, mirad todas las partes de esta isla.",
+     "afirmaciones": [
+      "A-006",
+      "A-010",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "misma proclamación (l. 1048-1050)",
+     "cita_original": "Indigènes d'Haïti ! mon heureuse destinée me réservait à être un jour la sentinelle qui dût veiller à la garde de l'idole à laquelle vous sacrifiez",
+     "traduccion": "¡Indígenas de Haití! Mi feliz destino me reservaba ser un día el centinela que debía velar por la guarda del ídolo al que sacrificáis.",
+     "afirmaciones": [
+      "A-006",
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Cotejo con el Acta local (acta-independencia-haiti-1804-transcripcion.md, l. 29): el pasaje 'Citoyens indigènes ... toutes les parties de cette île' coincide con el de Saint-Rémy (que escribe 'enfants'; el Acta del TNA dice 'enfans'). Aqui 'indigène' = nativo de la isla frente al colono francés, con la Armée indigène, no taíno. Para la propuesta del nombre, Boisrond-Tonnerre no la explica en este volumen (no hay coincidencia de 'nom d'Haïti' ni 'ancien nom'). La paginación (pp. 5-6) se infiere del OCR [POR VERIFICAR]. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, t. I: Avertissement (periodización: 'période française' y 'période haïtienne'; 'l'Est d'Haïti')",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1853",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/tudessurlhisto01ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/tudessurlhisto01ardo/tudessurlhisto01ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historia escrita por un actor político (ministro, senador, embajador de Boyer) con tesis mulatrista y apologética de Boyer; su periodización es una fuente primaria sobre cómo la élite haitiana de 1853 nombraba los hechos.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), mulato, ministro de Instrucción y diputado bajo Boyer, publica en París (Dézobry y Magdeleine, 1853-1860, 11 vols.) para convencer al público francés y haitiano del valor de la tradición del Oeste; fue testigo de la mayoría de los hechos que narra desde 1818.",
+   "extractos": [
+    {
+     "ubicacion": "Avertissement, pp. 8-9 (l. 466-474)",
+     "cita_original": "L'indépendance de l'Est d'Haïti, proclamée contre l'Espagne par les naturels. — La réunion de cette partie à la République d'Haïti. — L'administration de l'île entière par Boyer.",
+     "traduccion": "La independencia del Este de Haití, proclamada contra España por los naturales. La reunión de esa parte a la República de Haití. La administración de la isla entera por Boyer.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "Avertissement, p. 8 (l. 446-449)",
+     "cita_original": "L'expulsion des Français dans l'Est d'Haïti, par les naturels qui se replacent sous la domination espagnole.",
+     "traduccion": "La expulsión de los franceses en el Este de Haití por los naturales, que se colocan de nuevo bajo dominación española.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-011"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0107",
+   "notas": "Nombres que usa Ardouin (1853): 'l'Est d'Haïti' (la parte oriental), 'partie espagnole', 'réunion' (1822) y 'indépendance de l'Est' (1821), 'les naturels' (los habitantes del este); no emplea 'invasión' ni 'dominación' en el Avertissement. Apunta al glosario: en la tradición haitiana del siglo XIX el término es 'réunion' y 'l'Est d'Haïti' (no 'Saint-Domingue espagnol'). Para la reconquista de 1808-1809 dice 'expulsion des Français ... par les naturels'. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, t. VI (1804): restitución del nombre Haïti 'à l'île entière' y territorio del nuevo Estado",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1853-1860 (t. VI; fecha del tomo [POR VERIFICAR])",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/tudessurlhisto06ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/tudessurlhisto06ardo/tudessurlhisto06ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Es la formulación clásica y más explícita en la historiografía haitiana del siglo XIX del motivo del nombre y de la isla entera; el propio autor admite no saber quién propuso el nombre.",
+   "proveniencia": "Ardouin (mulatrista, ex ministro de Boyer) escribe en París en la década de 1850, tras los fracasos de Soulouque contra el este (1849, 1855-56), para un público haitiano y francés; para 1804 depende de Madiou, de Borgella y de tradición oral ('les traditions nationales ne font pas savoir').",
+   "extractos": [
+    {
+     "ubicacion": "t. VI, cap. I, pp. 24-25 (l. 902-906)",
+     "cita_original": "Une idée, émise on ne sait non plus par qui le premier, avait réuni tous les suffrages : c'était de restituer à l'île entière, qui devait former le nouvel Etat, le nom qu'elle portait sous ses premiers habitans, — Haïti.",
+     "traduccion": "Una idea, emitida no se sabe por quién primero, había reunido todos los sufragios: restituir a la isla entera, que debía formar el nuevo Estado, el nombre que llevaba bajo sus primeros habitantes, Haití.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, cap. I, p. 25 (l. 911-918)",
+     "cita_original": "ces intéressans insulaires avaient partagé l'esclavage et les souffrances des premiers Africains amenés sur le sol de leur pays, ils avaient résisté ensemble contre leurs tyrans",
+     "traduccion": "esos interesantes isleños habían compartido la esclavitud y los sufrimientos de los primeros africanos traídos al suelo de su país; habían resistido juntos contra sus tiranos.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, cap. I, p. 54 (l. 1417-1422)",
+     "cita_original": "Le nom d'Haïti, restitué à l'île, indiquait, comme nous l'avons dit, que dans la pensée des chefs qui venaient de proclamer son indépendance, tout son territoire, y compris celui des petites îles adjacentes, devait former le nouvel État.",
+     "traduccion": "El nombre de Haití, restituido a la isla, indicaba [...] que, en el pensamiento de los jefes que acababan de proclamar su independencia, todo su territorio, incluido el de las pequeñas islas adyacentes, debía formar el nuevo Estado.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, cap. I, pp. 54-55 (l. 1431-1435)",
+     "cita_original": "Un tel voisinage était incompatible avec la sûreté de l'indépendance proclamée : il fallait donc conquérir tôt ou tard le territoire en possession des troupes françaises, au même droit qui avait déterminé la conquête accomplie",
+     "traduccion": "Tal vecindad era incompatible con la seguridad de la independencia proclamada: había que conquistar tarde o temprano el territorio en poder de las tropas francesas, con el mismo derecho que había determinado la conquista ya cumplida.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 142 (l. 5761-5767)",
+     "cita_original": "il aurait dû les considérer comme Haïtiens, à cause même du nom primitif de l'île qui lui avait été restitué",
+     "traduccion": "debería haberlos considerado haitianos, a causa del nombre mismo primitivo de la isla que le había sido restituido.",
+     "afirmaciones": [
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, 'Résumé de la première époque', hacia p. 380 (l. 15202-15206; marcador OCR '579')",
+     "cita_original": "c'était de proclamer l'indépendance et la souveraineté de l'île entière, à laquelle ils restituèrent son nom primitif d'Haïti pour en former un seul Etat",
+     "traduccion": "[lo único que podían hacer] era proclamar la independencia y la soberanía de la isla entera, a la que restituyeron su nombre primitivo de Haití para formar un solo Estado.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-008",
+    "A-009",
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M09"
+   ],
+   "id_existente": "F-0107",
+   "notas": "HECHO/INTERPRETACION/SIGNIFICADO. Hecho: en 1804 los jefes adoptan el nombre Haïti (confirmado por el Acta). Interpretación de Ardouin (1850s): el nombre se 'restituyó' a la isla entera y por eso el territorio entero debía formar el Estado; su argumento de seguridad ('sûreté de l'indépendance') es la lectura de la tesis de la isla indivisible como doctrina de seguridad anticolonial (Price-Mars, Théodat). Significado: Ardouin presenta la idea como unánime y de origen incierto, y vincula taínos y africanos por 'le même esclavage' (filiación política). Watson Denis (2024) cita este pasaje y el de la p. 54-55 con paginación de otra edición ('pp. 7 y 10'); la paginación aquí es la de la ed. original de Dézobry. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, t. IX (1821-1822): el 'État indépendant de la partie espagnole d'Haïti' de Núñez de Cáceres y la reunión de 1822",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1853-1860 (t. IX; fecha del tomo [POR VERIFICAR])",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi09ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi09ardo/etudessurlhistoi09ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato de un actor del gobierno de Boyer sobre 1821-22, con acceso a los documentos que Boyer publicó en enero de 1822; interesado en justificar la reunión.",
+   "proveniencia": "Ardouin (ministro y diputado haitiano), París, 1850s. Para 1821-1822 reproduce la brochure publicada por Boyer en enero de 1822 y la correspondencia con Núñez; escribe 35 años después con tesis de 'unión natural' del Este con los haitianos.",
+   "extractos": [
+    {
+     "ubicacion": "t. IX, cap. III, pp. 104-105 (l. 4181-4184)",
+     "cita_original": "les alliés naturels de l'Est étaient les Haïtiens dont le sang africain circule également dans les veines de ses habitans",
+     "traduccion": "los aliados naturales del Este eran los haitianos, cuya sangre africana circula también en las venas de sus habitantes.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, p. 107 (l. 4305-4309)",
+     "cita_original": "l'acte constitutif du gouvernement provisoire de l'État indépendant de la partie espagnole d'Haïti.",
+     "traduccion": "el acta constitutiva del gobierno provisional del Estado independiente de la parte española de Haití.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, p. 108 (l. 4344-4347)",
+     "cita_original": "la partie espagnole d'Haïti se formait en un État libre, indépendant et républicain, qui entrerait par un traité postérieur, en alliance avec la République de Colombie",
+     "traduccion": "la parte española de Haití se constituía en un Estado libre, independiente y republicano, que entraría por un tratado posterior en alianza con la República de Colombia.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, p. 107, nota 1 (l. 4322-4325)",
+     "cita_original": "Bayaha devint le Fort-Dauphin des Français, Yaguana, la ville de Léogane, quand ils s'établirent dans la partie occidentale d'Haïti.",
+     "traduccion": "Bayajá pasó a ser el Fort-Dauphin de los franceses, Yaguana la ciudad de Léogâne, cuando se establecieron en la parte occidental de Haití.",
+     "afirmaciones": [
+      "A-020"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, pp. 110-111 (l. 4444-4446 y 4457, el OCR separa las líneas)",
+     "cita_original": "Comme eux encore, il restituait à son pays le nom d'HAÏTI que lui donnèrent les infortunés aborigènes.",
+     "traduccion": "Como ellos [los haitianos del Oeste], él restituía a su país el nombre de Haití que le dieron los infortunados aborígenes.",
+     "afirmaciones": [
+      "A-008",
+      "A-010",
+      "A-011"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-008",
+    "A-010",
+    "A-011",
+    "A-016",
+    "A-017",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0107",
+   "notas": "RESUELVE EN PARTE A-011. Hecho: Ardouin (con base en Boyer) llama al Estado de Núñez 'l'État indépendant de la partie espagnole d'Haïti' y dice que el acta constitutiva tiene 59 artículos y que 'restituait à son pays le nom d'HAÏTI': es decir, el historiador haitiano registra que el nombre de Núñez incluía 'Haïti'. La fórmula exacta 'Haití Español' (castellano) y la fecha 1-XII-1821 hay que cotejarlas con el Acta Constitutiva dominicana [POR VERIFICAR; Ardouin no cita el texto español]. Ardouin menciona además que Núñez imaginaba un tratado de amistad con Haití, no la unión (l. 4145-4150), y que otras comunas (Monte-Cristi, Laxavón) alzaron la bandera haitiana el 15-XI-1821. Significado: Ardouin usa 'le sang africain' como argumento de afinidad natural (A-016). Apunta al glosario: 'partie espagnole d'Haïti', 'État indépendant de la partie espagnole d'Haïti' (nombre que da Ardouin) vs 'Haití Español' (dominicano). Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Histoire des caciques d'Haïti (Préface de l'auteur y Appendice 'Géographie primitive d'Haïti'), 2.ª ed. de 1894",
+   "autor": "Nau, Émile",
+   "anio": "1854 (1.ª ed., Port-au-Prince); 2.ª ed. 1894 (Paris, G. Guérin)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/BSG_DELTA59918FA",
+   "urls_alternativas": [
+    "https://archive.org/download/BSG_DELTA59918FA/BSG_DELTA59918FA_djvu.txt",
+    "https://archive.org/details/histoiredescaci00naugoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primer libro haitiano consagrado a los indígenas de la isla; compilación de cronistas europeos sin notas (la reseña de la época se lo reprocha), pero su prefacio es la formulación temprana más clara de la filiación 'política' y no biológica.",
+   "proveniencia": "Émile Nau (1812-1860), escritor y político de Port-au-Prince, publica en 1854 su Histoire des caciques d'Haïti (reseñada por la Feuille du Commerce y por Le Moniteur, 8-IX-1854 y 27-I-1855); la 2.ª ed. (París, 1894) la hace Ducis Viard 'con autorización de los herederos'. Escribe para el público haitiano y 'la presse étrangère'; su fuente principal son los cronistas (Oviedo, Las Casas, Charlevoix) sin referencias.",
+   "extractos": [
+    {
+     "ubicacion": "Préface, p. 11 (l. 744-757)",
+     "cita_original": "la quatrième, enfin, celle du triomphe des indigènes, de la liberté et de la nationalité haïtiennes, où Saint-Domingue redevient Haïti.",
+     "traduccion": "la cuarta, por fin, la del triunfo de los indígenas, de la libertad y de la nacionalidad haitianas, en la que Saint-Domingue vuelve a ser Haití.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Préface, p. 13 (l. 825-830)",
+     "cita_original": "Il est vrai que nous ne sommes pas les descendants des aborigènes d'Haïti, que nous sommes d'une autre race; que nous n'avons rien à démêler, à titre d'héritiers immédiats, à leurs mœurs",
+     "traduccion": "Es verdad que no somos descendientes de los aborígenes de Haití, que somos de otra raza; que nada tenemos que ver, como herederos inmediatos, con sus costumbres.",
+     "afirmaciones": [
+      "A-012",
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Préface, pp. 13-14 (l. 831-835 y 842-851)",
+     "cita_original": "Mais le fait d'habiter aujourd'hui le pays où ils vécurent, nous oblige, nous plus que personne, à nous enquérir de nos prédécesseurs.",
+     "traduccion": "Pero el hecho de habitar hoy el país donde ellos vivieron nos obliga, más que a nadie, a informarnos sobre nuestros predecesores.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Préface, p. 14 (l. 851-860)",
+     "cita_original": "L'Africain et l'Indien se sont donné la main dans les chaînes. [...] Pour avoir hérité de leur servitude, nous avons aussi hérité de leur patrie.",
+     "traduccion": "El africano y el indio se dieron la mano en las cadenas. [...] Por haber heredado su servidumbre, hemos heredado también su patria.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Appendice, 'Géographie primitive', 'Île Banèque', p. 319 (l. 14160-14164)",
+     "cita_original": "Ils lui indiquèrent d'abord Haïti ou Bohio, deux noms de la même île, dont l'un signifie terre montagneuse, et l'autre grande terre",
+     "traduccion": "Le indicaron primero Haití o Bohío, dos nombres de la misma isla, de los cuales uno significa tierra montañosa y el otro gran tierra.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "Appendice, 'Géographie primitive', Xaragua, p. 318 (l. 14100-14106)",
+     "cita_original": "Yaguana est réputée la capitale du Xaragua. Les noms de Léogane et d'Aquin sont francisés de Yaguana et de Yaquimo.",
+     "traduccion": "Yaguana se tiene por la capital de Xaragua. Los nombres de Léogâne y de Aquin son afrancesamientos de Yaguana y de Yaquimo.",
+     "afirmaciones": [
+      "A-020"
+     ]
+    },
+    {
+     "ubicacion": "Appendice, 'De la langue et de la littérature des aborigènes d'Haïti', hacia p. 322 (l. 14352-14358; marcador OCR '329')",
+     "cita_original": "On a eu beau détruire jusqu'à la racine la population primitive d'Haïti, son sang s'est pourtant mêlé en une certaine proportion aux races qui lui ont succédé sur ce sol",
+     "traduccion": "Por más que se haya destruido hasta la raíz la población primitiva de Haití, su sangre se ha mezclado sin embargo en cierta proporción con las razas que le han sucedido en este suelo.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Appendice, 'De la langue et de la littérature des aborigènes d'Haïti', hacia p. 322 (l. 14290-14297; marcador OCR '329')",
+     "cita_original": "Il y en a d'autres que j'ai trouvés mêlés à notre patois créole, et dont j'ai reconnu l'indigénéité pour n'avoir pu les rapporter ni à l'espagnol, ni au hollandais, ni à l'africain",
+     "traduccion": "Hay otras [palabras] que he encontrado mezcladas en nuestro patois criollo y cuya procedencia indígena reconocí por no haber podido atribuirlas ni al español, ni al holandés, ni al africano.",
+     "afirmaciones": [
+      "A-020"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-012",
+    "A-016",
+    "A-017",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M12"
+   ],
+   "id_existente": "F-0177",
+   "notas": "HECHO/INTERPRETACION/SIGNIFICADO. (1) Nau no usa 'Quisqueya': solo 'Haïti ou Bohio' (0 coincidencias de 'quisq/quizq/kiskey' en todo el texto leído); 'taíno' solo aparece como rango noble 'nytaino' (l. 2850, 3078, 3311), no como etnónimo: los llama 'aborigènes d'Haïti', 'Indiens', 'Haïtiens' (A-012). (2) Para Nau 'Bohio' es nombre de la isla ('grande terre'), contra la lectura de Las Casas (bohío = casa; A-007): lectura haitiana del siglo XIX, no cotejada con Las Casas por mí. (3) Nau sostiene DOS cosas que parecen contradecirse: en el Préface (p. 13) 'nous ne sommes pas les descendants des aborigènes d'Haïti [...] héritiers immédiats' y la filiación es de suelo, de sufrimiento común y de herencia política ('hérité de leur patrie'); en el Appendice (hacia p. 322) admite que la sangre de la población primitiva 'se ha mezclado en cierta proporción' con las razas sucesivas. Los manuales escolares posteriores citan solo la segunda frase (ver ficha Gourgues). Conviene no atribuir a Nau ni la tesis biológica ni su negación sin esta doble lectura; para la parte biológica remitir a M16 (genética). (4) Fecha de la 1.ª ed.: 'quarante années d'intervalle' (l. 232) y el Moniteur del 8-IX-1854 sugieren 1854, pero el volumen leído es de 1894 [1.ª ed. POR VERIFICAR]. (5) El reseñista reproducido por Le Moniteur (27-I-1855, tomado de la Feuille du Commerce) critica a Nau por no dar las fuentes. El archivo histoiredescaci00naugoog (F-0177) es una reedición de Panorama (1963) del mismo texto de 1894. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Les Constitutions d'Haïti (1801-1885): comentarios del autor a las constituciones de 1816, 1843 y 1846 y al reinado de Soulouque",
+   "autor": "Janvier, Louis-Joseph",
+   "anio": "1886 (París, Marpon y Flammarion); el ejemplar leído es la reimpresión de Éditions Fardin, 1977",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/lesconstitutions00janv",
+   "urls_alternativas": [
+    "https://archive.org/download/lesconstitutions00janv/lesconstitutions00janv_djvu.txt",
+    "https://gallica.bnf.fr/ark:/12148/bpt6k61426252"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación de textos constitucionales con comentario del autor; fuente de la transcripción de la Digithèque MJP; los comentarios son de un publicista liberal-nacionalista (1886), no un registro neutral.",
+   "proveniencia": "Louis-Joseph Janvier (1855-1911), médico y publicista haitiano residente en París, edita en 1886 las constituciones haitianas con introducciones históricas, para el público francés y haitiano, defendiendo la capacidad de gobierno de Haití frente al racismo científico y a la prensa francesa.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 'Constitution de 1816', l. 6477-6478",
+     "cita_original": "La réunion d'Haïti sous un unique gouvernement est la seule grande œuvre de Boyer.",
+     "traduccion": "La reunión de Haití bajo un gobierno único es la única gran obra de Boyer.",
+     "afirmaciones": [
+      "A-010",
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "mismo cap., l. 6480-6482",
+     "cita_original": "pour opérer l'annexion de la partie espagnole à la République",
+     "traduccion": "para realizar la anexión de la parte española a la República.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "cap. 'Constitution de 1843', l. 8365-8368",
+     "cita_original": "De cette dernière scission sortit la République dominicaine dont l'existence a plus d'une fois compromis les finances, l'autonomie, l'indépendance d'Haïti.",
+     "traduccion": "De esta última escisión salió la República Dominicana, cuya existencia ha comprometido más de una vez las finanzas, la autonomía y la independencia de Haití.",
+     "afirmaciones": [
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "cap. 'Constitution de 1846' (Soulouque), l. 11970-11972",
+     "cita_original": "Faustin, tout en cherchant à réunir l'île entière sous un même gouvernement, offrait aux Dominicains de leur conserver leur législation.",
+     "traduccion": "Faustin, buscando a la vez reunir la isla entera bajo un mismo gobierno, ofrecía a los dominicanos conservarles su legislación.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Introducción al cap. sobre 1801, l. 1322-1326",
+     "cita_original": "l'île d'Haïti, découverte en 1492 par Christophe Colomb, occupée par les Espagnols qui en exploitèrent les mines d'or et en massacrèrent les Indiens autochtones",
+     "traduccion": "la isla de Haití, descubierta en 1492 por Cristóbal Colón, ocupada por los españoles, que explotaron sus minas de oro y masacraron a los indios autóctonos.",
+     "afirmaciones": [
+      "A-002",
+      "A-016"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-009",
+    "A-010",
+    "A-011",
+    "A-016"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Un haitiano de 1886 usa 'annexion', 'occupé la partie orientale' y 'réunion' para el mismo acto de 1822 (Boyer): no hay un único término haitiano; el glosario puede anotar que 'unification' y 'réunification' no son los únicos usados por la tradición haitiana. Usa 'scission' para 1844 y llama a la República Dominicana amenaza para la independencia haitiana (Janvier escribe en 1886, doce años después del Tratado de 1874). Cita por capítulo y línea del _djvu.txt porque el OCR de la reimpresión no permite fijar la página. Gallica ark bpt6k61426252 aparece en un buscador como la edición original de 1886; no lo abrí [POR VERIFICAR]. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "De l'égalité des races humaines (Anthropologie positive), Préface y dedicatoria",
+   "autor": "Firmin, Joseph Anténor",
+   "anio": "1885",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/Antnor1885Bnf30437548r",
+   "urls_alternativas": [
+    "https://archive.org/download/Antnor1885Bnf30437548r/Antnor1885Bnf30437548r_djvu.txt",
+    "https://archive.org/details/de-legalite-des-races-humaines-antenor-firmin"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra primaria del pensamiento haitiano sobre la raza, firmada por un miembro de la Sociedad de Antropología de París; se cita aquí solo su declaración de pertenencia africana, que es lo que el módulo necesita.",
+   "proveniencia": "Anténor Firmin (1850-1911), abogado y diplomático haitiano (comisionado de Haití en Caracas, miembro de la Société d'anthropologie de Paris), publica en París (Cotillon, 1885) contra Gobineau y la craneometría; escribe para sabios europeos y para el pueblo negro, y la dedica 'à Haïti'.",
+   "extractos": [
+    {
+     "ubicacion": "Préface, p. XII (l. 452-455)",
+     "cita_original": "Il n'y a aucune différence fondamentale entre le noir d'Afrique et celui d'Haïti.",
+     "traduccion": "No hay ninguna diferencia fundamental entre el negro de África y el de Haití.",
+     "afirmaciones": [
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Préface, p. XIII (l. 484)",
+     "cita_original": "Haïti doit servir à la réhabilitation de l'Afrique.",
+     "traduccion": "Haití debe servir a la rehabilitación de África.",
+     "afirmaciones": [
+      "A-016"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-016"
+   ],
+   "modulos": [
+    "M00",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "El texto de Firmin (1.466.000 caracteres) no menciona 'Hayti', 'Quisqueya' ni 'taíno'; su filiación es africana y no indígena. Se incluye para equilibrar la tradición 'indigène' con la voz del liberalismo haitiano de 1885 que fundamenta el orgullo nacional en África. La paginación romana procede de los encabezados corrientes del OCR [POR VERIFICAR]. Los tópicos de M11 (Firmin frente al racismo científico) quedan para ese módulo. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Manuel d'histoire d'Haïti, conforme aux programmes officiels, à l'usage des écoles de la République (7.ª ed.)",
+   "autor": "Bellegarde, Windsor; Lhérisson, Justin",
+   "anio": "1906 (adoptado por arrêté del 8-V-1906; el ejemplar es la 7.ª ed., año [POR VERIFICAR])",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/manueldhistoired00bell",
+   "urls_alternativas": [
+    "https://archive.org/download/manueldhistoired00bell/manueldhistoired00bell_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto escolar autorizado por el Estado (arrêté del Secretario de Estado de Instrucción Pública, 8-V-1906), es evidencia directa de lo que la escuela haitiana enseñaba, no de lo que ocurrió; los autores son maestros-escritores, no historiadores críticos.",
+   "proveniencia": "Windsor Bellegarde (n. 1871) y Justin Lhérisson (autores de manual para los cursos medio y superior del certificado de estudios primarios), Port-au-Prince, con 'arrêté' de adopción del Secretario de Estado T. Laleau (8-V-1906). Escrito para escolares haitianos y como programa oficial; es una de las fuentes más tempranas de la memoria escolar del 'período indio'.",
+   "extractos": [
+    {
+     "ubicacion": "Notions préliminaires y cap. I, p. 7",
+     "cita_original": "HAÏTI. — Le pays que nous habitons est une île d'une merveilleuse fertilité.",
+     "traduccion": "HAITÍ. El país que habitamos es una isla de una fertilidad maravillosa.",
+     "afirmaciones": [
+      "A-006",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 8 (l. 216-218) y nota 1",
+     "cita_original": "Ils appelaient l'île tantôt Boyo, tantôt Quisqueya, tantôt Haïti. [...] En langue indienne les mots suivants signifiaient : Boyo, grand pays, Quisqueya, Mère des terres, Haïti, terre haute et boisée.",
+     "traduccion": "Llamaban a la isla unas veces Boyo, otras Quisqueya, otras Haití. [...] En lengua india las palabras siguientes significaban: Boyo, gran país; Quisqueya, madre de las tierras; Haití, tierra alta y boscosa.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 8 (l. 205-206 y 235-239)",
+     "cita_original": "Ils appartenaient à la race rouge ou Américaine",
+     "traduccion": "Pertenecían a la raza roja o americana.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 8 (l. 235-240)",
+     "cita_original": "Nous employons encore dans le langage courant des mots indiens-tels : coui, hamac, guanes, matoutou, macana, rapadou.",
+     "traduccion": "Todavía empleamos en el lenguaje corriente palabras indias, como: coui, hamac, guanes, matoutou, macana, rapadou.",
+     "afirmaciones": [
+      "A-020"
+     ]
+    },
+    {
+     "ubicacion": "lectura 'Atrocités des Français à St-Domingue', p. 66 (l. 2893-2897)",
+     "cita_original": "L'extermination de deux millions d'Indiens sous la domination espagnole le long martyre subi près de deux siècles par les Africains, nos pères",
+     "traduccion": "El exterminio de dos millones de indios bajo la dominación española, el largo martirio sufrido durante cerca de dos siglos por los africanos, nuestros padres.",
+     "afirmaciones": [
+      "A-016",
+      "A-018"
+     ]
+    },
+    {
+     "ubicacion": "cap. XX, §1, p. 77 (l. 3478-3481)",
+     "cita_original": "Dessalines proclama solennellement l'Indépendance de notre pays qui reprit son ancien nom d'Haïti,",
+     "traduccion": "Dessalines proclamó solemnemente la independencia de nuestro país, que recobró su antiguo nombre de Haití.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "Administration de Boyer, §3 'Unité de l'île', p. 91 (l. 4200-4209)",
+     "cita_original": "En 1821, le peuple dominicain secoua le joug des Espagnols et proclama un état indépendant. [...] et dès lors toute l'île ne forma qu'un seul gouvernement.",
+     "traduccion": "En 1821 el pueblo dominicano se sacudió el yugo de los españoles y proclamó un estado independiente. [...] y desde entonces toda la isla formó un solo gobierno.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "Administration de Boyer, p. 97 (l. 4485-4487)",
+     "cita_original": "Les habitants de l'Est formèrent une république indépendante sous la dénomination de République Dominicaine.",
+     "traduccion": "Los habitantes del Este formaron una república independiente bajo la denominación de República Dominicana.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-011",
+    "A-012",
+    "A-016",
+    "A-018",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE ESCOLAR HAITIANA. Hecho: desde 1906 la historia autorizada en las escuelas empieza por una 'période indienne' y llama 'premiers Haïtiens' a los indígenas; da los tres nombres Boyo, Quisqueya y Haïti con significados ('gran país', 'madre de las tierras', 'tierra alta y boscosa') sin citar fuente (el significado 'Mère des terres' para Quisqueya contrasta con 'grande terre' de Madiou y de Nau) [POR VERIFICAR su origen: Charlevoix o Pedro Mártir via Moreau]. Para 1822 usa el título 'Unité de l'île' (no 'réunion' ni 'unification'); para 1844 el texto del manual dice solo que 'les habitants de l'Est formèrent une république indépendante' (el índice habla de 'Séparation de la Partie de l'Est'). En p. 66 Africanos = 'nos pères', exterminio de 'dos millones' de indios: cifra sin base declarada (A-018/M01: 1492 pop. 2.000.000 es la que repite Madiou citando 'historiens espagnols'). La lectura de p. 66 no tiene autor identificado en el OCR (es un texto de lectura, no del cuerpo del manual). Justin Lhérisson es también el autor de la letra de 'La Dessalinienne' (himno nacional) [POR VERIFICAR; dato de memoria]. Las citas proceden del OCR de archive.org (_djvu.txt); se corrigieron solo erratas evidentes del OCR (p. ej. 'Faïti' por 'Haïti') y se conserva la ortografia de la epoca; la paginacion se infiere de los encabezados corrientes del OCR y puede errar en una o dos paginas."
+  },
+  {
+   "titulo": "Ainsi parla l'Oncle. Essais d'ethnographie (1928), Avant-propos y caps. III y VI-VII",
+   "autor": "Price-Mars, Jean",
+   "anio": "1928 (Compiègne, Imprimerie de Compiègne); ed. electrónica Les Classiques des sciences sociales (UQAM)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/price_mars_jean/ainsi_parla_oncle/ainsi_parla_oncle.pdf",
+   "urls_alternativas": [
+    "https://memoiredencrier.com/wp-content/uploads/2023/09/f7c35cd52153b3fa171b4b7b6718974d8574a7.pdf",
+    "https://archive.org/details/ainsiparlaloncle0000pric"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto fundacional del indigénisme haitiano en una edición electrónica completa (no extracto); lo que se cita aquí son declaraciones de intención del autor, no hechos históricos.",
+   "proveniencia": "Jean Price-Mars (1876-1969), médico, etnólogo y diplomático haitiano, reúne conferencias dadas desde 1920 y las publica en 1928 en el contexto de la ocupación estadounidense (1915-1934), para la élite haitiana francófila y para el pueblo; con el interés de reivindicar el folclore y la raíz africana frente al 'bovarysme collectif'.",
+   "extractos": [
+    {
+     "ubicacion": "Avant-propos, p. 9 (l. 211-214)",
+     "cita_original": "ce peuple éprouve une gêne à peine dissimulée, voire quelque honte, à entendre parler de son passé lointain.",
+     "traduccion": "este pueblo siente una incomodidad apenas disimulada, incluso cierta vergüenza, al oír hablar de su pasado lejano.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Chap. III, p. 114 (l. 3935-3938)",
+     "cita_original": "l'énergie première que les nègres d'Afrique déposèrent avec leurs larmes, leur sueur et leur sang dans le sol de l'antique Quisqueya pour la transformer en notre pays d'Haïti.",
+     "traduccion": "la energía primera que los negros de África depositaron con sus lágrimas, su sudor y su sangre en el suelo de la antigua Quisqueya para transformarla en nuestro país de Haití.",
+     "afirmaciones": [
+      "A-003",
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Chap. VI-VII, p. 201 (l. 7143-7147)",
+     "cita_original": "des survivances de la terre d'Afrique, les apports de la colonisation européenne, l'ombre fugitive des souvenirs aborigènes",
+     "traduccion": "supervivencias de la tierra de África, los aportes de la colonización europea, la sombra fugitiva de los recuerdos aborígenes.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "Chap. VII, p. 123 (l. 4248-4252)",
+     "cita_original": "plusieurs mots tels que « Aia bombé » semblent plutôt provenir de la langue des Aborigènes de l'île.",
+     "traduccion": "varias palabras como 'Aia bombé' parecen más bien proceder de la lengua de los aborígenes de la isla.",
+     "afirmaciones": [
+      "A-017",
+      "A-020"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-003",
+    "A-016",
+    "A-017",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M12"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Hecho/Significado. En 1928 Price-Mars llama 'l'antique Quisqueya' al suelo de la isla (uso literario, sin explicación) y pone el componente africano como la 'couche sédimentaire' del pueblo; solo concede 'souvenirs aborigènes' como 'ombre fugitive' (no ancestro). 'Indigène' en este libro = lo 'authentiquement indigène' = el folclore y la cultura popular de origen africano (Avant-propos), no un término de filiación taína; Byron (2014) y el glosario deben distinguir 'indigène' (nativo/popular) de 'indien/taíno'. 'Aia bombé' es el grito de guerra que la tradición atribuye a los aborígenes ('Plutôt mourir que d'être asservis') y que los letrados de Christophe habrían adoptado (p. 123): tradición oral sin corroboración [D]. La paginación es la de la edición electrónica de Les Classiques (encabezado '(1928) n'). El extracto de Mémoire d'encrier (url alternativa) reproduce el Avant-propos. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "Formation ethnique, folk-lore et culture du peuple haïtien (2.ª ed. 1956; texto de conferencia anterior)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1956 (2.ª ed., Port-au-Prince, Imprimerie N. A. Théodore); 1.ª ed. [POR VERIFICAR: c. 1939]",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/price_mars_jean/formation_ethnique_haiti/formation_ethnique_haiti.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Conferencia de síntesis de un etnólogo con ciertas estimaciones demográficas sin fuente precisa; el PDF electrónico trae por error el encabezado corriente 'Ainsi parla l'oncle (1928)'.",
+   "proveniencia": "Conferencia de Price-Mars sobre la formación étnica de la población haitiana (impresa en Port-au-Prince, 2.ª ed. 1956, Imprimerie N. A. Théodore, 142 pp. según la ficha electrónica). Escribe para el público culto haitiano con la tesis de que la composición del pueblo es sobre todo africana; usa fuentes europeas (Oviedo, Charlevoix, Moreau).",
+   "extractos": [
+    {
+     "ubicacion": "p. 14 (l. 244-246)",
+     "cita_original": "On sait que les premiers habitants de l'île étaient des indiens probablement de la famille des Arouagues métisses peut-être de Caraïbes.",
+     "traduccion": "Se sabe que los primeros habitantes de la isla eran indios probablemente de la familia de los arahuacos, mestizados quizá con caribes.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "pp. 22-25 (l. 569-574)",
+     "cita_original": "les indiens qui se chiffraient à plus d'un million à Hispaniola seulement en 1492 n'étaient plus comptés qu'au nombre de 299 âmes dans les petites et grandes Antilles françaises.",
+     "traduccion": "los indios, que sumaban más de un millón solo en La Española en 1492, ya no se contaban más que en 299 almas en las Antillas francesas pequeñas y grandes.",
+     "afirmaciones": [
+      "A-018"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-012",
+    "A-018"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M05"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Cifra: Price-Mars da 'más de un millón' de indios en La Española en 1492 y 299 'Caraïbes' en el censo francés de 1687 (47.321 habitantes en todas las posesiones francesas del Caribe), sin precisar la base de la estimación de 1492. En el t. I de 1953 (ver ficha F-0109) discute 3.000.000 (Las Casas y 'otros historiadores'), 'dos tercios menos' (Charlevoix) y 700.000 (Moreau de Saint-Méry). Etnónimo: usa 'indiens', 'Arouagues', 'Caraïbes', no 'taíno'. No se verificó que 'c. 1939' sea el año de la 1.ª ed. [POR VERIFICAR]. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "La République d'Haïti et la République Dominicaine. Les aspects divers d'un problème d'histoire, de géographie et d'ethnologie, t. I y II (Port-au-Prince, 1953)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00002/Mars_RD_Haiti_fr_2.pdf",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00001/Mars_RD_Haiti_fr_1.pdf",
+    "https://archive.org/details/la-republica-de-haiti-y-la-republica-dominicana-jean-price-mars-1953"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto completo de ambos tomos leído en dLOC (OCR); reproduce documentos oficiales (instrucciones de Boyer de 1824, Manifiesto dominicano de 1844 en traducción francesa) que no he cotejado con originales.",
+   "proveniencia": "Jean Price-Mars, Port-au-Prince, 1953 (colección del 150.º aniversario de la independencia de Haití, 1954), para el público haitiano y dominicano en plena dictadura de Trujillo, para responder a la doctrina de Peña Batlle; mezcla historia, geografía y etnología; el t. I llega a 1844 y el t. II a 1953.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 44 (l. 1773-1775)",
+     "cita_original": "L'or de Quisqueya enrichit le trésor de la métropole et permit à la Couronne de Castille de dominer l'Europe",
+     "traduccion": "El oro de Quisqueya enriqueció el tesoro de la metrópoli y permitió a la Corona de Castilla dominar Europa.",
+     "afirmaciones": [
+      "A-003"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 49 (l. 1999-2003)",
+     "cita_original": "Colomb se serait trouvé en présence de quelque trois millions d'âmes lorsqu'il découvrit Quisqueya. Evaluation arbitraire",
+     "traduccion": "Colón se habría encontrado con unos tres millones de almas cuando descubrió Quisqueya. Evaluación arbitraria.",
+     "afirmaciones": [
+      "A-003",
+      "A-018"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 157-158 (l. 7497-7503): instrucciones de Boyer a Larose y Rouanez, 1-V-1824",
+     "cita_original": "à toutes prétentions de la France de dominer sur l'île d'Haïti, appelée par les uns Saint-Domingue et par les autres Hispaniola.",
+     "traduccion": "[renuncia] a todas las pretensiones de Francia de dominar la isla de Haití, llamada por unos Saint-Domingue y por otros La Española.",
+     "afirmaciones": [
+      "A-006",
+      "A-009",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 222-223 (l. 10852-10858): cita de la 'Manifestation' dominicana del 16-I-1844 en traducción francesa",
+     "cita_original": "de ce que les naturels appelaient l'île de Saint-Domingue Haïti, il ne s'ensuit point que la partie occidentale qui la première se constitua en Etat souverain en prenant le nom de République d'Haïti, eut le droit de considérer la partie de l'Est ou orientale, comme en étant partie intégrante",
+     "traduccion": "de que los naturales llamaran Haití a la isla de Saint-Domingue no se sigue que la parte occidental, que fue la primera en constituirse en Estado soberano tomando el nombre de República de Haití, tuviera derecho a considerar la parte del Este u oriental como parte integrante suya.",
+     "afirmaciones": [
+      "A-009"
+     ]
+    },
+    {
+     "ubicacion": "t. II, pp. 322-323 (l. 15866-15870): cita del libro de Nemours, 1942",
+     "cita_original": "j'ai caressé ce rêve des deux Républiques qui se partagent l'île, fraternellement unies dans la Confédération Quisqueyenne, prélude et annonciatrice de la Confédération Antiléenne",
+     "traduccion": "he acariciado ese sueño de las dos Repúblicas que se reparten la isla, fraternalmente unidas en la Confederación Quisqueyana, preludio y anunciadora de la Confederación Antillana.",
+     "afirmaciones": [
+      "A-003",
+      "A-008"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 325 (l. 16019-16021)",
+     "cita_original": "une fédération haïtiano-dominicaine sous la dénomination de Quisqueya est une utopie. Utopie du côté dominicain. Utopie du côté haïtien.",
+     "traduccion": "una federación haitiano-dominicana bajo la denominación de Quisqueya es una utopía. Utopía del lado dominicano. Utopía del lado haitiano.",
+     "afirmaciones": [
+      "A-003",
+      "A-008",
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-003",
+    "A-006",
+    "A-008",
+    "A-009",
+    "A-010",
+    "A-018"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M08",
+    "M13"
+   ],
+   "id_existente": "F-0109",
+   "notas": "AÑADE extractos de M00 a F-0109 (ya leída para otros módulos). (1) Price-Mars usa 'Quisqueya' como nombre de la isla (t. I pp. 44, 49) y recuerda, en t. II (pp. 321-325), el proyecto 'Confédération Quisqueyenne' del general Nemours (presidente del Senado haitiano, 1942, libro 'Les Présidents Lescot et Trujillo') que Price-Mars califica de utopía en ambos lados: uso político concreto del nombre 'Quisqueya' en 1942 para una federación. (2) Para la población indígena de 1492 da 'quelque trois millions' (Las Casas y otros) como 'évaluation arbitraire', cita a Charlevoix (se retrancha dos tercios) y a Moreau (700.000): rango 700.000-3.000.000 con bases citadas de segunda mano [POR VERIFICAR contra Charlevoix y Moreau]. (3) La 'Manifestation' dominicana del 16-I-1844 citada en t. I pp. 218-224 en traducción francesa de Price-Mars: el argumento sobre el nombre 'Haïti' es el que A-009 recoge en forma dominicana; el texto en castellano debe cotejarse con la edición del Manifiesto (ADH) [POR VERIFICAR; lo cita Price-Mars sin identificar la edición]. (4) La instrucción de Boyer de 1824 llama a la isla 'île d'Haïti, appelée par les uns Saint-Domingue et par les autres Hispaniola': el gobierno haitiano de 1824 conocía los tres nombres. Paginación: los números de página del OCR son pies de página (la p. 157 termina en el marcador '157'); p. 158 para la cita de 1824. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "Histoire du peuple haïtien (1492-1952), caps. I, VIII, XI-XIII y XV",
+   "autor": "Bellegarde, Dantès",
+   "anio": "1953 (Port-au-Prince); ed. Fardin 2004, ed. electrónica Les Classiques (UQAM)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.html",
+    "https://classiques.uqam.ca/classiques/bellegarde_dantes/Nation_haitienne/Nation_haitienne.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un diplomático e historiador de la élite liberal escrita en 1953 en medio del debate con Peña Batlle; cita memorias de Bonnet y artículos de Price-Mars; no tiene aparato crítico completo.",
+   "proveniencia": "Dantès Bellegarde (1877-1966), diplomático, ministro y educador haitiano [cargos de memoria, POR VERIFICAR], escribe en 1953 para el público haitiano (en el marco del 150.º aniversario de la independencia, 1954 [POR VERIFICAR]); combina historiografía mulatrista y liberal con cierto sesgo élite; es el autor de 'La nation haïtienne' (1938).",
+   "extractos": [
+    {
+     "ubicacion": "cap. I, p. 16 (l. 391-395)",
+     "cita_original": "d'une grande terre qui s'étendait à l'orient et qu'ils nommaient dans leur langage Haïti, Bohio ou Quisqueya.",
+     "traduccion": "de una gran tierra que se extendía al oriente y que llamaban en su lengua Haití, Bohío o Quisqueya.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 93 (l. 4536-4541)",
+     "cita_original": "proclamèrent solennellement l'indépendance de l'ancienne colonie française de Saint-Domingue en lui redonnant le nom d'Haïti sous lequel l'île était désignée avant la découverte.",
+     "traduccion": "proclamaron solemnemente la independencia de la antigua colonia francesa de Saint-Domingue devolviéndole el nombre de Haití con el cual la isla se designaba antes del descubrimiento.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI, pp. 164-165 (l. 6298-6300 y 6325-6328)",
+     "cita_original": "la réunion de la Partie de l'Est à l'État d'Haïti. [...] Il conseillait au président de se présenter en médiateur et non en conquérant.",
+     "traduccion": "la reunión de la Parte del Este al Estado de Haití. [...] Aconsejaba al presidente presentarse como mediador y no como conquistador.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI, p. 167 (l. 6384-6388)",
+     "cita_original": "son grand rêve d'unification de l'île sous l'autorité d'un même gouvernement",
+     "traduccion": "su gran sueño de unificación de la isla bajo la autoridad de un mismo gobierno.",
+     "afirmaciones": [
+      "A-010",
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI, pp. 166-167 (l. 6363-6369): Bellegarde cita un artículo de Price-Mars, Revue de la SHHG, octubre de 1937 (nota 37)",
+     "cita_original": "les Espagnols comptaient environ 50.000 blancs, 50.000 métis et 25.000 nègres, soit en tout 125.000 âmes pour un territoire de 50.000 kilomètres carrés [...] l'île entière étant de 77.250 kilomètres carrés environ",
+     "traduccion": "los españoles eran unos 50.000 blancos, 50.000 mestizos y 25.000 negros, en total 125.000 almas en un territorio de 50.000 km² [...] la isla entera mide unos 77.250 km².",
+     "afirmaciones": [
+      "A-018"
+     ]
+    },
+    {
+     "ubicacion": "cap. XV, p. 200 (l. 7757-7761)",
+     "cita_original": "La grande préoccupation de Soulouque était cependant de rétablir l'unité de gouvernement dans l'île et d'empêcher qu'une puissance étrangère pût y mettre le pied",
+     "traduccion": "La gran preocupación de Soulouque era, sin embargo, restablecer la unidad de gobierno en la isla e impedir que una potencia extranjera pusiera el pie en ella.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-011",
+    "A-018"
+   ],
+   "modulos": [
+    "M00",
+    "M05",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0108",
+   "notas": "RESUELVE EN PARTE F-0108 (acceso no-localizada -> pdf-en-linea): se leyó 'Histoire du peuple haïtien' (1953); 'La Nation haïtienne' (1938) está en la misma biblioteca (url alternativa) pero no se leyó. Nombres en Bellegarde: 'réunion de la Partie de l'Est' (1822), 'unionistes' (los dominicanos favorables), 'Séparatistes de l'Est' (1844-1849); también 'rêve d'unification de l'île' atribuido a Boyer. Cifras: el pasaje demográfico (450.000 'nègres' franceses; 25.000 'nègres' españoles; isla entera 77.250 km²) es una cita de Price-Mars (1937), de base no declarada en el pasaje (A-018: contrasta con ≤15.000 esclavos del este según Moreau). La disidencia del general Bonnet (Mémoires, 27-XII-1821: 'médiateur et non conquérant') es una voz haitiana contemporánea contraria a la ocupación inmediata de 1822. Pagina: encabezado '[2004] n' de la edición electrónica; entre corchetes aparecen las páginas de la edición impresa. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "Comprendre Haïti. Essai sur l'État, la nation, la culture (1987)",
+   "autor": "Hurbon, Laënnec",
+   "anio": "1987",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/contemporains/hurbon_laennec/comprendre_haiti/comprendre_haiti.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/contemporains/hurbon_laennec/comprendre_haiti/comprendre_haiti.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de un sociólogo crítico del noirisme y del duvaliérisme; texto completo leído en la edición electrónica; se equivoca al numerar el artículo constitucional (ver notas).",
+   "proveniencia": "Laënnec Hurbon (n. Jacmel 1940), sociólogo, director de investigación del CNRS y profesor de la Université Quisqueya de Port-au-Prince, publica en 1987 [editor POR VERIFICAR: Karthala/Deschamps] una crítica de la ideología noirista y del 'paradigme Noir/mulâtre'; escribe tras la caída de Duvalier, para el público haitiano y francés.",
+   "extractos": [
+    {
+     "ubicacion": "p. 91 (l. 3080-3083)",
+     "cita_original": "Dessalines devra proclamer que « tout Africain ou Indien et leurs descendants, sont habiles à devenir Haïtiens » (Art. 4 de la Constitution de 1805)",
+     "traduccion": "Dessalines deberá proclamar que 'todo africano o indio y sus descendientes pueden llegar a ser haitianos' (art. 4 de la Constitución de 1805).",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "pp. 105-106 (l. 3631-3634)",
+     "cita_original": "Une partie du peuple dominicain intériorise cette perspective, mais à ses dépens : majoritairement noir, il refoule sa condition et croit pouvoir réaliser son identité dans un anti-haïtianisme",
+     "traduccion": "Una parte del pueblo dominicano interioriza esta perspectiva, pero a sus expensas: mayoritariamente negro, reprime su condición y cree poder realizar su identidad en un antihaitianismo.",
+     "afirmaciones": [
+      "A-013",
+      "A-015"
+     ]
+    },
+    {
+     "ubicacion": "pp. 105-106 (l. 3638-3640)",
+     "cita_original": "le discours de Balaguer rejoint celui de Duvalier sur une base symétrique et inverse",
+     "traduccion": "el discurso de Balaguer coincide con el de Duvalier sobre una base simétrica e inversa.",
+     "afirmaciones": [
+      "A-013",
+      "A-015"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-013",
+    "A-015",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M13",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "NO ES 'Le barbare imaginaire' (F-0117; ver la ficha aparte). ERROR DE CITA A SEÑALAR: Hurbon atribuye la fórmula 'tout Africain ou Indien et leurs descendants sont habiles à devenir Haïtiens' al 'Art. 4 de la Constitution de 1805'; el texto de 1805 (Digithèque MJP) no contiene la fórmula (el art. 4 dice 'La loi est une pour tous'); la fórmula figura en 1843 art. 7, en 1846 art. 6 y, con 'Africain, Indien et ceux issus de leur sang', en 1816 art. 44. Hurbon sirve para el planteamiento crítico: el 'paradigme Noir/mulâtre' y la crítica a Balaguer ('Haïti al revés', 1984) como discurso simétrico a Duvalier, lectura haitiana de A-013/A-015 (la identidad dominicana como anti-haitianismo); es 'significado' y no 'hecho'. Paginación de la edición electrónica '(1987) n'. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "Atlas critique d'Haïti (1982): el uso del nombre 'Hispaniola' y la superficie de Haití",
+   "autor": "Anglade, Georges",
+   "anio": "1982 (ERCE y Centre de recherches caraïbes, Montreal); ed. electrónica Les Classiques",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/contemporains/anglade_georges/atlas_critique_haiti/atlas_critique_haiti.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/contemporains/anglade_georges/atlas_critique_haiti/atlas_critique_haiti.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Atlas de un geógrafo haitiano (UQAM) con tablas y cartografía; solo se usan aquí dos datos de nomenclatura y de superficie.",
+   "proveniencia": "Georges Anglade (1944-2010), geógrafo haitiano exiliado, fundador del departamento de geografía de la UQAM, publica en Montreal (ERCE) en 1982, durante el régimen de Jean-Claude Duvalier, un atlas 'crítico' de la política del espacio haitiano; el volumen 3 de su tríada se titula 'Hispaniola'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 10 (l. 233-236)",
+     "cita_original": "Hispaniola situe le contexte de cette politique de l'espace haïtien.",
+     "traduccion": "'Hispaniola' sitúa el contexto de esta política del espacio haitiano.",
+     "afirmaciones": [
+      "A-002",
+      "A-003"
+     ]
+    },
+    {
+     "ubicacion": "pp. 174-175 (l. 5668-5671)",
+     "cita_original": "les implications de la partition de l'île d'Hispaniola entre deux républiques",
+     "traduccion": "las implicaciones de la partición de la isla de Hispaniola entre dos repúblicas.",
+     "afirmaciones": [
+      "A-002",
+      "A-003"
+     ]
+    },
+    {
+     "ubicacion": "p. 49 (l. 1563-1564)",
+     "cita_original": "sur un territoire de 27.700 km2",
+     "traduccion": "en un territorio de 27.700 km².",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "CONTRAPUNTO al uso reivindicativo de 'Quisqueya/Ayiti': un geógrafo haitiano usa 'Hispaniola' como nombre neutro de la isla (títulos de murales y de un volumen de 1982) y no polemiza sobre el nombre; el nombre usado por la tradición haitiana no es uniforme. Superficie de Haití: 27.700 km² (Anglade), 27.750 km² (PCGN 2024). Superficie de la isla: 76.480 km² (Théodat 1998), 77.250 (Price-Mars via Bellegarde), 77.253 (Théodat 1997): rango 76.480-77.253 km² según autor, sin base declarada en estos textos [POR VERIFICAR contra datos cartográficos oficiales]. Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "La Rencontre des Trois Mondes (Rose-Marie Desruisseau), capítulo 'Ayiti, Hispaniola, Saint-Domingue, Haïti…' y glosario",
+   "autor": "Corvington, Georges (cap.); Desruisseau, Rose-Marie (obra y exposición); ed. Deschamps, Patrice Armand, Gérald Alexis",
+   "anio": "1992",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/la-recontre-des-trois-mondes",
+   "urls_alternativas": [
+    "https://archive.org/download/la-recontre-des-trois-mondes/la%20recontre%20des%20trois%20mondes_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Libro-catálogo de arte con un resumen histórico de 8 páginas para el público general, con errores de fecha evidentes; sirve como muestra de relato divulgativo haitiano del V Centenario, no como evidencia histórica.",
+   "proveniencia": "Georges Corvington, historiador haitiano de Port-au-Prince [dato de memoria, POR VERIFICAR], escribe en 1992, para la exposición de París de septiembre de 1992 (V Centenario de 1492), un resumen de la historia de Haití para acompañar los lienzos de la pintora Rose-Marie Desruisseau; Éd. Henri Deschamps; ejemplar con depósito legal de la Biblioteca Nacional de Haití (92-10-333).",
+   "extractos": [
+    {
+     "ubicacion": "Corvington, 'Ayiti, Hispaniola, Saint-Domingue, Haïti…', p. 82 (l. 5128-5135)",
+     "cita_original": "aperçut les contours voilés d'une grande “terre” qu'il présuma être l'île de Bohio ou d'Ayiti que lui avaient décrite les Indiens de Cuba.",
+     "traduccion": "divisó los contornos velados de una gran 'tierra' que presumió ser la isla de Bohío o de Ayiti que le habían descrito los indios de Cuba.",
+     "afirmaciones": [
+      "A-002",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "Corvington, p. 83 (l. 5380-5384)",
+     "cita_original": "proclame solennellement l'indépendance de Saint-Domingue qui, dès cet instant, reprendra son nom indien d'Haïti.",
+     "traduccion": "proclama solemnemente la independencia de Saint-Domingue que, desde ese instante, retomará su nombre indio de Haití.",
+     "afirmaciones": [
+      "A-006",
+      "A-008"
+     ]
+    },
+    {
+     "ubicacion": "Corvington, p. 83 (l. 5290-5294)",
+     "cita_original": "Toussaint envahit la partie de l'Est et entre en triomphateur à Santo-Domingo. Cette annexion consacre sa toute-puissance.",
+     "traduccion": "Toussaint invade la parte del Este y entra en triunfo en Santo Domingo. Esta anexión consagra su omnipotencia.",
+     "afirmaciones": [
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "Glosario del libro (l. 6318-6321)",
+     "cita_original": "Ayiti : Nom indien de l'île que toucha la flotte de Colomb le 5 décembre 1492 et qu'il baptisa Hispaniola.",
+     "traduccion": "Ayiti: nombre indio de la isla que tocó la flota de Colón el 5 de diciembre de 1492 y que él bautizó Hispaniola.",
+     "afirmaciones": [
+      "A-002",
+      "A-007"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-011"
+   ],
+   "modulos": [
+    "M00",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Términos haitianos: un historiador haitiano de 1992 escribe 'Toussaint envahit la partie de l'Est' y 'annexion' para 1801 (a diferencia de 'unification' del glosario). Errores en el propio texto: Ryswick 'en 1694' (es 1697), 'six caciquats' (Madiou y Nau dicen cinco) y 'deux millions' [POR VERIFICAR]; no los uso como hecho. 'Ayiti' (grafía con y) aparece como nombre indio de la isla; el glosario atribuye a Colón haber 'baptisé' Hispaniola. Edición: el ejemplar digitalizado de archive.org es el libro de 1992 (Éd. Henri Deschamps). Las citas proceden de la extraccion de texto (pdftotext) del PDF; se corrigieron solo erratas evidentes del OCR/extraccion."
+  },
+  {
+   "titulo": "Langue et littérature des aborigènes d'Ayti (Paris, Éd. de l'École, 1972), a través de la reseña de J. Petitjean-Roget (Outre-Mers, 1973)",
+   "autor": "Fouchard, Jean (obra); Petitjean-Roget, Jacques (reseña)",
+   "anio": "1972 (obra); 1973 (reseña)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.persee.fr/doc/outre_0300-9513_1973_num_60_221_1725_t1_0700_0000_4",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó la reseña (2 páginas) de un historiador del Antiguo Régimen colonial, no el libro; sirve para fechar y describir las tesis de Fouchard sobre la lengua y la ortografía 'Ayti'.",
+   "proveniencia": "Jean Fouchard (1912-1990), historiador, diplomático y periodista haitiano, publica en Paris (Éditions de l'École, 1972) un libro de 173 pp. que compila documentos antiguos sobre la lengua de los aborígenes; el reseñista Jacques Petitjean-Roget lo comenta en la Revue française d'histoire d'outre-mer (n.º 221, 1973, pp. 700-701).",
+   "extractos": [
+    {
+     "ubicacion": "reseña, p. 700",
+     "cita_original": "Ayti qu'il orthographie ainsi pour bien marquer la différence avec le nom de l'île actuel, Haïtï.",
+     "traduccion": "Ayti, que escribe así para marcar bien la diferencia con el nombre actual de la isla, Haïti.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "reseña, p. 700",
+     "cita_original": "le marcorix, langue dominante des Taïnos ou Arawacks de l'île.",
+     "traduccion": "el marcorix, lengua dominante de los taínos o arahuacos de la isla.",
+     "afirmaciones": [
+      "A-012",
+      "A-020"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-012",
+    "A-020"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "No leí el libro de Fouchard: la reseña dice que lo basa en la compilación de documentos antiguos y en 'savants haïtiens' (Émile Nau, Don Carlos Nouel [dominicano]) e incluye una traducción del testimonio de Ramón Pané por Brasseur de Bourbourg. El término 'marcorix' como lengua dominante de los taínos es la tesis del autor, no comprobada [POR VERIFICAR; filología aparte: Granberry y Vescelius 2004, F-0702]. Otro texto de Fouchard citado por Watson Denis (2024) y no localizado: 'Pourquoi Haïti? Où, quand et par qui fut choisi de redonner à notre patrie le nom indien d'Haïti', Revue de la Société haïtienne d'Histoire et de Géographie n.º 145, 1984, pp. 13-17 [POR VERIFICAR; sin copia en línea: el índice RSHHGG Lab (www.rshhgglab.com) no responde]."
+  },
+  {
+   "titulo": "Toponymic Factfile: Haiti (Permanent Committee on Geographical Names), nota sobre nombre oficial, lengua y superficie",
+   "autor": "Permanent Committee on Geographical Names (PCGN), Reino Unido",
+   "anio": "2024 (© Crown Copyright 2024; archivo Oct14)",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/931580/Toponymic_factfile_Haiti_Oct14.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ficha técnica de un organismo cartográfico oficial que recoge lo que las fuentes oficiales haitianas declaran sobre nombres, lengua y superficie; terciaria respecto de la tradición haitiana (no es voz haitiana).",
+   "proveniencia": "Redactada por el PCGN del Reino Unido para la normalización cartográfica del topónimo haitiano; remite a fuentes oficiales haitianas y al NGA GNS; su única información sobre la lengua proviene de la Constitución de 1987 y de la Akademi Kreyòl Ayisyen (AKA).",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, cuadro inicial",
+     "cita_original": "Country name in official languages Haïti (fra); Ayiti (hat)",
+     "traduccion": "Nombre del país en las lenguas oficiales: Haïti (fr); Ayiti (criollo).",
+     "afirmaciones": [
+      "A-002",
+      "A-006"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, Introduction",
+     "cita_original": "Haiti is a Caribbean country on the western half of the island of Hispaniola, part of the Greater Antilles",
+     "traduccion": "Haití es un país caribeño en la mitad occidental de la isla de La Española, parte de las Grandes Antillas.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-006"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Se incluye por su dato de nomenclatura: la forma criolla oficial del nombre del país es 'Ayiti'; superficie de Haití 27.750 km² (UN data), país 'Repiblik d Ayiti' (kreyòl). Terciaria: no es evidencia sobre el origen del nombre."
+  },
+  {
+   "titulo": "Premier janvier 1804 : naissance de l'État haïtien et renaissance de l'ile d'Haïti (Le Nouvelliste, 30-XII-2024)",
+   "autor": "Denis, Watson (Ph.D., profesor de la Université d'État d'Haïti)",
+   "anio": "2024 (escrito el 25-26-XII-2016; revisado para publicación el 25-XII-2024)",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/252245/premier-janvier-1804-naissance-de-letat-haitien-et-renaissance-de-lile-dhaiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de opinión extenso de un académico haitiano publicado en el principal diario del país; cita a Madiou y Ardouin con paginación de una reedición moderna que no se pudo cotejar; interpreta con tesis nacional.",
+   "proveniencia": "Watson Denis, profesor-investigador de la Universidad de Estado de Haití [afiliación POR VERIFICAR], publica en Le Nouvelliste (Port-au-Prince) un artículo escrito en 2016 y revisado en 2024, para el público haitiano en la antesala de los 221 años de la independencia; interés explícito: llamar a la unidad nacional ('refaire l'Union fait la force').",
+   "extractos": [
+    {
+     "ubicacion": "§3 'La renaissance de l'ile d'Haïti' (párrafo que sigue al título)",
+     "cita_original": "L'usage de ces deux termes suppose au moins deux choses : 1) le retour à l'ancien nom de l'ile, Haïti, tel que connu avant l'arrivée de Christophe Colomb en 1492 [...] ; 2) l'indépendance d'Haïti a été proclamée pour l'ile toute entière.",
+     "traduccion": "El uso de estos dos términos supone al menos dos cosas: 1) el retorno al antiguo nombre de la isla, Haití, tal como se conocía antes de la llegada de Colón en 1492 [...]; 2) la independencia de Haití fue proclamada para la isla entera.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "§2, 'Il semble que la culture Taino...'",
+     "cita_original": "les généraux de l'Armée indigène, Dessalines en tête, ont choisi de redonner le nom d'Hayti à l'ile d'Haïti une fois l'indépendance acquise.",
+     "traduccion": "los generales del Ejército indígena, con Dessalines a la cabeza, eligieron devolver el nombre de Hayti a la isla de Haití una vez lograda la independencia.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "§2, final (síntesis del nuevo pueblo)",
+     "cita_original": "et de quelques survivants du peuple natif des Tainos de l'ile d'Haïti se sont greffés sur cette terre pour entamer une nouvelle communauté politique indépendante",
+     "traduccion": "y algunos supervivientes del pueblo nativo de los taínos de la isla de Haití se injertaron en esta tierra para iniciar una nueva comunidad política independiente.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "§3.b",
+     "cita_original": "Il ne voulait aucune frontière physique à l'intérieur de l'ile d'Haïti. D'ailleurs, il avait théorisé la question en termes géographiques. Il répétait : « A Haïti, il faut donner la mer pour frontière ».",
+     "traduccion": "[Dessalines] no quería ninguna frontera física en el interior de la isla de Haití. [...] Repetía: 'A Haití hay que darle el mar por frontera'.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "§3.b",
+     "cita_original": "refit, marchant sur les brisées de Toussaint-Louverture, sans effusion de sang d'ailleurs, la réunification de l'ile.",
+     "traduccion": "rehizo, siguiendo las huellas de Toussaint-Louverture, sin derramamiento de sangre además, la reunificación de la isla.",
+     "afirmaciones": [
+      "A-010",
+      "A-011"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-006",
+    "A-008",
+    "A-010",
+    "A-011",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0479",
+   "notas": "AÑADE extractos de M00 a F-0479. Es la formulación académica contemporánea más explícita de las dos tesis: (1) el nombre Haïti restituye el nombre taíno ('cher aux Tainos') y (2) la independencia de 1804 se proclamó 'para la isla entera' ('renaissance de l'ile'), con referencia a Ardouin (restitución a 'l'île entière') y a Boyer como segunda reunificación; incluye en nota la referencia a Fouchard (1984, RSHHG n.º 145, pp. 13-17) y a Geggus (2002, pp. 207-210). Se cita 'A Haïti, il faut donner la mer pour frontière' atribuida a Dessalines SIN FUENTE [POR VERIFICAR; sin respaldo en un documento localizado]. El autor escribe 'indigènes' = Armée indigène y 'peuple natif des Tainos', y menciona 'survivants' tainos como componente del pueblo (afirmación sin cifra ni fuente). El texto es del mismo año 2024 en que el artículo registrado en F-0479 por otros módulos."
+  },
+  {
+   "titulo": "Images et mots blessants : de la colonialité du savoir à la colonialité de l'être haïtien dans les manuels scolaires locaux (Haïti Perspectives, vol. 4, n.º 1, primavera 2015, pp. 9-16)",
+   "autor": "Gourgues, Jacques-Michel",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.haiti-perspectives.com/media/attachments/2024/12/15/4.1-analyse.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de análisis de contenido con tablas de citas de 19 manuales haitianos; muestra de manuales no sistemática; la tabla se transcribió desde un PDF con columnas que no permite atribuir cada cita a un manual concreto en todos los casos.",
+   "proveniencia": "Jacques-Michel Gourgues (Ph.D. en ciencias de la educación, Université de Montréal; ha enseñado en INAGHEI-UEH y en la Faculté des sciences de l'éducation de la Université Quisqueya; hoy en ISTEAH) publica en la revista Haïti Perspectives (primavera de 2015) un análisis de 19 manuales de ciencias sociales de la escuela fundamental (editados por Henri Deschamps/Frères de l'Instruction chrétienne, Zémès, Canapé Vert, etc.) desde una perspectiva decolonial; la ficha de la revista fue reposteada en el sitio en 2024.",
+   "extractos": [
+    {
+     "ubicacion": "Tableau 1, p. 10 (Livre 1 = O. R. Fombrun, Histoire d'Haïti: Des origines à l'Indépendance, Deschamps 1995, p. 6)",
+     "cita_original": "[Christophe Colomb] découvre l'Amérique peuplée d'hommes de race jaune.",
+     "traduccion": "[Cristóbal Colón] descubre América poblada de hombres de raza amarilla.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "Tableau 2, p. 12 (Livre 1, p. 19)",
+     "cita_original": "Les Haïtiens-Indiens n'étaient pas aussi civilisés que les Aztèques, les Incas ou les Mayas.",
+     "traduccion": "Los haitianos-indios no eran tan civilizados como los aztecas, los incas o los mayas.",
+     "afirmaciones": [
+      "A-012",
+      "A-016"
+     ]
+    },
+    {
+     "ubicacion": "Tableau 1, p. 11 (manual de 3.er ciclo, libros 16-19; atribución exacta [POR VERIFICAR])",
+     "cita_original": "p. 6 : « L'île d'Haïti était alors habitée par des hommes de race taïno […] et de race caraïbe, appelés plus tard des indiens. »",
+     "traduccion": "La isla de Haití estaba entonces habitada por hombres de raza taína [...] y de raza caribe, llamados más tarde indios.",
+     "afirmaciones": [
+      "A-012"
+     ]
+    },
+    {
+     "ubicacion": "Tableau 1, p. 11 (mismo manual de 3.er ciclo, p. 46: lección I sobre los indios taínos, con un extracto de Nau)",
+     "cita_original": "On a beau détruire jusqu'à la racine, la population primitive d'Ayiti, son sang s'est pourtant mêlé en une certaine proportion aux races qui lui ont succédé sur ce sol.",
+     "traduccion": "Por más que se destruya hasta la raíz la población primitiva de Ayiti, su sangre se ha mezclado sin embargo en cierta proporción con las razas que le han sucedido en este suelo.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-012",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE PARA 'textos escolares haitianos'. Hecho: los manuales de Deschamps y Zémès (1995-2010) enseñan que la isla estaba habitada por 'hommes de race taïno' y que la 'population primitive d'Ayiti' mezcló 'en una certaine proportion' su sangre con las razas siguientes (cita de Nau, la frase del Appendice de 1854/1894, p. ~322, y no la del Préface: ver ficha Nau); esa cita escolar sostiene la filiación biológica parcial, mientras el Préface de Nau dice lo contrario. Gourgues critica el vocabulario racializado ('race jaune', 'peaux-rouges', 'haïtiens-indiens') pero no discute la ascendencia. La obra 'Histoire d'Haïti: Des origines à l'Indépendance' (Livre 1) es de Odette Roy Fombrun (1995), la misma que propuso 'Quisqueya' en 2000. La tabla no incluye año de cada libro más que en la bibliografía; el mapeo de libros 16-19 a las citas p. 6 y p. 46 se infiere del diseño del PDF [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Haïti-Quisqueya : une double insularité (Mappemonde, n.º 51, 1998/3, pp. 7-11), resumen",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.persee.fr/doc/mappe_0764-3470_1998_num_51_3_1395",
+   "urls_alternativas": [
+    "https://doi.org/10.3406/mappe.1998.1395"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de un geógrafo haitiano en una revista indexada (Persée); solo se leyó el resumen en la página; el PDF devuelve 403.",
+   "proveniencia": "Jean-Marie Théodat (geógrafo haitiano, Université Paris X en 1998), publica en Mappemonde un artículo corto sobre la doble insularidad; para el público de geógrafos franceses; su tesis se prolonga en el libro 'Haïti-République dominicaine: une île pour deux' (F-0123).",
+   "extractos": [
+    {
+     "ubicacion": "resumen",
+     "cita_original": "Haïti est un terme taïno signifiant « terre montagneuse » ; il désignait autrefois l'île entière.",
+     "traduccion": "Haití es un término taíno que significa 'tierra montañosa'; designaba antiguamente la isla entera.",
+     "afirmaciones": [
+      "A-002",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "Quisqueya, autre toponyme d'origine taïno, est utilisé par les Dominicains pour désigner leur portion de territoire, officiellement République Dominicaine.",
+     "traduccion": "Quisqueya, otro topónimo de origen taíno, es usado por los dominicanos para designar su porción de territorio, oficialmente República Dominicana.",
+     "afirmaciones": [
+      "A-003"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "une île de taille réduite (76 480 km2)",
+     "traduccion": "una isla de tamaño reducido (76.480 km²).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M11",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "El geógrafo haitiano asigna 'Quisqueya' a la mitad dominicana (uso opuesto al de Price-Mars 1953, Fombrun 2000 y la Université Quisqueya de Port-au-Prince, que lo aplican a la isla entera), y dice que 'Haïti' era el nombre de toda la isla y 'l'équivalent' de 'Hispaniola', que 'fait injure à la mémoire des premiers occupants taïnos'. La superficie dada (76.480 km²) difiere de la de su artículo de 1997 (77.253 km²; ver ficha). Solo resumen leído; texto completo [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Haití, Quisqueya; Los límites de la insularidad (1630-1916) (Estudios Fronterizos, n.º 40, 1997, pp. 115-139), traducción castellana de Danielle Wynants",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "1997",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://ref.uabc.mx/ojs/index.php/ref/article/download/309/519",
+   "urls_alternativas": [
+    "https://ref.uabc.mx/ojs/index.php/ref/article/view/309",
+    "https://biblioteca-repositorio.clacso.edu.ar/xmlui/handle/CLACSO/253745"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico en revista universitaria (UABC, Tijuana), traducido del francés; el texto leído es la traducción, no el original francés.",
+   "proveniencia": "Jean-Marie Théodat, geógrafo haitiano de la Universidad de París X, lo publica en Estudios Fronterizos (julio-diciembre de 1997), 'traducido del francés por Danielle Wynants'; propone que la frontera haitiano-dominicana es una 'insularidad' social y no solo física; escribe para un público académico latinoamericano.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 130-131 (l. 740-743)",
+     "cita_original": "A principios del siglo XIX, la joven nación haitiana hizo de la insularidad integral, la piedra angular de su sistema de defensa para enfrentar las amenzas exteriores.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "p. 132 (l. 805-808)",
+     "cita_original": "el sueño de insularidad de Toussaint se convirtió en la obsesión de los generales-presidentes haitianos (por lo menos hasta Salnave)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "p. 132 (l. 809-812)",
+     "cita_original": "Dessalines atravesó la frontera en 1805 para expulsar a los últimos franceses que constituían una amenza permanente de la seguridad del país. Boyer anexó Santo Domingo en 1822 para impedirles instalarse.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-008",
+      "A-010",
+      "A-011"
+     ]
+    },
+    {
+     "ubicacion": "p. 118 (l. 156-160)",
+     "cita_original": "Con 77 253 km , la isla es más o menos tan grande como Panamá",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-008",
+    "A-010",
+    "A-011"
+   ],
+   "modulos": [
+    "M00",
+    "M05",
+    "M06",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Hecho/Interpretación: Théodat lee la 'insularidad integral' como estrategia de defensa de la joven nación haitiana (seguridad), de Toussaint a Salnave, y usa 'anexó' para 1822 (en la traducción; el original francés dice probablemente 'annexa' [POR VERIFICAR]). En el título y en el texto 'Haití' designa el lado oeste y 'Quisqueya' el lado dominicano. Datos geográficos que da: isla de 77.253 km² (frente a 76.480 en su artículo de 1998), 650 km de largo (cabo Irois-cabo Cingaño) y 250 km entre cabo Beata y cabo del Morro, pico Duarte 3.175 m, 'la isla más montañosa de las Antillas'. El OCR del PDF pierde los exponentes ('km2' sale 'km'). Paginación = la impresa en el pie de página del PDF."
+  },
+  {
+   "titulo": "Renommons l'île : Quisqueya, non pas Hispaniola (Rename the Island: Quisqueya, not Hispaniola)",
+   "autor": "Fombrun, Odette Roy; trad. inglesa de Thomas C. Spear",
+   "anio": "2000 (septiembre de 2000; publicado en la Revue d'Histoire et de Géographie, n.º 206, 2001, pp. 52-53)",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ile-en-ile.org/odette-roy-fombrun-renommons-lile-quisqueya-non-pas-hispaniola/",
+   "urls_alternativas": [
+    "https://mail.ile-en-ile.org/odette-roy-fombrun-rename-the-island-quisqueya-not-hispaniola",
+    "https://ile-en-ile.org/fombrun/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto íntegro leído en el sitio Île en île (D. Spear), con fecha de la autora y de la publicación impresa; es un manifiesto de opinión con una afirmación fáctica sin fuente (decisión del USGB de 1930).",
+   "proveniencia": "Odette Roy Fombrun (n. Port-au-Prince 13-VI-1917), pedagoga haitiana fundadora de la primera escuela preescolar de Haití, autora de manuales de historia (Histoire d'Haïti: Des origines à l'Indépendance, Deschamps 1995), de 'L'Ayiti des Indiens' (Deschamps 1992) y de 'Le Drapeau et les Armes de la République' (1989); lo redacta en septiembre/diciembre de 2000 para dirigentes e historiadores dominicanos y haitianos, para las organizaciones indígenas y para la ONU, con el interés de sustituir 'Hispaniola'; cita a Edmond Mangonès (1934).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "les Taïnos, avant l'arrivée de Colomb, appelaient Haíti, Bohio ou Quisqueya – signifiant « Terre montagneuse » ou « Grande terre ».",
+     "traduccion": "los taínos, antes de la llegada de Colón, llamaban Haití, Bohío o Quisqueya, que significa 'tierra montañosa' o 'gran tierra'.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "En proclamant son indépendance le 1er janvier 1804, la partie occidentale de Saint Domingue reprend le nom indien Haïti. Dès lors, l'île entière est désignée mondialement sous le nom « île d'Haïti ».",
+     "traduccion": "Al proclamar su independencia el 1.º de enero de 1804, la parte occidental de Saint-Domingue retoma el nombre indio Haití. Desde entonces la isla entera se designa mundialmente con el nombre de 'isla de Haití'.",
+     "afirmaciones": [
+      "A-006",
+      "A-008",
+      "A-010"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "en 1930 le U.S.G.B. (le « Geographic Board » des États-Unis d'Amérique) décide unilatéralement de la nommer Hispaniola",
+     "traduccion": "en 1930 el USGB (el Geographic Board de los Estados Unidos) decide unilateralmente llamarla Hispaniola.",
+     "afirmaciones": [
+      "A-008"
+     ]
+    },
+    {
+     "ubicacion": "cierre",
+     "cita_original": "une violation du droit des peuples haïtien et dominicain à un héritage taïno commun.",
+     "traduccion": "una violación del derecho de los pueblos haitiano y dominicano a una herencia taína común.",
+     "afirmaciones": [
+      "A-016",
+      "A-013"
+     ]
+    },
+    {
+     "ubicacion": "cierre",
+     "cita_original": "Quisqueya évoquera la culture taïno alors qu'Hispaniola évoque le génocide indien…",
+     "traduccion": "Quisqueya evocará la cultura taína, mientras que Hispaniola evoca el genocidio indio.",
+     "afirmaciones": [
+      "A-003"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-010",
+    "A-013",
+    "A-016"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "F-0165",
+   "notas": "RESUELVE F-0165 (localizada-bloqueada -> texto-completo-en-linea; la URL registrada, mail.ile-en-ile.org, abrió con curl; la versión francesa está en ile-en-ile.org). Hecho (según la autora, SIN FUENTE en el texto): el Geographic Board de EE.UU. 'decide' en 1930 llamar 'Hispaniola' a la isla y Edmond Mangonès protestó en 1934 en Montevideo (Bulletin de la SHHG vol. 5, n.º 15, julio de 1934) [POR VERIFICAR ambas: no localicé decisión del USGB de 1930 ni el boletín]. Uso político posterior del nombre: propone 'Quisqueya' (isla entera) como alternativa panisleña, apelando a un 'héritage taïno commun' de dominicanos y haitianos (A-013/A-016). La autora da 'Haíti, Bohio o Quisqueya' como tres nombres taínos de la misma isla, con la doble glosa 'tierra montañosa' o 'gran tierra'. Atribuye a Marie-Hélène Laraque el 'Traité du Cacique Henri' como primer tratado en América (hecho dudoso [POR VERIFICAR]: tratado de Enriquillo con Barrionuevo, 1533, M03). Existe versión inglesa (url alternativa, trad. T. C. Spear, © 2003) y española."
+  },
+  {
+   "titulo": "La pensée de Jean Price-Mars. Entre construction politique de la nation et affirmation de l'identité culturelle haïtienne",
+   "autor": "Byron, Jhon Picard",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/contemporains/byron_jhon_picard/pensee_jean_price_mars/pensee_jean_price_mars.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/contemporains/byron_jhon_picard/pensee_jean_price_mars/pensee_price-mars.html"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo académico de un etnólogo de la Universidad de Estado de Haití sobre el pensamiento de Price-Mars; se leyó solo la parte que define el 'indigénisme'.",
+   "proveniencia": "Jhon Picard Byron (Ph.D. en etnología y patrimonio, UEH), en J. P. Byron (dir.), 'Production du savoir et construction sociale. L'ethnologie en Haïti' (Presses de l'Université Laval y Éditions de l'UEH, 2014, pp. 47-80).",
+   "extractos": [
+    {
+     "ubicacion": "p. 41 (l. 1598-1603)",
+     "cita_original": "son chef-d'œuvre, Ainsi parla l'oncle, ne serait rien d'autre que le manifeste de ce courant connu sous le nom d'indigénisme.",
+     "traduccion": "su obra maestra, Ainsi parla l'oncle, no sería sino el manifiesto de esa corriente conocida con el nombre de indigenismo.",
+     "afirmaciones": [
+      "A-017"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M12"
+   ],
+   "id_existente": "F-0176",
+   "notas": "RESUELVE SOLO EN PARTE F-0176 (el registro agrupa cinco autores: Soukar, Bello, Buteau, Turnier y Byron): aquí solo Byron (J. P.). El pasaje resume la opinión corriente ('suivant l'avis de plus d'un') y no la tesis de Byron, que la matiza. Para el glosario: 'indigénisme' es un movimiento cultural de los años 20 y no la tesis de filiación taína. No leí el resto del capítulo."
+  },
+  {
+   "titulo": "« QUISQUEYA », « QUISQUEYENS », les enjeux d'une appellation (Le Nouvelliste, 12-II-2014)",
+   "autor": "Charlier Doucet, Rachelle (antropóloga)",
+   "anio": "2014",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/127447/quisqueya-quisqueyens-les-enjeux-dune-appellation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de opinión extenso (15 min de lectura) de una antropóloga haitiana, con referencias a Tejera Penson, Geggus y Fouchard; no tiene aparato crítico completo y las referencias se citan de manera abreviada.",
+   "proveniencia": "Rachelle Charlier Doucet (antropóloga haitiana; según el catálogo del Musée du quai Branly escribe sobre el Bureau d'ethnologie [afiliación POR VERIFICAR]) publica en Le Nouvelliste (Port-au-Prince) el 12 de febrero de 2014, en plena tensión haitiano-dominicana tras la sentencia TC/0168/13, un primer artículo de una serie ('A suivre: Les noms de l'île revisités: quelles alternatives?') para el público haitiano; interés explícito: desaconsejar que Haití use 'Quisqueya' y 'quisqueyens' como nombre de la isla y de los dos pueblos.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "Chez nous, le triptyque interchangeable Haïti-Quisqueya-Bohio est accepté comme vérité historique.",
+     "traduccion": "Entre nosotros, el tríptico intercambiable Haití-Quisqueya-Bohío se acepta como verdad histórica.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-004"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Comment donc s'appelait l'île ?'",
+     "cita_original": "seuls deux noms étaient utilisés par les amérindiens pour désigner cette île : « Bohio » et « Haïti ».",
+     "traduccion": "solo se usaban dos nombres por los amerindios para designar esta isla: 'Bohío' y 'Haití'.",
+     "afirmaciones": [
+      "A-002",
+      "A-003",
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "misma sección",
+     "cita_original": "Bohio, selon toute vraisemblance, n'était pas le nom de l'île, mais voulait dire plutôt « chez nous », « notre maison »",
+     "traduccion": "Bohío, según toda verosimilitud, no era el nombre de la isla sino que quería decir más bien 'en casa', 'nuestra casa'.",
+     "afirmaciones": [
+      "A-007"
+     ]
+    },
+    {
+     "ubicacion": "sección « Quid de Quisqueya » ?",
+     "cita_original": "l'historien dominicain Apolinar Tejera Penson(1908) démontre que ce nom a été inventé de toutes pièces par l'imagination fertile de Pedro Martyr d'Angleria.",
+     "traduccion": "el historiador dominicano Apolinar Tejera Penson (1908) demuestra que este nombre fue inventado de pies a cabeza por la imaginación fértil de Pedro Mártir de Anglería.",
+     "afirmaciones": [
+      "A-001",
+      "A-003",
+      "A-004"
+     ]
+    },
+    {
+     "ubicacion": "sección 'De fausses « vérités historiques »...'",
+     "cita_original": "avant 1844, Haïti était l'un des noms admis pour toute l'île, comme en atteste le nom d' « État Indépendant d'Haïti espagnol » pris par Núñez de Caceres",
+     "traduccion": "antes de 1844, Haití era uno de los nombres admitidos para toda la isla, como lo atestigua el nombre de 'Estado Independiente de Haití español' tomado por Núñez de Cáceres.",
+     "afirmaciones": [
+      "A-011",
+      "A-008"
+     ]
+    },
+    {
+     "ubicacion": "misma sección",
+     "cita_original": "c'est surtout avec le mouvement indigéniste dominicain (1870-1890) que l'usage du toponyme « Haïti » pour l'île entière s'est progressivement effacé chez nos voisins.",
+     "traduccion": "es sobre todo con el movimiento indigenista dominicano (1870-1890) que el uso del topónimo 'Haití' para la isla entera se fue borrando entre nuestros vecinos.",
+     "afirmaciones": [
+      "A-015",
+      "A-009"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Quisqueya, icône de l'identité dominicaine'",
+     "cita_original": "De même que le fondateur de notre république s'est approprié le nom taino d'Haïti, les Dominicains eux, se sont approprié le vocable « Quisqueya » pour désigner leur portion de territoire et leur nation.",
+     "traduccion": "Así como el fundador de nuestra república se apropió del nombre taíno de Haití, los dominicanos se apropiaron del vocablo 'Quisqueya' para designar su porción de territorio y su nación.",
+     "afirmaciones": [
+      "A-003",
+      "A-008"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Et nous alors ?'",
+     "cita_original": "Nous avons, par exemple, une radio et une université qui portent ce nom. Il y existe aussi un « Parc Naturel Quisqueya » à Fonds Parisien.",
+     "traduccion": "Tenemos, por ejemplo, una radio y una universidad que llevan ese nombre. Hay también un 'Parque Natural Quisqueya' en Fonds-Parisien.",
+     "afirmaciones": [
+      "A-003"
+     ]
+    },
+    {
+     "ubicacion": "conclusión",
+     "cita_original": "Les constitutions actuelles des deux pays adoptent respectivement « île d'Haïti » et « île de Santo Domingo ».",
+     "traduccion": "Las constituciones actuales de los dos países adoptan respectivamente 'isla de Haití' e 'isla de Santo Domingo'.",
+     "afirmaciones": [
+      "A-006",
+      "A-009"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-001",
+    "A-002",
+    "A-003",
+    "A-004",
+    "A-006",
+    "A-007",
+    "A-008",
+    "A-009",
+    "A-011",
+    "A-015"
+   ],
+   "modulos": [
+    "M00",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "VOZ HAITIANA CRÍTICA DEL RELATO OFICIAL SOBRE LOS NOMBRES: documenta que los manuales escolares aprobados por el Ministerio enseñan el tríptico 'Haïti-Quisqueya-Bohio' (confirmado en Bellegarde y Lhérisson 1906) y lo rechaza; atribuye a Tejera Penson (1908, 'Rectificaciones históricas. ¿Quid de Quisqueya?') la tesis de que Quisqueya fue invención de Pedro Mártir, que geógrafos, historiadores y lingüistas actuales calificarían de fantasiosa (afirmación suya sin citar a esos especialistas) [POR VERIFICAR: Tejera 1908; Geggus 1997:54; Fouchard 1988:78 citados por la autora]. Observa que 'avant 1844 Haïti était l'un des noms admis pour toute l'île' y que Don Carlos Nouel dijo 'l'île d'Haïti' en 1876 [POR VERIFICAR: cita de segunda mano vía Fouchard 1988, p. 78]. Para A-011: la autora traduce el título de Núñez como 'État Indépendant d'Haïti espagnol' (la fórmula de A-011), a diferencia de Ardouin ('partie espagnole d'Haïti'). Uso que da a Quisqueya: dominicano = la parte oriental (Ceara Hatton, Hostos, 'nombre poético dominicano') y haitiano = la isla (Fombrun, Price-Mars), ambigüedad que recomienda evitar. Mencionados: una radio (Radio Quisqueya), una universidad (Université Quisqueya, fundada en 1988) y un parque natural en Fonds-Parisien. El pasaje 'Quisqueya' en la sección 'Quid de Quisqueya' atribuye a Mártir tres topónimos 'Quizquella, Haïti et Cipango' (variación de la cita de A-001 [POR VERIFICAR]). Las ediciones 'Les noms de l'île revisités' (continuación) no se localizaron."
+  },
+  {
+   "titulo": "Restaurer la mémoire des Indiens (Le Nouvelliste, 27-XI-2008), lead visible del artículo",
+   "autor": "Domerçant, Dominique",
+   "anio": "2008",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/64664/restaurer-la-memoire-des-indiens",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Solo se leyó el inicio (muro de pago a partir del segundo párrafo); artículo de periodista de Le Nouvelliste en el aniversario del 28-XI-1493.",
+   "proveniencia": "Dominique Domerçant, periodista de Le Nouvelliste (Port-au-Prince), publica el 27-XI-2008 ('Rappel / 28 novembre 1493 / 515 ans après') una nota sobre la memoria indígena para el público haitiano con ocasión del 28 de noviembre; interés: reavivar la 'mémoire collective' y recordar que el gobierno de Jean-Claude Duvalier instituyó en 1983 el 'Jour de l'Indien et de la Culture'.",
+   "extractos": [
+    {
+     "ubicacion": "lead (sumario del artículo)",
+     "cita_original": "Le 28 novembre 1983, le gouvernement de Jean Claude Duvalier avait inauguré le « Jour de l'INDIEN et de la Culture ».",
+     "traduccion": "El 28 de noviembre de 1983, el gobierno de Jean-Claude Duvalier inauguró el 'Día del Indio y de la Cultura'.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "primer párrafo visible",
+     "cita_original": "La population haïtienne est redevable aux anciens indiens d'Haïti, autant par l'espace vital et écologique parsemé de sites préhistoriques et patrimoniaux que par leur culture",
+     "traduccion": "La población haitiana está en deuda con los antiguos indios de Haití, tanto por el espacio vital y ecológico sembrado de sitios prehistóricos y patrimoniales como por su cultura.",
+     "afirmaciones": [
+      "A-016",
+      "A-017"
+     ]
+    },
+    {
+     "ubicacion": "primer párrafo visible",
+     "cita_original": "le nom d'Haïti, « Ayiti », est un signe de témoignage",
+     "traduccion": "el nombre de Haití, 'Ayiti', es un signo de testimonio.",
+     "afirmaciones": [
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-010",
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Hecho (según el periodista, sin fuente en el fragmento): existe o existió un 'Jour de l'Indien et de la Culture' instituido por decreto de la presidencia vitalicia de Jean-Claude Duvalier el 28 de noviembre de 1983 [POR VERIFICAR el decreto y la vigencia posterior]. Es un indicio de una conmemoración estatal haitiana de la memoria indígena, no corroborado. El artículo describe la 'dette' haitiana hacia los indios como cultural y de suelo, y el nombre 'Ayiti' como 'signe de témoignage'. No leí el resto (muro de pago)."
+  },
+  {
+   "titulo": "L'histoire ne doit pas être falsifiée ! (Haïti Liberté, editorial del 2-I-2019)",
+   "autor": "Dupont, Berthony",
+   "anio": "2019",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://haitiliberte.com/lhistoire-ne-doit-pas-etre-falsifiee/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Editorial de un semanario haitiano sobre un comunicado de la embajada de EE.UU.; la frase sobre el nombre es una afirmación de pasada, sin fuentes.",
+   "proveniencia": "Berthony Dupont, firmante de este editorial de Haïti Liberté [perfil del semanario (izquierda; sedes en Port-au-Prince y Brooklyn) y cargo del autor: POR VERIFICAR], escribe el 2-I-2019 una réplica a un comunicado de la embajada de EE.UU. con ocasión del 215.º aniversario de la independencia; interés: defender la historia 'sans falsification'; la mención al nombre es un recordatorio escolar.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "La colonisation espagnole puis française avait baptisé cette terre du nom de Saint-Domingue, et justement après la révolution, le dirigeant d'alors, Jean-Jacques Dessalines, a renoué avec le nom indien du sol en hommage aux valeureux Tainos qui avaient été décimés par la colonisation esclavagiste.",
+     "traduccion": "La colonización española y luego francesa había bautizado esta tierra con el nombre de Saint-Domingue, y justamente tras la revolución el dirigente de entonces, Jean-Jacques Dessalines, retomó el nombre indio del suelo en homenaje a los valerosos taínos diezmados por la colonización esclavista.",
+     "afirmaciones": [
+      "A-008",
+      "A-010"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-008",
+    "A-010"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo de la versión escolar y periodística común: el nombre 'Haïti' (retomado de 'le nom indien du sol') es homenaje a los taínos; no cita a ningún cronista ni a Madiou. Error de detalle: dice que la colonización 'española y francesa' bautizó 'Saint-Domingue' (el nombre español es 'Santo Domingo'/'La Española'). Útil solo como indicio de la difusión de la tesis en la prensa de izquierda."
+  },
+  {
+   "titulo": "5-6 décembre / Débarquement des conquérants européens sur l'île des Taïnos « Hayiti, Quisqueya ou Bohio » (Le National, 6-XII-2024), titular y sumario",
+   "autor": "Le National (redacción)",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenational.org/post_article.php?soc=1558",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Solo titular y una frase de sumario visibles (muro de pago); sirve de indicio de uso, no de evidencia.",
+   "proveniencia": "Diario Le National (Port-au-Prince); la nota anuncia que las organizaciones Mouvement Point Final, Medic Haïti y ATPO marcarán 'les grandes dates de l'histoire coloniale d'Haïti' dentro de su exposición itinerante sobre la 'dette de l'indépendance'.",
+   "extractos": [
+    {
+     "ubicacion": "titular",
+     "cita_original": "Débarquement des conquérants européens sur l'ile des Taïnos «Hayiti , Quisqueya ou Bohio»",
+     "traduccion": "Desembarco de los conquistadores europeos en la isla de los taínos 'Hayiti, Quisqueya o Bohío'.",
+     "afirmaciones": [
+      "A-002",
+      "A-003"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-002",
+    "A-003"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Indicio de que el tríptico 'Hayiti-Quisqueya-Bohio' sigue en circulación en la prensa haitiana de 2024 (con la grafía 'Hayiti'). No leí el cuerpo."
+  },
+  {
+   "titulo": "Fuente no resuelta: 'The Naming of Haiti' (New West Indian Guide 71, 1-2, 1997, pp. 43-68; reed. en Haitian Revolutionary Studies, Indiana UP, 2002, pp. 207-210)",
+   "autor": "Geggus, David",
+   "anio": "1997 (NWIG); 2002 (cap.)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://brill.com/view/journals/nwig/71/1-2/article-p43_3.xml?lang=en",
+   "urls_alternativas": [
+    "https://www.jstor.org/stable/41849817"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403 (curl y WebFetch contra brill.com; CloudFront)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico de referencia sobre la elección del nombre Haití (revista con arbitraje); no leído en esta ronda.",
+   "proveniencia": "David Geggus, historiador británico-estadounidense (Univ. de Florida), escribe en NWIG (1997) un análisis de por qué el nuevo Estado de 1804 adoptó 'Haïti', con hipótesis taína, africana y de élites mulatas; lo cita Watson Denis (2024) como 'Geggus, Haitian Revolutionary Studies, 2002, pp. 207-210'.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-006",
+    "A-008",
+    "A-010"
+   ],
+   "modulos": [
+    "M00",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "NO LEÍDO. El buscador describe su resumen como un análisis de 'whether the name reflects Taino heritage, African influence, or elite mixed-race perspectives'; es resumen del buscador, no texto verificado [POR VERIFICAR]. Debe leerlo el buscador de la lente internacional (F-0183 ya registra 'Haitian Revolutionary Studies (2002)'). Se devuelve para dejar constancia de que Brill responde 403."
+  },
+  {
+   "titulo": "Fuente no resuelta: Le Barbare imaginaire (Hurbon): ficha de autoridad BnF",
+   "autor": "Hurbon, Laënnec",
+   "anio": "1987 (Port-au-Prince, Deschamps) / 1988 (París) [POR VERIFICAR]",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb119080610",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se confirmó la existencia de la obra por la ficha de autoridad del autor en el catálogo de la BnF; no se leyó el libro.",
+   "proveniencia": "Laënnec Hurbon, sociólogo haitiano, 'Le Barbare imaginaire' (la BnF lo cita con fecha 1988 en la ficha de autoridad); estudia la 'barbarisation' del negro y del indio por Occidente y la reacción de los intelectuales haitianos del siglo XIX.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00"
+   ],
+   "id_existente": "F-0117",
+   "notas": "NO LEÍDO. La ficha de la BnF muestra 'Le Barbare imaginaire / Laënnec Hurbon, 1988' como fuente de la autoridad; el registro del proyecto decía 1987 (Éditions Henri Deschamps). Para la tesis, la obra homóloga 'Comprendre Haïti' (1987) está en acceso libre y se leyó (ficha aparte). La reseña de Acta fabula de Cosker sobre Lahens cita la obra como saliente pero no la discute."
+  },
+  {
+   "titulo": "Fuente no resuelta: Beauvoir-Dominique, Rachel, programas de Radio Haïti 'Entre Nous' (Duke Digital Repository)",
+   "autor": "Beauvoir-Dominique, Rachel (con Didier Dominique)",
+   "anio": "s.f.",
+   "tipo": "primaria",
+   "idioma": "ht",
+   "tradicion": "haitiana",
+   "url": "https://repository.duke.edu/dc/radiohaiti/RL10059-CS-1389_01",
+   "urls_alternativas": [
+    "https://repository.duke.edu/dc/radiohaiti/RL10059-CS-1228_02"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "200 (pantalla de verificación Anubis; sin contenido)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Registro de archivo sonoro (Radio Haïti-Inter) no abierto: Duke devuelve el desafío Anubis ('Making sure you're not a bot!').",
+   "proveniencia": "Rachel Beauvoir-Dominique (1965-2018), antropóloga y mambo; los dos enlaces del registro corresponden, por el título de la búsqueda, a 'Entre Nous: Exposition des objets de culte Vodou à St. Domingue (1)' y a 'Entre Nous: « Savalou E » Rachel Beauvoir, Didier Dominique (2)' (programas de Radio Haïti-Inter); no hay confirmación de que traten de los taínos.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-016",
+    "A-017"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M16"
+   ],
+   "id_existente": "F-0118",
+   "notas": "NO SE LEYÓ (segundo intento; el primero fue de la ronda 2 de M16). No encontré un texto impreso de Beauvoir-Dominique sobre los taínos en el vodou. Pendiente: buscar su artículo en una revista indexada o su libro con Didier Dominique."
+  }
+ ]
+}

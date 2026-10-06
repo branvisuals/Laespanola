@@ -1,0 +1,1256 @@
+{
+ "lente": "cientifica",
+ "modulo": "M09",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 14,
+ "busquedas_pendientes": [
+  "Rosario Sevilla Soler (o Cassá) censo de 1782-83 de la parte española (60.962 según un resumen de búsqueda, no verificado): texto original",
+  "Madiou, Histoire d'Haïti t. VIII (1843-1846): efectivos de Hérard y partes haitianos de Azua y Santiago",
+  "Rodríguez Demorizi, Guerra domínico-haitiana (1944): lectura por imagen de docs. 7-64, 75-77, 93, 106-113, 130-131, 134-154 (cifras de fuerzas 1844-45, Beler, estado de las fronteras 1851-54)",
+  "Ardouin, Études sur l'histoire d'Haïti t. XI: efectivos de Hérard y Pierrot",
+  "Moya Pons, «Datos sobre la economía dominicana durante la Primera República» y Breve historia monetaria",
+  "Haïti: población 1844-1861 y exportaciones de café (Lundahl, Bulmer-Thomas, Moral) en fuente de época",
+  "Schomburgk, despacho al Foreign Office con estimación de población de 1856-57 (The National Archives, FO 23)",
+  "Hedges et al. 2018 sobre cobertura forestal de La Española en el siglo XIX; Global Forest Watch; Diamond y críticos",
+  "Epidemiología: viruela de 1843 en Santo Domingo y cólera de 1868 (series de mortalidad)",
+  "slavevoyages.org, ONE, ENI-2012/2017, LAPOP, Latinobarómetro: no aplican a este módulo; no se buscaron"
+ ],
+ "lagunas": [
+  "No existe censo ni padrón nacional de 1844-1861: la memoria de Gautier (1871) lo dice expresamente («nunca ha podido levantar un censo fiable»), Abad (1888) también, y la Constitución de 1844 encargó el censo a las Diputaciones provinciales sin que conste resultado. Todas las cifras son estimaciones retrospectivas: 125.000 (Moreau 1789, vía Abad/Gautier), 63.000 (censo de 1819, sin documento primario localizado), 125.000-126.000 para 1844 (proyección de Abad, no dato), 100.000 (Schomburgk 1856-57 vía Coen 1871), 200.000-250.000 (Bonó, ya registrado), ≤200.000 (González Tablas 1870), 207.700 (Curia 1863), 280.000 (Gándara, 1861), 282.000 (Estado Mayor español, 27-III-1865), 150.000 (Serrano 1865) y 100.000-200.000 (varios testigos de 1871). Rango global para 1844-1861: ≈100.000-282.000 sin base común ni intervalo; se queda en D.",
+  "No se localizó en línea el Diario de una misión secreta a Santo Domingo (Porter, 1846; Bibliófilos, 1978): solo cifras parroquiales sueltas vía 20 columnas de Acento (La Vega, Moca, Macorís, Cotuí, Puerto Plata); falta el total nacional de Porter y su composición por razas. El catálogo Koha de la BNPHU devuelve 403.",
+  "No se localizó Marte, Estadísticas y documentos históricos sobre Santo Domingo (1805-1890) (ni en archive.org ni en la web abierta; 3 búsquedas); Hoetink, The Dominican People 1850-1900 está en archive.org como libro restringido (403 para el texto); Cassá t. II, Boin-Serulle y Moya Pons (Datos sobre la economía...) siguen sin acceso.",
+  "Presupuestos: la Colección de Leyes oficial solo está en el repositorio del Senado para 1844-47, 1848-54 y 1860-66; faltan las leyes de gastos de 1850, 1851 y 1855-1860 (el tomo 1855-59 no apareció en archive.org ni en el repositorio). Los presupuestos son autorizaciones, no gasto ejecutado; la Cámara de Cuentas no tiene informes localizados.",
+  "Efectivos militares: ningún parte dominicano leído (Las Carreras 1849, Santomé 1855, Sabana Larga 1856) da efectivos; los 28.000 de Gándara (doc. IV) son capacidad reglamentaria (OCR del encabezado ilegible) y los 8.000-10.000 de Gautier (1871) son memoria sin documento; el presupuesto paga raciones para 2.000-2.500 hombres. Los efectivos de Hérard (1844) y Soulouque (1849, 1855-56) no tienen origen trazable (Madiou t. VIII y Ardouin t. XI no leídos en esta ronda; partes haitianos no localizados). Del volumen de Rodríguez Demorizi (1944) quedan sin leer los docs. 7-64 (1844-45), 75-77, 93, 106-113, 130-131, 134-154 por imagen.",
+  "Genética, arqueología, ecología, epidemiología (viruela 1843, cólera), lingüística, slavevoyages, ONE/ENI y encuestas LAPOP/Latinobarómetro: sin aportación a M09. F-0203 (Schurr 2026) y F-0212 (Simms 2010) siguen sin texto completo (403) y sin relación con las afirmaciones del módulo.",
+  "Series económicas dominicanas (exportaciones de tabaco y caoba, cuentas de aduana 1844-1861), series haitianas de exportación (café, Soulouque), población de Haití 1844-1861 y la composición racial de 1844 con base de época siguen sin fuente primaria localizada; el peso del tipo de cambio (10 por 1 en 1848, 20 en 1850, 40 en 1851, 50 en 1854, 250 en 1861) impide comparar cifras nominales sin conversión."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Yugo haitiano",
+   "tradicion": "dominicana / británica de época",
+   "nota": "Schomburgk (1853, «the yoke insupportable») y la memoria dominicana de 1871 («casting off of the Haytian yoke») usan la metáfora del yugo para el periodo de gobierno haitiano de toda la isla; la tradición haitiana habla de «unification». Registrar junto a la entrada del periodo 1822-1844."
+  },
+  {
+   "termino": "Anexión / reincorporación a la Monarquía (1861)",
+   "tradicion": "dominicana (anexión) / española oficial (reincorporación) / de partes (pronunciamiento)",
+   "nota": "El Real Decreto de 19-V-1861 «reincorpora» el territorio (texto citado por Gándara, doc. VI); la historiografía dominicana dice «Anexión a España»; Gándara y González Tablas llaman «la última guerra de España en Santo Domingo» a lo que los dominicanos llaman Guerra de la Restauración; los dominicanos combatientes son «rebeldes», «insurrectos» y «cabecillas» en la pluma española. Entra en M10."
+  },
+  {
+   "termino": "Moneda nacional / moneda fuerte (papel moneda dominicano)",
+   "tradicion": "oficial-rd",
+   "nota": "Término técnico de las leyes de 1844-1861: «moneda fuerte» = plata u oro; «moneda nacional» = papel emitido por decreto, con tasas legales de 10 por 1 (1848), 20 (1850), 40 (1851), 50 (1854) y 250 (1861; mercado 300). No es término cargado pero toda cifra monetaria exige indicar cuál."
+  },
+  {
+   "termino": "General Libertador (título de Santana)",
+   "tradicion": "oficial-rd",
+   "nota": "Título conferido a Pedro Santana por decreto del Congreso de 18-VII-1849 (Demorizi 1944, doc. 94) y usado en las leyes de gastos; la crítica (De la Cruz, Castro Ventura) lo discute. Distinguir título oficial de juicio histórico."
+  },
+  {
+   "termino": "Dominica / República impropiamente denominada de Haytí",
+   "tradicion": "internacional (inglés de EE.UU., 1871) / dominicana (Ángulo Guridi, 1866)",
+   "nota": "«Dominica» para la parte oriental en el informe de 1871; Ángulo Guridi llama «República impropiamente denominada de Haytí» a la parte occidental (1866): nombran el territorio con marcas políticas."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "The Peninsula and Bay of Samaná, in the Dominican Republic (comunicado por el Foreign Office; leído el 13-VI-1853)",
+   "autor": "Schomburgk, Robert Hermann",
+   "anio": "1853",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/jstor-1797968",
+   "urls_alternativas": [
+    "https://archive.org/download/jstor-1797968/1797968_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Observador directo y cónsul británico (1849-1857) con interés estratégico en Samaná, pero las cifras de población son locales (una península) y sin método explícito.",
+   "proveniencia": "Robert H. Schomburgk (1804-1865), cónsul británico en la República Dominicana desde 1849 (hasta 1857 según la literatura secundaria), escribió esta memoria geográfica «comunicada por el Foreign Office» y leída en la Royal Geographical Society el 13 de junio de 1853 (Journal of the RGS, vol. 23 según la cabecera del OCR; pp. 264-283 según las cabeceras de página). Describe la península y bahía de Samaná con una intención estratégica (la «llave» del Golfo de México) en el momento en que Gran Bretaña, Francia y EE.UU. disputaban el control de la bahía. Sabe de primera mano el estado de Samaná (la visitó) y recibe datos de las autoridades locales; la historia de 1844 la cuenta de oído.",
+   "extractos": [
+    {
+     "ubicacion": "p. 281 (cabecera «281» en el OCR; sección «Population, &c.»); l. 1010 de jstor-1797968 (1797968_djvu.txt)",
+     "cita_original": "In 1851 the population of Samana was 1721, of whom about 300 were Americans and their descendants.",
+     "traduccion": "En 1851 la población de Samaná era de 1.721 personas, de las cuales unas 300 eran estadounidenses y sus descendientes.",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 282; l. 1063 de jstor-1797968 (1797968_djvu.txt)",
+     "cita_original": "The population, consisting only of 1721 individuals, has to furnish a garrison of 220 men.",
+     "traduccion": "La población, de solo 1.721 individuos, tiene que dar una guarnición de 220 hombres. [Contexto: 220/1.721 = 12,8 % de la población local; Santa Bárbara es además «colonia penal» de la república, según el mismo párrafo.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 280; l. 987 de jstor-1797968 (1797968_djvu.txt) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "In 1824, another element was added to this mixed population in some coloured free people, who emigrated from the United States when Boyer was President of the Haytian Republic, and settled at Samana and other places.",
+     "traduccion": "En 1824 se añadió a esta población mixta un nuevo elemento: personas de color libres que emigraron de EE.UU. cuando Boyer era presidente de la República haitiana y se establecieron en Samaná y otros lugares. [Contexto: migración afroamericana del periodo de gobierno haitiano de toda la isla; el texto añade que, al proclamarse la independencia dominicana, «un gran número» abandonó la península (p. 280-281, corte de página en «penin-/sula»).]",
+     "afirmaciones": [
+      "A-129",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "p. 269; l. 350 de jstor-1797968 (1797968_djvu.txt) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "The eastern part of Santo Domingo continued under the Haytian Government for 22 years, until the Dominicans, finding the yoke insupportable, rose in the metropolis on the 27th of February, 1844, overcame the Haytian garrison, and declared their independence, under the name of the Dominican Republic, with the motto of \"God, our Country and Liberty.\"",
+     "traduccion": "La parte oriental de Santo Domingo siguió bajo el gobierno haitiano durante 22 años, hasta que los dominicanos, hallando el yugo insoportable, se alzaron en la metrópoli el 27 de febrero de 1844, vencieron a la guarnición haitiana y declararon su independencia con el nombre de República Dominicana, con el lema «Dios, Patria y Libertad». [Término cargado: «the yoke insupportable» (yugo haitiano); un observador británico de 1853 usa «independence» y no «separation».]",
+     "afirmaciones": [
+      "A-117",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "p. 269; l. 360 de jstor-1797968 (1797968_djvu.txt)",
+     "cita_original": "although the Emperor of Hayti, Faustin I., better known under the name of Soulouque, has not yet recognised the Republic, there exists every hope that, through the mediation of powerful nations, he will soon be induced to do so.",
+     "traduccion": "aunque el emperador de Haití, Faustino I, más conocido como Soulouque, aún no ha reconocido la República, hay toda esperanza de que, por la mediación de potencias poderosas, pronto se le induzca a hacerlo.",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "p. 269; l. 357 de jstor-1797968 (1797968_djvu.txt)",
+     "cita_original": "Great Britain was the first Power to acknowledge the Dominicans as a free and independent nation, and entered in 1850 into a formal treaty with them.",
+     "traduccion": "Gran Bretaña fue la primera potencia en reconocer a los dominicanos como nación libre e independiente y firmó con ellos en 1850 un tratado formal. [Nota: el propio Schomburgk fue el agente de ese reconocimiento; afirmación de parte.]",
+     "afirmaciones": [
+      "A-127",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-119",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-130",
+    "A-131",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS: Samaná, 1851: 1.721 habitantes (≈300 estadounidenses y descendientes) y guarnición de 220 hombres; autor Schomburgk, base: datos locales no especificados [POR VERIFICAR: si proceden de un padrón de las autoridades de Samaná]. Es una cifra regional, no nacional; no da total de la república ni composición racial del país. Solo sirve para dimensionar el peso relativo de una guarnición en un punto estratégico y para la composición de Samaná (canarios, refugiados franceses de Haití, criollos haitianos, españoles de Santo Domingo y afroamericanos llegados en 1824). SESGO: cónsul británico con interés en que la bahía no pasase a EE.UU. ni a Francia; la historia política que narra (pp. 266-269) es resumen de oído. No confundir con M09-N96 (Schomburgk, «Ethnological Researches», 1851/1854, ya registrado) ni con M09-N60 (Cordero Michel sobre Schomburgk y Samaná). Los informes estadísticos del cónsul sobre el Cibao (1851), publicados en «Asuntos dominicanos en archivos ingleses» (Vega y Cordero Michel, eds., 1993), siguen sin acceso. Término a registrar: «yugo haitiano» (yoke) en una fuente británica de 1853."
+  },
+  {
+   "titulo": "Anexión y guerra de Santo Domingo, t. II (con Apéndice de documentos; Documentos III y IV: estado de población y de fuerzas de la república, 1865)",
+   "autor": "Gándara y Navarro, José de la",
+   "anio": "1884",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/details/anexionyguerrad00balbgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/anexionyguerrad00balbgoog/anexionyguerrad00balbgoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de parte (último capitán general español de Santo Domingo, que defiende su gestión), pero reproduce en apéndice un estado oficial fechado y firmado del Estado Mayor; el OCR de Google desordena las tablas.",
+   "proveniencia": "José de la Gándara y Navarro (1820-1885), general español, capitán general de Santo Domingo durante la guerra de 1863-1865, publicó en Madrid (1884) esta historia de la anexión y de la guerra, escrita para justificar su campaña frente a las críticas del Senado (Serrano, duque de la Torre) y de la prensa. El tomo II acaba con un apéndice de documentos; los Documentos III y IV (citados en las pp. 505-506) son un cuadro de población firmado por el coronel Francisco Sánchez, jefe interino del Estado Mayor de la Capitanía General (Santo Domingo, 27-III-1865) y un cuadro de fuerzas «organizadas según los reglamentos de la antigua República». Sabe de primera mano la administración y los datos que reunió la Capitanía General en 1861-1865; no vivió la Primera República desde dentro.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, p. 505; l. 22294 de anexionyguerrad00balbgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "La población de Santo Domingo era, próximamente, de trescientas mil almas. Un estado que contiene los datos más exactos que han podido adquirirse sobre el número de habitantes de la parte española de esa Isla, que inserto en el Apéndice, lo fija en doscientos ochenta y dos mil.",
+     "traduccion": "[Contexto: Gándara argumenta que 30.000 «rebeldes» en 1863-65 no es cifra exagerada; la población que da (≈300.000; 282.000 en el estado del Apéndice) es la de 1863-1865 y está inflada por interés de parte. Su propia frase siguiente dice que en 1861 la población era «esta misma o menos».]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 505 (remite al Documento IV del Apéndice); l. 22299 de anexionyguerrad00balbgoog_djvu.txt",
+     "cita_original": "con esta misma población ó con menos, porque está demostrado que el bienestar relativo de los primeros años de la anexión produjo aumento en ella, las fuerzas organizadas de la antigua República, según los reglamentos vigentes en la misma, ascendían á muy cerca de veintiocho mil hombres",
+     "traduccion": "[Contexto: cifra de la fuerza que la antigua República podía poner en pie «según los reglamentos» (movilización legal de varones, incluida la guardia cívica), no tropas efectivas; el presupuesto de la misma República pagaba en 1849-1861 raciones para 2.000-2.500 hombres: véase la entrada de la Colección de Leyes. Cifra D hasta ver el Documento IV completo.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Apéndice, Documento III (cuadro desplegable, pp. 630-631 según las cabeceras del OCR; aparece dos veces en el OCR, l. 27700-27880 y l. 28290-28435); l. 27714 de anexionyguerrad00balbgoog_djvu.txt [la cita une el título del OCR, la firma y el total que figuran en l. 27714-27715, 28433-28435 y 28430] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Estado que contiene los datos más exactos que han podido adquirirse sobre el número de habitantes de la parte española de Sto. Domingo. [Santo Domingo, 27 de marzo de 1865. El coronel jefe interino de E. M. G., Francisco Sánchez.] Total general: 282.000",
+     "traduccion": "[Lectura de la tabla por sus totales (OCR: columnas descolocadas): Santo Domingo 69.000; Azua 32.000; Seybo 44.000; La Vega 71.000; Santiago 66.000; total 282.000. Los cinco totales suman 282.000; el desglose por pueblos solo es legible en parte (p. ej. Santo Domingo y San Carlos 25.000; San Cristóbal 14.000; Baní 8.000; Azua 10.000; Neyba 10.000; Santiago 30.000; Puerto Plata y Altamira 12.000). Es una estimación militar española (no un censo) y duplica casi las cifras de la Curia eclesiástica de 1863 (207.700).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Apéndice, Documento III, nota (a); l. 27876 de anexionyguerrad00balbgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "El duque de la Torre, en su discurso de 20 de Enero de 1865 en el Senado, incurre en el error de asegurar que la población de Santo Domingo no pasaba de 150.000 habitantes, entre mujeres, niños, viejos é inútiles.",
+     "traduccion": "[Contexto: Serrano (duque de la Torre) usó 150.000 en el Senado; Gándara responde con 282.000. La divergencia entre dos autoridades españolas (150.000 vs. 282.000) en enero-marzo de 1865 muestra que no existía una cifra de base común.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 515; l. 22753 de anexionyguerrad00balbgoog_djvu.txt",
+     "cita_original": "el Sr. General Serrano atribuía á Santo Domingo una población de ciento cincuenta mil almas, estando demostrado que llegaba á doscientas ochenta y dos mil",
+     "traduccion": "[Contexto: réplica de Gándara a las críticas del Senado; la cifra de 282.000 se presenta como «demostrada» sin método más allá del estado de la Capitanía.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Apéndice, Documento IV (cuadro desplegable, p. 631 según la cabecera del OCR; l. 27895-27908 y 28455-28470); remitido desde la p. 505-506; l. 27884 de anexionyguerrad00balbgoog_djvu.txt [corresponde a l. 27895-27908; la cita ya incluye la lectura aritmética] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "TOTAL GENERAL ... 6.380 · 5.2Ó0 · 3-710 · 6.870 · 5>630 · 27.850 (OCR literal; se lee 6.380 + 5.260 + 3.710 + 6.870 + 5.630 = 27.850)",
+     "traduccion": "[Contexto: el encabezado del Documento IV no es legible en el OCR; la lectura como «fuerzas organizadas de la antigua República según los reglamentos» se apoya en el texto de la p. 505 (nota 2) y en que los cinco valores suman exactamente 27.850 ≈ «muy cerca de veintiocho mil». Reparto por provincias no asignable con seguridad [POR VERIFICAR con imagen del tomo].]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS DE POBLACIÓN (autor, año, base): 282.000 (Estado Mayor de la Capitanía General española, 27-III-1865, «datos más exactos que han podido adquirirse», sin método; provincias: Santo Domingo 69.000, Azua 32.000, Seybo 44.000, La Vega 71.000, Santiago 66.000; el Cibao = 137.000, 48,6 %); ≈300.000 (Gándara, redondeo); 150.000 (Serrano en el Senado, 20-I-1865, sin base); Gándara dice que en 1861 la población era «esta misma o menos». Comparada con la Curia de 1863 (207.700; Abad 1888 y Gautier 1871) el estado español es un 36 % mayor; por provincia: Santo Domingo +67 %, Seybo (con Samaná) +39 %, La Vega +33 %, Santiago (con Puerto Plata) +46 %, Azua −11 %. Samaná: 4.000 (Estado Mayor 1865), 2.100 (Curia 1863) y 1.721 (Schomburgk 1851, Samaná/península): tres cifras en 14 años sin método común. CIFRA DE FUERZAS: 27.850 (Documento IV, lectura de OCR) = 9,9 % de 282.000; es una fuerza nominal por reglamento. SESGO: Gándara defiende su gestión: inflar población y rebeldes (30.000) justifica la dificultad de la campaña; el estado español de 1865 sirve a la tesis de que la guerra era contra «todo el país». Hecho: el documento existe y trae 282.000; interpretación: tomarla como población de 1844-1861 no está justificado; significado: argumento político en el debate del Senado de 1865. Las dos copias del cuadro en el OCR tienen distinta lectura de dígitos; las sumas verifican la lectura de totales. No se leyó la imagen del tomo."
+  },
+  {
+   "titulo": "Anexión y guerra de Santo Domingo, t. I (cap. sobre el estado de la república en 1861 y los pronunciamientos anexionistas); equivale a M09-N80",
+   "autor": "Gándara y Navarro, José de la",
+   "anio": "1884",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/details/anexionyguerrad01balbgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/anexionyguerrad01balbgoog/anexionyguerrad01balbgoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Misma obra y mismo sesgo que el tomo II; el OCR de Google de este tomo pierde las primeras letras de cada línea en varias páginas.",
+   "proveniencia": "Tomo I de la misma obra (Madrid, 1884): antecedentes de la anexión, el pronunciamiento de 1861 y la situación de la república. Escrito por quien gobernó la isla en 1863-65 y que defiende la tesis de que la anexión fue pedida por una minoría. La cifra de 280.000 habitantes es la que usa para calcular la proporción de firmantes anexionistas.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 167; l. 7880 de anexionyguerrad01balbgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "En junto las firmas reunidas no ascienden á más de 4.000. [...] no son muchos 4.000 votos para una población de 280.000 habitantes, que es el número que la parte española de la isla contaba al verificarse la anexión",
+     "traduccion": "[Contexto: 280.000 es la cifra de 1861 que da un oficial español en 1884; no cita su fuente. Interna inconsistencia: dice que 4.000 es «1,40 por ciento» (4.000/280.000 = 1,43 %) y unas líneas más abajo «la vigésima quinta parte» (4 %).]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, ≈p. 69 (el OCR corta el comienzo de la línea: «La 1 no llegaba…»; la cabecera más cercana legible es p. 65); l. 3489 de anexionyguerrad01balbgoog_djvu.txt [línea clipada: sujeto «La [población]» reconstruido por el contexto]",
+     "cita_original": "no llegaba ni con mucho á 300.000 almas",
+     "traduccion": "[Contexto: cap. sobre la decadencia de la república dominicana antes de la anexión; en el texto precedente se habla de «la población» de la república; el sujeto está cortado en el OCR.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 201; l. 9412 de anexionyguerrad01balbgoog_djvu.txt",
+     "cita_original": "Moca era una población de 20.000 almas, de la provincia de la Vega, situada, por lo tanto, en el corazón del país.",
+     "traduccion": "[Contexto: Gándara da Moca 20.000 (¿común?), Neyba 10.000 y Las Matas 2.000 en 1861 (p. 202); el Apéndice de 1865 (tomo II) da Neyba 10.000 y Las Matas 2.000 (coinciden) pero las cifras por pueblo de la provincia de La Vega no son legibles en el OCR. Son estimaciones de oficio, no padrones.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Re-lectura del tomo I (el registro provisional M09-N80 solo había leído dos líneas clipadas: «282.000 habitantes en 1863 según datos auténticos» en la p. 35, l. 2395-2399 de esta misma copia, y «no llegaba ni con mucho á 300.000 almas»). Aporta una cifra explícita de 1861 (280.000, p. 167). Ninguna de las cifras de Gándara tiene tabla ni método en el tomo I. La tabla completa por provincias y pueblos está en el Documento III del tomo II (entrada anterior); el desglose por pueblos del OCR es solo parcialmente legible. Cifra 280.000 (Gándara, 1884; base: no declarada) = D hasta ver el estado de la Capitanía; se contrasta con 207.700 (Curia, 1863) y 250.000 (El Dinero 2018, sin fuente, ya registrado)."
+  },
+  {
+   "titulo": "Dominican Republic. Report of the Commission of Inquiry to Santo Domingo, with the introductory message of the President of the United States (Washington, Government Printing Office, 1871): informe, memoria del Ministro Gautier (arts. II, VII y X) y declaraciones",
+   "autor": "United States. Commission of Inquiry to Santo Domingo (Wade, White, Howe); documentos del gobierno dominicano firmados por M. M. Gautier, ministro del Interior (20-II-1871); declaraciones de testigos (David Coen, William M. Gabb, general A. N. Rigaud, Ayuntamiento de Santo Domingo)",
+   "anio": "1871",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/cu31924021083344",
+   "urls_alternativas": [
+    "https://archive.org/download/cu31924021083344/cu31924021083344_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial con documentos y testigos fechados, pero retrospectivo (1871), redactado en el contexto de la campaña de anexión a EE.UU. y con memorandos del gobierno de Báez que defienden una tesis.",
+   "proveniencia": "Informe de la comisión enviada por el presidente Grant en enero-marzo de 1871 para investigar la viabilidad y la voluntad popular de una anexión de Santo Domingo a EE.UU. (Benjamin F. Wade, Andrew D. White, Samuel G. Howe). Incluye, en el apéndice, documentos que le entregó el gobierno de Báez por mano de su ministro Gautier (20-II-1871): notas sobre la historia reciente, memorándum político (con el ejército), estado de población, deuda, ingresos, y declaraciones recogidas en Santo Domingo, Baní, Azua, Puerto Plata y otros sitios. Interés: informar a una decisión de anexión; los dominicanos que declaran quieren la anexión y tienden a mostrar un país débil y escaso de gente. Sabe de primera mano el estado de 1871; todo lo que dice de 1844-1861 es retrospectivo.",
+   "extractos": [
+    {
+     "ubicacion": "Informe de la Comisión, cap. «Population», p. 14; l. 1424 de cu31924021083344_djvu.txt",
+     "cita_original": "The data furnished by the authorities as to population are very meager and unsatisfactory.",
+     "traduccion": "Los datos suministrados por las autoridades sobre población son muy escasos e insatisfactorios.",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Informe de la Comisión, pp. 14-15 (el corte de página separa «ecclesiastical» y «court»); l. 1433 de cu31924021083344_djvu.txt [la cita completa une l. 1424-1437; se verifica la parte final] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "An estimate was recently made \"by the ecclesiastical court, counting by parishes,\" which gave a total of 207,000. There are evident signs of error in this estimate. For instance, the capital was set down at 10,000, while it is obvious to the careful observer who counts streets and houses, that there cannot be over 6,000, if so many.",
+     "traduccion": "Hace poco se hizo una estimación «por el tribunal eclesiástico, contando por parroquias», que dio un total de 207.000. Hay señales evidentes de error: la capital figura con 10.000 cuando quien cuenta calles y casas ve que no pasa de 6.000. [Contexto: es la cuenta de la Curia de 1863 que reproducen Abad (1888) y Gautier (1871).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Informe de la Comisión, p. 15; l. 1436 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Again, Azua is estimated at 10,000, while an actual count, made a few years ago, showed that it contained only 7,750.",
+     "traduccion": "Azua figura con 10.000 cuando un recuento efectivo hecho hace pocos años dio solo 7.750.",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Informe de la Comisión, p. 15; l. 1450 de cu31924021083344_djvu.txt",
+     "cita_original": "the commissioners estimate that the actual population of the republic does not exceed 150,000.",
+     "traduccion": "los comisionados estiman que la población real de la república no excede de 150.000. [Base: comparación de la cuenta eclesiástica con «hechos conocidos» y testimonios; no es un censo. Cifra de 1871, no de 1844-1861.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Informe de la Comisión, p. 15; l. 1461 de cu31924021083344_djvu.txt",
+     "cita_original": "White blood preponderates largely in Dominica, but pure whites, in the popular sense of the word, are not numerous. The majority are of a mixed race much nearer white than black.",
+     "traduccion": "La sangre blanca predomina en gran medida en «Dominica», pero los blancos puros, en el sentido popular, no son numerosos; la mayoría es de raza mixta mucho más cercana a la blanca que a la negra. [Contexto: percepción racial de comisionados estadounidenses en 1871, sin método antropométrico; sirve para la discusión de A-129/A-130 solo como contexto tardío.]",
+     "afirmaciones": [
+      "A-129",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. X «Population» (Gautier, Santo Domingo, 20-II-1871), p. 180 [cabecera ilegible en OCR; págs. 180-182]; l. 15754 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "The Dominican Republic has never been able to take a reliable census of its population, and all the estimates made have been based on the census taken in 1819.",
+     "traduccion": "La República Dominicana nunca ha podido levantar un censo fiable de su población, y todas las estimaciones se han basado en el censo de 1819. [Hecho declarado por un ministro de 1871: no hubo censo nacional en 1844-1861; la base de todo es 1819.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. X, p. 180; l. 15756 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "According to the work of Moreau de St. Mery, on the Spanish part of the island of Santo Domingo, the population in 1789 amounted to 125,000 souls; but it is believed that this estimate was incorrect, for the census of 1819 fixed it at only 63,000.",
+     "traduccion": "Según la obra de Moreau de St. Méry sobre la parte española, la población de 1789 era de 125.000 almas; pero se cree que esa estimación era incorrecta, pues el censo de 1819 la fijó en solo 63.000. [Dos datos de base: 125.000 (Moreau, 1789; estimación) y 63.000 (censo de 1819; único recuento citado, sin documento primario localizado).]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. X, p. 180-181; l. 15759 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Starting with this datum, and supposing that the population doubled in twenty-five years, it would give at the end of fifty years 252,000 souls, which is the figure most generally accepted. But wars and the emigration of many families at the times when the Spaniards abandoned the island must have greatly reduced the population.",
+     "traduccion": "Partiendo de este dato y suponiendo que la población se duplicara cada veinticinco años, daría 252.000 al cabo de cincuenta años, que es la cifra más aceptada. Pero las guerras y la emigración de muchas familias cuando los españoles abandonaron la isla debieron de reducir mucho la población. [Hecho: 252.000 es una proyección (1819 + 50 años ≈ 1869), no un recuento.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. X, p. 181 (tabla por provincias y comunes en pp. 181-182); l. 15768 de cu31924021083344_djvu.txt [la cita completa incluye el comienzo de la frase en l. 15766-15767]",
+     "cita_original": "The most reliable recent source of information on this subject is the basis adopted by the ecclesiastical court in the arrangement of parishes, which gives a population of only 207,000 souls",
+     "traduccion": "La fuente reciente más fiable es la base adoptada por la corte eclesiástica para el arreglo de parroquias, que da una población de solo 207.000 almas. [Tabla (OCR): Santo Domingo 41.400; Azua 36.000; Seybo 29.600; distrito de Samaná 2.100; Vega 53.300; Santiago 35.800; distrito de Puerto Plata 9.500; total 207.000 (la suma es 207.700).]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. X, p. 182; l. 16159 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "According to this estimate the provinces of the south, including the district of Samana, contain 109,100 souls, and those of Cibao 98,000; but this is probably incorrect [...] the provinces of the Cibao are evidently more populous than those of the southern side of the island.",
+     "traduccion": "Según esta estimación las provincias del sur, con el distrito de Samaná, contienen 109.100 almas y las del Cibao 98.000; pero esto es probablemente incorrecto, pues por su producción y consumo y por el número de hombres que puede poner en el campo el Cibao es evidentemente más poblado que el sur.",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. VII «Memorandum on the political condition of the Dominican Republic» (Gautier, 20-II-1871), «The Army», pp. 167-168; l. 14609 de cu31924021083344_djvu.txt [la cita completa une l. 14609-14624 (corte de página en 14617-14623)] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "The republic had, during the first years of its existence, a regular army, numerous in proportion to its population and resources. Two regiments of one thousand soldiers, more or less, each; an artillery brigade of five hundred; [...] and a squadron of cavalry amounting to about two hundred and fifty horsemen, formed the standing garrison of this capital",
+     "traduccion": "La república tuvo, durante los primeros años de su existencia, un ejército regular numeroso en proporción a su población y recursos. Dos regimientos de unos mil soldados cada uno; una brigada de artillería de quinientos; un cuerpo de trescientos obreros de astillero y un escuadrón de caballería de unos 250 jinetes formaban la guarnición permanente de la capital. [Memoria retrospectiva sin documento; suma de la guarnición capitalina ≈ 3.050 hombres.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. VII, p. 168; l. 14628 de cu31924021083344_djvu.txt",
+     "cita_original": "The rest of the republic had its local garrisons organized in a manner analogous to that of the capital, so that the regular standing army reached eight or ten thousand men.",
+     "traduccion": "El resto de la república tenía guarniciones locales organizadas de manera análoga a la de la capital, de modo que el ejército permanente regular llegaba a ocho o diez mil hombres. [Hecho declarado por parte interesada en 1871; contradice los presupuestos de 1849-1861 (raciones para 2.000-2.500 hombres) y la ley de conscripción de 1853, art. 11 («el ejército actual no fue organizado con arreglo a ninguna forma de ley»). Cifra D hasta tracear.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. II «Notes concerning the recent history of Santo Domingo» (Gautier, entregadas a la Comisión), pp. 147-148; l. 13146 de cu31924021083344_djvu.txt",
+     "cita_original": "Santana, impelled by the situation, struggled against the Haytians; but without influence, without resources, he threw himself into the arms of the cabinet at Madrid",
+     "traduccion": "Santana, empujado por la situación, luchó contra los haitianos; pero sin influencia, sin recursos, se echó en brazos del gabinete de Madrid. [Interpretación de un ministro báezista de 1871: atribuye la anexión de 1861 a la penuria de recursos de Santana frente a Haití; es afirmación de parte (Báez fue enemigo de Santana) y no prueba el motivo de los protectorados de 1844-1849.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Declaración de David Coen (comerciante nacido en Santo Domingo, de padre danés), Santo Domingo, 7-II-1871, p. 251; l. 22115 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "I was very friendly with Mr. Schomburgh, who was the British consul here. He made several investigations, and in 1856-'57 estimated that there were one hundred thousand people in the republic. I think there are between one hundred and twenty and one hundred and thirty thousand.",
+     "traduccion": "Fui muy amigo de Schomburgh, que era el cónsul británico aquí. Hizo varias investigaciones y en 1856-57 estimó que había cien mil personas en la república. Yo creo que hay entre ciento veinte y ciento treinta mil. [Estimación atribuida de segunda mano al cónsul británico, sin documento: dato D hasta ver el despacho de Schomburgk.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Declaración de William M. Gabb (geólogo), p. 236; l. 20623 de cu31924021083344_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "I spent some time, a few days ago, in making out an estimate, counting town by town, village by village, road by road, and province by province [...] to my surprise I barely made out one hundred thousand souls.",
+     "traduccion": "Dediqué unos días a hacer una estimación contando pueblo por pueblo, aldea por aldea, camino por camino y provincia por provincia [...] y, para mi sorpresa, apenas llegué a cien mil almas. [Cifra de 1871 por un observador con método de campo declarado pero con tres provincias estimadas de oídas.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Declaración del general A. N. Rigaud (exiliado haitiano), p. 246; l. 21656 de cu31924021083344_djvu.txt",
+     "cita_original": "I think the population of the republic is from one hundred and fifty to one hundred and sixty thousand.",
+     "traduccion": "Creo que la población de la república es de ciento cincuenta a ciento sesenta mil.",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "Declaración del Ayuntamiento de Santo Domingo (E. M. Valencia y 10 concejales), 17-II-1871, p. 264; l. 23368 de cu31924021083344_djvu.txt",
+     "cita_original": "The census has been very much neglected, but the population is estimated at two hundred thousand.",
+     "traduccion": "El censo ha sido muy descuidado, pero se estima la población en doscientos mil.",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128",
+    "A-129",
+    "A-130"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS (autor, año de la estimación, base): 1789: 125.000 (Moreau de Saint-Méry, vía Gautier 1871; estimación); 1819: 63.000 (censo; origen primario no localizado); 1869: 252.000 (proyección por duplicación cada 25 años; Gautier); 1863-71: 207.000-207.700 (Curia eclesiástica; Gautier; los comisionados la tachan de errónea); 1871: ≤150.000 (Comisión), 100.000 (Gabb), 120.000-130.000 (Coen), 150.000-160.000 (Rigaud), 200.000 (Ayuntamiento); 1856-57: 100.000 (Schomburgk, citado de segunda mano por Coen). Rango de todas las estimaciones para 1844-1861 disponibles en este y otros textos: 100.000-282.000, sin base común. SESGO: la comisión y los testigos dominicanos que quieren la anexión; el gobierno de Báez entrega memorandos para presentar una república débil; el relato de 1844-1861 es retrospectivo. Gautier presenta el ejército permanente de «8.000-10.000» sin documento. Los pasajes sobre raza son impresiones de comisionados estadounidenses (A-129/A-130 solo como contexto tardío). Términos: «Haytian yoke» (p. 13) en lenguaje de la época; «Dominica» para la parte oriental."
+  },
+  {
+   "titulo": "La República Dominicana: reseña general geográfico-estadística (Santo Domingo, Secretaría de Fomento, 1888), cap. VII «Población. Estadística censoria. Cálculos comprobatorios»",
+   "autor": "Abad, José Ramón",
+   "anio": "1888",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://archive.org/details/larepublicadomi00abadgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/larepublicadomi00abadgoog/larepublicadomi00abadgoog_djvu.txt",
+    "https://archive.org/details/larepublicadomi00fomegoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación estadística oficial de la era de Heureaux que declara que no hay censo; sus cifras de 1844 son una proyección propia y no un dato independiente.",
+   "proveniencia": "José Ramón Abad, funcionario de la Secretaría de Fomento, redactó esta reseña geográfico-estadística (1888; el catálogo de archive.org la fecha 1889) como obra de promoción del país y de la inmigración. En el capítulo VII reconoce que la república no tiene censo y reconstruye la población con el censo de 1819 (63.000), el recuento de la Curia eclesiástica de 1863 (207.700) y una regla de duplicación cada 25 años. Su interés es mostrar un país sano, fértil y con poca gente (para atraer colonos). No conoció de primera mano 1844-1861; depende de la Curia y de los datos de 1871 (cita a Hazard y a la Comisión de 1871).",
+   "extractos": [
+    {
+     "ubicacion": "cap. VII, p. 91; l. 5510 de larepublicadomi00abadgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "no podemos dar una cifra total, obtenida como resultado positivo de un censo cuidadosamente formado en períodos regulares",
+     "traduccion": "[Contexto: el estadístico oficial de 1888 declara que no hay censo; los datos para el pasado son «escasos y deficientes».]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII, p. 91; l. 5524 de larepublicadomi00abadgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Según la obra de Moreau de St. Méry, la población en la parte española de Santo Domingo, era, en 1789, de 125.000 almas, y no parece que en esa modestísima cifra haya exageración alguna.",
+     "traduccion": "[Contexto: misma cifra de 1789 que la memoria de Gautier de 1871 (125.000); por esa razón Abad y Gautier no son fuentes independientes entre sí.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII, p. 91; l. 5552 de larepublicadomi00abadgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "cuando en 1819 se formó un censo de habitantes, éstos solo llegaron á sumar 63.000 de todos sexos y edades",
+     "traduccion": "[Contexto: único recuento general anterior a 1888 que se cita; origen primario y autoridad que lo levantó no se declaran.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII, p. 92; l. 5587 de larepublicadomi00abadgoog_djvu.txt [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "En 1819 había 63.000 habitantes. En 1844 debió haber 126.000 id. En 1869 id 252.000 id.",
+     "traduccion": "[Contexto: 126.000 (125.000 en el texto de la p. 93) para 1844 es resultado de duplicar el censo de 1819 en 25 años (Abad), no un dato de 1844. Es la misma cifra que Lepelletier (1846: ≈125.000, ya registrado), pero por un camino distinto.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII, p. 92; l. 5602 de larepublicadomi00abadgoog_djvu.txt [la cita completa une l. 5602-5619; Santiago se lee 36.800 en esta copia y 35.800 en la otra] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "El recuento hecho por la Curia Eclesiástica en 1863, para el arreglo de las parroquias, dió una población en aquel año de 207.700 almas, distribuidas en el territorio de la República como sigue: Provincia de Santo Domingo 41.400. Id. de Azua 36.000. Id. del Seibo 29.600. Id. de La Vega 53.300. Id. de Santiago 35.800. [...]",
+     "traduccion": "[Contexto: siguen Distrito de Puerto Plata 9.500 y Samaná 2.100. Lectura del OCR: el ejemplar «abadgoog» da Santiago 36.800 y el «fomegoog» 35.800; con 35.800 la suma es exactamente 207.700. Este es el recuento que Gautier (1871) y los comisionados atribuyen a la Curia; los comisionados lo consideran sobreestimado.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "final del cap. VI (inmediatamente antes del cap. VII); l. 5152 de larepublicadomi00abadgoog_djvu.txt",
+     "cita_original": "Hay en nuestros días una diferencia étnica capital entre la población de Haití y la de la República Dominicana, que no permite que se confundan en ningún tiempo, sino que, al contrario, por su propia virtualidad, las causas que las separan han de acentuarse cada vez mas.",
+     "traduccion": "[Contexto: formulación oficial de 1888 de la «diferencia étnica» entre ambas poblaciones; evidencia del discurso de diferenciación racial antes de 1930 (relevante para el debate sobre el origen del antihaitianismo, A-129/A-130), pero tardía respecto a 1844.]",
+     "afirmaciones": [
+      "A-129",
+      "A-130"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128",
+    "A-129",
+    "A-130"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS (autor, año, base): 1789: 125.000 (Moreau, vía Abad); 1819: 63.000 (censo; origen no declarado); 1844: 125.000-126.000 (proyección de Abad, duplicación cada 25 años desde 1819); 1863: 207.700 (recuento de la Curia eclesiástica; por provincias: Santo Domingo 41.400, Azua 36.000, Seibo 29.600, La Vega 53.300, Santiago 35.800, Puerto Plata 9.500, Samaná 2.100); 1869: 252.000 (proyección); 1887-88: 382.312 (arreglo parroquial) y ≈410.000-416.871 (Abad). Abad y Gautier (1871) comparten los mismos tres puntos de base y el mismo método de proyección: no se cuentan como dos fuentes independientes. El «1844 debió haber 126.000» de Abad no puede usarse como dato de 1844. SESGO: fomento de inmigración; interés en mostrar un país sano y poco poblado. Dos copias del OCR (abadgoog, fomegoog) coinciden en todo menos en un dígito (Santiago). Nota: el ejemplar de archive.org la fecha en 1889; la portada del libro dice 1888 [POR VERIFICAR en la imagen]."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones emanadas de los poderes Legislativo y Ejecutivo de la República Dominicana, t. I (1844-1847): leyes de gastos públicos 1845-46 y 1846-47, decreto Núm. 61 sobre organización del ejército y mandato censal de la Constitución de 1844 (ampliación de M09-N51)",
+   "autor": "República Dominicana (Congreso Nacional y Poder Ejecutivo; ed. oficial Imprenta de García Hermanos, 1880)",
+   "anio": "1880 (actos de 1844-1847)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/8448a011-fc3f-4763-bf62-1b42745b2a5e/content",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/1e37da81-a220-4605-8eb8-66cc7289ea6e/content",
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/70166"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial de leyes promulgadas, con firmas y fechas; la capa de texto es la oficial del repositorio y las sumas de las leyes de gastos cuadran, aunque se trata de presupuestos (autorizaciones) y no de gasto ejecutado.",
+   "proveniencia": "Recopilación oficial ordenada por el Congreso en 1854 e impresa en 1880, que reproduce en orden cronológico las leyes, decretos y resoluciones de 1844-1847. Las leyes de gastos las votaba el Congreso Nacional y las promulgaba Santana. Esta ficha amplía la ya registrada (M09-N51) con las cifras fiscales y militares que la primera ronda no extrajo: es la fuente primaria de lo que el Estado dominicano presupuestó para su defensa. No dice cuánto se gastó realmente ni cuánto se pagó.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, Núm. 47 (Ley que fija los gastos públicos del 1-VII-1845 al 30-VI-1846; Congreso, 27-VI-1845), art. 1, p. 164; l. 8745 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año económico de 1845 y 1846, la cantidad de un millon ciento setenta y nueve mil ochocientos noventa y ocho pesos.",
+     "traduccion": "[Contexto: la ley no dice si son pesos nacionales (papel) o fuertes; por la escala (derechos de importación de 125.000 fuertes en 1848) son pesos de papel.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 47, § IV «Departamento de Guerra y Marina», p. 167; l. 8862 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Para los gastos de ejército de tierra y mar, arsenales, hospitales militares, buques y generalmente todo lo de este departamento, inclusive la dotacion de sus bufetes 1000000",
+     "traduccion": "[Contexto: Resumen general de la ley: Justicia e Instrucción Pública 75.636; Interior y Policía 60.736; Hacienda y Comercio 43.526; Guerra y Marina 1.000.000. Suma 1.179.898 (el resumen imprime 1.179.889: transposición). Guerra y Marina = 84,8 % del presupuesto de 1845-46, el año de las invasiones de 1845.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 85 (Ley de gastos públicos 1846-47; Congreso, 20-V-1846; promulgada 26-V-1846, Santana), art. 1, p. 272; l. 14174 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año económico de 1846 á 1847, la cantidad de un millon setecientos setenta y un mil ochocientos treinta pesos; y treinta y seis mil pesos fuertes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 85, § IV «Guerra y Marina», p. 275; l. 14300 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado) [la cifra 70000 sigue a la frase en la misma línea del OCR oficial] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Se presuponen para los gastos estraordinarios del ejército á causa de la guerra. 70000",
+     "traduccion": "[Contexto: la partida «extraordinaria por la guerra» es de 70.000; el subtotal de sueldos de generales, estados mayores y tropas en actividad (588.316), raciones (656.563) y otros gastos de la secretaría suma 1.265.775; más 70.000 de gastos extraordinarios y 200.000 de Marina = 1.535.775 nacionales (+ 25.000 fuertes para uniformes).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 85, Resumen general, p. 275; l. 14315 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Ministerio de Guerra y Marina · 25000 1535775 Totales $ 36000 $ 1771830",
+     "traduccion": "[Contexto: Guerra y Marina = 86,7 % del total nacional de 1846-47 (1.535.775 de 1.771.830) y 69,4 % de los fuertes (25.000 de 36.000).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 61 (Decreto del P. E. sobre organización del ejército, Santana, 15-VII-1845), art. 3, p. 211; l. 11068 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Desde la edad de quince años hasta cuarenta y cinco, todos los dominicanos, mientras dure la guerra actual, están llamados á hacer parte en los cuerpos de línea sin apelacion",
+     "traduccion": "[Contexto: movilización legal total de varones de 15 a 45 años en los cuerpos de línea y de 46 a 60 en la guardia cívica; de ahí la cifra «por reglamento» de ≈28.000 (Gándara, doc. IV), que es capacidad legal y no tropa permanente.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Núm. 61, art. 40, p. 215; l. 11296 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Los oficiales y soldados de la guardia cívica en actividad de servicio, serán soldados y racionados como los demas del ejército permanente sin distincion alguna.",
+     "traduccion": "[Contexto: solo el personal en «actividad de servicio» cobra sueldo y ración; el resto de la guardia cívica no está en nómina.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. I, Constitución de 6-XI-1844, art. 154 («Son atribuciones de las Diputaciones Provinciales»), décimo, p. 53; l. 2527 de coleccion_leyes_1844-1847.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Formar por sí, y por medio de los Ayuntamientos, el censo de la poblacion y estadística de la Provincia.",
+     "traduccion": "[Contexto: la Constitución de 1844 encargó a las Diputaciones provinciales levantar el censo de población; ninguna fuente consultada registra que se hiciera antes de 1863 (recuento eclesiástico) ni antes de 1920 (primer censo nacional) [POR VERIFICAR].]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Esta entrada completa a M09-N51 (misma obra; el PDF alternativo es el escaneo de Google). Cifras fiscales y de estructura militar (autor: Congreso/Poder Ejecutivo; base: presupuestos votados, no ejecución): ver la tabla consolidada en la entrada de la Colección t. II. Estructura del ejército (Núm. 61, lectura de OCR con columnas intercaladas): regimiento de infantería = 2 batallones de 6 compañías; compañía de infantería con capitán, teniente, subteniente, 1 sargento primero, 2 segundos, 6 cabos primeros, 6 segundos, tambor, pífano y 43 soldados (= 63 hombres); compañía de artillería de 53 (39 soldados); es decir, un regimiento a plena fuerza tendría unos 756 hombres en compañías más estados mayores [lectura del OCR; POR VERIFICAR con la imagen]. El Ministro de Guerra, Manuel Jimenes, informó el 14-II-1846 de nueve regimientos de infantería, dos de artillería y uno de caballería «conforme al reglamento de 6 de noviembre de 1845» (véase la entrada de Rodríguez Demorizi 1944). Hecho/interpretación: los presupuestos muestran qué quiso pagar el Estado, no cuántos hombres combatieron. SESGO: documentos del propio Estado dominicano; las cifras de gasto militar sirven a la tesis de que la defensa absorbía el presupuesto (A-128) pero no prueban que el protectorado fuera una respuesta a ese coste: eso es interpretación."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones, t. II (1848-1854): leyes de gastos públicos 1848-49, 1849, 1852, 1853 y 1854; decretos monetarios Núm. 243 (1851) y Núm. 358 (1854); decreto Núm. 206 (1849); ley de conscripción Núm. 307 (1853) (ampliación de M09-N51)",
+   "autor": "República Dominicana (Congreso Nacional y Poder Ejecutivo; ed. oficial Imprenta de García Hermanos, 1881)",
+   "anio": "1881 (actos de 1848-1854)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/54a2ebe9-e750-444e-815b-32c4d960ae0d/content",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/4f2aef45-fbba-4f09-a50d-54e259efc7e6/content",
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/70167"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial de leyes promulgadas con fechas y firmas; las sumas de cada ley de gastos se verifican aritméticamente, pero son autorizaciones de gasto y el papel moneda se devaluó cada año.",
+   "proveniencia": "Segundo tomo de la recopilación oficial (impreso en 1881; actos de 1848-1854). Las leyes de gastos las votaba el Congreso Nacional por departamentos ministeriales y las promulgaban Báez (1849-1853) o Santana (1852 en adelante); cada ley distingue «moneda fuerte» (plata u oro; derechos de aduana) de «moneda nacional» (papel). Fuente de primera mano sobre qué fuerza se pagó y a qué tasa se cambiaba el papel; no registra el gasto realmente ejecutado.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, Núm. 161 (Ley de gastos públicos 1848-49; Congreso, 14-VII-1848), art. 1, p. 86; l. 4547 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año económico de 1848 á 1849, la cantidad de novecientos ochenta y cuatro mil doscientos sesenta pesos en moneda nacional, y veinte y cuatro mil seiscientos pesos fuertes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 161, Resumen general, p. 92; l. 4886 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Idem de Guerra y Marina. 2000 719.200",
+     "traduccion": "[Contexto: Guerra y Marina = 719.200 nacionales (73,1 % del total nacional 984.260) + 2.000 fuertes. Dentro de la partida: «sueldos y raciones de las tropas en actividad de servicio, tanto en las fronteras como en las demás plazas» = 566.000 (p. 91).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 161, presupuesto de ingresos, p. 86; l. 4529 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado) [la cita completa añade el encabezado de la partida (l. 4527-4528)] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Idem de importacion en moneda fuerte $ 125.000 á razon de 10 por uno segun la ley",
+     "traduccion": "[Contexto: tasa legal de 1848 = 10 pesos nacionales por 1 fuerte (el decreto Núm. 243 de 1851 la llama «cambio ínfimo é ilusorio»). Derechos de importación presupuestados: 125.000 fuertes = 1.250.000 nacionales.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 161, art. 3, p. 93; l. 4899 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Las compañías de policía que han existido hasta hoy, pagadas por el Erario público, se extinguirán",
+     "traduccion": "[Contexto: en 1848 se licencian las compañías de policía pagadas por el Erario; ahorro fiscal.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 200 (Ley de gastos de los siete meses de junio a diciembre de 1849; Congreso, 25-VIII-1849), Departamento de Guerra, p. 142; l. 7306 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Se presupone para sueldos de dos mil hombres de tropa, tanto en las fronteras como en las demas plazas de la República en actividad de servicio, á sueldo doble de sub-ayudante y sargentos para abajo hasta soldado, inclusive la dotacion de oficiales.",
+     "traduccion": "[Contexto: año de la invasión de Soulouque (Las Carreras, abril de 1849): fuerza en activo presupuestada = 2.000 hombres.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 200, Departamento de Guerra, p. 142; l. 7311 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Se presupone para las raciones, contándose á mil doscientos hombres de las fronteras á cuatro pesos por semana, y ochocientos hombres de las plazas á dos pesos.",
+     "traduccion": "[Contexto: raciones para 1.200 hombres en las fronteras y 800 en las plazas = 2.000 hombres; el resumen de la ley da Guerra y Marina = 592.613 nacionales + 1.500 fuertes, de un total de 1.021.929 nacionales + 5.242,24 fuertes (58,0 % del total nacional).]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 206 (Decreto adicional a la ley de gastos de 1849; Congreso, 6-X-1849; promulgado por Báez, 9-X-1849), art. 1, pp. 148-149; l. 7613 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Ademas del contingente de dos mil hombres en actividad de servicio, queda votado por la presente un excedente de dos mil hombres mas para facilitar el servicio alternativo",
+     "traduccion": "[Contexto: en plena guerra de 1849 el Congreso añade 2.000 hombres «de turno»: 4.000 hombres en total sobre las armas, con 339.974 pesos de suplemento (357.008 el decreto completo).]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 243 (Decreto del P. E., Báez, 2-VI-1851), art. 1, pp. 190-191; l. 9699 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Las planillas de importacion serán formuladas segun el órden establecido; y los derechos del fisco serán cobrados, una cuarta parte en moneda fuerte efectiva, y las tres cuartas partes en moneda nacional, á razon de cuarenta pesos por cada peso fuerte del producto de los derechos de importacion.",
+     "traduccion": "[Contexto: tasa oficial de 1851 = 40 nacionales por 1 fuerte. Los considerandos recuerdan 10 por 1 (1848-1850) y 20 por 1 (ley de 3-V-1850). El decreto Núm. 358 (14-IX-1854) la fija en 50 por 1 y el decreto Núm. 678 (16-III-1861) en 250 por 1.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 272 (Ley de gastos públicos de 1852; Congreso, 4-V-1852; promulgada 6-V-1852), art. 1; l. 13663 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año de 1852, la cantidad de tres millones ochocientos ochenta mil cuatrocientos veinte y cinco pesos nacionales, y diez y nueve mil cuatrocientos pesos fuertes.",
+     "traduccion": "[Contexto: la cita une dos líneas separadas por ruido de OCR.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 272, Departamento de Guerra y Marina, pp. 269-270; l. 13795 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado) [la cita une l. 13795 y 13797] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Para 2500 militares tanto en las fronteras como en las demas plazas para sus raciones.",
+     "traduccion": "[Contexto: raciones para 2.500 militares (sin la cifra de columna 600.000 que el OCR intercala). La misma partida: «Se asigna para los sueldos de nueve regimientos de línea en toda la República» (700.000), cinco compañías de policía (36.000), tripulaciones de siete buques y raciones de 300 marinos. Guerra y Marina ordinario = 1.657.172 nacionales + 4.000 fuertes.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 272, art. 2, p. 270; l. 13844 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Art. 2. Se asigna al Ministerio de Guerra un millon de pesos nacionales para que con él se satisfagan los aumentos de sueldos de todos los empleados de Administracion pública desde el 1.° de Octubre al 31 de Diciembre.",
+     "traduccion": "[Contexto: el millón se asigna al Ministerio de Guerra pero cubre el aumento de sueldo de toda la administración; con él y los 40.000 del art. 4 la partida de Guerra sube a 2.697.172 (69,5 % del total nacional 3.880.425). Sin esos dos artículos es 42,7 %. Distinguir al comparar años.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 307 (Ley sobre conscripción; Tribunado, iniciativa del P. E.; ejecútese 26-IV-1853), art. 11, p. 313; l. 15963 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Esta ley no comprende al ejército actual, el que no fué organizado con arreglo á ninguna forma de ley ni decreto de la materia.",
+     "traduccion": "[Contexto: en 1853 el propio legislador reconoce que el ejército en servicio no estaba organizado conforme a ninguna ley o decreto (a pesar del decreto Núm. 61 de 1845): su tamaño real no se deduce de los reglamentos.]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 324 (Ley de gastos públicos de 1853; Congreso, 8-VI-1853), art. 1, p. 327 (la ley empieza en la p. 326); l. 16646 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año 1853, la cantidad de ciento tres mil doscientos noventa y dos pesos, moneda fuerte; y siete millones quince mil descientos cuarenta y cuatro pesos en moneda nacional",
+     "traduccion": "[Contexto: resumen: Interior y Policía 13.360 f + 670.040 n; Justicia e Instrucción Pública 1.200 f + 647.872 n; Hacienda y Comercio 24.932 f + 2.632.380 n; Guerra y Marina 63.800 f + 3.064.952 n (43,7 % del total nacional; 61,8 % de los fuertes).]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 324, Departamento de Guerra y Marina, p. 333; l. 16996 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Para racionar 2500 militares de servicio en todas las plazas de la República.",
+     "traduccion": "[Contexto: raciones para 2.500 militares (1853).]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 358 (Decreto del Congreso Nacional, 14-IX-1854; promulgado por Santana el 15-IX-1854), art. 1, p. 408; l. 20801 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Queda fijado el valor de la moneda extrangera á razon de cincuenta pesos nacionales por un peso fuerte, para el pago de los derechos de importacion y exportacion.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 364 (Ley de gastos públicos de 1854; Congreso, 14-IX-1854; promulgada 26-IX-1854), art. 1, p. 415; l. 21135 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Art. 1. Se asigna para los gastos públicos del año de 1854, la suma de setenta y dos mil novecientos treinta y dos pesos fuertes, y la de ocho millones setenta y un mil cuatrocientos veinte y ocho pesos moneda nacional",
+     "traduccion": "[Contexto: Interior 4.300 f + 1.160.640 n; Justicia/Relaciones Exteriores 10.000 f + 382.372 n; Hacienda 8.632 f + 919.180 n; Guerra, Marina y Obras Públicas 50.000 f + 5.609.236 n (69,5 % del total nacional); la suma de los cuatro nacionales es 8.071.428.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 364, Departamento de Guerra, Marina y Obras públicas, p. 421; l. 21483 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado) [el segundo fragmento está en l. 21487] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Racion de 1500 hombres en las fronteras, 8 meses á razon de $ 7 la semana. [...] Racion de 800 hombres de servicio en las diferentes plazas",
+     "traduccion": "[Contexto: 1854: raciones para 1.500 hombres en las fronteras y 800 en las plazas = 2.300 hombres; además «se presupone para sueldo de nueve regimientos de infantería organizados en la República» = 1.620.000, siete buques de la flotilla (385 marinos, raciones para 400) y compra de armamento y sueldo de oficiales franceses «según convenio».]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Núm. 364, p. 421; l. 21481 de coleccion_leyes_1848-1854.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Se presupone para sueldo de nueve regimientos de infantería organizados en la República. 1620000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "TABLA CONSOLIDADA DE PRESUPUESTOS DE LA PRIMERA REPÚBLICA (autor: Congreso y Poder Ejecutivo dominicanos; base: leyes de gastos; cálculo de porcentajes y equivalentes en fuertes: del buscador): 1845-46 (Núm. 47, Congreso 27-VI-1845): total 1.179.898 pesos nacionales; Guerra y Marina 1.000.000 nacionales = 84,8 % del total nacional [moneda sin especificar] || 1846-47 (Núm. 85, Congreso 20-V-1846, promulgada 26-V-1846): total 1.771.830 pesos nacionales + 36.000 fuertes; Guerra y Marina 1.535.775 nacionales + 25.000 fuertes = 86,7 % del total nacional || 1848-49 (Núm. 161, Congreso 14-VII-1848): total 984.260 pesos nacionales + 24.600 fuertes; Guerra y Marina 719.200 nacionales + 2.000 fuertes = 73,1 % del total nacional; equivalente en fuertes a 10 por 1 (cálculo propio): total ≈ 123.026, Guerra ≈ 73.920 (60,1 %) [tasa de la propia ley (10 por 1)] || 1849 (jun.-dic.) (Núm. 200, Congreso 25-VIII-1849): total 1.021.929 pesos nacionales + 5.242,24 fuertes; Guerra y Marina 592.613 nacionales + 1.500 fuertes = 58,0 % del total nacional; equivalente en fuertes a 10 por 1 (cálculo propio): total ≈ 107.435, Guerra ≈ 60.761 (56,6 %) [tasa de la propia ley (10 por 1); suplemento Núm. 206 de 357.008 pesos (6/9-X-1849) no incluido] || 1852 (Núm. 272, Congreso 4-V-1852, promulgada 6-V-1852): total 3.880.425 pesos nacionales + 19.400 fuertes; Guerra y Marina 2.697.172 nacionales + 4.000 fuertes = 69,5 % del total nacional; equivalente en fuertes a 40 por 1 (cálculo propio): total ≈ 116.411, Guerra ≈ 71.429 (61,4 %) [guerra incluye 1.000.000 (art. 2, aumentos de sueldo de toda la administración) y 40.000 (art. 4); solo la partida ordinaria es 1.657.172; tasa 40 por 1 del decreto Núm. 243 (2-VI-1851), no estatuida en la ley] || 1853 (Núm. 324, Congreso 8-VI-1853): total 7.015.244 pesos nacionales + 103.292 fuertes; Guerra y Marina 3.064.952 nacionales + 63.800 fuertes = 43,7 % del total nacional [tasa entre 40 (decreto de 1851) y 50 (decreto de 1854): no convertida] || 1854 (Núm. 364, Congreso 14-IX-1854, promulgada 26-IX-1854): total 8.071.428 pesos nacionales + 72.932 fuertes; Guerra y Marina 5.609.236 nacionales + 50.000 fuertes = 69,5 % del total nacional; equivalente en fuertes a 50 por 1 (cálculo propio): total ≈ 234.361, Guerra ≈ 162.185 (69,2 %) [tasa 50 por 1 del decreto Núm. 358 del mismo día] || 1861-62 (Núm. 672, Senado Consultor 16-XI-1860, promulgada 27-XI-1860): total 15.194.424 pesos nacionales + 176.350 fuertes; Guerra y Marina 13.938.624 nacionales + 28.920 fuertes = 91,7 % del total nacional; equivalente en fuertes a 250 por 1 (cálculo propio): total ≈ 237.128, Guerra ≈ 84.674 (35,7 %) [tasa 250 por 1 del decreto Núm. 678 (16-III-1861; mercado 300 por 1)]. LECTURA: (a) hecho: en las leyes de 1845-1854 Guerra y Marina es entre el 44 % y el 87 % del presupuesto nacional nominal (92 % en 1861-62); en equivalentes de fuertes (solo cuando la ley o un decreto contemporáneo fija la tasa) entre 57 % y 69 % de 1848 a 1854 y ≈36 % en 1861-62; (b) hecho: la fuerza que el presupuesto paga es de 2.000 hombres en actividad en 1849 (4.000 con los de turno, decreto Núm. 206), 2.500 en 1852-53 y 2.300 en 1854 y 1861, con nueve regimientos de infantería (1852, 1853, 1854 y 1861), cinco compañías de policía (1852-53) y entre 3 y 7 buques; (c) interpretación abierta: la proporción del gasto de guerra apoya que mantener la defensa absorbía el Erario (A-128) pero no por sí sola que los protectorados se buscaran por ese motivo; (d) el equivalente en fuertes del presupuesto total pasa de ≈123.000 (1848-49) a ≈234.000 (1854) y ≈237.000 (1861-62) con una población entre 125.000 y 282.000. LIMITACIONES: presupuestos, no ejecución; 1850, 1851 y 1855-1860 no figuran (tomo de 1855-1859 no hallado en línea; el repositorio solo tiene 1844-47, 1848-54 y 1860-66); OCR de las leyes de 1852-1854 intercala columnas (las sumas se comprobaron aritméticamente); la moneda nacional se devaluó en cada año, de modo que las cifras nominales no son comparables sin la tasa. SESGO: documentos de la propia administración."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones, t. IV (1860-1866; ed. Listín Diario, 1927): Ley Núm. 672 de gastos públicos de 1861-62 y decreto Núm. 678 sobre el papel moneda (16-III-1861)",
+   "autor": "República Dominicana (Senado Consultor y Poder Ejecutivo; ed. oficial, Santo Domingo, Imprenta del Listín Diario, 1927)",
+   "anio": "1927 (actos de 1860-1861)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/e1211406-1cad-43de-975b-9672cccaedaa/content",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/bc31c371-28f7-4ea8-9cd3-2f5f1bf74820/content",
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/70399"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial de la ley y del decreto con fechas y firmas; OCR ruidoso en las líneas de raciones, cuya aritmética (1.500 y 800 hombres a 100 pesos semanales) confirma la lectura.",
+   "proveniencia": "Tomo cuarto de la Colección (edición oficial de 1927 impresa en el Listín Diario, mandada hacer por decreto de F. A. de Meriño) con los actos de 1860-1866. La Ley Núm. 672 es la última ley de gastos de la Primera República antes de la anexión a España (votada por el Senado Consultor el 16-XI-1860 y promulgada por el vicepresidente Antonio Abad Alfau, encargado del Poder Ejecutivo, el 27-XI-1860). El decreto Núm. 678 lo firma Santana el 16-III-1861, dos días antes de proclamar la anexión.",
+   "extractos": [
+    {
+     "ubicacion": "t. IV, Núm. 672 (Ley de gastos públicos de 1861 á 1862; Senado Consultor 16-XI-1860; promulgada 27-XI-1860), art. 1, p. 122; l. 4751 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Art. 1° Se asigna para los gastos públicos del año económico de 1861 á 1862 la suma de ciento setenta y seis mil trescientos cincuenta pesos fuertes; y quince millones ciento noventa y cuatro mil, cuatrocientos veinte y cuatro pesos nacionales",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, Núm. 672, art. 1 (cuadro de departamentos), p. 122; l. 4759 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Id de Guerra y Marina. . . . . . . . . 28920 13938624",
+     "traduccion": "[Contexto: Interior 75.000 f + 867.600 n; Justicia 26.936 f + 25.200 n; Hacienda 45.494 f + 363.000 n; Guerra y Marina 28.920 f + 13.938.624 n = 91,7 % del total nacional (15.194.424). A 250 por 1 (decreto Núm. 678) el total equivale a ≈237.000 fuertes y Guerra a ≈84.700 (35,7 %).]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, Núm. 672, presupuesto de ingresos presentado el 22-X-1860, p. 122; l. 4749 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado)",
+     "cita_original": "Total general $ F. 333400 $ N. 227000",
+     "traduccion": "[Contexto: ingresos previstos = 333.400 fuertes y 227.000 nacionales, tras deducir 21.600 fuertes por intereses y amortización de la deuda interior de 80.000; el gasto en fuertes (176.350) es el 53 % de los ingresos en fuertes, y el gasto en papel (15,2 millones) es 67 veces los ingresos previstos en papel (227.000): la diferencia solo se cubre pagando en papel con ingresos en fuertes al cambio legal o con emisión [interpretación].]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, Núm. 672, Departamento de Guerra y Marina, p. 135-136; l. 5220 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado) [la línea de los 800 hombres está dañada por el OCR; se reconstruye por la aritmética] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Para racionar 1500 hombres en las fronteras [...] 7800000 [...] para 800 hombres de servicio en las diferentes plazas á $100 por semana 4160000",
+     "traduccion": "[Contexto: 1.500 × 100 × 52 = 7.800.000 y 800 × 100 × 52 = 4.160.000: raciones para 2.300 hombres a 100 pesos nacionales por semana; más «sueldos de nueve regimientos» = 1.650.000. Mismo contingente (1.500 + 800) que en 1854, ahora a 100 pesos de papel por ración semanal en vez de 7-10.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, Núm. 672, art. 2, p. 137; l. 5268 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Art. 2° Los sueldos, pensiones y demas cantidades que por escasez del Erario no puedan ser satisfechas en el año económico de 1861, conforme al presupuesto, se abonarán en el siguiente de 1862 a 1863.",
+     "traduccion": "[Contexto: la ley prevé expresamente impagos «por escasez del Erario».]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, Núm. 678 (Decreto de Pedro Santana, 16-III-1861), título y considerandos, pp. 142-143; l. 5475 de coleccion_leyes_1860-1866.pdf.txt (capa de texto oficial del repositorio del Senado) [la verificación automática solo cubre una línea; el resto se leyó en l. 5455-5475] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "DECRETO del P. E. disponiendo recojer el papel-moneda circulante en el término de un año, á razon de $250 nacionales por uno fuerte. [...] el precio á que circula actualmente en el comercio el referido papel-moneda, es de trescientos pesos nacionales por un peso fuerte",
+     "traduccion": "[Contexto: el decreto fija 250 nacionales por 1 fuerte y reconoce 300 por 1 en el mercado; entre 1848 (10 por 1) y 1861 la moneda nacional perdió ≈96-97 % de su valor legal. Cita compuesta del título y de un considerando (OCR dañado en la segunda parte).]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Complementa las entradas de la Colección t. I y t. II (tabla consolidada de presupuestos en la t. II). Cifras: ver extractos. Hecho: el presupuesto de 1861-62 destina el 91,7 % del total nacional nominal a Guerra y Marina, pero en fuertes la partida de guerra es ≈33-36 % porque la partida de papel casi no vale; interpretación abierta. SESGO: ley votada por el Senado Consultor de Santana. El texto oficial de 1860-1866 tiene OCR ruidoso (soft hyphens). Edición de 1927 (era Trujillo-Vásquez) posterior a los hechos pero fiel a los textos legales."
+  },
+  {
+   "titulo": "Historia de la dominación y última guerra de España en Santo Domingo (Madrid, 1870)",
+   "autor": "González Tablas, Ramón",
+   "anio": "1870",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/details/historiadeladom00tablgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/historiadeladom00tablgoog/historiadeladom00tablgoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Capitán de infantería que escribe sobre la guerra de 1863-65 para el público español, con relato crítico de la anexión, y da una cifra de población sin base ni método.",
+   "proveniencia": "Ramón González Tablas, capitán de infantería que sirvió en el ejército de operaciones de Santo Domingo, publicó en Madrid (1870) esta historia crítica de la dominación española y de la guerra. El pasaje citado describe el estado de la república dominicana en vísperas de la anexión de 1861. Interés: explicar el fracaso español achacándolo a una anexión mal preparada. Es lectura contemporánea del 1861, no medición.",
+   "extractos": [
+    {
+     "ubicacion": "cap. sobre la caída de la Primera República (columna del OCR de dos columnas; página no determinada); l. 3213 de historiadeladom00tablgoog_djvu.txt [el OCR lee «A» por «á» y «quería» como «queria»] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "La república dominicana exhausta, pobre, con una escasa población, que no llegaba á doscientos mil habitantes, trabajadas las costumbres, poco dados al trabajo sus naturales, sin industria ni comercio, con un enemigo pertinaz que no quería pasar la frontera",
+     "traduccion": "[Contexto: «no llegaba a doscientos mil» (≤200.000) en 1861, frente a los 280.000 de Gándara; tono despectivo («poco dados al trabajo»); la frase sitúa el recuento en la víspera de la anexión.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Cifra ≤200.000 (González Tablas, 1870; base: no declarada; D). Contraste: Gándara 280.000 (1861/1865; D), Curia eclesiástica 207.700 (1863), Serrano 150.000 (1865). Los autores españoles de la anexión divergen en 130.000 habitantes. SESGO: visión peyorativa de los dominicanos. No se leyó el libro completo; solo los pasajes de población (l. 1183: da 150.000 almas para la colonia española del siglo XVIII, contexto no verificado; l. 3215-3217)."
+  },
+  {
+   "titulo": "Elementos de geografía físico-histórica, antigua y moderna de la isla de Santo Domingo (Puerto Rico, 1866)",
+   "autor": "Ángulo Guridi, Javier",
+   "anio": "1866",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/elementosdegeogr00angu",
+   "urls_alternativas": [
+    "https://archive.org/download/elementosdegeogr00angu/elementosdegeogr00angu_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Catecismo de geografía que remite la cifra a Balbi y Letronne (autores anteriores), por lo que es derivada y no independiente.",
+   "proveniencia": "Javier Ángulo Guridi (1816-1884), intelectual dominicano exiliado en Puerto Rico durante la anexión española, publicó en 1866 un manual de geografía en forma de preguntas y respuestas. Da dos cifras de población (isla y república) con atribución a los geógrafos Balbi y Letronne (primera mitad del siglo XIX). Sirve para ver qué cifra circulaba en el relato dominicano de 1866, no como medición.",
+   "extractos": [
+    {
+     "ubicacion": "p. 11, respuesta a «¿Cuál es la población absoluta?» (de la isla entera); l. 749 de elementosdegeogr00angu_djvu.txt [la pregunta antecede en la página 10 con una nota al pie intercalada] [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "[P. ¿Cuál es la población absoluta?] R. La de 1.050,000 habitantes.",
+     "traduccion": "[Contexto: 1.050.000 para toda la isla.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "p. 11 (tras describir el reparto de la isla entre «Haytí» y la República Dominicana); l. 776 de elementosdegeogr00angu_djvu.txt",
+     "cita_original": "P. ¿Y cuál su población particular ó relativa? R. Se calcula según Balbi y Letronne, en 300,000 almas.",
+     "traduccion": "[Contexto: 300.000 para la República Dominicana, citando a Balbi y Letronne: cifra derivada de una fuente anterior; no es un recuento de 1866.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Cifra 300.000 (Ángulo Guridi 1866 vía Balbi y Letronne, base: geografías europeas anteriores; D). No es independiente de las otras estimaciones de la época y repite el orden de magnitud de las cifras que circulaban en 1860 (≈ 200.000-300.000). El texto llama «República impropiamente denominada de Haytí» a la parte occidental (término cargado). No se leyó el libro completo."
+  },
+  {
+   "titulo": "Interés de una misión secreta, serie de columnas (4, 5, 8, 9, 11, 12, 13, 17, 19 y 20) sobre el Diario de una misión secreta a Santo Domingo (1846) de David Dixon Porter (ed. Sociedad Dominicana de Bibliófilos, 1978): cifras parroquiales no registradas en M09-N91",
+   "autor": "Taveras Alonzo, Pedro José (columnista); Porter, David Dixon (autor del Diario, 1846; trad. P. Gustavo Amigó Jensen, S. J., 1978)",
+   "anio": "2022 (columnas); 1846 (diario)",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/interes-de-una-mision-secreta-13-9052123.html",
+   "urls_alternativas": [
+    "https://acento.com.do/opinion/interes-de-una-mision-secreta-12-9046705.html",
+    "https://acento.com.do/opinion/interes-de-una-mision-secreta-9-9037785.html",
+    "https://acento.com.do/opinion/interes-de-una-mision-secreta-17-9072703.html",
+    "https://acento.com.do/opinion/interes-de-una-mision-secreta-interes-19-9078946.html",
+    "https://acento.com.do/opinion/interes-de-una-mision-secreta-y-20-9082109.html"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Divulgación de un columnista que parafrasea y cita partes del Diario con página, sin que se haya podido abrir el libro de 1978; las cifras son de segunda mano y mezclan citas con paráfrasis.",
+   "proveniencia": "El teniente de la Armada de EE.UU. David Dixon Porter recorrió la República Dominicana en mayo-junio de 1846 en una misión secreta del presidente Polk y del secretario de Estado Buchanan para informar sobre el reconocimiento de la nueva república; su diario fue publicado en español por la Sociedad Dominicana de Bibliófilos en 1978 (presentación de Juan T. Tavares K.; trad. del padre Amigó Jensen). Pedro José Taveras Alonzo resumió el diario en 20 columnas de Acento (2022). Porter obtuvo las cifras de los curas párrocos y de los «censos parroquiales» de cada pueblo, es decir de recuentos eclesiásticos locales, no de un padrón estatal.",
+   "extractos": [
+    {
+     "ubicacion": "columna 13 (La Vega); Diario, p. 190 según la columna; cita abreviada a 15 palabras (obra no libre de derechos) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "Era un pueblo de unas 600 casas y 8,500 almas del total de 30,000 habitantes […]",
+     "traduccion": "[Contexto: ya registrada en M09-N91; se repite como referencia.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "columna 12 (San Francisco de Macorís); cita abreviada a 15 palabras (obra no libre de derechos) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "[…] para 1846, tenía 1400 habitantes y 4,800 la jurisdicción […]",
+     "traduccion": "[Contexto: nueva respecto a M09-N91 solo en el extracto; la cifra de Macorís ya constaba en la ficha.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "columna 9 (Cotuí); cita abreviada a 15 palabras (obra no libre de derechos) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "[…] Cotuí que tenía una población de 500 personas y 8,000 almas en toda la común […]",
+     "traduccion": "[Contexto: dato nuevo: Cotuí 500 en el pueblo y 8.000 en la común (cura párroco, 1846). Cifra de segunda mano.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "columna 17 (Moca); Diario, p. 210 según la columna; cita abreviada a 15 palabras (obra no libre de derechos) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "[…] “doce mil almas” […] “cuatro mil soldados y una tropa de caballería con 150 hombres” […]",
+     "traduccion": "[Contexto: ya registrada en M09-N91. 4.000 «soldados» sobre 12.000 almas = 1 de cada 3 habitantes: son milicias de la guardia cívica (decreto Núm. 61), no tropa en nómina.]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "columna 19 (Puerto Plata); Diario, pp. 216-217 según la columna; cita abreviada a 15 palabras (obra no libre de derechos) [cita corregida de OCR o compuesta de fragmentos contiguos; lectura literal en el archivo indicado]",
+     "cita_original": "[…] unas “2.000 personas” aproximadamente, y cerca de “4.000” en toda la jurisdicción […]",
+     "traduccion": "[Contexto: dato nuevo: Puerto Plata ≈2.000 en la ciudad y ≈4.000 en la jurisdicción (1846; «censo parroquial»). Compárese con 9.500 del distrito de Puerto Plata en la Curia de 1863.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS PARROQUIALES DE 1846 (Porter, vía columnista; base: curas párrocos y «censo parroquial» de cada pueblo): La Vega pueblo 8.500 / provincia 30.000; Moca pueblo 1.500 / común 12.000 (+4.000 «soldados» y 150 jinetes); Macorís 1.400 / 4.800; Cotuí 500 / 8.000; Puerto Plata ≈2.000 / ≈4.000. No se obtuvo ni el total nacional de Porter (que el diario sí da, sin figurar en las columnas) ni el texto del libro de 1978 (ficha del catálogo de la Biblioteca Nacional bnphu.gob.do: 403). BÚSQUEDA: el Diario no está en línea según 6 búsquedas; sigue pendiente [POR VERIFICAR: total nacional de 1846 y composición por razas]. SESGO: Porter era un oficial de EE.UU. con interés en Samaná; su diario contiene comentarios racistas sobre la población (Taveras Alonzo). Fiabilidad baja por ser paráfrasis de columnista."
+  },
+  {
+   "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen, Am. J. Biol. Anthropol., programa de la 95.ª reunión de la AABA, Denver, 18-21-III-2026; Proyecto Genográfico Dominicano)",
+   "autor": "Schurr, Theodore G.; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; et al.",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://api.crossref.org/works/10.1002/ajpa.70227",
+   "urls_alternativas": [
+    "https://doi.org/10.1002/ajpa.70227",
+    "https://cris.unibe.edu.do/handle/123456789/589"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "El registro de Crossref confirma que el resumen está en el programa de la reunión de la AABA (AJBA 189, S81, marzo de 2026), pero el texto del resumen sigue sin abrirse (403) y es un resumen de congreso, no un artículo revisado.",
+   "proveniencia": "Resumen de congreso del equipo del Proyecto Genográfico Dominicano (ADH, National Geographic, UPenn, UNIBE). Crossref lo registra como parte del «Program of the 95th Annual Meeting of the American Association of Biological Anthropologists» (Am. J. Biol. Anthropol. 189, supl. S81, marzo de 2026, DOI 10.1002/ajpa.70227). No aporta nada sobre 1844-1861: describe la ancestría actual (n=1.015; 50,3 % africana, 41,2 % europea, 3,8 % nativa americana según la ficha registrada).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "F-0203",
+   "notas": "Intento de resolución: Crossref (200) confirma metadatos; wiley (onlinelibrary) y cris.unibe.edu.do devuelven 403 a WebFetch/curl. La ficha registrada mantiene las cifras del fragmento previo [n=1.015, 50,3/41,2/3,8 %]; no se pudo releerlas en el original. Utilidad para M09: ninguna directa; la genética actual no mide las categorías raciales de 1844 ni la ideología de la élite separatista."
+  },
+  {
+   "titulo": "The genetic structure of populations from Haiti and Jamaica reflect divergent demographic histories (Am. J. Phys. Anthropol. 142: 49-66)",
+   "autor": "Simms, Tanya M.; Rodriguez, Carlos E.; Rodriguez, Rebecca; Herrera, Rene J.",
+   "anio": "2010",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/ajpa.21194&format=json&resultType=core&pageSize=3",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/19918989/",
+    "https://doi.org/10.1002/ajpa.21194"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con 15 STR autosómicos; solo se leyó el resumen vía Europe PMC (OA: no), sin tamaños muestrales ni tablas.",
+   "proveniencia": "Estudio del laboratorio de René Herrera (Florida International University) sobre frecuencias alélicas de 15 loci STR en colecciones generales de Haití y Jamaica; Europe PMC (PMID 19918989) devuelve el resumen completo. No toca ningún periodo histórico concreto; sirve de contexto de la ancestría de la población haitiana actual.",
+   "extractos": [
+    {
+     "ubicacion": "resumen (Europe PMC, PMID 19918989); cita abreviada a 15 palabras (obra no libre de derechos)",
+     "cita_original": "[…] a stronger African signal is detected in Haiti than in Jamaica.",
+     "traduccion": "[…] en Haití se detecta una señal africana más fuerte que en Jamaica.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "F-0212",
+   "notas": "Resolución parcial: el resumen está disponible vía Europe PMC (200); el texto completo no es abierto (doi.org devuelve 403). n de la muestra de Haití no consta en el resumen [POR VERIFICAR]. Utilidad para M09: ninguna directa."
+  },
+  {
+   "titulo": "Guerra domínico-haitiana: documentos para su estudio (ed. E. Rodríguez Demorizi, Ciudad Trujillo, 1944), docs. 68, 71, 72, 92, 121, 123, 132-133, 155, 157 y 158: cifras de fuerzas, bajas y prisioneros (lectura de imagen)",
+   "autor": "Rodríguez Demorizi, Emilio (ed.); documentos de Manuel Jimenes, Pedro Santana, Antonio Abad Alfau, Domingo Mallol y otros (1846-1856)",
+   "anio": "1944 (documentos de 1846-1856)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_GuerraDominicoHaitiana_1944.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_GuerraDominicoHaitiana_1957.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección de partes y oficios oficiales con indicación de procedencia (AGN, García, Gaceta de Gobierno), aunque son relatos de parte y la edición es de homenaje trujillista; solo se leyó por imagen un puñado de páginas.",
+   "proveniencia": "Ver la ficha F-0071 de la primera ronda. En esta ronda se descargó de nuevo el PDF (243 MB, 575 págs., sin capa de texto) y se leyó por imagen el índice y las páginas con cifras de fuerza, bajas y prisioneros. Las páginas del PDF van desplazadas respecto a la paginación impresa (por láminas intercaladas; p. 224 = pdf 350, p. 258 = pdf 392, p. 317 = pdf 467, p. 362 = pdf 512). Los documentos de 1846-1856 son de dominio público; las notas del editor (1944) no se citan salvo en resumen.",
+   "extractos": [
+    {
+     "ubicacion": "doc. 68 (Memoria del Ministro de Guerra y Marina, general Manuel Jimenes, al Presidente de la República, 14-II-1846), pp. 225-226 (pdf 351-352); lectura de imagen",
+     "cita_original": "considerando al mismo tiempo que mantenerlas continuamente sobre las armas, a más de producir grandes gastos al erario, se haría un grande perjuicio a la agricultura, casi arruinada, dispuso se formasen nueve regimientos de infantería, dos de artillería y uno de caballería, en todo el territorio de la República",
+     "traduccion": "[Contexto: el ministro explica que sostener indefinidamente las guardias cívicas en armas cuesta al Erario y arruina la agricultura; por eso se crea el ejército permanente de línea (decreto Núm. 61 de 15-VII-1845; reglamento de 6-XI-1845). Texto de 1846 (público dominio) reproducido de García, Guerra de la Separación, p. 39. Respalda A-128 en su parte fiscal: el coste de mantener la defensa era motivo declarado del gobierno en 1846.]",
+     "afirmaciones": [
+      "A-128",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 68, p. 226 (pdf 352); lectura de imagen",
+     "cita_original": "La flota dominicana se compone hoy de diez buques, siete del Estado y tres tomados en requisición y armados por el Gobierno",
+     "traduccion": "[Contexto: flota de 10 buques en febrero de 1846 (fragata Cibao de 20 cañones, 7 buques del Estado y 3 en requisición).]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 71 (Mensaje de Santana al Congreso Nacional, 31-I-1848), p. 230 (pdf 358); lectura de imagen",
+     "cita_original": "el Gobierno no puede menos de mantener las tropas sobre las armas y está obligado a conservar una fuerte guarnición en las fronteras para precaver una sorpresa, lo que impide que esta cantidad de hombres se ocupe de ella",
+     "traduccion": "[Contexto: Santana atribuye la falta de brazos para la agricultura al mantenimiento de las tropas sobre las armas y de una fuerte guarnición fronteriza; de ahí que pida inmigración. Respalda A-128 (coste de la defensa) desde la voz del propio presidente.]",
+     "afirmaciones": [
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "doc. 71, p. 230 (pdf 358); lectura de imagen",
+     "cita_original": "tanto para precaver el mal que podían hacer en esta ciudad más de doscientos treinta enemigos juntos",
+     "traduccion": "[Contexto: 230 prisioneros haitianos concentrados en la cárcel de la capital en 1847-48; añade que «hasta esta fecha no se ha dado por entendido el Gobierno Haitiano sobre los prisioneros de guerra». Respalda A-133 (no reconocimiento).]",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 92 (parte de Santana, Sabana Buey, 23-24-IV-1849), p. 272 (pdf 410); lectura de imagen",
+     "cita_original": "por las pocas tropas que tenía, sólo se encontraba una fuerza de 150 hombres",
+     "traduccion": "[Contexto: única cifra de efectivos en los partes de Las Carreras (pp. 266-272): una fuerza de 150 hombres en la playa (el sujeto de «tenía» es el enemigo, por el contexto); los partes no dan los efectivos de los ejércitos que combatieron, solo que el ejército dominicano se dividió el 18-IV en cuatro divisiones (coroneles Domínguez, Maldonado, Evangelista, Sosa) y que, el 21-IV, «no ha habido de nuestra parte ningún muerto, y sólo tres heridos» (p. 268).]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 121 (Decreto del P. E., Manuel de Regla Mota, 29-XI-1855; Colección de Leyes, 1855, doc. 413), arts. 1, pp. 319-320 (pdf 469-470); lectura de imagen",
+     "cita_original": "Todos los dominicanos que no ejerzan empleos públicos, desde la edad de diez y seis hasta sesenta años, sin distinción de persona, están llamados a tomar las armas",
+     "traduccion": "[Contexto: llamamiento general de 16 a 60 años con motivo de la invasión de Soulouque; la ley de 1855 no figura en el repositorio del Senado (no hay tomo 1855-59).]",
+     "afirmaciones": [
+      "A-119",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "doc. 123 (oficio del Ministro de Guerra y Marina [Alfáu] al comandante de armas R. Mella, diciembre de 1855), pp. 322-324 (pdf 472-474); lectura de imagen",
+     "cita_original": "ningún tiempo más a propósito que el que se nos presenta para poder llenar las plazas vacantes, pues hay eminente peligro en la Patria",
+     "traduccion": "[Contexto: el ministro habla de «plazas vacantes» en vísperas de la invasión de 1855-56: las unidades no estaban completas.]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 132 (carta de un oficial del Ejército de las fronteras del Sur sobre Santomé, 23-XII-1855; El Dominicano, 29-XII-1855), p. 348 (pdf 498); lectura de imagen",
+     "cita_original": "Nuestras pérdidas son como siempre: nulas; las del enemigo, horrorosas.",
+     "traduccion": "[Contexto: ejemplo de relato de parte sin cifras: Santomé (22-XII-1855) se resume en «un número muy crecido de oficiales y soldados» muertos del enemigo (doc. 133, p. 349), sin efectivos.]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 155 (oficio de D. Mallol, Santiago, 27-I-1856, que transcribe el parte de Talanquera sobre la batalla de Sabana Larga del 24-I-1856), p. 389 (pdf 539); lectura de imagen",
+     "cita_original": "quedaron en nuestro poder un coronel, un comandante, infinitos prisioneros y además como 500 muertos",
+     "traduccion": "[Contexto: bajas haitianas en la acción de la columna de Hungría: «como 500 muertos» según el parte dominicano; dato de parte victoriosa, sin verificación.]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 155, p. 390 (pdf 540); lectura de imagen",
+     "cita_original": "Hemos calculado en más de mil los muertos en este sitio. [...] Lo que parece increíble es que entre muertos y heridos, los nuestros no llegan a 25.",
+     "traduccion": "[Contexto: Sabana Larga/Jácuba, 24-I-1856: parte dominicano: más de 1.000 haitianos muertos frente a menos de 25 bajas propias; el mismo texto admite que «se dudará en toda la República». Cifras de parte; no hay parte haitiano en el volumen.]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 157 (Mallol al Ministro de Guerra, Santiago, 28-I-1856), p. 394 (pdf 544); lectura de imagen",
+     "cita_original": "Por el último parte de Talanquera del 27, los prisioneros alcanzaban a 75.",
+     "traduccion": "[Contexto: 75 prisioneros haitianos (el doc. 156 de Alfáu, p. 392, da también «75 prisioneros cuya lista le acompaña»).]",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "doc. 158 (oficio de A. Alfáu al general Santana, 28-I-1856; AGN, Copiador de oficios del Ministerio de Guerra y Marina, núm. 5, ff. 33-34), p. 395 (pdf 545); lectura de imagen",
+     "cita_original": "Las noticias de Haití por San Tomas manifiestan la situación deplorable del ejército de Soulouque, a que muertos de cansancio y hambre y aniquilados por las grandes deserciones y fusilamientos, que por contenerlos hace Soulouque.",
+     "traduccion": "[Contexto: noticia de segunda mano (vía San Tomás) sobre el estado del ejército de Soulouque; sin cifras.]",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-128",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "F-0071",
+   "notas": "RESOLUCIÓN PARCIAL de F-0071 (la ficha registrada solo tiene la URL de una columna que devuelve 403): el PDF de la ADH abre con 200 (243 MB; imagen sin capa de texto) y se leyeron por imagen el índice (docs. 1-158) y 40 páginas con partes de guerra. Resultado cuantitativo principal: los partes dominicanos de Las Carreras (1849), Santomé (1855) y Sabana Larga (1856) NO dan efectivos de ninguno de los ejércitos; solo bajas de parte (Sabana Larga: >1.000 haitianos muertos, ≈500 en una acción, 60-75 prisioneros, <25 bajas propias) y la estructura (regimientos, batallones y divisiones, sin hombres). La Memoria del Ministro de Guerra de 14-II-1846 da la organización formal (9 regimientos de infantería, 2 de artillería, 1 de caballería, 10 buques) y el Mensaje de Santana de 31-I-1848 la carga del mantenimiento de tropas. Las cifras de los 24.000-30.000 haitianos (Hérard 1844) y de Soulouque (1849, 1855-56) no se encuentran en los partes dominicanos leídos [POR VERIFICAR en Madiou t. VIII, Ardouin t. XI y partes haitianos]. Nota: no se leyeron los docs. 7-35 (1844), 52-64 (1845, Beler) ni los docs. 75-77, 93, 106-109, 113, 130-131, 134-143, 145-154 que podrían traer cifras; quedan como lectura pendiente (las páginas pdf = impresa + 126 para pp. 224-231; +128 en p. 232; +130 en p. 237; +134 en pp. 258-272; +150 desde la p. 317). SESGO: edición de homenaje del régimen de Trujillo (1944) con documentos de 1846-1856 de parte dominicana; los textos de los partes son de las autoridades militares dominicanas de la época y sus cifras de enemigos muertos no tienen contrapartida haitiana en el volumen."
+  }
+ ]
+}
