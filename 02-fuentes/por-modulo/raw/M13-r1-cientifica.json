@@ -1,0 +1,3521 @@
+{
+ "lente": "cientifica",
+ "modulo": "M13",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 64,
+ "busquedas_pendientes": [
+  "Plant, Sugar and Modern Slavery (1987) cap. sobre el acuerdo de 1952: texto accesible con cifras por zafra",
+  "Báez Evertsz, Braceros haitianos en la República Dominicana (1986): cifras de braceros 1950-1960 y de repatriados de Cuba",
+  "Castor, Suzy: texto de 'Le massacre de 1937' y 'Migración y relaciones internacionales' (para atribuir 12.000 / 18.000-25.000)",
+  "Moya Pons, Manual de historia dominicana: pasaje sobre 1937 (18.000) con ed. y página",
+  "Balaguer, Memorias de un cortesano de la era de Trujillo (1988) p. 300 (17.000) / La palabra encadenada",
+  "Sáez, J. L., Los jesuitas en la República Dominicana vol. I (1936-1961), pp. 60-71 (30.000 haitianos en la parroquia de Dajabón)",
+  "Jiménez Sabater (1975) Más datos sobre el español de la República Dominicana; Lipski sobre /r/ en español dominicano y español haitiano",
+  "UN Demographic Yearbook 1951-1962 (cuadros de población por país de nacimiento de RD y Haití) en digitallibrary.un.org / unstats.un.org",
+  "Censo de 1935 (Dirección General del Censo Nacional) en archive.org / HathiTrust / ONE: volúmenes completos",
+  "FRUS 1937 vol. V (expediente 738.39): despachos de Norweb con estimaciones de muertos (el extracto local no los trae)",
+  "British Foreign Office FO 371 (1937): estimaciones del ministro británico en Puerto Príncipe (4.000-6.000)",
+  "Lundahl, Peasants and Poverty (1979) y Bulmer-Thomas (2012): exportaciones de café de Haití y de azúcar de RD 1930-1960",
+  "Wells, Tropical Zion (2009), Kaplan, Dominican Haven (2008), actas de Évian 1938: cifras de Sosúa y declaración del delegado dominicano",
+  "Ley 95 de 1939 y Ley de Migración 1343 de 1939 (Gaceta Oficial): texto y cuotas",
+  "Border of Lights Reader (Amherst College Press, 2021), capítulo de Turits y Derby: obtener el PDF por otra vía y buscar estudios de exploración física de lugares de enterramiento",
+  "Papers Past / Trove / NYT 1937: crónicas contemporáneas con cifras (12.000 el 21-XII-1937)"
+ ],
+ "lagunas": [
+  "Volúmenes censales originales: no se abrió ninguno (1920, 1935, 1950, 1960 de la Dirección General de Estadística; IHSI 1950 de Haití). La ONE devuelve 403 (Cloudflare) y el dominio ihsi.ht redirige a un sitio ajeno. Todas las cifras censales (28.258 / 52.657 / 18.772 o 19.193 / 29.500 haitianos; 13/19/68 % de 1935; 8.442 en siete provincias del Cibao) son de segunda mano. No se localizó ni siquiera una copia del censo de 1935 (Paulino 2001 tampoco).",
+  "Bernardo Vega, Trujillo y Haití (vols. I-II): no se pudo leer; el cálculo 8.442 + 3.000 - 6.150 = 5.292 (rango 4.000-6.000) y las cifras de 1937 de Vincent, Jan y NYT llegan solo a través de Herrera (2022). La cifra de 8.492 haitianos 'del censo de 1936' no se pudo trazar a una página abierta: solo existe 8.442 con desglose provincial que suma exactamente.",
+  "Cadeau 2022 (introducción y cap. 4), Roorda 1998 (cap. 5), Price-Mars 1953 vol. II (12.136 muertos y 2.419 heridos), Balaguer 1985 p. 300 (17.000), Sáez 1988 (30.000 en la parroquia de Dajabón), Jan 1967 y Cuello 1985: ninguna leída; las bases de las estimaciones de 12.000, 17.000, 20.000 y 12.168 (lista atribuida a Lescot) siguen sin trazar a su origen. El extracto PDF de Cambridge (assets.cambridge.org) no responde desde esta red (código 000).",
+  "Evidencia forense/arqueológica de 1937 (A-191): cinco búsquedas dirigidas (inglés y español: exhumación, fosa común, antropología forense, EAAF, restos hallados) no hallaron ningún estudio forense publicado. Sí hay: testimonios de tumbas improvisadas y cuerpos quemados (Paulino 2001), fosas 'previamente construidas' en Mao (Herrera 2022b), afirmación de que 'nunca se encontraron fosas comunes' (NPR 2017) y 'no han aparecido fosas gigantescas' (Cuello). La ausencia sigue [POR VERIFICAR] porque no se pudo leer el Border of Lights Reader (PDF abierto en Fulcrum/MUSE/OAPEN, pero con descarga bloqueada).",
+  "Pagos reales de la indemnización de 1938: el texto del acuerdo (LNTS 187) fija 750.000 USD con calendario de 250.000 al firmar y 100.000 cada 31 de enero desde 1939; FRUS 1938 confirma el primer pago de 250.000 (26-II-1938). Las cifras de lo efectivamente pagado discrepan (525.000: Turits, NPR; 550.000: Paulino/Crassweller, Mov. Socialista; 'no terminó de pagar': Álvarez Pina) y ninguna tiene primaria (Tesorería dominicana, archivos haitianos, FRUS 1939-1941 sin referencias).",
+  "Convenios de braceros: no se abrió el texto de ninguno (Gaceta Oficial 1952, 1959). Veras (2023-2024) afirma que de 1940 a 1952 la entrada fue clandestina, lo que contradice 'convenio de Lescot de 1941' de A-187; la cifra de 16.500 trabajadores bajo el acuerdo de 1952 (Gerdsmeier 1999) no tiene base declarada. No se encontraron cifras de braceros por zafra de 1952-1960 ni series del Consejo Estatal del Azúcar para el periodo.",
+  "Series económicas 1930-1961: la Maddison Project Database 2020 solo cubre a la RD desde 1950 y la brecha RD/Haití en 1950 es un rango (2,45 a 4,3 según el benchmark) y no un dato; no se pudieron abrir las series de Bulmer-Thomas (2012), de la CEPAL ni cuadros de exportaciones de café (Haití) y azúcar (RD) por año; solo la serie de exportaciones azucareras de LeGrand (1880-1950s) y datos de una compañía (Ozama, 1947).",
+  "Lingüística de la prueba del 'perejil' (A-170): no se encontró literatura de fonología (Jiménez Sabater 1975, citado por Turits; Lipski; Ortiz López) ni se pudo leer Derby (1994) ni Bêtes Noires (OAPEN 403). Solo hay el análisis acústico informal de Liberman (n = 2 grabaciones).",
+  "Sosúa y selección inmigratoria (A-185): no se abrieron Wells 2009, Kaplan 2008, las actas de Évian (julio de 1938) ni la Ley 95 de 1939 / ley de migración de 1939 (Gaceta Oficial); las cifras de refugiados discrepan (645 USHMM; ~700 The World; 750 sinopsis de Wells; 500 de máximo en 1941 según la JVL).",
+  "Frontera 1935-1936 (A-181): no se abrió el texto del Protocolo de revisión de 1936 ni del Tratado de 1929; solo el comunicado del acuerdo de 1935. Las cifras de territorio cedido son incompatibles entre sí (418,9 km²; 6.663 km²; 27.750/48.448 km²) salvo la reconciliación aritmética de unidades (tareas) propuesta en S57, aún sin verificar contra Vega.",
+  "Genética/ADN, arqueología, epidemiología y slavevoyages no aplican a 1930-1961; el estudio de Schurr et al. (2026) se localizó solo por fragmentos (UNIBE devuelve 403) y se cita como contraste de las categorías raciales censales (A-189), no como evidencia del periodo.",
+  "Encuestas de actitudes (LAPOP, Latinobarómetro), ENI-2012/2017, ENHOGAR: no aplican a M13 (pertenecen a M16)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "genocidio (de 1937)",
+   "tradicion": "académica internacional (Turits, Cadeau, Paulino); dominicana crítica (Herrera, Movimiento Socialista)",
+   "nota": "Término jurídico-histórico que el glosario aún no registra. La tradición oficial dominicana de la época hablaba de \"incidente\" entre nacionales de la frontera (telegrama de Trujillo del 15-XI-1937) y de \"sucesos de la frontera\"; \"limpieza étnica\" (Herrera 2022b; Paulino) y \"masacre\" son alternativas. Ir al glosario con nombre descriptivo \"matanza de 1937\" y anotar quién usa \"genocidio\"."
+  },
+  {
+   "termino": "dominicanización de la frontera",
+   "tradicion": "dominicana oficial (Peña Batlle 1942-43; Machado Báez, La dominicanización fronteriza, 1955)",
+   "nota": "Término del propio régimen para el plan posterior a 1937 (escuelas, colonias, iglesias, cambio de nombres); en la historiografía crítica se describe como \"nacionalización\" o \"campaña de control de la frontera\" (Paulino). No consta en el glosario."
+  },
+  {
+   "termino": "invasión pacífica",
+   "tradicion": "dominicana (Peña Batlle; documentos militares de 1937; discurso de Elías Piña)",
+   "nota": "Metáfora de la inmigración haitiana como amenaza demográfica; aparece en el oficio militar del 4-X-1937 (Herrera 2022b) y en Balaguer posterior. Cargado: no usar como descripción."
+  },
+  {
+   "termino": "cocolo",
+   "tradicion": "dominicana",
+   "nota": "Trabajador de las Antillas Británicas en los ingenios; desplazado después por los braceros haitianos (LeGrand 1996; Herrera 2022b). Puede ser peyorativo según el contexto."
+  },
+  {
+   "termino": "blanqueamiento (blanquear la raza) / \"neo-white civilization\"",
+   "tradicion": "dominicana (Vega, Diario Libre 2018); cancillería dominicana (FRUS 1938, Ortega Frier); crítica internacional",
+   "nota": "Política de promover inmigración blanca y de reducir la presencia negra; en 1938 la Legación de EE.UU. registra la expresión \"neo-white civilization\" (A-184). Distinguir la política migratoria (hecho) de su motivación (interpretación)."
+  },
+  {
+   "termino": "domínico-haitiano / haitianos étnicos",
+   "tradicion": "académica (Turits: \"ethnic Haitians\"; Herrera: \"domínico-haitianos\")",
+   "nota": "Categoría analítica para dominicanos de ascendencia haitiana y haitianos residentes de larga data; el glosario usa \"dominicanos de ascendencia haitiana\". Evitar \"haitianos\" a secas para las víctimas de 1937, pues muchas nacieron en RD (Turits)."
+  },
+  {
+   "termino": "tarea (unidad agraria dominicana)",
+   "tradicion": "dominicana",
+   "nota": "No es término cargado sino unidad de medida: 1 tarea = 628,86 m² (≈ 15,9 tareas por hectárea) [VERIFICADO: fragmento de búsqueda]. La confusión tareas/hectáreas explica probablemente la discrepancia 666.076 frente a 41.892 de las cifras de la cesión de 1936 (S57)."
+  },
+  {
+   "termino": "zapatazo",
+   "tradicion": "dominicana coloquial (Cuello 1985)",
+   "nota": "Cuello llama así a la matanza de 1937 (\"demostración de fuerza\" ante sectores conservadores); es la caracterización de una tesis, no una descripción."
+  }
+ ],
+ "fuentes": [
+  {
+   "ref": "S01",
+   "titulo": "Un mundo destruido, una nación impuesta: la masacre haitiana de 1937 en la República Dominicana (versión resumida en español del artículo de HAHR 82:3, 2002)",
+   "autor": "Turits, Richard Lee",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/191/178/360",
+   "urls_alternativas": [
+    "https://academiadominicanahistoria.org.do/wp-content/uploads/2019/12/CimientosdelDespotismo.pdf (solo la página de presentación de la ADH, 1 pág.; no contiene el libro)",
+    "https://muse.jhu.edu/article/12744/summary (HAHR 2002; devuelve verificación anti-bot, no se abrió)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo premiado (Premio Robertson, según el registro del proyecto) de un historiador con entrevistas de campo (1987-1988) y archivo (AGN, NARA RG 84), con aparato crítico completo; la cifra de 15.000 es estimación suya y no cómputo.",
+   "proveniencia": "Richard Turits (Univ. de Chicago, luego Michigan y William & Mary), versión resumida en Estudios Sociales 133 (jul.-sep. 2003, Centro Bonó, Santo Domingo) del artículo publicado en Hispanic American Historical Review 82:3 (2002). Basada en entrevistas de 1987-1988 con Lauren Derby a ambos lados de la frontera, en el AGN (Secretaría de Agricultura) y en los Record Groups de los Archivos Nacionales de EE.UU. Interés: desmontar la tesis del antihaitianismo transhistórico; su marco (genocidio fundacional de una nación étnica) es una interpretación que otros discuten.",
+   "extractos": [
+    {
+     "ubicacion": "p. 78 (pdf 2); n. 2",
+     "cita_original": "No es posible saber con exactitud cuántos fueron asesinados, pero no hay duda de que el número estaba en los miles. La cifra convencional de muertos dada en la República Dominicana es de 17,000; ver BALAGUER, JOAQuíN (1985), p. 300.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-167",
+      "A-168",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 78 (pdf 2); n. 2",
+     "cita_original": "Un estimado más alto, de al menos 20,000, se obtiene al restar los 10,000 haitianos étnicos que se afirma cruzaron hacia Haití durante y después de la masacre, de los 30,000 que, según el estimado de un misionero católico, residían para 1936 en la parroquia de Dajabón",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 78 (pdf 2); n. 2",
+     "cita_original": "el P. Émile Robert y otro sacerdote recogieron entre los refugiados los nombres de 2,130 personas asesinadas, si bien sólo pudieron entrevistar a un pequeño grupo de los que escaparon",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 78 (pdf 2); n. 2",
+     "cita_original": "Cuando Lauren Derby y yo hablamos en Guadalupe con el Padre Robert, en 1988, estimaba que por lo menos 15,000 personas tuvieron que haber sido ultimadas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "p. 82 (pdf 6)",
+     "cita_original": "En la frontera dominicana previa al 1937, luego de numerosas generaciones de inmigración haitiana y de su interacción con residentes dominicanos, se había conformado todo un mundo bicultural",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177",
+      "A-178"
+     ]
+    },
+    {
+     "ubicacion": "p. 82 (pdf 6)",
+     "cita_original": "En efecto, un sinnúmero de habitantes atravesaba la frontera repetidamente en el transcurso de un solo día",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. 82 (pdf 6)",
+     "cita_original": "Tal es el caso de los niños haitianos étnicos que iban a Haití para asistir a la escuela, cruzaban de nuevo a la República Dominicana para el almuerzo, retornaban después a la escuela en Haití por la tarde",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177"
+     ]
+    },
+    {
+     "ubicacion": "p. 94 (pdf 18)",
+     "cita_original": "Más que una táctica genuina para identificar a los haitianos, esta prueba era un pretexto, un simulacro de confirmación",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-170"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (pdf 17)",
+     "cita_original": "Los haitianos étnicos con profundas raíces en la frontera dominicana pronunciaban la palabra con fluidez y de un modo generalmente indistinguible del de los dominicanos étnicos del área",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-170"
+     ]
+    },
+    {
+     "ubicacion": "p. 94 (pdf 18)",
+     "cita_original": "Fueron oficiales locales los que aparentemente decidieron quiénes serían ejecutados, al indicar a la Guardia donde vivían los \"haitianos\" -sin que importara su lugar de nacimiento- y guiar a los soldados a sus casas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172"
+     ]
+    },
+    {
+     "ubicacion": "p. 96 (pdf 20)",
+     "cita_original": "Durante la masacre, casi ninguno de los más de 20,000 trabajadores haitianos en los ingenios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 96 (pdf 20)",
+     "cita_original": "Ni la masacre misma, ni ninguna otra medida oficial, redujo alguna vez la población de trabajadores azucareros haitianos en el país (a diferencia de Cuba, donde, en ese mismo período de depresión global y alto desempleo, miles de braceros haitianos fueron expulsados por Batista de las plantaciones azucareras",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "p. 90 (pdf 14)",
+     "cita_original": "En 1936, después de 250 años de conflictos, los dos estados finalmente resolvieron la disputada demarcación de la frontera",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 90 (pdf 14); n. 31",
+     "cita_original": "Según el erudito Bernardo Vega, en retribución al presidente Haitiano Sténio Vincent por haber aceptado no acoger a los opositores exilados de la dictadura, Trujillo cedió a través del Tratado de 1936 una parte substancial del territorio dominicano (41,892 hectáreas) que habia sido asignada tentativamente al primero en virtud del acuerdo de 1929",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "p. 96 (pdf 20)",
+     "cita_original": "Tras los acontecimientos, el presidente haitiano aseveró a oficiales norteamericanos, \"No había ninguna cuestión objeto de discusión entre ambos gobiernos. El acuerdo era perfecto, las relaciones eran excelentes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "p. 79 (pdf 3); n. 5",
+     "cita_original": "Así, en un censo de 1935, 13% de la población fue registrada como \"blanca\", 19% \"negra\" y 68% \"mestiza\". Ver PRICE-MARS, JEAN (1958), p. 181",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-166",
+    "A-167",
+    "A-168",
+    "A-169",
+    "A-170",
+    "A-172",
+    "A-177",
+    "A-178",
+    "A-181",
+    "A-186",
+    "A-189",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0174",
+   "notas": "Texto completo leído (34 págs. pdf; pág. impresa = pdf + 76). El estimado de 15.000 es de Turits (historia oral + archivo); en el mismo artículo atribuye 17.000 a Balaguer (1985, p. 300), un mínimo de 20.000 al cálculo residual de Sáez (1988, pp. 60 y 71) y 2.130 nombres recogidos en Ouanaminthe por el P. Émile Robert. La cifra 13/19/68 % del censo de 1935 la cita a través de Price-Mars (1958, p. 181), Lyonnet (1955, p. 191) y Larrazábal Blanco (1975, p. 184), no del volumen censal. Las 41.892 ha cedidas en 1936 se atribuyen a Vega (vol. 1, pp. 224-232) y chocan con las 666.076 que Paulino 2001 cita de Vega (posible confusión de unidades hectáreas/tareas: [POR VERIFICAR])."
+  },
+  {
+   "ref": "S02",
+   "titulo": "Historias de terror y los terrores de la historia: la masacre haitiana de 1937 en la República Dominicana",
+   "autor": "Derby, Robin L. H.; Turits, Richard",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/442/428/855",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Primer artículo de la pareja Derby-Turits tras su trabajo de campo, con aparato crítico, pero anterior a la depuración de cifras de 2002.",
+   "proveniencia": "Artículo en Estudios Sociales 92 (abr.-jun. 1993, Centro Bonó), traducido del inglés por Eugenio Rivas y Mario Alberto Torres. Los autores (Univ. de Chicago) habían hecho 19 meses de investigación en la isla. Sirve para fechar la evolución de la estimación: en 1993 hablan de 12.000-25.000; en 2002 Turits propone unos 15.000.",
+   "extractos": [
+    {
+     "ubicacion": "p. 66 (pdf 2)",
+     "cita_original": "se justificó el genocidio por parte del Estado de aproximadamente 12,000 - 25,000 campesinos de origen haitiano, cuyas familias habían vivido en paz por generaciones a todo lo largo de las provincias fronterizas de la República Dominicana. La matanza duró cinco días y fue llevada a cabo casi totalmente a machetazos por el ejército dominicano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165",
+      "A-167",
+      "A-168",
+      "A-169"
+     ]
+    },
+    {
+     "ubicacion": "p. 66 (pdf 2)",
+     "cita_original": "nos revelan que en realidad había poco antihaitianismo en la República Dominicana en el momento de la masacre. Más aún, estos sentimientos no prevalecían en las provincias fronterizas, sino que se limitaban a algunos sectores intelectuales y a una pequeña élite blanca",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 66 (pdf 2); n. 1",
+     "cita_original": "Manuel A. Peña Batlle, El sentido de una política (Ciudad Trujillo: La Nación, 1942",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-167",
+    "A-168",
+    "A-169",
+    "A-179",
+    "A-180"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Texto leído solo en su introducción y notas iniciales (12 págs. pdf; pág. impresa = pdf + 64). La nota 1 fecha El sentido de una política de Peña Batlle en 1942 (La Nación); otras fuentes (Paulino 2001, Altagracia Espada 2004) dan 1943 para la edición y el 16-XI-1942 para el discurso: la inconsistencia de A-180 es de edición del folleto, no de la fecha del acto."
+  },
+  {
+   "ref": "S03",
+   "titulo": "Dominican Responses in the Aftermath of the 1937 Haitian Massacre (The Island Luminous, Part IX, slide 7)",
+   "autor": "Turits, Richard Lee",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part09-slide07.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/part09-slide05.html (Paulino, The 1937 Massacre)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto breve de divulgación académica del propio Turits (sin notas), útil por sintetizar cifras de pago, procesos y fechas con su firma.",
+   "proveniencia": "Proyecto The Island Luminous (Florida International University), serie de textos breves de especialistas sobre la historia de Haití; el de Turits resume su artículo de 2002. Sin aparato crítico; el año de publicación no figura en la página.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Between October 2 and October 8, 1937, the Dominican military killed with machete an estimated 15,000 Haitian immigrants and Dominicans of Haitian descent who had lived in the northwestern frontier region of the Dominican Republic for decades",
+     "traduccion": "Entre el 2 y el 8 de octubre de 1937 el ejército dominicano mató a machete a unos 15.000 inmigrantes haitianos y dominicanos de ascendencia haitiana que llevaban décadas en la región fronteriza noroeste.",
+     "afirmaciones": [
+      "A-165",
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Vincent prohibited public discussion of the massacre and refused to allow the church to perform masses for the dead",
+     "traduccion": "Vincent prohibió al principio la discusión pública de la matanza y no permitió que la Iglesia dijera misas por los muertos.",
+     "afirmaciones": [
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "accepted Trujillo's offer of $750,000 (of which only $525,000 was ever paid)",
+     "traduccion": "aceptó la oferta de Trujillo de 750.000 dólares (de los que solo se pagaron 525.000).",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "the Dominican government recognized \"no responsibility whatsoever\" for the killings",
+     "traduccion": "el gobierno dominicano no reconoció \"ninguna responsabilidad\" por las muertes.",
+     "afirmaciones": [
+      "A-172",
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "In November 1937, Trujillo had initiated a criminal investigation into the \"incidents\" in the frontier, which led by March to the conviction of dozens of Dominican civilians obligated to confess to killing 423 Haitians",
+     "traduccion": "En noviembre de 1937 Trujillo inició una investigación penal que llevó en marzo a la condena de decenas de civiles dominicanos obligados a confesar haber matado a 423 haitianos.",
+     "afirmaciones": [
+      "A-183",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "In the spring of 1938, Trujillo ordered a new campaign against \"Haitians,\" this time in the southern frontier. Over several months, thousands were forced to flee, and hundreds were killed",
+     "traduccion": "En la primavera de 1938 Trujillo ordenó una nueva campaña contra los \"haitianos\", esta vez en la frontera sur; miles huyeron y cientos fueron muertos.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-168",
+    "A-172",
+    "A-176",
+    "A-183",
+    "A-190",
+    "A-192"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Da 525.000 USD efectivamente pagados de 750.000 pactados; Paulino 2001 (citando a Crassweller 1966) da 550.000, y el texto del acuerdo (LNTS 187) fija un calendario de 250.000 al firmar más 100.000 cada 31 de enero desde 1939, lo que no produce 525.000 sin un pago parcial: la cifra de lo pagado sigue sin primaria. La cifra de 423 haitianos confesados en las condenas de marzo de 1938 es un dato aparte, útil para A-183 (no se pudo cotejar con el expediente judicial)."
+  },
+  {
+   "ref": "S04",
+   "titulo": "La cantidad de víctimas del genocidio de 1937 (Acento, columna de opinión)",
+   "autor": "Herrera, Rafael Darío",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-cantidad-de-victimas-del-genocidio-de-1937-9036506.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de un historiador dominicano con aparato mínimo (citas a Vega vols. I-II y a otros autores) que reproduce, sin cotejar con la fuente, el método de Vega y un listado de cifras por autor.",
+   "proveniencia": "Rafael Darío Herrera, historiador dominicano, publicado en Acento el 26-II-2022. Resume la historiografía de las cifras de 1937 apoyándose sobre todo en Bernardo Vega (Trujillo y Haití, vols. I y II). Interés: reivindicar el cálculo de Vega como el más certero de la historiografía dominicana; esa valoración es suya.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "El 7 de octubre el ministro norteamericano en Santo Domingo reportó varios cientos y al día siguiente más de 500 muertos, en tanto el 11 de octubre el agente consular de ese país en Cabo Haitiano más de 1,000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "Cinco días más tarde, el gerente del First National City Bank en Santo Domingo estableció la cifra de víctimas entre 1,300 y 1,400",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190",
+      "A-166"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "El 9 de diciembre de 1937 el presidente de Haití, Stenio Vincent, declaró a The New York Times y a Prensa Asociada que 8,000 haitianos habían sido asesinados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "el obispo de Cabo de Haitiano, Jean-Marie Jan, basándose en una lista de 1,093 nombres confeccionada por un sacerdote y la de otro sacerdote que recopiló 1,037 nombres con sus edades, consideró en 3,000 las víctimas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "El 21 de diciembre el The New York Times publicó que 12,000 haitianos habían sido asesinados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "El sobresaliente historiador haitiano Jean Price Mars en 1953 (12,136 más 2,419 heridos), el exiliado antitrujillista Germán Emilio Ornes en 1958 (15,000), el exiliado antitrujillista Noel Henríquez en 1960 (20,000)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "Joaquín Balaguer en 1975 (17,000) y Frank Moya Pons en 1977 (18,000). La socióloga dominicana Lil Despradel ofreció la estrambótica cifra de 35,000 víctimas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "Para la intelectual haitiana Susy Castor en 1978 (entre 18,000 y 25,000), Franklin Franco en 1979 (cerca de 10,000), Danilo de los Santos y Valentina Peguero en 1983 (entre 12,000 y 25,000), el sociólogo dominicano Franc Báez Evertsz (más de 12,000) y Roger Dorsinville en 1986 (25,000)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-167",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 10",
+     "cita_original": "Un informe del Servicio de Inteligencia Militar norteamericano, publicado en los primeros días de diciembre, establecía un rango entre 5,000 y 6,000 víctimas. El mismo se basó en informaciones proporcionadas por estadounidenses residentes en República Dominicana, tales como cónsules, banqueros, diplomáticos e inspectores de aduanas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 12",
+     "cita_original": "El 17 de diciembre de 1937 los directores de Estadística, Vicente Tolentino, y del Censo, Mario Fermín Cabral, publicaron de nuevo la población residente en las siete provincias del Cibao, según datos del censo de 1935",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "párr. 12",
+     "cita_original": "Dicha población haitiana ascendía a 8,442, y al 13 de mayo de 1935 se hallaba distribuida del siguiente modo: Montecristi (3,816), Santiago (1,255), Puerto Plata (2,313), Moca (112), La Vega (284), Duarte (301) y Samaná (361)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "párr. 13",
+     "cita_original": "Para realizar un estimado de las víctimas del genocidio, el historiador Bernardo Vega toma como referencia los 8,442 haitianos registrados por el censo de 1935. Asume, que 3,000 haitianos de los 30,000 braceros deportados de Cuba en 1937 ingresaron al país, a los cuales adiciona los del censo supraindindicado para un total de 11,442",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 13",
+     "cita_original": "A esta última cantidad le resta 6,150 que incluye 4,200 haitianos que escaparon a la matanza e ingresaron a Haití por Juana Méndez",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 13",
+     "cita_original": "De esta manera, los asesinados en Santo Domingo totalizarían 5,292 (11,442 menos 6,150)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-166",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "párr. 9 (cita de Crassweller, 1968, p. 189)",
+     "cita_original": "No hay ningún fundamento para hablar de la matanza de 10,000 haitianos. Me consta que los soldados dominicanos permanecieron al margen de esos disturbios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-166",
+    "A-167",
+    "A-168",
+    "A-172",
+    "A-188",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Fuente de segunda mano para todos los números: no se pudo abrir Vega. Da 8.442 haitianos en siete provincias del Cibao (censo de 1935, publicado el 17-XII-1937), cifra que suma exactamente con el desglose provincial (3.816+1.255+2.313+112+284+301+361) y que choca con las 8.492 que resúmenes de búsqueda atribuyen a Vega (páginas de El Caribe y Dominican Today que no pude abrir: [POR VERIFICAR]). Atribuye a Susy Castor 18.000-25.000 en 1978, no 12.000 o más como recoge A-167: la discrepancia queda abierta. Las cifras de Price-Mars son de 1953."
+  },
+  {
+   "ref": "S05",
+   "titulo": "La ejecución del genocidio de haitianos y domínico-haitianos de 1937 (I) (Acento, columna de opinión)",
+   "autor": "Herrera, Rafael Darío",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-ejecucion-del-genocidio-de-haitianos-y-dominico-haitianos-de-1937-i-9025896.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de historiador con citas a archivo (AGN, oficio del 4-X-1937), Sáez, R. Martínez y Cuello, pero sin aparato de notas completo y con una inconsistencia numérica interna.",
+   "proveniencia": "Rafael Darío Herrera, publicado el 22-I-2022 en Acento. Primera de una serie que reconstruye la ejecución de la matanza a partir de documentos militares dominicanos (oficio del teniente coronel Manuel Emilio Castillo del 4-X-1937) y de testimonios.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "el discurso pronunciado por Trujillo en la Casa del Pueblo de Dajabón, el 2 de octubre de 1937",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "entre mayo y junio de 1937 se repatriaron más de 8,000 haitianos, para lo cual se dispuso de una flota de camiones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "La matanza no afectó a los braceros haitianos cañeros residentes en los bateyes adyacentes a los ingenios azucareros, la mayoría de ellos propiedad de empresarios norteamericanos, aunque fueron sometidos a estrictos controles de entrada y salida del país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "para la zafra de 1937-1938 los ingenios encontraron escollos para la contratación de braceros debido a que Trujillo redujo de 70 a 40 el porcentaje de trabajadores extranjeros, haitianos y cocolos, que estos podían emplear, como \"medida policial y para protección de la raza",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186",
+      "A-185"
+     ]
+    },
+    {
+     "ubicacion": "sección \"La matanza en la provincia de Montecristi\"",
+     "cita_original": "Según el censo de 1920, en la provincia de Montecristi residían 10,972 haitianos, 5,779 hombres y 5,193 mujeres, mientras el censo de 1935 registró un total de 8,442 haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "sección \"La matanza en la provincia de Montecristi\"",
+     "cita_original": "Personas de la época atestiguan que los cadáveres de los haitianos asesinados los transportaba en una carreta el sepulturero de la ciudad, Abraham Minier, quien los depositaba en las fosas previamente construidas por personas reclutadas por el Ejército, a poca distancia de la ciudad",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-191"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-177",
+    "A-182",
+    "A-186",
+    "A-188",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Contiene una inconsistencia: aquí dice que el censo de 1935 registró 8.442 haitianos en la provincia de Montecristi, pero en la columna \"La cantidad de víctimas\" (S04) esa cifra es la suma de siete provincias del Cibao y Montecristi aporta 3.816. Da 10.972 haitianos en Montecristi en el censo de 1920 (sin ruta al volumen censal). Dice que el discurso de Trujillo en la Casa del Pueblo de Dajabón fue el 2-X-1937 y que la matanza se inició el 24-IX-1937; no reproduce el texto del discurso."
+  },
+  {
+   "ref": "S06",
+   "titulo": "Las posibles causas del genocidio de 1937 (Acento, columna de opinión)",
+   "autor": "Herrera, Rafael Darío",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/las-posibles-causas-del-genocidio-de-1937-9021456.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Repaso historiográfico con atribuciones a obras concretas (Moya Pons, Vega, Cuello, Báez Evertsz, Silié, Turits) de un historiador del tema, útil como índice de posiciones y no como evidencia propia.",
+   "proveniencia": "Rafael Darío Herrera, Acento, 8-I-2022. Resume las posiciones sobre los motivos de 1937 y añade la suya (factores múltiples; control absoluto del territorio).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "inspirado no se sabe por qué, Trujillo viajó a Dajabón a principios de octubre de 1937 y allí pronunció un discurso señalando que esa ocupación de los haitianos de las tierras fronterizas no debía continuar, ordenando luego que todos los haitianos que hubiera en el país fueran exterminados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-182",
+      "A-171"
+     ]
+    },
+    {
+     "ubicacion": "párr. 8",
+     "cita_original": "la matanza de haitianos se hallaba enmarcada en el proceso de \"repulsión de la fuerza de trabajo migrante en momentos de depresión\" de la industria azucarera de El Caribe que determinó la repatriación de 70,000 braceros haitianos desde Cuba a fines de la década de 1920",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-174"
+     ]
+    },
+    {
+     "ubicacion": "párr. 10",
+     "cita_original": "con la matanza Trujillo pretendió \"establecer nuevas reglas de juego frente a las autoridades haitianas y un nuevo símbolo de nacionalismo en la República Dominicana, más que el de la eliminación física de todos los inmigrantes haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-173",
+      "A-171"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-171",
+    "A-173",
+    "A-174",
+    "A-182"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Atribuye a Franc Báez Evertsz (1986) la repatriación de 70.000 braceros haitianos desde Cuba a fines de los años veinte, cifra no coincidente con los 25.000-30.000 expulsados de Cuba en 1937 que otras fuentes citan (Vega, vía Herrera 2022a): [POR VERIFICAR] el periodo y la base. Moya Pons citado de su Manual de historia dominicana (1984), edición por confirmar."
+  },
+  {
+   "ref": "S07",
+   "titulo": "Antes de la matanza del 1937, Trujillo se empecinó en \"blanquear\" la raza (Diario Libre)",
+   "autor": "Pereyra, Emilia",
+   "anio": "2018",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/revista/cultura/antes-de-la-matanza-del-1937-trujillo-se-empecino-en-blanquear-la-raza-LO10961749",
+   "urls_alternativas": [
+    "https://diariolibre.com/revista/cultura/2023/07/23/trujillo-intento-blanquear-la-raza-antes-matanza-del-1937/2411579 (reedición de 2023, texto casi idéntico)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota periodística que resume a Vega (vol. II) y a Juan Manuel García sin dar páginas; sirve para localizar afirmaciones, no como prueba.",
+   "proveniencia": "Emilia Pereyra, Diario Libre, 9-X-2018 (reeditada el 23-VII-2023). Resume Trujillo y Haití vol. II de Bernardo Vega, De la matanza de los haitianos a la sentencia 168-13 (J. M. García) y La Era de Trujillo (Virgilio Álvarez Pina). Es la URL registrada en F-0077 (Vega); la obra de Vega sigue bajo derechos y no se leyó.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "En el 1932 Trujillo deportó a varios miles de haitianos, pero estos no eran braceros al servicio de los ingenios. Con esta medida pretendía reducir la presencia de extranjeros ilegales en el país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165",
+      "A-174"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "en el 1934, el congreso aprobó una ley que estimulaba la inmigración de campesinos blancos, que serían ubicados en la frontera, pero pocas personas respondieron al llamado, mientras aumentaban los haitianos residentes en el país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-174",
+      "A-185"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Igualmente, se sabe que braceros al servicio de los ingenios no fueron afectados, aunque muchos haitianos de las zonas aledañas sí fueron sacrificados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Sin embargo, de acuerdo a lo expresado por Virgilio Álvarez Pina, antiguo colaborador del dictador, en su libro Era de Trujillo, narraciones de don Cucho, el tirano no terminó de pagar la indemnización",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-176"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-174",
+    "A-176",
+    "A-185",
+    "A-186"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Atribuye a Álvarez Pina que Trujillo \"no terminó de pagar la indemnización\" (A-176). La cifra \"65 de 105 alumnos degollados\" viene de García (1983) vía periodista: dato micro sin contraste."
+  },
+  {
+   "ref": "S08",
+   "titulo": "Matanza de haitianos del 37, un \"zapatazo\" de Trujillo (entrevista a J. I. Cuello sobre Documentos del conflicto domínico-haitiano de 1937)",
+   "autor": "Diario Libre (redacción); entrevistado: Cuello, José Israel",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/actualidad/matanza-de-haitianos-del-37-un-zapatazo-de-trujillo-EDDL830141",
+   "urls_alternativas": [
+    "https://www.diariolibre.com/noticias/matanza-de-haitianos-del-37-un-zapatazo-de-trujillo-EDDL830141"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Entrevista periodística a Cuello (editor de la compilación documental de 1985): vale como testimonio de su tesis, no como edición de los documentos; el año de publicación no aparece en la extracción.",
+   "proveniencia": "Diario Libre; entrevista a José Israel Cuello, editor de Documentos del conflicto domínico-haitiano de 1937 (1985) y de la novela de Freddy Prestol Castillo. Cuello sostiene que 1937 fue un \"zapatazo\" de Trujillo (A-173). Fecha de publicación [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "considera que la matanza fue \"un zapatazo\" de Trujillo para quitarse presiones que hacían sectores intelectuales y conservadores del país, luego de la firma en 1936 del \"Protocolo del Tratado del 29\"",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-173"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Los conservadores dicen 3,000 y Trujillo 18,000. Cuello, considera que aunque no han aparecido fosas gigantescas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-168",
+      "A-191",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Cuello dice que la matanza no duró más de dos o tres días, y sitúa su acontecer entre el 8 y el 10 de octubre",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-168",
+    "A-173",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0100",
+   "notas": "La obra de Cuello no se pudo leer. La frase \"los conservadores dicen 3.000 y Trujillo 18.000\" es del periodista, sin base. Cuello acepta que no hay fosas gigantescas y que la matanza no duró más de 2-3 días (8-10 de octubre)."
+  },
+  {
+   "ref": "S09",
+   "titulo": "Birth of a Boundary: Blood, Cement, and Prejudice and the Making of the Dominican-Haitian Border, 1937-1961 (tesis doctoral)",
+   "autor": "Paulino, Edward Ramon",
+   "anio": "2001",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://d.lib.msu.edu/etd/30931/OBJ/download",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral (Michigan State University, aprobada el 15-VIII-2001) con archivo (AGN, FDR Library, NARA), entrevistas en la frontera y bibliografía; precedente del libro Dividing Hispaniola (2016); el escaneo OCR tiene errores de espacios y acentos.",
+   "proveniencia": "Edward Paulino (dominicano-estadounidense, hoy John Jay College/CUNY), Michigan State University. Combina archivo dominicano y estadounidense con entrevistas en la frontera (1999-2000). Interés declarado: documentar a las víctimas, que según él han quedado invisibles en la historia dominicana, y mostrar que la frontera, y no la capital, moldeó la nación dominicana.",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 101; cap. 3, p. 84",
+     "cita_original": "repatriated and killed approximately 20,000 Haitian men, women, and children",
+     "traduccion": "repatrió y mató a unos 20.000 hombres, mujeres y niños haitianos.",
+     "afirmaciones": [
+      "A-169",
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 102; cap. 3, p. 85, n. 2",
+     "cita_original": "According to Vega, from May 1937 and the several subsequent months prior to the massacre, 8,000 Haitians were deported to Haiti.",
+     "traduccion": "Según Vega, desde mayo de 1937 y en los meses siguientes previos a la matanza, 8.000 haitianos fueron deportados a Haití.",
+     "afirmaciones": [
+      "A-165",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 102; cap. 3, p. 85",
+     "cita_original": "counted 28,258 Haitians in the entire country",
+     "traduccion": "contó 28.258 haitianos en todo el país.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 113; cap. 3, p. 96",
+     "cita_original": "who had increased from 2,125 men in 1929 to 3,029 men in 1938 out of an overall population of 1,479,417",
+     "traduccion": "que había pasado de 2.125 hombres en 1929 a 3.029 en 1938 sobre una población total de 1.479.417.",
+     "afirmaciones": [
+      "A-165",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 113; cap. 3, p. 96, n. 26",
+     "cita_original": "At the time of writing, I was not able to locate the 1935 census. However, the 1950 census does offer the statistical population figure for 1935: 1,479,417.",
+     "traduccion": "Cuando escribía no pude localizar el censo de 1935. Sin embargo, el censo de 1950 sí da la cifra de población de 1935: 1.479.417.",
+     "afirmaciones": [
+      "A-188",
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 114; cap. 3, p. 97",
+     "cita_original": "aside from the army's more than 3,000 soldiers, the government could count on a force of 10,000 men in the police force and a corps of civilian reserves",
+     "traduccion": "además de los más de 3.000 soldados del ejército, el gobierno podía contar con una fuerza de 10.000 hombres en la policía y un cuerpo de reservas civiles.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 109; cap. 3, p. 92",
+     "cita_original": "Leclerc still remembers where several graves hold the decomposed remains of hundreds of Haitians buried by soldiers and civilians.",
+     "traduccion": "Leclerc aún recuerda dónde varias tumbas guardan los restos descompuestos de cientos de haitianos enterrados por soldados y civiles.",
+     "afirmaciones": [
+      "A-191"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 110; cap. 3, p. 93",
+     "cita_original": "Many were buried in make-shift graves in remote and mountainous forest regions away from the gazing eyes of curious citizens.",
+     "traduccion": "Muchos fueron enterrados en tumbas improvisadas en regiones boscosas remotas y montañosas, lejos de la mirada de los ciudadanos curiosos.",
+     "afirmaciones": [
+      "A-191"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 139; cap. 3, p. 120",
+     "cita_original": "paying an indemnity of $750,000 to the Haitian government",
+     "traduccion": "pagando una indemnización de 750.000 dólares al gobierno haitiano.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 139; cap. 3, p. 120, n. 84 (cita a Crassweller 1966, p. 159)",
+     "cita_original": "This figure was reduced to $550,000 and was paid to Haitian officials. None of the Haitian victims or their families ever received direct monetary compensation for their suffering.",
+     "traduccion": "Esa cifra se redujo a 550.000 dólares y fue pagada a funcionarios haitianos. Ninguna de las víctimas haitianas ni sus familias recibió nunca compensación monetaria directa por su sufrimiento.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 96; cap. 2, p. 79, n. 22 (cita a Vega, Trujillo y Haití, p. 230)",
+     "cita_original": "gave the Haitian government 666,076 hectares lands that Horacio Vésquez had, in 1929, succeeded in having the Haitians",
+     "traduccion": "dio al gobierno haitiano 666.076 hectáreas (sic: posible error de unidad, ver notas) de tierras que Horacio Vásquez había logrado en 1929 que los haitianos reconocieran como dominicanas.",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 248; cap. 5, p. 225",
+     "cita_original": "But anti-Haitianism, as official government policy, did not exist.",
+     "traduccion": "Pero el antihaitianismo como política oficial del gobierno no existía.",
+     "afirmaciones": [
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 191; cap. 5, p. 168 (cita a Machado Báez, La era de Trujillo, p. 232)",
+     "cita_original": "the number of border schools had risen to 251 and there was a total of 305 teachers for a student population of 20,552",
+     "traduccion": "el número de escuelas fronterizas había subido a 251 y había 305 maestros para una población estudiantil de 20.552.",
+     "afirmaciones": [
+      "A-180",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 191; cap. 5, p. 168",
+     "cita_original": "By 1941 the number of schools throughout the border that were reported by the government increased to approximately 185, out of a total of 959 schools in the rest of the country.",
+     "traduccion": "En 1941 el número de escuelas en toda la frontera que el gobierno declaraba había subido a unas 185, frente a 959 en el resto del país.",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 249; cap. 5, p. 226",
+     "cita_original": "Trujillo's official policy to Dominicanize the border was crystallized in a famous speech given by Batlle on November 16, 1942",
+     "traduccion": "La política oficial de Trujillo de dominicanizar la frontera se cristalizó en un famoso discurso de Peña Batlle el 16 de noviembre de 1942.",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 249; cap. 5, p. 226, n. 33",
+     "cita_original": "Manuel A. Pena Batlle, El sentido de una politica (Ciudad Trujillo: La Nacion, 1943)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-176",
+    "A-179",
+    "A-180",
+    "A-181",
+    "A-186",
+    "A-188",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Texto OCR de 304 págs. pdf, leído en las páginas citadas; la paginación impresa difiere del pdf en 17-23 págs. Da: más de 20.000 muertos (resumen, p. 5 pdf); ejército de 2.125 hombres (1929) a 3.029 (1938), más 10.000 policías y reservistas civiles (citando a Peguero 1993, pp. 194, 196, 230); indemnización 750.000 reducida a 550.000 (citando a Crassweller 1966, p. 159), no 525.000; no pudo localizar el censo de 1935 y toma 1.479.417 del censo de 1950; discurso de Peña Batlle el 16-XI-1942 en Elías Piña y folleto de 1943. Cita a Vega: 666.076 \"hectáreas\" cedidas en 1936 (contra 41.892 ha de Turits: [POR VERIFICAR] unidades). Da el primer censo dominicano como de 1923 (año de la edición; el censo es de 1920). Aporta testimonios de cadáveres quemados y enterrados en fosas improvisadas, sin excavación forense."
+  },
+  {
+   "ref": "S10",
+   "titulo": "Bearing Witness to a Modern Genocide (ReVista, Berkeley Review of Latin American Studies)",
+   "autor": "Paulino, Edward",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://clas.berkeley.edu/sites/default/files/publications/brlas2016-paulino.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo breve (3 págs.) de especialista, sin notas; recoge una cita de Trujillo sin indicar la fuente documental.",
+   "proveniencia": "Edward Paulino, ReVista (Berkeley Review of Latin American Studies, 2016), sobre el proyecto Border of Lights. La cita de Trujillo del 2-X-1937 figura como pie de una obra de arte (foto de Paige Tripp), traducida al inglés, sin remitir al texto original.",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 1; p. 51 (pie de ilustración)",
+     "cita_original": "And we have already begun to remedy the situation. Three hundred Haitians are now dead in [the town of] Bánica. This remedy will continue.",
+     "traduccion": "Y ya hemos comenzado a remediar la situación. Trescientos haitianos han muerto ya en Bánica. Este remedio continuará.",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 1; p. 51",
+     "cita_original": "From late September through October 1937, an estimated 15,000 Haitian men, women, and children were systematically murdered",
+     "traduccion": "Desde fines de septiembre hasta octubre de 1937 fueron asesinados sistemáticamente unos 15.000 hombres, mujeres y niños haitianos.",
+     "afirmaciones": [
+      "A-165",
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 2; pp. 52-53",
+     "cita_original": "the policy was clearly not meant to de-Haitianize the nation, because the Dominican government continued to import thousands of workers from Haiti as sugarcane cutters during this time",
+     "traduccion": "la política claramente no pretendía deshaitianizar la nación, porque el gobierno dominicano siguió importando miles de trabajadores de Haití como cortadores de caña durante esos años.",
+     "afirmaciones": [
+      "A-186"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-168",
+    "A-182"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "La cita aparece como traducción inglesa sin fuente archivística; sigue sin localizarse el texto original del discurso (A-182) ni el despacho de Norweb que Paulino dice haber hallado en la FDR Library."
+  },
+  {
+   "ref": "S11",
+   "titulo": "Informal Resistance on a Dominican Sugar Plantation during the Trujillo Dictatorship (Ecos, UASD, año 4, n.º 5)",
+   "autor": "LeGrand, Catherine C.",
+   "anio": "1996",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/81/31/37",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia laboral basada en los informes operativos de la Ozama Sugar Company (AGN, legajos de la Secretaría de Trabajo) y en entrevistas; sus cifras de empleo son de una sola empresa, no de todo el sector.",
+   "proveniencia": "Catherine C. LeGrand (versión en inglés publicada en Ecos, revista de la UASD, 1996), basada en los archivos de la compañía canadiense Ozama Sugar Company (B.C. Sugar) conservados en el AGN. Interés: mostrar a los cortadores como agentes y no solo como víctimas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 154 (pdf 14)",
+     "cita_original": "the migration of Haitians slowed after the Dominican army killed between 10,000 and 20,000 Haitians, mainly along the border, in October 1937",
+     "traduccion": "la migración de haitianos se redujo tras el asesinato por el ejército dominicano de entre 10.000 y 20.000 haitianos, sobre todo en la frontera, en octubre de 1937.",
+     "afirmaciones": [
+      "A-167",
+      "A-168",
+      "A-169",
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 154 (pdf 14); n. 20",
+     "cita_original": "Only in 1952 was the first bilateral agreement signed between Haití and the Dominican Republic allowing the legal importation ofHaitian cane cutters for the Dominican harvest",
+     "traduccion": "Solo en 1952 se firmó el primer acuerdo bilateral entre Haití y la República Dominicana que permitió la importación legal de cortadores de caña haitianos para la zafra dominicana.",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "p. 154 (pdf 14)",
+     "cita_original": "Throughout the 1940s and 1950s, labor shortages plagued the Ozama Sugar Company and, judging from the fragmentary information that exists, the Dominican sugar sector in general",
+     "traduccion": "Durante los años cuarenta y cincuenta la escasez de mano de obra afectó a la Ozama Sugar Company y, a juzgar por la información fragmentaria disponible, al sector azucarero dominicano en general.",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 153 (pdf 13)",
+     "cita_original": "approximately 50 percent of field workers were Haitian citizens",
+     "traduccion": "aproximadamente el 50 por ciento de los trabajadores de campo eran ciudadanos haitianos (sondeo informal de la compañía en 1947, fuera de zafra).",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 153 (pdf 13); n. 18",
+     "cita_original": "the company employed 611 Haitians and 107 people from the British Antilles",
+     "traduccion": "la compañía empleaba a 611 haitianos y 107 personas de las Antillas Británicas (informe operativo del 10-VIII-1947).",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 146 (pdf 6)",
+     "cita_original": "Annual sugar exports rose precipitiously from 7,000 tons in 1880 to 100,000 tons in 1914, 300,000 tons in 1925, 400,000 tons in the mid-1940s, and 550,000 tons in the 1950s.",
+     "traduccion": "Las exportaciones anuales de azúcar subieron de 7.000 toneladas en 1880 a 100.000 en 1914, 300.000 en 1925, 400.000 a mediados de los cuarenta y 550.000 en los cincuenta.",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 191 (pdf 51)",
+     "cita_original": "In the early 1950s, competition for labor was exacerbated when Trujillo himself became a major sugar producer",
+     "traduccion": "A comienzos de los cincuenta la competencia por la mano de obra se agravó cuando el propio Trujillo se convirtió en un gran productor de azúcar.",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-186",
+    "A-187"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Pág. impresa = pdf + 140. Da el rango 10.000-20.000 haitianos muertos en 1937 (nota 20, citando a Vega vol. 1, Derby-Turits 1993, Derby 1994 y Roorda 1996) y la afirmación de que solo en 1952 hubo un acuerdo bilateral que permitió la importación legal de cortadores (cita a Plant, Sugar and Modern Slavery, pp. 2 y 24). Datos de una compañía: en 1947, 611 haitianos y 107 de las Antillas Británicas; ~50 % de los trabajadores de campo haitianos. Las exportaciones de azúcar (7.000 t en 1880; 550.000 t en los años cincuenta) se citan sin nota inmediata."
+  },
+  {
+   "ref": "S12",
+   "titulo": "Etnicidad y el futuro de las relaciones dominico-haitianas (Estudios Sociales 94)",
+   "autor": "Vega, Bernardo",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/428/414/827",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de síntesis del autor de la serie documental Trujillo y Haití, sin notas sobre las cifras que da; su valor es fijar la posición de Vega en 1993 (varios miles, no 17.000).",
+   "proveniencia": "Bernardo Vega (economista, diplomático e historiador documentalista, Santo Domingo), Estudios Sociales 94 (oct.-dic. 1993, Centro Bonó), sobre etnicidad y relaciones con Haití. Interés: presentar un balance para el público dominicano en el contexto del debate sobre la inmigración.",
+   "extractos": [
+    {
+     "ubicacion": "p. 32 (pdf 4)",
+     "cita_original": "Durante los primeros siete años de la dictadura de Trujillo (1930-1937), éste llevó a cabo una política oficial de gran amistad hacia Haití. No se permitía atacar al pueblo haitiano, o expresar sentimientos antihaitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 32 (pdf 4)",
+     "cita_original": "La sorprendente matanza de varios miles de haitianos, ordenada por Trujillo en octubre de 1937, provocó un súbito giro en las relaciones entre ambos países",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-165",
+      "A-179"
+     ]
+    },
+    {
+     "ubicacion": "p. 32 (pdf 4)",
+     "cita_original": "Esto no impidió, sin embargo, que la matanza no afectase a los haitianos ubicados en los ingenios de los norteamericanos, ni que los mismos pudiesen seguir trayendo haitianos durante el período de la zafra, aunque este tráfico estuviese sujeto a fuertes controles por parte del ejército de Trujillo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "p. 32 (pdf 4)",
+     "cita_original": "en el principal dueño de ingenios azucareros y, consecuentemente, en el principal usuario de braceros haitianos para sus ingenios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-179",
+    "A-181",
+    "A-186",
+    "A-187"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Pág. impresa = pdf + 28 (el texto pasa la pág. 31 al fin del pdf 3). Vega habla de \"varios miles\" de haitianos muertos y no repite aquí el rango 4.000-6.000; no cita el censo."
+  },
+  {
+   "ref": "S13",
+   "titulo": "Mano de obra haitiana indocumentada (Acento, columna \"En la cosa\")",
+   "autor": "Vega, Bernardo",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/mano-de-obra-haitianaindocumentada-9663412.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de actualidad del principal documentalista del tema; describe el mecanismo del convenio de 1952 de memoria, sin citar el texto del acuerdo.",
+   "proveniencia": "Bernardo Vega, Acento, 21-IV-2026, en el debate actual sobre la mano de obra haitiana. Vega compara el sistema regulado de 1952 con la informalidad actual; interés: abogar por un punto intermedio.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "En 1952 Trujillo y el presidente Magloire de Haití firmaron un convenio el cual había sido concebido cinco años antes por los intelectuales haitianos y dominicanos Jean Price-Mars y Manuel Arturo Peña Batlle",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187",
+      "A-193"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "Este acuerdo no solo fue firmado por los presidentes de ambos países, sino que pasó a ser ratificado por los dos Congresos de ambas naciones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "Consecuentemente, el único momento en que había haitianos en el país era durante la zafra y solamente en los bateyes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187",
+    "A-193"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Atribuye la concepción del convenio de 1952 a Price-Mars y Peña Batlle (cinco años antes): dato [POR VERIFICAR] contra el texto del acuerdo y los archivos. La frase de que los haitianos solo estaban en el país durante la zafra y en los bateyes contradice los censos (28.258 en 1920; 52.657 en 1935; 18.772 en 1950 según la cita de varias fuentes)."
+  },
+  {
+   "ref": "S14",
+   "titulo": "La legalidad de los haitianos trabajando aquí (Acento) [reproduce Migración caribeña y un capítulo haitiano, 1985]",
+   "autor": "Veras, Ramón A. (Negro)",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-legalidad-de-los-haitianos-trabajando-aqui-9423217.html",
+   "urls_alternativas": [
+    "https://acento.com.do/opinion/la-inmigracion-haitiana-aqui-es-solucion-no-dificultad-9179829.html (misma lista de convenios, 26-III-2023)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Autor de la obra de 1985 que reproduce; da fechas y números de oficio con detalle verificable, pero sin remitir a la Gaceta Oficial y con una fecha de expiración que cambia entre columnas (25-I-1958 y 25-II-1958).",
+   "proveniencia": "Ramón A. (Negro) Veras, autor dominicano; reproduce en Acento (18-XI-2024) lo que escribió en Migración caribeña y un capítulo haitiano (1985) sobre los convenios de braceros. Interés: crítica a la venta de braceros por el Consejo Estatal del Azúcar en 1978-1979.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "Desde 1940 hasta el año 1952, los braceros que trabajaban en la República Dominicana lo hacían en forma ilegal como consecuencia del tráfico clandestino",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "En carta enviada por Rafael Leónidas Trujillo Molina, al Presidente del Senado Dominicano en fecha 28 de enero de 1952, mediante oficio número 3261",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "El acuerdo de 1952 tenía una duración de cinco (5) años y constaba de diecisiete (17) artículos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "En fecha 21 de diciembre de 1959 fue firmado un nuevo acuerdo, con duración de 5 años, para la entrada de braceros haitianos a la República Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "(columna de 26-III-2023) párr. 8",
+     "cita_original": "El Acuerdo de 1959, fue aprobado por el Congreso Nacional Dominicano con fecha 24 de diciembre de 1959",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Relevante para A-187: según Veras, de 1940 a 1952 los braceros entraban de forma ilegal por tráfico clandestino, y el primer acuerdo fue el de enero de 1952 (oficio n.º 3261 del 28-I-1952 de Trujillo al Senado, 17 artículos, 5 años); no menciona ningún convenio de 1941 con Lescot. El de 1959 se firmó el 21-XII-1959 (la columna de 2023 da 24-XII-1959 como aprobación del Congreso). Texto de los convenios en Gaceta Oficial: [POR VERIFICAR]. Una columna dice \"1952, 1958 y 1966\" (erratas probables)."
+  },
+  {
+   "ref": "S15",
+   "titulo": "Los trabajadores migrantes haitianos en la República Dominicana: su protección en el derecho internacional (Estudios Sociales 118)",
+   "autor": "Gerdsmeier, Katrin",
+   "anio": "1999",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/275/261/525",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Estudio jurídico de una abogada del Servicio Jesuita a Refugiados cuyo contexto histórico es de segunda mano (\"Ibid.\" a un informe sin identificar en la extracción) y con rango de víctimas muy amplio.",
+   "proveniencia": "Katrin Gerdsmeier, abogada (Freiburg) y colaboradora del SJR; traducido por Violeta Ricart; Estudios Sociales 118 (oct.-dic. 1999). Su interés es de derechos humanos: protección de los braceros en el derecho internacional. Los párrafos históricos no tienen fuente primaria.",
+   "extractos": [
+    {
+     "ubicacion": "p. 10 (pdf 4)",
+     "cita_original": "Miles de haitianos fueron asesinados (las estimaciones oscilan entre 5,000 y 37,000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "p. 10 (pdf 4)",
+     "cita_original": "Unos 16,500 trabajadores haitianos fueron transportados a la República Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Pág. impresa = pdf + 6. Da 16.500 trabajadores transportados bajo el acuerdo de 1952 (sin período ni base: [POR VERIFICAR] si por zafra o en total) y un rango de 5.000-37.000 para 1937 sin autor."
+  },
+  {
+   "ref": "S16",
+   "titulo": "La matanza de haitianos en la frontera dominicana en 1937 (Estudios Sociales 112)",
+   "autor": "Inoa, Orlando",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/320/306",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tres artículos de prensa de 1993 reunidos con notas aclaratorias, sobre la huida de negros dominicanos y el uso de documentos nuevos; el propio autor avisa de que son textos periodísticos.",
+   "proveniencia": "Orlando Inoa (historiador), Estudios Sociales 112 (abr.-jun. 1998); recoge tres artículos publicados en El Siglo (18-V, 7-VI y 25-VI-1993). INCIDENCIA: esta URL figura en el registro como el artículo de Susy Castor (F-0114), pero el PDF corresponde a Inoa, no a Castor; el texto de Castor sigue sin localizar.",
+   "extractos": [
+    {
+     "ubicacion": "p. 63 (pdf 1)",
+     "cita_original": "Muchos historiadores piensan que la posibilidad de obtener una explicación convincente de las razones que motivaron al régimen de Rafael L. Trujillo a ejecutar la matanza.de haitianos en el año 1937 se diluyen día a día, debido a la limitación de las ofertas documentales",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-190",
+      "A-165"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "No aporta cifras de víctimas. Sirve para ilustrar la escasez documental de la que se queja la historiografía antes de 1985 (Cuello) y de 1988 (Vega). Pág. impresa = pdf + 62."
+  },
+  {
+   "ref": "S17",
+   "titulo": "Acuerdo entre la República Dominicana y la República de Haití sobre cuestiones fronterizas y arreglo de todas las diferencias resultantes de los acontecimientos de fines de 1937 (Washington, 31-I-1938), League of Nations Treaty Series vol. CLXXXVII, n.º 4336",
+   "autor": "República Dominicana; República de Haití (Sociedad de las Naciones, ed.)",
+   "anio": "1938",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20187/v187.pdf",
+   "urls_alternativas": [
+    "https://blogs.princeton.edu/comparativerace/cuba/dominican-republic/violence/ (URL anterior de F-0057: redirige a la portada del servicio WordPress de Princeton, sin el contenido)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del tratado registrado en la Sociedad de las Naciones, con el original en español y francés (págs. 169-175) y una traducción al inglés \"para información\" (págs. 176-178); fija lo pactado, no lo pagado.",
+   "proveniencia": "Firmado en Washington el 31-I-1938 por Manuel de J. Troncoso de la Concha y Andrés Pastoriza (RD) y Abel N. Léger y Hoffman Philip (Haití), en el marco del Pacto Gondra y tras la mediación del nuncio apostólico; registrado en la Sociedad de las Naciones en 1938. Es el documento primario que falta en el registro (F-0057 solo tenía fragmentos de prensa).",
+   "extractos": [
+    {
+     "ubicacion": "LNTS vol. 187, n.º 4336, p. 177, art. III (trad. inglesa; original español en p. 172)",
+     "cita_original": "III. The Dominican Government undertakes to pay to the Haitian Government the sum of seven hundred and fifty thousand dollars ($750,000.00) legal United States of America currency",
+     "traduccion": "III. El Gobierno dominicano se obliga a pagar al Gobierno haitiano la suma de setecientos cincuenta mil dólares ($750.000), moneda legal de los Estados Unidos de América. (El original español dice: \"setecientos cincuenta mil dólares\", art. III, p. 172.)",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "LNTS vol. 187, n.º 4336, p. 177, art. IV (trad. inglesa)",
+     "cita_original": "IV. The Haitian Government shall use this sum in such manner as it may think fit in the best interests of the victims or their families or dependants",
+     "traduccion": "IV. El Gobierno haitiano empleará esta suma, según su propio criterio, en beneficio de las víctimas o sus familiares o causahabientes.",
+     "afirmaciones": [
+      "A-176",
+      "A-192"
+     ]
+    },
+    {
+     "ubicacion": "LNTS vol. 187, n.º 4336, p. 177, art. VIII, 1.º (trad. inglesa)",
+     "cita_original": "$250,000.00 (two hundred and fity thousand dollars) legal money of the United States of America as soon as the present Agreement has been duly concluded and signed",
+     "traduccion": "250.000 dólares tan pronto como el acuerdo haya sido debidamente concluido y firmado.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "LNTS vol. 187, n.º 4336, p. 177, art. VIII, 2.º (trad. inglesa; el OCR da \"$IOO,OOO.OO\" y \"3Ist\" por 100.000 y 31st)",
+     "cita_original": "(one hundred thousand dollars) legal money of the United States of America on January 3Ist, 1939, and an equal amount on the last day of January in subsequent years until such time as the debt has been extinguished",
+     "traduccion": "100.000 dólares el 31 de enero de 1939 y una suma igual el último día de enero de los años siguientes hasta la extinción de la deuda.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "LNTS vol. 187, n.º 4336, p. 176, considerandos (trad. inglesa)",
+     "cita_original": "the Dominican Government (which for its part does not admit that the Dominican State is in any way responsible, but will on this point abide by the findings of the judicial enquiry which is not yet concluded)",
+     "traduccion": "el Gobierno dominicano (que por su parte no admite que el Estado dominicano sea en modo alguno responsable, pero acatará en este punto las conclusiones de la investigación judicial, aún no concluida)",
+     "afirmaciones": [
+      "A-172"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-172",
+    "A-176",
+    "A-192"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0057",
+   "notas": "Resuelve parte de A-176: el art. III fija 750.000 USD; el art. VIII manda pagar 250.000 al concluir y firmar el acuerdo y 100.000 el 31-I-1939 y otro tanto cada último día de enero hasta extinguir la deuda. Con ese calendario, 250.000 + 3 x 100.000 = 550.000 (cifra de Paulino/Crassweller); los 525.000 de Turits no coinciden con ningún múltiplo del calendario: [POR VERIFICAR] pagos reales (Tesorería dominicana; archivos haitianos). FRUS 1938 (F-0050) confirma el primer pago de 250.000 el 26-II-1938. Las citas inglesas son de la traducción de la Sociedad de las Naciones."
+  },
+  {
+   "ref": "S18",
+   "titulo": "Foreign Relations of the United States, 1938, vol. V (extracto local: indemnización haitiano-dominicana)",
+   "autor": "Departamento de Estado de EE. UU.",
+   "anio": "1938",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1938v05.xml",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despachos y telegramas de la Legación en Ciudad Trujillo y de Washington, de época; quien escribe informa de lo que le dicen las partes y, en el caso de Norweb, de su estimación de la riqueza de Trujillo.",
+   "proveniencia": "Despachos del ministro Norweb y de la División de Repúblicas Americanas, enero-febrero de 1938, publicados en FRUS 1938 vol. V; texto cotejable en 02-fuentes/textos/frus/frus1938v05-espanola.txt. Las citas de esta ficha son extractos adicionales a los ya registrados.",
+   "extractos": [
+    {
+     "ubicacion": "l. 336",
+     "cita_original": "the Haitian Government seeks an indemnity of $750,000 payable in the period 1938–1942",
+     "traduccion": "La Legación observa que el gobierno haitiano busca una indemnización de 750.000 dólares pagadera entre 1938 y 1942.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "l. 336",
+     "cita_original": "The same informant said that the President could, if he desired, pay that amount in one lump sum from his own personal funds",
+     "traduccion": "El mismo informante dijo que el Presidente podría, si quisiera, pagar esa suma de una sola vez con sus fondos personales.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "l. 388",
+     "cita_original": "Trujillo agreeing to a $750,000 indemnity or $250,000 cash down",
+     "traduccion": "Trujillo aceptando una indemnización de 750.000 dólares, o 250.000 al contado.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "l. 504",
+     "cita_original": "President Trujillo transferred $250,000 from his checking account in the local branch of the National City Bank",
+     "traduccion": "El presidente Trujillo transfirió 250.000 dólares de su cuenta corriente en la sucursal local del National City Bank [para comprar el giro a favor del gobierno haitiano].",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "l. 340",
+     "cita_original": "So long as two-thirds of the population of this island inhabit one-third of the territory there will be pressure upon the Dominican-Haitian frontier",
+     "traduccion": "Mientras dos tercios de la población de esta isla habiten un tercio del territorio habrá presión sobre la frontera dominico-haitiana.",
+     "afirmaciones": [
+      "A-174"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-176",
+    "A-174"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0050",
+   "notas": "Líneas del archivo local frus1938v05-espanola.txt. Confirma el primer pago de 250.000 USD de la cuenta personal de Trujillo (26-II-1938). No recoge pagos posteriores: se buscó \"indemnity/525,000/750,000\" en FRUS 1939 vol. V, 1940 vol. V y 1941 vol. VII y no aparecen referencias a ese pago."
+  },
+  {
+   "ref": "S19",
+   "titulo": "Algo de background (Diario Libre, sección Lecturas)",
+   "autor": "[autor no identificado en la extracción; Diario Libre]",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/opinion/lecturas/algo-de-background-KMDL409366",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de contexto histórico sin firma legible en la extracción y sin referencias; cita cifras censales (1920, 1935, 1950, 1960) que no se pudieron contrastar con los volúmenes.",
+   "proveniencia": "Diario Libre (Santo Domingo), 2-XI-2013, sección Lecturas (opinión), con la autoría [POR VERIFICAR] (no figura en la extracción). Interés: situar la inmigración haitiana desde 1916 hasta la Ley de Migración de 1939.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "se evidenció en el Censo de Población de 1920, que arrojó 894 mil habitantes y registró 28,258 nacionales haitianos, representando éstos el 57% de la población extranjera en el país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Quince años después, el Censo de 1935 mostró la duplicación de los haitianos en ese lapso: 52,657 sobre 1 millón 479 mil habitantes. Aunque se mantuvo en ambas fechas en torno al 3% de la población total, 3.1% y 3.5%, respectivamente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Los censos de población de 1950 y 1960 registraron 19,193 y 29,500 haitianos, respectivamente, casi la mitad de 1935",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "orientadas a forzar a los empleadores a reclutar más dominicanos (70% mínimo), una política flexibilizada por gestión de las empresas azucareras y la legación diplomática norteamericana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-186"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "se promulgó la Ley de Migración de 1939 y su Reglamento, vigentes hasta el 15 de agosto del 2004",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-185",
+      "A-187"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "el régimen propició la inmigración judía en Sosúa, tras hacerse representar en la conferencia de Evian celebrada en 1938, en la que se trató a instancias del presidente Roosevelt el tema de los refugiados europeos de las persecuciones nazis. De igual modo, la de los republicanos españoles derrotados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-185",
+    "A-186",
+    "A-187",
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13",
+    "M12",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Cifras: 1920, 894.000 habitantes y 28.258 haitianos (57 % de los extranjeros); 1935, 52.657 haitianos sobre 1,479 millones (3,5 %); 1950 y 1960, 19.193 y 29.500 haitianos. La cifra de 1950 choca con las 18.772 que dan Malkún (Acento 2018), Wikipedia (1950) y la cita de otras fuentes; el origen de 19.193 es [POR VERIFICAR]. Atribuye a Trujillo una política de dominicanización del trabajo con mínimo del 70 % de dominicanos y dice que la Ley de Migración de 1939 estuvo vigente hasta el 15-VIII-2004."
+  },
+  {
+   "ref": "S20",
+   "titulo": "¿Cuántos haitianos viven en el país? (Acento, columna de opinión)",
+   "autor": "Lois Malkún, José",
+   "anio": "2018",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/cuantos-haitianos-viven-pais-8557944.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de un economista con formación estadística que enumera cifras censales sin citar los volúmenes; sirve como índice de las cifras 1950-2012.",
+   "proveniencia": "José Lois Malkún, economista dominicano, Acento, 22-IV-2018, sobre la Segunda Encuesta Nacional de Inmigrantes (ENI-2017). Proyecta series censales (1950, 1970, 1991, 2012) para cuestionar la cifra de la ENI.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "De acuerdo con el censo del 1950 había en el país 18,772 inmigrantes haitianos. Para 1970, esa cifra subió a 97,142, 4 veces y media a la de 20 años atrás, equivalente a 4 mil inmigrantes por año",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Da 18.772 inmigrantes haitianos en el censo de 1950 y 97.142 en 1970. La ENI-2017 (497.825 nacidos en Haití; 751.080 de origen haitiano) se registra en M16."
+  },
+  {
+   "ref": "S21",
+   "titulo": "Censos nacionales de población de la República Dominicana de 1920, 1950 y 1960 (tablas reproducidas en Wikipedia; remiten a los volúmenes oficiales: Primer censo nacional de población 1920; Tercer censo nacional de población 1950; censo de 1960)",
+   "autor": "Dirección General de Estadística / Oficina Nacional del Censo (RD), vía Wikipedia",
+   "anio": "1920; 1950; 1960",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "oficial-rd",
+   "url": "https://en.wikipedia.org/wiki/1950_Dominican_Republic_census",
+   "urls_alternativas": [
+    "https://en.wikipedia.org/wiki/1920_Santo_Domingo_census",
+    "https://en.wikipedia.org/wiki/1960_Dominican_Republic_census",
+    "https://ghdx.healthdata.org/print/3466 (ficha GHDx del censo de 1950: \"3rd national census\")"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Terciaria: solo sirve de índice; las tablas transcriben los volúmenes oficiales (1920 publicado en 1923; 1950 publicado en 1958 según Paulino 2001) que no pude abrir.",
+   "proveniencia": "Wikipedia (en), páginas de los censos de 1920, 1950 y 1960, con fuentes finales en los volúmenes de la Dirección General de Estadística (Ciudad Trujillo). El censo de 1920 lo ordenó el gobierno militar estadounidense (orden ejecutiva n.º 552 [VERIFICADO: fragmento de búsqueda]) y se imprimió en 1923; el de 1935 lo hizo el régimen de Trujillo; los de 1950 y 1960 son el tercero y el cuarto. Estas páginas no sustituyen a los volúmenes (sin acceso: laguna).",
+   "extractos": [
+    {
+     "ubicacion": "censo de 1920, tabla de nacionalidad",
+     "cita_original": "Dominicans 845,145 94.5 Foreigners 49,520 5.5 from Haiti 28,258 3.1",
+     "traduccion": "Dominicanos 845.145 (94,5 %); extranjeros 49.520 (5,5 %), de ellos de Haití 28.258 (3,1 %).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1920, tabla de raza",
+     "cita_original": "Whites 223,144 24.9 Mestizos and yellows 444,587 49.7 Blacks 226,934 25.4",
+     "traduccion": "Blancos 223.144 (24,9 %); mestizos y amarillos 444.587 (49,7 %); negros 226.934 (25,4 %).",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1950, tabla de nacionalidad",
+     "cita_original": "Dominicans 2,101,218 98.4 Foreigners 34,654 1.6 from Haiti 18,772 0.9 from another country 15,882 0.7",
+     "traduccion": "Dominicanos 2.101.218 (98,4 %); extranjeros 34.654 (1,6 %), de ellos de Haití 18.772 (0,9 %) y de otro país 15.882 (0,7 %).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1950, tabla de raza",
+     "cita_original": "Whites 600,994 28.14 Mestizos 1,289,285 60.36 Blacks 245,032 11.47 Yellows 561 0.03",
+     "traduccion": "Blancos 600.994 (28,14 %); mestizos 1.289.285 (60,36 %); negros 245.032 (11,47 %); amarillos 561 (0,03 %).",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1960, tabla de nacionalidad",
+     "cita_original": "from Haiti 29,500 0.968 from Spain 4,060 0.133",
+     "traduccion": "De Haití 29.500 (0,968 %); de España 4.060 (0,133 %).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1960, tabla de raza",
+     "cita_original": "Whites 489,580 16.08 White men 231,510 15.07 White women 258,070 17.08",
+     "traduccion": "Blancos 489.580 (16,08 %); hombres blancos 231.510 (15,07 %); mujeres blancas 258.070 (17,08 %).",
+     "afirmaciones": [
+      "A-189"
+     ]
+    },
+    {
+     "ubicacion": "censo de 1960, tabla de raza",
+     "cita_original": "Blacks 331,910 10.89 Black men 179,290 11.67 Black women 152,620 10.10 Mixed people 2,222,380 72.93",
+     "traduccion": "Negros 331.910 (10,89 %); mixtos 2.222.380 (72,93 %).",
+     "afirmaciones": [
+      "A-189"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188",
+    "A-189"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0067",
+   "notas": "Cifras de haitianos: 1920, 28.258 (3,1 %); 1950, 18.772 (0,9 %); 1960, 29.500 (0,97 %). Composición racial: 1920, 24,9 / 49,7 / 25,4 %; 1950, 28,14 / 60,36 / 11,47 %; 1960, 16,08 / 72,93 / 10,89 %. No hay página de Wikipedia para el censo de 1935. En el censo de 1950 la categoría \"mestizos/mulatos\"; en 1960 \"mixed people\". Son datos de autoclasificación por el empadronador, no de ascendencia genética."
+  },
+  {
+   "ref": "S22",
+   "titulo": "Dominican Republic: A Country Study, sección \"Haitians\" (Library of Congress, Federal Research Division; espejo en countrystudies.us)",
+   "autor": "Library of Congress, Federal Research Division (Area Handbook Series)",
+   "anio": "1989",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://countrystudies.us/dominican-republic/25.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis oficial estadounidense sin notas, de tipo manual de área; sus cifras censales redondean (\"slightly under 28,000\" para 28.258) y la de muertos de 1937 (20.000) no tiene base declarada.",
+   "proveniencia": "Estudio de país de la Biblioteca del Congreso (edición y año [POR VERIFICAR]; el texto de Haití habla de 1989), reproducido por countrystudies.us. Interés: informar al lector estadounidense; su fuente de las cifras no se declara.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "The 1920 census listed slightly under 28,000 Haitian nationals in the Dominican Republic",
+     "traduccion": "El censo de 1920 registró \"algo menos de 28.000\" nacionales haitianos en la República Dominicana (el dato citado por otras fuentes es 28.258).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "By 1935, however, the number had increased to more than 50,000. Trujillo ordered a general roundup of Haitians along the border in 1937, during which an estimated 20,000 Haitians were killed",
+     "traduccion": "En 1935, sin embargo, la cifra había aumentado a más de 50.000. Trujillo ordenó una redada general de haitianos en la frontera en 1937, durante la cual murieron unos 20.000 haitianos.",
+     "afirmaciones": [
+      "A-188",
+      "A-169"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "The 1960 census enumerated slightly under 30,000 Haitians",
+     "traduccion": "El censo de 1960 enumeró algo menos de 30.000 haitianos.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-188"
+   ],
+   "modulos": [
+    "M13",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Discrepancia: dice que el censo de 1920 contó \"slightly under 28,000\" haitianos, pero el dato censal citado por otras fuentes es 28.258 (algo más de 28.000). Da \"más de 50.000\" en 1935 (cf. 52.657) y \"slightly under 30,000\" en 1960 (cf. 29.500). La cifra de 20.000 muertos en 1937 no se atribuye a ningún autor."
+  },
+  {
+   "ref": "S23",
+   "titulo": "Haiti: A Country Study, sección sobre población (Library of Congress, Federal Research Division; espejo en countrystudies.us)",
+   "autor": "Library of Congress, Federal Research Division (Area Handbook Series)",
+   "anio": "1989",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://countrystudies.us/haiti/21.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resume los censos haitianos con la advertencia de subregistro; sin notas ni cita del volumen del IHSI.",
+   "proveniencia": "Estudio de país de la Biblioteca del Congreso sobre Haití (Área Handbook, 1989), reproducido por countrystudies.us; fuente de las cifras de 1918-19, 1950, 1971 y 1982 no declarada.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "A survey taken during 1918 and 1919 indicated that there were about 1.9 million people in the country. The first formal census, taken in 1950, showed that the population had reached 3.1 million",
+     "traduccion": "Una encuesta de 1918-1919 indicó que había unos 1,9 millones de personas en el país. El primer censo formal, de 1950, mostró que la población había llegado a 3,1 millones.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "were deficient and that they seriously undercounted the population",
+     "traduccion": "eran deficientes y subestimaron seriamente la población (los censos de 1950, 1971 y 1982, según los críticos).",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Útil como único dato accesible del censo haitiano de 1950 (3,1 millones); el IHSI (ihsi.ht) no está accesible (dominio redirige a un sitio ajeno) y la ficha GHDx solo confirma la existencia del censo."
+  },
+  {
+   "ref": "S24",
+   "titulo": "Maddison Project Database 2020 (mpd2020.xlsx): PIB per cápita y población, República Dominicana y Haití",
+   "autor": "Bolt, Jutta; van Zanden, Jan Luiten",
+   "anio": "2020",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/mpd2020.xlsx",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base internacional revisada por pares, pero para Haití y RD reconstruye series de la CEPAL con un benchmark de PPA que los propios autores reconocen problemático para los años cincuenta (ver S25).",
+   "proveniencia": "Groningen Growth and Development Centre (U. de Groningen), actualización 2020 del Maddison Project. Para Haití y RD reutiliza las Series históricas del crecimiento de América Latina (CEPAL). Las series dominicanas empiezan en 1950; la población de Haití desde 1900.",
+   "extractos": [
+    {
+     "ubicacion": "hoja \"Full data\", filas DOM 1950-1960",
+     "cita_original": "DOM 1950: gdppc 1637 (US$ 2011 PPA); pop 2352,968 (miles). DOM 1955: gdppc 1886; pop 2737,257. DOM 1960: gdppc 2075; pop 3231,488.",
+     "traduccion": "PIB per cápita en dólares internacionales de 2011; población en miles.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "hoja \"Full data\", filas HTI 1945-1960",
+     "cita_original": "HTI 1945: gdppc 1780; pop 2928. HTI 1950: gdppc 1790; pop 3097. HTI 1955: gdppc 1776; pop 3365. HTI 1960: gdppc 1809; pop 3697.",
+     "traduccion": "Haití: PIB per cápita 1.780 (1945), 1.790 (1950), 1.776 (1955) y 1.809 (1960) en dólares internacionales de 2011; población en miles.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "hoja \"Full data\", filas HTI 1900-1940",
+     "cita_original": "HTI pop (miles): 1900: 1560; 1920: 2124; 1930: 2422; 1935: 2582; 1937: 2648; 1940: 2751. Sin gdppc antes de 1945.",
+     "traduccion": "Población de Haití en miles: 1.560 (1900), 2.124 (1920), 2.422 (1930), 2.582 (1935), 2.648 (1937), 2.751 (1940); sin PIB per cápita antes de 1945.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M13",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Valores leídos del archivo descargado (hoja \"Full data\"). La población dominicana de 1950 en la MPD (2,353 millones) no coincide con el censo de agosto de 1950 (2.135.872, según Wikipedia y Paulino): diferencia de ~10 %, no explicada aquí. La MPD pone a Haití (1.790) por encima de la RD (1.637) en 1950 en dólares de 2011, resultado discutido por Palsson (S26) y matizado por los autores (S25). (Formato real: hoja de cálculo .xlsx; se declara \"xml\" por ser OOXML.)"
+  },
+  {
+   "ref": "S25",
+   "titulo": "Maddison project, re: \"Don't believe the Haiti/DR graph\"",
+   "autor": "Bolt, Jutta; van Zanden, Jan Luiten",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.rug.nl/ggdc/blog/maddison-project-re-don-t-believe-the-haiti-dr-graph",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Respuesta metodológica de los responsables de la base: transparente sobre los benchmarks de PPA, pero polémica (réplica a Palsson, S26) y sin series nuevas.",
+   "proveniencia": "Blog del Groningen Growth and Development Centre, 24-IX-2021, respuesta a la crítica de Craig Palsson. Los autores defienden la tendencia de las series y reconocen que el nivel relativo de Haití en los cincuenta depende de la elección del benchmark.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Maddison preferred his own 1990 benchmark, which shows a DR/H ratio of 2.45/1 in 1990; this may have been an underestimate, as Craig suggests (as it leads to in his view unplausible MPD results for the 1950s). the CEPAL uses a 1970 benchmark, which gives a ratio of 4.3",
+     "traduccion": "Maddison prefirió su propio benchmark de 1990, que da una ratio RD/Haití de 2,45/1; la CEPAL usa uno de 1970, que da 4,3.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "The DR/H ratio according to the 2011 ICP study was 7 (which is consistent with the 2.45 for 1990) and for 2017 it is 10",
+     "traduccion": "La ratio RD/Haití según el estudio ICP de 2011 era 7 (coherente con el 2,45 de 1990) y para 2017 es 10.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "both databases show that whatever the income gap in 1950, it has increased substantially since then",
+     "traduccion": "ambas bases muestran que, sea cual sea la brecha de renta en 1950, ha aumentado sustancialmente desde entonces.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M13",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Documenta que las ratios RD/Haití dependen del benchmark: 2,45 (1990, Maddison), 4,3 (1970, CEPAL), 7 (ICP 2011) y 10 (ICP 2017). Toda cifra de brecha de renta en 1950 es por tanto un rango y no un dato."
+  },
+  {
+   "ref": "S26",
+   "titulo": "Don't Believe the Haiti/DR Graph (Vodou Economics)",
+   "autor": "Palsson, Craig",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://vodoueconomics.substack.com/p/dont-believe-the-haitidr-graph",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Blog de un economista que ha publicado historia económica de Haití (JEH), pero la cifra de migrantes que da no tiene fuente y contradice los censos.",
+   "proveniencia": "Craig Palsson (economista), Substack Vodou Economics, 17-IX-2021. Interés: refutar el gráfico viral de la MPD que mostraba a Haití al nivel de la RD en los cincuenta.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "every year approximately 100,000 Haitians would travel to the DR to work on sugar plantations to earn wages about 2-3x what they could get in Haiti",
+     "traduccion": "cada año unos 100.000 haitianos viajaban a la RD para trabajar en las plantaciones de azúcar con salarios de 2 a 3 veces los de Haití (afirmación sin fuente).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M13",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La frase de que cada año unos 100.000 haitianos viajaban a la RD a trabajar en el azúcar no tiene fuente y no cuadra con el stock censal (28.258 en 1920; 52.657 en 1935) ni con los 16.500 del convenio de 1952; no se usa como dato. El argumento central (divergencia anterior a los sesenta, producción de azúcar frente a café) se apoya en un gráfico de su tesis que no se pudo leer."
+  },
+  {
+   "ref": "S27",
+   "titulo": "Foreign Relations of the United States, 1958-1960, American Republics, vol. V, doc. 309: Editorial Note (Haití)",
+   "autor": "Office of the Historian, U.S. Department of State",
+   "anio": "1958-1960",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1958-60v05/d309",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota editorial de síntesis (no documento primario) del Departamento de Estado sobre la documentación microfilmada de Haití; da cifras generales sin cuadros.",
+   "proveniencia": "Editorial Note de la Oficina del Historiador (FRUS 1958-1960, vol. V; el año de edición no figura en la página); resume la política de EE.UU. hacia Haití bajo François Duvalier. Contexto económico del convenio de braceros de 1959.",
+   "extractos": [
+    {
+     "ubicacion": "doc. 309, p. 818",
+     "cita_original": "Haiti's economy suffered in early 1959 from the double blow of the failure of its coffee crop (less than half the previous year's level) and a drop in the price of coffee",
+     "traduccion": "La economía de Haití sufrió a comienzos de 1959 el doble golpe del fracaso de la cosecha de café (menos de la mitad del nivel del año anterior) y de la caída de su precio.",
+     "afirmaciones": [
+      "A-187"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-187"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "No trata los braceros; sirve para fijar la crisis cafetalera de 1959 (cosecha menor de la mitad de la del año anterior) y la ayuda de 6 millones de USD, contexto de la firma del convenio con Trujillo en diciembre de 1959."
+  },
+  {
+   "ref": "S28",
+   "titulo": "Foreign Relations of the United States, 1947, The American Republics, vol. VIII: terminación de la Convención aduanera EE.UU.-RD de 1940; préstamo interno haitiano de 10 millones",
+   "autor": "Office of the Historian, U.S. Department of State",
+   "anio": "1947",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1947v08/ch42",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1947v08/d644"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Nota editorial y comunicado oficial del Departamento de Estado; documentan hechos fiscales con fecha, no su interpretación.",
+   "proveniencia": "FRUS 1947 vol. VIII, capítulo 42 (nota editorial) y documento 644 (comunicado del Departamento de Estado, 10-VII-1947). El año de edición no figura en la página. Contexto fiscal (soberanía financiera) de los gobiernos de Trujillo y Lescot/Estimé.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 42, nota editorial",
+     "cita_original": "On July 21, 1947, a check was delivered to Oliver Newman, Representative of the Holders of Bonds of the Dominican Republic, toward redemption in full of the Dominican bond issues of 1922 and 1926 together with accrued interest",
+     "traduccion": "El 21 de julio de 1947 se entregó un cheque a Oliver Newman, representante de los tenedores de bonos de la República Dominicana, para la redención total de las emisiones dominicanas de 1922 y 1926 con los intereses devengados.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "doc. 644, 10-VII-1947",
+     "cita_original": "has requested the acquiescence of this Government to the flotation of an internal loan in Haiti of $10,000,000",
+     "traduccion": "ha solicitado la anuencia de este Gobierno para la emisión de un empréstito interno en Haití de 10.000.000 de dólares.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "La nota editorial no da el monto de la deuda dominicana redimida; el total de 9.271.855,55 USD y la tesis de que Trujillo \"cambió deuda externa por interna\" vienen de una columna de opinión (Taveras, Acento, 2024) que no se citó por no haber datos de base. Haití: el comunicado del 10-VII-1947 da 10.000.000 USD de préstamo interno, parte para amortizar las emisiones de 1922 y 1923."
+  },
+  {
+   "ref": "S29",
+   "titulo": "Dominican Republic Settlement Association, \"Sosua: Haven in the Caribbean\" (Experiencing History: Holocaust Sources in Context)",
+   "autor": "United States Holocaust Memorial Museum (ed.)",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://perspectives.ushmm.org/item/dominican-republic-settlement-association-sosua-haven-in-the-caribbean",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ficha pedagógica de un museo, con referencias a Wells (2009) y Kaplan (2008) para las cifras; no da el origen de los 645 ni de los 5.000.",
+   "proveniencia": "USHMM, plataforma Experiencing History; ficha de la película publicitaria de la DORSA y texto explicativo. El año de la ficha no figura. Remite a Wells, Tropical Zion (2009), pp. 3-27 y a Kaplan, Dominican Haven (2008).",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Only one country—the Dominican Republic—agreed to accept up to 100,000 Jewish refugees. Led by dictator General Rafael Leonidas Trujillo Molina, the Dominican Republic admitted 645 Jews from 1938 to 1945 and issued approximately 5,000 visas to Jews during that period",
+     "traduccion": "Solo un país, la República Dominicana, aceptó recibir hasta 100.000 refugiados judíos. Bajo Trujillo, la RD admitió a 645 judíos entre 1938 y 1945 y emitió unas 5.000 visas a judíos en ese periodo.",
+     "afirmaciones": [
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-185"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Dice 645 judíos admitidos entre 1938 y 1945 y unos 5.000 visas; The World (S30) da ~700; la JVL da un máximo de 500 residentes en Sosúa en octubre de 1941. Confirma el ofrecimiento de hasta 100.000 pero no aporta la fecha ni el acta de Évian (julio de 1938); la Ley 95 de 1939 y las leyes de dominicanización del trabajo siguen sin primaria. Trujillo, según la ficha, veía la crisis como oportunidad de \"aumentar la población blanca\"."
+  },
+  {
+   "ref": "S30",
+   "titulo": "The forgotten conference where the Dominican Republic took in Jewish refugees fleeing Hitler (The World / PRI)",
+   "autor": "The World (PRI), redacción",
+   "anio": "2018",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://theworld.org/stories/2018/11/08/forgotten-conference-dominican-republic-took-jewish-refugees-fleeing-hitler-when",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota de radio con testimonios; la cifra de unos 700 refugiados no tiene fuente.",
+   "proveniencia": "PRI/The World, 8-XI-2018; entrevista a descendientes de refugiados de Sosúa.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "In the end, only about 700 German Jews were able to make it there",
+     "traduccion": "Al final, solo unos 700 judíos alemanes lograron llegar allí.",
+     "afirmaciones": [
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-185"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Da \"about 700\" refugiados alemanes que llegaron, frente a los 645 de USHMM."
+  },
+  {
+   "ref": "S31",
+   "titulo": "Shibboleth and perejil (Language Log)",
+   "autor": "Liberman, Mark",
+   "anio": "2015",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://languagelog.ldc.upenn.edu/nll/?p=19987",
+   "urls_alternativas": [
+    "https://ling.upenn.edu/courses/Fall_2001/ling001/wucker.html (extracto de Wucker, Why the Cocks Fight, 1999, sobre la prueba del perejil)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comentario de un fonetista (Mark Liberman, Univ. de Pensilvania) con espectrogramas de dos grabaciones, útil para la plausibilidad fonética pero sin datos de campo ni muestra.",
+   "proveniencia": "Mark Liberman, Language Log, 13-VII-2015; corrige la descripción fonética (trino/vibrante) que repiten Wucker (1999) y NPR (2012) y evalúa dos grabaciones (Danticat y Alvarez).",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Wucker's phonetic description of the pronunciation difference seems to be wrong, since Dominicans pronounce the intervocalic single 'r' in Perehil as a flap rather than a trill",
+     "traduccion": "La descripción fonética de Wucker parece errónea, ya que los dominicanos pronuncian la r simple intervocálica de \"perehil\" como una vibrante simple y no como un trino.",
+     "afirmaciones": [
+      "A-170"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "But the Haitian Kreyol /r/ is pronounced as a voiced velar fricative [γ] or a velar approximant [ɰ], so the story remains plausible even if the description is not quite right",
+     "traduccion": "Pero la /r/ del criollo haitiano se pronuncia como fricativa velar sonora o aproximante velar, de modo que la historia sigue siendo plausible aunque la descripción no sea del todo correcta.",
+     "afirmaciones": [
+      "A-170"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-170"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Es una discusión de plausibilidad acústica, no de evidencia histórica: no prueba que la prueba se usara de forma general (A-170 es una valoración historiográfica; ver Turits 2003, n. 42, que cita a Jiménez Sabater 1975 para mostrar que la /r/ es débil entre dominicanos de la frontera). Muestra de dos grabaciones: n = 2."
+  },
+  {
+   "ref": "S32",
+   "titulo": "\"More Than a Massacre\" by Sabine Cadeau (entrevista, McGill Faculty of Arts)",
+   "autor": "McGill University, Faculty of Arts; entrevistada: Cadeau, Sabine F.",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.mcgill.ca/arts/article/more-massacre-sabine-cadeau",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Entrevista a la autora; fija su cifra pero no su base (que está en el libro, no leído).",
+   "proveniencia": "Entrevista institucional de la Facultad de Artes de McGill a Sabine Cadeau (PhD Chicago 2015), con motivo de More than a Massacre (Cambridge UP, 2022). Interés: presentar el libro; usa la categoría \"genocidio\".",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "In less than two weeks an estimated 20, 000 ethnic Haitians were killed. In the subsequent years, thousands were also killed in different parts of the Dominican Republic",
+     "traduccion": "En menos de dos semanas murieron unos 20.000 haitianos étnicos. En los años siguientes miles más fueron asesinados en distintas partes de la República Dominicana.",
+     "afirmaciones": [
+      "A-169",
+      "A-171"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-169",
+    "A-171"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Cadeau da \"an estimated 20,000\" en menos de dos semanas; añade que miles más murieron en años posteriores. La base de su estimación no se pudo leer (el PDF de extracto de Cambridge no responde desde esta red)."
+  },
+  {
+   "ref": "S33",
+   "titulo": "More than a Massacre: Racial Violence and Citizenship in the Haitian-Dominican Borderlands, cap. 4 \"They killed my entire family\" (resumen del capítulo)",
+   "autor": "Cadeau, Sabine F.",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/books/more-than-a-massacre/they-killed-my-entire-family/6578BF36C55A93A141E82D68AB07881C",
+   "urls_alternativas": [
+    "https://assets.cambridge.org/97811089/31526/excerpt/9781108931526_excerpt.pdf (fallo-fetch: tiempo de espera de conexión, código 000; host assets.cambridge.org inaccesible desde esta red)",
+    "DOI del capítulo: https://doi.org/10.1017/9781108942508.006"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Libro premiado (Bryce Wood Book Award y Raphael Lemkin Book Award, según la entrevista de McGill) de Cambridge UP con archivo y testimonios; aquí solo se leyó el resumen del capítulo (el texto está tras acceso de pago).",
+   "proveniencia": "Sabine Cadeau (McGill), Cambridge University Press, 2 de junio de 2022, cap. 4 (pp. 135-163), basado en testimonios de refugiados de 1937 y en historia oral posterior. Tesis: la violencia antihaitiana racializada se intensifica desde 1919; el capítulo reconstruye magnitud, brutalidad y premeditación.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 4, resumen",
+     "cita_original": "It provides a detailed reconstruction of the magnitude, brutality, and premeditated nature of the state-directed violence that took place in 1937",
+     "traduccion": "Ofrece una reconstrucción detallada de la magnitud, la brutalidad y el carácter premeditado de la violencia dirigida por el Estado en 1937.",
+     "afirmaciones": [
+      "A-165",
+      "A-171"
+     ]
+    },
+    {
+     "ubicacion": "cap. 4, resumen",
+     "cita_original": "The chapter is largely based on refugee testimonies collected in 1937 as well as a range of oral histories collected since",
+     "traduccion": "El capítulo se basa sobre todo en testimonios de refugiados recogidos en 1937 y en historias orales recogidas desde entonces.",
+     "afirmaciones": [
+      "A-169",
+      "A-190"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5 (pp. 164-186), resumen; URL: https://www.cambridge.org/core/books/abs/more-than-a-massacre/la-campana-contra-los-haitianos/E2211EA4C757520BF4CCA0B27CAF11C6",
+     "cita_original": "This chapter interrogates the fact that military and migratory documents are completely absent for the northern border regions during the most violent months of 1937",
+     "traduccion": "Este capítulo examina el hecho de que los documentos militares y migratorios faltan por completo para las regiones fronterizas del norte durante los meses más violentos de 1937.",
+     "afirmaciones": [
+      "A-165",
+      "A-190"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-169",
+    "A-171"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0154",
+   "notas": "No pude leer el capítulo ni la introducción (donde estaría la lista de 12.168 nombres que el registro atribuye a Lescot y la discusión de las bases de cada estimación). Resumen del capítulo y entrevista McGill (S32) confirman la cifra de ~20.000 como suya."
+  },
+  {
+   "ref": "S34",
+   "titulo": "The Dictator Next Door: The Good Neighbor Policy and the Trujillo Regime in the Dominican Republic, 1930-1945 (ficha de Project MUSE)",
+   "autor": "Roorda, Eric Paul",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/book/68947",
+   "urls_alternativas": [
+    "https://www.dukeupress.edu/the-dictator-next-door (ficha de la editorial, sin la cifra de 12.000)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de historia diplomática con archivos de EE.UU.; aquí solo se confirma la cifra en la reseña editorial, no su base.",
+   "proveniencia": "Duke University Press (1998), ficha en Project MUSE; el capítulo 5 es \"Genocide Next Door: The Haitian Massacre of 1937 and the Sosua Jewish Refugee Settlement\". La reseña editorial dice \"Trujillo's 1937 massacre of 12,000 Haitians\".",
+   "extractos": [
+    {
+     "ubicacion": "sinopsis",
+     "cita_original": "despite events such as Trujillo's 1937 massacre of 12,000 Haitians, was determined to foster alliances with any government that would oppose its enemies",
+     "traduccion": "a pesar de sucesos como la matanza de 12.000 haitianos por Trujillo en 1937, [el gobierno de EE.UU.] estaba decidido a fomentar alianzas con cualquier gobierno que se opusiera a sus enemigos.",
+     "afirmaciones": [
+      "A-167"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-167"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0145",
+   "notas": "La cifra de 12.000 figura en la sinopsis de la editorial, no en el texto del libro (no leído); la base (despachos de la Legación y fuentes diplomáticas) es la que atribuye el registro. El artículo previo de Roorda (Diplomatic History 20:3, 1996) no se abrió."
+  },
+  {
+   "ref": "S35",
+   "titulo": "Terreurs de frontière: Le massacre des Haïtiens en République dominicaine en 1937 (ficha de William & Mary)",
+   "autor": "Derby, Lauren; Turits, Richard (con Watson Denis)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://www.wm.edu/as/globalstudies/latinamerican/news/new-book-publication-by-richard-turits-and-lauren-derby.php",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ficha institucional del propio departamento de los autores; el libro (testimonios en kreyòl recogidos en los años ochenta) no se leyó.",
+   "proveniencia": "Departamento de estudios globales de William & Mary, nota sobre la publicación en el Centre Challenges de ensayos y testimonios orales recogidos por Derby y Turits a mediados de los ochenta.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Terreurs de frontière reveals how before the Massacre, the border regions were highly integrated and bicultural with relative socio-economic equality among ethnic Haitians and ethnic Dominicans, who had lived together peacefully for generations",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-177",
+      "A-178"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-177",
+    "A-178"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0137",
+   "notas": "La ficha afirma \"relative socio-economic equality among ethnic Haitians and ethnic Dominicans\", que es la tesis de A-178 (interpretación) y no un dato; faltan los indicadores (tierra, escuela, matrimonios mixtos por clase) que pide A-178."
+  },
+  {
+   "ref": "S36",
+   "titulo": "Legislation eradicates Dominican \"Indians\" (Dominican Today, 11-XI-2011; fragmento reproducido por Mixed Race Studies)",
+   "autor": "Dominican Today (redacción)",
+   "anio": "2011",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://mixedracestudies.org/wp/?p=20308",
+   "urls_alternativas": [
+    "https://dominicantoday.com/?p=185276 (URL original de F-0058: fallo-fetch, devuelve la portada con código 404)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Solo el arranque de una nota periodística de 2011 sobre un proyecto de reforma electoral; no trata la cédula de 1931.",
+   "proveniencia": "Dominican Today (11-XI-2011) sobre el borrador de reforma de la Ley Electoral 275-97 por técnicos de la OEA y la JCE; el sitio Mixed Race Studies (2012) copia el arranque y remite al original.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Mulatto, black and white will be the only colors among Dominicans and will be stated thus in the citizens ID cards (cedula), effectively eradicating the nation's \"Indians.\"",
+     "traduccion": "Mulato, negro y blanco serán los únicos colores entre los dominicanos y se consignarán así en las cédulas, con lo que se erradicaría a los \"indios\" de la nación.",
+     "afirmaciones": [
+      "A-164"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164"
+   ],
+   "modulos": [
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0058",
+   "notas": "Confirma que en 2011 el proyecto fijaba solo tres colores (mulato, negro, blanco) y eliminaba \"indio\"; no dice cuándo apareció \"indio\" en la cédula (A-164 sigue sin el texto de la Ley 247 ni de su reglamento)."
+  },
+  {
+   "ref": "S37",
+   "titulo": "El cuerpo de la patria: imaginación geográfica y paisaje fronterizo en la República Dominicana durante la Era de Trujillo (Clío 167)",
+   "autor": "Altagracia Espada, Carlos Daniel",
+   "anio": "2004",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2004-167-147-202.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de la revista de la Academia Dominicana de la Historia con aparato crítico; los números del acto de Elías Piña vienen de Inoa (1999, p. 211), no de un testigo.",
+   "proveniencia": "Carlos Daniel Altagracia Espada, Clío n.º 167 (2004), pp. 147-202; estudia la producción intelectual sobre la frontera en la Era de Trujillo y trata el discurso de Peña Batlle como inauguración del plan de dominicanización.",
+   "extractos": [
+    {
+     "ubicacion": "p. 163 (pdf 17)",
+     "cita_original": "La inauguración del proyecto ocurrió el 16 de noviembre de 1942 en la actividad en que se designó la población de Elías Piñas como jurisdicción provincial en la zona de la frontera",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 163 (pdf 17)",
+     "cita_original": "un desfile de caballería de cuatro mil jinetes y nueve discursos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 163 (pdf 17)",
+     "cita_original": "reunió a doce mil pobladores de la región de la frontera",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    },
+    {
+     "ubicacion": "p. 163 (pdf 17); n. 36",
+     "cita_original": "Peña Batlle, Sentido, 1943, p. 7",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-180"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-179",
+    "A-180"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Fecha el acto en Elías Piña el 16-XI-1942 y el folleto El sentido de una política en 1943 (cita \"Peña Batlle, Sentido, 1943, p. 7\"); Derby-Turits 1993 dan 1942 para el folleto: la fecha del discurso no es discutida, la de edición sí. Pág. impresa = pdf + 146."
+  },
+  {
+   "ref": "S38",
+   "titulo": "DOMINICAN REPUBLIC: Bloody Boundary (TIME, 4 de junio de 1945)",
+   "autor": "TIME (redacción)",
+   "anio": "1945",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://time.com/archive/6772167/dominican-republic-bloody-boundary/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota de prensa de época, sin firma, con informantes anónimos (exiliado dominicano, funcionario haitiano) y descripción de 1937 sin cifras; vale como testimonio de lo que se decía en 1945.",
+   "proveniencia": "Revista TIME, 4-VI-1945, sobre los \"incidentes\" fronterizos y el temor de guerra entre Trujillo y Haití en la etapa de Lescot; la página es la reedición digital del archivo de TIME.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "In 1937, Trujillo's army massacred thousands of Haitian settlers, burned their bodies or tossed them into common graves",
+     "traduccion": "En 1937 el ejército de Trujillo masacró a miles de colonos haitianos, quemó sus cuerpos o los arrojó a fosas comunes.",
+     "afirmaciones": [
+      "A-165",
+      "A-191"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Útil para A-191: en 1945 la prensa estadounidense ya habla de cuerpos quemados o echados a \"common graves\", sin investigación forense. No da cifra de muertos de 1937 salvo \"thousands\"."
+  },
+  {
+   "ref": "S39",
+   "titulo": "SHADA's Conception (The Island Luminous, Part IX, slide 9)",
+   "autor": "Casimir, Jean",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://islandluminous.fiu.edu/part09-slide09.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto breve de un sociólogo e historiador haitiano (ex embajador), favorable a Lescot como reformador económico; las hectáreas vienen de Tinois y no se verificaron.",
+   "proveniencia": "Jean Casimir (Université d'État d'Haïti), pasaje sobre la política agrícola de Lescot (1941-1946): creación de la SHADA con préstamo del Eximbank. El año no figura en la página.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "The land acquired by the SHADA covered a total of 58,400 has., for the growing of rubber, and 75,000 has. for the exploitation of wooden construction material. Gérald Tinois estimated this total of 133,400 has. as equal to 21.55 percent of the agricultural land of the country",
+     "traduccion": "La tierra adquirida por la SHADA sumaba 58.400 ha para cultivar caucho y 75.000 ha para explotar madera de construcción; Gérald Tinois estimó esas 133.400 ha en el 21,55 % de la tierra agrícola del país.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Cifra de contexto para el periodo de Lescot (no hay afirmación del registro asociada): 58.400 ha de caucho + 75.000 ha de madera = 133.400 ha, 21,55 % de la tierra agrícola según Tinois (por verificar)."
+  },
+  {
+   "ref": "S40",
+   "titulo": "The 1937 Massacre (The Island Luminous, Part IX, slide 5)",
+   "autor": "Paulino, Edward",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part09-slide05.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto breve de Paulino con la única indicación accesible del libro de estadísticas oficiales de la dominicanización (Machado Báez, 1955).",
+   "proveniencia": "Edward Paulino, The Island Luminous (FIU), sin año en la página. Menciona Le Nouvelliste, 13-X-1937 (\"Le Malheureux Incident de la Frontière\") y la obra de Manuel A. Machado Báez La dominicanización fronteriza (1955), parte de la serie del 25.º aniversario del régimen.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Báez's is one of the few book-length sources of comprehensive government statistics of the state project that served to legitimate the government's post-massacre attempt to physically and culturally claim the Dominican borderlands",
+     "traduccion": "La obra de Machado Báez es una de las pocas fuentes en forma de libro con estadísticas gubernamentales completas del proyecto estatal que legitimó el intento del gobierno, tras la matanza, de reclamar física y culturalmente la frontera.",
+     "afirmaciones": [
+      "A-180"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-180"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Localiza la fuente estadística oficial de la dominicanización fronteriza (1955); la obra no se pudo abrir (solo en Univ. de Florida)."
+  },
+  {
+   "ref": "S41",
+   "titulo": "Ley sobre la Cédula Personal de Identidad (aprobada por el Congreso el 22-23 de mayo de 1935) y proyecto sobre falsas declaraciones de nacionalidad (4-IV-1936), expedientes del Senado de la República Dominicana",
+   "autor": "Congreso Nacional de la República Dominicana; Poder Ejecutivo (Trujillo)",
+   "anio": "1935-1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/d2d8413c-d061-4e4c-812b-19b7fd9d7d94/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/bitstreams/bdb52995-7ecc-4b0a-9f74-fc2e547281bd/download (proyecto sobre falsas declaraciones de nacionalidad, 4-IV-1936)",
+    "https://memoriahistorica.senadord.gob.do/bitstreams/124d2535-6b23-4521-ba77-ebbb5d67dfd0/download (proyecto de ley de cédula, fecha ilegible; exige consignar \"el color\")"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documentos legislativos originales escaneados (OCR con errores); fijan fechas y artículos, no la aplicación práctica.",
+   "proveniencia": "Archivo del Senado dominicano (Memoria Histórica): ley de 22-V-1935 que deroga la Ley 247 de 1931 sobre la cédula y mensaje presidencial del 4-IV-1936 que propone sancionar las falsas declaraciones de nacionalidad (por ser burla a la Ley 247 y a ciertas leyes fiscales).",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 8; ley de 22-V-1935, art. 29",
+     "cita_original": "Quedan derogadas las leyes números 247 del 29",
+     "traduccion": "Quedan derogadas las leyes números 247 del 29 de diciembre de 1931 [...]",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 8; ley de 22-V-1935, fecha de la sanción",
+     "cita_original": "a los veintidos días del mes de mayo del año mil novecientos treinta y cinco",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 10; proyecto de 4-IV-1936, art. 3",
+     "cita_original": "la Ley Núm. 247 de fecha 29 de diciembre de 1931",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164",
+      "A-188"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 5; proyecto de ley de cédula sin fecha legible, art. 3",
+     "cita_original": "la nacionalidad, la ocupación, la estatura, el domicilio, la residencia, la fecha de nacimiento, el color y las señas particulares",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "El texto de 1935 no incluye el campo \"color\" en su articulado legible; otro proyecto sin fecha legible (bitstream 124d2535-..., posterior a enero de 1936 por el nombre \"Ciudad Trujillo\") ordena consignar \"los nombres y apellidos, la nacionalidad, la ocupación, la estatura, el domicilio, la residencia, la fecha de nacimiento, el color y las señas particulares\". No contiene la palabra \"indio\": A-164 sigue sin la categoría en la norma. La Ley 247 (29-XII-1931) aparece citada como existente y derogada; su texto no se abrió."
+  },
+  {
+   "ref": "S42",
+   "titulo": "Origen de la primera cédula dominicana: obligatoriedad y control estatal (Acento)",
+   "autor": "Marmolejos, Abraham",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/actualidad/origen-de-la-primera-cedula-dominicana-obligatoriedad-y-control-estatal-9608995.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota divulgativa de 2026 sobre la primera cédula; da fecha y alcance de la Ley 247 sin citar la Gaceta Oficial y no menciona la categoría racial.",
+   "proveniencia": "Abraham Marmolejos, Acento, 23-I-2026, sobre la cédula en vísperas de su nueva emisión.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "La primera Cédula Personal de Identidad de la República Dominicana fue instituida mediante la Ley núm. 247, del 29 de diciembre de 1931, y entró en vigencia el 1 de enero de 1932, convirtiéndose en un documento obligatorio solo para los hombres mayores de 18 años residentes en el país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-164"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-164"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Dice que la Ley 247 (29-XII-1931) obligaba solo a hombres mayores de 18 años, mientras la ley de 1935 del Senado fija 16 años: difieren, como cabría por reforma posterior. No dice nada de \"indio\"."
+  },
+  {
+   "ref": "S43",
+   "titulo": "Declaración completa: Masacre del Perejil de 1937 (Movimiento Socialista de Trabajadoras y Trabajadores)",
+   "autor": "Movimiento Socialista de Trabajadoras y Trabajadores (RD)",
+   "anio": "2020",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://media.acento.com.do/media/storage02/uploads/2020/10/Declaración-Masacre-1937.docx",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Declaración política de una organización, sin aparato crítico: documenta una versión circulante (550.000 USD pagados; fosas comunes), no los hechos.",
+   "proveniencia": "Declaración publicada en Acento (octubre de 2020) por un movimiento socialista dominicano que pide la conmemoración oficial de la matanza. Interés político declarado.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "pagó una simbólica indemnización de 550 mil dólares al Estado haitiano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "El propio Joaquín Balaguer, canciller de la dictadura para el momento de la masacre, estima que 17 mil personas fueron asesinadas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-168"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Miles de cadáveres fueron arrojados al mar o enterrados en fosas comunes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-191"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-168",
+    "A-176",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Da 550.000 USD como indemnización pagada (coincide con Paulino/Crassweller, no con Turits) y dice que \"miles de cadáveres fueron arrojados al mar o enterrados en fosas comunes\" sin remitir a excavaciones: es una afirmación, no un hallazgo. Atribuye 17 mil a Balaguer (cf. Turits n. 2: 1985, p. 300)."
+  },
+  {
+   "ref": "S44",
+   "titulo": "The Border of Lights Reader: Bearing Witness to Genocide in the Dominican Republic (ficha de Fulcrum; incluye el capítulo \"Haitian-Dominican History and the 1937 Haitian Massacre\" de Turits y Derby)",
+   "autor": "Myers, Megan Jeanette; Paulino, Edward (eds.)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.fulcrum.org/concern/monographs/1v53k057r",
+   "urls_alternativas": [
+    "https://library.oapen.org/handle/20.500.12657/57786 (fallo-fetch 403, bloqueo anti-bot)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Volumen colectivo de acceso abierto (Amherst College Press) de activismo y análisis; solo se leyó la ficha: el PDF (47 MB) no se pudo descargar.",
+   "proveniencia": "Amherst College Press (2021), acceso abierto; reúne ensayos académicos y de activistas y una sección con el texto de Turits y Derby. El PDF figura en Fulcrum y en OAPEN, pero el enlace de descarga no se obtuvo.",
+   "extractos": [
+    {
+     "ubicacion": "ficha",
+     "cita_original": "Border of Lights, a volunteer collective, returns each October to the Dominican-Haitian border to bear witness to the 1937 Haitian Massacre",
+     "traduccion": "Border of Lights, un colectivo de voluntarios, vuelve cada octubre a la frontera dominico-haitiana para dar testimonio de la matanza haitiana de 1937.",
+     "afirmaciones": [
+      "A-165"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-165",
+    "A-191"
+   ],
+   "modulos": [
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura: capítulo de Turits y Derby (testimonios, cifras) y las entrevistas con Paulino; buscar allí si Border of Lights o universidades han hecho exploración física de los lugares de enterramiento (A-191)."
+  },
+  {
+   "ref": "S45",
+   "titulo": "Haiti Population and Housing Census 1950 (registro GHDx) y fuentes del censo haitiano",
+   "autor": "Haitian Institute of Statistics (IHSI); registro de IHME GHDx",
+   "anio": "1950",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "oficial-haiti",
+   "url": "https://ghdx.healthdata.org/record/haiti-population-and-housing-census-1950",
+   "urls_alternativas": [
+    "https://www.ihsi.ht (fallo-fetch: el dominio redirige a un sitio ajeno, znaki.fm)",
+    "https://www.one.gob.do/ (fallo-fetch: 403 Cloudflare)",
+    "https://ghdx.healthdata.org/print/3468 (ficha GHDx del censo dominicano de 1960)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Es una ficha de metadatos de IHME: confirma que el censo existe y su fecha, pero no da cifras.",
+   "proveniencia": "IHME (Univ. de Washington), Global Health Data Exchange; entrada modificada el 26-IV-2026; atribuye el censo al IHSI de Haití y dice que figura en el Anuario Demográfico de la ONU.",
+   "extractos": [
+    {
+     "ubicacion": "ficha",
+     "cita_original": "This source appears in the United Nations Demographic Yearbook",
+     "traduccion": "Esta fuente figura en el Anuario Demográfico de las Naciones Unidas.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0238",
+   "notas": "No se pudieron abrir ni el IHSI ni la ONE dominicana (Cloudflare). Los censos del IHSI de 1950, 1971 y 1982 y los de la ONE de 1935, 1950 y 1960 siguen sin consulta directa: laguna prioritaria. La cifra de 3,1 millones en 1950 viene de S23."
+  },
+  {
+   "ref": "S46",
+   "titulo": "Empire's Guestworkers: Haitian Migrants in Cuba during the Age of US Occupation, cap. \"Returning to Haiti and the Aftermath of US Occupation\" (extracto en línea)",
+   "autor": "Casey, Matthew",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://resolve.cambridge.org/core/books/empires-guestworkers/returning-to-haiti-and-the-aftermath-of-us-occupation/AB41CF80F2EB35C753D4875DDF4661C7",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de Cambridge UP con archivo cubano y haitiano; aquí solo un fragmento visible del capítulo.",
+   "proveniencia": "Matthew Casey, Cambridge UP, 2017; trata la migración haitiana a Cuba entre 1910 y 1940 y los repatriados. Contexto del flujo de braceros hacia la RD tras 1930.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "In 1928, as the case of Borgella indicates, the Cuban government forcefully repatriated over 2000 Haitians from the country",
+     "traduccion": "En 1928, como indica el caso de Borgella, el gobierno cubano repatrió por la fuerza a más de 2.000 haitianos.",
+     "afirmaciones": [
+      "A-188"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-188"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "El fragmento visible da 2.000 repatriados forzosos en 1928 y un aumento posterior; no da el total de 1937 (Vega usa 30.000 deportados de Cuba; otras fuentes 25.000; Báez Evertsz 70.000 a fines de los veinte): [POR VERIFICAR] la cifra de 1937 en Casey (cap. 7) o en McLeod 1998."
+  },
+  {
+   "ref": "S47",
+   "titulo": "80 Years On, Dominicans And Haitians Revisit Painful Memories Of Parsley Massacre (NPR, Parallels)",
+   "autor": "NPR / Latino USA (equipo de Marlon Bishop, productor, y Tatiana Fernández, fotografía)",
+   "anio": "2017",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.npr.org/sections/parallels/2017/10/07/555871670/80-years-on-dominicans-and-haitians-revisit-painful-memories-of-parsley-massacre",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Reportaje de radio con testimonios; resume cifras (525.000 USD; 1.000-30.000 muertos) sin fuente, aunque su relato coincide con el de Turits.",
+   "proveniencia": "NPR, 7-X-2017, equipo de Latino USA (productor Marlon Bishop, fotografía de Tatiana Fernández) en la frontera para el 80.º aniversario; incluye a supervivientes y a los organizadores de Border of Lights.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "Estimates of the number of dead still vary widely — from less than 1,000 to 30,000. Mass graves were never found",
+     "traduccion": "Las estimaciones de muertos siguen variando mucho: de menos de 1.000 a 30.000. Nunca se encontraron fosas comunes.",
+     "afirmaciones": [
+      "A-190",
+      "A-191"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "Trujillo paid an indemnity of $525,000 in 1938 (equivalent to about $9 million today) to the Haitian government",
+     "traduccion": "Trujillo pagó una indemnización de 525.000 dólares en 1938 (unos 9 millones de hoy) al gobierno haitiano.",
+     "afirmaciones": [
+      "A-176"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "I have responded, 'I will fix this.' And we have already begun to remedy the situation.",
+     "traduccion": "Yo he respondido: \"Yo lo arreglaré\". Y ya hemos comenzado a remediar la situación.",
+     "afirmaciones": [
+      "A-182"
+     ]
+    },
+    {
+     "ubicacion": "",
+     "cita_original": "according to a popular though unconfirmed story, this was used as a litmus test of their origins",
+     "traduccion": "según una historia popular pero no confirmada, esto se usó como prueba para identificar su origen.",
+     "afirmaciones": [
+      "A-170"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-170",
+    "A-176",
+    "A-182",
+    "A-190",
+    "A-191"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0189",
+   "notas": "Da \"525.000 dólares en 1938\" como pago de Trujillo (misma cifra que Turits, sin fuente propia) y un rango de muertos \"de menos de 1.000 a 30.000\"; dice que \"mass graves were never found\" (afirmación periodística, sin cita de búsqueda). Reproduce el pasaje del discurso del 2-X-1937 según \"una crónica contemporánea\" sin la frase de Bánica. Califica la prueba del perejil de \"historia popular pero no confirmada\"."
+  },
+  {
+   "ref": "S48",
+   "titulo": "Tropical Zion: General Trujillo, FDR, and the Jews of Sosúa (ficha de Duke University Press)",
+   "autor": "Wells, Allen",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.dukeupress.edu/tropical-zion",
+   "urls_alternativas": [
+    "https://www.degruyterbrill.com/document/doi/10.1515/9780822392057/html (fallo-fetch: 202 sin contenido)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de referencia sobre Sosúa con archivo; aquí solo la sinopsis editorial.",
+   "proveniencia": "Duke University Press, 2009. La sinopsis dice que 750 refugiados judíos fundaron Sosúa; el libro no se leyó.",
+   "extractos": [
+    {
+     "ubicacion": "sinopsis",
+     "cita_original": "Seven hundred and fifty Jewish refugees fled Nazi Germany and founded the agricultural settlement of Sosúa in the Dominican Republic, then ruled by one of Latin America's most repressive dictators, General Rafael Trujillo",
+     "traduccion": "Setecientos cincuenta refugiados judíos huyeron de la Alemania nazi y fundaron el asentamiento agrícola de Sosúa en la República Dominicana, entonces gobernada por el general Rafael Trujillo.",
+     "afirmaciones": [
+      "A-185"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-185"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0161",
+   "notas": "Tres cifras de refugiados en Sosúa coexisten: 645 (USHMM), ~700 (The World), 750 (sinopsis de Wells). Pueden medir cosas distintas (admitidos a la RD; fundadores del asentamiento): [POR VERIFICAR] en el libro."
+  },
+  {
+   "ref": "S49",
+   "titulo": "New Book Publication by Richard Turits and Lauren Derby (W&M News, 17-II-2022) [ficha de Terreurs de frontière]",
+   "autor": "William & Mary, Arts & Sciences News",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.wm.edu/as/news/2021-2022/hist-richard-turits-and-lauren-derby.php",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota institucional que identifica a Watson Denis como editor del volumen; no contiene datos propios.",
+   "proveniencia": "Departamento de historia de William & Mary, 17-II-2022; el libro Terreurs de frontière se vende en Puerto Príncipe, Santo Domingo y EE.UU.",
+   "extractos": [
+    {
+     "ubicacion": "",
+     "cita_original": "The collection of essays and oral histories is edited and introduced by Dr Watson Denis, professor of Haitian Social Thought, Caribbean History, and International Relations at the State University of Haiti",
+     "traduccion": "La colección de ensayos e historias orales está editada e introducida por el Dr. Watson Denis, profesor de pensamiento social haitiano, historia del Caribe y relaciones internacionales en la Universidad del Estado de Haití.",
+     "afirmaciones": [
+      "A-177"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-177",
+    "A-178"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0119",
+   "notas": "Resuelve parcialmente F-0119: confirma que Watson Denis edita e introduce el volumen y es profesor de la Universidad del Estado de Haití; no recoge el título La négation du droit à la nationalité (obra de Denis)."
+  },
+  {
+   "ref": "S50",
+   "titulo": "Britannica: Parsley Massacre",
+   "autor": "Encyclopaedia Britannica",
+   "anio": "s.f.",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "ninguna",
+   "url": "https://www.britannica.com/event/Parsley-Massacre",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Terciaria bloqueada (403 anti-bot); no se leyó.",
+   "proveniencia": "Enciclopedia general; entrada sobre la matanza que, según el registro, da un \"consenso\" de ~20.000. No abierta desde esta red.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-169"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0202",
+   "notas": "fallo-fetch 403; sigue [POR VERIFICAR] el texto y el año de la entrada."
+  },
+  {
+   "ref": "S51",
+   "titulo": "Bêtes Noires: Sorcery as History in the Haitian-Dominican Borderlands",
+   "autor": "Derby, Lauren (Robin)",
+   "anio": "2025",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://library.oapen.org/bitstream/20.500.12657/109107/1/9781478061564.pdf",
+   "urls_alternativas": [
+    "https://library.oapen.org/handle/20.500.12657/57786 (misma plataforma, mismo bloqueo)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de acceso abierto de la principal especialista en la historia popular de la frontera, pero OAPEN devuelve 403 desde esta red (probado con 4 agentes de usuario y encabezado Referer).",
+   "proveniencia": "Duke University Press (2025), acceso abierto en OAPEN. Contiene la discusión de Derby sobre el origen de la prueba del perejil y la memoria de 1937 que pide A-170; no se pudo leer.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-170",
+    "A-177",
+    "A-178"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0136",
+   "notas": "Pendiente de lectura por otra vía (descarga manual desde un navegador o Fulcrum/Duke)."
+  },
+  {
+   "ref": "S52",
+   "titulo": "Haitians, Magic, and Money: Raza and Society in the Haitian-Dominican Borderlands, 1900 to 1937 (CSSH 36:3, 488-526) y The Dictator's Seduction",
+   "autor": "Derby, Lauren (Robin)",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://library.oapen.org/handle/20.500.12657/48779",
+   "urls_alternativas": [
+    "http://www.jstor.org/stable/179294 (artículo de 1994; no se abrió)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo y libro de referencia sobre la frontera antes de 1937; el acceso abierto de OAPEN devuelve 403 desde esta red.",
+   "proveniencia": "Comparative Studies in Society and History 36:3 (1994), pp. 488-526 (JSTOR stable 179294, según la búsqueda); The Dictator's Seduction (Duke UP, 2009; OAPEN).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-170",
+    "A-177",
+    "A-178",
+    "A-179"
+   ],
+   "modulos": [
+    "M13",
+    "M12"
+   ],
+   "id_existente": "F-0173",
+   "notas": "No leído. Es la fuente de A-177 y A-178 y de las tres capas del antihaitianismo que cita Paulino (2001, n. 30)."
+  },
+  {
+   "ref": "S53",
+   "titulo": "Lista de víctimas de 1937 atribuida a Lescot / comisión haitiana (12.168): origen no localizado",
+   "autor": "Gobierno de Haití (lista nominal), vía Cadeau y Wikipedia",
+   "anio": "1937-1941",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://cowlatinamerica.voices.wooster.edu/archive-item/1937-haitian-massacre-in-the-dominican-republic",
+   "urls_alternativas": [
+    "https://assets.cambridge.org/97811089/31526/excerpt/9781108931526_excerpt.pdf (fallo-fetch 000)",
+    "https://en.wikipedia.org/wiki/Parsley_massacre (la versión actual no contiene \"12,168\": ver notas)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "307",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Sin documento primario: una página del College of Wooster (bloqueada por Sucuri, redirección 307) y el extracto de Cambridge (inaccesible) son las rutas; la cifra sigue en D hasta trazarla.",
+   "proveniencia": "Una búsqueda devolvió, como resumen de la página de Wooster, que \"local priests and officials in Haiti recorded testimonies of refugees and compiled a list that ultimately enumerated 12,168 victims\" [VERIFICADO: fragmento de búsqueda, no de la página]. La entrada anglófona de Wikipedia que el registro cita ya no contiene 12.168 (infobox: 17.000-35.000; texto: 14.000-40.000).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-167",
+    "A-190"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0056",
+   "notas": "Lo que sí consta en lo leído: Turits (n. 2) recoge 2.130 nombres de P. Robert en Ouanaminthe; Herrera (2022a) da dos listas de 1.093 y 1.037 nombres del obispo Jan (-> 3.000 víctimas) y 12.136 más 2.419 heridos de Price-Mars (1953). La lista de 12.168 y la de Price-Mars (12.136) son cifras distintas y no se ha trazado ninguna a su base: A-167 las trata como una sola familia."
+  },
+  {
+   "ref": "S54",
+   "titulo": "La llamada Masacre del Perejil (El Caribe, edición impresa)",
+   "autor": "El Caribe (redacción)",
+   "anio": "s.f.",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.elcaribe.com.do/edicion-impresa/la-llamada-masacre-del-perejil/",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Página bloqueada (403); la cifra de 8.492 solo consta en un resumen de búsqueda.",
+   "proveniencia": "Periódico dominicano. Un resumen de búsqueda (que no indica cuál de varias páginas lo contenía: El Caribe, Dominican Today 2023, Diario Libre) dice que \"el último censo de población antes de la matanza, de 1936, indicaba que los haitianos que vivían en el país eran 8.492\" y que Vega concluye 4.000-6.000: [VERIFICADO: fragmento de búsqueda; ninguna de las páginas abiertas contiene 8.492].",
+   "extractos": [],
+   "afirmaciones": [
+    "A-166",
+    "A-188"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "8.492 vs 8.442: Herrera (2022a) da 8.442 haitianos en siete provincias del Cibao (censo de 1935, suma exacta de su desglose); 8.492 [POR VERIFICAR] como errata o como cifra distinta. Ninguna de las dos es el total nacional de haitianos del censo de 1935 (52.657 según Diario Libre 2013)."
+  },
+  {
+   "ref": "S55",
+   "titulo": "Proyecto Genográfico Dominicano / Dominican Genographic Project (Schurr et al., Am. J. Biol. Anthropol., marzo de 2026): registros del repositorio UNIBE",
+   "autor": "Schurr, Theodore G.; et al.",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://cris.unibe.edu.do/handle/123456789/589",
+   "urls_alternativas": [
+    "https://cris.unibe.edu.do/entities/publication/0602fa93-352b-4f12-91cb-32bda351c87d"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio de revista especializada (n = 1.015, 25 puntos de muestreo) con mtDNA, cromosoma Y y autosomas; los registros UNIBE devuelven 403 (Cloudflare) y no pude abrir el artículo.",
+   "proveniencia": "Resultados que dos búsquedas devolvieron como resumen de los registros UNIBE: mtDNA 78,8 % africano, 12,1 % nativo americano, 9,1 % euroasiático occidental; cromosoma Y 71 % euroasiático occidental, 28 % africano, 1 % nativo americano; autosomas 50,3 % africano, 41,2 % europeo, 3,8 % nativo americano, 2,3 % Oriente Medio/judío, 1,8 % Asia central-sur-este [VERIFICADO: fragmento de búsqueda, no de la página]. Pertenece a M01/M16; aquí solo sirve de contraste con las categorías raciales de los censos (A-189).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-189"
+   ],
+   "modulos": [
+    "M01",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "No es evidencia sobre 1930-1961; se cita para contrastar el 28 % blanco / 60 % mestizo / 11 % negro del censo de 1950 (autoclasificación del empadronador) con una ancestría media autosómica de ~41 % europea y ~50 % africana (n = 1.015). Pendiente: abrir el artículo y confirmar tabla de ancestría y metodología."
+  },
+  {
+   "ref": "S56",
+   "titulo": "Acuerdo fronterizo (comunicado oficial, Gaceta Oficial n.º 4773, 9 de marzo de 1935), PDF del MIREX",
+   "autor": "República Dominicana, Poder Ejecutivo / Ministerio de Relaciones Exteriores (MIREX)",
+   "anio": "1935",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mirex.gob.do/wp-content/uploads/2024/06/6.-Haiti_acuerdo-fronterizo.pdf",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/bitstreams/aeb4efa1-41e2-49aa-8847-6c23e4ad4635/download (contiene solo una resolución reciente del Senado sobre la frontera, no el Protocolo de 1936)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado oficial reproducido en PDF escaneado (4 págs., OCR con errores); es el acuerdo de 1935 y no el Protocolo de 1936 ni el Tratado de 1929, que no se abrieron.",
+   "proveniencia": "Comunicado conjunto de los presidentes Vincent y Trujillo publicado en la Gaceta Oficial n.º 4773 (9-III-1935 según el encabezado del PDF), que cierra cinco dificultades pendientes de la delimitación del Tratado de 1929 y remite el sector de La Miel a un protocolo adicional. Es la versión que el régimen difundió; el MIREX la sube como documento de límites vigentes.",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 1",
+     "cita_original": "iniciaron desde Octubre 18 de 1933 en las ciudades de Dajabon y Ouanaminthe",
+     "traduccion": "iniciaron desde el 18 de octubre de 1933, en las ciudades de Dajabón y Ouanaminthe, conversaciones directas y personales.",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 1",
+     "cita_original": "durante la visita realizada a Haití en Noviembre de 1934",
+     "traduccion": "durante la visita realizada a Haití en noviembre de 1934 [por el presidente Trujillo].",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 1",
+     "cita_original": "conversaciones sostenidas en esta Capital entre el Hon. Presidente Vincent, huésped de honor del Gobierno y el Pueblo Dominicanos, y el Hon. Presidente Trujillo Molina",
+     "traduccion": "las conversaciones sostenidas en esta Capital entre el Hon. Presidente Vincent, huésped de honor del Gobierno y el Pueblo Dominicanos, y el Hon. Presidente Trujillo Molina (texto con cortes de línea por OCR).",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 2",
+     "cita_original": "La Segunda Dificultad queda resuelta con el arreglo del protocolo de la Miel",
+     "traduccion": "La Segunda Dificultad queda resuelta con el arreglo del protocolo de la Miel.",
+     "afirmaciones": [
+      "A-181"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-181"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "F-0055",
+   "notas": "Fija por el documento oficial las fechas de las conversaciones (desde el 18-X-1933 en Dajabón y Ouanaminthe), de la visita de Trujillo a Haití (noviembre de 1934) y de la presencia de Vincent como huésped de honor en Santo Domingo (conversaciones del acuerdo): A-181 puede dejar de llevar \"fechas por verificar\" para estos tres hitos. El texto del Protocolo de revisión del 9-III-1936 (La Miel) no se pudo abrir; Turits (n. 31) lo da por cesión de 41.892 ha; ver S57 para el conflicto de cifras."
+  },
+  {
+   "ref": "S57",
+   "titulo": "El día que Trujillo cedió parte del territorio a su aliado haitiano (Diario Libre) y Los terrenos que cedió Trujillo a Haití a cambio de que no se le concediera asilo a sus opositores (El Día)",
+   "autor": "Pereyra, Emilia (Diario Libre); El Día (redacción)",
+   "anio": "2017; 2021",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/revista/el-dia-que-trujillo-cedio-parte-del-territorio-a-su-aliado-haitiano-FF8777502",
+   "urls_alternativas": [
+    "https://eldia.com.do/los-terrenos-que-cedio-trujillo-a-haiti-a-cambio-de-que-no-se-le-concediera-asilo-a-sus-opositores/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Notas periodísticas que repiten cifras territoriales de historiadores (Núñez, de la Cruz, Vega) sin base cartográfica; sus cifras no concuerdan entre sí.",
+   "proveniencia": "Diario Libre (Emilia Pereyra, 14-XII-2017) y El Día (1-VI-2021); citan a Manuel Núñez, Juan de la Cruz y a Bernardo Vega (Historia de la República Dominicana) sobre el Protocolo de La Miel (9-III-1936) y su motivo (Vincent se comprometió a no acoger exiliados dominicanos).",
+   "extractos": [
+    {
+     "ubicacion": "cita de Manuel Núñez (Diario Libre, 14-XII-2017)",
+     "cita_original": "la soberanía de Haití se ejercerá plenamente en 27.750 km2 y los dominicanos terminaríamos con 48.448 km2",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    },
+    {
+     "ubicacion": "El Día, 1-VI-2021, párr. 3",
+     "cita_original": "Estas concesiones permitieron que Haití aumentará su territorio en 6,663 km2 entre los años 1929 y 1936 los equivalentes a casi un tercio de sus 27, 750 km2 actuales",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-181"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-181"
+   ],
+   "modulos": [
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Conflicto de cifras sobre lo cedido: (a) Turits n. 31 (Vega): 41.892 ha = 418,9 km² por el Protocolo de 1936; (b) Paulino 2001, n. 22 (Vega, Trujillo y Haití, p. 230): \"666.076 hectáreas\"; (c) El Día 2021: Haití aumentó su territorio en 6.663 km² entre 1929 y 1936; (d) Núñez (Diario Libre 2017): 27.750 km² para Haití y 48.448 km² para la RD tras 1936. CÁLCULO propio: 666.076 tareas x 628,86 m² (equivalencia de una tarea [VERIFICADO: fragmento de búsqueda]) = ~41.887 ha, es decir, ~41.892 ha de Turits: la cifra de Vega que cita Paulino parece estar en tareas y no en hectáreas, y los 6.663 km² de El Día probablemente leen esas mismas tareas como hectáreas [POR VERIFICAR contra Vega, vol. 1, pp. 224-232]."
+  }
+ ],
+ "tabla_cifras_1937": [
+  {
+   "autor": "Coronel Jules André (haitiano)",
+   "fecha": "5-X-1937",
+   "cifra": "~260 haitianos con documentos cruzaron a Haití con sus pertenencias (no es cifra de muertos)",
+   "base": "informe contemporáneo citado por Herrera 2022a (a su vez de Vega, vol. II)",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano; informe no visto"
+  },
+  {
+   "autor": "Ministro de EE.UU. en Santo Domingo; cónsul en Cabo Haitiano; gerente del First National City Bank",
+   "fecha": "7-16-X-1937",
+   "cifra": "varios cientos (7-X); más de 500 (8-X); más de 1.000 (11-X); 1.300-1.400 (16-X)",
+   "base": "informes diplomáticos y bancarios contemporáneos (Vega vol. II vía Herrera)",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano"
+  },
+  {
+   "autor": "Sténio Vincent (presidente de Haití)",
+   "fecha": "9-XII-1937",
+   "cifra": "8.000",
+   "base": "declaración a The New York Times y AP; sin método declarado",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano; Vincent había prohibido hablar de la matanza (S03)"
+  },
+  {
+   "autor": "Mons. Jean-Marie Jan (obispo de Cabo Haitiano)",
+   "fecha": "mediados de XII-1937",
+   "cifra": "3.000",
+   "base": "dos listas nominales de sacerdotes (1.093 y 1.037 nombres con edades)",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano; listas no vistas"
+  },
+  {
+   "autor": "Informe del Servicio de Inteligencia Militar de EE.UU. (y Foreign Office, 14-XII: 6.000)",
+   "fecha": "principios de XII-1937",
+   "cifra": "5.000-6.000",
+   "base": "informantes estadounidenses residentes (cónsules, banqueros, diplomáticos, inspectores de aduanas)",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano (Vega vol. II)"
+  },
+  {
+   "autor": "The New York Times",
+   "fecha": "21-XII-1937",
+   "cifra": "12.000",
+   "base": "no declarada en la columna que lo cita",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano; artículo no visto"
+  },
+  {
+   "autor": "P. Émile Robert (Ouanaminthe)",
+   "fecha": "XI-1937; entrevista de 1988",
+   "cifra": "2.130 nombres de asesinados recogidos entre refugiados; en 1988 estimaba \"por lo menos 15.000\"",
+   "base": "lista nominal parcial (solo una parte de los que escaparon) y juicio de testigo",
+   "fuente": "S01 n. 2",
+   "trazabilidad": "citado por Turits (que habló con él en 1988); lista no vista"
+  },
+  {
+   "autor": "Bernardo Vega, Trujillo y Haití (1988)",
+   "fecha": "1988",
+   "cifra": "4.000-6.000 (5.292 por cálculo)",
+   "base": "8.442 haitianos del censo de 1935 en siete provincias del Cibao + 3.000 de los 30.000 deportados de Cuba en 1937 = 11.442, menos 6.150 que cruzaron (4.200 por Juana Méndez, 950 por barco desde Puerto Plata, 1.000 por otros puntos)",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano (Herrera); depende de que el padrón de 1935 cubra bien a la población haitiana de la región y de la hipótesis de 3.000 llegados de Cuba; el total nacional de haitianos en 1935 fue 52.657 (S19)"
+  },
+  {
+   "autor": "Jean Price-Mars (1953)",
+   "fecha": "1953",
+   "cifra": "12.136 muertos y 2.419 heridos",
+   "base": "no trazada (posible compilación de la comisión haitiana de 1938)",
+   "fuente": "S04",
+   "trazabilidad": "obra no leída; D hasta trazar"
+  },
+  {
+   "autor": "Lista atribuida a Élie Lescot / comisión haitiana",
+   "fecha": "1937-1941 [por verificar]",
+   "cifra": "12.168 víctimas",
+   "base": "lista nominal; origen no localizado",
+   "fuente": "S53",
+   "trazabilidad": "D hasta trazar; la página de Wikipedia citada ya no la contiene"
+  },
+  {
+   "autor": "Eric Paul Roorda, The Dictator Next Door (1998)",
+   "fecha": "1998",
+   "cifra": "12.000",
+   "base": "archivos diplomáticos de EE.UU. (según registro); solo la sinopsis editorial se leyó",
+   "fuente": "S34",
+   "trazabilidad": "obra no leída"
+  },
+  {
+   "autor": "Derby y Turits (1993)",
+   "fecha": "1993",
+   "cifra": "12.000-25.000",
+   "base": "19 meses de campo y archivos",
+   "fuente": "S02",
+   "trazabilidad": "texto leído; sin desglose en la introducción"
+  },
+  {
+   "autor": "Richard Turits (2002/2003)",
+   "fecha": "2002",
+   "cifra": "~15.000",
+   "base": "historia oral (entrevistas 1987-1988) y archivos; \"no es posible saber con exactitud\"",
+   "fuente": "S01",
+   "trazabilidad": "texto leído; estimación, no cómputo"
+  },
+  {
+   "autor": "Joaquín Balaguer (1985, Memorias; p. 300)",
+   "fecha": "1985",
+   "cifra": "17.000 (\"cifra convencional\" en RD según Turits)",
+   "base": "no declarada",
+   "fuente": "S01 n. 2; S04",
+   "trazabilidad": "obra no leída; D"
+  },
+  {
+   "autor": "José Luis Sáez, S.J. (1988, pp. 60 y 71), cálculo de Turits",
+   "fecha": "1988",
+   "cifra": "al menos 20.000",
+   "base": "30.000 residentes en la parroquia de Dajabón en 1936 (estimación de un misionero) menos 10.000 que se afirma cruzaron",
+   "fuente": "S01 n. 2",
+   "trazabilidad": "obra de Sáez no leída; cifra de partida sin base censal"
+  },
+  {
+   "autor": "Frank Moya Pons (Manual, 1977/1984)",
+   "fecha": "1977",
+   "cifra": "~18.000",
+   "base": "no declarada",
+   "fuente": "S04; S06",
+   "trazabilidad": "obra no leída"
+  },
+  {
+   "autor": "Susy Castor (1978/1987)",
+   "fecha": "1978",
+   "cifra": "18.000-25.000 según Herrera; \"12.000 o más\" según el registro del proyecto",
+   "base": "no declarada",
+   "fuente": "S04",
+   "trazabilidad": "obra no leída; atribución discrepante"
+  },
+  {
+   "autor": "Catherine LeGrand (1996)",
+   "fecha": "1996",
+   "cifra": "10.000-20.000",
+   "base": "nota 20 (Vega, Derby y Turits, Roorda)",
+   "fuente": "S11",
+   "trazabilidad": "síntesis, no estimación propia"
+  },
+  {
+   "autor": "Edward Paulino (2001; 2016)",
+   "fecha": "2001; 2016",
+   "cifra": "más de 20.000 (2001); ~15.000 (2016)",
+   "base": "archivo y entrevistas; sin método de cómputo en lo leído",
+   "fuente": "S09; S10",
+   "trazabilidad": "texto leído parcialmente"
+  },
+  {
+   "autor": "Sabine Cadeau (2022)",
+   "fecha": "2022",
+   "cifra": "~20.000 en menos de dos semanas",
+   "base": "testimonios de refugiados de 1937 e historia oral; no leída su estimación",
+   "fuente": "S32; S33",
+   "trazabilidad": "libro no leído"
+  },
+  {
+   "autor": "Otros (vía Herrera 2022a)",
+   "fecha": "1958-2008",
+   "cifra": "Ornes 15.000; Henríquez 20.000; R. Martínez >10.000; Crassweller 15.000-20.000; Diederich >20.000; Franco ~10.000; Báez Evertsz >12.000; Dorsinville 25.000; Despradel 35.000; Gutiérrez Félix <=5.000",
+   "base": "no declaradas",
+   "fuente": "S04",
+   "trazabilidad": "segunda mano; sin base"
+  },
+  {
+   "autor": "Rangos de síntesis",
+   "fecha": "1999; 2017",
+   "cifra": "5.000-37.000 (Gerdsmeier); <1.000-30.000 (NPR); 14.000-40.000 (Wikipedia, texto)",
+   "base": "ninguna",
+   "fuente": "S15; S47",
+   "trazabilidad": "terciaria/divulgación: no entra como evidencia"
+  }
+ ],
+ "tabla_censos": [
+  {
+   "censo": "1920 (Primer censo nacional de población; edición de 1923)",
+   "poblacion_total": "894.665",
+   "haitianos": "28.258 (3,1 %; 57 % de los 49.520 extranjeros)",
+   "composicion": "blancos 24,9 %; mestizos y amarillos 49,7 %; negros 25,4 %",
+   "fuente": "S21 (Wikipedia), S19",
+   "estado": "sin el volumen; Herrera: 10.972 haitianos en la provincia de Montecristi (S05)"
+  },
+  {
+   "censo": "1935",
+   "poblacion_total": "1.479.417",
+   "haitianos": "52.657 (3,5 %) [Diario Libre 2013]; 8.442 en siete provincias del Cibao [Herrera 2022a]",
+   "composicion": "13 % blancos; 68 % mestizos/mulatos; 19 % negros (vía Price-Mars 1958, p. 181; Lyonnet 1955; Larrazábal 1975)",
+   "fuente": "S01 n. 5, S04, S09, S19",
+   "estado": "volumen no localizado (Paulino tampoco); las cifras raciales son de memoria de terceros"
+  },
+  {
+   "censo": "1950 (Tercer censo nacional; edición de 1958)",
+   "poblacion_total": "2.135.872",
+   "haitianos": "18.772 (0,9 %) [Wikipedia, Malkún] frente a 19.193 [Diario Libre 2013]",
+   "composicion": "blancos 28,14 %; mestizos 60,36 %; negros 11,47 %; amarillos 0,03 %",
+   "fuente": "S19, S20, S21",
+   "estado": "sin el volumen; discrepancia 18.772/19.193 sin explicar"
+  },
+  {
+   "censo": "1960",
+   "poblacion_total": "3.047.070",
+   "haitianos": "29.500 (0,97 %)",
+   "composicion": "blancos 16,08 %; mixtos 72,93 %; negros 10,89 %",
+   "fuente": "S19, S21",
+   "estado": "sin el volumen; último censo con raza hasta 2022"
+  },
+  {
+   "censo": "Haití: encuesta 1918-1919 y censo de 1950 (IHSI)",
+   "poblacion_total": "~1,9 millones (1918-19); 3,1 millones (1950)",
+   "haitianos": "-",
+   "composicion": "-",
+   "fuente": "S23, S45; MPD 2020 (S24): 3,097 millones en 1950",
+   "estado": "censos criticados por subregistro; IHSI inaccesible"
+  }
+ ],
+ "tabla_indemnizacion_1938": [
+  {
+   "dato": "Pactado",
+   "cifra": "750.000 USD (Haití pedía 1.500.000)",
+   "fuente": "S17 art. III; S18"
+  },
+  {
+   "dato": "Calendario del acuerdo",
+   "cifra": "250.000 al firmar; 100.000 cada 31 de enero desde 1939 hasta extinguir la deuda",
+   "fuente": "S17 art. VIII"
+  },
+  {
+   "dato": "Primer pago",
+   "cifra": "250.000 USD, de la cuenta personal de Trujillo, entregados el 26-II-1938",
+   "fuente": "S18 (l. 502-521)"
+  },
+  {
+   "dato": "Total pagado",
+   "cifra": "525.000 (Turits, NPR) / 550.000 (Paulino vía Crassweller 1966, Mov. Socialista) / \"no terminó de pagar\" (Álvarez Pina vía Pereyra)",
+   "fuente": "S03, S47, S09, S43, S07",
+   "trazabilidad": "sin primaria de pago; con el calendario, 250.000 + 3 x 100.000 = 550.000"
+  }
+ ]
+}
