@@ -3,298 +3,409 @@
  "modulo": "M16",
  "ronda": 2,
  "fecha": "2026-10-06",
- "busquedas_usadas": 28,
+ "busquedas_usadas": 16,
  "busquedas_pendientes": [
-  "Bukhari et al. 2017 (Gene 637:33-40): n y origen de la muestra dominicana (el 22,0 % no se pudo trazar a un n); texto completo o tesis de FIU.",
-  "Martínez-Cruzado 2008 (ponencia ALAB, La Plata) o 2010 (capítulo en Island Shores, Distant Pasts): n=560, 14,8 % y los 14 linajes A dominicanos.",
-  "Resumen del PGD en la UNIBE (handle 589) o en Wiley (DOI 10.1002/ajpa.70227) por un medio que no sea bloqueado; Oakley et al. 2017 (póster).",
-  "Moreno-Estrada 2013 y Bryc 2010: cifras autosómicas dominicanas de los suplementos.",
-  "Consultas en español (Redalyc, SciELO, Dialnet) sobre genética de bateyes y de la frontera; Boletín del Museo del Hombre Dominicano.",
-  "Etimologías de kasav, kanari, mabouya en Valdman 2007 por préstamo; Granberry y Vescelius 2004 (capítulo \"short lexicon\").",
-  "Texto de Tejera, Palabras indíjenas (1935) o Indigenismos (1977) en la ADH o la Biblioteca Nacional.",
-  "Artículo publicado de Herrera y Tallman 2019 (Forensic Sci Int 304:110013) para cotejar las cifras de acierto con la tesis."
+  "site:redalyc.org OR site:dialnet.unirioja.es ADN haitianos ancestría (Dialnet y Redalyc no se consultaron por nombre; solo SciELO por consulta general)",
+  "site:persee.fr OR site:cairn.info Haïtiens génétique groupes sanguins anthropobiologie (literatura francófona de genética clásica)",
+  "ResearchGate / Google Scholar: Schurr 2026 'Genomic diversity in the Dominican Republic' texto completo o póster",
+  "Bryc 2010 Supplementary Information (tabla de ancestría por población) en espejos no bloqueados",
+  "dbGaP o EGA: accesión de los genotipos de Moreno-Estrada 2013 (para recalcular proporciones por individuo)",
+  "Haitian reference population Genographic: n y procedencia de la muestra (Genographic Legacy/Consortium)",
+  "LAPOP AmericasBarometer 2010/2012/2023: base de datos de República Dominicana con las variables de color y etnicidad (para A-226)",
+  "Revisión de Pfennig y Lachance 2023 y de Salzano y Sans 2014 (tabla de Haití con n=111 y 44 AIM) cotejada con la fuente original de esas cifras"
  ],
  "lagunas": [
-  "PGD: no hay artículo revisado por pares con tablas del chip (autosómico y Y). El resumen AABA 2026 solo se conoce por fragmentos de búsqueda (UNIBE y Wiley dan 403; el navegador integrado se detiene en la verificación de bots de Cloudflare y no se intentó superarla). El único artículo publicado es el de mtDNA en Clío 2019, que analiza 472 de 1.010 individuos (12 de 25 sitios) sin tablas por sitio (solo gráficos de sectores).",
-  "Desglose por sitio del PGD: solo se conocen nombres de sitios (18 entre Clío y El Día) y rankings cualitativos, no cifras por sitio; no se pudieron leer cifras del gráfico de la figura 3 de Clío.",
-  "Frontera y bateyes: ni búsquedas web (4) ni Europe PMC (3 consultas) hallaron estudio de ancestría; solo craneometría forense (Herrera 2019) y G6PD en una clínica de VIH (Xu 2015); ambos son de nacionalidad registrada, no de ascendencia haitiana reciente. Feliciano 2006 deja el oeste con 2 muestras amerindias.",
-  "Martínez-Cruzado 2008 (n=560, 14,8 %) y los datos inéditos (22 %, n=235) solo existen en tesis que los citan; la ponencia original no se localizó. \"43 provincias\" es inconsistente. Bukhari 2017 (22,0 %): sin n.",
-  "Léxico: Tejera (1935/1951/1977) y Valdman (2007) no son legibles en línea; Granberry y Vescelius, solo ficha; las etimologías de kasav, kanari, mabouya siguen sin comprobar. No existe (entre lo hallado) un estudio comparativo del sustrato taíno del español dominicano y del kreyòl.",
-  "Lalueza-Fox 2001: solo resumen (descargada-parcial); proporciones y n de La Caleta confirmadas de segunda mano por Feliciano 2006 (haplogrupos C y D).",
-  "Lo que la genética no puede decir: que un linaje nativo americano sea taíno (la propia tesis de 2006 y la de 2014 lo admiten) ni su fecha de llegada."
+  "Proyecto Genográfico Dominicano 2026: sigue sin leerse el resumen original (UNIBE p170.pdf, handle y DOI de Wiley devuelven 403 de Cloudflare; no se intentó superar la verificación) y no existe, en Europe PMC ni en Crossref, ninguna publicación revisada por pares con tablas del autosómico de 2026. No se pudo resolver qué taxonomía de referencia produce las categorías 'Medio Oriente/judío' (2,3 %) y 'Asia centro-sur-sureste' (1,8 %): el artículo del GenoChip (Elhaik 2013) solo describe el diseño del chip, y las dos páginas del Genographic leídas (Geno 2.0 y Next Generation) muestran que en ese esquema cuotas pequeñas 'suroeste asiático' y 'sudeste asiático' se atribuyen a ascendencia europea antigua y nativa americana respectivamente; que el PGD use ese esquema es [POR VERIFICAR].",
+  "Moreno-Estrada 2013: las proporciones por población y componente NO están en las Tablas S1-S4 ni en el Texto S1 (verificado leyendo las cinco piezas del suplemento); solo están en la fig. 1C (imagen) y en el texto para haitianos (84 %) y cubanos (2-78 %). El '57/36/6,5' sigue sin origen localizado. No se consultó el depósito de genotipos (dbGaP) por ser de acceso controlado.",
+  "Bryc 2010: el suplemento (SI PDF) no se pudo abrir (403 en PNAS, 404 en PMC), por lo que el '5-8 % nativo' dominicano sigue [POR VERIFICAR]; sí se resolvió que su muestra dominicana (n=27) es de Nueva York (Tabla S1 de Moreno-Estrada).",
+  "Genética haitiana: no existe, hasta donde llegan Europe PMC, Crossref, WebSearch y la lectura de PMC, un estudio genómico de población con muestreo probabilístico dentro de Haití. Lo que hay: WGS clínica de 123 personas con VIH de GHESKIO (Conil 2025; solo PCA), diáspora con ADMIXTURE (McClelland 2026, n=267 en Quebec; Moreno-Estrada 2013, n=6 en Florida), STR, Y y ADNmt de colecciones sin lugar de muestreo declarado en el resumen (Simms 2010 y 2012, FIU Miami) o rurales (Wilson 2012, n=291; Bukhari 2017 con n no leído), marcadores clásicos de 1968-69 (Basu 1976) y loci únicos (FY*ES 99,4 %). Existe una población de referencia 'Haitian' en el Genographic (Geno 2.0 Next Generation) sin n, lugar ni método públicos.",
+  "H3Africa: es una red africana; no se hallaron sitios haitianos en la búsqueda y no se consultó su catálogo de cohortes en profundidad. El programa CariGenetics (2025, 1.000 hombres en 10 islas) no pudo confirmarse si incluye Haití (la nota de prensa leída no nombra las islas).",
+  "Texto completo de pago o bloqueado y solo leído en resumen: Simms 2010 y 2012, Wilson 2012, Bukhari 2017, Lalueza-Fox 2001, Tajima 2004, Basu 1976 (PDF 403) y Alba 2023 (PDF 403). Tajima 2004 (51,5 % de ADNmt nativo en 33 mujeres sanas) es el único estudio con cifra muy distinta y su lugar de recogida no se pudo confirmar.",
+  "Comparabilidad de las cifras dominicanas: no hay armonización. Las estimaciones autosómicas nativas van de 3,8 % (PGD, GenoChip) a 6 % (Fernandes sobre Moreno-Estrada; Sharma/HCHS), 8,3-8,9 % (Montinaro con 'China'; Pérez-Duval), 9 % (CAAPA), 10,4 % (Llibre-Guerra, 60 AIM) y 42,6 % (Guevara, 90 AIM, panel nativo peruano); las diferencias de panel, marcadores y muestra no se pudieron aislar. Ninguna es una muestra probabilística nacional.",
+  "Censo de 2022: la copia de Internet Archive del Informe general (informe-general-xcnpv.pdf) está truncada en 5 MiB y no se pudo abrir con pdftotext, pypdf ni PyMuPDF; no se obtuvo la población total ni el cuadro 12 desde esa vía (el cuadro 12 ya lo resolvió otra ronda con F-0531). No se hizo nada con las series de deportación, LAPOP/Latinobarómetro, SlaveVoyages, FAO ni Hedges, por quedar fuera de lo que pidió el crítico en esta ronda.",
+  "Evidencia sobre el sesgo sexual: no se evaluó la crítica metodológica del uso de X frente a autosomas (Pfennig y Lachance 2023, AJHG) a la que remite Moreno-Estrada; se localizó pero no se leyó."
  ],
  "terminos_nuevos": [
   {
-   "termino": "indigenismo / taínismo / antillanismo (sentido lingüístico: voz de origen indígena)",
-   "tradicion": "dominicana (filología: Henríquez Ureña, Tejera)",
-   "nota": "Distinto del \"indigénisme\" haitiano del glosario (movimiento intelectual de los años 1920). En Henríquez Ureña, \"antillanismo\" cubre voces taínas y de otras lenguas arahuacas; \"taíno\" designa la lengua de Santo Domingo; no equivale a \"caribe\". Conviene separar ambos sentidos en el glosario."
+   "termino": "ascendencia 'taína' vs. ascendencia 'nativa americana' (o amerindia)",
+   "tradicion": "cientifica / dominicana (prensa)",
+   "nota": "Los estudios miden ascendencia nativa americana continental con paneles de referencia (HGDP, peruanos, CEU, YRI); la prensa y parte de la tradición dominicana la traduce como 'taína' (p. ej. '4 % taíno'). Fernandes 2021 la llama 'relacionada con la Edad Cerámica'; Pérez-Duval, Llibre-Guerra, CAAPA y Sharma usan 'amerindia/nativa americana/amerindígena (AME)'. Conviene que el glosario distinga la categoría estadística de la etiqueta identitaria."
   },
   {
-   "termino": "mito de la extinción taína / continuidad taína",
-   "tradicion": "dominicana (movimiento de revitalización: Estévez y Mateo 2020) frente a historiografía clásica (extinción hacia 1550)",
-   "nota": "\"Extinción\" y \"continuidad\" ya son tesis: la genética muestra linaje nativo americano en dominicanos actuales (10-22 % del mtDNA según autor y método), no ascendencia taíno-específica. Henríquez Ureña (1940) ya escribía que \"no es exacto que haya desaparecido\"."
+   "termino": "Medio Oriente/judío y Asia centro-sur-sureste (categorías de ancestría del GenoChip)",
+   "tradicion": "cientifica (Genographic)",
+   "nota": "Categorías de salida de un panel comercial/divulgativo; su definición no se localizó. En el esquema Geno 2.0 un componente 'suroeste asiático' pequeño forma parte de la ascendencia europea antigua. No equivalen a 'inmigración árabe, judía o asiática reciente' sin evidencia adicional."
   },
   {
-   "termino": "ADN taíno / precolombino frente a ascendencia nativa americana",
-   "tradicion": "dominicana (prensa y divulgación, p. ej. El Día 2016) frente a lenguaje científico (Native American, Amerindian)",
-   "nota": "Los estudios miden haplogrupos o componentes continentales (A, B, C, D; \"Native American\"), no pueblos; llamarlos \"taíno\" ya es una interpretación (Feliciano 2006, p. 9: no puede inferirse que sean descendientes de taínos)."
+   "termino": "pureza genética / pureza racial",
+   "tradicion": "dominicana (nacionalismo) y cientifica (contraargumento)",
+   "nota": "Clío 2019 (F-0693) presenta la diversidad genética como lo que 'debe adoptarse ante cualquier reclamo de pureza genética'; es un término cargado que se registra con su uso polémico."
   },
   {
-   "termino": "\"la línea\" (frontera)",
-   "tradicion": "dominicana (habla de la frontera noroeste, 1940)",
-   "nota": "Henríquez Ureña (1940) registra \"la línea\" como nombre común de la frontera con Haití en Montecristi y a lo largo de la frontera; relacionado con \"rayano\" del glosario."
+   "termino": "componente europeo 'latino' (Latino-specific European component)",
+   "tradicion": "cientifica",
+   "nota": "En Moreno-Estrada 2013 es ibérico con fuerte deriva y efecto fundador (FST 0,021 respecto al sur de Europa); no designa una ascendencia extraeuropea."
+  },
+  {
+   "termino": "'Negro ancestry' / 'American Indian' (lenguaje de la genética racial de 1976)",
+   "tradicion": "cientifica (anglosajona, de época)",
+   "nota": "Basu et al. 1976 usan 'about 80% Negro ancestry' y 'American Indian'; en el corpus se usan solo como cita y se escribe 'ascendencia africana' y 'nativa americana'."
   }
  ],
  "fuentes": [
   {
-   "titulo": "Genetic prints of Amerindian female migrations through the Caribbean revealed by control sequences from Dominican haplogroup A mitochondrial DNAs (tesis de maestria, Universidad de Puerto Rico, Recinto de Mayaguez, 50 pp.)",
-   "autor": "Feliciano Vélez, Arlin (dir. Martínez Cruzado, Juan C.)",
-   "anio": "2006",
+   "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen de la 95.ª reunión de la AABA; Am. J. Biol. Anthropol. 189, S81, p. 170)",
+   "autor": "Schurr, Theodore; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; Aldrich, M.; Jaworski, J.; Vega, J.; Vilar, M.",
+   "anio": "2026",
    "tipo": "cientifica",
    "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://scholar.uprm.edu/server/api/core/bitstreams/19ea9de4-4a5c-45bb-bd31-4c4ff85999e2/content",
+   "url": "https://cris.unibe.edu.do/bitstream/123456789/589/1/p170.pdf",
    "urls_alternativas": [
-    "https://scholar.uprm.edu/server/api/core/items/ec3e9edf-6a1c-44ae-ba8a-431c2fe84ced",
-    "https://scholar.uprm.edu/server/api/core/bitstreams/9b6e0ef6-3b4c-441e-b9f5-541e88a2ebcf/content"
+    "https://cris.unibe.edu.do/handle/123456789/589",
+    "https://onlinelibrary.wiley.com/doi/10.1002/ajpa.70227",
+    "https://api.crossref.org/works/10.1002/ajpa.70227"
    ],
-   "verificacion": "descargada-y-leida",
-   "http_status": "200",
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
    "formato": "pdf",
-   "acceso": "pdf-en-linea",
+   "acceso": "localizada-bloqueada",
    "fiabilidad": "media",
-   "justificacion_fiabilidad": "Tesis de maestría revisada por un comité y dirigida por el genetista del mtDNA antillano, con 32 secuencias propias, pero la proporción de 22 por ciento y el n=235 proceden de datos inéditos del director citados de segunda mano.",
-   "proveniencia": "Tesis de M.S. en Biología (UPR Mayagüez, 2006) aprobada por Montalvo Rodríguez, Brusi y Martínez Cruzado; los metadatos del repositorio (DSpace, hdl 20.500.11801/596) dan como patrocinador al Museo Arqueológico Regional Altos de Chavón. Muestras de raíces de cabello tomadas con consentimiento informado en distintos sitios de la RD; la pregunta es si el mtDNA amerindio dominicano es taíno o posterior. Lo primario del trabajo es la secuenciación de 32 muestras del haplogrupo A; el 22 por ciento y la distribución regional de la figura 1 vienen de un estudio inédito del director.",
+   "justificacion_fiabilidad": "Resumen de congreso del equipo que generó los datos (n=1.015), sin tablas ni paneles de referencia y no leído en su fuente: el PDF de la UNIBE y el DOI de Wiley devuelven el reto de Cloudflare (403).",
+   "proveniencia": "Proyecto Genográfico Dominicano (UNIBE, Universidad de Pensilvania, Academia Dominicana de la Historia, National Geographic). Presentado en la 95.ª reunión de la AABA (Denver, marzo de 2026) y publicado en el número-programa de la reunión (Am. J. Biol. Anthropol. 189, S81; DOI 10.1002/ajpa.70227, fecha 13-III-2026 según Crossref). Escribe para antropología biológica; resume una muestra de 25 sitios con el microarreglo GenoChip 2.0+. Sin revisión por pares plena (resumen de congreso).",
    "extractos": [
     {
-     "ubicacion": "p. 9 (introducción)",
-     "cita_original": "In the Dominican Republic, Martínez-Cruzado et al. (unpublished) demonstrated that 22% of samples from the Dominican Republic belonged to Amerindian haplogroups; haplogroup A obtained the highest frequencies.",
-     "traduccion": "En la RD, Martínez-Cruzado et al. (inédito) mostraron que el 22 por ciento de las muestras pertenecía a haplogrupos amerindios; el haplogrupo A fue el más frecuente. Esta es la fuente verificable del \"22 por ciento\" que el registro (F-0232) escribía como 23.",
+     "ubicacion": "resumen (texto devuelto por WebSearch el 2026-10-06 para este mismo PDF; el fetch dio 403; no cotejado con el PDF)",
+     "cita_original": "DNA samples were surveyed for genomic variation using the GenoChip 2.0+ microarray.",
+     "traduccion": "Las muestras de ADN se examinaron para variación genómica con el microarreglo GenoChip 2.0+.",
      "afirmaciones": [
-      "A-229",
-      "A-228"
+      "A-227",
+      "A-232"
      ]
     },
     {
-     "ubicacion": "p. 14",
-     "cita_original": "where 22% were of Amerindian origin, haplogroup A obtained 59.6% frequency among Amerindian",
-     "traduccion": "Entre los mtDNA amerindios, el haplogrupo A tenía 59,6 por ciento (31 de 52 por cálculo propio: 31/52 = 59,6 %).",
+     "ubicacion": "resumen (texto devuelto por WebSearch; no cotejado con el PDF)",
+     "cita_original": "Dominicans' autosomal DNA ancestry was 50.3% African, 41.2% European, 3.8% Native American, 2.3% Middle East/Jewish, and 1.8% Central-South-East Asian in origin.",
+     "traduccion": "La ascendencia del ADN autosómico de los dominicanos fue 50,3 % africana, 41,2 % europea, 3,8 % nativa americana, 2,3 % de Oriente Medio/judía y 1,8 % de Asia centro-sur-sureste.",
      "afirmaciones": [
-      "A-229"
-     ]
-    },
-    {
-     "ubicacion": "p. 24, figura 1 (pie)",
-     "cita_original": "(a) Current frequency distribution of indigenous haplogroups, n = 235. (b) Current frequency distribution of haplogroup A mtDNAs among Amerindian samples, n = 52.",
-     "traduccion": "Base de la cifra: n=235 dominicanos genotipados y n=52 con mtDNA amerindio (52/235 = 22,1 %, cálculo propio). Los \"32 secuencias\" son el subconjunto del haplogrupo A secuenciado (31 + 1 muestra obtenida en Puerto Rico), no el denominador del porcentaje.",
-     "afirmaciones": [
-      "A-229"
-     ]
-    },
-    {
-     "ubicacion": "p. 23, Resultados I",
-     "cita_original": "The south, the capital city’s location, and the western region revealed the lowest percentages of Amerindian ancestry.",
-     "traduccion": "Menor ascendencia amerindia materna en el sur (con la capital) y el oeste. Valores de la figura 1a (mtDNA amerindio por región, según su ubicación actual; leídos en la imagen del PDF): norte 33 %, centro 28 %, este 27 %, oeste 14 %, sur 7 % (Monte Llano, aldea del norte muy muestreada: 11 %). Por ubicación del ancestro materno (fig. 1c): norte 22 %, centro 30 %, este 32 %, oeste 16 %, sur 8 %.",
-     "afirmaciones": [
-      "A-258",
-      "A-228"
-     ]
-    },
-    {
-     "ubicacion": "p. 23, Resultados I",
-     "cita_original": "Frequencies for current geographic distribution (Fig. 1b) showed that the western region apparently obtained a high percentage of haplogroup A samples; however, this represented only 1 of 2 samples.",
-     "traduccion": "El oeste solo aporta 2 muestras amerindias con haplogrupo A (50 % = 1 de 2): el desglose regional del oeste, donde está la frontera, descansa en una muestra de tamaño ínfimo.",
-     "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "p. 33, Discusión I",
-     "cita_original": "The highest frequencies of Amerindian ancestry were concentrated in the north, central and eastern regions of the country.",
-     "traduccion": "El texto atribuye el patrón a la fundación de la capital en el sur y a la huida de los taínos al centro (cita a Anderson-Córdova 1995 para la trata de indígenas desde las Bahamas por puertos del norte: interpretación).",
-     "afirmaciones": [
+      "A-227",
       "A-228",
-      "A-258"
+      "A-235",
+      "A-236"
      ]
     },
     {
-     "ubicacion": "p. 9",
-     "cita_original": "Nonetheless, these Amerindian samples could be from Amerindians brought as slaves throughout the Colonial Period. Therefore, it cannot be inferred that these people are descendants of Taínos.",
-     "traduccion": "La propia tesis advierte que el mtDNA amerindio actual puede venir de indígenas esclavizados traídos durante la colonia y que no equivale a ascendencia taína.",
+     "ubicacion": "resumen (texto devuelto por WebSearch; no cotejado con el PDF)",
+     "cita_original": "The pattern of genetic diversity also evinces sex-biased gene flow, primarily through European males.",
+     "traduccion": "El patrón de diversidad genética evidencia además un flujo génico sesgado por sexo, sobre todo a través de varones europeos.",
      "afirmaciones": [
-      "A-237",
-      "A-238"
+      "A-231"
      ]
     },
     {
-     "ubicacion": "p. 34, Discusión II",
-     "cita_original": "These samples possibly originated by post-Columbian colonization events where Europeans introduced Amerindians from continental destinies into the Dominican Republic, as wives, servants or slaves.",
-     "traduccion": "Tres linajes (ΔP II, V y VI, una muestra cada uno) se consideran probablemente poscolombinos; seis se consideran probablemente precolombinos (\"Six lineages are probably pre-Columbian in origin\", p. 34). Es decir, el mismo estudio reparte los 9 linajes en 6 y 3.",
+     "ubicacion": "registro Crossref del DOI 10.1002/ajpa.70227 (HTTP 200)",
+     "cita_original": "Program of the 95th Annual Meeting of the American Association of Biological Anthropologists",
+     "traduccion": "Programa de la 95.ª reunión anual de la Asociación Americana de Antropólogos Biológicos (volumen 189, número S81, marzo de 2026): es el contenedor bibliográfico del resumen; el registro de Crossref no trae el texto de los resúmenes.",
      "afirmaciones": [
-      "A-238",
-      "A-237"
-     ]
-    },
-    {
-     "ubicacion": "p. 14",
-     "cita_original": "Bone samples were recovered from an excavation site in La Caleta, Dominican Republic (Lalueza-Fox et al. 2001). Enzyme digestion and HVR-I sequencing demonstrated that the samples belonged to haplogroups C and D.",
-     "traduccion": "Confirma, de segunda mano, que el ADN antiguo de La Caleta solo dio haplogrupos C y D (F-0222; el resumen de Lalueza-Fox 2001 da 18 C y 6 D en 24 clasificados).",
-     "afirmaciones": [
-      "A-237"
-     ]
-    },
-    {
-     "ubicacion": "p. 15",
-     "cita_original": "revealed an indigenous frequency of about 33% (Tajima et al. 2004)",
-     "traduccion": "Tajima 2004 se resume aquí como \"cerca de 33 por ciento\" de mtDNA indígena; el resumen de Tajima (F-0209) da 51,5 % en 33 mujeres sanas: la cifra de segunda mano no coincide con el resumen original.",
-     "afirmaciones": [
-      "A-229"
-     ]
-    },
-    {
-     "ubicacion": "p. ii (resumen)",
-     "cita_original": "The Dominican Republic shared 34% of its sequences with Puerto Rico, all distributed between only two founder haplotypes",
-     "traduccion": "Dato que F-0232 ya recogía (34 % compartido con Puerto Rico en dos haplotipos fundadores).",
-     "afirmaciones": [
-      "A-229",
-      "A-237"
-     ]
-    },
-    {
-     "ubicacion": "p. 17, Métodos",
-     "cita_original": "The volunteers were asked where they lived and where their oldest known maternal female ancestor was natural from.",
-     "traduccion": "Se registraron la residencia actual y el lugar de origen de la ancestra materna más antigua conocida; la tabla 4 (apéndice, p. 47) solo lista las 32 muestras del haplogrupo A: Monción, Puerto Plata, Santiago, San José de las Matas, Cotuí, El Seibo, Santo Domingo y San Juan de la Maguana (una). Entre las ubicaciones actuales y ancestrales de la tabla 4 no figura ninguna cabecera fronteriza (Dajabón, Elías Piña, Pedernales, Jimaní, Comendador).",
-     "afirmaciones": [
-      "A-258"
+      "A-227"
      ]
     }
    ],
    "afirmaciones": [
+    "A-227",
     "A-228",
     "A-229",
-    "A-237",
-    "A-238",
-    "A-258"
+    "A-230",
+    "A-231",
+    "A-232",
+    "A-235",
+    "A-236"
    ],
    "modulos": [
+    "M00",
     "M01",
+    "M09",
+    "M13",
     "M16"
    ],
-   "id_existente": "F-0232",
-   "notas": "CORRECCION DE A-229: el \"23 por ciento\" de F-0232 no está en este texto; la cifra es 22 por ciento (52/235 = 22,1 por ciento, cálculo propio sobre la figura 1) y es un dato inédito de Martínez-Cruzado et al. citado por la tesis; los \"32 secuencias\" son el subconjunto del haplogrupo A secuenciado. RANGO REHECHO (mtDNA nativo americano de dominicanos actuales; autor, base): 10 % (PGD, Clío 2019: n=472 de 12 sitios, región control) -> 12,1 % (PGD, resumen AABA 2026: n=1.015, GenoChip 2.0+) | 14,8 % (Martínez-Cruzado 2008, congreso ALAB, vía Tascón 2014: n=560, región control; el original no se leyó) | 22 % (Martínez-Cruzado et al. inédito vía Feliciano 2006: 52 de 235, RFLP) | 22,0 % (Bukhari et al. 2017, Gene; n no leído; D'Atanasio 2020 lo cita como \"hasta 22 %\") | 33 a 51,5 % en Tajima 2004 (n=33 mujeres sanas, muestra clínica: atípico). Lectura: las estimaciones poblacionales con n >= 235 van de 10 a 22 por ciento, la dispersión se debe a método y muestreo (Martínez-Cruzado 2002, Kacike: \"mucho más en el campo que en la metrópoli\"), y el \"23 %\" circula sin fuente primaria (aparece como \"entre el 23 y el 33 %\" en Estévez y Mateo 2020, sin cita). Lo que nunca puede inferirse del mtDNA: que el linaje sea taíno (la tesis misma lo dice). Región: n por región no se da; el oeste tiene 2 muestras amerindias. Los porcentajes regionales de la figura 1 se leyeron en la imagen del PDF (página 24) y coinciden con el texto de la p. 23. Sesgo: tesis de 2006, datos de ~2002-2005, sin muestreo aleatorio declarado; la identificación del origen de cada linaje usa redes medianas y estimaciones de tiempo sensibles al método. El repositorio da la URL de texto extraído (bitstream 9b6e0ef6...) y el PDF original (19ea9de4...)."
+   "id_existente": "F-0203",
+   "notas": "SIGUE SIN LEERSE el resumen original: cris.unibe.edu.do/bitstream/123456789/589/1/p170.pdf, la ficha handle/589 y el DOI de Wiley devolvieron 403 (curl y WebFetch); no intenté superar la verificación anti-bots. El único hallazgo nuevo de acceso es la URL del PDF (p170.pdf), que apareció en WebSearch, y la confirmación por Crossref de que el contenedor es el número-programa 189(S81). Los fragmentos citados los devolvió la herramienta de búsqueda (tres consultas independientes dieron el mismo texto); no son lectura directa. BÚSQUEDA NEGATIVA DOCUMENTADA el 2026-10-06: Europe PMC 'GenoChip AND Dominican' = 0 resultados; 'Genographic AND Dominican' = 6 resultados, ninguno es el estudio; Crossref (tres consultas bibliográficas con Schurr, Paulino-Ramírez, Vilar, Dominican, GenoChip) no devuelve ningún artículo del Proyecto Genográfico Dominicano posterior a Clío 2019 (F-0693). Por tanto no existe, hasta donde llegan estos índices, una publicación revisada por pares con tablas del autosómico de 2026. CATEGORÍAS: ni este resumen ni ningún documento que pude leer define cómo se obtienen 'Medio Oriente/judío' y 'Asia centro-sur-sureste'. Lo que sí quedó documentado en esta ronda (ver F-0697 y las dos páginas de referencia del Genographic): el chip se diseñó con >30 poblaciones judías en el conjunto de marcadores informativos, y en el esquema Geno 2.0 una cuota pequeña 'suroeste asiático' aparece incluso en poblaciones de referencia que no se describen con inmigración reciente de esa región (puertorriqueños 9 %, afroamericanos 4 %) y la propia página la atribuye a patrones antiguos de Europa. Eso hace plausible, pero no demuestra, que el 2,3 % y el 1,8 % del PGD sean un efecto de las categorías del panel. [POR VERIFICAR] qué taxonomía usó el PGD."
   },
   {
-   "titulo": "Relación entre los principales linajes indígenas del ADN mitocondrial en las islas de Puerto Rico y República Dominicana (tesis de maestría, Universidad de Puerto Rico, Recinto de Mayagüez, 130 pp.)",
-   "autor": "Tascón Peñaranda, Edna P. (dir. Martínez Cruzado, Juan C.)",
-   "anio": "2014",
+   "titulo": "The GenoChip: A New Tool for Genetic Anthropology (Genome Biology and Evolution 5(5): 1021-1031)",
+   "autor": "Elhaik, Eran; Greenspan, Elliott; Staats, Sean; Krahn, Thomas; Tyler-Smith, Chris; Xue, Yali; Tofanelli, Sergio; Francalacci, Paolo; Cucca, Francesco; Pagani, Luca; et al.; Genographic Consortium",
+   "anio": "2013",
    "tipo": "cientifica",
-   "idioma": "es",
+   "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://scholar.uprm.edu/server/api/core/bitstreams/04a7e68b-4770-4c49-8515-c2ae4e0448a2/content",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673633/",
    "urls_alternativas": [
-    "https://scholar.uprm.edu/server/api/core/items/46d77699-fca2-42f3-b74f-80a57d0e526a"
+    "https://doi.org/10.1093/gbe/evt066"
    ],
    "verificacion": "descargada-y-leida",
    "http_status": "200",
-   "formato": "pdf",
-   "acceso": "pdf-en-linea",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Tesis de maestría con secuenciación de mtDNA completo de 9 linajes A2 y 5 C1 dominicanos y análisis filogenético con dos algoritmos, pero n pequeño y sin muestras de comparación del continente de la misma calidad.",
-   "proveniencia": "Tesis de M.S. en Biología (UPR Mayagüez, otoño de 2014, hdl 20.500.11801/233), en el laboratorio de Martínez Cruzado; usa muestras dominicanas y puertorriqueñas de estudios previos del laboratorio (Martínez Cruzado et al. 2008) y compara con secuencias completas de la literatura. Pregunta: de qué parte del continente vienen los linajes A2 y C1 de ambas islas. Se leyeron la justificación, §4.8-4.10, §6.5, §7.3-7.4, la tabla 5 y las conclusiones; no el apéndice completo.",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares del propio equipo que diseñó el chip, con método de selección de marcadores y validación contra 1000 Genomas; no contiene datos dominicanos ni define categorías de salida de ancestría.",
+   "proveniencia": "Equipo del Genographic Project (National Geographic, IBM, Family Tree DNA, Sanger y universidades italianas), mayo de 2013. Describe el chip GenoChip 1.0 (Illumina iSelect, unos 130.000 SNP autosómicos y X validados, más marcadores de Y y ADNmt) pensado para antropología genética. Interés: presentar el instrumento de un proyecto de divulgación y recogida de muestras de pueblos indígenas.",
    "extractos": [
     {
-     "ubicacion": "p. 3 (justificación)",
-     "cita_original": "En el 2008 Martínez y colaboradores realizaron un análisis de la región control del ADN mitocondrial de 560 muestras recolectadas de 43 provincias de la República Dominicana",
-     "traduccion": "Base del estudio dominicano mayor del laboratorio (ponencia de 2008): 560 muestras. La RD no tiene 43 provincias: el dato es inconsistente [POR VERIFICAR: ¿localidades?].",
+     "ubicacion": "Leyenda de la fig. 1",
+     "cita_original": "AIMs from over 450 world populations were harvested from the literature (green) and calculated based on genotyped data from public and private collections (red) including over 30 Jewish populations (blue).",
+     "traduccion": "Se obtuvieron marcadores informativos de ancestría (AIM) de más de 450 poblaciones del mundo, entre ellos más de 30 poblaciones judías.",
      "afirmaciones": [
-      "A-229",
-      "A-258"
+      "A-232",
+      "A-236"
      ]
     },
     {
-     "ubicacion": "p. 3",
-     "cita_original": "demuestran que el haplogrupo A es el más frecuente, con un 57.8% para República Dominicana y un 52.4% para Puerto Rico",
-     "traduccion": "Entre los mtDNA indígenas, el haplogrupo A pesa 57,8 % en la RD y 52,4 % en Puerto Rico (Feliciano 2006 daba 59,6 % en la muestra anterior); el C pesa 25,2 % en la RD y 35,6 % en Puerto Rico.",
+     "ubicacion": "Métodos, 'Choosing the markers'",
+     "cita_original": "Overall, we ascertained over 80,000 autosomal and X-chromosomal AIMs from over 450 worldwide populations",
+     "traduccion": "En total se obtuvieron más de 80.000 AIM autosómicos y del X de más de 450 poblaciones del mundo.",
      "afirmaciones": [
-      "A-229",
-      "A-237"
+      "A-232"
      ]
     },
     {
-     "ubicacion": "p. 21, §4.9",
-     "cita_original": "se encontró que el 70.9% de todas las muestras tenían ADNmt de origen africano subsahariano, el 14.8% de origen indígena, y el 14.3% de origen euroasiático occidental",
-     "traduccion": "mtDNA dominicano (Martínez Cruzado 2008, n=560 según la propia tesis): 70,9 % africano, 14,8 % indígena, 14,3 % euroasiático occidental.",
+     "ubicacion": "Métodos, 'Comparing Population Genetic Summary Statistics between Genotyping Arrays'",
+     "cita_original": "the validated approximately 130,000 autosomal and X-chromosomal SNPs of the GenoChip array",
+     "traduccion": "los unos 130.000 SNP autosómicos y del X validados del chip.",
      "afirmaciones": [
-      "A-229",
-      "A-231",
-      "A-235"
+      "A-232"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-232",
+    "A-236"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "F-0697",
+   "notas": "Corrección al registro: la ficha F-0697 lista 'Greenspan, Efrat'; el artículo dice Elliott Greenspan (Family Tree DNA). Respuesta parcial a la pregunta del crítico sobre el panel: este artículo describe el diseño del chip (GenoChip 1.0) y NO las etiquetas de ancestría que luego se publican; no menciona 'Middle East/Jewish' ni 'Central-South-East Asian' como categorías de salida ni describe 'GenoChip 2.0+'. Dato de diseño relevante: la obtención de marcadores incluyó a propósito más de 30 poblaciones judías, de modo que una categoría 'judía/Oriente Medio' puede existir por construcción del panel. No hay modo de saber, desde aquí, si el 2,3 % dominicano es señal histórica (sefardí, libanesa, hispano-árabe) o efecto de esa construcción."
+  },
+  {
+   "titulo": "Reconstructing the Population Genetic History of the Caribbean (PLOS Genetics 9(11): e1003925), con Tablas S1-S4 y Texto S1 (suplemento)",
+   "autor": "Moreno-Estrada, Andrés; Gravel, Simon; Zakharia, Fouad; McCauley, Jacob L.; Byrnes, Jake K.; Gignoux, Christopher R.; et al.; Bustamante, Carlos D.",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828151/",
+   "urls_alternativas": [
+    "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1003925.s017",
+    "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1003925.s018",
+    "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1003925.s019",
+    "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1003925.s020",
+    "https://arxiv.org/pdf/1306.0558",
+    "https://doi.org/10.1371/journal.pgen.1003925"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con suplemento tabular descargado y leído; las muestras caribeñas son pequeñas (34 dominicanos, 6 haitianos) y se tomaron en Florida.",
+   "proveniencia": "Stanford y Universidad de Miami; 251 personas de ascendencia caribeña con al menos tres abuelos del país de origen, reclutadas en el sur de Florida en tríos padres-hijo (Tabla S1: Cuba 80, Colombia 85, República Dominicana 34, Puerto Rico 27, Honduras 19, Haití 6). Añade las muestras neoyorquinas de Bryc et al. 2010 y panel de referencia nativo, europeo y africano.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen",
+     "cita_original": "Surprisingly, we also identify a Latino-specific European component that has significantly diverged from its parental Iberian source populations, presumably as a result of small European founder population size.",
+     "traduccion": "Identificamos además, con sorpresa, un componente europeo específico de los latinos que ha divergido de forma significativa de sus poblaciones ibéricas de origen, probablemente por el tamaño pequeño de la población fundadora europea.",
+     "afirmaciones": [
+      "A-236"
      ]
     },
     {
-     "ubicacion": "p. 21, §4.9",
-     "cita_original": "La baja frecuencia de ADNmt de origen indígena levanta la posibilidad de que gran parte o la mayoría de ellos hayan sido el resultado del tráfico de esclavas indígenas durante el Periodo Colonial.",
-     "traduccion": "La hipótesis de importación de indígenas esclavizadas se plantea como posibilidad, no como resultado; la propia tesis no la pone a prueba y su conclusión es otra (pre-colombina).",
+     "ubicacion": "Resultados, 'Founder effect in the European ancestry of admixed Latinos'",
+     "cita_original": "we observe an FST = 0.021 (Table S3). To put this into perspective, the FST of southern vs. northern Europe is FST = 0.02",
+     "traduccion": "Observamos FST = 0,021 entre el componente europeo latino y el sur de Europa; para comparar, el FST entre el sur y el norte de Europa es 0,02.",
      "afirmaciones": [
-      "A-238"
+      "A-236"
      ]
     },
     {
-     "ubicacion": "p. 28, §6.2",
-     "cita_original": "9 para República Dominicana (Figura 3) y 7 para Puerto Rico",
-     "traduccion": "Se secuenció el mtDNA completo de 9 linajes A2 dominicanos (KE5a, G11, SA8b, L29, PJ07, L24, J12, KB6b, J7) y 7 puertorriqueños; para C1, 5 dominicanos y 4 puertorriqueños.",
+     "ubicacion": "Tabla S1 (suplemento .s017, PDF)",
+     "cita_original": "Dominican in New York DOM (NY) 27 26 - - illumina 650K Bryc et al. 2010b",
+     "traduccion": "Dominicanos de Nueva York, n=27 (26 en el ADMIXTURE de baja densidad), arreglo Illumina 650K, de Bryc et al. 2010: la muestra dominicana de Bryc se tomó en Nueva York.",
      "afirmaciones": [
-      "A-237"
+      "A-233"
      ]
     },
     {
-     "ubicacion": "p. 67, tabla 5",
-     "cita_original": "Tabla 5. Comparación del Haplogrupo A2 para los algoritmos de MEGA y MrBayes",
-     "traduccion": "Origen continental inferido de los 9 A2 dominicanos: mesoamericano 2 (L29, PJ07), centroamericano 4 (SA8b, L24, G11, KE5a; los dos últimos solo con MrBayes), suramericano 3 (J7, KB6b, J12; este solo con MrBayes). Lectura propia de la tabla; la asignación de las siglas a la RD sale de la figura 3 (p. 28) y del texto de §6.5.",
+     "ubicacion": "Tabla S1 (suplemento .s017, PDF)",
+     "cita_original": "Haitian in South Florida HAI 6 4 4 - affymetrix 6.0 Present study",
+     "traduccion": "Haitianos del sur de Florida: 6 genotipados y solo 4 entran en las dos corridas de ADMIXTURE.",
      "afirmaciones": [
-      "A-237",
-      "A-238"
+      "A-233",
+      "A-240",
+      "A-241"
      ]
     },
     {
-     "ubicacion": "p. 86, §7.4",
-     "cita_original": "los linajes de mayor antigüedad en el haplogrupo A2 fueron de origen meso y centroamericano",
-     "traduccion": "La tesis relaciona esos linajes antiguos con los casimiroides (sitios de pedernal de hace unos 6.200 años en Cuba y también en el sur y el oeste de La Española), es decir, con un poblamiento precolombino, no con indígenas esclavizados.",
+     "ubicacion": "Tabla S2 (suplemento .s018, PDF): valores p de la correlación entre las ancestrías de padres y madres (apareamiento selectivo por ancestría)",
+     "cita_original": "AFR EUR NAT: DOM 0.03748 0.03355 0.01294; HAI 0.49834 0.49923 0.49835",
+     "traduccion": "Dominicanos: correlación significativa en las tres ancestrías (p entre 0,013 y 0,037); haitianos: p≈0,50 con solo 2 pares de padres, sin poder estadístico para evaluar significación (así lo dice el texto).",
      "afirmaciones": [
-      "A-237",
-      "A-238"
+      "A-240",
+      "A-241"
      ]
     },
     {
-     "ubicacion": "p. 88, conclusiones",
-     "cita_original": "Se sugiere que la primeras migraciones del haplogrupo A2 fueron desde meso y centroamérica hacia las Antillas y podrían estar relacionadas con los casimiroides.",
-     "traduccion": "Interpretación de la autora: poblamiento arcaico desde Centro y Mesoamérica; contrasta con la lectura de A-238 (esclavizados traídos de Tierra Firme o México).",
+     "ubicacion": "Leyenda de la fig. S4 (X frente a autosomas, sesgo sexual)",
+     "cita_original": "The observed pattern strongly supports the presence of sex-biased gene flow during the process of admixture throughout the Caribbean, with significantly higher contribution from Native American, and to a lesser extent West African, ancestors into the composition of the X chromosome",
+     "traduccion": "El patrón respalda un flujo génico sesgado por sexo en todo el Caribe, con mayor aporte nativo americano y, en menor medida, africano occidental al cromosoma X (es decir, a la historia demográfica femenina).",
      "afirmaciones": [
-      "A-238"
+      "A-231"
      ]
     },
     {
-     "ubicacion": "p. 88, conclusiones",
-     "cita_original": "Se observó que las muestras de Puerto Rico y República Dominicana presentaron orígenes meso, centro y suramericano, lo que sugiere que los taínos podrían haber sido un pueblo mestizo.",
-     "traduccion": "Concluye origen mixto (meso, centro y suramericano) de los linajes; no distingue taínos de otros indígenas posteriores.",
+     "ubicacion": "Leyenda de la fig. S4, panel C",
+     "cita_original": "Box plots and statistical tests for each population (Haitians excluded due to low sample size).",
+     "traduccion": "Los haitianos se excluyen del análisis por tamaño de muestra insuficiente.",
      "afirmaciones": [
-      "A-237",
-      "A-238"
+      "A-240",
+      "A-241"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-231",
+    "A-233",
+    "A-235",
+    "A-236",
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M03",
+    "M09",
+    "M16"
+   ],
+   "id_existente": "F-0206",
+   "notas": "RESPUESTA A LA PREMISA DEL CRÍTICO (valores por componente 'en tablas y datos suplementarios'): descargué y leí las cinco piezas tabulares del suplemento (Tablas S1-S4 y Texto S1) y NINGUNA contiene proporciones por población y componente. Tabla S1 = tamaños y orígenes de muestra; Tabla S2 = valores p de correlación padre-madre; Tablas S3 y S4 = FST entre clusters de ADMIXTURE (K=8 y K=20); Texto S1 = método ASPCA. Las proporciones continentales por individuo están solo en la fig. 1C (barras ADMIXTURE K=3 y K=8, imagen TIF) y el texto da cifras únicamente para haitianos (84 % africano occidental, n=6) y cubanos (2-78 %). La versión arXiv (1306.0558, HTTP 200) repite la Tabla 1 (modelos de migración: mejor modelo de dominicanos y haitianos con admixture inicial hace 16 generaciones) y no añade tablas de proporciones. Las únicas cifras numéricas derivadas de este mismo conjunto son las del qpAdm de Fernandes 2021, cuadro de datos ampliado 3 (F-0220: dominicanos 5,8 % cerámico, 55,8 % CEU, 38,4 % YRI). El dato '57/36/6,5' que circulaba sigue sin aparecer en el texto ni en el suplemento [POR VERIFICAR su origen]. APORTES NUEVOS: (a) la muestra dominicana de Bryc 2010 (n=27) se tomó en Nueva York, no en la isla (Tabla S1); (b) de los 6 haitianos solo 4 entran al ADMIXTURE; (c) el componente europeo latino no es 'otra' ascendencia sino ibérico con deriva fuerte (FST 0,021 respecto al sur de Europa, comparable a la distancia norte-sur), lo que matiza A-236: 'diferenciado' significa 'ibérico con efecto fundador', no 'extra-ibérico'."
+  },
+  {
+   "titulo": "Unravelling the hidden ancestry of American admixed populations (Nature Communications 6: 6596), con Supplementary Table 1 y Supplementary Data 1",
+   "autor": "Montinaro, Francesco; Busby, George B.; Pascali, Vincenzo L.; Myers, Simon; Hellenthal, Garrett; Capelli, Cristian",
+   "anio": "2015",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4374169/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4374169/supplementaryFiles",
+    "https://doi.org/10.1038/ncomms7596"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con métodos y tablas suplementarias leídas; reutiliza datos publicados (no genotipa muestras nuevas) y su muestra dominicana es la de Bryc 2010, de n=27.",
+   "proveniencia": "Grupo de Cristian Capelli (Departamento de Zoología, Oxford) con Myers (Estadística, Oxford), Hellenthal (UCL) y Pascali (Universidad Católica de Roma); 4.139 individuos de 64 poblaciones tomados de la literatura y analizados con haplotipos (CHROMOPAINTER/GLOBETROTTER). Doce poblaciones 'receptoras' americanas; ancestría descompuesta en grupos donantes de África, Europa, Asia oriental y las Américas.",
+   "extractos": [
+    {
+     "ubicacion": "Métodos, 'Data set'",
+     "cita_original": "12 were treated as ‘recipients’ (African-American A, African-American B, Barbados, Colombia A, Colombia B, Dominican Republic, Ecuador, Maya, Mexico, Peru, Puerto Rico A and Puerto Rico B)",
+     "traduccion": "Doce poblaciones se trataron como receptoras: entre ellas la República Dominicana; Haití no figura.",
+     "afirmaciones": [
+      "A-241",
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Suplemento, Supplementary Table 1 (ncomms7596-s1.pdf, fila de la República Dominicana)",
+     "cita_original": "Dominican Republic 27 27 (11)",
+     "traduccion": "República Dominicana: 27 individuos, 27 retenidos; la referencia (11) de la lista del suplemento es Bryc et al. 2010 (PNAS 107, supl. 2). Es decir, la muestra dominicana de Montinaro es la de Bryc.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Resultados/Métodos, tratamiento del donante 'China'",
+     "cita_original": "To reduce this effect we always allowed a single well-sampled East Asian group (China) as a potential donor in the analysis, to act as a surrogate for haplotypes carried by any Native American donor population incompletely captured",
+     "traduccion": "Para reducir ese efecto se permitió siempre un único grupo del Asia oriental (China) como donante, como sustituto de haplotipos de cualquier población nativa americana no bien representada entre los donantes.",
+     "afirmaciones": [
+      "A-232",
+      "A-236"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 1 (ncomms7596-s2.xlsx), columna 'Dominican R.'",
+     "cita_original": "Spain 2 0.3481; Spain 1 0.1334; Yoruba 0.2397; Mandenka 2 0.0459; China 0.0405; Colombia 2 0.0176; Pima 1 0.0111; Karitiana 2 0.0079; Surui 0.0057; Georgia 0.0042; Cyprus 0.0019",
+     "traduccion": "Mayores aportes de donantes a los 27 dominicanos. Suma de la columna completa (cálculo mío): donantes africanos 39,6 %; europeos y caucásicos 52,2 % (España 1+2 = 48,2 %; Georgia+Chipre = 0,6 %); donantes nativos americanos 4,2 %; 'China' 4,1 %.",
+     "afirmaciones": [
+      "A-228",
+      "A-232",
+      "A-235",
+      "A-236"
      ]
     }
    ],
    "afirmaciones": [
     "A-228",
-    "A-229",
-    "A-237",
-    "A-238",
-    "A-258"
+    "A-232",
+    "A-233",
+    "A-235",
+    "A-236",
+    "A-241"
    ],
    "modulos": [
-    "M01",
+    "M00",
     "M16"
    ],
-   "id_existente": "",
-   "notas": "Resuelve la laguna de F-0232 sobre \"A2 mesoamericano\": 2 de 9 linajes dominicanos son mesoamericanos y 4 centroamericanos; 3 suramericanos. Fija la polisemia de \"Tierra Firme\" (A-238 la usa para Panamá, Honduras o Colombia, que es donde caen 4 de los 9). Lo que no responde: si los linajes llegaron antes o después de 1492; la tesis opta por lo precolombino en los antiguos (casimiroides, ~6.200 años) y deja abierta la fecha de los demás. Los 14 linajes A y 6 C dominicanos del resumen vienen de 2008 (n=560, ponencia ALAB en La Plata; no localizada). Sesgo: mismo laboratorio y las mismas muestras que Feliciano 2006. Resumen en español e inglés en los metadatos del repositorio: 14 linajes A y 6 C en la RD, 4 y 2 compartidos con Puerto Rico."
+   "id_existente": "F-0207",
+   "notas": "RESPUESTA A LA PREGUNTA DEL CRÍTICO sobre la muestra haitiana de Montinaro 2015: no hay ninguna. Entre las 12 poblaciones receptoras no figura Haití (ni como donante); el artículo no sirve como fuente sobre haitianos. La muestra dominicana (n=27) procede de Bryc 2010 (referencia 11 del suplemento) y, según la Tabla S1 de Moreno-Estrada 2013, se tomó en Nueva York: Bryc 2010, Montinaro 2015 y Moreno-Estrada (DOM NY) comparten el mismo conjunto de 27 y no son estimaciones independientes. LECTURA DEL DONANTE 'CHINA': los propios autores lo introducen como sustituto de ascendencia nativa americana mal capturada y advierten que el cobre de 'East Asia' se sobreestima por deriva; en la columna dominicana ese donante aporta 4,05 %, de modo que la suma nativa + 'China' llega a 8,3 %, coherente con el rango 5-8 % que circula. El suplemento no aclara si la columna se presenta antes o después de quitar la contribución de China [POR VERIFICAR]. Es el ejemplo publicado más claro de que una etiqueta 'asiática' pequeña en una población caribeña con ascendencia nativa puede ser un artefacto del panel de referencia (apoya, sin probarlo, la hipótesis de artefacto para el 1,8 % de Asia del PGD). Las sumas por grupo son aritmética mía sobre las 70 filas del archivo xlsx."
+  },
+  {
+   "titulo": "Montinaro et al. 2015, Supplementary Information (archivo comprimido de Europe PMC): origen de la cifra circulante «27 dominicanos (2015)»",
+   "autor": "Montinaro, Francesco; et al.",
+   "anio": "2015",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4374169/supplementaryFiles",
+   "urls_alternativas": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4374169/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Suplemento del artículo revisado por pares (PDF y hoja de cálculo extraídos del zip de Europe PMC y leídos).",
+   "proveniencia": "Zip de 1,95 MB con ncomms7596-s1.pdf (Supplementary Table 1 y referencias) y ncomms7596-s2.xlsx (Supplementary Data 1); Europe PMC sirve el suplemento de los artículos de acceso abierto.",
+   "extractos": [
+    {
+     "ubicacion": "Supplementary Table 1, fila de la República Dominicana",
+     "cita_original": "Dominican Republic 27 27 (11)",
+     "traduccion": "27 individuos dominicanos, todos retenidos; fuente (11) = Bryc, K. et al., Genome-wide patterns of population structure and admixture among Hispanic/Latino populations, PNAS.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Lista de referencias del suplemento, n.º 11",
+     "cita_original": "11. Bryc, K. et al. Genome-wide patterns of population structure and admixture among Hispanic/Latino populations.",
+     "traduccion": "Confirma que la fuente de la muestra dominicana de Montinaro es Bryc 2010.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-233"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "F-0205",
+   "notas": "RESUELVE F-0205 ('cifra circulante 27 dominicanos (2015)'): el 27 es el tamaño de la muestra dominicana de Bryc 2010, reutilizada por Montinaro 2015 (de ahí el '2015') y recogida por Moreno-Estrada 2013 como 'Dominican in New York, n=27, Bryc et al. 2010b'. La cifra no es un estudio propio de 2015 sino la reutilización de una muestra de 2010 tomada en Nueva York."
   },
   {
    "titulo": "Diversidad genética en ADN mitocondrial en la República Dominicana: Implicaciones para la historia y demografía de la Española (Clío, año 88, n.º 197, enero-junio 2019, pp. 193-206)",
@@ -310,208 +421,28 @@
    "formato": "pdf",
    "acceso": "pdf-en-linea",
    "fiabilidad": "media",
-   "justificacion_fiabilidad": "Artículo de la revista de la Academia Dominicana de la Historia con métodos, controles estadísticos y n declarados (secuencias de la región control de 1.010 individuos), pero analiza solo 472 individuos de 12 de los 25 sitios, sin tablas por sitio, y el arbitraje de la revista no se verificó.",
-   "proveniencia": "Primer artículo publicado del Proyecto Genográfico Dominicano (UNIBE, Universidad de Pensilvania, National Geographic, Academia Dominicana de la Historia); muestreo 2015-2016, extracción y secuenciación en el Laboratorio de Antropología Molecular de UPenn; coordinado por Bernardo Vega (ADH). Protocolo aprobado por el comité de bioética del Ministerio de Salud Pública (CONABIOS) y la UNIBE; financiado por UNIBE, National Geographic, UPenn, la ADH y un donante privado. Escrito para explicar la variación mitocondrial actual a la luz de la historia de los asentamientos.",
+   "justificacion_fiabilidad": "Artículo del propio Proyecto Genográfico Dominicano en una revista de la Academia Dominicana de la Historia, con métodos y n declarados, pero solo de ADN mitocondrial y sin revisión por pares externa verificada.",
+   "proveniencia": "Equipo UNIBE-Penn-National Geographic-ADH; primer artículo publicado del proyecto (mtDNA de 1.010 individuos). Escribe para el público histórico dominicano y con una tesis declarada: que la diversidad genética 'debe adoptarse ante cualquier reclamo de pureza genética'.",
    "extractos": [
     {
-     "ubicacion": "p. 194 (resumen), p. 196 (métodos)",
-     "cita_original": "se tomaron muestras de un total de 1,010 individuos de 25 ubicaciones en todo el país",
-     "traduccion": "n=1.010 en 25 ubicaciones (2015-2016); el resumen de congreso de 2026 habla de 1.015.",
-     "afirmaciones": [
-      "A-227",
-      "A-233"
-     ]
-    },
-    {
-     "ubicacion": "p. 198, Resultados",
-     "cita_original": "Este análisis incluyó individuos de 12 ubicaciones para obtener un total de 472 individuos.",
-     "traduccion": "El análisis publicado cubre 472 de los 1.010 individuos (12 de 25 sitios; ~41 por sitio); los 538 restantes quedaron sin analizar (\"Restaría analizar los 538 ejemplares\", p. 200).",
-     "afirmaciones": [
-      "A-227",
-      "A-229",
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "p. 198, Resultados",
-     "cita_original": "Los tipos indígenas A, B, C y D representan solo el 10 % de la población, siendo A y C los más frecuentes.",
-     "traduccion": "mtDNA nativo americano en el análisis de 2019: cerca de 10 % (n=472). El resumen de 2026 sube la cifra a 12,1 % con n=1.015.",
-     "afirmaciones": [
-      "A-229",
-      "A-228"
-     ]
-    },
-    {
-     "ubicacion": "p. 198, Resultados",
-     "cita_original": "los tipos L constituyen el 80.4 % de la población, siendo L2 y L3 los más frecuentes",
-     "traduccion": "L (africano) 80,4 % en 2019 frente a 78,8 % en 2026: el mismo orden de magnitud con distinta submuestra.",
-     "afirmaciones": [
-      "A-235",
-      "A-231"
-     ]
-    },
-    {
-     "ubicacion": "p. 196, Métodos",
-     "cita_original": "Los criterios de inclusión para el muestreo de ADN se basaron en la residencia histórica de los familiares de primer y segundo grado (padres y abuelos) que residan en las comunidades seleccionadas",
-     "traduccion": "Criterio de inclusión: arraigo de padres y abuelos en la comunidad, residencia de al menos 10 años y consentimiento en español. El diseño selecciona población arraigada y no mide por sí mismo a los descendientes recientes de inmigrantes; la nota de El Día de 2016 (F-0185) lo formula como \"padres y abuelos de origen dominicano\".",
-     "afirmaciones": [
-      "A-258",
-      "A-233"
-     ]
-    },
-    {
-     "ubicacion": "p. 199, Resultados",
-     "cita_original": "Los individuos de Monte Cristi, La Bombita, Sainaguá y Monte Plata no se agrupan con el resto de las ubicaciones de la muestra",
-     "traduccion": "Cuatro sitios se separan en el análisis de FST; Montecristi es provincia del noroeste con tramo fronterizo [POR VERIFICAR el punto exacto de muestreo]. Los autores lo atribuyen al historial de asentamiento (y Sainaguá, a su identidad afrocaribeña).",
-     "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "p. 199-200, AMOVA",
-     "cita_original": "(98.53 %) fueron mayores que las de los grupos (1.47 %)",
-     "traduccion": "AMOVA: 98,53 % de la variación está dentro de los grupos (sitios) y 1,47 % entre ellos: poca estructura regional del mtDNA.",
-     "afirmaciones": [
-      "A-258",
-      "A-232"
-     ]
-    },
-    {
-     "ubicacion": "p. 200, Resultados",
-     "cita_original": "La muestra de República Dominicana comparte solo 3 haplotipos con la muestra de Puerto Rico y no haplotipos con Cuba.",
-     "traduccion": "Solo 3 haplotipos A2 compartidos con Puerto Rico y ninguno con Cuba en el MDS de FST.",
-     "afirmaciones": [
-      "A-237",
-      "A-256"
-     ]
-    },
-    {
-     "ubicacion": "p. 203, figura 3",
-     "cita_original": "Figura 3. Frecuencias de haplogrupos de ADNmt en los diferentes puntos muestrales en la República Dominicana.",
-     "traduccion": "Los 12 sitios con gráfico de sectores, leídos en la imagen del PDF: Montecristi, Sosúa, Juan de Herrera, Constanza, Sainaguá, Monte Plata, Guanito, La Bombita, Barahona, Baní, San Pedro de Macorís, La Romana. No hay tabla numérica por sitio en el texto. Entre los 18 nombres de sitio hallados en esta fuente y en El Día 2016 (los 12 más Jánico, San Francisco de Macorís, El Rubio, La Caleta, Villa Mella y Los Frailes) no figura ninguna cabecera fronteriza típica (Dajabón, Elías Piña, Pedernales, Jimaní) [POR VERIFICAR la ubicación municipal de Guanito, La Bombita y Sainaguá].",
-     "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "p. 197, Métodos",
-     "cita_original": "El protocolo y consentimiento informado fueron aprobados por los Comité de investigación bioética del Ministerio de Salud Pública (CONABIOS), y la Universidad Iberoamericana (UNIBE).",
-     "traduccion": "Hay consentimiento informado y aprobación ética nacional; no se menciona consulta comunitaria ni participación de instituciones haitianas.",
-     "afirmaciones": [
-      "A-260"
-     ]
-    },
-    {
-     "ubicacion": "p. 201",
-     "cita_original": "Este estudio ha sido financiado por la Universidad Iberoamericana, National Geographic Society, University of Pennsylvania, la Academia Dominicana de la Historia y el señor Juan B. Vicini Lluberes.",
-     "traduccion": "Financiación mixta dominicana y estadounidense; coautoría local (UNIBE, ADH) y de UPenn y National Geographic.",
-     "afirmaciones": [
-      "A-260"
-     ]
-    },
-    {
-     "ubicacion": "p. 200, Conclusiones",
-     "cita_original": "En general, el patrón de ascendencia materna africana, europea y nativa americana fue consistente en todos los lugares.",
-     "traduccion": "Los autores concluyen que el patrón materno es consistente entre sitios, con gran variación dentro de cada sitio.",
-     "afirmaciones": [
-      "A-258",
-      "A-235"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-227",
-    "A-228",
-    "A-229",
-    "A-231",
-    "A-233",
-    "A-235",
-    "A-237",
-    "A-258",
-    "A-260"
-   ],
-   "modulos": [
-    "M01",
-    "M16"
-   ],
-   "id_existente": "",
-   "notas": "Es la publicación más cercana a una revisión por pares del PGD que existe en abierto (a 2026-10-06): sustituye al \"solo fragmento de búsqueda\" para el mtDNA, no para el autosómico. Diferencias con el resumen AABA 2026: 10 frente a 12,1 por ciento de mtDNA nativo, 1.010 frente a 1.015 individuos, 472 frente a 1.015 analizados; la cifra más reciente es la de mayor n, pero el resumen no tiene tablas. El texto del PDF carece de tablas por sitio; las proporciones por sitio solo están en la figura 3 (gráficos de sectores sin cifras). La UNIBE aloja la ficha en cris.unibe.edu.do/handle/123456789/366 (no abierta: Cloudflare 403). El artículo afirma que \"los tipos L constituyen el 80,4 %\": agrupa todo L como africano. Sesgo: la cuenta de la RD como país de \"primicias\" y la inquietud por \"reclamos de pureza racial\" aparecen en la introducción (p. 195-196); es un marco declarado de los autores."
-  },
-  {
-   "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen en el Program of the 95th Annual Meeting of the AABA, American Journal of Biological Anthropology 189(S81), marzo de 2026, p. 170)",
-   "autor": "Schurr, Theodore; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; Aldrich, M.; Jaworski, J.; Vega, J.; Vilar, M.",
-   "anio": "2026",
-   "tipo": "cientifica",
-   "idioma": "en",
-   "tradicion": "cientifica",
-   "url": "https://cris.unibe.edu.do/handle/123456789/589",
-   "urls_alternativas": [
-    "https://api.crossref.org/works/10.1002/ajpa.70227"
-   ],
-   "verificacion": "fallo-fetch",
-   "http_status": "403",
-   "formato": "html",
-   "acceso": "fragmento-busqueda",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Resumen de congreso sin revisión por pares ni tablas; el texto solo se conoce por fragmentos de WebSearch idénticos en varias consultas, porque UNIBE y Wiley devuelven 403 (Cloudflare) también a un navegador real.",
-   "proveniencia": "Proyecto Genográfico Dominicano; presentado en la 95.ª reunión de la AABA (Denver, 18-21 de marzo de 2026) y publicado el 13 de marzo de 2026 en el número suplementario S81 de AJBA. La ficha del suplemento completo está confirmada en Crossref (DOI 10.1002/ajpa.70227, volumen 189, número S81, marzo de 2026, editor Wiley, título \"Program of the 95th Annual Meeting of the American Association of Biological Anthropologists\"); el resumen concreto (p. 170 según el nombre de archivo p170.pdf de la UNIBE que devuelve la búsqueda) no se pudo abrir.",
-   "extractos": [
-    {
-     "ubicacion": "fragmento de WebSearch (UNIBE, handle 589; página no abierta: 403)",
-     "cita_original": "Dominican mitochondrial DNAs were 78.8% African, 12.1% Native American, and 9.1% West Eurasian in ancestry, whereas their Y-chromosomes were 71% West Eurasian, 28% African, and 1% Native American in ancestry.",
+     "ubicacion": "p. 195, Introducción",
+     "cita_original": "el Caribe ha acogido a migrantes de otras islas del Caribe, Asia occidental y oriental, y poblaciones judías de Europa a lo largo del siglo XX",
      "traduccion": "",
      "afirmaciones": [
-      "A-227",
-      "A-229",
-      "A-230",
-      "A-231"
-     ]
-    },
-    {
-     "ubicacion": "fragmento de WebSearch (UNIBE, handle 589; página no abierta: 403)",
-     "cita_original": "Dominicans' autosomal DNA ancestry was 50.3% African, 41.2% European, 3.8% Native American, 2.3% Middle East/Jewish, and 1.8% Central-South-East Asian in origin.",
-     "traduccion": "",
-     "afirmaciones": [
-      "A-227",
-      "A-228",
-      "A-235",
       "A-236"
      ]
     },
     {
-     "ubicacion": "fragmento de WebSearch (UNIBE, handle 589; página no abierta: 403)",
-     "cita_original": "The pattern of genetic diversity also evinces sex-biased gene flow, primarily through European males.",
+     "ubicacion": "p. 196, Introducción",
+     "cita_original": "la gran diversidad genética del país, que debe adoptarse ante cualquier reclamo de pureza genética",
      "traduccion": "",
      "afirmaciones": [
-      "A-231"
-     ]
-    },
-    {
-     "ubicacion": "fragmento de WebSearch (UNIBE, handle 589; página no abierta: 403)",
-     "cita_original": "DNA samples and genealogical data were obtained with informed consent for all participants, with their DNA samples being surveyed for genomic variation using the GenoChip 2.0+ microarray.",
-     "traduccion": "Chip y consentimiento del resumen; el método (GenoChip) se describe en Elhaik et al. 2013 (ver ficha propia).",
-     "afirmaciones": [
-      "A-232",
+      "A-236",
       "A-260"
-     ]
-    },
-    {
-     "ubicacion": "Crossref, DOI 10.1002/ajpa.70227 (abierto: 200)",
-     "cita_original": "Program of the 95th Annual Meeting of the American Association of Biological Anthropologists",
-     "traduccion": "Título del suplemento S81 del vol. 189 de AJBA, publicado en marzo de 2026 (Wiley). Confirma el contenedor, no el texto del resumen.",
-     "afirmaciones": [
-      "A-227"
      ]
     }
    ],
    "afirmaciones": [
-    "A-227",
-    "A-228",
-    "A-229",
-    "A-230",
-    "A-231",
-    "A-232",
-    "A-235",
     "A-236",
     "A-260"
    ],
@@ -520,315 +451,502 @@
     "M01",
     "M16"
    ],
-   "id_existente": "F-0203",
-   "notas": "Sigue SIN abrirse el resumen: cris.unibe.edu.do (403 con curl y WebFetch; página \"Just a moment...\" de verificación de bots en el navegador integrado: no se intentó superar la verificación), onlinelibrary.wiley.com (403), bioanth.org (sin enlace al libro de resúmenes) y Crossref no indexa resúmenes sueltos del suplemento. La búsqueda de un artículo revisado por pares del PGD con el chip (autosómico, Y) no encontró nada (9 consultas web); el único artículo publicado es el de mtDNA en Clío 2019 (ficha propia). El resumen reproduce literalmente las cifras que F-0203 ya recogía; la cita \"p. 170\" y la fecha del 13 de marzo vienen de fragmentos de búsqueda. Diferencias a trazar: 1.015 (2026) frente a 1.010 (Clío 2019) y ~1.000 (El Día 2016); las 5 categorías autosómicas (\"Medio Oriente/judío\" y \"Asia central-sur-sureste\") dependen del panel del GenoChip, que incluye más de 30 poblaciones judías entre sus fuentes de marcadores (Elhaik et al. 2013): que 2,3 % sea señal o artefacto sigue sin resolverse [POR VERIFICAR]. Una nota de prensa de 2016 (F-0185) dio 49/39/4; los valores de 2026 (50,3/41,2/3,8) son coherentes."
+   "id_existente": "F-0693",
+   "notas": "Aporte nuevo para A-236: el propio equipo del PGD plantea, ya en 2019, que cabe esperar componentes de Asia y judíos en el Caribe por migraciones del siglo XX (cita a Hernández González 2018); es la hipótesis 'señal histórica real', formulada como expectativa y no demostrada con datos autosómicos. No reporta ninguna cifra autosómica. Para el glosario: 'pureza genética' como reclamo que el estudio dice refutar."
   },
   {
-   "titulo": "El ADN del dominicano tiene 39% europeo y 49% africano",
-   "autor": "El Día (redacción)",
-   "anio": "2016",
-   "tipo": "divulgacion",
-   "idioma": "es",
-   "tradicion": "dominicana",
-   "url": "https://eldia.com.do/el-adn-del-dominicano-tiene-39-europeo-y-49-africano/",
-   "urls_alternativas": [],
-   "verificacion": "descargada-y-leida",
-   "http_status": "200",
-   "formato": "html",
-   "acceso": "texto-completo-en-linea",
-   "fiabilidad": "baja",
-   "justificacion_fiabilidad": "Nota de prensa de 2016 con cifras preliminares atribuidas al coordinador del proyecto, sin tablas ni métodos; sirve para fechar el anuncio y documentar el diseño del muestreo.",
-   "proveniencia": "Nota publicada el 6 de julio de 2016 que anuncia resultados del Proyecto Genográfico (Academia Dominicana de la Historia, National Geographic, UPenn, UNIBE), con declaraciones de Bernardo Vega.",
-   "extractos": [
-    {
-     "ubicacion": "párr. 7",
-     "cita_original": "solo fueron aceptados como voluntarios aquellos que llevaban un mínimo de 10 años viviendo en el lugar de su residencia actual, con padres y abuelos de origen dominicano",
-     "traduccion": "Criterio de inclusión citado por el coordinador. Por diseño, el muestreo parte de población arraigada con padres y abuelos \"de origen dominicano\"; no se aclara si una persona de ascendencia haitiana nacida en la RD cumple ese criterio. Hecho: el criterio. Inferencia: que excluye a los descendientes recientes de inmigrantes.",
-     "afirmaciones": [
-      "A-258",
-      "A-233"
-     ]
-    },
-    {
-     "ubicacion": "párr. 7",
-     "cita_original": "de los participantes el 65% habita en zonas urbanas y el 35% en rurales",
-     "traduccion": "Composición del muestreo: 65 % urbano y 35 % rural (40 voluntarios por punto según el párr. 3). Sin muestreo probabilístico declarado.",
-     "afirmaciones": [
-      "A-233",
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "párr. 4",
-     "cita_original": "Mientras que Jánico y Los Frailes figuran entre los de mayor proporción de origen europeo.",
-     "traduccion": "Los sitios con más componente europeo según la nota: Jánico y Los Frailes (con Jánico también entre los de más precolombino); más africano: La Caleta, Villa Mella y La Romana; más precolombino: Jánico, San Francisco de Macorís y El Rubio. Son los únicos nombres por sitio publicados en la prensa; no hay cifras por sitio.",
-     "afirmaciones": [
-      "A-258",
-      "A-228"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-227",
-    "A-228",
-    "A-233",
-    "A-258"
-   ],
-   "modulos": [
-    "M16"
-   ],
-   "id_existente": "F-0185",
-   "notas": "Extractos nuevos de una fuente ya resuelta en la ronda 1 (los párrafos se numeran por <p> de la página, sin contar el titular). Sesgo conocido: interpretación del coordinador (\"17 generaciones\"); la nota dice que \"el mulato predomina\", lectura de la prensa."
-  },
-  {
-   "titulo": "Analyzing ancestry: craniometric variation in two contemporary Caribbean populations (tesis de maestría, Boston University School of Medicine); versión publicada: Herrera MD, Tallman SD, \"Craniometric variation and ancestry estimation in two contemporary Caribbean populations\", Forensic Science International 2019, art. 110013",
-   "autor": "Herrera, Michelle Denise (dir. Tallman, Sean D.)",
-   "anio": "2019",
+   "titulo": "The genetic structure of populations from Haiti and Jamaica reflect divergent demographic histories (Am. J. Phys. Anthropol. 142(1): 49-66)",
+   "autor": "Simms, Tanya M.; Rodriguez, C. E.; Rodriguez, R.; Herrera, R. J.",
+   "anio": "2010",
    "tipo": "cientifica",
    "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://open.bu.edu/server/api/core/bitstreams/e32e3675-5a86-4b51-9567-66bf5276d51f/content",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=19918989",
    "urls_alternativas": [
-    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31710881%20AND%20SRC:MED&format=json&resultType=core"
+    "https://pubmed.ncbi.nlm.nih.gov/19918989/"
    ],
-   "verificacion": "descargada-y-leida",
+   "verificacion": "descargada-parcial",
    "http_status": "200",
-   "formato": "pdf",
-   "acceso": "pdf-en-linea",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
    "fiabilidad": "media",
-   "justificacion_fiabilidad": "Tesis de maestría con método reproducible y versión publicada en Forensic Science International, pero la muestra son 190 tomografías de un hospital privado de Santo Domingo y los grupos se definen por la etnicidad del registro del hospital.",
-   "proveniencia": "Tesis de M.S. en Antropología Forense (BU, 2019, hdl 2144/38664). 190 tomografías craneales (100 dominicanos, 90 haitianos) de pacientes del Hospital General de la Plaza de la Salud (HGPS, Santo Domingo), 2007-2018, anonimizadas, con exención del comité de ética. Interés: perfil biológico forense para identificar restos en la isla; no pregunta por identidad ni frontera. La versión publicada solo se leyó en el resumen de Europe PMC.",
+   "justificacion_fiabilidad": "Artículo revisado por pares con 15 STR autosómicos (baja resolución para ancestría continental); solo se leyó el resumen porque el texto completo es de pago.",
+   "proveniencia": "Grupo de Rene Herrera, Universidad Internacional de Florida (Miami; la única afiliación del registro PubMed). Colecciones 'generales' de Haití y Jamaica sin que el resumen diga si se muestrearon en la isla o en Miami.",
    "extractos": [
     {
-     "ubicacion": "Resumen (p. vii)",
-     "cita_original": "This study demonstrates that, despite sharing a small island, Dominican and Haitian individuals can be differentiated with a fair amount of statistical certainty",
-     "traduccion": "Datos craneométricos (no genéticos) que separan a dominicanos y haitianos con 72,0-82,2 % de acierto cruzado (tesis: 71,8-87,5 % en varones; 75,0-83,3 % en mujeres). La versión publicada da cifras algo menores: 73,7-78,6 % mujeres, 71,8-87,5 % varones, 72,0-77,8 % sexos agrupados (Europe PMC).",
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "although only minimal contributions from non-African sources were observed in Haiti, Jamaica displays genetic input from both European and East Asian sources",
+     "traduccion": "aunque en Haití solo se observaron contribuciones mínimas de fuentes no africanas, Jamaica muestra aportes europeos y del Asia oriental.",
      "afirmaciones": [
-      "A-258"
+      "A-240",
+      "A-236"
      ]
     },
     {
-     "ubicacion": "Métodos (p. 12)",
-     "cita_original": "The total sample size of the project is 190 individuals (100 Dominicans and 90 Haitians).",
-     "traduccion": "n=190 (103 mujeres, 87 varones); el origen de cada grupo es la \"etnicidad\" que consta en el registro del hospital.",
+     "ubicacion": "resumen",
+     "cita_original": "we report, for the first time, allelic frequency data across the complete set of 15 autosomal STR loci for general collections from Haiti and Jamaica",
+     "traduccion": "se presentan por primera vez frecuencias alélicas de 15 STR autosómicos de colecciones generales de Haití y Jamaica.",
      "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "Métodos (p. 12)",
-     "cita_original": "The CT scans used in this research are the property of the Hospital General de la Plaza de Salud (HGPS) in Santo Domingo, the capital of the Dominican Republic.",
-     "traduccion": "Muestreo de conveniencia en un hospital de la capital, no en la frontera ni en bateyes.",
-     "afirmaciones": [
-      "A-258",
-      "A-233"
-     ]
-    },
-    {
-     "ubicacion": "Métodos, análisis estadístico",
-     "cita_original": "their status as a private hospital requires health insurance, which results in a limited number of Haitian patients",
-     "traduccion": "La muestra haitiana es escasa y sesgada hacia pacientes con seguro de un hospital privado.",
-     "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "Conclusión (p. 34)",
-     "cita_original": "These accuracies are considered relatively high for groups in such close proximity, and reflect genetic heterogeneity between Dominicans and Haitians.",
-     "traduccion": "Inferencia de la autora (heterogeneidad genética) a partir de la forma del cráneo: es interpretación, no medición genética.",
-     "afirmaciones": [
-      "A-258"
+      "A-241"
      ]
     }
    ],
    "afirmaciones": [
-    "A-258",
-    "A-233"
+    "A-236",
+    "A-240",
+    "A-241"
    ],
    "modulos": [
+    "M00",
+    "M09",
     "M16"
    ],
-   "id_existente": "",
-   "notas": "Matiza A-258: no hay estudio de ADN de frontera ni de bateyes, pero sí un estudio forense craneométrico que separa los grupos \"dominicano\" y \"haitiano\" con ~72-82 % de acierto; no mide ascendencia, no incluye a dominicanos de ascendencia haitiana como categoría y no es evidencia de que los dominicanos de ascendencia haitiana sean distinguibles. La diferencia entre tesis y artículo (cifras de acierto) debe resolverse leyendo el artículo [POR VERIFICAR]; el DOI del artículo (10.1016/j.forsciint.2019.110013) no se abrió."
+   "id_existente": "F-0212",
+   "notas": "El resumen no da n, porcentajes ni lugar de muestreo [POR VERIFICAR]; las cifras de 85-96 % africano de A-240 no salen de este artículo (la de 96 % aparece en la tabla de Salzano y Sans 2014 con otro panel). La PÁGINA web de PubMed devuelve 203 sin contenido (exige cookies); el resumen se leyó por la API REST de Europe PMC y por E-utilities efetch (HTTP 200). El texto completo no está en PMC (Europe PMC: isOpenAccess N). Para A-236 aporta el contraste con el Y de la ficha siguiente: en Haití no se detecta aporte de Asia oriental."
   },
   {
-   "titulo": "G6PD Deficiency in an HIV Clinic Setting in the Dominican Republic (American Journal of Tropical Medicine and Hygiene 93(4): 722-729)",
-   "autor": "Xu, Julia Z.; Francis, Richard O.; Lerebours Nadal, Leonel E.; Shirazi, Maryam; Jobanputra, Vaidehi; Hod, Eldad A.; Jhang, Jeffrey S.; Stotler, Brie A.; et al.",
-   "anio": "2015",
+   "titulo": "Y-chromosomal diversity in Haiti and Jamaica: contrasting levels of sex-biased gene flow (Am. J. Phys. Anthropol. 148(4): 618-631)",
+   "autor": "Simms, Tanya M.; Wright, M. R.; Hernandez, M.; Perez, O. A.; Ramirez, E. C.; Martinez, E.; Herrera, R. J.",
+   "anio": "2012",
    "tipo": "cientifica",
    "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4596589/",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=22576450",
    "urls_alternativas": [
-    "https://doi.org/10.4269/ajtmh.14-0295"
+    "https://pubmed.ncbi.nlm.nih.gov/22576450/"
    ],
-   "verificacion": "descargada-y-leida",
+   "verificacion": "descargada-parcial",
    "http_status": "200",
-   "formato": "html",
-   "acceso": "texto-completo-en-linea",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
    "fiabilidad": "media",
-   "justificacion_fiabilidad": "Artículo revisado por pares con n declarado (238 pacientes consecutivos de una clínica de VIH de La Romana), pero muestra clínica pequeña y marcador médico, no de ascendencia.",
-   "proveniencia": "Equipo de Columbia University Medical Center con la Clínica de Familia La Romana; estudio de prevalencia de deficiencia de G6PD (A-) en adultos con VIH, con nacionalidad registrada; zona azucarera de La Romana. No usa la palabra \"batey\" (0 menciones).",
+   "justificacion_fiabilidad": "Artículo revisado por pares con 177 SNP y 17 STR del Y y n=123 haitianos; solo se leyó el resumen (texto completo de pago).",
+   "proveniencia": "Mismo grupo de FIU (Miami). Paternal: 77,2 % subsahariano en Haití según el resumen; el origen de la muestra no se declara en el resumen.",
    "extractos": [
     {
-     "ubicacion": "Resumen",
-     "cita_original": "The overall prevalence of G6PD deficiency (8.8%) was similar in males (9.3%) and females (8.5%), and higher in Haitians (18%) than Dominicans (6.4%; P = 0.01).",
-     "traduccion": "En 238 pacientes con VIH (50 haitianos, de ellos 9 deficientes, y 187 dominicanos; el resto, otra categoría [POR VERIFICAR]): la frecuencia de la variante G6PD A- difiere por nacionalidad registrada.",
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "177 high-resolution Y-chromosome binary markers and 17 Y-STR loci were typed in Haiti (n = 123) and Jamaica (n = 159)",
+     "traduccion": "Se tipificaron 177 marcadores binarios del Y y 17 Y-STR en Haití (n=123) y Jamaica (n=159).",
      "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "Introducción",
-     "cita_original": "G6PD deficiency has not been studied in the Dominican Republic",
-     "traduccion": "Los autores declaran que no había estudios previos de G6PD en la RD.",
-     "afirmaciones": [
-      "A-258"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-258"
-   ],
-   "modulos": [
-    "M16"
-   ],
-   "id_existente": "",
-   "notas": "Único dato genético médico localizado que compara a haitianos y dominicanos dentro de la RD, en la zona de los ingenios; no es ancestría y no distingue a dominicanos de ascendencia haitiana (la variable es nacionalidad registrada, con \"país de nacimiento de la madre\" como predictor significativo, P=0,01). Muestra clínica de VIH: no representa a bateyes."
-  },
-  {
-   "titulo": "Europe PMC (EMBL-EBI), API REST: tres consultas del 2026-10-06 para batey, Haití y República Dominicana con términos de genética",
-   "autor": "Europe PMC (EMBL-EBI)",
-   "anio": "2026",
-   "tipo": "base-de-datos",
-   "idioma": "en",
-   "tradicion": "internacional",
-   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%28batey+OR+bateyes%29&format=json&resultType=lite&pageSize=40",
-   "urls_alternativas": [
-    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%28%22Dominican+Republic%22+AND+Haitian+AND+%28genetic+OR+genotype+OR+polymorphism+OR+allele+OR+haplotype+OR+ancestry%29%29&format=json&resultType=lite&pageSize=30",
-    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%28Haiti+OR+Haitian+OR+Haitians%29+AND+TITLE%3A%28ancestry+OR+admixture+OR+%22genetic+structure%22+OR+%22genetic+diversity%22+OR+haplogroup+OR+%22mitochondrial+DNA%22+OR+%22genome-wide%22+OR+genomic%29&format=json&resultType=lite&pageSize=50&sort=P_PDATE_D+desc"
-   ],
-   "verificacion": "descargada-y-leida",
-   "http_status": "200",
-   "formato": "txt",
-   "acceso": "texto-completo-en-linea",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Índice bibliográfico: sirve para documentar una ausencia a nivel de títulos y resúmenes, no para probarla.",
-   "proveniencia": "Consultas hechas con la API pública de Europe PMC; las cifras de aciertos son las del 2026-10-06. La lista se revisó por títulos.",
-   "extractos": [
-    {
-     "ubicacion": "consulta 1",
-     "cita_original": "TITLE_ABS:(batey OR bateyes) -> 51 resultados",
-     "traduccion": "Los 51 resultados son de salud pública, enfermería, parasitología (malaria y filariasis), VIH y diabetes en bateyes, más ruido (riboswitches, economía); ninguno es de genética de poblaciones ni de ancestría.",
-     "afirmaciones": [
-      "A-258"
-     ]
-    },
-    {
-     "ubicacion": "consulta 2",
-     "cita_original": "TITLE_ABS:(\"Dominican Republic\" AND Haitian AND (genetic OR genotype OR polymorphism OR allele OR haplotype OR ancestry)) -> 6 resultados",
-     "traduccion": "Solo dos son pertinentes: Herrera y Tallman 2019 (craneometría; Forensic Sci Int, PMID 31710881) y Bukhari et al. 2017 (mtDNA; Gene, PMID 28912065); el resto es de plantas, fósiles y oncología.",
-     "afirmaciones": [
-      "A-258",
+      "A-240",
       "A-241"
      ]
     },
     {
-     "ubicacion": "consulta 3",
-     "cita_original": "TITLE:(Haiti OR Haitian OR Haitians) AND TITLE:(ancestry OR admixture OR \"genetic structure\" OR \"genetic diversity\" OR haplogroup OR \"mitochondrial DNA\" OR \"genome-wide\" OR genomic) -> 17 resultados",
-     "traduccion": "De los 17 títulos, el único sobre genética de la población humana de Haití es Simms et al. 2010 (Am J Phys Anthropol, PMID 19918989); los demás son virus, plantas, cólera, paludismo y lagartos. Consistente con A-241 (no hay estudio genómico poblacional grande hecho en Haití), a nivel de títulos.",
+     "ubicacion": "resumen",
+     "cita_original": "Y-haplogroups indicative of Chinese [O-M175 (3.8%)] and Indian [H-M69 (0.6%) and L-M20 (0.6%)] ancestry were restricted to Jamaica.",
+     "traduccion": "Los haplogrupos del Y indicativos de ascendencia china (3,8 %) e india (0,6 % y 0,6 %) se restringieron a Jamaica: no aparecen en los 123 haitianos.",
      "afirmaciones": [
-      "A-241",
+      "A-236",
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "European derived chromosomes (i.e., haplogroups G2a*-P15, I-M258, R1b1b-M269, and T-M184) were detected at commensurate levels in Haiti (20.3%) and Jamaica (18.9%)",
+     "traduccion": "Los cromosomas de origen europeo se detectaron en niveles comparables en Haití (20,3 %) y Jamaica (18,9 %).",
+     "afirmaciones": [
+      "A-231",
       "A-240"
      ]
     }
    ],
    "afirmaciones": [
-    "A-241",
-    "A-258"
+    "A-231",
+    "A-236",
+    "A-240",
+    "A-241"
    ],
    "modulos": [
+    "M00",
     "M16"
    ],
-   "id_existente": "",
-   "notas": "Complementa las 4 búsquedas web de la ronda (batey+genética; frontera+admixture; G6PD en bateyes; descendientes de haitianos+genoma): ninguna halló estudio de ancestría de bateyes o de zona fronteriza. La ausencia queda documentada, no probada: la consulta 1 usa términos en inglés y no cubre revistas dominicanas ni tesis; la 3 es solo por título. Faltan consultas en español (SciELO, Redalyc, Dialnet)."
+   "id_existente": "F-0213",
+   "notas": "Corrige la atribución del registro (A-240): este resumen NO dice que los linajes nativos estén 'virtualmente ausentes'; da 77,2 % subsahariano y 20,3 % europeo (97,5 % en total; el 2,5 % restante no se describe [POR VERIFICAR]). Para A-236: en Haití no hay Y chinos ni indios, de modo que la categoría 'Asia' de otros caribeños (jamaicanos) no es un rasgo de la isla de La Española. PubMed web 203; abstract leído por efetch y Europe PMC (200). Sin PMC."
   },
   {
-   "titulo": "The GenoChip: A New Tool for Genetic Anthropology (Genome Biology and Evolution 5(5): 1021-1031)",
-   "autor": "Elhaik, Eran; Greenspan, Efrat; Staats, Sean; Krahn, Thomas; Tyler-Smith, Chris; Xue, Yali; Tofanelli, Sergio; et al.",
-   "anio": "2013",
+   "titulo": "Forensic analysis of mtDNA haplotypes from two rural communities in Haiti reflects their population history (J. Forensic Sci. 57(6): 1457-1466)",
+   "autor": "Wilson, Jamie L.; Saint-Louis, V.; Auguste, J. O.; Jackson, B. A.",
+   "anio": "2012",
    "tipo": "cientifica",
    "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673633/",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=22583388",
    "urls_alternativas": [
-    "https://doi.org/10.1093/gbe/evt066"
+    "https://pubmed.ncbi.nlm.nih.gov/22583388/"
    ],
-   "verificacion": "descargada-y-leida",
+   "verificacion": "descargada-parcial",
    "http_status": "200",
-   "formato": "html",
-   "acceso": "texto-completo-en-linea",
-   "fiabilidad": "alta",
-   "justificacion_fiabilidad": "Artículo revisado por pares que describe el diseño del chip del Proyecto Genográfico; no contiene datos dominicanos.",
-   "proveniencia": "Equipo del Genographic Project (National Geographic, IBM) con colaboradores de varias universidades; presenta la matriz usada después por el Proyecto Genográfico Dominicano.",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestreo declarado en áreas rurales de Haití y n=291, pero con orientación forense y solo ADNmt HVS-1; se leyó solo el resumen.",
+   "proveniencia": "Universidad de Massachusetts Lowell (programa de ingeniería biomédica) con coautores haitianos (Saint-Louis, Auguste); orientado a bases de datos de ADN de identificación.",
    "extractos": [
     {
-     "ubicacion": "Resumen",
-     "cita_original": "The GenoChip includes ancestry informative markers obtained for over 450 human populations",
-     "traduccion": "El chip se diseñó con marcadores informativos de ancestría de más de 450 poblaciones; es la base de las proporciones continentales del PGD.",
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "This study uses hypervariable segment one (HVS-1) mitochondrial DNA (mtDNA) nucleotide sequences from 291 subjects primarily from rural areas of northern and southern Haiti, where admixture would be minimal.",
+     "traduccion": "El estudio usa secuencias HVS-1 de 291 sujetos de áreas sobre todo rurales del norte y el sur de Haití, donde la mezcla sería mínima.",
      "afirmaciones": [
-      "A-232"
+      "A-240",
+      "A-241"
      ]
     },
     {
-     "ubicacion": "figura 1 (pie)",
-     "cita_original": "AIMs from over 450 world populations were harvested from the literature (green) and calculated based on genotyped data from public and private collections (red) including over 30 Jewish populations (blue).",
-     "traduccion": "El panel incluye más de 30 poblaciones judías entre las fuentes de marcadores: las categorías \"Medio Oriente/judío\" de las salidas del PGD dependen de ese panel. Que 2,3 % sea señal o artefacto sigue sin resolverse.",
+     "ubicacion": "resumen",
+     "cita_original": "We present a forensic population study that provides the first genetic data set for Haiti.",
+     "traduccion": "Presentamos un estudio poblacional forense que aporta el primer conjunto de datos genéticos de Haití.",
      "afirmaciones": [
-      "A-232",
-      "A-236"
-     ]
-    },
-    {
-     "ubicacion": "Resumen",
-     "cita_original": "over 130,000 autosomal and X-chromosomal SNPs without any known health, medical, or phenotypic relevance",
-     "traduccion": "Tamaño del panel autosómico: del orden de 130.000 SNP (frente a los 610.000 de Bryc 2010 y los más de 2 millones de otras matrices): las cifras no son directamente comparables.",
-     "afirmaciones": [
-      "A-232"
+      "A-241"
      ]
     }
    ],
    "afirmaciones": [
-    "A-232",
-    "A-236"
+    "A-240",
+    "A-241"
    ],
    "modulos": [
+    "M00",
     "M16"
    ],
-   "id_existente": "",
-   "notas": "El artículo no menciona a la RD ni define las categorías regionales (\"Middle East/Jewish\", \"Central-South-East Asian\") que usa el resumen del PGD; esas categorías provienen de los paneles de referencia del Genographic (Geno 2.0), no de este artículo [POR VERIFICAR]. Sesgo: documento de diseño escrito por los creadores del chip."
+   "id_existente": "F-0214",
+   "notas": "El resumen no da el porcentaje de linajes nativos; el estudio es el único con muestreo declarado dentro de Haití para ADNmt (n=291). Texto completo no en PMC. PubMed web 203; resumen leído por efetch y Europe PMC (200)."
   },
   {
-   "titulo": "Tracing maternal Amerindian ancestry in the Aruban population through mtDNA sequencing (tesis de maestría, UPR Mayagüez; solo ficha y resumen)",
+   "titulo": "MtDNA from extinct Tainos and the peopling of the Caribbean (Ann. Hum. Genet. 65(Pt 2): 137-151)",
+   "autor": "Lalueza-Fox, Carles; Calderón, F. L.; Calafell, F.; Morera, B.; Bertranpetit, J.",
+   "anio": "2001",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=11427174",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/11427174/"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares sobre ADN antiguo del sitio taíno de La Caleta con controles contra contaminación descritos en el resumen; se leyó solo el resumen.",
+   "proveniencia": "Sección de Antropología de la Universitat de Barcelona (Bertranpetit); 27 huesos precolombinos de La Caleta (República Dominicana), de los que 24 se clasificaron en haplogrupo y 19 se secuenciaron en HVRI.",
+   "extractos": [
+    {
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "Twenty-seven bone samples were extracted and analyzed for mtDNA variation.",
+     "traduccion": "Se extrajeron y analizaron 27 muestras óseas para variación del ADNmt.",
+     "afirmaciones": [
+      "A-237",
+      "A-238"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "18 individuals (75%) belonged to the C haplogroup, and 6 (25%) to the D haplogroup.",
+     "traduccion": "18 individuos (75 %) pertenecían al haplogrupo C y 6 (25 %) al D: no aparecen A ni B.",
+     "afirmaciones": [
+      "A-237",
+      "A-238"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-237",
+    "A-238"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M16"
+   ],
+   "id_existente": "F-0222",
+   "notas": "Resuelve la pregunta de A-237 sobre La Caleta: solo C (75 %) y D (25 %), n=24 clasificados; el haplogrupo A2, hoy el más frecuente entre los linajes nativos dominicanos (F-0692, F-0698), no aparece en esa muestra antigua. Texto completo no en PMC. PubMed web 203; resumen leído por efetch y Europe PMC (200)."
+  },
+  {
+   "titulo": "Taino and African maternal heritage in the Greater Antilles (Gene 637: 33-40)",
+   "autor": "Bukhari, Areej; Luis, J. R.; Alfonso-Sánchez, M. A.; Garcia-Bertrand, R.; Herrera, R. J.",
+   "anio": "2017",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=28912065",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/28912065/"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares que aporta una muestra mitocondrial haitiana nueva, pero cuyo n y lugar de muestreo no figuran en el resumen leído.",
+   "proveniencia": "Grupo de Rene Herrera (último autor, FIU); compara el ADNmt de Cuba, República Dominicana, Haití, Jamaica y Puerto Rico y explica la diferencia por normas sociales sobre matrimonios mixtos al inicio del contacto (interpretación de los autores, no un hallazgo).",
+   "extractos": [
+    {
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "The Taino maternal DNA is prominent in the ex-Spanish colonies (61.3%-22.0%) while it is basically non-existent in the ex-French and ex-English colonies of Haiti (0.0%) and Jamaica (0.5%), respectively.",
+     "traduccion": "El ADN materno taíno es prominente en las ex colonias españolas (61,3 %-22,0 %) y básicamente inexistente en Haití (0,0 %) y Jamaica (0,5 %).",
+     "afirmaciones": [
+      "A-229",
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "The African mtDNA component is almost fixed in Haiti (98.2%) and Jamaica (98.5%)",
+     "traduccion": "El componente africano del ADNmt está casi fijado en Haití (98,2 %) y Jamaica (98,5 %).",
+     "afirmaciones": [
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "the mtDNA HVRI and HVRII regions, as well as coding diagnostic sites, were assessed in the Haitian general population",
+     "traduccion": "Las regiones HVRI y HVRII y sitios diagnósticos codificantes se evaluaron en la 'población general haitiana'.",
+     "afirmaciones": [
+      "A-241"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-229",
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M16"
+   ],
+   "id_existente": "F-0210",
+   "notas": "Es la única cifra publicada de ADNmt nativo para Haití (0,0 %) y la mejor referencia para A-240 en línea materna; el rango 61,3-22,0 % para las ex colonias españolas es el contexto de A-229. [POR VERIFICAR] n, lugar de muestreo y definición de 'general population' (texto completo de pago, no en PMC). PubMed web 203; resumen leído por efetch y Europe PMC (200)."
+  },
+  {
+   "titulo": "Genetic background of people in the Dominican Republic with or without obese type 2 diabetes revealed by mitochondrial DNA polymorphism (J. Hum. Genet. 49(9): 495-499)",
+   "autor": "Tajima, Atsushi; Hamaguchi, Kazuyuki; Terao, Hideo; Oribe, Ayako; Perrotta, Victor M.; Baez, Carlos Amoros; Arias, Jose R.; Yoshimatsu, Hironobu; Sakata, Toshiie; Horai, Satoshi",
+   "anio": "2004",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=15368103",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/15368103/"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con n muy pequeño y diseño clínico; se leyó solo el resumen, por lo que no se conoce el lugar de recogida ni el método de reclutamiento.",
+   "proveniencia": "Equipo japonés (Horai, Sokendai) con médicos del Instituto Nacional de Diabetes (INDEN) y del Centro de Gastroenterología de Santo Domingo, coautores del registro PubMed; pregunta sobre diabetes, no sobre identidad.",
+   "extractos": [
+    {
+     "ubicacion": "resumen (registro PubMed por E-utilities)",
+     "cita_original": "In the OD group, the majority (64.0%) of the mtDNA lineages were from African ancestry, whereas the Native American fraction was predominant (51.5%) in the healthy group",
+     "traduccion": "En el grupo con diabetes obesa la mayoría (64,0 %) de los linajes de ADNmt era africana, mientras que en el grupo sano predominaba la fracción nativa americana (51,5 %).",
+     "afirmaciones": [
+      "A-229",
+      "A-228"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "nucleotide sequences of the D-loop region of human mitochondrial DNA (mtDNA) were examined in 33 healthy women and 50 gender-matched patients with obese type 2 diabetes (OD) from the Dominican Republic",
+     "traduccion": "Se examinaron secuencias del D-loop del ADNmt de 33 mujeres sanas y 50 pacientes pareados por sexo con diabetes tipo 2 obesa de la República Dominicana.",
+     "afirmaciones": [
+      "A-229"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-228",
+    "A-229",
+    "A-233"
+   ],
+   "modulos": [
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0209",
+   "notas": "Contraejemplo cuantitativo al rango 12-23 % de A-229: 51,5 % de ADNmt nativo en 33 mujeres sanas (y la diferencia entre sanas y pacientes muestra que el 'promedio' depende de la composición clínica de la muestra). Hay coautores con afiliación en instituciones de Santo Domingo (INDEN y Centro de Gastroenterología), lo que hace probable, pero no demuestra, recogida en la isla [POR VERIFICAR en el texto completo]. La página de la editorial redirige a un muro de acceso (idp.nature.com). PubMed web 203; resumen leído por efetch y Europe PMC (200)."
+  },
+  {
+   "titulo": "Morphology, Serology, Dermatoglyphics, and Microevolution of Some Village Populations in Haiti, West Indies (Human Biology 48(2), art. 1)",
+   "autor": "Basu, A.; Namboodiri, K. K.; Weitkamp, L. R.; Brown, W. H.; Pollitzer, W. S.; Spivey, M. A.",
+   "anio": "1976",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://digitalcommons.wayne.edu/humbiol/vol48/iss2/1",
+   "urls_alternativas": [
+    "https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=3897&context=humbiol"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio de campo de 1968-1969 revisado por pares con muestreo en la propia Haití, pero con marcadores clásicos (grupos sanguíneos, proteínas, dermatoglifos) de baja resolución; solo se leyó el resumen porque el PDF devuelve 403.",
+   "proveniencia": "Antropólogos de la Universidad de Carolina del Norte, Michigan y el Instituto Estadístico de la India, con trabajo de campo en cuatro aldeas de la isla Grande Cayemites y en la localidad continental de Pestel (Haití), primaveras de 1968 y 1969. Pregunta sobre mezcla racial y microdiferenciación; usa el lenguaje racial de su época ('Negro ancestry').",
+   "extractos": [
+    {
+     "ubicacion": "resumen (página de Digital Commons, Wayne State)",
+     "cita_original": "During the spring of 1968 and 1969, a population genetics survey was conducted in four villages on the island of Grande Cayemites and the mainland town of Pestel, in Haiti, West Indies.",
+     "traduccion": "En las primaveras de 1968 y 1969 se hizo una encuesta de genética de poblaciones en cuatro aldeas de la isla Grande Cayemites y en el pueblo continental de Pestel, en Haití.",
+     "afirmaciones": [
+      "A-241"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "The genetic data confirm the history and appearance in indicating about 80% Negro ancestry with some French and less American Indian.",
+     "traduccion": "Los datos genéticos indican cerca de 80 % de ascendencia 'negra' (africana), con algo de francesa y menos de 'indio americano' (término de la época).",
+     "afirmaciones": [
+      "A-240"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0215",
+   "notas": "CORRIGE EL REGISTRO: la ficha F-0215 atribuye la obra a 'autor probable: Halberstein'; la página de la revista dice Basu, Namboodiri, Weitkamp, Brown, Pollitzer y Spivey. Relevancia: es un estudio de campo hecho DENTRO de Haití (1968-1969) con estimación de mezcla y es anterior a toda la genética molecular citada en A-240/A-241. Matiza A-240: con marcadores clásicos los autores sí infieren un aporte 'indio americano' menor que el francés; con muy pocos loci, ese aporte no es equivalente a una detección genómica y no distingue un componente real de ruido de los marcadores. Matiza A-241: el registro dice 'dos aldeas'; el resumen dice cuatro aldeas de Grande Cayemites más Pestel. Cifras de frecuencias génicas citadas en el resumen (Su 6,6 %, R0 58 %, Fva 2,3 %, HbS 3,6-12 %) no se usan aquí. Ficha de la revista 200; PDF 403. Término 'Negro' = de la época: aquí se usa solo entre comillas."
+  },
+  {
+   "titulo": "El español en la República Dominicana (en Dialectología Hispánica / The Routledge Handbook of Spanish Dialectology, pp. 359-370)",
+   "autor": "Alba, Orlando",
+   "anio": "2023",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://scholarsarchive.byu.edu/facpub/9024",
+   "urls_alternativas": [
+    "https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=9920&context=facpub"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo de un manual de dialectología por el principal especialista en el español dominicano, pero solo se leyó la ficha con el resumen: el PDF del repositorio de BYU devuelve 403.",
+   "proveniencia": "Orlando Alba (BYU), lingüista dominicano; capítulo para el manual editado por Moreno-Fernández y Caravedo (Routledge, 2023). Describe percepción y rasgos objetivos del dialecto dominicano.",
+   "extractos": [
+    {
+     "ubicacion": "resumen de la ficha del repositorio",
+     "cita_original": "sobre el léxico, se esboza su estado actual según la información que aportan los estudios de disponibilidad",
+     "traduccion": "El capítulo trata el léxico a través de estudios de disponibilidad léxica; el resumen no menciona ni cuantifica los taínismos.",
+     "afirmaciones": [
+      "A-255"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-255"
+   ],
+   "modulos": [
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0933",
+   "notas": "Resuelto solo en parte: se confirma la localización y el resumen (HTTP 200); el PDF (viewcontent.cgi?article=9920) devuelve 403 y no se pudo comprobar si el capítulo da un recuento de taínismos, de modo que A-255 ('no cuantificado ni comparado') no cambia con esta fuente. [POR VERIFICAR] en el PDF."
+  },
+  {
+   "titulo": "Who Is Black, White, or Mixed Race? How Skin Color, Status, and Nation Shape Racial Classification in Latin America (American Journal of Sociology 120(3): 864-907)",
+   "autor": "Telles, Edward; Paschel, Tianna",
+   "anio": "2014",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.edwardtelles.com/s/2014_who_is_black_whitle_or_mixed_race__.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1086/679252"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestras nacionales probabilísticas del AmericasBarometer 2010 y 2012 (unos 3.000 casos por país), medida de color de piel por entrevistador y modelos declarados.",
+   "proveniencia": "Edward Telles (Princeton) y Tianna Paschel (Chicago), con el módulo de etnicidad PERLA del Latin American Public Opinion Project (Vanderbilt). Compara Brasil, Colombia, Panamá y la República Dominicana; interés: mostrar que los esquemas raciales nacionales difieren.",
+   "extractos": [
+    {
+     "ubicacion": "p. 866, Introducción",
+     "cita_original": "the proportion of the darkest persons who identified as black ranged from 50% (Dominican Republic) to 90% (Panama)",
+     "traduccion": "La proporción de las personas de piel más oscura que se identificaron como negras iba del 50 % (República Dominicana) al 90 % (Panamá).",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "p. 879, Medición de la variable dependiente",
+     "cita_original": "In the Dominican Republic, interviewers prompted respondents with the more popular term Indio (Indian), which is sometimes thought to refer to a bronze color rather than indigenous ancestry",
+     "traduccion": "En la República Dominicana los encuestadores sugerían el término 'indio' si el entrevistado no entendía 'mestizo'; a veces se piensa que alude a un color bronce y no a ascendencia indígena. No hubo categoría 'indígena'.",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "p. 896, Discusión",
+     "cita_original": "At the darkest end, less than half of the very darkest Dominicans identified as black, while the majority identified as mestizo/Indio.",
+     "traduccion": "En el extremo más oscuro, menos de la mitad de los dominicanos de piel más oscura se identificó como negra y la mayoría como mestiza/india.",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "p. 890, Resultados, efecto del estatus",
+     "cita_original": "the percentage of low-status Dominicans identifying in the mulato category was 9.8 compared to 24.1 of high-status Dominicans, which was mostly at the expense of mestizo/Indios, which shrank from 77.2% to 59.8%",
+     "traduccion": "Entre dominicanos de bajo estatus el 9,8 % se identificaba como mulato frente al 24,1 % de los de alto estatus, sobre todo a costa de mestizo/indio (del 77,2 % al 59,8 %).",
+     "afirmaciones": [
+      "A-226"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226"
+   ],
+   "modulos": [
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0937",
+   "notas": "RESUELVE F-0937 (antes solo fragmento): PDF completo en la web de Telles (HTTP 200, 751 kB, 44 páginas). Es evidencia cuantitativa de la categoría 'indio' de A-226 con otra base que el censo de 2022: encuesta nacional de 2010-2012, no autoidentificación censal. Los números de páginas son los de la revista (AJS 120:864-907), tomados de la numeración al pie del PDF. Interpretación (consistente con las narrativas de nación que citan los autores, Candelario 2007 y Howard 2001) es de los autores; no se prueba aquí que 'indio' sea negación de la negritud, solo que color y categoría se desacoplan en la RD. Sesgo: la categoría 'indio' fue sugerida por el entrevistador cuando el entrevistado no entendía 'mestizo'."
+  },
+  {
+   "titulo": "Tracing maternal Amerindian ancestry in the Aruban population through mtDNA sequencing (tesis de maestría, Universidad de Puerto Rico, Mayagüez)",
    "autor": "Carrero González, Ivenise (dir. Martínez Cruzado, Juan C.)",
    "anio": "2011",
    "tipo": "cientifica",
    "idioma": "en",
    "tradicion": "cientifica",
-   "url": "https://scholar.uprm.edu/server/api/core/items/5003a0de-ac79-48fb-8f4f-622b86eaeffa",
-   "urls_alternativas": [],
+   "url": "https://scholar.uprm.edu/server/api/core/bitstreams/a9d48d08-e9d3-4397-8ec2-45a80923eb4b/content",
+   "urls_alternativas": [
+    "https://scholar.uprm.edu/server/api/core/items/5003a0de-ac79-48fb-8f4f-622b86eaeffa"
+   ],
    "verificacion": "descargada-parcial",
    "http_status": "200",
-   "formato": "txt",
-   "acceso": "fragmento-busqueda",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
    "fiabilidad": "media",
-   "justificacion_fiabilidad": "Tesis de maestría del mismo laboratorio; solo se leyó el resumen del repositorio.",
-   "proveniencia": "Tesis de UPR Mayagüez (2011, hdl 20.500.11801/674) sobre 144 muestras de sangre de cordón umbilical de Aruba (2006), 76 de ellas (54,3 %) con mtDNA amerindio.",
+   "justificacion_fiabilidad": "Tesis de maestría con n y método declarados y director conocido en el campo, pero de un solo laboratorio y no revisada por pares externos; se leyeron el resumen y las secciones de resultados, no la tesis completa.",
+   "proveniencia": "Laboratorio de Juan C. Martínez Cruzado (UPR Mayagüez); 144 muestras de sangre de cordón umbilical de Aruba (nacimientos de 2006). Estudio de linajes maternos amerindios para comparar con los del Caribe y Sudamérica.",
    "extractos": [
     {
-     "ubicacion": "resumen (metadatos DSpace)",
-     "cita_original": "Median Network analyses show that haplogroup A2 has one derived haplotype that is present in the Dominican Republic and another one in Cuba; this suggests a migration process from the north of South America to the Greater Antilles.",
-     "traduccion": "Un haplotipo A2 derivado de Aruba aparece también en la RD: el mismo laboratorio lee otra ruta (norte de Suramérica) para parte del A2, lo que matiza el \"A2 mesoamericano\" de A-237.",
+     "ubicacion": "Resumen",
+     "cita_original": "The HVR-I was sequenced in 144 samples of umbilical cord blood from babies born in 2006, of which 76 (54.3%) resulted of Amerindian origin.",
+     "traduccion": "Se secuenció la HVR-I de 144 muestras de sangre de cordón de bebés nacidos en 2006; 76 (54,3 %) resultaron de origen amerindio.",
+     "afirmaciones": [
+      "A-237"
+     ]
+    },
+    {
+     "ubicacion": "Resumen",
+     "cita_original": "haplogroup A2 has one derived haplotype that is present in the Dominican Republic and another one in Cuba; this suggests a migration process from the north of South America to the Greater Antilles",
+     "traduccion": "El haplogrupo A2 tiene un haplotipo derivado presente en la República Dominicana y otro en Cuba, lo que sugiere una migración desde el norte de Sudamérica hacia las Antillas Mayores.",
      "afirmaciones": [
       "A-237",
       "A-238"
@@ -843,523 +961,791 @@
     "M01",
     "M16"
    ],
-   "id_existente": "",
-   "notas": "Solo el resumen; el texto del PDF no se descargó. Se incluye porque contradice parcialmente la lectura \"mesoamericana\" de A2 y es del mismo laboratorio."
+   "id_existente": "F-0698",
+   "notas": "RESUELVE F-0698 (antes fragmento): PDF completo descargado (HTTP 200, 812 kB). Matiza A-237/A-238: el vínculo de A2 dominicano con el norte de Sudamérica (no con México) viene de una red de medianas con un haplotipo derivado compartido con Aruba; la hipótesis de 'indígenas esclavizados traídos de Tierra Firme' no se contrasta aquí. Los haplogrupos de Aruba son D1 42,1 %, B2 23,7 %, A2 22,4 %, C1 11,8 % de los 76 amerindios. [POR VERIFICAR] el resto de la tesis."
   },
   {
-   "titulo": "En la tierra del Agua Dulce (Ecos, órgano del Instituto de Historia de la UASD, año XXVII, vol. 1, n.º 19, enero-junio de 2020)",
-   "autor": "Estévez, Jorge; Mateo, Irka",
-   "anio": "2020",
-   "tipo": "divulgacion",
-   "idioma": "es",
-   "tradicion": "dominicana",
-   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/257/235/239",
-   "urls_alternativas": [],
+   "titulo": "Afro-Latin American Pharmacogenetics of CYP2D6, CYP2C9, and CYP2C19 in Dominicans: A Study from the RIBEF-CEIBA Consortium (Pharmaceutics 16(11): 1399)",
+   "autor": "Guevara, M.; Rodrigues-Soares, F.; de la Cruz, C. G.; de Andrés, F.; Rodríguez, E.; Peñas-Lledó, E.; LLerena, A.; CEIBA Consortium of the Ibero-American Network of Pharmacogenetics and Pharmacogenomics (RIBEF)",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11597850/",
+   "urls_alternativas": [
+    "https://doi.org/10.3390/pharmaceutics16111399"
+   ],
    "verificacion": "descargada-y-leida",
    "http_status": "200",
-   "formato": "pdf",
-   "acceso": "pdf-en-linea",
-   "fiabilidad": "baja",
-   "justificacion_fiabilidad": "Texto de reivindicación de la continuidad taína, con cifras genéticas sin cita primaria y con afirmaciones absolutas (\"el ADN no miente\").",
-   "proveniencia": "Escrito por dos investigadores-activistas taínos dominicanos (uno de ellos trabajó 21 años en el Museo Nacional del Indio Americano del Smithsonian); aprobado para Ecos el 20 de marzo de 2020. Parte de una posición declarada: el \"mito de la extinción\" ha dañado el estudio de la cultura dominicana.",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestra declarada (197 voluntarios, 178 con ancestría) y método descrito, pero con solo 90 marcadores de ancestría y una muestra universitaria de Santo Domingo.",
+   "proveniencia": "Consorcio iberoamericano de farmacogenética (RIBEF-CEIBA) con la Universidad Nacional Pedro Henríquez Ureña (UNPHU, Santo Domingo). 197 estudiantes y personal de UNPHU, sin inmigrantes en al menos dos generaciones previas, reclutados en Santo Domingo. Ancestría tri-híbrida con 90 AIM y K=3 no supervisado, con 114 españoles, 296 nativos peruanos y yoruba de 1000 Genomas como poblaciones parentales.",
    "extractos": [
     {
-     "ubicacion": "p. 113",
-     "cita_original": "Si bien Puerto Rico tiene un 61% de ADNmt nativo americano, la República Dominicana oscila entre el 23 y el 33%.",
-     "traduccion": "El \"23 por ciento\" mitocondrial aparece aquí como límite inferior de un rango 23-33 % sin cita; el 33 % puede venir de Tajima 2004, citado en la oración anterior. Es el origen más probable de la cifra que el registro atribuía a Martínez-Cruzado, pero no hay fuente primaria localizada para el 23.",
+     "ubicacion": "Resumen, resultados",
+     "cita_original": "The average ancestry was 23.8% European, 42.6% Native American, and 33.6% African, the latter being higher than in most Latin American populations. Native American ancestry was also higher than expected.",
+     "traduccion": "La ascendencia media fue 23,8 % europea, 42,6 % nativa americana y 33,6 % africana; la nativa americana fue también más alta de lo esperado.",
      "afirmaciones": [
-      "A-229"
-     ]
-    },
-    {
-     "ubicacion": "p. 112",
-     "cita_original": "Casi el 100% de los dominicanos tienen algún grado de ADN autosómico taíno/nativo americano.",
-     "traduccion": "Afirmación absoluta sin cita ni método; no es evidencia científica.",
-     "afirmaciones": [
+      "A-234",
       "A-228"
      ]
     },
     {
-     "ubicacion": "p. 113",
-     "cita_original": "Entre los dominicanos el ADN autosomal se encuentra porcentages desde un 3% hasta un 39% aunque el porcentaje es de 8 al 10% a nivel nacional.",
-     "traduccion": "Cifras de 3 a 39 % y 8 a 10 % que la nota 5 remite a resultados dominicanos de una empresa de consumo (23andMe): muestra autoseleccionada, no es dato poblacional (A-259).",
+     "ubicacion": "Métodos, análisis de ancestría",
+     "cita_original": "assuming a tri-hybrid model (K = 3) and performing an unsupervised analysis, using 114 Spaniards and 296 Peruvian Native Americans from the RIBEF-CEIBA database as parental European and Native American parental populations",
+     "traduccion": "Modelo tri-híbrido (K=3), análisis no supervisado, con 114 españoles y 296 nativos peruanos de la base RIBEF-CEIBA como poblaciones parentales europea y nativa americana.",
+     "afirmaciones": [
+      "A-232",
+      "A-234"
+     ]
+    },
+    {
+     "ubicacion": "Discusión",
+     "cita_original": "The contrasting results could be attributed to differences in sample composition. The current study included 178 individuals from Santo Domingo, whereas the previous research examined 34 Dominican individuals from South Florida and 27 from New York",
+     "traduccion": "Los autores atribuyen la diferencia con Moreno-Estrada y Bryc a la composición de la muestra: 178 personas de Santo Domingo frente a 34 de Florida y 27 de Nueva York.",
+     "afirmaciones": [
+      "A-233",
+      "A-234"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, por autoidentificación",
+     "cita_original": "155 were self-identified as admixed (34% average genomic African ancestry), 12 as White (28% average genomic African ancestry), and 11 as Afro-descendant (39% average genomic African ancestry).",
+     "traduccion": "De los 178 genotipados, 155 se autoidentificaron como mestizos (34 % africano), 12 como blancos (28 %) y 11 como afrodescendientes (39 %).",
+     "afirmaciones": [
+      "A-226",
+      "A-235"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226",
+    "A-228",
+    "A-232",
+    "A-233",
+    "A-234",
+    "A-235"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE LA PROCEDENCIA DE LA CIFRA DE A-234: el 42,6 % de ascendencia nativa americana no es un error de extracto; está en este artículo (n=178, Santo Domingo, 90 AIM, K=3) y la reutiliza el estudio DPYD (F-0211, misma cohorte). La cifra es alta frente a todos los demás estudios (3,8-10,4 %), y los autores mismos dicen que fue 'más alta de lo esperado'. Condiciones del método que pueden inflar el componente nativo y que NO se han probado como causa: 90 AIM (frente a ~130.000 SNP del GenoChip y ~390.000 de Moreno-Estrada), modelo no supervisado con tres bloques parentales y un panel nativo exclusivamente peruano (ashaninka, aymara y shimaa), que no es el del Caribe precolombino (arahuaco-cerámico según Fernandes 2021, F-0220); muestra universitaria urbana. No existe en el texto una prueba de artefacto: la hipótesis de A-234 queda como 'probable, no demostrada'. La muestra de 197 voluntarios reduce a 178 con ancestría."
+  },
+  {
+   "titulo": "Allele and genotype frequencies of variants in P450 cytochromes, transports, and DNA repair enzymes in the Dominican Republic population (Frontiers in Pharmacology 15: 1494482)",
+   "autor": "Pérez-Duval, E.; Calderón, B.; Izquierdo, M.; Herrera-Isidrón, J. A.; Reyes-Reyes, E.; Herrera, A.; Soto, M.; Beltré, A.; Rodeiro-Guerra, I.",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11919896/",
+   "urls_alternativas": [
+    "https://doi.org/10.3389/fphar.2024.1494482"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestra declarada (150 voluntarios sanos de Santo Domingo) y estimación por STRUCTURE, pero con solo 28 marcadores de ancestría y una muestra de conveniencia.",
+   "proveniencia": "Equipo de la Escuela de Medicina del Instituto Tecnológico de Santo Domingo (INTEC) con instituciones cubanas (Universidad de La Habana y otras), el INMEGEN de México y la Universidad de Patras; 150 voluntarios sanos mayores de 18 años de Santo Domingo, reclutados en el CEMDOE y el INTEC; 32 variantes farmacogenéticas y 28 AIM de Kosoy 2009, STRUCTURE K=3 con poblaciones parentales del HGDP.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen",
+     "cita_original": "The average admixture estimates were 51.6%, 39.5%, and 8.9% for European, African, and Amerindian ancestries, respectively.",
+     "traduccion": "Los promedios de mezcla fueron 51,6 % europea, 39,5 % africana y 8,9 % amerindia.",
      "afirmaciones": [
       "A-228",
-      "A-259"
+      "A-235",
+      "A-232"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, 3.3 'Admixture proportions in the Dominican sample'",
+     "cita_original": "The average Amerindian ancestry was homogeneous among the groups: 9.3% (4.1%–38.1%), 8.9% (3.1%–25.0%), and 8.6% (3.8%–18.9%) (KW: Amerindian, p = 0.927).",
+     "traduccion": "La ascendencia amerindia media fue homogénea entre quienes se autoclasificaron blancos (9,3 %), mestizos (8,9 %) y negros (8,6 %); p=0,927.",
+     "afirmaciones": [
+      "A-226",
+      "A-228"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, 3.3",
+     "cita_original": "The opposite trend was observed regarding African ancestry, which averaged 27.5% (12. 2%–51.0%), 39.4% (14.1%–66.3%), and 48.6% (25.1%–74.7%), respectively, in White, admixed, and Black individuals",
+     "traduccion": "La ascendencia africana subía de 27,5 % (blancos) a 39,4 % (mestizos) y 48,6 % (negros), con rangos individuales amplios y solapados.",
+     "afirmaciones": [
+      "A-226",
+      "A-235"
+     ]
+    },
+    {
+     "ubicacion": "Métodos, 2.1",
+     "cita_original": "They were healthy volunteers living in Santo Domingo, Dominican Republic, and they were recruited at the “Centro Médico de Diabetes, Obesidad, y Especialidades” (CEMDOE) and the “Instituto Tecnológico de Santo Domingo” (INTEC).",
+     "traduccion": "Eran voluntarios sanos residentes en Santo Domingo, reclutados en el CEMDOE y en el INTEC.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226",
+    "A-228",
+    "A-232",
+    "A-233",
+    "A-235"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Aporte clave: una muestra con residencia declarada en la isla (n=150, Santo Domingo) da 8,9 % amerindio con 28 AIM, y ese porcentaje es el MISMO en quienes se autoclasifican blancos (9,3), mestizos (8,9) y negros (8,6); el color autoclasificado predice el componente africano y el europeo pero no el nativo. Las categorías de color del estudio son blanco/mestizo/negro: no hay categoría 'indio', por lo que no sirve para contrastar esa etiqueta directamente. Rangos individuales muy amplios (nativo 3,1-38,1 %), propios de pocos marcadores. Muestra de conveniencia, no probabilística; edad ≥18, IMC medio 25,8."
+  },
+  {
+   "titulo": "Social determinants of health but not global genetic ancestry predict dementia prevalence in Latin America (Alzheimer's & Dementia 20(7): 4828-4840)",
+   "autor": "Llibre-Guerra, Jorge J.; Jiang, M.; Acosta, I.; Sosa, A. L.; Acosta, D.; Jimenez-Velasquez, I. Z.; Guerra, M.; Salas, A.; Rodriguez Salgado, A. M.; Llibre-Guerra, J. C.; Sánchez, N. D.; Prina, M.; Renton, A.; Albanese, E.; Yokoyama, J. S.; Llibre Rodriguez, J. J.",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11247688/",
+   "urls_alternativas": [
+    "https://doi.org/10.1002/alz.14041"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con la mayor muestra dominicana residente en la isla que encontré (n=1.107), pero de adultos mayores de 65 años, de áreas urbanas de nivel bajo o mixto y con solo 60 marcadores de ancestría.",
+   "proveniencia": "Grupo de investigación en demencia 10/66, con la Universidad Washington en St. Louis, UCSF, Newcastle y centros de Cuba, República Dominicana (UNPHU), México, Perú, Venezuela y Puerto Rico. Población ≥65 años identificada puerta a puerta en áreas urbanas de bajo nivel socioeconómico o mixto; ancestría con 60 AIM por ADMIXMAP, K=3, en una submuestra de 3.808 de 11.613 participantes.",
+   "extractos": [
+    {
+     "ubicacion": "Métodos, 'Genetic ancestry'",
+     "cita_original": "Individual admixture proportions (African/European/Native American) were determined using sixty highly informative ancestry-informative markers.",
+     "traduccion": "Las proporciones individuales (africana, europea, nativa americana) se determinaron con sesenta marcadores informativos de ancestría.",
+     "afirmaciones": [
+      "A-232"
+     ]
+    },
+    {
+     "ubicacion": "Tabla 1 (columnas Cuba | RD | Perú | México), filas de ancestría, media (DE)",
+     "cita_original": "African 16.8 (21.9) | 51.5 (27.3) | 6.4 (10.8) | 2.6 (3.7); European 80.6 (22.3) | 38.1 (26.9) | 29.4 (21.3) | 18.7 (20.5); Native American 2.7 (3.6) | 10.4 (7.2) | 64.2 (22.1) | 78.7 (21.2)",
+     "traduccion": "República Dominicana (n=1.107): 51,5 % africano, 38,1 % europeo y 10,4 % nativo americano (DE 27,3, 26,9 y 7,2).",
+     "afirmaciones": [
+      "A-228",
+      "A-235",
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Métodos, 'Study population'",
+     "cita_original": "The 10/66 cohort comprises adults aged 65 years and over living in 9 LMICs",
+     "traduccion": "La cohorte 10/66 reúne adultos de 65 años o más que viven en nueve países de ingresos bajos y medios; la dominicana es solo urbana.",
+     "afirmaciones": [
+      "A-233"
      ]
     }
    ],
    "afirmaciones": [
     "A-228",
+    "A-232",
+    "A-233",
+    "A-235"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Es la estimación autosómica dominicana con mayor n y muestreo en la isla (puerta a puerta, no voluntarios): 51,5 / 38,1 / 10,4. Con la del PGD (50,3 / 41,2 / 3,8 + 4,1 en las categorías 'Medio Oriente/judío' y 'Asia') coincide en africano (51,5 vs 50,3) y europeo (38,1 vs 41,2) y difiere en nativo (10,4 vs 3,8). Un modelo ternario absorbe en sus tres bloques lo que el GenoChip separa en otras dos categorías (4,1 %), pero eso no basta para explicar los 6,6 puntos de diferencia nativa: la causa no está identificada (A-232). Muestra de ≥65 años y de áreas urbanas de nivel socioeconómico bajo o mixto, sin zonas de clase alta: no representa a toda la población. DE altas (26-27 puntos en africano y europeo): gran variación individual."
+  },
+  {
+   "titulo": "A continuum of admixture in the Western Hemisphere revealed by the African Diaspora genome (Nature Communications 7: 12522), con Suplemento 1",
+   "autor": "Mathias, Rasika A.; Taub, Margaret A.; Gignoux, Christopher R.; Fu, Wenqing; Musharoff, Shaila; O'Connor, Timothy D.; Vergara, Candelaria; et al.; CAAPA",
+   "anio": "2016",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5062574/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5062574/supplementaryFiles",
+    "https://doi.org/10.1038/ncomms12522"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares del consorcio CAAPA con 642 individuos de 16 sitios y suplemento leído; la muestra dominicana es pequeña (47) y tomada en Estados Unidos.",
+   "proveniencia": "Consorcio CAAPA (Johns Hopkins, Stanford, Washington, Maryland, UCSF y otros); datos de 642 individuos de 16 sitios de la diáspora africana en Estados Unidos, Caribe, Honduras, Colombia, Brasil y Nigeria. Los dominicanos son participantes del estudio GALA II.",
+   "extractos": [
+    {
+     "ubicacion": "Resultados, estructura global",
+     "cita_original": "samples from the Dominican Republic, Honduras, Colombia, Puerto Rico and Brazil show more three-way admixture with an average Native American ancestry of 9%, 17%, 28%, 12% and 10%, respectively",
+     "traduccion": "Las muestras de República Dominicana, Honduras, Colombia, Puerto Rico y Brasil muestran mezcla de tres vías, con ascendencia nativa americana media de 9, 17, 28, 12 y 10 %.",
+     "afirmaciones": [
+      "A-228"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, sesgo sexual",
+     "cita_original": "Latin American individuals from Brazil, Colombia, the Dominican Republic and Puerto Rico show admixture involving Native American females and European males",
+     "traduccion": "Los individuos de Brasil, Colombia, República Dominicana y Puerto Rico muestran una mezcla con mujeres nativas americanas y varones europeos.",
+     "afirmaciones": [
+      "A-231"
+     ]
+    },
+    {
+     "ubicacion": "Suplemento 1, Métodos: muestras",
+     "cita_original": "Dominican GALA II participants in this study included 47 individuals (22 with asthma and 25 without asthma) recruited in New York (n=46) and Texas (n=1)",
+     "traduccion": "Los dominicanos son 47 participantes de GALA II reclutados en Nueva York (46) y Texas (1).",
+     "afirmaciones": [
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, sesgo sexual (muestreo)",
+     "cita_original": "Barbadian, Brazilian, Jamaican and Puerto Rican individuals in this study were recruited in their country of origin (Supplementary Table 1) rather than in the United States",
+     "traduccion": "Barbados, Brasil, Jamaica y Puerto Rico se reclutaron en su país de origen; la República Dominicana no figura en esa lista (se reclutó en EE. UU.).",
+     "afirmaciones": [
+      "A-233"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-228",
+    "A-231",
+    "A-233",
+    "A-235"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Aporta una estimación independiente del 9 % nativo para dominicanos de la diáspora (n=47, ADMIXTURE K=3 con CEU, YRI y nativos del HGDP), coherente con Pérez-Duval (8,9 %), Llibre-Guerra (10,4 %) y Montinaro (8,3 % con el donante 'China') y por encima de las cifras del PGD y de Fernandes (3,8-6 %). La tabla S1 del suplemento (columnas desordenadas por la extracción) sugiere 38 % africano y 52 % europeo para los dominicanos [POR VERIFICAR contra la tabla impresa]. CAAPA no incluye ninguna muestra haitiana (verificado: 'Haiti' no aparece en el texto principal ni en el suplemento): sobre A-241, ausencia más."
+  },
+  {
+   "titulo": "Genetic ancestry influences gene-environment interactions with sociocultural factors: Results from the Hispanic Community Health Study/Study of Latinos (HGG Advances 6(3): 100451)",
+   "autor": "Sharma, J.; McArdle, C. E.; Graff, M.; Cordero, C.; Daviglus, M.; Gallo, L. C.; Isasi, C. R.; Kelly, T. N.; Perreira, K. M.; Talavera, G. A.; Cai, J.; North, K. E.; Fernández-Rhodes, L.; Wojcik, G. L.",
+   "anio": "2025",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12159222/",
+   "urls_alternativas": [
+    "https://doi.org/10.1016/j.xhgg.2025.100451"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestra grande de latinos de EE. UU. con ponderación por diseño, pero el grupo dominicano (n=636) son residentes en Estados Unidos y el artículo trata de otra pregunta (IMC), no de la ancestría dominicana.",
+   "proveniencia": "Consorcio PAGE y HCHS/SOL (Johns Hopkins, UNC Chapel Hill, Penn State, Universidad de Miami, Illinois-Chicago y otros). 7.282 participantes con seis trasfondos hispanos/latinos autoidentificados; ancestría estimada con ADMIXTURE no supervisado (K=5, 10 corridas) en un conjunto mayor del estudio PAGE.",
+   "extractos": [
+    {
+     "ubicacion": "Resultados, 'Observed heterogeneity'",
+     "cita_original": "Central American (n = 602), Cuban (n = 1,717), Dominican (n = 636), Mexican (n = 2,560), Puerto Rican (n = 1,157), and South American (n = 403)",
+     "traduccion": "Seis trasfondos; el dominicano suma 636 participantes de 7.282.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, AME ancestry",
+     "cita_original": "Cuban, Dominican, and Puerto Rican background groups have lower mean AME ancestry proportions of 4%, 6%, and 13%, respectively",
+     "traduccion": "Los grupos cubano, dominicano y puertorriqueño tienen ascendencia amerindígena media más baja: 4, 6 y 13 %.",
+     "afirmaciones": [
+      "A-228",
+      "A-256"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-228",
+    "A-233",
+    "A-256"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Tercer valor independiente para dominicanos de EE. UU.: 6 % amerindígena media (n=636, ADMIXTURE K=5), junto a 9 % de CAAPA (n=47) y 6 % de Fernandes sobre Moreno-Estrada (n=34). Cuba 4 % y Puerto Rico 13 % reproducen la gradación de Fernandes 2021 (4/6/14 %). No da las medias africana y europea dominicanas en el texto principal (van en la figura S1 del suplemento, no leída). Residentes en EE. UU.: no es muestra de la isla."
+  },
+  {
+   "titulo": "Comparative study between Helicobacter pylori and host human genetics in the Dominican Republic (BMC Evolutionary Biology 19: 197)",
+   "autor": "Ono, T.; Cruz, M.; Jiménez Abreu, J. A.; Nagashima, H.; Subsomwong, P.; Hosking, C.; Shiota, S.; Suzuki, R.; Yamaoka, Y.",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6823972/",
+   "urls_alternativas": [
+    "https://doi.org/10.1186/s12862-019-1526-9"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestra de pacientes endoscopiados en Santo Domingo y haplogrupos de ADNmt y Y declarados, pero la muestra es clínica (dispépticos), pequeña (119) y el objeto del estudio es la bacteria, no la ancestría humana.",
+   "proveniencia": "Grupo de la Universidad de Oita (Japón) con Baylor College of Medicine y, en Santo Domingo, la UASD, el Instituto Nacional de Medicina y Diagnóstico por Imagen y el Centro Dominico-Japonés de Enfermedades Digestivas (Santo Domingo). Pacientes dispépticos sometidos a endoscopia en 2011 y 2016; de ellos 119 aportaron cepas de H. pylori y ADN humano.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen, resultados",
+     "cita_original": "The Amerindian type of mtDNA haplogroup was observed in 11.8% of the patients",
+     "traduccion": "El tipo amerindio de haplogrupo de ADNmt se observó en el 11,8 % de los pacientes.",
+     "afirmaciones": [
+      "A-229"
+     ]
+    },
+    {
+     "ubicacion": "Discusión",
+     "cita_original": "the ratio of African haplogroup was the highest (80.7%) in mtDNA",
+     "traduccion": "Los haplogrupos mitocondriales africanos fueron los más frecuentes (80,7 %); los europeos, 7,6 %.",
+     "afirmaciones": [
+      "A-229",
+      "A-235"
+     ]
+    },
+    {
+     "ubicacion": "Resumen, resultados",
+     "cita_original": "In Y-chromosomal haplogroup, European origin was dominant, whereas African origin was dominant both in H. pylori and in mtDNA haplogroup.",
+     "traduccion": "En el cromosoma Y predomina el origen europeo; el africano predomina en el ADNmt (y en la bacteria).",
+     "afirmaciones": [
+      "A-230",
+      "A-231"
+     ]
+    },
+    {
+     "ubicacion": "Resumen, métodos",
+     "cita_original": "obtained from a total 119 patients in the Dominican Republic, where human demography consists of various ancestries",
+     "traduccion": "ADN del huésped (ADNmt y Y) de 119 pacientes en la República Dominicana.",
+     "afirmaciones": [
+      "A-233"
+     ]
+    }
+   ],
+   "afirmaciones": [
     "A-229",
-    "A-259"
+    "A-230",
+    "A-231",
+    "A-233",
+    "A-235"
    ],
    "modulos": [
-    "M01",
     "M16"
    ],
    "id_existente": "",
-   "notas": "Útil como fuente del relato (movimiento de revitalización taína), no como fuente de las cifras. Sesgo declarado en el resumen. Dato de rastreo: la cifra \"23 %\" de F-0232 no se encuentra en Martínez-Cruzado ni en Feliciano (22 %); sí en esta fuente."
+   "notas": "Estimación mitocondrial independiente y con muestreo en la isla: 80,7 % africano, 11,8 % amerindio, 7,6 % europeo (n=119), muy cerca del 78,8 / 12,1 / 9,1 % del PGD (n=1.015) y por debajo del 23 % de Martínez-Cruzado (n=32 del haplogrupo A) y del 51,5 % de Tajima 2004 (n=33 mujeres sanas). Los 119 son pacientes, no una muestra probabilística; el análisis del Y se hizo solo con los 34 varones (Y-STR más 12 Y-SNP, haplogrupos predichos) y el resumen dice únicamente 'dominante europeo', sin porcentaje [POR VERIFICAR la distribución exacta del Y en el texto]."
   },
   {
-   "titulo": "El español en Santo Domingo (Buenos Aires: Instituto de Filología, Biblioteca de Dialectología Hispanoamericana V, 1940; facsímil Santo Domingo: Editora Taller / Feria del Libro, 1975, 308 pp. en el PDF)",
-   "autor": "Henríquez Ureña, Pedro",
-   "anio": "1940",
-   "tipo": "secundaria",
-   "idioma": "es",
-   "tradicion": "dominicana",
-   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/HenriquezUrena_Pedro_El%20espanolenSantoDomingo_1975.pdf",
+   "titulo": "Analysis of biogeographic ancestry reveals complex genetic histories for indigenous communities of St. Vincent and Trinidad (Am. J. Phys. Anthropol. 169(3): 482-497)",
+   "autor": "Benn Torres, Jada; Martucci, V.; Aldrich, M. C.; Vilar, M. G.; MacKinney, T.; Tariq, M.; Gaieski, J. B.; Bharath Hernandez, R.; Browne, Z. E.; Stevenson, M.; Walters, W.; Schurr, T. G.; Genographic Consortium",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8095721/",
    "urls_alternativas": [
-    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=4299"
+    "https://doi.org/10.1002/ajpa.23859"
    ],
    "verificacion": "descargada-y-leida",
    "http_status": "200",
-   "formato": "pdf",
-   "acceso": "pdf-en-linea",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
-   "justificacion_fiabilidad": "Obra clásica de filología hispánica con aparato crítico y citas de Las Casas y Oviedo, escrita por un testigo y estudioso del habla dominicana; el PDF es un facsímil OCR de 186 MB con errores de lectura.",
-   "proveniencia": "Pedro Henríquez Ureña (Santo Domingo, 1884 - Buenos Aires, 1946), filólogo, publicó el libro en 1940 en Buenos Aires con base en materiales dominicanos y en el estudio previo \"Palabras antillanas\" (RFE 1935; Anejo III de la Biblioteca). El PDF de la ADH es el facsímil de 1975 (Editora Taller). Se leyó el capítulo VI (Indigenismos, §§ 34-39) y los pasajes sobre la frontera y los galicismos de origen haitiano. Citas con diacríticos restituidos sobre el OCR.",
+   "justificacion_fiabilidad": "Artículo revisado por pares del mismo equipo que presentó el resumen dominicano (Vilar, Aldrich, Schurr), con el mismo chip y método de ancestría declarado; sirve de comparador metodológico, no como dato dominicano.",
+   "proveniencia": "Genographic Consortium (Vanderbilt, Notre Dame y Penn, con financiación de la National Geographic Society). 32 garífunas de San Vicente y 18 de la comunidad First Peoples de Santa Rosa (Trinidad) genotipados con GenoChip 2.0; ancestría con ADMIXTURE y fastSTRUCTURE frente a 1000 Genomas y HGDP.",
    "extractos": [
     {
-     "ubicacion": "cap. VI, § 34 (PDF p. 121)",
-     "cita_original": "falta en Santo Domingo sustrato lingüístico indígena permanente que influya sobre el español",
-     "traduccion": "Henríquez Ureña niega un sustrato indígena permanente en el español dominicano desde mediados del siglo XVI (el OCR dice \"xvr\"); precisa que \"no es exacto que haya desaparecido\" la población indígena, que se mezcló con la europea y abandonó su idioma.",
+     "ubicacion": "Resumen",
+     "cita_original": "A subset of 32 Garifuna and 18 FPC participants were genotyped using the GenoChip 2.0 microarray.",
+     "traduccion": "Una submuestra de 32 garífunas y 18 participantes FPC se genotipó con el microarreglo GenoChip 2.0.",
      "afirmaciones": [
-      "A-255",
-      "A-254"
+      "A-232",
+      "A-227"
      ]
     },
     {
-     "ubicacion": "cap. VI, § 34 (PDF p. 123)",
-     "cita_original": "los indios supervivientes hablaban español",
-     "traduccion": "Después de 1530 ya no era necesario aprender taíno; hacia 1540 el taíno estaba en vías de extinción (cita a Las Casas, que lo daba por extinguido, \"exageraba\").",
+     "ubicacion": "Métodos, 2.6 'Global ancestry estimation'",
+     "cita_original": "Global ancestry was estimated for K = 2 to K = 12 clusters using a maximum likelihood method, as implemented in ADMIXTURE 1.3.0",
+     "traduccion": "La ancestría global se estimó para K=2 a K=12 con ADMIXTURE 1.3.0.",
      "afirmaciones": [
-      "A-255"
+      "A-232"
      ]
     },
     {
-     "ubicacion": "cap. VI, § 35 (PDF p. 126)",
-     "cita_original": "Los antillanismos que penetraron en el español general, o por lo menos en el español de varios países, están en uso, desde luego, en Santo Domingo.",
-     "traduccion": "Introduce una lista de unas 70 voces del español general (aji, batata, bejuco, caoba, ceiba, guayaba, maiz, mani, tabaco, yuca; barbacoa, bohio, canoa, hamaca, macana, naguas; cacique, canibal...), que incluye casi todas las del registro (hamaca, canoa, barbacoa, bohío, maní, ají, yuca, cacique). El OCR lee \"espanal\" por \"español\" en esta frase.",
+     "ubicacion": "Métodos, 2.6",
+     "cita_original": "The FPC/Lopinot and Garifuna genotyping data were merged with those from reference populations from the 1000 Genomes Project",
+     "traduccion": "Los datos de GenoChip se fusionaron con los de poblaciones de referencia de 1000 Genomas (y del HGDP, según el texto).",
      "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. VI, § 35 (PDF p. 126)",
-     "cita_original": "barbacoa (según Cuervo, del taíno",
-     "traduccion": "Barbacoa: \"según Cuervo, del taíno\"; Friederici la deriva de los indios cuna (chibcha): origen disputado, como pone el DLE (\"quizá\").",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. VI, § 36 (PDF p. 129)",
-     "cita_original": "caney, cayo, conuco o cunuco",
-     "traduccion": "Entre los \"nombres de sitios\" taínos de uso dominicano: batey (con la nota \"ya en Castellanos, Elegías, 53, batey no es el juego de pelota sino el sitio\"), caney, cayo, conuco o cunuco y haití \"montaña\".",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. VI, § 37 (PDF p. 129)",
-     "cita_original": "Todas esas palabras son probadamente de origen taíno, de tipo arahuaco. Muchas otras podrían serlo",
-     "traduccion": "Criterio explícito de atribución: voces \"probadamente taínas\" (§§ 35-36; recuento propio aproximado sobre OCR: unas 125-135, con margen de 15 %) y otras \"que podrían serlo\" (§ 37: unas 90-100). Responde en parte a A-255: la lista existe y distingue tres grados de certeza; lo que sigue sin existir es la comparación con el kreyòl.",
-     "afirmaciones": [
-      "A-255",
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. VI, § 38 (PDF p. 130)",
-     "cita_original": "Del quiche de Yucatán, a través del taíno de las islas, huracán",
-     "traduccion": "Huracán, que A-254 lista como taínismo, llega \"del quiche de Yucatán a través del taíno\": origen maya por mediación taína. Comprobación de que \"taínismo\" y \"origen taíno\" no son lo mismo.",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. I, § 7 (PDF p. 40)",
-     "cita_original": "recibe elementos léxicos del patois criollo de los haitianos",
-     "traduccion": "En 1940, en Montecristi y a lo largo de toda la frontera (\"la línea\"), el español local \"recibe elementos léxicos del patois criollo de los haitianos\".",
-     "afirmaciones": [
-      "A-255",
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "cap. VIII, § 41 (PDF p. 137)",
-     "cita_original": "Galicismos procedentes del trato con los haitianos en la primera mitad del siglo XIX son probablemente brigan",
-     "traduccion": "Lista de unos 12 galicismos de origen haitiano o antillano francés (brigan, carabine, colier, frer, frercito, jaran, lugarula, marron, petisalk, poliza, sefolk, tapa): lo contrario de los taínismos del kreyòl; documentados para el español dominicano pero no cuantificados frente a los taínos.",
-     "afirmaciones": [
-      "A-255"
-     ]
-    },
-    {
-     "ubicacion": "cap. VIII, § 40 (PDF p. 135)",
-     "cita_original": "la fuerte invasión de braceros procedentes de la contigua Haití",
-     "traduccion": "En 1940 el autor ya preveía que los braceros de Haití y de las colonias francesas e inglesas podían teñir de extranjerismo \"el habla de las clases pobres\", pero con \"inglés, francés y créole\", no con lenguas africanas.",
-     "afirmaciones": [
-      "A-255"
+      "A-232"
      ]
     }
    ],
    "afirmaciones": [
-    "A-254",
-    "A-255"
+    "A-227",
+    "A-232"
    ],
    "modulos": [
-    "M00",
-    "M16"
-   ],
-   "id_existente": "F-0104",
-   "notas": "Resuelve F-0104 (no-localizada): URL real en la Biblioteca Vetilio Alfau Durán de la ADH; el registro daba 1940 como año: es correcto para la 1.ª edición. El OCR deforma diacríticos, números romanos y cifras (xvr = XVI): las citas se restituyeron y los números de página son del PDF (el impreso lleva 2 menos, 119 para el cap. VI). Nota del propio texto: Emiliano Tejera, \"Palabras indíjenas de las islas de Santo Domingo, con citas y ampliaciones de Emilio Tejera\", salió en la Revista de Educación, 1933-1938, y luego en volumen (ver F-0105). No trata el kreyòl más allá de los galicismos y del contacto fronterizo: A-255 sigue [POR VERIFICAR] en lo comparativo."
-  },
-  {
-   "titulo": "Palabras indíjenas de la isla de Santo Domingo, de Emiliano Tejera; adiciones de Emilio Tejera; prólogo de Pedro Henríquez Ureña (Santo Domingo: Editorial La Nación, 1935, 516 pp.; reedición Ciudad Trujillo: Editora del Caribe, 1951, 516 pp.)",
-   "autor": "Tejera Penson, Emiliano (1841-1923); Tejera Bonetti, Emilio (1880-1968) [adiciones]",
-   "anio": "1935",
-   "tipo": "secundaria",
-   "idioma": "es",
-   "tradicion": "dominicana",
-   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=377",
-   "urls_alternativas": [
-    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=8297",
-    "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/TejeraBonetti.pdf"
-   ],
-   "verificacion": "solo-localizada",
-   "http_status": "200",
-   "formato": "html",
-   "acceso": "archivo-fisico",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Obra de referencia del léxico taíno citada por Henríquez Ureña, pero no se leyó el texto: solo los registros del catálogo de la ADH, que la tiene en sala.",
-   "proveniencia": "Emiliano Tejera (1841-1923) reunió el vocabulario; su hijo Emilio Tejera Bonetti (1880-1968, miembro fundador de la ADH) lo amplió \"antes de morir\" (ficha biográfica de la ADH). Las entregas salieron en la Revista de Educación (1933-1938) según Henríquez Ureña; el volumen consta en 1935 y 1951 en el catálogo.",
-   "extractos": [
-    {
-     "ubicacion": "catálogo ADH, biblionumber 377",
-     "cita_original": "Palabras indíjenas de la isla de Santo Domingo / Emiliano Tejera ; adiciones hechas por Emilio Tejera ; Prólogo de Pedro Henríquez Ureña ... Santo Domingo : Editorial La Nación, 1935 ... 516 páginas",
-     "traduccion": "Ficha de la edición de 1935 (3 ejemplares, préstamo en sala).",
-     "afirmaciones": [
-      "A-254",
-      "A-255"
-     ]
-    },
-    {
-     "ubicacion": "catálogo ADH, biblionumber 8297",
-     "cita_original": "Ciudad Trujillo : Editora del Caribe, 1951 ... 516 pág.",
-     "traduccion": "Edición de 1951, mismo número de páginas.",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "ficha biográfica ADH de Emilio Tejera Bonetti",
-     "cita_original": "Al final de sus días trabajó en el mejoramiento y ampliación de la obra de su padre: Palabras indígenas de la isla de Santo Domingo; labor que concluyó antes de morir.",
-     "traduccion": "",
-     "afirmaciones": [
-      "A-254"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-254",
-    "A-255"
-   ],
-   "modulos": [
-    "M00",
-    "M01",
-    "M16"
-   ],
-   "id_existente": "F-0105",
-   "notas": "Corrige el registro F-0105: el autor es Emiliano Tejera Penson (con adiciones de su hijo Emilio Tejera Bonetti), no \"Emilio Tejera\"; año 1935 (reed. 1951) en lugar de \"—\". No hay texto digital localizado (ADH, Biblioteca Nacional, archive.org: ninguno). El recuento de entradas y los criterios de atribución etimológica de Tejera siguen sin leerse; Henríquez Ureña los describe como \"vocabulario con autoridades\" [POR VERIFICAR]. Se clasifica archivo-fisico (Biblioteca Vetilio Alfau Durán, Santo Domingo)."
-  },
-  {
-   "titulo": "Indigenismos (Santo Domingo: Sociedad Dominicana de Bibliófilos, serie n.º 11, 1977, 2 vols.: A-G, 745 pp.; H-Z)",
-   "autor": "Tejera Penson, Emiliano",
-   "anio": "1977",
-   "tipo": "secundaria",
-   "idioma": "es",
-   "tradicion": "dominicana",
-   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=385",
-   "urls_alternativas": [],
-   "verificacion": "solo-localizada",
-   "http_status": "200",
-   "formato": "html",
-   "acceso": "archivo-fisico",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Obra de referencia en dos volúmenes; solo se leyó la ficha del catálogo de la ADH.",
-   "proveniencia": "Edición póstuma del léxico de Emiliano Tejera en la serie de la Sociedad Dominicana de Bibliófilos; el registro no dice si es la misma obra que Palabras indígenas ampliada.",
-   "extractos": [
-    {
-     "ubicacion": "catálogo ADH, biblionumber 385",
-     "cita_original": "Indigenismos / Emiliano Tejera ... Santo Domingo : Sociedad Dominicana de Bibliófilos, 1977 ... [Vol. 1, 745 pág.]; [Vol. 2, 63/8 pág.] ... Contents: Vol. I: A-G Vol. II: H-Z",
-     "traduccion": "Dos tomos alfabéticos (A-G, H-Z); el segundo número de páginas del catálogo es ilegible (\"63/8\").",
-     "afirmaciones": [
-      "A-254",
-      "A-255"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-254",
-    "A-255"
-   ],
-   "modulos": [
-    "M00",
     "M16"
    ],
    "id_existente": "",
-   "notas": "El crítico de completitud lo cita como \"E. Tejera, Indigenismos (1977)\". Con 745 páginas solo para A-G es obra mucho mayor que Palabras indígenas (516 pp.): la relación entre ambas está [POR VERIFICAR]. Sin texto digital."
+   "notas": "Comparador metodológico para A-232: el mismo grupo (Vilar y Aldrich son coautores del resumen dominicano) usó GenoChip 2.0 con ADMIXTURE y paneles de 1000 Genomas y HGDP (54.251 SNP tras filtrado, K=5), cuyos componentes se rotulan por las poblaciones de referencia (CHB, CEPH, YRI, Surui, etc.) y no por categorías como 'Medio Oriente/judío' o 'Asia centro-sur-sureste' del resumen de 2026. Es decir, el PGD pudo emplear un esquema distinto (posiblemente el de las regiones de referencia del Genographic: ver las dos páginas de Geno 2.0 de esta ronda), y la categoría final depende de esa elección [POR VERIFICAR]. Segunda lectura útil: el artículo advierte que el análisis de subestructura puede distorsionar componentes reales en grupos aislados (Trinidad, K=12): un recordatorio del riesgo de artefacto en componentes pequeños."
   },
   {
-   "titulo": "Haitian Creole-English bilingual dictionary (Bloomington: Indiana University, Creole Institute, 2007)",
-   "autor": "Valdman, Albert; Iskrova, Iskra; Hebblethwaite, Benjamin",
-   "anio": "2007",
-   "tipo": "secundaria",
+   "titulo": "Your Regional Ancestry: Reference Populations (Geno 2.0, nueve afiliaciones regionales y 43 poblaciones de referencia; Genographic Project, National Geographic; copia de Internet Archive de 2016)",
+   "autor": "Genographic Project (National Geographic Society; IBM)",
+   "anio": "2016",
+   "tipo": "divulgacion",
    "idioma": "en",
-   "tradicion": "internacional",
-   "url": "https://archive.org/metadata/haitiancreoleeng00vald",
-   "urls_alternativas": [],
-   "verificacion": "solo-localizada",
-   "http_status": "200",
-   "formato": "txt",
-   "acceso": "bajo-derechos",
-   "fiabilidad": "alta",
-   "justificacion_fiabilidad": "Diccionario de referencia con etimologías del Creole Institute de la Universidad de Indiana; el texto está en préstamo y no pudo leerse.",
-   "proveniencia": "Obra de Albert Valdman (decano de los estudios del kreyòl) y colaboradores; el ejemplar de archive.org (identificador haitiancreoleeng00vald) es de préstamo controlado: el texto OCR devuelve 401 y la búsqueda interior 403.",
-   "extractos": [
-    {
-     "ubicacion": "metadatos archive.org",
-     "cita_original": "Haitian Creole-English bilingual dictionary ... Indiana University, Creole Institute ... 2007",
-     "traduccion": "Confirma la obra, el editor y el año; ningún texto accesible. Descarga de haitiancreoleeng00vald_djvu.txt: HTTP 401; búsqueda interior: HTTP 403 \"Item not available\".",
-     "afirmaciones": [
-      "A-254"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-254",
-    "A-255"
-   ],
-   "modulos": [
-    "M16"
-   ],
-   "id_existente": "",
-   "notas": "Ninguna etimología de kasav, kanari, mabouya, boukan ni Ayiti pudo leerse aquí. Lo único verificado sobre kreyòl: Ayiti de origen taíno y boukan del tupí (ronda 1, Wikcionario, terciaria). Solución propuesta: consulta en préstamo (archive.org) o en biblioteca universitaria. Una búsqueda secundaria de \"kasav\" devolvió solo comentario de divulgación (kasav ya atestiguado en francés desde 1525 como cassave, tomado del español cazabi, a su vez taíno): sin fuente abierta leída [POR VERIFICAR]."
-  },
-  {
-   "titulo": "Languages of the Pre-Columbian Antilles (Tuscaloosa: University of Alabama Press, 2004, xiv+153 pp.)",
-   "autor": "Granberry, Julian; Vescelius, Gary S.",
-   "anio": "2004",
-   "tipo": "secundaria",
-   "idioma": "en",
-   "tradicion": "internacional",
-   "url": "https://glottolog.org/resource/reference/id/67292",
-   "urls_alternativas": [
-    "https://www.ubcpress.ca/languages-of-the-pre-columbian-antilles"
-   ],
-   "verificacion": "solo-localizada",
-   "http_status": "200",
-   "formato": "html",
-   "acceso": "bajo-derechos",
-   "fiabilidad": "alta",
-   "justificacion_fiabilidad": "Monografía lingüística de referencia sobre las lenguas antillanas precolombinas, pero solo se confirmó la ficha bibliográfica.",
-   "proveniencia": "Julian Granberry (lingüista y arqueólogo) y Gary Vescelius; libro de la University of Alabama Press que reconstruye las lenguas del Caribe a partir de palabras y topónimos en crónicas y mapas. Se abrieron la ficha de Glottolog y la página editorial; el texto no.",
-   "extractos": [
-    {
-     "ubicacion": "ficha Glottolog",
-     "cita_original": "Includes bibliographical references (p. [133]-148) and index",
-     "traduccion": "Ficha: xiv+153 pp., Tuscaloosa, University of Alabama Press, 2004.",
-     "afirmaciones": [
-      "A-254",
-      "A-255"
-     ]
-    }
-   ],
-   "afirmaciones": [
-    "A-254",
-    "A-255"
-   ],
-   "modulos": [
-    "M00",
-    "M01",
-    "M16"
-   ],
-   "id_existente": "",
-   "notas": "La búsqueda web devolvió un índice que incluiría un capítulo \"A short lexicon of Taino morphemes and lexical forms\" (página de oeaw.ac.at, 403 al abrirla): no verificado [POR VERIFICAR]. La página editorial consultada (UBC Press, distribuidor) dice que no se describe un lexicón y da 176 pp. para la edición en rústica frente a xiv+153 de Glottolog. Sin texto leído."
-  },
-  {
-   "titulo": "Historia de las Indias, 5 tomos (ed. Madrid, 1875-76): grep local de taínismos, Yaguana, Yaquimo y cazabí",
-   "autor": "Las Casas, Bartolomé de",
-   "anio": "1875",
-   "tipo": "primaria",
-   "idioma": "es",
-   "tradicion": "espanola",
-   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-1-de-5_49298/master/49298-0.txt",
+   "tradicion": "cientifica",
+   "url": "https://web.archive.org/web/2016/https://genographic.nationalgeographic.com/reference-populations/",
    "urls_alternativas": [],
    "verificacion": "descargada-y-leida",
    "http_status": "200",
-   "formato": "txt",
-   "acceso": "texto-descargado",
-   "fiabilidad": "alta",
-   "justificacion_fiabilidad": "Texto primario de un testigo que vivió en La Española y glosa las palabras indígenas; transcripción limpia de Project Gutenberg, revisada por línea con grep en copia local.",
-   "proveniencia": "Fray Bartolomé de las Casas (escrita c. 1527-1561), defensor de los indios, testigo directo en La Española, con tesis; las citas son de los archivos locales 02-fuentes/textos/gutenberg/lascasas-historia-indias-t1..t5.txt (no se volvió a descargar nada).",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documentación institucional del propio proyecto que define las categorías de ancestría con porcentajes por población de referencia, pero es texto divulgativo para clientes del kit, sin método estadístico ni n por población.",
+   "proveniencia": "Sitio del Genographic Project (National Geographic e IBM), copia archivada en 2016, para los usuarios del kit Geno 2.0. Describe nueve 'afiliaciones regionales' y 43 poblaciones de referencia (entre ellas puertorriqueños, afroamericanos del suroeste de EE. UU., mexicano-americanos, ibéricos, libaneses, iraníes, griegos).",
    "extractos": [
     {
-     "ubicacion": "tomo 1, l. 9515-9516",
-     "cita_original": "llamaban bohío á las casas en que moraban, y á esta gran isla Española, nombraban Hayti",
-     "traduccion": "Bohío y Hayti, ambos glosados por el cronista como palabras de \"toda una lengua\" de las islas.",
+     "ubicacion": "entrada 'Puerto Rican'",
+     "cita_original": "the Spanish influence accounts for the 31% Mediterranean, 21% Northern European, and 9% Southwest Asian (these components reflect ancient migrations in Europe over the past 40,000 years)",
+     "traduccion": "La influencia española explica 31 % mediterráneo, 21 % del norte de Europa y 9 % suroeste asiático (componentes que reflejan migraciones antiguas en Europa durante los últimos 40.000 años).",
      "afirmaciones": [
-      "A-254"
+      "A-236"
      ]
     },
     {
-     "ubicacion": "tomo 1, l. 10084",
-     "cita_original": "de que hacian el pan que llamaban cazabí",
-     "traduccion": "Cazabí (grafía de Las Casas; 0 coincidencias para \"casabe\" o \"casabi\"; la forma \"cacabí\" aparece en t. 3, l. 8900).",
+     "ubicacion": "entrada 'Mexican-American'",
+     "cita_original": "The Mediterranean, northern European, and southwest Asian components are reflective of the ancient genetic patterns in Europe.",
+     "traduccion": "Los componentes mediterráneo, norteuropeo y suroeste asiático reflejan patrones genéticos antiguos de Europa.",
      "afirmaciones": [
-      "A-254"
+      "A-236"
      ]
     },
     {
-     "ubicacion": "tomo 1, l. 9339-9340",
-     "cita_original": "Estas llamaban en esta Española, hamacas",
-     "traduccion": "Hamacas: palabra recogida en La Española por el cronista (27 líneas con \"hamaca\" en los 5 tomos).",
+     "ubicacion": "entrada 'African-American'",
+     "cita_original": "There is also a European contribution to the population (comprising the 10% Northern European, 6% Mediterranean, and 4% Southwest Asian components—a total of 20%)",
+     "traduccion": "Hay además una contribución europea (10 % del norte de Europa, 6 % mediterráneo y 4 % suroeste asiático; en total 20 %).",
      "afirmaciones": [
-      "A-254"
+      "A-236"
      ]
     },
     {
-     "ubicacion": "tomo 2, l. 3451",
-     "cita_original": "era lo que llamaban los indios en su lengua huracan, y agora todos",
-     "traduccion": "Huracán, \"en su lengua\" de los indios, ya generalizado en la época de Las Casas.",
+     "ubicacion": "entrada 'Mexican-American'",
+     "cita_original": "original groups that populated the Americas (36% Native American and 2% Southeast Asian)",
+     "traduccion": "Los grupos originales que poblaron las Américas (36 % nativo americano y 2 % del sudeste asiático).",
      "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 1, l. 9002",
-     "cita_original": "sus barquillos, que llaman canoas",
-     "traduccion": "Canoas (321 líneas con \"canoa\" en los 5 tomos, grep -c, sin distinguir entre singular y plural).",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 1, l. 11917-11918",
-     "cita_original": "la verdad es, que Cacique era nombre de Rey, y Nitayno era nombre de caballero y señor principal",
-     "traduccion": "Cacique (432 líneas en los 5 tomos) y nitaíno (\"nitayno\") como términos de rango; el último ya no se usa (H. Ureña § 36).",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 2, l. 3116-3117",
-     "cita_original": "si queria que hiciese un conuco, que era labranza de pan",
-     "traduccion": "Conuco (\"labranza de pan\"), puesto en boca del cacique Guarionex; 11 líneas en los tomos 2, 4 y 5.",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 4, l. 5312-5313",
-     "cita_original": "vivian en las barbacoas ó casas sobre los árboles que estaban en el agua",
-     "traduccion": "Barbacoa como casa elevada (no como parrilla); 1 línea en t. 4.",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 1, l. 12495",
-     "cita_original": "la pimienta desta isla que llaman axí",
-     "traduccion": "Axí (grafía de Las Casas; 0 líneas con \"ají\"): el cronista la identifica como pimienta de la isla.",
-     "afirmaciones": [
-      "A-254"
-     ]
-    },
-    {
-     "ubicacion": "tomo 3, l. 10382",
-     "cita_original": "con el vocablo de la Yaguana, dentro del término de la provincia de",
-     "traduccion": "Yaguana: topónimo (5 líneas en t. 3-5). No es un nombre común: Las Casas no da etimología.",
-     "afirmaciones": [
-      "A-254",
-      "A-255"
-     ]
-    },
-    {
-     "ubicacion": "tomo 2, l. 9536",
-     "cita_original": "el brasil que habia en la provincia de Yaquimo, que es en esta costa",
-     "traduccion": "Yaquimo: topónimo de la costa sur (27 líneas en t. 2, 3 y 5); su relación con el actual Jacmel es [POR VERIFICAR] (no figura en estos textos).",
-     "afirmaciones": [
-      "A-254",
-      "A-255"
+      "A-236"
      ]
     }
    ],
    "afirmaciones": [
-    "A-254",
-    "A-255"
+    "A-232",
+    "A-236"
    ],
    "modulos": [
-    "M01",
     "M16"
    ],
-   "id_existente": "F-0006",
-   "notas": "GREP LOCAL pedido por el crítico (grep -n -i en 02-fuentes/textos/gutenberg): casabi 0 y casabe 0 en Las Casas (se escribe cazabí/cacabí), Yaguana 5 líneas (t. 3-5), Yaquimo 27 (t. 2, 3, 5), batey 0, ají 0 (axí 21), Haití 0 (Hayti 3). Los recuentos son de líneas, no de ocurrencias. Estos textos solo muestran que las palabras ya estaban en uso hacia 1520-1560: no dicen nada del kreyòl actual ni de su continuidad. Sesgo: Las Casas con tesis."
+   "id_existente": "",
+   "notas": "EVIDENCIA CENTRAL PARA LA PREGUNTA DE LAS CATEGORÍAS: dentro del propio esquema del Genographic (la fuente institucional del GenoChip), cuotas pequeñas de 'suroeste asiático' (4 % en afroamericanos, 8 % en mexicano-americanos, 9 % en puertorriqueños, 17 % en griegos, 26 % en libaneses) se atribuyen a patrones antiguos de Europa (migraciones paleolíticas y agricultores del Creciente Fértil, según la propia página), y un 2 % de 'sudeste asiático' en mexicano-americanos se atribuye a la ascendencia nativa americana. Por tanto, en ese esquema un 2,3 % 'Medio Oriente' o un 1,8 % 'Asia' en una población caribeña con 41 % europeo y 4 % nativo no exigen una inmigración reciente: pueden ser parte de la ascendencia europea y nativa. LÍMITE: el resumen del PGD usa otros rótulos ('Middle East/Jewish', 'Central-South-East Asian') y no hay prueba de que use este esquema [POR VERIFICAR]; la ficha no da n ni método por población."
   },
   {
-   "titulo": "De Orbe Novo, vol. 1 (Décadas I-IV), trad. F. A. MacNutt, 1912: grep local de cazabi, huracanes y Yaguana",
-   "autor": "Pedro Mártir de Anglería",
-   "anio": "1912",
-   "tipo": "primaria",
+   "titulo": "Reference Populations – Geno 2.0 Next Generation (18 afiliaciones regionales y 60 poblaciones de referencia; Genographic Project, National Geographic; copia de Internet Archive del 7 de abril de 2016)",
+   "autor": "Genographic Project (National Geographic Society)",
+   "anio": "2016",
+   "tipo": "divulgacion",
    "idioma": "en",
-   "tradicion": "espanola",
-   "url": "https://raw.githubusercontent.com/GITenberg/De-Orbe-Novo-Volume-1--of-2-The-Eight-Decades-of-Peter-Martyr-D-Anghera_12425/master/12425.txt",
+   "tradicion": "cientifica",
+   "url": "https://web.archive.org/web/20160407092418/https://genographic.nationalgeographic.com/reference-populations-next-gen/",
    "urls_alternativas": [],
    "verificacion": "descargada-y-leida",
    "http_status": "200",
-   "formato": "txt",
-   "acceso": "texto-descargado",
-   "fiabilidad": "media",
-   "justificacion_fiabilidad": "Cronista que nunca estuvo en América y compila informes de otros; sirve como segunda fuente de época de los mismos términos, en traducción inglesa.",
-   "proveniencia": "Pedro Mártir (1511-1530) recoge informes de marinos y funcionarios; texto local martir-de-orbe-novo-v1-en.txt (traducción de MacNutt, 1912). No se volvió a descargar.",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Texto institucional divulgativo, sin n, método ni procedencia de las muestras de referencia; las descripciones interpretan componentes ('remanente de los taínos') que la página no respalda con datos.",
+   "proveniencia": "Sitio del Genographic Project para la versión 'Next Generation' del kit (microarreglo posterior a Geno 2.0). Dice que 'poblaciones indígenas actuales llevan mezclas de 18 afiliaciones regionales' y que se comparó el ADN del usuario con 60 poblaciones geográficas y étnicas. Incluye una referencia 'Haitian', una 'Puerto Rican' y una 'Ashkenazi Jewish'.",
    "extractos": [
     {
-     "ubicacion": "l. 11350",
-     "cita_original": "is that made from the yucca, and is called cazabi",
-     "traduccion": "Cazabi como pan de yuca \"el mejor de la isla\": 7 líneas con \"cazabi\" en el volumen.",
+     "ubicacion": "Introducción",
+     "cita_original": "Modern-day indigenous populations around the world carry particular blends of 18 regional affiliations. We compared your DNA results to each of 60 geographic and ethnic populations",
+     "traduccion": "Las poblaciones indígenas actuales llevan mezclas particulares de 18 afiliaciones regionales; se comparó el ADN del usuario con 60 poblaciones geográficas y étnicas.",
      "afirmaciones": [
-      "A-254"
+      "A-232"
      ]
     },
     {
-     "ubicacion": "l. 3780",
-     "cita_original": "called by the natives _huracanes_",
-     "traduccion": "Huracanes como palabra de los nativos (en la traducción; la glosa de Mártir en latín no se cotejó).",
+     "ubicacion": "entrada 'Haitian'",
+     "cita_original": "The reference population is associated with groups living in Haiti, the western half of the Caribbean island of Hispaniola.",
+     "traduccion": "La población de referencia se asocia a grupos que viven en Haití, la mitad occidental de la isla de La Española (no se da n ni lugar ni año de muestreo).",
      "afirmaciones": [
-      "A-254"
+      "A-240",
+      "A-241"
      ]
     },
     {
-     "ubicacion": "l. 11455-11456",
-     "cita_original": "Xaragua, Yaguana, Azzuei, Iacchi",
-     "traduccion": "Yaguana aparece en la lista de regiones de la isla (sin glosa lingüística).",
+     "ubicacion": "entrada 'Haitian'",
+     "cita_original": "The Native American component is a genetic remnant of some of the earliest settlers of Hispaniola, the Tainos, while the European components are remnants from the centuries-long European control of the region.",
+     "traduccion": "El componente nativo americano es un remanente genético de los primeros pobladores de La Española, los taínos, y los europeos vienen de siglos de control europeo.",
      "afirmaciones": [
-      "A-254",
-      "A-255"
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "entrada 'Ashkenazi Jewish'",
+     "cita_original": "This reference population is based on groups with cultural and religious affinities with Judaism in Eastern and Central Europe, as well as in the Americas.",
+     "traduccion": "La población de referencia se basa en grupos con afinidades culturales y religiosas con el judaísmo en Europa oriental y central y en las Américas.",
+     "afirmaciones": [
+      "A-236"
      ]
     }
    ],
    "afirmaciones": [
-    "A-254",
-    "A-255"
+    "A-232",
+    "A-236",
+    "A-240",
+    "A-241"
    ],
    "modulos": [
-    "M02",
     "M16"
    ],
-   "id_existente": "F-0010",
-   "notas": "Segunda fuente de la época independiente de Las Casas solo en parte: ambos beben de los informes de los primeros años. Estos extractos solo muestran que las palabras ya circulaban hacia 1511-1530."
+   "id_existente": "",
+   "notas": "Hallazgo de ausencia y de contradicción posible: existe una población de referencia 'Haitian' del Genographic con un 'componente nativo americano' descrito, pero (a) la página no da n, lugar ni método de la muestra; (b) la frase sobre los taínos es narrativa, no un resultado: no contradice los estudios publicados (que dan 0,0 % mitocondrial y ~0,5 % en la diáspora) pero muestra que un conjunto de datos no publicado sobre haitianos existe en el Genographic y no es accesible [POR VERIFICAR su origen: ¿diáspora o isla?]. Para A-236: la página no lista las 18 regiones en su texto (el listado que circula en Wikipedia con 'Jewish Diaspora' no pudo verificarse aquí); incluye 'Ashkenazi Jewish' como población de referencia, y los componentes de Oriente Medio ('Arabian', 'Asia Minor') aparecen en descripciones de poblaciones árabes y caucásicas. Sesgo: documentación comercial, sin revisión por pares."
+  },
+  {
+   "titulo": "A human YEATS4 variant confers resistance to TST and IGRA conversion despite Mycobacterium tuberculosis exposure (Genome Medicine 17: 121)",
+   "autor": "Conil, C.; Bohlen, J.; Kroon, E. E.; Jean-Juste, M. A.; Manry, J.; Chaldebas, M.; Bean, J. M.; Walsh, K. F.; et al.; Boisson-Dupuis, S.; Fitzgerald, D. W.; Pape, J. W.; Möller, M.; Hoal, E. G.; Casanova, J.-L.; Abel, L.; Schurr, E.; Cobat, A.",
+   "anio": "2025",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12522460/",
+   "urls_alternativas": [
+    "https://doi.org/10.1186/s13073-025-01547-0"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con secuenciación de genoma completo declarada y métodos descritos; es un estudio de asociación clínico (no de ancestría), por lo que su valor para A-240/A-241 es indirecto.",
+   "proveniencia": "Laboratorios de genética humana de enfermedades infecciosas (Inserm U1163, Hospital Necker, París; Universidad Rockefeller) con GHESKIO (Puerto Príncipe, Haití), Weill Cornell, McGill, Harvard y centros de Sudáfrica y Marruecos. Dos cohortes de personas con VIH muy expuestas a tuberculosis: 55 resistentes y 100 controles de Sudáfrica y 66 resistentes y 57 controles de Haití; todos con secuenciación de genoma completo. Más 78 pacientes con TB haitianos con exoma y 389 controles de origen africano de la base interna.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen/Métodos",
+     "cita_original": "66 resisters and 57 controls from Haiti, two regions where TB is hyperendemic. All study participants underwent whole-genome sequencing (WGS).",
+     "traduccion": "66 resistentes y 57 controles de Haití; todos los participantes tuvieron secuenciación de genoma completo.",
+     "afirmaciones": [
+      "A-241"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, 'Whole-genome sequencing for 278 South African and Haitian individuals'",
+     "cita_original": "Haitian individuals formed a cluster close to Western African samples from the 1000 Genomes Project (KGP) dataset, whereas individuals from South Africa formed a distinct cluster",
+     "traduccion": "Los haitianos formaron un clúster cercano a las muestras de África occidental de 1000 Genomas.",
+     "afirmaciones": [
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "Métodos, replicación en Haití",
+     "cita_original": "Given the homogeneous genetic ancestry of the Haitian sample, analyses were not PC-adjusted",
+     "traduccion": "Dada la ancestría homogénea de la muestra haitiana, no se ajustó por componentes principales.",
+     "afirmaciones": [
+      "A-240"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "MATIZA A-241: sí hay un conjunto de genoma completo con reclutamiento dentro de Haití (n=123 con WGS, más 78+389 con exoma), aunque es una cohorte clínica de personas con VIH en el GHESKIO de Puerto Príncipe, no una muestra poblacional ni un estudio de ancestría. Sólo da un resultado de PCA (cercanía a África occidental), sin proporciones de mezcla ni intervalos, por lo que no puede cuantificar un componente nativo: apoya A-240 en sentido débil. BÚSQUEDA SISTEMÁTICA DOCUMENTADA (Europe PMC, 2026-10-06): '(TITLE_ABS Haiti/Haitian/Haitians) AND (genome-wide, SNP, ancestry, admixture, genotyp*, mitochondrial)' = 62 resultados (revisados los 62 títulos); '… AND (whole-genome sequencing, GWAS, exome, genetic ancestry, population structure, haplogroup)' = 38; preprints = 26; 'GenoChip AND Dominican' = 0. Los únicos estudios humanos con secuenciación o genotipado genómico de haitianos son Conil 2025 (en Haití), McClelland 2026 (diáspora) y Moreno-Estrada 2013 (n=6, Florida); los de STR, cromosoma Y y ADNmt son Simms 2010 y 2012, Wilson 2012 y Bukhari 2017 (ya registrados); el resto son patógenos, plantas, clínica o locus únicos (G6PD, hemoglobina S, Duffy)."
+  },
+  {
+   "titulo": "A multi-ancestry genetic reference for the Quebec population (Nature Communications 17: 1319)",
+   "autor": "McClelland, P.; Femerling, G.; Laflamme, R.; Mejia-Garcia, A.; Sayahian Dehkordi, M.; Xiao, H.; Diaz-Papkovich, A.; et al.; Gagliano Taliun, S. A.; Taliun, D.; Gravel, S.; Lettre, G.",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868634/",
+   "urls_alternativas": [
+    "https://doi.org/10.1038/s41467-026-68820-7"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en una cohorte poblacional (CARTaGENE) con genotipado en 29.337 residentes de Quebec y secuenciación de genoma completo en 2.173; los haitianos son de la diáspora y se definen por cuatro abuelos nacidos en Haití.",
+   "proveniencia": "McGill (Instituto Dahdaleh de Medicina Genómica), Universidad de Montreal, Instituto del Corazón de Montreal y colaboradores; cohorte poblacional CARTaGENE de Quebec. Define 267 individuos con cuatro abuelos nacidos en Haití (QHA; 163 con WGS); ADMIXTURE independiente por grupo con 1000 Genomas como referencia.",
+   "extractos": [
+    {
+     "ubicacion": "Resultados, 'Migrations that shaped Quebec'",
+     "cita_original": "limited ancestry from the Americas (from K = 4, mean AMR = 0.5%, EUR = 13.3% and AFR = 86.2%, SD for AFR = 13.2%)",
+     "traduccion": "Ascendencia limitada de las Américas (K=4): media AMR 0,5 %, europea 13,3 %, africana 86,2 % (DE africana 13,2 %) en los individuos con cuatro abuelos nacidos en Haití.",
+     "afirmaciones": [
+      "A-240"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, 'Migrations that shaped Quebec'",
+     "cita_original": "The distribution of immigration year (mode=1974, mean=1986, SD = 13) among 267 individuals with four Haiti-born grandparents (QHA)",
+     "traduccion": "267 individuos con cuatro abuelos nacidos en Haití; año de inmigración con moda en 1974.",
+     "afirmaciones": [
+      "A-241"
+     ]
+    },
+    {
+     "ubicacion": "Resultados, 'Migrations that shaped Quebec'",
+     "cita_original": "The proportion of European ancestry in QHA individuals is comparable if marginally lower than the value of 16% reported previously in a small sample of Haiti-born individuals in South Florida",
+     "traduccion": "La ascendencia europea es comparable, algo menor, al 16 % de la pequeña muestra de haitianos de Florida (Moreno-Estrada 2013).",
+     "afirmaciones": [
+      "A-240"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Mejor cuantificación genómica de ancestría haitiana que encontré: n=267 (frente a 6 en Moreno-Estrada), ADMIXTURE K=4 con 1000 Genomas: 86,2 % africano, 13,3 % europeo y 0,5 % de las Américas. Dos lecturas: el aporte nativo medio es ~0,5 %, no cero (y puede ser ruido del método, no una señal nativa; sin intervalo ni test), y el resultado es de diáspora (modo de inmigración en 1974; [POR VERIFICAR] su región de origen en Haití) y no equivale a la población de la isla. Con una muestra más de 40 veces mayor, el 13,3 % europeo es comparable (algo menor) al 16 % de Florida. El texto principal no da intervalos para el 0,5 %."
+  },
+  {
+   "titulo": "High frequency of the erythroid silent Duffy antigen genotype and lack of Plasmodium vivax infections in Haiti (Malaria Journal 12: 30)",
+   "autor": "Weppelmann, Thomas A.; Carter, Tamar E.; Chen, Zhuo; von Fricken, Michael E.; Victor, Yves S.; Existe, Alexandre; Okech, Bernard A.",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3599341/",
+   "urls_alternativas": [
+    "https://doi.org/10.1186/1475-2875-12-30"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestreo dentro de Haití y resultado claro, pero de un solo locus y con pacientes de malaria de cuatro clínicas (muestra seleccionada, preliminar según los propios autores).",
+   "proveniencia": "Universidad de Florida (Gainesville) y el Laboratorio Nacional de Salud Pública del Ministerio de Salud de Haití (Delmas 33, Puerto Príncipe); ADN de manchas de sangre de pacientes con malaria en cuatro clínicas de Haití; genotipado del alelo FY*ES (mutación del promotor GATA del gen DARC, casi fijado en África occidental).",
+   "extractos": [
+    {
+     "ubicacion": "Resumen, métodos",
+     "cita_original": "DNA was extracted from dried blood spots collected from malaria patients at four clinic locations in Haiti.",
+     "traduccion": "El ADN se extrajo de manchas de sangre seca de pacientes con malaria en cuatro clínicas de Haití.",
+     "afirmaciones": [
+      "A-241"
+     ]
+    },
+    {
+     "ubicacion": "Resumen, resultados",
+     "cita_original": "Of all samples tested for the FY ES allele, 99.4% had the FY ES allele (163/164).",
+     "traduccion": "De todas las muestras estudiadas, el 99,4 % (163/164) tenía el alelo FY*ES, un marcador casi fijado en África occidental.",
+     "afirmaciones": [
+      "A-240"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-240",
+    "A-241"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Es un marcador de un solo locus con muestreo en Haití, no un estudio de ancestría: la frecuencia de FY*ES es coherente con un origen casi exclusivamente africano occidental, pero los pacientes con malaria (que no padecen P. vivax) no son una muestra poblacional y no hay valor comparativo dominicano en el artículo. Se incluye como dato de campo dentro de Haití en apoyo débil de A-240 y como constatación de qué tipo de datos genéticos existen dentro del país (loci únicos de interés sanitario: FY*ES, G6PD A-, hemoglobina S)."
+  },
+  {
+   "titulo": "The genetic legacy of religious diversity and intolerance: paternal lineages of Christians, Jews, and Muslims in the Iberian Peninsula (American Journal of Human Genetics 83(6): 725-736)",
+   "autor": "Adams, Susan M.; Bosch, Elena; Balaresque, Patricia L.; et al.; Skorecki, Karl; Behar, Doron M.; Calafell, Francesc; Jobling, Mark A.",
+   "anio": "2008",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2668061/",
+   "urls_alternativas": [
+    "https://doi.org/10.1016/j.ajhg.2008.11.007"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con 1.140 cromosomas Y ibéricos y análisis formal de mezcla, pero la atribución 'sefardí' de linajes del Y es disputada en la literatura posterior [POR VERIFICAR las críticas] y solo cubre la línea paterna.",
+   "proveniencia": "Universidad de Leicester, Universitat Pompeu Fabra, Technion, Instituto Pasteur y centros españoles y portugueses; 1.140 varones de la Península Ibérica y Baleares, con comparación con muestras norteafricanas y sefardíes; análisis de mezcla con haplogrupos binarios y STR del Y.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen",
+     "cita_original": "Admixture analysis based on binary and Y-STR haplotypes indicates a high mean proportion of ancestry from North African (10.6%) and Sephardic Jewish (19.8%) sources.",
+     "traduccion": "El análisis de mezcla indica una proporción media alta de ancestría paterna de origen norteafricano (10,6 %) y judío sefardí (19,8 %) en la Península Ibérica.",
+     "afirmaciones": [
+      "A-236"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-236"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Evidencia INDIRECTA para A-236: si el componente europeo dominicano es sobre todo ibérico (Moreno-Estrada 2013), una fracción del 'Medio Oriente/judío' que un panel detecte en dominicanos puede venir de la propia ascendencia ibérica y no de migraciones del siglo XX. No dice nada sobre dominicanos; solo línea paterna; la cifra 19,8 % 'sefardí' es una estimación de mezcla con fuente comparativa pequeña y su significado histórico es debatido [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Patterns of genetic differentiation and the footprints of historical migrations in the Iberian Peninsula (Nature Communications 10: 551)",
+   "autor": "Bycroft, Clare; Fernandez-Rozadilla, Ceres; Ruiz-Ponte, Clara; Quintela, Inés; Carracedo, Ángel; Donnelly, Peter; Myers, Simon",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6358624/",
+   "urls_alternativas": [
+    "https://doi.org/10.1038/s41467-018-08272-w"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con genotipado genómico de 1.413 españoles (693.092 SNP) y métodos de haplotipos declarados (fineSTRUCTURE, GLOBETROTTER); no trata del Caribe.",
+   "proveniencia": "Universidad de Oxford (Centro Wellcome de Genética Humana y Estadística) y el Instituto de Ciencias Forenses de la Universidad de Santiago de Compostela; genotipos de 1.413 españoles (de un GWAS de cáncer colorrectal), más POPRES y muestras norteafricanas. Fecha el flujo norteafricano a Iberia.",
+   "extractos": [
+    {
+     "ubicacion": "Resultados/Discusión, ancestría norteafricana",
+     "cita_original": "The highest amounts of north African ancestry found within Iberia are in the west (11%) including in Galicia",
+     "traduccion": "Las mayores cantidades de ascendencia norteafricana en Iberia están en el oeste (11 %), incluida Galicia.",
+     "afirmaciones": [
+      "A-236"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-236"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Segunda evidencia INDIRECTA para A-236, esta vez genómica y no solo paterna: las poblaciones ibéricas modernas llevan ascendencia norteafricana medible (hasta 11 % en el oeste) además de la de cualquier origen judío. Un panel que etiquete 'Medio Oriente' sobre una ascendencia europea mayoritariamente ibérica puede recoger ese fondo. No dice nada de dominicanos ni del PGD; se cita como plausibilidad."
   }
  ]
 }
