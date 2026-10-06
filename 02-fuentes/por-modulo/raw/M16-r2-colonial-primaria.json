@@ -1,0 +1,1583 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M16",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 44,
+ "busquedas_pendientes": [
+  "Re-sondear documentsearch.oas.org (ACTAS-S_C-440 en adelante) hasta que aparezca CP/ACTA ~2516/24 (8-X-2024) y las transcripciones de octubre de 2024",
+  "site:oas.org 'CP/INF' nota de la Misión Permanente de Haití solicitando la sesión del 8-X-2024",
+  "OEA informe de la misión técnica Secretaría General (Arrighi) canal río Masacre octubre-noviembre 2023",
+  "CIDH Informe Anual 2020, 2021, 2022, 2023 y 2024 República Dominicana nacionalidad (capítulo V o IV.B)",
+  "MIP memoria institucional 2017 a 2023 Ley 169-14 literal b naturalización decretos 262-20 y 297-21",
+  "Decreto 250-14 texto completo (NATLEX, Gaceta Oficial 10770?) y fecha de publicación",
+  "JCE Resolución 12-07 y Circular 017 de 2007; Suprema Corte sentencia 14 diciembre 2005",
+  "CERD/C/DOM/CO observaciones finales 2013 y 2021; Comité de Derechos Humanos 2017/2021",
+  "BID OR PNUD OR UNEP estudio técnico cuenca del río Dajabón/Masacre caudal tomas",
+  "Gaceta Oficial 10756 (Ley 169-14) y 10737 (Decreto 327-13) en gacetaoficial.gob.do",
+  "Primature/MAE Haïti: texte de la note du 15 septembre 2023 et des communiqués sur la rivière Massacre",
+  "DGM memoria institucional 2024 y 2025 (acceso 403 desde esta red): intentar desde otra salida"
+ ],
+ "lagunas": [
+  "Acta del Consejo Permanente de la OEA de la sesión extraordinaria del 8-X-2024 (Haití pide examinar las deportaciones desde la RD): NO publicada a 2026-10-06 (la serie en documentsearch.oas.org llega a CP/ACTA 2505/24 de 24-VII-2024 y a la transcripción de 2508/24 de 16-VIII-2024; la del 8-X-2024 sería ~2516/24). No se halló comunicado, discurso ni nota CP/INF de esa sesión en oas.org; lo que hay son reportes de prensa ya fusionados (M16-N87, M16-N88, M16-N89). La declaración de la Misión Permanente de Haití de 2023 sí se obtuvo: es la intervención del embajador Léon Charles dentro del acta CP/ACTA 2459/23 (12-X-2023).",
+  "Corrección al encargo del crítico: no existe acta de una sesión del 10-X-2023 sobre el canal; las dos sesiones extraordinarias de ese día (CP/ACTA 2456/23, 'Encuentro de dos mundos', y 2457/23, 'La transición en Guatemala') se leyeron y no tratan el tema. La sesión es la del 12-X-2023 (CP/ACTA 2459/23).",
+  "Informe de la misión técnica de la OEA (octubre de 2023; la prensa dominicana nombra a Jean Michel Arrighi y Andrés Sánchez) y el informe del Secretario General al Consejo Permanente: no localizados. Tampoco hay dictamen técnico independiente (BID, ONU, universidades) sobre el caudal del Masacre: las cifras de tierras y agricultores afectados (888 y 668 ha; 266 y 125 agricultores; o 14.000 y 10.000 tareas), la longitud del tramo-límite (7 km frente a ~10 km) y las 12 obras dominicanas (70 % del caudal) son afirmaciones de parte.",
+  "Notas diplomáticas del conflicto (dominicana del 27-IV-2021 y del 6-VII-2021; haitiana del 5-V, 16-VI-2021 y 15-IX-2023), declaración conjunta de la subcomisión del 27-V-2021 y decreto presidencial dominicano del 14-IX-2023: solo se conocen citados en el acta de la OEA y en el documento del MIREX (M16-N117); no se leyó ningún original.",
+  "Decreto 250-14: solo vista previa de vLex (considerandos y arts. 1 a 3); el PDF completo de NATLEX devolvió HTTP 403/desafío de Cloudflare. Fecha del decreto sin fijar (vLex: 1-VII-2014; NATLEX según el buscador: 23-VII-2014). Gaceta Oficial 10756 (Ley 169-14) y 10737 (Decreto 327-13): no abiertas.",
+  "Grupos A y B de la Ley 169-14: no se halló informe oficial del MIP sobre la parte B posterior a la Memoria de 2016 (las de 2017-2023 no se consultaron) ni el informe de la JCE sobre entrega de documentos por año; las cifras posteriores a 2019 provienen del Estado vía la CIDH (comunicado 232/23) y del Departamento de Estado. Siguen sin aparecer en ninguna fuente '13.495 cédulas' ni '8.975' (la cifra más probable de la que el registro tomó '8.975' es 8.755). La cifra '53.847' y '24.392 de padres haitianos' (A-214) no está en la auditoría de la JCE ni en su listado nominal.",
+  "Cifras de afectados por TC/0168/13 (A-213): sigue sin hallarse documento oficial del Estado con la cifra ni cálculo de la CIDH; el comunicado de la CIDH de 2023 ya no usa '200.000' y el Departamento de Estado habla de 'más de 100.000'. Esta ronda no cambia esa laguna.",
+  "Sitios oficiales cerrados a mi acceso: DGM (migracion.gob.do, HTTP 403: memorias institucionales con las expulsiones 2023-2025), ONE (one.gob.do, 403: censo de 2022 y ENI), copias de memorias en memorias.minpre.gob.do (403), ILO NATLEX (Cloudflare), oas.org con curl (redirección a wearesorry.htm; sí accesible con WebFetch y con el navegador integrado).",
+  "No consultados: CIDH Informes Anuales 2020-2024 sobre la RD (si los hay), observaciones finales del CERD y del Comité de Derechos Humanos sobre la RD, texto de la Resolución 12-07 y de la Circular 017 de 2007 de la JCE, y el expediente de la sentencia de la Suprema Corte de 14-XII-2005.",
+  "'Indio' en la cédula (F-0058): no se halló resolución de la JCE; solo prensa y un texto sobre un proyecto de ley de 2011 (mixedracestudies/Dominican Today). No se tocó el censo 2022 (ONE 403)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Río Masacre / río Dajabón; canal 'ilegal' o 'de trasvase' frente a 'sistema de riego' u 'obra de derivación'",
+   "tradicion": "dominicana / haitiana / texto de 1929",
+   "nota": "El LNTS (1929) llama al río 'Dajabón o Massacre'; el Estado dominicano dice 'río Dajabón o Masacre' y califica la obra de 'canal ilegal' y 'canal de trasvase' (que 'desvía el caudal'); el Estado haitiano dice 'rivière Massacre', 'canal de Ouanaminthe'/'Maribaroux', 'système d'irrigation' y 'ouvrage de dérivation', y su consigna popular es 'Kanal la pap kanpe' (el canal no se detendrá). El término descriptivo recomendado es 'canal de Ouanaminthe sobre el río Dajabón o Masacre'; 'ilegal' y 'trasvase' son tesis jurídica y técnica de una parte. El topónimo 'Masacre/Massacre' se atribuye comúnmente a una matanza colonial del siglo XVIII, anterior y ajena a 1937 [POR VERIFICAR; no se consultó fuente]."
+  },
+  {
+   "termino": "Grupo A / Grupo B / Grupo B2 (Ley 169-14)",
+   "tradicion": "internacional (CIDH, sociedad civil, Dep. de Estado); la ley dice 'literal a)' y 'literal b)' del art. 1",
+   "nota": "La Ley 169-14 no usa esos rótulos: el art. 1 a) cubre a hijos de extranjeros no residentes inscritos entre el 16-VI-1929 y el 18-IV-2007 con documentos irregulares (ejecuta la JCE) y el art. 1 b) a nacidos no inscritos (ejecuta el MIP, con registro como extranjeros y naturalización a los dos años). 'Grupo B2' (Dep. de Estado 2022: unas 23.000 personas que no se inscribieron en los 180 días) no existe en la ley ni en la CIDH. La JCE y el Estado hablan de 'beneficiarios' y 'regularización'; la CIDH y el Dep. de Estado, de 'personas afectadas por la sentencia'. Anotar siempre qué texto usa el rótulo."
+  },
+  {
+   "termino": "Acreditar, regularizar y/o transcribir frente a 'restituir' la nacionalidad (art. 2 de la Ley 169-14)",
+   "tradicion": "dominicana ('regularización', 'transcripción', 'acreditará como nacionales dominicanos') / internacional ('restitución del estatus jurídico anterior', 'desnacionalización') / haitiana ('dénationalisation')",
+   "nota": "El mismo artículo sostiene ambas lecturas: la JCE 'regulariza y/o transcribe' y 'acredita' como nacionales; la CIDH (comunicado 232/23) dice que la ley 'restituyó el estatus jurídico anterior a la sentencia'. Queda como disputa de significado (A-215 frente a A-217), no de hecho."
+  },
+  {
+   "termino": "Tratado de Paz, Amistad Perpetua y Arbitraje (1929)",
+   "tradicion": "dominicana ('Amistad Perpetua') / texto oficial y OEA ('Amistad y Arbitraje')",
+   "nota": "El título del LNTS vol. 105, No. 2414, es 'Tratado de Paz, Amistad y Arbitraje' (en francés 'Traité de paix, d'amitié et d'arbitrage'); 'Perpetua' viene del preámbulo ('situación perpetua de paz y amistad') y es el uso del Estado dominicano y de la prensa dominicana. Usar el título del LNTS y citar 'Perpetua' solo como variante."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Treaty of Peace, Friendship and Arbitration between the Dominican Republic and Haiti, signed at Santo Domingo, February 20, 1929 (Tratado de Paz, Amistad y Arbitraje / Traité de paix, d'amitié et d'arbitrage), League of Nations Treaty Series, vol. 105, No. 2414, pp. 215-226",
+   "autor": "República Dominicana; República de Haití (plenipotenciarios Alfonseca, Morales, Troncoso de la Concha, Peynado, Peña Batlle, Álvarez y Dejean); Sociedad de las Naciones (Secretariat, ed.)",
+   "anio": "1929",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20105/v105.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial bilingüe (español y francés, ambos auténticos) comunicado por la Secretaría de Estado de Relaciones Exteriores dominicana y registrado en Ginebra el 7-VIII-1930; la traducción inglesa la hizo el Secretariado 'a título informativo'.",
+   "proveniencia": "Tratado bilateral firmado en Santo Domingo el 20-II-1929 por plenipotenciarios dominicanos y el ministro haitiano Léon Dejean, en pleno cierre de la disputa fronteriza (tratado de fronteras del 21-I-1929); ratificaciones canjeadas en Santo Domingo el 1-VII-1929 y registro en la Sociedad de las Naciones a petición dominicana el 7-VIII-1930. El PDF del volumen (UN Treaty Collection) es un escaneo con OCR defectuoso (p. ej. 'dislosición', 'Articulo IO'): las citas se normalizan a la ortografía del texto y se cotejaron contra el OCR. La página del PDF coincide con la página impresa del volumen.",
+   "extractos": [
+    {
+     "ubicacion": "art. 10, párr. 1 (prólogo), texto español, p. 220",
+     "cita_original": "En razón de que ríos y otros cursos de agua nacen en el territorio de un Estado y corren por el territorio del otro o sirven de límites entre los dos Estados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 10, párr. 1 (obligación), texto español, p. 220",
+     "cita_original": "ambas Altas Partes Contratantes se comprometen a no hacer ni consentir ninguna obra susceptible de mudar la corriente de aquellas o de alterar el producto de las fuentes de las mismas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 10, párr. 1, texto francés, p. 220",
+     "cita_original": "les deux Hautes Parties contractantes s'engagent à ne faire ni consentir aucun ouvrage susceptible soit de changer le cours naturel de ces eaux, soit d'altérer le débit de leurs sources.",
+     "traduccion": "las dos Altas Partes contratantes se comprometen a no hacer ni consentir ninguna obra susceptible de cambiar el curso natural de estas aguas o de alterar el caudal de sus fuentes.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 10, párr. 1, traducción inglesa del Secretariado de la SDN (no auténtica), p. 225",
+     "cita_original": "the two High Contracting Parties undertake not to carry out or be a party to any constructional work calculated to change their natural course or to affect the water derived from their sources.",
+     "traduccion": "las dos Altas Partes contratantes se comprometen a no ejecutar ni ser parte en ninguna obra de construcción calculada para cambiar su curso natural o afectar el agua derivada de sus fuentes.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 10, párr. 2, texto español, p. 220",
+     "cita_original": "Esta disposición no se podrá interpretar en el sentido de privar a ninguno de los dos Estados del derecho de usar, de una manera justa y equitativa, dentro de los límites de sus territorios respectivos, dichos ríos y otros cursos de agua para el riego de las tierras y otros fines agrícolas e industriales.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 12, texto español, p. 220",
+     "cita_original": "en doble original, en idioma español, y en idioma francés, los cuales tienen la misma fuerza",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 12, traducción inglesa, p. 225",
+     "cita_original": "in duplicate French and Spanish texts, both of which are authentic",
+     "traduccion": "en doble ejemplar, en francés y en español, ambos auténticos",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 3, texto español, p. 218",
+     "cita_original": "Se consideran incluidas entre las cuestiones de orden jurídico: (a) La interpretación de un tratado",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 8, texto español, p. 219",
+     "cita_original": "La sentencia, debidamente pronunciada y notificada a las Partes, decide la controversia definitivamente y sin apelación.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "nota 1 y encabezado, p. 216 (traducción inglesa)",
+     "cita_original": "The exchange of ratifications took place at St. Domingo, July 1, 1929.",
+     "traduccion": "El canje de ratificaciones tuvo lugar en Santo Domingo el 1 de julio de 1929.",
+     "afirmaciones": [
+      "A-221"
+     ]
+    },
+    {
+     "ubicacion": "certificación y promulgación dominicana, p. 221",
+     "cita_original": "Dada en la Mansión Presidencial, en la Ciudad de Santo Domingo, Capital de la República Dominicana, a los catorce días del mes de Marzo del año mil novecientos veintinueve.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-221",
+    "A-222"
+   ],
+   "modulos": [
+    "M16",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: ambos párrafos del art. 10 en los dos textos auténticos. La discrepancia verbal que dejó abierta la ronda 1 queda resuelta: el español dice 'mudar la corriente de aquellas [aguas]' y 'alterar el producto de las fuentes'; el francés dice 'changer le cours naturel de ces eaux' y 'altérer le débit de leurs sources' ('natural' y 'caudal' solo aparecen en francés; la traducción inglesa del Secretariado dice 'natural course'). El art. 12 declara que ambos textos 'tienen la misma fuerza', de modo que la lectura dominicana (la obra desvía la corriente) y la haitiana (uso justo y equitativo dentro del propio territorio, párr. 2) se apoyan en frases del mismo artículo; el tratado no define 'obra susceptible de mudar la corriente' ni distingue 'canal de riego' de 'canal de trasvase'. INTERPRETACIÓN (no resuelta por el texto): si una toma en la orilla haitiana 'muda la corriente'. El art. 3(a) incluye la interpretación de un tratado entre las cuestiones arbitrables y el art. 8 hace definitivo el laudo; el art. 11 deja fuera las controversias con procedimiento especial en otras convenciones. Resuelve la fecha: el tratado se firmó el 20-II-1929 (no el 29 de febrero que dice el transcriptor del acta CP/ACTA 2459/23) y el 14-III-1929 es la fecha de la promulgación dominicana (Senado 6-III, Cámara 12-III), lo que explica la 'fecha de 14 de marzo' de la resolución del Senado de 2013. Paginación: la FRUS (F-0046) cita 'vol. cv, p. 215' (la portada del tratado); el texto empieza en p. 216 y el art. 10 está en p. 220 (español/francés) y p. 225 (inglés). Cotejo con M16-N157 (Le Quotidien 509): su texto francés coincide con el del LNTS. [POR VERIFICAR: ratificación haitiana y su fecha, solo consta el canje del 1-VII-1929.] Sesgo: texto comunicado por la parte dominicana; el volumen es de 1930."
+  },
+  {
+   "titulo": "Treaty of the Delimitation of the Frontier between the Dominican Republic and Haiti, signed at Santo Domingo, January 21, 1929, and Exchange of Notes (Tratado fronterizo dominico-haitiano / Traité sur la délimitation de la frontière), League of Nations Treaty Series, vol. 105, No. 2413, pp. 193-214",
+   "autor": "República Dominicana; República de Haití; Sociedad de las Naciones (Secretariat, ed.)",
+   "anio": "1929",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20105/v105.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial bilingüe comunicado por la Secretaría de Estado de Relaciones Exteriores dominicana, registrado en Ginebra el 7-VIII-1930; la traducción inglesa es del Secretariado.",
+   "proveniencia": "Tratado que fija la frontera dominico-haitiana (firmado el 21-I-1929), anterior en un mes al de Paz, Amistad y Arbitraje y hecho para zanjar la disputa heredada de 1874; incluye 17 artículos y canje de notas. Mismo PDF y mismo OCR defectuoso que el No. 2414 (UN Treaty Collection, vol. 105).",
+   "extractos": [
+    {
+     "ubicacion": "art. 1, texto español, p. 195",
+     "cita_original": "La línea fronteriza entre la República Dominicana y la República de Haití parte del Thalweg de la desembocadura del Río Dajabón o Massacre en el Océano Atlántico (Bahía de Manzanillo, al Norte) y siguiendo el curso de éste río, hasta frente al poblado de Dajabón",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 1, traducción inglesa, p. 208",
+     "cita_original": "The frontier line between the Dominican Republic and the Republic of Haiti starts from the thalweg at the mouth of the river Dajabon or Massacre where this river flows into the Atlantic Ocean",
+     "traduccion": "La línea fronteriza entre la República Dominicana y la República de Haití parte del thalweg de la desembocadura del río Dajabón o Massacre donde este río desemboca en el Océano Atlántico",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "art. 1, núm. 2, traducción inglesa, p. 208",
+     "cita_original": "From Dajabon, it continues to follow the course of the Dajabon or Massacre to the point where the latter joins the river Capotillo or Bernard",
+     "traduccion": "Desde Dajabón sigue el curso del Dajabón o Massacre hasta el punto en que este se une al río Capotillo o Bernard",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "encabezado, p. 194 (traducción inglesa)",
+     "cita_original": "The registration of this Treaty took place August 7, 1930.",
+     "traduccion": "El registro de este Tratado tuvo lugar el 7 de agosto de 1930.",
+     "afirmaciones": [
+      "A-221"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-221",
+    "A-222"
+   ],
+   "modulos": [
+    "M16",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el tratado nombra al río 'Dajabón o Massacre' (no 'Masacre') y lo usa como línea fronteriza desde su desembocadura en la bahía de Manzanillo hasta el poblado de Dajabón, y desde Dajabón hasta la confluencia con el Capotillo o Bernard; esto es lo que hace de él un 'río que sirve de límite' en el sentido del art. 10 del tratado de paz (p. 220), mientras que el tramo entre ambas líneas lo recorre en territorio de un solo Estado o de los dos según la descripción del acta CP/ACTA 2459/23 (55 km; 7 km de límite dominicana, 'unos 10 km' haitiana: cifras rivales sin medición independiente). No contiene cláusula de uso de aguas del Masacre; el único régimen de aguas compartidas del paquete es el canje de notas del 21-I-1929 sobre la laguna de El Fondo (pp. 197 y 204: los habitantes dominicanos conservan el uso de sus aguas 'sin que este uso pueda ser suprimido por la sola voluntad del Gobierno Haitiano', sin disminuir la soberanía haitiana sobre la laguna), que trata otro cuerpo de agua. Sirve para A-221/A-222 solo como contexto geográfico-jurídico; la obligación sobre obras está únicamente en el art. 10 del No. 2414. El volumen contiene otros textos de 1929-1930 ajenos al módulo. Sesgo: texto comunicado por la parte dominicana."
+  },
+  {
+   "titulo": "Acta de la sesión extraordinaria del Consejo Permanente de la OEA celebrada el 12 de octubre de 2023 para recibir al Ministro de Relaciones Exteriores de la República Dominicana, Roberto Álvarez (OEA/Ser.G CP/ACTA 2459/23; aprobada en la sesión del 20 de mayo de 2026)",
+   "autor": "Consejo Permanente de la Organización de los Estados Americanos (intervenciones de Roberto Álvarez, Léon Charles, Luis Almagro, Francia y otros Estados)",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://documentsearch.oas.org/documents/CP_ACTA_-2459/CP_ACTA_-2459-tx.pdf",
+   "urls_alternativas": [
+    "https://documentsearch.oas.org/documents/ACTAS-S_C-233/ACTAS-S_C-233-tx.pdf (misma acta, copia con otro identificador)",
+    "https://documentsearch.oas.org/documents/ACTAS-S_C-219/ACTAS-S_C-219-tx.pdf (versión 'Transcripción' del mismo día)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Acta oficial aprobada por el propio Consejo Permanente que reproduce las intervenciones tal como se pronunciaron (la delegación haitiana habla en francés, la dominicana en español).",
+   "proveniencia": "Sesión extraordinaria del 12-X-2023 (14:39, Washington) pedida por la Misión Permanente dominicana (CP/INF. 9941/23 y rev. 1; primero para el 11 y luego para el 12-X) en plena crisis del canal de Ouanaminthe: habló el canciller Roberto Álvarez, replicó el embajador Léon Charles, representante permanente de Haití y vicepresidente del Consejo, y cerró el Secretario General Luis Almagro por videoconferencia. El acta se aprobó recién el 20-V-2026; el PDF es texto de la OEA (no OCR). Las dos delegaciones leen posiciones de sus cancillerías: son fuentes de parte; el acta es neutral en su registro.",
+   "extractos": [
+    {
+     "ubicacion": "p. 5, intervención de Álvarez (Estado dominicano)",
+     "cita_original": "En primer lugar, porque el Gobierno haitiano jamás notificó oficialmente al dominicano sobre dicha obra, como establece el artículo 10 del Tratado de Paz, Amistad Perpetua y Arbitraje de 1929",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221"
+     ]
+    },
+    {
+     "ubicacion": "p. 6, intervención de Álvarez (cita del art. 10)",
+     "cita_original": "sirven de límite entre los dos Estados, ambas Altas Partes Contratantes se comprometen a no hacer ni consentir ninguna obra susceptible de mudar la corriente de aquellas o de alterar el producto de las fuentes de las mismas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221"
+     ]
+    },
+    {
+     "ubicacion": "p. 5, intervención de Álvarez (el río)",
+     "cita_original": "El río Dajabón o Masacre nace y desemboca en la República Dominicana. Su curso es de cincuenta y cinco kilómetros. En su recorrido llega a la frontera con Haití y, a lo largo de siete kilómetros, se convierte en uno de los límites naturales entre los dos países.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 7, intervención de Álvarez (canal 'de trasvase')",
+     "cita_original": "la obra que se construía en Haití era un canal de trasvase, que pretendía desviar el caudal del río y llevarlo a un sistema de riego a seis kilómetros de distancia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221"
+     ]
+    },
+    {
+     "ubicacion": "p. 20, réplica de Álvarez",
+     "cita_original": "Reconocemos el derecho de Haití al uso justo y equitativo de las aguas. Lo he dicho, lo hemos dicho, lo hemos repetido mil veces; lo que estamos pidiendo es que cesen las obras para llevar a cabo el estudio necesario que determine si esa obra es factible o no.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, intervención de Léon Charles (Estado haitiano; inicio del proyecto)",
+     "cita_original": "Le Gouvernement haïtien, dans le but de maitriser les crues de la rivière Massacre et mettre en valeur, du même coup, une partie de la Basse Plaine de Maribaroux, dans le Nord-est a décidé, en 2018, d'entreprendre la construction d'un système d'irrigation pouvant arroser trois mille hectares de terre.",
+     "traduccion": "El Gobierno haitiano, con el fin de controlar las crecidas del río Masacre y de poner en valor una parte de la llanura baja de Maribaroux, en el Nordeste, decidió en 2018 emprender la construcción de un sistema de riego capaz de regar tres mil hectáreas.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, Léon Charles (inicio de las obras y declaración conjunta de 2021)",
+     "cita_original": "Les travaux du canal ont véritablement démarré le 2 avril 2021.",
+     "traduccion": "Las obras del canal comenzaron realmente el 2 de abril de 2021.",
+     "afirmaciones": [
+      "A-221"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, Léon Charles (declaración conjunta del 27-V-2021, citada)",
+     "cita_original": "il est établi le droit qu'ont les deux nations d'utiliser les eaux des rivières qui se trouvent dans la zone frontalière de manière juste et équitable",
+     "traduccion": "se establece el derecho de las dos naciones a utilizar las aguas de los ríos situados en la zona fronteriza de manera justa y equitativa",
+     "afirmaciones": [
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, Léon Charles (obras dominicanas, afirmación haitiana)",
+     "cita_original": "la République dominicaine a construit 12 ouvrages sur la rivière Massacre dans la région de Loma de Cabrera et de Dajabon, dont huit prises sur berge et quatre mini-barrages",
+     "traduccion": "la República Dominicana ha construido 12 obras sobre el río Masacre en la región de Loma de Cabrera y Dajabón, entre ellas ocho tomas en la ribera y cuatro minipresas",
+     "afirmaciones": [
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 12, Léon Charles (lectura haitiana del art. 10)",
+     "cita_original": "En regard de la topographie de la Rivière Massacre d'une part ainsi que de la lettre et de l'esprit de l'Article 10 du Traité du 20 février 1929 d'autre part, le Gouvernement haïtien clame son droit d'utiliser de manière juste et équitable les eaux de la Rivière Massacre, rivière frontalière et successive",
+     "traduccion": "Habida cuenta de la topografía del río Masacre y de la letra y el espíritu del art. 10 del Tratado del 20 de febrero de 1929, el Gobierno haitiano reclama su derecho a utilizar de manera justa y equitativa las aguas del río Masacre, río fronterizo y sucesivo",
+     "afirmaciones": [
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 12, Léon Charles (cierre de la frontera)",
+     "cita_original": "un décret présidentiel a été promulgué par le gouvernement dominicain mettant à exécution les menaces proférées trois trois jours plus tôt de fermer les frontières terrestre, aérienne et maritime avec Haïti",
+     "traduccion": "un decreto presidencial fue promulgado por el gobierno dominicano, ejecutando las amenazas proferidas tres [sic: 'trois trois'] días antes de cerrar las fronteras terrestre, aérea y marítima con Haití",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 12, Léon Charles (acusación de violación del tratado)",
+     "cita_original": "en violation flagrante du Traité de paix, d'amitié, d'arbitrage du 20 février 1929",
+     "traduccion": "en violación flagrante del Tratado de paz, amistad y arbitraje del 20 de febrero de 1929",
+     "afirmaciones": [
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 21, réplica final de Álvarez",
+     "cita_original": "nosotros sí fuimos ocupados por Haití, por veintidós años. Nuestra independencia, en 1844, es de Haití.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "p. 17, delegación de Francia (observador)",
+     "cita_original": "Une gestion concertée des eaux transfrontalières, telle qu'elle est prévue par le Traité de 1929 entre les deux pays, doit être mise en place afin de parvenir à un partage juste et équitable de cette ressource commune",
+     "traduccion": "Debe establecerse una gestión concertada de las aguas transfronterizas, tal como la prevé el Tratado de 1929 entre los dos países, para lograr un reparto justo y equitativo de este recurso común",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "p. 18, Secretario General Almagro",
+     "cita_original": "Ya en 1929, el Tratado de Paz, Amistad y Arbitraje consagró “una situación perpetua de paz y amistad, de acuerdo con el ideal de fraternidad panamericana” entre ambos países.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-221",
+    "A-222",
+    "A-245"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "ES LA ACTA QUE PEDÍA EL CRÍTICO, con una corrección de fecha: las dos sesiones extraordinarias del 10-X-2023 (CP/ACTA 2456/23, 'Encuentro de dos mundos', y 2457/23, 'La transición en Guatemala') se leyeron y no tratan el canal; la sesión sobre el canal del Masacre es la del 12-X-2023 (CP/ACTA 2459/23). Es la fuente primaria de las dos posiciones de Estado ante un tercero. HECHOS verificables en el texto: (1) ambas partes invocan el art. 10 del tratado de 1929 y cada una acusa a la otra de infringirlo (Álvarez: la obra es 'ilegal' y viola el art. 10; Charles: el cierre de la frontera y la ampliación del canal de La Vigía lo violan 'de manera flagrante'); (2) Álvarez reconoce expresamente el derecho haitiano 'al uso justo y equitativo de las aguas' y pide el cese de las obras hasta un estudio técnico; (3) Haití fija la decisión del proyecto en 2018 y el inicio de las obras el 2-IV-2021 (la Cancillería dominicana dice que se enteró en abril de 2021 por agricultores): por tanto, 'iniciado en 2018' (A-221) es la fecha haitiana del proyecto, no del inicio físico de las obras, y la fecha 'reanudado el 30-VIII-2023' la dan ambas partes (Álvarez: 'nos enteramos' por un informe del Ministerio de Defensa; Charles: 'des agriculteurs de la Plaine de Bas Maribahoux ont entrepris la poursuite des travaux'). CIFRAS EN DISPUTA, sin dictamen independiente: longitud del tramo-límite (7 km según Álvarez, 'environ 10 kilomètres' según Charles), tierras afectadas (888 ha dominicanas y 668 ha haitianas, 266 y 125 agricultores, según la nota dominicana del 6-VII-2021 citada por Álvarez; el documento explicativo del MIREX, M16-N117, da 14.000 y 10.000 tareas), y número de obras dominicanas (12 según Charles, que añade que explotan 'plus de 70 %' del caudal: afirmación haitiana sin base citada). INTERPRETACIÓN: Álvarez califica la obra de 'ilegal' y de 'canal de trasvase'; Charles de 'système d'irrigation' y 'ouvrage de dérivation' (el mismo objeto con dos nombres); Álvarez presenta el conflicto como politizado por el 'nacionalismo haitiano'. SIGNIFICADO: en su réplica Álvarez recurre a la historia de 1822-1844 ('ocupados por Haití por veintidós años'), uso oficial de un argumento histórico en un foro diplomático; no es una afirmación de que Haití sostenga hoy la tesis de la isla indivisible, por lo que solo apoya A-245 como ejemplo de uso del relato. ERRATAS DEL ACTA: Charles dice dos veces 'le 29 février 1929' (1929 no fue bisiesto; en otros pasajes dice '20 février 1929', fecha del LNTS); Almagro, en la versión española, dice que la Secretaría General 'comunicó el 26 de octubre' su disposición, cuando el comunicado E-060/23 es del 26 de septiembre de 2023 (la versión inglesa de su discurso no da fecha). Álvarez cita el art. 10 con 'límite' (singular) donde el LNTS dice 'límites' (cita menor). De las demás intervenciones se leyeron las de Costa Rica y Francia (piden diálogo y respeto del derecho internacional y de los 'acuerdos históricos de paz y amistad'); el resto de las delegaciones no se leyó íntegro. PENDIENTE: el acta de la sesión extraordinaria del 8-X-2024 (migrantes haitianos en RD, a petición de Haití) no está publicada: a 2026-10-06 la serie publicada en documentsearch.oas.org (identificadores ACTAS-S_C-1 a 520 sondeados) llega a CP/ACTA 2505/24 (24-VII-2024) y a la transcripción de 2508/24 (16-VIII-2024); las actas de 2024 se aprueban con más de dos años de retraso (la de 2459/23 se aprobó el 20-V-2026) y la del 8-X-2024 (número cercano a 2516/24) aún no consta."
+  },
+  {
+   "titulo": "Statement from the OAS General Secretariat: Call for Dialogue between the Republic of Haiti and the Dominican Republic (comunicado E-060/23, 26 de septiembre de 2023)",
+   "autor": "Secretaría General de la Organización de los Estados Americanos",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/en/media_center/press_release.asp?sCodigo=E-060%2F23",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado oficial del órgano mediador; es el texto original que M16-N120 (Le Nouvelliste) solo resumía.",
+   "proveniencia": "Emitido por la Secretaría General de la OEA (secretario general Luis Almagro) tras consultas con ambos gobiernos y una reunión con el canciller dominicano el 24-IX-2023 en Washington; ofrece mediación. Léelo como posición de un tercero con interés institucional en mediar, no como dictamen jurídico.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "There can be no doubt that Haiti and the Dominican Republic have equal rights of use over the Dajabón or Massacre River and that its water resources are vital for both, given the needs of its inhabitants, especially in the current context of drought.",
+     "traduccion": "No cabe duda de que Haití y la República Dominicana tienen iguales derechos de uso sobre el río Dajabón o Masacre y de que sus recursos hídricos son vitales para ambos, dadas las necesidades de sus habitantes, sobre todo en el contexto actual de sequía.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "This use must be ensured in accordance with international law and the treaties in force between both countries.",
+     "traduccion": "Ese uso debe asegurarse conforme al derecho internacional y a los tratados vigentes entre ambos países.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-221",
+    "A-222"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el comunicado afirma 'iguales derechos de uso' sobre el río y remite al derecho internacional y a los tratados vigentes sin nombrar el art. 10 ni pronunciarse sobre si la obra de Ouanaminthe lo viola (Almagro sí nombra el art. 10 el 12-X, ver su discurso). Corrige el matiz de M16-N120 (Le Nouvelliste): la prensa decía 'both parties have the same rights to use the river'; el original dice 'equal rights of use'. No es un laudo: ni la OEA ni ninguna parte invocó el procedimiento arbitral del art. 3-8 del tratado de 1929 según lo leído [POR VERIFICAR: ausencia de invocación]. Fecha 26-IX-2023 (referencia E-060/23)."
+  },
+  {
+   "titulo": "At the special meeting of the Permanent Council of the OAS to receive the Minister of Foreign Affairs of the Dominican Republic, Roberto Alvarez (discurso del Secretario General, 12 de octubre de 2023, OAS Speeches 23-0039)",
+   "autor": "Almagro Lemes, Luis (Secretario General de la OEA)",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/en/about/speech_secretary_general.asp?sCodigo=23-0039",
+   "urls_alternativas": [
+    "https://www.oas.org/en/media_center/press_release.asp?sCodigo=AVI-200%2F23 (aviso de convocatoria del 11-X-2023, sin contenido sustantivo)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial del discurso publicado por la propia OEA; coincide en lo sustantivo con la versión española recogida en el acta CP/ACTA 2459/23.",
+   "proveniencia": "Discurso de cierre del secretario general ante el Consejo Permanente, pronunciado por videoconferencia desde Europa; propone una reunión de ambas delegaciones facilitada por la Secretaría General, una misión técnica de recursos hídricos y asuntos legales, y el apoyo de la presidencia de CARICOM (Dominica).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "Article 10 of that treaty, with wisdom and foresight, governed the use by both parties of rivers and other shared watercourses that “originate in the territory of one State and flow through the territory of the other or serve as boundaries between the two States,” and sets forth the requirements for the fair and equitable use of those common resources.",
+     "traduccion": "El artículo 10 de ese tratado, con sabiduría y previsión, reguló el uso por ambas partes de los ríos y otros cursos de agua compartidos que «nacen en el territorio de un Estado y corren por el territorio del otro o sirven de límites entre los dos Estados», y fija los requisitos para el uso justo y equitativo de esos recursos comunes.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    },
+    {
+     "ubicacion": "párr. 12",
+     "cita_original": "In addition, we are willing immediately to send a technical mission, for both water resources and legal issues, to visit the location and make a report on the matter.",
+     "traduccion": "Además, estamos dispuestos a enviar de inmediato una misión técnica, tanto de recursos hídricos como de asuntos legales, para visitar el lugar y elaborar un informe al respecto.",
+     "afirmaciones": [
+      "A-221",
+      "A-222"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-221",
+    "A-222"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: Almagro cita el art. 10 como norma aplicable y menciona el Pacto de Bogotá (1948) como vía de solución pacífica, pero no afirma que la obra lo infrinja ni lo cumpla. La misión técnica anunciada se realizó en octubre de 2023 según la prensa dominicana (Jean Michel Arrighi, Secretario de Asuntos Jurídicos, y Andrés Sánchez, Secretaría de Desarrollo Integral; El Día, El Caribe) [POR VERIFICAR con documento de la OEA]; su informe no se localizó. Primera persona plural y tono mediador: léase como oferta de buenos oficios."
+  },
+  {
+   "titulo": "Ministerio de Interior y Policía, Memoria Institucional 2015 (Rendición de cuentas), Santo Domingo",
+   "autor": "Ministerio de Interior y Policía de la República Dominicana (Dirección de Planificación y Desarrollo)",
+   "anio": "2015",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mip.gob.do/wp-content/uploads/2023/06/Memoria-Institucional-Ministerio-Interior-y-Policia-2015.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de rendición de cuentas del propio ministerio ejecutor del Plan Nacional de Regularización de Extranjeros (PNRE) y de la parte B de la Ley 169-14: dato de primera mano pero de parte, sin auditoría externa y con una tabla por provincia mal extraída por el PDF.",
+   "proveniencia": "El Ministerio de Interior y Policía (MIP) ejecutó el PNRE (Decreto 327-13, 29-XI-2013) y recibió las solicitudes de la letra b) del art. 1 de la Ley 169-14 (hijos de extranjeros nunca inscritos) en las mismas oficinas provinciales; la memoria resume lo hecho en 2015, año del cierre de la fase de ejecución. 48 páginas, PDF con texto; la copia de mip.gob.do se subió en 2023.",
+   "extractos": [
+    {
+     "ubicacion": "p. 5 (resumen de logros 2015)",
+     "cita_original": "se registraron un total de 288,466 solicitudes, de las cuales se aprobaron 239,956 y se entregaron 186,645 acreditaciones de situación migratoria.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (apartado del PNRE, Ley 169-14)",
+     "cita_original": "en este proceso se registraron 8,755 solicitudes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (apartado del PNRE, Ley 169-14)",
+     "cita_original": "Se presentaron 6,279 casos, de los cuales a 4,140 personas se le ha otorgado una Residencia Permanente",
+     "traduccion": "Se presentaron 6.279 casos, de los cuales a 4.140 personas se les ha otorgado una residencia permanente",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (apartado del PNRE, Ley 169-14)",
+     "cita_original": "2,476 expedientes resultaron observados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (cifra oficial del ejecutor): la cifra de 288.466 solicitudes del registro (A-218) está CONFIRMADA por el propio MIP (la CIDH, Informe Anual 2017, párr. 56, escribe 288.486: variante de transcripción del documento de la CIDH; el MIP 2016 escribe 288,467). Para la parte B de la Ley 169-14 el MIP da 8,755 solicitudes: NO aparecen '8.975' ni '13.495 cédulas' en este documento; 8,755 coincide con la CIDH 2017, 2018 y 2019 y con el Departamento de Estado 2015 ('8,755 individuals from Group B applied'), por lo que '8.975' del registro es con alta probabilidad una transposición de 8.755 [POR VERIFICAR contra la fuente que originó el registro]. Las cifras de ese apartado no cuadran del todo (6.279 presentados = 4.140 con residencia + 2.139 en proceso, y además 2.476 'observados'; la tabla 'en el siguiente orden' no se extrajo del PDF). La memoria de 2015 es anterior a la ENI-2017 y no distingue grupo A (JCE). Sesgo: documento de gestión que presenta el plan como éxito."
+  },
+  {
+   "titulo": "Ministerio de Interior y Policía, Memoria Institucional 2014, Santo Domingo",
+   "autor": "Ministerio de Interior y Policía de la República Dominicana (Dirección de Planificación y Desarrollo)",
+   "anio": "2014",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mip.gob.do/wp-content/uploads/2023/06/Memoria-Institucional-Ministerio-Interior-y-Policia-2014.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de gestión del ministerio ejecutor, dato de primera mano pero de parte.",
+   "proveniencia": "Primer año del PNRE (la ejecución empezó el 2-VI-2014) y de la Ley 169-14; el texto dice que las oficinas del PNRE recibían también las solicitudes de registro de hijos de extranjeros (art. 6 y ss. de la ley, Decreto 250-14). 62 páginas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 3 (apartado del PNRE)",
+     "cita_original": "Se han recibido 117,158 solicitudes de regularización",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "p. 3 (apartado del PNRE, Ley 169-14 y Decreto 250-14)",
+     "cita_original": "se han recibido 5,135 solicitudes, las cuales se han estado analizando y remitiendo a la Junta Central Electoral para fines de registros en libro de nacimientos de hijos de extranjeros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: cifras de fin de 2014 (parciales, antes de cerrar el plazo): 117.158 solicitudes de regularización y 5.135 solicitudes de la parte b) de la Ley 169-14 con el Decreto 250-14 como reglamento (confirma que el reglamento se llama 'Decreto No. 250-14'). Sirve para mostrar la serie temporal de 8.755 (cierre en 2015). Sesgo: memoria de gestión."
+  },
+  {
+   "titulo": "Ministerio de Interior y Policía, Memoria Institucional 2016, Santo Domingo",
+   "autor": "Ministerio de Interior y Policía de la República Dominicana (Dirección de Planificación y Desarrollo)",
+   "anio": "2016",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mip.gob.do/wp-content/uploads/2023/06/Memoria-Institucional-Ministerio-Interior-y-Policia-2016.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de gestión del ministerio ejecutor; las tablas del PNRE salen desordenadas del PDF y solo se cita la frase en prosa.",
+   "proveniencia": "Cierra el PNRE administrativo (entrega de carnés) un año después del fin del plazo de inscripción; la memoria incluye una tabla 'LEY 169-14 LETRA B' con 4.645 carnés entregados que el PDF extrae sin contexto.",
+   "extractos": [
+    {
+     "ubicacion": "p. 28",
+     "cita_original": "se entregaron aproximadamente 60,000 acreditaciones de situación migratoria, para un total a la fecha de 228,653; El total de solicitudes registradas 288,467, de las cuales se aprobaron 249,968.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el MIP corrige en 2016 el total de aprobados de 239.956 (memoria 2015) a 249.968 y el de solicitudes a 288.467 (una más que en 2015); la CIDH 2018 da 249.768 aprobados (variante probable por transposición, párr. 49). Para la letra B la tabla del PDF dice 4.645 carnés entregados a fin de 2016 (cifra ilegible sin la tabla original [POR VERIFICAR]); la CIDH 2017 da 4.442 cédulas expedidas a noviembre de 2017 (otra cosa: cédulas de la JCE). Sesgo: documento de parte."
+  },
+  {
+   "titulo": "Informe de Auditoría al Registro Civil desde 1929 al 2007: palabras del doctor Roberto Rosario Márquez, presidente de la Junta Central Electoral, en la presentación de los resultados (26 de mayo de 2015)",
+   "autor": "Rosario Márquez, Roberto (presidente de la Junta Central Electoral)",
+   "anio": "2015",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/Proyecto-ETLA/Evolucion/informe-auditoria-registro-civil-1929-2007-tc0168-13-ley169-14",
+   "urls_alternativas": [
+    "https://jce.gob.do/Registro-Civil/Auditoria-Consulta-Registros-Ley-169-14-TC0168-13 (página de consulta con los listados y la presentación)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto oficial del discurso del presidente del órgano auditor; es la fuente de primera mano de las cifras de la auditoría, pero el discurso mezcla datos con polémica política y no trae las tablas.",
+   "proveniencia": "Discurso del presidente de la JCE el 26-V-2015 al presentar los resultados de la auditoría ordenada por el dispositivo quinto de TC/0168/13 y regulada por la Ley 169-14; la JCE ejecuta la parte a) de la ley (hijos de extranjeros no residentes inscritos en el Registro Civil entre el 16-VI-1929 y el 18-IV-2007). Es la fuente que M16-N154 (Diario Libre) y la CIDH 2015 citaban de segunda mano; el informe técnico completo no se localizó.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'En esta enorme labor...' (sección de resultados)",
+     "cita_original": "En esta enorme labor inventariamos 116 mil 506 libros, que tienen 16 millones, 748 mil 568 folios contentivos de la historia registral de República Dominicana durante esos años.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente",
+     "cita_original": "53 mil 827 libros, que a su vez recogen 10 millones 321 mil 799 folios, dieron lugar a expedientes de personas a revisar",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Se calcula en 779 mil 40 horas hombres...'",
+     "cita_original": "apenas representaron el 0.58%",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'El hecho de que alrededor de 53 mil expedientes...'",
+     "cita_original": "alrededor de 53 mil expedientes que identifican personas hayan sido autorizados en su expedición y en su transcripción",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "118 nacionalidades, el resultado definitivo solo toca a 103 nacionalidades",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Llamo vuestra atención...'",
+     "cita_original": "de la totalidad de los expedientes trabajados, el 68.45% está relacionado con la República de Haití; el 3.93%, con los Estados Unidos de América; el 2.84% con España; el 1.98% con la República China",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213",
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'La inmensa mayoría de estos expedientes...'",
+     "cita_original": "apenas 132 expedientes de los trabajados, darán lugar a un apoderamiento de la justicia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre los dos instrumentos complementarios",
+     "cita_original": "la falsa percepción de racismo, discriminación y riesgo de apatridia, ha sido neutralizada.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214",
+    "A-215",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (cifras de la JCE): 116.506 libros y 16.748.568 folios inventariados; 53.827 libros (10.321.799 folios) con expedientes por revisar; hallazgos irregulares 0,58 % de los folios; 'alrededor de 53 mil' expedientes autorizados y transcritos; 103 nacionalidades; 68,45 % de los expedientes vinculados a Haití (3,93 % EE. UU., 2,84 % España, 1,98 % China); 132 expedientes a la justicia. CORRECCIÓN AL REGISTRO (A-214): la cifra '53.847' ni '24.392 de padres haitianos' aparece en este discurso; lo que sí dice la JCE es que 53.827 es el número de LIBROS y no de personas, y que el 68,45 % de los expedientes está relacionado con Haití sin dar el número absoluto ni la base exacta (si es el 68,45 % de los ~53.000 autorizados/transcritos, serían ~36.000, cálculo mío; no lo afirma la JCE). Ver también el conteo propio sobre el listado nominal por estatus (entrada siguiente de esta ronda). SEPARAR: (1) hecho: lo que la JCE contó; (2) interpretación (A-215): el presidente de la JCE presenta la sentencia y la ley como 'reforma migratoria... inclusiva' y las críticas como 'falsa percepción', y atribuye el problema del subregistro a la 'ineficiencia administrativa generalizada' que afectó 'a todos por igual', tesis contraria a la de la CIDH ('privación arbitraria y retroactiva'); (3) significado: el mismo discurso describe a Haití como país con 'escasa, o ninguna, presencia de Estado' y a las ONG como lobby, lenguaje que es parte del relato dominicano estatal. No dice cuántos de los beneficiarios han retirado documentos. Fecha 26-V-2015 (la página muestra 'Tuesday, May 26, 2015')."
+  },
+  {
+   "titulo": "JCE revela nombres de primeros 1,300 beneficiarios Auditoría Registro Civil por Ley 169-14 (nota de prensa institucional, 25 de agosto de 2014)",
+   "autor": "Junta Central Electoral, Dirección de Comunicaciones",
+   "anio": "2014",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/Proyecto-ETLA/Evolucion/jce-revela-nombres-de-primeros-1300-beneficiarios-auditoria-registro-civil-por-ley-169-14",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comunicado de la JCE, primera fuente del procedimiento de la parte A (primeros listados), con la voz oficial sobre qué hace y qué no hace la JCE.",
+   "proveniencia": "Nota del 25-VIII-2014, tres meses después de la ley, cuando la JCE publicó los primeros 1.300 nombres de 'beneficiarios' de la Ley 169-14 y rechazó entregar de inmediato las actas a quienes no habían pasado la auditoría; cita el art. 1, el art. 2 y el 'Considerando Sexto' de la ley.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "La Junta Central Electoral divulgó los nombres de más de 1,300 personas que resultaron ser los primeros beneficiarios de la Ley 169-14 y de la Sentencia 168-13 del Tribunal Constitucional",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5 (cita del art. 2 de la ley)",
+     "cita_original": "la Junta Central Electoral los acreditará como nacionales dominicanos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-215",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: primeros 1.300 nombres el 25-VIII-2014; la ley se promulgó el 23-V-2014 (la nota y el Decreto 250-14 dicen '23 de mayo'; el registro A-218 decía '22 de mayo': el Congreso la aprobó el 16-V (Cámara) y el 21-V (Senado) según la copia del Senado, ver F-0062). INTERPRETACIÓN (A-215): la JCE se presenta como ejecutora estricta de la ley y define al beneficiario como quien 'resultare debidamente identificado' por la auditoría; la ley califica la situación como 'deficiencia del Estado dominicano que perduró en el tiempo' (considerando citado), lo que es una lectura distinta de 'regularización de un problema de registro de extranjeros'. La fecha viene del encabezado de la página (Monday, August 25, 2014)."
+  },
+  {
+   "titulo": "Presidente JCE exhorta a beneficiarios Ley 169/14 aprovechar asuetos Navidad y Año Nuevo para obtener sus documentos de identidad (23 de diciembre de 2015)",
+   "autor": "Junta Central Electoral, Dirección de Comunicaciones (Lic. Félix Reyna)",
+   "anio": "2015",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/Proyecto-ETLA/Evolucion/presidente-jce-exhorta-beneficiarios-ley-169-14-aprovechar-asuetos-navidad-y-ano-nuevo-obtener-documentos-identidad",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comunicado institucional; da una cifra redonda ('más de 55 mil') sin desglose.",
+   "proveniencia": "Nota de prensa de la JCE dirigida a los beneficiarios que aún no habían retirado documentos y que querían votar el 15-V-2016.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "las más de 55 mil personas que fueron beneficiadas por la Ley 169/14 del Congreso Nacional",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: a fines de 2015 la JCE habla de 'más de 55 mil' beneficiarios del literal a); la CIDH 2017 da 61.049 (septiembre de 2017) y la CIDH 2018, 61.132. La serie de totales del Grupo A (54.307 en junio de 2015 según el Departamento de Estado; 55.000 según la JCE en 2015; 61.049; 61.132; 61.284; 61.229; 60.773) cambia con cada fecha de corte, lo que la sociedad civil criticó ante la CIDH (IA 2019, párr. 24). No dice cuántos retiraron documentos."
+  },
+  {
+   "titulo": "Junta Central Electoral, Auditoría al Registro Civil 1929-2007: 'Listado por Estatus' (AuditoriaRC_Estatus.pdf, impreso el 24 de junio de 2015, 1.994 páginas)",
+   "autor": "Junta Central Electoral de la República Dominicana",
+   "anio": "2015",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/web/pdf/AuditoriaRC_Estatus.pdf",
+   "urls_alternativas": [
+    "https://jce.gob.do/web/pdf/AuditoriaRC_Municipio.pdf (mismos datos ordenados por municipio, 2.071 páginas)",
+    "https://jce.gob.do/web/pdf/EstatusDemandasNulidadActasLey169-2014.pdf (7 páginas; generado el 1-VI-2015 desde 'Actas demandadas en Nulidad.xlsx'; sin conteo)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Listado nominal oficial de la JCE con nacionalidad del padre y de la madre registrada en el acta, pero sin totales ni explicación de campos; mis conteos son un cálculo propio sobre texto con coordenadas.",
+   "proveniencia": "Anexo de la presentación del 26-V-2015: lista, por estatus ('Autorizado' en las pp. 1-1002, 'Transcripción' desde la p. 1003), a las personas halladas por la auditoría ordenada por TC/0168/13, con columnas Inscrito, Evento de nacimiento, Municipio, Oficialía, Libro, Año, Folio, Acta, Nac. Padre y Nac. Madre. Contiene datos personales: NO se reproducen nombres; solo se informan agregados.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, cabecera de columnas",
+     "cita_original": "Inscrito Evento de Nacimiento Municipio Ofi. Libro Ano Folio Acta Nac. Padre Nac. Madre",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, título",
+     "cita_original": "Listado por Estatus",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "CONTEO PROPIO (PyMuPDF sobre el texto con coordenadas; una fila = un registro con datos en las columnas; sin reproducir nombres). Sección 'Autorizado' (pp. 1-1002): 27.043 filas; con padre o madre haitianos 17.866; ambos haitianos 13.927; solo madre haitiana 2.640; solo padre haitiano 1.299; sin dato de nacionalidad de ninguno 1.107. Sección 'Transcripción' (pp. 1003-1994): 26.780 filas; con padre o madre haitianos 21.433; ambos 12.112; solo madre 8.793; solo padre 528; sin dato 792. TOTAL: 53.823 filas; 39.299 (73,0 %) con padre o madre haitianos; 26.039 con ambos; 11.433 solo madre; 1.827 solo padre. Cotejo: el conteo con expresión regular de la ronda 1 sobre AuditoriaRC_Autorizados_Transcritos.pdf (M16-N201) dio 53.845 números de registro (27.055 + 26.790): la diferencia (22 filas, 0,04 %) cabe dentro del error de mi detección de filas. LECTURA: (1) la lista no contiene las cifras '53.847' ni '24.392 de padres haitianos' del registro A-214: ninguna de mis cifras parciales (ambos 26.039; padre haitiano 27.866; madre haitiana 37.472) es 24.392; (2) el 73 % es una proporción sobre el listado de autorizados y transcritos, no sobre los 60.089 'hallazgos' (JCE a El Día) ni sobre 'la totalidad de los expedientes trabajados' (68,45 % según el discurso del presidente): bases distintas, no concilio; (3) 'Nac. Padre/Madre' registra lo que dice el acta, no la nacionalidad efectiva de la persona; 'No Especificada' es frecuente (p. ej. padre en 8.965 transcritos) y muchas personas figuran solo por la nacionalidad de la madre; (4) el listado no distingue personas nacidas antes y después de 1929/2007 ni dice quién retiró su documento. Estas cifras describen a los inscritos que la JCE auditó; NO son la cifra de 'afectados por TC/0168/13' (A-213: >200.000, CIDH), que se calcula sobre otra población. Cabecera generada el 24-VI-2015 ('miércoles, 24 de junio de 2015')."
+  },
+  {
+   "titulo": "Decreto núm. 250-14, Reglamento de aplicación de la Ley núm. 169-14 (vista previa parcial en vLex República Dominicana: considerandos y arts. 1-3)",
+   "autor": "Medina Sánchez, Danilo (Presidente de la República Dominicana)",
+   "anio": "2014",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://do.vlex.com/vid/reglamento-aplicacion-ley-num-584493286",
+   "urls_alternativas": [
+    "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/101182/Decreto%20250-14%20REP%20DOMINICANA.pdf (PDF completo; curl y WebFetch devolvieron HTTP 403; el navegador recibió una descarga y no abrió la página: fallo-fetch, no confirmado)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto oficial reproducido por un editor jurídico comercial con muro de pago: se leyó solo la vista previa (considerandos y arts. 1 a 3); la fecha del decreto difiere entre los repositorios.",
+   "proveniencia": "Reglamento dictado por el Poder Ejecutivo en cumplimiento del art. 12 de la Ley 169-14 (plazo de 60 días): fija estructura administrativa y procedimiento para los capítulos II y III (registro de hijos de extranjeros no inscritos, la parte B, y su naturalización). Publicado en la Gaceta Oficial [número POR VERIFICAR]; los considerandos citan la Ley 169-14 'del 23 de mayo de 2014' (Gaceta Oficial 10756) y el Decreto 327-13 (Gaceta Oficial 10737).",
+   "extractos": [
+    {
+     "ubicacion": "considerando primero",
+     "cita_original": "Que la Ley Nº.169-14 del 23 de mayo de 2014, la cual establece un régimen especial para personas nacidas en el territorio nacional inscritas irregularmente en el registro civil dominicano y sobre naturalización, dispone en su artículo 12 que el Poder Ejecutivo dictará el reglamento de aplicación",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "art. 3 (plazo)",
+     "cita_original": "Las personas sujetas al ámbito de aplicación de este reglamento para acogerse a los beneficios de lo dispuesto en los Capítulos II y III de la Ley Nº. 169-14, deberán radicar su solicitud dentro de los noventa (90) días de la entrada en vigencia del presente reglamento.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el reglamento (Decreto 250-14) abre un plazo de 90 días para la parte B; el MIP 2015 y la CIDH 2018 (párr. 31) hablan de dos períodos de 90 días y del mismo total de 8.755 solicitudes. FECHA: vLex indica 'Fecha 01 Julio 2014'; NATLEX (resultado de búsqueda, no abierto) indica 'de 23 de julio de 2014' y publicación en Gaceta Oficial del 23-VII-2014: [POR VERIFICAR] cuál es la fecha del decreto y cuál la de su publicación. No se leyeron los arts. 4 en adelante (procedimiento, declaración de interés, naturalización). Los considerandos fijan la fecha de la ley en el 23-V-2014 (no 22)."
+  },
+  {
+   "titulo": "Ley núm. 169-14 que establece un régimen especial para personas nacidas en el territorio nacional inscritas irregularmente en el Registro Civil dominicano y sobre naturalización: copia del Senado (Memoria Histórica), texto sancionado por la Cámara de Diputados (16-V-2014) y el Senado (21-V-2014)",
+   "autor": "Congreso Nacional de la República Dominicana (Cámara de Diputados y Senado)",
+   "anio": "2014",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/77cf83de-5174-4005-8898-14096d02720f/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/bitstreams/ca55db07-9d8c-472f-bb44-09867e2cca5a/download (misma ley sin la página de firma del Senado)",
+    "https://transparencia.poderjudicial.gob.do/documentos/PDF/leyes/LEY_ley_no._169_14.pdf (copia resuelta en la ronda 1)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto de la ley tal como lo sancionó el Congreso, alojado por el propio Senado; la promulgación (23-V-2014) y la Gaceta Oficial 10756 se citan en el reglamento y en la JCE.",
+   "proveniencia": "Ley de 13 artículos aprobada por la Cámara de Diputados el 16-V-2014 (firma Abel Martínez Durán) y por el Senado el 21-V-2014 (firma Reinaldo Pared Pérez); promulgada por el Poder Ejecutivo el 23-V-2014 según el Decreto 250-14 y la JCE. Los 'considerandos' y los 'vistos' fijan el marco legal (Constitución de 2010, Ley 1227 de 1929, Ley 165 de 1931, Ley 659 de 1944, Ley 1683 de 1948, Ley 107-13). 10 páginas.",
+   "extractos": [
+    {
+     "ubicacion": "art. 1, literal a)",
+     "cita_original": "Esta ley tiene por objeto exclusivo establecer: a) un régimen especial en beneficio de hijos de padres y madres extranjeros no residentes nacidos en el territorio nacional durante el período comprendido entre el 16 de junio de 1929 al 18 de abril de 2007",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "art. 1, literal a) (continuación)",
+     "cita_original": "inscritos en los libros del Registro Civil dominicano en base a documentos no reconocidos por las normas vigentes para esos fines al momento de la inscripción",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "art. 1, literal b)",
+     "cita_original": "el registro de hijos de padres extranjeros en situación irregular nacidos en la República Dominicana y que no figuran inscritos en el Registro Civil.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "art. 2",
+     "cita_original": "Subsanada la referida irregularidad en virtud de esta ley, la Junta Central Electoral los acreditará como nacionales dominicanos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "art. 12",
+     "cita_original": "El Poder Ejecutivo dictará el reglamento de aplicación de lo dispuesto en los capítulos II y III de esta ley en un plazo no mayor de sesenta (60) días a partir de la fecha de su promulgación",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "cierre, fecha de sanción del Senado",
+     "cita_original": "a los veintiún (21) días del mes de mayo del año dos mil catorce (2014)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-215",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "F-0062",
+   "notas": "RESUELVE F-0062 (registro: no-localizada; la ronda 1 ya había hallado la copia del Poder Judicial). HECHO: la ley no usa los rótulos 'Grupo A' y 'Grupo B': esos nombres son de la CIDH, la sociedad civil y el Departamento de Estado para el literal a) y el literal b) del art. 1; el literal a) (JCE, regularizar y/o transcribir) beneficia a inscritos entre el 16-VI-1929 y el 18-IV-2007 y el b) (MIP, registro y regularización migratoria, luego naturalización) a nacidos no inscritos. FECHAS: la Cámara 16-V-2014; el Senado 21-V-2014; promulgación 23-V-2014 (según el Decreto 250-14 y la JCE): el '22 de mayo' del registro A-218 no coincide con ninguna. INTERPRETACIÓN: la ley dice que la JCE 'acreditará' como nacionales dominicanos a los del literal a); la CIDH lee esa operación como 'restitución del estatus anterior a TC/0168/13' (comunicado 232/23) y la JCE como 'regularización'; el art. 2 sostiene ambas lecturas. La CIDH 2017 escribe '21 de junio de 1929' como inicio del período de la auditoría (pp. 891-892), la ley '16 de junio de 1929': discrepancia menor de la CIDH."
+  },
+  {
+   "titulo": "CIDH, Informe Anual 2017, Capítulo V: Seguimiento de recomendaciones formuladas por la CIDH con relación a la situación de derechos humanos en República Dominicana",
+   "autor": "Comisión Interamericana de Derechos Humanos (CIDH)",
+   "anio": "2017",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/es/cidh/docs/anual/2017/docs/IA2017cap.5RD-es.pdf",
+   "urls_alternativas": [
+    "https://www.refworld.org/es/ref/inforanual/cidh/2018/es/127472 (ficha de Refworld, no abierta)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial de un órgano de la OEA tras visita de trabajo (noviembre de 2017) con tablas de la JCE y respuestas del Estado reproducidas; la CIDH es parte crítica del Estado dominicano y lo declara.",
+   "proveniencia": "Capítulo V de seguimiento a las recomendaciones del informe de país de 2015 y del cap. IV del Informe Anual 2016, con una visita de trabajo en noviembre de 2017 (párr. 57). Reproduce estadísticas oficiales de la JCE por categoría (septiembre de 2017) y del Estado sobre la parte B de la Ley 169-14 (noviembre de 2017). El PDF se obtuvo con WebFetch (que lo guarda como binario) y se extrajo con pdftotext; no hubo acceso con curl (oas.org redirige a 'wearesorry.htm' desde esta IP). Las páginas citadas son las del propio capítulo en el Informe Anual (empieza en la p. 884).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 26, p. 891",
+     "cita_original": "al finalizar la auditoría que comprendió desde el 21 de junio de 1929 al 18 de abril de 2007, la Junta Central Electoral determinó que un total de 61,049 personas habían sido inscritas de forma irregular en el Registro Civil dominicano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213",
+      "A-214",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 30, p. 892 (tabla de la JCE a septiembre de 2017)",
+     "cita_original": "Autorizados 29,392 48.14% Transcripción realizada 27,249 44.63% Mayor investigación 3,825 6.27% Reconstrucción 556 0.91% Declaración anulada 27 0.04% 61,049 100.00%",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 32, p. 893 (explicación del Estado)",
+     "cita_original": "se han expedido 20.872 actas correspondientes a estas personas y 19.521 cédulas están hábiles para ser solicitadas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 33, p. 893 (sociedad civil)",
+     "cita_original": "aún no había sido posible determinar el número de personas del Grupo A que han podido acceder a sus documentos de identidad dominicanos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 44, p. 895 (parte B, informe del Estado)",
+     "cita_original": "de las 8.755 personas que se registraron en el período establecido por la ley, 6.793 expedientes fueron remitidos a la Junta Central Electoral por el Ministerio del Interior y Policía",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 56, p. 899",
+     "cita_original": "en el marco de este plan se inscribieron 288.486 personas, de las cuales 239,956 obtuvieron una respuesta positiva a su solicitud de regularización",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHOS con cifras de la JCE y del Estado (la CIDH no las verifica): Grupo A, 61.049 personas a septiembre de 2017 (29.392 autorizados, 27.249 transcritos, 3.825 'mayor investigación', 556 en reconstrucción, 27 anuladas); otra tabla del mismo informe parte de 61.036 expedientes (el Estado explica la diferencia de 13 en el párr. 32); actas expedidas 20.872 y cédulas hábiles 19.521 (párr. 31-32, a noviembre de 2017); parte B: 8.755 inscritos, 6.793 expedientes enviados a la JCE, 4.442 cédulas expedidas y 5.401 actas y carnés entregados a noviembre de 2017 (párr. 44); PNRE: 288.486 inscritos (el MIP escribe 288.466) y 239.956 con respuesta positiva. NO aparecen aquí '13.495 cédulas' ni '8.975'. INTERPRETACIÓN que sostiene la CIDH: la Ley 169-14 es un avance pero deja a las personas del Grupo B 'en el mayor grado de vulnerabilidad' (IA 2018). El texto escribe '21 de junio de 1929' para el inicio del período de la auditoría; la ley dice 16 de junio (discrepancia menor de la CIDH). La CIDH escribe 'Grupo A'/'Grupo B' entre comillas como rótulos propios."
+  },
+  {
+   "titulo": "CIDH, Informe Anual 2018, Capítulo V: Seguimiento de recomendaciones formuladas por la CIDH con base en la Mesa de Trabajo sobre Implementación de Políticas de Derechos Humanos en República Dominicana",
+   "autor": "Comisión Interamericana de Derechos Humanos (CIDH)",
+   "anio": "2018",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/es/cidh/docs/anual/2018/docs/IA2018cap.5RD-es.pdf",
+   "urls_alternativas": [
+    "https://www.oas.org/en/iachr/docs/annual/2018/docs/IA2018cap.5DR-en.pdf (versión inglesa, no abierta)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial de la CIDH basado en dos mesas de trabajo con el Estado y la sociedad civil (julio y noviembre de 2018), con las cifras de cada parte atribuidas a su fuente.",
+   "proveniencia": "Resume la primera (24-25 de julio de 2018) y la segunda mesa de trabajo (20-21 de noviembre de 2018) en la sede de la OEA; atribuye cada cifra al Estado ('el Estado indicó') o a la sociedad civil. El PDF se obtuvo con WebFetch (que lo guarda como binario) y se extrajo con pdftotext; no hubo acceso con curl (oas.org redirige a 'wearesorry.htm' desde esta IP).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 14, p. 758 (Estado, primera mesa)",
+     "cita_original": "se encontraban disponibles en la Junta Central Electoral 59,881 actas de nacimiento, y que había expedido 21,454 actas de nacimiento y 23,723 cédulas de identidad y electoral",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 18, p. 759 (Estado, segunda mesa)",
+     "cita_original": "el Estado indicó que la totalidad del Grupo A es de 61,132 personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 31, p. 762 (Estado)",
+     "cita_original": "durante el segundo período se recibieron 8,768 solicitudes, de las cuales 6,571 cumplieron con los requisitos mínimos que se exigían",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 33, p. 763 (Estado)",
+     "cita_original": "el 23 de octubre de 2018 inició un proceso de entrega de carnet para las 6,584 personas que fueron favorecidas por la letra B de la Ley No. 169-14",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 35, p. 763 (sociedad civil)",
+     "cita_original": "de las 110,000 a 145,000 personas que el Ministerio del Interior y de Policía estimó que podrían beneficiarse de la Ley No. 169-14, sólo 8,755 personas se inscribieron en el PNRE",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 49, p. 766 (Estado)",
+     "cita_original": "se presentaron unas 288,400 personas extranjeras. Entre ellas, más de 260,000 personas cumplieron con los requisitos para acceder a un estatus migratorio regular",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHOS atribuidos: Estado: Grupo A = 61.132 personas; parte B: 8.768 solicitudes (el Estado) frente a 8.755 (MIP 2015, CIDH 2017, sociedad civil: variante de 13 solicitudes) y 6.571 (párr. 31) o 6.584 (párr. 33) con residencia permanente, de las cuales 2.236 se habían presentado a recibirla; PNRE: unas 288.400 presentadas, más de 260.000 con requisitos, 249.768 expedientes aprobados (el MIP 2016 dice 249.968). Sociedad civil: el MIP estimó entre 110.000 y 145.000 potenciales beneficiarios de la parte B (cifra que la CIDH atribuye a MIP vía sociedad civil, sin documento del MIP) y solo 8.755 se inscribieron; 10.263 más cumplen el perfil y no se inscribieron. INTERPRETACIÓN de la CIDH (párr. 37): la parte B queda 'en mayor grado de vulnerabilidad' y 'permanece apátrida' mientras no accede a la nacionalidad. El mismo capítulo da 6.571 (párr. 31) y 6.584 (párr. 33) como favorecidos de la letra B, y la serie del Estado no es estable entre mesas (8.755 / 8.768 solicitudes); ninguna fuente leída da '13.495' ni '8.975'. Fecha de aprobación del capítulo: Informe Anual 2018 (publicado 2019) [POR VERIFICAR la fecha exacta]."
+  },
+  {
+   "titulo": "IACHR, Annual Report 2019, Chapter V: Follow-up of recommendations formulated by the IACHR through the Working Group on Implementation of Human Rights Policies in the Dominican Republic",
+   "autor": "Inter-American Commission on Human Rights (IACHR)",
+   "anio": "2019",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/en/iachr/docs/annual/2019/docs/IA2019cap5RD-en.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial de la CIDH con los datos del Estado respondiendo al borrador del capítulo y las críticas de la sociedad civil sobre las variaciones de cifras.",
+   "proveniencia": "Recoge la información de la Mesa de Trabajo de 2019 y las 'observaciones del Estado al proyecto de informe' (respuesta al cuestionario del 6-XI-2019, nota 6). No se buscaron capítulos posteriores (2020-2024). El PDF se obtuvo con WebFetch (que lo guarda como binario) y se extrajo con pdftotext; no hubo acceso con curl (oas.org redirige a 'wearesorry.htm' desde esta IP).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 14, p. 778",
+     "cita_original": "a total of approximately 55,000 people of 103 nationalities",
+     "traduccion": "un total de unas 55.000 personas de 103 nacionalidades",
+     "afirmaciones": [
+      "A-214",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 14, p. 778",
+     "cita_original": "24,890 authorized; 27,735 to be transcribe; pending an amount of 3,599 cases",
+     "traduccion": "24.890 autorizados; 27.735 por transcribir; 3.599 casos pendientes",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 15, p. 778",
+     "cita_original": "the JCE has processed 61,284 cases of persons; Of these, 97.96% have authorized, transcribed or excluded status.",
+     "traduccion": "la JCE ha procesado 61.284 casos de personas; de ellos, el 97,96 % tiene estatus autorizado, transcrito o excluido.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 24, p. 780 (sociedad civil)",
+     "cita_original": "they reported 55,000 minutes in 2015, a total of 61,049 in 2018, and 61,229 in May 2019",
+     "traduccion": "informaron de 55.000 actas en 2015, un total de 61.049 en 2018 y 61.229 en mayo de 2019",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 39, p. 783 (Grupo B)",
+     "cita_original": "6,559 records of the 8,755 records of people who accepted the National Plan for the Regularization of Foreigners",
+     "traduccion": "6.559 expedientes de los 8.755 de personas que se acogieron al Plan Nacional de Regularización de Extranjeros",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 37, p. 783 (Estado)",
+     "cita_original": "only 751 had done so, including 464 children and adolescents",
+     "traduccion": "solo 751 lo habían hecho, entre ellos 464 niños, niñas y adolescentes",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-214",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHOS atribuidos al Estado (respuesta al borrador): auditoría de 21-VI-1929 a 18-IV-2007 con 'unas 55.000 personas de 103 nacionalidades' y desglose 24.890 / 27.735 / 3.599; el Estado da dos totales distintos en el mismo documento (55.000 en el párr. 14 y 61.284 en el párr. 15), y la CIDH recoge 61.132 en el párr. 24: la sociedad civil enumera 55.000 (2015), 61.049 (2018) y 61.229 (mayo de 2019) y se queja de que 'las cifras de la auditoría de referencia siguen variando'. Parte B (párr. 39): 6.559 expedientes aprobados por el MIP de 8.755; 3.928 personas del Grupo B con documento de la JCE; 2.782 residencias permanentes; 1.404 solicitudes de naturalización (todo atribuido al Estado). La palabra 'minutes' del texto inglés es una errata de traducción por 'actas' [mi lectura]. El Estado da 6.535 expedientes de la parte B enviados a la JCE en su respuesta (párr. 16) y 6.533 en el párr. 37. Sesgo: capítulo de seguimiento de una CIDH crítica del Estado; el Estado no firma el texto."
+  },
+  {
+   "titulo": "República Dominicana: CIDH insta al Estado a erradicar la apatridia (comunicado de prensa 232/23, 29 de septiembre de 2023)",
+   "autor": "Comisión Interamericana de Derechos Humanos (CIDH), Oficina de Prensa",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.oas.org/es/cidh/prensa/comunicados/2023/232.asp",
+   "urls_alternativas": [
+    "https://www.oas.org/es/cidh/jsForm/?File=/es/cidh/prensa/comunicados/2023/232.asp (URL final tras la redirección)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado oficial de un órgano de la OEA, con cifras atribuidas al Estado y a la sociedad civil.",
+   "proveniencia": "Emitido a los diez años de TC/0168/13. Atribuye al Estado las cifras de restitución y retiro de documentos del Grupo A y del PNRE para el Grupo B, y a la sociedad civil las de documentos pendientes.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "TC/0168/13, de República Dominicana que resultó en la privación arbitraria de nacionalidad dominicana a un número considerable de personas y dejó apátridas a quienes no eran consideradas nacionales de ningún otro Estado",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213",
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "en aplicación de la Ley 169-14 se restituyó el estatus jurídico anterior a la sentencia TC/0168/13 y se ordenó expedirles sus documentos como dominicanos a 60.773 personas identificadas por la Junta Central Electoral (JCE).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "solamente 26.123 personas acudieron a retirar sus documentos, mientras que las restantes 34.610 personas no se habían presentado a retirar dichos documentos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "se emitieron decretos presidenciales de naturalización 262-20 y 297-21 que otorgaron la naturalización a 799 personas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4 (sociedad civil)",
+     "cita_original": "más de 34 mil personas no han recuperado sus documentos de identidad dominicanos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-217",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (cifras que la CIDH atribuye al Estado): personas del art. 1 a) de la ley ('Grupo A' en otros textos): 60.773 identificadas por la JCE, de las cuales 26.123 retiraron documentos y 34.610 no (suma exacta: 60.733, no 60.773: 26.123 + 34.610 = 60.733; la diferencia de 40 puede ser errata del comunicado o de la fuente); parte b) ('Grupo B' en otros textos): 7.159 personas aprobadas en el PNRE y 799 naturalizadas por los decretos 262-20 y 297-21, más unas 1.000 'a la espera' según la sociedad civil. El departamento de Estado de EE. UU. coincide en 26.000 documentos entregados y 34.000 pendientes (2022). El comunicado NO repite la cifra de '>200.000 afectados' (A-213) ni da ninguna cifra total de afectados: habla de 'un número considerable'; las cifras anteriores (CIDH 2015, párr. 228) quedan sin base de cálculo declarada (ver M16-N137). INTERPRETACIÓN de la CIDH (A-217): 'privación arbitraria de nacionalidad' y 'revocación' con efecto retroactivo, apatridia intergeneracional; la lectura contraria del Estado (A-215/A-216) no figura en el comunicado. Fecha 29-IX-2023, No. 232/23."
+  },
+  {
+   "titulo": "U.S. Department of State, Country Reports on Human Rights Practices for 2016: Dominican Republic",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2016",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://2021-2025.state.gov/reports/2016-country-reports-on-human-rights-practices/dominican-republic",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de un gobierno tercero; las cifras son del Estado dominicano o de ONG, citadas sin cotejo; el Departamento de Estado es parte interesada en la relación con ambos países.",
+   "proveniencia": "Informe anual de derechos humanos del Departamento de Estado de EE. UU. sobre 2016 (publicado en 2017 [POR VERIFICAR fecha]); sección sobre apatridia con los números de la JCE y del PNRE. Se leyeron solo los párrafos sobre la Ley 169-14.",
+   "extractos": [
+    {
+     "ubicacion": "sección de personas apátridas (primer párrafo sobre la ley)",
+     "cita_original": "Based on an audit of the national civil registry archives, that population was estimated to total 60,000.",
+     "traduccion": "Según una auditoría de los archivos del registro civil nacional, esa población se estimaba en 60.000.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "including an estimated 45,000-75,000 undocumented persons, predominantly of Haitian descent (Group B)",
+     "traduccion": "incluidas unas 45.000-75.000 personas indocumentadas, predominantemente de ascendencia haitiana (Grupo B)",
+     "afirmaciones": [
+      "A-213",
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "párrafo siguiente",
+     "cita_original": "In June 2015 the civil registry (known as the Central Electoral Board or JCE) announced it had transferred the civil records of the 54,307 individuals identified in Group A to a separate civil registry book and annulled their original civil registrations.",
+     "traduccion": "En junio de 2015 el registro civil (la JCE) anunció que había transferido los registros civiles de las 54.307 personas identificadas en el Grupo A a un libro separado y anulado sus inscripciones originales.",
+     "afirmaciones": [
+      "A-214",
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO atribuido: Grupo A estimado en 60.000 (auditoría), 54.307 a junio de 2015; Grupo B estimado entre 45.000 y 75.000 (el informe de 2015, M16-N139, dio 55.000-80.000; la CIDH 2018, 110.000-145.000 atribuidos al MIP: estimaciones divergentes sin base trazable). Corrige el registro A-218 ('61.000'): en 2016 el Departamento de Estado da 60.000. El mismo informe dice que 'la gran mayoría' de las personas de la lista eran de ascendencia haitiana; coincide en dirección con el 68,45 % (JCE) y mi 73 % sobre el listado nominal, sin ser independiente de ellos."
+  },
+  {
+   "titulo": "U.S. Department of State, Country Reports on Human Rights Practices for 2021: Dominican Republic",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2021",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.state.gov/reports/2021-country-reports-on-human-rights-practices/dominican-republic/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de un gobierno tercero que cita cifras del Estado dominicano y de ONG sin cotejo.",
+   "proveniencia": "Informe de derechos humanos sobre 2021 (publicado en 2022 [POR VERIFICAR fecha]). Se leyeron solo los tres párrafos sobre los Grupos A y B.",
+   "extractos": [
+    {
+     "ubicacion": "sección de personas apátridas",
+     "cita_original": "the government identified and then issued birth certificates and national identity documents to approximately 26,000 individuals in 2014 and later that year identified an additional 34,900 individuals as potentially being part of Group A.",
+     "traduccion": "el gobierno identificó y luego expidió actas de nacimiento y documentos de identidad a unas 26.000 personas en 2014 y más tarde ese año identificó a otras 34.900 como posibles integrantes del Grupo A.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "sección de personas apátridas",
+     "cita_original": "In July 2020 the outgoing government approved the naturalization of 750 individuals, most of whom were minors who were stripped of their citizenship by the 2013 Constitutional Tribunal ruling and who were known as Group B.",
+     "traduccion": "En julio de 2020 el gobierno saliente aprobó la naturalización de 750 personas, la mayoría menores a quienes la sentencia del Tribunal Constitucional de 2013 había privado de la ciudadanía y que se conocían como Grupo B.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO atribuido: unas 26.000 personas del Grupo A con documentos y 34.900 más 'identificadas' sin documento a octubre de 2021; 750 naturalizaciones del Grupo B en julio de 2020 y 50 más en mayo de 2021 (800 en total; el informe de 2022 dice 749 + 50 = 799; la CIDH 2023: decretos 262-20 y 297-21 = 799). La frase sitúa la entrega de las 26.000 'en 2014', pero la CIDH 2017 y 2018 muestran una expedición posterior (20.872 actas a noviembre de 2017; 21.454 actas y 23.723 cédulas a julio de 2018): [POR VERIFICAR el sentido de la frase]. Sesgo: informe de parte interesada."
+  },
+  {
+   "titulo": "U.S. Department of State, 2022 Country Reports on Human Rights Practices: Dominican Republic (sección 2.g, Stateless Persons)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2022",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.state.gov/reports/2022-country-reports-on-human-rights-practices/dominican-republic",
+   "urls_alternativas": [
+    "https://www.state.gov/wp-content/uploads/2023/03/415610_DOMINICAN-REPUBLIC-2022-HUMAN-RIGHTS-REPORT.pdf (PDF; curl devolvió HTTP 403, no abierto)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de un gobierno tercero; cifras de la JCE, del MIP y de 'observadores', con una estimación propia de 'más de 100.000' sin base declarada.",
+   "proveniencia": "Informe sobre 2022 (la ruta del PDF indica marzo de 2023). La sección 2.g, 'Stateless Persons', resume TC/0168/13 y los resultados de la Ley 169-14, y es la que usa la cifra de 'más de 100.000' desnacionalizados.",
+   "extractos": [
+    {
+     "ubicacion": "sección 2.g, párr. 1",
+     "cita_original": "One effect was to retroactively strip citizenship from more than 100,000 persons, mostly the children of undocumented Haitian migrants",
+     "traduccion": "Un efecto fue privar retroactivamente de la ciudadanía a más de 100.000 personas, en su mayoría hijos de migrantes haitianos indocumentados",
+     "afirmaciones": [
+      "A-213"
+     ]
+    },
+    {
+     "ubicacion": "sección 2.g, párr. sobre el Grupo A",
+     "cita_original": "The Central Electoral Board (JCE) issued birth certificates and national identity documents to approximately 26,000 individuals, leaving 34,000 eligible Group A beneficiaries who did not receive national identity documents.",
+     "traduccion": "La JCE expidió actas de nacimiento y documentos de identidad a unas 26.000 personas, dejando a 34.000 beneficiarios elegibles del Grupo A sin documentos de identidad.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "sección 2.g, párr. sobre el Grupo B",
+     "cita_original": "According to observers, approximately 7,000 stateless individuals falling under the Group B profile who registered with the government under the PNRE and were on track for naturalization after a two-year residency period had since seen their documents expire.",
+     "traduccion": "Según los observadores, unas 7.000 personas apátridas con el perfil del Grupo B, inscritas en el PNRE y en camino de naturalizarse tras dos años de residencia, habían visto expirar sus documentos.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    },
+    {
+     "ubicacion": "sección 2.g, último párrafo",
+     "cita_original": "As of December, there was no way for this second group of an estimated 23,000 persons, known as Group B2, to register as foreigners or secure Dominican nationality.",
+     "traduccion": "A diciembre no había forma de que este segundo grupo, de unas 23.000 personas conocido como Grupo B2, se inscribiera como extranjero ni obtuviera la nacionalidad dominicana.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO atribuido: tres estimaciones del Departamento de Estado: 'más de 100.000' desnacionalizados (sin base; la CIDH 2015 decía 'más de 200.000' y la CIDH 2023 'un número considerable'); 26.000 con documentos y 34.000 sin ellos (Grupo A); 7.000 del Grupo B con documentos vencidos y 23.000 del 'Grupo B2' (quienes no se inscribieron en el PNRE) 'según observadores': el rótulo 'B2' no existe en la ley ni en la CIDH. La oficina que registraba extranjeros cerró en febrero de 2020 por la pandemia y no había reabierto en diciembre de 2022 (según el informe)."
+  },
+  {
+   "titulo": "U.S. Department of State, 2023 Country Reports on Human Rights Practices: Dominican Republic (sección Stateless Persons)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.state.gov/reports/2023-country-reports-on-human-rights-practices/dominican-republic",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de un gobierno tercero; la cifra de 'más de 100.000' es una estimación de 'observadores internacionales' sin base.",
+   "proveniencia": "Informe sobre 2023 (publicado en 2024 [POR VERIFICAR fecha]); sección 'Stateless Persons' de 3 párrafos.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Stateless Persons', párr. 1",
+     "cita_original": "While the exact number was unknown, international observers estimated the country had a population of more than 100,000 habitual residents who were de jure (legally) stateless",
+     "traduccion": "Aunque se desconocía la cifra exacta, observadores internacionales estimaban que el país tenía más de 100.000 residentes habituales apátridas de iure",
+     "afirmaciones": [
+      "A-213"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Stateless Persons', párr. 2",
+     "cita_original": "No stateless person whose application for naturalization was pending when President Abinader entered office in 2020 had received Dominican citizenship under the law, except for 799 individuals whose naturalization was confirmed in November.",
+     "traduccion": "Ninguna persona apátrida con solicitud de naturalización pendiente cuando Abinader asumió en 2020 había recibido la ciudadanía dominicana conforme a la ley, salvo 799 personas cuya naturalización se confirmó en noviembre.",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-218"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO atribuido: 'más de 100.000' apátridas de iure (observadores internacionales); 799 naturalizados confirmados en noviembre de 2023; el Ministerio de Interior 'redujo la oficina' encargada de aplicar la ley. Confirma la serie: 2015 (55.000-80.000 Grupo B), 2016 (45.000-75.000), 2022 y 2023 ('más de 100.000' total). Sin cifras de Grupo A/B."
+  },
+  {
+   "titulo": "U.S. Department of State, 2024 Country Reports on Human Rights Practices: Dominican Republic (informe abreviado)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2024",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.state.gov/reports/2024-country-reports-on-human-rights-practices/dominican-republic",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de un gobierno tercero en versión abreviada (unos 19.000 caracteres): solo se leyó el párrafo sobre las deportaciones; no trae cifras de Grupo A/B.",
+   "proveniencia": "Informe sobre 2024 (publicado en 2025 [POR VERIFICAR fecha]), en formato más breve que el de 2023; el texto leído no contiene sección sobre apatridia.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo sobre deportaciones",
+     "cita_original": "International and local civil society organizations raised concerns that DGM and other security forces subjected undocumented Haitian migrants and stateless persons of Haitian descent to harsh and often degrading treatment during detention and deportation operations",
+     "traduccion": "Organizaciones de la sociedad civil internacionales y locales expresaron su preocupación porque la DGM y otras fuerzas de seguridad sometieron a migrantes haitianos indocumentados y a apátridas de ascendencia haitiana a un trato duro y a menudo degradante durante las detenciones y las operaciones de deportación",
+     "afirmaciones": [
+      "A-223",
+      "A-224"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-223",
+    "A-224"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO atribuido: el informe de 2024 recoge denuncias de ONG (detenciones arbitrarias, entradas sin orden, destrucción de documentos, deportación de niños y embarazadas) y no verifica los hechos; no da cifras de deportaciones. No sustituye el conteo de la DGM (no abierto). Léase como dato sobre la lectura del Departamento de Estado, que apoya la narrativa de A-224 sin confirmar ni refutar sus términos ('limpieza étnica')."
+  },
+  {
+   "titulo": "Legislation eradicates Dominican “Indians” (Dominican Today, 11 de noviembre de 2011; extracto en Mixed Race Studies, 31 de enero de 2012)",
+   "autor": "Dominican Today (redacción); Mixed Race Studies (ed. del extracto)",
+   "anio": "2011",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://mixedracestudies.org/wp/?p=20308",
+   "urls_alternativas": [
+    "https://dominicantoday.com/?p=185276 (original: HTTP 404 el 2026-10-06)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Prensa en inglés sobre un anteproyecto, conocido solo por un extracto reproducido por un sitio académico de terceros; el original no abre.",
+   "proveniencia": "Nota de Dominican Today (diario digital en inglés de Santo Domingo) del 11-XI-2011 sobre un anteproyecto de reforma de la Ley Electoral 275-97 redactado por técnicos de la OEA y de la JCE; Mixed Race Studies reprodujo el arranque y enlazó al artículo completo.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 del extracto",
+     "cita_original": "Mulatto, black and white will be the only colors among Dominicans and will be stated thus in the citizens ID cards (cedula), effectively eradicating the nation’s “Indians.”",
+     "traduccion": "Mulato, negro y blanco serán los únicos colores entre los dominicanos y figurarán así en las cédulas de identidad, con lo que se erradicaría de hecho a los 'indios' de la nación.",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3 del extracto",
+     "cita_original": "Organization of American States (OAS) and Central Electoral Board (JCE)technicians drafted the legislation to reform Electoral Law 275-97",
+     "traduccion": "Técnicos de la OEA y de la JCE redactaron la ley para reformar la Ley Electoral 275-97",
+     "afirmaciones": [
+      "A-226"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226"
+   ],
+   "modulos": [
+    "M16"
+   ],
+   "id_existente": "F-0058",
+   "notas": "RESUELVE EN PARTE F-0058 (registro: fragmento-busqueda; el original de Dominican Today sigue dando 404; esta es una copia parcial). HECHO: en noviembre de 2011 la prensa dio cuenta de un anteproyecto, redactado por técnicos de la OEA y de la JCE, que dejaría tres 'colores' (mulato, negro, blanco) en la cédula y suprimiría 'indio'. LO QUE NO PRUEBA: que el proyecto se aprobara ni que 'la cédula dejó de registrar el color en 2014' (A-226): para eso falta la ley o la resolución de la JCE, que no se localizó (ver lagunas). INTERPRETACIÓN del medio: el titular ('erradica a los indios') es una lectura periodística; el texto fuente también dice que el término 'indio' se aplicó a descendientes mestizos. Por su fiabilidad baja, solo sirve como índice hacia un documento oficial."
+  }
+ ]
+}
