@@ -1,0 +1,2015 @@
+{
+ "lente": "dominicana",
+ "modulo": "M05",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 34,
+ "busquedas_pendientes": [
+  "Historia general del pueblo dominicano, tomo II (ADH, 2018, 'La configuración de la sociedad criolla, siglos XVII y XVIII'): texto extraíble o PDF alterno (el flipbook hgpdvol2 no da texto)",
+  "Amadeo Julián, El contrabando de esclavos en Santo Domingo y la fuga de esclavos de la colonia francesa (AGN, 2023, 2 vols.): PDF del AGN",
+  "Raymundo González, Haciendas, esclavitud y campesinado en Santo Domingo (siglo XVIII), 4 vols. (IPGH-ADH, 2023): ign.gob.do devuelve 404; buscar en agn.gob.do o en el catálogo de la ADH",
+  "Carlos Esteban Deive, La esclavitud del negro en Santo Domingo (1980), Los cimarrones del maniel de Neiba (1985, Banco Central, colección cultural) y Los guerrilleros negros (1989): texto completo",
+  "Frank Moya Pons, Manual de historia dominicana, Historia colonial de Santo Domingo (1974) y The Dominican Republic: A National History: edición legal en línea (no se usaron copias sin procedencia)",
+  "Roberto Cassá, Historia social y económica de la República Dominicana t. I (2003): copia en línea; cifra de ~25.000 esclavos",
+  "Rubén Silié, Economía, esclavitud y población (1976): copia (FLACSO-Andes devuelve 403)",
+  "Carlos Larrazábal Blanco, Los negros y la esclavitud en Santo Domingo (1967); Jesús Pérez Cabral, La comunidad mulata (1967)",
+  "Joaquín Balaguer, La isla al revés (1983), y Américo Lugo, Historia de Santo Domingo (1952): texto en línea",
+  "José Gabriel García, Compendio de la historia de Santo Domingo t. I-II (ADH/AGN, Obras completas 2016-2018): pasajes sobre 1697-1789 y Aranjuez",
+  "Rodríguez Demorizi, Relaciones históricas de Santo Domingo (vol. II), y J. M. Incháustegui, Reales cédulas y correspondencia de gobernadores (1958): padrones del XVIII",
+  "Libros de texto de ciencias sociales del MINERD (2.º ciclo de secundaria) sobre Ryswick, Aranjuez y el XVIII colonial: el libro, no la evaluación diagnóstica",
+  "Memoria Histórica del Senado y MIREX: texto de la Constitución de 1844 (art. 4) y del Tratado de 1929 (preámbulo sobre Aranjuez)",
+  "Prensa: Listín Diario, Diario Libre y Hoy sobre la efeméride del 3 de junio (Aranjuez) y sobre Sánchez Valverde",
+  "Candelario, Black Behind the Ears (2007), y Torres-Saillant 1998 (Latin American Perspectives): capítulos sobre el XVIII",
+  "dLOC (dloc.com): padrones o relaciones de población de Santo Domingo en el XVIII",
+  "Cervantes Virtual (ark bmc765t8) para Sánchez Valverde: no se probó; se usó la copia de archive.org",
+  "Jimenes Grullón, Tolentino Dipp, Andújar Persinal y Albert Batista (Mujer y esclavitud en Santo Domingo, 1990): se buscó a Albert Batista y no apareció texto abierto"
+ ],
+ "lagunas": [
+  "No se leyó el texto de ninguno de los manuales de la tradición oficial-escolar sobre el XVIII (García, Compendio; Moya Pons; Cassá 2003; Balaguer; Lugo): quedan solo citas de segunda mano (Widmer, Hontanilla, Torres-Saillant, Cassá-Rodríguez, Catani/Jáuregui); la cita 'patriarcalismo más completo' de Cassá está verificada solo vía Widmer.",
+  "El tomo II de la Historia general del pueblo dominicano (ADH, 2018; coord. R. González) existe en hgpdvol2.academiadominicanahistoria.org.do como flipbook de 892 páginas sin capa de texto extraíble: es la síntesis académica dominicana más reciente sobre el XVIII y no se leyó.",
+  "No hay fuente primaria dominicana de padrón o censo del XVIII en el corpus recogido: las cifras vienen de Sánchez Valverde (100.000-125.000; 12.000-14.000 esclavos), Catani (70.000), Baud (10.000 en 1700, 70.000 en 1770, más de 100.000 en 1780), 'algunos historiadores' vía Carmona (8.900 esclavos en 70.625 'vecinos', 1769), el arzobispo Álvarez de Abreu (12.259 en 1739) vía Torres-Saillant y Pérez Cabral/Núñez (110.000 libres y 15.000 esclavos en 1750; sin base trazable).",
+  "Moreau de Saint-Méry (parte española, 1796) y el censo eclesiástico de 1785 citado por Schoenrich no aparecen en la tradición dominicana leída con texto directo; la base de la cifra de 15.000 esclavos o menos de A-056 no se contrastó con el original de Moreau (tarea de la lente colonial-primaria).",
+  "La afirmación de A-062 sobre una cláusula de devolución recíproca de esclavos en Aranjuez no se sostiene en el texto transcrito por Peña Batlle (arts. I-IX); solo Torres-Saillant la apunta, citando a Moreau 1994, p. 424. Falta Cantillo 1843 y Moreau para resolverlo.",
+  "La negociación del maniel del Bahoruco/Neiba (1783-1796) solo se confirmó en genérico (Lora 2023: 'pudieron negociar acuerdos de rendición y reubicación'; Cassá y Rodríguez Morel 1994: reducción en el Valle de Neiba). La fecha de 1785-86 y el asentamiento de 'Los Naranjos' proceden de resúmenes de búsqueda y están [POR VERIFICAR]; Deive 1985 y los expedientes del AGI no se leyeron.",
+  "Trata hacia el Santo Domingo español (A-065): la tradición dominicana consultada no la cuantifica; solo hay indicios cualitativos (Silié: 'nunca hubo un crecimiento notorio' por importación directa; indulto de 1776 y libros de 'negros de mala entrada' en Julián vía González; 47 esclavos legalizados en Azua, 150 en San Juan y 63 en Neiba según Hernández González; 1.500 negros de cuenta del rey pedidos en 1767 y concedidos en 1786).",
+  "Voces silenciadas: esclavizados, cimarrones, mujeres y libres de color solo aparecen mediados (Catani, Código negro carolino, protocolos citados por Carmona y Stevens-Acevedo); el único documento notarial transcrito de primera mano es la venta de Manuela (Bayaguana, 1706).",
+  "No se encontró un libro de texto escolar (MINERD) de secundaria sobre el XVIII colonial; solo una evaluación diagnóstica de 4.º de primaria sobre la 'España Boba' que plantea Basilea, Aranjuez, Ryswick y Nimega como opciones (sin contenido narrativo del XVIII); no se usa.",
+  "Voces dominicanas sobre Diamond (A-060): no se localizó ninguna reseña ni respuesta dominicana a 'Collapse'; las explicaciones de la divergencia en esta lente son estructurales (Franco, Bosch, Silié) o la tesis hispanista de la 'economía hatera' (Núñez Asencio), no ambientales.",
+  "Prensa dominicana: solo se leyeron cinco piezas con autor (Acento x3, El Día, El Nuevo Diario); El Caribe devolvió 403; no se rastreó Listín Diario ni Hoy."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "esclavitud patriarcal / 'esclavo feliz' / 'dulce esclavitud' / 'democracia racial'",
+   "tradicion": "dominicana",
+   "nota": "Etiquetas de la tradición oficial e hispanista (Bonó 1881, Lugo, Utrera, Marrero Aristy 1957, Cassá 'patriarcalismo') para la esclavitud del Santo Domingo colonial; la critican Silié 2019, Lora 2023, Widmer 2008 y Cassá y Rodríguez Morel 1994. El corpus debe decir 'esclavitud en el Santo Domingo español' y anotar que 'patriarcal' es una tesis, no un hecho."
+  },
+  {
+   "termino": "negros de mala entrada / indulto de 1776",
+   "tradicion": "dominicana",
+   "nota": "Término jurídico de la época para los esclavos introducidos por contrabando desde la colonia francesa, legalizados por el indulto real de 1776 (Julián 2023 vía González; Hernández González 2006 los llama 'negros de mala raza')."
+  },
+  {
+   "termino": "Españoles criollos o 'Indispanos' / 'Indo-Hispanos' / 'protodominicanos'",
+   "tradicion": "dominicana",
+   "nota": "Sánchez Valverde (1785) llama 'Españoles Criollos, ó Indispanos' a los nacidos en la isla y 'Dominicanos' a los vecinos de la capital en el corso de 1740; Cassá llama 'protodominicanos' a esa generación; San Miguel critica que 'indohispánico' borra lo africano."
+  },
+  {
+   "termino": "doble insularidad",
+   "tradicion": "dominicana",
+   "nota": "Expresión de las columnas de Núñez Asencio (Acento, 2026) para la división de la isla entre una colonia de plantación y otra de hato desde el siglo XVIII; no es término académico establecido."
+  },
+  {
+   "termino": "línea de Aranjuez / frontera de derecho frente a frontera de hecho; 'usurpación' francesa",
+   "tradicion": "dominicana",
+   "nota": "Peña Batlle (1946): la línea de 1777 (221 pirámides, Dajabón-Pedernales) es 'de derecho' y las posteriores 'de hecho'; la ocupación francesa del oeste es 'usurpación'. En la tradición francesa y haitiana la misma ocupación se nombra 'établissement' o 'colonie de Saint-Domingue'; el corpus debe decir 'ocupación francesa del oeste' y anotar ambos nombres."
+  },
+  {
+   "termino": "blancos de la tierra",
+   "tradicion": "dominicana",
+   "nota": "Autodenominación de libres de color en el Santo Domingo de principios del XIX según Moya Pons (1986, p. 239, vía Torres-Saillant): 'mientras su piel se oscurecía, la mentalidad de los dominicanos se hacía más blanca'."
+  },
+  {
+   "termino": "Comegente / negro incógnito (1790-1794)",
+   "tradicion": "dominicana",
+   "nota": "Nombre de un episodio de violencia rural y temor social en el este durante los años de la Revolución haitiana (vol. IV de González 2023, 'Violencia rural'; el 'Comegente de 1790 a 1793' lo cita la reseña de Ecos 25). Período M05-M06; término no definido en las fuentes leídas."
+  },
+  {
+   "termino": "pueblos de negros / negros libres",
+   "tradicion": "dominicana",
+   "nota": "San Lorenzo de los Minas (fundado hacia 1680 con fugitivos de la colonia francesa, según Cassá y Rodríguez Morel 1994 y González 2023) y las propuestas de Catani (1788) de reducir a los libres de color a poblaciones de menos de cien vecinos: forma institucional de la 'libertad' en el este."
+  }
+ ],
+ "incidencias": [
+  "HALLAZGO que contradice A-062: el Tratado de Aranjuez tal como lo transcribe Peña Batlle (Apéndice, doc. 1, arts. I-IX, pp. 383-393) no contiene cláusula de devolución de esclavos fugitivos; el único pasaje sobre refugio (art. VI) trata de quien destruya pirámides. Torres-Saillant (2010, p. 32) afirma que el acuerdo incluyó una estrategia mutua contra cimarrones, citando a Moreau 1994, p. 424. Discrepancia sin resolver; conviene pasar la parte de A-062 sobre la cláusula de Aranjuez a [POR VERIFICAR] hasta cotejar a Cantillo 1843.",
+  "HALLAZGO sobre A-056 (cifras de población): seis bases incompatibles en las fuentes dominicanas leídas: 100.000-125.000 y 12.000-14.000 esclavos (Sánchez Valverde 1785, cálculo propio); 70.000 habitantes (Catani 1788, primaria con 3,5 meses de gobierno); 10.000 (1700), 70.000 (1770) y más de 100.000 (1780) (Baud 1996); 8.900 esclavos en 70.625 vecinos en 1769 (Carmona 2020, 'algunos historiadores'); 12.259 en 1739 (Álvarez de Abreu, vía Torres-Saillant); y 110.000 libres y 15.000 esclavos en 1750 (Pérez Cabral vía Núñez Asencio 2025; sin fuente trazable e incompatible con las demás: D).",
+  "HALLAZGO sobre Ryswick (contexto de A-057): la prensa y los textos dominicanos lo dicen de tres maneras. El Día (2023), Peña Batlle (1946, nota 104) y Franco (2019): el tratado no menciona la isla; Baud (1996) y Del Orbe Piña (Acento, 2025): España 'cedió' o 'reconoce' el oeste en Ryswick; Junior Pérez (El Nuevo Diario, 2021) lo mezcla con Aranjuez. Peña Batlle y El Día coinciden en que la primera frontera de derecho es Aranjuez.",
+  "DISCREPANCIA entre dos fuentes dominicanas sobre el convenio provisional de 1731: Peña Batlle (que cita a Moreau) fija los ríos Dajabón y Pedernales; El Día (2023) los ríos Dajabón en el norte y Libón y Artibonito en el sur. Ninguno cita el documento.",
+  "A-058 ('patriarcal'): confirmado como término de la historiografía (Cassá 1992 y 2003; Bonó 1881; Marrero Aristy 1957) y como blanco de crítica (Silié 2019, Lora 2023, Widmer 2008, Cassá y Rodríguez Morel 1994). La cita de Cassá ('patriarcalismo más completo') se verificó solo a través de Widmer (p. 31). La posición de Deive es más matizada ('despotismo benévolo', 'mestizaje paternalista'); Lora (2023) lo cuenta entre los críticos.",
+  "A-064: el gentilicio 'Dominicanos' sí aparece en Sánchez Valverde 1785 (cap. XV según el índice, l. 30800-30803, referido a los vecinos de la capital en el corso de 1740) y 'Españoles Criollos, ó Indispanos' en su prólogo; Widmer añade que 'patria' significa 'terreno' y 'nación' significa imperio en el texto. No se encontró en ninguna fuente leída la 'Junta de Bondillo' de 1808 que A-064 cita.",
+  "Fechas de vida de Sánchez Valverde contradictorias: 1734-1790 (Jáuregui y Solodkow), 'murió en México, en 1790' (San Miguel 1996) y 1720-1799 (Núñez Asencio 2026, con muerte 'en el exilio'): [POR VERIFICAR].",
+  "F-0078 (R. González, De esclavos a campesinos, 2011): la URL del registro (ADH, RaymundoGonzalez-MN.pdf) devuelve una ficha biográfica de una página; el libro no se localizó en línea. Se devuelven en su lugar dos trabajos del mismo autor (Ecos 4, 1995; reseña en Ecos 25, 2023). F-0086 (Silié, Economía, esclavitud y población): FLACSO-Andes devuelve 403, no resuelta (se devuelve Silié 2019, que es otro texto). F-0088 (Albert Batista): no localizada. F-0076 (Cassá) y F-0087 (Deive) quedan solo 'via-resena' (Mira Caballos 2005; Seda Prado 2003); la URL de Duke de F-0076 devuelve la pantalla Anubis y no se evadió.",
+  "Bloqueos no evadidos: arias montano (U. Huelva) y Duke con Anubis; CUNY devolvió 403 a curl (el PDF de Torres-Saillant se obtuvo con WebFetch); El Caribe 403; Project MUSE exige verificación; opus.bibliothek.uni-augsburg.de sin respuesta (timeout); ign.gob.do devuelve 404 para los volúmenes de González; Cervantes Virtual no se probó.",
+  "Se descargaron Noticias históricas de Santo Domingo, vol. V (Utrera, ADH, 200 MB, con capa de texto OCR) y varios PDF del catálogo de la ADH (Clío 143, 182, 187, 207); ninguno aportó material para M05 y no se usan. El tomo II de la HGPD (flipbook) no se leyó. Se descartaron copias del Manual de historia dominicana alojadas en sitios sin procedencia (riesgo de fuente no confiable).",
+  "Metadatos discrepantes: el PDF de Stevens-Acevedo dice 'Año 53, Vol. XLIV, n.º 164, 2021' y el OJS 'vol. 46, n.º 167'; se cita lo que dice el PDF. Los números de página de Ecos, Estudios Sociales, CESXVIII y Perífrasis se asignaron según la convención de cabecera o de pie de cada PDF, calibrada con la primera página y los rangos de la revista; los de Bosch y Torres-Saillant son de pie de página y se calibraron con el índice.",
+  "El scratchpad es compartido con otros agentes; este agente trabajó en C:\\Users\\branl\\AppData\\Local\\Temp\\m05dom (ruta corta, porque pdftotext falla con la ruta larga del scratchpad). Todas las citas se verificaron por script contra el texto descargado (coincidencia normalizada sin tildes ni signos; 5 de 131 con coincidencia aproximada por saltos de página u OCR). Las traducciones y glosas del campo traduccion son del agente, no de las fuentes.",
+  "Se contaron 34 búsquedas: 30 llamadas a WebSearch, algunas con subconsultas automáticas (García: 4; Lugo: 2). No se usó Firecrawl."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Idea del valor de la Isla Española, y utilidades que de ella puede sacar su Monarquía",
+   "autor": "Sánchez Valverde, Antonio",
+   "anio": "1785",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/ideadelvalordela00snch/ideadelvalordela00snch_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/ideadelvalordela00snch",
+    "https://archive.org/download/ideadelvalordela00snguat/ideadelvalordela00snguat_djvu.txt",
+    "https://acento.com.do/opinion/el-siglo-xviii-diagnostico-de-antonio-sanchez-valverde-el-mas-importante-intelectual-dominicano-de-su-tiempo-9613190.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial de parte, escrito para pedir a la Corona trata y plantación y en defensa del autor; sus cifras de población son estimaciones propias (no censo) y Cassá señala exageraciones, pero es el testimonio criollo más detallado de 1785.",
+   "proveniencia": "Antonio Sánchez Valverde, clérigo y abogado criollo de Santo Domingo (hijo de un agrimensor; racionero de la catedral), publicó el memorial en Madrid en 1785 mientras respondía a un proceso judicial. Se dirige a los ministros de la Monarquía y a los funcionarios de Santo Domingo; defiende la isla frente a Raynal, De Pauw y Weuves, y pide trata masiva, plantación y mayor rigor sobre la manumisión. Conoce de primera mano los hatos, los monteros y los vecinos del interior; las cifras de población las da como cálculo suyo frente a los empadronamientos. La tradición hispanista dominicana (Bonó, Marrero Aristy, Peña Batlle) lo usó como acta de nacimiento de lo 'hispano-dominicano'; Cassá lo lee como 'intelectual del criollismo' y Widmer como memorial de los grandes propietarios.",
+   "extractos": [
+    {
+     "ubicacion": "cap. XVI 'Población actual de la Española' según el índice (el OCR lo rotula XV; l. 32180-32192 del _djvu.txt de ideadelvalordela00snch)",
+     "cita_original": "Los mas ajustados que se han hecho llegan como a cien mil almas; pero yo encuentro algunas veinte, ó veinte y cinco mil mas por diferentes averiguaciones, y noticias",
+     "traduccion": "Los padrones más ajustados llegan a unas cien mil almas; yo encuentro veinte o veinticinco mil más por otras averiguaciones. Es decir, rango del autor: 100.000-125.000.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "cap. XX-XXI (l. 39995-39998; el 'ó' de 'doce, ó catorce' no aparece en el OCR)",
+     "cita_original": "Nosotros apenas contaremos doce, catorce mil Esclavos en toda la extension de nuestras Posesiones.",
+     "traduccion": "Apenas contaremos doce o catorce mil esclavos en todas nuestras posesiones (cálculo del autor, sin base censal citada).",
+     "afirmaciones": [
+      "A-056",
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "entre los caps. XIV y XV según el índice (el OCR no rotula el XV; l. 30362-30378)",
+     "cita_original": "Como fueron creciendo en número los Franceses, fueron necesitando de nosotros para su abasto, y subsistencia [...] Lo que nos sobraba en la Isla eran ganados, y caballerías, que de nada nos servían sin labores, ni comercio en que exercitar los unos, y sin pobladores, que consumiesen los otros.",
+     "traduccion": "El auge francés creó el mercado para el ganado y las bestias del este; el autor lo presenta como una 'puerta utilísima' (siguiente frase).",
+     "afirmaciones": [
+      "A-061",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "cap. XXIV (l. 50084-50089)",
+     "cita_original": "Los cinquenta, ó sesenta mil Cueros, que hacen parte de sus cargamentos a Francia, y son produéto de los ganados, que les vendemos para la subsistencia",
+     "traduccion": "Los cincuenta o sesenta mil cueros que forman parte de los cargamentos a Francia son producto de los ganados que les vendemos.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "cap. XV 'Estado actual de la Isla' según el índice (el OCR no rotula el capítulo; l. 32118-32140)",
+     "cita_original": "hizo una invasion contra los Negros fugitivos, acantonados en las montañas de Baoruco [...] de que en cambio de los ganados, y bestias que se llevaban ligitimamente á los Franceses, pudiesen los dueños traer Negros",
+     "traduccion": "Azlor atacó a los negros fugitivos del Baoruco; Solano obtuvo permiso para traer negros a cambio del ganado y las bestias que se vendían a los franceses.",
+     "afirmaciones": [
+      "A-062",
+      "A-061",
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "cap. XXII (l. 41737-41741 y 41772-41775; hay salto de página)",
+     "cita_original": "ha venido esencialmente [...] del número de Esclavos, y manos Africanas, que han podido introducir en ellas, las quales cuentan sobre trescientos cinqüenta mil Negros",
+     "traduccion": "El incremento de las colonias francesas sobre las nuestras viene esencialmente del número de esclavos y brazos africanos que han podido introducir: más de 350.000 negros (cifra del autor para Saint-Domingue).",
+     "afirmaciones": [
+      "A-059",
+      "A-060",
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "cap. XXII (l. 41750-41756)",
+     "cita_original": "La prueba mas convincente, de que la de estos es mas cómoda, que la de aquellos libres imaginarios, es, que nuestros Esclavos aplicados, y que no son dados á vicios, juntan en pocos años doscientos y cinqüenta, ó trescientos duros, con que libertarse",
+     "traduccion": "La vida de nuestros esclavos es más cómoda que la de los 'libres imaginarios' de Europa; prueba: ahorran en pocos años 250 o 300 duros para libertarse (visión pro-esclavista y de parte).",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "cap. XX-XXI (l. 40014-40017)",
+     "cita_original": "Nuestros Esclavos huelgan, ó trabajan para sí casi una tercia parte del año",
+     "traduccion": "Los esclavos descansan o trabajan para sí casi un tercio del año (lo dice como crítica al 'abuso del esclavo a jornal').",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "prólogo al lector (l. 557-559)",
+     "cita_original": "en defensa, asi de los Españoles Criollos, ó Indispanos; como de los Européos contra los vicios de sangre, holgazanería, y defecto de sagacidad con que quiere envilecerles el Estrangero",
+     "traduccion": "En defensa de los españoles criollos o 'indispanos' y de los europeos contra los vicios de sangre y la holgazanería con que el extranjero quiere envilecerlos.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "cap. XV según el índice (l. 30800-30803)",
+     "cita_original": "La Guerra, que llamamos de Italia por los años de 40, cogió a los Dominicanos instruidos, y Cebados en este exercicio",
+     "traduccion": "La guerra de los años 40 (corso) halló a los 'Dominicanos' instruidos y cebados en ese ejercicio: uso del gentilicio en 1785, referido a los vecinos de la capital.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-056",
+    "A-058",
+    "A-059",
+    "A-060",
+    "A-061",
+    "A-062",
+    "A-064",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0020",
+   "notas": "Se leyó en el _djvu.txt de la copia 'ideadelvalordela00snch' (la registrada como segunda copia; los números de línea no coinciden con los de 'ideadelvalordela00snguat'). OCR con errores ('Vegros', 'cinqiienta'); las citas están corregidas solo en tildes y en esos casos. Las cifras de población y de esclavos son estimaciones del autor: no hay censo citado. El propio texto separa lo que Sánchez Valverde ve (hatos, monteros, comercio con los franceses) de lo que quiere conseguir (trata masiva y más rigor con la manumisión); lo segundo es programa, no descripción. Fechas de vida del autor discrepantes entre fuentes (1734-1790 según Jáuregui y Solodkow; murió en México en 1790 según San Miguel 1996; 1720-1799 según Núñez Asencio 2026): [POR VERIFICAR]. Sesgo: el memorial minimiza la dureza de la esclavitud local para sostener la comparación con Saint-Domingue y a la vez pide más trata; 'dominicanos' aparece sin sentido político (ver Widmer 2008)."
+  },
+  {
+   "titulo": "Historia de la cuestión fronteriza dominico-haitiana, tomo I (con Apéndice documental: Tratado de Aranjuez, doc. 1)",
+   "autor": "Peña Batlle, Manuel Arturo",
+   "anio": "1946",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/035866-historia-de-la-cuestion-fronteriza-dominico-haitiana-tomo-i-manuel-arturo-pena-batlle.pdf/035866_historia_de_la_cuestion_fronteriza_dominico_haitiana_tomo_i_manuel_arturo_pen%CC%83a_batlle.pdf_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/035866-historia-de-la-cuestion-fronteriza-dominico-haitiana-tomo-i-manuel-arturo-pena-batlle.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de tesis (la 'cuestión fronteriza' vista desde el Estado trujillista) con aparato documental y apéndice que transcribe el Tratado de Aranjuez; útil como fuente del texto y de la versión hispanista, no como árbitro neutral.",
+   "proveniencia": "Manuel Arturo Peña Batlle (1902-1954), jurista e ideólogo del régimen de Trujillo, publicó el tomo I en Ciudad Trujillo (Luis Sánchez Andújar, Casa Editora, 1946) como fundamento histórico-jurídico de la posición dominicana en el diferendo fronterizo. Reúne la correspondencia de gobernadores (Recopilación diplomática) y a Moreau, Del Monte y Tejada, García y Tejera. Describe la ocupación francesa como 'usurpación' y a las dos colonias como 'dos nacionalidades distintas'. Texto de la introducción: 'Devastaciones de 1605 y 1606' (1938).",
+   "extractos": [
+    {
+     "ubicacion": "cap. III, §10, p. 94 (l. 4575-4581)",
+     "cita_original": "La demarcación minuciosa de esta línea consta de un total de 221 pirámides, mojones y señales. Las dos pirámides número 1 fueron colocadas en la desembocadura del río Dajabón o Masacre y las dos 221 en la del río Pedernales o Anse-á-Pitre.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "cap. III, §11, p. 95 (l. 4642-4648)",
+     "cita_original": "El 3 de junio del 1777 ambos plenipotenciarios llegaron a un acuerdo final, compuesto de nueve artículos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. 1, art. I, p. 384 (l. 17877-17885)",
+     "cita_original": "Que los límites entre las dos naciones quedarán perpetua e invariablemente fijados en la desembocadura del rio Dajubón o Masacre del lado norte de la dicha isla y en la desembocadura del río Pedernales o de Anses-a-Pitre del lado sur",
+     "traduccion": "Texto del art. I del Tratado de Aranjuez según la transcripción de Peña Batlle ('Dajubón' por Dajabón es errata del OCR o de la edición).",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "Apéndice, doc. 1, art. VI, p. 392 (l. 18396-18402)",
+     "cita_original": "si buscando la manera de sustraerse a una de las dos jurisdicciones, fuere a refugiarse en la otra, no deberá encontrar allí ningún socorro ni protezción",
+     "traduccion": "El único pasaje del tratado sobre refugio en la otra jurisdicción se refiere a quien destruya las pirámides; en los arts. I-IX transcritos no hay cláusula de devolución de esclavos fugitivos.",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, §4, nota 104, p. 82 (l. 3819-3822)",
+     "cita_original": "Siendo pues, como es, una cuestión sabida, la de que el tratado de Riswick no hace mención ninguna de Santo Domingo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "cap. II, §8, p. 89 (l. 4088-4094)",
+     "cita_original": "Desde 1727 estableció el Gobierno de la Colonia española un puesto de guardias en la parte oriental del río Dajabón para impedir el avance de los franceses y la introducción de esclavos por la frontera del norte.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "cap. III, §12, p. 96 (l. 4694-4700)",
+     "cita_original": "Dos nacionalidades distintas, dos poderes rivales, dos fuerzas sociales opuestas en sus aspiraciones y jurídicamente demarcadas, comenzarían desde ese momento el curso de un desarrollo paralelo, pero extraño el uno al otro",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "cap. IV, §13, p. 99 (l. 4836-4840)",
+     "cita_original": "resultaban irritantes y abusivos los privilegios de clases y despiadado el régimen de esclavitud a que estaba sometida una gran mayoría de la población",
+     "traduccion": "Dicho de la colonia francesa en vísperas de 1789: contraste implícito con la colonia española.",
+     "afirmaciones": [
+      "A-058",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "cap. XVI, p. 207 (l. 9585-9591): cita del art. 4 de una Constitución dominicana",
+     "cita_original": "Estos límites son los mismos que en 1793 la dividían por el lado de occidente de la parte francesa, estipulados en el Tratado de Aranjuez firmado el 3 de junio de 1777",
+     "traduccion": "Peña Batlle cita así el art. 4 de la 'Constitución en vigor' en el momento de la consulta que discute; la fecha que da el texto ('23 de noviembre de 1882') es lectura de OCR y está por verificar.",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057",
+    "A-058",
+    "A-059",
+    "A-062",
+    "A-063",
+    "A-064",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0069",
+   "notas": "Hecho: el Apéndice doc. 1 transcribe los 9 artículos del Tratado de Aranjuez (pp. 383-393); revisados línea a línea (l. 17836-18500), no contienen cláusula sobre esclavos fugitivos ni cimarrones (la única coincidencia de 'negros' es el topónimo 'Desmonte de los Negros Marrones' en la descripción de la línea). Esto no concuerda con la parte de A-062 que dice que Aranjuez incluyó la devolución recíproca de fugitivos; Torres-Saillant (2010, p. 32) afirma lo contrario citando a Moreau 1994, p. 424: discrepancia sin resolver, se necesita el texto de Cantillo 1843 y de Moreau. Interpretación: Peña Batlle llama 'usurpación' a la ocupación francesa y dice que 'España no hizo reconocimiento hasta el último cuarto del siglo XVII' (sic, por XVIII) en el cap. I; la letra de Aranjuez la presenta como 'legitimación' de esa usurpación. Significado: dos nacionalidades 'distintas' desde 1777 (tesis que sostiene la lectura hispanista de A-064). Peña Batlle también anota que Ryswick 'no hace mención ninguna de Santo Domingo' (nota 104) y que algunos historiadores nacionales y extranjeros dan por cierta la cesión: es un matiz importante frente a la prensa dominicana actual. Dice que en 1731 el convenio provisional fijó los ríos Pedernales y Dajabón (citando a Moreau); El Día 2023 dice Dajabón y 'Libón y Artibonito': discrepancia. OCR limpio pero con erratas ('Dajubón', 'protezción'). Lo que Peña Batlle da de la economía y de la población de la colonia en el XVIII es poco; su contribución a M05 es el relato diplomático y la tesis."
+  },
+  {
+   "titulo": "Composición social dominicana. Historia e interpretación (cap. VIII: 'De la inamovilidad del siglo XVII al dinamismo del siglo XVIII')",
+   "autor": "Bosch, Juan",
+   "anio": "1970 (ed. 2005, Alfa & Omega)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://pld.org.do/assets/documents/JuanBosch/composicion-social-dominicana.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo marxista de interpretación (no monografía de archivo) que se apoya casi por completo en Sánchez Valverde, Del Monte y Tejada y Utrera; su valor para M05 es el marco explicativo, no el dato.",
+   "proveniencia": "Juan Bosch (1909-2001), escritor y fundador del PRD y del PLD, escribió el libro en 1968-1970 como interpretación de las clases sociales dominicanas; la edición en línea es de la Fundación Juan Bosch / PLD (2005). Escribe para el lector general y con propósito político (explicar la ausencia de burguesía nacional). Su fuente principal para el XVIII es Sánchez Valverde, citado por página de la edición de 1947/1971.",
+   "extractos": [
+    {
+     "ubicacion": "cap. VIII, p. 47 (l. 417)",
+     "cita_original": "nosotros no fuimos colonia española; fuimos provincia ultramarina de España. España no invirtió capitales en nuestro país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 47 (l. 417)",
+     "cita_original": "Durante casi todo el siglo XVII y buena parte del XVIII, Santo Domingo recibía el situado que procedía de los fondos del Estado español, y ese situado fue casi siempre la única moneda que se usaba en Santo Domingo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 48 (l. 424)",
+     "cita_original": "casi solamente en Haití, que nos compraba ganado, mulos, caballos y algún tabaco. En realidad, al comenzar el siglo XVIII la situación de la parte española de la Isla era tan mala como en el siglo XVII",
+     "traduccion": "La frase inicial carece de verbo principal en el PDF consultado ('Durante los primeros años del siglo XVIII, casi solamente en Haití, que nos compraba...').",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 49 (l. 438)",
+     "cita_original": "Con el dinero que recibían nuestros ganaderos por sus vacas y sus caballos compraban herramientas y esclavos.",
+     "traduccion": "Interpretación de Bosch sobre la cita de Sánchez Valverde.",
+     "afirmaciones": [
+      "A-061",
+      "A-065"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-059",
+    "A-061",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0072",
+   "notas": "La numeración de páginas es la del PDF de la ed. 2005 (el número aparece al pie de cada página). Bosch fecha el 'dinamismo' del XVIII en la guerra de 1739 y el comercio con la colonia francesa; da como explicación del divorcio económico la ausencia de inversión de capital metropolitano y el situado como única moneda, no el ambiente (relevante frente a A-060). Texto citado por Catani/Jáuregui (nota 18: 'Durante casi todo el siglo Santo Domingo no tuvo más moneda que la del situado', Bosch 56, 84). Se leyeron los fragmentos del cap. VIII; el resto del libro no se leyó."
+  },
+  {
+   "titulo": "La comunidad mulata de Pérez Cabral, el dato que lo cambia todo",
+   "autor": "Núñez Asencio, Manuel",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-comunidad-mulata-de-perez-cabral-el-dato-que-lo-cambia-todo-9598147.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión que resume a Pérez Cabral (1967) sin cotejo propio; las cifras de 1750 no tienen fuente primaria trazable y contradicen las demás bases.",
+   "proveniencia": "Manuel Núñez Asencio, lingüista y ensayista (autor de 'El ocaso de la nación dominicana', Premio Nacional de Ensayo 1990), publica en Acento (31-XII-2025) un resumen de la tesis de Jesús Pérez Cabral, 'La comunidad mulata' (1967). Escribe desde una lectura hispanista-conservadora que valora la 'hispanidad' mulata de la nación; no cita documentos coloniales.",
+   "extractos": [
+    {
+     "ubicacion": "pasaje sobre la abolición de 1822 (resumen de la tesis de Pérez Cabral)",
+     "cita_original": "Para 1750, décadas antes de Boyer, las estadísticas citadas por Pérez Cabral ya mostraban una disparidad enorme: 110,000 hombres libres frente a solo 15,000 esclavos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056",
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "pasaje 'Cuba y Santo Domingo: dos caminos divergentes en el mestizaje americano'",
+     "cita_original": "En la República Dominicana, según Pérez Cabral, el mulato representa el 80% de la población, mientras que el negro puro constituye un 15% y el blanco un 5%.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056",
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-058"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "F-0725",
+   "notas": "Cifra sin fuente primaria identificable: la población total de la colonia en 1750 era de pocas decenas de miles (ver Baud: 10.000 en 1700 y 70.000 en 1770; Catani 1788: 70.000), así que '110.000 libres' en 1750 no concuerda con ninguna base consultada; se degrada a D hasta que se trace en Pérez Cabral 1967 [POR VERIFICAR: el libro no se leyó]. Interpretación: la columna deduce que la abolición de 1822 fue 'formalización' de una libertad ya mayoritaria; eso es tesis del autor y de Pérez Cabral, no hecho."
+  },
+  {
+   "titulo": "La Frontera Domínico-Haitiana, parte I",
+   "autor": "El Día (redacción, sin firma)",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/la-frontera-dominico-haitiana-parte-i",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota periodística sin firma ni bibliografía; reproduce de cerca a Peña Batlle y a la historiografía de la ADH, pero no cita sus fuentes.",
+   "proveniencia": "Publicada en el diario El Día el 28-VI-2023, dentro de una serie de explicación histórica de la frontera en el contexto de la crisis del canal del río Masacre. Escribe para público general, desde la posición oficial dominicana ('ocupación ilegal' francesa, 'dominicanos españoles').",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'Aunque el acuerdo de 1678...'",
+     "cita_original": "existe una creencia generalizada en el sentido de que España reconoció la ocupación francesa de la parte occidental de la isla de Santo Domingo mediante el Tratado de paz de Ryswick, que tuvo lugar el 20 de septiembre de 1697.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente",
+     "cita_original": "En realidad, esa creencia es errada, ya que el Tratado de Ryswick [...] no hace mención en parte de la isla de Santo Domingo ni incluye una cláusula reconociendo la presencia francesa en la isla.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Conocido como el Tratado de Aranjuez'",
+     "cita_original": "Conocido como el Tratado de Aranjuez, fue el convenio mediante el cual formalmente España reconoció la ocupación francesa de la parte occidental de la isla de Santo Domingo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'En el año 1731'",
+     "cita_original": "En el año 1731, las autoridades de las colonias española y francesa acordaron trazar una línea fronteriza [...] mediante la cual los ríos Dajabón, en el norte, y Libón y Artibonito, en el sur, serían la línea divisoria entre las dos colonias.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0199",
+   "notas": "Resuelve F-0199 (la primera URL; la segunda del registro, Acento sobre el siglo XVII, es reseña de Peña Pérez, 'Cien años de miseria', y se leyó solo en el titular: no aporta a M05). Discrepancia con Peña Batlle: el convenio de 1731 fija 'Pedernales' en el sur según él y 'Libón y Artibonito' según El Día; ambos sin documento primario a la vista. El art. 1 que cita entre comillas ('quedarán por límites perpetuos e invariables ...') no coincide literalmente con la transcripción de Peña Batlle: probable paráfrasis de otra edición."
+  },
+  {
+   "titulo": "Del “esclavo feliz” al olvido de la esclavitud",
+   "autor": "Silié Valdez, Rubén",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/235/174/177",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/235",
+    "https://doi.org/10.51274/ecos.v26i17.pp217-235"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de síntesis y alegato de un historiador-sociólogo de la ADH, revisado por la revista de la UASD; argumenta con literatura secundaria (Deive, Moya Pons, Moreno Fraginals) más que con archivo propio.",
+   "proveniencia": "Rubén Silié Valdez (sociólogo UASD, maestría en historia económica en la EPHE, director de FLACSO, embajador en Haití y Chile, miembro de la Academia Dominicana de la Historia) publica en Ecos 17 (UASD, enero-junio 2019) pp. 217-235. Escribe desde la crítica interna a la historiografía dominicana y a los libros de texto, con un propósito explícito: que se enseñe la esclavitud y se recupere la memoria afrodescendiente. Variante crítica de la tradición dominicana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 219, 'Introducción'",
+     "cita_original": "En la historiografía dominicana ha predominado por mucho tiempo una tendencia a atenuar el rigor de la esclavitud durante el período colonial. La misma, aun en la actualidad, sigue siendo significativa en los libros de texto.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 221",
+     "cita_original": "algunos han catalogado el sistema esclavista aplicado en la colonia de Santo Domingo, de “democracia racial”; “dulce esclavitud “; “esclavitud benigna”; “ausencia de prejuicio racial”",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 223, punto 1",
+     "cita_original": "Las limitaciones para comprar esclavos hacía que el esclavista no pudiera castigarlo hasta ponerlo en peligro de muerte, pues no contaba con los medios para reemplazarlo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 223, punto 3",
+     "cita_original": "Los esclavos fugitivos procedentes de la colonia francesa de Saint Domingue eran muy bien recibidos en la parte española, por ser una de las principales fuentes para aprovisionarse de mano de obra.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062",
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 225",
+     "cita_original": "Desde finales del siglo XVI no se logró nunca un crecimiento notorio de la población esclavizada en la colonia de Santo Domingo, al menos, por la vía de la importación directa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 225",
+     "cita_original": "cuando en el siglo XVIII se desarrolló un proyecto para reforzar la población, este se hizo mediante la importación de familias canarias",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 228",
+     "cita_original": "Queda claro que lo que impone el trato al esclavo es el tipo de economía a la cual se le incorpora.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058",
+      "A-059"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-058",
+    "A-059",
+    "A-061",
+    "A-062",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: Silié no niega diferencias entre el trato en Santo Domingo y en Saint-Domingue; las atribuye al tipo de economía y a la debilidad de España en la trata, no a la moral ni a la religión (interpretación). Matiza A-058: el término 'patriarcal' no está en este artículo; sí 'esclavo feliz', 'dulce esclavitud', 'esclavitud benigna' y 'democracia racial' como etiquetas de la historiografía que critica (atribuidas en nota a Despradel y Reyes). Sobre A-065: dice que la importación directa nunca creció de forma notable y que los fugitivos de Saint-Domingue eran fuente de mano de obra, pero no da cifras. Declara que 'la colonización instituyó el prejuicio racial' (p. 231). La obra Economía, esclavitud y población (Silié 1976) del registro F-0086 no se leyó: este artículo es otro texto del mismo autor."
+  },
+  {
+   "titulo": "Consideraciones alternativas acerca de las rebeliones de esclavos en Santo Domingo",
+   "autor": "Cassá, Roberto; Rodríguez Morel, Genaro",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/54/65/71",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/54",
+    "https://doi.org/10.51274/ecos.v2i3.pp155-191",
+    "https://estudiosamericanos.revistas.csic.es/index.php/estudiosamericanos/article/download/837/831/832"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de archivo (AGI, Utrera, Deive) de los dos historiadores coloniales dominicanos de referencia, publicado en la revista de la UASD y, en versión paralela, en el Anuario de Estudios Americanos (Sevilla, 1993).",
+   "proveniencia": "Roberto Cassá y Genaro Rodríguez Morel (UASD), Ecos año 2, n.º 3 (1994) pp. 155-191; versión en Anuario de Estudios Americanos 50(1) (1993). Revisan la historiografía dominicana de la rebelión esclava (Lugo, Utrera, Cassá 1976) para rechazar la tesis de la 'esclavitud benigna' y proponer una periodización: plantación intensiva (XVI), cimarronaje, debilitamiento del esquema y manumisión (XVII-XVIII). Texto crítico de la visión hispanista y autocrítico de la propia lectura de Cassá en 1976.",
+   "extractos": [
+    {
+     "ubicacion": "p. 156",
+     "cita_original": "Lugo separa radicalmente las condiciones de las colonias españolas de las vigentes en la vecina Saint Domingue",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 157",
+     "cita_original": "Desde una óptica puramente hispanista, Fray Cipriano de Utrera, erudito especialista en la historia colonial, puso énfasis en la integración del negro por medio de su aporte pasivo a la cultura criolla.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058",
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 161",
+     "cita_original": "debe ser rechazada la generalización extrapolada por los historiadores acerca del carácter benigno de la esclavitud",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 186",
+     "cita_original": "La señal más clara de lo último estuvo representada por la recepción de los esclavos escapados en los años siguientes a 1680, con quienes se fundaría la aldea de San Lorenzo de los Minas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 187",
+     "cita_original": "En el siglo XVIII no se constituyeron palenques, a no ser los de las zonas fronterizas compuestos por fugitivos de Saint Domingue.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 187",
+     "cita_original": "se produjeron devoluciones por presión de las autoridades de la colonia vecina. Aun así, se practicaron reducciones de estos cimarrones, siendo la más importante una establecida en el Valle de Neiba.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 187",
+     "cita_original": "En los palenques fronterizos de la segunda mitad del XVIII, la presencia de fugitivos de la parte española parece haber sido minúscula.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-062",
+    "A-064"
+   ],
+   "modulos": [
+    "M03",
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho verificado en esta fuente: en el XVIII los palenques de la frontera estaban formados por fugitivos de Saint-Domingue; hubo devoluciones por presión francesa y al menos una 'reducción' en el Valle de Neiba (cita a Deive 1985, n. 58). Matiza A-062: dice 'devoluciones' sin fecha ni tratado y no menciona Aranjuez; tampoco da la fecha de 1785-86 para el maniel (pendiente en Deive 1985 y AGI). Rechaza la tesis del carácter benigno para los esclavos del XVI y sostiene que desde mediados del XVII la dinámica cambió ('aun si se reconoce una dinámica por completo distinta'): no reniega de que hubo atenuación posterior. Se lee junto a Cassá 1976/2003, que usa 'patriarcalismo' (ver Widmer 2008). Esta versión de Ecos coincide en título y autores con la del Anuario de Estudios Americanos 50(1) (1993), de la que solo se leyó la portada y el resumen."
+  },
+  {
+   "titulo": "El racismo, las migraciones y los problemas de la identidad nacional en República Dominicana",
+   "autor": "Franco Pichardo, Franklin",
+   "anio": "2019 (inédito, publicado póstumamente)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/8/8/15",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/8"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto inédito de Franklin Franco (m. 2013), publicado como documento por Estudios Sociales; síntesis de su lectura marxista, sin aparato de archivo para el XVIII.",
+   "proveniencia": "Franklin J. Franco Pichardo (1930-2013), historiador marxista de la UASD, autor de 'Los negros, los mulatos y la nación dominicana' (1969), dejó este trabajo inédito sobre racismo, migraciones e identidad que Estudios Sociales (Instituto Pedro Francisco Bonó) publica en el n.º 158 (enero-abril 2019), pp. 109-141. Explica la divergencia de las dos colonias por el 'desarrollo desigual del capitalismo' y la competencia entre potencias, y critica la identidad dominicana que niega lo negro.",
+   "extractos": [
+    {
+     "ubicacion": "p. 113-114",
+     "cita_original": "un tratado denominado Paz de Ryswick [...] pacto que no hacía referencia alguna a los conflictos territoriales que se desarrollaban en Santo Domingo, fue interpretado por los gobiernos coloniales como un acuerdo que consolidaba los derechos de los franceses a gobernar el lado occidental de la isla Española.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 114",
+     "cita_original": "A partir de aquí, la ley del desarrollo desigual del capitalismo hizo lo suyo en la dirección de sellar en esa isla dividida el establecimiento de dos modelos económicos esclavistas de explotación colonial absolutamente diferentes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "p. 114",
+     "cita_original": "sobre la base de la explotación del trabajo de cerca de medio millón de esclavos negros integrados en la industria azucarera y en las plantaciones de café y añil, Francia logró crear [...] la más rica colonia establecida en suelo americano.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-054",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "p. 114",
+     "cita_original": "a causa del atraso económico de su metrópolis y de su escasa participación en el tráfico de esclavos, la colonia española vivía en condiciones de subsistencia, con una reducida población dedicada a la ganadería, un poco al cultivo del tabaco, del jengibre, etc.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061",
+      "A-065",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "p. 114",
+     "cita_original": "a partir de 1740, se convirtió en abastecedora del Santo Domingo Francés, proveyéndola de carne, tabaco y de ganado vacuno y caballar",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 115",
+     "cita_original": "Ese intercambio comercial entre ambas colonias, que —subrayamos— se efectuaba mayormente por la vía del contrabando, permitió cierto florecimiento en la zona este",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-057",
+    "A-059",
+    "A-061",
+    "A-063",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Cifra: 'cerca de medio millón de esclavos' en la colonia francesa, sin base ni fecha (coincide con el rango 465.000-500.000 de A-054; no es fuente primaria). Interpretación: la explicación de Franco es estructural-mundial (capitalismo comercial, rivalidad de potencias, atraso de España) y rechaza la separación de la isla como 'obra de los habitantes'; no es la explicación ambiental de Diamond (A-060), que no discute en este texto. Hecho: sobre Ryswick, Franco repite que el tratado no se refirió a la isla (como Peña Batlle) pero dice que fue 'interpretado' como consolidación del dominio francés. Texto inédito: sin cotejo con una versión original; la edición del equipo de Estudios Sociales lo presenta con una nota previa. Las referencias de Franco a manieles (p. 112) son del XVI."
+  },
+  {
+   "titulo": "Reseña de libros. Amadeo Julián, El contrabando de esclavos en Santo Domingo y la fuga de esclavos de la colonia francesa a la colonia española de Santo Domingo (AGN, 2023, 2 vols.)",
+   "autor": "González de Peña, Raymundo Manuel",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/325/483/496",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/325",
+    "https://doi.org/10.51274/ecos.v30i1.pp111-114"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de un colega de la misma Academia, con extractos directos del libro reseñado; sirve como puerta a los datos de Julián (libros de 'negros de mala entrada', 1776-1779) que no están en línea.",
+   "proveniencia": "Raymundo González (INTEC, doctor por la Universitat Jaume I, asesor histórico del AGN, miembro de número de la ADH) reseña en Ecos 25 (UASD, enero-junio de 2023), pp. 111-114, la obra de Amadeo Julián publicada por el AGN: 4 estudios sobre contrabando de esclavos, visitas a haciendas de 1779, la fuga de esclavos franceses y la fundación de Los Minas, y las políticas de control de los negros libres. González comparte y avala la tesis de la 'descomposición' de la esclavitud tardo-colonial.",
+   "extractos": [
+    {
+     "ubicacion": "p. 112 (columna izquierda)",
+     "cita_original": "el creciente comercio con dicha colonia fue, desde fines del siglo XVII, la tabla de salvación del comercio de Santo Domingo español",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 112",
+     "cita_original": "El capítulo sobre los negros de mala entrada y el contrabando de esclavos refiere cómo este flujo de esclavos era imprescindible para el sostenimiento de la sociedad esclavista de Santo Domingo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 112",
+     "cita_original": "El primer estudio [...] analiza por primera vez los libros donde ser registraron las actuaciones de los oficiales de las Cajas Reales para el cobro de los derechos por concepto del indulto para esclavos de contrabando concedido por el Rey en 1776.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 112",
+     "cita_original": "pueblo de Los Minas [...] fue conformado con esclavos fugados que encontraron su libertad y refugio en la colonia española",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 113 (cita de Julián, p. 73)",
+     "cita_original": "será desde el punto de vista formal una sociedad con presencia de esclavos, pero no podrá ser considerada una formación económica y social esclavista, sobre todo, si en ésta predominan otras formas de producción basadas en el trabajo libre.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 113",
+     "cita_original": "el Código Negro Español o Código Negro Carolino de 1784, que como se sabe nunca fue puesto en ejecución",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-061",
+    "A-062",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Se cita al propio Julián a través del reseñista (p. 73 de su libro): no se leyó el libro (AGN 2023, vol. I 421 pp., vol. II 247 pp.), que sería la fuente primaria dominicana más directa para A-062 y A-065. El reseñista añade que Julián documenta 'persecuciones de los negros libres' en el gobierno de Azlor, la 'leva de 1782' y el 'Comegente' (1790-1793). Interpretación: 'descomposición de las relaciones esclavistas' y 'esclavitud jornalera' son tesis de Julián y González; no hechos independientes. Hecho: libros de 'negros de mala entrada' del indulto de 1776 conservados en el AHN (Madrid)."
+  },
+  {
+   "titulo": "De la reforma de la propiedad a la reforma rural",
+   "autor": "González, Raymundo",
+   "anio": "1995",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/71/53/59",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/71",
+    "https://doi.org/10.51274/ecos.v3i4.pp179-192"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de historia agraria con base en AGI y en la comisión de realengos de Luyando (1767-1772); del autor del libro 'De esclavos a campesinos' (F-0078).",
+   "proveniencia": "Raymundo González, Ecos año 3, n.º 4 (1995), pp. 179-192. Estudia el intento borbónico de reordenar la propiedad de la tierra en Santo Domingo (real cédula de 1754 y comisión del oidor Luyando, 1767-1772) y la reacción del Cabildo de la capital y de la 'plebe' campesina. Lectura de clase: oligarquía de hacendados vs. campesinado de canarios y libres de color.",
+   "extractos": [
+    {
+     "ubicacion": "p. 180",
+     "cita_original": "la posibilidad de reducir las cargas del situado y aún la obtención de algún beneficio procedente de esta colonia, fueron ideas no totalmente ausentes en la política reformista.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 180",
+     "cita_original": "De ahí también el interés de la Corona en incorporar a la economía legal la producción de tabaco, que hasta entonces era enteramente consumida por el contrabando.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 181",
+     "cita_original": "el intento de reforma de la propiedad del suelo puso en evidencia un aspecto novedoso de las luchas de clases en la colonia, pero no ya entre las clases características de la sociedad esclavista, sino entre los grupos oligárquicos dueños de grandes propiedades y esclavos, y los grupos más dispersos de pequeños y medianos campesinos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058",
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-061"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: la Corona buscó reducir el situado, vigilar la frontera con la colonia francesa y legalizar el tabaco antes consumido por el contrabando; interpretación: González lee el conflicto como lucha de clases hatero-campesino en una sociedad ya 'no característicamente esclavista'. Solo se leyeron las pp. 180-182 con atención; el artículo completo tiene 14 páginas. No se encontró en línea el libro De esclavos a campesinos (2011) de F-0078: la URL del registro (ADH, RaymundoGonzalez-MN.pdf) es una ficha biográfica de una página."
+  },
+  {
+   "titulo": "Repensando “El sonido de la libertad”",
+   "autor": "Lora Hugi, Quisqueya",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/1095/1046/2122",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/1095"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo autocrítico (Estudios Sociales 168, jul-dic 2023, pp. 122-141) de la autora de 'El sonido de la libertad' (Clío 182, 2011): reflexión historiográfica, no investigación nueva de archivo.",
+   "proveniencia": "Quisqueya Lora Hugi, historiadora dominicana (asistente colaboradora de la ADH), revisa su propia tesis de 2011 sobre agitaciones esclavas en 1791-1821 y propone que hubo rebeldía esclava continua, incluida la negociada. Critica el 'relato romántico de la esclavitud patriarcal' y señala los silencios de García, Pichardo y Gimbernard en los textos escolares.",
+   "extractos": [
+    {
+     "ubicacion": "p. 128",
+     "cita_original": "se produjo un silencio de casi 300 años que fue llenado con el relato romántico de la esclavitud patriarcal, esta supuesta relación padre-hijo en la que fue convertida la esclavitud en la Parte Española de la isla de Santo Domingo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 128",
+     "cita_original": "Al embrujo de la esclavitud patriarcal sucumbieron de una forma u otra la mayoría de los historiadores contemporáneos, sin dejar de reconocer las visiones críticas y el inmenso aporte de historiadores como Franklin Franco, Rubén Silié, Carlos Esteban Deive, Emilio Cordero Michel, entre otros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "pp. 129-130",
+     "cita_original": "los manieles que se convirtieron en espacios estables y que pervivieron hasta finales del siglo XVIII y principios d[el XIX] [...] cuando después de cientos de años pudieron negociar acuerdos de rendición y reubicación.",
+     "traduccion": "El corchete completa el corte de página del OCR.",
+     "afirmaciones": [
+      "A-062"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-062"
+   ],
+   "modulos": [
+    "M03",
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: manieles estables hasta finales del XVIII y acuerdos de rendición/reubicación (sin fecha ni nombre del maniel en el pasaje leído). Interpretación: 'relación amo-esclavo reconfigurada, no paternalismo' (p. 129). La autora ubica el origen del mito patriarcal en los libros de texto de la ocupación de EE.UU. (Gómez 1919, Pichardo 1921, Gimbernard 1976); eso es hipótesis suya (nota 11 cita a Lorgia García Peña). Los textos escolares mencionados no se leyeron."
+  },
+  {
+   "titulo": "Un documento sobre la esclavitud en Santo Domingo (1706): la “negrita” Manuela",
+   "autor": "Stevens-Acevedo, Anthony",
+   "anio": "2021",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/1085/1031/2106",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/1085"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción paleográfica de una carta de venta de 1706 (Bayaguana) con comentario breve del editor; documento notarial de primera mano.",
+   "proveniencia": "Anthony Stevens-Acevedo (CUNY Dominican Studies Institute) transcribe en Estudios Sociales (Año 53, Vol. XLIV, n.º 164, jul-dic 2021, pp. 138-149; los metadatos OJS dan vol. 46, n.º 167) la carta de venta que Joan Gil otorga a su hermano Domingo Díaz el 6 de marzo de 1706 en Bayaguana. Ofrece un testimonio notarial de cómo el vocabulario del documento unía 'negro' y 'esclavo' a principios del XVIII.",
+   "extractos": [
+    {
+     "ubicacion": "fo. 1r (transcripción, p. 142)",
+     "cita_original": "una quarta parte que tengo en una negrita nonbrada Manuela de nación Conga la qual heredamos yo y mis hermanos de Manuela Maria nuestra madre",
+     "traduccion": "Venta de una cuarta parte de una esclava de 16 años 'de nación Conga' heredada de la madre.",
+     "afirmaciones": [
+      "A-058",
+      "A-066"
+     ]
+    },
+    {
+     "ubicacion": "fo. 1r (transcripción, p. 142)",
+     "cita_original": "por presio y quantia de sinquenta pesos de a ocho Reales de plata Castellanos",
+     "traduccion": "Precio de la cuarta parte: 50 pesos de a ocho reales.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 138 (comentario del editor)",
+     "cita_original": "la esclavitud fue una realidad en la que vivieron miles de antepasados de los dominicanos y dominicanas de hoy, en su gran mayoría mujeres y hombres negros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-066"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: la mención 'de nación Conga' en una venta de 1706 en el este apoya la presencia de esclavizados de origen centro-occidental africano (A-066), pero es un único documento y la 'nación' es etiqueta del traficante o del notario, no dato genético. El documento muestra a la esclava como 'cosa' de uso comercial según 'las leyes del ordenamiento real'. Discrepancia: el encabezado del PDF dice Año 53, vol. XLIV, n.º 164 (2021); el OJS del sitio da vol. 46, n.º 167: se cita lo que dice el PDF."
+  },
+  {
+   "titulo": "Los negros, los franceses y la invención de la nación hispana. La obra de Antonio Sánchez Valverde y su impacto en la historiografía (y la realidad) dominicana",
+   "autor": "Widmer, Rudolf",
+   "anio": "2008",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/101/93/185",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/101"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio historiográfico con notas, publicado en Estudios Sociales 145 (abr-jun 2008, pp. 11-34); sus citas de Cassá, Bonó y Marrero Aristy están referenciadas con página, pero su tesis (la nación como 'invención' de los grandes propietarios) es declarada y polémica.",
+   "proveniencia": "Rudolf Widmer, historiador suizo, especialista en el siglo XVIII dominicano (autor de 'La propiedad en entredicho', Higüey, 2004), escribe como profesor invitado del Instituto Filosófico Pedro F. Bonó para analizar el 'sistema de espejos' del memorial de Sánchez Valverde y su recepción (Bonó, Marrero Aristy, Cassá). Tradición: lectura desde fuera de la historiografía dominicana, con interlocución interna (Franklin Franco).",
+   "extractos": [
+    {
+     "ubicacion": "p. 13",
+     "cita_original": "Hacia 1740, esos equilibrios empezaron a desvanecerse. [...] el rápido desarrollo de una colonia azucarera francesa en la parte occidental de la isla abandonada por los españoles a principios del siglo XVII crearon un entorno favorable a la exportación de ganado, tabaco y maderas preciosas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "p. 14",
+     "cita_original": "éstos eran los principales compradores de sus excedentes de ganado y tabaco, y les suministraban por contrapartida una parte importante de la mano de obra que trabajaba en sus labranzas y sus hatos.",
+     "traduccion": "Dicho de los 'habitants' franceses respecto de los grandes propietarios de Santo Domingo.",
+     "afirmaciones": [
+      "A-061",
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 15",
+     "cita_original": "La colonia de Santo Domingo es tan sólo “la patria” del autor, un término que se usa como sinónimo de “terreno” y que tiene por tanto una connotación menos política que geográfica y afectiva.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 16",
+     "cita_original": "Los términos “nación”,”imperio”, “estado” y “cuerpo” son, en su concepción del mundo, sinónimos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 28 (Widmer cita a Bonó 1881, ed. 1980, p. 219)",
+     "cita_original": "el español aportó suma benevolencia, gran caridad y mucha dulzura, en las desigualdades sociales que tal sistema imponía.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 30 (Widmer cita a Cassá 1992, p. 69)",
+     "cita_original": "grupo poblacional íntegro que comienza a forjar un sentido de identidad diferenciada, basada en la ocupación de un territorio y en rasgos culturales compartidos, sin que exprese la reivindicación de la autodeterminación",
+     "traduccion": "Definición de 'conglomerado' (Cassá).",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 31 (Widmer cita a Cassá 1992, pp. 87-91; 2003, p. 259)",
+     "cita_original": "la esclavitud intensiva” o “típica” que se practicaba en los ingenios del siglo XVI “se dulcificaba”, matizándose “por el patriarcalismo más completo.”",
+     "traduccion": "La cita de Cassá con 'patriarcalismo' está verificada aquí de segunda mano, no en el original.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "Sánchez Valverde y sus coetáneos aun no son “dominicanos” sino “protodominicanos”.",
+     "traduccion": "Lectura de Cassá (1992, pp. 93-94) según Widmer.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "Según Cassá, la República Dominicana no es, como sostenemos nosotros, el engendro de la política de los grandes propietarios del siglo XIX sino el fruto obligado del desarrollo del núcleo humano que se constituyó poco antes de 1500 en la isla de Haití.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "pp. 32-33",
+     "cita_original": "interpretaciones que no cuadran ni con el propósito de la Idea del valor de la isla Española ni con la información que proporcionan las actas de venta de esclavos y los expedientes judiciales de los archivos notariales de la época.",
+     "traduccion": "Dicho por Widmer del 'patriarcalismo' y del 'negro protodominicano' de Cassá.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-059",
+    "A-061",
+    "A-064",
+    "A-065"
+   ],
+   "modulos": [
+    "M05",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: Widmer documenta que 'patriarcal' es un término de Cassá (1976, 1992, 2003) y que la visión idílica la consolidan Bonó (1881), Marrero Aristy (1957) y la edición trujillista de 1958. Interpretación (suya): la nación dominicana 'inventada' por los grandes propietarios; la identidad hispana sería un mito de clase. Significado: Cassá la lee como proceso (conglomerado → nación, 'protodominicanos'); Widmer como construcción de élite. La posición de Widmer (suizo) es externa a la tradición dominicana pero la discute con la de Franco. Citas de Cassá, Bonó y Marrero Aristy: de segunda mano."
+  },
+  {
+   "titulo": "Esclavitud más allá de la plantación. El caso de Santo Domingo (siglo XVIII)",
+   "autor": "Carmona, Clarisa",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.unapec.edu.do/bitstreams/c9077831-c11b-4b11-8c97-54427846446b/download",
+   "urls_alternativas": [
+    "https://repositorio.unapec.edu.do/handle/123456789/822"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Extracto de una tesis de maestría (Univ. Pablo de Olavide, 2017-18) basado en protocolos de manumisión de Bayaguana, Higüey y El Seibo (1700-1779); sin revisión por pares conocida, pero con documentos.",
+   "proveniencia": "Clarisa Carmona, historiadora dominicana, publica en Estudios Generales (Universidad APEC, ISSN 2676-0932, mayo de 2020, pp. 36-52) un extracto de su tesis 'Aproximación al proceso de manumisión en Santo Domingo. Los casos de las villas de Bayaguana, Higüey y El Seibo, 1700-1779'. Sostiene que la esclavitud en Santo Domingo fue permanente y que las diferencias con Saint-Domingue se explican por la forma de producción, no por factores morales o religiosos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 37",
+     "cita_original": "El mercado de esclavos dominicano operó durante el siglo XVIII condicionado por Saint-Domingue.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 39",
+     "cita_original": "el cabildo de Santo Domingo quiso prepararse e ideó un instrumento jurídico semejante al Código Negro francés, que ya estaba en vigor en la colonia de Saint-Domingue donde servía para sujetar 140.000 esclavos, mientras que en Santo Domingo apenas se podían controlar los ocho mil existentes.",
+     "traduccion": "El cabildo preparó su Código Negro en 1768; las cifras (140.000 y 8.000) son de la autora o de su fuente, no citadas.",
+     "afirmaciones": [
+      "A-054",
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 39",
+     "cita_original": "El carácter patriarcal de la esclavitud en Santo Domingo colonial es una cuestión que se ha discutido mucho en la historiografía local.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 42",
+     "cita_original": "En el caso de Santo Domingo, los libres de color sobrepasaban en número a los esclavos y a los blancos, razón por la cual eran vistos como una amenaza.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056",
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 44",
+     "cita_original": "algunos historiadores estiman que para 1769 había ocho mil novecientos esclavos, en una población de 70,625 vecinos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-056",
+    "A-058",
+    "A-062",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Cifras: 8.900 esclavos y 70.625 'vecinos' en 1769 ('algunos historiadores estiman', sin nombrarlos; la propia autora duda de la fiabilidad de los censos); 140.000 esclavos en Saint-Domingue en 1768 es inferior a las estimaciones de 1789 (465.000) porque se refiere a otra fecha. Hecho: el proceso de manumisión era 'una transacción de negocio' (p. 44-45); la autora concluye que 'la esclavitud fue permanente' pero con diferencias derivadas del tipo de explotación (hato, estancia, jornal). El texto discute la 'esclavitud patriarcal' y usa a Deive (1980) para el liberto como 'individuo marginal'. Interpretación y hecho aparecen mezclados en la introducción."
+  },
+  {
+   "titulo": "Informe del oidor Pedro Catani sobre el estado y fomento de Santo Domingo (1788) [edición de Jáuregui y Solodkow, con notas]",
+   "autor": "Catani, Pedro (oidor decano); ed. Jáuregui, Carlos A.; Solodkow, David M.",
+   "anio": "1788 (ed. 2014)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.redalyc.org/pdf/4781/478147218013.pdf",
+   "urls_alternativas": [
+    "http://www.redalyc.org/articulo.oa?id=478147218013"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial del oidor al ministro de Indias (AGI, Santo Domingo 968, 15-XI-1788) en edición moderna anotada (Perífrasis 5(10), 2014, pp. 169-182); las cifras son estimaciones del oidor con solo 3,5 meses en el cargo.",
+   "proveniencia": "Pedro Catani, oidor decano de la Audiencia de Santo Domingo y presidente interino, informa a Antonio Porlier sobre el estado, población y fomento de la isla, tras tres meses y medio al frente del gobierno. Escribe como funcionario peninsular con una visión ilustrada y mercantilista y con una opinión negativa de los libres de color ('vizio radical'). La edición es de dos académicos (Notre Dame y Los Andes), cuyas notas contrastan con Sánchez Valverde y Cassá.",
+   "extractos": [
+    {
+     "ubicacion": "§2, p. 169",
+     "cita_original": "Sus poblaciones son en número de veinte y quatro, y sus havitantes componen el de setenta mil.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "§9, p. 171",
+     "cita_original": "La Populación se compone, de las seis partes, las cinco de negros y mulatos libres y esclavos, siendo los demás, blancos españoles o criollos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "§5, p. 170",
+     "cita_original": "Estas haciendas se componen en la maior parte de crías de ganados, de algunos Ingenios de azúcar de poca concideración, de algunos trapiches",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "§33, p. 175",
+     "cita_original": "esta Ysla sufre un comercio solamente pacivo, y que sus caudales y los que vienen para el cituado pasan a los extrangeros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "§40, p. 176",
+     "cita_original": "La introducción de mil y quinientos negros de cuenta de su Magestad, a precios cómmodos, y la libre entrada de los que introduzcan los vezinos",
+     "traduccion": "Gracia de la Real Cédula de 12 (o 11) de abril de 1786 que Catani juzga insuficiente.",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "§46, p. 178",
+     "cita_original": "Se compran muchos con el fin de que ganen Jornal para su amo, que se reduce a dos reales diarios, lo demás [se] cede en beneficio del mismo esclavo como proprio peculio.",
+     "traduccion": "Describe la esclavitud a jornal como vía a la libertad.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "§48, p. 178",
+     "cita_original": "El primero cohartar las livertades. El segundo, más suave a la esclavitud consiste en que se formen nuevas poblaciones a regulares distancias de las antiguas",
+     "traduccion": "Propuesta de restringir las manumisiones o reducir a los libres a pueblos.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "nota 4 (editores), p. 170",
+     "cita_original": "Antonio Sánchez Valverde (1734-1790) estima que la población total según los padrones de entonces era de 100 000 habitantes, pero calcula que debía estar cerca de 125 000 (117).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "nota 7 (editores), p. 171",
+     "cita_original": "Según Roberto Cassá, la población estaba mayoritariamente compuesta de mulatos (60%); “alrededor del 20% de negros y algo menos de blancos” (126).",
+     "traduccion": "Cassá, 'Historia social y económica', t. I (ed. de 2003), p. 126, citado por los editores.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "nota 13 (editores), p. 173",
+     "cita_original": "la reproducción anual del ganado es del 15% o aproximadamente 32 000 cabezas de ganado al año. Esta producción, dice el oidor, se divide en tres partes: [...] y la tercera para exportar a la colonia francesa.",
+     "traduccion": "Los editores parafrasean a Catani: una tercera parte del aumento anual del ganado iba a la colonia francesa.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-058",
+    "A-061",
+    "A-065"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho crucial para A-056: Catani da 70.000 habitantes en 1788 (con 3 meses de gobierno), por debajo de los padrones de Sánchez Valverde (100.000) y de Moreau; los editores anotan 100.000 (70.000 según Catani) para 1789. La proporción 5/6 de negros y mulatos libres y esclavos coincide con Cassá (60% mulatos + 20% negros = 80%). Fuente primaria de tradición española/peninsular editada por no dominicanos; se incluye porque la tradición dominicana (Cassá, Franco, González) la cita y porque el oidor condensa la visión de la élite sobre el 'vicio radical' de los libres de color. Los editores señalan que la Real Cédula de 11 o 12 de abril de 1786 no pudo localizarse en el AGI. Edición con ligaduras perdidas por el OCR ('con el n', 'bene cio'); la cita las repone."
+  },
+  {
+   "titulo": "Reformas coloniales e identidad ambivalente en Idea del valor de la Isla Española (1785) de Antonio Sánchez Valverde",
+   "autor": "Hontanilla, Ana",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://reunido.uniovi.es/index.php/CESXVIII/article/download/18780/15743/59845",
+   "urls_alternativas": [
+    "https://doi.org/10.17811/cesxviii.33.2023.385-411"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares (Cuadernos de Estudios del Siglo XVIII 33, 2023, pp. 385-411) de una especialista en estudios coloniales hispánicos; resume con página el debate Cassá / San Miguel / Peña Batlle / Baud.",
+   "proveniencia": "Ana Hontanilla (Univ. de Carolina del Norte, Greensboro) lee el memorial de Sánchez Valverde en el contexto de las peticiones de plantadores de 1765-1769 y del Código negro carolino de 1784, y resume la recepción dominicana de su 'criollismo'. Escribe desde los estudios coloniales y de raza en el Caribe hispano.",
+   "extractos": [
+    {
+     "ubicacion": "p. 386 (epígrafe: Código negro carolino, 1784, ed. Emparán y Orbe 1974, p. 161)",
+     "cita_original": "El corto número de esclavos y negros libres que posee [Santo Domingo], cuya vergonzosa ociosidad, independencia y orgullo y los continuados robos y desórdenes que cometen en sus campiñas y haciendas, la han reducido a la pobreza y situación más deplorable.",
+     "traduccion": "Atribución del declive a esclavos y libres de color, en el texto oficial de 1784.",
+     "afirmaciones": [
+      "A-058",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "p. 391",
+     "cita_original": "Desde finales del siglo xvii, los plantadores y los representantes de la autoridad colonial debatieron maneras de transformar la economía ganadera de Santo Domingo en un sistema de plantaciones de azúcar similar a la colonia francesa vecina.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-059",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 405",
+     "cita_original": "Según Cassá, Sánchez Valverde representa al dominicano criollo en oposición al criollo francés, lo que contribuye a borrar las diferencias raciales internas en la imagen del dominicano (2008: 26-30).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 405",
+     "cita_original": "Pedro Luis San Miguel argumenta que la idea de raza que fusiona a los negros esclavizados con africanos y afrodescendientes y que acuña el término «indohispánico» para referirse a una raza híbrida de pueblos europeos e indígenas, borrando el componente africano, se debe a Sánchez Valverde (2005: 43).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064",
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 406",
+     "cita_original": "La controversia en torno al criollismo de Sánchez Valverde se intensificó cuando los ideólogos de la dictadura de Trujillo, como Manuel Arturo Peña Batlle, encontraron en las ideas de Sánchez Valverde la justificación que necesitaban para excluir al negro del imaginario antropológico nacional dominicano",
+     "traduccion": "La autora cita a Baud 1999, pp. 163-167.",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058",
+    "A-059",
+    "A-061",
+    "A-064"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Matiza A-064: según los críticos, el 'criollismo' de Sánchez Valverde es un patriotismo criollo dentro del imperio, no la 'nación dominicana'; la apropiación nacionalista es posterior (Peña Batlle, años 40). Hontanilla reconoce además que en la Idea del valor los esclavos fugitivos y los libres aparecen como informantes del autor (p. 407-409). El epígrafe reproduce el prólogo del Código negro carolino de 1784 (editado por Malagón Barceló en 1974); el Código nunca se aplicó. No se leyó la edición de Emparán y Orbe: la cita es de segunda mano."
+  },
+  {
+   "titulo": "El surgimiento de un campesinado criollo. La producción tabacalera en La Española, 1500-1870",
+   "autor": "Baud, Michiel",
+   "anio": "1996",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/76/26/32",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/76",
+    "https://doi.org/10.51274/ecos.v4i5.pp9-39"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo con aparato crítico de un historiador holandés del Caribe publicado en Ecos (UASD) en traducción; cifras tomadas de Moreau, Trouillot, Silié y Bosch y no de archivo propio.",
+   "proveniencia": "Michiel Baud (CEDLA, Amsterdam), Ecos año 4, n.º 5 (1996), pp. 9-39. Cuenta cómo el tabaco y el ganado del Cibao se orientaron al mercado de la colonia francesa y cómo eso dio origen a un campesinado criollo; escribe en diálogo con Silié (1976), Bosch y González.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 20-21",
+     "cita_original": "El comercio con los colonos franceses que se inició como una secuencia lógica del comercio contrabandista tradicional, rápidamente se convirtió en un pilar importante de la economía dominicana.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 21",
+     "cita_original": "Cuatro años después del Tratado de Ryswick (1697) mediante el cual España cedió la parte occidental de la isla a Francia, la parte francesa de la isla ya tenía 35 ingenios azucareros",
+     "traduccion": "El tratado, según Peña Batlle, Franco y El Día, no menciona la isla: la frase de Baud adopta la lectura tradicional de 'cesión'.",
+     "afirmaciones": [
+      "A-057",
+      "A-063"
+     ]
+    },
+    {
+     "ubicacion": "p. 21",
+     "cita_original": "Para 1754 esta cifra había aumentado a 539 y en 1789, existían más de 800 plantaciones que producían 143 millones de libras de azúcar.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-063",
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "p. 21",
+     "cita_original": "Los escasos 10,000 habitantes que vivían en la isla en 1700 habían aumentado a 70,000 en 1770 y pasaban de 100,000 en 1780.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 23",
+     "cita_original": "Muchos esclavos de la colonia francesa fueron importados por el puerto español de Monte Cristi, convirtiéndose esta ciudad porteña en un centro de mucha actividad durante la segunda mitad del siglo dieciocho.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065",
+      "A-062"
+     ]
+    },
+    {
+     "ubicacion": "p. 23 (cita de Sánchez Valverde, ed. 1971, p. 185)",
+     "cita_original": "Esta introducción clandestina ha sido uno de los mas fuertes comercios con que ha subsistido nuestra Colonia en su mayor decadencia",
+     "traduccion": "Referido al tabaco ('andullos') vendido a los franceses.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-056",
+    "A-057",
+    "A-061",
+    "A-062",
+    "A-063",
+    "A-065"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: base de la serie demográfica 10.000 (1700) → 70.000 (1770) → >100.000 (1780); es el rango que mejor conecta a Catani (70.000 en 1788) con Sánchez Valverde (100.000-125.000), aunque Baud no da fuente primaria en el pasaje leído (notas 41-44 remiten a Silié 1976, pp. 38-46, y Trouillot 1982). La cifra para 1717-1789 de plantaciones francesas sigue a Trouillot (1982). Conversión del agente: 143 millones de libras equivalen a unas 65.000 toneladas métricas (143e6 x 0,4536 kg), por debajo de las ~80.000 toneladas anuales que A-063 da como cifra por verificar; las dos cifras no tienen la misma fecha ni fuente. Baud usa la fórmula 'España cedió' para Ryswick: ver nota sobre el texto del tratado."
+  },
+  {
+   "titulo": "Introduction to Dominican Blackness (2nd ed.)",
+   "autor": "Torres-Saillant, Silvio",
+   "anio": "2010 (1.ª ed. 1994)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.ccny.cuny.edu/sites/default/files/dsi/upload/Introduction_to_Dominican_Blackness_Web.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía de síntesis (CUNY Dominican Studies Institute) con aparato bibliográfico, escrita por un especialista dominicano-estadounidense; para el XVIII depende de Cassá, Larrazábal Blanco, Moreau y Sánchez Valverde.",
+   "proveniencia": "Silvio Torres-Saillant, historiador de la literatura y del pensamiento dominicano (CUNY, luego Syracuse), publicó la monografía en 1994 y la revisó en 2010 para el CUNY Dominican Studies Institute. Escribe en inglés, desde la diáspora y la crítica del racismo y del antihaitianismo, y propone la idea de una 'conciencia desracializada' nacida de la caída de la plantación.",
+   "extractos": [
+    {
+     "ubicacion": "p. 10",
+     "cita_original": "we get a sense of its ethnic composition from a 1739 report by Archbishop Alvarez de Abreu who spoke of 12,259 inhabitants with a majority of free blacks (Larrazabal Blanco 1967:183)",
+     "traduccion": "Para 1739, el arzobispo Álvarez de Abreu habla de 12.259 habitantes con mayoría de negros libres.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 30",
+     "cita_original": "the Santo Domingo economy deteriorated to the point that slavery became untenable and the rigid racial codes engendered by the plantation virtually broke down.",
+     "traduccion": "La economía de Santo Domingo se deterioró hasta que la esclavitud se hizo insostenible y se vinieron abajo los rígidos códigos raciales de la plantación.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "By the 1777 Aranjuez Treaty, when the Spanish and the French agreed on a formal partition of the island into two geographically discrete colonial spaces, the maroons still worried the system, and the imperial authorities wrote into the accord a mutual strategy to address the problem in both Santo Domingo and Saint Domingue",
+     "traduccion": "Para Aranjuez (1777), las autoridades imperiales habrían escrito en el acuerdo una estrategia mutua contra los cimarrones; cita a Moreau de Saint-Méry 1994, p. 424.",
+     "afirmaciones": [
+      "A-062",
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "in the late eighteenth century the mulatto priest Sánchez Valverde attributed the “poverty” of Santo Domingo to the lack of blacks, in contrast to the “wealth” of the contiguous French colony",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-059",
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "Moya Pons notes, in reflecting on the use in early nineteenth-century Santo Domingo of the term “blancos de la tierra” (whites of the land) by colored people to describe themselves, that paradoxically “while their skin became gradually darker, the mentality of Dominicans turned increasingly whiter”",
+     "traduccion": "Moya Pons 1986, p. 239, según Torres-Saillant.",
+     "afirmaciones": [
+      "A-064",
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 36",
+     "cita_original": "In 1784, the Spanish colonial authorities in the metropolis, wishing to have their counterpart of the French Code Noir, compiled the Código Negro Carolino to regulate the “economic, political, and moral government of blacks,”",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-057",
+    "A-058",
+    "A-059",
+    "A-062",
+    "A-064"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Discrepancia con A-062 y con el texto del tratado: en la transcripción de Peña Batlle (arts. I-IX) no se halla cláusula contra cimarrones; Torres-Saillant remite a Moreau 1994, p. 424, y a un cronista martiniqueño, sin el artículo ni la fecha. Se deja como [POR VERIFICAR] hasta contrastar con Cantillo 1843 / Moreau. Interpretación: tesis de 'conciencia desracializada' (hecho: mayoría de libres de color; significado: el color dejó de determinar la acción política). Los datos del XVIII (1739: 12.259 hab.; 1763: Fernández de Navarrete, 'la mayoría de los libres, incluidos los hacendados, era de sangre mezclada') proceden de Larrazábal Blanco 1967, no leído. 'Blancos de la tierra' es término del XIX temprano según Moya Pons. El PDF fue descargado vía WebFetch (carpeta de resultados) porque curl recibió 403 del servidor de CUNY."
+  },
+  {
+   "titulo": "Repoblación y expansión económica en la frontera dominicana. El desarrollo de Azua en el siglo XVIII",
+   "autor": "Hernández González, Manuel",
+   "anio": "2006",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/335/397",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo en Revista de Indias 66(238), 2006, pp. 659-678, basado en el AHN (Ultramar, libros de aduanas de Neiba y Las Caobas), el AGI y el AGN; mismo autor y base de 'El sur dominicano (1680-1795)' (AGN, 2008).",
+   "proveniencia": "Manuel Hernández González (Universidad de La Laguna, Canarias), historiador de la emigración canaria al Caribe, reconstruye con archivos peninsulares la repoblación y el comercio de ganado de Azua con la colonia francesa. No es historiador dominicano, pero su obra fue publicada por el AGN dominicano y la citan R. González y Cassá.",
+   "extractos": [
+    {
+     "ubicacion": "p. 665",
+     "cita_original": "Entre finales del XVII y principios del XVIII nuevas familias colonizadoras procedentes de Canarias comienzan a establecerse en la región atraídas por los incentivos derivados del tráfico de ganado con el Santo Domingo francés.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061",
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 673",
+     "cita_original": "en 1772, el número de vacas era de 14.000",
+     "traduccion": "Se refiere a Azua, 'no uno de los principales centros ganaderos'.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 674",
+     "cita_original": "el libro de indultos de negros de mala raza de 1776, cuyo objetivo era legalizar prácticamente la única vía con la que los dominicanos podían adquirirlos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-065"
+     ]
+    },
+    {
+     "ubicacion": "p. 674",
+     "cita_original": "La gran mayoría eran congos, aunque también había criollos del Santo Domingo francés y de Curaçao.",
+     "traduccion": "Origen declarado de los 47 esclavos legalizados en Azua en 1776.",
+     "afirmaciones": [
+      "A-065",
+      "A-066"
+     ]
+    },
+    {
+     "ubicacion": "p. 676",
+     "cita_original": "Azua, integrada dentro de una región dedicada básicamente a la extracción de ganado hacia el Santo Domingo francés, fue un centro pecuario de menor entidad",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-061",
+    "A-065",
+    "A-066"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: el indulto de 1776 legalizó 47 esclavos en Azua (37 varones y 10 mujeres), 150 en San Juan y 63 en Neiba; mayoría 'congos' y algunos criollos de Saint-Domingue y Curaçao: confirma que la vía de entrada de esclavos era el contrabando con la colonia francesa (A-065). Matiza A-066 solo para 1776 y para la frontera sur: 'congos' (centro-occidentales) predominan. Tradición española/peninsular; se incluye porque la tradición dominicana lo usa. Cifras de ganado de Azua no son las de toda la colonia."
+  },
+  {
+   "titulo": "Historia social y económica de la República Dominicana, t. I (ed. Alfa y Omega, 2003) — leída a través de la reseña de Esteban Mira Caballos en Revista de Indias 65(234), 2005",
+   "autor": "Cassá, Roberto (reseña: Mira Caballos, Esteban)",
+   "anio": "1976; 2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/398/467/884",
+   "urls_alternativas": [
+    "https://repository.duke.edu/dc/radiohaiti/RL10059-CS-0405_02"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de un especialista (Univ. de Sevilla) en una revista de referencia; da el contenido y el cambio de la edición de 2003, no las pruebas de Cassá.",
+   "proveniencia": "Roberto Cassá (UASD, director de la Historia general del pueblo dominicano de la ADH) publicó el manual en 1976-80 y lo reescribió por completo en 2003 (t. I, 352 pp.). Mira Caballos lo reseña en la sección 'Período colonial' de Revista de Indias 65(234), 2005, pp. 585-587. El libro de Cassá es 'un manual básico' de historia dominicana y su capítulo 'El hato ganadero y los fundamentos del campesinado' (pp. 255-268 de la ed. de 2003) lo cita Widmer como recogiendo el imaginario de Sánchez Valverde.",
+   "extractos": [
+    {
+     "ubicacion": "p. 587",
+     "cita_original": "En el siglo XVIII se produjo la recuperación demográfica y económica de la isla, arribando un nuevo contingente de españoles, especialmente de canarios.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-056",
+      "A-061"
+     ]
+    },
+    {
+     "ubicacion": "p. 587",
+     "cita_original": "se estima que, entre 1698 y 1864, llegaron a la Española unas 2.947 personas procedentes de este archipiélago",
+     "traduccion": "Cifra atribuida a Cassá (2003); número de canarios, no de población total.",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "p. 587",
+     "cita_original": "El hato ganadero, la crisis del orden colonial y la ocupación haitiana son otros aspectos analizados en el libro.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-056",
+    "A-061"
+   ],
+   "modulos": [
+    "M00",
+    "M03",
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0076",
+   "notas": "NO resuelve F-0076 con el texto de Cassá: ni la URL del registro (repositorio de Duke, colección Radio Haïti: no se abrió) ni una copia en línea del libro. Las afirmaciones de Cassá sobre población (60% mulatos, ~20% negros, 'algo menos' de blancos; ed. 2003, p. 126) y 'patriarcalismo' (1992, 2003) están verificadas de segunda mano en Catani/Jáuregui (nota 7) y en Widmer (pp. 30-32); la cifra de ~25.000 esclavos de A-056 (Cassá) no se localizó en ninguna fuente leída. Mira Caballos observa que la edición de 2003 suprime parte de la bibliografía clásica de 1976 y que fue reescrita 'en su totalidad'; por tanto citas del manual de 1976 no valen para la edición de 2003."
+  },
+  {
+   "titulo": "La cuestión étnico-racial en el pensamiento de Carlos Esteban Deive (sobre La esclavitud del negro en Santo Domingo, Los guerrilleros negros, Vodú y magia en Santo Domingo y Los cimarrones del maniel de Neiba)",
+   "autor": "Seda Prado, Jorge (sobre Deive, Carlos Esteban)",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.redalyc.org/pdf/128/12881504.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo académico (Revista Mexicana del Caribe 15, 2003, pp. 107-135) que expone con citas de página el pensamiento de Deive; no sustituye a los libros.",
+   "proveniencia": "Jorge Seda Prado (Univ. de Quintana Roo) analiza la obra de Carlos Esteban Deive (etnohistoriador dominicano, autor de 'La esclavitud del negro en Santo Domingo', 1980, y de 'Los guerrilleros negros', 1989). Resume la tesis de Deive del 'mestizaje paternalista' en Santo Domingo y de la 'etnia dominicana' como producto híbrido, con citas de 'Vodú y magia en Santo Domingo' (1975).",
+   "extractos": [
+    {
+     "ubicacion": "p. 118",
+     "cita_original": "El paternalista, que es el que según él se aplica al caso dominicano, corresponde a sociedades preindustriales en las que la explotación agrícola constituye la base de la economía.",
+     "traduccion": "'Él' es Deive.",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 118 (cita de Deive 1975, p. 107)",
+     "cita_original": "un despotismo benévolo que contemplaba a los grupos raciales subalternos como incivilizados e inferiores",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    },
+    {
+     "ubicacion": "p. 119",
+     "cita_original": "Santo Domingo sea una comunidad mulata, producto de la avidez sexual que condujo al español a no tener reparo alguno",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-058"
+   ],
+   "modulos": [
+    "M03",
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0087",
+   "notas": "NO resuelve F-0087 con los libros de Deive (La esclavitud del negro en Santo Domingo, 1980; Los guerrilleros negros, 1989; Los cimarrones del maniel de Neiba, 1985): no se localizó copia en línea. Esta es una fuente secundaria sobre ellos. Hecho: Deive califica el mestizaje de 'paternalista' y el trato de 'despotismo benévolo' (1975), y Quisqueya Lora (2023) lo incluye entre los críticos del 'mito' patriarcal (Franco, Silié, Deive, Cordero Michel): la lectura de Deive no es unívoca."
+  },
+  {
+   "titulo": "Reseña de Máximo Rossi, Jr., Praxis, historia y filosofía en el siglo XVIII. Textos de Antonio Sánchez Valverde (y otras dos obras de historia cultural)",
+   "autor": "San Miguel, Pedro L.",
+   "anio": "1996",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/89/38/44",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/89",
+    "https://doi.org/10.51274/ecos.v4i5.pp257-267"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña extensa de un historiador de referencia (Pedro L. San Miguel); da una valoración de la obra de Rossi y de Sánchez Valverde con argumentos, pero es una reseña.",
+   "proveniencia": "Pedro Luis San Miguel (historiador puertorriqueño de la historia dominicana, autor de 'Los campesinos del Cibao' y 'La isla imaginada') reseña en Ecos 5 (1996, pp. 257-267) tres libros de historia cultural dominicana, el primero sobre Sánchez Valverde (Rossi, Editora Taller, 1994).",
+   "extractos": [
+    {
+     "ubicacion": "p. 259",
+     "cita_original": "Si hay una constante en los escritos de Sanchez Valverde es, precisamente, su defensa de lo criollo ante el menosprecio de los europeos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "pp. 259-260",
+     "cita_original": "Rossi ofrece elementos para comprender el proceso formativo de lo que se ha llamado el \"patriotismo criollo\".",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    },
+    {
+     "ubicacion": "p. 260",
+     "cita_original": "Sanchez Valverde es una verdadera figura fundacional, exponente de corrientes ideológicas que fluían a todo lo largo de nuestra América.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-064"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hecho/fecha: San Miguel dice que Sánchez Valverde 'murió en México, en 1790'; Núñez Asencio (2026) lo fecha 1720-1799 y Jáuregui y Solodkow 1734-1790: [POR VERIFICAR]. Interpretación: 'patriotismo criollo' = defensa de lo americano frente a Europa, no independentismo (San Miguel dice que la intelectualidad criollista estuvo 'lejos de abrazar la causa de la independencia'). Nótese que San Miguel en 2005 (citado por Hontanilla) sostiene lo contrario de Cassá: que el término 'indo-hispánico' borra lo africano. El OCR del PDF pierde tildes ('Sanchez', 'sfntesis'); las citas las reponen."
+  },
+  {
+   "titulo": "Siglo XVIII. Diagnóstico de Antonio Sánchez Valverde, el más importante intelectual dominicano de su tiempo",
+   "autor": "Núñez Asencio, Manuel",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/el-siglo-xviii-diagnostico-de-antonio-sanchez-valverde-el-mas-importante-intelectual-dominicano-de-su-tiempo-9613190.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión (Acento, 30-I-2026) con bibliografía mínima y fechas biográficas que contradicen las de otros textos; útil como muestra de la lectura hispanista-conservadora actual.",
+   "proveniencia": "Manuel Núñez Asencio, lingüista y ensayista (Premio Nacional de Ensayo 1990 por 'El ocaso de la nación dominicana', y 2008 por 'Peña Batlle en la era de Trujillo'), resume la Idea del valor sobre la edición de Rodríguez Demorizi y Utrera (1971). Escribe para público general, en línea con la lectura de la 'nación' preexistente a 1844.",
+   "extractos": [
+    {
+     "ubicacion": "párr. final ('El siglo XVIII no solo fue...')",
+     "cita_original": "fue la época en que se concreta oficialmente la primera frontera intra insular nacida del Tratado de Aranjuez (1777)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre los propósitos de la obra",
+     "cita_original": "Establecer, mediante la comparación con Saint-Domingue y Cuba, que, en condiciones semejantes de clima y suelo, la diferencia de resultados proviene exclusivamente de la organización del trabajo y de la política colonial.",
+     "traduccion": "Lo presenta como propósito de Sánchez Valverde; es la misma oposición de A-060 (ambiente) vs A-059 (organización del trabajo), pero en 1785.",
+     "afirmaciones": [
+      "A-059",
+      "A-060"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Paradójicamente, al proponer...'",
+     "cita_original": "Santo Domingo no seguirá el camino de Saint-Domingue. Su pobreza, su despoblación y su economía hatera la librarán —a un costo inmenso— de la implosión revolucionaria.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-059"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057",
+    "A-059",
+    "A-060"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Interpretación: la 'ironía trágica' (colonia fracasada sobrevive, colonia exitosa estalla) es tesis del columnista, no hecho. Da 'Antonio Sánchez Valverde (1720-1799)' y su muerte en el exilio en Guadalupe [texto truncado en la lectura]: fechas que no coinciden con otras fuentes consultadas [POR VERIFICAR]. Fuentes: la bibliografía del texto cita la ed. 1971 de la Idea del valor y a Tejera (2024) en la ADH; no cita documentos. Atribuye a Sánchez Valverde un propósito de 'refutar a Raynal y De Pauw', lo que sí está en el texto del memorial."
+  },
+  {
+   "titulo": "Tratado de Aranjuez de 1777: primera frontera intra insular en la isla de Santo Domingo",
+   "autor": "Núñez Asencio, Manuel",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/tratado-de-aranjuez-de-1777-primera-frontera-intra-insular-en-la-isla-de-santo-domingo-9620559.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión (Acento, 12-II-2026) sin citas de página; incluye una cifra no sustentada y una entrada de bibliografía que delata uso de texto sin cotejar.",
+   "proveniencia": "Manuel Núñez Asencio escribe sobre Aranjuez desde la tesis de Peña Batlle (cita a 'Peña Batlle' y a Tejera: 'la obra de los filibusteros estaba completa: tenía vida en la esfera del derecho'). Habla de 'usurpación' francesa y de 'dos nacionalidades con raíces y modelos sociales opuestos'. Pública para lectores de prensa.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "El tratado no creó la división de la isla; la sancionó.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "Para España, la firma del tratado representó una victoria diplomática: recuperó alrededor de 500 leguas cuadradas de territorio que, de facto, estaban bajo control francés.",
+     "traduccion": "Coincide con la cifra de Peña Batlle (que cita a Moreau): unas 500 leguas cuadradas entre la línea de hecho y la de derecho.",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "sección 'La proyección del Tratado de Aranjuez en el siglo XIX'",
+     "cita_original": "En una isla de 76.420 km2, Haití había heredado, conforme al Tratado de Aranjuez, 21.087km2.",
+     "traduccion": "Cifra sin fuente ni cálculo; no se ha podido contrastar.",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "sección final",
+     "cita_original": "El oriente (español/dominicano): Una \"orgullosa pobreza\" basada en la ganadería y un modelo patriarcal.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-058",
+      "A-059"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057",
+    "A-058",
+    "A-059"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Fiabilidad baja: la lista de fuentes termina con una entrada 'El Tratado de Aranjuez: Discordia y Dualidad Fronteriza. (s. f.). [Fragmentos de fuente secundaria sin autor especificado en el texto proporcionado]', es decir, el texto se apoya en fragmentos de fuente no identificada. Hecho verificable: 221 pirámides, ríos Dajabón y Pedernales (coincide con el texto de Peña Batlle). La cifra de 21.087 km2 para el territorio francés en 1777 no está en ningún texto consultado: se trata como D. 'Modelo patriarcal' es etiqueta del autor sin discusión de las críticas de Silié, Lora o Widmer."
+  },
+  {
+   "titulo": "¿Por qué escribimos sobre el origen de la nación dominicana y su frontera?",
+   "autor": "Del Orbe Piña, Justo",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/por-que-escribimos-sobre-el-origen-de-la-nacion-dominicana-y-su-frontera-9565348.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión (Acento, 18-X-2025) con citas solo por apellido de autor (García, Moya Pons, Cassá, Balcácer, Peña Batlle), sin página; contiene al menos un error de hecho sobre Ryswick.",
+   "proveniencia": "General retirado del Ejército dominicano, historiador militar y geopolitólogo, escribe un resumen 'para vacunarnos contra verdades mal contadas' sobre el origen de la nación y de la frontera; posición de historia nacional oficial y militar (la formula 'antes de ser Estado ya éramos nación').",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Los tratados que separan, trazan y sacuden'",
+     "cita_original": "Ryswick (1697): España reconoce el tercio occidental de La Española (Tortuga y Saint-Domingue) bajo Francia, institucionalizando dos espacios coloniales: plantación esclavista al oeste y economía extensiva y de menor densidad al este (García; Moya Pons; Cassá).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057",
+      "A-059"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Los tratados...'",
+     "cita_original": "Aranjuez (1777): Francia y España miden y marcan la línea con mojoneras y cartografía: Dajabón/Masacre al norte y Pedernales al sur, con ajustes intermedios; gran parte del trazo pervive",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    },
+    {
+     "ubicacion": "sección 'De la nación social al Estado republicano'",
+     "cita_original": "La fórmula dominicana —“antes de ser Estado ya éramos nación”— resume tres siglos de larga duración cultural: lengua, devociones, hábitos de trabajo, memoria de defensa y un sentido de pertenencia al suelo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-064"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057",
+    "A-059",
+    "A-064"
+   ],
+   "modulos": [
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Error de hecho: el Tratado de Ryswick no menciona la isla (Peña Batlle nota 104; Franco 2019; El Día 2023): la afirmación 'España reconoce el tercio occidental' en Ryswick atribuye a García, Moya Pons y Cassá una posición que no se verificó en sus textos. Muestra la versión escolar-popular de 'dos modelos coloniales desde 1697'. 'Antes de ser Estado ya éramos nación' es la fórmula que A-064 pone a prueba; el columnista la atribuye a Moya Pons y Balcácer sin cita."
+  },
+  {
+   "titulo": "El conflicto del río Masacre y los tratados Aranjuez y Fronterizo",
+   "autor": "Pérez, Junior",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://elnuevodiario.com.do/el-conflicto-del-rio-masacre-y-los-tratados-aranjuez-y-fronterizo/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna breve en prensa digital; confunde Ryswick con Aranjuez y no cita fuentes.",
+   "proveniencia": "Junior Pérez (columnista de El Nuevo Diario, 31-V-2021) usa la crisis del canal del río Masacre para recordar 'los tratados de Ryswick 1697 y Aranjuez 1777' y el Tratado Fronterizo de 1929 y para pedir una mesa técnica de diplomacia, historia y cartografía.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "debemos de remontar la historia al contexto de los Tratados de Ryswick 1697 y Aranjuez de 1777, firmado entre los Reinos de España y Francia, en esa época se discutían la delimitación y división de la Isla de Santo Domingo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-057"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-057"
+   ],
+   "modulos": [
+    "M05",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: Ryswick (1697) no discutió la delimitación de la isla; la afirmación es incorrecta. Se incluye como muestra de la confusión Ryswick/Aranjuez en la divulgación dominicana de prensa. La fecha de publicación consta en los metadatos de la página (2021-05-31); el texto trata el diferendo del canal del Masacre."
+  }
+ ]
+}

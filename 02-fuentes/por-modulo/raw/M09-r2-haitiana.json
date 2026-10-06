@@ -88,7 +88,7 @@
   }
  ],
  "incidencias": [
-  "Gallica devuelve 429 (Too Many Requests) a partir de unas 4-5 peticiones seguidas; la descarga del OCR ALTO (RequestDigitalElement?O=<bpt6k>&E=ALTO&Deb=<página>) avanzó a ~3 páginas por minuto con 6,5 s de espera y pausas de 70 s tras cada 429. Por eso se leyeron solo ~35 números y no los ~300 de 1845-1851; se priorizaron (a) mayo-nov. 1845, (b) marzo-abril de 1849, (c) enero-febrero de 1846 y mediados de 1850. .texteBrut no se usó (ALTCHA).",
+  "Gallica devuelve 429 (Too Many Requests) a partir de unas 4-5 peticiones seguidas; la descarga del OCR ALTO (RequestDigitalElement?O=<bpt6k>&E=ALTO&Deb=<página>) avanzó a ~3 páginas por minuto con 6,5 s de espera y pausas de 70 s tras cada 429. Por eso se descargaron 41 números (los de 1850 de 22-VI, 6-VII y 13-VII [solo pp. 1-3] no contenían nada sobre el Este; el de 5-X-1850 no llegó a bajarse) y no los ~300 de 1845-1851; se priorizaron (a) mayo-nov. 1845, (b) marzo-abril de 1849, (c) enero-febrero de 1846 y mediados de 1850. .texteBrut no se usó (ALTCHA).",
   "OpenEdition (books.openedition.org) devuelve por curl el desafío Anubis (prueba de trabajo): no se evadió; los capítulos de Théodat, Hector, Moïse y la Annexe IV se leyeron con WebFetch, que devuelve el texto literal de los párrafos pedidos (recomprobar contra la edición impresa).",
   "HathiTrust (Record/011984236) devuelve 403 también a WebFetch. El texto de Madiou t. 1843-46 se obtuvo en dLOC (AA00001029) mediante su API pública api.dloc.patron.uflib.ufl.edu/pagetext: la interfaz web de dLOC es una app JavaScript sin texto por curl.",
   "Manioc: el PDF PAP11077 (Dorsainvil) se corta en 54.000.000 bytes y no tiene xref ni EOF; descargado por Range en tramos de 6 MB; pdftotext y pypdf fallan. Registrado como fallo-fetch (F-0481).",
@@ -2272,7 +2272,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1)",
@@ -2310,7 +2310,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), proclamación «aux citoyens des départements de l'Est»",
@@ -2406,7 +2406,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 4 (f4), parte militar",
@@ -2451,7 +2451,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 4 (f4), sección no oficial (artículo sobre la goleta «L’Égérie»)",
@@ -2510,7 +2510,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), decreto del Consejo de Estado (21-V-1845) sancionado por Pierrot el 3-VI-1845",
@@ -2547,7 +2547,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 3 (f3), parte oficial sobre el 17 del «courant»",
@@ -2600,7 +2600,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 2 (f2), sección oficial",
@@ -2647,7 +2647,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 4 (f4)",
@@ -2694,7 +2694,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 3 (f3), proclamación del gobierno (fechada en Puerto Príncipe en septiembre de 1845; el día es ilegible en la OCR)",
@@ -2758,7 +2758,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 2 (f2), orden del día de Pierrot a los soldados de la frontera",
@@ -2803,7 +2803,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), arrêté del Consejo de Estado (27-IX-1845), publicado por orden de Pierrot desde el Cabo",
@@ -2850,7 +2850,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), aviso de Pierrot del 5-X-1845 (Cabo Haitiano)",
@@ -2889,7 +2889,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), servicio fúnebre por Dessalines",
@@ -2922,7 +2922,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), proclamación de Pierrot del 4-XI-1845 (Cabo Haitiano)",
@@ -2972,7 +2972,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 2 (f2), fiesta nacional del 1-I-1846 en el Champ-de-Mars",
@@ -3023,7 +3023,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 2 (f2), texto del tratado franco-dominicano publicado por el Moniteur",
@@ -3080,7 +3080,7 @@
     "M09"
    ],
    "id_existente": "",
-   "notas": "Número de la emisión: n.º 17 (4e année). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k12638764/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856)."
+   "notas": "Número de la emisión: n.º 17 (4e année). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k12638764/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856). El «rédacteur-gérant Madiou» de 1849 es el mismo que anotó M09: no se verificó que sea el historiador Thomas Madiou [POR VERIFICAR]."
   },
   {
    "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 31 mars 1849 (4e année, n.º 19)",
@@ -3102,7 +3102,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 1 (f1), orden del día de Soulouque desde Las Cahobas (marzo de 1849)",
@@ -3192,7 +3192,7 @@
     "M09"
    ],
    "id_existente": "",
-   "notas": "Número de la emisión: n.º 19 (4e año; deducido de los n.º 20, 7-IV, y n.º 22, 21-IV). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k12638749/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856)."
+   "notas": "Número de la emisión: n.º 19 (4e año; deducido de los n.º 20, 7-IV, y n.º 22, 21-IV). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k12638749/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856). El «rédacteur-gérant Madiou» de 1849 es el mismo que anotó M09: no se verificó que sea el historiador Thomas Madiou [POR VERIFICAR]."
   },
   {
    "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 14 avril 1849 (4e année, n.º 21)",
@@ -3211,7 +3211,7 @@
    "acceso": "texto-completo-en-linea",
    "fiabilidad": "alta",
    "justificacion_fiabilidad": "Boletín oficial del Estado haitiano: prueba auténtica de lo que el gobierno decía y hacía público, no de la veracidad de sus partes militares ni de sus cifras; OCR ruidoso.",
-   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1872; los números de 1845-1846 y 1850 no están en dLOC (F-0243), que M09 usó para 1847-1861.",
+   "proveniencia": "Órgano oficial del gobierno haitiano (semanal, sábados; Imprimerie nationale), la «Partie officielle» recoge proclamas, decretos, partes de guerra y discursos y la no oficial, noticias y artículos de prensa; en 1845 y 1849 publica también versiones en español de las proclamaciones dirigidas al Este. Se leyó el OCR (ALTO) descargado de Gallica (BnF, cb32819449v), que cubre 1845-1851 y 1864-1869 y 1872; según M09, a dLOC (F-0243) le faltan 1845-1846, casi todo 1850 y diciembre de 1855.",
    "extractos": [
     {
      "ubicacion": "p. 4 (f4), boletín",
@@ -3229,7 +3229,7 @@
     "M09"
    ],
    "id_existente": "",
-   "notas": "Número de la emisión: n.º 21 (4e año; deducido). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k1264106c/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856)."
+   "notas": "Número de la emisión: n.º 21 (4e año; deducido). Citas con ortografía restituida a partir del OCR de Gallica (RequestDigitalElement ... E=ALTO); donde la OCR es ilegible se marcó entre corchetes. La imagen de cada página está en gallica.bnf.fr/ark:/12148/bpt6k1264106c/f<N>.item (no abierta en esta sesión salvo lo indicado en notas de incidencia). Complementa a F-0243 (dLOC) y a M09-N44 a M09-N47 (números de 21-IV-1849, 5-V-1849, 18-I-1851, 9-II-1856). El «rédacteur-gérant Madiou» de 1849 es el mismo que anotó M09: no se verificó que sea el historiador Thomas Madiou [POR VERIFICAR]."
   },
   {
    "titulo": "Le Matin (Port-au-Prince), 27 de febrero de 1911, p. 2 (nota sobre la fiesta de la Independencia dominicana)",

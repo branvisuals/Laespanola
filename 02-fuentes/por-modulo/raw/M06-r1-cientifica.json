@@ -1,0 +1,1914 @@
+{
+ "lente": "cientifica",
+ "modulo": "M06",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 27,
+ "busquedas_pendientes": [
+  "Schurr et al. 2026 / Proyecto Genoma Dominicano: fechas de mezcla; Simms 2010 y 2012 (Haití); Bryc 2010 (Dominicanos): tablas de ascendencia africana y europea",
+  "Marichal y Souto, «Silver and situados» (HAHR 1994) y series del situado mexicano a Santo Domingo 1790-1809",
+  "Franco, Los negros, los mulatos y la nación dominicana (1969) y La población dominicana (2012): origen de 35.000/38.000/30.000 y 24.000/82.000/14.000",
+  "Deive, Las emigraciones dominicanas a Cuba (1795-1808) y Los refugiados franceses en Santo Domingo (1789-1801): PDF",
+  "Utrera, «El degüello de Moca» (Panfilia 1925) y Marte 2017 en PDF; Clío 82 (1948) con la Memoria de Arredondo (para cotejar el OCR)",
+  "Guillermin, Diario histórico (1808), trad. ADH 1938; Sánchez Ramírez, Diario de la Reconquista: cifras de Palo Hincado",
+  "Girard 2005 (Patterns of Prejudice) y 2011 (The Slaves Who Defeated Napoleon), pp. 179-180, 321-322, 343: cifras de muertos de 1802-1804",
+  "McNeill, Mosquito Empires (2010), cap. 8: mortalidad por fiebre amarilla en la expedición de Leclerc",
+  "Barbé de Marbois, État des finances de Saint-Domingue (1790) y Moreau, parte francesa, resumen de población de 1789",
+  "Series de exportación de Saint-Domingue 1790-1809 (Daudin, HAL; Geggus 1990; Fick 1990), exportaciones de Haití bajo Dessalines y Christophe, comercio con EE.UU. 1804-1806",
+  "Arqueología: Palo Hincado; sitios de la revolución en el Norte de Haití (Dondon, Fort-Liberté); arqueología colonial de Santo Domingo 1790-1809",
+  "Humboldt, Essai politique sur l'île de Cuba / Nouvelle-Espagne: población de Saint-Domingue en 1802 (375.000)"
+ ],
+ "lagunas": [
+  "Genética: solo se leyó Moreno-Estrada et al. 2013 (n = 34 dominicanos y 6 haitianos residentes en Florida; segundo pulso africano «hace 7 generaciones»). No se localizaron ni leyeron Schurr 2026 (Proyecto Genoma Dominicano), Simms 2010 y 2012, Bryc 2010, Montinaro 2015, D'Atanasio 2020, Benn Torres, Martínez-Cruzado, Micheletti 2020 (leído: no trata Haití ni República Dominicana de forma explícita). No hay ADN antiguo ni genómica dentro de Haití para 1789-1809; la lente aporta poco directo a este módulo.",
+  "Arqueología: no se halló ningún estudio con datos de 1789-1809 (ni de campos de batalla —Palo Hincado, líneas del sitio de 1805—, ni de plantaciones quemadas, ni de los asentamientos cimarrones de Dondon con cronología de la revolución). Solo hay prospecciones generales (Fort-Liberté; unos 30 sitios de plantación prospectados en 2016) citadas en resúmenes de tDAR y KITLV; no se leyeron.",
+  "Epidemiología: solo la mortalidad de tropas británicas y la cifra de la expedición de Leclerc (Geggus 1979). McNeill, Mosquito Empires (2010; 50.000-55.000 franceses muertos, 80-85 %), Girard 2005 y 2011 y Dubois 2004 no se leyeron: sus cifras figuran solo como resumen de búsqueda [POR VERIFICAR]. No hay datos de enfermedad en la parte española (viruela, fiebre amarilla) para 1789-1809.",
+  "Trata: la base Voyages (versión 2019 del archivo) no tiene viajes a la Española española entre 1789 y 1809 y pocos a Saint-Domingue en 1794-1800 (posible subregistro del comercio interamericano y de la ocupación británica); la versión actual del portal puede dar otras sumas. No se localizó ninguna cifra para la trata clandestina ni para la reintroducción de esclavizados en el este tras 1802.",
+  "Censos y población: no hay censo del este entre 1785 y 1812; las cifras de población (100.000-152.640 hacia 1785-1795; 80.000 en 1812) son estimaciones de Moreau, Mackenzie, Franco 1969 y 2012, Sánchez Valverde y Heredia; Franco 1969 y 2012, Deive 1984 y 1989, Moya Pons y Sánchez Valverde (1785) no se leyeron de primera mano. De la parte francesa en 1789 solo se leyó Mackenzie (1830), que cita una «estimación general» (30.826 blancos, 27.548 libres de color, ~465.429 esclavizados); los censos de Moreau y de Barbé de Marbois no se extrajeron.",
+  "Economía: no se obtuvo una serie anual de exportaciones de Saint-Domingue/Haití 1789-1809 ni del este (la tabla de Mackenzie 1830, «general table of exports 1789, 1801, 1818-1826», es una imagen no legible en Manioc); solo cifras de 1788-1789 (Gliech/Barbé de Marbois; St John) y datos fiscales del este de 1791-1799 y 1812 (Heredia). Sin datos de la deuda de 1825 en este módulo (fuera de periodo), de las series de Bulmer-Thomas, ni del situado mexicano (Marichal y Souto) que financiaba a Santo Domingo.",
+  "Ecología (deforestación, Hedges 2018, FAO, Global Forest Watch; Diamond), lingüística (tainismos), encuestas (LAPOP, Latinobarómetro), ENI-2012/2017, OIM/DGM/CIDH: sin relación con 1789-1809; no se buscaron.",
+  "Documentos primarios no localizados en línea: Utrera, «El degüello de Moca» (Revista Panfilia n.º 10, 1925 [Martínez lo fecha en 1923]); Marte, El pasado como historia (AGN, 2017); Diario de la Reconquista de Sánchez Ramírez; Guillermin 1811 (Diario histórico, trad. ADH 1938); Antonio del Monte y Tejada, t. III (archive.org solo tiene el t. IV); informes de Ferrand (ANOM); Deive 1984 y 1989; Nessler 2016 (bajo derechos); Girard 2005 y 2011; Dubois 2004; James; capitulación de 1809 (TNA CO 137/126).",
+  "Fuentes que no se pudieron leer: PDF de Froidevaux 1920 (Persée, protegido por altcha, 403); PDF de Fick 2002 (servidor sin respuesta, código 000); PDF del paper UCL de Graham en EcHR (403); revista Temas Americanistas art. 14776 (404); mdc.ulpgc.es (Anubis).",
+  "Afirmaciones del registro que esta lente no puede resolver con datos cuantitativos: A-069, A-070, A-071, A-072, A-073, A-085 (textos constitucionales y proclamas, sin cifras); A-083 (cifras de víctimas de 1804: sin fuente primaria leída; solo el padrón de Gros Morne de octubre de 1804 con más de 600 blancos); A-084 (reesclavización en el este: cifras no halladas; ver Nessler 2009 y Pinto 2025 para el debate cualitativo)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Era de Francia (1802-1809)",
+   "tradicion": "dominicana",
+   "nota": "Nombre dominicano del periodo de gobierno francés en el este (título del vol. II de la serie de Rodríguez Demorizi, 1955). En la tradición haitiana y francesa el este es «la partie de l'Est» o «partie ci-devant espagnole» (Dessalines, 1805) bajo Ferrand. El término llama «de Francia» a un periodo que para Haití era una zona de la isla aún en manos de Francia; el glosario no lo tiene."
+  },
+  {
+   "termino": "Emigrados (de Santo Domingo)",
+   "tradicion": "espanola",
+   "nota": "Término oficial español para los exiliados que salieron de la parte cedida a Francia (1795-1809) y reclamaron pensión en Cuba, Puerto Rico y Venezuela (Junta de Emigrados de La Habana). Distinto de «refugiados franceses» (colonos de Saint-Domingue, cifras de García Álvarez 2015) y de «emigrantes franco-antillanos». Los esclavizados que salieron con sus amos no se contaban entre los «emigrados» (Mareite 2026)."
+  },
+  {
+   "termino": "Administración negra (de Toussaint en Santo Domingo, 1801-1802)",
+   "tradicion": "internacional",
+   "nota": "Expresión de Pinto Tortosa (2025) para el régimen de Toussaint en el este; es un término descriptivo-racial propio de ese autor. Alternativas más neutras: «régimen de Toussaint en el este» o «gobierno de Toussaint en Santo Domingo». En la tradición dominicana se dice «invasión de 1801» y en la haitiana «unification de 1801»; el glosario ya los trae."
+  },
+  {
+   "termino": "Tropas Auxiliares de Carlos IV / Negros Auxiliares",
+   "tradicion": "espanola",
+   "nota": "Nombre español de los ex insurgentes de 1791 (Jean-François, Biassou, Toussaint Bréda) que pasaron al servicio de la Corona en 1793-1794; en la tradición haitiana son los jefes de la insurrección que se aliaron con España frente a los comisarios republicanos."
+  },
+  {
+   "termino": "Hispano-indígenas (hispano-indigènes)",
+   "tradicion": "haitiana",
+   "nota": "Expresión de Madiou (1848, t. III, p. 208) para los dominicanos que se pusieron del lado francés en 1805. El texto la usa para atenuar la crueldad de la retirada de Dessalines (el «infâme arrêté de Ferrand»); Llenas escribe «franco-dominicanos» para el mismo grupo."
+  },
+  {
+   "termino": "Guerra dominico-francesa de 1808-1809",
+   "tradicion": "dominicana",
+   "nota": "Título de la traducción de Lemonnier-Delafosse (1946) y de la serie de la ADH; sinónimo de «Guerra de la Reconquista» (que el glosario ya tiene). El título francés habla de «Seconde campagne de Saint-Domingue» y la tradición española de «Guerra de Reconquista»."
+  },
+  {
+   "termino": "Degüello (de Santiago / de Moca) y «pasar a cuchillo»",
+   "tradicion": "dominicana",
+   "nota": "El registro y la historiografía dominicana llaman «degüello» a dos episodios distintos en Santiago (la entrada de Christophe el 25-28 de febrero de 1805, según Arredondo y Llenas, y la ejecución de prisioneros en el cementerio el 6 de abril, según Madiou y Llenas) y a uno en Moca (3 de abril). Los textos haitianos del momento hablan de «la dévastation» y «le fer et la flamme» (Journal 1805) sin hablar de degüello; Madiou escribe «égorger» y «massacrés» para Santiago y la «décimation» de los campos."
+  }
+ ],
+ "incidencias": [
+  "pdftotext (xpdf 4.06) no abre PDF cuando la ruta pasa de unos 260 caracteres (la ruta del scratchpad tiene unos 280): se trabajó en C:\\Users\\branl\\m06tmp (fuera del scratchpad y del repositorio) y se creó y borró un directorio de enlace (junction) en C:\\Users\\branl\\m06c; al terminar se borró C:\\Users\\branl\\m06tmp (solo contenía descargas y scripts propios). Las descargas de la base de la trata (CSV y SAV, 53 MB) quedaron en el scratchpad (carpeta m06cient).",
+  "El PDF de Rodríguez Demorizi 1955 (F-0071, 66,8 MB, 372 págs.) no tiene capa de texto: se renderizó y se leyó con el OCR de Windows (en-US, sin paquete de español) con un script de PowerShell; las cifras clave se cotejaron a ojo contra la imagen en las págs. 122, 123, 153, 163, 165 y 190; el resto es OCR sin cotejar.",
+  "El SAV de Voyages se leyó con un lector propio (Python sin pandas); las etiquetas de código de región/puerto salen del propio archivo. Las sumas son mías.",
+  "La carpeta del scratchpad de la sesión contenía archivos de otros agentes (por ejemplo, carpetas con nombre de módulo); no se leyeron ni se usaron.",
+  "Contradicciones con el registro de afirmaciones que conviene revisar: A-074 (el umbral es «14 años o menos» en el texto de Ferrand, Linstant t. I, p. 39; Schoenrich erra); A-077 y A-078 (las cifras de Moca, Santiago y cautivos no «dependen de una sola base»: el «más de 400» de Santiago es de Heredia 1812, el «más de quinientas» de Moca de García, los 249/430/318 de Llenas y de Madiou; la Memoria de Arredondo no da 500 ni 400 y lleva fecha de prólogo 1814 y ratificación 1850); A-082 («unos 25.000 hombres» parece ser la cifra de muertos; Geggus: 35.000 hombres); A-068 (Pinto da 26-I-1801 para la entrada de Toussaint, no 27).",
+  "No se usó Firecrawl. Wikipedia no se usó como evidencia (solo, y no se citó, como índice en resultados de búsqueda). WebFetch se usó 3 veces (dos columnas de opinión y una ficha de Scalar); el resto fueron curl, pdftotext y OCR.",
+  "Los resúmenes de WebSearch (p. ej. «3.000 a 7.000 muertos en 1804», «58.000 hombres», «50.000-55.000 muertos de McNeill») no se aceptaron como evidencia: se dejan como [POR VERIFICAR] sin URL."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Voyages: The Trans-Atlantic Slave Trade Database (archivos de descarga tastdb-exp-2019.csv y .sav con etiquetas de valores)",
+   "autor": "Equipo del proyecto Voyages (Eltis, David; Richardson, David; et al.) [composición del equipo y sede: POR VERIFICAR en el portal]",
+   "anio": "2019",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.slavevoyages.org/documents/download/tastdb-exp-2019.csv",
+   "urls_alternativas": [
+    "https://www.slavevoyages.org/documents/download/tastdb-exp-2019.sav",
+    "https://www.slavevoyages.org/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Base documental revisada por pares y citada como referencia por Geggus y Sweet (2024); las cifras de embarcados y desembarcados que faltan en los documentos son imputaciones del proyecto, no censos, y esta versión (2019) puede diferir de la que sirve el portal hoy.",
+   "proveniencia": "Proyecto académico (coordinado por Eltis y Richardson según la literatura citada; sede e instituciones POR VERIFICAR) que reúne unos 36.000 viajes negreros transatlánticos de archivos de varias naciones; imputa por reglas propias los totales que no constan. Se descargó el 2026-10-06 el CSV (22 MB, 36.108 viajes) y el SAV de SPSS (31 MB), del que se extrajeron las etiquetas de códigos con un lector propio. Las tablas de los extractos son un cálculo mío (agregación por año de llegada YEARAM y puerto principal imputado MJSLPTIMP), no cifras publicadas por el proyecto. No cubre de forma sistemática el comercio interamericano ni los desembarcos clandestinos.",
+   "extractos": [
+    {
+     "ubicacion": "tastdb-exp-2019.csv; filtro MJSLPTIMP = 36400-36499 (puertos de Saint-Domingue), suma por YEARAM de SLAMIMP (desembarcados imputados)",
+     "cita_original": "[Cálculo propio] Saint-Domingue, desembarcados imputados: 1785 = 23.612; 1787 = 31.980; 1788 = 29.524; 1789 = 28.029 (98 viajes); 1790 = 41.248 (144 viajes); 1791 = 21.744 (77); 1792 = 8.064 (31); 1793 = 1.095 (4). Suma 1789-1791 = 91.021; embarcados 1789-1791 = 106.066.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "tastdb-exp-2019.csv; filtro MJSLPTIMP = 36400-36499, años 1784-1791, SLAXIMP y SLAMIMP; región africana por MAJBYIMP ponderada por desembarcados",
+     "cita_original": "[Cálculo propio] Saint-Domingue 1784-1791: 751 viajes; embarcados 263.671; desembarcados 227.806. Por región africana de embarque: África centro-occidental 104.482 (45,9 %); golfo de Benín 35.657 (15,7 %); «otra África» 24.637 (10,8 %); sudeste de África 18.456 (8,1 %); golfo de Biafra 15.629 (6,9 %). Todos los desembarcos de 1789-1791 son de armadores franceses salvo 32 esclavizados en barcos de EE.UU.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "tastdb-exp-2019.csv; mismo filtro, años 1794-1809; Cuba = MJSLPTIMP 313xx; Jamaica = 351xx",
+     "cita_original": "[Cálculo propio] Saint-Domingue 1794-1800: 6 viajes y 1.666 desembarcados imputados; 1801-1809: ningún viaje. Cuba 1789-1809: 423 viajes y 69.804 desembarcados; Jamaica 1789-1809: 855 viajes y 249.426 desembarcados.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "tastdb-exp-2019.csv; MJSLPTIMP = 31104-31199 (Santo Domingo, Samaná, Ocoa, Monte Cristi, Puerto Plata, «puerto no especificado»; REGARR = 31100)",
+     "cita_original": "[Cálculo propio] Isla Española española: 109 viajes y 29.068 desembarcados imputados en toda la serie (décadas de 1520 a 1780); ningún viaje con llegada entre 1789 y 1809, ni por MJSLPTIMP ni por REGARR.",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Las extracciones son mías y se pueden reproducir con el CSV. Contraste con la literatura: Sweet 2024 (p. 249) dice que la base muestra 263.440 africanos llegados a Saint-Domingue entre 1784 y 1791, con ~44 % de África centro-occidental; mi tabulación da 263.671 embarcados y 227.806 desembarcados, de modo que la cifra citada por Sweet corresponde a los embarcados (o a otra versión) y no a los desembarcados [POR VERIFICAR contra la versión vigente del portal]. Geggus (según Sweet, p. 250) usa 84.300 africanos llegados en 1789-1791; mi tabulación da 91.021 desembarcados y 106.066 embarcados [diferencia no explicada; POR VERIFICAR]. El código 31111 (La Yaguana/Léogâne) figura bajo «Hispaniola»: puede mezclar Léogâne (francés) con la Española española. La casi ausencia de viajes registrados a Saint-Domingue en 1794-1800 (periodo de la ocupación británica y de la guerra) probablemente refleja cobertura documental, no ausencia de trata [interpretación]. No hay en el registro de afirmaciones ninguna que toque la trata de 1789-1809; se sugiere abrir una afirmación sobre llegadas a Saint-Domingue 1784-1791 (rango 228.000-264.000 según se mida desembarcados o embarcados, versión 2019)."
+  },
+  {
+   "titulo": "Yellow Fever in the 1790s: The British Army in Occupied Saint Domingue (Medical History 23, pp. 38-58)",
+   "autor": "Geggus, David",
+   "anio": "1979",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0025727300051012",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/S0025727300051012",
+    "https://pmc.ncbi.nlm.nih.gov/articles/pmid/368468/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares de la autoridad principal en la materia, con cifras reconstruidas a partir de los registros del ejército y de la marina británicos (PRO WO, ADM) y comparación con las estimaciones previas.",
+   "proveniencia": "David Geggus, entonces investigador junior en Wolfson College (Oxford), escribe en 1979 para la historia de la medicina; estudia la mortalidad de las tropas británicas que ocuparon parte de Saint-Domingue en 1793-1798 con fuentes británicas (hojas de revista militar, registros de hospital, cartas), no con archivos franceses ni haitianos. Se descargó el PDF completo (21 páginas) y se leyó el texto con los pasajes de cifras.",
+   "extractos": [
+    {
+     "ubicacion": "p. 38, párr. 1",
+     "cita_original": "Fifty thousand British soldiers and seamen are said to have died in the West Indies in this period and an equal number had to be discharged as invalids.",
+     "traduccion": "Se dice que murieron en las Indias Occidentales en este periodo cincuenta mil soldados y marinos británicos y que otros tantos tuvieron que ser dados de baja como inválidos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 47",
+     "cita_original": "it reported that up to the end of September 1796 7,530 British troops had died... a close examination of the sources suggests that 9,000 is nearer to the truth.",
+     "traduccion": "El gobierno de Pitt informó al Parlamento de 7.530 soldados británicos muertos hasta fines de septiembre de 1796; un examen de las fuentes sugiere que 9.000 está más cerca de la verdad.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 48",
+     "cita_original": "In five years, out of 20,200 British troops sent to Saint Domingue, about 12,700 lost their lives and nearly 1,500 had to be sent home as invalids.",
+     "traduccion": "En cinco años, de 20.200 soldados británicos enviados a Saint-Domingue murieron unos 12.700 y casi 1.500 tuvieron que ser repatriados como inválidos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 48",
+     "cita_original": "One is thus a very long way from Colonel Malenfant's estimate that Britain lost 45,000 white soldiers in Saint Domingue",
+     "traduccion": "Se está así muy lejos de la estimación del coronel Malenfant, según la cual Gran Bretaña perdió 45.000 soldados blancos en Saint-Domingue (Geggus añade que la cifra de Cantlie, 7.500, es demasiado baja).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 50, párr. 1 (la nota al pie de esta cifra no se recuperó en la extracción del PDF)",
+     "cita_original": "The Leclerc expedition of 1802 lost almost 25,000 of its 35,000 men in nine months.",
+     "traduccion": "La expedición de Leclerc de 1802 perdió casi 25.000 de sus 35.000 hombres en nueve meses.",
+     "afirmaciones": [
+      "A-082"
+     ]
+    },
+    {
+     "ubicacion": "p. 49, nota al pie 63",
+     "cita_original": "Total mortality for the whole occupation was around sixty-three per cent but several regiments spent under a year in the colony.",
+     "traduccion": "La mortalidad total de toda la ocupación fue de alrededor del 63 %, aunque varios regimientos pasaron menos de un año en la colonia.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-082"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Cifra clave para A-082: el registro dice que la expedición de Leclerc fue de «unos 25.000 hombres»; Geggus da 35.000 hombres y casi 25.000 muertos en nueve meses (la cifra 25.000 del registro parece ser la de los muertos, no la de la fuerza) [POR VERIFICAR la nota 63 de Geggus]. Otras estimaciones del tamaño de la expedición, por autor: Moya Pons 2010 (Clío 180, p. 62): más de 80 navíos y 58.000 hombres; Arredondo (1814/1850, en Rodríguez Demorizi 1955, p. 132): «más de catorce mil hombres» en el primer cuerpo; McNeill, Mosquito Empires (2010), según un resumen de búsqueda: 31.000 iniciales, hasta cerca de 80.000 con refuerzos, y 50.000-55.000 muertos (80-85 %) [POR VERIFICAR: obra no leída]. Sesgo: estudia el lado británico; las comparaciones con el francés dependen de otras fuentes."
+  },
+  {
+   "titulo": "Kongomania Redux, The Haitian Revolution: David Geggus Responds to John Thornton, Christina Mobley, and James Sweet (The Americas 81:2, pp. 285-296)",
+   "autor": "Geggus, David",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C8EAA581C2D7EBF4E929B0EE3957867D/S000316152300086Xa.pdf/kongomania-redux-the-haitian-revolution-david-geggus-responds-to-john-thornton-christina-mobley-and-james-sweet.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/tam.2023.86"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Réplica revisada y en acceso abierto (CC BY) del autor de la base de población de esclavizados de Saint-Domingue 1770-1791; es parte interesada en un debate, y sus cifras son estimaciones con muestras declaradas.",
+   "proveniencia": "David Geggus (University of Florida, profesor emérito) responde en 2024 a Thornton, Mobley y Sweet sobre su artículo «Kongomania and the Haitian Revolution»; se apoya en su base de datos de inventarios de plantaciones y en la base de la trata. Para este módulo importa por tres cifras: la composición por origen de la población esclavizada, las pérdidas militares y el reparto adultos/niños.",
+   "extractos": [
+    {
+     "ubicacion": "p. 285-286",
+     "cita_original": "Kongo's 24 percent of the slave population is increased by less than one-quarter even if we add to it all the Fongbe speakers combined",
+     "traduccion": "El 24 % de la población esclavizada que era de origen kongo apenas aumenta en menos de una cuarta parte aunque se le sumen todos los hablantes de fongbe.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 287, nota 7",
+     "cita_original": "The British and French suffered huge military losses in Saint-Domingue that varied roughly from 60 to 85 percent. Battle casualties made up less than 5 percent of the British losses and, in 1802-03, no more than 30 percent of French losses.",
+     "traduccion": "Británicos y franceses sufrieron en Saint-Domingue pérdidas militares enormes, de entre 60 y 85 %; las bajas en combate fueron menos del 5 % de las pérdidas británicas y, en 1802-1803, no más del 30 % de las francesas (cita Geggus 1997 y Girard 2011, pp. 179-180 y 343).",
+     "afirmaciones": [
+      "A-082"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-082"
+   ],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Sirve para distinguir muertes por enfermedad y por combate en la expedición de 1802. Las cifras de composición (24 % kongo; 34,6 % de poblaciones africanas en guerra) son del autor sobre una muestra de inventarios de los años 1770-1780 y no cubren el 12 % de la población esclavizada (sector urbano e industrial, p. 290) [dato del propio texto]."
+  },
+  {
+   "titulo": "Creole Numerology and the Haitian Revolution (The Americas 81:2, pp. 249-263)",
+   "autor": "Sweet, James H.",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/5B6702AD4A0C07E6F206ACFB10588CC3/S0003161523000652a.pdf/creole-numerology-and-the-haitian-revolution.pdf",
+   "urls_alternativas": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5B6702AD4A0C07E6F206ACFB10588CC3/S0003161523000652a.pdf/creole-numerology-and-the-haitian-revolution.pdf",
+    "https://doi.org/10.1017/tam.2023.65"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado, en acceso abierto, de un especialista en la diáspora africana; resume con exactitud verificable las cifras de Geggus y las contrasta con la base de la trata, aunque su propósito es discutir las lecturas culturales.",
+   "proveniencia": "James H. Sweet (University of Wisconsin-Madison) responde en 2024 a Geggus; no es especialista en Haití y lo dice. Reproduce y critica el cálculo de Geggus sobre cuántos africanos había en Saint-Domingue en 1791.",
+   "extractos": [
+    {
+     "ubicacion": "p. 249",
+     "cita_original": "The purported verification for these inflated numbers, the Transatlantic Slave Trade Database, demonstrates that 263,440 Africans arrived in Saint Domingue between 1784 and 1791, with roughly 44 percent coming from West Central Africa.",
+     "traduccion": "La supuesta verificación de estas cifras infladas, la base de la trata transatlántica, muestra que llegaron 263.440 africanos a Saint-Domingue entre 1784 y 1791, cerca del 44 % de África centro-occidental.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 250-251",
+     "cita_original": "Geggus tells us that between 1789 and 1791, 84,300 Africans arrived in Saint Domingue, succumbing at a rate of 25 percent in the first year and 10 percent in the second.",
+     "traduccion": "Geggus nos dice que entre 1789 y 1791 llegaron 84.300 africanos a Saint-Domingue, que murieron a razón del 25 % el primer año y 10 % el segundo.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 251",
+     "cita_original": "Add the 67,000 surviving “new” Africans to the 442,370, and voilà, we have the roughly 510,000 enslaved at the start of the revolution.",
+     "traduccion": "Sumando los 67.000 africanos «nuevos» sobrevivientes a los 442.370, resultan unos 510.000 esclavizados al comienzo de la revolución (resumen crítico del cálculo de Geggus).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "La cifra de Geggus (≈510.000 esclavizados en 1791: 442.370 + 67.000) la da aquí un crítico; la original está en Geggus, «Kongomania and the Haitian Revolution», The Americas 2023 [no leída; POR VERIFICAR]. Contrasta con la cifra tradicional de 465.429 esclavizados en 1789 (Mackenzie 1830, p. 109, cita la «estimación general»)."
+  },
+  {
+   "titulo": "Reconstructing the Population Genetic History of the Caribbean (PLoS Genetics 9(11): e1003925)",
+   "autor": "Moreno-Estrada, Andrés; Gravel, Simon; et al.",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828151/",
+   "urls_alternativas": [
+    "https://doi.org/10.1371/journal.pgen.1003925"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio genómico revisado y abierto, con modelos de mezcla fechados; pero la muestra de la Española es muy pequeña (34 dominicanos y 6 haitianos, todos residentes en Florida) y la fecha de los pulsos tiene un margen amplio que el texto no cuantifica para cada población.",
+   "proveniencia": "Equipo de Stanford, McGill y otros; 251 individuos de descendencia caribeña reclutados en el sur de Florida (80 cubanos, 85 colombianos, 34 dominicanos, 27 puertorriqueños, 19 hondureños, 6 haitianos), genotipados en chips Affymetrix 6.0, con referencias africanas, europeas y nativas. No tiene muestra de Haití ni de la República Dominicana propiamente dichos. Fechan la mezcla con la longitud de tramos de ascendencia y suponen 30 años por generación.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Results» (modelos de mezcla), párr. sobre poblaciones insulares",
+     "cita_original": "the best model for each of the latter involves a second pulse of African ancestry, occurring seven to five generations ago, with higher migration rates in Haitians and Dominicans, followed by Cubans and Puerto Ricans.",
+     "traduccion": "el mejor modelo para cada una de las poblaciones insulares incluye un segundo pulso de ascendencia africana, ocurrido hace siete a cinco generaciones, con tasas de migración más altas en haitianos y dominicanos, seguidos por cubanos y puertorriqueños.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "sección «Discussion», «Space and time distinction of African migrations into the Caribbean»",
+     "cita_original": "This period of increased activity coincides with the estimated age of the second (and stronger) pulse of African tracts according to our model (e.g., 7 generations ago in Dominicans), pointing to the late 18th century.",
+     "traduccion": "Este periodo de mayor actividad coincide con la edad estimada del segundo pulso, más fuerte, de tramos africanos según nuestro modelo (p. ej., hace 7 generaciones en dominicanos), que apunta al siglo XVIII tardío.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "sección «Materials and Methods», «Samples»",
+     "cita_original": "80 Cubans, 85 Colombians, 34 Dominicans, 27 Puerto Ricans, 19 Hondurans, and 6 Haitians.",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Único estudio genético encontrado con una señal fechada en el periodo del módulo; no toca ninguna afirmación A-0xx. Lectura prudente [interpretación mía]: un segundo pulso africano «hace 7 generaciones» (≈ 1800 con 30 años por generación y muestreo hacia 2009, margen de decenios) coincide con el máximo de la trata de fines del XVIII, pero mi tabulación de la base de la trata no registra ningún desembarco en la Española española entre 1789 y 1809 (ver ficha de Voyages), de modo que en los dominicanos esa señal no puede venir de la trata directa a la parte española; puede reflejar flujo desde Saint-Domingue o límites del modelo. n = 6 haitianos impide cualquier inferencia sobre Haití. Faltan en esta ronda Schurr 2026 (Proyecto Genoma Dominicano), Simms 2010/2012, Bryc 2010 y Benn Torres: no se leyeron."
+  },
+  {
+   "titulo": "Description topographique et politique de la partie espagnole de l'isle Saint-Domingue (Filadelfia, 1796; trad. inglesa A Topographical and Political Description of the Spanish Part of Saint-Domingo, Filadelfia, 1798, 2 vols.)",
+   "autor": "Moreau de Saint-Méry, Médéric Louis Élie",
+   "anio": "1796",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/topographicalpol01more/topographicalpol01more_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/A086B262/A086B262_djvu.txt",
+    "https://archive.org/download/A086B263/A086B263_djvu.txt",
+    "https://archive.org/details/topographicalpol01more"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Observador contemporáneo bien informado pero sin censo propio de la parte española: usa a Sánchez Valverde, informantes y estimaciones, y publica en el exilio con fines de proyecto político; el OCR del original francés es muy defectuoso, el de la traducción inglesa es legible.",
+   "proveniencia": "Moreau de Saint-Méry, jurista y erudito de Saint-Domingue, exiliado en Filadelfia (1794-1798) [dato de memoria, POR VERIFICAR], publica la obra por suscripción en esa ciudad (la lista de suscriptores del texto inglés incluye al vicepresidente de EE.UU., al ministro plenipotenciario francés Adet y a impresores y comerciantes de Filadelfia). Escribe sobre la parte española poco después de Basilea para informar sobre un territorio que Francia acababa de recibir; se apoya en Sánchez Valverde (1785) y en datos de Saint-Domingue. Tomo 1 del texto inglés leído en la parte de población y ciudades.",
+   "extractos": [
+    {
+     "ubicacion": "trad. inglesa, vol. 1, p. 138 (ciudad de Santo Domingo)",
+     "cita_original": "The censuses lately taken in this capital do not amount to more than twenty thousand souls of every age and sex ... the population of the city and its dependencies, ought to be reckoned at twenty-five thousand souls.",
+     "traduccion": "Los censos tomados últimamente en esta capital no pasan de veinte mil almas de toda edad y sexo ... la población de la ciudad y sus dependencias debe calcularse en veinticinco mil almas.",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "trad. inglesa, vol. 1, p. 138",
+     "cita_original": "They are made out, says Valverde, by persons appointed by the Spanish priests or vicars, and who go from house to house, to verify who do not perform their paschal duties. This method has this inconvenience attending it, that it does not comprehend children under seven years of age",
+     "traduccion": "Se levantan, dice Valverde, por personas nombradas por los curas, que van de casa en casa a verificar quién no cumple con el precepto pascual; el método no comprende a los menores de siete años (crítica de Moreau a la base del censo de la capital).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "trad. inglesa, vol. 1, p. 242 (Santiago)",
+     "cita_original": "in 1724, the inhabitants amounted to but about three thousand, and, according to another document, I find but eight thousand in, 1764. At present the population exceeds twenty-seven thousand souls",
+     "traduccion": "en 1724 los habitantes eran apenas unos tres mil y, según otro documento, ocho mil en 1764; hoy la población pasa de veintisiete mil almas (territorio de Santiago).",
+     "afirmaciones": [
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067"
+   ],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "F-0021",
+   "notas": "Resuelve el estado «localizada-bloqueada» de F-0021 con el texto completo en archive.org (original francés A086B262/A086B263; traducción inglesa topographicalpol01more/02more). NO encontré en el texto los totales de la parte española «<=100.000: 25.000 blancos, 65.000 mulatos, <=15.000 esclavos» que el registro atribuye a Moreau (vía OpenEdition pur/4108): solo localicé cifras por localidad; esos totales siguen [POR VERIFICAR] y no deben darse como cita directa de Moreau. Cifras de la capital: 20.000 por censo (más 5.000-6.000 no contados) = 25.000 almas. La parte francesa (F-0022) está en archive.org descriptiontopog00more y 01more (2 tomos descargados; OCR con s larga, no se extrajeron los totales)."
+  },
+  {
+   "titulo": "Notes on Haiti, made during a residence in that republic, vol. 2 (cap. «Population returns», pp. 108-111)",
+   "autor": "Mackenzie, Charles",
+   "anio": "1830",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/notesonhaitimade02mack/notesonhaitimade02mack_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/notesonhaitimade02mack"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cónsul británico en Haití según la tradición bibliográfica [años: POR VERIFICAR] que recoge cifras ajenas sin base declarada y las discute con franqueza; útil como compendio de estimaciones de población de 1785-1829, no como fuente primaria de ellas.",
+   "proveniencia": "Charles Mackenzie, cónsul general británico en Haití [cargo y años: POR VERIFICAR], publica en Londres en 1830 tras su residencia; compila las «estimaciones generales» de población de la isla antes y después de la Revolución y avisa de que carece de registros fiables para 1791-1820. Escribe en el contexto de la discusión británica sobre el reconocimiento y el comercio con Haití.",
+   "extractos": [
+    {
+     "ubicacion": "vol. 2, p. 109",
+     "cita_original": "the population of the French portion of St. Domingo consisted, in 1789, of Whites 30,826 Free People of colour 27,548 Slaves 405,429 523,803 Other statements make it 534,500.",
+     "traduccion": "la población de la parte francesa en 1789 constaba de 30.826 blancos, 27.548 libres de color y «405.429» esclavizados, total 523.803, aunque otras cifras dan 534.500. [El OCR dice 405.429; la suma de 523.803 exige 465.429.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "vol. 2, p. 109",
+     "cita_original": "In 1785 the population of the Spanish side of the island was estimated to be Free People of all colours 122,640 Slaves 30,000 152,640 ... not more than one hundred and eight thousand five hundred; and this is supposed to have dwindled to one hundred thousand",
+     "traduccion": "En 1785 se estimó la población de la parte española en 122.640 libres de todos los colores y 30.000 esclavizados (total 152.640); cuatro o cinco años después no más de 108.500, y se supone que bajó a 100.000 justo antes de la anexión del Este al Oeste.",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 110",
+     "cita_original": "M. Humboldt has supposed, though I am not aware on what data, that in 1802 the entire population did not exceed three hundred and seventy-five thousand; and it has been stated that, after the death of Dessalines, it amounted to four hundred thousand.",
+     "traduccion": "Humboldt supuso, sin que Mackenzie sepa con qué datos, que en 1802 la población total no pasaba de 375.000, y se ha dicho que tras la muerte de Dessalines llegaba a 400.000.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-067"
+   ],
+   "modulos": [
+    "M06",
+    "M05"
+   ],
+   "id_existente": "F-0743",
+   "notas": "Ya registrada (F-0743) como texto completo; aquí se confirma la URL y se extraen las cifras. Las cifras de 1785 de la parte española (152.640, con 30.000 esclavizados) no coinciden con las de Sánchez Valverde ni con las de Franco ni con las de Moreau (12.000-15.000 esclavizados) [ver Nessler 2009, n. 2]; son un ejemplo de estimaciones sin base trazable (nivel D hasta rastrear). Sesgo: británico, con interés en el comercio con Haití."
+  },
+  {
+   "titulo": "Los primeros tiempos de Cuba en la ruta antillana del café (Revista de Indias 75, n.º 263, pp. 117-148)",
+   "autor": "García Álvarez, Alejandro",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/982/1056/1476",
+   "urls_alternativas": [
+    "https://doi.org/10.3989/revindias.2015.006"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado de un historiador de la economía cubana, con aparato crítico; la nota sobre los inmigrantes recoge y contrasta estimaciones de varios autores en lugar de imponer una.",
+   "proveniencia": "Alejandro García Álvarez (Universidad de La Habana; Academia de la Historia de Cuba) estudia el café en Cuba; en una nota resume las estimaciones del número de colonos franceses y de Santo Domingo llegados a Cuba tras la Revolución haitiana. Su objeto es económico, no el éxodo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 126, nota 19 (inferida por la paginación del PDF)",
+     "cita_original": "En el caso de Cuba, se ha valorado la cifra de inmigrantes procedentes de Haití y Santo Domingo entre 25.000 y 30.000 personas. Ver Guerra Sánchez, 1962: 210 y Quesada y Aróstegui, 1909: 15.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "p. 126, nota 19",
+     "cita_original": "Basado en sus propios cálculos de población, este autor propone una cifra quizás algo superior a las 15.000 personas. También Yacou, 1989: 76-77, señala que en 1808 había en Cuba 10.304 de estos franco-antillanos, y que de ellos 9.236 estaban en el oriente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Rango por autor para el flujo de colonos de Saint-Domingue y Santo Domingo a Cuba (principalmente tras 1803): Guerra Sánchez 1962 y Quesada y Aróstegui 1909: 25.000-30.000; Pérez de la Riva 1975 (que declara imposible la certeza): algo más de 15.000; Yacou 1989: 10.304 franco-antillanos en Cuba en 1808 (9.236 en el oriente). No es el mismo grupo que los «emigrados de Santo Domingo» de 1795-1801 (Mareite 2026: al menos 4.000 a Cuba). Obras citadas no leídas: Guerra Sánchez, Quesada, Pérez de la Riva, Yacou [POR VERIFICAR]."
+  },
+  {
+   "titulo": "A Benevolent Empire? Exile, Politics of Relief, and Subjecthood in Havana (1790-1810) (Itinerario 50, pp. 281-298)",
+   "autor": "Mareite, Thomas",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/52CF82CF4B0F62ABC2C160585E22B664",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/S0165115326100394",
+    "https://ageofrevolutions.com/2023/06/12/emigrados-the-many-meanings-of-exile-from-hispaniola-to-cuba/",
+    "https://conservancy.umn.edu/server/api/core/bitstreams/a72c4af3-bd93-485a-8dee-6a7a95a3f310/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado, abierto, basado en el Archivo General de Indias (Estado, Cuba) y en informes de la Contaduría General; las cifras de emigrados son estimaciones («al menos») con las signaturas citadas.",
+   "proveniencia": "Thomas Mareite (EHESS; luego Tübingen y Duisburg-Essen) estudia el socorro a los exiliados de la Española en La Habana en 1790-1810 con documentos de los capitanes generales y la Junta de Emigrados. Escribe para la historia atlántica; no distingue entre emigrados blancos y libres de color en las cifras agregadas, salvo cuando lo señala.",
+   "extractos": [
+    {
+     "ubicacion": "p. 285",
+     "cita_original": "During the next decade and a half, at least 4.000 emigrados sought refuge in Cuba. Between 3 March and 17 September 1796, for instance, at least 994 emigrados set foot in Havana.",
+     "traduccion": "Durante la década y media siguiente, al menos 4.000 emigrados buscaron refugio en Cuba; entre el 3 de marzo y el 17 de septiembre de 1796, al menos 994 desembarcaron en La Habana (base: AGI, Estado 5B, cartas de Luis de las Casas, y Deive 1984 y 1989).",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "p. 285",
+     "cita_original": "more than 1.800 emigrados arrived on the Spanish mainland in early 1801 following Toussaint Louverture's swift takeover of Santo Domingo",
+     "traduccion": "más de 1.800 emigrados llegaron a la Tierra Firme española a comienzos de 1801 tras la rápida toma de Santo Domingo por Toussaint Louverture.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "p. 289 y nota 26",
+     "cita_original": "aid provided to emigrados across Cuba from 1796 to 1805 amounted to approximately 1.325.556 pesos and five and a half reales. Those residing in Havana received over half of this total",
+     "traduccion": "la ayuda a los emigrados en toda Cuba de 1796 a 1805 sumó unos 1.325.556 pesos (La Habana, más de la mitad: 695.117 pesos; Santiago de Cuba, cerca de 350.000), según un informe de la Contaduría General de 1807 (AGI, Estado 17, 86).",
+     "afirmaciones": [
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "El blog de Mareite en Age of Revolutions (2023-06-12, URL alternativa) dice «unos 4.000 colonos a Cuba, de al menos 10.000 emigrados de Santo Domingo en el Caribe español»; esa segunda cifra (10.000) no lleva fuente en el blog y no aparece en el artículo de 2026: tratarla como D hasta rastrear. Según Nessler 2009 (p. 27), 3.000 de los ~15.000 esclavizados de la colonia (un quinto) salieron con sus amos (cita a Deive 1989, p. 94). Deive (1984, 1989) es la base documental y no se pudo localizar en línea [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Arrancar el árbol de la libertad: una interpretación de la era de Toussaint Louverture en Santo Domingo, 1801-1802 (Estudios Sociales 41, n.º 151, pp. 13-33)",
+   "autor": "Nessler, Graham",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/63/60/119",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/issue/download/8/8"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo con aparato crítico de archivo (AGI, CARAN, ANOM) del autor de la monografía de 2016; las cifras de población y de salidas llevan signaturas y remiten a Deive y a Sánchez Valverde.",
+   "proveniencia": "Graham T. Nessler publica en 2009 en la revista Estudios Sociales (Santo Domingo; portal estudiossociales.bono.edu.do) [la afiliación del autor no consta en el PDF leído] un primer análisis del régimen de Toussaint en el este con fuentes de cuatro archivos europeos; es el germen de An Islandwide Struggle for Freedom (2016, F-0133, bajo derechos).",
+   "extractos": [
+    {
+     "ubicacion": "p. 14, nota 2",
+     "cita_original": "Valverde escribió en 1785 que doce a catorce mil esclavos vivían en Santo Domingo ... Jean Barré de Saint-Venant ofreció una cifra de quince mil esclavos en Santo Domingo a comienzos de la época revolucionaria.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 18",
+     "cita_original": "dependía de una subvención de trescientos a cuatrocientos mil gourdes por año de la tesorería de la Nueva España (México) para financiar sus gastos administrativos, religiosos y militares.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 24",
+     "cita_original": "a pesar de su abolición formal de la esclavitud, Toussaint trató de proteger la pequeña infraestructura de plantaciones ya existente e impuso restricciones sobre la movilidad de los cultivadores para lograrlo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "p. 27",
+     "cita_original": "Según Deive, Toussaint aproximó que tres mil esclavos habían pasado a varias colonias españolas en esta época, lo que representaría un quinto de los quince mil esclavos que vivían en la colonia en vísperas de su cesión a Francia (Deive, 1989, 94).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "p. 29",
+     "cita_original": "sus 1,803 miembros habían huido del régimen del “General negro de la Colonia Francesa Tousaint [sic] Louverture.” Un veinte por ciento de estas personas (o sea, trescientos sesenta) fueron designados “Esclavos.”",
+     "traduccion": "(Expedición del gobernador Joaquín García a Maracaibo, 22 de febrero de 1801, según la documentación del AGI.)",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "p. 30",
+     "cita_original": "Mientras Toussaint no impuso la esclavitud legal en esta colonia, este general no cumplió con sus promesas y las de la República Francesa para la aplicación genuina de la emancipación y de la ciudadanía.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Nota 33 (p. 26): «al menos 1,988 personas de Santo Domingo llegaron a Venezuela en los dos primeros meses de 1801» (el inicio de la frase no está en la extracción). Un estudio napoleónico de 1804 sobre los dominios nacionales atribuye a la salida de cultivadores la baja de los «capitales representando los tributos» de «cerca de doce mil cien mil francos» [cifra garbada en el original impreso o en el PDF; POR VERIFICAR] (p. 27-28). Para A-068 (alcance de la abolición en el este): Nessler 2009 dice abolición formal y trabajo coercitivo, sin esclavitud legal; el funcionario francés citado el 15-IV-1801 opinaba que el sistema «no ha destruido la esclavitud allá, sino cambiado solamente el color». Nessler es la fuente sobre la que Pinto Tortosa 2025 concluye que la esclavitud quedó suprimida. Sesgo: pone el énfasis en la emancipación como experiencia insular."
+  },
+  {
+   "titulo": "El primer tropiezo histórico de Bonaparte: la reconquista de Santo Domingo (Cuadernos de Historia Contemporánea 37, pp. 179-200)",
+   "autor": "Pinto Tortosa, Antonio Jesús",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistas.ucm.es/index.php/CHCO/article/download/50991/47328/91934",
+   "urls_alternativas": [
+    "https://doi.org/10.5209/rev_CHCO.2015.v37.50991"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado con fuentes de AHN, TNA y los diarios de Sánchez Ramírez y Guillermin; las cifras de batalla vienen de testigos de cada bando y se presentan con su nota.",
+   "proveniencia": "Antonio J. Pinto (Universidad Europea de Madrid; luego Universidad de Málaga), especialista en la Revolución haitiana y Santo Domingo; argumenta que, tras Basilea, los dominicanos siguieron ligados a España y que la Reconquista se parece a la Guerra de Independencia española. Se apoya en el diario de Sánchez Ramírez (voz de uno de los bandos) y en el Précis de Guillermin (1811, oficial francés).",
+   "extractos": [
+    {
+     "ubicacion": "p. 195",
+     "cita_original": "en vísperas de la firma de la paz de Basilea, habitaban Santo Domingo 35.000 blancos (entre peninsulares y criollos), frente a los 38.000 libertos (artesanos y jornaleros mulatos) y los 30.000 esclavos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "p. 193",
+     "cita_original": "Sánchez se dispuso a reorganizar su ejército, que había sufrido más de cincuenta bajas entre muertos (la minoría) y heridos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 193",
+     "cita_original": "bien porque era consciente de que la capital estaba aún muy lejos y jamás podría alcanzarla, o bien avergonzado por el ridículo estrepitoso de su ejército en la batalla de Palo Hincado, Ferrand se suicidó.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 195, nota 60 (Guillermin 1811, p. 232)",
+     "cita_original": "Que l’on représente 4.000 personnes, dévorant depuis un mois les chevaux, les mules, les ânes, les chiens et les chats",
+     "traduccion": "Imagínese a 4.000 personas devorando desde hace un mes los caballos, las mulas, los asnos, los perros y los gatos (sitio de la capital, febrero de 1809).",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 196",
+     "cita_original": "el 29 de junio de 1809, cuando una comisión de los habitantes de la ciudad se presentó ante el jefe de las tropas británicas, Christopher Myers",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-081"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Cifras de Palo Hincado por autor (fuerzas y bajas, 7-XI-1808): Pinto 2015: Ferrand con 500 hombres; patriotas con «más de cincuenta bajas»; Lemonnier-Delafosse (testigo francés): ~600 franceses frente a 2.300 estimados por el capitán Bocquet; Cordero Michel 2010: 1.800 patriotas (1.200 infantes y 600 jinetes) frente a 820 franceses (y luego «620»), con 13 sobrevivientes; Ayuntamiento 1815: 500 hombres de la mejor tropa, regresaron 40. La población de 1795 que da Pinto procede de Franco 1969, p. 72 (libre de color 38.000), distinta de Franco 2012 (82.000 libres de color, 24.000 blancos, 14.000 esclavos en 1788, vía Ulrickson). Sesgo: tesis de continuidad hispánica."
+  },
+  {
+   "titulo": "El epistolario de una alianza: las cartas de Jean-François Papillon, Georges Biassou y Toussaint Bréda a las autoridades de Santo Domingo (1791-1794) (Anuario de Estudios Americanos 78:1, pp. 197-222)",
+   "autor": "Pinto Tortosa, Antonio Jesús",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiosamericanos.revistas.csic.es/index.php/estudiosamericanos/article/download/911/904/923",
+   "urls_alternativas": [
+    "https://doi.org/10.3989/aeamer.2021.1.07"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado con edición crítica de cartas del AGS; las cifras de tropas proceden de Jorge Victoria Ojeda (2010) y de informes de la época, con su nota.",
+   "proveniencia": "Antonio J. Pinto Tortosa edita y analiza la correspondencia de los jefes insurgentes de 1791 cuando pasan al servicio de Carlos IV en 1793-1794 (AGS, Secretaría del Despacho de Guerra). Es la fuente de las cifras sobre las Tropas Auxiliares y sobre el paso de Toussaint al bando francés.",
+   "extractos": [
+    {
+     "ubicacion": "p. 199",
+     "cita_original": "a la altura de 1790, había en la colonia aproximadamente 450.000 esclavos negros, frente a 30.000 habitantes blancos.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 206",
+     "cita_original": "Las estimaciones del arzobispo Portillo, que hablaba de hasta 600.000 negros, eran tan exageradas como las del propio Jean-François, que en su correspondencia declaró disponer tan solo de medio centenar de soldados.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 202, nota 24",
+     "cita_original": "se afirmaba que el número de esclavos sublevados en la Provincia del Norte de Saint-Domingue oscilaba entre 30.000 y 50.000 personas.",
+     "traduccion": "(Informe estadounidense de 1791-1792, atribuido por Pinto a Thomas Jefferson.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 206, nota 43",
+     "cita_original": "ha fijado la cifra total de tropas en 6.100 soldados en el caso de Biassou y 6.647 efectivos en el de Jean-François",
+     "traduccion": "(Jorge Victoria Ojeda, 2010: las tropas de Jean-François: 6.522 negros esclavos, 67 mulatos libres y 58 negros libres.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 206",
+     "cita_original": "a finales del siglo XVIII habitaban la colonia unas 100.000 personas: 35.000 blancos, 38.000 libres de color y 30.000 esclavos. Graham Nessler reduce el número de esclavos a 15.000 a la altura de 1789, lo que representaría el 15 % del total de la población.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "p. 215",
+     "cita_original": "A finales de abril su deserción se consumó y atravesó la frontera con 4.000 hombres",
+     "traduccion": "(Toussaint Bréda al pasarse al ejército francés en abril de 1794.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 215",
+     "cita_original": "El decreto de la Convención el día 4 de febrero de 1794 sancionando la libertad universal de todos los esclavos de Saint-Domingue, que ratificaba la medida de Sonthonax en agosto de 1793",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-082"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-082"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Nota 24 (p. 202): un informe estadounidense, «de la autoría de Thomas Jefferson» según Pinto (NARA RG 59, Microfilm 28, rollo 1, p. 107), da para los esclavizados sublevados del Norte de Saint-Domingue (1791) entre 30.000 y 50.000 personas [atribución a Jefferson: POR VERIFICAR]. Rango por autor para los esclavizados de la parte española en vísperas de Basilea: 12.000-14.000 (Sánchez Valverde 1785, según Nessler), ~15.000 (Barré de Saint-Venant; Nessler), 30.000 (Franco 1969; Mackenzie 1785), 14.000 (Franco 2012, vía Ulrickson). Para A-082: confirma, con fuente secundaria, el decreto de la Convención del 4-II-1794 y la medida de Sonthonax de agosto de 1793; no el 29-VIII."
+  },
+  {
+   "titulo": "«Yo no he venido a Santo Domingo como enemigo»: la invasión de Santo Domingo por Toussaint Louverture (1801-1802), preludio de la expedición de Leclerc a Saint-Domingue (Guerra Colonial 17, pp. 69-82)",
+   "autor": "Pinto Tortosa, Antonio Jesús",
+   "anio": "2025",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistas.urjc.es/index.php/guerracolonial/es/article/view/614/1875",
+   "urls_alternativas": [
+    "https://revistas.urjc.es/index.php/guerracolonial/es/article/view/614",
+    "https://doi.org/10.33732/RDGC.17.119"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado (CC BY-SA), con aparato crítico basado en Ardouin, Madiou, Lacroix, Rodríguez Demorizi y archivos españoles; discute abiertamente la historiografía sobre la esclavitud bajo Toussaint.",
+   "proveniencia": "Antonio J. Pinto Tortosa (Universidad de Málaga), recibido 10-III-2025 y aceptado 27-V-2025. Estudia la invasión de 1801 desde fuentes españolas y francesas; llama «administración negra» al régimen de Toussaint en el este, un término descriptivo-racial propio.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Desarrollo e impacto de la administración negra...» (pp. 69-82; la página exacta no consta en el HTML)",
+     "cita_original": "El inicio oficial de la invasión puede datarse el 4 de enero, cuando las tropas de Moÿse y de Toussaint Louverture avanzaron sobre Azúa y Santiago de los Caballeros, respectivamente.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "el 15 de enero hizo formar a 1.200 hombres frente a la puerta de Santo Domingo, enviando al comisionado Hébecourt para convencer a García de entregar la ciudad.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "El caudillo hizo su entrada triunfal el 26 de enero de 1801",
+     "traduccion": "(el registro A-068 dice 27 de enero; Pinto da el 26 de enero para la entrada y el 21 de enero para la entrega.)",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "como Thomas Madiou, sostuvieron que la esclavitud había quedado abolida en el este de la isla (Madiou, II, 1847: 86). Frank Moya Pons (2003: 148) y Emilio Cordero Michel (2007: 253), entre otros, suscriben esta interpretación.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "los documentos españoles al menos parecen dar la razón a Ardouin y quienes, en su línea, defienden que la esclavitud se preservó en Santo Domingo bajo la administración negra.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "la historiografía, construida sobre fuentes contrastadas acerca de este problemático episodio, parece concluir que la esclavitud quedó suprimida en Santo Domingo (Nessler, 2016: 135).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-068"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Útil para el punto [POR VERIFICAR] de A-068 («alcance exacto de la abolición en el este»): hay tres posiciones: abolida (Madiou, Moya Pons, Cordero Michel, Nessler 2016), preservada de hecho (Ardouin, y los documentos españoles según Pinto) y régimen intermedio de trabajo forzado (Nessler 2009). Pinto data la entrega de García el 21-I y la entrada de Toussaint el 26-I de 1801. Sesgo: tesis de que los dominicanos siguieron españoles tras Basilea."
+  },
+  {
+   "titulo": "Reseña de Pinto Tortosa, Antonio Jesús, Santo Domingo: una colonia en la encrucijada, 1790-1820 (Santo Domingo: Archivo General de la Nación, 2022), Revista Complutense de Historia de América 50(1), 2024, pp. 321-323",
+   "autor": "Bar Shuali, Jonathan Jacobo",
+   "anio": "2024",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistas.ucm.es/index.php/RCHA/article/view/95851",
+   "urls_alternativas": [
+    "https://revistas.ucm.es/index.php/RCHA/article/download/95851/4564456569524/4564456714147",
+    "https://dx.doi.org/10.5209/rcha.95851"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña revisada por un especialista de la Complutense: describe la tesis y la estructura del libro pero no reproduce sus cifras; el libro mismo (F-0152) sigue sin leerse.",
+   "proveniencia": "Jonathan Jacobo Bar Shuali (Universidad Complutense de Madrid) reseña la edición ampliada (2022) de la tesis de Pinto Tortosa (2011, 2017). Es la URL que el registro F-0152 había guardado como del libro; en realidad es la de esta reseña.",
+   "extractos": [
+    {
+     "ubicacion": "p. 322",
+     "cita_original": "a pesar de que las tropas franco-haitianas de Louverture se presentaran como “amigos” y “no-agresores” frente a la población española, ello no evitó el surgimiento de un nacionalismo dominicano “antinegro” (pp. 237-238).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "p. 322",
+     "cita_original": "Pinto Tortosa rechaza argumentos previos que sostienen el origen del nacionalismo hispano-dominicano en la Paz de Basilea (p. 340).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0152",
+   "notas": "Resuelve parcialmente F-0152: la URL del registro (revistas.ucm.es .../view/95851) funciona y es de esta reseña; la monografía (AGN, 392 pp.) no está en línea según lo que encontré. El libro contiene los capítulos sobre emigrados y Reconquista (según la reseña: cap. 5, pp. 237-340) pero no se pudieron extraer sus cifras de emigración [POR VERIFICAR]."
+  },
+  {
+   "titulo": "‘Esclavos que fueron’ in Santo Domingo, 1768-1844 (tesis doctoral, University of Notre Dame)",
+   "autor": "Ulrickson, Maria Cecilia",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ndownloader.figshare.com/files/43575072",
+   "urls_alternativas": [
+    "https://doi.org/10.7274/bn999596n1g",
+    "https://api.figshare.com/v2/articles/24740085",
+    "https://curate.nd.edu/articles/thesis/Esclavos_que_fueron_in_Santo_Domingo_1768-1844/24740085"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis premiada con archivos del AGI y del AGN-RD; la cifra de 1788 que cita es una estimación de Franco (2012) y no un censo, y la tesis solo la usa como contexto.",
+   "proveniencia": "Maria Cecilia Ulrickson (Notre Dame, 2018) estudia a los libres de ascendencia africana en Santo Domingo entre 1768 y 1844. Se descargó el PDF (3,2 MB, 8.500 líneas de texto) y se leyeron solo los pasajes de población y de los censos de 1812-1813.",
+   "extractos": [
+    {
+     "ubicacion": "p. 14 y nota 25",
+     "cita_original": "According to one estimate, the colony in 1788 was composed of 24,000 free white inhabitants, 14,000 enslaved persons and 82,000 free individuals of African descent.",
+     "traduccion": "Según una estimación, la colonia estaba compuesta en 1788 por 24.000 blancos libres, 14.000 esclavizados y 82.000 libres de ascendencia africana (la nota 25 remite a Franklin Franco, La población dominicana, 2012, p. 160).",
+     "afirmaciones": [
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0756",
+   "notas": "Resuelve F-0756 (el PDF baja del enlace de figshare; la primera petición devuelve 202 y hay que repetirla). Otro dato: censo de 1812 reimpreso en AGI, ASD 970 (p. 165, no leído a fondo). La suma 24.000 + 82.000 + 14.000 = 120.000 difiere de las 100.000 de Franco 1969 (vía Pinto). Franco 2012 [POR VERIFICAR: no leído]."
+  },
+  {
+   "titulo": "La expedición haitiana de Dessalines a Santo Domingo (discurso de ingreso a la Academia Dominicana de la Historia, 16-II-2022; con discurso de recepción de F. Moya Pons y apéndices)",
+   "autor": "Reyes Sánchez, Miguel",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/ReyesMiguel-LaExpendicionHaitianaDessalineSantoDomingo.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Clio-2022-091-203-059-158.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un nuevo miembro de la ADH con muchas citas de segunda mano (Llenas, Dumas, Froidevaux, García, Marte) y con reconocimiento expreso de las objeciones de Utrera y Marte; no consulta archivos; las cifras son las de los autores que cita, con sus notas.",
+   "proveniencia": "Miguel Reyes Sánchez (n. 1966, según la ficha del libro) lee el discurso de ingreso en la ADH el 16-II-2022, recibido por Frank Moya Pons; la versión de Clío 203 (2022, pp. 59-158) es la misma obra. Parte de la lectura dominicana de la campaña de 1805 como invasión con atrocidades; cita a Utrera y Marte y los rebate. Se leyeron las secciones de cifras, del sitio y de Moca y Santiago (pp. 26, 41, 65-88).",
+   "extractos": [
+    {
+     "ubicacion": "p. 26 y nota 16",
+     "cita_original": "el gobierno haitiano se propuso realizar una nueva invasión al territorio oriental y con esa finalidad formó un ejército haitiano compuesto por 21 mil hombres.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 41 y nota 39 (Froidevaux 1920, p. 263)",
+     "cita_original": "con un ejército de 18,000 a 20,000 negros, al que los negociantes americanos habían suministrado todo lo necesario, “Jacques 1” invadió la antes colonia española de Santo Domingo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 65 (cita de Alejandro Llenas)",
+     "cita_original": "La guarnición de la ciudad contaba 3,500 franceses, y de los 12 mil habitantes se había sacado una milicia de 1,300 hombres mandados por los mulatos franceses Savary y Repussart.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 72-73 (cita de Mathieu Dumas, 1822)",
+     "cita_original": "comandaba Santo Domingo una guarnición española y francesa de alrededor de dos mil quinientos hombres ... Dessalines ... formó un ejército de dieciocho mil negros de los más aguerridos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 75 (cita de Dumas)",
+     "cita_original": "ellos perdieron en esta derrota cerca de cuatro mil hombres ... Los socorros que el almirante Missiessy aportó a Santo Domingo consistieron en: mil hombres de tropas, diez mil fusiles",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 67 (cita de Llenas)",
+     "cita_original": "el comandante Col Antoine arrastró 900 veganos a Santiago ... El 6 de abril Cristóbal reunió todas sus tropas en Santiago; degolló en el cementerio los prisioneros varones ... llevándose como un rebaño 249 mujeres, 430 niñas y 318 niños.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-076",
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 83",
+     "cita_original": "Según el historiador García se congregó en el templo una multitud de unas 500 personas, cifra que nos parece un poco exagerada.",
+     "traduccion": "(Artagnan Pérez Méndez, Ese Moca desconocido, 2000, p. 35, citado por Reyes.)",
+     "afirmaciones": [
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 84 (nota 95: García, Compendio, 4.ª ed., t. I, cap. III)",
+     "cita_original": "acudieron al templo más de quinientas personas de todas clases, sexos y edades, además de la soldadesca desenfrenada de Faubert",
+     "traduccion": "(texto de José Gabriel García, que Reyes cita en extenso; no cita fuente.)",
+     "afirmaciones": [
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 84-85 (nota 96: Utrera, «El degüello de Moca», Revista Panfilia n.º 10, 1925, p. 33)",
+     "cita_original": "para 1805 la población total de la villa de Moca no llegaba a 500 personas, y el sacerdote Pedro Geraldino ... aparece vivo y coleando dos años después (en 1807) como capellán de la ermita de Santa Ana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 85",
+     "cita_original": "Cabe la posibilidad de que quizás las fechas puedan tener alguna inexactitud, incluso la cantidad de personas, pero lo que no es rebatible es lo de la matanza y las ciudades calcinadas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-077",
+      "A-078",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "p. 86 (nota 98: Marte 2017, p. 204)",
+     "cita_original": "Lo que se sabe de estos hechos se debe básicamente al relato de Antonio del Monte y Tejada y a los testimonios de dos dominicanos de la época: las Memorias de mi salida de Santo Domingo, de Gaspar de Arredondo y Pichardo; y un raro escrito del padre Juan de Jesús Ayala",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 87 (nota 99: Marte 2017, p. 205)",
+     "cita_original": "Los historiadores dominicanos han creído ciegamente y sin miramiento en la sinceridad de estos dos escritos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-078",
+    "A-080"
+   ],
+   "modulos": [
+    "M06",
+    "M07"
+   ],
+   "id_existente": "F-0103",
+   "notas": "Resuelve F-0103 (el PDF baja sin bloqueo; 194 pp.). Estimaciones del ejército sitiador por autor: Reyes (vía Ardouin t. VI, p. 89): 21.000; Froidevaux 1920 (vía Reyes): 18.000-20.000; Dumas 1822 (vía Reyes): 18.000; Ardouin (ed. de archive.org, pp. 150-151): ~25.000; Madiou: 24.000 + 6.000 de Geffrard = 30.000; Llenas (en Rodríguez Demorizi 1955): 5.400 + 7.800 + guardia de 2.500 + 9.000 de Christophe ≈ 24.700 antes de Geffrard; Lemonnier-Delafosse (defensor francés): 21.000. Guarnición de la plaza: Lemonnier 2.000 soldados y 6.000 almas; Dumas ~2.500; Llenas y Madiou 3.500-3.590 franceses + 1.300 milicianos = 4.800. Las cifras de Llenas (3.500; 1.300; 12.000) coinciden con Madiou (3.590; 1.300; 12.000): no son independientes. Refuerzo de Missiessy: 500 (Madiou; Llenas), 1.000 (Dumas), 1.200 previstos (Napoleón, p. 79), 4.000 (diario haitiano y la creencia haitiana, que Madiou atribuye a un ardid de Lagrange). Inconsistencia en Reyes: Utrera aparece fechado en 1923 (Acento/Martínez) y en 1925 (Reyes, nota 96). Sesgo: lectura dominicana tradicional; las cifras de Moca y Santiago son las de García/Llenas, no las de Arredondo (ver ficha de F-0071)."
+  },
+  {
+   "titulo": "Moca: ¿mito o historia? (Acento, columna de opinión)",
+   "autor": "Álvarez Martín, David (citando a Héctor Martínez, El Caribe, 28-I-2012, y a Fray Cipriano de Utrera)",
+   "anio": "2020",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/moca-mito-o-historia-8887181.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión que resume de segunda mano una columna periodística (Martínez 2012) sobre la crítica de Utrera; solo sirve para localizar los argumentos, que se contrastan con Reyes 2022 y con Rodríguez Demorizi 1955.",
+   "proveniencia": "David Álvarez Martín publica el 27-XI-2020 en Acento; reproduce la crítica de Héctor Martínez a la versión de García del «degüello» de Moca (El Caribe, 28-I-2012), que a su vez resume a Utrera (que Martínez fecha en 1923). Es la URL que el registro F-0182 tenía como «fragmento»; ahora se leyó completa.",
+   "extractos": [
+    {
+     "ubicacion": "párr. con la cita de Martínez",
+     "cita_original": "En cambio, para el historiador Delmonte y Tejada, (contemporáneo de aquellos hechos, y de cuyo antihaitianismo no cabe dudar), los degollados fueron “varios fugitivos” “en la parroquia de Moca” (Historia de Santo Domingo, t. III).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "los “degollados” no podían ser “más de 500 personas de todas las clases, sexos y edades”, en razón de que para 1805 la población total de la villa de Moca no llegaba a 500 personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "Estas realidades llevan a Utrera a sostener que en la Moca de 1805 “No hubo tal Tedéum ni el sacerdote fue ensartado en las bayonetas, ni la matanza fue por esta razón dentro de la iglesia”.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078",
+      "A-080"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-078",
+    "A-080"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0182",
+   "notas": "Resuelve F-0182 con la lectura completa de su URL (F-0195 usa la misma URL). Utrera (1923/1925) y Marte (2017) siguen sin localizarse en línea: la búsqueda de «El pasado como historia» (AGN, 2017) y de Revista Panfilia no dio PDF [POR VERIFICAR]. Del Monte y Tejada, t. III (1890): no disponible en archive.org (solo el t. IV, id. historiadesanto00tejagoog). El propio Utrera no sostiene que no hubiera matanza en Moca sino que no fue como en García (Te Deum, sacerdote ensartado, 500 muertos en la iglesia)."
+  },
+  {
+   "titulo": "Invasiones haitianas de 1801, 1805 y 1822 (Academia Dominicana de la Historia, nueva serie, vol. I; Ciudad Trujillo: Editora del Caribe, 1955), recopilación documental",
+   "autor": "Rodríguez Demorizi, Emilio (ed.); Arredondo y Pichardo, Gaspar de; Heredia y Mieses, José Francisco; Llenas, Alejandro; Ayuntamiento de Santo Domingo (docs.)",
+   "anio": "1955",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "http://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_InvasionesHaitianasDe18011805Y1822.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Los documentos que transcribe son primarios y de la época, pero la edición (Era de Trujillo, con introducción abiertamente antihaitiana) los selecciona y presenta con un marco ideológico, y mi lectura es OCR de un PDF de imágenes: solo las páginas 122, 123, 153, 163, 165 y 190 se cotejaron a ojo contra la imagen.",
+   "proveniencia": "Emilio Rodríguez Demorizi, secretario de la ADH, publica en 1955, como homenaje al «Benefactor de la Patria» (colofón: «Año del Benefactor de la Patria», 23-X-1955), documentos sobre 1801, 1805 y 1822: relación de Francisca Valerio (1801), decretos de Ferrand, proclamas y diario de Dessalines, la Memoria de Gaspar de Arredondo y Pichardo (pp. 121-160), el informe de J. F. Heredia y Mieses al Ayuntamiento (1812, pp. 161-172), la exposición del Ayuntamiento al Rey (1815, pp. 179-184) y la «Invasión de Dessalines» de Alejandro Llenas (pp. 185-195). El PDF (66,8 MB, 372 págs.) no tiene capa de texto; se leyó con el OCR de Windows (en-US) tras renderizar las páginas, y las cifras clave se cotejaron con la imagen.",
+   "extractos": [
+    {
+     "ubicacion": "p. 123 (prólogo de la Memoria de Arredondo)",
+     "cita_original": "Puerto Príncipe (Cuba) 12 de agosto de 1814.",
+     "traduccion": "(Fecha que cierra el prólogo en el que Arredondo dice escribir «para mis 8 hijos»; es 9 años después de los hechos.)",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 121-122, nota 36 (cabecera de la Memoria)",
+     "cita_original": "La he ratificado de mi puño y letra, hoy 31 de diciembre de 1850.",
+     "traduccion": "(Nota firmada por Arredondo: ratificación de su relato 45 años después de los hechos.)",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 122",
+     "cita_original": "el 28 de febrero, día segundo de carnestolendas, por el ejército del general negro Enrique Cristóbal, a las ocho y media de la mañana, entrando a sangre y fuego con todos los del país para hacerse paso a la capital",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 153 (Memoria de Arredondo, sobre Moca)",
+     "cita_original": "En efecto se acercaron y nos informaron de que en Moca el 3 de abril de 1805, habían los negros pasado a cuchillo aquella mañana a todo viviente",
+     "traduccion": "(Arredondo no estuvo en Moca: lo refiere por informantes; en el mismo pasaje cita al «sacristán de Moca» y a «este negro (Félix)» como fuentes, p. 152-153.)",
+     "afirmaciones": [
+      "A-077",
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 153",
+     "cita_original": "que en el presbiterio había, por lo menos, 40 niños degollados y encima, del altar una señora de Santiago, doña Manuela Polanco",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 153",
+     "cita_original": "El padre Geraldino no se sabía de él; después se supo que los negros se lo llevaron al retirarse del sitio que pusieron a la capital",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "p. 163 (Informe de J. F. Heredia y Mieses al Ayuntamiento, 1812)",
+     "cita_original": "La ciudad de Santiago de los Caballeros, que era la más rica, y su jurisdicción la mejor poblada de la isla, fué entrada a sangre y fuego con muerte de más de 400 personas en un solo día",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 165 (Heredia, 1812)",
+     "cita_original": "aunque hasta ahora no ha sido posible reunir el censo general de la parte española, puede calcularse en 80,000 almas el número de su población",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "p. 163 (Heredia, 1812)",
+     "cita_original": "en sostener esta generosa lucha se consumieron más de 30,000 reses vacunas",
+     "traduccion": "(Costo ganadero de la Reconquista de 1808-1809.)",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 166 (Heredia, 1812)",
+     "cita_original": "trajo un millón y trescientos mil pesos que se debían a estas cajas por restos de su situación ... los ocho años contados desde el 91 al 99 dieron un millón de sobrante los productos de Sto. Domingo",
+     "traduccion": "(Heredia sobre el superávit fiscal de Santo Domingo en 1791-1799, noviembre de 1799.)",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 181 (Exposición del Ayuntamiento al Rey, 5-X-1815)",
+     "cita_original": "de quinientos hombres de la mejor tropa que sacó de la Capital, no volvieron a ella sino cuarenta",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 190 (Alejandro Llenas, «Invasión de Dessalines»)",
+     "cita_original": "reunió en Petite-Rivière de l'Artibonite la división del general Gabart, de 5400 hombres ... la división Pétion, de 7800 soldados ... con su guardia de 2500 granaderos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 190-191 (Llenas)",
+     "cita_original": "El general Christophe ... con 9000 haitianos ... Cristóbal, que había tenido 60 heridos y 300 muertos, entró en este pueblo",
+     "traduccion": "(Entrada a Santiago, 25 de febrero de 1805; Llenas da 1.500 franco-dominicanos de Serapio Reynoso como defensores.)",
+     "afirmaciones": [
+      "A-075",
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 193 (Llenas)",
+     "cita_original": "El 6 de abril Cristóbal reunió todas sus tropas en Santiago; degolló en el cementerio los prisioneros varones ... llevándose como un rebaño 249 mujeres, 430 niñas y 318 niños.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-076",
+      "A-077"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-078",
+    "A-081"
+   ],
+   "modulos": [
+    "M06",
+    "M07"
+   ],
+   "id_existente": "F-0071",
+   "notas": "Hallazgos que contradicen el registro y piden revisar A-077 y A-078 [lectura OCR; cotejar con facsímil antes de cerrar]: (1) El registro dice que las cifras de Moca (500), Santiago (400) y los cautivos (900) dependen de «una sola base», la Memoria de Arredondo, escrita «unos 40 años después»; en el texto impreso de la Memoria no aparece ni «500» ni «400»: Arredondo habla de «40 niños degollados» en el presbiterio de Moca y de «dos muchachas» sobrevivientes, y lo refiere de oídas. (2) La cifra de «más de 400 personas en un solo día» en Santiago es de Heredia y Mieses (informe de 1812, 7 años después, escrito para el Ayuntamiento para pedir remedios económicos: interés en mostrar la ruina). (3) El «más de quinientas personas» de Moca es de José Gabriel García (Compendio), citado en Reyes 2022, p. 84; García no cita fuente (Marte). (4) La fecha de la Memoria: prólogo del 12-VIII-1814 y nota de ratificación del 31-XII-1850; la carta de 1905 de F. de Arredondo y Miranda a García explica que la copia llegó a García ese año (los editores la publicaron en Clío 82, 1948). Si «40 años» sale de la ratificación de 1850, es solo parte de la historia del texto. (5) Arredondo sitúa el «degüello» de Santiago el 28 de febrero de 1805 (entrada de Christophe); Llenas y Madiou lo sitúan el 6 de abril (salida): son dos episodios distintos, y la cifra de Heredia (400 «en un solo día») no dice cuál. (6) Cifras de los 997 cautivos de Santiago (249 + 430 + 318): Llenas dice 249 mujeres, 430 niñas y 318 niños; Madiou (OCR) dice «849 [¿249?] hommes, 430 enfants mâles, 318 filles»: el sexo de las dos últimas cifras está invertido entre ambos [POR VERIFICAR contra el facsímil de Madiou]. El OCR también arroja, en la Memoria: ejército de Moÿse en Santiago el 12-I-1801: «2,500 soldados» (p. 128); Christophe «con 2000 hombres» camino de Santiago el 26-II-1805 (p. 151); Llenas, en cambio, 9.000 (Christophe). Facsímil no cotejado: Valerio (p. 69), decretos de Ferrand (pp. 85, 97) y diario de Dessalines (p. 105), que se leyeron mejor en Linstant 1851."
+  },
+  {
+   "titulo": "Arrêté du général Ferrand (16 nivôse an XIII, 6 de enero de 1805), reproducido en Recueil général des lois et actes du gouvernement d'Haïti, t. I (1804-1808), pp. 39-41",
+   "autor": "Ferrand, Jean-Louis [el registro F-0026 lo llama Marie-Louis; POR VERIFICAR]; Linstant-Pradine, S. (comp.)",
+   "anio": "1805 (decreto); 1851 (compilación)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/recueilgnral07hait/recueilgnral07hait_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/recueilgnral07hait"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro del decreto (13 artículos y preámbulo) reproducido por una compilación oficial haitiana, coherente con lo que dicen Dessalines (n.º 22), Madiou y Llenas de él; falta el cotejo con el impreso de ANOM.",
+   "proveniencia": "General Ferrand, comandante en jefe en Santo Domingo (Cuartel General, 6-I-1805), lo dicta como respuesta militar a la rebelión de los negros del oeste; la copia que se reproduce la publicó el Estado haitiano en la compilación de S. Linstant (París, Auguste Durand, 1851; t. I, 1804-1808), que lo cita como «mencionado en la adresse n.º 22» de Dessalines. Tomo descargado de archive.org (OCR con errores, aceptable en estos pasajes).",
+   "extractos": [
+    {
+     "ubicacion": "p. 39, preámbulo",
+     "cita_original": "Toujours occupé des dispositions propres à anéantir la rébellion des noirs dans la colonie de Saint-Domingue, et considérant qu'une de celles les plus efficaces pour parvenir à ce but est d'en diminuer la population, et de les priver, autant que possible, des moyens de se recruter",
+     "traduccion": "Siempre ocupado en las disposiciones propias para aniquilar la rebelión de los negros en la colonia de Saint-Domingue, y considerando que una de las más eficaces para lograrlo es disminuir su población y privarlos, en lo posible, de los medios de reclutarse",
+     "afirmaciones": [
+      "A-074",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "p. 39, art. 1",
+     "cita_original": "à faire prisonniers tous ceux des deux sexes qui ne passeront pas l'âge de quatorze ans.",
+     "traduccion": "y a hacer prisioneros a todos los de ambos sexos que no pasen de los catorce años (es decir, de 14 años o menos; no «mayores de catorce»).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "p. 39-40, arts. 2, 3 y 5",
+     "cita_original": "Les prisonniers provenant de ces expéditions seront la propriété des capteurs. ... Les enfants mâles âgés de dix à quatorze ans, et les négresses, mulâtresses, etc., de douze à quatorze ans, seront expressément vendus pour être exportés.",
+     "traduccion": "Los prisioneros de estas expediciones serán propiedad de sus captores [...] Los varones de diez a catorce años y las negras, mulatas, etc., de doce a catorce serán expresamente vendidos para ser exportados (los menores de diez años deben quedar en la colonia, art. 3).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "p. 40, arts. 4, 6 y 10",
+     "cita_original": "cinq pour cent d'exportation sur le prix de la vente ... deux gourdes à payer par les capteurs, pour chacun de ces certificats ... cinquante gourdes d'amende par tête",
+     "traduccion": "5 % de derecho de exportación sobre el precio de venta; dos gourdes por certificado (a pagar por los captores); multa de cincuenta gourdes por cabeza.",
+     "afirmaciones": [
+      "A-074"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-074",
+    "A-079"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0026",
+   "notas": "Resuelve F-0026 (antes solo fragmento de Island Luminous) y A-074: el umbral de edad del texto original es «14 años o menos», no «más de 14» (Schoenrich, l. 1480-1482, erra, probablemente por haber leído el art. 1 como «over»). Matiz: el art. 5 vende para exportar a varones de 10-14 años y a niñas de 12-14; el art. 3 deja en la colonia a menores de 10 de ambos sexos; las niñas de 10-12 no están reguladas en el texto. Territorio: «territoire occupé par les révoltés» (el oeste, bajo Dessalines), autorizado a los habitantes de las fronteras del Ozama y del Cibao y a las tropas del cordón. Interpretación: el preámbulo dice expresamente que el objetivo es reducir la población rebelde y su reclutamiento; no dice que sea una respuesta a un hecho concreto de Dessalines. El decreto de Ferrand de 22-I-1804 (índice de Rodríguez Demorizi, p. 85) no se leyó. Madiou lo llama «l'infâme arrêté de Ferrand du 6 janvier 1805» (t. III, p. 208)."
+  },
+  {
+   "titulo": "Adresse de l'Empereur au peuple, à son retour du siège de Santo-Domingo (12-IV-1805) y Journal de la campagne de Santo-Domingo (n.º 22), en Recueil général des lois et actes du gouvernement d'Haïti, t. I (1804-1808), pp. 36-48",
+   "autor": "Dessalines, Jean-Jacques (firma «Jacques»; sec. Juste Chanlatte); Bazelais (jefe del Estado Mayor, firma del Journal); Linstant-Pradine, S. (comp.)",
+   "anio": "1805 (documentos); 1851 (compilación)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/recueilgnral07hait/recueilgnral07hait_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/recueilgnral07hait"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documentos oficiales del Estado de Dessalines publicados al regreso de la campaña, con función de justificación pública; reconocen los hechos de devastación (lo que los vuelve valiosos) pero no dan cifras de víctimas civiles ni de muertos propios.",
+   "proveniencia": "Imperio de Haití, Cuartel Imperial de Laville, 12-IV-1805, «an II de l'indépendance»: la Adresse de Dessalines al pueblo y el Journal firmado por Bazelais, jefe del Estado Mayor general, cuya impresión ordenó el Emperador; los reprodujo S. Linstant en 1851. El Journal es la «fuente» que Ardouin (t. VI) cita para el tamaño del refuerzo francés.",
+   "extractos": [
+    {
+     "ubicacion": "p. 38, Adresse",
+     "cita_original": "la ville de Santo-Domingo, seul endroit qui survive aux désastres de la dévastation que j'ai propagée au loin dans la partie ci-devant espagnole, ne peut plus longtemps servir de retraite à nos ennemis",
+     "traduccion": "la ciudad de Santo Domingo, único lugar que sobrevive a los desastres de la devastación que he propagado a lo lejos en la parte antes española, ya no puede servir de refugio a nuestros enemigos",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "p. 38, Adresse",
+     "cita_original": "tout dans le dehors ayant été la proie du feu et de la flamme, le reste des habitants et des animaux, enlevé et conduit dans notre patrie, l'avantage que l'ennemi se proposait de retirer de ce point de mire, devient sinon nul, du moins insignifiant",
+     "traduccion": "habiendo sido todo lo de fuera presa del fuego y de la llama, y el resto de los habitantes y de los animales llevado a nuestra patria, la ventaja que el enemigo se proponía sacar de este punto se vuelve si no nula, al menos insignificante",
+     "afirmaciones": [
+      "A-076",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "p. 46, Journal (25 de marzo)",
+     "cita_original": "S. M. fit passer l'ordre aux commandants des diverses communes conquises, de rassembler tous les habitants et de les constituer prisonniers",
+     "traduccion": "Su Majestad hizo pasar la orden a los comandantes de las diversas comunas conquistadas de reunir a todos los habitantes y constituirlos prisioneros.",
+     "afirmaciones": [
+      "A-076"
+     ]
+    },
+    {
+     "ubicacion": "p. 47, Journal (28 de marzo)",
+     "cita_original": "on commença à débarquer les troupes; nous jugeâmes, d'après divers rapports, que ce renfort pouvait être évalué à quatre mille hommes.",
+     "traduccion": "se comenzó a desembarcar las tropas; juzgamos, por diversos informes, que este refuerzo podía evaluarse en cuatro mil hombres.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 47, Journal",
+     "cita_original": "considérant que le but qu'il s'était proposé dans cette expédition était plus d'à moitié rempli, puisque le sac de la ville de Santo-Domingo manquait seul à l'accomplissement de ses projets",
+     "traduccion": "considerando que el fin que se había propuesto en esta expedición estaba más que a medias cumplido, pues solo faltaba el saqueo de la ciudad de Santo Domingo para el cumplimiento de sus proyectos",
+     "afirmaciones": [
+      "A-079",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "p. 47, Journal",
+     "cita_original": "réduisirent en cendres les bourgs, les villages, les hattes et les villes, portèrent partout la dévastation, le fer et la flamme, et n'épargnèrent que les individus destinés par S. M. à être amenés prisonniers",
+     "traduccion": "redujeron a cenizas los burgos, las aldeas, los hatos y las ciudades, llevaron por todas partes la devastación, el hierro y la llama, y solo perdonaron a los individuos destinados por Su Majestad a ser llevados prisioneros.",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-075",
+    "A-076",
+    "A-079",
+    "A-080"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0030",
+   "notas": "Resuelve F-0030 (proclamas de la campaña del Este): están en Linstant t. I, n.os 15 (Proclama a los habitantes de la parte española, 8-V-1804), 22 (Adresse y Journal) y 23 (Constitución imperial). Para A-079 («campaña defensiva y preventiva»): el propio Journal dice que el objetivo estaba cumplido «más que a medias» y que solo faltaba el saqueo de la ciudad; y la Adresse llama «devastación que he propagado» a lo ocurrido en el este: las lecturas «defensiva» (Nessler) y «invasión con devastación» (relato dominicano) pueden apoyarse en el mismo texto, que además cita el decreto de Ferrand como motivo (Adresse, n.º «Arrêté du général Ferrand, mentionné dans l'adresse»). El Journal no menciona Moca ni la cifra de Santiago. Pocos datos de efectivos: división Gabart (4.º, 8.º, 14.º, 7.ª y 20.ª semibrigadas), división Pétion (11.ª, 12.ª, 21.ª-24.ª); 300 hombres de guarnición dejados en San Juan (Isaac Borel); 4.000 estimados del refuerzo francés (Madiou dice 500: Lagrange habría usado todas las chalupas para parecer más)."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. III (1803-1807), campaña de 1805, pp. 199-208",
+   "autor": "Madiou, Thomas",
+   "anio": "1848",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/histoiredhaiti03madi/histoiredhaiti03madi_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/histoiredhaiti03madi"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano que escribe 40 años después con testimonios orales de oficiales y documentos oficiales, sin citar sus fuentes de cifras; se contradice con Ardouin y con el diario oficial en algunos números, y es el eslabón entre las fuentes haitianas y Llenas.",
+   "proveniencia": "Thomas Madiou (Puerto Príncipe, 1848, 'Histoire d'Haïti', t. III) narra la «campagne de l'Est» a partir de relatos de oficiales de Dessalines y de los papeles del Estado; es partidario de Dessalines y crítico de las atrocidades del ejército en la retirada. El OCR de archive.org es mediocre en las cifras.",
+   "extractos": [
+    {
+     "ubicacion": "t. III, p. ~199 (la paginación se infiere de las cabeceras)",
+     "cita_original": "L'armée assiégeante, quoique la division du Sud, sous les ordres de Geffrard ne fût pas encore arrivée, était forte de 24,000 mille hommes environ.",
+     "traduccion": "El ejército sitiador, aunque la división del Sur de Geffrard aún no había llegado, era de unos 24.000 hombres. [El OCR dice «24,000 mille»; la cifra es 24.000.]",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. ~199",
+     "cita_original": "La garnison de Sto.-Domingo montait à 3,590 hommes de troupes européennes, et la population de 12,000 âmes fournissait 1,300 gardes nationaux",
+     "traduccion": "La guarnición de Santo Domingo ascendía a 3.590 hombres de tropas europeas y la población de 12.000 almas daba 1.300 guardias nacionales (con lo que Ferrand tenía a sus órdenes 4.800).",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 202",
+     "cita_original": "Cette nouvelle division porta le chiffre de l'armée à 30,000 hommes environ.",
+     "traduccion": "Esta nueva división (6.000 hombres de Geffrard, llegada el 12 de marzo) elevó el ejército a unos 30.000 hombres.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 205",
+     "cita_original": "le général Lagrange débarqua dans la place, le seul bataillon qui lui restât, fort de 500 hommes ... Les haïtiens crurent qu'on avait débarqué 4000 environ",
+     "traduccion": "el general Lagrange desembarcó en la plaza el único batallón que le quedaba, de 500 hombres ... Los haitianos creyeron que se habían desembarcado unos 4.000 (porque Lagrange usó todas las chalupas de la escuadra).",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 207",
+     "cita_original": "Il fit égorger un grand nombre des laboureurs de [?], livra aux flammes le bourg de Moca, et se rendit à St-Yague où il joignit Christophe.",
+     "traduccion": "Hizo degollar a gran número de labradores, entregó a las llamas el burgo de Moca y fue a Santiago donde se reunió con Christophe. (Atribuido al coronel Jean-Jacques Bazile; no menciona misa ni iglesia ni cifra.)",
+     "afirmaciones": [
+      "A-076",
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 207-208",
+     "cita_original": "La plupart des prisonniers furent massacrés. Une vingtaine de prêtres étaient cernés dans le cimetière ... Le général Christophe conduisit dans le Nord 849 hommes, 430 enfans mâles, de l'âge le plus tendre à 15 ans, et 318 filles",
+     "traduccion": "La mayoría de los prisioneros fueron masacrados. Una veintena de sacerdotes fue cercada en el cementerio ... Christophe llevó al Norte «849 hombres» [OCR; ¿249 mujeres?], 430 niños varones de la edad más tierna a 15 años y 318 niñas.",
+     "afirmaciones": [
+      "A-076",
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "p. 208",
+     "cita_original": "Dans cette campagne, nous avons détruit les villes les plus anciennes du Nouveau Monde ... Nous nous sommes montrés cruels, en décimant cette population des campagnes composée de noirs et d'hommes de couleur.",
+     "traduccion": "[OCR: «he viles»] En esta campaña destruimos las ciudades más antiguas del Nuevo Mundo ... Nos mostramos crueles, diezmando a esa población de los campos compuesta de negros y de hombres de color. (Juicio del propio Madiou.)",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-080"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0106",
+   "notas": "Ya registrado como texto completo (F-0106); aquí se extraen las cifras de 1805 y se compara con Llenas, que parece derivarlas de Madiou (3.590/3.500; 1.300; 12.000). Madiou no habla de misa ni de iglesia en Moca ni da número de muertos de Moca; el único detalle de cifras es el de los cautivos de Santiago (997 si «849» es «249»: Llenas lo lee 249 mujeres; OCR de Madiou dice hombres; los sexos de 430 y 318 están invertidos entre Madiou y Llenas) [POR VERIFICAR con facsímil]. Sesgo: relato nacional haitiano que, a la vez, admite la crueldad de la retirada, con atenuante en el decreto de Ferrand (p. 208) y en la conducta de los hispano-indígenas que se armaron a favor de los franceses."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, t. VI (campaña de 1805, cap. IV, pp. 136-138 y 150-151 de la edición de archive.org)",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1856",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/etudessurlhistoi06ardo/etudessurlhistoi06ardo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/etudessurlhistoi06ardo",
+    "https://archive.org/download/tudessurlhisto06ardo/tudessurlhisto06ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador y político mulato haitiano, crítico de Dessalines, que discute las cifras de Madiou con documentos del Ministerio de Marina francés y con el diario oficial; sus cifras son estimaciones sin censo.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), parte de la élite de color, publica en París y Port-au-Prince entre 1853 y 1860; en el t. VI corrige a Madiou citando informes del Ministerio de Marina francés sobre combates navales en la costa de Santo Domingo y testimonios orales de Pétion.",
+   "extractos": [
+    {
+     "ubicacion": "cap. IV, pp. 150-151",
+     "cita_original": "L'armée entière s'élevait à une force d'environ 25 [...] mille hommes.",
+     "traduccion": "El ejército entero ascendía a unos 25.000 hombres.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 136",
+     "cita_original": "On les évalua à 4000 hommes dans les lignes haïtiennes, d'après le journal de la campagne contre Santo-Domingo",
+     "traduccion": "Se les evaluó en 4.000 hombres en las líneas haitianas, según el diario de la campaña.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 136-137, nota 2",
+     "cita_original": "il est probable que ces troupes ne montaient pas à 4,000 hommes.",
+     "traduccion": "(Ardouin cita a Madiou t. III p. 205: solo 500 hombres desembarcados; y dice haber leído en el Ministerio de Marina francés informes de dos combates navales frente a Santo Domingo en febrero y fines de marzo de 1805.)",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "p. 137-138",
+     "cita_original": "Dès le 25, l'empereur avait fait enjoindre aux commandans des bourgs sur la route, « de rassembler tous les habitans et de les constituer prisonniers",
+     "traduccion": "Desde el 25 el emperador había ordenado a los comandantes de los burgos del camino «reunir a todos los habitantes y constituirlos prisioneros»",
+     "afirmaciones": [
+      "A-076"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-075",
+    "A-076"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0107",
+   "notas": "Reyes 2022 (p. 26, n. 16) cita «Ardouin t. VI, p. 89» para 21.000 hombres; en la edición de archive.org la cifra que hallé es ~25.000 en pp. 150-151, y no localicé «21.000»: otra paginación o otra edición [POR VERIFICAR]. La referencia F-0107 del registro listaba solo t. IX y X con URL; la URL del t. VI del registro (tudessurlhisto06ardo) también funciona (200). Ardouin no da cifras de Moca ni de Santiago en los pasajes leídos."
+  },
+  {
+   "titulo": "Segunda campaña de Santo Domingo (guerra dominico-francesa de 1808), trad. de C. Armando Rodríguez (Santiago: Editorial El Diario, 1946) de Seconde campagne de Saint-Domingue, du 1er décembre 1803 au 15 juillet 1809 (Le Havre, 1846)",
+   "autor": "Lemonnier-Delafosse, Jean-Baptiste; Rodríguez, C. Armando (trad.)",
+   "anio": "1846 (orig.); 1946 (trad.)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "francesa",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/pp3256JBLemonnierDelafosseSegundaCampa%C3%B1aDeSantoDomingo.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de un oficial francés testigo del sitio de 1805 y de Palo Hincado, escrita casi cuarenta años después, con cifras de primera mano pero con fuerte sesgo pro-Ferrand y antihaitiano; el PDF es una traducción de 1946 con OCR sin acentos.",
+   "proveniencia": "J. B. Lemonnier-Delafosse, antiguo oficial del ejército de Saint-Domingue y miembro de la guarnición de Santo Domingo en 1805 y 1808-1809, publica en Le Havre (1846); la traducción al español se hace en 1944-46 por encargo de Rodríguez Demorizi (ADH/AGN) en la Era de Trujillo. Es de los testigos que cita Cordero Michel para Palo Hincado (n. 16, 19). Se leyó el capítulo del sitio de 1805 y el de Palo Hincado.",
+   "extractos": [
+    {
+     "ubicacion": "cap. «Segunda campaña», sitio de Santo Domingo de 1805 (l. 4875-4876 del txt extraído con pdftotext -layout)",
+     "cita_original": "elementos de defensa de la plaza, que contaba con 2,000 soldados y, además, una población de 6,000 almas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "ídem (l. 5012-5016)",
+     "cita_original": "Veintiún mil negros o mulatos, bajo las órdenes de esos dos generales sitiaban a dos mil hombres, comprendidos los españoles, que habían venido a buscar un refugio entre nosotros.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "cap. «Combate de Palo Hincado» (l. 7519-7524)",
+     "cita_original": "Hay de mil a mil doscientos hombres de infantería, dijo, y novecientos de caballería y están reunidos en el lugar de Palo-Inclinado (Palo-Hincado); a los cuales hay que agregar dos batallones del regimiento de línea de Puerto Rico.",
+     "traduccion": "(Informe del «seminarista» Franco a Ferrand antes del combate.)",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "ídem (l. 7613-7618; informe del capitán Bocquet)",
+     "cita_original": "me parecieron ser como de 2,300 hombres, de los que las tres cuartas partes son nativos del país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "ídem (l. 7741-7743)",
+     "cita_original": "nuestros pobres seiscientos hombres no pudieron hacer otra cosa sino vender caro sus vidas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-075",
+    "A-081"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Cifras del defensor de 1805 (21.000 sitiadores contra 2.000 soldados y 6.000 almas) contradicen las de Madiou/Llenas (24.000-30.000 contra 3.590 + 1.300 y 12.000 almas). El índice incluye «Regreso de trece militares a Santo Domingo» tras Palo Hincado (coincide con Cordero Michel: 13 sobrevivientes). El PDF tiene 110 MB; el texto es la traducción de 1946, no el original francés (el cotejo con el original francés no se hizo) [POR VERIFICAR]. Lemonnier no trata, en los pasajes leídos, Moca ni Santiago."
+  },
+  {
+   "titulo": "El primer intento independentista dominicano y la reincorporación a España, 1808-1809 (Clío 79, n.º 180, jul.-dic. 2010, pp. 123-146)",
+   "autor": "Cordero Michel, Emilio",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/180-1.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador de la ADH que reconstruye Palo Hincado y la Junta de Bondillo con Sánchez Ramírez, Artola y Lemonnier-Delafosse; da cifras por bando con nota pero con inconsistencia interna (820 y 620 franceses) y marco de lucha de clases que condiciona la selección.",
+   "proveniencia": "Emilio Cordero Michel escribe en Clío n.º 180 (jul.-dic. 2010), cuya presentación firma él mismo [su cargo en la ADH: POR VERIFICAR]; para la batalla se apoya en el Diario de Sánchez Ramírez (pp. 32, 49, 55), en Artola (Revista de Indias, 1951) y en Lemonnier-Delafosse (p. 148). Su tesis: la Reconquista tuvo dos movimientos, el de la pequeña burguesía cibaeña y sureña (nacionalista) y el de los hateros y el clero, que se impuso.",
+   "extractos": [
+    {
+     "ubicacion": "p. 133",
+     "cita_original": "se integró un ejército que ascendía a 1,800 hombres: 1,200 infantes y 600 jinetes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 134, nota 16 (Lemonnier-Delafosse, p. 148)",
+     "cita_original": "La columna francesa estaba compuesta por 820 hombres: 600 de infantería; 200 de caballería; y 20 oficiales y guías.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 135",
+     "cita_original": "De los 620 franceses solamente 13 llegaron con vida a la ciudad de Santo Domingo",
+     "traduccion": "(Cordero escribe 820 y luego 620 en dos páginas consecutivas; no explica la diferencia.)",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 137",
+     "cita_original": "Allí concurrieron, el 12 de diciembre de 1808, unos 20 representantes de otras tantas villas y poblaciones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "p. 137",
+     "cita_original": "se retiraran al Cibao y el sur con unos 600 hombres que comandaban.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-081"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-081"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Primer apoyo cuantitativo para Palo Hincado distinto de Schoenrich. Rango por autor de fuerzas: patriotas 1.800 (Cordero), ~2.000 (resúmenes de divulgación, no verificados); franceses ~600 (Lemonnier-Delafosse), 500 (Pinto 2015; Ayuntamiento 1815), 820/620 (Cordero). Los números de Sánchez Ramírez (Diario) no se leyeron [POR VERIFICAR]."
+  },
+  {
+   "titulo": "La crisis de las monarquías y su impacto en las Antillas (1789-1823) (Clío 79, n.º 180, jul.-dic. 2010, pp. 55-86)",
+   "autor": "Moya Pons, Frank",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/180-1.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un historiador de primer orden, sin aparato de notas en el pasaje de cifras; la cifra de la expedición de 1802 no lleva fuente.",
+   "proveniencia": "Frank Moya Pons, historiador dominicano (miembro de la ADH), publica este artículo en Clío n.º 180; se leyeron solo los pasajes sobre la expedición de Leclerc y sobre la Reconquista (pp. 62-69).",
+   "extractos": [
+    {
+     "ubicacion": "p. 62",
+     "cita_original": "una gran flota con más de ochenta navíos y 58,000 hombres para arrancar la colonia de Saint-Domingue de manos de los negros.",
+     "traduccion": "(Expedición de Napoleón en 1802.)",
+     "afirmaciones": [
+      "A-082"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-082"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Estimaciones del tamaño de la expedición de 1802 (A-082 decía «unos 25.000 hombres»): Geggus 1979: 35.000 en la primera expedición (25.000 muertos en nueve meses); Moya Pons 2010: 58.000 hombres y más de 80 navíos; Arredondo: más de 14.000; McNeill (resumen de búsqueda, no leído): 31.000 con hasta 80.000 tras los refuerzos. La diferencia es de definición (primer cuerpo contra total con refuerzos) y no se puede zanjar sin las listas de ANOM."
+  },
+  {
+   "titulo": "1804 Census, Gros Morne, Haiti (entrada de Haiti and the Atlantic World, 18-III-2013, con transcripción y traducción de un padrón de la John Carter Brown Library)",
+   "autor": "Gaffield, Julia (transcripción y comentario); Charruau (firmante del padrón original, 12 de octubre de 1804)",
+   "anio": "2013",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/2013/03/18/1804-census-gros-morne-haiti/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Transcripción por una historiadora especialista de un padrón local de una sola página en una colección fiable (JCB), pero el original no se vio y la suma de más de 600 blancos es la hipótesis de la autora (cada persona contada en una sola categoría); es un solo lugar y una sola fecha.",
+   "proveniencia": "Julia Gaffield, PhD (la afiliación Georgia State University aparece en un resultado de búsqueda, no en la entrada) publica en su blog de recursos sobre Haití la transcripción de un informe de censo de Gros Morne firmado «Charruau» el 12 de octubre de 1804, formulario de diez años antes (con categorías de esclavos sin llenar). Comenta que contradice la idea de que casi no quedaron blancos tras las ejecuciones de febrero-abril de 1804 y cita a Girard (2005, 2011).",
+   "extractos": [
+    {
+     "ubicacion": "entrada del blog (1.er comentario)",
+     "cita_original": "The number of “blancs” in the city of Gros Morne is listed at over 600 (if you add up the different categories – I am assuming that each person was only counted for one category).",
+     "traduccion": "El número de «blancos» en la ciudad de Gros Morne figura en más de 600 (si se suman las distintas categorías; supongo que cada persona se contó en una sola categoría).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "transcripción del formulario",
+     "cita_original": "Hommes blancs 30 ... Femmes blanches 60 ... Veuves blanches 89 ... Chirurgiens 65 ... Au gros morne ce 12 8bre 1804",
+     "traduccion": "Hombres blancos 30; mujeres blancas 60; viudas blancas 89; cirujanos 65; ... Gros Morne, 12 de octubre de 1804.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "citas de Girard en la entrada (Girard, Patterns of Prejudice 39(2), 2005, pp. 138-161)",
+     "cita_original": "soldiers rounded up white planters, their families, French soldiers and the urban poor known as petits blancs, and killed them. Neither women nor children were spared.",
+     "traduccion": "los soldados reunieron a plantadores blancos, sus familias, soldados franceses y los pobres urbanos llamados petits blancs, y los mataron; no se perdonó ni a mujeres ni a niños.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-083"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "A-083 pide cifras de víctimas de 1804: el rango 3.000-5.000 [que el registro marca POR VERIFICAR] no se pudo trazar a una fuente leída en esta ronda (Girard 2005 y 2011, Dubois 2004 y Madiou no se leyeron en este tema); esta entrada solo aporta que en Gros Morne había más de 600 blancos registrados el 12-X-1804 (hombres: 30 blancos; 65 cirujanos; 75 obreros, etc.), es decir, que la ejecución no fue total. Los resúmenes de búsqueda dan rangos de 3.000 a 7.000 sin fuente primaria (descartados por no verificables). Sesgo: la autora propone la lectura revisionista de la «ejecución de todos los blancos»."
+  },
+  {
+   "titulo": "The plantation owners of Saint Domingue and the Royal Indemnity Report (État détaillé des liquidations) - Introduction (domingino.de)",
+   "autor": "Gliech, Oliver",
+   "anio": "2013",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://domingino.de/stdomin/etat-det_introd_engl.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Página de un historiador alemán (autor de una tesis sobre Saint-Domingue 1789-1803) que da cifras de Barbé de Marbois (1790) y del informe de la indemnización de 1826; no es revisada por pares y la nota cita la fuente primaria sin extractos.",
+   "proveniencia": "Dr. Oliver Gliech (Berlín), base de datos genealógica y documental de colonos de Saint-Domingue transcrita del État détaillé des liquidations (6 vols., indemnización de 1826-1830). Cifras de 1788 que cita de F. de Barbé de Marbois, État des finances de Saint-Domingue (1790), état n.º III.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 y nota 1",
+     "cita_original": "its 792 sugar, 2.810 coffee, 3.097 indigo and 705 cotton plantations produced colonial 239 Mio. Livres worth of commodities destined for Continental Europe and U.S. markets.",
+     "traduccion": "sus 792 plantaciones de azúcar, 2.810 de café, 3.097 de añil y 705 de algodón produjeron mercancías coloniales por 239 millones de libras destinadas a Europa continental y a EE.UU. (datos de 1788, Barbé de Marbois).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "Its 6 volumes contain a list of a about 7.900 owners and their heirs.",
+     "traduccion": "Sus 6 volúmenes contienen una lista de unos 7.900 propietarios y sus herederos (indemnización de 150 millones de francos aceptada por Haití).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Base económica de 1788: 239 millones de libras (valor de los productos), muy superior a las 163 millones de libras de exportaciones de 1789 (cifra de resúmenes de búsqueda, 162.994.367, no verificada) [POR VERIFICAR: hay que leer el état de Barbé de Marbois]. No hay en el registro afirmación sobre la economía de Saint-Domingue en 1789; se sugiere abrir una. El valor de «239 millones» puede incluir productos que no se exportan; cuidado con comparar con series de exportación."
+  },
+  {
+   "titulo": "La fin de la domination française à Saint-Domingue (1803-1809) (Journal de la Société des Américanistes 12, pp. 262-265)",
+   "autor": "Froidevaux, Henri",
+   "anio": "1920",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://www.persee.fr/doc/jsa_0037-9174_1920_num_12_1_3127",
+   "urls_alternativas": [
+    "https://www.persee.fr/docAsPDF/jsa_0037-9174_1920_num_12_1_3127.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota breve de un especialista francés en las colonias; la página de Persée da el primer párrafo, pero el PDF (403, control altcha) no se pudo abrir y las cifras de la nota (18.000-20.000 sitiadores, p. 263, según Reyes) no se leyeron.",
+   "proveniencia": "Henri Froidevaux (1863-1954, bibliotecario de la Sociedad de Geografía; dato de Reyes 2022, n. 38) escribe en 1920 una nota de 4 págs. sobre el final de la dominación francesa en el este de la isla; Reyes (2022, nota 39) la cita para el ejército de 18.000-20.000 de Dessalines.",
+   "extractos": [
+    {
+     "ubicacion": "primer párrafo en la página de Persée",
+     "cita_original": "dès le 20 décembre 1803, il entrait dans la capitale, Santo Domingo, où le général Barquier venait bientôt le rejoindre avec ses troupes",
+     "traduccion": "desde el 20 de diciembre de 1803 entraba en la capital, Santo Domingo, adonde el general Barquier vino pronto a unírsele con sus tropas (Ferrand).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ídem",
+     "cita_original": "quels événements ont préparé la capitulation du 7 juillet 1809",
+     "traduccion": "qué acontecimientos prepararon la capitulación del 7 de julio de 1809.",
+     "afirmaciones": [
+      "A-081"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-081"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Solo se leyó el primer párrafo (visible en la página web). Fecha de capitulación según Froidevaux: 7 de julio de 1809; Pinto 2015 da una comisión de vecinos ante Myers el 29 de junio y la capitulación en julio (el registro A-081 dice julio de 1809). Conviene fijar: 6-9 de julio de 1809 según autores [POR VERIFICAR con la capitulación original, TNA CO 137/126, p. 317]."
+  },
+  {
+   "titulo": "Hayti, or The Black Republic (cap. sobre agricultura y exportaciones)",
+   "autor": "St John, Spenser",
+   "anio": "1884",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/GITenberg/Hayti-or-the-Black-Republic_68592/master/68592-0.txt",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/GITenberg/Hayti-or-The-Black-Republic_68592/master/68592-0.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Diplomático británico muy hostil a Haití y con cifras sin base declarada, como ya indica el registro; solo es útil como cita de las cifras de 1789 que circulaban en 1884.",
+   "proveniencia": "Spenser St John, diplomático británico [cargo y años en Haití: POR VERIFICAR], publica en 1884 un libro polémico sobre la «república negra»; las cifras de exportación de 1789 las da sin fuente. Ya figuraba en el registro (F-0053) como texto descargado; esta ficha agrega extractos de cifras de 1789 localizados por línea.",
+   "extractos": [
+    {
+     "ubicacion": "l. 8435-8444 del txt (cap. del café)",
+     "cita_original": "In 1789, when the French possessed the island, the amount produced greatly exceeded anything seen since, with the exceptions of 1863, 1875, and 1876.",
+     "traduccion": "En 1789, cuando los franceses poseían la isla, la cantidad producida excedió con mucho todo lo visto desde entonces, salvo en 1863, 1875 y 1876 (tabla: 1789, 88.360.502 libras de café).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "l. 8476-8479",
+     "cita_original": "in the year 1789 they exported 54,000,000 lbs. of white sugar and 107,000,000 lbs. of brown.",
+     "traduccion": "en 1789 exportaron 54.000.000 de libras de azúcar blanca y 107.000.000 de azúcar morena.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "l. 8519",
+     "cita_original": "Of cotton 8,400,000 lbs. were exported in 1789.",
+     "traduccion": "De algodón se exportaron 8.400.000 libras en 1789.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M08"
+   ],
+   "id_existente": "F-0053",
+   "notas": "Cifras de 1789 para el este de Saint-Domingue que se repiten en la literatura posterior; sin series anuales entre 1790 y 1818 en este libro. Otros autores (resúmenes de búsqueda): 77 millones de libras de azúcar y 68 millones de café en 1790 (no verificado); producción agrícola <10 % de 1789 en 1802 (no verificado). No hay en esta ronda una serie anual de exportaciones haitianas 1789-1809; la tabla de Mackenzie (1830, «general table of exports 1789, 1801, 1818-1826»; Manioc SCH130820314i1) es una imagen no legible [POR VERIFICAR]."
+  }
+ ]
+}

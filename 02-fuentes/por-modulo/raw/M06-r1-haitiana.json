@@ -1,0 +1,2498 @@
+{
+ "lente": "haitiana",
+ "modulo": "M06",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 16,
+ "busquedas_pendientes": [
+  "Hurbon / Hénock Trouillot / Casimir sobre la lectura de «J'ai vengé l'Amérique» y el sentido de «América» (A-073)",
+  "Georges Michel / Michel Hector / Castor sobre la campaña del Este de 1805 (capítulos de Genèse de l'État haïtien bloqueados por Anubis en OpenEdition)",
+  "Gazette officielle / Gazette politique et commerciale d'Haïti 1804-1806 en dLOC o Gallica",
+  "Programas del MENFP y textos escolares actuales (6.º año fundamental) sobre Toussaint 1801, Dessalines 1805 y la bandera del 18 de mayo",
+  "Discursos de Estado del 1 de enero, 18 de mayo, 18 de noviembre y 17 de octubre (texto íntegro; solo se obtuvo una nota del CPT del 17-X-2025 tras muro de acceso)",
+  "AlterPresse, Haïti Liberté, Loop Haïti y Haïti Libre sobre Moca y 1805 (la búsqueda con allowed_domains devolvió textos ajenos al módulo)",
+  "Voces en criollo sobre 1801-1809 (Bon Nouvel mayo de 2003; Radio Haïti-Inter; Potomitan en kreyòl)",
+  "Gallica y HathiTrust para cotejar Madiou 1848 y la edición Deschamps 1989 (cifras 849/430/318 y 900)",
+  "Dorsainvil, Manuel d'histoire d'Haïti (F-0481): el servidor beta-omk.manioc.org corta la conexión (ECONNRESET) con curl y con WebFetch"
+ ],
+ "lagunas": [
+  "No hay en las fuentes haitianas leídas una cifra de muertos en Moca ni en Santiago: Madiou (1848) da la quema de Moca, la matanza de prisioneros y de unos veinte sacerdotes en Santiago y cifras de cautivos (900 de La Vega; 849 hombres, 430 niños y 318 niñas llevados al Norte por Christophe); Ardouin da el ahorcamiento de una docena de notables y la muerte de heridos y prisioneros en Santiago; Price-Mars (1953) describe «fusillade des otages». Ninguna confirma ni refuta las cifras de 500 y 400 de la memoria de Arredondo y Pichardo (F-0066, no leída).",
+  "Fuentes haitianas contemporáneas de 1805 más allá del Journal oficial y de la Adresse del 12-IV-1805 (partes de operaciones de Gabart, Pétion o Christophe): no localizadas.",
+  "Alcance legal exacto de la abolición de enero de 1801 en el Este (A-068): Madiou da la «proclamation de la liberté générale» en la plaza de Santo Domingo y Péan y Denis la dan por hecha, pero no se halló el texto de la proclama de Toussaint.",
+  "Voz de los esclavizados y de las mujeres del Este y del Oeste: las fuentes leídas son de élites (Madiou, Ardouin, Linstant, Price-Mars) o de prensa de opinión; solo se halló una referencia a prensa criolla (Bon Nouvel) no accesible.",
+  "F-0110 (Fouchard) y F-0112 (H. Trouillot) sin texto en línea; F-0124 (Moïse) devuelve 401/403 en archive.org; Silencing the Past (Trouillot) devuelve 401 (préstamo).",
+  "Decretos y proclamas de Toussaint de enero-febrero de 1801 (arrêtés del 14 nivoso, 5, 7, 8 y 12 de febrero): solo conocidos por el resumen de Madiou t. II, pp. 85-89.",
+  "No se contrastó Madiou 1848 con la edición Deschamps de 1989; el OCR de archive.org tiene errores de dígitos y de fechas (1803 aparece como «1808»)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "indigènes espagnols / hispano-indigènes",
+   "tradicion": "haitiana",
+   "nota": "Dessalines (adresse del 12-IV-1805) y Madiou llaman «indigènes espagnols» a los habitantes del Este y los presentan como «descendants des malheureux Indiens»; Ardouin (t. VI, p. 142) objeta que, si el Este era parte integrante del Estado, debían llamarse haitianos y no «Espagnols». Los textos dominicanos los llaman dominicanos o españoles; el término mezcla etnónimo taíno y gentilicio colonial."
+  },
+  {
+   "termino": "partie ci-devant espagnole / partie de l'Est (Haïti)",
+   "tradicion": "haitiana",
+   "nota": "Denominación haitiana del Este en 1801-1809 («ancienne partie espagnole», «partie de l'Est d'Haïti»); implica que la isla es una unidad y el Este su parte aún no incorporada. La tradición dominicana dice «parte española» o simplemente «Santo Domingo»; Price-Mars y Péan usan «Santo Domingo espagnol»."
+  },
+  {
+   "termino": "prise de possession (1801) / réunification de l'île",
+   "tradicion": "haitiana",
+   "nota": "Ardouin, Madiou, Péan y Denis llaman «prise de possession» o «réunification» a la entrada de Toussaint en el Este (enero de 1801), con fundamento en Basilea; Paret añade «de plein droit». La tradición dominicana la llama «invasión de 1801». Madiou usa «capitulation» para el acuerdo con Garcia. El glosario ya tiene esta fila; aquí se anotan los nombres haitianos concretos."
+  },
+  {
+   "termino": "école coloriste (noiriste / mulâtriste)",
+   "tradicion": "haitiana",
+   "nota": "Péan (2017) llama «école coloriste» a la polarización Madiou (noirista) / Ardouin (mulatrista) y a sus herederos: la revolución como «racial» frente a «multirracial». Importa porque cada escuela atribuye a Dessalines o a Christophe/Pétion la responsabilidad de 1804-1805; el glosario tiene «noirisme» pero no «mulâtrisme»."
+  },
+  {
+   "termino": "massacre des Français (1804) / « extermination des blancs » / « crime national »",
+   "tradicion": "haitiana",
+   "nota": "Madiou y Bellegarde dicen «massacre général des Français»; Ardouin «le sacrifice»; la proclama del 28-IV-1804 habla de «l'heure de la vengeance». Madiou atribuye a Dessalines la frase «je veux que le crime soit national». La divulgación francesa dice «massacres de 1804». No está en el glosario; el término descriptivo propuesto es «matanza de franceses de 1804»."
+  },
+  {
+   "termino": "enfants d'Haïti (naturalización de 1804)",
+   "tradicion": "oficial-haiti",
+   "nota": "Dessalines ofrece en 1804 a los españoles ser «admis au nombre des enfants d'Haïti» y entrega «lettres de naturalité» a franceses; Ardouin (t. VI, pp. 60-61) lee el art. 28 de 1806 («admis») a partir de esas cartas. Marca una noción de pertenencia jurídica por adopción, distinta de la ciudadanía por nacimiento: pertinente para el trato posterior a los orientales (1822)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Histoire d'Haïti, t. III (1803-1807; Port-au-Prince, Imprimerie de J. Courtois, 1848)",
+   "autor": "Madiou, Thomas",
+   "anio": "1848",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti03madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti03madi/histoiredhaiti03madi_djvu.txt",
+    "https://dloc.com/AA00001029/00001"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primera historia general haitiana, escrita 40 años después con veteranos vivos y documentos, de mirada noirista; es la fuente narrativa más antigua para 1804-1805 pero sin aparato de citas y con OCR ruidoso en cifras.",
+   "proveniencia": "Thomas Madiou (1814-1884), haitiano, director del Liceo Nacional de Puerto Príncipe y antiguo profesor de historia (portada), publica en 1847-48 su Histoire d'Haïti para un público nacional haitiano. El tomo III (1803-1807) recoge testimonios de contemporáneos y notas del general Inginac, e inserta el texto de proclamas oficiales. Sesgo: exalta a los jefes negros (Toussaint, Dessalines) frente a Rigaud y los mulatos, pero condena sin ambages las matanzas de 1804 y la crueldad de 1805; su mayor valor para este módulo es que un historiador nacional haitiano de 1848 reconoce por escrito la devastación de la campaña del Este. Edición consultada: archive.org histoiredhaiti03madi (escaneo de Boston Public Library, OCR djvu).",
+   "extractos": [
+    {
+     "ubicacion": "t. III (1848), p. 189 (OCR l. 11605); el texto de Madiou dice «ne passeraient pas», es decir, hasta 14 años; contradice la lectura «over fourteen» de Schoenrich",
+     "cita_original": "faire prisonniers tous ceux des deux sexes qui ne passeraient pas l'âge de 14 ans",
+     "traduccion": "hacer prisioneros a todos los de ambos sexos que no pasaran de 14 años (Madiou 1848 resume el art. 1 del arrêté de Ferrand del 6-I-1805; el art. 5 de su versión manda vender para exportar a los varones de diez a catorce años y a las niñas de doce a catorce).",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 189 (OCR l. 11623)",
+     "cita_original": "Que les enfans mâles âgés de dix à quatorze ans, et les négresses et les mulâtresses de douze à quatorze ans, seraient expressément vendus pour être exportés",
+     "traduccion": "Que los varones de diez a catorce años y las negras y mulatas de doce a catorce serían expresamente vendidos para ser exportados.",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 96 (OCR l. 5478)",
+     "cita_original": "Ce territoire ne peut être considéré comme espagnol, puisqu'il a été cédé à la France par le traité de Bâle, et qu'aucun autre traité postérieur n'a abrogé cette concession faite par le roi d'Espagne.",
+     "traduccion": "Este territorio no puede considerarse español, puesto que fue cedido a Francia por el tratado de Basilea y ningún tratado posterior abrogó esa concesión hecha por el rey de España (carta del jefe de estado mayor Jacques Boyé a Dessalines, 28 brumario año XII = 19-XI-1803, citada por Madiou).",
+     "afirmaciones": [
+      "A-067",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 192 (OCR l. 11809)",
+     "cita_original": "nous allons réunir à l'empire plus des deux tiers de son territoire",
+     "traduccion": "vamos a reunir al imperio más de dos tercios de su territorio (arenga de Dessalines a sus tropas en Sarrasins, febrero de 1805, según Madiou; en criollo en el original, vertida al francés).",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 199 (OCR l. 12213); cifra de Madiou; el Journal oficial no da total",
+     "cita_original": "L'armée assiégeante, quoique la division du Sud, sous les ordres de Geffrard ne fût pas encore arrivée, était forte de 24,000 hommes environ.",
+     "traduccion": "El ejército sitiador, aunque la división del Sur de Geffrard aún no había llegado, contaba unos 24.000 hombres.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 199 (OCR l. 12215)",
+     "cita_original": "La garnison de Sto.-Domingo montait à 3,590 hommes de troupes européennes, et la population de 12,000 âmes fournissait 1,300 gardes nationaux",
+     "traduccion": "La guarnición de Santo Domingo sumaba 3.590 hombres de tropas europeas y la población, de 12.000 almas, aportaba 1.300 guardias nacionales (Ferrand tenía así unos 4.800 hombres).",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 208 (OCR l. 12797)",
+     "cita_original": "Le siège de Sto. Domingo avait duré vingt jours: les hostilités commencées le 8 Mars, avaient cessé le 28.",
+     "traduccion": "El sitio de Santo Domingo había durado veinte días: las hostilidades, iniciadas el 8 de marzo, cesaron el 28.",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 206 (OCR l. 12642)",
+     "cita_original": "Le 28 Mars à 2 heures de l'après midi, la cavalerie haïtienne se répandit dans les environs de Sto. Domingo, réunit, en bandes, tous ceux des indigènes espagnols qu'elle put atteindre",
+     "traduccion": "El 28 de marzo a las 2 de la tarde la caballería haitiana se dispersó por los alrededores de Santo Domingo y reunió en grupos a todos los indígenas españoles que pudo alcanzar [los empujó hacia la parte francesa «como rebaños»].",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 206 (OCR l. 12664)",
+     "cita_original": "Les haïtiens livraient tout à feu et à sang sur leur passage.",
+     "traduccion": "Los haitianos entregaban todo a fuego y sangre a su paso.",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207 (OCR l. 12729); lista de Madiou; no menciona Azua ni Montecristi en este pasaje pero sí «la place de Monte-Christ fut rasée»",
+     "cita_original": "Elles incendiérent Monte Plata, San-Pedro, Cotuy, Macoris, la Véga.",
+     "traduccion": "Incendiaron Monte Plata, San Pedro, Cotuí, Macorís y La Vega [la división del Norte de Christophe y Clervaux].",
+     "afirmaciones": [
+      "A-076"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207 (OCR l. 12732); cifra de Madiou (900 cautivos de La Vega); OCR sin cotejar con otra edición [POR VERIFICAR]",
+     "cita_original": "Neuf cents personnes de la Véga furent conduites à St Yague par le chef de bataillon Col Antoine.",
+     "traduccion": "Novecientas personas de La Vega fueron conducidas a Santiago por el jefe de batallón Col Antoine.",
+     "afirmaciones": [
+      "A-076",
+      "A-077"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207 (OCR l. 12737); Madiou confirma la quema de Moca pero no da las cifras de 500 y 400 muertos",
+     "cita_original": "livra aux flammes le bourg de Moca, et se rendit à St-Yague où il joignit Christophe.",
+     "traduccion": "incendió el poblado de Moca y se dirigió a Santiago, donde se unió a Christophe (el coronel Jean-Jacques Bazile; el pasaje dice antes que «fit égorger un grand nombre des laboureurs», OCR parcialmente ilegible).",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-078"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207 (OCR l. 12752)",
+     "cita_original": "Christophe mit le feu de sa propre main, aux édifices de cette jolie ville.",
+     "traduccion": "Christophe prendió fuego de su propia mano a los edificios de esa bella ciudad [Santiago].",
+     "afirmaciones": [
+      "A-076"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207 (OCR l. 12756)",
+     "cita_original": "La plupart des prisonniers furent massacrés. Une vingtaine de prêtres étaient cernés dans le cimetière.",
+     "traduccion": "La mayoría de los prisioneros fueron masacrados. Una veintena de sacerdotes estaban cercados en el cementerio.",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 207-208 (OCR l. 12763); cifras de Madiou (base: veteranos y documentos que no cita); dígitos del OCR [POR VERIFICAR contra el impreso]",
+     "cita_original": "Le général Christophe conduisit dans le Nord 849 hommes, 430 enfans mâles, de l'âge le plus tendre à 15 ans, et 318 filles également de l'âge le plus tendre à 15 ans.",
+     "traduccion": "El general Christophe condujo al Norte 849 hombres, 430 niños varones de la edad más tierna hasta 15 años y 318 niñas de la misma edad (total 1.597 cautivos).",
+     "afirmaciones": [
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 208 (OCR l. 12775)",
+     "cita_original": "Nous nous sommes montrés cruels, en décimant cette population des campagnes composée de noirs et d'hommes de couleur.",
+     "traduccion": "Nos mostramos crueles al diezmar a esa población del campo, compuesta de negros y de hombres de color.",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 208 (OCR l. 12780)",
+     "cita_original": "Cependant on peut comprendre nos fureurs en se rappelant l'infâme arrêté de Ferrand du 6 Janvier 1805",
+     "traduccion": "Sin embargo se pueden comprender nuestros furores si se recuerda el infame decreto de Ferrand del 6 de enero de 1805 y la conducta de los hispano-indígenas que se habían aliado con los franceses.",
+     "afirmaciones": [
+      "A-079",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 251 (OCR l. 15636)",
+     "cita_original": "Ferrand se disposait à nous attaquer en 1808, pendant la guerre civile entre Christophe et Pétion, quand les indigènes-espagnols se soulevèrent contre la France.",
+     "traduccion": "Ferrand se disponía a atacarnos en 1808, durante la guerra civil entre Christophe y Pétion, cuando los indígenas-españoles se sublevaron contra Francia (nota de Madiou).",
+     "afirmaciones": [
+      "A-081",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 132 (OCR l. 7808)",
+     "cita_original": "je veux que le crime soit national, que chacun trempe sa main dans le sang",
+     "traduccion": "quiero que el crimen sea nacional, que cada uno moje su mano en la sangre (Dessalines, según Madiou, en Puerto Príncipe, marzo-abril de 1804).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 136 (OCR l. 8047)",
+     "cita_original": "Les massacres avaient duré des premiers jours de Février au 22 Avril.",
+     "traduccion": "Las matanzas habían durado desde los primeros días de febrero hasta el 22 de abril.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 140 (OCR l. 8277)",
+     "cita_original": "Néanmoins comme il n'a pas opposé une résistance invincible à ces atroces suggestions, l'histoire ne peut le justifier.",
+     "traduccion": "Sin embargo, como no opuso una resistencia invencible a esas atroces sugerencias, la historia no puede justificarlo (sobre la orden de matar a las mujeres blancas).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 141 (OCR l. 8357); nota al pie de Madiou; es la cifra haitiana más antigua localizada, sin base declarada",
+     "cita_original": "Le nombre des victimes, hommes, femmes et enfans s'élevait à trois mille environ.",
+     "traduccion": "El número de víctimas, hombres, mujeres y niños, ascendía a unas tres mil.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 142 (OCR l. 8408)",
+     "cita_original": "Oui, nous avons rendu à ces vrais cannibales, guerre pour guerre, crimes pour crimes, outrages pour outrages. Oui, j'ai sauvé mon pays, j'ai vengé l'Amérique.",
+     "traduccion": "Sí, hemos devuelto a esos verdaderos caníbales guerra por guerra, crímenes por crímenes, ultrajes por ultrajes. Sí, he salvado mi país, he vengado a América (proclama del 28-IV-1804, «Aux habitans d'Haïti»).",
+     "afirmaciones": [
+      "A-071",
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 114 (OCR l. 6652)",
+     "cita_original": "Le ciel était rempli du nom d'Haïti que les indigènes avaient donné à leur nouvelle patrie. Ce nom primitif de la contrée leur rappelait un peuple qui avait préféré l'extermination à la servitude.",
+     "traduccion": "El cielo estaba lleno del nombre de Haití que los indígenas habían dado a su nueva patria. Ese nombre primitivo del país les recordaba un pueblo que había preferido el exterminio a la servidumbre (1-I-1804, Gonaïves).",
+     "afirmaciones": [
+      "A-072",
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. III (1848), p. 31 (OCR l. 1648)",
+     "cita_original": "il fut convenu qu'une réunion solennelle des chefs indépendans de Léogane et du Petit-Goâve aurait lieu à l'Arcahaie",
+     "traduccion": "se convino que tendría lugar en Arcahaie una reunión solemne de los jefes independientes de Léogâne y Petit-Goâve [mediados de mayo de 1803; Madiou no da la fecha del 18 de mayo ni menciona una bandera en ese pasaje].",
+     "afirmaciones": [
+      "A-070"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-070",
+    "A-071",
+    "A-072",
+    "A-073",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-078",
+    "A-079",
+    "A-080",
+    "A-081",
+    "A-083",
+    "A-084"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0106",
+   "notas": "Las páginas se dedujeron de las cabeceras del OCR (p. ej. «208 HISTOIRE D'HAÏTI—(1805)»); el OCR confunde cifras y años (1803 aparece como «1808»). La paginación corresponde a la edición de 1848, no a la de Deschamps (1989), cuyas páginas citan otros autores (p. ej. Vertus Saint-Louis cita «MADIOU, 1989, t. 3 p. 235»). Madiou NO da las cifras de 500 muertos en Moca ni 400 en Santiago: da la quema de Moca, la matanza de prisioneros de Santiago y cifras de cautivos (900 de La Vega; 849+430+318 llevados por Christophe). Nota de simetría: Madiou y Ardouin concuerdan en lo esencial (incendios, cautivos, ejecuciones en Santiago) pero Ardouin es más duro con Christophe. [POR VERIFICAR] contra escaneo las cifras 849/430/318 y 900."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. II (1799-1803; Port-au-Prince, Imprimerie de J. Courtois, 1847)",
+   "autor": "Madiou, Thomas",
+   "anio": "1847",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti02madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti02madi/histoiredhaiti02madi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato haitiano de 1847 con documentos insertos (carta de Toussaint a Garcia, arrêté de Roume) y sesgo noirista declarado; sin aparato de citas.",
+   "proveniencia": "Thomas Madiou (1814-1884), director del Liceo Nacional de Puerto Príncipe (portada), 1847; t. II cubre 1799-1803: la guerra del Sur contra Rigaud, la toma de posesión de la parte española por Toussaint (enero de 1801), la constitución de 1801, la expedición de Leclerc y la adopción de la bandera bicolor. Escribe para un público haitiano, con simpatía por Toussaint pero con la salvedad de que acusa su política laboral y su cercanía a la élite colonial. Edición: archive.org histoiredhaiti02madi.",
+   "extractos": [
+    {
+     "ubicacion": "t. II (1847), p. 30 (OCR l. 1659)",
+     "cita_original": "La colonie espagnole, comme on l'a vu, avait été cédée à la France par le traité de Bâle. Mais le gouvernement français préoccupé des affaires européennes avait négligé, depuis cinq ans, d'en prendre possession.",
+     "traduccion": "La colonia española, como se ha visto, había sido cedida a Francia por el tratado de Basilea. Pero el gobierno francés, preocupado por los asuntos europeos, había descuidado durante cinco años tomar posesión de ella.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 30 (OCR l. 1675)",
+     "cita_original": "En s'emparant de la partie de l'Est Toussaint Louverture voulait augmenter ses forces et ses ressources",
+     "traduccion": "Al apoderarse de la parte del Este, Toussaint Louverture quería aumentar sus fuerzas y recursos, mermados por la guerra civil, y adelantarse a Rigaud (motivo que da Madiou).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 32 (OCR l. 1766)",
+     "cita_original": "les nouveaux citoyens de l'Ouest sont enlevés et vendus aux propriétaires d'esclaves de l'Est",
+     "traduccion": "los nuevos ciudadanos del Oeste son raptados y vendidos a los propietarios de esclavos del Este (argumento atribuido por Madiou a Toussaint ante el agente Roume para justificar la toma de posesión, 1800).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 32 (OCR l. 1790)",
+     "cita_original": "Le général en chef de l'armée de St Domingue est requis de donner ordre au général de brigade Agé",
+     "traduccion": "Se requiere al general en jefe del ejército de Saint-Domingue que dé orden al general de brigada Agé [de ir a la parte ex española para tomar posesión en nombre del pueblo francés]; arrêté de Roume del 17 floréal año VIII (27-IV-1800), art. 1.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 85 (OCR l. 4774)",
+     "cita_original": "Le 27 janvier 1801 (7 pluviôse), il entra à Sto.-Domingo",
+     "traduccion": "El 27 de enero de 1801 (7 pluvioso) entró en Santo Domingo [mientras se bajaba la bandera española y se izaba la francesa].",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 86 (OCR l. 4823)",
+     "cita_original": "Toussaint réunit sur la grande place de la ville toute la population, et proclama la liberté générale des esclaves.",
+     "traduccion": "Toussaint reunió en la plaza mayor a toda la población y proclamó la libertad general de los esclavos.",
+     "afirmaciones": [
+      "A-068",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 86 (OCR l. 4824)",
+     "cita_original": "Les noirs de l'Est devenus libres virent dans Toussaint un Dieu libérateur.",
+     "traduccion": "Los negros del Este, ya libres, vieron en Toussaint a un Dios libertador. Pero los dones españoles sintieron una fuerte indignación que tuvieron que contener.",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 88 (OCR l. 4913)",
+     "cita_original": "Toussaint ne permettant que difficilement qu'on fit de nouveaux établissements ruraux, se résolut à réunir les cultivateurs sur les grandes habitations.",
+     "traduccion": "Toussaint, que apenas permitía nuevos establecimientos rurales, resolvió reunir a los cultivadores en las grandes haciendas (arrêté del 7-II-1801: ninguna venta de tierra sin autorización municipal y al menos 50 carreaux).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 86-87 (OCR l. 4852)",
+     "cita_original": "Jusqu'aujourd'hui les habitans de la partie de l'Est qui maudissent les noms de Dessalines et de Christophe, parlent de Toussaint Louverture sans animosité.",
+     "traduccion": "Hasta hoy los habitantes de la parte del Este, que maldicen los nombres de Dessalines y de Christophe, hablan de Toussaint Louverture sin animosidad (Madiou, 1847).",
+     "afirmaciones": [
+      "A-068",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 429 (OCR l. 28969); cabecera OCR «423» corregida por la secuencia 429-432 de las páginas siguientes",
+     "cita_original": "Personne n'ignore, en Haïti, qu'en Mai 1803, quand Dessalines pénétra dans la plaine du Cul-de-Sac, les troupes indigènes portaient le drapeau bicolore qui dès Février avait été adopté.",
+     "traduccion": "Nadie ignora en Haití que en mayo de 1803, cuando Dessalines entró en la llanura del Cul-de-Sac, las tropas indígenas llevaban la bandera bicolor adoptada desde febrero.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. II (1847), p. 356 (OCR l. 21739); página deducida (cabecera ilegible entre 356 y 358); capítulo sobre Leclerc, 1802",
+     "cita_original": "ils connaissent le décret du 30 Floréal qui maintient l'esclavage et la traite dans les colonies restituées à la France, en exécution du traité d'Amiens",
+     "traduccion": "conocen el decreto del 30 floreal que mantiene la esclavitud y la trata en las colonias restituidas a Francia en ejecución del tratado de Amiens (carta de Christophe citada por Madiou, 1802; el sumario del capítulo habla de «Loi du 20 mai 1802, qui rétablit l'esclavage»).",
+     "afirmaciones": [
+      "A-082"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-070",
+    "A-080",
+    "A-082",
+    "A-084"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Madiou da la entrada de Toussaint como «27 janvier 1801 (7 pluviôse)» y la proclamación de la libertad general en la plaza de la ciudad, pero no transcribe el texto de esa proclama; el alcance legal exacto de la abolición en el este sigue [POR VERIFICAR] en primaria. Madiou añade (p. 87) que la mayoría de la población del Este era «de couleur» (la fracción es ilegible en el OCR) [POR VERIFICAR]. Páginas deducidas de cabeceras del OCR. Registro F-0106 corresponde a la obra completa; este tomo se entrega como ficha aparte (como hizo la ronda M08 con el Recueil)."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. I (1492-1799; Port-au-Prince, Imprimerie de J. Courtois, 1847)",
+   "autor": "Madiou, Thomas",
+   "anio": "1847",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti01madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti01madi/histoiredhaiti01madi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Narración haitiana de 1847 que reproduce discursos y actas de 1793-1795 con aparato mínimo; útil como testimonio de cómo la historiografía haitiana fundacional cuenta la emancipación, no como edición crítica de los decretos.",
+   "proveniencia": "Thomas Madiou, Puerto Príncipe, 1847; el tomo I cubre desde 1492 hasta 1799 y relata el 29 de agosto de 1793 (Sonthonax), la sesión de la Convención del 16 pluvioso año II y la recepción del tratado de Basilea en el Cabo (4-X-1795). Escribe desde la perspectiva de la nación haitiana naciente y remite al final del volumen el texto del acto del 29-VIII-1793.",
+   "extractos": [
+    {
+     "ubicacion": "t. I (1847), p. 25-26 (OCR l. 17197)",
+     "cita_original": "Par le traité de Bâle, conclu entre cette dernière puissance et la France, le 22 Juillet 1795, la partie espagnole de Saint-Domingue fut cédée à la République.",
+     "traduccion": "Por el tratado de Basilea, concluido entre España y Francia el 22 de julio de 1795, la parte española de Saint-Domingue fue cedida a la República.",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "t. I (1847), p. 145 (OCR l. 10695)",
+     "cita_original": "Tous les nègres et sangs-mêlés actuellement dans l'esclavage sont déclarés libres pour jouir des droits attachés à la qualité de citoyens français.",
+     "traduccion": "Todos los negros y sangre-mezclada actualmente en la esclavitud quedan declarados libres para gozar de los derechos de la cualidad de ciudadanos franceses (Sonthonax, 29-VIII-1793, en el altar de la patria del Cabo, según Madiou).",
+     "afirmaciones": [
+      "A-082"
+     ]
+    },
+    {
+     "ubicacion": "t. I (1847), p. 173 (OCR l. 12960)",
+     "cita_original": "que l'esclavage est aboli sur tout le territoire de la République",
+     "traduccion": "que la esclavitud queda abolida en todo el territorio de la República [moción de Levasseur de la Sarthe en la Convención, sesión del 16 pluvioso año II = 4-II-1794, que Madiou reconstruye con el Moniteur].",
+     "afirmaciones": [
+      "A-082"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-082"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "El texto íntegro del acto de Sonthonax del 29-VIII-1793 va al final del volumen (no leído). Dato a vigilar: la introducción del MJP a la Constitución de 1801 escribe «19 août 1793» (error evidente frente al 29-VIII). Páginas deducidas de cabeceras OCR; la cita del Moniteur dentro de Madiou es de segunda mano."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. IV (cap. V, 1800: prise de possession de la partie espagnole)",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1853",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi04ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi04ardo/etudessurlhistoi04ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano mulato, ministro y diputado, con acceso a archivos y testigos; reproduce documentos íntegros pero escribe con la tesis mulatrista de Pétion y contra Christophe y Dessalines.",
+   "proveniencia": "Beaubrun Ardouin, ex ministro de Haití ante el gobierno francés y ex secretario de Estado de Justicia, Instrucción Pública y Cultos (portada) [dato de memoria, POR VERIFICAR: mulato, 1796-1865], publica en París 11 tomos (1853-1860; Dezobry y E. Magdeleine para los primeros, el t. VII «chez l'auteur», rue Vanneau 40) como réplica «mulatrista» a Madiou; recoge testimonios orales («j'ai souvent entendu parler», «des citoyens de Santo-Domingo m'ont dit»), consultó informes del ministerio francés de Marina (nota del t. VI, p. 136) y cita con frecuencia el «Journal de la campagne» y los actos oficiales. Escribe para el público haitiano y francés, con interés en rehabilitar a la élite de color y en justificar la unificación de 1822. El tomo IV cubre 1799-1801.",
+   "extractos": [
+    {
+     "ubicacion": "t. IV, p. 168 (OCR l. 7176)",
+     "cita_original": "cette partie étant cédée à la France depuis 1795, et le gouvernement français en ayant ajourné la prise de possession pour l'effectuer par des troupes européennes",
+     "traduccion": "esa parte, cedida a Francia desde 1795, y habiendo aplazado el gobierno francés la toma de posesión para efectuarla con tropas europeas [Toussaint, desde que fue general en jefe, aspiraba a extender allí su dominio].",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 168 (OCR l. 7202)",
+     "cita_original": "Prévenir un tel résultat, fut, selon nos appréciations, son unique but.",
+     "traduccion": "Prevenir ese resultado [tropas blancas europeas en la parte española] fue, según nuestra apreciación, su único objetivo (Ardouin sobre los motivos de Toussaint en 1800-1801; discrepa de Madiou, que alega aumentar recursos y la trata de negros).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 166 (OCR l. 7063)",
+     "cita_original": "ce trafic infâme se faisait dans la partie du Nord, et non dans l'Ouest qui avoisine aussi la partie espagnole",
+     "traduccion": "ese tráfico infame se hacía en la parte del Norte y no en el Oeste, que también linda con la parte española [Ardouin lo atribuye a la práctica de Jean-François y Biassou].",
+     "afirmaciones": [
+      "A-068"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Ardouin examina los motivos de la toma de posesión (pp. 164-169): la trata de negros del Norte hacia el Este (tesis de Roume y Toussaint), el motivo de recursos (Madiou) y su propia tesis preventiva. Portada del t. IV: París, Dezobry y E. Magdeleine, 1853."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. V (cap. XI-XIII, 1802-1803)",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1854",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi05ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi05ardo/etudessurlhistoi05ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano mulato, ministro y diputado, con acceso a archivos y testigos; reproduce documentos íntegros pero escribe con la tesis mulatrista de Pétion y contra Christophe y Dessalines.",
+   "proveniencia": "Beaubrun Ardouin, ex ministro de Haití ante el gobierno francés y ex secretario de Estado de Justicia, Instrucción Pública y Cultos (portada) [dato de memoria, POR VERIFICAR: mulato, 1796-1865], publica en París 11 tomos (1853-1860; Dezobry y E. Magdeleine para los primeros, el t. VII «chez l'auteur», rue Vanneau 40) como réplica «mulatrista» a Madiou; recoge testimonios orales («j'ai souvent entendu parler», «des citoyens de Santo-Domingo m'ont dit»), consultó informes del ministerio francés de Marina (nota del t. VI, p. 136) y cita con frecuencia el «Journal de la campagne» y los actos oficiales. Escribe para el público haitiano y francés, con interés en rehabilitar a la élite de color y en justificar la unificación de 1822. El tomo V cubre 1802-1803.",
+   "extractos": [
+    {
+     "ubicacion": "t. V, p. 387 (OCR l. 16368)",
+     "cita_original": "Pétion sentit la nécessité urgente de l'adoption d'un drapeau qui fût un signe de ralliement pour les indigènes, et distinct de celui des Français",
+     "traduccion": "Pétion sintió la necesidad urgente de adoptar una bandera que fuera señal de unión para los indígenas y distinta de la de los franceses (febrero de 1803).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 387-388 (OCR l. 16375)",
+     "cita_original": "le drapeau indigène devint bicolore, bleu et rouge",
+     "traduccion": "la bandera indígena se hizo bicolor, azul y roja, y los colores quedaron en vertical como en la bandera francesa.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 388 (OCR l. 16391)",
+     "cita_original": "nous avons vu un procès-verbal dressé le 29 floréal an XI (19 mai), dans la rade du Port-au-Prince, par l'amiral Latouche Tréville",
+     "traduccion": "hemos visto un acta levantada el 29 floreal año XI (19 de mayo) en la rada de Puerto Príncipe por el almirante Latouche Tréville [sobre una barca indígena capturada al salir de Arcahaie, con una bandera indígena y el lema «Liberté ou la mort»].",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 404 (OCR l. 17057)",
+     "cita_original": "L'autorité suprême de Dessalines fut solennellement reconnue par tous ces hommes",
+     "traduccion": "La autoridad suprema de Dessalines fue solemnemente reconocida por todos esos hombres [Cangé, Lamarre, Mimi Baude, Marion, etc., reunidos en Arcahaie en mayo de 1803; Ardouin no da el día 18].",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "t. V, p. 467 (OCR l. 19709)",
+     "cita_original": "Ce territoire ne peut plus être considéré comme espagnol, puisqu'il a été cédé à la France par le traité de Bâle, et qu'aucun autre traité postérieur n'a abrogé cette cession faite par le roi d'Espagne.",
+     "traduccion": "Este territorio ya no puede considerarse español, puesto que fue cedido a Francia por el tratado de Basilea y ningún tratado posterior ha abrogado esa cesión hecha por el rey de España (carta de Jacques Boyé a Dessalines, 28 brumario año XII).",
+     "afirmaciones": [
+      "A-067",
+      "A-079"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-070",
+    "A-079"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "El 18 de mayo no aparece en el texto de Ardouin como fecha de una «creación» de la bandera: él da febrero de 1803 para la decisión (a partir de un impreso de Puerto Príncipe que le envió Pétion) y el 19 de mayo (acta de Latouche Tréville) como terminus ante quem de una bandera indígena material; sitúa el encuentro de Arcahaie en mayo sin día. Las páginas del OCR (cabeceras «ÉTUDES SUR L'HISTOIRE D'HAÏTI») pueden estar desfasadas ±1."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. VI (cap. I-IV, 1804-1805)",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1856",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi06ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi06ardo/etudessurlhistoi06ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano mulato, ministro y diputado, con acceso a archivos y testigos; reproduce documentos íntegros pero escribe con la tesis mulatrista de Pétion y contra Christophe y Dessalines.",
+   "proveniencia": "Beaubrun Ardouin, ex ministro de Haití ante el gobierno francés y ex secretario de Estado de Justicia, Instrucción Pública y Cultos (portada) [dato de memoria, POR VERIFICAR: mulato, 1796-1865], publica en París 11 tomos (1853-1860; Dezobry y E. Magdeleine para los primeros, el t. VII «chez l'auteur», rue Vanneau 40) como réplica «mulatrista» a Madiou; recoge testimonios orales («j'ai souvent entendu parler», «des citoyens de Santo-Domingo m'ont dit»), consultó informes del ministerio francés de Marina (nota del t. VI, p. 136) y cita con frecuencia el «Journal de la campagne» y los actos oficiales. Escribe para el público haitiano y francés, con interés en rehabilitar a la élite de color y en justificar la unificación de 1822. El tomo VI cubre 1804-1805; incluye la constitución de 1805.",
+   "extractos": [
+    {
+     "ubicacion": "t. VI, p. 64 (OCR l. 2813)",
+     "cita_original": "il ordonna celui des femmes et de leurs enfans",
+     "traduccion": "[a mediados de abril] ordenó [la matanza] de las mujeres y de sus hijos, una vez ejecutada la de los hombres en todos los puntos.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 66-67 (OCR l. 2929)",
+     "cita_original": "Oui, j'ai sauvé mon pays, j'ai vengé l'Amérique. Mon orgueil et ma gloire sont dans l'aveu que j'en fais à la face des mortels et des dieux.",
+     "traduccion": "Sí, he salvado mi país, he vengado a América. Mi orgullo y mi gloria están en la confesión que de ello hago ante los mortales y los dioses (proclama «Aux habitans d'Haïti», Cap, 28-IV-1804, redactada por Juste Chanlatte según Ardouin).",
+     "afirmaciones": [
+      "A-071",
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 68 (OCR l. 2992)",
+     "cita_original": "tremblez, tyrans, usurpateurs, fléaux du Nouveau-Monde ; nos poignards sont aiguisés, vos supplices sont prêts",
+     "traduccion": "temblad, tiranos, usurpadores, azotes del Nuevo Mundo; nuestros puñales están afilados, vuestros suplicios están listos (la proclama se dirige también a «Infortunés Martiniquais» y a las potencias europeas).",
+     "afirmaciones": [
+      "A-073",
+      "A-071"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 69 (OCR l. 3067)",
+     "cita_original": "il fallait nécessairement que la race blanche disparût du sol où elle avait commis tant de crimes ; mais son expulsion eût été suffisante.",
+     "traduccion": "era necesario que la raza blanca desapareciera del suelo donde había cometido tantos crímenes; pero su expulsión habría bastado (juicio de Ardouin sobre las proclamas del 1-I y del 28-IV-1804).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 122 (OCR l. 5308); Ardouin fecha «16 nivôse an XII», pero 16 nivôse an XIII = 6-I-1805; OCR o errata",
+     "cita_original": "faire prisonniers tous ceux des deux sexes qui ne passeront pas l'âge de quatorze ans",
+     "traduccion": "hacer prisioneros a todos los de ambos sexos que no pasen de catorce años (art. 1 del arrêté de Ferrand, 16 nivoso año XII [sic; año XIII] = 6-I-1805, transcrito por Ardouin).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 121 (OCR l. 5278)",
+     "cita_original": "Considérant que ce recrutement journalier doit naturellement tomber sur les noirs et gens de couleur au-dessous de quatorze ans",
+     "traduccion": "Considerando que este reclutamiento cotidiano recaerá naturalmente sobre los negros y gentes de color menores de catorce años [considerando del arrêté de Ferrand].",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 122 (OCR l. 5339)",
+     "cita_original": "Et que feraient-ils de ceux qui passeraient cet âge ? Les immoler, c'est sous-entendu, afin de diminuer cette population.",
+     "traduccion": "¿Y qué harían con los que pasaran esa edad? Inmolarlos, se sobreentiende, para disminuir esa población (nota de Ardouin al art. 1).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 123 (OCR l. 5346)",
+     "cita_original": "Cet acte était une conséquence du rétablissement de l'esclavage dans les possessions françaises et de la traite des noirs",
+     "traduccion": "Ese acto era consecuencia del restablecimiento de la esclavitud en las posesiones francesas y de la trata de negros.",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 153 (OCR l. 5765)",
+     "cita_original": "Christophe fit tuer non-seulement les prisonniers, mais tous les blessés : il fit pendre une douzaine d'habitans parmi les plus notables de cette ville",
+     "traduccion": "Christophe hizo matar no solo a los prisioneros sino a todos los heridos; hizo ahorcar a una docena de habitantes de los más notables de esa ciudad [Santiago], que se habían refugiado en la iglesia.",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 137-138 (OCR l. 5946)",
+     "cita_original": "Dès le 25, l'empereur avait fait enjoindre aux commandans des bourgs sur la route, de rassembler tous les habitans et de les constituer prisonniers",
+     "traduccion": "Desde el 25 [de marzo] el emperador había hecho ordenar a los comandantes de los poblados del camino que reunieran a todos los habitantes y los constituyeran prisioneros [para empujarlos hacia la parte haitiana al primer aviso].",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 138 (OCR l. 6009)",
+     "cita_original": "En effet, c'étaient de glorieux trophées, que ces hommes, ces vieillards, ces femmes, ces pauvres enfans, confondus avec les bestiaux et les animaux, et poussés dans la partie haïtienne !",
+     "traduccion": "En efecto, ¡hermosos trofeos eran esos hombres, esos ancianos, esas mujeres, esos pobres niños, confundidos con el ganado y los animales y empujados hacia la parte haitiana! (ironía de Ardouin sobre el «Journal de la campagne»).",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 139 (OCR l. 6034)",
+     "cita_original": "plus d'une victime humaine périt sur la route, par une marche rapide qui épuisait leurs forces ; c'est qu'on en massacra plusieurs",
+     "traduccion": "más de una víctima humana pereció en el camino por una marcha rápida que agotaba sus fuerzas; y se masacró a varias [sobre todo en la división Gabart; Pétion, Geffrard y Magloire Ambroise «diminuèrent ces horreurs»].",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 139 (OCR l. 6041)",
+     "cita_original": "Dans la retraite de la division du Nord, ce fut bien autre chose ! H. Christophe la commandait, c'est tout dire.",
+     "traduccion": "En la retirada de la división del Norte fue mucho peor. Mandaba H. Christophe, es decir, todo [incendió más, hizo más víctimas, más prisioneros y saqueó mucho más].",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 139-140 (OCR l. 6069)",
+     "cita_original": "n'envisagea plus, dès lors, ses voisins, que comme des barbares qui devaient lui rester étrangers",
+     "traduccion": "[la población del Este] no consideró ya, desde entonces, a sus vecinos sino como bárbaros que debían seguirle siendo extranjeros (consecuencia de 1805 según Ardouin).",
+     "afirmaciones": [
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 142 (OCR l. 6196)",
+     "cita_original": "Puisque l'empereur considérait l'ancienne colonie espagnole comme une portion intégrante de ses Etats, son secrétaire eut tort de qualifier ses habitans d'Espagnols ; il aurait dû les considérer comme Haïtiens",
+     "traduccion": "Puesto que el emperador consideraba la antigua colonia española como una porción integrante de sus Estados, su secretario erró al calificar a sus habitantes de españoles; debió considerarlos haitianos, por el nombre primitivo de la isla que le había sido restituido.",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 143 (OCR l. 6221)",
+     "cita_original": "L'occupation de cette partie par le général Ferrand ne devait être envisagée que comme un accident provisoire qui disparaîtrait tôt ou tard.",
+     "traduccion": "La ocupación de esa parte por el general Ferrand solo debía verse como un accidente provisional que tarde o temprano desaparecería; por eso todas las constituciones sucesivas, hasta después de la retrocesión del Este a España en 1814, incluyeron toda la isla como Estado de Haití.",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-069",
+    "A-071",
+    "A-072",
+    "A-073",
+    "A-074",
+    "A-076",
+    "A-077",
+    "A-079",
+    "A-080",
+    "A-083",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0107",
+   "notas": "Ardouin transcribe íntegros la proclama del 28-IV-1804 (pp. 66-69) y el arrêté de Ferrand (pp. 121-123); el texto de la proclama no contiene las palabras «Indien» ni «Anacaona» (búsqueda en el OCR de las pp. 66-70) y su encabezado es «Aux habitans d'Haïti». Ardouin cita el Journal de la campagne (Recueil, t. I) con fórmulas como «réduisirent en cendres les bourgs, les villages, les hattes et les villes». Su condena de Christophe es la más dura de las dos fuentes decimonónicas; es posible que su sesgo mulatrista incremente la responsabilidad atribuida a Christophe, por lo que se contrasta con Madiou (que también lo nombra)."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. VII (cap. XI-XII, 1808-1809 y 1810-1814)",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "s.f. (c. 1856-1857) [POR VERIFICAR el año; portada «chez l'auteur»]",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi07ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi07ardo/etudessurlhistoi07ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano mulato, ministro y diputado, con acceso a archivos y testigos; reproduce documentos íntegros pero escribe con la tesis mulatrista de Pétion y contra Christophe y Dessalines.",
+   "proveniencia": "Beaubrun Ardouin, ex ministro de Haití ante el gobierno francés y ex secretario de Estado de Justicia, Instrucción Pública y Cultos (portada) [dato de memoria, POR VERIFICAR: mulato, 1796-1865], publica en París 11 tomos (1853-1860; Dezobry y E. Magdeleine para los primeros, el t. VII «chez l'auteur», rue Vanneau 40) como réplica «mulatrista» a Madiou; recoge testimonios orales («j'ai souvent entendu parler», «des citoyens de Santo-Domingo m'ont dit»), consultó informes del ministerio francés de Marina (nota del t. VI, p. 136) y cita con frecuencia el «Journal de la campagne» y los actos oficiales. Escribe para el público haitiano y francés, con interés en rehabilitar a la élite de color y en justificar la unificación de 1822. El tomo VII cubre 1806-1814.",
+   "extractos": [
+    {
+     "ubicacion": "t. VII, p. 240 (OCR l. 10250)",
+     "cita_original": "l'art. 9 du traité avait stipulé, pour les habitans, la faculté de se retirer avec leurs biens sur d'autres domaines de la couronne d'Espagne",
+     "traduccion": "el art. 9 del tratado había estipulado, para los habitantes, la facultad de retirarse con sus bienes a otros dominios de la corona de España; muchos abandonaron la colonia entonces, rumbo a Cuba, Puerto Rico o Costa Firme, para no ser considerados franceses.",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 240 (OCR l. 10264)",
+     "cita_original": "Quand, en 1801, Toussaint Louverture effectua, de son chef, la prise de possession de ce territoire au nom de la France, ce fut encore pis : une émigration considérable d'habitans eut lieu",
+     "traduccion": "Cuando en 1801 Toussaint Louverture efectuó por su cuenta la toma de posesión de ese territorio en nombre de Francia, fue aún peor: hubo una emigración considerable de habitantes, pues conocían al hombre y repugnaba aún más vivir bajo el yugo de los negros.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 240 (OCR l. 10283)",
+     "cita_original": "il ne devait plus y avoir des esclaves ; mais l'état antérieur des choses s'y maintint",
+     "traduccion": "no debía haber más esclavos [en el territorio cedido, por el decreto de la Convención]; pero se mantuvo el estado anterior de las cosas (nota de Ardouin sobre el Este tras Basilea).",
+     "afirmaciones": [
+      "A-067",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 241 (OCR l. 10312)",
+     "cita_original": "quoiqu'il perpétuât l'esclavage, et fût réellement un administrateur intelligent",
+     "traduccion": "aunque perpetuó la esclavitud, fue realmente un administrador inteligente [Ferrand, que gobernó el Este por el miedo que inspiraba Dessalines].",
+     "afirmaciones": [
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 241 (OCR l. 10295)",
+     "cita_original": "on aida le général Ferrand à lui résister, en 1805, non par sentiment d'attachement à la France, mais par choix entre deux dominations également abhorrées",
+     "traduccion": "se ayudó al general Ferrand a resistirle [a Dessalines] en 1805, no por apego a Francia sino por elegir entre dos dominaciones igualmente aborrecidas.",
+     "afirmaciones": [
+      "A-079",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 250 (OCR l. 10684)",
+     "cita_original": "Des 500 hommes sortis de Santo-Domingo, 40 seulement y rentrèrent",
+     "traduccion": "De los 500 hombres salidos de Santo Domingo solo 40 regresaron; Ferrand se disparó un pistoletazo hacia las 6 de la tarde del 7 de noviembre de 1808 tras la derrota de Palo Hincado; los vencedores le cortaron la cabeza.",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 253 (OCR l. 10781)",
+     "cita_original": "Cyriaco Ramirès inclinait à s'allier avec la République d'Haïti, et Juan Sanches avec l'État du Nord",
+     "traduccion": "Cyriaco Ramírez se inclinaba a aliarse con la República de Haití y Juan Sánchez con el Estado del Norte (por los socorros de armas y municiones recibidos de Pétion y de Christophe).",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 256 (OCR l. 10918)",
+     "cita_original": "il fallait donc que cette partie d'Haïti se replaçât sous la domination espagnole",
+     "traduccion": "era pues necesario que esa parte de Haití volviera a quedar bajo dominación española, pues la guerra civil entre Christophe y Pétion les impedía cumplir el voto emitido el 1-I-1804; «mejor volviera a España hasta tiempos más felices».",
+     "afirmaciones": [
+      "A-081",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 297 (OCR l. 12707)",
+     "cita_original": "le général Barquier réunit les officiers supérieurs et les chefs de service en conseil de guerre, qui résolut de capituler, non avec les indigènes et Juan Sanches, mais avec les Anglais",
+     "traduccion": "el general Barquier reunió a los oficiales superiores y jefes de servicio en consejo de guerra, que resolvió capitular, no con los indígenas y Juan Sánchez sino con los ingleses [30-VI-1809; ratificada el 7 de julio; entrega de la plaza el 11 de julio].",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 405 (OCR l. 17288)",
+     "cita_original": "Christophe offrait encore (selon l'opinion commune dans l'Est), d'obtenir des Anglais, qu'ils y introduisissent des milliers d'Africains pour cultiver leurs terres",
+     "traduccion": "Christophe ofrecía además (según la opinión común en el Este) obtener de los ingleses que introdujeran allí millares de africanos para cultivar sus tierras, por la coacción o la esclavitud disfrazada (nota: Ardouin duda de la veracidad de la oferta).",
+     "afirmaciones": [
+      "A-084"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-079",
+    "A-080",
+    "A-081",
+    "A-084"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Ardouin da el combate de Palo Hincado el 7-XI-1808 (coincide con el dato de la nota de Linstant en el Recueil, t. I) y el asedio como «huit mois consécutifs» (vs. «nueve meses» en A-081). Interpreta 1808-1809 desde la doctrina de la isla única y reconoce que el voto de 1804 no pudo cumplirse por la guerra civil haitiana: es una lectura haitiana que presenta la «Reconquista» como alzamiento de «indigènes» contra Francia con auxilio inglés y puertorriqueño, y aporta que Pétion y Christophe armaron a los insurrectos. [POR VERIFICAR] el nombre exacto del Journal citado y las cifras (500 salidos, 40 regresados)."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, depuis la proclamation de son indépendance jusqu'à nos jours, t. I (1804-1808): proclamas de Dessalines (28-IV-1804, 8-V-1804, 12-IV-1805), arrêté de Ferrand y Journal de la campagne de Santo-Domingo",
+   "autor": "Linstant, S. (Linstant Pradine, ed.); actos de Dessalines, Ferrand y el estado mayor haitiano (Bazelais, Chanlatte)",
+   "anio": "1851",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral07hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral07hait/recueilgnral07hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial impresa en 1851 de actos publicados por el propio Estado haitiano en 1804-1805 (con el arrêté de Ferrand anejo), confirmada por las versiones de Madiou y Ardouin; las notas del editor son de 1851 y se separan del texto.",
+   "proveniencia": "S. Linstant (Linstant Pradine), abogado en la Corte imperial de Puerto Príncipe, miembro de la Cámara de representantes y antiguo secretario general del ministerio de Justicia, Instrucción Pública y Cultos (portada de 1851; la edición ampliada de 1860 lo presenta como encargado de negocios en Londres y París), publica en París (Auguste Durand, 1851) el tomo I (1804-1808) del Recueil, con la numeración de cada acto. Reproduce proclamas escritas por los secretarios de Dessalines (Boisrond-Tonnerre, Juste Chanlatte) y el «Journal de la campagne de Santo-Domingo», firmado por el jefe de estado mayor Bazelais el 12-IV-1805 y mandado imprimir por el Emperador, es decir, el relato oficial de la campaña por la propia Haití. Sesgo: documentos de parte, con retórica de venganza; las notas del editor son lectura haitiana de 1851 (p. ej. sobre la muerte de Ferrand en Palo Hincado).",
+   "extractos": [
+    {
+     "ubicacion": "Recueil t. I (1851), p. 22 (OCR l. 3990); n.º 13",
+     "cita_original": "Oui, j'ai sauvé mon pays, j'ai vengé l'Amérique.",
+     "traduccion": "Sí, he salvado mi país, he vengado a América (n.º 13, «Proclamation relative au massacre des Français», Cuartel general del Cabo, 28-IV-1804).",
+     "afirmaciones": [
+      "A-071",
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 21 (OCR l. 3946); n.º 13",
+     "cita_original": "Proclamation relative au massacre des Français. Quartier général du Cap, le 28 avril 1804, an Ier. J.-Jacques Dessalines, gouverneur général, aux habitants d'Haïti.",
+     "traduccion": "Proclama relativa a la matanza de los franceses. Cuartel general del Cabo, 28 de abril de 1804, año I. J.-Jacques Dessalines, gobernador general, a los habitantes de Haití (encabezado y destinatario; el título «relative au massacre» lo pone el editor Linstant en 1851).",
+     "afirmaciones": [
+      "A-071",
+      "A-073",
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 28 (OCR l. 4282); n.º 15",
+     "cita_original": "j'ai jusqu'ici retenu l'ardeur bouillante de mes soldats",
+     "traduccion": "hasta ahora he contenido el ardor ardiente de mis soldados (Dessalines, «aux habitants de la partie espagnole», Cabo, 8-V-1804, n.º 15).",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 29 (OCR l. 4333); n.º 15",
+     "cita_original": "Qu'ils sachent que mes soldats, impatients, n'attendent qu'un signal pour aller reconquérir les limites que la nature et les éléments nous ont assignées",
+     "traduccion": "Que sepan que mis soldados, impacientes, solo esperan una señal para ir a reconquistar los límites que la naturaleza y los elementos nos han asignado (8-V-1804).",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 29 (OCR l. 4356); n.º 15",
+     "cita_original": "si vous saisissez cette occasion de vous montrer dignes d'être admis au nombre des enfants d'Haïti",
+     "traduccion": "si aprovecháis esta ocasión de mostraros dignos de ser admitidos entre los hijos de Haití (promesa de no atentar contra su seguridad; plazo de quince días para unirse a sus estandartes).",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 36 (OCR l. 4731); n.º 22",
+     "cita_original": "Décidé à ne reconnaître pour limites que celles tracées par la nature et par les mers",
+     "traduccion": "Decidido a no reconocer más límites que los trazados por la naturaleza y por los mares (Adresse de l'Empereur au peuple, Laville, 12-IV-1805, n.º 22).",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 36 (OCR l. 4739); n.º 22",
+     "cita_original": "je résolus d'aller me ressaisir de la portion intégrante de mes États et d'y effacer jusqu'aux derniers vestiges de l'idole européenne",
+     "traduccion": "resolví ir a recuperar la porción integrante de mis Estados y borrar en ella hasta los últimos vestigios del ídolo europeo (tras ser «provoqué par un décret lancé par Ferrand» del 16 nivoso [año XIII] = 6-I-1805).",
+     "afirmaciones": [
+      "A-079",
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 36 (OCR l. 4745); n.º 22; los «malheureux Indiens» de Dessalines son los taínos de la isla, no «América»",
+     "cita_original": "les indigènes espagnols, ces descendants des malheureux Indiens immolés à la cupidité et à l'avarice des premiers usurpateurs de cette île",
+     "traduccion": "los indígenas españoles, esos descendientes de los desdichados indios inmolados a la codicia y a la avaricia de los primeros usurpadores de esta isla [era natural presumir que aprovecharían la ocasión de sacrificar a los manes de sus antepasados; pero, «avilis et dégradés», se aliaron con los franceses].",
+     "afirmaciones": [
+      "A-072",
+      "A-073",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 37 (OCR l. 4763); n.º 22",
+     "cita_original": "tout Espagnol pris les armes à la main vit donc couler son sang dans celui de ces étrangers perfides",
+     "traduccion": "todo español capturado con las armas en la mano vio correr su sangre en la de esos extranjeros pérfidos.",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 37 (OCR l. 4818); n.º 22",
+     "cita_original": "la ville de Santo-Domingo, seul endroit qui survive aux désastres de la dévastation que j'ai propagée au loin dans la partie ci-devant espagnole",
+     "traduccion": "la ciudad de Santo Domingo, único lugar que sobrevive a los desastres de la devastación que he propagado a lo lejos en la parte ex española.",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 37 (OCR l. 4825); n.º 22",
+     "cita_original": "le reste des habitants et des animaux, enlevé et conduit dans notre patrie",
+     "traduccion": "el resto de los habitantes y de los animales, arrebatado y conducido a nuestra patria [«point de campagnes, point de cités»].",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 39 (OCR l. 4892); Arrêté de Ferrand, anejo al n.º 22",
+     "cita_original": "faire prisonniers tous ceux des deux sexes qui ne passeront pas l'âge de quatorze ans",
+     "traduccion": "hacer prisioneros a todos los de ambos sexos que no pasen de catorce años (art. 1 del arrêté de Ferrand del 16 nivoso año XIII = 6-I-1805, reproducido íntegro tras el n.º 22; los arts. 3-5 fijan: menores de 10 años se quedan en la colonia, de 10-14 [varones] y 12-14 [niñas] se venden para exportar).",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 41 (OCR l. 5000); Journal de la campagne de Santo-Domingo, firmado Bazelais, 12-IV-1805",
+     "cita_original": "L'Empereur, à la tête de son état-major général, entra en campagne",
+     "traduccion": "El Emperador, a la cabeza de su estado mayor general, entró en campaña [el OCR lee «le 1 G fé-mer 1805»: 16 de febrero de 1805; Péan escribe «6 février»].",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 45 (OCR l. 5296); Journal de la campagne",
+     "cita_original": "S. M. fit passer l'ordre aux commandants des diverses communes conquises, de rassembler tous les habitants et de les constituer prisonniers",
+     "traduccion": "S. M. hizo pasar la orden a los comandantes de las diversas comunas conquistadas de reunir a todos los habitantes y constituirlos prisioneros [25 de marzo de 1805].",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 47 (OCR l. 5330); Journal de la campagne",
+     "cita_original": "le sac de la ville de Santo-Domingo manquait seul à l'accomplissement de ses projets",
+     "traduccion": "el saqueo de la ciudad de Santo Domingo era lo único que faltaba al cumplimiento de sus proyectos [razón por la que, según el Journal oficial, el objetivo de la expedición estaba «plus qu'à moitié rempli» al levantarse el sitio].",
+     "afirmaciones": [
+      "A-075",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 47 (OCR l. 5344); Journal de la campagne; es el testimonio oficial haitiano contemporáneo de la retirada",
+     "cita_original": "réduisirent en cendres les bourgs, les villages, les hattes et les villes, portèrent partout la dévastation, le fer et la flamme, et n'épargnèrent que les individus destinés par S. M. à être amenés prisonniers",
+     "traduccion": "redujeron a cenizas los poblados, las aldeas, los hatos y las ciudades, llevaron por todas partes la devastación, el hierro y la llama, y no perdonaron sino a los individuos que S. M. destinó a ser traídos prisioneros.",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 28 (OCR l. 4311); nota 2 al n.º 15",
+     "cita_original": "Il se brûla la cervelle plutôt que de survivre à sa défaite à Palo-Hincado, le 7 novembre 1808.",
+     "traduccion": "Se levantó la tapa de los sesos antes que sobrevivir a su derrota en Palo Hincado, el 7 de noviembre de 1808 (nota de Linstant a la proclama del 8-V-1804, a propósito de Ferrand).",
+     "afirmaciones": [
+      "A-081"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-071",
+    "A-072",
+    "A-073",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-079",
+    "A-080",
+    "A-081",
+    "A-083",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0030",
+   "notas": "Resuelve F-0030 (Proclamas de Dessalines de la campaña del Este): no vía Rodríguez Demorizi sino en el Recueil de Linstant, que reproduce el n.º 15 (8-V-1804, «aux habitants de la partie espagnole») y el n.º 22 (adresse del 12-IV-1805). No se hallaron en el Recueil proclamas dirigidas al Este durante la campaña misma (feb.-mar. 1805), salvo la orden del 25-III-1805 que recoge el Journal. Las páginas se leyeron en las cabeceras «( NN )»; el OCR fecha el arrêté «an III» (leer XIII). El Journal dice que el sitio se levantó la noche del 28-III y menciona un refuerzo estimado en 4.000 hombres (Madiou y Ardouin disputan la cifra: 500 desembarcados). Esta ficha complementa F-0065 (que figura como «internacional»: el Recueil es haitiano oficial)."
+  },
+  {
+   "titulo": "Constituciones haitianas del 20 de mayo de 1805 (Dessalines) y del 27 de diciembre de 1806 (Asamblea constituyente; Pétion), textos de la Digithèque MJP y del Recueil de Linstant t. I (n.º 23 y n.º 46)",
+   "autor": "Dessalines, Jean-Jacques y generales del ejército haitiano (1805); Asamblea constituyente de Puerto Príncipe (1806)",
+   "anio": "1805; 1806",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1806.htm",
+   "urls_alternativas": [
+    "https://mjp.univ-perp.fr/constit/ht1805.htm",
+    "https://archive.org/details/recueilgnral07hait",
+    "https://haitidoi.com/constitutions/1805-2/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Textos constitucionales íntegros publicados por el Estado haitiano y recogidos por Janvier (1886) y Linstant (1851), cotejados en dos ediciones independientes (MJP y Recueil).",
+   "proveniencia": "La Constitución imperial de 1805 fue redactada en Marchand por los secretarios de Dessalines (Boisrond-Tonnerre, Chanlatte) y enviada impresa a los generales para su firma (Ardouin, t. VI); la de 1806 la aprobó la Asamblea constituyente de Puerto Príncipe tras la muerte de Dessalines y es obra de la facción de Pétion. La Digithèque MJP (Univ. de Perpiñán) reproduce el texto de Janvier (1886). Interés: ambas definen el territorio como la isla entera (arts. 1, 15, 18 de 1805; art. 29 de 1806) y a la vez renuncian a conquistar «colonias/islas extranjeras» (art. 36 de 1805; art. 2 de 1806): la doctrina de la isla indivisible y la cláusula de no conquista conviven en el mismo texto.",
+   "extractos": [
+    {
+     "ubicacion": "Constitución de 1805, art. 1 (l. 68 del texto extraído); también en Recueil t. I, n.º 23, p. 48",
+     "cita_original": "Le peuple habitant l'île ci-devant appelée Saint-Domingue, convient ici de se former en État libre, souverain et indépendant de toute autre puissance de l'univers, sous le nom d'Empire d'Haïti.",
+     "traduccion": "El pueblo que habita la isla antes llamada Saint-Domingue acuerda constituirse en Estado libre, soberano e independiente de toda otra potencia del universo, bajo el nombre de Imperio de Haití (Constitución imperial del 20-V-1805, Declaración preliminar, art. 1).",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1805, art. 15 (l. 131 del texto extraído)",
+     "cita_original": "L'Empire d'Haïti est un et indivisible ; son territoire est distribué en six divisions militaires.",
+     "traduccion": "El Imperio de Haití es uno e indivisible; su territorio se distribuye en seis divisiones militares (art. 15; Recueil t. I, p. 49).",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1805, art. 18 (l. 142 del texto extraído)",
+     "cita_original": "Sont parties intégrantes de l'Empire les îles ci-après désignées : Samana, la Tortue, la Gonâve, les Cayemites, l'île à Vache, la Saône, et autres îles adjacentes.",
+     "traduccion": "Son partes integrantes del Imperio las islas siguientes: Samaná, la Tortue, la Gonâve, los Cayemites, l'Île-à-Vache, la Saona y otras islas adyacentes (art. 18; reproduce la lista de la Constitución de 1801, art. 1).",
+     "afirmaciones": [
+      "A-069",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1805, art. 36 (l. 243 del texto extraído)",
+     "cita_original": "L'Empereur ne formera jamais aucune entreprise dans la vue de faire des conquêtes ni de troubler la paix et le régime intérieur des colonies étrangères.",
+     "traduccion": "El Emperador no emprenderá jamás empresa alguna con la mira de hacer conquistas ni de turbar la paz y el régimen interior de las colonias extranjeras (Disposiciones generales, art. 36; la proclama del 1-I-1804 remite a este artículo en nota del Recueil).",
+     "afirmaciones": [
+      "A-085",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1806, art. 2 (l. 87 del texto extraído); Recueil t. I, n.º 46, pp. 169-170 (OCR ruidoso)",
+     "cita_original": "La République d'Haïti ne formera jamais aucune entreprise dans les vues de faire des conquêtes, ni de troubler la paix et le régime intérieur des îles étrangères.",
+     "traduccion": "La República de Haití no formará jamás empresa alguna con miras de hacer conquistas ni de turbar la paz y el régimen interior de las islas extranjeras (Constitución del 27-XII-1806, art. 2).",
+     "afirmaciones": [
+      "A-085",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1806, art. 29 (l. 188 del texto extraído)",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent forment le territoire de la République d'Haïti.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República de Haití (Constitución del 27-XII-1806, Título II, art. 29; Recueil t. I, n.º 46, p. 172).",
+     "afirmaciones": [
+      "A-069",
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1806, art. 1 (l. 86 del texto extraído)",
+     "cita_original": "Il ne peut exister d'esclaves sur le territoire de la République; l'esclavage y est à jamais aboli.",
+     "traduccion": "No puede haber esclavos en el territorio de la República; la esclavitud queda abolida para siempre (art. 1).",
+     "afirmaciones": [
+      "A-084"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-069",
+    "A-079",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0032",
+   "notas": "Resuelve F-0032 (1806; antes «fragmento-busqueda»): art. 2 y art. 29 confirmados con número en MJP y en el Recueil (t. I, n.º 46). Para 1805 (F-0029, ya texto-completo-en-linea) se añaden arts. 1, 15, 18 y 36. Observación: en 1805 y 1806 «Samana» figura entre las «îles adjacentes» (la península, a la que MJP llama «île»). El art. 36 de 1805 habla de «colonies étrangères»; lectura mía [POR VERIFICAR en la doctrina haitiana]: el este de la isla era en 1805 colonia de Francia, enemiga declarada, y los arts. 1, 15 y 18 lo incluyen en el territorio imperial; por tanto la cláusula parece referirse a colonias de otras potencias, no al Este. La nota del editor del Recueil enlaza el pasaje «paix à nos voisins» de la proclama del 1-I-1804 con este art. 36."
+  },
+  {
+   "titulo": "Constitution de la colonie française de Saint-Domingue (14 messidor an IX / 3 de julio de 1801), texto de la Digithèque MJP y transcripción de haitidoi.com del impreso de la Library of Congress",
+   "autor": "Louverture, Toussaint; Asamblea central de Saint-Domingue",
+   "anio": "1801",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://mjp.univ-perp.fr/constit/ht1801.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1801-2/",
+    "https://www.loc.gov/item/2021666967/",
+    "https://en.wikisource.org/wiki/Constitution_of_Saint-Domingue"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del acto constitucional de la colonia, publicado por el propio gobierno de Toussaint; el MJP toma el texto de Janvier (1886) y lo modernizó, y haitidoi.com transcribe el impreso de 1801: coinciden en los artículos 1 y 3.",
+   "proveniencia": "La Asamblea central de Saint-Domingue, convocada por Toussaint el 5-II-1801 con diputados de los departamentos (incluidos los del Este: Samaná/Cibao e Inganos/Ozama, según Madiou), redactó la Constitución, promulgada el 14 messidor an IX (3-VII-1801) en Puerto Príncipe. Toussaint la presentó al Primer Cónsul, que se negó a sancionarla. Es un texto de parte, escrito para fijar la autonomía de Saint-Domingue en el Imperio francés; su art. 1 incorpora «Saint-Domingue dans toute son étendue» tras la ocupación del Este (enero de 1801).",
+   "extractos": [
+    {
+     "ubicacion": "Constitución de 1801, tít. I, art. 1 (l. 63 del texto extraído)",
+     "cita_original": "Saint-Domingue dans toute son étendue, et Samana, la Tortue, la Gonâve, les Cayemites, l'Ile-à-Vaches, la Saône et autres îles adjacentes, forment le territoire d'une seule colonie, qui fait partie de l'Empire français, mais qui est soumis à des lois particulières.",
+     "traduccion": "Saint-Domingue en toda su extensión, y Samaná, la Tortue, la Gonâve, los Cayemites, l'Île-à-Vache, la Saona y otras islas adyacentes forman el territorio de una sola colonia, que forma parte del Imperio francés pero está sometida a leyes particulares (Constitución del 14 mesidor año IX = 3-VII-1801, título I, art. 1).",
+     "afirmaciones": [
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Constitución de 1801, tít. II, art. 3 (l. 73 del texto extraído)",
+     "cita_original": "Il ne peut exister d'esclaves sur ce territoire, la servitude y est à jamais abolie. Tous les hommes y naissent, vivent et meurent libres et Français.",
+     "traduccion": "No puede haber esclavos en este territorio, la servidumbre queda abolida para siempre. Todos los hombres nacen, viven y mueren libres y franceses (art. 3).",
+     "afirmaciones": [
+      "A-068",
+      "A-069",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "MJP, introducción (l. 27 del texto extraído); lectura editorial francesa, no del texto constitucional",
+     "cita_original": "se rend maître de la totalité de l'île par la conquête de la partie espagnole (janvier 1801)",
+     "traduccion": "[Toussaint] se hace dueño de la totalidad de la isla por la conquista de la parte española (enero de 1801) (introducción editorial de la Digithèque MJP).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "MJP, introducción (l. 19 del texto extraído); errata editorial a vigilar",
+     "cita_original": "L'émancipation des esclaves de Saint-Domingue, proclamée par Sonthonax le 19 août 1793",
+     "traduccion": "La emancipación de los esclavos de Saint-Domingue, proclamada por Sonthonax el 19 de agosto [sic] de 1793 (la introducción MJP a la Constitución de 1801 escribe «19 août»; la de 1804 y Madiou dan el 29-VIII-1793).",
+     "afirmaciones": [
+      "A-082"
+     ]
+    },
+    {
+     "ubicacion": "haitidoi.com, Constitución de 1801, art. 1 (l. 44 del texto extraído); ortografía de 1801; original: https://www.loc.gov/item/2021666967/",
+     "cita_original": "Saint-Domingue dans toute son étendue, et Samana, la Tortue, la Gonave, les Caïemites, l’Isle-à-Vache, la Saone et autres îles adjacentes, forment le territoire d’une seule colonie, qui fait partie de l’Empire français, mais qui est soumise a des lois particulieres.",
+     "traduccion": "[Mismo artículo en la transcripción de haitidoi.com según el impreso original de la Library of Congress.]",
+     "afirmaciones": [
+      "A-069"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-068",
+    "A-069",
+    "A-082",
+    "A-084"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0027",
+   "notas": "Resuelve F-0027 (localizada-bloqueada): el art. 1 es del título I, art. 1 (no art. 1 de «título I» ambiguo) y se confirma la lista Samana-Tortue-Gonâve-Cayemites-Île-à-Vache-Saône. Fecha: MJP y Madiou (t. II) dan 14 messidor an IX = 3-VII-1801; la ronda M00 del mismo corpus pone «8 de julio» para otra fuente [POR VERIFICAR la promulgación del 8 vs. 3 de julio]. El texto de MJP no es edición crítica (ortografía y puntuación modernizadas)."
+  },
+  {
+   "titulo": "Acte de l'Indépendance de la République d'Haïti (Gonaïves, 1-I-1804): impreso de Puerto Príncipe 1804 (transcripción de fr.wikisource; la ficha de Wikisource lo vincula al hallazgo de Gaffield en Kew) cotejado con la edición de Linstant, Recueil t. I, n.º 1-3",
+   "autor": "Dessalines, Jean-Jacques; Boisrond-Tonnerre, Louis-Félix (secretario)",
+   "anio": "1804",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://fr.wikisource.org/wiki/Acte_de_l%27Ind%C3%A9pendance_de_la_R%C3%A9publique_d%27Ha%C3%AFti",
+   "urls_alternativas": [
+    "https://fr.wikisource.org/wiki/Livre:Deklarasyon_Endepandans_Ayiti,_1804.djvu",
+    "https://archive.org/details/recueilgnral07hait",
+    "https://haitidoi.com/2013/09/29/haitian-constitutions-1790-1860/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del acto de independencia en el impreso de 1804 (facsímil de Kew hallado por Gaffield), transcrito en Wikisource (a corregir) y confirmado palabra a palabra con la edición oficial de Linstant (1851).",
+   "proveniencia": "Los actos del 1-I-1804 fueron redactados por Boisrond-Tonnerre (según Saint-Rémy, secretario de Dessalines desde julio de 1803) y proclamados en Gonaïves; el impreso de Puerto Príncipe de 1804 reúne tres piezas: el «Acte» (juramento de los generales), la proclama del General en jefe «au peuple d'Haïti» y el acto que nombra a Dessalines gobernador general vitalicio. Linstant (1851) las numera como n.º 1, 2 y 3. Se dirigen a los «indigènes d'Hayti», a las potencias extranjeras y al pueblo; el texto «Paix à nos voisins» pertenece a la proclama (n.º 2), no al «Acte» breve (n.º 1).",
+   "extractos": [
+    {
+     "ubicacion": "Acte de l'Indépendance, impreso de Puerto Príncipe 1804 (transcripción fr.wikisource), p. 1 (l. 82 del texto extraído)",
+     "cita_original": "le Général en Chef de l'armée Indigène, accompagné des Généraux, Chefs de l'armée, convoqués à l'effet de prendre les mesures qui doivent tendre au bonheur du pays",
+     "traduccion": "el General en Jefe del ejército Indígena, acompañado de los Generales, Jefes del ejército, convocados para tomar las medidas que deben tender a la felicidad del país (encabezado «LIBERTÉ, OU LA MORT. ARMÉE INDIGÈNE», Gonaïves, 1-I-1804).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Acte de l'Indépendance (fr.wikisource), p. 1 (l. 88 del texto extraído)",
+     "cita_original": "d'assurer à jamais aux Indigènes d'Hayti, un Gouvernement stable",
+     "traduccion": "asegurar para siempre a los Indígenas de Haití un Gobierno estable.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Acte de l'Indépendance (fr.wikisource), «Le Général en chef, au peuple d'Haïti» (l. 206 del texto extraído)",
+     "cita_original": "laissons en paix respirer nos voisins, qu'ils vivent paisiblement sous l'égide des lois qu'ils se sont faites, et n'allons pas, boutes-feu révolutionnaires, nous érigeant en législateurs des Antilles, faire consister notre gloire à troubler le repos des Isles qui nous avoisinent; elles n'ont point, comme celles que nous habitons, été arrosées du sang innocent de leurs habitans",
+     "traduccion": "dejemos respirar en paz a nuestros vecinos, que vivan tranquilos al amparo de las leyes que se han dado, y no vayamos, incendiarios revolucionarios, erigiéndonos en legisladores de las Antillas, a hacer consistir nuestra gloria en turbar el reposo de las Islas que nos rodean; ellas no han sido, como la que habitamos, regadas con la sangre inocente de sus habitantes. (En el impreso de 1804 el pasaje habla de «Isles» vecinas, plural y distintas de «celles que nous habitons».)",
+     "afirmaciones": [
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Acte de l'Indépendance (fr.wikisource) (l. 217 del texto extraído)",
+     "cita_original": "Paix à nos voisins, mais anathème au nom français, haine éternelle à la france: voilà notre cri.",
+     "traduccion": "Paz a nuestros vecinos, pero anatema al nombre francés, odio eterno a Francia: ese es nuestro grito.",
+     "afirmaciones": [
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 3 (OCR l. 3027)",
+     "cita_original": "dévouer à la mort quiconque, né français, souillerait de son pied sacrilège le territoire de la liberté",
+     "traduccion": "consagrar a la muerte a cualquiera que, nacido francés, manchara con su pie sacrílego el territorio de la libertad (proclama del 1-I-1804, Recueil t. I, n.º 2, p. 3).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), p. 2 (OCR l. 2951)",
+     "cita_original": "Proclamation du Général en chef au peuple d'Haïti. Quartier général des Gonaïves, le 1er janvier 1804, an Ier.",
+     "traduccion": "Proclamación del General en jefe al pueblo de Haití [n.º 2 del Recueil: el discurso de Boisrond-Tonnerre es una pieza distinta del «Acte d'indépendance» n.º 1, de unas pocas líneas].",
+     "afirmaciones": [
+      "A-070",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Recueil t. I (1851), nota al pie, p. 4 (OCR l. 3081)",
+     "cita_original": "Voyez, n° 23, Constitution impériale d'Haïti, du 20 mai 1805, art. 36",
+     "traduccion": "Véase n.º 23, Constitución imperial de Haití del 20 de mayo de 1805, art. 36 (nota de Linstant al pasaje «Paix à nos voisins»: el editor de 1851 lo lee como el principio de no conquista de las «colonias extranjeras»).",
+     "afirmaciones": [
+      "A-085"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070",
+    "A-083",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0028",
+   "notas": "Resuelve una cuestión de A-070/A-085: en la edición de Linstant las frases sobre «nos voisins» están en la proclama n.º 2 y no en el «Acte» n.º 1; ambas llevan el membrete «Armée indigène» (el «Acte» lo lleva expreso). El nombre «armée indigène» en este documento es del 1-I-1804, no prueba cuándo se adoptó. La transcripción local 02-fuentes/textos/acta-independencia-haiti-1804-transcripcion.md agrupa las tres piezas bajo un solo título (como el impreso de 1804). Comprobado en la transcripción de Wikisource y en el Recueil: «voisins» se glosa como «Isles qui nous avoisinent» (plural, vecinas, distintas de «celles que nous habitons»); lectura mía [POR VERIFICAR en la historiografía]: se trata de otras Antillas (Jamaica, Cuba, etc.) y el texto no menciona el Este de la isla. Contraste con la proclama del 8-V-1804 («aux habitants de la partie espagnole») y la Constitución de 1805, que sí tratan el Este como territorio propio. La «Livre:Deklarasyon Endepandans Ayiti, 1804.djvu» de fr.wikisource es el mismo facsímil en francés, no una traducción al criollo (título engañoso)."
+  },
+  {
+   "titulo": "Mémoires pour servir à l'histoire d'Haïti par Boisrond-Tonnerre, précédés de différents actes politiques dus à sa plume et d'une étude historique et critique par Saint-Rémy (des Cayes) (Paris, France libraire, 1851)",
+   "autor": "Boisrond-Tonnerre, Louis-Félix; Saint-Rémy, Joseph (ed.)",
+   "anio": "1851",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/mmoirespourser00bois",
+   "urls_alternativas": [
+    "https://archive.org/download/mmoirespourser00bois/mmoirespourser00bois_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorias del secretario de Dessalines, de primera mano para 1802-1804 pero editadas póstumamente (1851) con un estudio crítico de Saint-Rémy abiertamente hostil a Dessalines y a Boisrond.",
+   "proveniencia": "Louis Félix Boisrond-Tonnerre (nacido en 1776 cerca de Los Cayos, según Saint-Rémy; educado en París), secretario de Dessalines desde julio de 1803 y redactor del manifiesto del 1-I-1804, escribió estas memorias sobre la expedición de Leclerc [fecha de redacción POR VERIFICAR: Saint-Rémy no la da en lo leído]; las publicó Joseph Saint-Rémy (Cayes, 1815-1858), abogado haitiano en París, junto con actos oficiales y un estudio crítico, para un público francés y haitiano. Sesgo: el texto de Boisrond es de parte (venganza contra Francia) y el estudio de Saint-Rémy es una réplica hostil.",
+   "extractos": [
+    {
+     "ubicacion": "Mémoires, p. 14 (deducida del marcador «— 15 —» de la hoja siguiente) (OCR l. 1269)",
+     "cita_original": "pour renouveler la barbarie des Espagnols contre les Indiens, les atrocités du règne de Robespierre",
+     "traduccion": "para renovar la barbarie de los españoles contra los indios, las atrocidades del reinado de Robespierre [Boisrond-Tonnerre, hablando de lo que hicieron los franceses en menos de dos años; secretario y redactor del manifiesto de 1804].",
+     "afirmaciones": [
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "Mémoires, p. 14 (deducida) (OCR l. 1304)",
+     "cita_original": "la conquête de Santo-Domingo, que le président don Joachim Garcia avait d'abord refusé de lui remettre aux termes du traité de Bâle",
+     "traduccion": "la conquista de Santo Domingo, que el presidente don Joaquín García había rehusado primero entregarle en los términos del tratado de Basilea.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "Étude de Saint-Rémy, p. X (deducida; marcador «— XI —» tras la cita) (OCR l. 340)",
+     "cita_original": "Boisrond-Tonnerre entra ainsi, en juillet 1803, dans la carrière politique.",
+     "traduccion": "Boisrond-Tonnerre entró así, en julio de 1803, en la carrera política [como secretario del general Dessalines; nota biográfica de Saint-Rémy].",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "actos políticos de Boisrond-Tonnerre reproducidos al inicio del volumen (OCR l. 863)",
+     "cita_original": "Procès-verbal de la proclamation de l'indépendance d'Haïti. ARMÉE INDIGÈNE.",
+     "traduccion": "Acta de la proclamación de la independencia de Haití. EJÉRCITO INDÍGENA (título que da Saint-Rémy al «Acte» del 1-I-1804 en su edición de 1851).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-070",
+    "A-072",
+    "A-073"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0886",
+   "notas": "F-0886 ya consta como texto-completo-en-linea (módulos M00;M06); aquí se añaden extractos de M06. La referencia a «los indios» muestra que la memoria del exterminio taíno circulaba en el entorno de Dessalines, pero no explica el sentido de «j'ai vengé l'Amérique» (A-072 sigue [POR VERIFICAR] como lectura explícita de Boisrond). Páginas deducidas del OCR (marcadores «— NN —»)."
+  },
+  {
+   "titulo": "Mémoires du général Toussaint-L'Ouverture, écrits par lui-même, pouvant servir à l'histoire de sa vie, précédés d'une étude historique par Saint-Rémy (Paris, Pagnerre, 1853)",
+   "autor": "Louverture, Toussaint; Saint-Rémy, Joseph (ed.)",
+   "anio": "1853",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/mmoiresdugn00tous",
+   "urls_alternativas": [
+    "https://archive.org/download/mmoiresdugn00tous/mmoiresdugn00tous_djvu.txt",
+    "https://archive.org/details/mmoiresdugnralt00saingoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria justificativa del propio Toussaint (Fort de Joux, 1802) para Bonaparte: primera mano pero autoexculpatoria; la edición de 1853 es de Saint-Rémy y su autenticidad textual (copias) merece cotejo.",
+   "proveniencia": "Memoria escrita por Toussaint en el castillo de Joux (1802-1803) para justificarse ante Bonaparte; Saint-Rémy (Cayes, 1815-1858, abogado haitiano en París) afirma haber obtenido de Desfourneaux una copia y haber hallado el manuscrito original, «todo de la mano del Primero de los Negros», en los Archivos generales de Francia; indica que Martial Besse, preso con él, recopió los manuscritos y corrigió la ortografía, y que fragmentos aparecieron en La Presse (1845), cuya autenticidad algunos pusieron en duda. Publica la memoria en 1853 con un estudio crítico y notas, para un público francés y haitiano. Interés: único relato de Toussaint sobre la toma de Santo Domingo, vista como medida administrativa en nombre de la República, no como invasión.",
+   "extractos": [
+    {
+     "ubicacion": "Mémoires, p. 30 (deducida del marcador «… 31» de la hoja siguiente) (OCR l. 3752)",
+     "cita_original": "après la prise de possession de Santo-Domingo, voyant que le gouvernement n'envoyait ni lois ni arrêtés concernant la colonie, sentant l'urgence d'établir la police pour la sûreté et la tranquillité de chaque individu, je fis une invitation à toutes les communes d'envoyer des députés pour former une assemblée centrale",
+     "traduccion": "después de la toma de posesión de Santo Domingo, viendo que el gobierno no enviaba ni leyes ni decretos para la colonia, sintiendo la urgencia de establecer la policía para la seguridad y la tranquilidad de cada individuo, invité a todas las comunas a enviar diputados para formar una asamblea central (Toussaint, Mémoires escritas en Fort de Joux, 1802).",
+     "afirmaciones": [
+      "A-068",
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Mémoires, p. 30, nota de Saint-Rémy (OCR l. 3767)",
+     "cita_original": "Ce fut Borgella qui présida l'assemblée. La Constitution fut publiée le 14 messidor an IX (3 juillet 1801).",
+     "traduccion": "Borgella presidió la asamblea. La Constitución fue publicada el 14 mesidor año IX (3 de julio de 1801) [nota del editor Saint-Rémy; enumera como diputados, entre otros, a Morillas, Roxas y Mugnoz, nombres españoles, «los demás blancos»].",
+     "afirmaciones": [
+      "A-068",
+      "A-069"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-068",
+    "A-069"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "El pasaje no menciona la abolición en el Este ni el régimen laboral; solo la «prise de possession» y la asamblea central. La nota de Saint-Rémy dice «six députés» y enumera diez nombres: inconsistencia de la edición. Las páginas se dedujeron de las cabeceras del OCR («MÉMOIRES … 86» es lectura errónea de «30»). El origen del manuscrito es el que declara Saint-Rémy (Archivos generales de Francia), no comprobado por mí [POR VERIFICAR]."
+  },
+  {
+   "titulo": "La République d'Haïti et la République Dominicaine. Les aspects divers d'un problème d'histoire, de géographie et d'ethnologie, t. I (Port-au-Prince, 1953), cap. II «La question de l'Est» y cap. IV «La campagne de l'Est en 1805»",
+   "autor": "Price-Mars, Jean",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00001/Mars_RD_Haiti_fr_1.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/UF00095932/00001",
+    "https://ufdc.ufl.edu/UF00095932/00001",
+    "https://classiques.uqam.ca/classiques/price_mars_jean/ainsi_parla_oncle/ainsi_parla_oncle.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de un intelectual haitiano de primer rango (indigenismo, etnología) escrita en 1953 como respuesta a Peña Batlle, con documentos y citas a Madiou/Linstant, pero con tesis de parte y reconstrucciones psicologizantes de Dessalines.",
+   "proveniencia": "Jean Price-Mars (1876-1969), médico, etnólogo y diplomático haitiano, autor de «Ainsi parla l'Oncle» (1928), publica en 1953 esta obra (la portada la vincula al «cent cinquantenaire de l'Indépendance d'Haïti», lectura del OCR) en dos tomos para responder, ante el público haitiano y dominicano, a la historiografía trujillista (Peña Batlle) y para defender el derecho histórico de ambos Estados a coexistir. Escribe con simpatía por la causa haitiana pero con franqueza crítica sobre Dessalines (tema de las pp. 69-70). El PDF de dLOC/UF proviene de un escaneo con OCR; la página impresa figura al pie de cada hoja.",
+   "extractos": [
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 39-40 (l. 1519 del texto extraído)",
+     "cita_original": "la déclaration d'indépendance faite par le peuple d'Haïti pour tout le territoire de l'île, au 1er janvier 1804, n'avait qu'une valeur de symbole, étant donné qu'elle ne s'appuyait pas sur un état de fait",
+     "traduccion": "la declaración de independencia hecha por el pueblo de Haití para todo el territorio de la isla, el 1-I-1804, solo tenía un valor simbólico, puesto que no se apoyaba en un hecho real.",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 39 (l. 1485 del texto extraído)",
+     "cita_original": "Sont parties intégrantes de l'Empire les Iles ci-après désignées: Samana, la Tortue, la Gonâve, les Cayemittes, l'Ile à Vaches, la Saône et autres îles adjacentes",
+     "traduccion": "Son partes integrantes del Imperio las islas siguientes: Samaná, la Tortue, la Gonâve, los Cayemites, l'Île-à-Vache, la Saona y otras islas adyacentes (Price-Mars cita el art. 18 de la Constitución de 1805, y lo compara con el art. 1 de la de 1801).",
+     "afirmaciones": [
+      "A-069",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 42 (l. 1646 del texto extraído)",
+     "cita_original": "Ce fut un malheur et l'un des plus grands de notre histoire qu'ils ne fussent pas immédiatement attaqués et vaincus!",
+     "traduccion": "¡Fue una desgracia, y una de las mayores de nuestra historia, que [Ferrand y Kerverseau] no fueran atacados y vencidos de inmediato! (Price-Mars sobre noviembre de 1803: lamenta que Dessalines no acabara entonces con los franceses del Este.)",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 61 (l. 2563 del texto extraído)",
+     "cita_original": "Considérant que ce recrutement journalier doit naturellement tomber sur les noirs et gens de couleur au-dessous de quatorze ans",
+     "traduccion": "Considerando que este reclutamiento cotidiano recaerá naturalmente sobre los negros y gentes de color menores de catorce años (considerando del arrêté de Ferrand tal como lo transcribe Price-Mars desde el Recueil de Linstant).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 62 (l. 2645 del texto extraído)",
+     "cita_original": "il n'avait trouvé rien d'autre que le renouvellement du trafic négrier à la frontière des deux territoires",
+     "traduccion": "no había hallado otra cosa que la renovación del tráfico negrero en la frontera de los dos territorios [Ferrand, para frenar el movimiento que había aniquilado a un ejército de más de 50.000 hombres].",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 63 (l. 2696 del texto extraído); nota al pie; Price-Mars añade que Dessalines le impuso una contribución de 500 libras tornesas y confió el mando al propio Tabares sin tropas; Ferrand retomó Santiago en mayo de 1804 con Deveau. El texto principal (p. 42) habla de «cent mille piastres»: cifras discordantes en la misma obra [POR VERIFICAR]",
+     "cita_original": "Dessalines fait allusion à la soumission du Département du Cibao qui, abandonné par Ferrand, dans les premiers jours de janvier 1804",
+     "traduccion": "Dessalines alude a la sumisión del Departamento del Cibao que, abandonado por Ferrand a comienzos de enero de 1804, envió al Gobernador general una diputación (P. Juan Ricardo, capitán Domingo Pérez Guerra, José Campos Tabares) para solicitar la incorporación del departamento a la comunidad haitiana (nota 1 de Price-Mars).",
+     "afirmaciones": [
+      "A-085",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 66 (l. 2844 del texto extraído)",
+     "cita_original": "d'expulser les derniers vestiges des Français cramponnés encore à Santo-Domingo, abolir l'esclavage qu'ils y ont conservé et unifier l'île sous le drapeau haïtien",
+     "traduccion": "[Se trataba] de expulsar los últimos vestigios de los franceses aferrados aún a Santo Domingo, abolir la esclavitud que allí han conservado y unificar la isla bajo la bandera haitiana (objetivos de la arenga de Dessalines según Price-Mars).",
+     "afirmaciones": [
+      "A-079",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 66 (l. 2885 del texto extraído)",
+     "cita_original": "Ainsi commença l'ère des représailles.",
+     "traduccion": "Así comenzó la era de las represalias [cuando Dessalines, al hallar vacíos Azua y Baní, decidió tratar a los habitantes «désormais en ennemis»].",
+     "afirmaciones": [
+      "A-076",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 69 (l. 3025 del texto extraído)",
+     "cita_original": "Dans la nuit du 28 mars, l'armée haïtienne de 30000 hommes évacua la place à la muette",
+     "traduccion": "En la noche del 28 de marzo el ejército haitiano de 30.000 hombres evacuó la plaza en silencio [Price-Mars da 30.000; Madiou unos 24.000 antes de la llegada de Geffrard; el sitio, «pas plus de vingt jours»].",
+     "afirmaciones": [
+      "A-075"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 69 (l. 3051 del texto extraído)",
+     "cita_original": "la retraite de l'armée haïtienne fut l'un des épisodes les plus dramatiques et les plus sanglants d'une dramatique et sanglante histoire. Incendie des fermes, destruction du bétail, fusillade des otages, capture des femmes et des enfants, leur transfert brutal à l'ouest",
+     "traduccion": "la retirada del ejército haitiano fue uno de los episodios más dramáticos y sangrientos de una historia dramática y sangrienta. Incendio de las granjas, destrucción del ganado, fusilamiento de rehenes, captura de mujeres y niños, su traslado brutal hacia el oeste.",
+     "afirmaciones": [
+      "A-076",
+      "A-077",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 69 (l. 3060 del texto extraído)",
+     "cita_original": "Ils étaient l'ennemi. Il était la vengeance.",
+     "traduccion": "Eran el enemigo. Él era la venganza (Price-Mars explica la conducta de Dessalines en el Este por el resentimiento heredado de la trata y la asimilación de los orientales a los blancos franceses).",
+     "afirmaciones": [
+      "A-080",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Price-Mars 1953, t. I, p. 70 (l. 3097 del texto extraído)",
+     "cita_original": "Je veux que le crime soit national, que chacun trempe sa main dans le sang",
+     "traduccion": "Quiero que el crimen sea nacional, que cada uno moje su mano en la sangre (frase atribuida a Dessalines tras la matanza «dans la partie occidentale en mars 1804»; Price-Mars cita a Madiou, t. III, p. 132).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-069",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-077",
+    "A-079",
+    "A-080",
+    "A-083",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0109",
+   "notas": "F-0109 agrupa varias obras; esta ficha es el t. I (1953). Price-Mars no cita a Utrera ni a Arredondo y no da cifras de muertos en Moca/Santiago; su descripción de la retirada («fusillade des otages») es la más explícita de un clásico haitiano del siglo XX y la cita Leslie Péan (2017). El texto del PDF se extrajo con pdftotext; los números de página se leyeron en los pies de página. Las pp. 39-40 son aproximadas (falta el pie de la p. 39 en la extracción). Conviene contrastar la crítica contemporánea de Manigat («Du nouveau chez Clio», F-0804) y de Henríquez Vásquez (F-0676), ya registradas."
+  },
+  {
+   "titulo": "Histoire du peuple haïtien (1492-1952) (Port-au-Prince, Éditions Fardin, 1953; ed. electrónica Les Classiques des sciences sociales, 2004)",
+   "autor": "Bellegarde, Dantès",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un historiador-diplomático haitiano con visión liberal; sin aparato crítico en los pasajes leídos y con silencios notables sobre la retirada de 1805, pero útil como versión «canónica» posterior a Madiou y Ardouin.",
+   "proveniencia": "Dantès Bellegarde (1877-1966), maestro, diplomático (delegado en la Sociedad de Naciones) y ensayista haitiano, publica en 1953 una historia general del pueblo haitiano para lectores haitianos; es de la élite mulata liberal y critica el despotismo de Dessalines. La edición electrónica (UQAC, 2004) reproduce la de Fardin con paginación impresa entre corchetes [NN].",
+   "extractos": [
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [74] imp. (97 de la ed. electrónica) (l. 3616 del texto extraído)",
+     "cita_original": "Bien que l'Espagne eût, par le traité de Bâle de 1795, cédé à la France la Partie de l'Est, le gouvernement français en avait ajourné la prise de possession officielle.",
+     "traduccion": "Aunque España había cedido a Francia la Parte del Este por el tratado de Basilea de 1795, el gobierno francés había aplazado la toma de posesión oficial.",
+     "afirmaciones": [
+      "A-067"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [74] imp. (97 ed. electrónica) (l. 3626 del texto extraído); cifra de 25.000 hombres sin fuente; Madiou no la da [POR VERIFICAR]",
+     "cita_original": "Toussaint décida de réunir toute l'île sous son commandement. Le 27 janvier 1801, à la tête d'une armée de vingt-cinq mille hommes, il entrait à Santo-Domingo.",
+     "traduccion": "Toussaint decidió reunir toda la isla bajo su mando. El 27 de enero de 1801, al frente de un ejército de veinticinco mil hombres, entraba en Santo Domingo (Bellegarde omite la abolición de la esclavitud en el Este).",
+     "afirmaciones": [
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [98] imp. (127 ed. electrónica) (l. 4800 del texto extraído)",
+     "cita_original": "Dessalines ordonna le massacre général des Français restés dans le pays après le départ de Rochambeau.",
+     "traduccion": "Dessalines ordenó la matanza general de los franceses que quedaron en el país tras la partida de Rochambeau [excepto sacerdotes, médicos, boticarios y ciertos artesanos; Christophe y Pétion salvaron a muchos].",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [99] imp. (127-128 ed. electrónica) (l. 4819 del texto extraído); Bellegarde da por buena la fecha del 18-V-1803",
+     "cita_original": "marquait le premier anniversaire de la création du drapeau haïtien",
+     "traduccion": "[El 18 de mayo de 1804, por curiosa coincidencia, día de la proclamación de Napoleón emperador,] marcaba el primer aniversario de la creación de la bandera haitiana.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [101] imp. (131 ed. electrónica) (l. 4950 del texto extraído)",
+     "cita_original": "Pour réaliser son rêve d'isolement, l'Empereur pensa qu'il était d'impérieuse nécessité de réunir toute l'île sous son commandement.",
+     "traduccion": "Para realizar su sueño de aislamiento, el Emperador pensó que era de imperiosa necesidad reunir toda la isla bajo su mando.",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [101] imp. (131 ed. electrónica) (l. 4952 del texto extraído)",
+     "cita_original": "Un décret pris en 1805 par le général français Ferrand, qui commandait la ville de Santo-Domingo, vint fournir à Dessalines le prétexte désiré pour l'envahissement de la Partie de l'Est.",
+     "traduccion": "Un decreto de 1805 del general francés Ferrand, que mandaba en la ciudad de Santo Domingo, vino a dar a Dessalines el pretexto deseado para la invasión de la Parte del Este (Bellegarde: «prétexte», no causa).",
+     "afirmaciones": [
+      "A-079",
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [101] imp. (131 ed. electrónica) (l. 4955 del texto extraído)",
+     "cita_original": "Ce décret révoltant donnait le droit à tout Espagnol résidant près de la frontière de réduire en esclavage n'importe quel Haïtien qu'il parviendrait à capturer.",
+     "traduccion": "Ese decreto abominable daba derecho a todo español residente cerca de la frontera a reducir a esclavitud a cualquier haitiano que lograra capturar (sin umbral de edad).",
+     "afirmaciones": [
+      "A-074"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [102] imp. (131 ed. electrónica) (l. 4960 del texto extraído); silencio sobre la retirada",
+     "cita_original": "se préparait à emporter la ville d'assaut, quand la fausse nouvelle de l'apparition d'une flotte française sur les côtes d'Haïti le fit précipitamment rentrer dans son empire",
+     "traduccion": "se preparaba a tomar la ciudad al asalto cuando la falsa noticia de la aparición de una flota francesa en las costas de Haití le hizo regresar precipitadamente a su imperio (Bellegarde no menciona la devastación de la retirada ni Moca ni Santiago).",
+     "afirmaciones": [
+      "A-075",
+      "A-076"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde 1953 [ed. 2004], p. [99] imp. (128 ed. electrónica) (l. 4845 del texto extraído)",
+     "cita_original": "le peuple habitant l'île ci-devant appelée Saint-Domingue avait convenu de se former en État libre, souverain et indépendant de toute autre puissance de l'univers, sous le nom d'Empire d'Haïti",
+     "traduccion": "el pueblo que habita la isla antes llamada Saint-Domingue había convenido en constituirse en Estado libre, soberano e independiente de toda otra potencia, bajo el nombre de Imperio de Haití (Constitución de 1805, art. 1, citada por Bellegarde).",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-069",
+    "A-070",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-079",
+    "A-083"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0108",
+   "notas": "F-0108 ya consta como pdf-en-linea (M00); aquí se añaden extractos de M06. Contrastes útiles: Madiou presenta el decreto de Ferrand como la provocación que justifica la campaña («on peut comprendre nos fureurs»), Bellegarde como «pretexto» de un proyecto de unificar la isla bajo su mando; esa diferencia interna entre autores haitianos es relevante para A-079. Las páginas impresas aparecen entre corchetes en el texto; las de la ed. electrónica se leyeron en las cabeceras «… [2004] NNN»."
+  },
+  {
+   "titulo": "Manuel d'histoire d'Haïti conforme aux programmes officiels, à l'usage des écoles de la République (7.ª ed. revisada y aumentada, hasta 1950)",
+   "autor": "Bellegarde, Windsor; Lhérisson, Justin",
+   "anio": "c. 1950",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/manueldhistoired00bell",
+   "urls_alternativas": [
+    "https://archive.org/download/manueldhistoired00bell/manueldhistoired00bell_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Manual escolar adoptado oficialmente: no prueba hechos pero documenta con precisión lo que el sistema educativo haitiano enseñaba sobre 1803-1805 (fechas escolares y silencios).",
+   "proveniencia": "Windsor Bellegarde (ex profesor de historia, ex director de enseñanza secundaria) y Justin Lhérisson (abogado, profesor de historia y geografía en el Liceo Pétion) publican en 1906 el manual, aprobado por el Departamento de Instrucción Pública; la 7.ª edición que se consulta añade capítulos hasta 1950 (dimisión de Estimé, 10-V-1950) y cuestionarios al final de cada capítulo. Escrito para alumnos de cursos medio y superior (certificado de estudios, brevet).",
+   "extractos": [
+    {
+     "ubicacion": "Bellegarde y Lhérisson, Manuel d'histoire d'Haïti (7.ª ed., c. 1950), p. 65 (OCR l. 2862)",
+     "cita_original": "les officiers tinrent à l'Arcahaie, du 15 au 18 Mai 1803, un Congrès où solennellement ils déférèrent à Dessalines le titre de Général en chef de l'armée indigène",
+     "traduccion": "los oficiales celebraron en Arcahaie, del 15 al 18 de mayo de 1803, un Congreso en que solemnemente confirieron a Dessalines el título de General en jefe del ejército indígena.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde y Lhérisson, Manuel d'histoire d'Haïti (7.ª ed., c. 1950), p. 65 (OCR l. 2871)",
+     "cita_original": "CREATION DU DRAPEAU NATIONAL (18 Mai 1803) — Au cours de ce même congrès, Dessalines décida d'arracher le blanc du drapeau tricolore français et de rapprocher le bleu du rouge",
+     "traduccion": "CREACIÓN DE LA BANDERA NACIONAL (18 de mayo de 1803): en el mismo congreso Dessalines decidió arrancar el blanco de la bandera tricolor francesa y acercar el azul al rojo.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde y Lhérisson, Manuel d'histoire d'Haïti (7.ª ed., c. 1950), p. 160 (OCR l. 7686); lectura del año «1920» sobre OCR «Î92Q» [POR VERIFICAR]",
+     "cita_original": "La loi du 4 Août 1920 institua la fête du drapeau et de l'Université d'Haïti et en fixa la célébration du drapeau au 18 Mai de chaque année.",
+     "traduccion": "La ley del 4 de agosto de 1920 instituyó la fiesta de la bandera y de la Universidad de Haití y fijó su celebración el 18 de mayo de cada año (fecha de Estado, durante la ocupación estadounidense).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde y Lhérisson, Manuel d'histoire d'Haïti (7.ª ed., c. 1950), p. 78 (OCR l. 3526)",
+     "cita_original": "CAMPAGNE DE L'EST (Février 1805). Dans l'Est se trouvait encore une garnison française commandée par le général Ferrand, celui-ci publia le 6 Janvier 1805 un arrêté autorisant les troupes de la métropole à capturer les haïtiens et à les vendre comme esclaves.",
+     "traduccion": "CAMPAÑA DEL ESTE (febrero de 1805): en el Este había aún una guarnición francesa al mando del general Ferrand, quien publicó el 6 de enero de 1805 un decreto que autorizaba a las tropas de la metrópoli a capturar haitianos y venderlos como esclavos.",
+     "afirmaciones": [
+      "A-074",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Bellegarde y Lhérisson, Manuel d'histoire d'Haïti (7.ª ed., c. 1950), p. 78 (OCR l. 3535)",
+     "cita_original": "il marcha contre Santo-Domingo dont il allait se rendre maître quand inopinément se répandit la fausse nouvelle du prochain débarquement d'une autre expédition française",
+     "traduccion": "marchó contra Santo Domingo, de la que iba a hacerse dueño cuando inopinadamente se difundió la falsa noticia del próximo desembarco de otra expedición francesa (el manual no dice nada de la devastación de la retirada).",
+     "afirmaciones": [
+      "A-075",
+      "A-076"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070",
+    "A-074",
+    "A-075",
+    "A-076",
+    "A-079"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0797",
+   "notas": "F-0797 ya consta como texto-completo-en-linea (M00;M07-M10); se añaden extractos de M06. Las cifras de página proceden de las cabeceras del OCR («64/66 HISTOIRE D'HAÏTI»); la página 65 es deducida (cabecera sin número). Para la fecha de edición exacta de la 7.ª ed. [POR VERIFICAR] (contiene hechos de 1950; la 1.ª ed. es de 1906). Es la versión escolar: fija el 18-V-1803 como creación de la bandera y omite la retirada sangrienta de 1805, a diferencia de Madiou y Ardouin."
+  },
+  {
+   "titulo": "Exposé de Santo Domingo: Transcendance historique de la révolution haïtienne et son influence sur le Santo Domingo espagnol (conferencia de Leslie F. Péan, 22-VIII-2017; Le Nouvelliste, 28-VIII-2017)",
+   "autor": "Péan, Leslie F.",
+   "anio": "2017",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/175525/transcendance-historique-de-la-revolution-haitienne-et-son-influence-sur-le-santo-domingo-espagnol",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Conferencia de un economista-historiador haitiano crítico, con citas a Price-Mars, Hurbon y Trouillot, publicada sin arbitraje; refleja la lectura haitiana contemporánea y reconoce explícitamente la violencia de 1805.",
+   "proveniencia": "Leslie F. Péan, economista y ensayista haitiano, pronunció la conferencia en Santo Domingo (Centro Cultural de España) por el aniversario de la revuelta del 22-VIII-1791 y la publicó en Le Nouvelliste (Puerto Príncipe) el 28-VIII-2017; busca «una visión común de la historia de la isla» entre historiadores haitianos y dominicanos. Cita a Price-Mars (1953) literalmente para la retirada de 1805 y rehúsa la doctrina oficial de la revolución como obra de un solo color.",
+   "extractos": [
+    {
+     "ubicacion": "Péan 2017 (l. 46 del texto extraído); sección «Le moment Louverture»",
+     "cita_original": "À la tête de ses troupes, Toussaint rentre dans le territoire de Santo Domingo espagnol le 27 janvier 1801 étant donné que ce territoire avait été cédé par l'Espagne à la France suite au Traité de Bales de 1795.",
+     "traduccion": "A la cabeza de sus tropas, Toussaint entra en el territorio de Santo Domingo español el 27 de enero de 1801, dado que ese territorio había sido cedido por España a Francia tras el Tratado de Basilea de 1795.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 46 del texto extraído)",
+     "cita_original": "car l'abolition de l'esclavage à Saint-Domingue ne pouvait coexister avec l'esclavage dans la partie Est ou Santo Domingo espagnol.",
+     "traduccion": "pues la abolición de la esclavitud en Saint-Domingue no podía coexistir con la esclavitud en la parte Este o Santo Domingo español (Péan atribuye a Toussaint la abolición, la apertura de puertos y el fomento de las exportaciones en el Este).",
+     "afirmaciones": [
+      "A-068",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 54 del texto extraído); sección «Le programme de Dessalines»; coincide con Madiou/Ardouin: hasta 14 años",
+     "cita_original": "Il rétablit l'esclavage et, par le décret du 6 janvier 1805, autorise les habitants du Santo Domingo espagnol à faire des incursions en Haïti pour capturer des enfants jusqu'à l'âge de 14 ans pour les réduire en esclavage.",
+     "traduccion": "[Ferrand] restablece la esclavitud y, por el decreto del 6 de enero de 1805, autoriza a los habitantes de Santo Domingo español a hacer incursiones en Haití para capturar niños hasta la edad de 14 años y reducirlos a la esclavitud.",
+     "afirmaciones": [
+      "A-074",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 54 del texto extraído); Péan usa el verbo «envahir»",
+     "cita_original": "Le 6 février 1805, Dessalines, outragé par ces mesures, envahit la partie de l'Est.",
+     "traduccion": "El 6 de febrero de 1805 Dessalines, ultrajado por esas medidas, invade la parte del Este (el «Journal de la campagne» oficial de 1805 pone la salida el 16 de febrero: discrepancia de fecha).",
+     "afirmaciones": [
+      "A-075",
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 56 del texto extraído)",
+     "cita_original": "Ce comportement barbare de Dessalines contraste avec la mesure reflétée au cours des six premiers mois de 1804 de ne pas incorporer la province du Cibao à la République d'Haïti",
+     "traduccion": "Ese comportamiento bárbaro de Dessalines contrasta con la medida reflejada durante los seis primeros meses de 1804 de no incorporar la provincia del Cibao a la República de Haití [pese a una delegación del P. Juan Ricardo, el capitán Pérez Guerra y José Campos Tabares; Dessalines envió a Toussaint Brave a Santiago el 26-V-1804].",
+     "afirmaciones": [
+      "A-085",
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 57 del texto extraído); Ardouin t. VII da el nombre de Cyriaco Ramírez para los armados de Azua; Péan nombra a Manuel Jiménez [POR VERIFICAR la identidad]",
+     "cita_original": "le soutien apporté aux patriotes d'Azua, dirigé par le futur président de la République dominicaine, Manuel Jiménez, qui a visité plusieurs fois le président Pétion à Port-au-Prince",
+     "traduccion": "el apoyo prestado a los patriotas de Azua, dirigidos por el futuro presidente de la República Dominicana, Manuel Jiménez, que visitó varias veces al presidente Pétion en Puerto Príncipe (1808-1809).",
+     "afirmaciones": [
+      "A-081"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 63 del texto extraído); sección «Les vingt mille fusils…»; útil para la simetría mulatristas/noiristas",
+     "cita_original": "La révolution haïtienne est présentée comme une révolution raciale par l'école coloriste (noiriste/mulâtriste) alors qu'il s'agit plutôt d'une révolution multiraciale.",
+     "traduccion": "La revolución haitiana es presentada como revolución racial por la escuela colorista (noirista/mulatrista), cuando se trata más bien de una revolución multirracial (voz haitiana crítica de ambas escuelas).",
+     "afirmaciones": [
+      "A-080"
+     ]
+    },
+    {
+     "ubicacion": "Péan 2017 (l. 44 del texto extraído)",
+     "cita_original": "l'État haïtien naît comme État antipopulaire, antidémocratique largement antinational",
+     "traduccion": "el Estado haitiano nace como Estado antipopular, antidemocrático, ampliamente antinacional (Péan cita a Guy Alexandre, exembajador en la RD, a propósito de 1804).",
+     "afirmaciones": [
+      "A-080"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-074",
+    "A-075",
+    "A-079",
+    "A-080",
+    "A-081",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0480",
+   "notas": "F-0480 ya consta como texto-completo-en-linea (descargada-y-leida por la ronda M08); aquí se añaden los extractos de M06, esta vez leídos del HTML descargado con curl (no resumidos por WebFetch). Péan dice «6 de febrero» para el inicio de la campaña y «jusqu'à l'âge de 14 ans» para el decreto; no da cifras de Moca/Santiago."
+  },
+  {
+   "titulo": "Premier janvier 1804 : naissance de l'État haïtien et renaissance de l'île d'Haïti (Le Nouvelliste, 30-XII-2024)",
+   "autor": "Denis, Watson",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/252245/premier-janvier-1804-naissance-de-letat-haitien-et-renaissance-de-lile-dhaiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo conmemorativo de un historiador universitario haitiano (UEH), con notas a Madiou, Ardouin y Lora, publicado en prensa sin arbitraje; expone la doctrina oficial actual de la isla indivisible con su fundamento jurídico (Basilea, derecho de gentes).",
+   "proveniencia": "Watson Denis, profesor de pensamiento social haitiano y relaciones internacionales en la Universidad de Estado de Haití y coeditor de «Terreurs de frontière», publica el artículo en Le Nouvelliste el 30-XII-2024 por la fiesta del 1.º de enero. Sostiene tres tesis: Toussaint reunificó la isla en 1801 en virtud de Basilea; el nombre Hayti recuerda a los taínos; la independencia se proclamó para toda la isla. Cita a Madiou y a Ardouin para la tesis y a Dubois para «J'ai vengé l'Amérique».",
+   "extractos": [
+    {
+     "ubicacion": "Denis 2024 (l. 50 del texto extraído); sección 1",
+     "cita_original": "en 1801, prenant comme motif les clauses du Traité de Bâle de juillet 1795, selon lesquelles la couronne espagnole remettait toute l'ile d'Haïti à la France, il prit sur lui la responsabilité de la réunifier sous sa propre autorité.",
+     "traduccion": "en 1801, tomando como motivo las cláusulas del Tratado de Basilea de julio de 1795, según las cuales la corona española entregaba toda la isla de Haití a Francia, asumió la responsabilidad de reunificarla bajo su propia autoridad.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 50 del texto extraído); sección 1; sin cita de la proclama",
+     "cita_original": "l'une de ses dispositions a été l'abolition de l'esclavage dans cette partie de l'ile ; ce fut la première abolition de l'esclavage",
+     "traduccion": "una de sus disposiciones fue la abolición de la esclavitud en esa parte de la isla; fue la primera abolición de la esclavitud [en el Este].",
+     "afirmaciones": [
+      "A-068",
+      "A-084"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 53 del texto extraído); Denis cita el art. 1 de 1801 tras esta frase",
+     "cita_original": "il était question de l'ile d'Haïti comme une entité géographique indivisible",
+     "traduccion": "se trataba de la isla de Haití como una entidad geográfica indivisible (sobre el art. 1 de la Constitución de 1801).",
+     "afirmaciones": [
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 73 del texto extraído); sección 3.a",
+     "cita_original": "Dessalines en tête, ont choisi de redonner le nom d'Hayti à l'ile d'Haïti une fois l'indépendance acquise.",
+     "traduccion": "Dessalines a la cabeza, eligieron devolver el nombre de Hayti a la isla de Haití una vez lograda la independencia (en homenaje a los nativos «Peaux-Rouges» que combatieron a los conquistadores españoles).",
+     "afirmaciones": [
+      "A-072"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 73 del texto extraído); sección 3.a; lectura haitiana explícita del referente indígena: da fuente a A-072",
+     "cita_original": "En ce sens, Dessalines s'est présenté comme le « vengeur de l'Amérique ».",
+     "traduccion": "En este sentido, Dessalines se presentó como el «vengador de América» [Denis lo enlaza expresamente con el exterminio de los aborígenes y cita la frase «J'ai vengé l'Amérique»].",
+     "afirmaciones": [
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 85 del texto extraído); sección 3.b; la frase atribuida a Dessalines no se localiza en las fuentes de época leídas [POR VERIFICAR]",
+     "cita_original": "Il ne voulait aucune frontière physique à l'intérieur de l'ile d'Haïti. D'ailleurs, il avait théorisé la question en termes géographiques. Il répétait : « A Haïti, il faut donner la mer pour frontière ».",
+     "traduccion": "No quería ninguna frontera física en el interior de la isla de Haití. Además había teorizado la cuestión en términos geográficos: repetía «A Haití hay que darle el mar por frontera» (Denis, sin cita de fuente primaria).",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 85 del texto extraído); sección 3.b; no menciona Moca, Santiago ni la retirada",
+     "cita_original": "L'empereur Jacques I a tenté en 1805, il n'a pas réussi (à cause de ses démêlés liés à l'hégémonie avec les figures de la nouvelle élite politique).",
+     "traduccion": "El emperador Jacques I lo intentó en 1805 y no lo logró (por sus disputas de hegemonía con las figuras de la nueva élite política).",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Denis 2024 (l. 77 del texto extraído); sección 3.b",
+     "cita_original": "cette partie de l'ile d'Haïti appartenait de fait, après la capitulation de l'armée française face à l'Armée indigène, selon le droit des gens de l'époque",
+     "traduccion": "esa parte de la isla de Haití pertenecía de hecho, tras la capitulación del ejército francés ante el Ejército indígena, según el derecho de gentes de la época, a Haití.",
+     "afirmaciones": [
+      "A-079",
+      "A-067"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-069",
+    "A-072",
+    "A-073",
+    "A-079",
+    "A-084",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0479",
+   "notas": "F-0479 ya consta (descargada-y-leida, M08); aquí los extractos de M06 leídos del HTML descargado con curl. Denis es la única fuente haitiana localizada que enlaza literalmente «J'ai vengé l'Amérique» con los pueblos originarios: cumple como autor explícito de A-072 (lectura haitiana), pero no resuelve A-073 (lectura continental), para la que Denis no ofrece contraargumento. Denis cita mal la frase («mon propre estime me reste»). Sobre «la mer pour frontière» no da referencia."
+  },
+  {
+   "titulo": "L'assassinat de Dessalines et le culte de sa mémoire (Revista Brasileira do Caribe, v. 16, n.º 31, jul.-dez. 2015, pp. 95-124)",
+   "autor": "Saint-Louis, Vertus",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://cajapio.ufma.br/index.php/rbrascaribe/article/download/4501/2456/14015",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado de un historiador haitiano (Escuela Normal Superior de Puerto Príncipe) con notas a Madiou, Ardouin, Schomburg y archivos; crítico a la vez de la visión noirista y de la mulatrista.",
+   "proveniencia": "Vertus Saint-Louis, historiador de la Escuela Normal Superior de Puerto Príncipe, publica en una revista brasileña de estudios caribeños (2015) un análisis de por qué fue asesinado Dessalines y de cómo su culto, rehabilitado cuarenta años después, sigue prisionero de la disputa noirista/mulatrista y silencia el papel del comercio extranjero (norteamericano). Contiene observaciones sobre los textos fundacionales de 1804 (sin versión criolla; proclama del 28-IV).",
+   "extractos": [
+    {
+     "ubicacion": "Saint-Louis 2015, p. 100 (l. 212 del texto extraído)",
+     "cita_original": "la proclamation du 28 avril 1804 publiée au lendemain du massacre des derniers colons restés dans le pays",
+     "traduccion": "la proclama del 28 de abril de 1804 publicada al día siguiente de la matanza de los últimos colonos que quedaban en el país.",
+     "afirmaciones": [
+      "A-071",
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Saint-Louis 2015, p. 100 (l. 214 del texto extraído)",
+     "cita_original": "Le texte de Boisrond Tonnerre est animé d'un esprit de vengeance, explicable contre la France, mais il ne fonde pas en droit la nouvelle société.",
+     "traduccion": "El texto de Boisrond-Tonnerre está animado por un espíritu de venganza, explicable contra Francia, pero no funda en derecho la nueva sociedad.",
+     "afirmaciones": [
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Saint-Louis 2015, p. 100-101 (l. 225 del texto extraído); los actos fundacionales solo existen en francés",
+     "cita_original": "il nous manque une pièce capitale : le message en langue créole adressé au peuple par Dessalines. Fait significatif, le message ne nous est pas parvenu parce qu'il n'a pas été écrit.",
+     "traduccion": "nos falta una pieza capital: el mensaje en lengua criolla dirigido al pueblo por Dessalines. Hecho significativo, el mensaje no nos ha llegado porque no fue escrito.",
+     "afirmaciones": [
+      "A-070",
+      "A-071"
+     ]
+    },
+    {
+     "ubicacion": "Saint-Louis 2015, p. 101 (l. 228 del texto extraído); afirmación del autor sin cita de fuente [POR VERIFICAR]",
+     "cita_original": "le commissaire civil français Sonthonax avait fait publier en créole comme en français l'acte d'affranchissement des esclaves proclamé le 29 août 1793",
+     "traduccion": "el comisario civil francés Sonthonax había hecho publicar en criollo y en francés el acto de emancipación de los esclavos proclamado el 29 de agosto de 1793.",
+     "afirmaciones": [
+      "A-082"
+     ]
+    },
+    {
+     "ubicacion": "Saint-Louis 2015, p. 102 (l. 299 del texto extraído)",
+     "cita_original": "En participant activement au massacre des colons (RULX, 1945, p. 139-148), les mulâtres ont procédé au meurtre du père blanc pour s'emparer de son bien",
+     "traduccion": "Al participar activamente en la matanza de los colonos (Rulx, 1945, pp. 139-148), los mulatos procedieron al asesinato del padre blanco para apoderarse de sus bienes (tesis del autor sobre la responsabilidad compartida de la élite mulata en 1804).",
+     "afirmaciones": [
+      "A-083"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070",
+    "A-071",
+    "A-082",
+    "A-083"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Página inferida de la numeración de la revista (p. 95-124) en el PDF; el tema no es la campaña del Este (no la trata). Aporta una voz haitiana académica contemporánea que (a) separa la proclama del 28-IV-1804 de la matanza y (b) subraya que no existe versión en criollo de los actos de independencia, hecho relevante para las voces ausentes."
+  },
+  {
+   "titulo": "Rally 'Round the Flag Myth, Mystery Surrounds History of Haiti's First Banner (Boston Haitian Reporter, junio de 2004; reproducido por Potomitan)",
+   "autor": "Lamour, Nekita",
+   "anio": "2004",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://www.potomitan.info/ayiti/lamour/flag.php",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de prensa diaspórica de una educadora haitiana (sin arbitraje), que se apoya en una cita de Madiou verificable y en un artículo de la revista criolla Bon Nouvel (2003) que no pude leer.",
+   "proveniencia": "Nekita Lamour, educadora y ensayista haitiano-estadounidense (Weston Jesuit School of Theology), publicó el artículo en el Boston Haitian Reporter (junio de 2004) tras el bicentenario de la bandera y lo reproduce Potomitan, sitio de promoción de las culturas y lenguas criollas. Usa Bon Nouvel (mayo de 2003), Madiou, Ardouin y entrevistas, y critica el mito de Catherine Flon.",
+   "extractos": [
+    {
+     "ubicacion": "Lamour 2004 (l. 35 del texto extraído); coincide con Madiou t. II (OCR p. 429)",
+     "cita_original": "No one will ignore that on May 1803- when Dessalines entered la Plaine du Cul-de-Sac- the indigenous troops already had the bicolor flag which had been adopted since February.",
+     "traduccion": "Nadie ignorará que en mayo de 1803, cuando Dessalines entró en la llanura del Cul-de-Sac, las tropas indígenas ya tenían la bandera bicolor, adoptada desde febrero (traducción al inglés de Madiou t. II, p. 429, por la autora; ver ficha de Madiou).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Lamour 2004 (l. 35 del texto extraído)",
+     "cita_original": "there wasn't a so- called \"creation\" of the flag on May 18. There was rather a presentation that occurred during the month of May in a congress held in Arcahaie.",
+     "traduccion": "no hubo una supuesta «creación» de la bandera el 18 de mayo; hubo más bien una presentación en mayo en un congreso celebrado en Arcahaie (autora, sobre el número de mayo de 2003 de Bon Nouvel, la revista criolla más antigua de Haití).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Lamour 2004 (l. 48 del texto extraído)",
+     "cita_original": "The stories about Catherine Flon, the Betsy Ross of Haiti, are largely speculative.",
+     "traduccion": "Las historias sobre Catherine Flon, la «Betsy Ross de Haití», son en gran parte especulativas.",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Lamour 2004 (l. 50 del texto extraído)",
+     "cita_original": "Another version in an article by Fleurimond Kerns states simply that Catherine Flon sewed the flag on the last day of the Arcahaie's Congress held from May 14 to May 18, 1803.",
+     "traduccion": "Otra versión, en un artículo de Fleurimond Kerns, dice simplemente que Catherine Flon cosió la bandera el último día del Congreso de Arcahaie, celebrado del 14 al 18 de mayo de 1803 (la tradición escolar da 15-18; hay variantes de 14-18).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Fuente de voz criolla/diaspórica útil para A-070: apunta que Bon Nouvel (kreyòl) y Madiou no dan el 18-V como «creación» de la bandera. Atribuye a Bon Nouvel la versión «congreso del 18-V-1803 en Merotte», que no he leído (el número de Bon Nouvel no está en línea) [POR VERIFICAR]. La frase de Madiou que cita es la de t. II, p. 429 (verificada en el OCR). Ardouin t. V fija el 19-V-1803 (acta de Latouche Tréville) como terminus ante quem de una bandera indígena."
+  },
+  {
+   "titulo": "Key Dates in Haiti's History (Embassy of Haiti, Washington, D.C.)",
+   "autor": "Embajada de Haití en Washington, D.C.",
+   "anio": "s.f. (consultada 2026-10-06)",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "oficial-haiti",
+   "url": "https://www.haiti.org/key-dates/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Cronología institucional sin autor ni fuentes, útil como muestra del relato oficial exterior; no es evidencia de los hechos.",
+   "proveniencia": "Página de la embajada de Haití en Washington que resume en inglés la historia de Haití para el público extranjero; fecha de redacción desconocida. Su selección de hitos (1492, 1697, 1791-1803, 1803, 1804, 1806, 1807-1820, 1821) deja fuera 1801, 1805 y 1808-1809.",
+   "extractos": [
+    {
+     "ubicacion": "Embassy of Haiti (Washington), Key Dates (l. 74 del texto extraído); cronología oficial de la embajada; no da «18 de mayo»",
+     "cita_original": "The Haitian blue and red flag was devised at Arcahaie, by taking the French tricolor, turning it clockwise and removing the white band.",
+     "traduccion": "La bandera haitiana azul y roja fue ideada en Arcahaie, tomando el tricolor francés, girándolo y quitando la banda blanca (la página solo da el año 1803, sin día).",
+     "afirmaciones": [
+      "A-070"
+     ]
+    },
+    {
+     "ubicacion": "Embassy of Haiti (Washington), Key Dates (l. 78 del texto extraído); el relato oficial ya liga el nombre de 1804 al pueblo originario; no dice nada de «J'ai vengé l'Amérique»",
+     "cita_original": "Haiti, or Ayiti in Creole, is the name given to the land by the former Taino-Arawak people, meaning “mountainous country.”",
+     "traduccion": "Haití, o Ayiti en criollo, es el nombre dado a la tierra por el antiguo pueblo taíno-arahuaco, y significa «país montañoso» (entrada de 1804).",
+     "afirmaciones": [
+      "A-072"
+     ]
+    },
+    {
+     "ubicacion": "Embassy of Haiti (Washington), Key Dates (l. 80 del texto extraído); silencio: sin entradas para 1801, 1805, 1808, 1809",
+     "cita_original": "Emperor Jean-Jacques Dessalines is assassinated.",
+     "traduccion": "El Emperador Jean-Jacques Dessalines es asesinado (entrada de 1806; la cronología no recoge 1801, 1805, 1808-1809: silencio de la versión oficial sobre el Este antes de 1821).",
+     "afirmaciones": [
+      "A-079"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070",
+    "A-072",
+    "A-079"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0493",
+   "notas": "F-0493 ya consta (M00;M08;M16); se añaden extractos de M06. Los silencios (1801 y 1805) son un dato sobre el relato oficial exterior, no sobre los hechos."
+  },
+  {
+   "titulo": "Dessalines Reader (haitidoi.com, Julia Gaffield): páginas «28 April 1804» y «8 May 1804» y listado de documentos de Dessalines",
+   "autor": "Gaffield, Julia (ed.); documentos de Dessalines",
+   "anio": "2015",
+   "tipo": "portal",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/2015/10/30/dessalines-reader-28-april-1804/",
+   "urls_alternativas": [
+    "https://haitidoi.com/2015/10/26/dessalines-reader-8-may-1804/",
+    "https://haitidoi.com/dessalines-reader/dessalines-documents/",
+    "https://haitidoi.com/wp-content/uploads/2015/10/dscf9968.jpg",
+    "https://haitidoi.com/wp-content/uploads/2015/10/dscf9969.jpg"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal académico que publica fotografías de las copias manuscritas e impresas de Kew y de la Biblioteca Nacional de Jamaica; solo la fotografía es la fuente primaria, el texto de la página es un catálogo.",
+   "proveniencia": "Julia Gaffield (historiadora, hoy en Georgia State University) reunió en «Haiti and the Atlantic World» (haitidoi.com) los documentos de Dessalines que halló en Kew, Jamaica, Boston, Library of Congress, y los puso en línea en 2015 para facilitar su estudio; sobre su autoría remite a Jenson (Dessalines firma lo que redactan sus secretarios).",
+   "extractos": [
+    {
+     "ubicacion": "haitidoi.com/2015/10/30/dessalines-reader-28-april-1804/ (texto de la página)",
+     "cita_original": "Jean-Jacques Dessalines to the Inhabitants of Haiti, 28 April 1804, CO 137/111, The National Archives of the United Kingdom. [transcription of the “I have Avenged America” speech]",
+     "traduccion": "Jean-Jacques Dessalines a los habitantes de Haití, 28 de abril de 1804, CO 137/111, Archivos Nacionales del Reino Unido [transcripción del discurso «He vengado a América»]; la página añade la copia impresa en CO 137/113 y la traducción publicada por la prensa estadounidense (New-York Commercial Advertiser, 4-VI-1804).",
+     "afirmaciones": [
+      "A-071"
+     ]
+    },
+    {
+     "ubicacion": "fotografía dscf9968.jpg de la misma página (Kew, CO 137/111, folio 307)",
+     "cita_original": "Proclamation. Jean-Jacques Dessalines, Gouverneur Général, Aux Habitans D'Haïti.",
+     "traduccion": "Proclama. Jean-Jacques Dessalines, Gobernador General, a los Habitantes de Haití (encabezado manuscrito de la copia de Kew).",
+     "afirmaciones": [
+      "A-071",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "fotografía dscf9969.jpg de la misma página (Kew, CO 137/111, folio siguiente)",
+     "cita_original": "Oui, j'ai sauvé mon pays, j'ai vengé l'Amérique. Mon orgueil et ma gloire sont dans l'aveu que j'en fais à la face des mortels et des dieux.",
+     "traduccion": "Sí, he salvado mi país, he vengado a América. Mi orgullo y mi gloria están en la confesión que de ello hago ante los mortales y los dioses (transcripción propia de la fotografía manuscrita; coincide con Madiou, Ardouin y el Recueil).",
+     "afirmaciones": [
+      "A-071",
+      "A-072",
+      "A-073"
+     ]
+    },
+    {
+     "ubicacion": "haitidoi.com/2015/10/26/dessalines-reader-8-may-1804/ (texto de la página)",
+     "cita_original": "Jean-Jacques Dessalines to the inhabitants of the Spanish part of the island, 8 May 1804, MS 72, National Library of Jamaica.",
+     "traduccion": "Jean-Jacques Dessalines a los habitantes de la parte española de la isla, 8 de mayo de 1804, MS 72, Biblioteca Nacional de Jamaica; copias en CO 137/111 y 113 y traducción en New-York Commercial Advertiser, 4-VI-1804, p. 3.",
+     "afirmaciones": [
+      "A-079",
+      "A-085"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-071",
+    "A-072",
+    "A-073",
+    "A-079",
+    "A-085"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "La página no transcribe el texto: publica cuatro fotografías (dscf9968-9971.jpg, ~4 MB) de la copia de Kew. Se leyeron las dos primeras (folio 307 con encabezado «Aux Habitans D'Haïti» y el folio con «j'ai vengé l'Amérique»); la transcripción es mía, cotejada con Ardouin t. VI p. 66-67 y Recueil t. I p. 22. Tradición «internacional» (Gaffield) aunque el contenido es haitiano. Solo verificación parcial (se leyeron 2 de las 4 fotografías). La mención de la copia de Jamaica (MS 72) para la proclama del 8-V-1804 refuerza que ese texto circuló fuera de Haití."
+  },
+  {
+   "titulo": "Robert Paret répond à un historien dominicain (carta abierta a Manuel Núñez, Pétion-Ville, 7-I-2014; Le Nouvelliste, «Pages retrouvées», 10-I-2014)",
+   "autor": "Paret, Robert",
+   "anio": "2014",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "http://lenouvelliste.com/lenouvelliste/article/126023/Robert-Paret-repond-a-un-historien-dominicain.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Carta de opinión de un autor haitiano (cuya calidad profesional no consta en la página) respondiendo a Manuel Núñez tras la sentencia TC/0168/13: voz de la doctrina del derecho de Basilea, con un error de fecha evidente.",
+   "proveniencia": "Robert Paret, firmante desde Pétion-Ville el 7-I-2014; escribe a Manuel Núñez (escritor, historiador, profesor universitario dominicano) en el contexto de la desnacionalización de dominicanos de ascendencia haitiana y de la polémica sobre Dessalines y Mandela. Publicado en Le Nouvelliste (Opiniones) y recuperado el 10-I-2014. Es una reacción política, no historiografía.",
+   "extractos": [
+    {
+     "ubicacion": "Paret 2014 (l. 56 del texto extraído); error de año en el texto (1802 por 1801); «7.000 hombres» sin fuente",
+     "cita_original": "En janvier 1802, un corps expéditionnaire de 7,000 hommes commandé par Toussaint Louverture, gouverneur-général de la colonie de Saint-Domingue, arriva à Santo-Domingo afin de prendre possession de cette partie du territoire",
+     "traduccion": "En enero de 1802 [sic: fue 1801], un cuerpo expedicionario de 7.000 hombres al mando de Toussaint Louverture, gobernador general de la colonia de Saint-Domingue, llegó a Santo Domingo para tomar posesión de esa parte del territorio, cedida a Francia por España en virtud del tratado de Basilea de 1795.",
+     "afirmaciones": [
+      "A-067",
+      "A-068"
+     ]
+    },
+    {
+     "ubicacion": "Paret 2014 (l. 57 del texto extraído)",
+     "cita_original": "En 1805, l'empereur Jean-Jacques Dessalines réitéra cette même volonté en vertu de la Constitution haïtienne de 1805 qui établit l'unité de l'île.",
+     "traduccion": "En 1805 el emperador Jean-Jacques Dessalines reiteró esa misma voluntad en virtud de la Constitución haitiana de 1805, que establece la unidad de la isla [porque Ferrand y sus tropas se habían refugiado allí tras la derrota de noviembre de 1803].",
+     "afirmaciones": [
+      "A-079",
+      "A-069"
+     ]
+    },
+    {
+     "ubicacion": "Paret 2014 (l. 60 del texto extraído); la carta no menciona Moca, Santiago ni la retirada de 1805",
+     "cita_original": "les diverses interventions de l'armée haïtienne dans l'ancien territoire espagnol étaient tout à fait régulières et de plein droit, en vertu du traité de Bâle dont les clauses n'avaient jamais été dénoncées",
+     "traduccion": "las diversas intervenciones del ejército haitiano en el antiguo territorio español eran del todo regulares y de pleno derecho, en virtud del tratado de Basilea, cuyas cláusulas nunca habían sido denunciadas por ningún otro acuerdo.",
+     "afirmaciones": [
+      "A-067",
+      "A-079"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-067",
+    "A-068",
+    "A-069",
+    "A-079"
+   ],
+   "modulos": [
+    "M06",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo de uso contemporáneo de la tesis jurídica de Basilea como justificación de las «intervenciones» haitianas de 1801, 1805 y 1822 («régulières et de plein droit»). Contiene el error «janvier 1802» para la toma de posesión de Toussaint. La carta parte de la polémica 2013-2014 (M16)."
+  },
+  {
+   "titulo": "Un révolutionnaire ne saurait oublier Jean-Jacques Dessalines (Le Nouvelliste, 18-X-2012)",
+   "autor": "Jean-Mary, Stanley (Doudy)",
+   "anio": "2012",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/110014/un-revolutionnaire-ne-saurait-oublier-jean-jacques-dessalines",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de opinión de un militante de izquierda haitiano en el aniversario del 17 de octubre; sin aparato crítico pero representativo de la lectura «revolucionaria» de Dessalines (estatal-popular).",
+   "proveniencia": "Stanley Jean-Mary (Doudy) publica en la sección de opinión de Le Nouvelliste el 18-X-2012 un texto de homenaje a Dessalines en el aniversario de su muerte (17-X-1806), con tesis de clase: Christophe (élite negra) y Pétion (élite mulata) lo eliminaron porque nacionalizó los bienes de los colonos; justifica la matanza de los franceses y la campaña del Este como necesidades de defensa revolucionaria.",
+   "extractos": [
+    {
+     "ubicacion": "Jean-Mary 2012 (l. 55 del texto extraído); lectura marxista-noirista que asume la responsabilidad de Dessalines",
+     "cita_original": "Convaincu que la présence des anciens colons français dans le nouvel État indépendant et celle des colons espagnols esclavagistes à l'Est constituaient une menace pour la révolution fraîchement victorieuse, il dirigea lui-même le massacre de ces anciens colons français et la campagne de l'Est.",
+     "traduccion": "Convencido de que la presencia de los antiguos colonos franceses en el nuevo Estado independiente y la de los colonos españoles esclavistas en el Este constituían una amenaza para la revolución recién victoriosa, dirigió él mismo la matanza de esos antiguos colonos franceses y la campaña del Este.",
+     "afirmaciones": [
+      "A-079",
+      "A-083"
+     ]
+    },
+    {
+     "ubicacion": "Jean-Mary 2012 (l. 147 del texto extraído)",
+     "cita_original": "la conquête de l'est pour enlever aux forces contre révolutionnaires une base militaire étaient des nécessités liées aux conditions matérielles de l'epoque",
+     "traduccion": "la conquista del este para quitar a las fuerzas contrarrevolucionarias una base militar eran necesidades ligadas a las condiciones materiales de la época.",
+     "afirmaciones": [
+      "A-079"
+     ]
+    },
+    {
+     "ubicacion": "Jean-Mary 2012 (l. 145 del texto extraído)",
+     "cita_original": "la destruction systématique des moyens de production, de toutes les richesses accumulées par trois siècles de colonisation, la mort de milliers de pesonnes étaient le coût de l'indépendance",
+     "traduccion": "la destrucción sistemática de los medios de producción, de todas las riquezas acumuladas en tres siglos de colonización, la muerte de miles de personas eran el costo de la independencia.",
+     "afirmaciones": [
+      "A-083",
+      "A-080"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-079",
+    "A-080",
+    "A-083"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Representa el extremo celebratorio: reconoce el «massacre» y «la campagne de l'Est» como obra directa de Dessalines y los justifica; no habla de Moca, Santiago ni de las cifras. Contrasta con Ardouin (mulatrista, crítico) y con Madiou («l'histoire ne peut le justifier»); sirve para la matriz de simetría de A-079/A-083."
+  },
+  {
+   "titulo": "La contribution de la Péninsule du Sud au processus de création d'Haïti (1 de 2) (Le Nouvelliste, 6-VII-2016)",
+   "autor": "Hall, Alin Louis",
+   "anio": "2016",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.lenouvelliste.com/article/160684/la-contribution-de-la-peninsule-du-sud-au-processus-de-creation-dhaiti-1-de-2",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de opinión regional (Sur) que solo se usa por la cita de un historiador universitario (Michel Hector); la nota de origen no consta en el HTML.",
+   "proveniencia": "Alin Louis Hall publica en Le Nouvelliste el 6-VII-2016 un artículo para conmemorar el encuentro Dessalines-Geffrard de 5-VII-1803 en Camp-Gérard (Cayes) y reivindicar el papel del Sur en la guerra de independencia; cita al historiador Michel Hector. Se leyó solo el párrafo inicial pertinente.",
+   "extractos": [
+    {
+     "ubicacion": "Hall 2016 (l. 44 del texto extraído); cita de Michel Hector con llamada (1) no localizada en el HTML",
+     "cita_original": "Il se consolide au Congrès de l'Arcahaie en mai 1803 et culmine avec la rencontre Dessalines - Geffrard au Camp-Gérard le 5 juillet",
+     "traduccion": "[El proceso unitario] se consolida en el Congreso de Arcahaie en mayo de 1803 y culmina con el encuentro Dessalines-Geffrard en Camp-Gérard el 5 de julio [cita de Michel Hector (UEH), transcrita por el autor del artículo; no da el día 18].",
+     "afirmaciones": [
+      "A-070"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-070"
+   ],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Útil únicamente como testimonio de la datación académica haitiana contemporánea del congreso de Arcahaie («mai 1803»). Verificación parcial: no se leyó el artículo entero."
+  },
+  {
+   "titulo": "Constitutions et luttes de pouvoir en Haïti (1804-1987), t. 1: La faillite des classes dirigeantes (Port-au-Prince, Éditions du CIDIHCA/Deschamps, 1988; t. 2, 1990)",
+   "autor": "Moïse, Claude",
+   "anio": "1988-1990",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/31761063943880",
+   "urls_alternativas": [
+    "https://archive.org/details/31761036281269",
+    "https://archive.org/download/31761036281269/31761036281269_djvu.txt",
+    "https://archive.org/download/31761063943880/31761063943880_djvu.txt"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "401/403",
+   "formato": "txt",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de referencia del constitucionalismo haitiano por un politólogo y ministro de Estado; no se pudo leer.",
+   "proveniencia": "Claude Moïse, politólogo e historiador haitiano; la obra es de 1988 (t. 1) y 1990 (t. 2). Las dos copias de archive.org (31761036281269 y 31761063943880) son préstamos controlados: el OCR devuelve 401 y 403.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0124",
+   "notas": "Sin acceso al texto. Resultado de la búsqueda en la API de archive.org (2 ítems); la ronda M08 ya reportó 401. Para M06 interesaría su lectura de la constitución de 1805 y de la doctrina territorial; se deja como laguna."
+  },
+  {
+   "titulo": "Les marrons de la liberté (Jean Fouchard; ed. 1972, reed. Henri Deschamps 1988)",
+   "autor": "Fouchard, Jean",
+   "anio": "1972; 1988",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://catalogue.bnf.fr/ark:/12148/cb120551150",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Clásico de la historiografía haitiana sobre el cimarronaje, bajo derechos de autor; solo localizado en catálogo.",
+   "proveniencia": "Jean Fouchard (Puerto Príncipe, 1912-1990), historiador, periodista y diplomático haitiano; la ficha de la BnF (autoridad de persona) lista «Les Marrons de la liberté / J. Fouchard, 1988» entre sus fuentes (resumen devuelto por WebFetch, no copia literal). La primera edición de 1972 y la traducción inglesa de 1981 son datos de memoria [POR VERIFICAR].",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M06"
+   ],
+   "id_existente": "F-0110",
+   "notas": "No se localizó texto completo en línea (búsquedas en archive.org, dLOC y web). Pasa de no-localizada a bajo-derechos con ficha de catálogo. No toca ninguna afirmación del módulo con extractos verificados."
+  }
+ ]
+}
