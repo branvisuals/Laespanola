@@ -17,9 +17,10 @@ Investigación documental sobre la historia de la isla de La Española (Ayiti, Q
 
 ## Estado
 
-- **Fase 0** (infraestructura): en curso.
-- **Fase 1** (narrativas y registro de afirmaciones): pendiente.
-- Fases 2 a 8: pendientes. Ver `00-plan/plan.md`.
+- **Fase 0** (infraestructura): completa (2026-10-06).
+- **Fase 1** (narrativas y registro de afirmaciones): completa (2026-10-06). Tres narrativas en `03-afirmaciones/narrativas/` y 263 afirmaciones contrastables en `03-afirmaciones/registro.md` y `registro.csv`, todas en estado pendiente de verificación.
+- **Fase 2** (barrido de fuentes por módulo): pendiente de dos decisiones de infraestructura (modo de acceso a la red y cupo de búsquedas web), ver `00-plan/decisiones.md`.
+- Fases 3 a 8: pendientes. Ver `00-plan/plan.md`.
 
 ## Método en una frase
 
