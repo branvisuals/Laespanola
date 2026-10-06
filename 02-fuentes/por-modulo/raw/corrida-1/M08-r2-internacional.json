@@ -1,0 +1,1453 @@
+{
+ "lente": "internacional",
+ "modulo": "M08",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 13,
+ "busquedas_pendientes": [
+  "Núñez, Manuel, La lengua española, compañera de la nación dominicana (2005) pdf o discurso de ingreso a la Academia Dominicana de la Lengua",
+  "Hidalgo, La primera inmigración de negros libertos norteamericanos (ADH vol. 128, 2016) pdf en catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros",
+  "Puig Ortiz 1978 Emigración de libertos norteamericanos a Puerto Plata (pdf o preview)",
+  "E. Valerie Smith 1987, Journal of Negro History 72: Samaná 'Immigrants' (vista previa de JSTOR)",
+  "Genius of Universal Emancipation agosto de 1825 (Samaná 460) en Chronicling America / Google Books",
+  "Stieber, Haiti's Paper War: reseña de Perry (NWIG 95, 2021) por vía alterna de Brill",
+  "Sheller 2000 'The Army of Sufferers' (NWIG 74) y J. Gonzalez 2012 'The War on Sugar' para A-115",
+  "Lora Hugi 2012 (ADH vol. 100) pdf en catalogo.academiadominicanahistoria.org.do",
+  "Moya Pons 1972 y 6.ª ed. (ADH vol. 168) pdf",
+  "Batista Lemaire 2025 (ADH vol. 171 / AGN vol. 540) pdf",
+  "Ulrickson 2018 PDF desde un navegador manual (figshare.com/ndownloader/files/43575072)",
+  "Cassá 2002 Historia social y económica de la República Dominicana, pp. 174-175 (A-100)"
+ ],
+ "lagunas": [
+  "A-094 (cifra de liberados): sigue sin padrón ni lista primaria de libertos de 1822. La mejor base trazable es de Walker (2018, p. 24-25): 'al menos 12.000' esclavizados al final de la España Boba, cerca de una quinta parte de 62.092 habitantes (Kindelán, 17-V-1821, AGI-SD 970); Eller (Island Luminous) da 12.000-14.000 hacia 1791. La cifra de prensa '>10.000 liberados' queda compatible con ese rango pero sin fuente primaria propia.",
+  "A-095 (voces de libertos): aparecen testamentos de libertas (A. Cabral 1825, A. Saviñón 1827, en Walker pp. 92 y 96), un acta notarial de abril de 1822 (voz de propietarios sobre los libertos que se iban a los regimientos, Walker p. 112) y la movilización de oficiales africanos liberados el 27-II/1-III-1844 (Pou, Cruz, Basora; Walker pp. 232-233). No se halló una petición de libertos del período 1822-1830; la tesis de Ulrickson (2018) que probablemente las trae no se pudo leer (PDF tras desafío AWS WAF).",
+  "A-099/A-098 (Universidad): hay respaldo primario para la banda de edad 16-25 años en la circular de Boyer del 3-XII-1823 (Recueil III, n.º 865, p. 635), pero esa circular corrige el reclutamiento de hombres casados y NO nombra la Universidad; el vínculo con el cierre es inferencia de Granda (1993-94, p. 210). La 'disposición presidencial de 5 de enero [1823]' sobre bienes eclesiásticos que Granda cita no se localizó. Siguen sin consultarse matrículas y claustros de 1810-1822 ni el archivo del cabildo eclesiástico.",
+  "A-105 (inmigración afroamericana): no hay padrón primario de llegados. Rango según autor y base: unos 5.000 (Gibson 2011; Martínez-Fernández 1995), más de 6.000 (Davidson 2015, que repite la cifra del cupo sin fuente), hasta 13.000 (Hunt 1860, memoria 33 años posterior; Fanning 2008 'as many as'; Sepinwall sin fuente). Samaná: 460 personas hacia abril de 1825 (Fanning p. 127) frente a un plan de 200-500 plazas (Dewey, Correspondence, p. 27, según Fanning). La fuente de esa cifra en el Genius of Universal Emancipation de agosto de 1825 no se abrió. Hidalgo (tesis de Central Michigan 2003; libro de la ADH 2016) y Puig Ortiz (1978) no se pudieron leer.",
+  "A-107/A-108 (lengua): la circular del 14-XI-1824 aparece en dos textos distintos (Recueil IV, n.º 917, a los comandantes del Este sobre la correspondencia con el gobierno; y la que reproduce Jansen vía Núñez 2005, a un comisario sobre los actos judiciales y notariales). La circular del 27-VIII-1839 solo se conoce por Jansen (cita a Núñez 2005); no se localizó el libro de Núñez ni se halló en el OCR de varios volúmenes del Recueil. El registro no tiene afirmación sobre lengua: se propone crearla.",
+  "A-109 (ley de 1824): la ley del 8-VII-1824 (Recueil IV, n.º 894, p. 45) y la fecha del exilio de Valera (1830; Martínez-Fernández p. 72; Keane-Dawes tesis pp. 186-187) quedan confirmadas, pero la redacción del registro ('declaró bienes del Estado los terrenos comuneros no titulados') no coincide con Walker (pp. 80-81), para quien el art. 5 ordena revisar los derechos fraccionarios de los terrenos comuneros, y los bienes nacionalizados son cuatro categorías. Keane-Dawes (p. 256: sueldos mensuales a los curas) y Martínez-Fernández (p. 70: el régimen dejó de pagar sueldos) discrepan sobre los salarios clericales.",
+  "A-100 (reparto de tierras): el argumento de Venator/Cassá (reparto de tierras abandonadas a exesclavos) choca con Yingling (p. 642: solo benefició a oficiales) y con Walker (p. 129: tras 1825-26 la administración excluyó a la mayoría de los cultivadores y soldados rasos de los dons nationaux); Walker (pp. 80, 187) deja abierta la vía de los terrenos comuneros como acceso individual a la propiedad. No se leyó Bosch cap. XIV ni Cassá 2002.",
+  "A-113: la caída de Boyer figura como 13-II-1843 (Keane-Dawes, tesis p. 202), 13-III-1843 (A-113) y 12-III-1843 (ronda 1); sin resolver (falta Madiou t. VIII).",
+  "No se pudieron leer, y siguen pendientes: Walker 2019 (Slavery & Abolition 40(3), cerrado), Keane-Dawes 2020 (Atlantic Studies 17(4), cerrado), Ulrickson 2018 (PDF en Figshare tras AWS WAF, no evadido), Davidson 2026 (AHR; OUP con Cloudflare, no evadido), Yingling 2022 (libro; solo la tesis), Fanning 2015 (libro cerrado), Moya Pons 1972, Batista Lemaire 2025 (sin PDF localizado), Lora 2012. F-0157 Stieber sigue sin texto (solo reseñas: Glover, Perry NWIG 2021 con Brill bloqueado).",
+  "SESGO de la academia internacional en este módulo: (1) la corriente anglófona-atlántica reciente (Walker, Yingling, Keane-Dawes, Eller, Venator, Ulrickson) es revisionista y declara de forma explícita que 'dominación' u 'ocupación' fue un invento de la historiografía trujillista (Walker, p. 31) y presenta como 'consenso creciente' lo que es una escuela; no es un conteo de la profesión, y varios de sus autores se citan y dirigen entre sí (mismo programa en USC; comité de Yingling con Eller; paneles AHA 2017-2018). (2) Sus fuentes de 1822-1844 son sobre todo protocolos notariales de la capital y del sureste, y despachos de monárquicos exiliados hostiles al régimen haitiano (Fernández de Castro, Brenes, Pérez Guerra): el tipo de voz (propietarios, curas, notarios) condiciona la imagen. (3) La pobreza archivística es común: Gibson (p. 218) y Venator (p. 74) la reconocen. (4) La tradición hispanista (Granda, Martínez-Fernández) usa 'ocupación' y 'asimilación' y se apoya en Moya Pons. La fuente primaria (Recueil) deja a veces el cuadro más matizado que la interpretación de ambos lados (p. ej. el 16-25 de la circular de 1823).",
+  "Documentos del Recueil con OCR ruidoso: las citas de la circular del 3-XII-1823 se restauraron acentos y números a mano (el OCR lee 'i82d' por 1823); cotejar con la imagen en archive.org (identificador recueilgnral05hait)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "libertos de la palma",
+   "tradicion": "dominicana",
+   "nota": "Nombre (Rodríguez Demorizi, Moya Pons, según Walker 2018, p. 69 n.) del Regimiento 32 haitiano, formado por esclavizados liberados en el momento de la unificación o 'cuando Boyer plantó la palma de la libertad' en la plaza de la Catedral. La tradición haitiana usa 'arbre de la liberté' / 'affranchis'; [POR VERIFICAR] un equivalente haitiano. El Regimiento 31 era de gente ya libre."
+  },
+  {
+   "termino": "partie de l'Est / parte del Este / Haitian Santo Domingo / eastern Haiti",
+   "tradicion": "haitiana",
+   "nota": "Nombre oficial haitiano del territorio en el Recueil (la 'partie de l'Est de la République', 'réunie' en 1822); la tradición dominicana dice 'parte española', 'Santo Domingo español' o 'el Este'; la academia anglófona reciente usa 'Haitian Santo Domingo' o 'eastern Hispaniola'. Cada nombre contiene una tesis sobre la naturaleza de la unión (réunion/unificación vs dominación/ocupación)."
+  },
+  {
+   "termino": "dons nationaux / dones nacionales",
+   "tradicion": "haitiana",
+   "nota": "Concesiones de tierras del Estado a militares y funcionarios (práctica de Pétion, continuada por Boyer; en los documentos del este se escribe 'dones nacionales' o 'Don Nacional'; Walker 2018, p. 127). No equivale a 'reparto de tierras a campesinos'."
+  },
+  {
+   "termino": "terrenos comuneros / acciones de tierra (actions de terre)",
+   "tradicion": "dominicana",
+   "nota": "Derechos fraccionarios indivisos sobre grandes extensiones, propios del hato; la ley haitiana del 8-VII-1824 (art. 5) mandó revisarlos y Boyer los llamó 'droits d'usage, de culture, de hatte ou de vénerie' (1840, en Walker p. 187). Su conversión en propiedad individual es una de las discusiones sobre quién se benefició."
+  },
+  {
+   "termino": "Independencia efímera / Independencia Boba / Estado Independiente del Haití Español",
+   "tradicion": "dominicana",
+   "nota": "El proyecto del 1-XII-1821 (Núñez de Cáceres): 'efímera' (Bryan) y 'boba' (C. Sánchez y Sánchez 1937) en la historiografía dominicana; 'Estado Independiente de la Parte Española de Haití' en su propia acta constitutiva; para Yingling (2016, p. 643) es la 'primera independencia' que el nacionalismo reconoce por sobre la unificación popular. Posible término de M07."
+  },
+  {
+   "termino": "esclavos que fueron",
+   "tradicion": "dominicana",
+   "nota": "Forma como un cura parroquial identificaba a los liberados tras 1822 (cita de Ulrickson 2018, resumen); marca eclesiástica de la condición de exesclavizado en una época de 'armonía racial' retórica."
+  },
+  {
+   "termino": "planeamiento lingüístico frustrado (Granda) / política simbólica (Jansen)",
+   "tradicion": "ninguna",
+   "nota": "Dos lecturas académicas rivales de las circulares de 1824 y 1839: Granda (hispanista) ve un intento de sustitución total del español por el francés que fracasó; Jansen (romanista) ve una política de afirmación simbólica sin voluntad de difundir el francés. El glosario no recoge términos neutros para el hecho: 'circulares del gobierno de Boyer sobre la lengua de los actos públicos del este'."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Remaking the Catholic Church in Santo Domingo: Haitian State Reform and Its Consequences",
+   "autor": "Keane-Dawes, Antony Wayne",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2023/https://brill.com/downloadpdf/journals/nwig/94/3-4/article-p245_2.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1163/22134360-bja10011",
+    "https://brill.com/downloadpdf/journals/nwig/94/3-4/article-p245_2.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (copia de la Wayback Machine, 27 pp.; el servidor de Brill responde 202 con cuerpo vacío a curl)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en acceso abierto diamante (CC BY-NC 4.0), basado en cartas del archivo arzobispal (AHASD), AGN-RD y AGI citadas por legajo.",
+   "proveniencia": "Antony Wayne Keane-Dawes, entonces doctorando de la Universidad de South Carolina (director Matt Childs), publica en New West Indian Guide 94(3-4), pp. 245-271, para la academia atlántica anglófona. Usa correspondencia entre vicarios y el arzobispo Valera, peticiones de vecinos (Moca 1827, San José de las Matas 1829, Santo Domingo 1832) y un sermón de 1843. No presenció los hechos; su interés es mostrar que la reforma eclesiástica de 1824 abrió a los feligreses una segunda autoridad a la que apelar. Es el artículo que el crítico de completitud pedía para leer la relación Iglesia-Estado desde abajo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 245-246 (viñeta inicial)",
+     "cita_original": "On August 14, 1827, a group of Dominicans from the town of Moca [...] petitioned Archbishop Pedro Valera y Jiménez for a new priest.",
+     "traduccion": "El 14 de agosto de 1827 un grupo de dominicanos de Moca pidió al arzobispo Valera un nuevo cura (AHASD, Vicaría del Clero, estante 1, anaquel 81, caja 4, n.º 10).",
+     "afirmaciones": [
+      "A-108",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 261",
+     "cita_original": "Among the signatures of the Mocanos petition were the town's military officer Captain Agustin Sicard, his administrative assistant Manuel Angeles, and 'the majority of the inhabitants.'",
+     "traduccion": "La petición de Moca llevaba las firmas del capitán Sicard (oficial militar de la plaza), su ayudante y 'la mayoría de los habitantes': una voz local dirigida al arzobispo, no al Estado haitiano.",
+     "afirmaciones": [
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 256",
+     "cita_original": "On July 8, 1824, the Haitian State passed a law to move forward with larger land reform in Santo Domingo, enabling it to seize land from the Church.",
+     "traduccion": "El 8 de julio de 1824 el Estado haitiano aprobó la ley que le permitía apropiarse de tierras de la Iglesia en Santo Domingo (la fecha de A-109 queda confirmada).",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 256",
+     "cita_original": "Under the 1824 law, the Haitian State was to provide monthly salaries for priests, making them the government's dependents.",
+     "traduccion": "Según la ley de 1824 el Estado pagaría sueldos mensuales a los curas, que quedaban como dependientes del gobierno. Discrepa de Martínez-Fernández 1995 (p. 70), que dice que el régimen dejó de pagar los sueldos del clero.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 255",
+     "cita_original": "The Church became one of the largest landowners in the former Spanish colony because of the process through which capellanías were obtained.",
+     "traduccion": "La Iglesia era de los mayores propietarios por el mecanismo de las capellanías; la comisión de tierras (con Borgella y seis dominicanos) recomendó secuestrar cuatro categorías de bienes, entre ellas los bienes eclesiásticos y las hipotecas a favor de la catedral (cita a Moya Pons 2008: 222-223).",
+     "afirmaciones": [
+      "A-109",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 265 y n. 63",
+     "cita_original": "Valera y Jiménez soon left for Havana accompanied by former vicar general Bernardo Correa y Cidrón",
+     "traduccion": "Valera salió pronto hacia La Habana (el artículo no da el año en este pasaje). La nota 63 recoge que García y Madiou difieren sobre las razones: García presenta al arzobispo como víctima; Madiou, como una dimisión implícita al pedir pasaporte.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 265-266",
+     "cita_original": "more than 100 of the most notable of the people without counting the women and children",
+     "traduccion": "Petición de 1832 de 'notables dominicanos' al comandante general del distrito (AGN-RD, Col. J. G. García 4, 11, C40, exp. 1, doc. 16): piden al poder civil haitiano, y no a la Iglesia, la remoción de un cura.",
+     "afirmaciones": [
+      "A-108",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 267",
+     "cita_original": "Boyer 'looked to give Dominicans a fraternal arm [...] But when the men entered, how far they were from keeping their promises!'",
+     "traduccion": "Sermón del presbítero Gaspar Hernández (30-IV-1843): lee los 21 años como una promesa fraterna defraudada. Keane-Dawes lo contrapone a las peticiones locales y concluye que los decretos eclesiásticos no explican por sí solos el fin del dominio haitiano.",
+     "afirmaciones": [
+      "A-107",
+      "A-108",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 258",
+     "cita_original": "Other historians have questioned the extent of the Haitian State reforms and challenged scholarly interpretations that overstate the impact",
+     "traduccion": "Aviso del propio autor: Eller (2016: 21-58), Lora Hugi (2012) y Venator Santiago relativizan el alcance real de las reformas haitianas.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-107",
+    "A-108",
+    "A-109"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Sesgo: lectura revisionista de la 'nueva historiografía' anglófona sobre la unificación (cita a Eller, Lora Hugi, Nessler, Ulrickson, Walker y Yingling como corriente); el propio artículo dice que la literatura dominicana presenta la reforma como un agravio que contribuyó a 1844. Hechos que confirma: ley del 8-VII-1824; comisión de tierras; salarios clericales; Valera sale hacia La Habana. NO da cifras de liberados ni lista de bienes. La fecha del exilio de Valera (1830) no aparece en el artículo; sí en Martínez-Fernández 1995 (p. 72) y en la tesis del mismo autor (p. 186-187, pasaportes del 17-26 de julio de 1830). El archivo AHASD sigue siendo [POR VERIFICAR] en original. La tesis de la que sale está en la entrada siguiente."
+  },
+  {
+   "titulo": "A Divisive Community: Race, Nation, and Loyalty in Santo Domingo, 1822-1844 (tesis doctoral)",
+   "autor": "Keane-Dawes, Antony Wayne",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2023/https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=5805&context=etd",
+   "urls_alternativas": [
+    "https://scholarcommons.sc.edu/etd/4809",
+    "https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=5805&context=etd"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (copia de la Wayback Machine, 253 pp.; scholarcommons.sc.edu devuelve 403 anti-bot a curl)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de acceso abierto (University of South Carolina, director Matt D. Childs) con aparato crítico y archivos citados por legajo (AGI, AHN, TNA, AGN-RD, ANC Cuba).",
+   "proveniencia": "Antony Wayne Keane-Dawes (USC, 2018) estudia cómo la unificación redefinió lealtades: las élites blancas pasaron a la monarquía española y otros sectores al republicanismo haitiano y la emancipación. Se apoya sobre todo en informes de monárquicos exiliados (Fernández de Castro, Brenes), el cónsul británico Mackenzie y peticiones de 1834 a Isabel II. Se leyeron la portada, el resumen, el índice y los pasajes sobre libertos, indemnización, Código Rural y salida de Valera; el resto (253 pp.) no.",
+   "extractos": [
+    {
+     "ubicacion": "p. 150 (cap. 4; despacho de Mackenzie a Canning, Puerto Príncipe, 2-VII-1827, TNA FO 35/5)",
+     "cita_original": "the Haitian government forced the inhabitants in Santo Domingo to contribute revenue for paying the indemnity",
+     "traduccion": "Según el cónsul británico Mackenzie (tal como lo resume Keane-Dawes), el gobierno haitiano obligó a los habitantes del este a contribuir con ingresos para pagar la indemnización a Francia.",
+     "afirmaciones": [
+      "A-103",
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "p. 150 y n. 481",
+     "cita_original": "changing the language of official documents from Spanish to French alienated Dominicans",
+     "traduccion": "Mackenzie sostiene que cambiar la lengua de los documentos oficiales del español al francés enajenó a los dominicanos; Keane-Dawes advierte que probablemente no se aplicó tan rígidamente (cita a González Canalda 2014 y Eller 2016).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 147",
+     "cita_original": "The final version of the Code Rural was expansive consisting of 202 articles",
+     "traduccion": "El Código Rural definitivo tenía 202 artículos; el autor señala que el borrador de proclama de Boyer de 1826-27 no coincide con los artículos del Código real.",
+     "afirmaciones": [
+      "A-101",
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "p. 186-187 (cap. 5; AGI Cuba 2014 'Pasaportes'; Capitán General de Puerto Rico, 30-IV-1830, AHN-Estado 3395, exp. 4)",
+     "cita_original": "From 17 July to the 26 July 1830, the Haitian government issued passports",
+     "traduccion": "Entre el 17 y el 26 de julio de 1830 el gobierno haitiano expidió pasaportes a quienes salían hacia Cuba, entre ellos el arzobispo Valera y Correa y Cidrón; el autor lee los pasaportes como migración voluntaria y no como expulsión.",
+     "afirmaciones": [
+      "A-109",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "p. 84-85 (cap. 2; Fernández de Castro a Ultramar, 3-X-1822, AGI-SD 970; informe del 6-VII-1824, AGI Estado 4.7)",
+     "cita_original": "libertos and their former masters in exchange for a fourth of their production",
+     "traduccion": "Plan del monárquico Fernández de Castro (1822): dejar a los libertos con sus antiguos amos a cambio de una cuarta parte de la producción; en 1824 elogió a libertos que 'trataban bien a sus antiguos amos'. Es voz de un observador hostil, no de libertos.",
+     "afirmaciones": [
+      "A-095",
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "p. 202 (cap. 5)",
+     "cita_original": "forced the Haitian president into exile on 13 February 1843",
+     "traduccion": "Fecha que da Keane-Dawes para la caída de Boyer: 13 de febrero de 1843; A-113 dice 13 de marzo y la ronda 1 anotó 12 de marzo (Island Luminous). Discrepancia de fechas no resuelta aquí.",
+     "afirmaciones": [
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-097",
+    "A-101",
+    "A-102",
+    "A-103",
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111",
+    "A-113",
+    "A-114"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Corresponde a M08-N61 de la ronda 1 (allí solo se leyó el resumen). Sesgo: tesis que acentúa la polarización racial de las lealtades y se apoya en monárquicos exiliados, cuya hostilidad al régimen haitiano es parte del dato; el autor lo advierte (p. 185: sobre las peticiones de 1834, 'one can only speculate on their claims' validity'). No se leyó el capítulo 3 completo (Iglesia, 1823-1833) ni el capítulo 5 completo. Fechas de la caída de Boyer: 13-II-1843 (esta tesis), 13-III-1843 (A-113) y 12-III-1843 (ronda 1): [POR VERIFICAR] contra Madiou t. VIII."
+  },
+  {
+   "titulo": "Strains of Unity: Emancipation, Property, and the Post-Revolutionary State in Haitian Santo Domingo, 1822-1844 (tesis doctoral)",
+   "autor": "Walker, Andrew",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://deepblue.lib.umich.edu/items/e405a05c-8219-49f4-a796-311e02b05ccd",
+   "urls_alternativas": [
+    "https://hdl.handle.net/2027.42/146083",
+    "https://deepblue.lib.umich.edu/bitstreams/0bb998ef-0935-4fb8-825d-6789527110e9/download"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 en el navegador integrado de Claude (ficha y PDF de 8,97 MB, 265 pp.; curl y WebFetch reciben el desafío Cloudflare 403). Texto extraído con pdf.js en memoria; no se guardó en disco.",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de la Universidad de Michigan (comité presidido por Rebecca J. Scott) basada en protocolos notariales, expedientes judiciales y correspondencia administrativa del AGN-RD, Archives Nationales d'Haïti, AGI y archivos de EE.UU.",
+   "proveniencia": "Andrew Walker (PhD Michigan 2018; luego Wesleyan) escribe para la academia atlántica anglófona; es el estudio de archivo más extenso sobre emancipación y propiedad en el este bajo gobierno haitiano. Lee las reformas desde los registros notariales de Santo Domingo y los juzgados de paz de Higüey, El Seibo y Azua. Su tesis central es que la Unificación fue negociada localmente (adaptación, alianzas estratégicas, disputas) y no una imposición ni una nacionalización de identidades. Se leyeron el resumen, el índice, la introducción (pp. 22-33), partes de los capítulos 2 a 5 y el epílogo; no se leyó el resto.",
+   "extractos": [
+    {
+     "ubicacion": "p. 24-25 (pdf 37-38; n. 45-47)",
+     "cita_original": "by the end of the España Boba period, at least 12,000 people were held as slaves, comprising approximately one-fifth of the colony's population of just over 62,000",
+     "traduccion": "A finales de la España Boba había al menos 12.000 esclavizados, cerca de una quinta parte de una población de algo más de 62.000. Base: censos y correspondencia administrativa (González 2011, Lora 2012, Turits 2003, Nessler 2016); la cifra de población es la del capitán general Kindelán, 62.092 (17-V-1821, AGI, Audiencia de Santo Domingo, leg. 970; citado en la n. 47).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 24 (n. 46)",
+     "cita_original": "Historians disagree about the population estimates for late-colonial Santo Domingo",
+     "traduccion": "Walker reconoce que los historiadores discrepan sobre la población; su '12.000 como mínimo' es una estimación, no un padrón de 1822. La cifra de 'más de 10.000 liberados' de la prensa sigue sin padrón primario.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 31-32 (pdf 44-45)",
+     "cita_original": "categorically refuted the once-pervasive characterization of the unification as a 'domination' or 'occupation'",
+     "traduccion": "La investigación reciente ha refutado categóricamente la caracterización de la unificación como 'dominación' u 'ocupación'. Es una tesis de escuela (revisionista) y no un dato; Walker describe la monografía de Moya Pons de 1972 como atenta a la emancipación pero partidaria de una oposición popular generalizada que culminó en 1844 (n. 59).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 33 (pdf 46)",
+     "cita_original": "The Haitian unification of Hispaniola was not an external imposition by national leaders in Port-au-Prince",
+     "traduccion": "La unificación no fue una imposición externa de los dirigentes de Puerto Príncipe ni se logró con fuerza militar prolongada; surge del archivo de concesiones, intercambios y disputas de propiedad, 'en presencia de fuerzas armadas'.",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 69 y n. (pdf 82)",
+     "cita_original": "Regiment 32 was made up of 'libertos de la palma'",
+     "traduccion": "Rodríguez Demorizi y Moya Pons coinciden en que el Regimiento 32 estaba formado por 'libertos de la palma', esclavizados liberados en el momento de la unificación; el Regimiento 31 era de gente ya libre.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 80-81 (pdf 93-94; n. 11-13)",
+     "cita_original": "review fractional rights to undivided shares of land (called terrenos comuneros)",
+     "traduccion": "Ley del 8-VII-1824, n.º 894 del Recueil (t. IV, p. 45): reafirma la expropiación de cuatro categorías de bienes (Estado anterior, bienes de quienes ayudaron a la flota francesa en Samaná, conventos, rentas eclesiásticas) y, en el art. 5, manda a los oficiales comunales revisar los derechos fraccionarios para repartir parcelas pequeñas entre rurales. NO declara de entrada 'bienes del Estado' los terrenos comuneros sin título, como dice A-109.",
+     "afirmaciones": [
+      "A-109",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 81 (pdf 94; n. 13)",
+     "cita_original": "has located only two cases of property embargoes by the Haitian state",
+     "traduccion": "González Canalda solo halló dos embargos estatales en los protocolos de dos notarios (la casa de un detenido por conspiración realista y una plantación abandonada); no hay campaña sistemática de confiscaciones de viviendas ocupadas.",
+     "afirmaciones": [
+      "A-109",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "p. 92 (pdf 105; n. 32)",
+     "cita_original": "adeuda esa pequeña cantidad por no habersele presentado nadie a cobrarle",
+     "traduccion": "Testamento de Antonia Cabral, 'oriunda de la Costa de África', 27-VIII-1825 (AGN-RD, Protocolos Notariales, sig. 709307): liberta que compró un bohío en suelo municipal 'recaído en el Estado' y dice que no pagó el alquiler porque nadie fue a cobrarlo. Voz de una liberta.",
+     "afirmaciones": [
+      "A-095",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 96 (pdf 109; n. 39-40)",
+     "cita_original": "habiendo adquirido la testadora su manumisión se pusieron a trabajar y adquirieron",
+     "traduccion": "Testamento de Antonia Saviñón, 27-III-1827 (AGN-RD, sig. 709316): tras su manumisión (anterior o no a 1822: el pasaje no lo dice) ella y su marido adquirieron una estancia y tres bohíos; en 1823 ganó el divorcio ante el Tribunal de Paz y la propiedad del bohío de La Atarazana.",
+     "afirmaciones": [
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 112 y n. 6 (pdf 125; Mueses, 9-IV-1822, AGN-RD, sig. 709302, doc. 15BIS)",
+     "cita_original": "los morenos han gozado de su plena libertad y separándose del cultivo de la Haz.da tomando cada uno su destino",
+     "traduccion": "Dos meses después de la unificación, dos socios de un ingenio de Monte Grande disuelven su compañía ante el notario Mueses porque 'se extinguió la esclavitud' y los morenos, libres, dejaron el cultivo y 'tomaron plaza en sus regimientos'. Declaración de propietarios sobre la conducta de los liberados.",
+     "afirmaciones": [
+      "A-095",
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "p. 118 (pdf 131; n. 14)",
+     "cita_original": "La abolición de la esclavitud abrió la brecha para la partida de aquellos esclavos que así lo deseaban",
+     "traduccion": "Walker cita a Lora Hugi sobre Higüey: la abolición dejó salir a quienes querían irse, pero 'muchos no tenían otra opción que quedarse con sus antiguos amos'; añade que muchos liberados de Santo Domingo y Higüey buscaron una vida 'independiente' en la medida de lo posible.",
+     "afirmaciones": [
+      "A-097",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 129 (pdf 142)",
+     "cita_original": "excluding most cultivators and rank-and-file soldiers",
+     "traduccion": "Tras la indemnización y el Código Rural, la administración de Boyer fue 'más selectiva' en las concesiones de tierra (dons nationaux) y excluyó a la mayoría de los cultivadores y soldados rasos (argumento de Jean-Alix René). Matiza que el reparto de tierras haya creado campesinado.",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 187 (pdf 200)",
+     "cita_original": "'use rights' for cultivation, ranching, or hunting, 'known by the name of acciones of land'",
+     "traduccion": "Boyer, Le Télégraphe, julio de 1840: reconoce a Pablo Báez, de Azua, derechos de uso sobre terrenos comuneros ('actions de terre'), que 'no constituían propiedad' bajo el régimen anterior, y le manda pedir título; la posesión y el uso podían fundar propiedad individual.",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 191 (pdf 204)",
+     "cita_original": "Tomás Bobadilla, himself a former member of the commission d'agence",
+     "traduccion": "Bobadilla, miembro de la comisión de agencia creada por la ley de 1824 (otras fuentes le atribuyen después el Manifiesto del 16-I-1844; no es dato de Walker), publicó en 1830 un folleto bilingüe español-francés defendiendo la unificación y avisando de que volver a España traería la reesclavización.",
+     "afirmaciones": [
+      "A-108",
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "p. 109 (pdf 122)",
+     "cita_original": "the Boyer administration pledged to fulfill an indemnity payment [...] of a staggering 150 million francs",
+     "traduccion": "Boyer aceptó la ordenanza de Carlos X ante una escuadra de catorce navíos de guerra: 150 millones de francos y rebaja de aranceles a la mitad para los barcos franceses.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 172 (pdf 185; n. 37)",
+     "cita_original": "enabling the state to pay off the outstanding debts triggered by the indemnity agreement",
+     "traduccion": "La titulación individual de terrenos comuneros prometía ingresos por impuesto predial 'para pagar las deudas del Estado causadas por la indemnización'; indica la vía fiscal por la que la indemnización alcanzó a la propiedad rural del este.",
+     "afirmaciones": [
+      "A-103",
+      "A-104",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 232-233 (epílogo; pdf 245-246; Madiou t. VIII, pp. 129-130)",
+     "cita_original": "forced the leaders of the new Junta Central Gubernativa to reiterate the permanent abolition of slavery",
+     "traduccion": "Al conocerse la separación del 27-II-1844, los oficiales africanos liberados Esteban Pou, José de la Cruz y Santiago Basora movilizaron gente en Monte Grande contra la Junta y la obligaron a reiterar la abolición (decreto del 1-III-1844). Muestra de liberados actuando como actores políticos.",
+     "afirmaciones": [
+      "A-095",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 115 (pdf 128)",
+     "cita_original": "by emigrating to Cuba",
+     "traduccion": "Varios hacendados del entorno de Santo Domingo vendieron sus fincas en los primeros años y emigraron a Cuba, siguiendo la ruta de Ferrer, Cuebas y Fernández de Castro; otros cambiaron de oficio sin salir de la isla.",
+     "afirmaciones": [
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "p. 21 (pdf 34; n. 41; AHN Estado leg. 130, exp. 6)",
+     "cita_original": "the peninsula was home to 678 residents, of whom 215 were enslaved",
+     "traduccion": "Padrón de Samaná del 2-XII-1818: 678 residentes, 215 esclavizados y 228 libres 'morenos' y 'pardos'. Es la base demográfica previa a la inmigración afroamericana de 1824.",
+     "afirmaciones": [
+      "A-105",
+      "A-094"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-097",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-105",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0151",
+   "notas": "Resuelve F-0151 (localizada-bloqueada en registro.csv). Numeración: página impresa = página del PDF - 13. La fuente no trata la Universidad (A-098, A-099), Samaná como inmigración afroamericana, ni la lengua, ni el Código Rural más que en el cap. 3. Sesgo: revisionista y centrada en la agencia local; el propio autor aclara que no ve 'cristalización de divisiones nacionalizadas' en 1844 y que la separación fue un conflicto de la élite propietaria. Tesis de escuela: 'consenso académico creciente' es su afirmación, no un conteo. El texto de la tesis se extrajo con pdf.js en el navegador integrado (el PDF abrió sin desafío en una navegación normal); no se evadió ningún CAPTCHA. Papel: Walker 2019 (Slavery & Abolition 40(3): 583-605) sigue cerrado."
+  },
+  {
+   "titulo": "Colonialism Unraveling: Race, Religion, and National Belonging in Santo Domingo during the Age of Revolutions (tesis doctoral; epílogo 'From Santo Domingo to the Spanish Part of Hayti')",
+   "autor": "Yingling, Charlton W.",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2023/https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4951&context=etd",
+   "urls_alternativas": [
+    "https://scholarcommons.sc.edu/etd/3925",
+    "https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=4951&context=etd"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (copia de la Wayback Machine, 692 pp., 5,0 MB; scholarcommons.sc.edu devuelve 403 anti-bot a curl)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de acceso abierto (University of South Carolina, director Matt D. Childs; comité con Anne Eller y Martine Jean) apoyada en documentos de AGI, AHN y AGN-RD citados por legajo; es la base del libro Siblings of Soil (2022, F-0134).",
+   "proveniencia": "Charlton W. Yingling (USC 2016) reconstruye la política de raza y religión del Santo Domingo de 1784-1822 y cierra con un epílogo (pp. 618-646) que da su lectura de 1822-1844. Escribe para la academia atlántica anglófona con una tesis explícita: la unificación fue la culminación de colaboraciones populares con el vecino y la memoria nacional dominicana la oculta. Se leyeron el resumen, el índice y el epílogo (pp. 618-646); los capítulos 1-7 (1784-1806) no, y no tratan la época 1822-1844.",
+   "extractos": [
+    {
+     "ubicacion": "p. 640 (epílogo; pdf 654)",
+     "cita_original": "It was not an aggressive invasion and unwarranted occupation.",
+     "traduccion": "Para Yingling la unificación fue la culminación de una larga colaboración y no una invasión agresiva ni una ocupación injustificada. Es una tesis interpretativa que rechaza el marco 'ocupación'.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 639 (epílogo; pdf 653)",
+     "cita_original": "greeted by thronging crowds of Dominicans",
+     "traduccion": "Boyer entró en Santo Domingo el 9-II-1822 sin que nadie lo detuviera y 'recibido por multitudes' (n. 59-61: AGI-SD 970, carta de Pérez Guerra al capitán general de Puerto Rico; Moya Pons, The Dominican Republic, pp. 120-124). Es una descripción en una sola dirección.",
+     "afirmaciones": [
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 638-639 (pdf 652-653; AGI-SD 970)",
+     "cita_original": "liberty, prosperity, and dominance over whites",
+     "traduccion": "El general español Tomás Pérez Guerra (carta al capitán general de Puerto Rico, fechada '31 de junio' [sic] de 1822, AGI-SD 970) atribuyó el apoyo de pueblos de la frontera a Haití a la solidaridad racial y a ofertas de 'libertad, prosperidad y dominio sobre los blancos'. Voz monárquica hostil, útil porque confirma que el apoyo local existía.",
+     "afirmaciones": [
+      "A-108",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 641 (pdf 655)",
+     "cita_original": "freed blacks mocked their former owners and eagerly assisted Boyer's forces",
+     "traduccion": "En los primeros días los liberados se burlaron de sus antiguos amos y ayudaron a las fuerzas de Boyer, pero los dominicanos de color 'se abstuvieron de violencia retributiva', en parte por la moderación que aconsejó Boyer, según Yingling.",
+     "afirmaciones": [
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 641-642 (pdf 655-656; AHN-Estado 3394 exp. 4; 3395 exp. 4)",
+     "cita_original": "Haitian forces reacted with several executions and dozens of expulsions",
+     "traduccion": "Frente a blancos que izaban la bandera española (Samaná y otros), las fuerzas haitianas respondieron con varias ejecuciones y decenas de expulsiones, entre ellas de curas.",
+     "afirmaciones": [
+      "A-111",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 642 (pdf 656)",
+     "cita_original": "Land redistribution of old plantations only benefited his officers, and not common Dominicans.",
+     "traduccion": "La redistribución de antiguas plantaciones solo benefició a los oficiales y no a los dominicanos comunes. Contradice la lectura de A-100 (reparto que crea campesinado) y coincide con Walker 2018, p. 129.",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 642 (pdf 656)",
+     "cita_original": "his conscription of Dominicans and poor pay for soldiers eroded his popular support with time",
+     "traduccion": "El reclutamiento de dominicanos y la mala paga erosionaron el apoyo popular con el tiempo: matiz de Yingling al apoyo inicial, con la misma fuente española.",
+     "afirmaciones": [
+      "A-107",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "p. 643 (pdf 657)",
+     "cita_original": "Sturdy independence, abolition, and republican rule had come to Santo Domingo through popular Dominican demand",
+     "traduccion": "La independencia, la abolición y el régimen republicano llegaron por demanda popular dominicana en coordinación con un ejército haitiano dirigido por Boyer; la historiografía y el nacionalismo dominicanos reconocen en cambio como primera independencia el proyecto de Núñez de Cáceres.",
+     "afirmaciones": [
+      "A-095",
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "Resumen, p. x-xi (pdf 11-12)",
+     "cita_original": "immediate emancipation, unqualified citizenship, and stable sovereignty",
+     "traduccion": "Resumen: Yingling sostiene que los dominicanos lograron 'la independencia hispanoamericana más progresista' (emancipación inmediata, ciudadanía sin cualificaciones, soberanía estable) al unirse a Haití en 1822.",
+     "afirmaciones": [
+      "A-095",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-099",
+    "A-100",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "Es la tesis de la que sale F-0134 (Siblings of Soil, 2022), que la ronda 1 solo conocía por entrevista y reseñas; la tesis corta en 1806 con epílogo hasta 1822-1844, de modo que el libro puede traer más sobre 1822+ que no se pudo cotejar. Sesgo: lectura abiertamente militante contra el nacionalismo dominicano ('this state of denial bolsters the Dominican state's historical justification of the most corrosive manifestations of national belonging and racial exclusion to this day', p. 644); sobrevalora la voz del apoyo popular con documentos que llegan por vía de informantes españoles hostiles. Cifra de tropas de Boyer: 'perhaps as many as 30,000' (p. 638) frente a 12.000 en Gibson y Martínez-Fernández y 12.000-14.000 en Walker (p. 54): rango 12.000-30.000, sin padrón. La ficha de acceso abierto del repositorio es https://scholarcommons.sc.edu/etd/3925 (no se abrió; solo la copia archivada del PDF)."
+  },
+  {
+   "titulo": "Race, Nation-Building and Legal Transculturation during the Haitian Unification Period (1822-1844): Towards a Dominican Perspective",
+   "autor": "Venator Santiago, Charles R.",
+   "anio": "2005",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2023/https://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1267&context=clevstlrev",
+   "urls_alternativas": [
+    "https://engagedscholarship.csuohio.edu/clevstlrev/vol52/iss1/5",
+    "https://engagedscholarship.csuohio.edu/cgi/viewcontent.cgi?article=1267&context=clevstlrev"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (copia de la Wayback Machine, 13 pp.; engagedscholarship.csuohio.edu devuelve 403 anti-bot a curl)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de simposio (LatCrit VIII, mayo de 2003) en una law review, revisado por editores, que su propio autor presenta como 'a work in progress' basado en literatura secundaria y colecciones de documentos y no en archivo.",
+   "proveniencia": "Charles R. Venator Santiago (Ithaca College, ciencia política y derecho) lo presentó en el simposio LatCrit VIII (Cleveland, 1-4 mayo 2003); Cleveland State Law Review 52(1): 63-74. Es la versión 'dominicana' de un par con otra ponencia 'hacia una perspectiva haitiana' (Florida Journal of International Law, 2004). Aplica la 'transculturación jurídica' de Ortiz al caso; no hizo trabajo de archivo y lo dice (p. 74). Se leyó completo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 63",
+     "cita_original": "the most progressive period of Dominican history in more than 400 years",
+     "traduccion": "Venator afirma que los 22 años de unificación fueron el período más progresista de la historia dominicana en más de 400 años. Es juicio de valor del autor, no hecho.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 64",
+     "cita_original": "the Haitian occupation can be described as a domination of Santo Domingo",
+     "traduccion": "Posición intermedia: la ocupación 'puede describirse como dominación', pero hay formas en que los dominicanos se beneficiaron y participaron en la construcción de la nación haitiana. Usa 'occupation' y 'unification' a la vez.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 66 (n. 12; cita a Price-Mars 1953: 300-301)",
+     "cita_original": "these provisions were not implemented in the eastern side of the island",
+     "traduccion": "Las disposiciones constitucionales que prohibían a los blancos poseer propiedad no se aplicaron en el este, aunque blancos dominicanos alegaban que los desposeían de derechos.",
+     "afirmaciones": [
+      "A-110",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "Boyer's early rural codes repudiated the Spanish land laws",
+     "traduccion": "Según Venator (que sigue a Cassá), los primeros 'códigos rurales' de Boyer repudiaron las leyes españolas de tierras comunales para redistribuir tierras abandonadas a exesclavos; no cita el texto de las leyes.",
+     "afirmaciones": [
+      "A-100",
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "p. 73 (n. 39; Rodríguez Demorizi 1980: 375-380)",
+     "cita_original": "the Haitian regime incorporated Dominican representatives in a constitutive assembly",
+     "traduccion": "Para Venator, por primera vez desde 1822 el régimen haitiano incorporó representantes dominicanos en una asamblea constituyente (la de 1843, tras la caída de Boyer). Su 'por primera vez' deja abierta la duda sobre la representación en el Congreso antes de 1843 que afirma Schoenrich (A-112).",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "p. 73-74 (n. 40; Rodríguez Demorizi 1980: 376-377)",
+     "cita_original": "the assembly rejected this motion",
+     "traduccion": "Buenaventura Báez propuso que un blanco pudiera casarse con haitiana y naturalizarse tras diez años de residencia (con derecho a propiedad); la asamblea lo rechazó. Venator añade que los haitianos habían respetado de hecho las reclamaciones de propiedad de dominicanos blancos.",
+     "afirmaciones": [
+      "A-112",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "Most of the legal documentation of this period seems to have disappeared from the official archives",
+     "traduccion": "El propio autor advierte que la mayor parte de la documentación jurídica del período parece haber desaparecido de los archivos oficiales de la isla; sus conclusiones son provisionales.",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-102",
+    "A-107",
+    "A-108",
+    "A-110",
+    "A-111",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Sesgo: ensayo teórico-jurídico anglófono (Ithaca College) que parte de una crítica al nacionalismo dominicano ('Penson, Cosas añejas' como contraejemplo) y reconoce no haber hecho archivo. Las afirmaciones empíricas (códigos rurales tempranos, diputados dominicanos) se apoyan en Cassá 2002 y Rodríguez Demorizi 1980, que no se leyeron: [POR VERIFICAR]. Walker 2018 (n. 60) cita la versión 'Towards a Haitian Perspective' en el Florida Journal of International Law (septiembre de 2004, pp. 667-676); Keane-Dawes 2020 cita otro texto, 'Race, the East, and the Haitian Revolution Ideology' (Journal of Haitian Studies 10(1): 103-119, 2004). Ninguno de los dos se localizó en esta ronda."
+  },
+  {
+   "titulo": "The Impact of the Haitian Revolution on the Hispanic Caribbean, c. 1791-1830 (tesis doctoral; cap. 5, 'The struggle at the new centre of empire, 1823-30')",
+   "autor": "Gibson, Carrie Elizabeth",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.repository.cam.ac.uk/bitstreams/c0e7f0ec-ef98-41ff-9146-de32c416a967/download",
+   "urls_alternativas": [
+    "https://www.repository.cam.ac.uk/handle/1810/289424",
+    "https://doi.org/10.17863/cam.36674"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (PDF de 2,4 MB, 300 pp.; la ficha del repositorio devolvió 200 con metadatos)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis doctoral de Cambridge (Peterhouse; director Richard Drayton) con archivos de Cuba, Puerto Rico, AGI y Santo Domingo, pero que trata a Santo Domingo como un caso entre tres islas y solo dedica unas páginas a 1822.",
+   "proveniencia": "Carrie Gibson (Peterhouse, 2010; depositada en 2011) estudia el miedo y las políticas hacia Haití de Cuba, Puerto Rico y Santo Domingo hasta 1830, con documentación de los gobiernos coloniales y del Ministerio de Ultramar. Su visión de 1822 es la que veían los observadores españoles y no la de los libertos. Se leyeron el resumen, el índice y las pp. 215-219; el resto no.",
+   "extractos": [
+    {
+     "ubicacion": "p. 216 (pdf 224; n. 106, Brenes a González de Linares, 16-IX-1822, AGI-SD 970)",
+     "cita_original": "Likewise, for the second time, slavery was abolished.",
+     "traduccion": "Gibson narra que Boyer entró en Santo Domingo el 9-II-1822 con unos 12.000 soldados y que 'por segunda vez' (tras Louverture) se abolió la esclavitud; cita a Brenes: 'declarando la absoluta libertad de la esclavitud'.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "p. 217 (pdf 225; n. 110)",
+     "cita_original": "which some 5,000 did, in Samaná, Puerto Plata, and the capital",
+     "traduccion": "Boyer invitó a protestantes negros del norte de EE.UU.; unos 5.000 fueron a Samaná, Puerto Plata y la capital (Gibson cita a Martínez-Fernández 1995 y E. V. Smith 1987). Cifra de llegados, no de plazas.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 217 (n. 111; Brenes, AGI-SD 970)",
+     "cita_original": "because of the insults with which the freed slaves injured their masters",
+     "traduccion": "Testimonio de un funcionario español (Brenes, 16-IX-1822): la política de Boyer provocó descontento general por los insultos de los liberados a sus amos, la imprudencia de las tropas haitianas, la diferencia de costumbres y lengua, y el cambio de legislación.",
+     "afirmaciones": [
+      "A-095",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 218 (pdf 226)",
+     "cita_original": "The archival sources trickle down to a very small stream during this period",
+     "traduccion": "Gibson admite que las fuentes de archivo sobre 1822-1844 son escasas y que 'es casi imposible' reconstruir un cuadro completo de administración, política local y relaciones dominico-haitianas; no sabe si los libertos veían a los haitianos como liberadores u opresores.",
+     "afirmaciones": [
+      "A-108",
+      "A-107",
+      "A-095"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-105",
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "Gibson 'Haitian Santo Domingo' es capítulo corto; la utilidad principal es (1) la cifra 'some 5,000' para A-105, (2) la admisión de pobreza archivística y (3) el punto de vista español-imperial (miedo a Haití) como sesgo de las fuentes sobre 1822. La numeración impresa es página del PDF - 8. Esta ronda no leyó los capítulos 1-4 (hasta 1822)."
+  },
+  {
+   "titulo": "El 'periodo de Boyer' (1822-1844) en Santo Domingo: situación sociolingüística y política del lenguaje",
+   "autor": "Jansen, Silke",
+   "anio": "2007",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "http://signoslinguisticos.izt.uam.mx/index.php/SL/article/download/58/56",
+   "urls_alternativas": [
+    "https://signoslinguisticos.izt.uam.mx/index.php/SL/article/download/58/56"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (PDF de 73.586 bytes, 23 pp.)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de una romanista (TU Dresden) en revista arbitrada de la UAM-Iztapalapa que reproduce documentos primarios y discute con rigor la lectura hispanista de Granda; trabaja con la bibliografía y no con archivo propio.",
+   "proveniencia": "Silke Jansen (Technische Universität Dresden), Signos Lingüísticos III(5) (enero-junio 2007), pp. 21-43. Escribe desde la lingüística francesa y franco-criolla, fuera del debate nacional dominicano. Reproduce, citándolas de Núñez (2005), la circular presidencial del 14-XI-1824 sobre la lengua de los actos judiciales y notariales y la circular del 27-VIII-1839 al Grand Juge de Santo Domingo; no vio los originales. Se leyó completo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 24 (cita a Núñez 2005: 58)",
+     "cita_original": "soient rédigés à l'avenir dans la langue généralement usitée dans le pays",
+     "traduccion": "Circular de Boyer del 14-XI-1824 a un 'comisario' del gobierno ante los tribunales: los jueces, oficiales del estado civil y notarios del este deberán redactar sus actos 'en la lengua generalmente usada en el país' desde el 1-I-1825. Texto distinto del n.º 917 del Recueil (circular del mismo día a los comandantes del Este sobre la correspondencia con el gobierno).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 24-25 (cita a Núñez 2005: 66)",
+     "cita_original": "il est défendu par le Gouvernement de rédiger les actes en d'autres langues qu'en idiome national",
+     "traduccion": "Circular del 27-VIII-1839 al Gran Juez provisional en Santo Domingo: el greffier del tribunal civil leía piezas en español; se le ordena 'hacer cesar este abuso'. Prueba de que quince años después los funcionarios seguían usando el español.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 25",
+     "cita_original": "En el decreto del 27 de diciembre, se autorizó a los funcionarios administrativos utilizar el francés o el español",
+     "traduccion": "Tras la caída de Boyer, el decreto del 27-XII-1843 autorizó francés o español en los documentos oficiales (coincide con Granda 1993-94, p. 220, en la ronda 1).",
+     "afirmaciones": [
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 22, n. 1",
+     "cita_original": "los efectos de las medidas políticas fueron mínimos",
+     "traduccion": "Jansen afirma que los efectos de las circulares fueron mínimos y que su evocación frecuente es 'reflejo de un discurso de identidad dominicano basado en la identificación negativa con el vecino', citando a Rodríguez Demorizi (1975) y Núñez (2005).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 35 (cita a de Granda 2004: 259)",
+     "cita_original": "tuvo que cerrar sus puertas por falta de alumnos, ya que todos los jóvenes entre 16 y 25 años fueron llamados a las tropas",
+     "traduccion": "Jansen repite, citando a Granda, que la Universidad de Santo Domingo cerró por falta de alumnos al ser llamados a filas los jóvenes de 16 a 25 años. Es una cita de segunda mano: el texto fuente está en Granda 1993-94, p. 210, y el original en Recueil III, n.º 865, p. 635.",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "p. 39",
+     "cita_original": "afirma simbólicamente la unidad nacional de la isla",
+     "traduccion": "Tesis de Jansen: la política lingüística de Boyer tuvo función sobre todo simbólica (afirmar la unidad nacional 'una e indivisible') y no de planificación efectiva; por eso no hubo sanciones ni difusión del francés en la parte oeste criollófona.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 37 y 40",
+     "cita_original": "la hipótesis de de Granda según la cual el objetivo inicial [...] era la sustitución total del español por el francés nos parece problemática",
+     "traduccion": "Jansen discrepa de Granda (planeamiento 'frustrado' con intención de sustitución total) y propone política simbólica: dos lecturas rivales de la misma evidencia. El fracaso se atribuye a causas económicas, políticas, educativas y al 'patriotismo lingüístico' dominicano.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-099",
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Respuesta al crítico: (1) las circulares de 1824 y 1839 están reproducidas; la de 1839 solo se conoce por Núñez 2005 (Manuel Núñez, La lengua española, compañera de la nación dominicana, Santo Domingo: Comité Dominicano por la Solidaridad Internacional con Haití / Editorial Letra Gráfica, 2005; discurso de ingreso a la Academia de la Lengua según Jansen, n. 1) que no se localizó en línea [POR VERIFICAR]; una búsqueda de cadenas ('août 1839', 'idiome national', 'langue espagnole') en el OCR de cuatro volúmenes del Recueil de archive.org (los llamados recueilgnral02, 03, 04 y 06) no dio coincidencias para 1839; el OCR es ruidoso, así que no es concluyente. (2) Hay dos lecturas: Granda (1993-94; 2004): planeamiento lingüístico frustrado con propósito inicial de sustitución total; Jansen: política simbólica de Estado nacional con función de afirmación y sin voluntad de difundir el francés. (3) No hay en el registro afirmación de lengua: se propone crear 'A-116: entre 1824 y 1839 el gobierno de Boyer ordenó redactar en francés los actos públicos y judiciales del este (circulares del 14-XI-1824 y 27-VIII-1839); la medida se incumplió de forma generalizada (Granda; Jansen)' como hecho B, y 'la política fue intento de asimilación' vs 'afirmación simbólica' como interpretación C. Sesgo: Jansen es externa al debate, pero depende de Granda (hispanista) para toda la evidencia empírica; la cifra '16-25' y el cierre universitario son de Granda. Paginación 'Signos Lingüísticos 5 (enero-junio, 2007), 21-43' según la propia cabecera."
+  },
+  {
+   "titulo": "Un caso de planeamiento lingüístico frustrado en el Caribe hispánico: Santo Domingo, 1822-1844",
+   "autor": "Granda, Germán de",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://actabioethica.uchile.cl/index.php/BDF/article/download/18992/20120/57500",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (PDF de 2,9 MB, 39 pp.)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio de un catedrático de Valladolid en el Boletín de Filología (Univ. de Chile) XXXIV (1993-94), pp. 187-225, con citas de Linstant Pradine, García, Utrera y Pérez Memén.",
+   "proveniencia": "Germán de Granda, sociolingüista del español de América (Univ. de Valladolid). Reimpreso en 2004 en V. Valdés Bernal (ed.), Pensamiento lingüístico sobre el Caribe insular hispánico, Academia de Ciencias de la RD, pp. 269-312 (según Jansen). Es la fuente de la que depende Jansen y la lectura 'hispanista' que Jansen discute. Esta ronda leyó de nuevo la pp. 209-211 sobre la Universidad (la ronda 1 la había leído por la lengua, M08-N68).",
+   "extractos": [
+    {
+     "ubicacion": "p. 210",
+     "cita_original": "comprendidos entre los 16 y los 25 años para prestar servicio en la Gendarmería o Guardia Nacional",
+     "traduccion": "Granda: la primera de las dos causas del cierre de la Universidad en 1823 fue el reclutamiento de 'la totalidad de los jóvenes de la parte del Este' de 16 a 25 años en la Gendarmería, en virtud de una circular de Boyer del 3-XII-1823 (n. 77 la cita como 'Recueil III, 1860, pág. 310': el n.º 865 está en p. 635; 310 es página de Rodríguez Demorizi 1955).",
+     "afirmaciones": [
+      "A-099",
+      "A-098"
+     ]
+    },
+    {
+     "ubicacion": "p. 210",
+     "cita_original": "Su cierre en 1823 no fue, sorprendentemente, ordenado de modo directo por las autoridades haitianas",
+     "traduccion": "La Universidad no fue cerrada por decreto: cesó por la pérdida de alumnos y de profesores, consecuencia de dos decisiones políticas y económicas (reclutamiento e incautación de bienes eclesiásticos 'por disposición presidencial de 5 de enero del mismo año', que privó de rentas a los canónigos que formaban el claustro). Responde a A-098/A-099: cese de hecho, no decreto.",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-099"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Corresponde a M08-N68 de la ronda 1, donde NO se halló la edad '16-25' (la ronda 1 anotó que 'no aparece en ninguna fuente leída'); aquí aparece, y se verifica en el texto primario (Recueil, entrada siguiente). La fecha de la 'disposición presidencial de 5 de enero' (de 1823) no se localizó: [POR VERIFICAR]. Sesgo: usa 'ocupación' y 'asimilación' como marco (hispanista); su conclusión de un 'planeamiento frustrado' es una interpretación. Hay que recordar que la causalidad (reclutamiento -> cierre) es de Granda y no está en la circular."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. III (1818-1823), n.º 865: Circulaire du Président d'Haïti, 3 déc. 1823, sur les individus propres à être incorporés dans la gendarmerie",
+   "autor": "Linstant Pradine (ed.); Boyer, Jean-Pierre (firmante)",
+   "anio": "1823",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/download/recueilgnral05hait/recueilgnral05hait_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/recueilgnral05hait"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (texto OCR de 1,7 MB; el volumen de archive.org llamado '05hait' contiene el t. III, 1818-1823)",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial publicado por el compilador con paginación original; el OCR tiene erratas de acentos y números que se cotejaron contra el índice del propio volumen.",
+   "proveniencia": "Circular de Boyer a los comandantes de arrondissement (generales), Puerto Príncipe, 3-XII-1823, publicada por Linstant Pradine (París, 1860) con notas de concordancia. Responde a un abuso de reclutamiento en 'la partie de l'Est'. El compilador es diplomático haitiano; las notas son de parte pero la circular es texto primario.",
+   "extractos": [
+    {
+     "ubicacion": "t. III, n.º 865, p. 635; l. 36871-36876 del recueilgnral05hait_djvu.txt",
+     "cita_original": "l'usage consacré dans toute la République, et que la raison prescrit, est de ne prendre, lorsqu'il faut faire d'après les ordres des revues, que des jeunes gens de 16 à 25 ans, qui ne sont pas chefs de famille, et qui ne cultivent pas de leurs propres mains la terre",
+     "traduccion": "La costumbre de toda la República es reclutar solo a jóvenes de 16 a 25 años que no sean jefes de familia ni cultiven la tierra con sus propias manos. La edad 16-25 no es una medida especial contra el este ni contra los estudiantes: es la norma republicana.",
+     "afirmaciones": [
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 865, p. 635; l. 36866-36871 del mismo txt",
+     "cita_original": "des hommes mariés, des pères de famille déjà assez avancés en âge, ont été recrutés pour la gendarmerie ou pour les divers autres corps de troupes que l'on a eu ordre de ma part de former dans les divers arrondissements de la partie de l'Est",
+     "traduccion": "Boyer reconoce que en el este se reclutó por error o descuido a hombres casados y padres de familia ya mayores, y manda licenciarlos y sustituirlos por jóvenes de 16 a 25 años. La circular corrige un exceso de reclutamiento; no menciona estudiantes, la Universidad ni los canónigos. Hecho: hubo reclutamiento forzoso de adultos en el este en 1823; interpretación (Granda): ese reclutamiento vació la Universidad.",
+     "afirmaciones": [
+      "A-099",
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-099",
+    "A-107"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0065",
+   "notas": "Complementa las lecturas de la ronda 1 (n.º 894, 917, 962, 1003, 1028, 1030). La ronda 1 anotó que el texto de la circular 'NO menciona estudiantes ni la Universidad': correcto; pero SÍ contiene la banda de edad 16-25, que la ronda 1 declaró ausente de las fuentes leídas (A-099). La conclusión es que A-099 ('reclutamiento de los jóvenes de 16 a 25 años') tiene respaldo primario en la edad, pero que el vínculo causal con el cierre de la Universidad es una inferencia de Granda (1993-94, p. 210) sin documento que lo pruebe. Registro de F-0065: tradicion 'internacional' en registro.csv frente a 'oficial-haiti' en M08.md; aquí se usa oficial-haiti por el origen de los textos. Una nota al pie de la p. 281 del mismo tomo remite a este n.º 865 desde la ley de gendarmería de 1820 (n.º 659)."
+  },
+  {
+   "titulo": "Haiti and the U.S.: African American Emigration and the Recognition Debate (tesis doctoral)",
+   "autor": "Fanning, Sara",
+   "anio": "2008",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://repositories.lib.utexas.edu/bitstreams/7a4bf36b-89ed-4820-908f-0f1bbe716341/download",
+   "urls_alternativas": [
+    "https://repositories.lib.utexas.edu/handle/2152/3874",
+    "http://hdl.handle.net/2152/3874"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (PDF de 568 KB, 209 pp.; ficha del repositorio 200)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de la Universidad de Texas en Austin con periódicos de época (Genius of Universal Emancipation, Niles' Weekly Register, United States Gazette), la correspondencia Dewey-Boyer, listas de pasajeros de retorno (Passenger Lists) y el Recueil, citados nota a nota.",
+   "proveniencia": "Sara Fanning (UT Austin, mayo de 2008; es la tesis de la que sale su libro Caribbean Crossing, NYU Press 2015, cerrado). Reconstruye la emigración afroamericana a Haití de 1824-1826 y el debate sobre el reconocimiento, con interés en la historia afroamericana y no en la dominicana; Samaná aparece como un destino entre varios. Se leyeron la introducción (p. 1), el capítulo 5 (pp. 106-109, Samaná y astilleros) y el capítulo 6 (pp. 127-137, llegadas y retornos); el resto no.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 6, p. 127 (pdf 136)",
+     "cita_original": "received 460 American settlers by April of 1825",
+     "traduccion": "Samaná, 'un pequeño puerto', había recibido 460 colonos estadounidenses hacia abril de 1825 según Fanning; la nota inmediata (n. 1) remite al Genius of Universal Emancipation de agosto de 1825, que acompaña a la carta del colono Copelain en el mismo párrafo, y el crítico de completitud atribuye la cifra a esa fuente [POR VERIFICAR en el periódico]. Es la primera cifra de llegados con base de época en una fuente académica abierta, pero es de prensa abolicionista, no un padrón.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "cap. 6, p. 128-129 (pdf 137-138; n. 5, 'Dewey, Correspondence, 27')",
+     "cita_original": "Jeremie, Jacmel, Aux Cayes and Samana were to receive between 200 and 500 emigrants",
+     "traduccion": "El plan de Boyer, según la correspondencia Dewey-Boyer, asignaba 1.000 colonos a Cabo Haitiano, Puerto Príncipe, Santo Domingo y Puerto Plata cada uno y entre 200 y 500 a Jérémie, Jacmel, Les Cayes y Samaná; fue desbordado: en Puerto Príncipe desembarcaron más de 4.000 en vez de 1.000.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "cap. 6, p. 129 (pdf 138; n. 6, New York Observer 9-VII-1824)",
+     "cita_original": "Instead of 1,000 emigrants landing in Port au Prince, more than four thousand did.",
+     "traduccion": "Desembarcaron más de 4.000 en Puerto Príncipe, no 1.000; esos llegados, y no las 6.000 plazas, son lo que se puede contar. El este recibió una fracción (Samaná: 460).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "cap. 1, p. 1 y n. 2 (pdf 10-11)",
+     "cita_original": "the first of as many as 13,000 African American emigrants",
+     "traduccion": "Fanning abre con 'hasta 13.000 emigrantes afroamericanos' a mediados de la década de 1820 y atribuye la cifra a Benjamin Hunt (Remarks on Hayti, 1860, p. 11), no a un padrón; es un techo.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "pp. 108-109 y 135-137 (pdf 117-118 y 144-146)",
+     "cita_original": "Boyer had changed his mind about developing a shipyard in Samana",
+     "traduccion": "Los artesanos navales atraídos a Samaná con la promesa de un astillero nacional hallaron 'un pueblo fantasma': Boyer cambió de idea; en abril de 1825 dejó de pagar pasajes (p. 136-137), y muchos regresaron a EE.UU. (listas de pasajeros).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Respuesta al crítico: fuente de acceso abierto con cifra de llegados; confirma que 'más de 6.000' (A-105) es el cupo anunciado y no el total, y que a Samaná llegaron 460 hacia abril de 1825 (p. 127). La cifra de 13.000 es de Hunt (1860) y es un techo. Sesgo: mira desde EE.UU., con interés en la política de reconocimiento; usa prensa abolicionista y colonizadora (American Colonization Society), cuyos intereses condicionan las cifras (la ACS tenía motivos para minimizar y los pro-Haití para inflar). Hidalgo (From North America to Hispaniola, 2003) y Puig Ortiz (1978) no se leyeron. La distribución de los 460 entre Samaná y el resto del este no se pudo contrastar. El libro de 2015 (Caribbean Crossing) es cerrado."
+  },
+  {
+   "titulo": "Remarks on Hayti as a Place of Settlement for Afric-Americans; and on the Mulatto as a Race for the Tropics",
+   "autor": "Hunt, Benjamin P. (Benjamin Peter)",
+   "anio": "1860",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/remarksonhaytias00hunt/remarksonhaytias00hunt_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/remarksonhaytias00hunt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (texto OCR de 89 KB)",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Folleto de un autor de Filadelfia que dice haber visitado Haití; testimonio de primera mano sobre los colonos, pero escrito unos 33-36 años después y con tesis propia sobre el mulato.",
+   "proveniencia": "Benjamin P. Hunt (n. 1808), de Filadelfia (impreso por C. Sherman & Son para T. B. Pugh), publicó en 1860 un folleto con consejos a afroamericanos que pensaban emigrar a Haití, apoyado en visitas suyas a la isla (su oficio, [POR VERIFICAR]). Cuenta lo que supo de los inmigrantes de Boyer a posteriori, no su llegada en 1824. Se leyó la parte sobre los inmigrantes (pp. 10-12).",
+   "extractos": [
+    {
+     "ubicacion": "p. 11; l. 443-446 del txt",
+     "cita_original": "Of all Boyer's thirteen thousand American immigrants of 1824-1827, I never found nor heard of one who, after 1836, was living on the land assigned him by government on his arrival.",
+     "traduccion": "De los 'trece mil inmigrantes americanos de Boyer de 1824-1827', Hunt no halló ni supo de uno que, después de 1836, siguiera en la tierra que el gobierno le asignó. Es el origen de la cifra de 13.000 repetida por Fanning y por la exposición Island Luminous.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "La cifra de 13.000 es de un testigo tardío, sin base declarada (Hunt escribe 36 años después); en las fuentes de 1824-1825 hay anuncios de '6.000 plazas' (Dewey, Boyer) y, en los hechos, 'más de 4.000' solo en Puerto Príncipe (Fanning). Rango publicable de llegados 1824-1826: unos 5.000-13.000, con base muy distinta; no hay un padrón. El folleto no habla de Samaná."
+  },
+  {
+   "titulo": "Black Protestants in a Catholic Land: The AME Church in the Dominican Republic, 1899-1916",
+   "autor": "Davidson, Christina Cecelia",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/20200216230138id_/https://brill.com/downloadpdf/journals/nwig/89/3-4/article-p258_2.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1163/22134360-08903053",
+    "https://brill.com/downloadpdf/journals/nwig/89/3-4/article-p258_2.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (copia de la Wayback Machine del 16-II-2020, 31 pp.; Brill responde 202 vacío a curl)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares en acceso abierto diamante (CC BY-NC 3.0); su tema es 1899-1916 y repite la cifra de 1824-1825 de la literatura previa sin comprobarla.",
+   "proveniencia": "Christina Cecelia Davidson (Duke) estudia la Iglesia Metodista Episcopal Africana en la República Dominicana de 1899-1916; la emigración de 1824 aparece como antecedente. Sirve para A-105 porque muestra cuán estandarizada es la cifra '6.000' en la literatura y que cita a Hidalgo 2001, Fanning 2015, Puig Ortiz 2011 y otros (n. 3, 5). Se leyeron el resumen, las pp. 258-259 y 266-267; el resto no.",
+   "extractos": [
+    {
+     "ubicacion": "p. 258 (resumen)",
+     "cita_original": "over 6,000 black freemen emigrated from the United States to Hispaniola between 1824 and 1825",
+     "traduccion": "Más de 6.000 hombres negros libres emigraron de EE.UU. a La Española entre 1824 y 1825 (según el resumen del artículo, sin cifra fuente).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 259",
+     "cita_original": "having first been established in 1830 by black colonists who emigrated from the United States to Haiti between the years 1824 and 1825",
+     "traduccion": "La iglesia AME fue la denominación protestante más antigua del este de la isla, establecida en 1830 por colonos negros llegados en 1824-1825 cuando toda la isla estaba bajo gobierno haitiano (1822-1844).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 267",
+     "cita_original": "Officially founded in Santo Domingo and Samaná in 1830 as a result of the 1824-26 emigration movement",
+     "traduccion": "Las congregaciones AME se fundaron oficialmente en Santo Domingo y Samaná en 1830 como resultado del movimiento de 1824-1826; en Samaná pasaron a la Iglesia Wesleyana ya en 1837.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "La cifra '6.000' aquí es la del cupo anunciado y no verificada; el artículo no la funda. Aporta la línea de continuidad de las comunidades afroamericanas de Samaná y Santo Domingo (AME 1830, Wesleyanos 1837). Sesgo: historia eclesiástica transnacional afroamericana. Su texto en la copia de la Wayback Machine perdió los espacios entre palabras; las citas arriba se restituyeron a mano."
+  },
+  {
+   "titulo": "The Sword and the Crucifix: Church-State Relations and Nationality in the Nineteenth-Century Dominican Republic",
+   "autor": "Martínez-Fernández, Luis",
+   "anio": "1995",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0F70F0E433C659E1372E9B3A90B4C593/S0023879100017179a.pdf/div-class-title-the-sword-and-the-crucifix-church-state-relations-and-nationality-in-the-nineteenth-century-dominican-republic-div.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/s0023879100017179"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (PDF de 2,1 MB, 25 pp.)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en Latin American Research Review 30(1): 69-93, con documentos del Archivo del Arzobispado, AGN y la Pontificia Universidad Madre y Maestra.",
+   "proveniencia": "Luis Martínez-Fernández (Rutgers) estudia la Iglesia dominicana como única institución 'nacional' del siglo XIX; la sección 'Haitian Occupation and the First Republic' (pp. 70-72) resume 1822-1844 desde el punto de vista eclesiástico, con fuerte dependencia de Moya Pons 1971/1984, Bobadilla 1845 y la carta de Portes de 1845. Se leyó la parte 1822-1844 (pp. 69-72) y los primeros años de la República; no el resto.",
+   "extractos": [
+    {
+     "ubicacion": "p. 70 (n. 3-5)",
+     "cita_original": "Perhaps no sector of Dominican society endured deeper losses during the twenty-two-year Haitian occupation (1822-1844) than the Catholic Church.",
+     "traduccion": "Para Martínez-Fernández la Iglesia perdió más que ningún otro sector: Boyer nacionalizó tierras de la Iglesia y las órdenes, abolió censos y capellanías, y la Universidad de Santo Tomás, cuyos profesores eran curas, 'fue cerrada'. Usa 'occupation'.",
+     "afirmaciones": [
+      "A-098",
+      "A-109",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 70",
+     "cita_original": "The new Haitian regime also stopped paying priests' salaries, which were previously financed under the patronato real.",
+     "traduccion": "Dice que el régimen dejó de pagar los sueldos del clero (antes del patronato real) y que Valera rechazó restablecerlos, incluso con el estipendio de 3.000 pesos que se le ofrecía; Keane-Dawes (2020, p. 256) dice, en cambio, que la ley de 1824 asignaba sueldos mensuales. Dos lecturas rivales sin documento primario a la vista.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "p. 71 (OCR dice 'Samaria' por Samaná)",
+     "cita_original": "some five thousand black Protestants (mostly from Philadelphia and New York City) settled in",
+     "traduccion": "Unos cinco mil protestantes negros (sobre todo de Filadelfia y Nueva York) se establecieron en Samaná, Puerto Plata y Santo Domingo desde 1824, atraídos por la ciudadanía plena, tierra gratis y tolerancia religiosa; la idea de 'oscurecer' el este es interpretación de la autora.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 72",
+     "cita_original": "Archbishop Valera fled the island in 1830 and settled in Cuba",
+     "traduccion": "Valera huyó de la isla en 1830 y se instaló en Cuba (fuentes: Henríquez Ureña y Morillas 1991, Moya Pons 1984); queda al frente Tomás de Portes. Confirma el año de A-109.",
+     "afirmaciones": [
+      "A-109"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-105",
+    "A-107",
+    "A-109"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Sesgo: relato eclesiástico dominicano que reproduce la tradición ('oppression of the Haitian yoke', 'occupation'); el artículo no cita los decretos haitianos. 'Some five thousand' coincide con Gibson (2011), que lo cita. El OCR del PDF cambia 'Samaná' por 'Samaria'. La autoría de las cifras y los relatos del trato al clero (apaleamiento de un cura, templos convertidos en mataderos) proviene de relatos posteriores (Portes 1845; El Oasis 1856; Pepén 1954; Alfau Durán 1985): [POR VERIFICAR]."
+  },
+  {
+   "titulo": "We Dream Together: Dominican Independence, Haiti, and the Fight for Caribbean Freedom",
+   "autor": "Eller, Anne",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://openresearchlibrary.org/ext/api/media/f090dcf9-99be-4ce9-b124-433fa79bf117/assets/external_content.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1215/9780822373766",
+    "https://www.dukeupress.edu/we-dream-together"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (PDF de 4,7 MB, 401 pp., copia del libro de Duke University Press en Open Research Library)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de Duke University Press de acceso abierto, apoyada en archivos de Cuba, RD, Haití, España, Reino Unido y EE.UU.; la ronda 1 la leyó entera para otras afirmaciones.",
+   "proveniencia": "Anne Eller (Yale) escribe para la academia anglófona sobre 1844-1865, con un capítulo introductorio sobre 1822-1844. Esta ronda solo consultó la mención de Samaná (cap. 1, p. 40) para triangular la cifra de inmigrantes de 1824.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 1, p. 40 (PDF p. 59; n. 186-187: Llansó y Oriol, Samaná 1864; Hidalgo 'From North America to Hispaniola', 146; Fanning, Caribbean Crossing, 85)",
+     "cita_original": "hundreds made a permanent home in Samaná, in settlements like Protestant Heights, Free Fort, and Palenque",
+     "traduccion": "Cuando Boyer invitó a emigrantes afroamericanos en 1824, 'cientos' se establecieron de forma permanente en Samaná (Protestant Heights, Free Fort, Palenque), en parcelas de 16 acres ('sixteen-acre plots'). Eller cita a Hidalgo 146 y Fanning 85: no es una fuente independiente de Fanning.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0135",
+   "notas": "Se añade a lo leído en la ronda 1 una triangulación para A-105 (cientos en Samaná; coherente con las 460 personas de Fanning hacia abril de 1825). El PDF usado aquí es el de Open Research Library; la ronda 1 usó un espejo S3 de 33,5 MB: ambos son la misma obra. Sesgo: lectura revisionista que minimiza la dimensión de 'ocupación'."
+  },
+  {
+   "titulo": "Island Luminous, parte IV 'Haiti 1821 to 1845', diapositiva 4: 'Boyer, European Abolitionists and African-Americans' (Alyssa Goldstein Sepinwall)",
+   "autor": "Sepinwall, Alyssa Goldstein",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part04-slide04.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/part04-slide03.html",
+    "https://islandluminous.fiu.edu/part02-slide08.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo breve de una historiadora de California State University San Marcos (autora de Haitian History: New Perspectives, 2013) en una exposición digital de FIU y dLOC, sin notas.",
+   "proveniencia": "Exposición digital Island Luminous (FIU/dLOC); la diapositiva 4 la firma Alyssa Goldstein Sepinwall y resume la política de Boyer hacia abolicionistas europeos y afroamericanos; la cifra de emigrantes no lleva fuente, y coincide con Hunt 1860.",
+   "extractos": [
+    {
+     "ubicacion": "diapositiva 4 (texto, párrafo 3)",
+     "cita_original": "Approximately 13,000 African-Americans emigrated to Haiti in the 1820s.",
+     "traduccion": "Unos 13.000 afroamericanos emigraron a Haití en la década de 1820 (sin base; coincide con la cifra de Hunt 1860). Dice también que las condiciones no fueron las esperadas y que muchos regresaron.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0260",
+   "notas": "Se une a las diapositivas 3 y 11 ya registradas como F-0260; la diapositiva 8 de la parte II (Eller, 'Emancipation in Santo Domingo') ya está en la ronda 1 (M08-N82) y da '12.000-14.000 esclavizados en la parte española hacia 1791' como estimación de la mayoría de los historiadores (A-094). La cifra de Sepinwall es de divulgación y no se debe usar como rango sin trazar a Hunt (1860)."
+  },
+  {
+   "titulo": "From North America to Hispaniola: First Free Black Emigration and Settlements in Hispaniola (tesis doctoral)",
+   "autor": "Hidalgo, Dennis Ricardo",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.proquest.com/docview/305221591/abstract/C5C0F477FF4271PQ/1",
+   "urls_alternativas": [
+    "https://www.academia.edu/567462"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (vista previa de ProQuest vía WebFetch con título, autor, institución y año; academia.edu devuelve 403)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis doctoral de Central Michigan University citada por Eller (2016), Davidson (2015) y Fanning (2015); no se leyó su texto ni su resumen.",
+   "proveniencia": "Dennis Ricardo Hidalgo (Central Michigan University) estudió la primera emigración libre negra a La Española; luego publicó en español La primera inmigración de negros libertos norteamericanos y su establecimiento en la Española (ADH vol. 128, 2016, papel, según el crítico de completitud). ProQuest fecha la tesis en 2003; el crítico de completitud y Davidson (n. 3) hablan de 2001: discrepancia por aclarar (puede ser la versión previa o un artículo).",
+   "extractos": [
+    {
+     "ubicacion": "ficha ProQuest (docview 305221591)",
+     "cita_original": "From North America to Hispaniola: First free Black emigration and settlements in Hispaniola",
+     "traduccion": "Título, autor, institución (Central Michigan University) y año (2003) confirmados en la vista previa de ProQuest; sin resumen accesible.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Un resultado de búsqueda atribuye a un texto de Hidalgo la cifra de 'unos seis mil' negros libres que salieron de EE.UU. en 1824-1826, pero ese fragmento no se abrió: [POR VERIFICAR]; sin extracto. No se descargó el libro de la ADH."
+  },
+  {
+   "titulo": "'Esclavos que fueron' in Santo Domingo, 1768-1844 (tesis doctoral; título de la ficha de ND: Free People of African Descent in Santo Domingo, 1750-1844)",
+   "autor": "Ulrickson, Maria Cecilia",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://api.figshare.com/v2/articles/24740085",
+   "urls_alternativas": [
+    "https://figshare.com/articles/thesis/Esclavos_que_fueron_in_Santo_Domingo_1768-1844/24740085",
+    "https://curate.nd.edu/show/bn999596n1g",
+    "https://doi.org/10.7274/bn999596n1g",
+    "https://ndownloader.figshare.com/files/43575072"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (registro de la API de Figshare con resumen y archivo UlricksonMC062018D.pdf, 3.223.343 bytes, md5 608bee23aaaf18b51b8dc6530241d944); el PDF devuelve 202 con un desafío AWS WAF que no se evadió",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de la University of Notre Dame (2018) basada en archivos dominicanos; solo se leyó el resumen oficial de Figshare.",
+   "proveniencia": "María Cecilia Ulrickson (Notre Dame, 2018; según un resultado de búsqueda, director Karen B. Graubart y defensa el 4-VI-2018 [POR VERIFICAR]) estudia la libertad y el trabajo de la población de ascendencia africana nominalmente libre entre 1768 y 1844, con 'cuatro emancipaciones' (1795, 1801, 1805, 1822). El resumen dice que 'esclavos que fueron' era como un cura parroquial llamaba a los liberados en la década posterior a 1822.",
+   "extractos": [
+    {
+     "ubicacion": "resumen de la ficha de Figshare",
+     "cita_original": "is how one parish priest identified freed people in the decade after the colony's final emancipation",
+     "traduccion": "'Esclavos que fueron' es como un cura parroquial designaba a los liberados en la década posterior a la emancipación final de 1822; la tesis sostiene que la condición de 'ex esclavizado' marcó racialmente a hombres y mujeres, en una época en que las élites hablaban de armonía racial.",
+     "afirmaciones": [
+      "A-095",
+      "A-097"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-097"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Corresponde a M08-N60 de la ronda 1 (que solo tenía el registro de dissdb); el PDF existe en Figshare (licencia 'All Rights Reserved' publicada el 28-VI-2018) y la ficha de Notre Dame decía 'File(s) under embargo' según un resultado de búsqueda [POR VERIFICAR]. Bran puede abrirlo a mano en un navegador desde https://figshare.com/articles/thesis/Esclavos_que_fueron_in_Santo_Domingo_1768-1844/24740085. Pendiente de lectura: es la fuente probable de voces de libertos que pide A-095."
+  },
+  {
+   "titulo": "The benefits of diplomatic recognition: Haitian abolitionism and Dominican sovereignty in the Atlantic world, 1822-1830",
+   "autor": "Keane-Dawes, Antony Wayne",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://api.crossref.org/works/10.1080/14788810.2020.1751511",
+   "urls_alternativas": [
+    "https://doi.org/10.1080/14788810.2020.1751511"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (registro de Crossref: Atlantic Studies 17(4): 539-563, publicado el 17-IV-2020; Taylor & Francis cerrado)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en Atlantic Studies cuyo texto es de pago; solo se confirmó el registro bibliográfico.",
+   "proveniencia": "Antony Wayne Keane-Dawes, Atlantic Studies 17(4), 2020, pp. 539-563. Por su título trata la soberanía haitiana en el este tras el reconocimiento francés de 1825, el eje que su tesis (cap. 4) desarrolla.",
+   "extractos": [
+    {
+     "ubicacion": "registro Crossref (doi 10.1080/14788810.2020.1751511)",
+     "cita_original": "Haitian abolitionism and Dominican sovereignty in the Atlantic world, 1822-1830",
+     "traduccion": "Subtítulo confirmado; sin resumen en Crossref.",
+     "afirmaciones": [
+      "A-103",
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-107"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Respuesta al crítico (consulta sugerida 4): existe y es de pago (open access: closed en OpenAlex); no se pudo leer. Su contenido sobre el reconocimiento y el peso de la indemnización sobre el este se puede cotejar en la tesis del mismo autor (cap. 4, pp. 133-165), parcialmente leída arriba."
+  },
+  {
+   "titulo": "Spiritualizing Black Sovereignty",
+   "autor": "Davidson, Christina Cecelia",
+   "anio": "2026",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://api.crossref.org/works/10.1093/ahr/rhag037",
+   "urls_alternativas": [
+    "https://doi.org/10.1093/ahr/rhag037",
+    "https://academic.oup.com/ahr/advance-article-pdf/doi/10.1093/ahr/rhag037/68339742/rhag037.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (registro de Crossref con resumen y licencia CC BY-NC-ND 4.0, 19-V-2026); la página de OUP devuelve un desafío Cloudflare que no se evadió",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo en The American Historical Review (acceso abierto híbrido) sobre un pleito de 1890 entre la AME y los descendientes de emigrantes; solo se leyó el resumen de Crossref.",
+   "proveniencia": "Christina Cecelia Davidson (AHR, mayo de 2026). Usa la historia de la emigración negra masiva a Haití en 1820 como argumento de dos grupos en un litigio de 1890 en la República Dominicana. Es un estudio de memoria, no de la cifra de llegados.",
+   "extractos": [
+    {
+     "ubicacion": "resumen de Crossref",
+     "cita_original": "the history of mass Black emigration from the United States to Haiti in the 1820s",
+     "traduccion": "Ambas partes del pleito de 1890 recurrieron a la historia de la emigración masiva de negros desde EE.UU. a Haití en la década de 1820; los descendientes se llamaban 'Congregación Protestante de Santo Domingo'.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Bran puede abrir el PDF en un navegador (acceso abierto híbrido). No aporta cifras de llegados en el resumen."
+  },
+  {
+   "titulo": "The Hispaniola Diaspora, 1791-1850: Puerto Rico, Cuba, Louisiana, and Other Host Societies (tesis doctoral)",
+   "autor": "Morales, José",
+   "anio": "1986",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://digitalcommons.lib.uconn.edu/dissertations/AAI8710270",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha del repositorio de UConn con resumen; sin texto completo)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis doctoral de la University of Connecticut (enero de 1986), citada por Keane-Dawes (2018) para el exilio dominicano; solo se leyó el resumen.",
+   "proveniencia": "José Morales (UConn 1986) estudia a los emigrados de La Española por la Revolución y sus consecuencias en Cuba, Puerto Rico, Luisiana, Jamaica y Venezuela. Es un antecedente para el exilio de dominicanos blancos tras 1822 (A-111) que Keane-Dawes cita, no un estudio de 1822-1844.",
+   "extractos": [
+    {
+     "ubicacion": "resumen de la ficha de UConn",
+     "cita_original": "The focus is on the emigres who fled Hispaniola due to the events that enveloped the adjoining French and Spanish colonies.",
+     "traduccion": "El foco son los emigrados que huyeron de La Española por los hechos de las colonias francesa y española; no da cifras de 1822.",
+     "afirmaciones": [
+      "A-111"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-111"
+   ],
+   "modulos": [
+    "M08",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "Valor bajo para M08: sirve solo como referencia secundaria sobre el exilio. No se pudo abrir el PDF."
+  }
+ ]
+}

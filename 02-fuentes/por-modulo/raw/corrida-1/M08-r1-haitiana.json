@@ -1,0 +1,2452 @@
+{
+ "lente": "haitiana",
+ "modulo": "M08",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 19,
+ "busquedas_pendientes": [
+  "Madiou, Histoire d'Haïti t. VII (1827-1843) y t. VIII (1843-1846), ed. Deschamps 1985-1991 o Verrollot 1904: texto en dLOC, HathiTrust (403), manioc.org, Wikisource fr o archive.org (préstamo)",
+  "Price-Mars, La République d'Haïti et la République Dominicaine (1953) t. I-II: texto en dLOC / archive.org / manioc; y su traducción española (3 tomos) en bibliotecas dominicanas",
+  "Dantès Bellegarde, 'La nation haïtienne' (1938) / 'Histoire du peuple haïtien' (1953): pasaje sobre Boyer y la partie de l'Est",
+  "Hénock Trouillot, 'Beaubrun Ardouin: l'homme politique et l'historien' (Historiadores de América VII, 1950) y artículos sobre Boyer y el Este",
+  "Revue de la Société haïtienne d'histoire et de géographie (RSHHG): índice de artículos sobre 1822, Boyer, Santo-Domingo, Código Rural",
+  "Dorsainvil, Manuel d'histoire d'Haïti: capítulo sobre Boyer y la réunion de l'Est",
+  "Catts Pressoir, Histoire de l'enseignement en Haïti (1935, p. 37); Lhérisson y Vincent (1898, p. 24); Brutus (1948, p. 107): pasajes sobre la universidad y las escuelas lancasterianas",
+  "Suzy Castor / Georges Michel / Guy Alexandre / Watson Denis sobre 1822 y 1844 (Estudios Sociales, Ecos, Clío o repositorios de la UEH)",
+  "Leslie Péan, Haïti, économie politique de la corruption (1791-1870): Boyer, Este e indemnización",
+  "Jean-Marie Théodat, Haïti-République dominicaine: une île pour deux (Karthala 2003): capítulo sobre 1822-1844 en Cairn o Google Books",
+  "Haiti Liberté, Loop Haïti, Haiti Libre, Le Nouvelliste, AlterPresse: cobertura del bicentenario de 1822 (2022); el buscador no respeta site:",
+  "Prensa 1843-1844 (Le Manifeste, Le Patriote, Le Temps, Le Républicain, Le Télégraphe) en EAP1024 (British Library) y dLOC",
+  "Potomitan / Mémoire d'encrier / CRESFED / Collectif Haïti de France / UEH: textos sobre 'unification' 1822",
+  "Manuales y programas del MENFP (Histoire 9e AF, Nouveau Secondaire): W. Emmanuel 2011 y Auguste & Zamor sobre 1822-1844, para cotejar a González Canalda",
+  "Voces en kreyòl sobre Boyer, 1822 y 'Dominikani': AlterPresse kreyòl, Ayibopost",
+  "Discursos de Estado haitiano (1-I, 18-XI, 17-X) con mención de 1822 o de la isla indivisible",
+  "Duke Radio Haïti: entrevista de Jean Dominique a Moya Pons (RL10059-RR-0072_01) y otras sobre 1822 (acceso bloqueado por Anubis)",
+  "Anexos 8 y 12 de Manigat t. I ('La question agraire 1804-1826'; 'commerce extérieur et budget sous Boyer 1821-1842') y capítulos Péan/Midy/Hurbon de Genèse",
+  "Recueil Linstant Pradine t. III-V: leer completos los n.º 1030 (sanción del Código Rural), 1037 (ley del 12-V-1826), 1085 y los actos de 1822-1823 sobre Iglesia, tribunales y ejército en el este",
+  "Samaná: fuentes haitianas secundarias sobre la emigración afroamericana de 1824 (Granville, Dewey) y destinos efectivos"
+ ],
+ "lagunas": [
+  "Madiou, Histoire d'Haïti t. VII-VIII (1827-1846): no localizado en abierto; solo t. I-III de 1847-48 (hasta 1818). HathiTrust y Gallica devuelven 403 y manioc falla por certificado. El relato noiriste de 1822-1844 queda sin lectura directa (solo vía Eller 2013).",
+  "Price-Mars 1953: sin texto; solo dos reflejos indirectos (Clío 159, 1998 y Manigat t. I anexo 7). Falta cotejar con el original francés y con la traducción española de 3 tomos.",
+  "Autores del catálogo sin texto sobre M08: Bellegarde, Dorsainvil, Fouchard, Hénock Trouillot (solo referencia bibliográfica), Castor, Hurbon, Beauvoir-Dominique, Watson Denis, Georges Michel, Guy Alexandre, Gaillard, Pierre Étienne, Péan, Dorestant, Chauvet, Dalencour; Casimir (403) y Moïse (401) bloqueados.",
+  "Revue de la Société haïtienne d'histoire et de géographie: no localizada en línea.",
+  "Manuales escolares y programas del MENFP: no se consultaron los manuales originales ni los programas; solo la lectura de González Canalda (2019; 9 textos haitianos, traducción de Silié).",
+  "Discursos y conmemoraciones de Estado (1-I, 18-XI, 17-X): ningún hallazgo que mencione 1822 o 1844.",
+  "Prensa haitiana: sin acceso a números de 1822-1844 (Le Télégraphe, Le Manifeste, Le Patriote); sin cobertura de Le Nouvelliste, AlterPresse, Haiti Liberté, Loop Haïti ni Haiti Libre (el buscador no devuelve esos dominios aunque se use site:); el artículo de Le Relief (JS) no se leyó y LivresHaïti (2024) es divulgación de baja fiabilidad.",
+  "Voces en kreyòl: ninguna fuente localizada.",
+  "Cifra de liberados en 1822 (A-094): ninguna fuente haitiana consultada la da; solo la cifra de 1801 de Hector (~20.000 esclavos de ~120.000 habitantes, §22, sin fuente) y los 65.000 habitantes de 1822 de Théodat (§20, sin fuente). No existe un decreto de abolición separado: consta en la proclama del 9-II-1822 (Recueil III, n.º 774) y en el art. 1 de la Constitución de 1816.",
+  "Universidad (A-098/A-099): ningún decreto de cierre localizado; hay tres versiones haitianas: 'Boyer la suprimió' (Ardouin XI p. 219 n. 1), 'ya no funcionaba antes de Boyer' (Joint n. 15) y 'Núñez la restableció en dic. 1821' (Ardouin IX p. 152). Falta la fecha y el instrumento del cierre.",
+  "A-106 (Trinitaria 16-VII-1838): ninguna fuente haitiana consultada la menciona (Ardouin XI y Recueil VIII no nombran a Duarte ni a la Trinitaria). A-112 (Báez diputado constituyente de 1843 por Azua): no consta en la lista de firmantes de la Constitución de 1843 que reproduce Janvier (p. 186) ni en Ardouin; un manual haitiano dice que Hérard Dumesle fue elegido diputado por Santo Domingo y Cayos. A-113 (24-III-1843 en Santo Domingo): sin confirmación haitiana.",
+  "A-097 (Lora, Higüey): fuera de la lente haitiana. A-114 (protesta de 1826-27 por la indemnización): solo Franklin (texto local) y Eller 2013 (sin cita); el Recueil IV solo muestra el reparto de cuotas de 1826, no peticiones de los ayuntamientos del este.",
+  "Recueil: no se leyó el t. VII (1840) ni los n.º 1030, 1037 y 1085; la cifra de Azua en el cuadro de cuotas de 1826 es ilegible (OCR).",
+  "Samaná (A-105): ninguna fuente haitiana secundaria; los primarios muestran el objetivo (6.000 en 1824) y los destinos del primer envío (Plateau Central) y de emigrantes en los mandos de Santo Domingo y Puerto Plata (1825), no los efectivos ni Samaná como asentamiento."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Réunion de la partie de l'Est (à la République) / prise de possession / incorporation",
+   "tradicion": "haitiana (oficial 1822-1830)",
+   "nota": "Término de los actos de Boyer (Recueil III n.º 774), de la nota haitiana de 1830 a España (Ardouin t. X p. 92: 'prise de possession', 'incorporation') y del Recueil; 'réunification' es el término moderno (Arthus 2017). Distinto de 'unification' del glosario."
+  },
+  {
+   "termino": "Régénération / révolution de 1843 (Praslin)",
+   "tradicion": "haitiana",
+   "nota": "Los actos del Gobierno Provisional se fechan 'an 40 de l'Indépendance et 1er de la Régénération' (Recueil VIII). El glosario no recoge 'Régénération' ni 'Reforma' (nombre dominicano del movimiento de 1843). 'Gouvernement déchu' es el término oficial para el de Boyer."
+  },
+  {
+   "termino": "Orientaux / Occidentaux; départements de l'Ozama et du Cibao; 'partie de l'Est'",
+   "tradicion": "haitiana",
+   "nota": "Hérard (proclama del 12-III-1844) habla de 'orientaux' y 'occidentaux'; la Constitución de 1843 crea los departamentos Cibao y Ozama; 'partie de l'Est' es la denominación administrativa haitiana."
+  },
+  {
+   "termino": "Révolte de l'Est / scission / sécession / séparation / 'a déclaré son indépendance d'Haïti'",
+   "tradicion": "haitiana (1843-2017)",
+   "nota": "Espectro haitiano de nombres para el 27-II-1844: 'révolte' (mensaje de Hérard-Dumesle, 1844; manuales escolares), 'séparation' (Ardouin 1860; nota oficial de 1845), 'scission définitive' (Janvier 1886), 'sécession' (Théodat 2009) y 'a déclaré son indépendance' (Arthus 2017). El glosario solo recoge 'séparation/scission'."
+  },
+  {
+   "termino": "Invasion / invasions unificatrices / conquête de la partie est",
+   "tradicion": "haitiana (autores contemporáneos)",
+   "nota": "El glosario asigna 'invasión' a la tradición dominicana; Trouillot (1990, p. 48) escribe 'successful invasion', Manigat (2001, t. I) 'invasions haïtiennes unificatrices' y Moïse (2009) 'conquête de la partie est'. Conviene matizar la columna 'tradición haitiana' del glosario."
+  },
+  {
+   "termino": "Dominicanie / panyòl",
+   "tradicion": "haitiana (francés académico y kreyòl)",
+   "nota": "Théodat (2009) llama 'Dominicanie' al este y 'panyòl' (kreyòl, del español) a sus habitantes hispanohablantes."
+  },
+  {
+   "termino": "Indemnité / dette nationale / ordonnance de Charles X",
+   "tradicion": "oficial-haiti",
+   "nota": "La ley del 26-II-1826 llama 'dette nationale' a la indemnización de 150 millones; el glosario registra 'dette de l'indépendance' y 'rançon'. Madiou (1848) dice 'indemnité' y que los haitianos 'n'ont rien supputé pour leur liberté'; Théodat, 'indemnité consentie sottement'."
+  },
+  {
+   "termino": "Chimère d'une république dominicaine",
+   "tradicion": "oficial-haiti (1844)",
+   "nota": "Expresión de Hérard (12-III-1844) para descalificar el proyecto de la Junta; contrasta con la 'República Dominicana' del Manifiesto del 16-I-1844."
+  },
+  {
+   "termino": "Agrégation (de la partie de l'Est)",
+   "tradicion": "dominicana citada por la historiografía haitiana",
+   "nota": "Manigat (t. I, anexo 7, y t. II, p. 61) pone 'agrégation' entre comillas y recuerda que el Manifiesto de 1844 habló de una 'simple agrégation'; el glosario no lo recoge."
+  }
+ ],
+ "incidencias": [
+  "Se usaron 19 llamadas a WebSearch (de un tope de 120): una en modo extended y una (Price-Mars, consulta larga en francés) que mostró 4 conjuntos de resultados, por lo que el gasto real puede ser algo mayor. El buscador no respeta el operador site: y devolvió sobre todo Wikipedia; el grueso del hallazgo vino de la API de búsqueda de archive.org (que no cuenta como búsqueda web) y de la lectura del OCR de archive.org.",
+  "Bloqueos: Gallica, HathiTrust y la ficha de Duke (Radio Haïti) devuelven 403 o desafío Anubis; erudit.org y OpenEdition desafían a curl pero WebFetch las lee; manioc.univ-antilles.fr falla por certificado; uncpress.org devuelve 403; dloc.com y eap.bl.uk son aplicaciones JS sin texto; livreshaiti.com tenía el certificado caducado (se leyó el HTML con curl -k, solo lectura).",
+  "Las lecturas de OpenEdition (Théodat, Hector, Joint, Moïse, Casimir), Island Luminous y Perlego se hicieron con WebFetch, que entrega resúmenes del modelo y se negó a copiar literalmente los §§ 21-22 de Hector por derechos de autor; las citas de esas fichas deben cotejarse antes de entrar a la síntesis. Los §§ 19-24 de Théodat y el § 24 y la n. 15 de Joint salieron con texto idéntico en dos pasadas.",
+  "El OCR de archive.org tiene errores (acentos; 'ees' por 'ces'; '450' por '150' en la ordenanza de 1825; 'est établissement' por 'cet établissement'); las citas se corrigieron en puntuación y se verificaron con un cotejo difuso de unos 94 fragmentos del Recueil, Code rural, Ardouin e Inginac (12 con similitud inferior a 0,88 por ruido de OCR, revisados a mano). La paginación se dedujo de cabeceras y de números al pie; el preámbulo y el art. 96 del Código Rural tienen OCR muy deficiente (marcado en las fichas).",
+  "Derechos de autor: de Manigat, Trouillot, Théodat, Hector, Joint, Eller, González Canalda y otros solo se dan fragmentos de menos de 15 palabras y paráfrasis; los textos de 1821-1886 (Recueil, Ardouin, Inginac, Janvier, Madiou 1848, constituciones) se citan hasta 60 palabras. Manigat t. I-II y Trouillot se descargaron del OCR público de archive.org.",
+  "El scratchpad compartido contenía restos de otras sesiones (m08dom, m13dom, c1805-2.txt, etc.); no se usaron: todo el trabajo está en la subcarpeta m08hai.",
+  "La numeración de archive.org no coincide con la de los tomos del Recueil: recueilgnral05hait = t. III (1818-1823), 04 = t. IV (1824-1826), 03 = t. V (1827-1833), 02 = t. VI (1834-1839), 01 = t. VII y suplemento (1840), 00 = t. VIII (1843-1845, ed. Édouard 1888), 07 = t. I, 06 = t. II.",
+  "Discrepancias que el corpus debe vigilar: salida del arzobispo Valera (1823 en la nota oficial de 1845; junio de 1830 en Ardouin; 'volontairement' en ambos); fecha de la entrada de Boyer (9-II-1822 en el Recueil; 11-II en LivresHaïti); Trouillot fecha el Código Rural en 1825 (el texto es de 1826); los '90 millones' de A-103 no están en el tratado de 1838 (que fija un saldo de 60); el calendario de 1838 llega a 1867, no a 1883.",
+  "Hallazgos que ningún relato de Fase 1 recoge y que conviene llevar a M08: (a) circulares de Boyer del 14 y 15-XI-1824 que prohíben escribir en español los actos públicos del este desde el 1-I-1825 (Recueil IV n.º 917 y 919), derogadas el 26-XII-1843 (Recueil VIII); (b) decreto del 27-XII-1843 que deroga las leyes de 1824, 1826 y 1827 sobre propiedad en el este; (c) circular del 17-V-1827 que cierra la vía de concesión de 1822; (d) cuotas de 1826 del este (14-15 % de los 3 millones de gourdes anuales); (e) la nota de Ardouin sobre la supresión de la universidad; (f) los pasajes de Ardouin sobre los 'représentans de l'Est' (1838-1839).",
+  "F-0065 se resolvió solo en su componente Linstant Pradine; F-0106 solo en la edición de 1847-48 (hasta 1818); F-0116 se leyó por capítulos sueltos; F-0243 (dLOC) y F-0157 (Stieber) quedan solo localizadas; F-0124 (401) y F-0115 (403) siguen sin texto."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, depuis la proclamation de son indépendance jusqu'à nos jours, t. III (1818-1823)",
+   "autor": "Linstant Pradine, A. (ed.); documentos de Boyer, Inginac, Senado y Cámara de Comunes de Haití",
+   "anio": "1860",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral05hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral05hait/recueilgnral05hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro y numerado de actos oficiales de 1822-1823 tal como los publicó el Estado haitiano; las notas del editor son lectura haitiana de 1860 y se separan del documento.",
+   "proveniencia": "Compilación en 8 tomos preparada por Linstant Pradine, antiguo encargado de negocios de Haití en Londres y París, publicada en París por Auguste Durand en 1860 'con notas históricas, de jurisprudencia y de concordancia'. Reproduce proclamas bilingües fr/es, circulares, leyes, mensajes al Senado y a la Cámara de Comunes; la numeración (n.º 774, 775, 778, 789, 802, 825) permite cotejar con otras ediciones. Sesgo: las notas al pie del editor (p. ej. a la proclama del 9-II-1822) narran la 'réunion' como adhesión espontánea y califican de 'absurde et immorale' la constitución de Núñez de Cáceres por mantener la esclavitud; los textos de Boyer son documentos de parte. Las citas proceden del OCR de archive.org (con errores menores corregidos en puntuación y tildes).",
+   "extractos": [
+    {
+     "ubicacion": "t. III, n.º 774 (proclama bilingüe de Boyer, Santo Domingo, 9-II-1822), pp. 442-443",
+     "cita_original": "Le pavillon national flotte sur tous les points de l'île que nous habitons ; sur cette terre de liberté il n'existe plus d'esclaves, et nous n'y formons tous qu'une seule famille",
+     "traduccion": "La bandera nacional ondea en todos los puntos de la isla que habitamos; en esta tierra de libertad ya no hay esclavos y todos formamos una sola familia. (Versión española del mismo documento: «Sobre este suelo de libertad ya no hay esclavos».)",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 774, p. 446 (versión francesa)",
+     "cita_original": "Et vous, citoyens de la partie de l'Est, vous avez été longtemps malheureux : des lois arbitraires et prohibitives vous ont contraint de vivre dans les privations et dans la stupeur [...] vous avez voulu être libres et haïtiens comme nous, et vous l'êtes devenus",
+     "traduccion": "Y vosotros, ciudadanos de la parte del Este, habéis sido desgraciados durante mucho tiempo: leyes arbitrarias y prohibitivas os obligaron a vivir entre privaciones [...] habéis querido ser libres y haitianos como nosotros, y lo habéis conseguido.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 774, p. 447 (nota del editor)",
+     "cita_original": "ils avaient fait connaître la détermination qu'ils avaient prise de se réunir à leurs frères de l'Ouest",
+     "traduccion": "habían dado a conocer la determinación que habían tomado de reunirse con sus hermanos del Oeste (nota de Linstant Pradine, 1860, sobre la gestión de José Justo de Silva en el Cabo y la 'réunion' de Montecristi y Laxavón del 15-XI-1821).",
+     "afirmaciones": [
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 775 (circular de Boyer del 11-II-1822 a los comandantes del este), pp. 453-455",
+     "cita_original": "L'intérêt de la République est que le peuple de la partie de l'Est change, aussi promptement que faire se pourra, d'habitudes et de moeurs pour adopter celles de la République, afin que la fusion soit parfaite",
+     "traduccion": "El interés de la República es que el pueblo de la parte del Este cambie, lo más pronto posible, de hábitos y costumbres para adoptar los de la República, a fin de que la fusión sea perfecta.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 775, p. 456",
+     "cita_original": "Rappelez-vous que votre mission n'est pas d'employer la force pour assurer la domination ; mais qu'elle est l'obligation d'employer le langage de la douceur et de la persuasion pour faire rechercher et chérir cette domination",
+     "traduccion": "Recordad que vuestra misión no es emplear la fuerza para asegurar la dominación, sino emplear el lenguaje de la dulzura y la persuasión para hacerla buscar y querer.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 778 (arrêté del 27-II-1822), pp. 459-460",
+     "cita_original": "Du 1er au 10 mars prochain les communes ci-après désignées nommeront les députés et suppléants [...] Santo Domingo 2 députés; Farfan Lamatte, Saint-Jean, Neybe, Azua, Bani, Seybe, Higüey, Samana, Cotuy, La Vega, Saint-Yague, Porte-Plate, Monte-Christ, 1 chacune",
+     "traduccion": "Del 1 al 10 de marzo próximo las comunes designadas nombrarán diputados y suplentes: Santo Domingo 2 y las otras 13 comunes, 1 cada una (15 diputados en total, con igual número de suplentes; cómputo propio sobre la lista).",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 789 (proclama bilingüe 'aux habitants de la partie de l'Est', Puerto Príncipe, 15-VI-1822), p. 472",
+     "cita_original": "J'ai parcouru près de deux cents lieues et je n'ai vu que des terres extrêmement fertiles sans cultures. J'ai vu au milieu d'immenses forêts des familles languissant dans l'indigence et l'oisiveté",
+     "traduccion": "He recorrido cerca de doscientas leguas y solo he visto tierras extremadamente fértiles sin cultivar; he visto, en medio de inmensos bosques, familias que languidecen en la indigencia y la ociosidad.",
+     "afirmaciones": [
+      "A-100",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 789, p. 474",
+     "cita_original": "je vous donnerai, au nom de la nation, pour vous et votre postérité, en toute propriété et pour toujours, la concession des terres mises en valeur",
+     "traduccion": "os daré, en nombre de la nación, para vosotros y vuestra posteridad, en plena propiedad y para siempre, la concesión de las tierras puestas en valor (promesa dirigida a los habitantes del este que fundaran 'établissements utiles'; el texto no distingue a libertos).",
+     "afirmaciones": [
+      "A-100",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 789, p. 475",
+     "cita_original": "dans les lieux que l'avarice et l'orgueil avaient réservés pour la pâture du bétail, gardés par de malheureuses créatures humaines que l'on tenait ou dans l'esclavage ou dans l'avilissement",
+     "traduccion": "en los lugares que la avaricia y el orgullo habían reservado para el pasto del ganado, guardados por desdichadas criaturas humanas a las que se tenía en la esclavitud o en el envilecimiento.",
+     "afirmaciones": [
+      "A-094",
+      "A-095",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 789, p. 475",
+     "cita_original": "elle sera en outre lue, dans les deux langues, pendant trois mois consécutifs, dans toutes les églises de la partie de l'Est, à l'issue des grand'messes, les jours de dimanches et fêtes",
+     "traduccion": "será además leída, en las dos lenguas, durante tres meses consecutivos, en todas las iglesias de la parte del Este, a la salida de las misas mayores (publicación bilingüe fr/es de las normas de 1822).",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 499 (extracto de la sesión de la Cámara de Comunes del 7-X-1822, justo antes del n.º 802)",
+     "cita_original": "Pour extrait conforme : Le Président de la Chambre, signé : Caminero",
+     "traduccion": "Para extracto conforme: el Presidente de la Cámara, firmado: Caminero (apellido de un notable del este; identidad con José María Caminero [POR VERIFICAR]). El mismo apellido firma la comisión del n.º 802.",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 802 (informe de la comisión del 12-X-1822), p. 502",
+     "cita_original": "les institutions et les lois de la République ne pouvaient être obligatoires pour la partie orientale que depuis le 10 février 1822, époque où elles y furent publiées",
+     "traduccion": "las instituciones y leyes de la República solo podían ser obligatorias para la parte oriental desde el 10 de febrero de 1822, fecha de su publicación allí (principio de irretroactividad aplicado por la comisión: Colombel, Frémont, Paul fils, Caminero, Rouanez y un sexto firmante, 'Doleyres' [lectura OCR dudosa]).",
+     "afirmaciones": [
+      "A-109",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 802, p. 503",
+     "cita_original": "il est hors de doute que les sommes ainsi accensées en faveur des couvents de la partie de l'Est, appartiennent incontestablement à l'État",
+     "traduccion": "no cabe duda de que las sumas así acensuadas en favor de los conventos de la parte del Este pertenecen incuestionablemente al Estado.",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 802, pp. 507-508 (resumen de la comisión)",
+     "cita_original": "Tous les édifices des couvents de Saint-Dominique, Saint-François, La Mercie, Regina et Sainte-Claire [...] Tous les édifices et dépendances des hospices de Saint-André, Saint-Lazare et Saint-Nicolas, sis à Santo-Domingo",
+     "traduccion": "Todos los edificios de los conventos de Santo Domingo, San Francisco, La Merced, Regina y Santa Clara [...] todos los edificios y dependencias de los hospicios de San Andrés, San Lázaro y San Nicolás, en Santo Domingo, pasan al dominio del Estado.",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 802, p. 504",
+     "cita_original": "la portion revenant à l'État [...] soit perçue en terres, afin que [...] l'agriculteur se trouve exempt de toute hypothèque et de toute charge féodale, et l'État à même de disposer de ces terres pour les concessions et autres dons nationaux",
+     "traduccion": "la parte que corresponde al Estado [...] se cobre en tierras, para que el agricultor quede libre de hipoteca y de toda carga feudal y el Estado pueda disponer de esas tierras para concesiones y otras donaciones nacionales.",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. III, n.º 825 (proclama del 8-II-1823), p. 578, arts. 1-2",
+     "cita_original": "Il est encore accordé un délai préfix de quatre mois [...] aux habitants propriétaires de la partie de l'Est, qui ont émigré avant le 9 février 1822, pour y rentrer et jouir de leurs biens. [...] toutes les propriétés foncières et mobilières qui leur appartenaient seront irrévocablement échues à l'État",
+     "traduccion": "Se concede todavía un plazo fijo de cuatro meses a los habitantes propietarios del este que emigraron antes del 9-II-1822 para regresar y disfrutar sus bienes [...] de lo contrario sus propiedades pasarán irrevocablemente al Estado.",
+     "afirmaciones": [
+      "A-111",
+      "A-109"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-099",
+    "A-100",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111",
+    "A-112"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0065",
+   "notas": "Resuelve solo el componente 'Linstant Pradine' de F-0065 (los otros componentes, Dumont y Cantillo, no se tocaron). No hay decreto aparte de abolición en este tomo: la abolición consta en la proclama del 9-II-1822 y en el art. 1 de la Constitución de 1816 (ver ficha mjp 1816). Búsqueda de 'universit/collège/Santo-Tomas' en los tomos III y IV: sin resultados, lo que no prueba ausencia de decreto (la compilación no es exhaustiva). Entre los firmantes de la comisión y de la Cámara en este tomo aparece el apellido Caminero; la Cámara de 1823 incluye firmantes como 'Pablo, A. Baez' y 'Luis de Velasco' [identidad por verificar]. Las leyes citadas (8-VII-1824, 12-V-1826, 15-V-1827) fueron derogadas el 27-XII-1843 (ver Recueil t. VIII). Hecho / interpretación / significado: HECHO = Boyer proclama el 9-II-1822 que 'no hay esclavos' y fija diputados, plazos y bienes (n.º 774, 778, 825); INTERPRETACIÓN = la nota del editor (adhesión espontánea) y la circular del 11-II (fusión por 'douceur' y 'persuasion', cambio de 'habitudes et moeurs'); SIGNIFICADO = 'réunion' como cumplimiento de los arts. 40-41 de la Constitución de 1816. Todo [POR VERIFICAR] está marcado en la columna extractos."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. IV (1824-1826)",
+   "autor": "Linstant Pradine, A. (ed.); documentos de Boyer, Inginac, Cámara de Comunes y Senado",
+   "anio": "1865",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral04hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral04hait/recueilgnral04hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de leyes, circulares y mensajes de 1824-1826, entre ellos la ley del 8-VII-1824, la ordenanza de Carlos X tal como la reprodujo el Estado haitiano y las leyes del indemnización de 1826.",
+   "proveniencia": "Tomo IV de la compilación de Linstant Pradine (París, Auguste Durand, 1865, 'tome IV, 1824-1826'). Reproduce los textos oficiales con numeración (n.º 889 instrucciones a Granville; 894 ley del 8-VII-1824; 900-901 circulares del 7-VIII-1824; 1003 ley del 26-II-1826; 1028 ley del 1-V-1826; 1030 Código Rural; 1046 reclutamiento). Documentos de parte del poder ejecutivo y legislativo haitiano; no incluye voces del este salvo las firmas de diputados. OCR de archive.org con errores (p. ej. '450 millones' por 150 en la ordenanza).",
+   "extractos": [
+    {
+     "ubicacion": "t. IV, n.º 894 (ley del 8-VII-1824), p. 47, art. 1",
+     "cita_original": "Toutes les propriétés territoriales, situées dans la partie de l'Est de l'île, qui avant le 9 février 1822, an 19, époque de la réunion de ladite partie à la République, n'appartenaient pas à des particuliers, sont déclarées propriétés nationales",
+     "traduccion": "Todas las propiedades territoriales situadas en la parte este de la isla que antes del 9-II-1822, fecha de la reunión de dicha parte a la República, no pertenecían a particulares, se declaran propiedades nacionales.",
+     "afirmaciones": [
+      "A-109",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 894, p. 47, art. 2",
+     "cita_original": "toutes les propriétés mobilières et immobilières, toutes les rentes foncières et leurs capitaux, qui appartenaient soit au gouvernement précédent de ladite partie de l'Est, soit à des couvents de religieux, à des monastères, hôpitaux, églises ou autres corporations ecclésiastiques",
+     "traduccion": "todos los bienes muebles e inmuebles y todas las rentas y sus capitales que pertenecían al gobierno anterior, a conventos, monasterios, hospitales, iglesias u otras corporaciones eclesiásticas, pasan al Estado.",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 894, p. 47, art. 3",
+     "cita_original": "les individus qui, se trouvant absents du territoire lors de la réunion, n'y étaient point rentrés le 10 juin 1823 [...] ceux qui, dans la réunion, ont quitté l'île sans prêter le serment de fidélité à la République",
+     "traduccion": "los bienes de quienes, ausentes del territorio en la reunión, no habían regresado el 10-VI-1823, y de quienes salieron de la isla sin prestar juramento de fidelidad a la República, son bienes nacionales.",
+     "afirmaciones": [
+      "A-111",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 894, p. 48, arts. 5-6",
+     "cita_original": "le Président d'Haïti donnera en pleine propriété, à ceux qui seront reconnus possesseurs de droits territoriaux, la quantité de carreaux qui sera jugée suffisante pour les remplir de leurs droits, et leur fera expédier de nouveaux titres",
+     "traduccion": "el Presidente dará en plena propiedad a quienes sean reconocidos poseedores de derechos territoriales (derechos comuneros) la cantidad de carreaux juzgada suficiente para cubrir sus derechos y les expedirá nuevos títulos.",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 894 (mensaje de Boyer del 21-VI-1824), p. 46",
+     "cita_original": "Dans l'Est, les propriétés foncières sont jusqu'à ce jour dans un état de communauté qui [...] arrête les progrès de l'agriculture, parce que l'on craint de fonder des établissements sur des fonds revenant à autrui",
+     "traduccion": "En el este las propiedades territoriales están hasta hoy en un estado de comunidad que detiene los progresos de la agricultura, porque se teme fundar establecimientos sobre fondos que corresponden a otro.",
+     "afirmaciones": [
+      "A-100",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 894 (mensaje de Boyer), p. 46",
+     "cita_original": "empêcher que le vaste territoire et les immenses prairies de la partie de l'Est ne deviennent des lieux de refuge à l'oisiveté, par la facilité que chacun y aurait d'y établir des conucos",
+     "traduccion": "impedir que el vasto territorio y las inmensas praderas de la parte este se conviertan en lugares de refugio de la ociosidad, por la facilidad de establecer conucos.",
+     "afirmaciones": [
+      "A-100",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 44-45 (adresse de clôture de la Cámara de Comunes a Boyer, 30-VI-1824; lista de firmantes)",
+     "cita_original": "Signé : [...] F. Travieso [...] Velasco [...] P. Baez [...] Blas Castro [...] Ilario Crux [...] Caminero [...] J. Torres [...] José-Ignace Espejo, Pedro Herrera",
+     "traduccion": "Entre los firmantes de la Cámara en 1824 figuran nombres hispánicos (F. Travieso, Velasco, P. Baez, Blas Castro, Hilario Cruz, Caminero, J. Torres, José Ignacio Espejo, Pedro Herrera) junto a nombres franceses/haitianos (la lista completa es larga y no se contó); no se indica la comuna de cada diputado, por lo que su origen en el este es inferencia [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 889 (instrucciones a J. Granville, 25-V-1824), pp. 22-23, título",
+     "cita_original": "pour faciliter l'émigration en Haïti de toutes les personnes issues du sang africain, qui, jouissant de leur liberté, seront volontairement portées à venir dans la République pour y avoir l'exercice de tous les droits civils et politiques",
+     "traduccion": "para facilitar la emigración a Haití de todas las personas de sangre africana que, gozando de libertad, vengan voluntariamente a la República para ejercer todos los derechos civiles y políticos.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 900 (circular a los comandantes del este, 7-VIII-1824), p. 55",
+     "cita_original": "trois cents de ces personnes doivent être dirigées dans les quartiers ou communes de Lamatte, Hinche et Lascahobas, cette année",
+     "traduccion": "trescientas de esas personas deben ser dirigidas este año a los cuarteles o comunes de Lamatte, Hinche y Lascahobas (la circular no menciona Samaná como destino de ese primer envío).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 901 (despacho al Secretario de Estado, 7-VIII-1824), p. 56",
+     "cita_original": "les premiers arrivants [...] sur les ports du Cap haïtien, Porte-Plate, Samana, Santo-Domingo, Jacmel, les Cayes, Jérémie et Gonaïves [...] jusqu'à la concurrence de six mille âmes pour la fin de cette année",
+     "traduccion": "los primeros llegados deben ser dirigidos a los puertos del Cabo, Puerto Plata, Samaná, Santo Domingo, Jacmel, Cayos, Jérémie y Gonaïves, hasta un total de seis mil almas a fin de año (objetivo de Boyer, no cifra de llegados).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 917 (circular de Boyer del 14-XI-1824 a los comandantes de los arrondissements del Este), p. 126",
+     "cita_original": "Voilà près de trois ans, général, que la partie de l'Est est réunie à la République, et cependant la plupart des autorités du lieu affectent encore de ne correspondre qu'en langue espagnole avec le gouvernement [...] à partir du 1er janvier 1825, il ne sera fait aucune réponse à toutes les lettres qui seraient en espagnol",
+     "traduccion": "Hace casi tres años que la parte este está reunida a la República y la mayoría de las autoridades locales 'afectan' escribir al gobierno solo en español [...] desde el 1-I-1825 no se responderá a ninguna carta en español (política lingüística oficial de 1824; el título de la circular dice: 'défense d'écrire à l'avenir, en espagnol, les actes publics').",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 919 (circular del Gran Juez del 15-XI-1824), p. 127",
+     "cita_original": "portant prohibition d'écrire en espagnol les actes rédigés dans la partie de l'Est [...] soient rédigés, à l'avenir, dans la langue généralement usitée dans le pays [...] à partir du 1er janvier prochain",
+     "traduccion": "(título) que prohíbe escribir en español los actos redactados en el este [...] los actos públicos (sentencias, actas del estado civil, notarios) serán redactados en adelante en la lengua generalmente usada en el país, a partir del 1-I-1825. La nota de Linstant remite al decreto del 26-XII-1843 (n.º 1720) que lo derogó.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, nota al n.º 917, p. 126-127",
+     "cita_original": "Les généraux Borgella, command. l'arrond. de Santo-Domingo ; Monpoint, celui de Monte-Christ ; Prophète Daniel, celui de Saint-Yague ; Panayoti, celui de Saint-Jean ; Jacques Simon, celui de Porte-Plate ; Voltaire, celui d'Azua",
+     "traduccion": "Los comandantes de los arrondissements del este en noviembre de 1824: Borgella (Santo Domingo), Monpoint (Montecristi), Prophète Daniel (Santiago), Panayoti (San Juan), Jacques Simon (Puerto Plata) y Voltaire (Azua); todos con nombres de generales haitianos (origen de cada uno [POR VERIFICAR]).",
+     "afirmaciones": [
+      "A-107",
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 939 (circular del 25-III-1825 a los generales Borgella, Jacques Simon, Magny y Marion), p. 155",
+     "cita_original": "lorsque parmi ceux qui sont placés dans l'étendue de votre commandement, il y en aura qui manifesteront la volonté de s'en aller, vous n'aurez qu'à m'adresser leurs noms",
+     "traduccion": "cuando entre los emigrantes colocados en vuestro mando (Santo Domingo, Puerto Plata, Cabo, Cayos) haya quienes quieran irse, enviadme sus nombres para darles pasaporte: Boyer admite que algunos emigrantes quisieron regresar a EE. UU. y exime del reembolso del pasaje (muestra que en 1825 había emigrantes colocados en los mandos de Santo Domingo y Puerto Plata).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 956 (circular del 24-V-1825 a los comandantes del Este; remite al n.º 936 del 23-III-1825), p. 250",
+     "cita_original": "je vous ai invité, général, à vous réunir aux habitants les plus notables afin de me faire connaître, d'une manière positive, les divers endroits de l'arrondissement que vous commandez où il existe des mines d'or et d'argent",
+     "traduccion": "os invité a reuniros con los habitantes más notables para informarme de manera positiva de los lugares de vuestro arrondissement donde existen minas de oro y plata (Boyer reitera el pedido porque no había recibido respuesta: interés del Estado por los recursos mineros del este).",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 258-259 (mensaje de Boyer al Senado, jul. 1825, con la ordenanza de Carlos X del 17-IV-1825), p. 259, art. 2",
+     "cita_original": "Les habitants actuels de la partie française de Saint-Domingue verseront à la caisse générale des dépôts et consignations de France, en cinq termes égaux, d'année en année, le premier échéant au 31 décembre 1825, la somme de 150 millions de francs",
+     "traduccion": "Los habitantes actuales de la parte francesa de Santo Domingo depositarán en la caja general de depósitos de Francia, en cinco plazos iguales, el primero el 31-XII-1825, la suma de 150 millones de francos. (El OCR dice '450'; es 150 por la ley del 26-II-1826.)",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1003 (ley del 26-II-1826), p. 354, art. 1",
+     "cita_original": "L'indemnité de cent cinquante millions de francs consentie à la France pour la reconnaissance pleine et entière de l'indépendance d'Haïti, est reconnue dette nationale",
+     "traduccion": "La indemnización de 150 millones de francos consentida a Francia por el reconocimiento pleno de la independencia de Haití se reconoce como deuda nacional.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1028 (ley del 1-V-1826), p. 402, art. 1",
+     "cita_original": "Il est imposé dans la République une contribution extraordinaire de trente millions de gourdes, payables en dix années, à raison de trois millions de gourdes par chacune, à partir du 1er janvier 1827, jusqu'au 31 décembre 1836",
+     "traduccion": "Se impone en la República una contribución extraordinaria de treinta millones de gourdes, pagaderos en diez años, a razón de tres millones anuales, del 1-I-1827 al 31-XII-1836.",
+     "afirmaciones": [
+      "A-103",
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1028, pp. 402-403 (cuadro de reparto anual por arrondissement)",
+     "cita_original": "Arrondissement de Santo-Domingo 186,499 ; de St-Jean 31,123 ; d'Azua 3?,000 [cifra ilegible en OCR] ; de la Vega 78,000 ; de Monte-Christ 6,000 ; de Porte-Plate 44,928 ; de St-Yago 77,051 ; Total 3,000,000 G.",
+     "traduccion": "Cuota anual (en gourdes) de los arrondissements del este: Santo Domingo 186.499; San Juan 31.123; Azua [ilegible, 3x.000]; La Vega 78.000; Montecristi 6.000; Puerto Plata 44.928; Santiago 77.051; total nacional 3.000.000. Suma legible del este: 423.601 (14,1 %); con Azua entre 454.000 y 463.000 (15,1-15,4 %). Cómputo propio; compárese con la población relativa del este [POR VERIFICAR: sin base demográfica fiable, ver Théodat: ~65.000 hab. en 1822].",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1004 (circular del 1-III-1826), p. 355",
+     "cita_original": "Cette dépêche ne devait avoir son effet que dans l'ancien territoire de la République et non dans la partie de l'Est",
+     "traduccion": "Esa circular (sobre el medio derecho de aduana a favor de Francia) solo debía tener efecto en el antiguo territorio de la República y no en la parte del este.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1032 (ley del 8-V-1826 sobre la guardia nacional), p. 451, art. 1",
+     "cita_original": "Tout Haïtien, depuis l'âge de quinze ans jusqu'à celui de soixante, qui n'exerce pas un emploi public, ou qui n'est pas incorporé dans la troupe soldée [...] sera tenu de se faire inscrire dans la garde nationale de sa commune",
+     "traduccion": "Todo haitiano de 15 a 60 años que no ejerza un empleo público o no esté incorporado a la tropa pagada debe inscribirse en la guardia nacional de su comuna (norma para toda la República; no fija '16-25 años').",
+     "afirmaciones": [
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1046 (arrêté del 28-VI-1826), pp. 488-489, art. 2",
+     "cita_original": "Il leur est expressément interdit d'enrôler les hommes qui travaillent à la culture de la terre, les employés au service public, ni les hommes mariés",
+     "traduccion": "Se les prohíbe expresamente reclutar a los hombres que trabajan en el cultivo de la tierra, a los empleados públicos y a los casados (reclutamiento 'dans toute l'étendue de la République' hasta el 31 de agosto).",
+     "afirmaciones": [
+      "A-099"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-099",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-105",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-111",
+    "A-112",
+    "A-114"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Contiene la ley del 8-VII-1824 (n.º 894) con su mensaje del 21-VI-1824: el texto íntegro permite fijar qué decía de bienes eclesiásticos, ausentes y derechos comuneros (resuelve la duda de A-109 sobre el texto de la ley; la salida del arzobispo Valera en 1830 NO consta aquí, ver Ardouin t. X p. 104). La ordenanza de Carlos X se dirige a 'los habitantes actuales de la parte francesa': el texto no menciona el este; la ley del 1-V-1826 reparte la contribución también entre arrondissements del este. El art. 12 de la ley de 1824 (reducción de capitales a un tercio) se cita en la ley de 1827 (Recueil t. V). Reclutamiento: ninguna ley de este tomo fija 16-25 años; la guardia nacional es de 15 a 60. [POR VERIFICAR] Azua en la tabla de cuotas (OCR ilegible). Hecho / interpretación: HECHO = la ley de 1824 declara nacionales los bienes eclesiásticos y de ausentes y convierte los derechos comuneros en propiedad plena por carreaux; INTERPRETACIÓN = el mensaje de Boyer ve en la comunidad de tierras un freno a la agricultura y un refugio de ociosidad (juicio sobre el conuco); la compatibilidad con el 'campesinado dominicano' de A-100 es un SIGNIFICADO atribuido por Bosch/Cassá, no por el texto."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. V (1827-1833)",
+   "autor": "Linstant Pradine, A. (ed.); Boyer; Cámara de Comunes",
+   "anio": "1866",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral03hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral03hait/recueilgnral03hait_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la ley del 15-V-1827 y de la circular del 17-V-1827; solo se leyeron los documentos n.º 1098 y 1100 (descarga completa, lectura parcial).",
+   "proveniencia": "Tomo V de la compilación de Linstant Pradine (París, Auguste Durand). Reproduce la ley n.º 1098 del 15-V-1827 que alivia las rentas sobre inmuebles urbanos del este y su mensaje de Boyer del 28-IV-1827. Documento de parte del ejecutivo haitiano.",
+   "extractos": [
+    {
+     "ubicacion": "t. V, n.º 1098 (ley del 15-V-1827, mensaje de Boyer del 28-IV-1827), p. 44",
+     "cita_original": "par la stagnation des affaires dans la partie de l'Est, les habitants de cette portion du territoire de la République ne peuvent donner à leur industrie toute l'extension dont elle est susceptible",
+     "traduccion": "por el estancamiento de los negocios en la parte este, los habitantes de esa porción del territorio no pueden dar a su industria toda la extensión de que es capaz (reconocimiento oficial de estancamiento económico en el este en 1827).",
+     "afirmaciones": [
+      "A-107",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1100 (circular de Boyer del 17-V-1827 a los comandantes del Este), pp. 47-48",
+     "cita_original": "j'ai autorisé, général, aux habitants de la partie de l'Est, qui n'étaient pas propriétaires, à faire des établissements en plantes produisant des denrées propres à l'exportation, sur les terres de l'État disponibles, afin d'en avoir la concession",
+     "traduccion": "por una circular del 15-VI-1822 autoricé a los habitantes del este que no eran propietarios a hacer establecimientos de plantas de exportación en tierras disponibles del Estado para obtener la concesión (tras comprobar cinco años de establecimiento).",
+     "afirmaciones": [
+      "A-100",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1100, p. 48",
+     "cita_original": "Maintenant les dispositions de cette proclamation ne peuvent plus avoir aucun effet, car il faut des bornes à tout [...] pour que qui que ce soit ne puisse désormais faire des établissements sur les terres de l'État, à moins d'une permission de ma part, directement",
+     "traduccion": "Ahora las disposiciones de aquella proclama ya no pueden tener efecto, 'pues hay que poner límites a todo' [...] nadie podrá hacer en adelante establecimientos en tierras del Estado sin permiso directo del Presidente: la vía de concesión de 1822 se cerró en mayo de 1827.",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1098, p. 45, art. 1",
+     "cita_original": "Remise est faite aux propriétaires des immeubles situés dans les villes ou bourgs de la partie de l'Est de la République, des deux sixièmes exigibles, pendant la présente année, pour solde des capitaux des rentes en faveur des institutions ou des personnes dont les bénéfices sont échus à l'État",
+     "traduccion": "Se remite a los propietarios de inmuebles urbanos del este los dos sextos exigibles ese año por las rentas en favor de instituciones o personas cuyos beneficios pasaron al Estado, capitales reducidos a un tercio por el art. 12 de la ley del 8-VII-1824.",
+     "afirmaciones": [
+      "A-109",
+      "A-099"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-099",
+    "A-100",
+    "A-107",
+    "A-109"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Ley derogada por el decreto del 27-XII-1843 (n.º 1721). El texto confirma que la ley de 1824 tenía un art. 12 que reducía a un tercio los capitales de rentas eclesiásticas urbanas."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. VI (1834-1839): tratado financiero franco-haitiano del 12-II-1838",
+   "autor": "Linstant Pradine, A. (ed.); plenipotenciarios Las Cases y Baudin (Francia); Inginac, Frémont, Labbée, B. Ardouin y Seguy Villevaleix (Haití)",
+   "anio": "1881",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral02hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral02hait/recueilgnral02hait_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro del tratado de 1838 con su calendario de pagos; descarga completa, lectura limitada a ese tratado.",
+   "proveniencia": "Tomo VI de la compilación (París, Auguste Durand, 1881). Reproduce los dos tratados de 12-II-1838: reconocimiento de la independencia y arreglo financiero. Fue firmado, por Haití, entre otros por el senador Alexis-Beaubrun Ardouin, el historiador de la 'Études sur l'histoire d'Haïti'. Documento de parte oficial haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "t. VI, tratado financiero del 12-II-1838, p. 468, art. 1",
+     "cita_original": "Le solde de l'indemnité dû par la République d'Haïti demeure fixé à la somme de soixante millions de francs",
+     "traduccion": "El saldo de la indemnización debido por la República de Haití queda fijado en sesenta millones de francos, pagaderos 1838-1867 (1,5 M anuales 1838-1842 hasta 3 M anuales 1863-1867).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve el [POR VERIFICAR] de A-103: el texto dice 'saldo' (solde) de 60 millones; no habla de 'total de 90 millones'. Los 90 millones son un cómputo (30 pagados + 60) que consta en Inginac (Mémoires, pp. 72-73: primer plazo de 30 millones de francos con un empréstito negociado al 80 %) y en Madiou (1848, t. III, p. 439: 'réduite à 120 millions' [OCR dudoso], luego 60). El calendario de pagos va hasta 1867, no hasta 1883 (los pagos posteriores corresponden al empréstito de 1825 y a la 'double dette' [POR VERIFICAR])."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti et documents historiques (1843-1845), t. VIII (colección Linstant Pradine)",
+   "autor": "Édouard, Emmanuel (ed.); Gouvernement provisoire de 1843; Hérard aîné; Hérard-Dumesle; Asamblea Constituyente",
+   "anio": "1888",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral00hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral00hait/recueilgnral00hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de decretos, proclamas e informes de 1843-1845; es la fuente oficial haitiana de la Reforma y de la separación del este, con la capitulación firmada por la Junta.",
+   "proveniencia": "Tomo VIII de la 'Collection Linstant Pradine', preparado por Emmanuel Édouard (licenciado en derecho, París) por decisión del Consejo de Secretarios de Estado y publicado por Pedone-Lauriel en 1888. Reproduce actos del Gobierno Provisional, de la Constituyente y de la presidencia de Hérard. Sesgo: documentos de parte del Estado haitiano de 1843-1845 (lenguaje de la 'Régénération', de la 'indivisibilité' y de la 'révolte de l'Est'); los actos de 1843 critican a Boyer ('gouvernement déchu') y a la vez defienden la unidad insular.",
+   "extractos": [
+    {
+     "ubicacion": "t. VIII, proclama de Hérard aîné, Santo Domingo, 27-VII-1843, p. 83",
+     "cita_original": "Quant à vous, dominicains [...] vous concevez que vos intérêts, votre bonheur résident dans l'unité nationale, qu'il est impossible que vous soyez détachés de la République haïtienne, qu'aucun autre pavillon ne saurait maintenir vos libertés",
+     "traduccion": "En cuanto a vosotros, dominicanos: [...] comprendéis que vuestros intereses y vuestra felicidad residen en la unidad nacional, que es imposible que os separéis de la República haitiana y que ninguna otra bandera podría mantener vuestras libertades.",
+     "afirmaciones": [
+      "A-113",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, proclama de Hérard, 27-VII-1843, p. 83",
+     "cita_original": "profiteront du moment où vous serez en hostilité avec la République pour fondre sur vous, afin de river de nouveau les chaînes de l'esclavage que nous avons brisées pour vous",
+     "traduccion": "(vuestros opresores, refugiados en el extranjero) aprovecharán el momento en que estéis en hostilidad con la República para caer sobre vosotros y remachar de nuevo las cadenas de la esclavitud que hemos roto por vosotros.",
+     "afirmaciones": [
+      "A-095",
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, proclama de Hérard, 27-VII-1843, p. 82",
+     "cita_original": "le service militaire cessera d'être un esclavage soldé de vingt années : il sera la carrière de la gloire et de l'honneur pour tous les fils de famille ; il aura la durée de sept années",
+     "traduccion": "el servicio militar dejará de ser una esclavitud pagada de veinte años; tendrá una duración de siete años (crítica oficial de 1843 al reclutamiento de la era Boyer, aplicable a toda la República).",
+     "afirmaciones": [
+      "A-107",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 26-XII-1843, pp. 131-132, considerandos",
+     "cita_original": "depuis la réunion de la partie de l'Est au reste de la République, aucune mesure n'ayant été prise pour amener insensiblement l'uniformité du langage dans le pays, il est à la fois injuste et impossible d'exiger que tous les actes publics soient rédigés en français",
+     "traduccion": "desde la reunión de la parte este al resto de la República no se tomó ninguna medida para llegar insensiblemente a la uniformidad del idioma, de modo que es a la vez injusto e imposible exigir que todos los actos públicos se redacten en francés.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 26-XII-1843, p. 132, art. 1",
+     "cita_original": "Les actes publics, dans la partie de l'Est, seront rédigés soit en espagnol, soit en français, selon le langage habituel aux fonctionnaires qui les rédigeront",
+     "traduccion": "Los actos públicos en la parte este se redactarán en español o en francés, según el idioma habitual de los funcionarios que los redacten (las peticiones al gobierno central seguían en francés, art. 4).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 27-XII-1843, p. 133, considerando y art. 1",
+     "cita_original": "le système décevant du Gouvernement déchu, en produisant pour la partie de l'Est une législation contraire à tous les principes, y a méconnu les droits les plus sacrés [...] Sont et demeurent abrogées la loi du 8 juillet 1824 ; celle du 12 mai 1826 et celle du 15 mai 1827",
+     "traduccion": "el sistema engañoso del gobierno caído, al producir para el este una legislación contraria a todos los principios, desconoció los derechos más sagrados [...] quedan derogadas las leyes del 8-VII-1824, 12-V-1826 y 15-V-1827 relativas a los derechos de propiedad en el este.",
+     "afirmaciones": [
+      "A-109",
+      "A-100",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 27-XII-1843, pp. 133-134, arts. 2 y 10",
+     "cita_original": "les propriétés mobilières et immobilières qui, dans l'Est, n'appartiennent point à des particuliers, ou qui appartenaient, soit au gouvernement espagnol, soit à des couvents, monastères, hôpitaux, églises, ou autres corporations religieuses, sont déclarées propriétés nationales [...] La loi n'établit aucune différence entre les propriétés de la partie de l'Est dites derechos comuneros et les autres propriétés du pays",
+     "traduccion": "los bienes del gobierno español, conventos, hospitales, iglesias y otras corporaciones religiosas siguen siendo propiedad nacional; la ley no distingue entre las propiedades del este llamadas 'derechos comuneros' y las demás (art. 10).",
+     "afirmaciones": [
+      "A-099",
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 27-XII-1843, pp. 135-136, arts. 15, 22 y 23",
+     "cita_original": "Remise entière est faite aux propriétaires de biens de la partie de l'Est de toutes les rentes annuelles dont les dites propriétés sont grevées [...] Les appointements du haut clergé de Santo-Domingo sont maintenus [...] Les religieuses [...] jouiront chacune d'une pension viagère et annuelle de 720 gourdes",
+     "traduccion": "Se condonan a los propietarios del este todas las rentas anuales que gravaban sus bienes; se mantienen los sueldos del alto clero de Santo Domingo y las monjas de Regina reciben pensión vitalicia de 720 gourdes anuales.",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, decreto del 28-XII-1843, p. 137",
+     "cita_original": "afin que les citoyens de cette partie puissent réparer les maux qu'ils ont souffert sous le Gouvernement déchu",
+     "traduccion": "para que los ciudadanos de esta parte puedan reparar los males que sufrieron bajo el gobierno caído (decreto que permite exportar maderas de construcción del este).",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, capitulación de la guarnición haitiana de Santo Domingo, 28-II-1844, pp. 256-257",
+     "cita_original": "Ce jourd'hui vingt-huit février mil-huit-cent-quarante-quatre, an 41e de l'indépendance, et le 2e de la Régénération. Sous la médiation de M. le Consul de France [...] Art. 1er. Garantie des propriétés légalement acquises particulièrement",
+     "traduccion": "Hoy, 28 de febrero de 1844, año 41 de la independencia y 2.º de la Regeneración, bajo la mediación del cónsul de Francia [...] art. 1: garantía de las propiedades legalmente adquiridas. (Firmas de comisionados del este: Caminero, M. Aybar, Pedro Mena; de la Junta: M. R. Mella, Francisco Sánchez, Castro y Castro, Remigio del Castillo, W. de la Concha.)",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, mensaje de Hérard-Dumesle a la Constituyente, 2-III-1844, p. 257",
+     "cita_original": "la révolte, profitant de l'état actuel des choses, a osé arborer ses étendards sur plusieurs points de la partie de l'Est : les couleurs de la Colombie sont ses insignes",
+     "traduccion": "la revuelta, aprovechando el estado de cosas, se ha atrevido a izar sus estandartes en varios puntos de la parte este: los colores de Colombia son sus insignias (término oficial haitiano: 'révolte').",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, proclama de Hérard, Las Caobas, 12-III-1844, p. 282",
+     "cita_original": "Un levain de discorde fermentait depuis longtemps dans la partie de l'Est : les iniquités du Gouvernement déchu l'avaient entretenu ; [...] il accablait d'injustices les habitants des rives de l'Ozama et du mont Cibao",
+     "traduccion": "Un fermento de discordia fermentaba desde hacía tiempo en la parte este: las iniquidades del gobierno caído lo habían alimentado; [...] agobiaba de injusticias a los habitantes de las riberas del Ozama y del monte Cibao.",
+     "afirmaciones": [
+      "A-107",
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, proclama de Hérard, 12-III-1844, p. 282",
+     "cita_original": "une secrète antipathie [...] couvait la haine dans l'âme des orientaux contre les occidentaux [...] la chimère d'une république dominicaine, en la plaçant sous le protectorat de l'étranger",
+     "traduccion": "una secreta antipatía [...] incubaba el odio en el alma de los orientales contra los occidentales [...] la quimera de una república dominicana puesta bajo el protectorado del extranjero.",
+     "afirmaciones": [
+      "A-113",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, proclama de Hérard, 12-III-1844, p. 283 y p. 285",
+     "cita_original": "ne firent qu'ajourner le projet de rompre l'indivisibilité de la République et de lui ravir cette belle portion de son territoire qui s'étend du littoral des Anses-à-Pitre jusqu'aux confins de Monte-Christ [...] Vive la République, une et indivisible !",
+     "traduccion": "no hicieron más que aplazar el proyecto de romper la indivisibilidad de la República y arrebatarle esta bella porción de su territorio que va del litoral de Anse-à-Pitre a los confines de Montecristi [...] ¡Viva la República, una e indivisible!",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, informe de Céligny Ardouin sobre su misión a Santo Domingo, 7-VI-1844, pp. 340-341",
+     "cita_original": "Celui-ci refusa de recevoir ma lettre, parce que, disait-il, elle n'était pas adressée à la Junte centrale gouvernative, qui, ajouta-t-il, exerçait le pouvoir gouvernemental dans la partie de l'Est",
+     "traduccion": "Este rehusó recibir mi carta porque, dijo, no estaba dirigida a la Junta Central Gubernativa, que ejercía el poder de gobierno en el este. (Ardouin se negó a reconocer 'l'état de choses'; recibió a 132 prisioneros haitianos liberados.)",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, nota del Gobierno haitiano de marzo de 1845 sobre la Iglesia, p. 529",
+     "cita_original": "de ce que les citoyens du département de l'Est de la République aient prononcé une séparation (qui ne peut être que momentanée) de leurs concitoyens des autres départements, s'ensuit-il que la Cour de Rome soit autorisée à faire cette inconcevable distinction de territoire ?",
+     "traduccion": "del hecho de que los ciudadanos del departamento del Este hayan pronunciado una separación (que no puede ser más que momentánea) de sus conciudadanos de otros departamentos, ¿se sigue que la Curia romana pueda hacer esa inconcebible distinción de territorio?",
+     "afirmaciones": [
+      "A-113",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, misma nota, p. 529",
+     "cita_original": "Si l'Archevêché d'Haïti se trouve vacant depuis 1823, époque du décès du titulaire survenu à la Havane où il s'était volontairement retiré",
+     "traduccion": "Si el Arzobispado de Haití está vacante desde 1823, época del fallecimiento del titular ocurrido en La Habana, adonde se había retirado voluntariamente (versión oficial haitiana: retiro voluntario; la fecha '1823' choca con Ardouin, que sitúa la salida en 1830 [POR VERIFICAR]).",
+     "afirmaciones": [
+      "A-109"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-095",
+    "A-099",
+    "A-100",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-113"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "El decreto del 27-XII-1843 (n.º 1721 del Recueil original) es el documento clave para A-109, A-100 y A-099: un gobierno haitiano de 1843 admite que la legislación de 1824-1827 para el este era contraria a principios, pero mantiene como bienes nacionales los del gobierno español y los eclesiásticos. La proclama de Hérard del 27-VII-1843 menciona una 'conspiration' en Santo Domingo ('sans doute elle existait'), contexto de A-113 (la fecha del 24-III-1843 sigue [POR VERIFICAR]). No se encontró en el tomo ninguna mención de Duarte ni de La Trinitaria por esos nombres. Capitulación: coincide con la traducción inglesa de Eller (2013) tomada de Madiou t. VIII pp. 103-104."
+  },
+  {
+   "titulo": "Code rural d'Haïti (Port-au-Prince, imprimerie du gouvernement, 1826), ejemplar de la John Carter Brown Library",
+   "autor": "Boyer, Jean-Pierre; Cámara de Representantes de las Comunes de Haití",
+   "anio": "1826",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/coderuraldhati05787hait",
+   "urls_alternativas": [
+    "https://archive.org/download/coderuraldhati05787hait/coderuraldhati05787hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial impreso (49 pp., 'juillet 1826' según ficha) con las seis leyes del Código; el OCR es defectuoso pero legible.",
+   "proveniencia": "Impreso oficial del Código Rural que la Cámara votó (21-IV-1826) y Boyer sancionó (6-V-1826), parte del Código de la JCB (ejemplar encuadernado con la Géographie de Ardouin, 1832). El OCR de archive.org arranca con restos del Código de Procedimiento Civil del volumen. Documento de parte; no registra aplicación.",
+   "extractos": [
+    {
+     "ubicacion": "Preámbulo (antes de la Ley n.º 1)",
+     "cita_original": "La Chambre des Représentants des Communes, sur la proposition du Président d'Haïti, et ouï le rapport de sa section de l'Intérieur, a rendu les six lois suivantes, formant le Code rural d'Haïti",
+     "traduccion": "La Cámara de Representantes de las Comunes, a propuesta del Presidente y oído el informe de su sección del Interior, ha dictado las seis leyes siguientes, que forman el Código Rural de Haití (ley para toda la República; no hay cláusula territorial limitada al este). [OCR muy deficiente en el preámbulo: lectura reconstruida; cotejar con la imagen del JCB.]",
+     "afirmaciones": [
+      "A-102",
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 1, art. 3",
+     "cita_original": "ceux enfin qui ne pourront pas justifier leurs moyens d'existence, devront cultiver la terre",
+     "traduccion": "los que no puedan justificar sus medios de existencia deberán cultivar la tierra.",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 1, art. 4",
+     "cita_original": "Les citoyens de profession agricole ne pourront quitter les campagnes pour habiter les villes ou bourgs, sans une autorisation du juge de paix [...] Tous ceux qui ne se conformeront pas aux règles ci-dessus établies seront considérés comme vagabonds et traités comme tels",
+     "traduccion": "Los ciudadanos de profesión agrícola no podrán dejar el campo para vivir en villas o pueblos sin autorización del juez de paz [...] quienes no se atengan serán considerados vagabundos y tratados como tales.",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 3, arts. 45-46",
+     "cita_original": "seront tenues [...] de passer un contrat synallagmatique avec le propriétaire ou fermier principal [...] La durée des contrats ne pourra être pour un temps moindre que deux ans ni plus long que neuf années, pour la culture secondaire et les manufactures",
+     "traduccion": "las personas que no estén en servicio del Estado y cuya profesión sea cultivar la tierra deberán firmar contrato sinalagmático con el propietario o arrendatario principal; duración mínima de dos años y máxima de nueve para cultivo secundario y manufacturas (tres a nueve para los demás cultivos).",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 3, art. 52",
+     "cita_original": "Les cultivateurs travaillant au quart des revenus par eux produits, participeront pour un quart brut dans tout ce qu'ils produiront",
+     "traduccion": "Los cultivadores que trabajan 'al cuarto' participarán en un cuarto bruto de lo que produzcan (régimen de aparcería regulado por el Código).",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 5, cap. II, art. 96 ('Des contrats entre les propriétaires ou fermiers de hattes et ceux qui y sont attachés')",
+     "cita_original": "Les propriétaires ou fermiers de hattes ne pourront recevoir, sur leurs hattes, aucuns gardiens ou autres gens, qu'au préalable ils n'aient contracté avec eux",
+     "traduccion": "Los propietarios o arrendatarios de hatos no podrán recibir en ellos guardianes ni otras personas sin haber contratado antes con ellos (el Código regula también el trabajo en hatos; la extensión práctica al este [POR VERIFICAR]). [OCR muy deficiente en este artículo: lectura reconstruida; cotejar con la imagen del JCB.]",
+     "afirmaciones": [
+      "A-102"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-101",
+    "A-102",
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0035",
+   "notas": "Resuelve la parte 'Código Rural de 1826' de F-0035 (la URL de la ficha, JCB lunaimaging, es la misma digitalización del ejemplar JCB; archive.org ofrece el texto). Los 'decretos de 1822' de F-0035 se resuelven con el Recueil t. III (n.º 774, 775, 789). El Código fue una ley nacional: la tesis de que 'no fue una medida contra el este' (A-102) se apoya en el preámbulo y en el contenido; la aplicación en el este no consta aquí. La fecha 6-V-1826 figura en el Recueil t. IV, n.º 1030 (sanción), no en este impreso. Manigat (t. I, p. 121), Trouillot (pp. 60 y 74) y Hector (cap. en Genèse) coinciden en que fue inaplicable o resistido en todo el país."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. IX, X y XI",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1860",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi09ardo",
+   "urls_alternativas": [
+    "https://archive.org/details/etudessurlhistoi10ardo",
+    "https://archive.org/details/etudessurlhistoi11ardo",
+    "https://archive.org/download/etudessurlhistoi09ardo/etudessurlhistoi09ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historiador y estadista contemporáneo de los hechos (senador, ministro, signatario del tratado de 1838), con transcripción de documentos; defiende a Boyer y a la élite de color, lo que obliga a contrastar.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), mulato, diputado, senador, ministro de Justicia e Instrucción Pública, embajador en París; escribió los 11 tomos en París, 1853-1860, y vivió los hechos de 1822-1843. Es la versión 'mulâtriste' (Madiou es el contrapunto 'noiriste'). Tiene acceso a documentos oficiales y los inserta; sus notas al pie contienen juicios personales (p. ej. sobre la universidad y sobre la 'République Dominicaine'). Sus tomos IX-XI cubren 1820-1843 y su comentario sobre 1843-44 es posterior (1860). El OCR de archive.org es regular; las páginas se verificaron por las cabeceras (IX: pp. 152-156; X: pp. 89-92, 104; XI: pp. 219, 265, 294).",
+   "extractos": [
+    {
+     "ubicacion": "t. IX, cap. III, p. 152",
+     "cita_original": "La constitution de la République n'admettant sur tout son territoire que des hommes libres et égaux en droits, partout où l'armée haïtienne passait pour se rendre dans celui de l'Est d'Haïti, elle brisait les fers des esclaves",
+     "traduccion": "Como la constitución de la República solo admitía en todo su territorio hombres libres e iguales en derechos, dondequiera que pasaba el ejército haitiano camino del este de Haití rompía las cadenas de los esclavos.",
+     "afirmaciones": [
+      "A-094",
+      "A-095",
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, p. 152 (sobre la organización del Estado de Núñez de Cáceres, XII-1821)",
+     "cita_original": "L'ancienne université de cette ville fut rétablie avec plusieurs professeurs de mérite, et une école primaire fondée à côté de celles tenues par des particuliers",
+     "traduccion": "La antigua universidad de esa ciudad fue restablecida con varios profesores de mérito, y se fundó una escuela primaria junto a las de particulares (Ardouin lo sitúa en la organización de diciembre de 1821, antes de Boyer: implica que la universidad había estado inactiva).",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "t. IX, cap. III, pp. 154-155",
+     "cita_original": "Fallait-il les exclure des avantages de l'égalité des droits, après avoir proclamé la liberté des esclaves ? [...] ils fussent admis et considérés comme Haïtiens, s'ils étaient propriétaires de biens fonds et s'ils prêtaient serment de fidélité à la République. Ce fut la décision que prit le Président d'Haïti",
+     "traduccion": "¿Había que excluirlos de las ventajas de la igualdad de derechos tras haber proclamado la libertad de los esclavos? [...] fueran admitidos y considerados haitianos si eran propietarios de bienes raíces y prestaban juramento de fidelidad: esa fue la decisión de Boyer (frente a la prohibición constitucional de propiedad para blancos).",
+     "afirmaciones": [
+      "A-110",
+      "A-111",
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "t. X, cap. II, p. 90 y p. 92 (nota haitiana a Francisco de Castro, comisionado de Fernando VII, dic. 1830)",
+     "cita_original": "les habitans de l'Est eux-mêmes l'avaient si bien compris ainsi, qu'aussitôt la cessation de la guerre civile par la mort de H. Christophe, ils déclarèrent leur incorporation à la République [...] justifiant de nouveau la prise de possession de l'ancienne colonie par le vœu de la très-grande majorité du peuple qui l'habitait",
+     "traduccion": "los habitantes del Este lo entendieron así, y apenas cesó la guerra civil con la muerte de Christophe declararon su incorporación a la República [...] justificando de nuevo la toma de posesión de la antigua colonia por el voto de la inmensa mayoría de su pueblo (argumentación oficial haitiana de 1830, relatada por Ardouin).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. X, cap. II, p. 90, nota 1",
+     "cita_original": "En reconnaissant l'indépendance des Haïtiens de l'ancienne partie française, même sous la forme d'une concession royale, le Roi de France admettait in petto qu'ils avaient eu le droit de briser le joug [...] Donc, le même droit appartenait aux Haïtiens de l'Est à l'égard de l'Espagne",
+     "traduccion": "Al reconocer la independencia de los haitianos de la antigua parte francesa, aun como concesión real, el rey de Francia admitía in petto que habían tenido derecho a romper el yugo: luego el mismo derecho correspondía a los haitianos del Este frente a España (nótese 'Haïtiens de l'Est').",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. X, cap. II, p. 104",
+     "cita_original": "l'archevêque Pedro Valera, obsédé de scrupules religieux et politiques après la réclamation faite par Ferdinand VII du territoire de l'Est, prit la résolution de quitter Santo-Domingo pour se réfugier à la Havane [...] Le gouvernement ne pouvait faire violence à ce respectable vieillard",
+     "traduccion": "el arzobispo Pedro Valera, obsesionado por escrúpulos religiosos y políticos tras la reclamación de Fernando VII del territorio del Este, resolvió dejar Santo Domingo para refugiarse en La Habana [...] el gobierno no podía hacer violencia a ese respetable anciano (versión haitiana de la salida de Valera hacia junio de 1830: voluntaria).",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. I (1838), pp. 15-16 (mensaje de Boyer sobre las leyes necesarias)",
+     "cita_original": "une loi avantageuse à l'exportation des bêtes-à-cornes de la partie de l'Est",
+     "traduccion": "Boyer pide, entre otras leyes, 'una ley ventajosa para la exportación de ganado de la parte este' (1838): el este como economía ganadera con interés fiscal propio.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. I (1838), p. 27",
+     "cita_original": "gagner les représentans de l'Est qui formaient dans la Chambre une sorte de tiers-parti, et qui étaient toujours prêts à appuyer le gouvernement dont ils n'avaient point à se plaindre",
+     "traduccion": "ganarse a los representantes del Este, que formaban en la Cámara una especie de tercer partido y siempre estaban dispuestos a apoyar al gobierno, del que 'no tenían queja' (juicio de Ardouin, defensor de Boyer, sobre el comportamiento de los diputados del este hacia 1838).",
+     "afirmaciones": [
+      "A-112",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. II (1839), p. 94, nota 1",
+     "cita_original": "firent des démarches actives auprès des représentans de la partie de l'Est, pour les déterminer à se rallier au pouvoir exécutif",
+     "traduccion": "A. Bronard y su tío Valéry Renaud hicieron gestiones activas ante los representantes de la parte este para decidirlos a alinearse con el poder ejecutivo (1839: los diputados del este eran disputados por el gobierno y la oposición).",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. III (1841), pp. 130-131 (comisión sobre T. B. Smith y los blancos)",
+     "cita_original": "la conduite tenue en 1822 à l'égard des blancs qui se trouvaient dans la partie de l'Est [...] délivrant à ceux qui n'en auraient pas reçu, dans la partie de l'Est, des lettres de naturalisation",
+     "traduccion": "la comisión de 1841 examinó la conducta de 1822 con los blancos hallados en el este y propuso registrar a los blancos reconocidos como haitianos, expidiendo cartas de naturalización a los del este que no las tuvieran (muestra que la política de 1822 los trató como haitianos a pesar de la prohibición constitucional).",
+     "afirmaciones": [
+      "A-110",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. V, p. 219, nota 1",
+     "cita_original": "Notez qu'en 1822, à la réunion de la partie de l'Est, il y avait une université ou grand collège à Santo-Domingo, entretenu par le gouvernement espagnol, et que peu après Boyer supprima cet établissement pour y substituer une simple école primaire",
+     "traduccion": "Nótese que en 1822, a la reunión de la parte Este, había en Santo Domingo una universidad o gran colegio mantenido por el gobierno español y que poco después Boyer suprimió ese establecimiento para sustituirlo por una simple escuela primaria (testimonio de un exsecretario de Instrucción Pública haitiano).",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. V, p. 265, nota 1",
+     "cita_original": "Si la nationalité haïtienne n'a pas été anéantie, elle a été du moins compromise par la séparation des départemens de l'Est, érigés en « République Dominicaine »",
+     "traduccion": "Si la nacionalidad haitiana no fue aniquilada, quedó al menos comprometida por la separación de los departamentos del Este, erigidos en 'República Dominicana' (término haitiano: 'séparation').",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, cap. VI, p. 294, nota 1",
+     "cita_original": "En changeant la dénomination de la République d'Haïti en celle de « République Haïtienne », le chef de l'Opposition créa malgré lui une « République Dominicaine » sur le territoire de l'île. Il ignorait les idées et les vrais sentimens qui existaient depuis quelque temps dans les départemens de l'Est",
+     "traduccion": "Al cambiar la denominación de República de Haití por 'República Haitiana', el jefe de la oposición creó a su pesar una 'República Dominicana' en el territorio de la isla; ignoraba las ideas y sentimientos reales que existían desde hacía tiempo en los departamentos del Este.",
+     "afirmaciones": [
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-096",
+    "A-098",
+    "A-099",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-110",
+    "A-111",
+    "A-112",
+    "A-113"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0107",
+   "notas": "Resuelve F-0107 (la URL registrada, erudit.org BSHG 1995, es una reseña tras muro Anubis; el texto está en archive.org, 11 tomos, ids etudessurlhistoi01ardo a 11ardo y tudessurlhisto01-08ardo). Ardouin t. XI NO menciona a Báez, Duarte ni a la Trinitaria (búsqueda de 'Baez/Duarte/trinitair/27 février': sin resultados), de modo que A-106 y A-112 no se pueden apoyar aquí; incluye el Manifiesto de Praslin del 1-IX-1842 (cf. Island Luminous, slide 11). La nota de t. XI p. 219 contradice la versión rival de A-099 solo en parte: Joint (2009) recoge que 'según algunos historiadores' la universidad ya no funcionaba antes de Boyer, y Ardouin t. IX p. 152 dice que Núñez la 'restableció' en dic. 1821. [POR VERIFICAR] si el cierre fue decreto o cese de hecho: ninguna fuente haitiana consultada cita un decreto. Hecho / interpretación: HECHO (Ardouin) = en 1822 existía una universidad o gran colegio mantenido por España y Boyer lo sustituyó por una escuela primaria; INTERPRETACIÓN = que fuera 'supresión' (Ardouin) o fin de un establecimiento inactivo (Joint n. 15); SIGNIFICADO = agravio cultural (relato dominicano) o nota marginal (Ardouin). Observación OCR: en la nota de t. XI p. 219 el OCR trae 'supprima est établissement' y se corrigió a 'cet'."
+  },
+  {
+   "titulo": "Mémoires de Joseph Balthazar Inginac, général de division, ex-secrétaire général près S. E. l'ex-Président d'Haïti, depuis 1797 jusqu'à 1843",
+   "autor": "Inginac, Joseph Balthazar",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/mmoiresdejosep00ingi",
+   "urls_alternativas": [
+    "https://ia601602.us.archive.org/21/items/mmoiresdejosep00ingi/mmoiresdejosep00ingi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo de primera mano (secretario general de Boyer, firma la proclama de 1822 y negocia en 1825 y 1838), pero escribe en el exilio de Kingston para defenderse de la acusación de traición.",
+   "proveniencia": "Memoria personal impresa en Kingston (Jamaica), J. R. DeCordova, 1843, tras la caída de Boyer, por quien fue su secretario general (1818-1843). Autodefensa de un colaborador acusado de 'incivisme et trahison'; interés: mostrarse prudente y leal a la patria. Sabe de primera mano la negociación de Mackau (1825), el empréstito, la organización del este en 1822 y la oferta de federación de Santo Domingo.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 58-59 (1821)",
+     "cita_original": "avait pour mission de s'enquérir, si le Gouvernement était disposé à fédérer la République avec la République Domingoize que les habitans de Santo-Domingo voulaient proclamer comme état indépendant [...] il n'y avait pas d'autres arrangemens à faire avec eux que de se réunir à la République",
+     "traduccion": "tenía la misión de averiguar si el gobierno estaba dispuesto a federar la República con la 'República Domingoise' que los habitantes de Santo Domingo querían proclamar como Estado independiente [...] no había otro arreglo posible que reunirse a la República (respuesta haitiana: el art. constitucional sobre el territorio).",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 61 (febrero de 1822)",
+     "cita_original": "Arrivé à Santo Domingo, il fut facile de s'appercevoir que l'aristocratie de l'endroit n'avait fait que se soumettre à la nécessité en consentant à la réunion",
+     "traduccion": "Llegados a Santo Domingo fue fácil advertir que la aristocracia local no había hecho más que someterse a la necesidad al consentir la reunión.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "p. 62",
+     "cita_original": "sans négliger de visiter les écoles qui existaient dans l'endroit, et de préparer les moyens pour l'établissement d'une école Lancastérienne",
+     "traduccion": "sin descuidar visitar las escuelas que existían en el lugar y preparar los medios para establecer una escuela lancasteriana (Inginac, encargado de organizar tribunales, hacienda e instrucción en Santo Domingo en 1822; no menciona universidad).",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "pp. 69-70 (julio de 1825)",
+     "cita_original": "la Commission conclut au rejet de l'ordonnance de Charles X, et en présence de son envoyé, le Général Frémont tenant la plume, écrivit sous ma dictée le refus motivé de l'acceptation de cette ordonnance",
+     "traduccion": "la Comisión (Inginac, Frémont, Rouanez) concluyó el rechazo de la ordenanza de Carlos X y, en presencia del enviado Mackau, Frémont escribió al dictado de Inginac la negativa motivada (la aceptación vino después de las explicaciones de Mackau y del dictamen de los grandes funcionarios, Recueil t. IV, n.º 960).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "pp. 72-73",
+     "cita_original": "il fut négocié à 80 pour cent avec des frais énormes, et qu'il a fallu faire de grands sacrifices pour couvrir, ainsi que les déficits de 20 pour cent sur 30,000,000 fF. qu'il fallait pour satisfaire au premier terme de l'indemnité",
+     "traduccion": "(el empréstito de 1825) se negoció al 80 % con gastos enormes y hubo que hacer grandes sacrificios para cubrir el déficit del 20 % sobre los 30.000.000 de francos necesarios para el primer plazo de la indemnización; hacia 1843 quedaban por cubrir cerca de 13.000.000 de francos (p. 73).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "la réunion de l'est dans lequel il n'y avait aucune ressource pour le Commerce, si ce n'est une très faible exportation de bois d'acajou",
+     "traduccion": "la reunión del este, donde no había ningún recurso para el comercio, salvo una exportación muy débil de caoba (testimonio del secretario general sobre la escasa base fiscal del este hacia 1825-1826).",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-099",
+    "A-103",
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-114"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Fuente primaria haitiana de primer orden y poco usada en la historiografía dominicana. La ficha archive.org (id mmoiresdejosep00ingi) solo descarga el texto desde el servidor del ítem (ia601602.us.archive.org); la ruta /download/ devolvió 500. Autor sesgado a su favor. Leslie Manigat (Éventail t. I) lo trata en su semblanza de Inginac y recuerda que escribió estas memorias en Kingston en 1844 [fecha de impresión por verificar: la ficha dice 1843]."
+  },
+  {
+   "titulo": "Constitution de 1843 (30 de diciembre), Digithèque MJP",
+   "autor": "Asamblea Constituyente de Haití; transcripción de Jean-Pierre Maury (MJP, Université de Perpignan)",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1843.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/2013/09/29/haitian-constitutions-1790-1860/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción íntegra con numeración de artículos, tomada de Janvier (1886); la presentación del sitio es obra del transcriptor, no del texto constitucional.",
+   "proveniencia": "Constitución votada el 30-XII-1843 por la Constituyente de la 'Régénération', nunca aplicada plenamente (según la presentación de la MJP, citando a Janvier 1886). La Digithèque MJP (Maury) reproduce el texto de Janvier. Sirve de fuente primaria de la doctrina constitucional vigente en la caída del este (indivisibilidad, departamentos de Cibao y Ozama, lenguas).",
+   "extractos": [
+    {
+     "ubicacion": "Tít. I, arts. 1, 2 y 5",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de la République [...] six départements : Le Sud, l'Ouest, l'Artibonite, le Nord, le Cibao, l'Ozama [...] La République Haïtienne est une et indivisible [...] Son territoire est inviolable et ne peut être aliéné par aucun traité",
+     "traduccion": "La isla de Haití y las islas adyacentes forman el territorio de la República [...] seis departamentos: Sur, Oeste, Artibonito, Norte, Cibao, Ozama [...] una e indivisible; su territorio es inviolable y no puede ser enajenado por ningún tratado.",
+     "afirmaciones": [
+      "A-113",
+      "A-110",
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "Tít. II, art. 8",
+     "cita_original": "Aucun blanc ne pourra acquérir la qualité d'Haïtien ni le droit de posséder aucun immeuble en Haïti",
+     "traduccion": "Ningún blanco podrá adquirir la calidad de haitiano ni el derecho de poseer inmueble alguno en Haití (la Constituyente de 1843 mantiene la prohibición).",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Art. 31 y 37",
+     "cita_original": "Les langues usitées dans le pays sont enseignées dans ces écoles [...] L'emploi des langues usitées en Haïti est facultatif, il ne peut être réglé que par la loi, et seulement pour les actes de l'autorité publique et pour les affaires judiciaires",
+     "traduccion": "Las lenguas usadas en el país se enseñan en esas escuelas [...] el empleo de las lenguas usadas en Haití es facultativo; solo la ley puede regularlo y solo para actos de la autoridad pública y asuntos judiciales (marco constitucional del decreto del 26-XII-1843 sobre el español).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "Arts. 52, 59 y 60",
+     "cita_original": "trois pour chacune des villes des Cayes, des Gonaïves, du Cap-Haïtien, de Saint-Yague et de Santo-Domingo [...] Le Sénat se compose de trente-six représentants du peuple, à raison de six par chaque département",
+     "traduccion": "tres representantes para cada una de las ciudades de Cayos, Gonaïves, Cabo Haitiano, Santiago y Santo Domingo (art. 52); el Senado se compone de 36 miembros, seis por departamento (art. 59), de modo que Ozama y Cibao (el este) tendrían 12 de 36 senadores (art. 60: seis por la asamblea electoral de Santo Domingo y seis por la de Santiago).",
+     "afirmaciones": [
+      "A-112"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107",
+    "A-108",
+    "A-110",
+    "A-112",
+    "A-113"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0037",
+   "notas": "Resuelve F-0037 (la ficha apuntaba a Wikipedia). La MJP (Maury) señala que la Constitución de 1843 'ne fut jamais appliquée' y que Riché restableció la de 1816. Los números de artículo se tomaron de la página mjp (arts. 1, 2, 5, 8, 31, 37, 52, 59, 60 verificados en el HTML). La lista de firmantes de la Constituyente que reproduce Janvier (p. 186) incluye nombres del este (Peralta, Valdès, Miguel Antonio Rojas, Remigio del Castillo, J. Nepomuceno Tejera, Torribio López Villanueva) pero NO consta Báez en esa lista: A-112 ('Báez diputado constituyente por Azua') queda sin confirmar por fuente haitiana."
+  },
+  {
+   "titulo": "Constitution de 1806 révisée en 1816 (2 de junio de 1816), Digithèque MJP",
+   "autor": "Senado y revisión de Pétion; transcripción de Jean-Pierre Maury (MJP)",
+   "anio": "1816",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1816.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción íntegra con numeración; coincide con el Recueil t. IV en los arts. 40-41 y 56-62 que cita Boyer.",
+   "proveniencia": "Constitución de 1806 revisada el 2-VI-1816 bajo Pétion; es la que rigió el período 1822-1843 (Boyer la cita en 1822: arts. 40 y 41; el arrêté del 27-II-1822 invoca los arts. 56, 61 y 62 para dar representación al este). Sirve de base de A-110. La MJP la reproduce de Janvier (1886).",
+   "extractos": [
+    {
+     "ubicacion": "Tít. I, art. 1",
+     "cita_original": "Il ne peut exister d'esclaves sur le territoire de la République ; l'esclavage y est à jamais aboli",
+     "traduccion": "No puede haber esclavos en el territorio de la República; la esclavitud queda abolida para siempre (base constitucional de la liberación del este en 1822).",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "Tít. I, arts. 38-39",
+     "cita_original": "Aucun blanc, quelle que soit sa nation, ne pourra mettre le pied sur ce territoire à titre de maître ou de propriétaire. [...] nul autre à l'avenir [...] ne pourra prétendre [...] ni acquérir de propriété dans la République",
+     "traduccion": "Ningún blanco, de cualquier nación, podrá pisar este territorio como amo o propietario [...] nadie más, en lo sucesivo, podrá pretender el derecho de ciudadano ni adquirir propiedad en la República. (Confirma el art. 38 citado en A-110; el art. 39 añade la prohibición de adquirir propiedad.)",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Tít. II, arts. 40-41",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent, forment le territoire de la République [...] La République d'Haïti est une et indivisible",
+     "traduccion": "La isla de Haití (antes llamada Santo Domingo) con las islas adyacentes forma el territorio de la República [...] la República de Haití es una e indivisible (base constitucional de la 'réunion' invocada por Boyer el 9-II-1822).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "Tít. III, art. 44",
+     "cita_original": "Tout Africain, Indien et ceux issus de leur sang, nés dans les colonies ou en pays étrangers, qui viendraient résider dans la République seront reconnus Haïtiens, mais ne jouiront des droits de citoyen qu'après une année de résidence",
+     "traduccion": "Todo africano, indio y los de su sangre, nacidos en las colonias o en países extranjeros, que vinieran a residir en la República serán reconocidos haitianos, pero gozarán de derechos de ciudadano tras un año de residencia (base de la inmigración afroamericana de 1824).",
+     "afirmaciones": [
+      "A-105",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Tít. V, art. 56",
+     "cita_original": "La Chambre des représentants des communes se compose de trois membres pour la capitale de la République, et de deux pour le chef-lieu de chaque département, et d'un membre [...]",
+     "traduccion": "La Cámara de representantes de las comunes se compone de tres miembros para la capital, dos para la capital de cada departamento y uno [por cada comuna] (art. invocado por el arrêté del 27-II-1822 para el este).",
+     "afirmaciones": [
+      "A-112"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-105",
+    "A-107",
+    "A-108",
+    "A-110",
+    "A-112"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Verifica los números de artículo marcados [POR VERIFICAR] en A-110 para 1816: art. 38 (prohibición de pisar el territorio como amo o propietario), art. 44 (africanos e indios) y añade art. 39. Para 1805 ver la ficha de la Constitución de 1805. Elementos de la Constitución de 1816 que los manuales haitianos citan como agravio del este: art. 38 (blancos) y la mayoría 'blanca' del este (González Canalda 2019, pp. 104-105)."
+  },
+  {
+   "titulo": "Constitution impériale du 20 mai 1805, Digithèque MJP",
+   "autor": "Dessalines y su asamblea; transcripción de Jean-Pierre Maury (MJP)",
+   "anio": "1805",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1805.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción íntegra con numeración de artículos.",
+   "proveniencia": "Constitución imperial de Dessalines, 20-V-1805; antecedente directo de las cláusulas sobre blancos y denominación de 'Noirs' que luego pasan a 1806-1816-1843. Sirve para fijar los números de artículo de A-110.",
+   "extractos": [
+    {
+     "ubicacion": "Art. 12 y 14",
+     "cita_original": "Aucun blanc, quelle que soit sa nation, ne mettra le pied sur ce territoire, à titre de maître ou de propriétaire et ne pourra à l'avenir y acquérir aucune propriété [...] les Haïtiens ne seront désormais connus que sous la dénomination génériques de Noirs",
+     "traduccion": "Ningún blanco, de cualquier nación, pisará este territorio como amo o propietario ni podrá en adelante adquirir propiedad alguna [...] los haitianos serán conocidos en adelante solo con la denominación genérica de negros.",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Art. 15 y 18",
+     "cita_original": "L'Empire d'Haïti est un et indivisible [...] Sont parties intégrantes de l'Empire les îles ci-après désignées : Samana, la Tortue, la Gonâve, les Cayemites, l'île à Vache, la Saône, et autres îles adjacentes",
+     "traduccion": "El Imperio de Haití es uno e indivisible [...] son partes integrantes del Imperio las islas: Samaná, Tortuga, Gonâve, Cayemites, Île-à-Vache, Saona y otras adyacentes. (Los arts. 12, 14 y 18 de A-110 quedan verificados; el art. 18 nombra a Samaná.)",
+     "afirmaciones": [
+      "A-110"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-110"
+   ],
+   "modulos": [
+    "M06",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve el [POR VERIFICAR] de A-110 sobre los arts. 12 y 14 de 1805 (y el art. 18 que cita Samaná). La nota aclara que la prohibición de 1805 incluía 'à l'avenir y acquérir aucune propriété', mientras que en 1816 el art. 38 se limita a 'mettre le pied ... à titre de maître ou de propriétaire' y el art. 39 añade la prohibición de adquirir; en 1843 el art. 8 prohíbe poseer inmuebles."
+  },
+  {
+   "titulo": "Les constitutions d'Haïti (1801-1885)",
+   "autor": "Janvier, Louis-Joseph",
+   "anio": "1886",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/lesconstitutions00hait",
+   "urls_alternativas": [
+    "https://archive.org/details/lesconstitutions00janv"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto íntegro de las constituciones con comentario de un publicista haitiano de 1886; el comentario es opinión y crítico del Gobierno Provisional de 1843.",
+   "proveniencia": "Louis-Joseph Janvier (1855-1911), abogado, publicista y diplomático haitiano formado en París; publica en París (Marpon y Flammarion, 1886) las constituciones con prefacio y comentario. Su juicio sobre 1843-1844 es retrospectivo (42 años después), dirigido a lectores franceses y haitianos; defiende la estabilidad frente a las 'révolutions'. Vinculado a la polémica con Spenser St John.",
+   "extractos": [
+    {
+     "ubicacion": "cap. VII (Constitution de 1843), pp. 187-188",
+     "cita_original": "Cette singulière attitude n'échappa pas aux yeux des députés de l'Est et du Nord. Elle est une des causes [...] qui occasionnèrent la scission définitive de l'Est opérée en 1844",
+     "traduccion": "Esta singular actitud (de Hérard, que protestó contra la constitución el día mismo en que debía jurarla) no escapó a los diputados del Este y del Norte; es una de las causas de la escisión definitiva del Este de 1844.",
+     "afirmaciones": [
+      "A-113",
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 188",
+     "cita_original": "il eut tort d'abord de ne pas faire figurer au nombre de ses membres des citoyens nés dans les deux départements du Cibao et de l'Ozama [...] il eut tort ensuite de fermer, par un arrêté du 27 septembre, tous les ports de l'Est",
+     "traduccion": "(el Gobierno Provisional de 1843) se equivocó al no incluir entre sus miembros a ciudadanos de Cibao y Ozama y al cerrar el 27 de septiembre todos los puertos del Este.",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 189",
+     "cita_original": "Habitués à jouir de libertés commerciales suffisantes de 1822 à 1843, ils ne pouvaient consentir que fort difficilement à renoncer brusquement à ces libertés sous simple injonction d'un décret de gouvernement provisoire",
+     "traduccion": "Habituados a gozar de libertades comerciales suficientes de 1822 a 1843, difícilmente podían renunciar de golpe a ellas por un simple decreto de un gobierno provisional en el que no había ninguno de los suyos.",
+     "afirmaciones": [
+      "A-107",
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, p. 189",
+     "cita_original": "Rivière Hérard, dont la science politique fut toujours nulle [...] avait foulé les habitants, les avait blessés par ses fantaisies et sa morgue de parvenu, s'y était montré d'une maladresse extrême",
+     "traduccion": "Rivière Hérard, de nula ciencia política [...] había hollado a los habitantes del este, los había herido con sus caprichos y su altivez de advenedizo.",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "cap. VIII, pp. 189-190",
+     "cita_original": "Dans le courant du mois de janvier, la partie espagnole rédigea un manifeste par lequel elle exposa les raisons pour lesquelles elle déclara vouloir se séparer de la partie occidentale. Ce manifeste, signé en secret, fut publié le 27 février suivant",
+     "traduccion": "En enero la parte española redactó un manifiesto con las razones de su separación de la parte occidental; firmado en secreto, se publicó el 27 de febrero siguiente (relato haitiano: 'séparer', 'scission').",
+     "afirmaciones": [
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107",
+    "A-112",
+    "A-113"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "El OCR de archive.org no trae cabeceras de página fiables en todas las páginas; las pp. 187-190 se deducen de las cabeceras 'CONSTITUTION DE 1843. 187' y 'CONSTITUTION DE 1846. 189-191'. Janvier sirve de fuente a la MJP. Calificativos como 'séparation' y 'scission' son los del lado haitiano; el glosario del corpus ya los recoge."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. III (1807-1818) con el resumen final de 1822-1838",
+   "autor": "Madiou, Thomas",
+   "anio": "1848",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti03madi",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historiador haitiano casi contemporáneo (1814-1884), con acceso a testigos y archivos; interés 'noiriste' y crítico de Boyer. El resumen final de t. III es sintético, no documental.",
+   "proveniencia": "Thomas Madiou (1814-1884), director del Lycée national de Puerto Príncipe, historiador 'noiriste' (Madiou/Ardouin son los dos polos de la historiografía haitiana del XIX). La edición de 1847-48 (Courtois, Puerto Príncipe) tiene 3 tomos y llega a 1818; el tomo III cierra con un resumen que adelanta 1818-1838. Los tomos VII y VIII de la edición Deschamps (1827-1846) no se hallaron en abierto.",
+   "extractos": [
+    {
+     "ubicacion": "t. III, p. 438 (resumen final, 'Quant à la partie de l'Est')",
+     "cita_original": "Néanmoins il existait à Santo Domingo quatre partis : le premier et le plus nombreux était celui de l'indépendance, le deuxième se prononçait pour la réunion à la République d'Haïti, le troisième voulait d'un lien fédéral avec la Colombie, le quatrième et le plus faible était celui du Roi d'Espagne",
+     "traduccion": "No obstante, había en Santo Domingo cuatro partidos: el primero y más numeroso, el de la independencia; el segundo, por la reunión con Haití; el tercero, por un lazo federal con Colombia; el cuarto y más débil, el del rey de España (testimonio haitiano de 1848: la 'réunion' no era mayoritaria entre los notables).",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 439",
+     "cita_original": "Les haïtiens n'ont consenti à payer aux colons les 60 millions qu'en considération du principe de l'inviolabilité de la propriété. Ils n'ont donc rien supputé pour leur liberté",
+     "traduccion": "Los haitianos solo consintieron en pagar a los colonos los 60 millones en consideración al principio de inviolabilidad de la propiedad; nada calcularon, pues, por su libertad (interpretación haitiana de la indemnización: 'rien supputé pour leur liberté').",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 439",
+     "cita_original": "L'acceptation de l'Ordonnance de Charles X, à des conditions si onéreuses, répandit dans le pays un mécontentement qui se témoigna par plusieurs conspirations",
+     "traduccion": "La aceptación de la ordenanza de Carlos X, en condiciones tan onerosas, extendió en el país un descontento que se manifestó en varias conspiraciones (la más importante, 'celle de 1827' [OCR '4897'; por verificar]).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0106",
+   "notas": "Resuelve parcialmente F-0106: solo la edición de 1847-48 (hasta 1818) está en archive.org (ids histoiredhaiti01madi, 02madi, 03madi y variantes goog). Los tomos con 1822-1846 (ed. Verrollot 1904 / Deschamps 1985-1991) NO se localizaron: Gallica y HathiTrust devuelven 403 a curl y a WebFetch; manioc devuelve error de certificado en WebFetch. La capitulación del 28-II-1844 sí consta en Madiou t. VIII pp. 103-104 (traducida por Eller 2013) y en el Recueil t. VIII. Eller 2013 afirma que Madiou 'wrote favorably of the events of separation; he was critical of Boyer' [POR VERIFICAR en el texto]. La cifra '120 millones' del saldo previo a 1838 sale en el OCR como '420' (dudosa). El resumen final tiene comillas de apertura sueltas, por lo que podría citar un documento anterior [POR VERIFICAR el marco de la cita]."
+  },
+  {
+   "titulo": "Éventail d'histoire vivante d'Haïti: des préludes à la Révolution de Saint-Domingue jusqu'à nos jours (1789-1999), t. I y II",
+   "autor": "Manigat, Leslie F.",
+   "anio": "2001-2002",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/eventaildhistoir01mani",
+   "urls_alternativas": [
+    "https://archive.org/details/eventaildhistoir02mani"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historiador-politólogo haitiano (Sorbona, expresidente 1988) con aparato documental y reproducción de los documentos de 1821-1822; obra de síntesis con tesis propias.",
+   "proveniencia": "Leslie François Manigat (1930-2014), profesor, politólogo y presidente constitucional de Haití en 1988; la obra (4 tomos, CHUDAC, Puerto Príncipe 2001-2003, 65 'conjonctures-problèmes') integra cursos universitarios. El tomo I reproduce, como anexo 7, los documentos haitianos de 1821-1822 sobre el llamamiento a Boyer y debate su carácter. Interés: defensa de la tesis haitiana de la unidad estratégica de la isla, con autocrítica sobre la 'domination'. Los documentos de 1821-1822 del anexo 7 están en traducción francesa que Manigat atribuye a la compilación de la cancillería haitiana desde 1830 [POR VERIFICAR el original español]. Texto accesible vía OCR de archive.org (obra con derechos; se citan solo fragmentos breves).",
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 121 (el OCR pone el número de página al pie: '120' cierra la p. 120)",
+     "cita_original": "consacra le divorce entre le régime de Boyer et les paysans noirs",
+     "traduccion": "Manigat afirma que los nuevos libres resistieron los códigos rurales de Toussaint a Boyer, en particular el de 1826, que 'consagró el divorcio entre el régimen de Boyer y los campesinos negros'; los no propietarios prefirieron la aparcería 'de moitié' a una condición de 'cuasi siervos' (paráfrasis).",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 110",
+     "cita_original": "à la faveur des deux invasions haïtiennes unificatrices de l'île",
+     "traduccion": "Manigat dice que la abolición en el actual territorio dominicano ocurrió 'a favor de las dos invasiones haitianas unificadoras de la isla' de 1801 (Toussaint) y 1822 (Boyer): un historiador haitiano usa 'invasion' junto a 'unificatrices'.",
+     "afirmaciones": [
+      "A-094",
+      "A-095"
+     ]
+    },
+    {
+     "ubicacion": "t. I, anexo 7, p. 423",
+     "cita_original": "fabuleuse mise en scène",
+     "traduccion": "Manigat sostiene que existen 'piezas documentales incontestables' de un llamamiento oficial dominicano a Boyer, compiladas por la cancillería haitiana desde 1830 y reproducidas íntegras por Price-Mars (1953); admite que el llamamiento pudo ser coyuntural, preparado con habilidad hasta mostrar el carácter de 'fabuleuse mise en scène', o resultar un error político, pero 'el hecho de la invitación' permanece (paráfrasis).",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. I, anexo 7, doc. D (Junta Central provisional de Santiago al presidente de Haití, 20-XII-1821), p. 424",
+     "cita_original": "Qu'elle nous accorde les secours nécessaires pour parvenir à l'Indépendance, et que la constitution de la République d'Haïti nous régisse désormais ! Nous la désirons avec la liberté générale des esclaves",
+     "traduccion": "Que nos conceda los socorros necesarios para alcanzar la independencia y que la constitución de la República de Haití nos rija en adelante. La deseamos con la libertad general de los esclavos. (Documento de 1821 en traducción francesa de la cancillería haitiana; denuncia la constitución de Núñez por mantener la esclavitud.)",
+     "afirmaciones": [
+      "A-095",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. I, anexo 7, doc. H n.º 2 (habitantes de Neiba, 19-I-1822), p. 427",
+     "cita_original": "nous désirons qu'elle fasse jouir des doux fruits de la liberté, et qu'elle nous retire d'une si dure servitude. Au nom du bas peuple de Neybe",
+     "traduccion": "deseamos que haga gozar los dulces frutos de la libertad y que nos retire de una servidumbre tan dura. En nombre del bajo pueblo de Neiba. (Pieza de enero de 1822, en la traducción francesa que reproduce Manigat; firmada por Manuel Zerano y Julián Borya.)",
+     "afirmaciones": [
+      "A-095",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. I, anexo 7, doc. I n.º 1 (habitantes de Azua, 10-I-1822), p. 427",
+     "cita_original": "ont pris la détermination de se réunir à la République dont il est le chef [...] (Signé) : Pablo Baez, José Dias, Manuel Feliz, Angel Noboa",
+     "traduccion": "los habitantes de Azua dan poder a Manuel Jimenes y a Joaquín Irpo para informar a Boyer de que han tomado la determinación de reunirse a la República; firman, entre otros, Pablo Báez, José Díaz, Manuel Feliz y Ángel Noboa (el apellido Báez de Azua aparece en 1822; no es evidencia sobre Buenaventura Báez en 1843).",
+     "afirmaciones": [
+      "A-108",
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 61 (conjoncture-problème sobre 1843-1844)",
+     "cita_original": "parut davantage une occupation qu'une fusion",
+     "traduccion": "Manigat admite que bajo Boyer 'la domination haïtienne' (título de Moya Pons) pareció 'más una ocupación que una fusión', que los intereses de los habitantes del este fueron lesionados en lo material, educativo, cultural, religioso, económico y político, y que la voluntad de adhesión de 1821-1822, 'pourtant réelle', fue minimizada en la memoria dominicana (paráfrasis).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 61",
+     "cita_original": "thèse de l'unité indivisible du territoire insulaire",
+     "traduccion": "Para Manigat el imperativo estratégico de seguridad nacional llevó a los haitianos a promover la 'tesis de la unidad indivisible del territorio insular', basada también en el tratado de Basilea; su realización por la fuerza fue percibida por la élite 'blanca' del este como imperialismo (paráfrasis).",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-101",
+    "A-107",
+    "A-108",
+    "A-112",
+    "A-115"
+   ],
+   "modulos": [
+    "M00",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0113",
+   "notas": "Resuelve F-0113 (que figuraba como no-localizada). El texto completo se obtuvo del OCR público de archive.org (aunque la obra tiene derechos): por eso solo se citan fragmentos de menos de 15 palabras y paráfrasis. Los anexos 8 ('La question agraire ... 1804-1826') y 12 ('commerce extérieur ... sous Boyer 1821-1842') del tomo I no se leyeron y podrían aportar cifras [POR VERIFICAR]. Manigat recuerda que la polémica 'invasion/unificación' sigue abierta y que los dominicanos llaman 'invasion et occupation' a la etapa (p. 423). Pendiente: cotejar con la edición impresa la paginación (el OCR coloca el número al pie de la página). Hecho / interpretación / significado: HECHO = existen piezas de 1821-1822 de varios cabildos (Neiba, Azua, Santiago, Puerto Plata, La Vega, San Juan, Samaná) pidiendo unirse a Haití; INTERPRETACIÓN = Manigat duda de su espontaneidad ('mise en scène') pero no de su existencia; SIGNIFICADO = 'agrégation' (manifiesto del 16-I-1844) frente a 'unité insulaire' (tesis haitiana)."
+  },
+  {
+   "titulo": "Haiti, State Against Nation: The Origins and Legacy of Duvalierism",
+   "autor": "Trouillot, Michel-Rolph",
+   "anio": "1990",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/stateagainstnation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de un antropólogo haitiano con aparato crítico (Monthly Review Press); el marco es el Estado duvalierista y trata 1822-1844 solo como antecedente.",
+   "proveniencia": "Michel-Rolph Trouillot (1949-2012), antropólogo haitiano-estadounidense (Johns Hopkins, Chicago); obra de 1990 que explica el duvalierismo por la oposición histórica entre un Estado centralizador y una nación campesina. Para 1822-1844 se apoya en Franklin, Nicholls y otros. Texto OCR de archive.org (con derechos; se citan fragmentos mínimos).",
+   "extractos": [
+    {
+     "ubicacion": "p. 48",
+     "cita_original": "a successful invasion of the Spanish colony in the eastern part of the island",
+     "traduccion": "Trouillot dice que Boyer reunió los dos Estados y 'a principios de 1822' dirigió 'una invasión exitosa de la colonia española' donde se abolió la esclavitud: un autor haitiano emplea 'invasion' sin mayor comentario.",
+     "afirmaciones": [
+      "A-107",
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 36",
+     "cita_original": "attempted by force of arms to push it even further",
+     "traduccion": "Los gobiernos haitianos, dice, intentaron 'por la fuerza de las armas' extender el territorio más allá del de la antigua Saint-Domingue en 1805, 1822, 1849 y 1855; la frontera tiene su origen en 1697.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 60",
+     "cita_original": "little more than a sign of the leaders' deep-seated despair",
+     "traduccion": "El Código Rural de Boyer, que quiso restablecer la 'agricultura militarizada', fue 'poco más que un signo de la desesperación' de los dirigentes ante su incapacidad de que los cultivadores volvieran a las plantaciones (fecha 1825 en el texto; el código es de 1826).",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "a measure of desperation",
+     "traduccion": "Trouillot reitera que el Código Rural fue 'una medida de desesperación' y cita a Franklin sobre haitianos trabajando 'a punta de bayoneta' en las plantaciones de generales; la limitación del Código vino del sentido de comunidad nacional campesina (paráfrasis; aplica a toda Haití).",
+     "afirmaciones": [
+      "A-101",
+      "A-102",
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-101",
+    "A-102",
+    "A-107",
+    "A-115"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M08"
+   ],
+   "id_existente": "F-0111",
+   "notas": "Resuelve F-0111 (State Against Nation) con texto OCR; Silencing the Past no se tocó. Págs. verificadas por cabeceras 'N Haiti: State Against Nation' (pp. 36, 48, 60, 74). La tesis de la 'contre-plantation' de A-115 (nación contra Estado) está en el marco del libro, pero no se citó aquí un pasaje literal con ese nombre (lo desarrolla Casimir, no consultado)."
+  },
+  {
+   "titulo": "Genèse de l'État haïtien (1804-1859)",
+   "autor": "Hector, Michel; Hurbon, Laënnec (dir.)",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9723",
+   "urls_alternativas": [
+    "https://books.openedition.org/editionsmsh/person/9729",
+    "https://oalib-perpustakaan.upi.edu/Record/doab_20_500_12854_48373/SMS"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra colectiva académica (Maison des sciences de l'homme, 2009) con autores haitianos de primera línea; acceso 'freemium' (lectura en línea, PDF/ePub solo con suscripción).",
+   "proveniencia": "Volumen de 366 pp. dirigido por el historiador Michel Hector y el sociólogo/filósofo Laënnec Hurbon (ISBN 978-2-7351-1254-8), publicado por la Éditions de la Maison des sciences de l'homme (París, 2009) tras un coloquio del Comité haitiano de la UNESCO sobre la formación del Estado haitiano. Incluye capítulos de Hector, Moïse, Casimir, Théodat, Joint, Péan, Hurbon y Midy y los anexos de las constituciones de 1805, 1816 y extractos de 1843. Interés: lectura crítica del Estado haitiano 'contra' el campesinado. Los capítulos se leyeron con la herramienta WebFetch (modelo que resume), no con la página íntegra: las citas deben cotejarse.",
+   "extractos": [
+    {
+     "ubicacion": "Índice OpenEdition, pp. 297-309",
+     "cita_original": "État et territoire : la question de la naissance de la République dominicaine",
+     "traduccion": "Capítulo de J.-M. Théodat (ver ficha propia) sobre el territorio y el nacimiento de la República Dominicana.",
+     "afirmaciones": [
+      "A-107",
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "C. Moïse, 'Création de l'État haïtien – Constitutions : continuités et ruptures', pp. 49-62 (lectura resumida por WebFetch)",
+     "cita_original": "après la conquête de la partie est",
+     "traduccion": "Moïse escribe que a partir de 1821, 'después de la conquista de la parte este', la Carta de 1816 se aplica a toda la isla (un politólogo haitiano usa 'conquête'; el texto, según la lectura, no menciona el Código Rural) [POR VERIFICAR la frase completa y la fecha 1821].",
+     "afirmaciones": [
+      "A-107",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "J. Casimir, 'La révolution de 1804 et l'État', pp. 77-92, § 43 (lectura resumida por WebFetch)",
+     "cita_original": "économie de contre-plantation",
+     "traduccion": "Casimir (cap. de Genèse) emplea 'économie de contre-plantation' y la resistencia campesina a los proyectos del Estado, pero, según la lectura, el capítulo no trata el Código Rural, a Boyer ni el este: sirve solo de antecedente conceptual de A-115.",
+     "afirmaciones": [
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "Índice OpenEdition, pp. 93-117",
+     "cita_original": "Problèmes du passage à la société postesclavagiste et postcoloniale (1791-1793/1820-1826)",
+     "traduccion": "Capítulo de M. Hector (ver ficha propia) sobre el Código Rural de 1826 y la economía de plantación.",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "Índice OpenEdition, pp. 225-241",
+     "cita_original": "L'école dans la construction de l'État",
+     "traduccion": "Capítulo de L. A. Joint (ver ficha propia) sobre la política educativa de Boyer y la universidad de Santo Domingo.",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-099",
+    "A-101",
+    "A-107",
+    "A-110",
+    "A-113",
+    "A-115"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0116",
+   "notas": "Resuelve F-0116 (no-localizada): el libro está en OpenEdition Books (id editionsmsh/9723) y en DOAB. Capítulos leídos solo en resumen vía WebFetch: Théodat, Hector, Joint, Moïse (9741) y Casimir (9745). Capítulos no leídos: Péan (9750), Midy (9748), Hurbon (9744 y 9753), Anexo IV (9776, extractos de la Constitución de 1843), Anexos II-III (1805 y 1816, que ya se leyeron en mjp). El enlace de la ficha de F-0123 (Théodat, Une île pour deux) es otro libro, no consultado. La obra lleva el término 'Dominicanie' para el este."
+  },
+  {
+   "titulo": "État et territoire : la question de la naissance de la République dominicaine (en Genèse de l'État haïtien, pp. 297-309)",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9766",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Geógrafo haitiano (Paris 1 y UEH) con tesis doctoral sobre las relaciones haitiano-dominicanas; capítulo breve de síntesis sin aparato de archivo; leído vía WebFetch (los §§ 19-24 salieron idénticos en dos llamadas).",
+   "proveniencia": "Jean-Marie Théodat, geógrafo y profesor en la Sorbona (Paris 1) y la Université d'État d'Haïti, autor de 'Haïti–République dominicaine: une île pour deux, 1804-1916' (Karthala, 2003). El capítulo (2009) resume el territorio haitiano y la 'Dominicanie' hasta 1859. Es una voz haitiana que critica la política de Boyer ('assimilation par absorption'), la indemnización y el trabajo forzado, y que rechaza la explicación racial del fracaso de la unión.",
+   "extractos": [
+    {
+     "ubicacion": "§ 19",
+     "cita_original": "prétention à l'assimilation par absorption de l'identité hispano-dominicaine par la force",
+     "traduccion": "Théodat dice que de 1822 a 1844 la isla estuvo bajo una sola bandera pero el foso se hizo más profundo por esa 'pretensión de asimilación por absorción' de la identidad hispano-dominicana por la fuerza; los departamentos de Ozama y Cibao conservaron la herencia administrativa de Louverture (paráfrasis).",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "§ 20",
+     "cita_original": "C'est une erreur de penser qu'il y a toujours eu un refus raciste",
+     "traduccion": "Rechaza la lectura racial: los dos pueblos eran más cercanos de lo que hoy se imagina; el este había quedado, tras el éxodo blanco, con 'à peine 65 000 habitants (1822)', mayoritariamente negros y mestizos.",
+     "afirmaciones": [
+      "A-107",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "§ 20",
+     "cita_original": "la perspective du travail forcé",
+     "traduccion": "Lo que repelía a los 'panyòl' del proyecto haitiano era 'la perspectiva del trabajo forzado, el régimen de talleres de los reglamentos de cultivo y el Código Rural de 1826'; el pueblo hispano-dominicano 'liberado de la esclavitud por Louverture en 1801 y por Boyer en 1822' habría rechazado cualquier modelo así (paráfrasis).",
+     "afirmaciones": [
+      "A-101",
+      "A-102",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "§ 20",
+     "cita_original": "Le système des terrenos comuneros permettait la libre jouissance des biens fonciers",
+     "traduccion": "Sostiene que el sistema de terrenos comuneros se avenía mal con la valorización capitalista que las autoridades haitianas 'enviasaient avec insistance'; así, los haitianos 'parecieron atacar el fundamento mismo de la comunidad' (paráfrasis).",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "indemnité consentie sottement par le régime de Boyer",
+     "traduccion": "Califica la indemnidad pagada a los antiguos propietarios de Saint-Domingue como 'consentida neciamente' por Boyer y como pesada carga para el presupuesto haitiano, junto con las guerras de Soulouque (paráfrasis).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "La sécession de la République dominicaine n'en fut qu'une parmi tant d'autres",
+     "traduccion": "Interpreta 1844 como una fragmentación más entre las del Estado haitiano (Norte, Sur, Oeste; Acaau), sin reacción coherente del país; la independencia dominicana habría contado con el apoyo de potencias extranjeras (paráfrasis).",
+     "afirmaciones": [
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-101",
+    "A-102",
+    "A-103",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-110",
+    "A-113"
+   ],
+   "modulos": [
+    "M06",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Capítulo en acceso libre en OpenEdition (HTML); la herramienta de lectura (WebFetch) entrega un resumen: los extractos usan los §§ 19-24 que salieron literalmente iguales en dos pasadas, pero la fidelidad literal no se cotejó contra el HTML original; citar con cautela. Théodat emplea 'Dominicanie' y 'panyòl' (palabra kreyòl para hispanohablantes) [términos nuevos]. No se confunda con F-0123 (el libro de 2003, no consultado). Cifra de 65.000 habitantes en 1822: Théodat no cita fuente en el §20 [POR VERIFICAR el origen]."
+  },
+  {
+   "titulo": "Problèmes du passage à la société postesclavagiste et postcoloniale (1791-1793/1820-1826) (en Genèse de l'État haïtien, pp. 93-117)",
+   "autor": "Hector, Michel",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9747",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historiador social haitiano (UEH) con base de fuentes de época; leído vía WebFetch (resumen del modelo), con una negativa a reproducir literalmente los §§ 21-22.",
+   "proveniencia": "Michel Hector (UEH), codirector del volumen; estudia el paso a una sociedad poscolonial, la 'contre-plantation' y el Código Rural. Tesis: la economía de plantación se resuelve a la caída de Christophe y el Código de 1826 fue una velleidad inaplicada. Cita a Lepkowski (1968) y Marte (1984) para la desaparición del azúcar de las exportaciones tras 1826.",
+   "extractos": [
+    {
+     "ubicacion": "§ 10",
+     "cita_original": "totale inapplication du Code rural de 1826",
+     "traduccion": "Hector dice que el Código Rural de 1826 fue 'la expresión última' de la voluntad de dar continuidad a la economía de plantación, y que su 'total inaplicación' revela el fracaso de esa intención (nacional; no menciona el este).",
+     "afirmaciones": [
+      "A-101",
+      "A-102",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "§ 28",
+     "cita_original": "frappé d'improbation, dès sa publication, aux yeux des masses",
+     "traduccion": "Cita (sin autor en la lectura recibida [POR VERIFICAR]) que el Código fue 'condenado desde su publicación a los ojos de las masas empleadas en los trabajos del campo'.",
+     "afirmaciones": [
+      "A-101",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "§ 43",
+     "cita_original": "neuf ans au maximum",
+     "traduccion": "Hector indica que el art. 46 del Código de Boyer fija contratos de dos o tres años como mínimo y de nueve como máximo; coincide con el art. 46 del impreso del JCB (dos años mínimo para cultivo secundario y manufacturas, tres para los demás; nueve máximo).",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "§ 22",
+     "cita_original": "20 000 esclaves sur une population totale d'environ 120 000 âmes",
+     "traduccion": "Para 1801, cuando Toussaint proclamó la libertad general en el este, Hector da unos 20.000 esclavos sobre unos 120.000 habitantes (cifra sin fuente en la lectura recibida; sirve de orden de magnitud para el '>10.000 liberados' de 1822 [POR VERIFICAR]).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-101",
+    "A-102",
+    "A-115"
+   ],
+   "modulos": [
+    "M06",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "WebFetch negó reproducir literalmente los §§ 21-22 (derechos de autor): la cifra de 1801 viene de un fragmento corto devuelto en la segunda llamada; cotejar con el HTML. La cifra de 20.000 esclavos se refiere a 1801, NO a 1822 (no hay cifra haitiana de liberados en 1822 en las fuentes consultadas)."
+  },
+  {
+   "titulo": "L'école dans la construction de l'État (en Genèse de l'État haïtien, pp. 225-241)",
+   "autor": "Joint, Louis Auguste",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9760",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio de historia de la educación haitiana basado en manuales y decretos, con hedging ('aurait fermé'); la lectura vino resumida por WebFetch y los §§ 23-24 y n. 15 se obtuvieron en una segunda llamada.",
+   "proveniencia": "Louis Auguste Joint, sociólogo/historiador de la educación (UEH), analiza la política escolar de Toussaint a la Revolución de 1843. Para Boyer cita la ley de 4-VII-1820 (Lhérisson y Vincent, 1898, p. 24), a Catts Pressoir (1935, p. 37) y a Brutus (1948, p. 107). Su nota 15 recoge dos versiones sobre la universidad de Santo Domingo.",
+   "extractos": [
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "il aurait fermé l'université de Santo Domingo, créée par le roi d'Espagne",
+     "traduccion": "Joint escribe, en condicional, que tras la anexión del Este en 1822 Boyer 'habría cerrado' la universidad de Santo Domingo y la sustituyó por una escuela lancasteriana; fundó seis escuelas primarias lancasterianas, dos en la parte española (paráfrasis).",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "§ 24, nota 15",
+     "cita_original": "bien avant l'arrivée de Boyer dans l'Est, cette institution ne fonctionnait plus",
+     "traduccion": "Nota 15: 'según algunos historiadores', mucho antes de Boyer la institución ya no funcionaba, y Boyer usó los locales para abrir la escuela lancasteriana: es la versión rival de A-099 registrada por un historiador haitiano.",
+     "afirmaciones": [
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "§ 24 (cita de Pressoir 1935, p. 37)",
+     "cita_original": "l'enseignement était donné en français même dans les écoles de la partie espagnole",
+     "traduccion": "Joint recoge que 'todos los directores eran haitianos y la enseñanza se daba en francés incluso en las escuelas de la parte española' (Pressoir 1935); él lo valora como incompatible con la realidad social del este y como agravio de los nacionalistas dominicanos.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-098",
+    "A-099",
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Joint no cita un decreto de cierre; Ardouin t. XI p. 219 n. 1 afirma que Boyer 'supprima' la universidad, e Inginac (p. 62) solo habla de visitar escuelas y preparar una lancasteriana. Pendiente localizar Pressoir 1935 (Histoire de l'enseignement en Haïti), Lhérisson y Vincent 1898 y Brutus 1948 para ver si repiten la versión de Ardouin."
+  },
+  {
+   "titulo": "Boyer Falls, Separation Begins, 1844 (selección de fuentes: Manifiesto del 16-I-1844 y capitulación de Santo Domingo, tomada de Madiou t. VIII)",
+   "autor": "Eller, Anne (trad. y presentación)",
+   "anio": "2013",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/wp-content/uploads/2020/08/2013-eller-madiou-1844.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Lectura de fuentes preparada por una historiadora con traducciones propias (2013); es una antología pedagógica, no un estudio.",
+   "proveniencia": "Anne Eller (Yale), autora de We Dream Together; el PDF (4 pp.) es una antología para el curso de 'Haitian Constitutions / Dessalines Reader' alojada en haitidoi.com (Julia Gaffield). Traduce al inglés el Manifiesto de la Junta Central del 16-I-1844 y la capitulación de Santo Domingo, esta última según Madiou, Histoire d'Haïti t. VIII (Deschamps, 1985), pp. 103-104. Valor: remite a la paginación de Madiou t. VIII que no pudo consultarse directamente.",
+   "extractos": [
+    {
+     "ubicacion": "introducción, p. 1",
+     "cita_original": "realized a goal enshrined in the constitution of the Haitian republic",
+     "traduccion": "Eller describe la 'Unification' (luego 'Occupation' en la historiografía dominicana) como la realización de un objetivo consagrado en la constitución haitiana: la unificación de toda la isla frente a la agresión exterior.",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "introducción, p. 1",
+     "cita_original": "could not have been eager to assume that obligation",
+     "traduccion": "Eller dice que, frente a la indemnización, los dominicanos 'no pudieron estar ansiosos de asumir esa obligación como propia', aunque 'la evidencia sugiere que los gravámenes ocurrieron con poca frecuencia' (paráfrasis; sin cita de archivo en la lectura).",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "introducción, p. 1",
+     "cita_original": "he was critical of Boyer",
+     "traduccion": "Eller señala que Madiou 'escribió favorablemente de los hechos de la separación' y fue crítico con Boyer, y que la retirada haitiana fue 'extremadamente tranquila' (Madiou y otros), con una 'Batallón Africano' que se opuso al principio [POR VERIFICAR en Madiou t. VIII].",
+     "afirmaciones": [
+      "A-113",
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-113",
+    "A-114"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Útil sobre todo porque localiza la capitulación en Madiou t. VIII, pp. 103-104 (cotejada con Recueil t. VIII pp. 256-257). El manifiesto del 16-I-1844 traducido aquí es una fuente dominicana (lente dominicana); incluye la queja de que se privó al este 'de la lengua materna' (texto en inglés, traducción de Eller) y menciona la 'Constitution of 1816' y a Bobadilla. Eller es la misma autora de F-0135 (We Dream Together), pero este PDF es otra obra."
+  },
+  {
+   "titulo": "¿Cómo se miran haitianos y dominicanos en los libros de texto escolares? (Ecos, vol. 17, 2019)",
+   "autor": "González Canalda, María Filomena",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/230/169/172",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiadora dominicana (autora de textos escolares y de dos premios nacionales) que cita y traduce manuales haitianos; trabajo comparativo breve con muestra pequeña (9 textos por país) y traducciones de R. Silié.",
+   "proveniencia": "Artículo de Ecos (UASD, Instituto de Historia), año XXVI, vol. 1, n.º 17, ene-jun 2019, pp. 89-... Presentado en un seminario del AGN (2017). Compara 9 manuales dominicanos y 9 haitianos (4 de primaria, 3 de secundaria y 2 complementarios) y concluye que los haitianos no enseñan a odiar a los dominicanos. Los manuales haitianos citados: W. Emmanuel, Histoire Géographie 2e Secondaire II (2011) y Terminale II; G. D. Auguste y R. Zamor, Le Monde et son Passé; Roy Fombrun et al., Histoire d'Haïti (Deschamps); Auguste y Auguste, Histoire de mon pays. Sesgo: lectura de una autora dominicana; traducciones de Rubén Silié.",
+   "extractos": [
+    {
+     "ubicacion": "p. 104 (cita de Wesner Emmanuel, Histoire Géographie 2e Secondaire II, 2011, pp. 8-9)",
+     "cita_original": "La fusión realmente es imposible",
+     "traduccion": "Un manual haitiano dice que la fusión 'realmente es imposible', que la Constitución de 1816 aplicada al este 'deja de lado los intereses' de su población y prohíbe la propiedad de los blancos, mayoritarios allí, y que esas disposiciones y 'otras medidas torpes' condujeron a 'la revuelta de 1844' (paráfrasis).",
+     "afirmaciones": [
+      "A-107",
+      "A-110",
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "p. 105 (Wesner Emmanuel, p. 26)",
+     "cita_original": "se consideraban «conquistadores»",
+     "traduccion": "El manual enumera reproches a la administración haitiana: tropas de Christophe que cometieron brutalidades, los haitianos 'se consideraban en país conquistado', los artículos de la Constitución de 1816 y el pago de la independencia, la tolerancia del pillaje de iglesias y conventos y el deseo de dividir los hatos poseídos en comunidad.",
+     "afirmaciones": [
+      "A-107",
+      "A-109",
+      "A-103",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 105 (G. D. Auguste y R. Zamor, Le Monde et son Passé, pp. 24-25)",
+     "cita_original": "Durante 21 años, toda la isla estuvo sometida a la autoridad del presidente Boyer",
+     "traduccion": "Otro manual: 'ciertas medidas adoptadas por el gobierno haitiano iban en contra de los intereses de los habitantes del este', que debieron 'soportar el peso de la deuda de la independencia' y aceptaban mal el comportamiento de conquistadores de los haitianos.",
+     "afirmaciones": [
+      "A-103",
+      "A-107",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "pp. 104-106",
+     "cita_original": "Una parte de la población reclamó y obtuvo la unión con Haití",
+     "traduccion": "El mismo manual (Auguste y Zamor, pp. 24-25) presenta 1821 como expulsión de los representantes de España por el pueblo del este y describe los grupos (unirse a Colombia, Estado independiente, fidelidad a España, unificación con Haití); en 1843 la oposición a Boyer tuvo ramificaciones en el este y Hérard Dumesle fue elegido diputado por Santo Domingo y por Cayos, optó por Cayos y el nuevo poder no tomó iniciativas en el este.",
+     "afirmaciones": [
+      "A-108",
+      "A-112",
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-103",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-110",
+    "A-112",
+    "A-113",
+    "A-114"
+   ],
+   "modulos": [
+    "M00",
+    "M08",
+    "M16"
+   ],
+   "id_existente": "F-0102",
+   "notas": "Resuelve F-0102 (estaba como localizada-bloqueada) y añade M08. La autora es dominicana; la información sobre los manuales haitianos es de segunda mano (traducciones de Silié); los manuales originales (MENFP / Deschamps) no se consultaron. Las citas literales de los manuales aparecen solo como textos en español (no en francés). Nota: en el manual de Wesner Emmanuel el diputado elegido por Santo Domingo y Cayos en 1843 es Hérard Dumesle, no Báez: el único dato de 'diputado del este' de este artículo no confirma A-112 ('Báez')."
+  },
+  {
+   "titulo": "Omisiones e invenciones en la obra de Jean Price-Mars «La República de Haití y la República Dominicana» (Clío n.º 159, 1998, pp. 3-24)",
+   "autor": "Henríquez Vásquez, Francisco Alberto",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-1998-159-003-024.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo polémico de un historiador dominicano con aparato de cita; sirve para saber qué dice Price-Mars (edición española en 3 tomos) a través de una lectura hostil.",
+   "proveniencia": "Francisco Alberto Henríquez Vásquez (ADH), 1998, en la revista Clío de la Academia Dominicana de la Historia. Critica a Price-Mars (1953) por omitir la deuda de 1825 y por una imagen del pueblo dominicano 'de espaldas' a la soberanía. Cita la traducción española de la obra (t. II, p. 192). Lente dominicana de lectura: valor aquí solo como reseña de la tesis haitiana de Price-Mars.",
+   "extractos": [
+    {
+     "ubicacion": "CLIO 159, pp. 4-5 (cita de Price-Mars, t. II, p. 192, ed. española)",
+     "cita_original": "la separación de dicha zona de la República de Haití",
+     "traduccion": "Según Price-Mars (leído por Henríquez), los tratados dominicanos con agentes franceses en 1844 pusieron a Haití ante el mayor peligro para su independencia, y 'nueve décimas partes' de quienes provocaron el movimiento buscaban, antes que la autonomía del este, 'la separación de dicha zona de la República de Haití' (paráfrasis de Henríquez).",
+     "afirmaciones": [
+      "A-113",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "CLIO 159, p. 5",
+     "cita_original": "enorme deuda que el rey de Francia, Carlos X, logró imponer a Haití",
+     "traduccion": "Henríquez acusa a la historiografía haitiana de 'borrar' el papel de la deuda de 1825 sobre la República Dominicana (la indemnización habría pesado sobre los gobiernos haitianos de Hérard a Soulouque); es la tesis contraria a Price-Mars y refleja el debate sobre A-103/A-104.",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-104",
+    "A-107",
+    "A-113"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Este artículo es el único acceso indirecto obtenido a Price-Mars 1953 (F-0109, bajo derechos, no localizado en línea): su frase sobre 1844 está en t. II, p. 192 de la traducción española. Manigat (t. I, anexo 7, p. 423) afirma que Price-Mars reprodujo íntegros los documentos de 1821-1822 compilados por la cancillería haitiana desde 1830. Pendiente cotejar con el original francés."
+  },
+  {
+   "titulo": "Jean-Price Mars ; analyse de l'Unification de l'île d'Haïti, une histoire de solidarité ou d'imposition ?",
+   "autor": "La Rédaction (LivresHaïti)",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://livreshaiti.com/jean-price-mars-analyse-de-lunification-dhaiti-une-histoire-de-solidarite-ou-dimposition/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota de redacción anónima, sin cita de obra ni página, con errores de fecha y una cita atribuida a Price-Mars no verificable; el certificado TLS del sitio estaba caducado (se leyó con curl -k).",
+   "proveniencia": "LivresHaïti (porte-parole de la industria editorial haitiana, FlashcomConsulting), sección Entr'Voisin/Regard, 17-XII-2024. Presenta de forma divulgativa 'las dos lecturas' de 1822 y dice apoyarse en Price-Mars; sin referencia bibliográfica. Sirve solo como indicio de cómo la prensa cultural haitiana actual enmarca el tema.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo 'Deux lectures historiques opposées'",
+     "cita_original": "répondait à une demande claire et légitime des Dominicains",
+     "traduccion": "El texto afirma que, para los haitianos, la acción de Boyer 'respondía a una demanda clara y legítima de los dominicanos' mediante peticiones oficiales, y que para los dominicanos fue 'una anexión disfrazada'; fecha la entrada de Boyer el '11 de febrero de 1822' (error: fue el 9, Recueil t. III n.º 774).",
+     "afirmaciones": [
+      "A-108",
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "No se recomienda su uso como evidencia. Errores detectados: 11 de febrero (el Recueil III fecha la proclama el 9 de febrero); la cita 'l'histoire n'est jamais figée...' atribuida a Price-Mars no se pudo cotejar [POR VERIFICAR]. Confirma, sin precisión, la tesis de Manigat de que las piezas se publicaron 'pour la première fois sous Boyer'."
+  },
+  {
+   "titulo": "Les grandes dates de l'histoire diplomatique d'Haïti (de la période fondatrice à nos jours)",
+   "autor": "Arthus, Wien Weibert",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.perlego.com/fr/book/3075038/les-grandes-dates-de-lhistoire-diplomatique-dhati-de-la-priode-fondatrice-nos-jours-pdf",
+   "urls_alternativas": [
+    "https://www.editions-harmattan.fr/media/103409/download/xbs_pdf_article_6289.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Manual de síntesis de un historiador-diplomático haitiano (UEH), con bibliografía por fecha; solo se vio el índice (Perlego) y una reseña (La Cliothèque), no el texto.",
+   "proveniencia": "Wien Weibert Arthus (Université d'État d'Haïti, historia diplomática), L'Harmattan, 2017, 243 pp.: 'cada fecha se presenta en 1 a 3 páginas con bibliografía' (reseña de La Cliothèque, 18-III-2017). Los títulos de capítulo muestran la nomenclatura diplomática haitiana actual. El PDF de Harmattan es la reseña de La Cliothèque, no un extracto del libro.",
+   "extractos": [
+    {
+     "ubicacion": "Índice, cap. 11",
+     "cita_original": "9 février 1822 : Réunification de l'île Ayti par le président Jean-Pierre Boyer",
+     "traduccion": "Título de capítulo: 'Reunificación de la isla Ayti por el presidente Boyer' (término haitiano 'réunification').",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "Índice, cap. 15",
+     "cita_original": "27 février 1844 : La République dominicaine a déclaré son indépendance d'Haïti",
+     "traduccion": "Título de capítulo: 'La República Dominicana declaró su independencia de Haití' (un título haitiano que usa 'indépendance', no 'séparation').",
+     "afirmaciones": [
+      "A-113"
+     ]
+    },
+    {
+     "ubicacion": "Índice, cap. 12",
+     "cita_original": "17 avril 1825 : La France a décidé « d'octroyer » l'indépendance à Haïti",
+     "traduccion": "Título de capítulo (con la palabra 'octroyer' entre comillas): el 17-IV-1825 Francia 'decidió conceder' la independencia a Haití por 150 millones de francos.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-107",
+    "A-108",
+    "A-113"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Solo índice y reseña: el contenido de los capítulos no se leyó. Dato terminológico útil para el glosario: este manual diplomático haitiano usa 'réunification' para 1822 y 'a déclaré son indépendance' para 1844, a diferencia de 'séparation/scission' de los siglos XIX y de los manuales escolares."
+  },
+  {
+   "titulo": "Haiti's Paper War: Post-Independence Writing, Civil War, and the Making of the Republic, 1804-1954",
+   "autor": "Stieber, Chelsea",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/book/84866",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica sobre la prensa haitiana del siglo XIX (NYU Press, 2020); solo se vio la ficha con índice, el libro requiere suscripción.",
+   "proveniencia": "Chelsea Stieber (Catholic University of America), NYU Press 2020. Estudia la 'guerra de papel' (periódicos, panfletos) entre monarquía y república. No es open access (Project MUSE). Su relevancia para 1822-1844 depende del capítulo 4 y no pudo comprobarse.",
+   "extractos": [
+    {
+     "ubicacion": "Índice de MUSE, cap. 4, pp. 128-162",
+     "cita_original": "The Myth of the Universal Haitian Republic, or Deux Nations dans la Nation",
+     "traduccion": "Título del capítulo que, por su subtítulo, podría tratar divisiones internas bajo Boyer; sin lectura del texto no se puede afirmar que trate el este o la unificación de 1822.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M07",
+    "M08",
+    "M11"
+   ],
+   "id_existente": "F-0157",
+   "notas": "Resuelve solo la URL de F-0157 (antes no-localizada): la ficha de MUSE existe (id 84866) pero el contenido está tras suscripción; por tanto no se extrajo ninguna cita. No se debe usar para afirmaciones hasta leerlo."
+  },
+  {
+   "titulo": "Island Luminous (FIU / dLOC), parte IV «1821 to 1845»: diapositiva 3 «Boyer Invades Eastern Hispaniola» y diapositiva 11 «The Praslin Manifesto»",
+   "autor": "Vera, Juan Camilo (diapositiva 3); Ardouin, Beaubrun (extracto de t. XI en la diapositiva 11); Florida International University",
+   "anio": "2020",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part04-slide03.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/part04-slide11.html",
+    "https://islandluminous.fiu.edu/4.html"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Exposición digital universitaria con autor y fuentes por diapositiva; las lecturas llegaron resumidas por WebFetch, sin texto literal.",
+   "proveniencia": "Proyecto de FIU y dLOC sobre la historia compartida de la isla. La diapositiva 3 es de Juan Camilo Vera (doctorando de la Universidad de Miami) y usa el título 'Boyer Invades Eastern Hispaniola' (usa 'invasion' pero habla también de 'unification'); la diapositiva 11 traduce a Ardouin (Études, t. XI, 1860) sobre el Manifiesto de Praslin (1-IX-1842) y la caída de Boyer (12-III-1843). La página 4 enumera 12 enlaces temáticos del periodo 1821-1845 (entre ellas 'Reannexed eastern Hispaniola (1822)', 'Indemnity', 'Rural code (1826)', 'Peasants mobilized', 'Popular proxies (Guerrier and Pierrot)').",
+   "extractos": [
+    {
+     "ubicacion": "diapositiva 3 (título)",
+     "cita_original": "Boyer Invades Eastern Hispaniola",
+     "traduccion": "Título de la diapositiva de J. C. Vera; según la lectura (paráfrasis), Boyer buscaba unificar la isla como defensa ante Francia y movilizó 12.000 hombres hacia Santo Domingo con resistencia mínima.",
+     "afirmaciones": [
+      "A-107",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "diapositiva 11 (título)",
+     "cita_original": "The Praslin Manifesto",
+     "traduccion": "Extracto traducido de Ardouin t. XI (1860): el 1-IX-1842 los opositores de Les Cayes, encabezados por Hérard Dumesle, redactaron el 'Manifeste de Praslin', que pedía una constitución democrática y elecciones periódicas (paráfrasis).",
+     "afirmaciones": [
+      "A-113"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107",
+    "A-108",
+    "A-113"
+   ],
+   "modulos": [
+    "M06",
+    "M08"
+   ],
+   "id_existente": "F-0260",
+   "notas": "Resuelve F-0260 (fragmento-busqueda): las diapositivas 3 y 11 y el índice 4 se abrieron con WebFetch. Los títulos son literales; el resto es paráfrasis del modelo de lectura: cotejar con la página antes de citar. La diapositiva 11 confirma que el Manifiesto de Praslin está en Ardouin t. XI (no se localizó la página)."
+  },
+  {
+   "titulo": "haitidoi.com: 'Haitian Constitutions 1790-1860' (Julia Gaffield, Laurent Dubois, Michel Acacia)",
+   "autor": "Gaffield, Julia (ed.)",
+   "anio": "2013",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/2013/09/29/haitian-constitutions-1790-1860/",
+   "urls_alternativas": [
+    "https://haitidoi.com/wp-content/uploads/2020/08/2013-eller-madiou-1844.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal académico que enlaza imágenes de originales de los archivos atlánticos y lista constituciones de 1790 a 1860; no aloja los textos.",
+   "proveniencia": "Sitio de J. Gaffield (Georgia State University) con la colección de constituciones haitianas (1790, 1791, 1801, 1805, 1806, 1807, 1811, 1816, 1843 con borrador, 1846, 1848, 1849, 1859, 1860), que enlaza al proyecto 'The Rise of Modern Constitutionalism, 1776-1849'. Cita un artículo de 2007 del Journal of Social History.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-110",
+    "A-113"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "F-0262",
+   "notas": "Resuelve F-0262 como portal: la página existe y lista 1816 y 1843 (con borrador); el texto íntegro se obtuvo de mjp.univ-perp.fr. También aloja la antología de Eller (ver ficha). No se abrieron las imágenes de originales ni el borrador de 1843 ('draft')."
+  },
+  {
+   "titulo": "dLOC - Digital Library of the Caribbean (portal)",
+   "autor": "Digital Library of the Caribbean",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://dloc.com",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Repositorio académico; la interfaz es una aplicación JavaScript sin texto indexable para curl ni WebFetch.",
+   "proveniencia": "Consorcio de bibliotecas del Caribe con colecciones haitianas; la página de búsqueda devolvió 3.503 bytes de un cascarón HTML sin resultados. Sin API programática accesible no se pudo localizar ningún ítem de 1822-1844 (Madiou, Price-Mars, Le Télégraphe, Le Manifeste, etc.).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0243",
+   "notas": "No resuelve ningún documento: queda pendiente una búsqueda manual en dloc.com (colecciones haitianas) o vía Google Books; ver lagunas."
+  },
+  {
+   "titulo": "Beyond the Revolution: Bibliothèque Haïtienne des Frères de l'Instruction Chrétienne collections (EAP1024), prensa haitiana 1813-1913",
+   "autor": "Endangered Archives Programme (British Library); Yale University; Duke University; Bibliothèque Haïtienne des FIC",
+   "anio": "2017-2019",
+   "tipo": "portal",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://cultureincrisis.org/projects/beyond-the-revolution-bibliothèque-haïtienne-des-frères-de-linstruction-chrétienne-collections-bringing-nineteenth-century-haitian-history-to-the-world",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ficha de proyecto de una organización de patrimonio en riesgo; no contiene los periódicos. El portal EAP devolvió contenido vacío a WebFetch.",
+   "proveniencia": "Proyecto financiado por Arcadia (15.000 £, desde noviembre de 2017) que digitalizó 9.668 páginas de prensa haitiana 'de la década de 1840 a principios del siglo XX' (fondo de 1813 a 1900) en la biblioteca de los Frères de l'Instruction Chrétienne; socios Yale y Duke. Es la vía probable para la prensa de 1843-1844 (Le Manifeste, Le Patriote, Le Temps, Le Républicain) [POR VERIFICAR títulos].",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Pista para la ronda 2: localizar los números de 1843-1844 en EAP1024 (British Library) o en dLOC. Le Télégraphe (Puerto Príncipe, 1813-1843) está catalogado en la British Library [POR VERIFICAR el acceso digital]."
+  },
+  {
+   "titulo": "Constitutions et luttes de pouvoir en Haïti (1804-1987)",
+   "autor": "Moïse, Claude",
+   "anio": "1988",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/31761036281269/31761036281269_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "401",
+   "formato": "txt",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de referencia del historiador-político Claude Moïse (CIDIHCA); el texto OCR está en el préstamo restringido de archive.org y devuelve 401.",
+   "proveniencia": "Claude Moïse (Haití/Canadá, exministro), CIDIHCA, Montreal, 1988-1990. Las copias de archive.org (ids 31761036281269 y 31761063943880) existen en el catálogo pero no son legibles sin préstamo. Capítulo relacionado en Genèse de l'État haïtien ('Création de l'État haïtien – Constitutions: continuités et ruptures', OpenEdition 9741, no leído).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M11"
+   ],
+   "id_existente": "F-0124",
+   "notas": "F-0124 sigue sin texto: el OCR da 401 (préstamo); se debe pedir en préstamo digital. El capítulo de Moïse en Genèse (pp. 49-62, editionsmsh/9741) se consultó solo en una lectura resumida y habla de la 'conquête de la partie est' (ver ficha de Genèse)."
+  },
+  {
+   "titulo": "When Dominicans Turned to Haiti: Boyer and the Unification of the Island",
+   "autor": "Le Relief (Haïti)",
+   "anio": "",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://lereliefhaiti.com/en/articles/when-dominicans-turned-to-haiti-boyer-and-the-unification-of-the-island",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de un medio haitiano en línea que el relato haitiano (H-34) cita; el contenido se carga por JavaScript y no se obtuvo texto (la página devolvió solo cabecera y pie).",
+   "proveniencia": "Medio haitiano en línea (Le Relief). La narrativa haitiana del corpus lo cita para la frase 'one of the most peaceful episodes of independence'; no se pudo leer en esta ronda.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-108"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Falló la lectura: 200 OK pero solo 697 caracteres de navegación (curl y WebFetch). No debe usarse como evidencia hasta leerlo con un navegador."
+  },
+  {
+   "titulo": "The Haitians: A Decolonial History",
+   "autor": "Casimir, Jean (trad. Laurent Dubois)",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://uncpress.org/book/9781469660486/the-haitians",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de un sociólogo haitiano (UNC Press); la página del editor devolvió 403.",
+   "proveniencia": "Jean Casimir, sociólogo e historiador haitiano; versión inglesa (UNC Press, 2020) de 'Haïti et ses élites' (UEH, 2009). Sustenta la tesis de la 'contre-plantation' (A-115). No consultada en esta ronda.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-115"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M11"
+   ],
+   "id_existente": "F-0115",
+   "notas": "403 al abrir la ficha del editor; el capítulo de Casimir en Genèse (OpenEdition 9745, pp. 77-92) se leyó de forma resumida: usa 'économie de contre-plantation' (§ 43) pero no trata el Código Rural ni el este."
+  }
+ ]
+}

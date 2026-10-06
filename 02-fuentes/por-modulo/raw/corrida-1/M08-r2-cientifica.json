@@ -1,0 +1,954 @@
+{
+ "lente": "cientifica",
+ "modulo": "M08",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 30,
+ "busquedas_pendientes": [
+  "Lundahl, Peasants and Poverty / Politics or Markets: series de exportación de Haití 1822-1843 por producto",
+  "Moral, Paul, Le paysan haïtien (1961): tablas de exportación del siglo XIX",
+  "Beauvois (2010) y Blancpain (2001) sobre la doble deuda: serie de pagos por año 1825-1843",
+  "Ardouin, Études t. IX-X (archive.org etudessurlhistoi09ardo/10): pasajes sobre la contribución extraordinaria y la oposición del este",
+  "Schoelcher, Colonies étrangères et Haïti (1843): estadísticas de población y renta de 1841 (lo descargó otro buscador, sin extractos cuantitativos)",
+  "Madiou, Histoire d'Haïti t. VII-VIII: presupuestos y efectivos militares 1826-1843",
+  "Schomburgk (1850) sobre la población dominicana al terminar el período (para cerrar la serie en 1844-50)",
+  "Sánchez Valverde / Moreau de Saint-Méry sobre la población de la parte española (1785-1790) para contrastar con Placide-Justin y Mackenzie",
+  "Estudios de emigración dominicana a Cuba, Puerto Rico y Venezuela en 1822-1830 con cifras (A-111): la única búsqueda hecha no devolvió cifras",
+  "Hamilton / consulados de EE. UU. en Santo Domingo y Puerto Príncipe, 1830-1844: informes comerciales con cifras de exportación",
+  "Tagliamonte y Poplack 1988, Poplack y Sankoff 1987: texto completo (solo resumen localizado por R1)",
+  "Crossref/Semantic Scholar: otros estudios de genética de poblaciones con muestra de Samaná (Bryc 2010, Moreno-Estrada 2013, Simms 2012)",
+  "OpenEdition y Cairn: artículos sobre finanzas públicas de Haití bajo Boyer (Lacerte 1981 solo resumen)"
+ ],
+ "lagunas": [
+  "Recaudación efectiva (A-104): no existe en el Recueil, tomos IV a VI, ni en Placide-Justin una serie de lo cobrado por arrondissement o comuna del este. Se documentó por qué: la ley del 1-V-1826 (cuota de 458.601 gourdes anuales para el este, 15,3 %) fue derogada el 16-IV-1827 (Recueil t. V, n.º 1088, art. 15) y sustituida por un reparto individual en 20 clases (2 millones en 1827) y por el impuesto personal de 1828; el gobierno admitió en septiembre de 1829 que el cobro de 1827 no estuvo bajo control y mandó abrir registros por comuna (n.º 1209); y la comisión de la Cámara de 1837 dice que las cuentas carecen de clasificación (t. VI, p. 349). Los registros comunales de 1829, las cuentas de la Chambre des comptes y las actas de las administraciones del este solo estarían en Archives Nationales d'Haïti [no consultados]. Moya Pons (1972, cap. 'Deuda pública, crisis económica y oposición política') y Bulmer-Thomas (2012, cap. 7) son los estudios que podrían resumirlos; ninguno fue legible.",
+  "Serie demográfica del este: aclarado el origen del 61.468 (documento oficial haitiano de 1824 publicado por Placide-Justin, 1826, p. 504) y sumada la estimación de 124.000 (Humboldt vía Buchon) y la de 700.000 como máximo para toda la isla (notas privadas); no se localizó el censo de 1824 en prensa oficial de la época (Le Télégraphe, Moniteur) ni el original de Humboldt. Los padrones de 1821-22 y los censos locales de Lora (2012, 'El censo de 1822', Higüey) no son accesibles. Con la base disponible, la discrepancia 61.468 (1824) / 71.223 (1826-27, Mackenzie) / 100.086-130.000 (1838, Candler) / 124.000 (c. 1823, Humboldt) no se resuelve: son cifras sin metodología publicada.",
+  "Marte, R. (comp.), Estadísticas y documentos históricos sobre Santo Domingo (1805-1890), Museo Nacional de Historia y Geografía, 1984: no se localizó texto en línea (solo citas de Clío 2015, n.º 189, y de Pérez Memén 2022, que remiten a las pp. 171 y 188); los catálogos de la Biblioteca Nacional y del AGN devolvieron 403.",
+  "Genética y ADN antiguo: D'Atanasio et al. 2020 (único estudio con muestra de Samaná, Las Galeras N=56) no analiza a los inmigrantes de 1824; no se localizó ningún estudio de ADN de los 'Samaná Americans' ni de libertos de 1822. Sin resultados para A-094 a A-115.",
+  "Walker (2018, tesis), Keane-Dawes (2018, tesis) y las publicaciones del AGN devuelven desafíos antibots de Cloudflare (403) a curl y a WebFetch; no se eludieron. Siguen sin leer las dos obras de la corriente 'unificación con apoyo local' (A-108).",
+  "Series de exportación específicas del este: el gobierno haitiano atribuye al este 'casi toda' la caoba (Recueil t. V, n.º 1227, 1830) y Féliz (2020, vía Cassá 2017) da una serie nacional de caoba (2.622.227 pies en 1822; 6.009.682 en 1841) que contradice el 20.100 de Franklin para 1822; no se halló una serie por puerto, Cassá no se leyó y la unidad 'pied réduit' no está definida en los textos leídos. Las tarifas leídas en imagen (caoba 6 gourdes en 1827 y 12 desde 1829 por mil pies reducidos) deben cotejarse con el ejemplar físico.",
+  "Número de liberados de 1822 (A-094): ninguna fuente nueva; Lora (2012) y Walker (2018) son las que podrían fijar un rango con base; el '>10.000' sigue sin traza primaria.",
+  "Epidemiología, ecología y arqueología: ningún estudio localizado sobre el este en 1822-1844 distinto de la sismología del terremoto de 1842 (R1).",
+  "Slavevoyages y censos modernos (ENI, ONE): no aplican al período."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "partie de l'Est / arrondissements de l'Est / réunion de l'Est à la République",
+   "tradicion": "haitiana (oficial)",
+   "nota": "Vocabulario de las circulares y leyes del Recueil (t. V, n.º 1100, 1228, 1229, 1237): el este es 'la partie de l'Est' y su incorporación es 'réunion'. La tradición dominicana dice 'parte oriental/este', 'ocupación' o 'dominación'; Placide-Justin (1826) dice 'ancienne partie espagnole'. Ya cubierto en parte por la entrada de 'Unification' del glosario; añadir 'partie de l'Est'."
+  },
+  {
+   "termino": "contribution extraordinaire (de 30 millones de gourdes, 1826) / contribución extraordinaria de 1827 / imposition personnelle et mobilière (1828)",
+   "tradicion": "haitiana (oficial); dominicana: 'impuesto extraordinario', 'deuda de Boyer'",
+   "nota": "Tres regímenes distintos que las fuentes dominicanas suelen fundir: ley del 1-V-1826 (30 millones, 3 por año, cuotas por arrondissement), derogada por la ley del 16-IV-1827 (2 millones, 20 clases), y el impuesto personal y mobiliario del 9-IX-1828 (5 % del ingreso mínimo presumido). Convendría una entrada de glosario con las tres fechas."
+  },
+  {
+   "termino": "gayère (gallera) / ferme des gayères",
+   "tradicion": "haitiana (oficial) / dominicana",
+   "nota": "Circular de Boyer del 17-II-1830: arrendamientos de galleras en el este, con ingresos 'débiles' para el Estado; 'gallera' (esp.) y 'gayère' (fr.) son la misma institución (nota del Recueil: el término español es 'galleras')."
+  },
+  {
+   "termino": "Samaná Americans / americanos de Samaná / Samaná English",
+   "tradicion": "internacional / dominicana",
+   "nota": "Comunidad anglófona afroamericana descendiente de los inmigrantes de 1824-25 (unos 200 fundadores de Samaná sobre unos 6.000 llegados, según Pomerleau 2022); 'Samaná English' es la variedad lingüística (Poplack y Sankoff, Tagliamonte y Poplack). El glosario no los recoge."
+  },
+  {
+   "termino": "pied réduit (unidad de la caoba)",
+   "tradicion": "haitiana (fiscal)",
+   "nota": "Unidad con que la ley haitiana de 1827-1828 gravaba la caoba ('mille pieds réduits'); el Secretario de Estado ordenó en 1830 usar el pie inglés, 'usado desde antiguo en el este'. Hay que fijar su equivalencia antes de comparar las series de exportación de Mackenzie, Candler y Cassá."
+  }
+ ],
+ "incidencias": [
+  "Cloudflare 403 (desafío antibots 'Just a moment...') en deepblue.lib.umich.edu (Walker 2018, F-0151), scholarcommons.sc.edu (Keane-Dawes 2018) y agn.gob.do; probados curl y WebFetch; no se eludió.",
+  "ONE (one.gob.do) y el catálogo de la Biblioteca Nacional (catalogo.bnphu.gob.do) devolvieron 403 a WebFetch.",
+  "Google Books API: cuota diaria agotada (429); no se usó.",
+  "El registro tiene mal la URL de F-0075 (Moya Pons 1972): apunta al artículo de Lora (2009); se devuelve F-0075 con la ficha ADH del libro de Moya Pons.",
+  "OCR de archive.org con errores de cifras importantes (Placide-Justin: 134,000 por 124,000, 30,000,000 por 20,000,000, 1834 por 1824; Recueil: 'N° 1 1 4 0' sin leer): todas las cifras citadas se cotejaron en las imágenes de las páginas (hojas n509-n512 del libro de Placide-Justin; n42, n44, n110, n158, n244, n300, n301, n338, n339, n358-n360 de los tomos del Recueil).",
+  "Recuento de búsquedas: 22 llamadas a WebSearch, tres de las cuales la herramienta expandió en 3 a 4 consultas internas; se informa 30 como cota superior.",
+  "Los descargados (txt, pdf, imágenes) están en el scratchpad (carpeta m08r2cient); nada se guardó en el repositorio salvo este JSON. Otros buscadores de la ronda 2 usaban la misma carpeta de scratchpad de sesión; las descargas de esta lente se rehicieron en una subcarpeta propia para no depender de ellas.",
+  "Un resumen de búsqueda sin fuente identificable atribuye a Wikipedia/terceros que Boyer 'suspendió' el cobro en el este y lo cambió a 200.000 gourdes; contradice el texto de la ley n.º 1088 (2.000.000) y no entra como evidencia."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Histoire politique et statistique de l'île d'Hayti, Saint-Domingue; écrite sur des documents officiels et des notes communiquées par Sir James Barskett (Livre onzième: Population, Forces de terre et de mer, Impôts et revenus)",
+   "autor": "Placide-Justin, Michel; Barskett, James (notas comunicadas)",
+   "anio": "1826",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/details/histoirepolitiq00justgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/histoirepolitiq00justgoog/histoirepolitiq00justgoog_djvu.txt",
+    "https://archive.org/download/histoirepolitiq00justgoog/page/n510_w1200.jpg"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación contemporánea (París, Brière, 1826) que reproduce tal cual una pieza oficial haitiana de 1824 y la contrasta con 'documentos particulares', pero no cita el original ni explica la base del censo; sus cifras fiscales no declaran unidad.",
+   "proveniencia": "Publicada en París (Brière, 1826; metadatos de archive.org) y 'écrite sur des documents officiels et des notes communiquées par Sir James Barskett' (portada, leída en el texto OCR). Los encabezados de página del libro XI llevan '1825' como año de la narración final. La History of the Island of St. Domingo de Barskett (Londres, 1824), cotejada por búsqueda de 'population' y 'revenue' en su texto, no contiene estas tablas. El autor no declara haber estado en el este; trabaja con una pieza oficial haitiana de 1824 y con 'documentos particulares'. Público, propósito y biografía del autor [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "p. 503 (Livre onzième, 'Population'); l. 18343-18349 del _djvu.txt; leído en la imagen de la hoja n509 de archive.org",
+     "cita_original": "La population de la partie espagnole était, en 1785, de Hommes libres 122,640; Esclaves 30,000; [total] 152,640.",
+     "traduccion": "La población de la parte española era en 1785 de 122.640 libres y 30.000 esclavizados (152.640). Es la misma cifra que Mackenzie (1830, vol. 2, p. 109): no son estimaciones independientes. La suma cuadra (cálculo propio).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 504; l. 18400-18407 del _djvu.txt; cifras cotejadas en la imagen de la hoja n510 (el OCR da '1834' y '5o6,i46'; la imagen dice 1824 y 506,146)",
+     "cita_original": "Une pièce, émanée en 1824 du gouvernement haytien, porte plus haut la population de l'île: [...] Habitants de l'ancienne partie espagnole 61,468; de l'ancien empire de Christophe 367,721; de l'état républicain fondé par Pétion 506,146; Total 935,335.",
+     "traduccion": "Un documento emanado en 1824 del gobierno haitiano eleva la población de la isla: antigua parte española 61.468; antiguo imperio de Christophe 367.721; Estado republicano fundado por Pétion 506.146; total 935.335. Suma verificada (cálculo propio); el este es el 6,57 % del total. Es la publicación más temprana localizada de la cifra de 61.468; Mackenzie (1830) y Franklin (1828) la copian, esta última con 504.146 y 933.335.",
+     "afirmaciones": [
+      "A-094",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "p. 504; l. 18393-18397 del _djvu.txt; imagen n510 (el OCR da 134,000 y 830,000; la imagen dice 124,000 y 820,000)",
+     "cita_original": "M. Buchon estime, d'après M. de Humboldt, [...] Blancs 30,000; Noirs et mulâtres 790,000; Total 820,000, dont 124,000 habitent la ci-devant partie espagnole, et 696,000 l'ancienne partie française.",
+     "traduccion": "Buchon estima, según Humboldt, 30.000 blancos y 790.000 negros y mulatos (820.000), de los cuales 124.000 viven en la antigua parte española y 696.000 en la antigua parte francesa (el este sería el 15,1 % del total; cálculo propio). Base de la estimación no dada; el texto original de Humboldt no se localizó [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 504; l. 18418-18430 del _djvu.txt; imagen n510",
+     "cita_original": "Des documents particuliers [...] nous font croire le rapport officiel du gouvernement haytien, et l'estimation de M. de Humboldt, un peu exagérées. On porte, dans ces notes, la population d'Hayti à 700,000 habitans au plus.",
+     "traduccion": "Documentos particulares recibidos tras la ordenanza del 17 de abril [de 1825] hacen creer exagerados el informe oficial haitiano y la estimación de Humboldt: en esas notas la población de toda Haití es de 700.000 como máximo (605.500 negros, 84.000 de color, 500 blancos con derecho de ciudad, 10.000 extranjeros domiciliados; suma 700.000, cálculo propio). No da cifra para el este.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 505 ('Forces de terre et de mer'); l. 18441-18452 del _djvu.txt; imagen n511",
+     "cita_original": "Les documents officiels portent à 45,000 hommes l'effectif de l'armée de terre [...] mais [...] on n'a jamais réuni plus de 26 à 27,000 hommes sous les armes. La garde nationale, portée à 113,000 hommes sur les contrôles, ne compte guère que 15,000 miliciens armés.",
+     "traduccion": "Los documentos oficiales dan 45.000 hombres al ejército de tierra, pero nunca se reunieron más de 26.000-27.000 bajo las armas; la guardia nacional, de 113.000 en los registros, cuenta apenas 15.000 milicianos armados. Contraste entre cifra oficial y efectivos reales, con base en 'informes particulares' no identificados.",
+     "afirmaciones": [
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "p. 505; l. 18477-18480 del _djvu.txt; imagen n511",
+     "cita_original": "En 1823, les exportations se sont élevées à la valeur de 16,500,000 francs pour les États-Unis, de 12,000,000 pour l'Angleterre.",
+     "traduccion": "En 1823 las exportaciones valieron 16,5 millones de francos hacia EE. UU. y 12 millones hacia Inglaterra. Henochsberg (2016, p. 26, ya registrado) da, según la ley francesa de 1826, 13,1 y 8,4 millones; las dos series no coinciden y ninguna es del este.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 506 ('Impôts et revenus'); l. 18534-18552 del _djvu.txt; cifras cotejadas en la imagen n512 (el OCR da 30,000,000; la imagen dice 20,000,000)",
+     "cita_original": "On prélève aujourd'hui un droit territorial, un impôt sur les maisons, un droit de timbre et de patentes. Ces différentes taxes, réunies au produit des domaines de l'état, donnent une somme de (nombre rond) 20,000,000. Le droit de douane [...] 17,000,000. Total 37,000,000.",
+     "traduccion": "Se cobra hoy derecho territorial, impuesto sobre casas, timbre y patentes; con los productos de los dominios del Estado suman 20 millones (cifra redonda); la aduana, 17 millones; total 37 millones. No indica unidad monetaria (probablemente francos) [POR VERIFICAR] ni año ni base; ninguna cifra es del este.",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-099",
+    "A-103",
+    "A-104"
+   ],
+   "modulos": [
+    "M08",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Cierra la laguna del crítico sobre el origen de 61.468: es una 'pièce émanée en 1824 du gouvernement haytien', publicada antes de Franklin (1828) y Mackenzie (1830), que la copian (no son confirmaciones independientes). El propio Placide-Justin duda del documento y da 700.000 como máximo para toda la isla. Contraste de cifras del este, con autor y base: 1785, 152.640 (Placide-Justin y Mackenzie, mismo origen); c. 1823, 124.000 (Humboldt vía Buchon, base no dada); 1824, 61.468 (gobierno haitiano, base no dada; Mackenzie lo considera el menos fiable); 1826-27, 71.223 (Mackenzie, estado no publicado presentado a la Cámara para repartir la contribución); 1838, 100.086 y hasta 130.000 (Candler). Cálculo propio: la cuota legal del este en la ley del 1-V-1826 (458.601 de 3.000.000 gourdes = 15,3 %, suma con Azua = 35.000 según García, vía R1) se parece al peso del este en el estado de Mackenzie (71.223 de 423.042 = 16,8 %) y no al del censo oficial de 1824 (6,6 %); es una hipótesis [POR VERIFICAR] sobre la base del reparto, no evidencia de lo recaudado. El libro llama al este 'ancienne partie espagnole'; el término oficial haitiano de la época es 'partie de l'Est'. Sesgo no evaluado más allá de lo anotado; las cifras de rentas están sin unidad ni año."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. V (1827-1833): ley n.º 1088 de 16-IV-1827 (contribución extraordinaria), ley n.º 1172 de 9-IX-1828 (imposición personal y mobiliaria), circulares n.º 1100, 1137, 1140, 1209, 1210, 1227-1229 y 1237, ley n.º 1175 y Tarif n.º 2 de la ley de aduanas n.º 1101",
+   "autor": "Haití (Corps législatif y Président Boyer); Linstant Pradine, A. (ed.)",
+   "anio": "1827-1833 (ed. Paris, A. Durand, 1851 según metadatos de archive.org)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral03hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral03hait/recueilgnral03hait_djvu.txt",
+    "https://archive.org/download/recueilgnral03hait/page/n42_w1400.jpg"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial de leyes y circulares impreso por un editor contemporáneo del gobierno; las cifras clave (clases de la ley de 1827, artículo 15, 12 gourdes por mil pies, tarifa n.º 2) se cotejaron en la imagen de la página y no solo en el OCR.",
+   "proveniencia": "Recopilación de leyes, actas y circulares haitianos (publicada desde 1851 por Linstant Pradine; este tomo cubre 1827-1833), con notas editoriales de remisión. Cada pieza fue redactada por la Cámara de Representantes de las Comunas, el Senado, el presidente Boyer o la Secretaría de Estado, para sus propios funcionarios (comandantes de arrondissement, comisiones especiales, administradores). Es la voz del Estado que recauda; no incluye cuentas por arrondissement. Registrada junto con otros tomos en el paquete F-0065 (R1 resolvió allí los tomos III y IV).",
+   "extractos": [
+    {
+     "ubicacion": "t. V, n.º 1088 (16-IV-1827), art. 1-2, p. 33; l. 1938-1945 del _djvu.txt; tabla leída en la imagen n42",
+     "cita_original": "Il est imposé, sur toute la République, une contribution extraordinaire de deux millions de gourdes pour l'année 1827. [...] la généralité des contribuables sera divisée en 20 classes [de 500 gourdes la 1.ª a 3 gourdes la 20.ª].",
+     "traduccion": "Se impone en toda la República una contribución extraordinaria de dos millones de gourdes para 1827, repartida en 20 clases individuales (500, 300, 200, 100, 90, 80, 70, 60, 50, 40, 30, 20, 18, 16, 15, 14, 10, 8, 5 y 3 gourdes). Sustituye el reparto territorial por arrondissements de la ley de 1826 (3 millones anuales).",
+     "afirmaciones": [
+      "A-104",
+      "A-103",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1088, art. 15, p. 35; l. 2187-2189; imagen n44",
+     "cita_original": "La loi du 1er mai 1826, relative à la contribution extraordinaire est rapportée.",
+     "traduccion": "Queda derogada la ley del 1-V-1826 sobre la contribución extraordinaria. Por tanto, la cuota legal por arrondissement (en el este, 458.601 de 3.000.000 de gourdes anuales) solo rigió del 1-V-1826 al 16-IV-1827 (fecha de promulgación de la ley n.º 1088; la Cámara la votó el 30-III-1827).",
+     "afirmaciones": [
+      "A-104",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1088, preámbulo, p. 32; l. 1914-1918",
+     "cita_original": "Considérant l'état de gêne où se trouve la nation, causé par la stagnation du commerce et par la crise financière qui existe généralement [...] un nouveau système de classement [...] proportionnelle aux facultés de chacun.",
+     "traduccion": "Motivo declarado de la reforma: la penuria de la nación por el estancamiento del comercio y la crisis financiera, y la voluntad de repartir según las facultades de cada uno.",
+     "afirmaciones": [
+      "A-104",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1088, art. 13-14, p. 35; l. 2175-2186; imagen n44",
+     "cita_original": "Les agents percepteurs de la contribution seront personnellement responsables des fonds non rentrés aux époques des échéances, s'ils ne justifient pas qu'ils ont fait poursuivre les retardataires.",
+     "traduccion": "Los recaudadores responden personalmente de los fondos no ingresados en los plazos salvo que prueben que persiguieron a los morosos; el art. 13 exige cuentas mensuales de lo percibido. Define el circuito de recaudación pero no da totales.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1172 (9-IX-1828), art. 6-7, p. 229; l. 17652-17660",
+     "cita_original": "[la commission] prélèvera cinq pour cent du minimum présumé des revenus ou produits de l'industrie de chaque citoyen pendant l'année 1829. [...] ne pourront être taxés moins d'une gourde cinquante centimes.",
+     "traduccion": "Segundo régimen: imposición personal y mobiliaria sobre todos los haitianos para 1829, igual al 5 % del mínimo presumido de ingresos, con mínimo de 1,50 gourdes para quien gane menos de 60. Fue prorrogada por la ley del 17-XI-1829 (remisión de la nota editorial; texto no leído).",
+     "afirmaciones": [
+      "A-104",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1209 (14-IX-1829), pp. 290-291; l. 21451-21458; imagen n300",
+     "cita_original": "la perception de la contribution extraordinaire pour l'année 1827 a donné lieu à un grand nombre d'abus préjudiciables aux intérêts de l'État et à ceux des contribuables, en ce que cette perception n'a été soumise à aucun contrôle.",
+     "traduccion": "Boyer reconoce que el cobro de la contribución de 1827 dio lugar a numerosos abusos, perjudiciales para el Estado y los contribuyentes, porque no estuvo sujeto a ningún control y a veces lo hicieron personas sin competencia legal. Ordena registrar los recibos.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1209, p. 291; l. 21466-21472; imagen n300",
+     "cita_original": "afin de pouvoir reconnaître d'une manière exacte le montant de ce qui a été payé dans chaque commune, tant pour la contribution de 1827 que pour l'impôt de 1829.",
+     "traduccion": "En septiembre de 1829 el gobierno aún ordena abrir registros por comuna (uno para la contribución de 1827 y otro para el impuesto de 1829) para conocer 'de manera exacta' lo pagado en cada comuna: prueba de que esa cifra no estaba centralizada. Los cuadros quincenales resultantes no se localizaron.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1210 (14-X-1829), p. 292; l. 21503-21509; imagen n301",
+     "cita_original": "la perception de l'imposition est arriérée dans votre commune, et celles où elle est en pleine activité se plaignent avec raison qu'elles supportent seules cette charge, et que le poids des dépenses publiques ne pèse que sur une partie des citoyens.",
+     "traduccion": "La Secretaría de Estado reprocha a las comisiones especiales que, un año después de la ley de 1828, no hayan hecho los roles; el cobro está atrasado en esa comuna y las comunas que sí cobran se quejan de cargar solas con el peso del gasto público.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1228 (17-II-1830; Boyer a los comandantes de los arrondissements del Este), p. 330; l. 23355-23365; imagen n339",
+     "cita_original": "Lorsque je me suis rendu dans la partie de l'Est pour opérer sa réunion à la République, j'ai trouvé qu'on était dans l'habitude d'affermer les gayères [...] elles n'offraient que de faibles revenus à l'État.",
+     "traduccion": "Boyer: cuando fue al este a hacer su reunión con la República encontró que se arrendaban las galleras (gayères) y que daban al Estado solo ingresos débiles; ordena suprimir los arrendamientos al vencer los contratos y limita las peleas de gallos a domingos y festivos. Cifra de ingresos no dada. Es el único dato localizado sobre una renta específica del este.",
+     "afirmaciones": [
+      "A-104",
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1227 (12-II-1830; Secretaría de Estado), p. 329; l. 23336-23341; imagen n338",
+     "cita_original": "le pied anglais [...] est anciennement en usage dans la partie de l'Est de la République d'où la presque totalité des bois d'acajou s'exporte, et doit par conséquent servir de base.",
+     "traduccion": "El pie inglés será la unidad para calcular el impuesto territorial de exportación de la caoba porque se usa desde antiguo en el este de la República, 'de donde sale casi toda la caoba'. Atribuye al este, según el propio gobierno, casi todas las cifras nacionales de caoba de Mackenzie y Candler (ya registrados), pero sin cifra regional.",
+     "afirmaciones": [
+      "A-104",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1175 (8/13/15-IX-1828), art. 1, p. 235; l. 17955-17957; imagen n244",
+     "cita_original": "A partir du 1er janvier 1829, les bois d'acajou et d'espinille seront assujettis à une imposition territoriale de douze gourdes par mille pieds réduits.",
+     "traduccion": "Desde el 1-I-1829 la caoba y el espinillo pagan 12 gourdes por mil pies reducidos como imposición territorial de exportación. La tarifa n.º 2 de la ley de aduanas del 28-V-1827 (p. 101; lectura visual de la columna en la imagen n110, el OCR desordena la tabla) fijaba 6 gourdes por mil pies reducidos: la tasa se duplicó. Orden de magnitud (cálculo propio, supone pies = pies reducidos y cobro íntegro [POR VERIFICAR]): los 5,4 millones de pies anuales de Candler en 1838-39 darían unas 65.000 gourdes anuales, cerca del 2,5 % de la recaudación de 1836 (2.533.843).",
+     "afirmaciones": [
+      "A-104",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1100 (17-V-1827; Boyer a los comandantes de los arrondissements del Este), p. 48; l. 2862-2872; imagen n57",
+     "cita_original": "Par une circulaire du 15 juin 1822, j'ai autorisé [...] les habitants de la partie de l'Est, qui n'étaient pas propriétaires, à faire des établissements en plantes produisant des denrées propres à l'exportation, sur les terres de l'État disponibles [...] vous ferez faire un relevé exact de tout ceux qui ont établi.",
+     "traduccion": "Boyer pone fin a la autorización de la proclama del 15-VI-1822 (ocupar tierras del Estado con cultivos de exportación, previa prueba de cinco años de establecimiento) y ordena un censo de todos los establecidos: cantidad de tierra, tipo de cultivo, cantón y personas que la trabajan. Ese censo de ocupantes (1827) no se localizó.",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1140 (29-I-1828), pp. 148-149; l. 13468-13474; imagen n158",
+     "cita_original": "il est nécessaire que le gouvernement soit fixé de la manière la plus positive sur le degré de croissance de la population de la République",
+     "traduccion": "Boyer ordena a la policía rural llevar un estado exacto de nacimientos y defunciones, copiado cada mes al oficial del estado civil, porque el gobierno quiere conocer la tasa de crecimiento de la población. Junto con la circular n.º 1137 (18-I-1828, p. 146) sobre los 'états de population' y el art. 136 del Código Rural, documenta el origen legal de los censos rurales y del 'censo anual' que cita Candler; los resultados por comuna no se localizaron.",
+     "afirmaciones": [
+      "A-094",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "t. V, n.º 1237 (5-IV-1830; Boyer a los comandantes del Este), pp. 335-336; l. 23612-23620",
+     "cita_original": "il sera acheté d'eux annuellement, de fortes quantités de tabac, lesquelles leur seront payées à un prix raisonnable.",
+     "traduccion": "El gobierno decide comprar cada año al este grandes cantidades de tabaco, pagado a 'un precio razonable', y pide animar a ampliar los cultivos. Compra estatal sin volumen ni precio; dato sobre la integración fiscal-comercial del este. Voz del Estado, no verificada por precios de mercado.",
+     "afirmaciones": [
+      "A-100",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-107",
+    "A-108",
+    "A-109",
+    "A-114",
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Complementa los tomos III y IV ya integrados por R1 (F-0065, paquete). Hallazgo central para el hueco 'lo efectivamente recaudado': (1) la cuota por arrondissement de la ley del 1-V-1826 (este: 458.601 gourdes anuales = 15,3 %) fue derogada por el art. 15 de la ley n.º 1088, un año después; (2) la contribución pasó a ser personal (2 millones de gourdes en 1827, 20 clases) y desde 1829 un impuesto personal y mobiliario del 5 % del ingreso mínimo presumido; (3) el propio gobierno reconoce en 1829 que el cobro de 1827 careció de control y que no tenía los totales por comuna, y manda registrarlos; (4) en 1837 la comisión de la Cámara declara que las cuentas carecen de clasificación (ver t. VI). Conclusión: la recaudación efectiva en el este no puede reconstruirse desde el Recueil; habría que ir a los registros de comunas de 1829 y a la Chambre des comptes (Archives Nationales d'Haïti) [no consultados]. Un resumen de búsqueda sin fuente identificable afirma que Boyer suspendió el cobro en el este por la oposición de sus habitantes y que en abril lo sustituyó por 200.000 gourdes: el texto de la ley n.º 1088 dice 2.000.000 y no menciona al este; la afirmación queda [POR VERIFICAR] y no entra como evidencia. No se leyó el tomo completo, solo los pasajes citados. Términos oficiales: 'partie de l'Est', 'arrondissements de l'Est', 'réunion à la République'. Las lecturas de tabla de la tarifa n.º 2 (columna 'droit territorial') se hicieron sobre imagen porque el OCR desordena las columnas: acajou 6 G por mil pies reducidos, café 12 G por millar, cacao 4 G, tabaco en hoja 50 centavos por quintal (p. 101-102) [lectura visual; cotejar con ejemplar físico]."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. VI (1834-1839): informe de la Cámara sobre las cuentas de 1836 (17-V-1837) y tratado franco-haitiano del 12-II-1838 sobre el saldo de la indemnización",
+   "autor": "Haití (Chambre des Représentants des communes; Président Boyer); Francia (Las Cases, Baudin); Linstant Pradine, A. (ed.)",
+   "anio": "1837-1838 (ed. Paris, A. Durand, 1851 según metadatos de archive.org)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral02hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral02hait/recueilgnral02hait_djvu.txt",
+    "https://archive.org/download/recueilgnral02hait/page/n358_w1400.jpg"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial del tratado y informe parlamentario impreso por el editor de las leyes de Haití; las cifras de 1836 se cotejaron en las imágenes de las págs. 349-351 y el tratado se leyó en el texto OCR (cifras en letras).",
+   "proveniencia": "Tomo VI del Recueil (1834-1839). El informe de la comisión de la Cámara (ponente Baugé fils, 17-V-1837) examina la contabilidad que el Secretario de Estado de Finanzas presentó para el ejercicio de 1836 y es crítico con el sistema de cuentas. El tratado de 12-II-1838 lo firman Las Cases y Baudin por Francia e Inginac, Frémont, Labbée, Ardouin y Séguy Villevaleix por Haití; Boyer ordenó su publicación el 28-VII-1838 tras el canje de ratificaciones en París (28-V-1838). Voces de las dos élites de Estado; no hay voz del este en estas páginas.",
+   "extractos": [
+    {
+     "ubicacion": "t. VI, Traité du 12-II-1838, art. 1 y 2, pp. 468-469; l. 37356-37395 del _djvu.txt (cifras en letras)",
+     "cita_original": "Art. 1er. Le solde de l'indemnité dû par la République d'Haïti demeure fixé à la somme de soixante millions de francs. [...] Pour chacune des années 1838, 1839, 1840, 1841 et 1842, un million cinq cent mille francs.",
+     "traduccion": "El saldo de la indemnización debida por Haití queda fijado en 60 millones de francos, pagaderos en anualidades que suben de 1,5 millones (1838-1842) a 1,6 (1843-1847), 1,7 (1848-1852), 1,8 (1853-1857), 2,4 (1858-1862) y 3 millones (1863-1867): cinco años cada tramo, total 60 millones (cálculo propio). Pagaderos en los seis primeros meses de cada año, en París, a la Caisse des dépôts. Resuelve el [POR VERIFICAR] de A-103: el tratado fija el saldo en 60 millones; la cifra de 90 millones como total es derivada (30 millones ya pagados por el empréstito de 1825-26 más 60), pero el tratado no la enuncia.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, Rapport de la commission des finances (David St-Preux; ponente Baugé fils), 17-V-1837, p. 349; l. 25739-25745; imagen n358",
+     "cita_original": "Chapitres complexes, chiffres de totalité, absence entière de classification et de spécialité, ces insurmontables difficultés mettent un terme fatal aux spéculations d'économie politique et aux moindres calculs arithmétiques.",
+     "traduccion": "La propia comisión de la Cámara declara en 1837 que las cuentas del Estado, con capítulos complejos, cifras globales y sin clasificación ni especialización, impiden toda estimación económica y hasta los cálculos aritméticos elementales: la recaudación por departamento no puede reconstruirse de esta contabilidad.",
+     "afirmaciones": [
+      "A-104",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 349; l. 25754-25772; imagen n358 (cifras en columna)",
+     "cita_original": "Recette générale de l'année 1836: 2,533,843 g. 22 [...] Dépenses de 1836: 2,300,941 g. 98 c.; Dette nationale 46,374 g. 67; Billets brûlés 90,713 [...] Excédant de recette 984,653 g. 80.",
+     "traduccion": "Recaudación general de 1836: 2.533.843,22 gourdes; gastos de 1836: 2.300.941,98; deuda nacional 46.374,67; billetes quemados 90.713; excedente 984.653,80. La suma impresa de gastos (2.855.029,65) no cuadra con los tres renglones (2.438.029,65): faltan 417.000 gourdes sin explicar en la propia página (cálculo propio). Es el único total anual del Estado haitiano localizado; no desglosa por arrondissement.",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 351; l. 25862-25866; imagen n360",
+     "cita_original": "l'importation, cette branche considérable des recettes, rapportait en 1835, 1,488,290 g. 12 c., et en 1836, elle n'a rendu que 927,284 g. 72 c.: de-là cette défavorable différence de 561,005 g. 39.",
+     "traduccion": "La aduana de importación rindió 1.488.290,12 gourdes en 1835 y 927.284,72 en 1836 (diferencia de 561.005,39). La comisión atribuye la caída al fraude en las aduanas y a la baja de las producciones del país; los ingresos totales de 1835 superaron a los de 1836 en 247.536,96 gourdes (p. 350).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 351; l. 25881-25890; imagen n360",
+     "cita_original": "elle a eu peine à comprendre comment le trésor n'a pu réaliser que 1841 g. 32 c. [d'impôt foncier] [...] la désuétude où est tombé le code rural, l'invasion de la licence, l'apathie que favorise le climat [...] concourent à la situation où se trouvent réduites nos finances.",
+     "traduccion": "La comisión se asombra de que el impuesto territorial solo rindiera 1.841,32 gourdes en 1836 y atribuye la penuria de las finanzas, entre otras causas, a que el Código Rural había caído en desuso. Evidencia de 1837, desde dentro del Estado, sobre la ineficacia del Código de 1826 en el conjunto de la República.",
+     "afirmaciones": [
+      "A-115",
+      "A-102",
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. VI, p. 350; l. 25805-25820; imagen n359",
+     "cita_original": "en 1836, les douanes ont certifié avoir expédié en moins: Café 10,689,697 liv.; Tabac 863,890; Bois d'acajou 458,371 p.; Cuirs de bœufs en poils 10,060.",
+     "traduccion": "Según las aduanas, en 1836 se despachó menos: 10.689.697 libras de café, 863.890 de tabaco, 458.371 pies [la unidad se lee 'p.'] de caoba y 10.060 cueros de res en pelo. La página no dice respecto de qué año; por el contexto (comparación 1835-1836) se infiere 1835. Es una diferencia, no el nivel; cifras nacionales, sin desglose por puerto, aunque la caoba y gran parte del tabaco salían del este (ver t. V n.º 1227 y n.º 1237).",
+     "afirmaciones": [
+      "A-100",
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-102",
+    "A-103",
+    "A-104",
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Tomo del paquete F-0065; R1 no trabajó este volumen (solo t. I, III y IV). Cierra el [POR VERIFICAR] de A-103 sobre 90 vs 60 millones: texto del tratado leído. Contrasta con el resumen de Brière en Island Luminous (ver entrada propia), que habla de 'reparaciones reducidas a 90 millones (30 millones a bonistas)'. Los extractos fiscales son del Estado en su conjunto; no hay cifra por departamento o arrondissement del este en ningún volumen revisado (t. IV a t. VI). No se leyó el tomo completo."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. IV (1824-1826): instrucciones del 15-IX-1826 (n.º 1061), arts. 17-18 de la ley n.º 1028, dirección de la Cámara del 10-V-1826 (n.º 1034) y decreto del papel moneda (n.º 1063) [extractos adicionales a los de R1]",
+   "autor": "Haití (Corps législatif; Secrétaire d'État Imbert; Président Boyer); Linstant Pradine, A. (ed.)",
+   "anio": "1826 (ed. Paris, A. Durand, 1851 según metadatos de archive.org)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral04hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral04hait/recueilgnral04hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial de leyes e instrucciones; aquí se aportan los pasajes que R1 señaló como faltantes (instrucciones n.º 1061 de la ley del 1-V-1826), leídos en el OCR del mismo ejemplar.",
+   "proveniencia": "Mismo tomo ya integrado por R1 con el id F-0065 (paquete Recueil); estos extractos completan lo que R1 declaró ausente en lagunas (instrucciones del 15-IX-1826). Documentos del Secretario de Estado de Finanzas Imbert, de la Cámara de Representantes y de Boyer, dirigidos a funcionarios haitianos.",
+   "extractos": [
+    {
+     "ubicacion": "t. IV, n.º 1061 (15-IX-1826), pp. 504-505; l. 33902-33906 del _djvu.txt",
+     "cita_original": "Les percepteurs des fonds provenant de la contribution feront leurs versements, tous les quinze jours, dans les caisses les plus voisines de leur ressort; et lesdits fonds ne pourront sortir de ces caisses que d'après les ordres du Trésorier général [...].",
+     "traduccion": "Circuito de recaudación de la ley de 1826: cada quince días los recaudadores ingresan en la caja más cercana y el dinero solo sale por orden del Tesorero General. Las comisiones por arrondissement y por comuna reparten cada cuota entre los contribuyentes (p. 504). No hay cuadros de ingreso.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1061, p. 504; l. 33890-33894",
+     "cita_original": "La loi s'expliquant sur ce que la contribution doit peser sur l'universalité des citoyens, entendu qu'aucun Haïtien, quel que soit son grade ou son emploi, ne puisse être exempt d'être taxé.",
+     "traduccion": "Las instrucciones subrayan que la contribución pesa sobre todos los ciudadanos sin excepción de grado o empleo; los contribuyentes se agrupan en clases según sus facultades. El este aparece solo como parte de los arrondissements de la tabla de la ley (no se nombra aparte en las instrucciones).",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1028 (1-V-1826), arts. 17-18, p. 407; l. 28513-28526",
+     "cita_original": "Art. 17. Les fonds provenant de la contribution extraordinaire [...] seront spécialement affectés au payement de l'indemnité accordée à la France. Art. 18. Si, avant l'expiration des dix années [...] la République se libérait par d'autres ressources envers la France, le Corps législatif serait dans l'obligation de rendre une nouvelle loi qui annulerait [la présente].",
+     "traduccion": "Los fondos se destinan específicamente al pago de la indemnidad a Francia; si Haití se liberase antes de diez años por otros medios, el Cuerpo Legislativo debe anular la ley. Confirma por texto de la ley el nexo con la indemnización que A-104 solo apoyaba por la cuota. Ya había tabla de cuotas en R1.",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1034 (Dirección de la Cámara a los haitianos, 10-V-1826), p. 457; l. 31131-31150",
+     "cita_original": "Haïtiens! le sacrifice est grand, il sera peut-être pénible à supporter; mais vos mandataires ne vous l'ont imposé qu'avec la certitude que, l'honneur et la dignité nationale conservés, il vous garantira pour l'avenir la paisible jouissance de vos propriétés.",
+     "traduccion": "La Cámara reconoce ante los haitianos que el sacrificio de los 30 millones 'es grande' y 'quizá penoso'. La misma dirección anuncia una ley de derechos locativos e impuesto territorial para que el impuesto territorial, que hasta entonces solo había pesado sobre los cultivadores, recaiga también sobre los propietarios de casas.",
+     "afirmaciones": [
+      "A-103",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, n.º 1063 (decreto del 25-IX-1826), preámbulo, p. 506; l. 33971-33975",
+     "cita_original": "la monnaie nationale, lorsqu'elle fut émise, n'avait été calculée que sur les besoins des départements qui formaient alors la République, et que néanmoins, depuis la réunion de toutes les parties du territoire, elle s'est trouvée suffisante par le concours de la monnaie d'Espagne.",
+     "traduccion": "Boyer justifica la emisión de billetes de caja (de 1, 2 y 5 gourdes desde el 1-X-1826) porque la moneda nacional, calculada para los antiguos departamentos, había bastado tras la reunión gracias a la moneda española que traía el comercio, pero esta se hacía rara por la crisis financiera europea. Dato monetario sobre el este: circulaba moneda española hasta 1826.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-104",
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0065",
+   "notas": "Se devuelve con id_existente F-0065 porque R1 integró este mismo tomo bajo ese id (con otras páginas). El pasaje 'Haïtiens! le sacrifice est grand' pertenece a la dirección de la Cámara (n.º 1034, 10-V-1826), no a un mensaje de Boyer. El tomo no contiene cuentas de recaudación; el texto de las instrucciones n.º 1061 remite a la ley y no incorpora cuadros."
+  },
+  {
+   "titulo": "Y Haplogroup Diversity of the Dominican Republic: Reconstructing the Effect of the European Colonization and the Trans-Atlantic Slave Trades",
+   "autor": "D'Atanasio, Eugenia; Trionfetti, Fulvio; Bonito, Mario; Sellitto, Daniele; Coppa, Alfredo; Berti, Andrea; Trombetta, Beniamino; Cruciani, Fulvio",
+   "anio": "2020",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7523727/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7523727/fullTextXML",
+    "https://doi.org/10.1093/gbe/evaa176"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares (Genome Biology and Evolution 12(9): 1579-, 24-VIII-2020; PMID 32835369) con muestra y métodos declarados; leído el texto completo en XML de Europe PMC.",
+   "proveniencia": "Grupo de Roma (Sapienza) y colaboradores; 182 varones dominicanos de tres localidades, muestras recogidas 'hace más de 20 años' con consentimiento. Estudio de linajes del cromosoma Y (92 SNP) para estimar los efectos de la colonización y la trata, no de la historia del siglo XIX. No fue diseñado para identificar a descendientes de los inmigrantes afroamericanos de 1824.",
+   "extractos": [
+    {
+     "ubicacion": "Methods, 'The Sample' (texto completo XML de Europe PMC)",
+     "cita_original": "Our analysis has been focused on 182 males from three locations in the Dominican Republic: Santo Domingo (N = 50), San Juan de la Maguana (N = 76), and Las Galeras (N = 56).",
+     "traduccion": "La muestra es de 182 varones: Santo Domingo (50), San Juan de la Maguana (76) y Las Galeras (56). Las Galeras es 'una pequeña aldea de la costa este de la península de Samaná'; las muestras se recogieron hace más de 20 años.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "Results, Tabla 1 (frecuencias de haplogrupos Y); texto XML",
+     "cita_original": "E1b1a-M2 0.220 [Santo Domingo] 0.393 [Las Galeras] 0.382 [San Juan de la Maguana] 0.341 [total]; J2-M172 0.200 0.143 0.132 0.154.",
+     "traduccion": "Frecuencia del linaje africano subsahariano E1b1a-M2: 0,220 en Santo Domingo, 0,393 en Las Galeras (N=56, unos 22 varones, cálculo propio), 0,382 en San Juan y 0,341 en el total. Las Galeras cae dentro del rango de las otras localidades; el artículo no contrasta si ese valor refleja a los inmigrantes de 1824, ni analiza ascendencia norteamericana (0 resultados para 'African American', '1824' y 'Samaná American' en el texto completo).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "Introducción (texto XML)",
+     "cita_original": "the Dominican part of Hispaniola was declared independent in 1821, but it passed under the Haitian control shortly after, briefly reuniting the Hispaniola island under the same rule until the Dominican war of independence in 1844 (Guitar 2007).",
+     "traduccion": "Los autores resumen el período 1821-1844 en una frase (citando a Guitar 2007): independencia de 1821, 'control haitiano' poco después, isla reunida bajo un mismo gobierno hasta la guerra dominicana de independencia de 1844. Muestra el vocabulario con que la genética de poblaciones resume el período; no aporta evidencia sobre él.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105",
+    "A-107"
+   ],
+   "modulos": [
+    "M08",
+    "M01",
+    "M02",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Resultado negativo documentado, como declaró el crítico: la genética no resuelve las afirmaciones de M08. Estudio de ADN moderno de línea paterna, N pequeño por localidad, sin datos de mtDNA ni autosómicos en este artículo y sin muestreo diseñado para los 'Samaná Americans'. Útil sobre todo en M01-M02 (linajes europeos/africanos, 83 % de los linajes africanos de Santo Domingo con origen centroafricano) y M16. La búsqueda en el texto completo (African American, 1824, Samaná American) no arrojó nada. Los datos de Samaná como comunidad se leen mejor en Weeks y Ramírez Zabala (2005) y en Pomerleau (2022)."
+  },
+  {
+   "titulo": "Retour sur l'anglais (et autres langues) de Samaná",
+   "autor": "Pomerleau, Marc",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://r-libre.teluq.ca/2898/1/Pomerleau-2022-Retour%20sur%20l%E2%80%99anglais%20%28et%20autres%20langues%29%20de%20Saman%C3%A1.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de revista universitaria (Tinkuy. Boletín de Investigación y Debate n.º 27, 2022, pp. 73-85) con bibliografía, pero de síntesis: la cifra de 6.000 migrantes se apoya en una cita secundaria (Hoetink, DeBose, Weeks y Ramírez Zabala).",
+   "proveniencia": "Marc Pomerleau, Université TÉLUQ (Québec). Escrito para un público académico de estudios latinoamericanos en francés y español, sin trabajo de campo propio sobre el siglo XIX; resume la historia de la comunidad anglófona de Samaná y el panorama lingüístico dominicano.",
+   "extractos": [
+    {
+     "ubicacion": "p. 78 (sección 4, 'Immigration américaine à Samaná')",
+     "cita_original": "Environ 6000 personnes répondent donc à l'appel et c'est ainsi que, le 29 novembre 1824, un premier bateau transportant des Afro-Américains affranchis dépose son ancre sur les côtes de Santo Domingo.",
+     "traduccion": "Unas 6.000 personas responden a la convocatoria; el 29-XI-1824 llega a Santo Domingo el primer barco con afroamericanos libres, procedentes de Filadelfia (bajo el pastor Richard Allen), Baltimore, Nueva Jersey, Delaware, Maryland, Carolina del Norte y Nueva York, repartidos luego en diez regiones de la isla (haitiana y dominicana).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 78",
+     "cita_original": "Une seule communauté, fondée en 1825 par environ 200 Afro-Américains, réussit à survivre à long terme, soit celle de Samaná.",
+     "traduccion": "Solo sobrevive a largo plazo la comunidad de Samaná, fundada en 1825 por unos 200 afroamericanos; los demás asentamientos se asimilaron en dos o tres generaciones (DeBose). Coincide con el reparto previsto en las instrucciones de Boyer de 1824 (Samaná: 200 de 6.000; Recueil t. IV, ya en R1).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 80 (sección 5, 'La langue')",
+     "cita_original": "Si on comptait 8000 locuteurs en 2005, le nombre est probablement inférieur aujourd'hui [...] les jeunes générations se tournant vers l'espagnol.",
+     "traduccion": "Hacia 2005 se contaban 8.000 hablantes del inglés de Samaná; hoy probablemente menos, por el cambio al español. Pomerleau advierte que los datos oficiales sobre lengua son lagunares y que hay poco trabajo de campo reciente.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Aporta rangos para A-105 con base: 'más de 6.000' llegados (Penn Museum, R1) vs 'unos 6.000' (Pomerleau, de segunda mano); ~200 fundadores de Samaná. La cifra de hablantes de 2005 (8.000) no tiene base declarada en la página leída [POR VERIFICAR]. Complementa a Weeks y Ramírez Zabala 2005 (N79) y a Tagliamonte y Poplack 1988 (N80, solo resumen)."
+  },
+  {
+   "titulo": "Report on the mines known in the eastern division of Hayti, and the facilities of working them",
+   "autor": "Walton, William",
+   "anio": "1825",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/reportonmineskn00conggoog",
+   "urls_alternativas": [
+    "https://archive.org/download/reportonmineskn00conggoog/reportonmineskn00conggoog_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de un agente británico con interés comercial en la empresa minera; su descripción de las condiciones de la concesión de 1825 viene de 'examen personal' de los papeles, pero el OCR es ruidoso.",
+   "proveniencia": "William Walton (1784-1857, según los metadatos de archive.org), que se presenta como autor de 'Spanish Colonies' (2 vols.) y 'late resident British agent there' (portada; el OCR no aclara el lugar). Publicado en Londres en 1825 para inversores interesados en una compañía minera para la 'división oriental' de Haití. Interés comercial declarado: promover la inversión.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 43-44; l. 1436-1455 del _djvu.txt (OCR ruidoso; la fecha se lee '22od of March' = 22nd, y '12§' = 12½ [POR VERIFICAR])",
+     "cita_original": "An exclusive authority, dated 22nd of March, 1825, has been given by the government of Hayti, through the medium of a Company, for the working of mines in the island.",
+     "traduccion": "El gobierno de Haití concedió el 22-III-1825 una autorización exclusiva, por medio de una compañía, para explotar minas en la isla (división oriental). Walton enumera franquicias: importaciones para la minería libres de derechos (que 'en otros casos no baja del 12½ %'), cultivo de tierras por los trabajadores libre del 10 % y exportación de los productos de las minas libre del 15 %.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 44; l. 1452-1454",
+     "cita_original": "The exportation of the produce of the mines free of duty. (This duty in other cases is not less than 15 per cent)",
+     "traduccion": "Walton da como tipos ordinarios 'no menos de' 12½ % a la importación, 10 % a la producción agrícola y 15 % a la exportación. Son órdenes de magnitud de la presión aduanera de 1825, no tipos de ley; comparar con la tarifa n.º 2 de 1827 (Recueil t. V) y con el 17/37 de ingresos por aduana de Placide-Justin (46 %).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Útil como dato contemporáneo de política económica sobre el este en 1825 (minas del Cibao); Placide-Justin (1826, p. 506) menciona la misma concesión a una 'compagnie anglaise' a medias con el Tesoro. Los porcentajes de Walton (12½, 10, 15) no están cotejados con las leyes aduaneras de 1825 [POR VERIFICAR] y no se leyó el informe entero. Los 17/37 millones de Placide-Justin dan 45,9 % de ingresos por aduana (cálculo propio). Fuente tangencial para A-103; se incluye para completar el contexto fiscal del este."
+  },
+  {
+   "titulo": "The Double Debt (diapositiva de la exposición Island Luminous, parte IV, diapositiva 6)",
+   "autor": "Brière, Jean-François",
+   "anio": "s. f.",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part04-slide06.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/4.html"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto breve de exposición universitaria (FIU/dLOC) firmado por un especialista (Brière, Haïti et la France, 1804-1848), sin cifras por año ni notas; leído a través de WebFetch (resumen), no en el HTML crudo.",
+   "proveniencia": "Diapositiva escrita por Jean-François Brière (University at Albany) para la exposición digital Island Luminous (Florida International University), destinada al gran público bilingüe. Resume su libro de 2008; no cita fuentes en la diapositiva.",
+   "extractos": [
+    {
+     "ubicacion": "diapositiva 'The Double Debt' (texto devuelto por WebFetch, no cotejado en el HTML crudo)",
+     "cita_original": "An 1838 treaty reduced reparations to 90 million francs (30 million owed to bondholders). Haiti completed full payment in 1883.",
+     "traduccion": "Un tratado de 1838 redujo las reparaciones a 90 millones de francos (30 millones debidos a bonistas); Haití terminó de pagar en 1883. La formulación difiere del texto del tratado (que fija el saldo en 60 millones, Recueil t. VI) y mezcla el total reducido con la parte a bonistas.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Registrada porque el portal Island Luminous (F-0260) figura en el registro como 'fragmento-busqueda'. No resuelve nada sobre el este. La cita procede del resumen de WebFetch (texto 'Full Text' devuelto por la herramienta); [POR VERIFICAR] cotejar en el HTML. Sirve para señalar la ambigüedad 90/60 millones que el texto del tratado aclara."
+  },
+  {
+   "titulo": "Imperialism, Tariffs, and Sovereignty: French-Haitian Conflict Over the Half-Duty, 1825-38 (ponencia, AHA 2026, sesión 'Trade Wars and Global Order Since 1800')",
+   "autor": "Kwass, Michael",
+   "anio": "2026",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://aha.confex.com/aha/2026/webprogram/Paper41815.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen de ponencia de un historiador (Johns Hopkins) sin datos ni notas; leído solo el resumen vía WebFetch.",
+   "proveniencia": "Michael Kwass (Johns Hopkins University), ponencia del 10-I-2026 (AHA, Nueva Orleans [lugar no verificado]) sobre el conflicto franco-haitiano por la media tarifa de 1825 a 1838; público de historiadores.",
+   "extractos": [
+    {
+     "ubicacion": "resumen de la ponencia (texto devuelto por WebFetch)",
+     "cita_original": "a tariff requirement that slashed customs duties on French goods by 50%.",
+     "traduccion": "La ordenanza de 1825 obligó a Haití a reducir un 50 % los derechos de aduana sobre bienes franceses, medida que, según el resumen, golpeó la economía y la inversión pública. No da cifras de ingresos aduaneros de 1825-1838.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Relevante para el peso fiscal de la indemnización: la aduana era la rama principal de los ingresos (Recueil t. VI, informe de 1837), de modo que la media tarifa redujo la base que financiaba el pago. Sin cifras; se registra como índice para la ponencia completa [POR VERIFICAR su publicación]."
+  },
+  {
+   "titulo": "Haiti: From Independence to US Occupation (cap. 7 de The Economic History of the Caribbean since the Napoleonic Wars, pp. 160-194)",
+   "autor": "Bulmer-Thomas, Victor",
+   "anio": "2012",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/books/abs/economic-history-of-the-caribbean-since-the-napoleonic-wars/haiti/C2EA9622EE42B08120C5897E168B2893",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/CBO9781139031264.009",
+    "https://islandluminous.fiu.edu/part07-slide04.html"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia económica con series cuantitativas publicada por Cambridge University Press, pero no leída: solo la ficha y el resumen están accesibles.",
+   "proveniencia": "Victor Bulmer-Thomas (University of London), historiador económico del Caribe; libro de 2012 con series de comercio, finanzas públicas y PIB. El capítulo sobre Haití sostiene (según su resumen) que las interpretaciones modernas parten de una mala comprensión del desempeño de Haití antes de la invasión de EE. UU. de 1915.",
+   "extractos": [
+    {
+     "ubicacion": "resumen del capítulo en Cambridge Core (texto devuelto por WebFetch)",
+     "cita_original": "misunderstanding of its performance before the US invasion",
+     "traduccion": "El resumen sostiene que las lecturas actuales de Haití se basan en una mala comprensión de su desempeño antes de 1915. No da cifras en la parte accesible; el texto completo (series de ingresos públicos 1822-1843 y peso de la indemnización) está tras muro de pago.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Pedido expreso del crítico (consulta 'Bulmer-Thomas 2012 Haiti revenues 1822-1843'): localizado, no leído. Una diapositiva de Island Luminous (parte VII, diapositiva 4, 'Haiti's Economic Dilemma', firmada por Bulmer-Thomas) y un resumen de búsqueda sin fuente identificable repiten que los impuestos a la importación y a la exportación de café eran el 99 % de los ingresos públicos; la diapositiva leída parece referirse a finales del XIX y principios del XX, así que el período de ese 99 % [POR VERIFICAR] y no se aplica a 1822-1843 sin el texto. Contrastar con la aduana como 17 de 37 millones (45,9 %) en Placide-Justin (1826), que no es comparable."
+  },
+  {
+   "titulo": "La dominación haitiana, 1822-1844 (2.ª ed., Santo Domingo, UCMM, 1972; 219 pp.): ficha del catálogo de la Academia Dominicana de la Historia",
+   "autor": "Moya Pons, Frank",
+   "anio": "1972",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=8377",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra académica de referencia con bibliografía; solo se leyó la ficha de catálogo de la ADH (ejemplares en estantería, sin texto en línea).",
+   "proveniencia": "Ficha Koha de la Biblioteca Vetilio Alfau Durán de la ADH: colección 'Estudios' de la Universidad Católica Madre y Maestra (Santo Domingo, 1972), 219 páginas, 2.ª edición, DDC 972.9304 M938d. Frank Moya Pons (n. 1944). La obra fue la síntesis dominicana de referencia sobre el período; el registro tenía por error la URL de Lora (2009) (estudiossociales.bono.edu.do/.../64/61/121).",
+   "extractos": [
+    {
+     "ubicacion": "ficha ADH, campo 'Contents'",
+     "cita_original": "La invasión de Boyer (1820-1822) 15 -- La cuestión de la tierra (1822-1825) 45 -- Deuda pública, crisis económica y oposición política (1826-1834) 81 -- La caída de Boyer: conspiración y reforma (1834-1843) 111 -- El fin de la dominación haitiana (1843-1844) 145",
+     "traduccion": "Estructura del libro: el capítulo sobre 'Deuda pública, crisis económica y oposición política (1826-1834)' (pp. 81-110) es donde Moya Pons trata la indemnización y su peso en el este; el de 'La cuestión de la tierra' (1822-1825), pp. 45-80, trata los bienes eclesiásticos y la ley de 1824. Texto no leído.",
+     "afirmaciones": [
+      "A-103",
+      "A-104",
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "ficha ADH, campo 'Contents' (apéndices)",
+     "cita_original": "Apéndices. Proclama al pueblo de Juan Pedro Boyer, Presidente de Haití, 9 de febrero de 1822, 173 -- Ley del 8 de julio de 1824, 177 -- Bibliografía citada 201",
+     "traduccion": "El libro reproduce la proclama de Boyer del 9-II-1822 (p. 173) y la ley del 8-VII-1824 (p. 177), los dos documentos que A-094 y A-109 piden. Nota: la proclama se fecha el 9-II-1822 aquí y el 9-I-1822 en Lora (2009) y el 9-II-1822 en Recueil t. III (n.º 774, R1): discrepancia de fecha [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-094",
+      "A-109"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-109"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0075",
+   "notas": "Se devuelve con id_existente F-0075 para corregir su URL: la que lleva el registro (estudiossociales.bono.edu.do/.../64/61/121) es el artículo de Lora Hugi (2009), M08-N01 de R1. Moya Pons 1972 sigue sin texto accesible en línea (sin PDF en el catálogo de la ADH ni en archive.org: la consulta a la API de búsqueda de archive.org no devolvió resultados). Registrada como 'archivo-fisico' (ADH) pero el libro es de 1972 y puede estar bajo derechos."
+  },
+  {
+   "titulo": "Transición de la esclavitud al trabajo libre en Santo Domingo: el caso de Higüey (1822-1827) (Academia Dominicana de la Historia, vol. 100, 2012; 177 pp.): ficha del catálogo de la ADH",
+   "autor": "Lora Hugi, Quisqueya",
+   "anio": "2012",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=4476",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de la ADH basada en protocolos notariales del Archivo Real de Higüey (según Lora 2009, ya leída por R1); aquí solo la ficha de catálogo.",
+   "proveniencia": "Ficha Koha de la ADH (serie 'Academia Dominicana de la Historia', vol. 100; ISBN 978-9945-8693-8-5; 177 pp.). Quisqueya Lora Hugi; el contenido anuncia el análisis del censo local de 1822, de los contratos de 1822 y de la aplicación del Código Rural en Higüey.",
+   "extractos": [
+    {
+     "ubicacion": "ficha ADH, campo 'Contents'",
+     "cita_original": "El censo de 1822: propietarios, labranzas y fundaciones 61 -- La nueva situación de los antiguos esclavos a través de los contratos de 1822 93 -- El Código Rural y su aplicación en Higüey 121",
+     "traduccion": "El libro incluye un capítulo (pp. 61-92) sobre un censo local de 1822 de propietarios, labranzas y fundaciones de Higüey, y otro (pp. 93-120) sobre los contratos de los antiguos esclavos. Es la fuente cuantitativa primaria más probable para A-094 y A-097 a escala local; texto no leído. El censo de Higüey de Mackenzie (1.655 habitantes) puede cotejarse con él.",
+     "afirmaciones": [
+      "A-094",
+      "A-097",
+      "A-101"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-097",
+    "A-101"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0093",
+   "notas": "R1 no localizó este libro (solo el artículo de 2009). El registro daba para F-0093 una página de Princeton y R1 la dejó como 'fragmento-busqueda'; ahora hay ficha de catálogo con contenido. Sigue sin texto accesible."
+  },
+  {
+   "titulo": "Historia social de la dominación haitiana (1822-1844) (ADH vol. 171 / AGN vol. 540, 2025; 497 pp.): ficha del catálogo de la ADH",
+   "autor": "Batista Lemaire, Olivier; prólogo de Balcácer, Juan Daniel",
+   "anio": "2025",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=12695",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra reciente de la ADH que R1 solo conoció por la nota de prensa; aquí solo la ficha de catálogo, sin índice ni texto.",
+   "proveniencia": "Ficha Koha de la ADH: publicación conjunta de la Academia Dominicana de la Historia (vol. 171) y el Archivo General de la Nación (vol. 540), Santo Domingo, 2025, 497 páginas, ISBN 978-9945-9453-3-1, materia 'República Dominicana -- Historia -- Ocupación Haitiana, 1822-1844'.",
+   "extractos": [
+    {
+     "ubicacion": "ficha ADH, datos bibliográficos y materia",
+     "cita_original": "Academia Dominicana de la Historia; vol. 171 | Archivo General de la Nación; vol. 540. Santo Domingo: Academia Dominicana de la Historia, 2025. 497 páginas. República Dominicana -- Historia -- Ocupación Haitiana, 1822-1844.",
+     "traduccion": "Datos de edición: 497 páginas, coedición ADH-AGN; la ficha clasifica el período bajo la etiqueta 'Ocupación Haitiana', la que usa la tradición dominicana institucional. Sin tabla de contenidos.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0101",
+   "notas": "Pendiente de lectura. No se buscó una edición digital del AGN (vol. 540); el servidor agn.gob.do devolvió un desafío antibots (Cloudflare 403) a curl y a WebFetch para otra publicación, y no se eludió."
+  },
+  {
+   "titulo": "Strains of Unity: Emancipation, Property, and the Post-Revolutionary State in Haitian Santo Domingo, 1822-1844 (tesis doctoral, University of Michigan)",
+   "autor": "Walker, Andrew",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://deepblue.lib.umich.edu/handle/2027.42/146083",
+   "urls_alternativas": [
+    "https://deepblue.lib.umich.edu/items/e405a05c-8219-49f4-a796-311e02b05ccd"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral con archivo primario (Archives Nationales d'Haïti y notariales), pero no pudo leerse: Deep Blue devuelve un desafío antibots.",
+   "proveniencia": "Tesis de Andrew Walker (University of Michigan, 2018; ahora Wesleyan), una de las dos obras centrales de la corriente 'unificación con apoyo local' (A-108). Probablemente contiene cifras de emancipados, de bienes enajenados y de contribuciones en el este; [POR VERIFICAR].",
+   "extractos": [],
+   "afirmaciones": [
+    "A-094",
+    "A-095",
+    "A-100",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0151",
+   "notas": "FALLO DE FETCH (HTTP 403): tanto curl como WebFetch reciben la página 'Just a moment...' de Cloudflare; no se eludió. Misma barrera en scholarcommons.sc.edu (tesis de Keane-Dawes, R1 N61) y agn.gob.do. Alternativas para quien tenga permisos: pedir el PDF a la biblioteca de Michigan o a la autor; Walker 2019 en Taylor & Francis (R1 N53, también 403)."
+  },
+  {
+   "titulo": "Vicisitudes de la Independencia dominicana: de la concepción a la materialización, 1843-1844 (discurso de ingreso a la ADH; Clío, año 89, n.º 200, julio-diciembre de 2020, pp. 141-199)",
+   "autor": "Féliz, Welnel Darío",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-2020-200-141-199.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Discurso de ingreso a la Academia con aparato crítico (notas a García, Madiou, Rodríguez Demorizi y Moya Pons); la cifra de caoba es de segunda mano (Cassá 2017, no leído) y no declara su base.",
+   "proveniencia": "Welnel Darío Féliz, historiador dominicano; texto del discurso de ingreso a la Academia Dominicana de la Historia, publicado en Clío (revista de la ADH) en 2020. Estudia el proceso hacia el 27-II-1844 con énfasis en regiones; usa a García, Madiou y la compilación de Rodríguez Demorizi. Leídas las pp. 169-174 de la revista; no el artículo entero.",
+   "extractos": [
+    {
+     "ubicacion": "p. 172, nota 84 (texto del PDF)",
+     "cita_original": "Cuadro de exportación de rubros de Haití, 1818-1842, en Roberto Cassá, Historia Social y Económica de la República Dominicana [...] vol. I, 2017, p. 333. Solo la caoba se elevó de 2,622,227 pies en 1822 a 6,009,682 pies en 1841.",
+     "traduccion": "Según un cuadro de exportaciones de Haití 1818-1842 que Féliz toma de Cassá (2017, vol. I, p. 333), la caoba pasó de 2.622.227 pies en 1822 a 6.009.682 en 1841 (x2,3; cálculo propio). Combinado con la circular de 1830 (Recueil t. V, n.º 1227: casi toda la caoba sale del este), es la serie que más se acerca a una exportación del este. Contradice la cifra de Franklin (1828) para 1822 (20.100 pies) y encaja con Mackenzie (cerca de 3 millones en 1825) y Candler (4,9 y 5,9 millones en 1838-39); unidades y base sin declarar [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-100",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "p. 172 (texto principal)",
+     "cita_original": "los propietarios de tierras de estos pueblos tenían seguridades sobre sus posesiones, pues ya habían logrado que se les respetaran sus propiedades y que no se les aplicara la ley del 8 de julio de 1824, la que ordenaba que las tierras comuneras se midiesen para que una porción de ellas les fueran entregadas al Estado.",
+     "traduccion": "Féliz sostiene que en Rincón y Petit Trou (suroeste) los propietarios habían logrado que no se aplicara la ley del 8-VII-1824 sobre tierras comuneras, apoyado en Moya Pons (La dominación haitiana, pp. 86-87); relaciona la fidelidad de esos pueblos a los haitianos en 1844 con los cortes de maderas, que 'aumentaron durante la presencia haitiana' (Rincón 5 y Petit Trou 8 cortes, según García, p. 169). Hecho de aplicación diferenciada de la ley de 1824, con apoyo en un solo secundario.",
+     "afirmaciones": [
+      "A-109",
+      "A-100"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-104",
+    "A-109"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Aporta la única cifra de exportación de caoba 1822-1841 localizada en esta ronda (vía Cassá 2017); Cassá no se leyó. Franklin (1828, local) da para 1822 los productos del conjunto de Haití: café 35.117.834 lb, azúcar 652.541, algodón 891.950, cacao 322.145, campeche 3.816.583 lb y caoba 20.100 pies, con valor total de unos 9.030.397 dólares y derechos de exportación de 1.365.402 dólares (texto local, l. 7640-7651); la caoba de Franklin es 130 veces menor que la de Cassá para el mismo año (cálculo propio): error de unidad o de dato, [POR VERIFICAR]. El artículo trata sobre todo 1843-44 (M09); se incluye por el dato económico y la aplicación regional de la ley de 1824."
+  }
+ ]
+}

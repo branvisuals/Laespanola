@@ -1,0 +1,1783 @@
+{
+ "lente": "dominicana",
+ "modulo": "M16",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 38,
+ "busquedas_pendientes": [
+  "MEPyD 'Consultoría Unión Europea Zona Fronteriza' (enero de 2025) pdf site:mepyd.gob.do (el informe que cita elDinero)",
+  "Oxfam 2020 estudio sobre violencia contra las mujeres comerciantes en Dajabón y Comendador (pdf)",
+  "Petrozziello y Wooding 2012 'Fanm nan fwontyè, fanm toupatou' texto completo (Princeton digital collections / OBMICA)",
+  "Comunicado de la JCE del 7-XI-2013 en la web institucional archivada (web.archive.org/web/2013*/jce.gov.do)",
+  "Resolución de la JCE que eliminó el campo 'color' de la cédula (2014), Gaceta Oficial o resoluciones del Pleno",
+  "CEPAL Redatam, censo 2022 de la República Dominicana, variable de percepción étnico-racial (para contrastar el cuadro 12)",
+  "Libros de texto de ciencias sociales del MINERD (4.º a 6.º) y diseño curricular 2016 sobre 1822 y 1844",
+  "Listín Diario y Hoy: columnas con autor sobre TC/0168/13 (2013-2014) distintas de la de Bolívar Díaz",
+  "Estudios Migratorios n.º 2 en adelante (INM RD): entrevistas completas y artículos sobre la migración circular haitiana"
+ ],
+ "lagunas": [
+  "A-214: no se localizó el comunicado de la JCE del 7-XI-2013 ni el informe de auditoría del 26-V-2015; se tiene la rueda de prensa por CDN (copia de archivo), HaïtiLibre (M16-N70) y los listados nominales de la JCE de junio de 2015 con nacionalidad de los padres (conteo propio: 53.822 filas; 39.299, 73,0 %, con 'Haití' en al menos un padre; esa proporción es mayor que la 68,3-68,45 % publicada y no se explica con los datos abiertos).",
+  "A-214 (corrección): 24.392 = 53.847 − 29.455 es el total de irregulares de todas las nacionalidades, no el de padres haitianos; las cifras de padres haitianos en la rueda de prensa son 13.672 irregulares y 36.326 de ascendencia haitiana (HaïtiLibre; CDN solo da 13.672 'hijos de haitianos').",
+  "A-226 y A-261: el cuadro 12 del Volumen III de la ONE confirma las seis cifras de A-226 con fuente primaria (copia de archivo), pero el PDF del Volumen III (729 pp.) y del informe general (641 pp.) no se obtuvieron (Cloudflare en one.gob.do; la copia de archivo del informe general está truncada a 5 MB). El título del cuadro dice 'percepción del informante', no 'autoidentificación'.",
+  "A-226: la resolución de la JCE que quitó el color de la cédula y su fecha no se localizaron; solo hay indicios (el nuevo formato de enero de 2014 en Acento 2026; Acento 2016, F-0058).",
+  "Voces: se añadieron desnacionalizados (Estrella 2023, Hoy 2011, Reconoci.do 2022, comité de 2013), mujeres comerciantes (Del Rosario 2008, Wooding 2012, elDinero 2025, MEPyD 2021), rayanos y campesinos (García Peña 2019, La Vigía 2026, Senado 2011, Estudios Migratorios 2021) e Iglesia (comunicado clerical de abril de 2024 y crónica de la CED de octubre de 2024). No se halló etnografía dominicana abierta de rayanos con testimonios directos posterior a 2015; las voces son mediadas por autores, ONG y organismos del Estado.",
+  "El comunicado original de la CED de octubre de 2024 sigue sin abrirse (CELAM 410); el informe del MEPyD de enero de 2025 (80 % de mujeres) y el estudio de Oxfam de 2020 solo se conocen por la prensa.",
+  "Los libros de texto del MINERD y el currículo sobre 1822 y 1844 siguen sin localizarse; el volumen del IPGH-RD de 2022 recoge las ponencias de los historiadores pero no los manuales.",
+  "Moya Pons (Rumbo, 1999) y Balcácer (AcentoTV 2023 y 2026) se conocen por resúmenes de prensa en estilo indirecto: no se pueden atribuir citas literales a Balcácer."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "genocidio civil / muerte civil / muertos civiles",
+   "tradicion": "dominicana (activistas de Reconoci.do y columnistas como Juan Bolívar Díaz) frente a 'regularización' (Estado)",
+   "nota": "Usado desde octubre de 2011 (Hoy) para la negación de actas a descendientes de haitianos; Estrella (2023) lo adopta como categoría analítica. Es una calificación jurídica y moral, no un hecho: se registra como término de una tradición, y 'genocidio' no debe confundirse con el de 1937."
+  },
+  {
+   "termino": "dominicanos negros de ascendencia haitiana",
+   "tradicion": "dominicana (autodenominación de líderes de Reconoci.do) frente a 'dominico-haitianos' (MUDHA, prensa) y 'hijos de extranjeros en tránsito/ilegales' (Estado y TC)",
+   "nota": "Estrella (2023, p. 43) lo escribe sin abreviar a petición de los líderes; MUDHA dice que 'dominico-haitiano' no existe como categoría legal. El glosario tiene 'pérdida de la nacionalidad' pero no el nombre de las personas afectadas."
+  },
+  {
+   "termino": "repatriación / interdicción",
+   "tradicion": "oficial dominicana (DGM) frente a 'deportación' (CED, prensa) y 'expulsión' (Haití, órganos interamericanos)",
+   "nota": "El comunicado de la DGM del 2-I-2025 habla de 'repatriar' y de 'interdicción y repatriación'; la CED y El Día dicen 'deportaciones'. El glosario no recoge este triplete; es un término cargado."
+  },
+  {
+   "termino": "ilegales haitianos / indocumentados / irregulares",
+   "tradicion": "dominicana (prensa y cabilderos) frente a 'migrantes en situación irregular' (DGM, ENI) y 'personas desnacionalizadas' (activistas)",
+   "nota": "El Día lo usa al resumir la posición de los obispos, que hablaban de 'indocumentados'. Registrar quién usa cada uno."
+  },
+  {
+   "termino": "levantamiento (inventario) vs. auditoría (JCE 2013 y 2015)",
+   "tradicion": "oficial dominicana",
+   "nota": "No es cargado pero evita una confusión de cifras: el 'levantamiento' de ocho días de noviembre de 2013 inventarió hijos de extranjeros (53.843-53.847); la auditoría (1929-2007) concluyó en 2015 con 60.089 hallazgos."
+  },
+  {
+   "termino": "integración de Santo Domingo al Estado haitiano / gobierno haitiano / ocupación / dominación haitiana",
+   "tradicion": "dominicana (Cassá: 'integración'; Guerrero: 'gobierno haitiano' y 'separación'; Núñez y Batista Lemaire: 'ocupación' y 'dominación')",
+   "nota": "En un mismo volumen del IPGH-RD (2022) conviven tres nombres para 1822-1844. El glosario ya fija 'periodo de gobierno haitiano de toda la isla'; conviene añadir 'integración' (Cassá) y 'dominación' (título de Batista Lemaire 2025)."
+  },
+  {
+   "termino": "percepción del informante (ONE, cuadro 12) / autoidentificación",
+   "tradicion": "oficial dominicana",
+   "nota": "El censo de 2022 pregunta '¿Se considera (NOMBRE)...?' por cada miembro del hogar; el cuadro oficial lo titula 'percepción del informante'. Describirlo como 'autoidentificación' es una simplificación."
+  },
+  {
+   "termino": "conciencia rayana / rayano",
+   "tradicion": "dominicana (García Peña 2019)",
+   "nota": "Matiza la entrada 'Rayano' del glosario: designa a una dominicana de la franja (ej., Bahoruco) y un saber de frontera silenciado, y no solo a la comunidad bicultural."
+  }
+ ],
+ "fuentes": [
+  {
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/1081/1028"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de personas desnacionalizadas. Hecho (relato de los entrevistados: acta rosa, 'apellidos raros'); interpretación ('desnacionalizó', 'muertes civiles'); significado (racismo sistémico). La cifra de 200 000 la afirma la autora sin base propia ni cita en esa frase (p. 41): no es una estimación independiente y no sube A-213. No se hallan en el texto menciones a 1937 ni a la Ley 169-14 (grep). Hay además pasajes sobre bateyes y desnutrición crónica (p. 54), sobre la asociación mutual de trabajadores haitianos AMUTRABA/MOSCTHA (p. 60) y el testimonio de un tesorero de Reconoci.do en un batey de Monte Plata sobre su padre fallecido (p. 71); se leyeron solo en parte. Nombra a los afectados 'dominicanos negros de ascendencia haitiana' y recoge que MUDHA dice que 'dominico-haitiano' no existe como categoría legal (p. 43). Resuelve en parte la laguna de voces de M16 (A-217).",
+   "titulo": "Muertos civiles: Duelo por las víctimas del racismo en la República Dominicana (Estudios Sociales, año 55, vol. XLV, n.º 167, enero-junio 2023, pp. 39-78)",
+   "autor": "Estrella, Amarilys",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/1081/1028/2101",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico en revista dominicana de ciencias sociales, basado en dos años de etnografía con el movimiento Reconoci.do, con testimonios seudonimizados y fuentes citadas; toma partido explícito por el movimiento.",
+   "proveniencia": "Amarilys Estrella, antropóloga dominicana (Rice University, Department of Anthropology), publica en Estudios Sociales (Centro Bonó, Santo Domingo) una versión traducida (nota 'N. de la T.', p. 42) de su investigación sobre el movimiento Reconoci.do, fundado en 2010 por jóvenes dominicanos negros de ascendencia haitiana. Se apoya en observación participante y entrevistas (dos años) y en la teoría del wake work de Christina Sharpe. Es una voz de las personas afectadas por la desnacionalización, que la crítica de completitud echaba en falta en M16; adopta el vocabulario de los activistas ('desnacionalizó', 'muerte civil', 'genocidio civil').",
+   "extractos": [
+    {
+     "ubicacion": "p. 41, Introducción",
+     "cita_original": "En 2013, el Tribunal Constitucional de la República Dominicana desnacionalizó a 200 000 dominicanos de ascendencia haitiana, quedando así apátridas cuatro generaciones de personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213",
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "p. 43 (sobre la denominación 'dominicanos negros de ascendencia haitiana')",
+     "cita_original": "los líderes de las distintas organizaciones que defienden sus derechos han hecho explícito que de este modo se les identificaba mejor",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "p. 45",
+     "cita_original": "En cambio, les entregaban un certificado de papel rosa que etiquetaba al niño como extranjero.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "p. 46",
+     "cita_original": "Reconoci.do a menudo utilizaba el término muerte civil para describir la forma en que el gobierno dominicano los había convertido en apátridas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "p. 46 (testimonio de una líder del movimiento, entre comillas angulares en el original)",
+     "cita_original": "nos ha convertido en zombis como los de [la serie de televisión de AMC] The Walking Dead, que no existen para el sistema educativo, el sistema de salud o la economía formal",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-215",
+    "A-217"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://jce.gob.do/Registro-Civil/Auditoria-Consulta-Registros-Ley-169-14-TC0168-13"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "CONTEO PROPIO (pdftotext -raw sobre el PDF; no es cifra publicada por la JCE): 53.822 filas con estatus (27.042 'Autorizado' y 26.780 'Transcripción'; el primer barrido contó 53.845 en el otro PDF por otro método: diferencia de 23, sin explicar). En 39.299 filas (73,0 %) figura 'Haití' como nacionalidad de al menos uno de los padres: 26.039 con ambos padres 'Haití', 12.014 con un padre 'Haití' y el otro 'No Especificada', 908 con una sola celda 'Haití' y 338 con 'Haití' y otra nacionalidad. De las 53.815 filas con año legible, 39.298 son 'Haití' y el año de inscripción va de 1923 a 2013 (1970-1999: 32.735 filas, 60,8 %). Esa proporción (73 %) es superior a la que dio la JCE en prensa (68,33 % en El Día 2015, M16-N39; 68,45 % en CIDH 2015 según M16-N154) y a la de 2013 (36.326 de ascendencia haitiana, HaïtiLibre): la diferencia no se explica con los datos abiertos [POR VERIFICAR: el significado de la columna 'Ano' y si los porcentajes públicos usan otro denominador]. El PDF no clasifica irregularidad: solo 'Autorizado' y 'Transcripción'. Sirve para A-214 porque muestra que la escala de la lista nominal (unas 53.800 filas) coincide con la de la cifra de 53.843-53.847 del levantamiento de 2013 (todas las nacionalidades) y no con una cifra de 'padres haitianos' de 24.392.",
+   "titulo": "Listado por Municipio (Auditoría al Registro Civil 1929-2007; AuditoriaRC_Municipio.pdf, 2.071 páginas, impreso el 24-VI-2015)",
+   "autor": "Junta Central Electoral (JCE) de la República Dominicana",
+   "anio": "2015",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/web/pdf/AuditoriaRC_Municipio.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Listado oficial nominal de la propia JCE con columnas de nacionalidad del padre y de la madre, pero sin metodología, sin totales y con celdas vacías o 'No Especificada'; las cifras que se derivan son conteos míos.",
+   "proveniencia": "Publicado por la JCE en su página 'Auditoría - Consulta Registros Ley 169-14 / TC0168-13' para que cada inscrito consulte su situación; el pie de cada página dice 'miércoles, 24 de junio de 2015'. Es el producto nominal de la auditoría que ordenó el punto quinto de TC/0168/13 (resultados presentados el 26-V-2015 según CIDH 2015). Lo escribe el Estado dominicano, parte del conflicto, a través de la JCE que presidía Roberto Rosario. A diferencia del PDF 'Autorizados_Transcritos' ya registrado (M16-N201, sin nacionalidad), este sí trae la nacionalidad de los padres. No se copian nombres de personas en este registro.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, encabezado de columnas",
+     "cita_original": "Listado por Municipio Inscrito Evento de Nacimiento Estatus Libro Ano Folio Acta Nac. Padre Nac. Madre",
+     "traduccion": "Columnas: inscrito, evento de nacimiento, estatus, libro, año, folio, acta, nacionalidad del padre y de la madre.",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "pie de la p. 1",
+     "cita_original": "miércoles, 24 de junio de 2015 Page 1 of 2071",
+     "traduccion": "Fecha de impresión y extensión del listado (2.071 páginas).",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214",
+    "A-218"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://jce.gob.do/Registro-Civil/Auditoria-Consulta-Registros-Ley-169-14-TC0168-13"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "CONTEO PROPIO: 39.299 líneas con 'Haití' (idéntico al del listado por municipio), lo que corrobora que ambos PDF contienen las mismas filas. El PDF mide 10,6 MB. Las dos secciones del documento son 'Autorizado' y 'Transcripción'; no hay sección de 'en investigación', 'reconstrucción' ni 'nulidad', que la prensa incluyó en los 60.089 hallazgos (27.510 + 25.378 + 4.391 + 2.678 + 132, Diario Libre/El Día 2015): la lista nominal pública cubre solo los 53,9 mil autorizados y transcritos. No se copian nombres.",
+   "titulo": "Listado por Estatus (Auditoría al Registro Civil 1929-2007; AuditoriaRC_Estatus.pdf, 1.994 páginas, impreso el 24-VI-2015)",
+   "autor": "Junta Central Electoral (JCE) de la República Dominicana",
+   "anio": "2015",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/web/pdf/AuditoriaRC_Estatus.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Mismo contenido nominal que el listado por municipio, ordenado por estatus; sin metodología ni totales.",
+   "proveniencia": "Segundo listado de la misma página de la JCE (ver 'Listado por Municipio'): ordena las mismas filas en dos bloques, 'Autorizado' y 'Transcripción', e indica el municipio en cada fila. Producto de la auditoría exigida por TC/0168/13; el pie de página dice 'miércoles, 24 de junio de 2015' y 1.994 páginas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, encabezado de columnas",
+     "cita_original": "Listado por Estatus Inscrito Evento de Nacimiento Municipio Ofi. Libro Ano Folio Acta Nac. Padre Nac. Madre",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "pie de la p. 1",
+     "cita_original": "miércoles, 24 de junio de 2015 Page 1 of 1994",
+     "traduccion": "Fecha de impresión y extensión del listado (1.994 páginas).",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-214",
+    "A-218"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://jce.gob.do/Registro-Civil/Auditoria-Consulta-Registros-Ley-169-14-TC0168-13"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Muestra que, además de las listas 'autorizado' y 'transcripción', la JCE llevó a tribunales un número pequeño de actas (los 132 casos 'a remitir a tribunales para nulidad' que citó la prensa de 2015; cifra no verificada contra este PDF). No se contó el total de filas [POR VERIFICAR]. Aporta el formato de las demandas, no una cifra.",
+   "titulo": "Estatus de las demandas en nulidad de actas, conforme la Ley 169-2014 (EstatusDemandasNulidadActasLey169-2014.pdf)",
+   "autor": "Junta Central Electoral (JCE) de la República Dominicana, Comisión de Oficialías",
+   "anio": "2015",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://jce.gob.do/web/pdf/EstatusDemandasNulidadActasLey169-2014.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tabla oficial de la JCE sobre litigios de nulidad de actas; se leyó el encabezado y varias filas, no se tabuló completa y no tiene fecha de corte legible.",
+   "proveniencia": "Documento de la misma página de la JCE que recoge, acta por acta, las demandas de nulidad instadas por la Comisión de Oficialías contra inscripciones con irregularidades, con columnas de oficialía, libro, nacionalidad del padre y de la madre, documento aportado, abogado asignado y estatus (por ejemplo, notificada, audiencia fijada, en estado de fallo). Contiene al menos una fila con 'fallo' fechado en julio de 2015, por lo que es posterior a esa fecha. No se copian nombres.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, título",
+     "cita_original": "ESTATUS DE LAS DEMANDAS EN NULIDAD DE ACTAS, CONFORME LA LEY 169-2014.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-218"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://cdn.com.do/nacionales/jce-cifra-en-53-843-los-hijos-de-extranjeros-en-rd/"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "CORRIGE A-214 (junto con M16-N70 HaïtiLibre): la cifra total es 53.843 aquí y 53.847 en HaïtiLibre (M16-N70); 29.455 es el número de inscritos conformes a la norma de entonces (55 %, según la nota); 53.847 − 29.455 = 24.392 (53.843 − 29.455 = 24.388), de modo que 24.392 es el total de irregulares de todas las nacionalidades y NO la cifra de padres haitianos. La nota atribuye 13.672 a 'hijos de haitianos' sin decir 'irregulares'; HaïtiLibre sí lo hace (13.672 irregulares de un total de 36.326 de ascendencia haitiana, con suma interna de 35 de diferencia). El primer párrafo de la nota es ambiguo: el 'levantamiento' fue un inventario de ocho días, no la auditoría (véase Diario Libre 1-XI-2013 y El Día 12-XI-2013). No se halló el comunicado de la JCE ni su versión en el sitio institucional [POR VERIFICAR].",
+   "titulo": "JCE cifra en 53, 843 los hijos de extranjeros en RD (CDN, 7-XI-2013; copia de Wayback Machine del 7-XII-2021)",
+   "autor": "CDN, El Canal de Noticias de los Dominicanos (redacción; rueda de prensa de Roberto Rosario, presidente de la JCE)",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://web.archive.org/web/20211207095211/https://cdn.com.do/nacionales/jce-cifra-en-53-843-los-hijos-de-extranjeros-en-rd/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica de un canal dominicano de la rueda de prensa del 7-XI-2013 que transmite las cifras del presidente de la JCE; es de segunda mano, breve y deja ambigua la categoría de los 13.672.",
+   "proveniencia": "Nota fechada el 7 de noviembre de 2013 (jueves) sobre la rueda de prensa en que Roberto Rosario presentó el resultado del 'levantamiento' (inventario) de los libros de nacimiento 1929-2007 ordenado tras TC/0168/13. La URL original de CDN devolvió 403 en la ronda 1; esta es la copia de archivo. La JCE hablaba en defensa de su gestión: contrapone la cifra de 53.843 a las de 'cientos de miles' de los críticos.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "La Junta Central Electoral (JCE) informó este jueves que el levantamiento de Registro Civil arrojó que en el país hay 53 mil 843 personas hijos de extranjeros, dentro de los cuales 13 mil 672 son hijos de haitianos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "de esos 53 mil 843 extranjeros inscritos en el Registro Civil, 29 mil 455 fueron registrados conforme a la normativa vigente al momento de su inscripción",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "el levantamiento, que fue realizado en ocho días, se hizo sobre las bases del Censo de Población de la República Dominicana del año 2010",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-214"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Aclara que el 'levantamiento' de noviembre de 2013 fue un inventario previo a la auditoría; por eso las cifras de 2013 (53.843-53.847) y las de 2015 (60.089 hallazgos; 54.307 en el Grupo A según el Departamento de Estado de EE. UU.) no son comparables sin más. Un diario con representante en la veeduría no es testigo neutral; el texto no da cifras.",
+   "titulo": "Comisión de Veeduría inició supervisión de inventario de hijos de extranjeros (Diario Libre, 1-XI-2013)",
+   "autor": "Diario Libre (redacción)",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/actualidad/comisin-de-veedura-inici-supervisin-de-inventario-de-hijos-de-extranjeros-FMDL409286",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica de una visita de supervisión; el diario participaba en la Comisión de Veeduría (su director la presidía), por lo que es testigo y parte.",
+   "proveniencia": "Nota del 1-XI-2013 sobre la primera visita de la Comisión de Veeduría a las oficialías donde la JCE hacía el levantamiento de los libros de nacimiento 1929-2007. Describe el procedimiento (etiquetado de cada hoja con hijo de extranjero y formulario para digitar) y los plazos. El texto señala que el presidente de la comitiva era el director del propio Diario Libre (Adriano Miguel Tejada).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "el proceso de levantamiento de los libros de actas de nacimiento para elaborar el inventario de hijos de extranjeros inscritos desde 1929 hasta el 2007",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "Para revisar los libros, la Junta Central Electoral dispone de 700 empleados quienes tienen un plazo de 10 días para entregar el informe a lo interno de la institución.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-214"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Con CDN (7-XI-2013) y Diario Libre (1-XI-2013) permite fechar el proceso: inventario (31-X al 7-XI-2013) → cifras de 53.8 mil → auditoría (plazo de un año) → presentación del 26-V-2015. Sesgo: el coordinador defiende la auditoría. Discrepancia menor con CDN: aquí la clasificación de 29.455 'conformes' ya figuraba en la rueda de prensa del 7-XI, aunque el coordinador dice que la calificación caso a caso vendría después.",
+   "titulo": "JCE se propone sanear Registro Civil (El Día, 12-XI-2013)",
+   "autor": "El Día (redacción; declaraciones de César Féliz Féliz, coordinador de la Comisión de Oficialías, y de Roberto Rosario, presidente de la JCE)",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/jce-se-propone-sanear-registro-civil/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Prensa que reproduce lo dicho por dos miembros de la JCE cinco días después de la rueda de prensa del 7-XI; no contiene cifras pero fija la distinción entre inventario y auditoría.",
+   "proveniencia": "Nota del 12-XI-2013 sobre un acto interno de la JCE en el que Féliz Féliz explicó que el Consejo Nacional de Migración dio un año para la auditoría y que el 'inventario' solo había determinado la nacionalidad de los padres; Rosario criticó a los sectores que no se sumaron a la veeduría. Voz del organismo ejecutor de la sentencia.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 8-9",
+     "cita_original": "Ahora se procederá a calificar cada caso, porque lo que se hizo en principio fue determinar la nacionalidad de los padres de los declarados. Mientras que la auditoría va a determinar realmente qué se hizo en cada folio.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "Explicó que el Consejo de Migración otorgó un año a la Junta para que realice la auditoría",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-214"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-214"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://www.one.gob.do/media/rmfhr5tj/cuadro-12-volumen-iii.xlsx"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "RESUELVE M16-N143 (cuadro 12, fallo-fetch 403 en la ronda 1) con una copia de archivo de la propia ONE: las cifras de A-226 (34 / 26 / 19 / 8 / 7 / 4 por ciento) quedan confirmadas con fuente primaria (negra 7,45 % se redondea a 7). Precisión importante: la ONE no titula el cuadro 'autoidentificación' sino 'percepción del informante'; la base es 8.616.295 mayores de 12 años; no hay categoría 'taíno'. La suma de las diez categorías es 8.616.295 y coincide con el total. Frontera: las cinco provincias limítrofes tienen la proporción de 'negra o negro' más alta que la media nacional (11,8 a 19,5 % frente a 7,45 %), voz estadística de los rayanos, no un testimonio. Hecho / interpretación: el cuadro no dice qué significa 'indio' (A-226 interpretación aparte). No incluye el criterio del censista; ver boleta.",
+   "titulo": "X Censo Nacional de Población y Vivienda 2022, Volumen III, Cuadro 12: población de 12 años y más por percepción del informante sobre facciones, color de piel y otras características culturales (cuadro-12-volumen-iii.xlsx; copia de Wayback Machine)",
+   "autor": "Oficina Nacional de Estadística (ONE), República Dominicana",
+   "anio": "2024",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20251210015857id_/https://www.one.gob.do/media/rmfhr5tj/cuadro-12-volumen-iii.xlsx",
+   "verificacion": "descargada-y-leida",
+   "formato": "xml",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cuadro oficial de la ONE (productor del censo) con cifras absolutas por provincia y edad que suman exactamente el total; se leyó una copia de archivo porque one.gob.do devuelve 403 (Cloudflare) y no se saltó el reto.",
+   "proveniencia": "Hoja de cálculo del Volumen III (características demográficas básicas, 30-IX-2024) del X Censo 2022 que la ONE publica en su sitio; capturada por Internet Archive el 10-XII-2025. El título del cuadro habla de 'percepción del informante acerca de las facciones, color de piel y otras características culturales de los miembros del hogar' y la boleta pregunta '¿Se considera (NOMBRE) una persona...?': es la respuesta registrada en el hogar, no un autorregistro individual verificado. Cobertura: población de 12 años y más (8.616.295). Producida por el Estado dominicano; la pregunta se incluyó por primera vez desde 1960.",
+   "extractos": [
+    {
+     "ubicacion": "hoja 'Cuadro 12', celda A2 (título)",
+     "cita_original": "REPÚBLICA DOMINICANA: Población de 12 años y más, por percepción del informante acerca de las facciones, color de piel y otras características culturales de los miembros del hogar, según región, provincia y grupos de edades",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "hoja 'Cuadro 12', fila 5 ('Total')",
+     "cita_original": "Total 8616295 | Negra o negro 642018 | Morena o moreno 2237370 | Mestiza o mestizo 665387 | Mulata o mulato 330207 | India o indio 2946377 | Asiática o asiático 28343 | Blanca o blanco 1611752 | Otro 31802 | No sabe o no responde 123039",
+     "traduccion": "Porcentajes calculados por mí sobre 8.616.295: india 34,2; morena 26,0; blanca 18,7; mestiza 7,7; negra 7,45; mulata 3,8; asiática 0,3; otro 0,4; no sabe/no responde 1,4. Las seis categorías de A-226 coinciden.",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "hoja 'Cuadro 12', fila 642 (provincia Pedernales)",
+     "cita_original": "Pedernales 25381 | Negra 4950 | Morena 6947 | Mestiza 1122 | Mulata 1079 | India 6913 | Asiática 92 | Blanca 3475 | Otro 117 | NS/NR 686",
+     "traduccion": "Negra 19,5 % en Pedernales; 17,2 % en Independencia (fila 621), 16,3 % en Monte Cristi (fila 409), 14,4 % en Elías Piña (fila 706; con 46,9 % moreno) y 11,8 % en Dajabón (fila 388), frente a 7,45 % en el total nacional.",
+     "afirmaciones": [
+      "A-226"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://www.one.gob.do/media/fdholyvz/boleta-censal-xcnpv.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "La redacción completa de la pregunta (con 'Las personas suelen definirse a sí mismas de acuerdo con sus facciones...') está en M16-N178 (Sosa D'Meza, Acento) porque en este PDF esa frase sale ilegible. La pregunta es '¿Se considera (NOMBRE)...?' formulada sobre cada persona del hogar: puede responder otro miembro (ver título del cuadro 12: 'percepción del informante'). Complementa M16-N143.",
+   "titulo": "X Censo Nacional de Población y Vivienda 2022: boleta censal (boleta-censal-xcnpv.pdf; pregunta 64 sobre facciones, color de piel y características culturales; copia de Wayback Machine)",
+   "autor": "Oficina Nacional de Estadística (ONE), República Dominicana",
+   "anio": "2022",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20260103083301id_/https://www.one.gob.do/media/fdholyvz/boleta-censal-xcnpv.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el cuestionario oficial; la capa de texto del PDF está parcialmente corrupta (columnas mezcladas y caracteres codificados), por lo que se leyó solo la parte legible de la pregunta.",
+   "proveniencia": "Cuestionario del X Censo (levantado en 2022 y presentado por la ONE en 2023-2024); la pregunta 64 pregunta por cada persona del hogar. Copia de archivo del PDF que la ONE tiene en su sitio (403 desde curl). Siete páginas.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 6, pregunta 64 (parte legible)",
+     "cita_original": "facciones, color de piel y otras características culturales. Partiendo de estos términos...",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 6, pregunta 64",
+     "cita_original": "¿Se considera (NOMBRE) una persona...",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 6, opciones de respuesta con su código",
+     "cita_original": "Negra o negro? 1 Asiática o asiático? 6 Blanca o blanco? 7 Morena o moreno? 2 Mulata o mulato? 4 India o indio? 5 Mestiza o mestizo? 3 Otro? 8 No sabe o no responde? 9",
+     "traduccion": "Códigos: 1 negra/negro, 2 morena/moreno, 3 mestiza/mestizo, 4 mulata/mulato, 5 india/indio, 6 asiática/asiático, 7 blanca/blanco, 8 otro, 9 no sabe o no responde (el orden en el PDF sale desordenado por el diseño de columnas).",
+     "afirmaciones": [
+      "A-226"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://www.one.gob.do/publicaciones/2024/informe-caracteristicas-demograficas-basicas-del-x-censo-nacional-de-poblacion-y-vivienda-2022/"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "RESUELVE LA LOCALIZACIÓN (no el contenido) de M16-N61/N143: el Volumen III es el que contiene el cuadro 12 (ver entrada del xlsx). El ISBN 978-9945-508-17-8 que el crítico pedía aparece en esta ficha; la búsqueda del ISBN lo muestra compartido por otras fichas de la serie del censo. El informe se mantiene [POR VERIFICAR] hasta abrir el PDF.",
+   "titulo": "Informe Características Demográficas Básicas del X Censo Nacional de Población y Vivienda 2022 (Volumen III), ficha del catálogo de la ONE (copia de Wayback Machine)",
+   "autor": "Oficina Nacional de Estadística (ONE), República Dominicana",
+   "anio": "2024",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20260115203450/https://www.one.gob.do/publicaciones/2024/informe-caracteristicas-demograficas-basicas-del-x-censo-nacional-de-poblacion-y-vivienda-2022/",
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ficha editorial oficial que confirma la existencia, la fecha, el ISBN y la extensión del volumen; el PDF no se obtuvo (403 en one.gob.do y copia de archivo no disponible).",
+   "proveniencia": "Página de catálogo de la ONE para el Volumen III del X Censo. Enlaza el PDF 'informe-características-demograficas-xcnpv-final.pdf' (/media/2nblpt3v/), cuyo acceso directo devuelve el reto de verificación de Cloudflare (no se eludió) y que no se halló en Internet Archive (404). No se leyó el texto del informe.",
+   "extractos": [
+    {
+     "ubicacion": "ficha, metadatos",
+     "cita_original": "Publicado el: 30 de septiembre, 2024",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226",
+      "A-261"
+     ]
+    },
+    {
+     "ubicacion": "ficha, 'Detalles Físicos'",
+     "cita_original": "729 páginas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226",
+      "A-261"
+     ]
+    },
+    {
+     "ubicacion": "ficha, 'Código'",
+     "cita_original": "ISBN: 978-9945-508-17-8",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226",
+      "A-261"
+     ]
+    },
+    {
+     "ubicacion": "ficha, '¿De qué trata?'",
+     "cita_original": "El presente informe correspondiente al Volumen III sobre las Características demográficas básicas de la población.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226",
+      "A-261"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226",
+    "A-261"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://www.one.gob.do/publicaciones/2024/informe-general-del-x-censo-nacional-de-poblacion-y-vivienda-2022/",
+    "https://web.archive.org/web/2025id_/https://www.one.gob.do/media/xebmyq12/informe-general-xcnpv.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Corresponde a M16-N61 (informe general, fallo-fetch 403 en la ronda 1): se resuelve la localización, no el contenido. Sirve para A-261 solo como localización; la población total definitiva (Wikipedia, terciaria: 10.771.504) sigue sin confirmarse en la ONE; el total preliminar de 10.760.028 está en M16-N142.",
+   "titulo": "Informe general del X Censo Nacional de Población y Vivienda 2022, ficha del catálogo de la ONE (copia de Wayback Machine)",
+   "autor": "Oficina Nacional de Estadística (ONE), República Dominicana",
+   "anio": "2024",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20251118201718/https://www.one.gob.do/publicaciones/2024/informe-general-del-x-censo-nacional-de-poblacion-y-vivienda-2022/",
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ficha oficial con fecha y extensión; la copia de archivo del PDF está truncada a 5.242.880 bytes y no se puede abrir, por lo que no se leyó el informe.",
+   "proveniencia": "Catálogo de la ONE: informe general del X Censo (27-VI-2024, 641 páginas). El PDF (/media/xebmyq12/informe-general-xcnpv.pdf) devuelve 403 en one.gob.do; Internet Archive guarda solo los primeros 5 MB, insuficientes para reconstruir el archivo.",
+   "extractos": [
+    {
+     "ubicacion": "ficha, metadatos",
+     "cita_original": "Publicado el: 27 de junio, 2024",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-261"
+     ]
+    },
+    {
+     "ubicacion": "ficha, 'Detalles Físicos'",
+     "cita_original": "641 páginas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-261"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-261"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "NO RESUELVE la laguna de A-226 sobre la eliminación del campo 'color' en 2014: el artículo confirma el campo 'color de ojos y piel' de la cédula de 1932 y un nuevo formato en 2014, pero no dice que se quitara el color ni cita resolución. La búsqueda de la resolución de la JCE (varios operadores; El Caribe bloqueado) no dio el texto; sigue [POR VERIFICAR]. Wikipedia (terciaria, índice) dice 'race until 2014' sin referencia; la columna de Acento de 11-IV-2016 (F-0058) recoge la versión de un empleado de la JCE.",
+   "titulo": "La cédula, su historia y el salto que da en 2026 (Acento, 2-I-2026)",
+   "autor": "Sosa, José Rafael (Acento)",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/actualidad/la-cedula-su-historia-y-el-salto-que-da-en-2026-9599356.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de divulgación sobre la historia de la cédula con errores internos (fecha '18 de diciembre de 2026' en un texto del 2-I-2026) y sin citar la resolución de 2014.",
+   "proveniencia": "José Rafael Sosa escribe en Acento, a partir de la presentación de la nueva cédula por la JCE (Román Jáquez Liranzo), una historia del documento desde 1931-1932 (ley 247). Divulgación con datos tomados del Archivo General de la Nación y de la JCE.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'La historia de la cédula'",
+     "cita_original": "La cédula incluía un número único de identificación —el núm. 1 correspondió a Trujillo—, número de serie, fotografía del titular, huellas dactilares estampadas manualmente, nombre y apellidos, lugar y fecha de nacimiento, nacionalidad, estado civil, ocupación, dirección, color de ojos y piel, señas particulares, nombres de los padres",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226"
+     ]
+    },
+    {
+     "ubicacion": "sección 'La cédula amarilla y la de 2014'",
+     "cita_original": "El 15 de enero de 2014, la JCE anunció un nuevo formato con 23 características de seguridad destinadas a prevenir fraudes y falsificaciones.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-226"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-226"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz (mediada) de comerciantes y autoridades fronterizas en 2011, antes de las medidas de 2022-2025; no habla de mujeres ni de cifras de género. Sirve de contraste con la nota del MEPyD (2025) y con Del Rosario Santana (2008). La frase 'las áreas periféricas' se refiere al traslado por el cólera de 2010-2011 [leído solo en el informe].",
+   "titulo": "Informe de gestión n.º 03 de la Comisión Permanente de Asuntos Fronterizos sobre el descenso al mercado de Dajabón (Senado de la República Dominicana, 30-III-2011)",
+   "autor": "Senado de la República Dominicana, Comisión Permanente de Asuntos Fronterizos (presidenta: Rosa Sonia Mateo Espinosa)",
+   "anio": "2011",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/server/api/core/bitstreams/d7a7cea9-d199-4d04-93e8-7a9786d6df86/content",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial breve (una página y anexos de fotos) que recoge lo que oyeron los senadores; no da datos propios ni metodología.",
+   "proveniencia": "Informe de una subcomisión del Senado que visitó el mercado de Dajabón con la gobernadora provincial, el alcalde, la Federación de Comerciantes de Dajabón, la Asociación de Transbordo de Mercancías y sociedad civil, en el marco del estudio del proyecto de ley que regula los mercados fronterizos (expediente 00141). Voz de los comerciantes fronterizos mediada por el Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, párr. 4",
+     "cita_original": "la economía de los municipios de la zona fronteriza depende en gran manera de los intercambios comerciales informales con los haitianos que cruzan la frontera en días predeterminados",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, párr. 5",
+     "cita_original": "Los comerciantes escuchados por la subcomisión solicitaron la realización de Vistas Públicas en tres de los principales mercados fronterizos, estos están ubicados en las provincias de Dajabón, Elías Piña y en el municipio de Jimaní, en la provincia Independencia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 2, párr. 2",
+     "cita_original": "gracias a la intervención del Ministerio de Salud Pública, cuando surgió la epidemia del cólera, el mercado de la provincia de Dajabón se trasladó a las áreas periféricas",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de las mujeres comerciantes del mercado binacional de Dajabón en 2008: 58 % de mujeres entre 1.015 vendedores (68 % de procedencia haitiana), por debajo del 'cerca del 80 %' que la prensa de 2025 atribuye al MEPyD para 2018; las cifras no son comparables (distinto año, muestra y definición) [POR VERIFICAR]. Los hombres dominicanos del Cibao controlan el mayoreo (31 % de los vendedores). El estudio da cuenta de maltrato y extorsión a las vendedoras (p. 69) y de la existencia de ASOMONEDA, que nace para enfrentar el maltrato de militares. Las referencias de página son del pie impreso (el número aparece al final de cada página en el PDF).",
+   "titulo": "La dinámica comercial entre República Dominicana y Haití en la Frontera Norte, Dajabón, y Nordeste, Wanament (Estudios Sociales, año 40, vol. XXXIX, n.º 146, julio-septiembre 2008, pp. 57-79)",
+   "autor": "Del Rosario Santana, Juan",
+   "anio": "2008",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/96/89/177",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio de campo (encuesta y conteo rápido a unos 1.015 vendedores) de una organización fronteriza dominicana, útil como línea de base; anterior en dos años a M16 y sin muestreo declarado.",
+   "proveniencia": "Investigación de la organización Solidaridad Fronteriza, en el marco del proyecto 'Nuevo Sujeto Fronterizo' (según la introducción del propio artículo),, con apoyo de la Comunidad de Madrid y Entre Culturas Fe y Alegría, publicada en Estudios Sociales (Centro Bonó). Describe el mercado binacional de Dajabón y el de Wanament (Ouanaminthe) con perfiles de vendedoras, compradoras, cargadores y otros actores.",
+   "extractos": [
+    {
+     "ubicacion": "p. 66",
+     "cita_original": "Las mujeres representan el 58% del total de vendedores del mercado tanto de nacionalidad dominicana como haitiana, según lo confirma la encuesta y el conteo rápido aplicado a unos 1,015 vendedoras/es de esta importante plaza comercial.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 66",
+     "cita_original": "las actividades más rentables y al mayoreo son realizadas por hombres, principalmente dominicanos provenientes de otras provincias del Cibao Central",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 69",
+     "cita_original": "Asociación de Mujeres la Nueva Esperanza de Dajabón (ASOMONEDA)",
+     "traduccion": "Asociación de compradoras dominicanas de ropa usada que nació 'para enfrentar el maltrato que recibían las mujeres por parte de los militares' (mismo pasaje).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 76, conclusiones generales",
+     "cita_original": "la mayor presencia es de mujeres vendedoras haitianas, las cuales son mayormente jefas de familia, con hijos, con nivel básico de escolaridad",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Resuelve la cifra 'cerca del 80 %' del crítico, pero en segunda mano: el informe del MEPyD de enero de 2025 no se localizó [POR VERIFICAR]. Incoherencias del texto: 2.400 + 620 = 3.020, no 3.100; 73,3 % haitianas + 36 % dominicanas suman 109 %. El gerente del mercado (Antonio Díaz) estima que 80 % de los comerciantes haitianos son mujeres. Las cifras de violencia proceden de un estudio de Oxfam de 2020 (no localizado). Aporta la voz de las vendedoras solo de forma indirecta.",
+   "titulo": "Cerca de 80% de vendedores en frontera con Haití son mujeres (elDinero, 8-III-2025)",
+   "autor": "De Jesús, Massiel (elDinero)",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldinero.com.do/316666/cerca-de-80-de-vendedores-en-frontera-con-haiti-son-mujeres/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Periodista económica que resume un informe del MEPyD sin citar su título oficial ni su URL; contiene incoherencias aritméticas internas.",
+   "proveniencia": "Reportaje de elDinero del 8-III-2025 que resume el informe 'Consultoría Unión Europea Zona Fronteriza', publicado por el Ministerio de Economía, Planificación y Desarrollo (MEPyD) en enero de 2025, con datos del Banco Central, ProDominicana y un estudio de Oxfam (2020).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "revela que las mujeres constituyen aproximadamente el 80% del perfil de los vendedores en estos mercados, aunque su actividad se concentra mayormente en ventas minoristas y ambulantes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre Dajabón",
+     "cita_original": "En 2018 se registraron cerca de 3,100 comerciantes en este mercado; de ellos, un impresionante 80% son mujeres (2,400 vendedoras frente a 620 hombres). Al analizar la nacionalidad, se concluye que el 73.3% son vendedoras haitianas y solo el 36% son dominicanas.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "sección de problemas detectados",
+     "cita_original": "agresiones (9% para haitianas y 11% para dominicanas), robos (34% para haitianas y 52% para dominicanas), cobros irregulares (25% para haitianas y 14% para dominicanas) y peleas (12% para haitianas y 6% para dominicanas)",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "La nota cita el 'artículo 78 del Decreto 613-11' del Reglamento de la Ley 285-04; el reglamento registrado en M16-N132 es el Decreto 631-11: posible errata de la nota [POR VERIFICAR]. Menciona el carné de habitante fronterizo no implantado.",
+   "titulo": "Gobierno impulsa proyecto de inversión pública para fortalecer los mercados fronterizos (Presidencia de la República Dominicana, 19-XI-2021; sobre el Monitor de la Frontera de noviembre de 2021)",
+   "autor": "Presidencia de la República Dominicana (nota de prensa; Dirección de Políticas de Desarrollo de la Zona Fronteriza, MEPyD)",
+   "anio": "2021",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://presidencia.gob.do/noticias/gobierno-impulsa-proyecto-de-inversion-publica-para-fortalecer-los-mercados-fronterizos",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota oficial que resume una publicación del MEPyD; informa del reconocimiento estatal de la vulnerabilidad de las vendedoras, no de los datos.",
+   "proveniencia": "Nota de la Presidencia sobre el Monitor de la Frontera n.º 11 (noviembre de 2021), 'Cambios en el perfil de los vendedores en mercados fronterizos 2010-2017', elaborado por la Dirección de Políticas de Desarrollo de la Zona Fronteriza del MEPyD. Voz estatal sobre las vendedoras.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "Así se reconoce el carácter de subsistencia de la actividad y la vulnerabilidad en que podrían estar operando los vendedores, en particular las mujeres.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "Cambios en el perfil de los vendedores en mercados fronterizos 2010-2017",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://mepyd.gob.do/publicaciones/monitor-de-la-frontera-noviembre-2021"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "No se pudo leer la proporción de mujeres: está en gráficos de imagen. La proporción de mujeres entre vendedores (80 % según el informe MEPyD 2025) no se verifica aquí. La muestra del Banco Central (425) es pequeña respecto del censo (4.025).",
+   "titulo": "Monitor de la Frontera, año 4, n.º 11, noviembre de 2021: Cambios en el perfil de los vendedores en mercados fronterizos 2010-2017",
+   "autor": "Ministerio de Economía, Planificación y Desarrollo (MEPyD), Dirección de Políticas de Desarrollo de la Zona Fronteriza (redacción: Vásquez, Mendoza y Paniagua)",
+   "anio": "2021",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mepyd.gob.do/download/4619/2021/340489/monitor-de-la-frontera-noviembre-2021.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Publicación oficial de nueve páginas cuyos resultados están en gráficos (imagen); solo se leyó la capa de texto (notas metodológicas y créditos).",
+   "proveniencia": "Boletín mensual del MEPyD que compara el perfil de los vendedores de mercados fronterizos con base en el censo del CEI-RD y la encuesta del Banco Central (años 2010 y 2017 según el título). Excluye Montecristi por falta de datos (nota 1). Sirve de fuente primaria de la nota de la Presidencia y de la cifra de mujeres vendedoras citada por la prensa.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2, nota 5",
+     "cita_original": "A grandes rasgos, el censo CEI-RD recolectó información de 4,025 vendedores, mientras que la muestra de la encuesta realizada por el BCRD fue de 425 vendedores.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, nota 1",
+     "cita_original": "En este informe no se presentan datos ni informaciones de los mercados ubicados en Montecristi, ya que la provincia no es recogida en ninguno de los levantamientos disponibles.",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de mujeres haitianas vendedoras en el mercado fronterizo de Comendador (cinco entrevistadas), no de dominicanas. Autora irlandesa-británica residente en Santo Domingo; se registra como dominicana por la institución y la comisión. Hay una versión extensa del estudio ('Fanm nan fwontyè, fanm toupatou', Petrozziello y Wooding, 2012) cuya URL de mouka-ht.aegir3.koumbit.net no resolvió y cuyo registro está en Princeton (digital-collections.princeton.edu) sin abrir [POR VERIFICAR].",
+   "titulo": "La lucha de las mujeres migrantes haitianas por la seguridad ciudadana (Migración y Desarrollo, vol. 10, n.º 18, 2012, pp. 41-65)",
+   "autor": "Wooding, Bridget (OBMICA, Santo Domingo)",
+   "anio": "2012",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.redalyc.org/pdf/660/66024502002.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado en una revista académica sobre un estudio de campo bien descrito (OBMICA, 2011) con entrevistas en creole; es de 2012 y se refiere al período posterior al terremoto de 2010 más que a la sentencia de 2013.",
+   "proveniencia": "Bridget Wooding (Observatorio de Migrantes del Caribe, OBMICA, Santo Domingo) resume la investigación comisionada por la ONG dominicana Colectiva Mujer y Salud (con apoyo de AECID y OIM) sobre la violencia contra las mujeres haitianas en Comendador (Elías Piña) y Belladère tras el terremoto. Combina entrevistas a actores clave, entrevistas a mujeres en creole y grupos focales. Es una voz mediada de mujeres comerciantes y trabajadoras domésticas de la frontera.",
+   "extractos": [
+    {
+     "ubicacion": "p. 48, metodología",
+     "cita_original": "18 entrevistas a profundidad, semiestructuradas, con mujeres y niñas haitianas con experiencia y/o conocimiento de VCM; 16 de estas entrevistas fueron realizadas en creole y dos en español",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 48, metodología",
+     "cita_original": "Ocho de las mujeres entrevistadas son trabajadoras domésticas, cinco son vendedoras en el mercado, cuatro son hijas de crianza y una es ama de casa/usuaria del hospital",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 54, nichos laborales femeninos",
+     "cita_original": "considerando su pobreza, el color de su piel y su estatus migratorio desfavorable",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de las rayanas: lo que se dice de ellas procede de una entrevista a Marmolejos (Teleantillas, nota 9) y de la lectura de García Peña; no hay trabajo de campo propio. Define 'rayano' como habitante de la franja fronteriza dominicana, matiz del glosario ('Habitante de la zona fronteriza'): aquí 'rayana' designa a una dominicana de la zona de Bahoruco (no un 'dominico-haitiano'). Autora de F-0082 (The Borders of Dominicanidad, ya registrado). El artículo no estudia la desnacionalización: se ata a A-217 solo por el vínculo conceptual con 'antihaitianismo'.",
+   "titulo": "Lo que dice la piel: consciencia rayana y solidaridad posterremoto 2010 (Estudios Sociales, año 51, vol. XLII, n.º 159, mayo-agosto 2019, pp. 91-115)",
+   "autor": "García Peña, Lorgia (Harvard University)",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/135/125/249",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado en revista dominicana de ciencias sociales, de una de las autoras del campo de estudios dominicanos; argumento teórico con base en entrevistas en video, no en trabajo de campo propio.",
+   "proveniencia": "Lorgia García Peña, historiadora dominicana en Harvard, teoriza la 'conciencia rayana' a partir de la historia de Sonia Marmolejos, una mujer del lado dominicano de Bahoruco que amamantó en 2010 a bebés haitianos heridos tras el terremoto, y de performances de David 'Karmadavis' Pérez y Rita Indiana. Recoge la voz de una rayana a través de una entrevista televisada (Teleantillas) y la lee como saber de frontera silenciado por el discurso estatal. Posición explícitamente crítica del antihaitianismo.",
+   "extractos": [
+    {
+     "ubicacion": "p. 92, párr. 1",
+     "cita_original": "Sonia Marmolejos, una rayana dominicana de la zona de Bahoruco, se convirtió en una celebridad mundial",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "p. 95",
+     "cita_original": "La episteme rayana —la manera de Marmolejos entender la maternidad y la comunidad— fue silenciada para dar paso a la producción de una narrativa internacional de reconciliación domínico-haitiana",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 96 (definición de 'conciencia rayana')",
+     "cita_original": "la multiplicidad de dicciones performativas que componen las fronteras transnacionales, intraétnicas y multilingüísticas de la dominicandidad",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-217"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://adn.celam.org/wp-content/uploads/2024/04/Comunicado-Dignidad-humana-y-deportaciones-pa-CELAM.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de residentes de bateyes mediada por la Iglesia: la redada del 15-III-2024 en El Seibo la denunció también el Servicio Jesuita a Refugiados y Migrantes (según una búsqueda; no abierta). No es el comunicado de la Conferencia del Episcopado Dominicano (CED) de octubre de 2024: ese texto sigue fallo-fetch (CELAM 410) y se conoce por El Día. Usa 'deportaciones' y pide detenerlas por la violencia en Haití; la cifra y el uso de 'Seguridad Nacional' los pone entre comillas.",
+   "titulo": "Dignidad Humana y Deportaciones (comunicado de sacerdotes, consagradas y agentes de pastoral, Santo Domingo, 15-IV-2024)",
+   "autor": "Sacerdotes, consagradas y agentes de pastoral de la República Dominicana (firman congregaciones e instituciones; los logotipos no son legibles en el PDF)",
+   "anio": "2024",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.scalabrinisaintcharles.org/images/news/comunicado-dignidad-humana.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comunicado público firmado por organizaciones religiosas; es testimonio de una postura y de un hecho (redada del 15-III-2024) que no se contrasta con una segunda fuente; la copia de CELAM devuelve 410 y la que se leyó está alojada en un sitio scalabriniano de Estados Unidos.",
+   "proveniencia": "Texto de una página fechado en Santo Domingo el 15 de abril de 2024 que habla 'en nombre de las familias, los trabajadores, los envejecientes, las mujeres embarazadas', cita los mensajes de los obispos de 2021 y 2022 y la Ley 169-14, y denuncia el operativo migratorio del 15 de marzo de 2024 en comunidades de El Seibo. Es una voz de la Iglesia de base que el crítico pedía y que M16 solo tenía a través del episcopado (N37, N63). La lista de firmantes está en imágenes; no se pudo transcribir.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, párr. 6",
+     "cita_original": "Gritos de indignación contra los operativos migratorios en nuestros bateyes, como el caso del 15 de marzo del 2024 a las 2 a.m. en las comunidades del Seibo (Villa Guerrero, Santa Lucia, Km 4 y Km 8). En donde hubo violencia física y psicológica contra niños, mujeres embarazadas y personas vulnerables.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223",
+      "A-224"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, párr. 6",
+     "cita_original": "Está claro que una docena de familias campesinas o de un barrio marginado de Santo Domingo no son quienes ponen en peligro la “Seguridad Nacional”, el hueco que causa mayor inseguridad en nuestra frontera es la Corrupción.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-225"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, último párr.",
+     "cita_original": "Las condiciones de total violencia e inseguridad de nuestros vecinos nos interpelan a ser compasivos y nos obligan a detener las deportaciones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-224",
+      "A-225"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-223",
+    "A-224",
+    "A-225"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://adn.celam.org/wp-content/uploads/2024/10/Comunicado-CED-politicas-migratorias.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "RESUELVE EN PARTE M16-N63 (comunicado CED de octubre de 2024, fallo-fetch 410): el texto se conoce solo por la crónica. Los obispos no cuestionan el derecho a regular ni usan 'limpieza étnica'; piden justicia y dignidad (posición intermedia entre A-224 y A-225). La fecha 8-X-2024 la deduzco de una búsqueda y del 'Publicado: 9/10/2024' de El Día [POR VERIFICAR contra el original]. El comunicado de julio de 2025 sigue en M16-N37.",
+   "titulo": "Iglesia católica pide deportaciones de haitianos sean con respeto y dignidad (El Día, 9-X-2024; comunicado del Consejo Permanente de la Conferencia del Episcopado Dominicano del 8-X-2024)",
+   "autor": "El Día (redacción), sobre el comunicado del Consejo Permanente de la Conferencia del Episcopado Dominicano (CED)",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/iglesia-catolica-pide-deportaciones-haiti-sean-con-respeto-y-dignidad/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica que cita extractos del comunicado de la CED; el documento original (CELAM) devuelve 410 y no se contrastó.",
+   "proveniencia": "Nota del 9-X-2024 (01:04) sobre el comunicado del Consejo Permanente de la CED, presidida por monseñor Héctor Rodríguez, emitido un día después del anuncio del plan de 10.000 deportaciones semanales. Recoge a la jerarquía católica, que reconoce el derecho de cada nación a aplicar su ley migratoria. El diario usa 'ilegales haitianos', término que no es el de la CED según la nota.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "la Conferencia del Episcopado Dominicano pidió a las autoridades que las deportaciones masivas de ilegales haitianos recién dispuestas se hagan desde la justicia y el respeto a la dignidad humana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223",
+      "A-224",
+      "A-225"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "la frontera entre ambos naciones no debe ser un escenario de corrupción, donde los llamados a custodiarla se conviertan en mercenarios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-225"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "Dijeron que la República Dominicana, como nación cristiana, debe evitar que se presenten situaciones dolorosas que afecten a los migrantes, como el trato injusto, las deportaciones arbitrarias y las separaciones familiares.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-224"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-223",
+    "A-224",
+    "A-225"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Complementa A-218 desde el lado de los afectados: el movimiento dice que el Grupo B (unos 8.000; la JCE tenía 8.975 identificados) tiene los documentos vencidos en 2022 [afirmación del movimiento, no verificada]. Los casos 'podrían alcanzar cientos y quizás miles' son una estimación del movimiento sin base publicada.",
+   "titulo": "Movimiento Reconoci.do denuncia detenciones ilegales de personas dominicanas de ascendencia haitiana (Acento, 16-VI-2022)",
+   "autor": "Acento (redacción; comunicado del movimiento Reconoci.do)",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/actualidad/movimiento-reconoci-do-denuncia-detenciones-ilegales-de-personas-dominicanas-de-ascendencia-haitiana-9073145.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reproduce una denuncia del propio movimiento sin verificación independiente en la nota; es la versión de los afectados.",
+   "proveniencia": "Nota de Acento (16-VI-2022) sobre un comunicado de Reconoci.do, el movimiento de jóvenes dominicanos negros de ascendencia haitiana, que denuncia detenciones arbitrarias entre el 29-V y el 5-VI-2022 por agentes de la Dirección General de Migración. Voz de las personas desnacionalizadas en la prensa dominicana.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 8 (cita del movimiento)",
+     "cita_original": "Es el propio Estado quien les ha marginado, les ha cerrado el acceso a tener documentación legal vigente, y luego les persigue y somete a detenciones arbitrarias y maltratos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "la totalidad de las aproximadamente 8 mil personas que entraron a un proceso de regularización migratoria como extranjeros nacidos en territorio dominicano para posteriormente optar por un proceso de naturalización, el llamado “grupo B”, tienen actualmente sus documentos vencidos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-218"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-217",
+    "A-218"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Primera voz campesina de la línea fronteriza en M16, aunque mediada por un columnista; es un solo caso (La Vigía, Dajabón) y no se verifica con otra fuente: [POR VERIFICAR] con el reportaje de El Caribe sobre las protestas de La Vigía (bloqueado por Cloudflare). Interpretación del autor: que el trazado 'por conveniencia' de los ejecutores despojó tierras. Hecho verificable pendiente: el trazado y el acuífero (caño).",
+   "titulo": "El muro fronterizo le debe a La Vigía (columna, El Día, 30-III-2026)",
+   "autor": "García, Luis (periodista, El Día)",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/el-muro-fronterizo-le-debe-a-la-vigia/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión de un autor que dice conocer la comunidad desde niño; los datos sobre pérdida de tierras son suyos y no se acompañan de fuente ni de cifra.",
+   "proveniencia": "Luis García escribe desde Dajabón sobre La Vigía, comunidad agrícola fundada con colonos japoneses en 1956 (según la columna), cuyos habitantes (los 'vigieros') protestaron tres veces desde 2025 por el estado de las vías tras las obras del muro. Es una voz local de campesinos fronterizos que no aparece en los informes oficiales.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "Una parte de los productores perdió hasta la mitad de sus pequeños predios, que promediaron alrededor de 15 tareas, debido a que, por conveniencia de los ejecutores de la obra, establecieron un trazado que generó muchas críticas en su momento.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6",
+     "cita_original": "decenas de pequeños productores agrícolas se quedaron con el sabor amargo de que las autoridades gubernamentales impusieron un trazado que les despojó de parte de sus terrenos cultivables",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-223"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://ign.gob.do/wp-content/uploads/2024/05/Revista-de-Historia-2022-No.-4.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "F-0256",
+   "modulos": [
+    "M08",
+    "M16"
+   ],
+   "notas": "RESUELVE F-0256 (portal de la Revista de Historia 2022, localizada-bloqueada) con una copia de archivo del n.º 4. Tres terminologías en un mismo volumen: Cassá usa 'integración de Santo Domingo al Estado haitiano' y 'régimen de ocupación' (p. 76); Guerrero 'gobierno haitiano' y 'separación dominicana' (el mismo vocabulario que el glosario); Núñez 'ocupación', 'proyecto de unificación', 'Estado negrocéntrico' (p. 243) y 'martirologio de los dominicanos' (p. 244), con una nota a pie contra Price-Mars ('superchería', p. 239). El presidente del IPGH-RD espera que las ponencias 'fundamenten la objetividad de la Historia dominicana' (p. 8). Sirve como voz de las variantes internas dominicanas (A-245: la tesis de la isla indivisible); es el contrapunto académico de F-0190 (El Día, actos de 2022). Pendiente leer completos Lora (p. 145), Raymundo González (p. 123), Reina Rosario (p. 89), Espinal, Ynfante y Tejeda. Los números de página son los del pie de cada página del PDF.",
+   "titulo": "Revista de Historia, año 4, n.º 4 (diciembre de 2022): La ocupación haitiana, 200 años después: mitos y realidades (XIII Congreso Dominicano de Historia, febrero de 2022)",
+   "autor": "Instituto Panamericano de Geografía e Historia, Sección Nacional de Dominicana (IPGH-RD) / Instituto Geográfico Nacional José Joaquín Hungría Morell; artículos de Cassá, Rosario, González, Lora, Guerrero, González Canalda, Núñez, Espinal, Ynfante, Tejeda y Dotel",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://web.archive.org/web/20250810030533id_/https://ign.gob.do/wp-content/uploads/2024/05/Revista-de-Historia-2022-No.-4.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Actas de un congreso de historiadores dominicanos con posiciones opuestas en un mismo volumen; no hay aparato editorial de revisión declarado (ISSN sin asignar en el PDF); se leyeron la presentación, la introducción y pasajes seleccionados de Cassá, Guerrero y Núñez.",
+   "proveniencia": "Volumen que recoge las diez ponencias del XIII Congreso Dominicano de Historia (febrero de 2022, bicentenario de 1822), organizado por el Museo Nacional de Historia y Geografía, la UASD, el IPGH-RD, el IGN, el MINERD, el Archivo General de la Nación y la Academia Dominicana de la Historia. Reúne la lectura estatal del archivo (Roberto Cassá, director del AGN), la crítica de las categorías (José G. Guerrero, director del Museo) y la tesis hispanista del 'proyecto de unificación' (Manuel Núñez). Copia de Internet Archive; la URL del IGN devuelve 404.",
+   "extractos": [
+    {
+     "ubicacion": "p. 7, Presentación (Bolívar Troncoso Morales, presidente del IPGH-RD)",
+     "cita_original": "Elaborar una revista con las exposiciones del XIII Congreso Dominicano de Historia, llevado a efecto en febrero de 2022, a propósito de los 200 años de la ocupación haitiana, con el título: “La ocupación haitiana de 1822: 200 años después, mitos y realidades”",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "p. 19 (Roberto Cassá, 'La integración de Santo Domingo al Estado haitiano')",
+     "cita_original": "El artículo 40 de la Constitución de la República de 1816 definía los límites del país en el océano, esto es, el conjunto de la isla.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "p. 75 (Cassá)",
+     "cita_original": "Es indiscutible que la abolición de la esclavitud conllevó beneficios sociales a los de abajo, sobre todo a los “libertos de la palma”",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 176 (José G. Guerrero, 'Gobierno haitiano y separación dominicana')",
+     "cita_original": "La historia dominico-haitiana es un combate. Pero el problema no es el combate, sino la historia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "p. 244 (Manuel Núñez, 'El proyecto de unificación de la isla')",
+     "cita_original": "El Imperio haitiano, impulsado por la dinámica expresión de sus objetivos raciales, nació para el dominio completo de la isla.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-245"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M13",
+    "M16"
+   ],
+   "notas": "Variante crítica interna con matices: Balcácer reconoce que algunos haitianos 'malinterpretaron' la revolución como derecho sobre toda la isla (versión suave de la tesis de la isla indivisible, A-245) y a la vez rechaza la lectura expansionista de la 'ocupación' como destino. Dice que Balaguer recogió 'de forma oportunista' la idea de la confederación. Sobre 1937 su estimación (rebaja a ~15.000 como mínimo aceptable) es cifra sin base declarada en la nota; va a M13 (cifras de 1937). Al ser periodismo en estilo indirecto, no se puede atribuir una cita literal a Balcácer.",
+   "titulo": "Una confederación entre Haití y República Dominicana fue una idea de Luperón, Betances, Martí y Américo Lugo (Acento, 20-X-2023; entrevista a Juan Daniel Balcácer en el programa ¿Y tú… qué dices? de AcentoTV)",
+   "autor": "Servicios de Acento.com.do (redacción), entrevista a Juan Daniel Balcácer (presidente de la Academia Dominicana de la Historia) por Fausto Rosario Adames",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/politica/una-confederacion-entre-haiti-y-republica-dominicana-fue-una-idea-de-luperon-betances-marti-y-americo-lugo-9258636.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen periodístico en estilo indirecto de una entrevista televisada; las ideas se atribuyen a Balcácer, pero las frases no son citas literales suyas.",
+   "proveniencia": "Acento resume una entrevista a Juan Daniel Balcácer, entonces presidente de la Academia Dominicana de la Historia y exdirector de Efemérides Patrias, en octubre de 2023, un mes después del cierre de la frontera por el canal del río Masacre. Voz de la historiografía oficial-institucional que se aparta de la narrativa de la 'amenaza' y propone una agenda insular de cooperación.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 (estilo indirecto)",
+     "cita_original": "Desde principios del siglo XX hubo pensadores, intelectuales y hombres públicos dominicanos que propusieron una confederación entre la República de Haití y la República Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "Para Juan Daniel Balcácer se necesita una agenda insular de cooperación y desarrollo, y de mutua recepción entre República Dominicana y Haití.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "párr. 6 (estilo indirecto)",
+     "cita_original": "el hecho de los haitianos haber hecho la primera revolución antiesclavista en el mundo le confirió una categoría que ellos malinterpretaron como un poder sobre el control total de la isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4 (estilo indirecto)",
+     "cita_original": "la matanza de haitianos de 1937, que en número se ha magnificado, porque no fueron 30 mil ni 20 mil, pero reconoció que aún fueran 15 mil los haitianos asesinados, fue una cruenta y lamentable actuación del régimen dominicano",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-245"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz interna que desactiva la tesis de un antihaitianismo fundacional: lo atribuye a Santana y no a Duarte; mantiene 'separación' (el término del Manifiesto de 1844, en el glosario). Interpretación del entrevistado, no de la nota. Importa para A-245/M09.",
+   "titulo": "La independencia fue un proceso desde 1821 hasta 1873, dice Juan Daniel Balcácer (Acento, 17-II-2026)",
+   "autor": "Servicios de Acento.com.do (redacción), entrevista a Juan Daniel Balcácer (pasado presidente de la Academia Dominicana de la Historia)",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/podcast/la-independencia-fue-un-proceso-desde-1821-hasta-1873-dice-juan-daniel-balcacer-9624135.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de una entrevista en AcentoTV en estilo indirecto; sin citas literales ni documentos.",
+   "proveniencia": "Resumen de otra entrevista de Fausto Rosario Adames a Balcácer, ya como pasado presidente de la Academia, en vísperas del 27 de febrero de 2026, sobre qué fue la independencia dominicana y el papel de Duarte. Relevante para el debate del bicentenario de 1822 y para la lectura del 27 de febrero de 1844.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2 (estilo indirecto)",
+     "cita_original": "la independencia dominicana fue un proceso que comenzó en 1821 con la independencia de Núñez de Cáceres, siguió con la proclamación de 1844, luego con la Restauración de la República entre 1863 y 1865",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    },
+    {
+     "ubicacion": "párr. 7 (estilo indirecto)",
+     "cita_original": "Duarte quería la separación, pero no odiaba a los haitianos, como Pedro Santana, que tenía su hato, era xenófobo y odiaba a los haitianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-245"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-245"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Sin A-### de M16 exacta: apoya, como contexto, que los 'apellidos raros' que según Estrella (2023) servían para negar actas a hijos de haitianos coinciden con apellidos de familias dominicanas históricas; la lista de apellidos citada es de segunda mano [POR VERIFICAR contra el original de 1999]. Moya Pons es el mismo historiador de F-0058 y de M16-N50.",
+   "titulo": "Apellidos dominicanos de origen haitiano (Acento, 3-III-2023; resume Frank Moya Pons, 'Raíces haitianas en Santo Domingo', Rumbo, enero de 1999)",
+   "autor": "Servicios de Acento.com.do (redacción), sobre un artículo de Moya Pons, Frank",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/apellidos-dominicanos-de-origen-haitiano-9170172.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen de Acento de un artículo de 1999 de Moya Pons con una cita literal; el original en Rumbo no se vio.",
+   "proveniencia": "Acento recupera en 2023 un artículo del historiador Frank Moya Pons sobre apellidos haitianos dominicanizados (Vincent-Benzán, Lebrun-Lebrón, etc.), tras otro texto sobre apellidos canarios. Moya Pons es la voz más citada de la historiografía dominicana oficial y aquí recuerda los lazos de sangre con Haití.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 4 (cita de Moya Pons, 1999)",
+     "cita_original": "El ferviente antihaitianismo de muchos dominicanos les ha hecho olvidar los lazos de sangre que ligan a numerosos habitantes de una y otra parte de la isla, y ha contribuido a la ocultación de un hecho fácilmente constatable",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "párr. 5 (estilo indirecto)",
+     "cita_original": "Esas familias haitianas se asentaron en San Cristóbal y su dominicanización se aceleró después de la matanza de 1937",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": []
+  },
+  {
+   "urls_alternativas": [
+    "http://hoy.com.do/jce-suspende-su-%C2%93genocidio-civil%C2%94/"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de los desnacionalizados anterior a la sentencia. Cifras: 457 personas documentadas ante la CIDH (audiencia del 24-X-2011) frente a las 120 que reconocía el Gobierno; el movimiento dice que son 'miles' y que un estudio de campo del SJRM halló unos 1.600 en Monte Plata, San Pedro de Macorís y Guaymate (cifras de actores interesados). Disidencia interna de la JCE (jueces Fernández y Olivares). Muestra que el uso 'genocidio civil' nace antes de 2013 (Estrella lo toma de esta columna). La columna dice 'desnaturalizados' para los afectados.",
+   "titulo": "JCE suspende su genocidio civil (Hoy, 29-X-2011; copia de Wayback Machine del 29-IV-2025)",
+   "autor": "Hoy (columna atribuida a Juan Bolívar Díaz por Estrella 2023, nota 4)",
+   "anio": "2011",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://web.archive.org/web/20250429083729/https://hoy.com.do/jce-suspende-su-%C2%93genocidio-civil%C2%94/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de un periodista dominicano que se reconoce parte de la causa; la página archivada no muestra la firma (la atribuye Estrella 2023), pero cita documentos de la JCE y cifras ante la CIDH.",
+   "proveniencia": "Texto del 29-X-2011 sobre el oficio 32-2011 de la JCE (19-X-2011) que modificó la Resolución 12-07 y la Circular 17-07 y devolvió la expedición de actas a los 'descendientes de extranjeros en investigación'. Habla de 'genocidio civil' y recoge al Movimiento por un Registro Civil Libre de Discriminación (Centro Bonó, Servicio Jesuita a Refugiados y Migrantes, Unidad Evangélica, etc.), cuatro años antes de TC/0168/13.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "De esa forma se da satisfacción al movimiento nacional e internacional que viene denunciando un genocidio civil contra ciudadanos descendientes de haitianos a quienes se les venía negando la expedición de copias de actas de nacimiento",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215",
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre el estudio del SJRM",
+     "cita_original": "unos 1600 dominicanos-as han ido a las oficialías a buscar una copia de sus actas de nacimiento y la negación ha estado amparada bajo alegatos discriminatorios tales como tu apellido es de haitiano, eres negro, etc.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Carencia de sustento jurídico'",
+     "cita_original": "Los jueces electorales Aura Celeste Fernández y Eddy Olivares se opusieron firmemente tanto a la Circular 17 como a la R12-07",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-215"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-215",
+    "A-217"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "IMPORTANTE PARA A-213: este comité dominicano habla de 'más de 668 mil personas', no de 200.000: 668.145 es el total de personas de origen haitiano de la ENI-2012 (458.233 nacidos en Haití + 209.912 descendientes); la sentencia afectaría, según su lectura, a toda la población de origen haitiano. La cifra de 200.000 de CIDH/CEJIL corresponde en la ENI-2012 solo a los descendientes (209.912). El rango publicado por actores que rechazan la sentencia va, por tanto, de unos 200.000 a unos 668.000, con bases distintas [POR VERIFICAR la base del comité]. El Estado dominicano, por su lado, da unas 53.800 inscripciones auditadas. Constitución del 26-I-2010.",
+   "titulo": "Crean comité en solidaridad con personas desnacionalizadas (El Día, 5-XI-2013)",
+   "autor": "Castillo, Virginia (El Día)",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/crean-comite-en-solidaridad-con-personas-desnacionalizadas/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica con citas de un comunicado de un comité de unas 270 personas; refleja su postura y cifras sin contraste.",
+   "proveniencia": "Nota del 5-XI-2013 sobre la constitución del 'Comité de Solidaridad con Personas Desnacionalizadas' (periodistas, abogados, sacerdotes, cantantes y políticos dominicanos, entre ellos Juan Bolívar Díaz, Nassef Perdomo, Olivo Rodríguez, Mario Serrano y Pavel Núñez), dos días antes del anuncio de la JCE de las cifras del levantamiento. Voz de la oposición interna dominicana a la sentencia.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2 (cita del comunicado)",
+     "cita_original": "Estamos ante un despojo masivo de la nacionalidad sin precedentes en ninguna nación democrática.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "afecta a más de 668 mil personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-213"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5 (cita del comunicado)",
+     "cita_original": "Creemos que la solución está dada en la Constitución actual, que reconoce la ciudadanía a todo el que la hubiese obtenido antes de su entrada en vigencia, el 26 de enero del 2010",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-217"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-213",
+    "A-217"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Voz de residentes de bateyes y trabajadores agrícolas haitianos (SGF = sesión de grupo focal): citas directas sin identificar a las personas. Sesgo: el INM es un organismo del Gobierno que luego impulsa la política migratoria; la muestra de contactos pasa por líderes comunitarios (no aleatoria). Aporta, además, una descripción de condiciones de vivienda (barracones de hasta 5 trabajadores en San Pedro de Macorís) y de trato diferenciado por la comida. El número incluye también artículos sobre la migración circular haitiana (p. 22) y una nota de Jessica Mordechay sobre los pequeños comerciantes haitianos (p. 146), no leídas a fondo.",
+   "titulo": "Estudios Migratorios, n.º 1 (enero-junio de 2021): Rocío Acosta, 'Integración socioeconómica de los inmigrantes ocupados en el sector agropecuario' (pp. 88-113), con grupos focales de 80 inmigrantes haitianos",
+   "autor": "Acosta, Rocío; Instituto Nacional de Migración de la República Dominicana (INM RD), dir. Wilfredo Lozano (editorial)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://inm.panel-dev-pys.ogtic.gob.do/wp-content/uploads/2024/07/Rev-Estudios-Migratorios-1_INM-RD_ISSUU02_compressed-1.pdf",
+   "verificacion": "descargada-parcial",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Revista de un instituto estatal con aparato de investigación; el artículo de Acosta combina la ENI-2017 y ocho grupos focales con trabajadores haitianos, con diseño descrito pero sin transcripciones íntegras.",
+   "proveniencia": "Revista del INM RD (organismo estatal fundado en 2017 y dirigido por el sociólogo Wilfredo Lozano), con impresión financiada por la Fundación Friedrich Ebert. El artículo de Rocío Acosta expone el resultado de ocho sesiones de grupo focal con 80 inmigrantes haitianos en Elías Piña, Valverde, San Pedro de Macorís (caña) y Barahona, contactados por asociaciones y líderes comunitarios. Es la voz de los trabajadores de bateyes y fincas, recogida por un organismo estatal. El editorial declara que el debate migratorio dominicano ha estado dominado por 'ideología'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 91",
+     "cita_original": "En este ejercicio participó un total de ochenta personas inmigrantes haitianas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "p. 88, epígrafe (grupo focal de Barahona)",
+     "cita_original": "la mayoría de los dominicanos piensan que no somos humanos. Somos lo mismo, solamente diferente color, diferente idioma, pero somos lo mismo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-224"
+     ]
+    },
+    {
+     "ubicacion": "p. 99 (grupo focal de Barahona; verificada en la columna izquierda del texto extraído, intercalada con la columna derecha en el PDF)",
+     "cita_original": "Todos los días tienen que ir a buscar, si hallan, trabajamos, si no hallamos, no trabajamos",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Editorial",
+     "cita_original": "Desde los años noventa del pasado siglo XX la cuestión migratoria se ha erigido en uno de los palpitantes espacios de controversia en la esfera pública dominicana.",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-223",
+    "A-224"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Resuelve la mitad dominicana de A-249: la lista de 12 feriados de 2025 (1-I, 6-I, 21-I, 26-I, 27-II, Viernes Santo, 1-V, Corpus Christi, 16-VIII, 24-IX, 6-XI, 25-XII) no incluye ninguna fecha de octubre ni referencia a 1937. La ausencia de feriado no prueba la ausencia de otra conmemoración oficial (decretos de efemérides, actos del Congreso): el decreto de 2022 y los de 2017 no se localizaron. La contrapartida haitiana está en M16-N105/N106/N119.",
+   "titulo": "Ministerio de Trabajo informa días feriados correspondientes al año 2025 (Ministerio de Trabajo de la República Dominicana)",
+   "autor": "Ministerio de Trabajo de la República Dominicana",
+   "anio": "2025",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://mt.gob.do/ministerio-de-trabajo-informa-dias-feriados-correspondientes-al-ano-2025/",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado oficial del ministerio que aplica la Ley 139-97; enumera los doce feriados de 2025.",
+   "proveniencia": "Aviso anual del Ministerio de Trabajo que fija los días feriados conforme a la Ley 139-97 (19-VI-1997; Gaceta Oficial 9957). Es la fuente primaria del calendario oficial dominicano que el crítico pedía para A-249. La nota no lleva fecha visible en la página.",
+   "extractos": [
+    {
+     "ubicacion": "lista de feriados, 4.º punto",
+     "cita_original": "El domingo 26 de enero, fecha en que se conmemora el natalicio de Juan Pablo Duarte, no se cambia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-249"
+     ]
+    },
+    {
+     "ubicacion": "lista de feriados, 9.º punto",
+     "cita_original": "De igual forma, el sábado 16 de agosto, día de la Restauración de la República Dominicana, no se cambia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-249"
+     ]
+    },
+    {
+     "ubicacion": "último punto de la lista",
+     "cita_original": "El jueves 25 de diciembre, día de Navidad o nacimiento de Jesús, no se cambia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-249"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-249"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Confirma, con una fuente dominicana de prensa, que la vigilia de Border of Lights en Dajabón y Ouanaminthe empezó en 2012 (A-249) y que en 2014 era una iniciativa de una organización civil. El texto menciona 'a raíz de la sentencia 168-13' como clima político. Lo de 'destruido en 2023' (mural de Ouanaminthe de 2019) no está en esta nota.",
+   "titulo": "Frontera de Luz honrará memoria de haitianos masacrados por dictador Trujillo (Acento, 28-IX-2014)",
+   "autor": "Servicios de Acento.com.do (redacción), sobre Frontera de Luz (Border of Lights)",
+   "anio": "2014",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/actualidad/frontera-de-luz-realizara-vigilia-para-recordar-migrantes-haitianos-masacrados-durante-dictadura-de-trujillo-8178340.html",
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota de prensa que reproduce el anuncio de la organización; sirve para fechar y describir la vigilia, no para los hechos de 1937.",
+   "proveniencia": "Nota de Acento de 28-IX-2014 sobre la vigilia (virtual y presencial) del 3 de octubre de 2014 por el 77.º aniversario de la masacre, convocada por Frontera de Luz con participación de Julia Álvarez y Michele Wucker. Muestra a una organización de sociedad civil como portadora de la memoria.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Vigilia virtual'",
+     "cita_original": "En 2012, Frontera de Luz planificó una exitosa y multitudinaria vigila en ambas partes del río Masacre, en Dajabón y Ouaniminthe.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-249"
+     ]
+    },
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "conmemorará por tercer año consecutivo el 77 aniversario de la masacre de inmigrantes haitianos ordenada por el dictador Rafael Leónidas Trujillo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-249"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-249"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://migracion.gob.do/transparencia/wp-content/uploads/2025/02/01-02-DGM-repatria-mas-de-276215-extranjeros-en-condicion-migratoria-irregular-en-el-pais.pdf"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "RESUELVE M16-N62 (fallo-fetch 403): confirma 276.215 para 2024 en el comunicado primario de la DGM. Error aritmético en el propio comunicado: 48.344 + 62.446 + 71.414 + 94.223 = 276.427, no 276.215 (212 de diferencia); los porcentajes por trimestre (17,5; 22,6; 25,8; 34,1) están calculados sobre 276.215. Es un recuento de eventos de 'repatriación', no de personas distintas (A-223 ya lo advierte). Vocabulario: 'repatriación' e 'interdicción' (la DGM), 'deportación' (Presidencia en otros textos, CED, prensa), 'expulsión' (Haití, órganos interamericanos).",
+   "titulo": "DGM repatria más de 276,215 extranjeros en condición migratoria irregular en el país (comunicado de la Dirección General de Migración, 2-I-2025; copia de Wayback Machine del 27-IV-2025)",
+   "autor": "Dirección General de Migración (DGM) de la República Dominicana, Dirección de Comunicaciones",
+   "anio": "2025",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20250427140954id_/https://migracion.gob.do/transparencia/wp-content/uploads/2025/02/01-02-DGM-repatria-mas-de-276215-extranjeros-en-condicion-migratoria-irregular-en-el-pais.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado primario de la entidad que cuenta las expulsiones; es la fuente de la cifra, pero una declaración de parte, sin método y con un error aritmético.",
+   "proveniencia": "Comunicado de prensa de la DGM (2-I-2025) con el balance de 2024: 276.215 'repatriaciones' de extranjeros con estatus migratorio irregular, desglosadas por trimestres. La DGM, que usa 'repatriar' e 'interdicción', afirma actuar 'respetando los derechos humanos' y bajo directrices del presidente Abinader. Copia de Internet Archive porque migracion.gob.do devuelve 403.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "La Dirección General de Migración (DGM) en el 2024 repatrió a su país de origen 276,215 extranjeros con estatus migratorio irregular",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "En el trimestre enero-marzo se enviaron a su país de origen 48,344; en el trimestre de abril-junio se repatriaron 62, 446; en el tercer trimestre julio-septiembre 71,414; y en el último trimestre, octubre-diciembre 94,223",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-223"
+     ]
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "esta interdicción y repatriación de extranjeros con estatus migratorio irregular se realiza respetando los derechos humanos de los interdictos y los acuerdos internacionales de los que el país es signatario",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-225"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-223",
+    "A-225"
+   ]
+  },
+  {
+   "urls_alternativas": [
+    "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22307/3/LFLACSO-01-Silie.pdf",
+    "https://biblio.flacsoandes.edu.ec/libros/digital/48461.pdf"
+   ],
+   "http_status": "403",
+   "id_existente": "F-0086",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "No se resuelve F-0086: su registro dice 'Economía, esclavitud y población' (1976), que es otra obra; lo hallado son capítulos de FLACSO de 1993 y 1998 sobre inmigración y prejuicio. Sin extracto: la fuente no se pudo abrir (HTTP 403). Se deja la localización de las tres URL de FLACSO para una sesión con otra red.",
+   "titulo": "Silié, Rubén: capítulo en el volumen de FLACSO sobre la cuestión haitiana (LFLACSO-09-Silie.pdf; ficha de F-0086)",
+   "autor": "Silié, Rubén",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22800/11/LFLACSO-09-Silie.pdf",
+   "verificacion": "fallo-fetch",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "No se abrió; la fiabilidad es la esperable de un sociólogo-historiador dominicano (exembajador en Haití) en un volumen de FLACSO.",
+   "proveniencia": "Capítulo de Rubén Silié (sociólogo dominicano, viceministro de Política Exterior Multilateral en 2022 según M16-N53) en un volumen de FLACSO sobre las relaciones con Haití; una búsqueda lo describe como 'Aspectos socio-históricos sobre la inmigración haitiana' (1998) y como capítulo (pp. 169-188) con secciones sobre la formación del prejuicio antihaitiano en 'La cuestión haitiana en Santo Domingo' (1993, ed. Wilfredo Lozano) [POR VERIFICAR: cuál de los dos es 'LFLACSO-09-Silie']. El repositorio de FLACSO exige verificación humana (403) y no se eludió; Internet Archive devuelve 404.",
+   "extractos": [],
+   "afirmaciones": []
+  },
+  {
+   "urls_alternativas": [
+    "http://www.sisomosamericanos.cl/index.php/sisomosamericanos/article/view/650",
+    "http://www.sisomosamericanos.cl/index.php/sisomosamericanos/article/view/650/535"
+   ],
+   "http_status": "200",
+   "id_existente": "",
+   "modulos": [
+    "M16"
+   ],
+   "notas": "Sin texto completo; sirve de localización para las voces de la frontera y como puente al texto del PDF de la revista. No se asocia a una A-### de M16 [POR VERIFICAR con el texto].",
+   "titulo": "La regionalización precaria en la frontera dominico/haitiana (Si Somos Americanos, vol. 16, n.º 1, 2016, pp. 15-41), ficha de repositorio",
+   "autor": "Dilla Alfonso, Haroldo",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistaschilenas.uchile.cl/handle/2250/175511?show=full",
+   "verificacion": "solo-localizada",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó el resumen del repositorio; el PDF de la revista devolvió 403.",
+   "proveniencia": "Haroldo Dilla Alfonso, sociólogo cubano radicado durante años en la República Dominicana (Instituto Tecnológico de Santo Domingo y Fundación Solidaridad), estudia los 'binomios' Dajabón/Ouanaminthe y Elías Piña/Plateau Central como regiones transfronterizas del capitalismo contemporáneo. Su trabajo previo (Estudios Fronterizos, 2004) estudia el intercambio desigual de la zona.",
+   "extractos": [
+    {
+     "ubicacion": "resumen en español (metadatos del repositorio)",
+     "cita_original": "La activación de los contactos en la franja fronteriza dominico/haitiana ha generado una nueva geografía insular",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": []
+  }
+ ]
+}

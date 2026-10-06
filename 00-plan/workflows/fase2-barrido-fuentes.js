@@ -17,6 +17,15 @@ export const meta = {
 //   args.fecha          : fecha de consulta que va en las fichas (YYYY-MM-DD); el script no puede leer el reloj
 //   args.modelos        : modelo por rol, p. ej. {buscador:"sonnet", fusionador:"sonnet", critico:"opus", registrador:"sonnet"};
 //                         si falta un rol, ese rol hereda el modelo de la sesion
+//   args.registrar_solo : modulos cuya busqueda y fusion ya existen en disco (M##.md y M##.nuevas/existentes/cobertura.csv
+//                         de una corrida anterior): se omiten busqueda y fusion y corren solo critico, segunda ronda si hace
+//                         falta y registrador. Ejemplo: ["M05","M06"].
+//
+// AVISO SOBRE REANUDAR (aprendido el 2026-10-06): la cache de resumeFromRunId reproduce solo el prefijo de llamadas agent()
+// que coincide en ORDEN con la corrida anterior. Con varios modulos en vuelo el orden no es determinista, asi que una
+// reanudacion vuelve a lanzar todo (en la segunda corrida se repitieron M16, M13, M09 y M08 y el fusionador de M09 sustituyo
+// el M09.md anterior). Para continuar una fase a medias NO uses resumeFromRunId: lanza una corrida nueva con args.modulos
+// (solo los pendientes) y args.registrar_solo (los fusionados sin registrar).
 // ---------------------------------------------------------------------------
 
 const REPO = 'C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola'
@@ -30,6 +39,7 @@ const MAX_B1 = (args && args.max_busquedas) || 120
 const MAX_B2 = Math.min(80, MAX_B1)
 const FECHA = (args && args.fecha) || '2026-10-06'
 const MODELOS = (args && args.modelos) || {}
+const REGISTRAR_SOLO = (args && Array.isArray(args.registrar_solo)) ? args.registrar_solo : []
 const opt = (rol, extra) => Object.assign({}, MODELOS[rol] ? { model: MODELOS[rol] } : {}, extra)
 
 const MODULOS = {
@@ -210,7 +220,7 @@ function promptFusion(m, archivosRaw, ronda, faltantes) {
   const md = `${REPO}\\02-fuentes\\por-modulo\\${m.id}.md`
   const base = `${REPO}\\02-fuentes\\por-modulo\\${m.id}`
   const cabecera = ronda === 1
-    ? `Eres el FUSIONADOR del modulo ${m.id} (${m.periodo}). Cinco buscadores ciegos entre si han escrito sus resultados en estos JSON: ${archivosRaw.join(' ; ')}. Leelos enteros (python -X utf8 con json).`
+    ? `Eres el FUSIONADOR del modulo ${m.id} (${m.periodo}). Cinco buscadores ciegos entre si han escrito sus resultados en estos JSON: ${archivosRaw.join(' ; ')}. Leelos enteros (python -X utf8 con json). ANTES DE ESCRIBIR: comprueba si ya existe ${md} de una corrida anterior. Si existe, NO lo sustituyas ni lo borres: integra los JSON como una ronda adicional conservando todas sus fichas, sus ids F-#### definitivos y sus secciones (los ids provisionales nuevos continuan la numeracion M##-Nxx desde el ultimo usado), y anota la nueva ronda en la seccion 7. Lo mismo con los CSV auxiliares si existen: se amplian, no se reemplazan.`
     : `Eres el FUSIONADOR DE SEGUNDA RONDA del modulo ${m.id} (${m.periodo}). Ya existe ${md} con la ronda 1 y los archivos ${base}.nuevas.csv, ${base}.existentes.csv y ${base}.cobertura.csv. Los buscadores de la segunda ronda han escrito: ${archivosRaw.join(' ; ')}. Integra la ronda 2 en los cuatro archivos SIN perder nada de la ronda 1: continua la numeracion provisional (M##-Nxx) donde quedo, anade filas, actualiza las secciones 1 a 7 y escribe en la seccion 6 las peticiones del critico que siguen sin resolverse. Peticiones del critico (JSON): ${JSON.stringify(faltantes, null, 1)}`
   return `${REGLAS}
 ${cabecera}
@@ -250,14 +260,14 @@ function promptRegistro(m, fusion) {
   return `${REGLAS}
 Eres el REGISTRADOR del modulo ${m.id}. Trabajas EN SERIE: ningun otro registrador toca registro.csv, cobertura.csv ni git mientras tu trabajas, pero otros modulos pueden haber anadido filas desde que se escribio tu modulo, asi que relee todo. ${resumen}
 PASOS:
-1. En Bash: cd "${REPO_SH}" && git status --short (solo deben aparecer archivos de 02-fuentes/por-modulo/, 02-fuentes/registro.csv o 03-afirmaciones/cobertura.csv; si hay otra cosa, no la toques y reportala) && git pull --rebase origin ${RAMA}.
+1. En Bash: cd "${REPO_SH}" && git status --short (solo deben aparecer archivos de 02-fuentes/por-modulo/, 02-fuentes/registro.csv o 03-afirmaciones/cobertura.csv; si hay otra cosa, no la toques y reportala). Otros modulos en vuelo dejan archivos sin confirmar en 02-fuentes/por-modulo/: no los toques, no hagas stash, checkout, restore ni clean. Luego git fetch origin ${RAMA} y compara git rev-parse HEAD con git rev-parse origin/${RAMA}: si coinciden, sigue; si origin va por delante y el arbol esta limpio, git pull --rebase origin ${RAMA}; si origin va por delante y el arbol esta sucio, anotalo en problemas y sigue sin pull.
 2. Lee ${REPO}\\02-fuentes\\registro.csv con python -X utf8 (csv, utf-8, newline=''): ultimo id (maximo numerico de F-####), indice por URL normalizada (sin esquema, sin barra final, minusculas) y por autor+titulo normalizados.
 3. Lee ${base}.nuevas.csv. Para cada fila: si ya existe en el registro (misma URL normalizada, o mismo autor+titulo+ano) NO crees fila: usa el id existente, anade ${m.id} a su columna modulos si falta y mejora url/acceso si lo nuevo esta verificado; si no existe, asignale el siguiente F-#### correlativo (cuatro digitos, sin huecos, sin renumerar nada) y anade la fila con las 12 columnas id,tipo,autor,titulo,anio,idioma,tradicion,modulos,url,acceso,fiabilidad,notas.
 4. Lee ${base}.existentes.csv y actualiza esas filas: rellena url vacia o sustituye una URL no verificada por la verificada; acceso solo mejora (p. ej. localizada-bloqueada -> pdf-en-linea; nunca al reves); anade modulos; anade al final de notas " | F2 ${FECHA}: <que se confirmo>". Nunca borres filas, nunca cambies un id, nunca reordenes.
 5. Construye el mapa id provisional -> F-#### definitivo y sustituyelo en ${base}.md y en ${base}.cobertura.csv (busca con grep que no quede ningun '${m.id}-N'). Anade las filas de ${base}.cobertura.csv a ${REPO}\\03-afirmaciones\\cobertura.csv (crealo con cabecera afirmacion,fuente,modulo,verificacion,ubicacion,fecha si no existe; anade la columna fecha = ${FECHA}; no dupliques pares afirmacion-fuente ya presentes).
 6. Valida con python -X utf8: registro.csv con 12 columnas en todas las filas, ids unicos y correlativos F-0001..F-NNNN sin huecos, utf-8; cobertura.csv con 6 columnas; ${base}.md sin ids provisionales. Si algo falla, corrigelo antes de seguir; si no puedes, no hagas commit y reportalo.
 7. Borra ${base}.nuevas.csv, ${base}.existentes.csv y ${base}.cobertura.csv (ya integrados). Conserva la carpeta raw/.
-8. En Bash: git add 02-fuentes/por-modulo 02-fuentes/registro.csv 03-afirmaciones/cobertura.csv && git commit -m "Fase 2: barrido de fuentes ${m.id} (<n> nuevas, <k> actualizadas, <c> pares de cobertura)" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>" && git push origin ${RAMA}. Si el push falla: git pull --rebase origin ${RAMA} y reintenta una vez; si vuelve a fallar, deja el commit local y reportalo en problemas.
+8. En Bash, SOLO los archivos de este modulo (nunca la carpeta 02-fuentes/por-modulo entera, que puede contener trabajo a medias de otros modulos): git add -- 02-fuentes/por-modulo/${m.id}.md 02-fuentes/registro.csv 03-afirmaciones/cobertura.csv; git add -- 02-fuentes/por-modulo/raw/${m.id}-*.json; y si git ls-files muestra como rastreados los CSV auxiliares de este modulo (${m.id}.nuevas.csv, ${m.id}.existentes.csv, ${m.id}.cobertura.csv), stagea su borrado con git rm -q --cached -- <esos archivos>. Despues git commit -m "Fase 2: barrido de fuentes ${m.id} (<n> nuevas, <k> actualizadas, <c> pares de cobertura)" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>" && git push origin ${RAMA}. Si el push falla: git pull --rebase origin ${RAMA} y reintenta una vez; si vuelve a fallar, deja el commit local y reportalo en problemas.
 Devuelve la salida estructurada (modulo, ids_nuevos_desde, ids_nuevos_hasta, n_nuevas, n_actualizadas, n_cobertura, total_registro, commit = hash corto, push_ok, problemas).`
 }
 
@@ -288,20 +298,25 @@ async function procesarModulo(id) {
   const m = Object.assign({ id }, MODULOS[id])
   const out = { modulo: id, ronda1: [], critico: null, ronda2: [], fusion: null, registro: null, estado: 'ok' }
 
-  log(`${id}: ronda 1, cinco buscadores (tope ${MAX_B1} busquedas cada uno)`)
-  const r1 = await parallel(LENTES.map(l => () =>
-    agent(promptBuscador(m, l, 1, null), opt('buscador', { label: `${id}:r1:${l.key}`, phase: 'Busqueda', schema: BUSQUEDA_SCHEMA }))))
-  out.ronda1 = r1.filter(Boolean)
-  if (!out.ronda1.length) { out.estado = 'fallo-busqueda'; log(`${id}: ningun buscador termino; modulo omitido`); return out }
-  const fuentes1 = out.ronda1.reduce((s, r) => s + (r.n_fuentes || 0), 0)
-  const busq1 = out.ronda1.reduce((s, r) => s + (r.busquedas_usadas || 0), 0)
-  log(`${id}: ronda 1 terminada: ${out.ronda1.length}/5 buscadores, ${fuentes1} fuentes, ${busq1} busquedas`)
-  if (out.ronda1.length < 5) log(`${id}: AVISO: ${5 - out.ronda1.length} buscador(es) no devolvieron resultado; el critico lo vera como laguna`)
+  let fusion = null
+  if (REGISTRAR_SOLO.includes(id)) {
+    log(`${id}: reanudacion: se omiten busqueda y fusion (ya existen ${id}.md y sus CSV auxiliares de una corrida anterior); corren critico, segunda ronda si hace falta y registrador`)
+  } else {
+    log(`${id}: ronda 1, cinco buscadores (tope ${MAX_B1} busquedas cada uno)`)
+    const r1 = await parallel(LENTES.map(l => () =>
+      agent(promptBuscador(m, l, 1, null), opt('buscador', { label: `${id}:r1:${l.key}`, phase: 'Busqueda', schema: BUSQUEDA_SCHEMA }))))
+    out.ronda1 = r1.filter(Boolean)
+    if (!out.ronda1.length) { out.estado = 'fallo-busqueda'; log(`${id}: ningun buscador termino; modulo omitido`); return out }
+    const fuentes1 = out.ronda1.reduce((s, r) => s + (r.n_fuentes || 0), 0)
+    const busq1 = out.ronda1.reduce((s, r) => s + (r.busquedas_usadas || 0), 0)
+    log(`${id}: ronda 1 terminada: ${out.ronda1.length}/5 buscadores, ${fuentes1} fuentes, ${busq1} busquedas`)
+    if (out.ronda1.length < 5) log(`${id}: AVISO: ${5 - out.ronda1.length} buscador(es) no devolvieron resultado; el critico lo vera como laguna`)
 
-  let fusion = await agent(promptFusion(m, out.ronda1.map(r => r.archivo), 1, null),
-    opt('fusionador', { label: `${id}:fusion`, phase: 'Fusion', schema: FUSION_SCHEMA }))
-  if (!fusion) { out.estado = 'fallo-fusion'; log(`${id}: el fusionador no termino; modulo sin registrar`); return out }
-  log(`${id}: fusion: ${fusion.n_fuentes} fuentes (${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes); ${fusion.afirmaciones_cubiertas.length} afirmaciones cubiertas, ${fusion.afirmaciones_sin_fuente.length} sin fuente`)
+    fusion = await agent(promptFusion(m, out.ronda1.map(r => r.archivo), 1, null),
+      opt('fusionador', { label: `${id}:fusion`, phase: 'Fusion', schema: FUSION_SCHEMA }))
+    if (!fusion) { out.estado = 'fallo-fusion'; log(`${id}: el fusionador no termino; modulo sin registrar`); return out }
+    log(`${id}: fusion: ${fusion.n_fuentes} fuentes (${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes); ${fusion.afirmaciones_cubiertas.length} afirmaciones cubiertas, ${fusion.afirmaciones_sin_fuente.length} sin fuente`)
+  }
 
   const critico = await agent(promptCritico(m),
     opt('critico', { label: `${id}:critico`, phase: 'Completitud', schema: CRITICO_SCHEMA, effort: 'high' }))

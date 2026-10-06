@@ -1,0 +1,2540 @@
+{
+ "lente": "haitiana",
+ "modulo": "M09",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 22,
+ "busquedas_pendientes": [
+  "Madiou, Histoire d'Haïti t. VIII (1843-1846) en texto: HathiTrust (Record/011984236, 403), Gallica (403), dLOC o la ed. Deschamps 1985/1989; sin él, Madiou sobre 1844 solo se lee en la traducción de Eller (pp. 103-115)",
+  "Bouzon, Études historiques sur la présidence de Faustin Soulouque (1894) en texto completo (Gallica, dLOC, HathiTrust) y Antoine Michel, L'avènement du général Fabre Nicolas Geffrard (1932): solo se leyeron los extractos de Island Luminous",
+  "Dorsainvil, Manuel d'histoire d'Haïti (1934; manioc.org PAP11077 devolvió 502); Dantès Bellegarde, La nation haïtienne (1938) e Histoire du peuple haïtien (1953); Étienne Charlier, Aperçu sur la formation historique de la nation haïtienne (1954)",
+  "Manigat t. II anexo 23: cotejar las cifras (715 y 695 muertos) con Moya Pons, Manual de historia dominicana, y con Price-Mars t. II cap. I; leer el capítulo de t. I sobre la 'agrégation' (anexo 7)",
+  "Price-Mars t. II caps. IV-V (Guerrier, Pierrot, Soulouque) y VIII-XI (1861-1870), solo leídos por muestreo; y su t. I sobre la doctrina (1822)",
+  "Moniteur haïtien (dLOC AA00098214): leer los números 53 (1-IX-1849, proclamación del imperio), 221-230 (ene-mar 1856, partes de Santomé/Sabana Larga y armisticio), 410-417 (1861); buscar en Gallica (bpt6k1264079x) los de dic. 1855 y los de 1845-1846 que faltan en dLOC",
+  "Le Télégraphe, Le Manifeste, Le Patriote y otra prensa haitiana de 1843-1845 (EAP1024 de la British Library; dLOC): sin acceso (aplicaciones JS)",
+  "Revue de la Société haïtienne d'histoire, de géographie et de géologie: índice por años y artículos sobre 1844-1859 (p. ej. nº 267-274 con el trabajo de Q. Lora); búsqueda en dLOC/UFDC con la API de citas",
+  "Radio Haïti (Duke): entrevista de Jean Dominique a Moya Pons (RL10059-RR-0072_01) y otras sobre 1844 (Anubis)",
+  "Hector y Hurbon (eds.), Genèse de l'État haïtien: capítulos de Moïse (periodización, constituciones), Hurbon (religiones 1801-1859) y Joint; Théodat §§ 1-24 en texto crudo (OpenEdition con Anubis)",
+  "Leslie Péan, Haïti: économie politique de la corruption, t. I (1791-1870) sobre Soulouque, las campañas y la deuda; Michel Soukar; Georges Michel y Guy Alexandre sobre 1844-1859; Castor, Casimir, Hurbon, Beauvoir-Dominique, Fouchard, Hénock Trouillot",
+  "Programas y manuales del MENFP (Histoire 9e AF, Nouveau Secondaire, pratic.menfp.gouv.ht): leer los originales citados por González Canalda (Auguste y Zamor; Wesner Emmanuel; Roy Fombrun et al.; Auguste y Auguste)",
+  "Discursos y conmemoraciones de Estado (1-I, 18-XI, 17-X): una consulta específica sobre el 17-X (Pierrot, 17-X-1845, misa por Dessalines, vía Price-Mars p. 152) y el 1-I-1846; no se hizo",
+  "Prensa haitiana contemporánea: más artículos de Le Nouvelliste (Dominique, Péan, Denis) sobre 1844/1849; AlterPresse (firewall), Loop Haïti (ECONNREFUSED), Haïti Libre, Le National (art. 717 tras muro de pago); AyiboPost (JS)",
+  "Voces en kreyòl: Haitian Times kreyòl y AyiboPost kreyòl más allá del artículo de Delly",
+  "Convención de Jacmel (1898) y Mole Saint-Nicolas (1899): texto primario de los 30.000 dólares a propietarios haitianos confiscados en 1844 (A-134); Recueil Linstant Pradine posterior a 1845"
+ ],
+ "lagunas": [
+  "Madiou t. VIII sin leer en original (HathiTrust 403, Gallica 403): la posición de Madiou sobre 1844 y la capitulación de Desgrottes se conocen solo por la traducción de Eller y por el manual de 1906.",
+  "Ardouin t. XI termina en 1843: los historiadores clásicos haitianos de 1844-1856 con texto completo accesible fueron Price-Mars (1953), Janvier (1886), Léger (1907) y el manual de 1906; Bouzon, Antoine Michel, Dorsainvil, D. Bellegarde, Fouchard, H. Trouillot, Castor, Casimir, Hurbon, Beauvoir-Dominique, Michel, Alexandre, Moïse, Nau, Chauvet, Dalencour, Gaillard, Péan y Dorestant no se obtuvieron (bloqueos, derechos o no localizados).",
+  "Prensa haitiana de 1843-1845 y de 1850-1856: dLOC solo cubre el Moniteur haïtien desde feb. 1847 (con huecos: faltan 1845-46 completos, casi todo 1850 y dic. 1855); no hay Le Télégraphe ni Le Manifeste ni los números de dic. 1855 con los partes de la campaña.",
+  "Ninguna fuente haitiana consultada traduce o cita el Acta de Separación ni la Constitución dominicana de 1844 (A-120): la lente haitiana no comenta el art. 7 de 1844.",
+  "A-121 y A-123 (frase de Duarte y poema 'Unidad de las razas'): ninguna fuente haitiana consultada las contiene; solo el manual de 1906 (pp. 97-98, lectura de Madiou) y Price-Mars (pp. 41, 134) nombran a Duarte, como iniciador y como opositor al protectorado.",
+  "A-134 (confiscaciones de 1844): no se halló ningún decreto ni reclamo haitiano de época; solo la mención indirecta de un manual haitiano recogida por González Canalda (convenio de Jacmel 1898, 30.000 dólares) y la nota del Moniteur de 18-I-1851 sobre los 'émigrés de l'Est' acogidos.",
+  "A-132 ('sin distinción de color' en el Manifiesto, el decreto del 1-III-1844 y la Constitución de 1844): la traducción de Eller del Manifiesto dice 'without regard to origin or place of birth', no 'color'; falta el original español y los otros dos textos.",
+  "Discursos y conmemoraciones de Estado (1-I, 18-XI, 17-X) sobre la isla: sin hallazgo directo para 1844-1861; solo Pierrot (misa por Dessalines, 17-X-1845, vía Price-Mars) y la ficha institucional de la embajada.",
+  "Voces en kreyòl: solo una nota de divulgación (Delly, 2025) sobre Santana; ningún texto kreyòl sobre 1844, Soulouque o la doctrina.",
+  "Programas oficiales del MENFP y manuales originales: no se consultaron; los manuales haitianos modernos (Auguste y Zamor, Wesner Emmanuel, Roy Fombrun) se conocen solo por González Canalda (2019).",
+  "Voces haitianas disidentes (mulatristas, críticos de la doctrina): solo indirectas (Bouzon vía Island Luminous; Ardouin t. XI; Savary 2013, 'la reconquista no interesaba a ciertos sectores'; Manigat sobre la 'peur de classe'; el Moniteur de 1851 sobre los mulatos): no se halló un crítico haitiano de la doctrina en texto completo para 1844-1861.",
+  "Las páginas de Recueil VIII, Janvier, Léger y Bellegarde-Lhérisson se dedujeron de cabeceras OCR; varias son aproximadas (±1) y deben cotejarse antes de entrar en la síntesis."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "insurgés de l'Est / rebelles / «ville rebelle de Santo-Domingo»",
+   "tradicion": "haitiana (oficial 1844-1851)",
+   "nota": "Léxico del Estado haitiano para los dominicanos y su capital (Hérard, 10-IV-1844; Soulouque, Moniteur de 5-V-1849; Moniteur de 18-I-1851). Contrasta con 'patriotas' e 'independentistas' dominicanos y con 'insurgents' de Léger (1907)."
+  },
+  {
+   "termino": "se détacher / détachement de la partie de l'Est",
+   "tradicion": "haitiana (oficial 1844; Price-Mars 1953)",
+   "nota": "Hérard, 12-III-1844: «la partie de l'Est déclare se détacher de la République». Price-Mars habla de «détachement de la République d'Haïti» (no de autonomía). Matiza la fila de la 'Proclamación del 27 de febrero' del glosario, que solo recoge 'séparation/scission'."
+  },
+  {
+   "termino": "indivisibilité du territoire / unité nationale (fórmula de Estado 1844-1856)",
+   "tradicion": "oficial-haiti",
+   "nota": "Hérard (12 y 16-III-1844), Guerrier (12-VI y 5-XII-1844), Pierrot (1845) y Soulouque (29-IV-1849) hablan de «l'indivisibilité du territoire haïtien» y de «unité nationale», no literalmente de «l'île une et indivisible»; esa expresión viene de las constituciones (1805 art. 15 'Empire un et indivisible'; 1816 art. 41; 1846 art. 4 + art. 1 'L'île d'Haïti'). El glosario junta ambas."
+  },
+  {
+   "termino": "campagne de l'Est / question de l'Est",
+   "tradicion": "haitiana",
+   "nota": "Nombre haitiano de las guerras de 1844-1856 y de la disputa territorial (Manigat: «La question de l'Est de 1844 à 1859»; manuales; Moniteur). Los dominicanos hablan de guerra de independencia o 'guerra domínico-haitiana'. Manigat cuenta cuatro campañas (1844, 1845, 1849, 1855-56); Trouillot, 'four engagements'."
+  },
+  {
+   "termino": "la mer pour frontière («A Haïti, il faut donner la mer pour frontière»)",
+   "tradicion": "haitiana (atribuida a Dessalines)",
+   "nota": "Fórmula con que Watson Denis (2024) y los manuales (González Canalda 2019, 'la mar como frontera') resumen la política de no aceptar frontera interior hasta Geffrard. Origen documental de la frase [POR VERIFICAR]."
+  },
+  {
+   "termino": "homme noir et jaune; descendant d'Africains ou d'Indiens",
+   "tradicion": "oficial-haiti",
+   "nota": "Categoría racial de ciudadanía en proclamas y constituciones haitianas (Guerrier, 5-XII-1844: «le rendez-vous de l'homme noir et jaune»; art. 5 de 1846: 'descendant d'Africains ou d'Indiens'). 'Indiens' designa a indígenas americanos. No está en el glosario."
+  },
+  {
+   "termino": "Plateau Central (Hinche, Lascahobas/Las Caobas, Saint-Michel de l'Attalaye, Saint-Raphaël)",
+   "tradicion": "haitiana (retención territorial) / dominicana ('territorios ocupados')",
+   "nota": "Zona del antiguo Santo Domingo que Haití retuvo tras 1844 y que los noiristas (Fignolé, Griots) valoran como 'acquisition territoriale' de Soulouque (Manigat, t. II, p. 223; Savary 2013). Los dominicanos la llaman 'Hincha' / 'San Miguel de la Atalaya'."
+  },
+  {
+   "termino": "soulouquerie",
+   "tradicion": "internacional (Marx, vía Manigat)",
+   "nota": "Término despectivo (Manigat, t. II, p. 223, lo atribuye a Karl Marx) para el régimen de Soulouque; la historiografía noirista lo discute. No está en el glosario."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "La République d'Haïti et la République Dominicaine. Les aspects divers d'un problème d'histoire, de géographie et d'ethnologie, t. II (Port-au-Prince, Collection du Tricinquantenaire de l'Indépendance d'Haïti, 1953), cap. I-VII: guerras de 1844-1856 y política de Soulouque",
+   "autor": "Price-Mars, Jean",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00002/Mars_RD_Haiti_fr_2.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Reproduce, a menudo in extenso, documentos primarios haitianos, dominicanos, franceses y estadounidenses y los contrasta, pero es una obra de tesis (defensa de la lectura haitiana de la «cuestión del Este»), con OCR defectuoso en las cursivas.",
+   "proveniencia": "Jean Price-Mars (médico, etnólogo y diplomático haitiano, figura del indigenismo), obra de 1953 publicada en Port-au-Prince dentro de la «Collection du Tricinquantenaire de l'Indépendance d'Haïti» (colección conmemorativa del 150.º aniversario de la independencia). Escribe desde Haití y para el público haitiano, con una lectura de seguridad anticolonial de la 'indivisibilidad' y una rehabilitación explícita de Soulouque. De primera mano solo conoce lo que reproduce: cita la Guerra Dominico-Haitiana (1944), la Correspondencia del cónsul de Francia (1944), Manning (1935), Tansill (1938) y Ardouin, y admite que en los archivos haitianos no hay nada que confirme o desmienta los hechos de Santiago (p. 15). Leí el texto OCR del PDF de UFDC/dLOC (pp. 7-15, 36-53, 130-135, 153-155, 165-181, 199-206, 229-230); el resto del tomo no se leyó.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, cap. I, p. 9 (PDF p. 10)",
+     "cita_original": "De ce fait, la guerre haïtiano-dominicaine était impopulaire.",
+     "traduccion": "Por eso, la guerra haitiano-dominicana era impopular. (Price-Mars lo atribuye a que el soldado haitiano no sabía qué defendía, a las divisiones partidarias tras la caída de Boyer y al regionalismo; narra Azua, 19-III-1844, como un «insuccès» haitiano.)",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, cap. I, p. 10 (PDF p. 11)",
+     "cita_original": "n'épargner aucun sacrifice pour soutenir l'indépendance de leurs territoires respectifs",
+     "traduccion": "no escatimar ningún sacrificio para sostener la independencia de sus respectivos territorios. Fórmula del armisticio de Santiago (30-III-1844) entre los delegados de Pierrot y el general Imbert, según Price-Mars; él mismo advierte que la nota de Pierrot no se publicó y que solo hay rastro en archivos dominicanos.",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 13 (PDF p. 14), carta de J. M. Imbert a Pierrot, Santiago, 31-III-1844 (documento de 1844 reproducido)",
+     "cita_original": "ne fomentera pas une guerre civile et d'extermination ... que la cendre et des décombres",
+     "traduccion": "la República dominicana no fomentará una guerra civil y de exterminio, aunque su éxito a nuestro favor no pueda dudarse ... antes que someterse al yugo haitiano solo quedarán a sus crueles opresores ceniza y escombros. (Vocabulario dominicano de 1844: «oppresseurs», «joug haïtien», «Haïtiens du Nord» como «amigos y hermanos».)",
+     "afirmaciones": [
+      "A-117",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 14 (PDF p. 15)",
+     "cita_original": "Ils n'avouent que trois morts et un seul blessé de leur côté",
+     "traduccion": "Solo admiten tres muertos y un herido de su lado (los dominicanos), frente a casi mil muertos y heridos haitianos en Neiba, Azua, Talaquera y Santiago. Price-Mars llama «énigme» a esa asimetría y cita a Tansill (1938, p. 124) y al diario del teniente Porter (1846). Cifras: ver también Manigat (715 muertos haitianos en Santiago) y Rec. gén. t. VIII.",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 37 (PDF p. 38)",
+     "cita_original": "conserver toute l'île sous l'égide du gouvernement de la République d'Haïti, une et indivisible",
+     "traduccion": "mantener toda la isla bajo la égida del gobierno de la República de Haití, una e indivisible. Exposición de la postura haitiana en la fase diplomática 1844-45: no solo la independencia política, sino «l'obligation de s'arcbouter à la défense» contra todo retorno de la servidumbre (interpretación de seguridad).",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 38 (PDF p. 39)",
+     "cita_original": "La position haïtienne fut nette. Elle se cantonna dans un raidissement de la négativité.",
+     "traduccion": "La posición haitiana fue neta: se encerró en una rigidez de negativa (ante la propuesta de paz a cambio de reconocer 'la effectivité' de una República dominicana con fronteras por discutir). Hecho (negativa) e interpretación (valoración de Price-Mars) separables. OCR original: «négatiyité».",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 41 (PDF p. 42)",
+     "cita_original": "empêcher qu'une puissance étrangère ne s'installât dans la vaste étendue de la partie de l'Est",
+     "traduccion": "impedir que una potencia extranjera se instalara en la vasta extensión de la parte del Este. Price-Mars resume así los motivos haitianos para 'conservar toda la isla bajo su obediencia', frente a los dominicanos dispuestos a cualquier protectorado.",
+     "afirmaciones": [
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 41 (PDF p. 42)",
+     "cita_original": "ceux-là n'étaient qu'une faible minorité",
+     "traduccion": "esos [líderes dominicanos como Juan Pablo Duarte, 'sinceramente y radicalmente opuestos' a toda dominación extranjera] no eran sino una débil minoría. Price-Mars separa a Duarte de la mayoría de los dirigentes separatistas, dispuestos a ponerse bajo protectorado o anexarse a una de las cuatro potencias.",
+     "afirmaciones": [
+      "A-128",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 42 (PDF p. 43)",
+     "cita_original": "remettre toute l'île sous la domination française",
+     "traduccion": "volver a poner toda la isla bajo la dominación francesa. Objetivo que Price-Mars atribuye a Levasseur (cónsul general en Puerto Príncipe), al contraalmirante de Moges y a Juchereau de Saint-Denys (cónsul en Santo Domingo); Guizot los frenó.",
+     "afirmaciones": [
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 45 (PDF p. 46), informe de Levasseur a Guizot, Puerto Príncipe, 31-XII-1843 (reproducido de la Colección Trujillo, 1944)",
+     "cita_original": "les habitants de la partie de l'Est, fatigués de la brutalité des chefs ou magistrats noirs qu'on leur avait maladroitement imposés, indignés de l'audace et de l'imprudence avec lesquelles l'administration de Boyer avait froissé leurs sentiments les plus intimes",
+     "traduccion": "los habitantes de la parte del Este, cansados de la brutalidad de los jefes o magistrados negros que se les habían impuesto torpemente, indignados por la audacia e imprudencia con que la administración de Boyer había herido sus sentimientos más íntimos. (Testimonio francés de 1843 sobre agravios del Este; lenguaje racializado del cónsul.)",
+     "afirmaciones": [
+      "A-135",
+      "A-129",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 47 (PDF p. 48), mismo informe",
+     "cita_original": "le 16 décembre, j'ai consenti à recevoir, des mains de sept représentants de la province espagnole, l'acte par lequel ils placent, au nom de leurs commettants, leur territoire sous la puissante protection de la France",
+     "traduccion": "el 16 de diciembre consentí en recibir, de manos de siete representantes de la provincia española, el acta por la cual colocan, en nombre de sus comitentes, su territorio bajo la poderosa protección de Francia.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 49 (PDF p. 50), acta de los siete delegados a Levasseur (reproducida)",
+     "cita_original": "fera l'abandon de la presqu'île de Samana et la cédera à la France",
+     "traduccion": "En reconocimiento de la alta protección de Francia, la nueva República abandonará la península de Samaná y la cederá a Francia (cláusula 6.ª; la 1.ª: 'république dominicaine, libre et indépendante'). Price-Mars advierte que faltan los nombres de los firmantes y las piezas n.º 2 y 3.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, cap. III, p. 52 (PDF p. 53)",
+     "cita_original": "l'occupation du Môle Saint-Nicolas et de la presqu'île de Samana",
+     "traduccion": "la ocupación del Môle Saint-Nicolas y de la península de Samaná. Garantías territoriales que Levasseur proponía exigir a Haití por la deuda de 1825/1838, como primer paso de su «plan» (el segundo: Este desgajado bajo protectorado francés). Informe de 27-VI-1843 citado en pp. 53-56.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 131-132 (PDF pp. 130-131), carta de Hérard al general Morisset, Campamento de Saint-Jean, 16-III-1844 (reproducida)",
+     "cita_original": "il n'est point un seul Haïtien, dont l'âme soit assez froide, pour ne pas voler de suite à la défense du territoire ... et de maintenir au prix de leur sang l'indivisibilité du territoire haïtien, qui est la seule garantie de notre liberté et de notre indépendance",
+     "traduccion": "no hay un solo haitiano de alma tan fría que no acuda a defender el territorio ... y a mantener a precio de su sangre la indivisibilidad del territorio haitiano, que es la única garantía de nuestra libertad e independencia. (Doctrina enunciada por el presidente haitiano en plena campaña; ver también Rec. gén. t. VIII, pp. 283-285.)",
+     "afirmaciones": [
+      "A-125",
+      "A-126",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 132 (PDF p. 131), misma carta",
+     "cita_original": "ont fait un traité avec une nation étrangère, dont le but est de se détacher pour jamais du gouvernement de la République, en se constituant République fédérative, connue sous le nom de Dominicaine, moyennant de lui concéder la péninsule de Samana",
+     "traduccion": "han hecho un tratado con una nación extranjera, cuyo fin es separarse para siempre del gobierno de la República constituyéndose en República federativa, conocida con el nombre de Dominicana, a cambio de cederle la península de Samaná. (Hérard, 16-III-1844: acusación de protectorado/cesión, apoyada en la declaración de un tal Pimentel.)",
+     "afirmaciones": [
+      "A-127",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 133 (PDF p. 132)",
+     "cita_original": "moins pour objectif l'autonomie de la partie de l'Est que son détachement",
+     "traduccion": "[el movimiento dominicano, para nueve décimas de quienes lo provocaron, tenía] menos por objetivo la autonomía de la parte del Este que su desprendimiento [de la República de Haití]. Interpretación de Price-Mars, basada en los actos a Levasseur y en el Manifiesto (que calcula 'séparatiste'); no es un hecho verificado.",
+     "afirmaciones": [
+      "A-117",
+      "A-118",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 134 (PDF p. 133)",
+     "cita_original": "M. Duarte s'opposa avec la dernière énergie à la réalisation d'un pareil projet.",
+     "traduccion": "Duarte se opuso con la mayor energía a la realización de semejante proyecto (anexión de Samaná y protectorado francés, expuesto por Bobadilla el 9-VI-1844). Price-Mars añade que Puello y Duarte actuaron con tropas negras, que sus adversarios presentaron la acción como amenaza de preeminencia negra y que consideró su gesto la expresión 'más pura' del nacionalismo dominicano.",
+     "afirmaciones": [
+      "A-131",
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 135 (PDF p. 134)",
+     "cita_original": "le 12 juillet, le général victorieux fit son entrée solennelle dans la cité",
+     "traduccion": "el 12 de julio el general victorioso [Santana] hizo su entrada solemne en la ciudad (Price-Mars: «à la tête de ses troupes parmi lesquelles on comptait plus de deux mille noirs» y 'acclamé comme sauveur de la patrie').",
+     "afirmaciones": [
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 153 (PDF p. 152), proclamación de Pierrot «aux citoyens des départements de l'Est» (fecha dada por Price-Mars: «10 mars»)",
+     "cita_original": "l'unité nationale doit se reconstituer en dépit de toutes les intrigues, de toutes les suggestions perfides dont vous avez été les victimes. Je ne renoncerai jamais à l'indivisibilité du territoire haïtien",
+     "traduccion": "la unidad nacional debe reconstituirse a pesar de todas las intrigas y sugerencias pérfidas de las que habéis sido víctimas. Nunca renunciaré a la indivisibilidad del territorio haitiano. (Fecha incompatible: Pierrot fue presidente solo del 16-IV-1845 al 1-III-1846; la nota de Price-Mars remite a «Madiou, t. IV, p. 167», probable errata por t. VIII. [POR VERIFICAR la fecha].)",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 154 (PDF p. 153)",
+     "cita_original": "Le 1er janvier 1846, il annonça solennellement la prochaine ouverture de la campagne de l'Est.",
+     "traduccion": "El 1-I-1846 [Pierrot] anunció solemnemente la próxima apertura de la campaña del Este. Según Price-Mars, eso selló su presidencia: la burguesía y los militares conspiraron porque una nueva campaña era impopular (reclutamiento masivo; p. 155).",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 179 (PDF p. 178), informe de Benjamin E. Green (EE.UU.) citado en traducción por Price-Mars",
+     "cita_original": "L'objet de la guerre (haïtiano-dominicaine) est l'établissement d'une nation de pure race noire",
+     "traduccion": "El objeto de la guerra (haitiano-dominicana) es el establecimiento de una nación de pura raza negra en esta isla. Es la caracterización de un agente estadounidense, no una fuente haitiana; Price-Mars la cita para mostrar cómo se racializó la disputa. [Fecha exacta del informe: POR VERIFICAR; Manning 1935, pp. 46-60.]",
+     "afirmaciones": [
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 181 (PDF p. 180)",
+     "cita_original": "nul Chef d'Etat haïtien n'a porté plus haut le souci de défendre ce pays",
+     "traduccion": "ningún jefe de Estado haitiano ha llevado más alto el afán de defender este país [contra las codicias del extranjero]. Rehabilitación de Soulouque; Price-Mars añade que no excusa «la violence et la cruauté de quelques-uns de ses actes» y llama a su obstinación una defensa de la 'patrie nègre' frente a quienes querían convertir a los dominicanos en nación blanca.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 200 (PDF p. 199), genealogía publicada por el New-York Evening Post, 2-IX-1854 y reproducida por Price-Mars",
+     "cita_original": "est le fils d'un mulâtre de Hinche, qui fut l'esclave de don Miguel",
+     "traduccion": "[«Pedro Santana [OCR: Satana], Président de la République,»] es hijo de un mulato de Hinche, que fue esclavo de don Miguel [de la Cayo]; en 1801 se fueron a vivir al Seybo. Dato de prensa abolicionista estadounidense de 1854 (no fuente haitiana), citado para desmentir el 'mito' de la preponderancia blanca; la misma lista dice que Duvergé es «mulâtre né à Mirebalais et d'origine haïtienne».",
+     "afirmaciones": [
+      "A-131",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 204 (PDF p. 202)",
+     "cita_original": "le 24 décembre 1855, à Sabana Mula et, le 26 janvier 1856, à Sabana Larga",
+     "traduccion": "el 24-XII-1855 en Sabana Mula y el 26-I-1856 en Sabana Larga [el ejército de Soulouque sufrió nuevas derrotas]. Price-Mars da el 26 de enero para Sabana Larga y llama a Santomé «revers» del que «aucun historien n'a pu déterminer les causes»; el registro A-119 y Manigat dan el 24-I-1856 para Sabana Larga y el 22-XII-1855 para Santomé.",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, pp. 205-206 (PDF pp. 203-204)",
+     "cita_original": "revendiqué l'unité territoriale de l'île comme une partie de l'héritage de ses pères",
+     "traduccion": "reivindicó la unidad territorial de la isla como parte de la herencia de sus padres [Soulouque]; fue «le sens ultime de son obstination», cuyo único medio era la fuerza. Price-Mars añade que el fracaso «mit fin au vain rêve» de someter por la fuerza toda la isla (p. 204).",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 205 (PDF p. 203)",
+     "cita_original": "dans une exaltation de bovarysme collectif croit appartenir à la race blanche",
+     "traduccion": "[el dominicano,] en una exaltación de bovarismo colectivo, cree pertenecer a la raza blanca. Interpretación polémica de Price-Mars sobre la identidad racial dominicana en el contexto 1844-1855; es un juicio de significado, no un hecho.",
+     "afirmaciones": [
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 229 (PDF p. 220)",
+     "cita_original": "une coupure très nette de conception sur l'importance de l'unité politique et administrative de l'île",
+     "traduccion": "una ruptura muy neta de concepción sobre la importancia de la unidad política y administrativa de la isla (entre Geffrard y sus predecesores «de Toussaint Louverture à Faustin Ier»). Price-Mars: hasta Geffrard prevaleció en el Oeste la idea de que la indivisibilidad era indispensable para la seguridad del Gobierno y del pueblo.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-131",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M06",
+    "M09",
+    "M10",
+    "M13"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Obra con derechos (Price-Mars m. 1969): citas de su propia prosa limitadas a 15 palabras; los documentos de 1843-1856 que reproduce (Levasseur, Hérard, Imbert, Pierrot, acta de los siete) se citan hasta 60 palabras con ortografía corregida respecto al OCR (cursivas muy dañadas: «lellr», «Répllblique»). Discrepancias entre versiones haitianas del 19-III-1844 en Azua: Price-Mars (p. 8) = fracaso haitiano con retirada de ambos bandos; Hérard (Rec. gén. t. VIII, p. 295, 10-IV-1844) = los «rebeldes» huyeron; Léger (1907, p. 195) = Hérard «entered Azua in the first days of April»; Janvier (1886, p. 190) = Hérard seguía en Azua al saberse su caída en mayo. Rumor de la muerte de Hérard como causa de la retirada de Pierrot (pp. 11-12; testimonio de P. E. Curiel, 1881, y parte de Imbert). Sesgo conocido: indigenismo, lectura de seguridad de la doctrina, rehabilitación de Soulouque y generalizaciones raciales sobre los dominicanos (pp. 203-205, a tratar como interpretación)."
+  },
+  {
+   "titulo": "Éventail d'histoire vivante d'Haïti, t. II (Collection du CHUDAC, Port-au-Prince, 2002), anexo 23 «La question de l'Est de 1844 à 1859» (pp. 215-224), con pasajes de los caps. sobre 1843 (pp. 60-62) y t. I (p. 289)",
+   "autor": "Manigat, Leslie F.",
+   "anio": "2002",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/eventaildhistoir02mani",
+   "urls_alternativas": [
+    "https://archive.org/download/eventaildhistoir02mani/eventaildhistoir02mani_djvu.txt",
+    "https://archive.org/details/eventaildhistoir01mani"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Síntesis de un historiador-politólogo haitiano que cita documentos de la época (Levasseur) y obras de Price-Mars y Moya Pons y reconoce agravios dominicanos 'objetivamente fundados'; sin aparato de notas completo en el anexo y con cifras de segunda mano.",
+   "proveniencia": "Leslie F. Manigat, historiador y politólogo haitiano (la portada lo da como «ancien Président constitutionnel de la République d'Haïti»), publica en 2002 una recopilación de sus estudios; el anexo 23 reproduce un texto de enseñanza/consulta sobre «la question de l'Est» (el índice del tomo lo describe como 'conflit territorial litigieux'). Escribe desde Haití para lectores haitianos, con distancia crítica hacia Boyer y hacia Soulouque y atención al conflicto color/clase. No consultó archivos dominicanos: apoya los hechos de armas en Price-Mars y en Moya Pons (Manual de historia dominicana) y los documentos franceses en citas de Levasseur.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, p. 215 (anexo 23)",
+     "cita_original": "l'indivisibilité de l'île, thèse géo-stratégique à l'évidence",
+     "traduccion": "la indivisibilidad de la isla, tesis geoestratégica con toda evidencia. Para Manigat nace de la ventaja demográfica y económica de la parte occidental y de la 'exigencia de fusión identitaria nacional como imperativo geoestratégico de supervivencia'; toma cuerpo con Basilea y Toussaint y se proclama para toda la isla en 1804.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 216",
+     "cita_original": "pour des raisons stratégiques de défense et de sécurité nationale",
+     "traduccion": "[los haitianos rechazaron la secesión dominicana 'per fas et nefas'] por razones estratégicas de defensa y de seguridad nacional. Manigat habla de 'trente ans de guerres et de tractations' y de un Tratado de 1874 que solo entonces legaliza la separación.",
+     "afirmaciones": [
+      "A-126",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 217",
+     "cita_original": "gestion haïtienne défectueuse de la partie de l'Est",
+     "traduccion": "gestión haitiana defectuosa de la parte del Este. Manigat afirma que de ella nació la convicción dominicana de que su lugar ya no estaba en el conjunto insular, y añade que la crítica a la 'dominación' haitiana 'est objectivement fondée' en la calidad de la administración de Boyer. Enumera agravios (haitianización de cargos, tierras, lengua, universidad, composición étnica, religión).",
+     "afirmaciones": [
+      "A-118",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 218",
+     "cita_original": "l'Est a réussi sa sécession définitive car il s'agissait bien de nationalisme",
+     "traduccion": "el Este logró su secesión definitiva porque se trataba verdaderamente de nacionalismo (frente al intento de escisión del Norte haitiano en 1843, que fue 'régionalisme' y se atajó con una maniobra política). Distinción haitiana entre escisión regional y secesión nacional; apoya parcialmente A-118 (calificación de 'scission') pero la matiza.",
+     "afirmaciones": [
+      "A-118",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 218, informe de Levasseur a Guizot, 7-VII-1844 (citado por Manigat)",
+     "cita_original": "La classe de couleur surtout exprimait hautement la satisfaction qu'elle éprouvait en voyant qu'il était permis d'espérer qu'un asile lui serait bientôt ouvert au milieu des espagnols contre la violence des noirs.",
+     "traduccion": "La clase de color sobre todo expresaba en voz alta la satisfacción de ver que cabía esperar que se le abriera pronto un asilo entre los españoles contra la violencia de los negros. Para Manigat, parte de la sociedad haitiana del Oeste era 'de connivence' con los insurgentes del Este; fuente primaria francesa (1844) leída a través de un historiador haitiano; Levasseur es parte interesada.",
+     "afirmaciones": [
+      "A-127",
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. II, pp. 218-219 (apartado «le plan Levasseur»)",
+     "cita_original": "",
+     "traduccion": "Paráfrasis de Manigat: el 'plan Levasseur' era un 'nœud d'intrigues' de Levasseur y Juchereau de Saint-Denys, sin aval previo del Quai d'Orsay, para (1) imponer a Haití el reconocimiento de la secesión a cambio de Samaná y protectorado, (2) exigir un gaje territorial (Môle Saint-Nicolas o Gonâve) por la doble deuda impagada, (3) llevar toda la isla a la dependencia francesa; el Ministerio francés lo vetó. Afirma que el cónsul 'subodorait' la secesión desde 1838 y la preparaba desde 1842. Aceptado por los nuevos dirigentes dominicanos 'en ce qui les concernait'.",
+     "afirmaciones": [
+      "A-127",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 220",
+     "cita_original": "leur existence nationale impliquait une seule souveraineté dans l'Ile, à l'exclusion de toute allégeance étrangère",
+     "traduccion": "[para los haitianos independientes] su existencia nacional implicaba una sola soberanía en la isla, con exclusión de toda lealtad extranjera. Es la razón que Manigat da a las 'cuatro campañas militares' de Hérard, Pierrot y Soulouque (nota (2) remite a una enumeración de 1844, 1845, 1849 y 1855-56).",
+     "afirmaciones": [
+      "A-125",
+      "A-126",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 221",
+     "cita_original": "17 septembre à la Estrellita et 27 octobre 1845 à Bêler",
+     "traduccion": "17-IX-1845 en La Estrelleta y 27-X-1845 en Beler (batallas terrestres) y combate naval del 21-XII-1845 ante Puerto Plata, tras los cuales Pierrot fue depuesto 'par ses adversaires politiques qui étaient aussi les adversaires de la guerre'. En Santiago (30-III-1844) Manigat cuenta 715 muertos haitianos frente a uno dominicano, apoyado en Price-Mars y Moya Pons; anota la 'séparation du 17 février 1844' (¿errata por 27?).",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 222",
+     "cita_original": "Santomé le 22 décembre 1855 qui occasionna la mort de 695 soldats haïtiens",
+     "traduccion": "Santomé el 22-XII-1855, con 695 soldados haitianos muertos; Las Carreras (21-IV-1849) fue «défaite humiliante»; Sabana Larga el 24-I-1856 dejó 'innombrables' víctimas según el Manual de Moya Pons. Manigat atribuye a Jacques N. Léger las frases «une hécatombe de nos troupes» y «Notre Waterloo» para Las Carreras (no halladas en la edición inglesa de 1907 leída aquí: [POR VERIFICAR] en la edición francesa).",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 223",
+     "cita_original": "un bilan d'acquisition territoriale confirmée et légitimée au Plateau Central",
+     "traduccion": "un balance de adquisición territorial confirmada y legitimada en el Plateau Central [Hinche, Las Caobas]. Manigat recoge la valoración noirista (D. Fignolé, Escuela de los Griots) de la política dominicana de Soulouque y concluye que su balance 'n'a pas été que totalement négatif'. Muestra la disputa interna haitiana sobre la figura de Soulouque.",
+     "afirmaciones": [
+      "A-125",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 224 (cita de Price-Mars)",
+     "cita_original": "l'indivisibilité du territoire de l'île d'Haiti était indispensable pour défendre la sécurité du gouvernement",
+     "traduccion": "la indivisibilidad del territorio de la isla de Haití era indispensable para defender la seguridad del gobierno [y del pueblo]. Manigat cierra con el 'tournant Geffrard': desde Geffrard Haití abandona la estrategia de unidad indivisible 'même par la guerre' (ver Price-Mars, F-0109, p. 229).",
+     "afirmaciones": [
+      "A-126",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 61",
+     "cita_original": "parle d'une simple « agrégation »",
+     "traduccion": "[el Manifiesto de Independencia de los dominicanos de 1844] habla de una simple «agregación». Manigat lee el 16-I-1844 como 'Manifeste d'Indépendance' (término suyo) pero señala que el texto dice 'agrégation'; y en p. 62 resume que la revolución de 1843 'se soldará a l'Ouest par un changement de gouvernement, et à l'Est par un changement d'État'.",
+     "afirmaciones": [
+      "A-116",
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 289, informe de Levasseur a Guizot, 7-VII-1844 (citado por Manigat)",
+     "cita_original": "L'opinion publique et le cabinet de Port-au-Prince lui-même nous conviaient à faire de la partie espagnole un lieu d'asile pour la classe de couleur menacée par la colère des noirs",
+     "traduccion": "La opinión pública y el propio gabinete de Puerto Príncipe nos invitaban a hacer de la parte española un lugar de asilo para la clase de color amenazada por la cólera de los negros. Manigat lo usa para ilustrar la 'peur de classe' haitiana (color) en 1844; el ministro haitiano Dupuy habría evitado tomar 'l'initiative de l'abandon du territoire espagnol'.",
+     "afirmaciones": [
+      "A-127",
+      "A-129"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10",
+    "M11"
+   ],
+   "id_existente": "F-0113",
+   "notas": "Obra con derechos: citas de Manigat limitadas a 15 palabras; las de Levasseur (1844) son de dominio público. Las páginas se dedujeron de los números a pie de página del OCR (el anexo 23 ocupa pp. 215-224; título y numeración exacta del inicio [POR VERIFICAR]). El anexo 23 es de factura docente y sin notas completas; sus cifras (715 muertos en Santiago, 695 en Santomé) vienen de Price-Mars y de Moya Pons, no de documentos primarios. Sesgo/posición: noirismo matizado, crítico de Boyer, con reconocimiento explícito de agravios dominicanos y de la 'peur de classe' haitiana; usa 'invasion' entre comillas y 'sécession' para 1844, 'agrégation' para 1822-1843. Manigat no sitúa la 'una e indivisible' como expansionismo sino como doctrina de defensa (A-126), pero admite que se aplicó 'per fas et nefas'. Hay otro pasaje relevante en t. I, anexo 7 ('agrégation') que ya registró la ronda M08."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, suivies de la vie du général J.-M. Borgella, t. XI (Paris, 1860; Donnaud), notas sobre la «République Dominicaine» en el relato de 1843",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1860",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/etudessurlhistoi11ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/etudessurlhistoi11ardo/etudessurlhistoi11ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador-protagonista bien documentado, pero políticamente comprometido (boyerista, tradición 'mulâtriste') y con el t. XI cerrado en 1843: solo ofrece notas de 1860 sobre la secesión, no la narración de las guerras de 1844-1856.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), historiador y político haitiano; en 1847 presidía el Senado y propuso a Soulouque (según la ficha de la embajada de Haití en Francia). Publica en París, en 1853-1860, once tomos que combinan documentos y memoria personal, con notas escritas después de 1844. Vio de primera mano la caída de Boyer (testigo en el palacio, 12-III-1843). El t. XI termina con la revolución de Praslin; lo relativo a 1844 aparece solo en notas retrospectivas.",
+   "extractos": [
+    {
+     "ubicacion": "t. XI, p. 265, n. 1 (l. 10938-10941 del _djvu.txt de archive.org)",
+     "cita_original": "Si la nationalité haïtienne n'a pas été anéantie, elle a été du moins compromise par la séparation des départemens de l'Est, érigés en « République Dominicaine. »",
+     "traduccion": "Si la nacionalidad haitiana no fue aniquilada, fue al menos comprometida por la separación de los departamentos del Este, erigidos en «República Dominicana». (Ardouin, 1860, usa 'séparation'.)",
+     "afirmaciones": [
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "t. XI, pp. 294-295, n. 1 (l. 12085-12127 del _djvu.txt)",
+     "cita_original": "En changeant la dénomination de « République d'Haïti » en celle de « République Haïtienne », le chef de l'Opposition créa malgré lui une « République Dominicaine » sur le territoire de l'île. Il ignorait les idées et les vrais sentimens qui existaient depuis quelque temps dans les départemens de l'Est.",
+     "traduccion": "Al cambiar la denominación de «República de Haití» por la de «República Haitiana», el jefe de la Oposición [Hérard Dumesle] creó a pesar suyo una «República Dominicana» en el territorio de la isla. Ignoraba las ideas y los verdaderos sentimientos que existían desde hacía algún tiempo en los departamentos del Este. (Lectura boyerista: la secesión como efecto no querido de la revolución de 1843; no usa 'independencia'.)",
+     "afirmaciones": [
+      "A-117",
+      "A-118",
+      "A-130"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-130"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0107",
+   "notas": "Texto de 1860 en dominio público; ortografía original conservada ('départemens', 'sentimens'); el OCR de archive.org distorsiona acentos. Ardouin t. XI cubre 1838-1843 (capítulos hasta la salida de Boyer); no narra las guerras de 1844-1856. Para el 'plan Levasseur' remite Price-Mars a Ardouin t. XI, pp. 146-159 (conducta de Levasseur en 1841-42 y su retirada: l. 6558-6700 del _djvu.txt) [no cotejado con la tesis de 1844]. La nota de la p. 265 es el único pasaje haitiano de 1860 que califica el hecho como 'separación' en un historiador clásico; la p. 295 lo atribuye a un efecto no querido del cambio de nombre del Estado ('République Haïtienne') en 1843."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti et documents historiques (1843-1845), Collection Linstant Pradine, t. VIII, ed. Emmanuel Édouard (Paris/Port-au-Prince, 1888): proclamaciones, órdenes y partes de Hérard, Guerrier y el Gobierno sobre la secesión del Este",
+   "autor": "Édouard, Emmanuel (ed.); Linstant Pradine, B. (colección); Gobierno de Haití (actos de Hérard, Guerrier, J. Paul, Céligny Ardouin)",
+   "anio": "1844-1845 (actos); 1888 (edición)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral00hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral00hait/recueilgnral00hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial de actos publicados por el propio Gobierno haitiano, con texto de época íntegro; el OCR es defectuoso (acentos) y las páginas se deducen de cabeceras a veces ilegibles.",
+   "proveniencia": "Actos del Gobierno provisional de 1843, de Hérard (1844) y de Guerrier (1844-45) reunidos por Emmanuel Édouard 'en vertu d'une décision du Conseil des Secrétaires d'État' (portada del volumen) dentro de la Collection Linstant Pradine. Son documentos de propaganda y gobierno dirigidos al pueblo, al ejército y a los 'citoyens de l'Est': muestran cómo el Estado haitiano nombraba la secesión (scission, rébellion, détacher) y justificaba la guerra. Autor de cada acto: Hérard (12-III y 10-IV-1844), Guerrier (23-V, 12-VI, 19-VI, 21-VII, 5-XII-1844) y los ministros J. Paul, Hérard-Dumesle e Hippolyte.",
+   "extractos": [
+    {
+     "ubicacion": "t. VIII, p. 277, orden del día de Hérard, Puerto Príncipe, 9-III-1844 (l. 16650-16672 del _djvu.txt)",
+     "cita_original": "étouffer, à son berceau, l'hydre de la discorde qui a osé lever sa tête dans la partie de l'Est, et proclamer une funeste scission",
+     "traduccion": "ahogar en su cuna la hidra de la discordia que se atrevió a levantar la cabeza en la parte del Este y a proclamar una funesta escisión.",
+     "afirmaciones": [
+      "A-117",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 282 (proclamación de Hérard, Lascahobas, 12-III-1844; l. 16920-16930)",
+     "cita_original": "les idées d'une scission qui tourmentait depuis plus de vingt années des hommes occupés de la pensée de réaliser la chimère d'une république dominicaine, en la plaçant sous le protectorat de l'étranger",
+     "traduccion": "las ideas de una escisión que atormentaba desde hacía más de veinte años a hombres ocupados en realizar la quimera de una república dominicana, colocándola bajo el protectorado del extranjero. (Hérard acusa de protectorado desde el inicio; ver Levasseur.)",
+     "afirmaciones": [
+      "A-127",
+      "A-128",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 283 (misma proclamación; l. 16943-16948)",
+     "cita_original": "ne firent qu'ajourner le projet de rompre l'indivisibilité de la République et de lui ravir cette belle portion de son territoire qui s'étend du littoral des Anses-à-Pitre jusqu'aux confins de Monte-Christ",
+     "traduccion": "no hicieron sino aplazar el proyecto de romper la indivisibilidad de la República y de arrebatarle esa hermosa porción de su territorio que va desde el litoral de Anses-à-Pitre hasta los confines de Monte Cristi.",
+     "afirmaciones": [
+      "A-124",
+      "A-125",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 284 (misma proclamación; l. 16988-16991)",
+     "cita_original": "et le 27 février, la partie de l'Est déclare se détacher de la République",
+     "traduccion": "y el 27 de febrero la parte del Este declara desprenderse de la República. (Verbo del Estado haitiano: 'se détacher'; en la misma proclamación, 'scission', 'dissidents', 'rebelles'.)",
+     "afirmaciones": [
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 285 (misma proclamación; l. 17030-17047)",
+     "cita_original": "si cette ville rebelle méconnaît la voix de la sagesse, si elle appelle l'intervention de l'étranger, je déplorerai la triste nécessité où elle m'aura placé, et je n'hésiterai pas à employer la force",
+     "traduccion": "si esa ciudad rebelde desconoce la voz de la sabiduría y llama a la intervención del extranjero, deploraré la triste necesidad en que me haya puesto y no vacilaré en emplear la fuerza. Termina con «Vive la République, une et indivisible !» y anuncia 30.000 hombres.",
+     "afirmaciones": [
+      "A-119",
+      "A-125",
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 295-296, proclamación de Hérard, cuartel general de Azua, 10-IV-1844 (l. 17575-17600)",
+     "cita_original": "les rebelles qui se flattaient de nous y arrêter n'ont pas plutôt déchargé leur artillerie qu'éperdus, ils cherchent leur salut dans la fuite, abandonnant leurs provisions, leur poudre, leurs lances, leurs canons encore chargés. Cette journée du 19 mars a révélé le délire qui pousse ces insensés à la révolte",
+     "traduccion": "los rebeldes que presumían detenernos no bien dispararon su artillería, perdidos buscan su salvación en la fuga, abandonando provisiones, pólvora, lanzas y cañones aún cargados. Esa jornada del 19 de marzo ha revelado el delirio que empuja a esos insensatos a la revuelta. (Versión oficial haitiana de Azua: victoria; contrasta con Price-Mars, p. 8, y con las fuentes dominicanas.)",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 295-296 (misma proclamación; l. 17596-17598)",
+     "cita_original": "Souffrirez-vous que notre territoire, vingt-deux ans indivisé, soit en proie à une funeste scission ?",
+     "traduccion": "¿Soportaréis que nuestro territorio, indiviso durante veintidós años, sea presa de una funesta escisión? (Argumento de seguridad: 'l'agression de toute puissance que la cupidité pousserait à envahir la malheureuse Haïti'.)",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 332, arrêté de Guerrier, 23-V-1844 (l. 19491-19511)",
+     "cita_original": "l'incendie d'Azua et d'une partie de Saint-Jean, lors de la retraite de l'armée, est un acte odieux dont le gouvernement ne peut assumer la responsabilité",
+     "traduccion": "el incendio de Azua y de una parte de San Juan durante la retirada del ejército es un acto odioso del que el gobierno no puede asumir la responsabilidad. Ordena investigar y perseguir a los autores. Reconocimiento oficial haitiano de la destrucción de poblaciones del Este en la campaña de Hérard.",
+     "afirmaciones": [
+      "A-119",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 340-341, informe de Céligny Ardouin al secretario de Estado, 7-VI-1844 (l. 19845-19925)",
+     "cita_original": "C'eût été une reconnaissance implicite de l'état de choses",
+     "traduccion": "Habría sido un reconocimiento implícito del estado de cosas [aceptar dirigir su carta a la «Junte centrale gouvernative»]. El enviado haitiano a Santo Domingo (26-V a 5-VI-1844) se negó, no fue recibido y solo recogió 132 prisioneros haitianos. Prueba de no reconocimiento por vía diplomática en 1844.",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 344-345, proclamación de Guerrier «aux habitants de la partie de l'Est», 12-VI-1844 (l. 20085-20160)",
+     "cita_original": "je flétris, au nom de l'honneur national, l'incendie d'Azua et de Saint-Jean, et le pillage exercé dans la dernière campagne de l'Est",
+     "traduccion": "condeno, en nombre del honor nacional, el incendio de Azua y San Juan y el pillaje ejercido en la última campaña del Este. En la misma proclamación: «En attendant que le temps eût décidé de la question qui nous divise» y «les véritables intérêts du pays résident dans l'unité nationale».",
+     "afirmaciones": [
+      "A-119",
+      "A-133",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 346 (misma proclamación; l. 20137-20160)",
+     "cita_original": "les Juan Sánchez de Ramírez, les Espinosa, les Cyriaco Ramírez, les Núñez de Cáceres, trouveraient encore parmi vous, à l'occasion, de dignes émules",
+     "traduccion": "[vuestro amor al suelo natal] garantiza que los Juan Sánchez Ramírez, los Espinosa, los Ciriaco Ramírez, los Núñez de Cáceres encontrarían aún entre vosotros, llegado el caso, dignos émulos. Guerrier invoca a los antecedentes dominicanos de resistencia a dominación extranjera para pedir que no se atente contra la independencia; cierra con «Vive l'indivisibilité de la République haïtienne !».",
+     "afirmaciones": [
+      "A-125",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 347-348, proclamación de Guerrier «aux habitants du Nord», 19-VI-1844 (l. 20205-20280)",
+     "cita_original": "Dans l'Est d'iniques procédés dont les départements de l'Ozama et du Cibao avaient, pendant vingt ans, été victimes, venaient de provoquer une réaction qui poussait des hommes ardents à réclamer une séparation",
+     "traduccion": "En el Este, procedimientos inicuos de los que los departamentos del Ozama y del Cibao habían sido víctimas durante veinte años acababan de provocar una reacción que empujaba a hombres ardientes a reclamar una separación. El presidente haitiano reconoce oficialmente agravios del Este (1822-1843) y usa 'séparation', no 'indépendance'.",
+     "afirmaciones": [
+      "A-118",
+      "A-135",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 397-398, «Proclamation sur l'état de la République», Guerrier, Puerto Príncipe, 21-VII-1844 (l. 22586-22690)",
+     "cita_original": "le prochain ralliement au drapeau un et indivisible de la République de nos frères qu'un système trop longuement inique et décevant avait entraînés à la funeste pensée de rompre l'unité nationale",
+     "traduccion": "la próxima reunión bajo la bandera una e indivisible de la República de nuestros hermanos a quienes un sistema demasiado tiempo inicuo y decepcionante había llevado al funesto pensamiento de romper la unidad nacional. (Optimismo oficial sobre 'réactions subites et salutaires' en el Este.)",
+     "afirmaciones": [
+      "A-118",
+      "A-125",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, pp. 447-448, «Proclamation qui appelle les Haïtiens absents», Guerrier, 5-XII-1844 (l. 25405-25475)",
+     "cita_original": "le rendez-vous de l'homme noir et jaune de toutes les parties du monde",
+     "traduccion": "el punto de encuentro del hombre negro y amarillo de todas las partes del mundo [definición de la patria haitiana: no 'l'héritage exclusif' de los descendientes de los fundadores]. Concepción racial de la ciudadanía haitiana en 1844 (coherente con arts. 5-7 de 1846 y 6-8 de 1843).",
+     "afirmaciones": [
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 449, proclamación de Guerrier a sus conciudadanos, 5-XII-1844 (l. 25430-25520)",
+     "cita_original": "les rebelles qui tentent en vain de porter atteinte à l'indivisibilité de son territoire",
+     "traduccion": "los rebeldes que intentan en vano atentar contra la indivisibilidad de su territorio. Anuncia 'le déploiement de nos armes contre les ennemis de l'unité nationale' y que varios 'frères de l'Est' expían ya en 'rigoureux bannissement' su error (referente no identificado en el texto; podría aludir al destierro de dominicanos por el Gobierno de Santana en 1844 [POR VERIFICAR]); cierra «Vive l'indivisibilité nationale !».",
+     "afirmaciones": [
+      "A-125",
+      "A-131",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "t. VIII, p. 529 (aprox.), «Rapport ... sur l'affaire Tisserand», Port-au-Prince, 28-III-1845 (l. 29211, 29498-29505)",
+     "cita_original": "Et de ce que les citoyens du département de l'Est de la République aient prononcé une séparation (qui ne peut être que momentanée) de leurs concitoyens des autres départements, s'ensuit-il que la Cour de Rome soit autorisée à faire cette inconcevable distinction de territoire ?",
+     "traduccion": "Y porque los ciudadanos del departamento del Este hayan pronunciado una separación (que solo puede ser momentánea) de sus conciudadanos de los demás departamentos, ¿se sigue que la Corte de Roma esté autorizada a hacer esa inconcebible distinción de territorio? (Informe oficial de 1845 sobre un breve papal; el Estado haitiano habla de 'séparation momentanée'.)",
+     "afirmaciones": [
+      "A-117",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-124",
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128",
+    "A-129",
+    "A-131",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0065",
+   "notas": "F-0065 es una fila compuesta (Dumont, Cantillo, Linstant Pradine, CODOIN); aquí se resuelve la parte Recueil Linstant Pradine, t. VIII (identificador archive.org recueilgnral00hait; numeración de archive.org: 00 = t. VIII, 1843-1845, ed. Édouard 1888). Citas de 1844-45 en dominio público, con ortografía y acentos corregidos respecto al OCR (cotejar con las líneas indicadas del _djvu.txt). Las páginas se deducen de las cabeceras OCR ('— 283 — Mars 1844'); varias cabeceras son ilegibles, por eso algunas páginas son aproximadas. Sesgo: documentos de propaganda oficial; 'rebelles', 'insurgés', 'scission' son términos de parte, no descripciones. Hallazgos para el corpus: (1) el Gobierno haitiano de Guerrier reconoce públicamente agravios del Este y condena los incendios de Azua y San Juan (A-135, A-119); (2) en 1844-45 el vocabulario oficial es 'séparation', 'se détacher', 'scission', no 'sécession' ni 'indépendance'; (3) el 5-XII-1844 el Estado define la ciudadanía como 'homme noir et jaune' (A-129). No contiene (en lo leído) decretos haitianos sobre bienes de dominicanos (A-134)."
+  },
+  {
+   "titulo": "Constitution d'Haïti du 14/15 de noviembre de 1846 (Digithèque MJP): título I «Du territoire de la République» y título II «Des Haïtiens et de leurs droits»",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1846",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1846.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1846-2/",
+    "https://archive.org/details/lesconstitutions00hait"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 1 (título I)",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de la République.",
+     "traduccion": "La isla de Haití y las islas adyacentes que de ella dependen forman el territorio de la República.",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "art. 4",
+     "cita_original": "La République d'Haïti est une et indivisible, essentiellement libre, souveraine et indépendante. Son territoire est inviolable, et ne peut être aliéné par aucun traité.",
+     "traduccion": "La República de Haití es una e indivisible, esencialmente libre, soberana e independiente. Su territorio es inviolable y no puede ser enajenado por ningún tratado. (La cláusula de inalienabilidad por tratado es sustantiva para la lectura de seguridad y para los tratados de 1874.)",
+     "afirmaciones": [
+      "A-124",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "art. 5",
+     "cita_original": "Sont Haïtiens, tous individus nés en Haïti et descendant d'Africains ou d'Indiens, et tous ceux nés en pays étranger d'un Haïtien ou d'une Haïtienne.",
+     "traduccion": "Son haitianos todos los individuos nacidos en Haití y descendientes de africanos o de indios, y todos los nacidos en país extranjero de padre o madre haitianos. (Definición racial/ancestral de la ciudadanía: contraste útil con el art. 7 de la Constitución dominicana de 1844 [A-120, A-129].)",
+     "afirmaciones": [
+      "A-129"
+     ]
+    },
+    {
+     "ubicacion": "art. 7",
+     "cita_original": "Aucun blanc, quelle que soit sa nation, ne pourra mettre le pied sur le territoire haïtien à titre de maître ou de propriétaire, et ne pourra, à l'avenir, y acquérir aucun immeuble, ni la qualité d'Haïtien.",
+     "traduccion": "Ningún blanco, sea cual fuere su nación, podrá poner pie en el territorio haitiano a título de amo o propietario ni adquirir en el futuro inmueble alguno ni la calidad de haitiano. (Cláusula que, según la ficha de la embajada de Haití, inquietó a los diputados del Este en 1843.)",
+     "afirmaciones": [
+      "A-129",
+      "A-132"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-125",
+    "A-126",
+    "A-129",
+    "A-132"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "F-0041",
+   "notas": "Fecha: la MJP la titula '15 novembre 1846'; la transcripción de Gaffield (haitidoi.com, sobre el impreso de Courtois, 1846) y Janvier dan 'Fait en la Maison Nationale ... le 14 Novembre 1846' (votación) y 'Donné au Palais National ... le 15 Novembre 1846' (promulgación). La Constitución de 1846 es la que restablecen los insurgentes de los Gonaïves en 1859 (con modificaciones de 18-VII-1859 que no tocan el título I; cf. haitidoi.com/constitutions/1859-2/). No hay en el texto ninguna alusión explícita a la parte este ni a la República Dominicana: la reclamación territorial se hace por la fórmula 'L'île d'Haïti' del art. 1. Resuelve F-0041 (antes solo fragmento de búsqueda)."
+  },
+  {
+   "titulo": "Constitution du Second Empire d'Haïti, 20 de septiembre de 1849 (Digithèque MJP): título I «Du territoire de l'Empire»",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1849",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1849.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1849-2/",
+    "https://archive.org/details/lesconstitutions00hait"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 1 (título I)",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de l'Empire.",
+     "traduccion": "La isla de Haití y las islas adyacentes que de ella dependen forman el territorio del Imperio.",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "art. 4",
+     "cita_original": "L'Empire d'Haïti est un et indivisible, essentiellement libre, souverain et indépendant. Son territoire est inviolable, et ne peut être aliéné par aucun traité.",
+     "traduccion": "El Imperio de Haití es uno e indivisible, esencialmente libre, soberano e independiente. Su territorio es inviolable y no puede ser enajenado por ningún tratado. (Reproduce la fórmula de 1846 sustituyendo 'République' por 'Empire'; se promulga tras la primera campaña de 1849 y antes de la de 1855.)",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "art. 7",
+     "cita_original": "Aucun blanc, quelle que soit sa nation, ne pourra mettre le pied sur le territoire haïtien à titre de maître ou de propriétaire",
+     "traduccion": "Ningún blanco, sea cual fuere su nación, podrá poner pie en el territorio haitiano a título de amo o propietario.",
+     "afirmaciones": [
+      "A-129"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-125",
+    "A-129"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Fechas según haitidoi.com (Gaffield): votada por la Chambre el 17-IX-1849 (y 19-IX), promulgada por el emperador el 20-IX-1849, 'an 46e de l'Indépendance et de l'Empire le premier'. La proclamación del imperio es del 25-26-28 de agosto de 1849 según fuentes (Le Moniteur, 1-IX-1849; Léger da 29-VIII). Fuente nueva para el registro (sin F- previo)."
+  },
+  {
+   "titulo": "Constitution d'Haïti du 30 de diciembre de 1843 (Digithèque MJP): título I y II",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1843.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1843-2/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 1",
+     "cita_original": "L'île d'Haïti et les îles adjacentes qui en dépendent forment le territoire de la République.",
+     "traduccion": "La isla de Haití y las islas adyacentes que de ella dependen forman el territorio de la República. (Confirma el texto territorial de 1843, que en A-124 figuraba como [POR VERIFICAR].)",
+     "afirmaciones": [
+      "A-124"
+     ]
+    },
+    {
+     "ubicacion": "art. 5",
+     "cita_original": "La République Haïtienne est une et indivisible, essentiellement libre, souveraine et indépendante. Son territoire est inviolable et ne peut être aliéné par aucun traité.",
+     "traduccion": "La República Haitiana es una e indivisible... (Nombre oficial: 'République Haïtienne', cambio de denominación que Ardouin, t. XI, p. 295, n. 1, asocia a la 'création' de la República Dominicana.)",
+     "afirmaciones": [
+      "A-124"
+     ]
+    },
+    {
+     "ubicacion": "art. 8",
+     "cita_original": "Aucun blanc ne pourra acquérir la qualité d'Haïtien ni le droit de posséder aucun immeuble en Haïti.",
+     "traduccion": "Ningún blanco podrá adquirir la calidad de haitiano ni el derecho de poseer inmueble alguno en Haití. (Según la ficha de la embajada de Haití, los diputados del Este que participaron en la redacción se inquietaron por este rechazo de los extranjeros blancos.)",
+     "afirmaciones": [
+      "A-129",
+      "A-132"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-129",
+    "A-132"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0037",
+   "notas": "Texto íntegro leído (arts. 1-8). Resuelve la laguna de A-124 sobre 1843. La ronda M08 ya lo había registrado para F-0037; aquí se añade el uso para M09. No se han cotejado las firmas de los diputados del Este (lo hizo M08: ni Báez ni otros figuran en la lista de Janvier, p. 186)."
+  },
+  {
+   "titulo": "Constitution d'Haïti révisée du 2 de junio de 1816 (Digithèque MJP): arts. 38-42",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1816",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1816.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1816-2/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 40",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent, forment le territoire de la République.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República.",
+     "afirmaciones": [
+      "A-124"
+     ]
+    },
+    {
+     "ubicacion": "art. 41",
+     "cita_original": "La République d'Haïti est une et indivisible ; son territoire est divisé en départements, savoir : les départements du Sud, de l'Ouest, de l'Artibonite et du Nord",
+     "traduccion": "La República de Haití es una e indivisible; su territorio se divide en departamentos, a saber: Sur, Oeste, Artibonito y Norte. (Los cuatro departamentos son los de la ley de 10-VII-1801; el texto no cita la parte española.)",
+     "afirmaciones": [
+      "A-124"
+     ]
+    },
+    {
+     "ubicacion": "art. 38",
+     "cita_original": "Aucun blanc, quelle que soit sa nation, ne pourra mettre le pied sur ce territoire à titre de maître ou de propriétaire.",
+     "traduccion": "Ningún blanco, sea cual fuere su nación, podrá poner pie en este territorio a título de amo o propietario. (Antecedente de la cláusula racial; Wesner Emmanuel, citado por González Canalda, 2019, p. 104, la menciona como motivo de agravio del Este.)",
+     "afirmaciones": [
+      "A-129"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-129"
+   ],
+   "modulos": [
+    "M07",
+    "M09"
+   ],
+   "id_existente": "F-0033",
+   "notas": "El A-124 cita 'arts. 40-41' para 1816: confirmado. La Constitución de 1816 fue la base legal del Estado haitiano hasta 1843 y restablecida de facto por Guerrier en 1844-45 (ficha de la embajada de Haití). Resuelve F-0033 (antes solo snippet en inglés)."
+  },
+  {
+   "titulo": "Constitution impériale d'Haïti du 20 de mayo de 1805 (Digithèque MJP): arts. 15-18",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1805",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1805.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1805-2/",
+    "https://www.college.columbia.edu/sites/default/files/1805%20Haitian%20Constitution.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "«Déclaration préliminaire», art. 1",
+     "cita_original": "Le peuple habitant l'île ci-devant appelée Saint-Domingue, convient ici de se former en État libre, souverain et indépendant de toute autre puissance de l'univers, sous le nom d'Empire d'Haïti.",
+     "traduccion": "El pueblo que habita la isla antes llamada Saint-Domingue acuerda constituirse en Estado libre, soberano e independiente de toda otra potencia del universo, bajo el nombre de Imperio de Haití. (Fundamento textual de que el Estado de 1805 se constituye por 'le peuple habitant l'île', sin excluir la parte española.)",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "art. 15",
+     "cita_original": "L'Empire d'Haïti est un et indivisible ; son territoire est distribué en six divisions militaires.",
+     "traduccion": "El Imperio de Haití es uno e indivisible; su territorio se distribuye en seis divisiones militares.",
+     "afirmaciones": [
+      "A-124"
+     ]
+    },
+    {
+     "ubicacion": "art. 18",
+     "cita_original": "Sont parties intégrantes de l'Empire les îles ci-après désignées : Samana, la Tortue, la Gonâve, les Cayemites, l'île à Vache, la Saône, et autres îles adjacentes.",
+     "traduccion": "Son partes integrantes del Imperio las islas siguientes: Samaná, la Tortuga, la Gonâve, los Cayemites, la isla de las Vacas, la Saona y otras islas adyacentes. (Confirma 'Saona' del A-124; 'Samaná' aquí designa la isla/península del nombre, sin enumerar la parte española.)",
+     "afirmaciones": [
+      "A-124"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-125"
+   ],
+   "modulos": [
+    "M06",
+    "M09"
+   ],
+   "id_existente": "F-0029",
+   "notas": "El texto de 1805 constituye el Estado por 'le peuple habitant l'île ci-devant appelée Saint-Domingue' (Déclaration préliminaire, art. 1), declara el Imperio 'un et indivisible' (art. 15) y enumera 'Samana' y 'la Saône' como islas integrantes (art. 18); la fórmula de territorio 'L'île d'Haïti ... et les îles adjacentes' como definición del territorio aparece en 1806 (art. 29) y se repite en 1816, 1843, 1846 y 1849. Resuelve F-0029 (antes solo localizada/bloqueada)."
+  },
+  {
+   "titulo": "Constitution de la République d'Haïti du 27 de diciembre de 1806 (Digithèque MJP): arts. 29-30",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1806",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1806.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1806-2/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 29",
+     "cita_original": "L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent forment le territoire de la République d'Haïti.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue) con las islas adyacentes que de ella dependen forman el territorio de la República de Haití.",
+     "afirmaciones": [
+      "A-124"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M09"
+   ],
+   "id_existente": "F-0032",
+   "notas": "Número de artículo confirmado: 29 (F-0032 lo tenía 'sin confirmar'). El art. 30 divide el territorio en cuatro departamentos (Sur, Oeste, Artibonito, Norte). El texto de 1806 no contiene la fórmula 'une et indivisible' (sí la de 1816, art. 41, y 1843-1849); la 'indivisibilité' aparece en 1805 (art. 15)."
+  },
+  {
+   "titulo": "Constitution d'Haïti du 14 de junio de 1867 (Digithèque MJP): título I (arts. 1-2) y título II (arts. 3-5)",
+   "autor": "Asamblea constituyente / poder constituyente haitiano (texto transcrito en la Digithèque MJP, Jean-Pierre Maury)",
+   "anio": "1867",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1867.htm",
+   "urls_alternativas": [
+    "https://haitidoi.com/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la Digithèque MJP (Univ. de Perpiñán), que reproduce a Janvier (1886); contrastable con haitidoi.com (Gaffield) y con el impreso de Courtois.",
+   "proveniencia": "Constitución promulgada por el poder constituyente o el Senado haitiano, texto fundamental del Estado y por tanto expresión oficial de su doctrina territorial y de ciudadanía. La transcripción de la MJP (Jean-Pierre Maury) declara como fuente a Louis-Joseph Janvier, Les Constitutions d'Haïti (1886) (y, para 1846 y 1849, también a Alexandre Bonneau, Haïti, ses progrès - son avenir, 1862). Se leyó el texto completo del título I (territorio) y del título II (haitianos).",
+   "extractos": [
+    {
+     "ubicacion": "art. 1",
+     "cita_original": "La République d'Haïti est une et indivisible, essentiellement libre, souveraine et indépendante. Son territoire et les îles qui en dépendent sont inviolables et ne peuvent être aliénés par aucun traité ou convention.",
+     "traduccion": "La República de Haití es una e indivisible... Su territorio y las islas que de él dependen son inviolables y no pueden ser enajenados por ningún tratado o convención. (Ya no dice 'L'île d'Haïti et les îles adjacentes forment le territoire': la fórmula de isla entera de 1806-1849 desaparece.)",
+     "afirmaciones": [
+      "A-124",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "art. 5",
+     "cita_original": "Nul, s'il n'est Haïtien, ne peut être propriétaire de biens fonciers en Haïti, à quelque titre que ce soit, ni y acquérir aucun immeuble.",
+     "traduccion": "Nadie que no sea haitiano puede ser propietario de bienes raíces en Haití ni adquirir inmueble alguno. (Sustituye la cláusula 'Aucun blanc' de 1846 por una formulación no racial: art. 3 define haitianos como nacidos en Haití o de padre o madre haitianos; art. 4 deja 'tout Africain ou Indien' habilitado a la naturalización.)",
+     "afirmaciones": [
+      "A-129"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-124",
+    "A-125",
+    "A-129"
+   ],
+   "modulos": [
+    "M09",
+    "M11"
+   ],
+   "id_existente": "F-0052",
+   "notas": "Hallazgo: la Constitución de 1867 abandona la definición territorial 'l'île d'Haïti', en línea con el 'tournant Geffrard' (Price-Mars, Manigat). El registro la tenía solo como fragmento (F-0052, para M11, con 1874 y 1879). No se verificó el cambio posterior a 1874 ni 1879."
+  },
+  {
+   "titulo": "Les constitutions d'Haïti (1801-1885) (Paris, Marpon et Flammarion, 1886): introducciones históricas a las constituciones de 1843, 1846 y 1849",
+   "autor": "Janvier, Louis-Joseph",
+   "anio": "1886",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/lesconstitutions00hait",
+   "urls_alternativas": [
+    "https://archive.org/download/lesconstitutions00hait/lesconstitutions00hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilador-jurista haitiano que transcribe los textos y los comenta con tesis política nítida (noirismo, nacionalismo haitiano); los comentarios son interpretación, los textos constitucionales son fiables.",
+   "proveniencia": "Louis-Joseph Janvier (1855-1911), abogado, diplomático y publicista haitiano; Island Luminous lo presenta como 'noiriste'. Publica en París en 1886 la recopilación de constituciones con prefacios históricos propios. Escribe medio siglo después de los hechos, a partir de la tradición escrita haitiana (Ardouin, Madiou) y de documentos oficiales; ve en la República Dominicana un factor que 'a plus d'une fois compromis les finances, l'autonomie, l'indépendance d'Haïti'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 187-188 (cap. VII, intro. a la Constitución de 1843; l. 8384-8392 del _djvu.txt)",
+     "cita_original": "la scission définitive de l'Est opérée en 1844. De cette dernière scission sortit la République dominicaine dont l'existence a plus d'une fois compromis les finances, l'autonomie, l'indépendance d'Haïti.",
+     "traduccion": "la escisión definitiva del Este operada en 1844. De esa última escisión salió la República dominicana, cuya existencia ha comprometido más de una vez las finanzas, la autonomía y la independencia de Haití. (Janvier: 'scission'; atribuye una causa a la actitud de Hérard ante la Constitución.)",
+     "afirmaciones": [
+      "A-117",
+      "A-118",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "pp. 188-189 (cap. VIII, intro. a la Constitución de 1846; l. 8423-8445)",
+     "cita_original": "il eut tort ensuite de fermer, par un arrêté du 27 septembre, tous les ports de l'Est ; il eut tort encore d'accréditer Juchereau de Saint-Denis comme consul de France à Santo-Domingo ... Juchereau de Saint-Denis, aidé par les constituants dominicains de 1843, les poussa à la scission, puis intervint en leur faveur.",
+     "traduccion": "[el Gobierno provisional de 1843] se equivocó al cerrar por decreto de 27 de septiembre todos los puertos del Este y al acreditar a Juchereau de Saint-Denis como cónsul de Francia en Santo Domingo ... Juchereau de Saint-Denis, ayudado por los constituyentes dominicanos de 1843, los empujó a la escisión y luego intervino en su favor. (Explicación haitiana de la secesión: errores del Gobierno provisional + injerencia francesa; coincide con Léger 1907, p. 194.)",
+     "afirmaciones": [
+      "A-118",
+      "A-127",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "pp. 189-190 (l. 8455-8470)",
+     "cita_original": "la partie espagnole rédigea un manifeste par lequel elle exposa les raisons pour lesquelles elle déclara vouloir se séparer de la partie occidentale. Ce manifeste, signé en secret, fut publié le 27 février suivant",
+     "traduccion": "la parte española redactó un manifiesto en el que expuso las razones por las que declaró querer separarse de la parte occidental. Ese manifiesto, firmado en secreto, se publicó el 27 de febrero siguiente. (Janvier fecha la publicación del Manifiesto de 16-I-1844 en el 27-II; coincide con el grito «Vive la République dominicaine et la vierge Marie !».)",
+     "afirmaciones": [
+      "A-116",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "p. 234 (cap. IX, intro. a la Constitución de 1849; l. 10450-10453)",
+     "cita_original": "L'Empire fut une machine de guerre dirigée contre les perpétuels complots, les incessantes conspirations des Haïtiens de l'Ouest et contre l'existence de la République dominicaine.",
+     "traduccion": "El Imperio fue una máquina de guerra dirigida contra las perpetuas conjuras de los haitianos del Oeste y contra la existencia de la República dominicana. (Janvier, noirista, liga el Imperio de 1849 a la guerra contra la República Dominicana: lectura de hegemonía/guerra, no solo de defensa.)",
+     "afirmaciones": [
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "pp. 267-268 (l. 11977-11990)",
+     "cita_original": "Faustin, tout en cherchant à réunir l'île entière sous un même gouvernement, offrait aux Dominicains de leur conserver leur législation.",
+     "traduccion": "Faustin, buscando reunir la isla entera bajo un mismo gobierno, ofrecía a los dominicanos conservarles su legislación. Y: «Les populations de Laxavon, de Monte-Christ ... étaient sur le point de venir à lui, lorsque, brusquement, son empire croula» (afirmación haitiana de simpatías en la frontera norte en 1858, sin prueba). Sobre 1855: «Elle échoua comme celle de 1849 parce que ... des conjurations politiques furent sur le point d'éclater dans l'Ouest et dans le Nord».",
+     "afirmaciones": [
+      "A-125",
+      "A-119",
+      "A-135"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-127",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Obra de 1886 en dominio público. La edición de archive.org tiene OCR con errores (cabeceras 'CONSTITUTION DE 18xx. NNN'); las páginas se dedujeron de ellas y pueden desplazarse ±1. La ronda M08 la registró (identificador lesconstitutions00hait) sin id F-; contiene también los textos de las constituciones 1801-1885 (usados aquí vía la MJP). Sesgo declarado: noirismo y nacionalismo; ve en la revolución de 1843 un 'néfaste révolte'. Menciona (p. 190) que Hérard 'était à Azua, en marche sur Santo-Domingo' cuando en mayo de 1844 supo su caída: versión diferente de Price-Mars y coincidente con Léger."
+  },
+  {
+   "titulo": "Haiti: Her History and Her Detractors (New York y Washington, The Neale Publishing Co., 1907), cap. sobre Hérard, Guerrier, Pierrot y Soulouque (pp. 193-203)",
+   "autor": "Léger, Jacques Nicolas",
+   "anio": "1907",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/haitiherhistoryh00lguoft",
+   "urls_alternativas": [
+    "https://archive.org/download/haitiherhistoryh00lguoft/haitiherhistoryh00lguoft_djvu.txt",
+    "https://archive.org/details/cu31924079570762"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de apologética nacional escrita por el ministro haitiano en Washington, útil como versión oficial haitiana de 1907; sin aparato crítico y a veces escueta.",
+   "proveniencia": "Jacques Nicolas Léger, 'Envoy Extraordinary and Minister Plenipotentiary of Haiti in the United States' (portada), publica en Nueva York y Washington en 1907 para un público angloamericano; responde a los 'detractores' de Haití y da la versión de Estado de su historia. Para 1843-1859 sigue la tradición de Ardouin y Madiou. Manigat le atribuye frases sobre Las Carreras («Notre Waterloo») que no aparecen en esta edición inglesa.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 193-194",
+     "cita_original": "The inhabitants of the former Spanish portion seceded from the Haitian Government and, on the 27th of February, 1844, established an independent State which they called the Dominican Republic.",
+     "traduccion": "Los habitantes de la antigua porción española se separaron del Gobierno haitiano y, el 27 de febrero de 1844, establecieron un Estado independiente que llamaron República Dominicana. (Léger: 'seceded' + 'independent State'; atribuye la revuelta, el 16-I-1844, al cierre de puertos del Este por el Gobierno provisional el 27-IX-1843.)",
+     "afirmaciones": [
+      "A-116",
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "p. 195",
+     "cita_original": "The days of the Dominican Republic were numbered, had it not been for the events which occurred at that moment at Cap-Haitien, Port-au-Prince, and Cayes",
+     "traduccion": "Los días de la República Dominicana estaban contados, de no ser por los sucesos de Cabo Haitiano, Puerto Príncipe y Los Cayos. Y antes: «the President entered Azua in the first days of April» (Léger: Hérard avanzó sin gran obstáculo; contradice a Price-Mars sobre Azua).",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "pp. 197-198",
+     "cita_original": "President Pierrot decided to open a campaign against the Dominicans, whom he considered merely as insurgents.",
+     "traduccion": "El presidente Pierrot decidió abrir una campaña contra los dominicanos, a quienes consideraba meros insurgentes. «The Haitians, however, not being anxious to engage upon war with their neighbors, were unwilling to support the President's views.» (Léger registra que Haití oficialmente trataba a los dominicanos como insurgentes y que la guerra no tenía apoyo.)",
+     "afirmaciones": [
+      "A-133",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "pp. 201-202",
+     "cita_original": "he determined to bring them back to the authority of the Haitian Government",
+     "traduccion": "[Soulouque] decidió devolverlos a la autoridad del Gobierno haitiano (campaña de 5-III-1849, Azua tomada, regreso por descontento en Puerto Príncipe; proclamación imperial 29-VIII-1849). En 1855: «the Emperor had once more to give up the idea of restoring unity of government in the island» (p. 202).",
+     "afirmaciones": [
+      "A-125",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 202",
+     "cita_original": "Emboldened by the sudden retreat of the Haitian army, the Dominicans had resumed their depredations. Their flotilla went as far as Dame-Marie, which they plundered and set on fire.",
+     "traduccion": "Envalentonados por la repentina retirada del ejército haitiano, los dominicanos habían reanudado sus depredaciones. Su flotilla llegó hasta Dame-Marie, que saquearon e incendiaron. (Casus belli haitiano de 1855; coincide con Bellegarde-Lhérisson 1906, p. 107, y es verificable en fuentes dominicanas.)",
+     "afirmaciones": [
+      "A-119",
+      "A-135"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "Texto de 1907 en dominio público; citas en inglés original (no hay traducción hecha por Léger de documentos aquí). Páginas deducidas de cabeceras ('Faustin Soulouque 201'). Léger no menciona Ocoa, Las Carreras, Santomé ni Sabana Larga en esta edición inglesa. Indicio de sesgo: lenguaje de 'insurgents', 'former fellow-citizens', 'subduing', y silencio sobre la derrota de 1855-56 (dice solo que el emperador 'had once more to give up the idea'). Las frases que Manigat le atribuye podrían venir de otra obra o de una versión francesa [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Manuel d'histoire d'Haïti conforme aux programmes officiels à l'usage des écoles de la République (Port-au-Prince, 1906), caps. XXVI-XXVIII",
+   "autor": "Bellegarde, Windsor; Lhérisson, Justin",
+   "anio": "1906",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/manueldhistoired00bell",
+   "urls_alternativas": [
+    "https://archive.org/download/manueldhistoired00bell/manueldhistoired00bell_djvu.txt",
+    "https://www.manioc.org/patrimon/PAP11077"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto escolar oficial de 1906, fiel indicador de la narrativa enseñada, no investigación original; incluye lecturas atribuidas a Madiou.",
+   "proveniencia": "Manual de historia para las escuelas haitianas «conforme aux programmes officiels», firmado por Windsor Bellegarde (n. 1871, según el catálogo de archive.org) y Justin Lhérisson (escritor haitiano [POR VERIFICAR: autor de la letra de La Dessalinienne]). Port-au-Prince, 1906, para alumnos de la República; con 'Lecture' (extractos de Madiou, etc.) y 'Questionnaire' por capítulo. Muestra qué se enseñaba a comienzos del siglo XX sobre 1844 y las campañas del Este, medio siglo antes de las obras de Price-Mars.",
+   "extractos": [
+    {
+     "ubicacion": "p. 97 (cap. sobre Hérard; l. 4479-4491 del _djvu.txt)",
+     "cita_original": "SEPARATION DE LA PARTIE DE L'EST. Durant sa tournée dans l'Est, Rivière-Hérard avait remarqué que certains individus travaillaient à détacher cette partie du reste de la République ... le mouvement éclata le 27 Février 1844. Les habitants de l'Est formèrent une république indépendante sous la dénomination de République Dominicaine.",
+     "traduccion": "SEPARACIÓN DE LA PARTE DEL ESTE. Durante su gira por el Este, Rivière-Hérard había notado que ciertos individuos trabajaban por desprender esa parte del resto de la República ... el movimiento estalló el 27 de febrero de 1844. Los habitantes del Este formaron una república independiente con la denominación de República Dominicana. (Titular 'séparation'; en el texto, «république indépendante».)",
+     "afirmaciones": [
+      "A-116",
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "pp. 97-98, «Lecture: Les initiateurs de l'indépendance dominicaine» (firmada 'Thomas Madiou'; l. 4511-4545)",
+     "cita_original": "ils conçurent l'idée de détacher leur pays du gouvernement haïtien",
+     "traduccion": "[los discípulos del cura Gaspar Hernández, entre ellos Juan Pablo Duarte (OCR «Durtes»), Francisco Sánchez, Juan Isidoro Pérez y Pedro Pina] concibieron la idea de desprender su país del gobierno haitiano. Registro haitiano de la iniciativa de los 'trinitarios' en 1906; el manual los llama 'initiateurs de l'indépendance dominicaine'.",
+     "afirmaciones": [
+      "A-131",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "p. 106 (cap. XXVII «Guerre de Soulouque contre les Dominicains»; l. 4964-4972)",
+     "cita_original": "Au sujet de la question de l'Est, Soulouque avait des idées nettement arrêtées ; il pensait que l'île ne devait obéir qu'à un seul gouvernement. Depuis leur Indépendance en Février 1844, les Dominicains faisaient sur la frontière une guerre d'embuscade.",
+     "traduccion": "Sobre la cuestión del Este, Soulouque tenía ideas bien definidas: pensaba que la isla no debía obedecer más que a un solo gobierno. Desde su Independencia de febrero de 1844 los dominicanos hacían en la frontera una guerra de emboscadas. (Un manual haitiano de 1906 usa 'Indépendance' con mayúscula para 1844 y 'une seule gouvernement' para la doctrina.)",
+     "afirmaciones": [
+      "A-117",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "p. 107 (l. 5010-5020)",
+     "cita_original": "empêcher que ne se réalisât le rêve d'unité territoriale poursuivi par le monarque noir",
+     "traduccion": "impedir que se realizara el sueño de unidad territorial perseguido por el monarca negro [Soulouque]. El manual atribuye a las potencias (Francia, Inglaterra, EE.UU.) una 'entente' para frustrar ese sueño; en 1851 obtuvieron una tregua de un año.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "p. 107 (l. 5030-5045)",
+     "cita_original": "les batailles de San-Tome, de Sabana Larga, de Cambrenale, où nos troupes furent battues par le général dominicain Santana",
+     "traduccion": "las batallas de Santomé, de Sabana Larga, de Cambronal, donde nuestras tropas fueron derrotadas por el general dominicano Santana (campaña de 1855). El mismo párrafo atribuye la campaña a las «menées antipatriotiques» dominicanas y al incendio de Dame-Marie el 3-XII-1849; dice que las causas del fracaso fueron las marchas forzadas, la intendencia, las armas y la indisciplina, y que la agitación en la capital impidió proseguir.",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 106 (l. 4978-4997, retirada de Ocoa)",
+     "cita_original": "Soudain au quartier-général de Soulouque, on sonna la retraite.",
+     "traduccion": "De pronto, en el cuartel general de Soulouque, tocaron retirada [en la batalla de Ocoa, abril de 1849: la columna haitiana, en desorden, fue hostigada por fuego cruzado y bloques de piedra]. Manual: versión haitiana de 1906 de la derrota de 1849, sin mención de traición.",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-126",
+    "A-131"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "Texto de 1906 en dominio público (OCR con errores: «Durtes», «Képabliqut», «Cambrenale»; se corrigió la ortografía en las citas y se indicó). Páginas deducidas de las cabeceras 'NNN HISTOIRE D'HAÏTI'. Sesgo: relato escolar de Estado; narra la secesión sin culpar a los dominicanos y evita el término 'invasion'; 1861-65 ('péril dominicain', p. 112) pertenece a M10. El mismo libro (p. 91-92) describe 1822 como 'Unité de l'île' (M08)."
+  },
+  {
+   "titulo": "«Boyer Falls, Separation Begins, 1844» (selección de fuentes con presentación y traducción de Anne Eller: Manifiesto de 16-I-1844 y capitulación de la guarnición de Santo Domingo, de Madiou, Histoire d'Haïti, t. VIII, pp. 103-115), haitidoi.com",
+   "autor": "Eller, Anne (presentación y traducción); Madiou, Thomas (texto base); Bobadilla, Tomás (redactor atribuido del Manifiesto)",
+   "anio": "2013",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/wp-content/uploads/2020/08/2013-eller-madiou-1844.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción al inglés de un texto de 1844 que Madiou reproduce en un volumen póstumo; sirve para contrastar el Manifiesto, pero es traducción con presentación breve y sin cotejo con el original español.",
+   "proveniencia": "Anne Eller (historiadora) presenta y traduce en 2013 (documento alojado en haitidoi.com, de Julia Gaffield) el Manifiesto de la Junta del 16-I-1844 y el acta de capitulación de Desgrottes (28-II-1844) tal como los reproduce Thomas Madiou en el t. VIII de su Histoire d'Haïti (ed. Deschamps, Port-au-Prince, 1985, pp. 103-115). Así, la versión del Manifiesto que circula en la historiografía haitiana viene de Madiou y no del impreso dominicano. Eller la sitúa en la crítica haitiana a Boyer y en la tradición de la 'Unification'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2 (título del Manifiesto)",
+     "cita_original": "On the Causes of its Separation from the Haitian Republic",
+     "traduccion": "Manifiesto de los habitantes de la parte oriental de la isla, antes española o de Santo Domingo, sobre las causas de su separación de la República Haitiana, 16 de enero de 1844. (Confirma el título 'separación' del A-116 en la versión recogida por Madiou.)",
+     "afirmaciones": [
+      "A-116",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "p. 2",
+     "cita_original": "spurred by twenty-two years of oppression",
+     "traduccion": "movidos por veintidós años de opresión [los habitantes de la parte oriental ... han tomado la firme resolución de separarse permanentemente de la República Haitiana y de constituir un Estado libre y soberano].",
+     "afirmaciones": [
+      "A-116"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "the equality of civil and political rights without regard to origin or place of birth",
+     "traduccion": "la igualdad de derechos civiles y políticos sin consideración de origen ni lugar de nacimiento. Además: «the liberty of citizens abolishing slavery forever» (p. 3). En la versión de Eller la cláusula habla de origen y lugar de nacimiento, no de color: la fórmula 'sin distinción de color' del A-132 no se confirma en esta traducción; falta cotejar con el original español.",
+     "afirmaciones": [
+      "A-132"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "all the sons of the Eastern part and those who wish to follow our destiny",
+     "traduccion": "[«DOMINICANS! (This name includes] todos los hijos de la parte oriental y quienes quieran seguir nuestro destino [)»]. Definición inclusiva de 'dominicano' en el Manifiesto.",
+     "afirmaciones": [
+      "A-132",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "it would be to France, or to Spain, not that of Haiti",
+     "traduccion": "si esta Parte Oriental pertenece a un dominio distinto del de sus propios hijos, sería a Francia o a España, no a Haití [argumento de los redactores sobre 1816]. El Manifiesto menciona además que, de ser necesario, usarían «those that we could obtain from abroad» (recursos externos).",
+     "afirmaciones": [
+      "A-127"
+     ]
+    },
+    {
+     "ubicacion": "p. 4",
+     "cita_original": "SEPARATION, GOD, COUNTRY AND LIBERTY",
+     "traduccion": "SEPARACIÓN, DIOS, PATRIA Y LIBERTAD. El Manifiesto cierra con esa fórmula y la fecha «Santo Domingo, January 16, 1844 and Year 1 of the Country».",
+     "afirmaciones": [
+      "A-116",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "p. 4 (capitulación de la guarnición de Santo Domingo, 28-II-1844, Madiou t. VIII, pp. 103-104)",
+     "cita_original": "Today, February 28, 1844, year 41 of Independence and Year 2 of Regeneration.",
+     "traduccion": "Hoy, 28 de febrero de 1844, año 41 de la Independencia y año 2 de la Regeneración. El acta (Doucet, Ponthieux, Deo Hérard, Paul Jn-Jacques ... Caminero, Aybar, Cabral, Pedro Mena ... Desgrottes) garantiza propiedad, familias, salida honrosa y entrega de armas al cónsul francés. Calendario haitiano de la 'Régénération'.",
+     "afirmaciones": [
+      "A-131",
+      "A-117"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-127",
+    "A-131",
+    "A-132"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Traducción de Anne Eller (con derechos): citas en inglés limitadas a 15 palabras. En su presentación (p. 1) Eller afirma que los firmantes 'announced separation – avoiding the word independence', que Madiou 'wrote favorably of the events of separation' y que Bobadilla redactó el texto (autoría Bobadilla vs. Sánchez en F-0038: esta presentación sigue la atribución a Bobadilla). Eller también apunta que la unificación 'realized a goal enshrined in the constitution of the Haitian republic'. Registrado ya por la ronda M08 (sin id F-). Madiou t. VIII no se ha podido leer directamente (HathiTrust y Gallica 403)."
+  },
+  {
+   "titulo": "Histoire d'Haïti, t. VIII: années 1843-1846 (Port-au-Prince, Imprimerie J. Verrollot, 1904; reed. Éditions Henri Deschamps, 1985/1989)",
+   "autor": "Madiou, Thomas",
+   "anio": "1904",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://catalog.hathitrust.org/Record/011984236",
+   "urls_alternativas": [
+    "https://gallica.bnf.fr/ark:/12148/bpt6k53240349.texteImage"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano clásico y contemporáneo de los hechos (testigo y entrevistador); el t. VIII es póstumo y, según Vielle citado por Adélaïde-Merlande, apenas 'un chapelet de textes' sin síntesis.",
+   "proveniencia": "Thomas Madiou (1814-1884), historiador haitiano, miembro de la elite de color del Sur; los tomos I-III salieron en 1847-48 y el volumen 1843-1846 lo publicó su familia en 1904 con motivo del centenario de la independencia. Vive los acontecimientos de 1843-1846 de cerca. Eller anota que escribió 'favorably of the events of separation' y fue crítico de Boyer. No se pudo leer el texto original: HathiTrust (catálogo) y Gallica respondieron 403; la ficha de catálogo y el dato de edición salen de resultados de búsqueda y del artículo de Adélaïde-Merlande.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-116",
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-131"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0106",
+   "notas": "Resuelve parcialmente F-0106: ahora se conoce el registro de HathiTrust (Record/011984236, «Histoire d'Haiti, Années 1843-1846») y el año real de edición (1904). Contenido de Madiou t. VIII conocido solo de segunda mano: traducción de Eller (pp. 103-115: capitulación y Manifiesto), lectura de Madiou en el manual de 1906, pp. 97-98; Price-Mars cita 't. IV, p. 167' (errata probable) para la proclamación de Pierrot. Los 'Moniteur' de 1849 y 1856 figuran como 'rédacteur-gérant: Madiou' (baron de Madiou en 1856): [POR VERIFICAR que sea el historiador]. Pendiente: leer el t. VIII (dLOC, Gallica, HathiTrust con acceso libre, o la ed. Deschamps)."
+  },
+  {
+   "titulo": "«Madiou, historien d'Haïti», Bulletin de la Société d'Histoire de la Guadeloupe, n.º 106 (4.º trimestre 1995), pp. 12-22",
+   "autor": "Adélaïde-Merlande, Jacques",
+   "anio": "1995",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://erudit.org/fr/revue/bshg/1995/v/n106/1043280ar.pdf",
+   "urls_alternativas": [
+    "https://id.erudit.org/iderudit/1043280ar",
+    "https://doi.org/10.7202/1043280ar"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de un historiador antillano especializado, con aparato bibliográfico, sobre la obra de Madiou; no trata la cuestión dominicana.",
+   "proveniencia": "Jacques Adélaïde-Merlande, historiador antillano [nacionalidad y filiación POR VERIFICAR; publica en el boletín de la Société d'Histoire de la Guadeloupe], ofrece una presentación de Madiou y de su Histoire d'Haïti. Descarga: curl devuelve el desafío anti-bot de Érudit, WebFetch guardó el PDF y se leyó con pypdf (12 pp.). Sirve para fechar y caracterizar el t. VIII (póstumo, 1904) y la posición social de Madiou.",
+   "extractos": [
+    {
+     "ubicacion": "p. 14 (PDF p. 4, párrafo sobre la edición póstuma)",
+     "cita_original": "à l'initiative de la famille Madiou ... un volume couvrant la période 1843-1846",
+     "traduccion": "en 1904 aparece, por iniciativa de la familia Madiou y con motivo del centenario de la independencia, un volumen que cubre el período 1843-1846. Cita a Vielle: «un chapelet de textes sur les années 1843 à 1846»; añade que una actualidad demasiado cercana pudo impedir a Madiou la síntesis.",
+     "afirmaciones": [
+      "A-116",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "p. 13 (PDF p. 2-3)",
+     "cita_original": "Madiou ... appartenait à la catégorie des notables mulâtres ou sang-mêlés",
+     "traduccion": "Madiou pertenecía a la categoría de los notables mulatos o de sangre mezclada [que ejercían preponderancia política e intelectual en la república de Boyer]. Útil para el sesgo: Madiou es 'noiriste' en la tradición, pero de origen mulato del Sur.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-116",
+    "A-131"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "El fragmento de la p. 13 es paráfrasis mía con cita parcial; los números de página del boletín se deducen del encabezado (artículo pp. 12-22; el PDF añade una carátula). Solo útil para provenance de F-0106; para la posición de Madiou sobre 1844 hay que leer el t. VIII."
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Charles Rivière Hérard (1843-1844), ficha PDF n.º 5",
+   "autor": "Embajada de Haití en Francia (ficha basada en M. Oriol, P. Vilaire y C. Wieser, Chefs d'État en Haïti, FRID/Archives Nationales d'Haïti)",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/06/5.-Charles-Rivie%CC%80re-Herard-1843-1844.pdf",
+   "urls_alternativas": [
+    "https://ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen institucional haitiano sin notas, de una obra de referencia de archivos haitianos; fiable como versión de Estado, no como prueba de hechos concretos.",
+   "proveniencia": "Ficha de la serie «Chefs d'État haïtiens» publicada en el sitio de la Embajada de Haití en Francia (galería ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/). Cada ficha cita como referencia Michèle Oriol, Patrick Vilaire y Corinne Wieser, «Chefs d'État en Haïti: Gloire et misères, 1804-1986», realizada por la Fondation pour la Recherche Iconographique et Documentaire y los Archives Nationales d'Haïti. Es, por tanto, un resumen de Estado/institucional para público general, escrito desde la diplomacia haitiana y sin aparato de notas.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Présentation», «Événements majeurs»",
+     "cita_original": "La partie de l'Est se sépare de la République d'Haïti (février 1844)",
+     "traduccion": "La parte del Este se separa de la República de Haití (febrero de 1844). Verbo y marco de la ficha de Estado: 'se sépare', y entre los eventos de Hérard figura la «Campagne contre la République Dominicaine (Mars 1844)».",
+     "afirmaciones": [
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "Aussi, le 27 février, la République Dominicaine est proclamée.",
+     "traduccion": "Así, el 27 de febrero, se proclama la República Dominicana [tras una gira de Hérard por el Este que 'indispose la plupart des habitants de l'Est']; primer presidente: Pedro Santana. La ficha escribe 'proclamée' (no 'indépendance').",
+     "afirmaciones": [
+      "A-117",
+      "A-131"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "profondément inquiets de la confirmation du rejet des étrangers blancs de la citoyenneté",
+     "traduccion": "[Los diputados de la parte este, que participaron en la redacción de la Constitución de 1843, estaban] profundamente inquietos por la confirmación del rechazo de los extranjeros blancos de la ciudadanía [y de la propiedad]. Vincula expresamente el artículo racial de 1843 con el malestar del Este.",
+     "afirmaciones": [
+      "A-129",
+      "A-132"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le mandat»",
+     "cita_original": "la résistance imprévue des Dominicains",
+     "traduccion": "la resistencia imprevista de los dominicanos [entre los hechos que encadenan la caída de Hérard junto con la defección de Pierrot tras la derrota ante Santiago y la insurrección de Acaau].",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-119",
+    "A-129",
+    "A-131",
+    "A-132"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Texto de 2021 con derechos: citas ≤15 palabras. Comprobado que el PDF (3 páginas) existe y se descarga con la URL codificada en NFD ('Rivie%CC%80re'). La ficha dice que Hérard 'entre à Port-au-Prince le 21 mars 1843' y que fue elegido el 30-31-XII-1843; la fecha de salida de Boyer varía entre fuentes (12-13 marzo 1843)."
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Philippe Guerrier (1844-1845), Jean-Louis Pierrot y Jean-Baptiste Riché, ficha PDF n.º 6",
+   "autor": "Embajada de Haití en Francia (ficha basada en M. Oriol, P. Vilaire y C. Wieser, Chefs d'État en Haïti, FRID/Archives Nationales d'Haïti)",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/06/6.-Guerrier-Philippe-1844-1845-Jean-Louis-Pierrot-1846-1847-Jean-Baptiste-Riche%CC%81-1845-1846.pdf",
+   "urls_alternativas": [
+    "https://ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen institucional haitiano sin notas, de una obra de referencia de archivos haitianos; fiable como versión de Estado, no como prueba de hechos concretos.",
+   "proveniencia": "Ficha de la serie «Chefs d'État haïtiens» publicada en el sitio de la Embajada de Haití en Francia (galería ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/). Cada ficha cita como referencia Michèle Oriol, Patrick Vilaire y Corinne Wieser, «Chefs d'État en Haïti: Gloire et misères, 1804-1986», realizada por la Fondation pour la Recherche Iconographique et Documentaire y los Archives Nationales d'Haïti. Es, por tanto, un resumen de Estado/institucional para público general, escrito desde la diplomacia haitiana y sin aparato de notas.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Les mandats» (Pierrot)",
+     "cita_original": "mobilisation pour la reconquête de la partie de l'Est entraîne partout des mutineries",
+     "traduccion": "[Su consigna de] movilización para la reconquista de la parte del Este provoca por todas partes motines [y desemboca en su destitución]. La ficha de Estado asocia la caída de Pierrot a la impopularidad de la guerra del Este, y llama 'reconquête' a la campaña.",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "sección «Présentation» (eventos de Riché)",
+     "cita_original": "Attaques dominicaines contre Hinche et Las Caobas",
+     "traduccion": "Ataques dominicanos contra Hinche y Las Caobas [evento mayor que la ficha asigna al período de Riché]. La ficha invierte las fechas de Pierrot y Riché en la cabecera (Riché 1845-46, Pierrot 1846-47) respecto al orden real (Pierrot 16-IV-1845 a 1-III-1846; Riché 1-III-1846 a 27-II-1847): la narración interna sigue, sin embargo, el orden correcto.",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "sección «Présentation» (Guerrier)",
+     "cita_original": "Remise en vigueur de la législation de Boyer",
+     "traduccion": "Restablecimiento de la legislación de Boyer [bajo Guerrier; 'Le siège du gouvernement est à Saint-Marc']. Contexto del giro conservador tras la caída de Hérard; la Constitución de 1816 se restablece de facto.",
+     "afirmaciones": [
+      "A-124"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-124",
+    "A-125",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Errata detectada: la cabecera atribuye a Riché abril 1845-marzo 1846 y a Pierrot marzo 1846-febrero 1847; los otros textos (Léger, Janvier, Price-Mars, Manigat) fijan Pierrot 16-IV-1845 a 1-III-1846 y Riché 1-III-1846 a 27-II-1847. Citas ≤15 palabras."
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Faustin Soulouque (1847-1859), ficha PDF n.º 7",
+   "autor": "Embajada de Haití en Francia (ficha basada en M. Oriol, P. Vilaire y C. Wieser, Chefs d'État en Haïti, FRID/Archives Nationales d'Haïti)",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/06/7.-Faustin-Soulouque-1847-1859.pdf",
+   "urls_alternativas": [
+    "https://ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen institucional haitiano sin notas, de una obra de referencia de archivos haitianos; fiable como versión de Estado, no como prueba de hechos concretos.",
+   "proveniencia": "Ficha de la serie «Chefs d'État haïtiens» publicada en el sitio de la Embajada de Haití en Francia (galería ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/). Cada ficha cita como referencia Michèle Oriol, Patrick Vilaire y Corinne Wieser, «Chefs d'État en Haïti: Gloire et misères, 1804-1986», realizada por la Fondation pour la Recherche Iconographique et Documentaire y los Archives Nationales d'Haïti. Es, por tanto, un resumen de Estado/institucional para público general, escrito desde la diplomacia haitiana y sin aparato de notas.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Le mandat»",
+     "cita_original": "Ces campagnes militaires, accompagnées de pillage et d'incendie, poussent les Dominicains à la guérilla",
+     "traduccion": "Esas campañas militares, acompañadas de pillaje e incendio, empujan a los dominicanos a la guerrilla [y terminan en derrotas humillantes; algunos oficiales responsables son ejecutados, entre ellos un hijo de Dessalines, un hijo de Christophe y el jefe piquet Voltaire]. Versión institucional haitiana actual: reconoce pillaje e incendio y derrota.",
+     "afirmaciones": [
+      "A-119",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "Mais Soulouque ne veut pas renoncer aux territoires de l'Est.",
+     "traduccion": "Pero Soulouque no quiere renunciar a los territorios del Este. Organiza dos campañas, en 1849 y en 1855; cónsules y agentes de Francia, Inglaterra y EE.UU. imponen armisticio; las escaramuzas 'poussent les gouvernements dominicains à chercher un protectorat étranger'.",
+     "afirmaciones": [
+      "A-125",
+      "A-128"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "La France signe, en 1848, un traité d'amitié et de commerce avec la République Dominicaine",
+     "traduccion": "Francia firma en 1848 un tratado de amistad y comercio con la República Dominicana, reconociendo así su independencia; seguirán Inglaterra, Dinamarca, Holanda y España. (Señala la fecha del reconocimiento francés según la ficha; confrontar con 1848/1850 en otras fuentes.)",
+     "afirmaciones": [
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "sección «Présentation»",
+     "cita_original": "Campagnes militaires contre la République Dominicaine (1849 et 1855)",
+     "traduccion": "Campañas militares contra la República Dominicana (1849 y 1855). La ficha enumera como 'événements majeurs' del reinado la creación del imperio (1849), el monopolio del café (1848) y la toma de La Navase por EE.UU. (1857).",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-125",
+    "A-128",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "La ficha afirma que Soulouque fue elegido en 1847 por el Senado a propuesta de su presidente Beaubrun Ardouin y cita a Bouzon y a d'Alaux. Citas ≤15 palabras. Útil para un contraste de 'tradición oficial haitiana actual' frente a Price-Mars (1953): hoy el relato institucional admite pillaje/incendio y derrotas."
+  },
+  {
+   "titulo": "Chefs d'État haïtiens: Fabre Nicolas Geffrard (1859-1867), ficha PDF n.º 8",
+   "autor": "Embajada de Haití en Francia (ficha basada en M. Oriol, P. Vilaire y C. Wieser, Chefs d'État en Haïti, FRID/Archives Nationales d'Haïti)",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ambassadehaiti-france.org/wp-content/uploads/2021/06/8.-Fabre-Nicolas-Geffrard-1859-1867-1.pdf",
+   "urls_alternativas": [
+    "https://ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen institucional haitiano sin notas, de una obra de referencia de archivos haitianos; fiable como versión de Estado, no como prueba de hechos concretos.",
+   "proveniencia": "Ficha de la serie «Chefs d'État haïtiens» publicada en el sitio de la Embajada de Haití en Francia (galería ambassadehaiti-france.org/galerie-des-chefs-detat-haitiens/). Cada ficha cita como referencia Michèle Oriol, Patrick Vilaire y Corinne Wieser, «Chefs d'État en Haïti: Gloire et misères, 1804-1986», realizada por la Fondation pour la Recherche Iconographique et Documentaire y los Archives Nationales d'Haïti. Es, por tanto, un resumen de Estado/institucional para público general, escrito desde la diplomacia haitiana y sin aparato de notas.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "faire accepter l'indépendance dominicaine par la reine d'Espagne",
+     "traduccion": "[Geffrard interviene en 1864 como mediador entre los independentistas dominicanos y las autoridades españolas para detener la guerra y] hacer aceptar la independencia dominicana por la reina de España. La ficha añade que sus diplomáticos 'lutteront par la suite contre toute cession de la totalité ou d'une partie du territoire dominicain' (giro de la doctrina: M10).",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "sección «Le monde extérieur»",
+     "cita_original": "Lorsque le président dominicain Santana proclame l'annexion de son pays à l'Espagne en 1861",
+     "traduccion": "Cuando el presidente dominicano Santana proclama la anexión de su país a España en 1861 [los tiradores de la guardia se alían con los nacionalistas dominicanos; la escuadra del almirante Rubalcava exige una indemnización a Geffrard]. (Pertenece a M10; se registra como límite superior del módulo.)",
+     "afirmaciones": [
+      "A-125"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-125",
+    "A-133"
+   ],
+   "modulos": [
+    "M09",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "Ficha de Geffrard, útil sobre todo para M10; se incluye porque marca el final de la doctrina bajo la lectura de Price-Mars y Manigat. Una nota pequeña: la ficha dice que Geffrard 'participe aux campagnes de l'Est de 1844 et 1848' [sic: probable errata por 1849] y fue duque de Tabara por la acción de 1849 (cf. Price-Mars, p. 173)."
+  },
+  {
+   "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 21 de abril de 1849 (4.º año, n.º 22)",
+   "autor": "Gobierno de Haití (Imprimerie nationale); firma: Soulouque / Dufrêne, secretario general; redactor-gerente: Madiou",
+   "anio": "1849",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/00034/1849042101.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/AA00098214/00034",
+    "https://api.dloc.patron.uflib.ufl.edu/AA00098214/00034/citation?format=json"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Gaceta oficial del Gobierno haitiano, texto de época íntegro (escaneo con capa OCR); sirve como prueba de qué dijo el Estado en cada fecha, no de lo que ocurrió en el campo de batalla.",
+   "proveniencia": "Órgano oficial del Gobierno de Haití (publicado cada sábado, del 8-II-1845 al 13-IV-1867 según la nota general de dLOC; «Imprimerie nationale»/«impériale»). En 1849 y 1856 consta como «rédacteur-gérant» un Madiou (en 1856, «le baron de Madiou, rédacteur gérant et rédacteur des actes du gouvernement») [POR VERIFICAR que sea el historiador Thomas Madiou]. La parte oficial recoge proclamas, órdenes del día y partes que Soulouque firma o hace firmar; los destinatarios son el pueblo y el ejército haitianos y, por la prensa extranjera, los cónsules. La colección digital es la de dLOC/UFDC (AA00098214); se obtuvo el PDF de ufdcimages.uflib.ufl.edu y se verificó visualmente sobre la imagen de la portada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, «Ordre du jour, à l'armée» (Azua, 8-IV-1849) y «Bulletin»",
+     "cita_original": "C'est contre mon attente, soldats, que j'ai encore rencontré de la résistance de la part des habitants de l'Est que nous venons pour protéger et non pour combattre.",
+     "traduccion": "Es contra mi expectativa, soldados, que he encontrado todavía resistencia de parte de los habitantes del Este a quienes venimos a proteger y no a combatir. (Soulouque; el parte comienza «Les drapeaux de la République flottent sur les murs d'Azua» y termina «Vive la République d'Haïti une et indivisible !».)",
+     "afirmaciones": [
+      "A-125",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, «Bulletin» (misma edición)",
+     "cita_original": "ils ont laissé sur le champ de bataille 32 morts et 72 blessés. De notre côté, nous avons à déplorer la mort de 4 de nos braves",
+     "traduccion": "dejaron en el campo de batalla 32 muertos y 72 heridos. Por nuestra parte lamentamos la muerte de 4 de nuestros valientes [y 26 heridos]. Cifra oficial haitiana del combate de Azua del 6-IV-1849 (a verificar con partes dominicanos). El Moniteur nombra a los jefes dominicanos «Manuel Ximenes ... Boisgency Duverger, Valentine Alcantara, Ramon Mella, Remi Castillo et J. P. Contreras».",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-125"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Verificado visualmente sobre la imagen de la p. 1 (n.º 22, 4.º año). El OCR da «zl6sb!essés» para '26 blessés' (confirmar en imagen: ilegible en parte). Es la fuente de Price-Mars sobre la toma de Azua en 1849 (p. 173-174). Nombres dominicanos tal como los escribe el Moniteur, no corregidos."
+  },
+  {
+   "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 5 de mayo de 1849 (4.º año, n.º 24)",
+   "autor": "Gobierno de Haití (Imprimerie nationale); firma: Soulouque / Dufrêne, secretario general; redactor-gerente: Madiou",
+   "anio": "1849",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/00036/1849050501.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/AA00098214/00036",
+    "https://api.dloc.patron.uflib.ufl.edu/AA00098214/00036/citation?format=json"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Gaceta oficial del Gobierno haitiano, texto de época íntegro (escaneo con capa OCR); sirve como prueba de qué dijo el Estado en cada fecha, no de lo que ocurrió en el campo de batalla.",
+   "proveniencia": "Órgano oficial del Gobierno de Haití (publicado cada sábado, del 8-II-1845 al 13-IV-1867 según la nota general de dLOC; «Imprimerie nationale»/«impériale»). En 1849 y 1856 consta como «rédacteur-gérant» un Madiou (en 1856, «le baron de Madiou, rédacteur gérant et rédacteur des actes du gouvernement») [POR VERIFICAR que sea el historiador Thomas Madiou]. La parte oficial recoge proclamas, órdenes del día y partes que Soulouque firma o hace firmar; los destinatarios son el pueblo y el ejército haitianos y, por la prensa extranjera, los cónsules. La colección digital es la de dLOC/UFDC (AA00098214); se obtuvo el PDF de ufdcimages.uflib.ufl.edu y se verificó visualmente sobre la imagen de la portada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, Proclamación de Soulouque «au peuple et à l'armée» (Las Matas, 29-IV-1849)",
+     "cita_original": "si, contre toute probabilité, l'Est persiste à rester en dehors du principe de l'unité nationale, alors aura sonné l'heure dernière des insurgés",
+     "traduccion": "si, contra toda probabilidad, el Este persiste en quedar al margen del principio de la unidad nacional, entonces habrá sonado la hora final de los insurgentes. [Antes: «le gouvernement veut encore laisser à ses fils égarés le temps de la réflexion et du repentir».]",
+     "afirmaciones": [
+      "A-125",
+      "A-133"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, Orden del día del mismo día (Las Matas, 29-IV-1849)",
+     "cita_original": "J'ai juré de maintenir l'indivisibilité du territoire. Je serai fidèle à ce serment.",
+     "traduccion": "He jurado mantener la indivisibilidad del territorio. Seré fiel a ese juramento. Cierra con «Vive l'indivisibilité du territoire !». Añade: «Vos étendards brilleraient à Santo-Domingo, si je vous avais préparés à une campagne définitive» y «je me décide à retourner à la capitale» (versión oficial de la retirada tras Ocoa).",
+     "afirmaciones": [
+      "A-125",
+      "A-126",
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-125",
+    "A-126",
+    "A-133"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Verificado visualmente sobre la imagen de la p. 1 (n.º 24 según la imagen; el OCR da '24'). Coincide con Price-Mars, p. 176-177 (que cita el Moniteur de 5-V-1849 y la proclamación de Ocoa: «Soldats! de triomphe en triomphe, vous êtes arrivés jusqu'aux bords de la rivière d'Ocoa»). Contiene la mejor evidencia del juramento de 'indivisibilité du territoire' como fórmula del Estado en 1849."
+  },
+  {
+   "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 18 de enero de 1851",
+   "autor": "Gobierno de Haití (Imprimerie nationale); firma: Soulouque / Dufrêne, secretario general; redactor-gerente: Madiou",
+   "anio": "1851",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/00072/1851011801.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/AA00098214/00072",
+    "https://api.dloc.patron.uflib.ufl.edu/AA00098214/00072/citation?format=json"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Gaceta oficial del Gobierno haitiano, texto de época íntegro (escaneo con capa OCR); sirve como prueba de qué dijo el Estado en cada fecha, no de lo que ocurrió en el campo de batalla.",
+   "proveniencia": "Órgano oficial del Gobierno de Haití (publicado cada sábado, del 8-II-1845 al 13-IV-1867 según la nota general de dLOC; «Imprimerie nationale»/«impériale»). En 1849 y 1856 consta como «rédacteur-gérant» un Madiou (en 1856, «le baron de Madiou, rédacteur gérant et rédacteur des actes du gouvernement») [POR VERIFICAR que sea el historiador Thomas Madiou]. La parte oficial recoge proclamas, órdenes del día y partes que Soulouque firma o hace firmar; los destinatarios son el pueblo y el ejército haitianos y, por la prensa extranjera, los cónsules. La colección digital es la de dLOC/UFDC (AA00098214); se obtuvo el PDF de ufdcimages.uflib.ufl.edu y se verificó solo con el texto OCR (parcialmente ilegible).",
+   "extractos": [
+    {
+     "ubicacion": "p. 3 (parte no oficial), respuesta a las declaraciones de Benjamin E. Green",
+     "cita_original": "Les habitants de l'Est sont tous mulâtres et nègres",
+     "traduccion": "Los habitantes del Este son todos mulatos y negros; los mulatos son mestizos de blancos, negros e indígenas ... Santana y Báez, sus jefes actuales, son mulatos. (Argumento del Moniteur contra el agente estadounidense, que había dicho que los 'insurgentes' eran blancos a punto de ser exterminados.)",
+     "afirmaciones": [
+      "A-129",
+      "A-130"
+     ]
+    },
+    {
+     "ubicacion": "p. 3 (misma pieza)",
+     "cita_original": "ne tardera pas à se rallier à l'unité nationale",
+     "traduccion": "[La parte del Este, que ya reconoce sus errores,] no tardará en reunirse con la unidad nacional. La pieza añade que si ello solo pudiera lograrse por conquista, el emperador la haría, y pregunta: «Ne voit-on pas S. M. l'Empereur combler d'honneurs et de libéralités de nombreux émigrés de l'Est ?» (OCR parcialmente ilegible en las frases intermedias).",
+     "afirmaciones": [
+      "A-125",
+      "A-134"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-125",
+    "A-129",
+    "A-130",
+    "A-134"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "No se pudo cotejar con la imagen (solo OCR; las frases citadas están en gran parte legibles, pero con errores como 'rccunn ùt'). La pieza afirma que Green 'prétend ... que les haïtiens ont résolu l'extermination des populations' y se apoya en una carta de un comerciante de Boston en Puerto Príncipe y en el New York Herald. Es la mejor evidencia que se halló del discurso racial oficial haitiano sobre la 'cuestión del Este' (1850-51)."
+  },
+  {
+   "titulo": "Le Moniteur haïtien (journal officiel), Port-au-Prince, 9 de febrero de 1856 (11.º año, n.º 9)",
+   "autor": "Gobierno de Haití (Imprimerie nationale); firma: Soulouque / Dufrêne, secretario general; redactor-gerente: Madiou",
+   "anio": "1856",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/00225/1856020901.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/AA00098214/00225",
+    "https://api.dloc.patron.uflib.ufl.edu/AA00098214/00225/citation?format=json"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Gaceta oficial del Gobierno haitiano, texto de época íntegro (escaneo con capa OCR); sirve como prueba de qué dijo el Estado en cada fecha, no de lo que ocurrió en el campo de batalla.",
+   "proveniencia": "Órgano oficial del Gobierno de Haití (publicado cada sábado, del 8-II-1845 al 13-IV-1867 según la nota general de dLOC; «Imprimerie nationale»/«impériale»). En 1849 y 1856 consta como «rédacteur-gérant» un Madiou (en 1856, «le baron de Madiou, rédacteur gérant et rédacteur des actes du gouvernement») [POR VERIFICAR que sea el historiador Thomas Madiou]. La parte oficial recoge proclamas, órdenes del día y partes que Soulouque firma o hace firmar; los destinatarios son el pueblo y el ejército haitianos y, por la prensa extranjera, los cónsules. La colección digital es la de dLOC/UFDC (AA00098214); se obtuvo el PDF de ufdcimages.uflib.ufl.edu y se verificó visualmente sobre la imagen de la portada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, Proclamación de Faustin Ier, «au peuple et à l'armée» (palacio imperial de Ouanaminthe, 27-I-1856)",
+     "cita_original": "Tout me commandait d'entreprendre au plus tôt la campagne de l'Est",
+     "traduccion": "Todo me ordenaba emprender cuanto antes la campaña del Este: mi obediencia al juramento de mantener nuestra Constitución; [...] simpatías en el Este; sobre todo, la inminencia de una invasión extranjera en esa parte: tales fueron los motivos apremiantes que me guiaron. (Soulouque da tres motivos: juramento, 'sympathies dans l'Est' y riesgo de invasión extranjera.)",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, misma proclamación",
+     "cita_original": "Mais j'avais compté sans la trahison !",
+     "traduccion": "Pero no había contado con la traición. [...] Dadas las circunstancias, vuelvo sobre mis pasos, aplazando el cumplimiento del juramento que he prestado de mantener la integridad de nuestro territorio. Los 'traîtres' han pagado con la vida. No menciona ni Santomé ni Sabana Larga; fecha la proclamación entre uno y tres días después de Sabana Larga (24-I-1856 según A-119 y Manigat; 26-I según Price-Mars).",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-125",
+    "A-126"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "Verificado visualmente sobre la imagen de la p. 1 (11.º año, n.º 9; «Port-au-Prince, le 9 Février 1856»). Redactor-gerente en la cabecera de esta edición: «le baron de Madiou». Price-Mars (p. 204) cita esta proclamación como «Moniteur du 9 février 1856» y la usa para la ejecución de Voltaire Castor. La parte de la proclamación sobre 'sympathies dans l'Est' es afirmación de parte, sin prueba."
+  },
+  {
+   "titulo": "Le Moniteur haïtien (colección AA00098214), Digital Library of the Caribbean / UF Digital Collections: índice de 450 números (1847-1861)",
+   "autor": "Gobierno de Haití; Digital Library of the Caribbean (dLOC) / University of Florida",
+   "anio": "1847-1861",
+   "tipo": "portal",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://dloc.com/AA00098214",
+   "urls_alternativas": [
+    "https://api.dloc.patron.uflib.ufl.edu/AA00098214/00008/citation?format=json",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/00008/1847100901.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección institucional de dLOC con metadatos y PDF por número; la interfaz web es una aplicación JS, pero la API de citas y los PDF directos funcionan con curl.",
+   "proveniencia": "dLOC/UFDC alberga una serie de 'Le Moniteur haïtien' (journal officiel de la République/de l'Empire d'Haïti). La API https://api.dloc.patron.uflib.ufl.edu/AA00098214/{vid:05d}/citation?format=json devuelve conv_date e item_pdf; el PDF está en https://ufdcimages.uflib.ufl.edu/AA/00/09/82/14/{vid:05d}/{item_pdf}. Resuelve el bloqueo de F-0243 (dLOC 'localizada-bloqueada').",
+   "extractos": [],
+   "afirmaciones": [
+    "A-119",
+    "A-125"
+   ],
+   "modulos": [
+    "M09",
+    "M10",
+    "M11"
+   ],
+   "id_existente": "F-0243",
+   "notas": "Cobertura enumerada (vid 1-451; 450 con fecha): 1847 (12 números), 1848 (6), 1849 (47: 3-III a 17-XI), 1850 (4: solo diciembre), 1851 (45), 1852 (15), 1853 (44), 1854 (36), 1855 (10, hasta 11-VIII), 1856 (40; faltan los números de dic. 1855 con las primeras proclamas de la campaña), 1857 (15), 1858 (32), 1859 (44), 1860 (49), 1861 (51; hasta 28-XII). No hay números de feb. 1845 a feb. 1847 en esta colección (faltan las campañas de Pierrot). Se descargaron y leyeron por OCR 4 números de 1849/1851/1856 y se buscaron menciones en ~90 números de 1850-51, 1856 y 1859-61 (resto: sin resultados relevantes). Vids de interés: 34 (21-IV-1849), 36 (5-V-1849), 72 (18-I-1851), 225 (9-II-1856). Quedan por leer: 53 (1-IX-1849, proclamación del imperio), 221-230 (ene-mar 1856) y 410-417 (feb-abr 1861, anexión: M10)."
+  },
+  {
+   "titulo": "Island Luminous (FIU/dLOC), Parte V «1845 to 1860»: diapositiva 4 «Haiti and the Dominican Republic» (E. Matibag) y diapositiva 5 «Soulouque's Coronation» (extracto de J. Bouzon, Études historiques sur la présidence de Faustin Soulouque, 1894)",
+   "autor": "Matibag, Eugenio (diap. 4); Bouzon, Justin (extracto de 1894, diap. 5); Vera, Juan Camilo (exposición)",
+   "anio": "2015-2020 (exposición); 1894 (Bouzon)",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part05-slide05.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/part05-slide04.html",
+    "https://islandluminous.fiu.edu/part05-slide06.html",
+    "https://islandluminous.fiu.edu/part05-slide03.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Exposición digital curada por universidades (FIU, dLOC) con extractos traducidos de historiadores haitianos y comentario de especialistas; los extractos son breves y no sustituyen la obra original.",
+   "proveniencia": "Exposición web de la Florida International University con la Digital Library of the Caribbean: cada diapositiva presenta un texto breve de un especialista o un extracto traducido al inglés de un autor haitiano. La diap. 5 resume a Justin Bouzon, historiador haitiano de la élite que 'exhibited ... resentment toward Soulouque' (comentario de la exposición); la diap. 6 reproduce a Antoine Michel (1932, noiriste) sobre la caída de Soulouque; la diap. 3 a Madiou t. VIII (Riché y Acaau). La diap. 4 es de Matibag, especialista estadounidense de la isla.",
+   "extractos": [
+    {
+     "ubicacion": "diap. 5 (Bouzon, 1894, extracto traducido)",
+     "cita_original": "Soulouque returned nearly vanquished by his campaign in the east.",
+     "traduccion": "Soulouque regresó casi vencido de su campaña en el Este [6-V-1849, 'with the roar of cannon ... and what was left of his army in rags']. Bouzon: «Even though the campaign in the east did not have the desired results, it served to consolidate the power of a despot». El texto es de un historiador haitiano hostil a Soulouque, citado en traducción de la exposición.",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "diap. 4 (Matibag)",
+     "cita_original": "to avert the threat of a reconquest of Haiti by Spain",
+     "traduccion": "[Las invasiones del Este ordenadas por Soulouque pretendían no solo conquistar territorio dominicano sino también] conjurar la amenaza de una reconquista de Haití por España [desde un Santo Domingo recolonizado]. Matibag lee los motivos de Soulouque como mixtos (conquista y seguridad) y habla de «twenty-two-year domination» y de 'separation' en 1844.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-119",
+    "A-125",
+    "A-126"
+   ],
+   "modulos": [
+    "M09"
+   ],
+   "id_existente": "F-0260",
+   "notas": "Resuelve parcialmente F-0260 (antes 'fragmento-busqueda'); la ronda M08 leyó la parte IV (1821-1845, diap. 3 de Vera sobre 1822). La diap. 6 (Antoine Michel, «Avènement du général Fabre Nicolas Geffrard à la présidence d'Haïti», 1932) y la diap. 3 (Madiou t. VIII: Riché/Acaau) no contienen referencias a la cuestión dominicana. Citas ≤15 palabras en inglés, traducción mía. Fecha de la exposición: no figura en las diapositivas leídas [POR VERIFICAR]."
+  },
+  {
+   "titulo": "«¿Cómo se miran dominicanos y haitianos en los libros de texto escolares?», Ecos (UASD) n.º 17, ene-jun 2019, pp. 89-121, apartados sobre 1822-1844, 1844-1857 y tratados del siglo XIX",
+   "autor": "González Canalda, María Filomena",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/230/169/172",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio comparado de manuales con citas traducidas (por Rubén Silié) de textos haitianos; fuente de segunda mano pero con referencias precisas a nueve manuales haitianos que no pudimos leer directamente.",
+   "proveniencia": "María Filomena González Canalda (profesora de Historia Dominicana, UASD, INTEC, UNIBE; Premio Nacional de Historia 2009 y 2014; miembro de la Academia Dominicana de la Historia, según la nota de la autora) presentó el trabajo en un seminario en el AGN (2017) y lo publicó en Ecos, el órgano del Instituto de Historia de la UASD. Compara nueve manuales dominicanos y nueve haitianos (Auguste y Zamor, Le Monde et son Passé; Wesner Emmanuel, Histoire-Géographie 2e Secondaire II y Terminale II; Roy Fombrun et al., Histoire d'Haïti; Auguste y Auguste, Histoire de mon pays). Es una fuente dominicana sobre textos haitianos; se registra aquí como puente de la lente haitiana por falta de acceso a los manuales originales.",
+   "extractos": [
+    {
+     "ubicacion": "p. 104 (Wesner Emmanuel, Histoire-Géographie 2e Secondaire II, pp. 8-9; trad. R. Silié)",
+     "cita_original": "Esta Constitución prohíbe el derecho a la propiedad de los blancos",
+     "traduccion": "Esta Constitución [la de 1816, aplicada en el este como en el oeste] prohíbe el derecho a la propiedad de los blancos [y la mayoría de los habitantes del este eran blancos]. El mismo manual dice: «La fusión realmente es imposible. Muchas diferencias existen entre los dos pueblos, su origen, su mentalidad» y que esas disposiciones condujeron «a la revuelta de 1844». (Paralelo con la frase 'no es posible una fusión' atribuida a Duarte, A-121.)",
+     "afirmaciones": [
+      "A-129",
+      "A-132"
+     ]
+    },
+    {
+     "ubicacion": "p. 105 (Auguste y Zamor, Le Monde et son Passé, pp. 24-25; trad. R. Silié)",
+     "cita_original": "el pueblo del este complotó para separarse de Haití",
+     "traduccion": "[«A partir del 1843,»] el pueblo del este complotó para separarse de Haití. [«En febrero de 1844 ellos obtuvieron su propósito.»] El manual enumera como causas: reproches de la administración haitiana, artículos de la Constitución de 1816, el pago de la deuda de la independencia, el saqueo de iglesias y la división de los hatos comunales. Llama «Revuelta del Este» al movimiento (nota 85 de la autora: 'separación').",
+     "afirmaciones": [
+      "A-117",
+      "A-118",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "p. 107 (Roy Fombrun et al., Histoire d'Haïti de l'indépendance à nos jours, p. 32; trad. R. Silié)",
+     "cita_original": "Para restablecer la unidad de la isla, Soulouque emprende la campaña del este.",
+     "traduccion": "[«Francia decide reconocer la independencia de la República Dominicana.»] Para restablecer la unidad de la isla, Soulouque emprende la campaña del este. [Otro manual, Auguste y Auguste p. 42: 'el territorio se expandió por la integración del Plateau Central'.] El manual no menciona la derrota: dice que Soulouque ordenó 'rápidamente la retirada' por un falso rumor de insurrección y que el Oeste lo recibió 'como un triunfador'.",
+     "afirmaciones": [
+      "A-119",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "pp. 108-109 (Wesner Emmanuel, Terminale II, pp. 111-112; trad. R. Silié)",
+     "cita_original": "la mar como frontera",
+     "traduccion": "[La política de] «la mar como frontera» [mantenida «desde Dessalines hasta Faustin Soulouque» se eliminó con Geffrard, que «adoptó un principio de coexistencia pacífica»]. Los autores de manuales haitianos tratan 'una e indivisible' solo con esa expresión; González Canalda concluye (p. 121) que no halló evidencia de que los textos haitianos enseñen que la isla es 'una e indivisible'.",
+     "afirmaciones": [
+      "A-125",
+      "A-126"
+     ]
+    },
+    {
+     "ubicacion": "p. 111 (Wesner Emmanuel, Terminale II, pp. 111-112)",
+     "cita_original": "propietarios haitianos que se les había confiscado sus bienes en 1844",
+     "traduccion": "[Convención de Jacmel, 1898 (Sam-Heureaux): Haití pagaría 1 millón de dólares a la República Dominicana y la República Dominicana pagaría 30 mil dólares a los] propietarios haitianos que se les había confiscado sus bienes en 1844. Evidencia haitiana secundaria de que existió un reclamo de propietarios haitianos por confiscaciones de 1844 y de que se compensó en 1898; el convenio fue anulado en 1900 según el mismo manual.",
+     "afirmaciones": [
+      "A-134"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-125",
+    "A-126",
+    "A-129",
+    "A-132",
+    "A-134",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10",
+    "M11"
+   ],
+   "id_existente": "F-0102",
+   "notas": "Cita de segunda mano: lo que se cita como 'texto haitiano' es traducción de Rubén Silié recogida por la autora; los manuales originales no se leyeron. Autora de tradición dominicana: se clasifica la fuente como 'dominicana' aunque el valor para esta lente sea indirecto. Citas en español ≤15 palabras salvo fragmentos entre corchetes que son paráfrasis. Resuelve en M09 los pendientes de A-134 (hallazgo del reclamo de 1898; texto primario del Convenio de Jacmel no localizado: M11)."
+  },
+  {
+   "titulo": "Haiti: State Against Nation. The Origins and Legacy of Duvalierism (New York, Monthly Review Press, 1990), pasajes sobre 1844 y las campañas de Soulouque (pp. ~48, 93 y 106)",
+   "autor": "Trouillot, Michel-Rolph",
+   "anio": "1990",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/stateagainstnation",
+   "urls_alternativas": [
+    "https://archive.org/download/stateagainstnation/stateagainstnation_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de un antropólogo-historiador haitiano con aparato crítico; trata las campañas como parte de la historia del Estado y del ejército, no de la cuestión territorial.",
+   "proveniencia": "Michel-Rolph Trouillot, antropólogo haitiano en EE.UU.; publica en 1990 una historia del Estado haitiano que explica el duvalierismo. Trata 1844 y las campañas solo de pasada, como contexto del peso del ejército y de la corrupción: no escribe una historia de la 'cuestión del Este'. Usa 'forced out' y 'engagements' (no 'invasion' ni 'occupation').",
+   "extractos": [
+    {
+     "ubicacion": "pp. ~48-49 (capítulo sobre el Estado en el siglo XIX; l. 2066-2072 del _djvu.txt) [página no cotejada]",
+     "cita_original": "Haitian troops were forced out of the eastern part of Hispaniola",
+     "traduccion": "las tropas haitianas fueron expulsadas de la parte oriental de La Española [un año después de la caída de Boyer, cuando «Residents of the eastern part of the island took advantage of the confusion»]. Trouillot no usa 'ocupación', 'invasión' ni 'unificación' para 1822-1844 en este pasaje.",
+     "afirmaciones": [
+      "A-117",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (cap. «The Recurring Crisis»; l. 4140-4143)",
+     "cita_original": "Soulouque's military campaigns against the Dominican Republic in 1849 and 1855",
+     "traduccion": "las campañas militares de Soulouque contra la República Dominicana en 1849 y 1855 [inflaron el ejército y los costos de la corrupción; Geffrard redujo el ejército a la mitad].",
+     "afirmaciones": [
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "p. 106 (l. 4737-4741)",
+     "cita_original": "the four—however unfortunate—engagements against the Dominican Republic",
+     "traduccion": "los cuatro (por desafortunados que fueran) enfrentamientos contra la República Dominicana [campañas más importantes del ejército tras la independencia: 'primarily an army that claimed to fight foreigners']. Coincide con el cómputo de cuatro campañas de Manigat (1844, 1845, 1849, 1855).",
+     "afirmaciones": [
+      "A-119"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-119"
+   ],
+   "modulos": [
+    "M00",
+    "M06",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0111",
+   "notas": "Obra con derechos; citas ≤15 palabras. Las páginas 93 y 106 salen de las cabeceras del OCR; la página del primer pasaje no se verificó. Aporta el cómputo 'four engagements' y la lectura de que las campañas fueron el mayor esfuerzo bélico del ejército nacional. La descarga ya estaba hecha por la ronda M08 (archive.org, 'stateagainstnation')."
+  },
+  {
+   "titulo": "haitidoi.com, «Haitian Constitutions 1790-1860» y páginas de constituciones de 1843, 1846, 1849 y 1859 (Julia Gaffield, ed.)",
+   "autor": "Gaffield, Julia (ed.); Dubois, Laurent; Acacia, Michel",
+   "anio": "2013",
+   "tipo": "portal",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://haitidoi.com/2013/09/29/haitian-constitutions-1790-1860/",
+   "urls_alternativas": [
+    "https://haitidoi.com/constitutions/1846-2/",
+    "https://haitidoi.com/constitutions/1849-2/",
+    "https://haitidoi.com/constitutions/1843-2/",
+    "https://haitidoi.com/constitutions/1859-2/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición crítica de las constituciones haitianas 1790-1860 (con imágenes de impresos de época, según la presentación) a cargo de especialistas.",
+   "proveniencia": "Blog/portal de Julia Gaffield (historiadora); la entrada de 29-IX-2013 anuncia la publicación «Documents constitutionnels d'Haïti 1790-1860» (Dubois, Gaffield, Acacia; serie 'The Rise of Modern Constitutionalism, 1776-1849') y enlaza páginas con transcripciones de cada texto. Es un portal con derechos de edición y con transcripciones a veces con erratas OCR.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-124"
+   ],
+   "modulos": [
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "F-0262",
+   "notas": "Resuelve F-0262 (antes 'localizada-bloqueada'): se descargan páginas de 1843, 1846, 1849 y 1859. La de 1846 (haitidoi.com/constitutions/1846-2/) distingue fecha de votación (14-XI-1846, Maison Nationale) y de promulgación (15-XI-1846) y se basa en el impreso de Courtois, 1846; la de 1849 da 17, 19 y 20-IX-1849; la de 1859 es la 'loi du 18 juillet 1859' que modifica los arts. 62, 71, 73, 111, 132, 133, 139, 167 y 182 de la Constitución de 1846 (el título I no se toca). Esta ronda no leyó el PDF de Eller (2013), ya registrado aparte."
+  },
+  {
+   "titulo": "«Premier janvier 1804 : naissance de l'État haïtien et renaissance de l'île d'Haïti», Le Nouvelliste (Opinions), 30 de diciembre de 2024",
+   "autor": "Denis, Watson",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/252245/premier-janvier-1804-naissance-de-letat-haitien-et-renaissance-de-lile-dhaiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de opinión de un historiador haitiano con notas, en prensa nacional; interpretación académica pero sin aparato de fuentes primarias para 1844.",
+   "proveniencia": "Watson Denis, historiador haitiano (Ph.D.; la ficha de Le Nouvelliste lo presenta como tal; ya figura en el registro como autor sobre derechos de nacionalidad), publica en Le Nouvelliste, principal diario de Puerto Príncipe, un texto (31 min de lectura) sobre 1804 y la 'renaissance de l'île d'Haïti', con nota de fecha 30-XII-2024, para el público haitiano en el aniversario del 1.º de enero. Cita a Madiou (Histoire d'Haïti, p. 151) y a historiadores dominicanos (Cordero Michel, Lora, Franco).",
+   "extractos": [
+    {
+     "ubicacion": "nota 18 y cuerpo del texto (apartado final)",
+     "cita_original": "les habitants de la partie orientale de l'ile se sont séparés d'Haïti",
+     "traduccion": "los habitantes de la parte oriental de la isla se separaron de Haití [27-II-1844, 'dans la dynamique de la chute de Boyer']. Denis usa 'séparés' para 1844 y 'réunification' para 1822.",
+     "afirmaciones": [
+      "A-117",
+      "A-118"
+     ]
+    },
+    {
+     "ubicacion": "cuerpo del texto (sobre Dessalines)",
+     "cita_original": "il ne pouvait exister une séparation géographique dans laquelle il existe deux régimes politiques contradictoires",
+     "traduccion": "no podía existir una separación geográfica en la que existen dos regímenes políticos contradictorios [un Estado independiente y una colonia bajo una potencia esclavista]. Doctrina de seguridad anticolonial, atribuyendo a Dessalines la frase «A Haïti, il faut donner la mer pour frontière».",
+     "afirmaciones": [
+      "A-126",
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "nota 18",
+     "cita_original": "il a commencé à reconnaitre l'indépendance proclamée de l'État voisin",
+     "traduccion": "[A la caída de Soulouque en 1859, el gobierno de Fabre Nicolas Geffrard] comenzó a reconocer la independencia proclamada del Estado vecino [la realpolitik se impuso; el Tratado de 1874 la formalizó]. Denis añade que Soulouque intentó 'refaire l'unité territoriale' en 1856 y que 'les grandes puissances ... ont tout fait pour boycotter ce projet de réunification'.",
+     "afirmaciones": [
+      "A-133",
+      "A-125"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-125",
+    "A-126",
+    "A-133"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "Opinión; ≤15 palabras por cita. Muestra la doctrina de la isla indivisible como lectura de seguridad en un historiador haitiano actual y la sitúa como 'objectif fondamental des autorités haïtiennes de réunifier l'île'. Fecha de publicación: 30-XII-2024 (cabecera). Sesgo: lectura del Estado haitiano; contrastar con la nota 17 que remite a Lora y Cordero Michel."
+  },
+  {
+   "titulo": "«Le tort d'être noir dans l'autre République de Kiskéia», Le Nouvelliste (Opinions), 19 de diciembre de 2013",
+   "autor": "Savary, Savannah",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/125438/le-tort-detre-noir-dans-lautre-republique-de-kiskeia",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de prensa de una periodista sin aparato de fuentes; recoge la versión popular haitiana y contiene imprecisiones.",
+   "proveniencia": "Savannah Savary, periodista de Le Nouvelliste, publica en 2013 un recorrido de 15 minutos de lectura por la historia común, la diferencia racial dominicana y 1937. Escribe para el público haitiano con tesis sobre racismo dominicano; cita de oídas a Madiou. Valor: muestra la versión popular de la 'reconquête' como empresa de ciertos sectores y no de todo Haití.",
+   "extractos": [
+    {
+     "ubicacion": "apartado sobre 1822-1844 y guerras",
+     "cita_original": "La reconquête du territoire de l'Est n'intéressait pas certains secteurs haïtiens",
+     "traduccion": "La reconquista del territorio del Este no interesaba a ciertos sectores haitianos [y los dominicanos estaban decididos a defender lo ganado]. Enumera «quatre guerres»: 1844 (Hérard), 1845, 1849 y 1855 (Soulouque), y dice que Haití conservó Saint-Michel, Hinche y Saint-Raphaël. Voz haitiana que disiente de la unanimidad de la doctrina.",
+     "afirmaciones": [
+      "A-125",
+      "A-119"
+     ]
+    },
+    {
+     "ubicacion": "apartado sobre 1822-1844",
+     "cita_original": "certains des plus ardents Dominicains partisans de l'union l'ont amèrement regretté",
+     "traduccion": "[Según Madiou, a los pocos meses de la unión] algunos de los más ardientes dominicanos partidarios de la unión la lamentaron amargamente [y gracias a Duarte combatieron el régimen de Boyer y luchan por su independencia]. Atribuye a Madiou; sin cita ni página.",
+     "afirmaciones": [
+      "A-117",
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-119",
+    "A-125",
+    "A-131"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Opinión de prensa de 19-XII-2013 (≈15 min de lectura). La afirmación sobre Madiou no está verificada contra el texto de Madiou. Usa 'unification' para 1822-1844, 'Kiskéia' como nombre de la isla (Haití Libre/Haitian Times: 'Kiskeya'); término recogido en el glosario."
+  },
+  {
+   "titulo": "«Qui veulent la guerre entre les Dominicains et les Haïtiens ?», Haïti Liberté (Perspectives), 28 de marzo de 2018",
+   "autor": "Lodimus, Robert",
+   "anio": "2018",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://haitiliberte.com/qui-veulent-la-guerre-entre-les-dominicains-et-les-haitiens/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Opinión de un columnista en un semanario de la diáspora haitiana (Haïti Liberté, Brooklyn/Puerto Príncipe) con divagaciones; útil solo como muestra de discurso público.",
+   "proveniencia": "Robert Lodimus, columnista, escribe tras el asesinato de una pareja dominicana en Pedernales (2018) para el semanario Haïti Liberté (de línea de izquierda nacionalista). Mezcla historia, geopolítica y comparación con Israel/Palestina; en el apartado «Un peu d'histoire» resume 1822-1860 con la fórmula de la 'quête de rapprochement'.",
+   "extractos": [
+    {
+     "ubicacion": "apartado «Un peu d'histoire» y «Des frontières historiques»",
+     "cita_original": "Ce serait donc une obsession d'Haïti à vouloir récupérer l'autre partie d'elle-même.",
+     "traduccion": "Sería pues una obsesión de Haití querer recuperar la otra parte de sí misma. Lodimus interpreta las 'escapades politiques et guerrières' de Dessalines, Boyer, Pierrot y Soulouque como 'quête irrésistible de rapprochement des deux peuples'.",
+     "afirmaciones": [
+      "A-125"
+     ]
+    },
+    {
+     "ubicacion": "apartado «Des frontières historiques»",
+     "cita_original": "ne jurèrent que par les formules de l'annexion territoriale à la France, l'Espagne, les États-Unis",
+     "traduccion": "[De 1845 a 1860 los dirigentes dominicanos] no juraron más que por las fórmulas de la anexión territorial a Francia, España y EE.UU.; «Du côté haïtien, on redoutait ... un retour du pays voisin dans les girons des anciens colons»; Haití pensaba que la solución era «réunifier» pacíficamente la isla.",
+     "afirmaciones": [
+      "A-126",
+      "A-127",
+      "A-128"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-125",
+    "A-126",
+    "A-127",
+    "A-128"
+   ],
+   "modulos": [
+    "M09",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Cita ≤15 palabras. La lectura de 'réunifier pacifiquement' contradice el registro (guerras de 1844-1856 con fines de sometimiento): es una versión de divulgación. Fecha de la cabecera: March 28, 2018."
+  },
+  {
+   "titulo": "«Premye prezidan Repiblik Dominikèn fèt sou tè ayisyen | Èske w te konnen?», The Haitian Times (edición en kreyòl), 10 de noviembre de 2025 (original 17-XI-2023)",
+   "autor": "Delly, Ralph",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "ht",
+   "tradicion": "haitiana",
+   "url": "https://haitiantimes.com/ht/2025/11/10/haitian-history-facts-istwa-dayiti-dominican-president/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota breve de divulgación en la edición kreyòl del periódico de la diáspora, basada en documentos del AGN dominicano según el propio texto; sin aparato.",
+   "proveniencia": "Ralph Delly, periodista musical y cronista de The Haitian Times (fallecido, según la nota del editor), escribe la serie «Did You Know / Èske w te konnen» sobre curiosidades de la herencia haitiana; la versión kreyòl se republica el 10-XI-2025 (original de 17-XI-2023). El texto fundamenta la fecha y el lugar de nacimiento de Santana en 'dokiman ki depoze nan achiv nasyonal Repiblik Dominikèn nan'.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo 1",
+     "cita_original": "Pedro Santana, prezidan fondatè Repiblik Dominikèn nan, te fèt nan Hinche, Ayiti",
+     "traduccion": "Pedro Santana, presidente fundador de la República Dominicana, nació en Hinche, Haití. El texto: «Dapre dosye ofisyèl dominiken yo ... te fèt an 1801 nan Hinche—Ayiti jodi a»; «nan dat 29 jen 1801» según el AGN dominicano; su madre, Petronila Familias, de ascendencia canaria; ambos padres propietarios en la zona fronteriza central.",
+     "afirmaciones": [
+      "A-131"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-131"
+   ],
+   "modulos": [
+    "M09",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Única fuente en kreyòl hallada para el módulo. Citas ≤15 palabras. El texto dice «Hincha (...) Hinche» y atribuye la información a documentos del AGN dominicano; no cita la signatura. Las dos reacciones de lectores al final (una dice que Hinche fue territorio español hasta la ocupación estadounidense) NO son evidencia. Complementa A-131 con una voz kreyòl sobre el lugar de nacimiento de Santana; contrastar con Price-Mars (p. 200), que dice «fils d'un mulâtre de Hinche»."
+  },
+  {
+   "titulo": "«État et territoire : la question de la naissance de la République dominicaine», en Hector, M. y Hurbon, L. (eds.), Genèse de l'État haïtien (1804-1859) (Paris, Éditions de la MSH, 2009), cap. de J.-M. Théodat, §§ 19-24",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9766",
+   "urls_alternativas": [
+    "https://books.openedition.org/editionsmsh/9723"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo académico de un geógrafo haitiano-francés en un volumen colectivo con ediciones de la Maison des Sciences de l'Homme; leído solo a través de resúmenes de WebFetch (no se obtuvo el HTML crudo).",
+   "proveniencia": "Jean-Marie Théodat (geógrafo; autor de Haïti-République Dominicaine: une île pour deux, 2003) escribe el capítulo de la parte IV («État, territoire et relations internationales») de la obra editada por Michel Hector y Laënnec Hurbon. OpenEdition devuelve el desafío Anubis a curl; el contenido se obtuvo con WebFetch, que entrega resúmenes del modelo y no el texto literal: las fórmulas siguientes son paráfrasis y no citas verificadas.",
+   "extractos": [
+    {
+     "ubicacion": "§ 21-22 (resumen de WebFetch)",
+     "cita_original": "",
+     "traduccion": "Según el capítulo, las disensiones regionales haitianas y la revuelta de Acaau debilitaron al Estado en 1844; Pierrot habría 'amenazado hacer secesión y proclamar la independencia del Norte' en lugar de reprimir a los insurgentes dominicanos, y el autor concluye que la independencia dominicana 'aparece como una consecuencia lógica' de la parálisis. [Paráfrasis: sin cita verificada.]",
+     "afirmaciones": [
+      "A-118",
+      "A-117"
+     ]
+    },
+    {
+     "ubicacion": "§ 19-20 (resumen de WebFetch)",
+     "cita_original": "",
+     "traduccion": "Teodat sostiene que durante 1822-1844 las autoridades haitianas intentaron asimilar a la población del Este (trabajo obligatorio, Código Rural) y que el rechazo dominicano obedeció a la 'incompatibilidad de modelos de sociedad' (tierras comuneras, economía campesina) más que a diferencias raciales. [Paráfrasis; contrasta con la lectura racial de A-129.]",
+     "afirmaciones": [
+      "A-129",
+      "A-135"
+     ]
+    },
+    {
+     "ubicacion": "§ 23-24 (resumen de WebFetch)",
+     "cita_original": "",
+     "traduccion": "El reconocimiento francés e inglés de la independencia dominicana hacia 1850 cerró las esperanzas haitianas de reconquista; las campañas de Soulouque 'greva[ron] lourdement le budget' y fueron 'les plus meurtrières et les plus désastreuses'. [Paráfrasis.]",
+     "afirmaciones": [
+      "A-119",
+      "A-133"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-117",
+    "A-118",
+    "A-119",
+    "A-129",
+    "A-133",
+    "A-135"
+   ],
+   "modulos": [
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "id_existente": "F-0116",
+   "notas": "Ya registrado por la ronda M08 (§§ 13-24 leídos). Las citas de esta ficha deben cotejarse con el texto original antes de entrar en la síntesis. El resumen de WebFetch parece mezclar 1843-1844 (Pierrot 'refusa en 1843'); la secuencia correcta (Pierrot, Santiago, 30-III-1844) está en Price-Mars. Fecha de edición: 2009 [POR VERIFICAR; el listado de OpenEdition no la dio]."
+  }
+ ]
+}

@@ -1,0 +1,1826 @@
+{
+ "lente": "evidencia cientifica y cuantitativa",
+ "modulo": "M08",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 35,
+ "busquedas_pendientes": [
+  "Scherer 1912 'Great earthquakes in the Island of Haiti' (BSSA 2:161-180) texto completo y cifras de Santiago y La Vega",
+  "ten Brink et al. 2011 y Prentice et al. 2013: catálogo de intensidades por localidad del Cibao en 1842 (texto completo)",
+  "Dixon 2000 'African America and Haiti' y Fanning 2015 'Caribbean Crossing': número de emigrantes llegados vs partidos (1824-1826)",
+  "Poplack y Sankoff 1987 'The Philadelphia story in the Spanish Caribbean' (American Speech 62): historia de los colonos y tamaño de la muestra",
+  "Genética de los Samaná Americans y fechación de la mezcla africana/europea en la RD (Moreno-Estrada 2013; Schurr 2026) para contrastar con 1822-1844",
+  "Cassá, Historia social y económica de la RD, t. II (2023), p. 26: los ocho registros de exportación de caoba 1822-1844 y fuente primaria",
+  "Roberto Marte, Estadísticas y documentos históricos sobre Santo Domingo 1805-1890 (1984)",
+  "Rodríguez Demorizi, Sentencias penales de la época de la dominación haitiana (Boletín del AGN 79-87, 1953-55) y La Revolución de 1843",
+  "Bulmer-Thomas 2012 (Economic History of the Caribbean) series de exportación y de ingresos fiscales de Haití 1822-1843",
+  "Beauvois 2010 (Revue historique 655); Brière 2004 y 2006; Blancpain 2001; Joachim 1975: número de reclamantes y cálculo de la indemnización",
+  "Ardouin, Études sur l'histoire d'Haïti, t. IX-XI (1853), y Madiou t. VI-VIII: cifras de tropas de Boyer en 1822 y de la contribución del Este",
+  "Matrículas y claustros de la Universidad Santo Tomás 1810-1823 (AGN, archivo arzobispal); número de clérigos y valor de los bienes eclesiásticos confiscados en 1824",
+  "Padrones del Este: 'censo anual' del que habla Candler; estado de 1824-1826 original en los Archives Nationales d'Haïti",
+  "slavevoyages.org: tráfico ilegal y salidas de esclavizados desde Santo Domingo 1822 (Cuba, Puerto Rico)",
+  "Hedges et al. 2018 (PNAS) y FAO sobre cobertura forestal histórica: para valorar el desmonte atribuido a 1822-1844"
+ ],
+ "lagunas": [
+  "A-094: no se encontró ninguna cifra primaria de los esclavizados liberados en 1822. Solo rangos indirectos: 12.000-14.000 hacia 1791 (Eller), 14.000 (Sánchez Valverde, vía Lora) a 30.000 (Mackenzie) en 1785, y 99 contratados en Higüey (Lora, hipótesis). El '>10.000' de la prensa sigue sin traza (D). Los padrones de 1821-22 no se localizaron.",
+  "Las obras centrales del módulo no se leyeron: Walker 2018 (tesis; Deep Blue tras desafío anti-bot, 403), Eller 2016 (OAPEN, 403 y ECONNRESET), Yingling 2022 y Batista Lemaire 2025 (bajo derechos), Moya Pons 1972 (sin texto en línea). Lora 2012 (ADH) no se localizó; solo su artículo de 2009. La URL de F-0075 apunta al artículo de Lora y no a Moya Pons.",
+  "Población del Este: cinco cifras incompatibles sin padrón primario (54.000, 61.468 y 71.223 hacia 1824-26; 100.086 y 130.000 en 1838-42) y una de 'blancos' (50.000, Lepelletier) sin base. Falta el 'censo anual' que según Candler se levantaba en el Este.",
+  "Contribución del Este: se tiene el reparto legal (≈15,3 % de 3 millones de gourdes anuales, ley n.º 1028 de 1-V-1826) pero no lo recaudado; falta la ley de 16-IV-1827 (n.º 1088), las instrucciones del 15-IX-1826 (n.º 1061) y las cuentas por departamento. El dígito de Azua en la tabla de reparto es ilegible (35.000-38.000).",
+  "Series de exportación específicas del Este (tabaco, caoba, cuero) 1822-1844: solo agregados nacionales (Franklin, Mackenzie, Candler) con cifras que no cuadran entre sí (caoba de 20.100 pies en 1822 a ~3 millones en 1825); la cifra de 38,9 millones de pies de Cassá (vía columna de opinión) no se rastreó a sus ocho registros.",
+  "Reclutamiento: solo se tiene la estructura (regimientos 31.º-33.º en 1822), el tamaño nacional (28.451 en 1838; 25.000 en 1840) y la queja de los notables (Mackenzie); nada de cuántos jóvenes del Este fueron reclutados ni de la edad de 16-25 años de A-099.",
+  "Universidad (A-098/099): ni matrículas ni claustros 1810-1823; solo el testimonio de Mackenzie (1826-27) de que 'ya no existe'. Iglesia: solo salarios del alto clero y pensión de las religiosas (ley de 1824); sin número de clérigos ni valor de bienes confiscados; el exilio de Valera (1830) no se verificó.",
+  "Emigración de blancos (A-111): ninguna cifra de emigrados con base documental; el art. 3 de la ley de 1824 fija el plazo (regreso antes del 10-VI-1823) pero no cuántos perdieron sus bienes.",
+  "Lente científica estricta: ningún estudio de genética, arqueología o ecología resuelve las afirmaciones A-094 a A-115; no se localizó genética de los Samaná Americans. Las únicas aportaciones propiamente científicas son la sismología del terremoto de 1842 (Gailler et al. 2015; ten Brink 2011, solo resumen) y la lingüística de Samaná (Tagliamonte y Poplack 1988, solo resumen). El resto es cuantitativo-documental.",
+  "Indemnización: Beauvois 2010 (Cairn, 403), Brière, Blancpain 2001 y Dubois 2012 no son accesibles; la cifra de 25.838 beneficiarios se conoce solo vía Henochsberg. La metodología del NYT (pérdida de $21.000-115.000 millones) no se verificó (página de bibliografía con muro).",
+  "Terremoto de 1842: las cifras de víctimas (5.000 en Cap-Haïtien; 200 en Santiago) son de Scherer 1912 vía Gailler 2015; Scherer no se leyó. Madiou, Ardouin y Delorme (citados por Gailler) no se consultaron."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Réunion de l'Est / partie de l'Est",
+   "tradicion": "haitiana (oficial)",
+   "nota": "Boyer y el Recueil hablan de 'réunion de l'Est à la République' y de 'nos frères de l'Est' (Recueil t. III, n.º 774, 9-II-1822). La tradición dominicana dice 'ocupación' o 'dominación'; el glosario ya recoge 'réunification', pero no la forma oficial 'réunion' ni 'partie de l'Est'."
+  },
+  {
+   "termino": "Régénération (ère de la) / Réforme de 1843",
+   "tradicion": "haitiana",
+   "nota": "El gobierno provisional de Hérard fechaba sus decretos 'an 40 de l'Indépendance d'Haïti et 1er de la Régénération' (decreto del 15-IV-1843, Recueil t. VII). La tradición dominicana dice 'Reforma' o 'Revolución de 1843'; el término lleva carga ideológica en ambos lados."
+  },
+  {
+   "termino": "Cultivateur / cultivador; domestique / doméstico (por 'esclavo')",
+   "tradicion": "haitiana",
+   "nota": "Tras 1822 los documentos notariales de Higüey sustituyen 'esclavo' por 'cultivador' o 'doméstico' y 'don/doña' por 'ciudadano/a' (Lora 2009, p. 37): un eufemismo administrativo que dificulta contar esclavos; hay que buscar los contratos de aparcería y de 'compañía'."
+  },
+  {
+   "termino": "Cocolo (aplicado a los Samaná Americans)",
+   "tradicion": "dominicana",
+   "nota": "Según Weeks 2005 (p. 41) los dominicanos hispanos llaman 'cocolos' (término despectivo) a los afroamericanos de Samaná, aunando negro, protestante, acento inglés y Samaná. En el glosario solo figuran 'congó' y 'bracero' (cañeros); 'cocolo' designa también a los inmigrantes angloparlantes de las Antillas Menores en San Pedro de Macorís [POR VERIFICAR]."
+  },
+  {
+   "termino": "Departamentos del Cibao y del Ozama",
+   "tradicion": "haitiana",
+   "nota": "La Constitución haitiana del 30-XII-1843 (arts. 59-60) organiza el Este en dos departamentos, Cibao y Ozama, cada uno con seis senadores; antes el Este se dividía en arrondissements de Santo Domingo, Saint-Jean, Azua, La Vega, Monte-Christ, Porte-Plate y Saint-Yague (ley de 1-V-1826). La tradición dominicana habla de 'parte española' o 'este'; conviene registrar el nombre administrativo haitiano."
+  },
+  {
+   "termino": "Dette nationale / contribution extraordinaire",
+   "tradicion": "haitiana",
+   "nota": "La ley del 26-II-1826 declara 'dette nationale' la indemnización de 150 millones y la del 1-V-1826 impone una 'contribution extraordinaire' de 30 millones de gourdes en diez años; el preámbulo la presenta como cumplimiento de 'ofertas grandes y generosas' del fundador de la República. El glosario recoge 'deuda de la independencia' y 'rançon'; faltan los nombres oficiales de la época."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "El Higüey haitiano, 1822-1844",
+   "autor": "Lora Hugi, Quisqueya",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/64/61/121",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico (Estudios Sociales n.º 151, pp. 35-56) construido sobre el catálogo del Archivo Real de Higüey (1.526 expedientes) con recuentos explícitos, aunque de una sola comunidad marginal y con una hipótesis (99 contratados = esclavos de 1822) declarada como tal.",
+   "proveniencia": "Historiadora dominicana (el registro F-0093 la enlaza a history.princeton.edu). Publicado en la revista Estudios Sociales (Año 41, vol. XL, n.º 151, oct.-dic. 2009) como avance de la investigación que después aparece como monografía de la ADH (2012). Se apoya en el catálogo del Archivo Real de Higüey (AGN, 1.526 expedientes) y en Moya Pons, García y Mackenzie. Su propósito declarado es poner a prueba la tesis de Peña Batlle sobre Higüey como núcleo de dominicanidad.",
+   "extractos": [
+    {
+     "ubicacion": "p. 37 (texto) y nota 4",
+     "cita_original": "el 95% de los documentos están en español, no sólo en Higüey sino en la documentación disponible de otros lugares. [...] Este tiene una cantidad de 1,526 expedientes.",
+     "traduccion": "el 95% de los documentos están en español, no sólo en Higüey sino en la documentación disponible de otros lugares. [Nota 4, sobre el catálogo del Archivo Real de Higüey:] Este tiene una cantidad de 1.526 expedientes.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 39",
+     "cita_original": "El 28 de enero, Jean Pierre Boyer partió hacia Santo Domingo acompañado de un ejército de 12 mil hombres, dividido en dos columnas.",
+     "traduccion": "El 28 de enero, Jean Pierre Boyer partió hacia Santo Domingo acompañado de un ejército de 12 mil hombres, dividido en dos columnas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 44",
+     "cita_original": "Las dos últimas ventas de esclavos que aparecen en el Archivo Real de Higüey se realizaron el 6 de diciembre de 1821. En esa fecha Francisco Herrera y José María de Castro vendieron a Manuel Garrido y a José Villavicencio a cada uno una esclava, Victoria y María Sánchez respectivamente, por 300 pesos fuertes cada una.",
+     "traduccion": "Las dos últimas ventas de esclavos que aparecen en el Archivo Real de Higüey se hicieron el 6 de diciembre de 1821 (dos esclavas, 300 pesos fuertes cada una).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 44",
+     "cita_original": "hasta ahora no hemos encontrado distribuciones de tierras, por lo que los antiguos esclavos tuvieron que emplearse a los propietarios de tierra, en muchos casos sus antiguos amos.",
+     "traduccion": "hasta ahora no hemos encontrado distribuciones de tierras, por lo que los antiguos esclavos tuvieron que emplearse a los propietarios de tierra, en muchos casos sus antiguos amos.",
+     "afirmaciones": [
+      "A-097",
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "p. 46",
+     "cita_original": "Los actos de este tipo se prolongan desde el 25 de julio al 2 de septiembre, es decir, un mes y una semana en los que se producen 55 acuerdos entre partes, distribuidos de la siguiente manera: 27 en julio, 27 en agosto y 1 en septiembre.",
+     "traduccion": "Los actos de este tipo se prolongan desde el 25 de julio al 2 de septiembre: un mes y una semana en los que se producen 55 acuerdos entre partes, 27 en julio, 27 en agosto y 1 en septiembre.",
+     "afirmaciones": [
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "p. 46",
+     "cita_original": "En los 55 actos, 37 personas estuvieron involucradas como propietarios de tierra o contratantes. 99 personas son los contratados y muy probablemente la mayoría, sino la totalidad, antiguos esclavos.",
+     "traduccion": "En los 55 actos, 37 personas estuvieron involucradas como propietarios de tierra o contratantes. 99 personas son los contratados y muy probablemente la mayoría, sino la totalidad, antiguos esclavos.",
+     "afirmaciones": [
+      "A-094",
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "pp. 46-47 (cambio de página)",
+     "cita_original": "cantidad de esclavos en Higüey, podríamos aventurar la hipótesis de que ésta era la cantidad aproximada de esclavos que había en 1822.",
+     "traduccion": "[Sin datos de la] cantidad de esclavos en Higüey, podríamos aventurar la hipótesis de que ésta [la cifra de 99] era la cantidad aproximada de esclavos que había en 1822.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 47",
+     "cita_original": "Predominó la modalidad de aparcería, mediante la asignación de una porción de labranza de la que los trabajadores pueden gozar de la cuarta parte de los cultivos; 27 casos tienen esta modalidad ; 22 acuerdos se refieren al acompañamiento y oficios domésticos que generalmente se prolongan por cinco años.",
+     "traduccion": "Predominó la aparcería (el trabajador goza de la cuarta parte de los cultivos): 27 casos. 22 acuerdos se refieren al acompañamiento y oficios domésticos, generalmente por cinco años.",
+     "afirmaciones": [
+      "A-097"
+     ]
+    },
+    {
+     "ubicacion": "p. 47, nota 35",
+     "cita_original": "Antonio Sánchez Valverde. Idea del valor de la isla Española estimaba que en 1785, había 14 mil esclavos en Santo Domingo, p.169.",
+     "traduccion": "Antonio Sánchez Valverde, Idea del valor de la isla Española, estimaba que en 1785 había 14 mil esclavos en Santo Domingo (p. 169).",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "p. 42",
+     "cita_original": "decaimiento que ha tenido este pueblo por la libertad de los cultivadores que antes eran esclavos",
+     "traduccion": "[Instrucciones del cabildo a su diputado:] el decaimiento que ha tenido este pueblo por la libertad de los cultivadores que antes eran esclavos.",
+     "afirmaciones": [
+      "A-096"
+     ]
+    },
+    {
+     "ubicacion": "p. 51",
+     "cita_original": "Allí prácticamente no se cumplió la disposición haitiana que obligaba al pago de un jornal. [...] aparentemente Higüey recibió sin grandes traumas la unificación con Haití",
+     "traduccion": "Allí prácticamente no se cumplió la disposición haitiana que obligaba al pago de un jornal. [...] aparentemente Higüey recibió sin grandes traumas la unificación con Haití.",
+     "afirmaciones": [
+      "A-096",
+      "A-097",
+      "A-108"
+     ]
+    },
+    {
+     "ubicacion": "pp. 38 y 48-49",
+     "cita_original": "estimaba su población en 1,655 personas [...] se produjeron por lo menos 222 actos, para una media de 18.5 actos por año, frente a los 181 actos de 1822 a 1844 equivalentes a 8.2 actos por año.",
+     "traduccion": "[Mackenzie, 1824] estimaba su población [Higüey] en 1.655 personas. [Familia Rijo:] 222 actos en 1809-1821, media de 18,5 por año, frente a 181 actos en 1822-1844, 8,2 por año (tabla p. 48: Rijo+Guerrero+Villavicencio, 460 actos en los 12 años de España Boba contra 402 en los 22 años de gobierno haitiano).",
+     "afirmaciones": [
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-096",
+    "A-097",
+    "A-100",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: contratos de aparcería y servicio doméstico firmados en Higüey entre el 25-VII y el 2-IX-1822 (55 actos, 99 contratados); ninguna venta de esclavos tras el 6-XII-1821; casi ningún pago de jornal. INTERPRETACION de la autora: la mayoría de los libertos siguió con sus amos en un sistema de aparcería; 'sin grandes traumas'. HIPOTESIS declarada: 99 contratados = esclavos de Higüey en 1822 (sin datos de padrón). Sesgo: una sola comunidad marginal ganadera; los notarios y el cabildo eran de los antiguos propietarios. INCIDENCIA: la URL de este PDF figura en registro.csv como F-0075 (Moya Pons, 'La dominación haitiana...'), pero el documento es este artículo de Lora y no de Moya Pons; F-0075 sigue sin resolver. Este artículo NO es la monografía de la ADH de 2012 (F-0093), que no se localizó. La cita de Boyer (p. 38) y la circular del 11-II-1822 (p. 45) vienen vía Moya Pons y García. Las cifras de la tabla de apellidos (actos 1809-1821 vs 1822-1844) son recuentos de la autora sobre el catálogo del ARH, no de los documentos."
+  },
+  {
+   "titulo": "Notes on Haiti, made during a residence in that republic (2 vols.)",
+   "autor": "Mackenzie, Charles",
+   "anio": "1830",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/notesonhaitimade02mack",
+   "urls_alternativas": [
+    "https://archive.org/details/notesonhaitimade01mack",
+    "https://archive.org/download/notesonhaitimade02mack/notesonhaitimade02mack_djvu.txt",
+    "https://archive.org/download/notesonhaitimade01mack/notesonhaitimade01mack_djvu.txt",
+    "https://www.manioc.org/patrimon/SCH13082"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Observador británico con acceso directo a documentos oficiales haitianos y que discute la fiabilidad de cada cifra, pero con sesgo reformista y con tablas que dependen de documentos oficiales de calidad dudosa que él mismo cuestiona.",
+   "proveniencia": "Charles Mackenzie (1788-1862, dato de la ficha de Manioc), diplomático británico (cónsul general: [POR VERIFICAR]), residió en Haití hacia 1826-1827 y publicó en Londres (Colburn y Bentley, 1830). Escribió para el Foreign Office y el público británico, con interés en evaluar el comercio y la estabilidad de Haití tras el reconocimiento francés. Viajó por el este (llegó a Santo Domingo y pasó por Lamatte) y obtuvo de oficiales haitianos dos estados de población y los cuadros de comercio y finanzas; sus cifras de Higüey y de otras comunas son de esos estados, no de visita propia.",
+   "extractos": [
+    {
+     "ubicacion": "vol. 2, p. 109 (l. 3756-3766 del _djvu.txt)",
+     "cita_original": "In 1785 the population of the Spanish side of the island was estimated to be Free People of all colours 122,640 Slaves 30,000 152,640 [...] this is supposed to have dwindled to one hundred thousand, immediately before the annexation of the East to the West.",
+     "traduccion": "En 1785 la población del lado español se estimaba en 122.640 libres y 30.000 esclavizados (152.640); 4 o 5 años después, en no más de 108.500; se supone que bajó a 100.000 inmediatamente antes de la anexión del este al oeste.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, pp. 110-112 (l. 3880-3895)",
+     "cita_original": "[Tabla del 'censo de 1824' publicado por el gobierno, transcrita:] East 61,468; North 367,721; West and South 506,146; total 935,335. Santo Domingo 20,076; Port-au-Plate 10,622; St. Jago 10,419; La Vega 6,178; Azua 3,500; San Juan 2,745; Neybe 2,581; Samana 2,209; Monte Christi 2,112; Lamatte 1,026 (suman 61,468).",
+     "traduccion": "Censo de 1824 (cifras oficiales): este 61.468; norte 367.721; oeste y sur 506.146; total 935.335. Comunas del este: Santo Domingo 20.076; Puerto Plata 10.622; Santiago 10.419; La Vega 6.178; Azua 3.500; San Juan 2.745; Neiba 2.581; Samaná 2.209; Monte Cristi 2.112; Lamatte 1.026 (la suma coincide con 61.468).",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 112 (l. 3913-3920)",
+     "cita_original": "a population return that was never published, but had been laid on the table of the Chamber of Commons, for the purpose of apportioning the contribution for liquidating the French indemnity.",
+     "traduccion": "un estado de población que nunca se publicó, pero que se había presentado a la Cámara de los Comunes con el fin de repartir la contribución para liquidar la indemnización francesa.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 114 (l. 4146-4247; tabla verificada contra la imagen de archive.org, hoja n127)",
+     "cita_original": "[Tabla 'Census of the late Spanish Part of St. Domingo', transcrita:] Monte Christi 1,029; Port-au-Plate 4,534; Azua 3,208 + Neybe 3,516 (= 6,724); St. Domingo city and commune 11,205; Bani 2,321; Seybo 5,364; Higuey 1,655; Samana 754 (arrondissement St. Domingo = 28,357); La Vega arrondissement 14,220; St. Jago 11,056; St. Juan 3,386 + Mata 1,917 (= 5,303). Total 71,223.",
+     "traduccion": "Censo de la antigua parte española: total 71.223 (ciudad y comuna de Santo Domingo 11.205; Seybo 5.364; Higüey 1.655; Samaná 754; Santiago 11.056; la suma de las partes cuadra con el total).",
+     "afirmaciones": [
+      "A-104",
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 114 (l. 4236-4250; imagen n127)",
+     "cita_original": "[GENERAL SUMMARY, transcrito:] Population of the North, West, and South 351,819; Of the East 71,223; total 423,042.",
+     "traduccion": "Resumen general: norte, oeste y sur 351.819; este 71.223; total 423.042 (el este es el 16,8 % del total).",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 116 (l. 4294-4297)",
+     "cita_original": "yet I distrust that of 1824 the most.",
+     "traduccion": "[de las dos cifras] desconfío sobre todo de la de 1824.",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "vol. 1, p. 291 (l. 10234-10244)",
+     "cita_original": "Their university no longer exists ; the public schools are destroyed [...] they are bound by the existing law to become soldiers, and to be initiated into all the profligacy of a guard-house, as privates",
+     "traduccion": "Su universidad ya no existe; las escuelas públicas están destruidas [...] están obligados por la ley vigente a hacerse soldados y a iniciarse en toda la disipación de un cuerpo de guardia, como soldados rasos.",
+     "afirmaciones": [
+      "A-098",
+      "A-099"
+     ]
+    },
+    {
+     "ubicacion": "vol. 1, p. 292 (l. 10264-10270)",
+     "cita_original": "The French language too is substituted for Spanish, an insult fully appreciated ; and in return for this beautiful independence,* it is found not to be recognized by either France or Spain ; yet the present government expects the disfranchised Spaniard to contribute his proportion to the liquidation of the French indemnity.",
+     "traduccion": "El idioma francés se sustituye también al español, un insulto plenamente sentido; [...] el gobierno actual espera que el español sin derechos políticos contribuya con su parte a la liquidación de la indemnización francesa.",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "vol. 1, p. 316 (l. 11058-11061)",
+     "cita_original": "He was the only person in the Eastern portion of Haiti that I ever heard declare that he believed it possible to pay the contribution for the French indemnity.",
+     "traduccion": "Era la única persona de la porción oriental de Haití a quien yo oí declarar que creía posible pagar la contribución para la indemnización francesa.",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 186 (l. 6843-6845)",
+     "cita_original": "but industry is most chilled by the load of taxation imposed to pay the French indemnity ; it appears to paralyse all exertion.",
+     "traduccion": "pero la industria se enfría sobre todo por la carga tributaria impuesta para pagar la indemnización francesa; parece paralizar todo esfuerzo.",
+     "afirmaciones": [
+      "A-103",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, pp. 194-197 (l. 7170-7250)",
+     "cita_original": "[Finanzas, transcrito:] Annual expenditure 3,101,115 dollars + Interest on first loan 450,000 = Total expenditure 3,551,115 dollars; estimated revenue of 1825: 2,603,142 dollars; estimate for 1826: 1,735,428 dollars; the loan of 30 millions of francs only produced 24 millions; 1,100,000 dollars in Spanish gold and silver sent in 1826.",
+     "traduccion": "Gasto anual 3.101.115 dólares + 450.000 de intereses = 3.551.115; ingreso estimado de 1825: 2.603.142; de 1826: 1.735.428; el préstamo de 30 millones de francos solo produjo 24 millones; en 1826 se remitieron 1.100.000 dólares en oro y plata españoles.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, pp. 161-162 (l. 5991-5996)",
+     "cita_original": "The growth of tobacco too has much increased, chiefly from the East. From 1818 to 1824, the number of pounds shipped rose from about one thousand nine hundred to above seven hundred and eighteen thousand",
+     "traduccion": "El cultivo de tabaco ha aumentado mucho, sobre todo en el este: de ~1.900 libras embarcadas en 1818 a más de 718.000 en 1824 (cifra de toda la república; luego baja a ~500.000 en 1825 y 340.588 en 1826).",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "vol. 2, p. 163 (l. 6028-6032)",
+     "cita_original": "In Toussaint's time only about five thousand cubic feet were exported; in 1818 nearly one hundred and thirty thousand ; and in 1825 not far short of three millions. In 1826 the quantity exceeded two millions of superficial feet.",
+     "traduccion": "Caoba: en tiempos de Toussaint solo unos 5.000 pies cúbicos; en 1818 casi 130.000; en 1825 casi tres millones; en 1826 más de dos millones de pies superficiales (cifras de toda la república).",
+     "afirmaciones": [
+      "A-100"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-098",
+    "A-099",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-114",
+    "A-115"
+   ],
+   "modulos": [
+    "M05",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS: el este tuvo 61.468 hab. (censo oficial de 1824, 6,6 % de 935.335), 71.223 (estado inédito presentado a la Cámara para repartir la contribución de la indemnización; 16,8 % de 423.042) y 54.000 (estimación alternativa en Franklin, l. 9387). Mackenzie desconfía más del censo de 1824; Humboldt estimaba 820.000 para toda la isla; Placide Justin menos de 700.000; el general Borgella más de un millón. Las cifras de 1785 (30.000 esclavizados) chocan con las de Sánchez Valverde citadas por Lora (14.000) y con Eller (12.000-14.000 hacia 1791). Tablas transcritas de la imagen de archive.org (el OCR corrompía varias cifras); el total del 'general summary' es 423.042 (el OCR leía 423.012). Mackenzie fue testigo de las quejas de la élite blanca del este (propietarios, clero, universidad, reclutamiento de los jóvenes, lengua), es decir, voz de un sector concreto. Los totales de comercio son del conjunto de la república, no solo del este; Franklin (l. 7644-7649) da 20.100 pies de caoba en 1822 frente a los casi 3 millones de Mackenzie para 1825: las series no son comparables sin cotejo. [POR VERIFICAR] fecha exacta del estado de población de reparto (Mackenzie lo obtuvo poco después de llegar en 1826; la ley de contribución es de 1-V-1826)."
+  },
+  {
+   "titulo": "Brief Notices of Hayti: with its Condition, Resources, and Prospects",
+   "autor": "Candler, John",
+   "anio": "1842",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/briefnoticesofha00cand",
+   "urls_alternativas": [
+    "https://archive.org/download/briefnoticesofha00cand/briefnoticesofha00cand_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Viajero cuáquero que reproduce documentos oficiales que el gobierno le entregó (tablas por comuna de 1838, estado del ejército, exportaciones 1838-39) y advierte sus defectos; simpatiza con Haití y con la abolición, y lo que dice del este es de segunda mano.",
+   "proveniencia": "John Candler (1787-1869; cuáquero y visita de 1840-41: [POR VERIFICAR], de memoria) publicó en Londres en 1842 (T. Ward). El gobierno de Boyer le entregó informes de prefectos, tablas de población y comercio y estadísticas militares; escribió para influir en el abolicionismo británico y mostrar la capacidad de los haitianos. No visitó el este [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "cap. I, p. 2 (l. 296-299)",
+     "cita_original": "The population of the Spanish part is estimated at a hundred and thirty thousand; of the French part, nearly seven hundred thousand.",
+     "traduccion": "La población de la parte española se estima en ciento treinta mil; la de la parte francesa, casi setecientos mil.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, pp. 128-129 (l. 5630-5650)",
+     "cita_original": "The population of the Spanish, or eastern side, is not larger, or very little so, than when the country was a colony of France: this arises from the large migration of later years from that part of the island to the French provinces",
+     "traduccion": "La población del lado español u oriental no es mayor, o muy poco, que cuando el país era colonia de Francia: esto se debe a la gran migración de años recientes desde esa parte de la isla hacia las provincias francesas.",
+     "afirmaciones": [
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 130 (l. 5665-5700; tabla verificada contra la imagen, hoja n141)",
+     "cita_original": "[Tabla 'Department of the South-east, Anno 1838', transcrita:] estimated population 42,108 (Santa Domingo 14,674; Seybo 8,091; San Cristobal 6,380; Bony 4,002; Higuey 2,320; Llanos 2,291; Monte Plata 1,885; Samana 1,508; Bayaguana 957); births 1,452; deaths 614; marriages 189.",
+     "traduccion": "Departamento del Sudeste, 1838: 42.108 habitantes estimados en 9 comunas; 1.452 nacimientos, 614 muertes, 189 matrimonios.",
+     "afirmaciones": [
+      "A-094",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 130 (l. 5768-5800; imagen n141)",
+     "cita_original": "[Tabla 'Department of the North-east, Anno 1838', transcrita:] 57,978 (Santiago 18,567; Moca 8,642; La Vega 8,323; Porte Platte 6,757; Macory 5,220; San José de las Matas 4,263; Cotuy 3,074; Altamira 1,711; Monte Christi 1,421); births 2,006; deaths 716; marriages 379.",
+     "traduccion": "Departamento del Nordeste, 1838: 57.978 habitantes en 9 comunas (suma sudeste + nordeste = 100.086); 2.006 nacimientos, 716 muertes, 379 matrimonios. Candler advierte que el registro de muertes es defectuoso.",
+     "afirmaciones": [
+      "A-094",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 132 (l. 5940-5958)",
+     "cita_original": "It then appears, that the eastern provinces, which, in point of territory, embrace two-thirds of the island, has a scattered population of only 102,000 persons.",
+     "traduccion": "Resulta entonces que las provincias orientales, que por territorio abarcan dos tercios de la isla, tienen una población dispersa de solo 102.000 personas.",
+     "afirmaciones": [
+      "A-094",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 131 (l. 5887-5888)",
+     "cita_original": "There remains in the department of the north-east but one single primary school.",
+     "traduccion": "Queda en el departamento del nordeste una sola escuela primaria.",
+     "afirmaciones": [
+      "A-098"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, pp. 91-92 (l. 3612-3640)",
+     "cita_original": "6815 non-commissioned officers ; 25 medical men ; and 19,127 rank and file : — total 28451. [...] its numerical force in 1840, was twenty-five thousand",
+     "traduccion": "[Ejército permanente: ... 6.815 suboficiales; 25 médicos; 19.127 soldados rasos: total 28.451.] [...] su fuerza numérica en 1840 era de veinticinco mil. Coste del ejército en 1838: 1.418.557 dólares haitianos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. VI, p. 105 (l. 4136-4175; tabla verificada contra la imagen, hoja n116)",
+     "cita_original": "[Exportaciones de la República de Haití, 1838 / 1839:] coffee 49,820,241 / 37,889,092 lb; tobacco 1,995,049 / 2,102,791 lb; mahogany 4,880,873 / 5,903,477 ft (mean 5,392,175); logwood 7,888,936 / 25,946,068 lb; mean value of the total £1,040,799.",
+     "traduccion": "Exportaciones de toda la república: caoba 4,9 y 5,9 millones de pies en 1838 y 1839; tabaco ~2 millones de libras; café 38-50 millones de libras.",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, pp. 121-122 (l. 5355-5372)",
+     "cita_original": "altogether 46,610 such properties under good cultivation. no returns on this head were made from the arrondissements of Tiburon, St. Jague, and St. Mark, and the total result is only arrived at by approximation.",
+     "traduccion": "[En 1839 había] en total 46.610 de esas propiedades [pequeñas propiedades rurales] en buen cultivo. No se recibieron informes de los arrondissements de Tiburón, Santiago y Saint-Marc; el total se obtiene solo por aproximación.",
+     "afirmaciones": [
+      "A-100",
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-098",
+    "A-100",
+    "A-111",
+    "A-115"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS DEL ESTE: 130.000 (estimación del cap. I) frente a 100.086 (suma de las tablas de 1838) y 102.000 (texto, cap. VI, tras redondear 60.000 + 42.000); son incompatibles con los 54.000-71.000 de c. 1824-1826 (Mackenzie, Franklin): o hubo recuperación demográfica, o los estados de 1824-26 infracontaban (Mackenzie lo sospecha). Candler dice que en el este se hace un censo anual 'por antigua costumbre', lo que sugiere padrones locales que no hemos localizado. Las 46.610 propiedades de 1839 excluyen el arrondissement de Santiago y no distinguen este de oeste. 'Candler (1942)' en Henochsberg es errata de Candler (1842). INTERPRETACION de Candler: atribuye la migración del este a que cesó el comercio de ganado; hecho y causa no se separan. Las tablas se transcriben de la imagen porque el OCR de archive.org falla (p. ej. el OCR dice 'Macory 6220' donde la imagen dice 5.220)."
+  },
+  {
+   "titulo": "Saint-Domingue. Étude et solution nouvelle de la question haïtienne, t. II",
+   "autor": "Lepelletier de Saint-Rémy, Romuald",
+   "anio": "1846",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/details/saintdominguetud02lepe",
+   "urls_alternativas": [
+    "https://archive.org/download/saintdominguetud02lepe/saintdominguetud02lepe_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Publicista francés de 1846 con tesis política (desprestigiar el gobierno de Boyer y favorecer una influencia francesa en la nueva república dominicana); sus cifras de población no citan fuente y chocan con Candler y Mackenzie, pero sus datos de comercio de 1844 remiten a una nota publicada en el Moniteur.",
+   "proveniencia": "Romuald Lepelletier de Saint-Rémy, escritor y publicista francés; el libro (París, 1846) hace un balance de la historia de la isla y de la separación de 1844 y propone un papel francés. En Livre IV, caps. I-II describe 'la situación económica de la República Dominicana' con noticias de los agentes franceses y del Moniteur. No presenció los hechos de 1822.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, Livre IV, p. 234-235 (l. 14263-14270)",
+     "cita_original": "Cette population blanche, de cinquante mille àmes environ",
+     "traduccion": "Esta población blanca, de unas cincuenta mil almas, conserva todavía el viejo orgullo castellano (sigue: 'hoy'). [Contexto: dice que Boyer 'se desembarazó por la expropiación' de los más hostiles y que los demás se retiraron al nordeste.]",
+     "afirmaciones": [
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 240 (l. 14618-14624)",
+     "cita_original": "plus de 25,000 surons ou balles de tabac",
+     "traduccion": "[desde el Norte se habían exportado] más de 25.000 surons o balas de tabaco [según una nota publicada en el Moniteur a fines de 1844].",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 241 (l. 14647-14652)",
+     "cita_original": "de janvier 1844 à janvier 1845, le port de Santo-Domingo avait reçu 97 navires dont voici les pavillons : 26 américains, 23 hollandais, 10 français, 9 danois, 8 anglais, 4 haïtiens, 2 vénézuéliens, 1 suédois, 1 hambourgeois, et 13 nationaux voyageant à l'extérieur. — Ces bâtiments ont jaugé ensemble 8,620 tonneaux.",
+     "traduccion": "De enero de 1844 a enero de 1845, el puerto de Santo Domingo había recibido 97 navíos (26 estadounidenses, 23 holandeses, 10 franceses, 9 daneses, 8 ingleses, 4 haitianos...), con 8.620 toneladas en total.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-111"
+   ],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "La cifra de 'cinquante mille âmes' de 'blancos' es incompatible con un total de ~100.000 habitantes (Candler 1838) si se entiende blancos en sentido estricto; probablemente designa a la población hispanohablante no negra o es retórica [POR VERIFICAR]. No es una cifra de emigrados sino de los que quedaron. La descarga del t. I devolvió HTTP 500; solo se leyó el t. II (Livre IV, caps. I-II). Sesgo: obra de propaganda y hostil a Boyer."
+  },
+  {
+   "titulo": "Santo Domingo, Past and Present; with a Glance at Hayti",
+   "autor": "Hazard, Samuel",
+   "anio": "1873",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/santodomingopast00haza",
+   "urls_alternativas": [
+    "https://archive.org/download/santodomingopast00haza/santodomingopast00haza_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Libro de viaje de 1873 (contexto de la campaña anexionista a EE. UU.: [POR VERIFICAR]), sin aparato crítico y con un error cuantitativo comprobable sobre los pagos a Francia; sirve como testimonio de la memoria estadounidense posterior, no como evidencia del período.",
+   "proveniencia": "Samuel Hazard (1834-1876, según los metadatos de archive.org), viajero estadounidense; publicó en Nueva York (S. Low, Marston, Low & Searle, 1873) tras un viaje a Santo Domingo [en 1871: POR VERIFICAR]. Resume la historia de 1822-1844 a partir de obras previas (Franklin, St John, Madiou, García) y relatos orales.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 167-168 (l. 8872-8876)",
+     "cita_original": "the inhabitants of the Spanish part flatly refused to be taxed in any way to contribute to this claim, maintaining that they had never belonged to France.",
+     "traduccion": "los habitantes de la parte española se negaron rotundamente a ser gravados en modo alguno para contribuir a esta reclamación, sosteniendo que nunca habían pertenecido a Francia. [Antes: el gobierno intentó reunir dinero por un préstamo del pueblo, 'vowing they would never contribute a cent'.]",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "p. 168 (l. 8895-8899)",
+     "cita_original": "of this tribute the sum of 60,000,000 was really paid in coffee and money before the end of the year 1828.",
+     "traduccion": "de este tributo, 60.000.000 [de francos] se pagaron realmente en café y dinero antes de fines de 1828. [AFIRMACION CONTRADICHA por la serie del NYT: 5,3 millones pagados en 1826 y nada de 1827 a 1830.]",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103",
+    "A-104",
+    "A-114"
+   ],
+   "modulos": [
+    "M08",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Hazard repite casi literalmente a Franklin sobre la negativa del este (Franklin l. 6166-6175); no es testimonio independiente. La cifra de 60 millones pagados antes de 1828 es errónea según el conjunto de pagos del NYT (README: 'Haiti was unable to make payments on the double debt from 1827 to 1830'). [POR VERIFICAR] la edición exacta: archive.org tiene varios escaneos; se leyó santodomingopast00haza."
+  },
+  {
+   "titulo": "The Present State of Hayti (Saint Domingo), with remarks on its agriculture, commerce, laws, religion, finances, and population (extractos cuantitativos del texto local)",
+   "autor": "Franklin, James",
+   "anio": "1828",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/GITenberg/The-Present-State-of-Hayti-Saint-Domingo-with-Remarks-on-its-Agriculture-Commerce_48920/master/48920-0.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Observador británico crítico de Boyer que recibió cifras de funcionarios haitianos y las discute; su texto comparte datos con Mackenzie (misma cifra de 1824) pero con erratas aritméticas propias.",
+   "proveniencia": "Ver ficha de F-0036 (README de los textos locales): observador británico crítico de Boyer; Londres, 1828. Las cifras de población, ingresos y exportaciones proceden de documentos oficiales y de informantes, no de padrones propios.",
+   "extractos": [
+    {
+     "ubicacion": "l. 6166-6169 del txt local",
+     "cita_original": "they openly remonstrated against contributing towards the indemnity, alleging that they had not been an integral part of the French colony at any time",
+     "traduccion": "[En la parte oriental] protestaron abiertamente contra contribuir a la indemnización, alegando que no habían formado parte integral de la colonia francesa en ningún momento.",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "l. 6171-6174",
+     "cita_original": "They had voluntarily joined that part of the country under Boyer’s government, but not with the supposition that they were to submit to such an arrangement as to pay any proportion of an indemnity",
+     "traduccion": "Se habían unido voluntariamente a esa parte del país bajo el gobierno de Boyer, pero no con la suposición de que se someterían a pagar parte alguna de una indemnización.",
+     "afirmaciones": [
+      "A-104",
+      "A-114"
+     ]
+    },
+    {
+     "ubicacion": "l. 9340-9346 (cap. XIV, 'Population')",
+     "cita_original": "[Censo de 1824, transcrito:] In the ancient Spanish part 61,468; in the part formerly under Christophe 367,721; in the part originally the republic established by Petion 504,146; total 933,335.",
+     "traduccion": "Censo de 1824 'dado por Boyer' (Franklin lo juzga 'a fabrication of government'): parte española 61.468; antigua parte de Christophe 367.721; de Pétion 504.146; total que da Franklin 933.335 (Mackenzie, con 506.146 para oeste y sur, da 935.335).",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "l. 9385-9390",
+     "cita_original": "[Estado alternativo, transcrito:] In the ancient Spanish part 54,000; the part formerly Christophe's 302,300; the part originally the republic under Petion 359,200; total 715,500.",
+     "traduccion": "Estimación alternativa 'más probable' que le dio un funcionario: parte española 54.000; total 715.500.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "l. 9348-9355",
+     "cita_original": "In the ancient French part was, according to Humboldt, about 375,000 And in the Spanish part it did not exceed 95,000",
+     "traduccion": "[En 1802] parte francesa antigua, según Humboldt, unos 375.000; en la parte española no pasaba de 95.000.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "l. 8798-8808 (cap. 'Finances')",
+     "cita_original": "The customs on imports and exports produce about two million two hundred thousand dollars annually, and the territorial duties on produce, duty on houses, patents, tax on markets, and other taxes of minor consideration, about the same amount; so that the total revenue of the republic does not exceed four million four hundred thousand dollars.",
+     "traduccion": "Las aduanas producen unos 2,2 millones de dólares al año y los impuestos territoriales, patentes y mercados, otro tanto, de modo que el ingreso total no excede de 4,4 millones. [En l. 8798 estima el gasto público en unos 5 millones.]",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "l. 7642-7649",
+     "cita_original": "In 1822, the exports stood thus:— Coffee 35,117,834 pounds. Sugar 652,541 ditto. Cotton 891,950 ditto. Cocoa 322,145 ditto. Logwood 3,816,583 ditto. Mahogany 20,100 feet.",
+     "traduccion": "Exportaciones de 1822 (toda la república): café 35.117.834 libras; azúcar 652.541; algodón 891.950; cacao 322.145; campeche 3.816.583; caoba 20.100 pies. En 1825 el café no pasa de 30 millones de libras (l. 7660).",
+     "afirmaciones": [
+      "A-100"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-114"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0036",
+   "notas": "Extractos cuantitativos añadidos a una fuente ya descargada (cotejo por línea con el txt local). Discrepancias internas: Franklin suma 933.335 en cap. XIV pero 'nine hundred and thirty-five thousand, three hundred and thirty-five' en el cap. sobre agricultura (l. ~7686); Mackenzie da 935.335 (su oeste y sur es 506.146 y no 504.146). Franklin juzga fabricado el censo oficial y prefiere 715.500 total/54.000 este. La caoba de 1822 (20.100 pies) contrasta con ~3 millones de pies en 1825 (Mackenzie): o hay error de unidad o el crecimiento fue explosivo [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Hayti, or The Black Republic (extractos sobre el terremoto de 1842 y el ejército de Hérard, 1844)",
+   "autor": "St John, Spenser",
+   "anio": "1884",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/GITenberg/Hayti-or-The-Black-Republic_68592/master/68592-0.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Diplomático británico abiertamente racista y hostil a Haití; sirve como testimonio de su época y para contrastar cifras que cita de segunda mano, no como evidencia independiente de 1842-1844.",
+   "proveniencia": "Ver F-0053. Los pasajes citados describen el terremoto de 1842 y la expedición de Hérard contra los dominicanos en 1844 con cifras de oídas ('it is said').",
+   "extractos": [
+    {
+     "ubicacion": "l. 2395-2399 del txt local",
+     "cita_original": "The greatest calamity, however, was the earthquake of 1842, which injured every city in the northern department [...] whilst 5000 of their countrymen were buried in the ruins",
+     "traduccion": "La mayor calamidad fue el terremoto de 1842, que dañó todas las ciudades del departamento del norte y casi aniquiló Cap-Haïtien, con 5.000 de sus compatriotas sepultados entre las ruinas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "l. 2459-2461",
+     "cita_original": "he collected an army, it is said of from 24,000 to 30,000 men, and marched to attack them. The numbers must be greatly exaggerated;",
+     "traduccion": "[Hérard, tras la proclamación dominicana de febrero de 1844] reunió un ejército, se dice, de 24.000 a 30.000 hombres [...] Las cifras deben de estar muy exageradas.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "F-0053",
+   "notas": "St John da 5.000 muertos en Cap-Haïtien (igual que Scherer 1912 vía Gailler et al. 2015: ~5.000, la mitad de la población). La cifra de 24.000-30.000 hombres de Hérard en 1844 no tiene origen trazable y el propio autor la juzga exagerada; Candler (1842) da 28.451 como fuerza nominal total del ejército de toda la república en 1838."
+  },
+  {
+   "titulo": "Santo Domingo: A Country with a Future (extractos sobre el terremoto de 1842)",
+   "autor": "Schoenrich, Otto",
+   "anio": "1918",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/GITenberg/Santo-Domingo-A-Country-with-a-Future_9813/master/9813-0.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra escrita durante la ocupación estadounidense por un abogado que fue asesor de la intervención; sus datos sísmicos resumen fuentes anteriores y son consistentes con la sismología moderna en lo básico.",
+   "proveniencia": "Ver F-0054. Los pasajes citados resumen las consecuencias del terremoto del 7 de mayo de 1842 en el este y el norte.",
+   "extractos": [
+    {
+     "ubicacion": "l. 1665-1668 del txt local",
+     "cita_original": "In May, 1842, an earthquake destroyed Santiago and La Vega, as well as Cape Haitien and other towns in the western part of the island, and with lesser earthquakes which followed caused a panic throughout the country",
+     "traduccion": "En mayo de 1842 un terremoto destruyó Santiago y La Vega, así como Cap-Haïtien y otras ciudades del oeste de la isla, y, con los temblores menores que siguieron, causó pánico en todo el país.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "l. 4554-4558",
+     "cita_original": "The most recent and perhaps the most disastrous earthquake was that of 1842 when a violent commotion in the northern part of the island demolished the cities of Santiago de los Caballeros on the Dominican side and Cape Haitien on the Haitian side, bringing death to hundreds of their inhabitants.",
+     "traduccion": "El terremoto más reciente y quizá el más desastroso fue el de 1842, cuando una violenta conmoción en el norte de la isla demolió Santiago de los Caballeros y Cap-Haïtien, causando la muerte de centenares de habitantes.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M08",
+    "M12"
+   ],
+   "id_existente": "F-0054",
+   "notas": "Schoenrich liga el terremoto de 1842 con el pánico que 'hizo las condiciones más favorables para un cambio de gobierno' (l. 1666-1669), una interpretación; la cifra de víctimas en Santiago ('hundreds') contrasta con los ~200 de Scherer 1912 en Gailler et al. 2015. Santiago y La Vega 'destruidas' es exagerado respecto de las intensidades máximas (IX) y de las bajas modestas citadas por Gailler."
+  },
+  {
+   "titulo": "Compendio de la historia de Santo Domingo, t. II (1822-1844)",
+   "autor": "García, José Gabriel",
+   "anio": "1894",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/compendiodelahi02garcgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/compendiodelahi02garcgoog/compendiodelahi02garcgoog_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra fundacional de la historiografía dominicana, escrita 50 años después con documentos y testimonios, con tesis nacionalista (dominación) pero con listas nominales verificables contra fuentes haitianas (diputados de 1822).",
+   "proveniencia": "José Gabriel García (1834-1910), historiador y político dominicano; el Compendio (Santo Domingo, Imprenta de García Hermanos, 1894, 'tomo II' en el escaneo de Google) narra 1822-1844. Escribe para la educación nacional con un relato de 'dominación haitiana'; sabe de primera mano la tradición oral y consulta documentos de archivo y periódicos.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, p. 98 (l. 5301-5303)",
+     "cita_original": "iniciadores de esa corriente emigratoria que arrebató al pais los mas sobresalientes de sus hijos en saber y riquezas",
+     "traduccion": "[los primeros] iniciadores de esa corriente emigratoria que arrebató al país los más sobresalientes de sus hijos en saber y riquezas.",
+     "afirmaciones": [
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 98 (l. 5312-5316)",
+     "cita_original": "hacer un padrón general de todos los hombres que habia en el país en estado de tomar las armas, para organizar con ellos las guardias nacionales",
+     "traduccion": "[las autoridades locales se ocupaban en] hacer un padrón general de todos los hombres que había en el país en estado de tomar las armas, para organizar con ellos las guardias nacionales.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. II, p. 98 (l. 5318-5324)",
+     "cita_original": "los nombramientos para diputados de Pablo Altagracia Baez por Azua, Mariano Echavarria por Baní, Ilario Cruz por el Cotuí, el doctor José María Caminero y José Torres por Santo Domingo, Francisco Travieso por Higüei",
+     "traduccion": "[elecciones del decreto del 27-II-1822:] diputados: Pablo Altagracia Báez por Azua, Mariano Echavarría por Baní, Ilario Cruz por el Cotuí, el doctor José María Caminero y José Torres por Santo Domingo, Francisco Travieso por Higüey...",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. II, p. 98 (l. 5324-5330)",
+     "cita_original": "Pedro Herrera por San Juan, José Lasala por las Matas de Farfan, J. M. Batista por San Miguel de la Atalaya, José Díaz por Montecristi, José Ignacio Espejo por Neiva, Ramón de Castro por Puerto Plata, A. Fleury por Samaná, Luis de Velazco por La Vega, y Pedro Quiñones por Santiago",
+     "traduccion": "[...] Pedro Herrera por San Juan, José Lasala por Las Matas de Farfán, J. M. Batista por San Miguel de la Atalaya, José Díaz por Montecristi, José Ignacio Espejo por Neiba, Ramón de Castro por Puerto Plata, A. Fleury por Samaná, Luis de Velazco por La Vega y Pedro Quiñones por Santiago.",
+     "afirmaciones": [
+      "A-112"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-111",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0068",
+   "notas": "Resuelve F-0068 (no-localizada) con el escaneo de Google en archive.org (tomo II de la edición de 1894). Dato nuevo: el diputado de Azua en 1822-1827 fue Pablo Altagracia Báez (padre de Buenaventura Báez [POR VERIFICAR el parentesco: no confirmado en estas fuentes]); la afirmación A-112 habla de Buenaventura Báez como constituyente de 1843, que es otro hecho. Los 15 nombres coinciden con los 14 comunes del decreto de 27-II-1822 (Recueil Linstant Pradine t. III, n.º 778) salvo que García pone 'San Miguel de la Atalaya' donde el decreto pone 'Seybo'. En el Recueil t. IV (30-VI-1824) firman Travieso, P. Baez, Caminero, Torres, Velasco, R. Castro, Herrera, Espejo, J. Diaz, Ilario Crux: la misma lista, tres años después. Para la fecha del 15 de junio de 1822 (donación nacional) y otros datos, ver García pp. 98-100 sin leer en detalle."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. III (1818-1823)",
+   "autor": "Linstant Pradine, Linstant (ed.); Haïti (Gobierno)",
+   "anio": "1860",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral05hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral05hait/recueilgnral05hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación de textos oficiales publicada por un exdiplomático haitiano con notas y concordancias; es edición posterior (1860) de decretos y proclamas originales, con OCR defectuoso pero cotejable por imagen.",
+   "proveniencia": "Linstant Pradine (m. 1884; antiguo encargado de negocios de Haití en Londres y París, según la portada) compiló el Recueil; el t. III (París, A. Durand, 1860) cubre 1818-1823, el t. IV (1865) 1824-1826 y el t. VII (ed. Édouard) 1840-1843. Es la edición oficial de referencia de leyes, arrêtés y proclamas de Boyer; las notas a pie de página (p. ej. n. 774) incluyen la versión haitiana de la 'reunión del Este'. Su sesgo es el de la historiografía oficial haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "t. III, pp. 442-443, n.º 774 (9-II-1822), l. 25337-25345 (OCR corregido)",
+     "cita_original": "sur cette terre de liberté il n'existe plus d'esclaves, et nous n'y formons tous qu'une seule famille",
+     "traduccion": "[Proclamación de Boyer al pueblo con motivo de la reunión del Este:] sobre esta tierra de libertad ya no existen esclavos, y todos formamos una sola familia.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    },
+    {
+     "ubicacion": "t. III, pp. 459-460, n.º 778 (27-II-1822), l. 26232-26300; versión española, OCR parcial",
+     "cita_original": "[Arrêté, transcrito:] 14 comunas del Este eligen diputados y suplentes: Santo Domingo 2 + 2; Farfán-Lamatte, Saint-Jean, Neybe, Azua, Bani, Seybo, Higüey, Samana, Cotuy, La Vega, Saint-Yague, Porte-Plate y Monte-Christ, 1 + 1 cada una; los diputados deben estar en la capital el 1.º de agosto.",
+     "traduccion": "Decreto de Boyer del 27-II-1822 que designa las 14 comunas del Este que eligen diputados: Santo Domingo, 2; las otras 13, 1 cada una (15 diputados), con otros tantos suplentes; fundado en los arts. 36, 61 y 62 de la Constitución [de 1816, arts. 56, 61, 62].",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "t. III, p. 462, n.º 779 (La Vega, 12-III-1822), l. 26518-26535",
+     "cita_original": "L'infanterie de Santo-Domingo, commandée en ce moment par le colonel Paul Aly, sera connue sous la dénomination de 31",
+     "traduccion": "La infantería de Santo Domingo, mandada por el coronel Paul Aly [Pablo Alí], será el regimiento 31.º; el que se forma en Santo Domingo será el 32.º; las compañías que se organizan en La Vega, Santiago y Puerto Plata formarán parte del 33.º.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-094",
+    "A-112"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Textos de Boyer a lo largo del recueil (n.º 773-780): la proclamación afirma la unión como voluntaria y 'nacida de una revolución moral'. La nota (*) a n.º 774 resume la versión oficial haitiana: pueblos que izan la bandera haitiana desde el 15-XI-1821 (Montecristi, Dajabón...), misión de José Justo de Silva, etc. Aunque el acervo del archivo haitiano es el original, esta edición es del siglo XIX: [POR VERIFICAR contra el impreso de 1822]. Del n.º 778 hay versión francesa (pp. 459-461) y española (OCR parcial); los números de diputados se leyeron en la española y en la francesa (OCR con 'i' por '1'). El tomo es parte de F-0065 ('Dumont; Cantillo; Linstant Pradine...') pero esa ficha agrupa varias compilaciones: se registra aparte este tomo."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti, t. IV (1824-1826)",
+   "autor": "Linstant Pradine, Linstant (ed.); Haïti (Gobierno)",
+   "anio": "1865",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral04hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral04hait/recueilgnral04hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición de leyes y decretos oficiales con notas de concordancia; las cifras se cotejaron con la imagen (hojas n424-n426) donde el OCR fallaba.",
+   "proveniencia": "Mismo recueil (París, A. Durand, 1865). El t. IV cubre 1824-1826 y reproduce, con sus notas, la emigración afroamericana, la ley del 8 de julio de 1824 sobre el Este, la ley de contribución extraordinaria de 1826 y las leyes militares.",
+   "extractos": [
+    {
+     "ubicacion": "t. IV, p. 45, n.º 894 (8-VII-1824; título), l. 4586-4592 (OCR corregido)",
+     "cita_original": "Loi qui détermine quels sont les biens mobiliers et immobiliers, situés dans la partie de l'Est, qui reviennent à l'État, et règle, à l'égard des particuliers de cette partie, le droit de propriété territoriale",
+     "traduccion": "Ley que determina qué bienes muebles e inmuebles de la parte del Este revierten al Estado y regla, para los particulares de esa parte, el derecho de propiedad territorial [...] (aprobada por la Cámara el 30-VI-1824, por el Senado el 6-VII y promulgada el 8-VII-1824).",
+     "afirmaciones": [
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 47, art. 3 (l. 4697-4703)",
+     "cita_original": "Sont encore déclarés propriétés nationales, tous les biens mobiliers et immobiliers appartenant, dans la partie de l'Est, soit aux individus qui, se trouvant absents du territoire lors de la réunion, n'y étaient point rentrés le 10 juin 1823, c'est-à-dire seize mois après ladite réunion",
+     "traduccion": "También son declarados propiedad nacional todos los bienes muebles e inmuebles de la parte del Este de quienes, ausentes del territorio en la reunión, no hubiesen regresado el 10 de junio de 1823, es decir, dieciséis meses después de la reunión.",
+     "afirmaciones": [
+      "A-109",
+      "A-111"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 48, arts. 8-9 (l. 4747-4760)",
+     "cita_original": "Il ne pourra être établi de hattes de bêtes à cornes ou chevalines dans une étendue de terrain moindre de cinquante carreaux, ni de hattes de pourceaux ou autre menu bétail dans une étendue moindre de vingt-cinq carreaux de terre.",
+     "traduccion": "No podrán establecerse hatos de ganado vacuno o caballar en menos de cincuenta carreaux de terreno, ni hatos de cerdos o ganado menor en menos de veinticinco carreaux. [Art. 8: quien tenga derecho a menos de cinco carreaux debe completarlos o ceder sus derechos.]",
+     "afirmaciones": [
+      "A-100",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 49, arts. 10-12 (l. 4773-4795)",
+     "cita_original": "Il est expressément défendu à tous individus de former des établissements sur des terrains vacants et appartenant à l'État, ou d'y faire des coupes de bois d'acajou, de marqueterie ou de construction, sans qu'au préalable ils n'aient obtenu du Président d'Haïti des titres qui les y autorisent.",
+     "traduccion": "Se prohíbe expresamente formar establecimientos en terrenos vacantes del Estado o cortar caoba, madera de marquetería o de construcción sin título del Presidente. [Art. 11: se condonan las rentas anuales debidas a instituciones eclesiásticas; art. 12: los capitales de rentas se reducen a un tercio, sin interés, pagadero en tres años desde el 1-I-1825.]",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 49-50, arts. 15-16 (l. 4806-4832)",
+     "cita_original": "une pension annuelle et viagère de deux cent quarante gourdes ; L'archevêque d'Haïti, par an, 3000 gourdes. Son vicaire-général, 1200 gourdes. Chaque chanoine du chapitre, 600 gourdes.",
+     "traduccion": "Las religiosas de los conventos suprimidos reciben una pensión anual vitalicia de 240 gourdes; el arzobispo, 3.000 gourdes al año; su vicario general, 1.200; cada canónigo, 600.",
+     "afirmaciones": [
+      "A-099",
+      "A-109"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, pp. 31-38, n.º 889 (por correlación con el n.º 890 siguiente; instrucciones de Boyer a J. Granville, 25-V-1824), art. 6 (l. 4039-4044)",
+     "cita_original": "qui ne pourra avoir en superficie moins de 36 acres ou 12 carreaux [...] [art. 8:] pour que leurs frais de passage soient payés à leur arrivée en Haïti, avec subsistance pendant quatre mois",
+     "traduccion": "Doce personas capaces de trabajar recibirán terreno suficiente que no podrá medir menos de 36 acres o 12 carreaux; el gobierno pagará el pasaje a la llegada y la subsistencia durante cuatro meses.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 37, art. 17 (l. 4191-4210)",
+     "cita_original": "Porte-Plate, pour Altamire, Saint-Yague, Moca, Macoris, La Vega; café, tabac, cacao, 1,000. Samana; café et vivres, 200. Santo-Domingo, pour Seybo, Higuey, Monteplate, Boya, Bayaguana, los Llanos, Saint-Christophe, Bany; café, cacao, cannes à sucre, 1,200.",
+     "traduccion": "Reparto previsto de los emigrantes de 1824 en el Este: Puerto Plata (para Altamira, Santiago, Moca, Macorís, La Vega), 1.000; Samaná, 200; Santo Domingo (para Seybo, Higüey, Monte Plata, Boyá, Bayaguana, Llanos, San Cristóbal, Baní), 1.200. [Más 600 vía Jacmel para Marigot, Neiba y Baynet.]",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 38, art. 18 (l. 4210-4214)",
+     "cita_original": "[...] cette population de six mille âmes, émigrant cette année en Haïti, soit placée de manière à être à même de trouver de suite, par son industrie, les moyens de s'affranchir de la misère",
+     "traduccion": "Esta población de seis mil almas que emigra este año a Haití debe colocarse de modo que encuentre enseguida, por su industria, los medios de salir de la miseria. [Total previsto en el art. 17: 6.000 personas: ~2.400 a puntos del Este y Neiba.]",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 401, n.º 1028 (ley del 1-V-1826), preámbulo",
+     "cita_original": "Vu la loi du 26 février de la présente année, qui déclare dette nationale l'indemnité de cent cinquante millions de francs, consentie en faveur de la France",
+     "traduccion": "Visto la ley del 26 de febrero de este año, que declara deuda nacional la indemnización de ciento cincuenta millones de francos concedida a Francia [...] (ley del 26-II-1826: n.º 1003 del Recueil).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 402, art. 1 (imagen n425)",
+     "cita_original": "Art. 1er. Il est imposé dans la République une contribution extraordinaire de trente millions de gourdes, payables en dix années, à raison de trois millions de gourdes par chacune, à partir du 1er janvier 1827, jusqu'au 31 décembre 1836.",
+     "traduccion": "Se impone en la República una contribución extraordinaria de 30 millones de gourdes, pagaderos en diez años, a razón de 3 millones por año, del 1-I-1827 al 31-XII-1836.",
+     "afirmaciones": [
+      "A-103",
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 403 (imagen n426), tabla de reparto por arrondissement",
+     "cita_original": "[Transcrito:] Arrondissement de Santo-Domingo 186,499; de St-Jean 31,123; d'Azua 3?,000 [dígito ilegible; la suma de las demás cifras da ~37.950]; de la Vega 78,000; de Monte-Christ 6,000; de Porte-Plate 44,928; de St-Yago 77,051. Total (todas las arrondissements) 3,000,000 G.",
+     "traduccion": "Reparto anual de los 3.000.000 de gourdes: el Este (7 arrondissements) soporta 423.601 gourdes sin contar Azua y ~455.000-462.000 con Azua (35.000-38.000), es decir ~15,2-15,4 % del total (cálculo propio sobre la tabla).",
+     "afirmaciones": [
+      "A-104"
+     ]
+    },
+    {
+     "ubicacion": "t. IV, p. 409-410, n.º 1029 (ley del 1-V-1826), arts. 8-9",
+     "cita_original": "Les compagnies de grenadiers seront de quatre-vingts hommes; celles de fusiliers, de quarante hommes; celles de chasseurs, de soixante hommes, officiers et sous-officiers compris.",
+     "traduccion": "Las compañías de granaderos serán de 80 hombres; las de fusileros, de 40; las de cazadores, de 60, oficiales y suboficiales incluidos (cada batallón: 1 de granaderos, 4 de fusileros y 1 de cazadores = 300 hombres; cada regimiento, 2 batallones).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-099",
+    "A-100",
+    "A-103",
+    "A-104",
+    "A-105",
+    "A-109",
+    "A-111"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0065",
+   "notas": "Tomo IV del Recueil (1824-1826 en la portada; incluye leyes de 1826 y alguna de 1827). Cálculos propios sobre la tabla: el Este soporta ~15,3 % de la contribución anual (3 millones de gourdes) frente a 16,8 % de la población en el estado de Mackenzie (71.223/423.042) y 6,6 % en el censo oficial de 1824 (61.468/935.335). Los 3 millones anuales de gourdes superaban el ingreso corriente estimado por Mackenzie (2,6 o 1,7 millones de dólares en 1825-26) y equivalían a dos tercios del de Franklin (4,4 millones); tratar gourde y 'dólar haitiano' como equivalentes es una hipótesis [POR VERIFICAR]. Ley n.º 1028 de 1-V-1826 (cabecera p. 400). Cifras del art. 17 vs mapa de Weeks (2005): coinciden (Samaná 200; Santo Domingo 1.200; Puerto Plata 1.000; Jacmel 600; Cayes y Jérémie 500; Port-au-Prince 1.000; Gonaïves 500; Cap 1.000: 6.000); el OCR del Recueil lee 300 para Gonaïves (con 500 el total cuadra en 6.000) y '4,000' como subtotal de Port-au-Prince (probablemente 1,000). [POR VERIFICAR] Azua exacto: ver imagen n426. La compañía de F-0065 es una ficha compuesta (Dumont, Cantillo, Linstant Pradine): este tomo resuelve solo la parte de Linstant Pradine."
+  },
+  {
+   "titulo": "Recueil général des lois et actes du gouvernement d'Haïti et documents historiques, t. VII (1840-1843)",
+   "autor": "Édouard, Emmanuel (ed.); Linstant Pradine (colección); Haïti (Gobierno)",
+   "anio": "1886",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/recueilgnral01hait",
+   "urls_alternativas": [
+    "https://archive.org/download/recueilgnral01hait/recueilgnral01hait_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición de documentos oficiales (decretos, informes de comandantes de comuna, proclamas) cuya tabla electoral y cuyas cifras se cotejaron con la imagen.",
+   "proveniencia": "Emmanuel Édouard (n. 1858) publicó este tomo en París (Pedone-Lauriel) 'en virtud de una decisión del Consejo de Secretarios de Estado, bajo la presidencia del general Salomon' (1879-1888). Reúne documentos de 1840-1843: informes anuales de comandantes (previstos por el Código Rural), proclamas de Boyer, decretos de la Reforma de 1843. [POR VERIFICAR el año de impresión; ~1886.]",
+   "extractos": [
+    {
+     "ubicacion": "t. VII, p. 5-10 (12-I-1840), l. 8207-8210 y 8304-8308",
+     "cita_original": "Conformément au code rural, il est de mon devoir de soumettre à Votre Excellence le rapport ci-joint [...] Habitations cultivées en cannes et vivres, 271 ; en café, 47 ; hattes, 37. — Total général, 355.",
+     "traduccion": "[Rapport du colonel Saladin, comandante de Azua:] conforme al código rural, es mi deber someter a Vuestra Excelencia el informe adjunto [...] Habitaciones cultivadas en caña y víveres, 271; en café, 47; hatos, 37; total general, 355 (siete secciones; 12-I-1840).",
+     "afirmaciones": [
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "t. VII, p. 145-146, proclamación del 18-V-1842 (l. 13775-13792)",
+     "cita_original": "plus de la moitié de sa population a péri [...] Au Môle, aux Gonaïves, à Saint-Louis du Nord, à Porte-Plate, et dans les autres villes, où les secousses ont été les plus violentes, on n'a heureusement à regretter qu'un petit nombre de victimes.",
+     "traduccion": "[Boyer sobre el terremoto del 7-V-1842:] [Cap-Haïtien] ha sido destruida de arriba abajo; más de la mitad de su población ha perecido [...] En el Môle, Gonaïves, Saint-Louis du Nord, Puerto Plata y otras ciudades solo hay un pequeño número de víctimas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. VII, p. 242-243 (imágenes n403-n404): decreto del 15-IV-1843, tabla anexa, comunas del Este",
+     "cita_original": "[Tabla transcrita:] Azua (2 communes) 15 électeurs, 3 membres; Santo-Domingo (5) 50, 10; Saint-Jean (2) 15, 3; La Vega (2) 15, 3; Saint-Yague (1) 30, 6; Porte-Plate (1) 10, 2; Monte-Christ (1) 10, 2. Totaux de la République: 620 électeurs, 124 membres.",
+     "traduccion": "Tabla 'du nombre des électeurs et des membres à l'assemblée constituante à élire par commune et par assemblée électorale'. Asamblea Constituyente de 1843: de 124 miembros, 29 (23,4 %) correspondían a las 7 circunscripciones electorales del Este (Azua 3; Santo Domingo 10; Saint-Jean 3; La Vega 3; Santiago 6; Puerto Plata 2; Monte Cristi 2), con 145 de 620 electores.",
+     "afirmaciones": [
+      "A-112"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-102",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "El tablero de la asamblea constituyente acompaña el decreto del 4-IV-1843 y su reglamento electoral del 15-IV-1843 ('1.er año de la Regeneración'; firmado Imbert, Voltaire, Guerrier, N. Secrétier, C. Hérard aîné). El informe de Azua de 1840 prueba que el Código Rural obligaba al este a presentar partes anuales de cultivo y que el comandante los remitía al Presidente (art. 14, 124 y 135 citados en los informes vecinos); no prueba la intensidad de su aplicación. Boyer sobre el terremoto menciona 'Porte-Plate' entre las ciudades con pocas víctimas, pero no Santiago. La cifra de 'más de la mitad' de la población de Cap-Haïtien coincide con Scherer 1912 vía Gailler et al. (2015). El reglamento muestra que el Este tenía 23,4 % de los miembros: peso electoral superior al peso demográfico (entre ~7 % y ~17 % según la cifra de población que se adopte)."
+  },
+  {
+   "titulo": "Haïti: Copy of the Code Rural of that Island (traducción oficial impresa por orden de la Cámara de los Comunes, 15 de mayo de 1827)",
+   "autor": "Boyer, Jean-Pierre; Cámara de los Comunes de Haití (Código Rural de 1826); Great Britain. Parliament. House of Commons (ed.)",
+   "anio": "1827",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-haiti",
+   "url": "https://archive.org/details/haticopyofcoderu00grea",
+   "urls_alternativas": [
+    "https://archive.org/download/haticopyofcoderu00grea/haticopyofcoderu00grea_djvu.txt",
+    "https://archive.org/details/ruralcodeofhaiti00haitiala",
+    "https://doi.org/10.5962/bhl.title.62594"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la ley, traducido al inglés y presentado al Parlamento británico un año después de su promulgación; el OCR es defectuoso en algunos artículos pero el texto legal es el original oficial.",
+   "proveniencia": "Código Rural de Haití (6 leyes, 202 artículos), aprobado por la Cámara de los Comunes el 21-IV-1826, por el Senado el 4-V-1826 y promulgado por Boyer el 6-V-1826; impreso en la Imprenta del Gobierno (Puerto Príncipe, julio de 1826) y traducido para el Parlamento británico por el Foreign Office (15-V-1827). Existe una segunda edición bilingüe francés-inglés (Londres, Ridgway, 1827, con carta prefatoria a Lord Bathurst) en ruralcodeofhaiti00haitiala.",
+   "extractos": [
+    {
+     "ubicacion": "Law 1, art. 3 (l. 39-45 del txt)",
+     "cita_original": "those who are not employed in the civil service, or called upon for the military service; those who do not exercise a licensed profession; those who are not employed in felling timber for exportation; in fine, those who cannot justify their means of existence, shall cultivate the soil.",
+     "traduccion": "Quienes no estén empleados en el servicio civil o militar, no ejerzan una profesión con licencia, no se ocupen en cortar madera para exportación y, en suma, no puedan justificar sus medios de existencia, cultivarán la tierra.",
+     "afirmaciones": [
+      "A-101",
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "Law 6, art. 183 (l. 1269-1273)",
+     "cita_original": "Field labour shall commence on Monday morning and continue until Friday evening (legal holidays excepted); and in extraordinary cases, when the interests of the cultivator or of the proprietor require it, work shall be continued until Saturday evening.",
+     "traduccion": "El trabajo de campo comienza el lunes por la mañana y continúa hasta el viernes por la tarde (salvo festivos); en casos extraordinarios, hasta el sábado por la tarde.",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Law 6, art. 184 (l. 1274-1279)",
+     "cita_original": "On working days the ordinary field labour shall commence at daybreak, to continue until mid-day, with the interval of half an hour for breakfast",
+     "traduccion": "En días laborables el trabajo ordinario comienza al amanecer y sigue hasta mediodía con media hora para el desayuno; por la tarde, de las dos hasta la puesta del sol (art. 184).",
+     "afirmaciones": [
+      "A-101"
+     ]
+    },
+    {
+     "ubicacion": "Law 2, arts. 86-88 (l. 587-593)",
+     "cita_original": "no one shall establish a pen for horned cattle who has not at least 150 acres of pasture land; and for hogs 75 acres. The number of keepers shall not in any case exceed five men",
+     "traduccion": "Nadie establecerá un hato de ganado vacuno sin tener al menos 150 acres de pasto, ni de cerdos sin 75; los cuidadores no excederán de cinco hombres. [Arts. 86-99 regulan los hatos, la economía característica del este.]",
+     "afirmaciones": [
+      "A-101",
+      "A-102"
+     ]
+    },
+    {
+     "ubicacion": "fechas de promulgación (l. 1405-1425)",
+     "cita_original": "Passed in the Chamber of Commons at Port-au-Prince, the 21st of April 1826 [...] this 4th day of May 1826 [Senate] [...] this 6th day of May 1826 [Boyer].",
+     "traduccion": "Aprobado en la Cámara de los Comunes el 21 de abril de 1826, por el Senado el 4 de mayo y promulgado por Boyer el 6 de mayo de 1826.",
+     "afirmaciones": [
+      "A-101"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-101",
+    "A-102"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0035",
+   "notas": "Resuelve F-0035 (JCB, localizada-bloqueada) con el texto íntegro de la traducción oficial en archive.org (la URL de BHL/doi 10.5962/bhl.title.62594 devuelve el desafío de Cloudflare). En el texto OCR NO aparece ninguna referencia a 'Spanish', 'Santo Domingo' ni 'East': es una ley general de la república, con un capítulo propio de hatos (arts. 86-99) que rige la ganadería (la principal actividad del Este). Combinado con los partes anuales de Azua de 1840 (Recueil t. VII), la ley sí se aplicó en el Este en el sentido administrativo (informes), sin que estas fuentes midan la intensidad. Los números de artículo se leen con OCR y pueden tener errores; verificar con la imagen antes de citar: [POR VERIFICAR] arts. 86-88 (el OCR separa 'one league' en una parte ilegible). Sesgo: la traducción la imprimió el Parlamento británico en 1827 en el debate sobre la esclavitud en las Antillas (la carta prefatoria de la edición bilingüe cita el código como modelo del trabajo libre)."
+  },
+  {
+   "titulo": "Public debt and slavery: the case of Haiti (1760-1915)",
+   "autor": "Henochsberg, Simon",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "http://piketty.pse.ens.fr/files/Henochsberg2016.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de máster (PSE/ENS/EHESS, dir. Piketty) que reúne series de Bulmer-Thomas, Rotberg y Blancpain y construye un PIB propio sin econometría ('No econometric techniques'); las cifras de base son de segunda mano y tiene contradicciones internas (deuda de '10 veces el PIB' y de '300 % del PIB').",
+   "proveniencia": "Simon Henochsberg (PSE), tesina de diciembre de 2016 supervisada por Thomas Piketty, con revisores Katia Béguin y Denis Cogneau. Sus bases son Rotberg, Bulmer-Thomas (2012), Blancpain (2001) y Lundahl (2014); estima un PIB haitiano 1760-1915. El NYT (2022) usó sus estimaciones de PIB con permiso del autor.",
+   "extractos": [
+    {
+     "ubicacion": "p. 25 (§2.3.2)",
+     "cita_original": "In 1837, the public revenues amounted to $2,082,522 while public expenditures reached $2,713,102 of which $1,612,293 for the military (60%). This kind of figures were very common during Boyer with military expenditures representing 50% of total expenditures.",
+     "traduccion": "En 1837 los ingresos públicos fueron de 2.082.522 dólares y los gastos de 2.713.102, de los que 1.612.293 (60 %) fueron militares; esas cifras eran comunes bajo Boyer, con gastos militares del 50 % del total.",
+     "afirmaciones": [
+      "A-103",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "p. 25",
+     "cita_original": "Haiti had to pay 150 million francs18 payable on 5 years (30 million francs each year for the next 5 years) and a reduction of 50% on all customs duties.",
+     "traduccion": "Haití debía pagar 150 millones de francos en cinco años (30 millones anuales) y conceder una reducción del 50 % en todos los derechos de aduana.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "pp. 25-26",
+     "cita_original": "The first year, Haiti made a loan of 30 million francs in a Parisian bank which had a 20% commission fee so that 6 million francs had to be paid that year.",
+     "traduccion": "El primer año Haití tomó un préstamo de 30 millones de francos con comisión del 20 %, de modo que 6 millones se pagaron en comisión ese año.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "pp. 26-27",
+     "cita_original": "GDP was close to 50 million francs-or which would mean that the debt imposed by France represented 300% of GDP.",
+     "traduccion": "[Dado un PIB cercano a] 50 millones de francos-oro, la deuda impuesta por Francia representaba el 300 % del PIB.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 25",
+     "cita_original": "compelled to honor a huge debt (about 10 times the annual GDP) without the necessary taxes to raise public revenues.",
+     "traduccion": "[Haití] se vio obligada a honrar una deuda enorme (unas 10 veces el PIB anual) sin los impuestos necesarios para elevar los ingresos públicos.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 26",
+     "cita_original": "8.5 million francs with France 8.4 million francs with England 13.1 million francs with the United-States Total : 30.0 millions francs",
+     "traduccion": "Exportaciones de 1823 según la ley francesa de 1826: 8,5 millones con Francia, 8,4 con Inglaterra, 13,1 con EE. UU.; total 30,0 millones de francos.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 27",
+     "cita_original": "The double debt was finally serviced in 1883 with the last payment.",
+     "traduccion": "La doble deuda se saldó finalmente en 1883 con el último pago. [El NYT fecha el último pago de la indemnización en 1878 y el cierre de la doble deuda en 1888.]",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 41",
+     "cita_original": "there were 25,838 beneficiaries which were supposed to share the 150 million francs debt",
+     "traduccion": "[Según Blancpain] había 25.838 beneficiarios que debían repartirse la deuda de 150 millones de francos.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "p. 19",
+     "cita_original": "Candler (1942) found 46,610 farms in Haiti in 1839.",
+     "traduccion": "Candler (sic, 1942 por 1842) encontró 46.610 granjas en Haití en 1839. [Henochsberg añade: bajo Boyer los latifundios se favorecieron de nuevo y el Código Rural de 1826 tuvo 'el efecto contrario': la mayoría pasó a pequeñas parcelas para evitar la penalización por vagancia.]",
+     "afirmaciones": [
+      "A-100",
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "p. 24",
+     "cita_original": "Dessalines had introduced a tax on imports of 10% in 1806, maintained by Pétion and raised to 12% in 1819 by Boyer.",
+     "traduccion": "Dessalines introdujo un impuesto del 10 % a las importaciones en 1806, mantenido por Pétion y subido al 12 % en 1819 por Boyer [16 % para toda la isla en 1827].",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-103",
+    "A-115"
+   ],
+   "modulos": [
+    "M08",
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Cifras de PIB haitiano (en francos-oro de 1825): ~50 millones hacia 1825 (de ahí '300 %'); 1.er pago: préstamo 30 millones con comisión de 6 (80 % recibido). Su fecha de cierre de la doble deuda (1883) contradice la del NYT (último pago de la indemnización 1878; doble deuda pagada en 1888): hay discrepancia de definición (el préstamo de 1825 vs indemnización). No cubre al Este en particular; el único dato aplicable es la presión fiscal nacional (la carga de ~3 M de gourdes anuales de la ley de 1826 frente a ingresos de 2,1 M en 1837). INTERNAL: p. 25 dice 'about 10 times the annual GDP' y p. 27 '300 % of GDP'; ambas no pueden ser ciertas. Candler 'p. 19 (1942)' es errata de 1842. Los gastos militares (50-60 %) se refieren a toda la república; el Este aportó regimientos 31.º-33.º en 1822 (Recueil t. III)."
+  },
+  {
+   "titulo": "Historical data on Haiti's debt (haiti-double-debt.csv) y README",
+   "autor": "The New York Times (Porter, Catherine; Apuzzo, Matt; Méheut, Constant; Gebrekidan, Selam) [datos y README del repositorio]",
+   "anio": "2022",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://github.com/nytimes/haiti-debt",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/nytimes/haiti-debt/main/haiti-double-debt.csv",
+    "https://raw.githubusercontent.com/nytimes/haiti-debt/main/README.md"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base documentada que cita archivos de la Caisse des Dépôts, del Quai d'Orsay y de ANOM, con interpolaciones declaradas para 1833-1842 (p. ej. 500 francos por bono) y estimaciones de PIB de Henochsberg; es trabajo periodístico con metodología publicada, no evaluado por pares.",
+   "proveniencia": "Publicado por The New York Times el 20-V-2022 como parte del proyecto 'The Ransom' (equipo de Selam Gebrekidan, Matt Apuzzo, Constant Méheut y Catherine Porter), con permiso de Victor Bulmer-Thomas (tipos de cambio) y Henochsberg (PIB). Tabula pagos anuales de Haití a Francia (1825-1888) en francos corrientes a partir de archivos franceses y de obras de Brière, Blancpain, Joachim, Beauvois y otros.",
+   "extractos": [
+    {
+     "ubicacion": "README.md, 'History of payments'",
+     "cita_original": "The bankers kept six million francs as a commission, leaving Haiti with only 24 million francs to pay the first installment of the indemnity debt. Still, Haiti was unable to make payments on the double debt from 1827 to 1830.",
+     "traduccion": "Los banqueros retuvieron seis millones de francos de comisión, dejando a Haití solo 24 millones para el primer plazo de la indemnización. Aun así, Haití no pudo pagar la doble deuda de 1827 a 1830.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "README.md",
+     "cita_original": "In 1838, after years of negotiations, France and Haiti signed a new treaty that reduced the unpaid remainder of the indemnity debt to 60 million francs plus the 700,000 francs that Haiti still owed from the first installment of the indemnity payment.",
+     "traduccion": "En 1838 Francia y Haití firmaron un nuevo tratado que rebajó el saldo impagado de la indemnización a 60 millones de francos más los 700.000 que Haití aún debía del primer plazo.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "README.md",
+     "cita_original": "In 1843, Haiti defaulted on the indemnity payment and the principal and interest of the 1825 loan after its president was ousted. The double debt was therefore paid off in 1888.",
+     "traduccion": "En 1843 Haití dejó de pagar la indemnización y el préstamo de 1825 tras la caída de su presidente. La doble deuda se saldó, por tanto, en 1888.",
+     "afirmaciones": [
+      "A-103"
+     ]
+    },
+    {
+     "ubicacion": "haiti-double-debt.csv, columna PAYMENTS-DOUBLE-DEBT-FRANCS (filas 1826-1844, transcritas)",
+     "cita_original": "1826: 5,300,000 (todo indemnización); 1827-1830: 0; 1831: 828,000; 1832: 1,828,000; 1833-1834: 1,355,500 cada año; 1835: 3,755,500; 1836-1837: 527,500 cada año; 1838: 3,387,500; 1839: 2,809,163; 1840: 6,436,113; 1841: 2,833,023; 1842: 3,270,210; 1843: 0; 1844: 1,600,000.",
+     "traduccion": "Pagos anuales de Haití a Francia (francos corrientes) durante el gobierno haitiano de toda la isla. Suma 1826-1843: 34.213.510 francos (13,5 millones de indemnización directa y 20,7 millones de servicio del préstamo; cálculo propio sobre el CSV), frente a los 150 millones exigidos; la ordenanza de 1825 y la contribución de 1826 asignaban 3 millones de gourdes anuales (~15 millones de francos al cambio de ~5 francos por gourde, si gourde y dólar son equivalentes: POR VERIFICAR).",
+     "afirmaciones": [
+      "A-103"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-103"
+   ],
+   "modulos": [
+    "M08",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Dato nuevo para A-103: el CSV documenta pagos reales mucho menores que los exigidos: 5,3 millones de francos en 1826 y nada de 1827 a 1830 (los 24 millones del préstamo figuran como pagos del préstamo). Comparar con la contribución legislada de 3 millones de gourdes anuales (Recueil t. IV, n.º 1028) y con Hazard (que afirma 60 millones pagados antes de 1828: contradicho). El documento no desagrega pagos por región (nada sobre el Este). Series de IPC y tipo de cambio de Bulmer-Thomas se reimprimen con permiso. El NYT estima la pérdida económica en $21.000 millones (conservador) a $115.000 millones (modelo comparativo); estas dos cifras proceden de resúmenes de prensa localizados por búsqueda (EJI, Hillman Foundation) y no se cotejaron con la bibliografía de metodología del NYT, que no se consultó. Sesgo: tesis de 'extorsión'; la base es defendible aparte de la tesis."
+  },
+  {
+   "titulo": "Tsunami scenarios and hazard assessment along the northern coast of Haiti",
+   "autor": "Gailler, Audrey; Calais, Eric; Hébert, Hélène; Roy, Clément; Okal, Emile",
+   "anio": "2015",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.earth.northwestern.edu/people/emile/PDF/EAO237.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1093/gji/ggv428"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares (Geophysical Journal International 203:2287-2302) que sintetiza el catálogo histórico del terremoto de 1842 (Scherer 1912, ten Brink et al. 2011, McCann 2006) y lo contrasta con simulaciones; declara la incertidumbre de la fuente sísmica.",
+   "proveniencia": "Cinco autores del CEA (Francia), la ENS-PSL (Calais, Roy) y Northwestern (Okal), publicado en 2015 en la revista de la Royal Astronomical Society. La sección 2 resume el registro histórico del 7-V-1842 a partir de Scherer (1912), Ardouin (1856), Madiou (1843), Heck (1947), Lander (1997) y O'Loughlin y Lander (2003). No es un trabajo histórico sino de peligrosidad; las cifras de víctimas son de segunda mano.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2289 (§2.2), l. 228-234 del txt extraído",
+     "cita_original": "with an estimated magnitude varying amongst authors from 8.0 (McCann 2006)t o 7.6 (ten Brink et al. 2011)",
+     "traduccion": "[El 7-V-1842, 17:00 hora local, golpeó la costa norte de Haití] con una magnitud estimada que varía según los autores de 8,0 (McCann 2006) a 7,6 (ten Brink et al. 2011).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 2289",
+     "cita_original": "The earthquake destroyed many buildings in Cap Haitien, killing about 5000 people in that city, half of its population at the time (Scherer 1912).",
+     "traduccion": "El terremoto destruyó muchos edificios en Cap-Haïtien y mató a unas 5.000 personas en esa ciudad, la mitad de su población de entonces (Scherer 1912).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 2289",
+     "cita_original": "It also caused severe damage in the less populated cities of Port-de-Paix to the west (200 fatalities for 3000 inhabitants) and Santiago to the east in the Dominican Republic (200 fatalities for 30 000 inhabitants).",
+     "traduccion": "También causó graves daños en Port-de-Paix (200 muertos de 3.000 habitantes) y en Santiago, en el este de la actual República Dominicana (200 muertos de 30.000 habitantes).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 2289",
+     "cita_original": "macroseismic intensities up to IX in M ˆole Saint Nicolas, Port-de-Paix, Cap Haitien, and Fort Libert ´e in Haiti, as well as in Santiago in the Dominican Republic according to an interpretation de ten Brink et al. (2011)",
+     "traduccion": "[El terremoto] produjo intensidades macrosísmicas de hasta IX en Môle Saint-Nicolas, Port-de-Paix, Cap-Haïtien y Fort-Liberté, y en Santiago (República Dominicana), según una interpretación de ten Brink et al. (2011) de informes de prensa.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 2289",
+     "cita_original": "The same earthquake was accompanied by a tsunami that killed ∼300 people",
+     "traduccion": "El mismo terremoto fue acompañado de un tsunami que mató a unas 300 personas [con olas de 2 m en la costa nordeste de Haití; runup máximo de 4,6 m en Port-de-Paix].",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M08",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "CONTEXTO DE A-113 (Reforma de 1843): el terremoto del 7-V-1842 destruyó el Cap-Haïtien (~5.000 muertos, la mitad de su población) y afectó Santiago (200 muertos de 30.000) y Puerto Plata; Boyer lo menciona en su proclamación (Recueil t. VII). Dos fuentes secundarias del propio texto discrepan en la magnitud (8,0 vs 7,6). Hay disputa sobre qué falla lo produjo (Septentrional vs cabalgamiento norte de La Española). Schoenrich (1918) liga el terremoto con el pánico que favoreció el cambio político: es una interpretación, no un hecho cuantificado. Los 30.000 habitantes de Santiago contrastan con 18.567 (Candler, 1838) y 10.419-11.056 (c. 1824-1826): la cifra es del departamento o está inflada [POR VERIFICAR contra Scherer 1912]."
+  },
+  {
+   "titulo": "Historical perspective on seismic hazard to Hispaniola and the northeast Caribbean region",
+   "autor": "ten Brink, Uri S.; Bakun, William H.; Flores, Claudia H.",
+   "anio": "2011",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pubs.usgs.gov/publication/70032613",
+   "urls_alternativas": [
+    "https://doi.org/10.1029/2011JB008497"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de J. Geophys. Res. (B12, B12318) del USGS que deriva intensidades y magnitudes de 500 años de informes de daños; solo se leyó el resumen en la ficha de la USGS, no el texto completo ni su catálogo de intensidades.",
+   "proveniencia": "Uri ten Brink (USGS Woods Hole), William Bakun y Claudia Flores; publicado en 2011 tras el terremoto de Haití de 2010. Reanaliza informes históricos de daño (incluida prensa de 1842) con relaciones de atenuación para La Española. Hay réplicas críticas (Prentice et al. 2013) y respuesta de los autores.",
+   "extractos": [
+    {
+     "ubicacion": "Abstract (ficha USGS)",
+     "cita_original": "If so, the recurrence interval on the central Septentrional Fault is ~300 years, and only 170 years has elapsed since the last event.",
+     "traduccion": "Si es así, el intervalo de recurrencia en la falla Septentrional central es de ~300 años y solo han pasado 170 desde el último evento. [El resumen atribuye al 7-V-1842 una MI de 7,6, citada así por Gailler et al. 2015.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha y resumen; el catálogo de intensidades por localidad (Santiago, La Vega, Cibao) está en el texto completo, no leído. MI 7,6 del 7-V-1842 tomada de Gailler et al. 2015, que cita el artículo. Prentice et al. (2013) discuten la interpretación por falta de ruptura superficial; ten Brink et al. (2013) replican. [POR VERIFICAR] los límites de intensidad IX en Santiago leyendo el texto completo."
+  },
+  {
+   "titulo": "The Samaná Americans: Some Forgotten Philadelphians (Expedition 47:1, pp. 38-41)",
+   "autor": "Weeks, John M.; Ramírez Zabala, Virginia",
+   "anio": "2005",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.penn.museum/documents/publications/expedition/47-1/Weeks.pdf",
+   "urls_alternativas": [
+    "https://www.penn.museum/sites/expedition/?p=9560"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota de investigación de una revista de museo universitario, con mapa de reparto proyectado de emigrantes y cifras de población de 1871 y actuales, sin aparato de citas; coincide con la instrucción primaria de Boyer (Recueil t. IV).",
+   "proveniencia": "John M. Weeks (bibliotecario del Penn Museum) y Virginia Ramírez Zabala (estudiante de máster, Univ. de Pennsylvania), tras años de trabajo con la comunidad de Samaná. Publicado en Expedition vol. 47, n.º 1 (2005). Escribe para público general y reivindica la continuidad étnica de los 'Samaná Americans'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 39, col. 1",
+     "cita_original": "As many as 6,000 people made the trip, although fewer stayed permanently. The emigrants were situated in 10 regions across the island.",
+     "traduccion": "Hasta 6.000 personas hicieron el viaje, aunque menos se quedaron de forma permanente. Los emigrantes fueron situados en 10 regiones de la isla.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 38, mapa (etiquetas transcritas)",
+     "cita_original": "Samana [200] Santo Domingo [1200]Jacmel [600] Les Cayes [500] Port-au-Prince [1000] Gonaives [500] Cap-Haitien [1000] Puerto Plata [1000]",
+     "traduccion": "Mapa de la isla con los puertos de desembarco y el número proyectado de colonos afroamericanos por región: Samaná 200; Santo Domingo 1.200; Jacmel 600; Les Cayes 500; Port-au-Prince 1.000; Gonaïves 500; Cap-Haïtien 1.000; Puerto Plata 1.000 (total 6.000).",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 39",
+     "cita_original": "In 1871 they numbered between 500 and 600 people.",
+     "traduccion": "En 1871 [los americanos de Samaná] eran entre 500 y 600 personas.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "pp. 39 y 41",
+     "cita_original": "Today some 8,000 descendants of the original emigrants still speak an American English derived from the early 19th",
+     "traduccion": "Hoy unos 8.000 descendientes de los emigrantes originales siguen hablando un inglés americano derivado del de principios del siglo XIX.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    },
+    {
+     "ubicacion": "p. 38",
+     "cita_original": "grant land at the rate of 36 acres for every 12 laborers",
+     "traduccion": "[Boyer ofreció] conceder tierra a razón de 36 acres por cada 12 jornaleros. [Y el proyecto cesó en junio de 1825.]",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "El mapa publica proyecciones por región que coinciden con el reparto del art. 17 de las instrucciones de Boyer a Granville del 25-V-1824 (Recueil t. IV), con la salvedad de que el OCR del Recueil lee 300 para Gonaïves (500 cuadra con el total de 6.000): son planificación, no llegadas reales. La cifra 'as many as 6,000' es un techo; Weeks no da fuente. Schoenrich l. 1632-1651 (registro) dice 'la mayor parte' se asentó en Samaná, lo que no cuadra con los 200 proyectados ni con los 500-600 de 1871: [POR VERIFICAR]. Mackenzie anota 754 habitantes en Samaná c. 1826 (todos los habitantes, no solo los americanos) y Candler 1.508 en 1838. El texto dice que llegaron 'en 1825' mientras el art. 17 las proyecta para 1824."
+  },
+  {
+   "titulo": "How Black English past got to the present: evidence from Samaná",
+   "autor": "Tagliamonte, Sali; Poplack, Shana",
+   "anio": "1988",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://resolve.cambridge.org/core/journals/language-in-society/article/abs/how-black-english-past-got-to-the-present-evidence-from-samana1/B4AED35634A8371C92B9D779982C6D7B",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/S0047404500013075"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de Language in Society 17(4):513-533 con análisis cuantitativo fonológico, gramatical y narrativo del inglés de Samaná; solo se leyó el resumen en la ficha de Cambridge (muro de pago).",
+   "proveniencia": "Sali Tagliamonte y Shana Poplack (lingüistas canadienses). Trabajo de la línea de investigación de Poplack y Sankoff sobre el inglés de Samaná (American Speech 62, 1987: [POR VERIFICAR] su relación con el 'Samaná English Project'), que estudia el inglés de la comunidad como pariente del afroamericano del siglo XIX. Publicado en 1988.",
+   "extractos": [
+    {
+     "ubicacion": "Abstract (ficha Cambridge)",
+     "cita_original": "This article examines the tense system of Samaná English, a lineal descendant of early nineteenth-century American Black English.",
+     "traduccion": "Este artículo examina el sistema de tiempos del inglés de Samaná, descendiente lineal del inglés negro estadounidense de principios del siglo XIX.",
+     "afirmaciones": [
+      "A-105"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-105"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Evidencia lingüística cuantitativa de continuidad de la población de 1824-25 con el inglés afroamericano de principios del siglo XIX. No da tamaño de muestra en el resumen: [POR VERIFICAR] n y número de hablantes en el texto completo. Poplack y Sankoff 1987 ('The Philadelphia story in the Spanish Caribbean', American Speech 62:291-314) es la referencia histórica: ubicada pero no leída."
+  },
+  {
+   "titulo": "Xenophobia and Economic Decline: The Haitian Case, 1820-1843",
+   "autor": "Lacerte, Robert K.",
+   "anio": "1981",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/journals/americas/article/xenophobia-and-economic-decline-the-haitian-case-18201843/2A5DE0891CE70BFE9AE47476B94E6F5A",
+   "urls_alternativas": [
+    "https://doi.org/10.2307/980837"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de The Americas 37(4):499-515 con series económicas haitianas del período, citado en la literatura; solo se leyó el resumen en la ficha (muro de pago).",
+   "proveniencia": "Robert K. Lacerte (historiador estadounidense), publicado en abril de 1981 en The Americas (Academy of American Franciscan History). Argumenta que la xenofobia y el aislamiento internacional de Haití agravaron su declive económico en 1820-1843.",
+   "extractos": [
+    {
+     "ubicacion": "Abstract (ficha Cambridge)",
+     "cita_original": "Instead of economic prosperity, the years after 1820 witnessed an economic decline which made the first black nation virtually ungovernable after 1843 save by the rule of caudillos",
+     "traduccion": "En lugar de prosperidad económica, los años posteriores a 1820 vieron un declive económico que hizo a la primera nación negra prácticamente ingobernable después de 1843, salvo por el gobierno de caudillos.",
+     "afirmaciones": [
+      "A-115"
+     ]
+    },
+    {
+     "ubicacion": "Abstract",
+     "cita_original": "They wanted property of their own, and this insistence forced successive governments to distribute land to them.",
+     "traduccion": "[Los ex esclavos] querían propiedad propia, y esa insistencia forzó a los gobiernos sucesivos a distribuirles tierra.",
+     "afirmaciones": [
+      "A-115"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-115"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Solo el resumen; el cuerpo (no leído) trata de la economía haitiana de 1820-1843 y probablemente aporta series de exportaciones. Útil como contexto de A-115 (contra-plantación) pero no verifica nada por sí solo."
+  },
+  {
+   "titulo": "Emancipation in Santo Domingo (ensayo de la exposición Island Luminous)",
+   "autor": "Eller, Anne",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part02-slide08.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo breve de una historiadora del tema (autora de We Dream Together) para una exposición digital de dLOC/FIU, con una cifra de consenso historiográfico ('most historians') sin fuente indicada.",
+   "proveniencia": "Anne Eller, entonces profesora asistente de historia en la Univ. de Connecticut, escribió el ensayo para la exposición digital Island Luminous (FIU/dLOC). Es una síntesis divulgativa: no tiene fecha ni notas en la página.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo 2",
+     "cita_original": "As fighting broke out in Saint-Domingue (later Haiti) in late summer of 1791, most historians assert that about 12,000-14,000 were enslaved in Spanish Santo Domingo, although some estimates are somewhat higher.",
+     "traduccion": "[Desde fines del verano de 1791,] la mayoría de los historiadores afirma que unos 12.000-14.000 estaban esclavizados en Santo Domingo español, aunque algunas estimaciones son algo mayores.",
+     "afirmaciones": [
+      "A-094"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-094"
+   ],
+   "modulos": [
+    "M05",
+    "M06",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "La cifra es de 1791, no de 1822; sirve de cota inferior verosímil para la población esclavizada que liberó la abolición de 1822 (con las muertes, fugas y las manumisiones de 1791-1822 sin cuantificar). Contrasta con los 30.000 esclavizados de 1785 (Mackenzie) y los 14.000 de Sánchez Valverde (citado por Lora). F-0260 (Island Luminous) es el portal; esta ficha es el ensayo concreto."
+  },
+  {
+   "titulo": "Strains of Unity: Emancipation, Property, and the Post-Revolutionary State in Haitian Santo Domingo, 1822-1844",
+   "autor": "Walker, Andrew",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://deepblue.lib.umich.edu/handle/2027.42/146083",
+   "urls_alternativas": [
+    "https://deepblue.lib.umich.edu/items/e405a05c-8219-49f4-a796-311e02b05ccd",
+    "https://deepblue.lib.umich.edu/bitstreams/0bb998ef-0935-4fb8-825d-6789527110e9/download"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "403 (curl y WebFetch; el PDF ajwalk_1.pdf, 8,56 MB, queda tras un desafío anti-bot de Cloudflare); la ficha cargó en el navegador integrado",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral (Univ. de Michigan) basada en registros notariales, judiciales y correspondencia administrativa de ambos lados de la isla; no se leyó el texto, solo el resumen de la ficha.",
+   "proveniencia": "Andrew Walker (Michigan, 2018; después Wesleyan), tesis doctoral. Tesis: las reformas haitianas provocaron adaptación y alianzas locales, no divisiones racializadas; los afrodescendientes de Santo Domingo reclamaron tierras y bienes tras la emancipación.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (ficha Deep Blue)",
+     "cita_original": "The notarial records, judicial documents, and administrative correspondence produced on both sides of the island show that Santo Domingo’s Afro-descended majority took advantage of emancipation and the elimination of colonial-era terminology of socioracial classification to make claims to land and movable property after 1822.",
+     "traduccion": "Los registros notariales, documentos judiciales y correspondencia administrativa de ambos lados de la isla muestran que la mayoría afrodescendiente de Santo Domingo aprovechó la emancipación y la eliminación de la terminología colonial de clasificación socio-racial para reclamar tierras y bienes muebles después de 1822.",
+     "afirmaciones": [
+      "A-100",
+      "A-108"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100",
+    "A-108"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0151",
+   "notas": "No se intentó eludir el desafío anti-bot (Cloudflare 'Just a moment'). La ficha se leyó en el navegador integrado (get_page_text). Sin cifras en el resumen; el cuerpo (5 capítulos) probablemente cuantifica contratos notariales de Santo Domingo y del sureste: [POR VERIFICAR]. Walker publicó también 'All Spirits are Roused: The 1822 Antislavery Revolution in Haitian Santo Domingo', Slavery & Abolition 40(3):583-605 (2019), localizado pero no leído."
+  },
+  {
+   "titulo": "Nota de prensa sobre puesta en circulación del libro 'Historia social de la dominación haitiana (1822-1844)', de Olivier Batista Lemaire",
+   "autor": "Academia Dominicana de la Historia; Archivo General de la Nación",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://www.academiadominicanahistoria.org.do/wp-content/uploads/2025/06/NotadePrensa.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota de prensa institucional de 2 páginas que resume la presentación del libro y la intervención de Moya Pons; no es la obra ni su aparato crítico.",
+   "proveniencia": "Comunicado de la Academia Dominicana de la Historia fechado el 17-VI-2025, tras la presentación del libro (edición conjunta ADH-AGN) en el salón del Archivo General de la Nación; recoge a Moya Pons, Batista Lemaire y Balcácer.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, párr. 4",
+     "cita_original": "el sistema de dominación política y militar impuesto por el presidente de Haití, Jean Pierre Boyer, sobre la población de la parte oriental de la isla de Santo Domingo entre 1822 y 1844",
+     "traduccion": "[Moya Pons califica la obra de] única para entender [...] el sistema de dominación política y militar impuesto por el presidente de Haití, Jean Pierre Boyer, sobre la población de la parte oriental de la isla de Santo Domingo entre 1822 y 1844.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, párr. 6",
+     "cita_original": "las masas negras eran nominalmente libres, aunque debían servir como productores, obreros o cultivadores a los jefes revolucionarios, quienes tenían la facultad de imponerles castigos corporales",
+     "traduccion": "[Moya Pons, sobre el 'parafeudalismo':] las masas negras eran nominalmente libres, aunque debían servir como productores, obreros o cultivadores a los jefes revolucionarios, quienes tenían la facultad de imponerles castigos corporales.",
+     "afirmaciones": [
+      "A-107"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-107"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Complemento de F-0101 (Batista Lemaire 2025, localizada-bloqueada). La nota no da cifras. Es la fuente del 'sistema de dominación política y militar' de A-107; el libro no se leyó. La frase sobre 'parafeudalismo' es de Moya Pons presentando el libro (no se sabe si es su tesis o la del autor). Confirma la fecha de la presentación (junio de 2025) y que Moya Pons hace 52 años y seis ediciones de su obra de 1972."
+  },
+  {
+   "titulo": "Metamorfosis forestal en el siglo XIX (2)",
+   "autor": "Taveras Alonzo, Pedro José",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/metamorfosis-forestal-en-el-siglo-xix-2-9448016.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión que cita a Cassá (2023) para una cifra de exportaciones de caoba y le aplica un cálculo propio de árboles talados; la cifra de base no es verificable por la columna y la inferencia es del columnista.",
+   "proveniencia": "Pedro José Taveras Alonzo, columnista en Acento (25-I-2025). Cita a Roberto Cassá, Historia social y económica de la República Dominicana, t. II, ed. ampliada y corregida (UASD, 2023, p. 26) para la cifra de madera exportada durante la ocupación haitiana, y a dos ingenieros forestales para el volumen por árbol.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo 'El desmonte en Santo Domingo'",
+     "cita_original": "se exportaron 38,905,000 pies de madera en ocho registros distintos durante los años de la ocupación",
+     "traduccion": "se exportaron 38.905.000 pies de madera en ocho registros distintos durante los años de la ocupación [según Cassá 2023, p. 26].",
+     "afirmaciones": [
+      "A-100"
+     ]
+    },
+    {
+     "ubicacion": "párrafo siguiente",
+     "cita_original": "La extracción de madera de caoba durante la ocupación haitiana se resume en 38,905,000 pies cúbicos (para toda la isla",
+     "traduccion": "La extracción de madera de caoba durante la ocupación haitiana se resume en 38.905.000 pies cúbicos (para toda la isla) [...]",
+     "afirmaciones": [
+      "A-100"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-100"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "CIFRA SIN BASE TRAZADA: 38.905.000 pies 'en ocho registros distintos' (Cassá 2023, p. 26), de toda la isla, no del Este. El columnista la presenta como total de 22 años y le aplica 85 pies cúbicos por árbol (457.705 árboles), pero 'ocho registros' no son 22 años: si fueran ocho años, el promedio (~4,9 millones de pies/año) coincide con Candler (4,9-5,9 millones en 1838-39) y Mackenzie (2-3 millones en 1825-26), de modo que el total real de 1822-1844 sería mayor. Mackenzie distingue 'cubic feet' de 'superficial feet' en sus series; el columnista habla de 'pies cúbicos' sin precisar qué unidad usan los registros de Cassá [POR VERIFICAR]. La estimación de árboles es del columnista, no de Cassá. Útil solo como indicio del interés en la ecología del período. Cassá no se leyó."
+  },
+  {
+   "titulo": "Constitution impériale du 20 mai 1805 (Digithèque MJP)",
+   "autor": "Dessalines (promulgación); Janvier, Louis-Joseph (ed. 1886); Digithèque MJP (Univ. de Perpiñán)",
+   "anio": "1805",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1805.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de la constitución desde la edición de Janvier (1886) en la Digithèque MJP, de una universidad francesa; la numeración es la de esa edición y no se cotejó con un impreso de 1805.",
+   "proveniencia": "La Digithèque MJP (Jean-Pierre Maury, Univ. de Perpiñán) reproduce 'Les Constitutions d'Haïti' de Louis-Joseph Janvier (París, Marpon et Flammarion, 1886). La constitución imperial se promulgó el 20-V-1805 bajo Dessalines.",
+   "extractos": [
+    {
+     "ubicacion": "Déclaration préliminaire, art. 12",
+     "cita_original": "Article 12. Aucun blanc, quelle que soit sa nation, ne mettra le pied sur ce territoire, à titre de maître ou de propriétaire et ne pourra à l'avenir y acquérir aucune propriété.",
+     "traduccion": "Ningún blanco, sea cual fuere su nación, pisará este territorio como amo o propietario ni podrá adquirir en adelante propiedad alguna.",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Déclaration préliminaire, art. 14",
+     "cita_original": "Article 14. Toute acception de couleur parmi les enfants d'une seule et même famille, dont le chef de l'État est le père, devant nécessairement cesser, les Haïtiens ne seront désormais connus que sous la dénomination génériques de Noirs.",
+     "traduccion": "Habiendo de cesar toda distinción de color entre los hijos de una misma familia, de la que el jefe del Estado es el padre, los haitianos serán conocidos en adelante solo con la denominación genérica de negros.",
+     "afirmaciones": [
+      "A-110"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-110"
+   ],
+   "modulos": [
+    "M08",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Verifica los números de artículo de A-110: arts. 12 y 14 de la Déclaration préliminaire (el art. 13 exceptúa a las mujeres blancas naturalizadas y a los alemanes y polacos naturalizados). Hay otro 'art. 12' en las Dispositions générales que confisca las propiedades de blancos franceses. El Este no formaba parte de Haití en 1805; la constitución se cita por la política de propiedad que Boyer heredaba."
+  },
+  {
+   "titulo": "Constitution de 1806 révisée en 1816 (Digithèque MJP)",
+   "autor": "Pétion (revisión de 2-VI-1816); Janvier, Louis-Joseph (ed. 1886); Digithèque MJP",
+   "anio": "1816",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1816.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro desde la edición de Janvier (1886) de la Digithèque MJP; numeración de esa edición.",
+   "proveniencia": "Revisión de la Constitución de 1806 promulgada el 2-VI-1816 bajo Pétion; es la Constitución vigente cuando Boyer entra en el Este (1822) y rige hasta 1843 (la propia Constitución del 30-XII-1843 la sustituye).",
+   "extractos": [
+    {
+     "ubicacion": "Titre premier, art. 38",
+     "cita_original": "Article 38. Aucun blanc, quelle que soit sa nation, ne pourra mettre le pied sur ce territoire à titre de maître ou de propriétaire.",
+     "traduccion": "Ningún blanco, sea cual fuere su nación, podrá pisar este territorio como amo o propietario.",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Titre III, art. 44",
+     "cita_original": "Article 44. Tout Africain, Indien et ceux issus de leur sang, nés dans les colonies ou en pays étrangers, qui viendraient résider dans la République seront reconnus Haïtiens, mais ne jouiront des droits de citoyen qu'après une année de résidence.",
+     "traduccion": "Todo africano, indio y sus descendientes, nacidos en las colonias o en países extranjeros, que vengan a residir en la República serán reconocidos haitianos, pero no gozarán de los derechos de ciudadano sino después de un año de residencia.",
+     "afirmaciones": [
+      "A-105",
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "Titre II, art. 40",
+     "cita_original": "Article 40. L'île d'Haïti (ci-devant appelée Saint-Domingue) avec les îles adjacentes qui en dépendent, forment le territoire de la République.",
+     "traduccion": "La isla de Haití (antes llamada Saint-Domingue), con las islas adyacentes que dependen de ella, forma el territorio de la República.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-105",
+    "A-110"
+   ],
+   "modulos": [
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Verifica los números de A-110 para 1816: art. 38 (prohibición a los blancos) y art. 44 (africanos e indios), con el art. 39, que reconoce como haitianos a ciertos blancos (militares, funcionarios y admitidos en 1806) y niega a los demás el derecho de adquirir propiedad. El art. 40 fija como territorio toda la isla (la tesis de la 'isla indivisible'). El Este se incorporó invocando los arts. 40-41 (ver Recueil t. III, n.º 774)."
+  },
+  {
+   "titulo": "Constitution du 30 décembre 1843 (Digithèque MJP)",
+   "autor": "Asamblea Constituyente haitiana (Gobierno de la Régénération, Hérard); Janvier, Louis-Joseph (ed. 1886); Digithèque MJP",
+   "anio": "1843",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1843.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro desde la edición de Janvier (1886) de la Digithèque MJP; numeración de esa edición.",
+   "proveniencia": "Constitución votada el 30-XII-1843 por la Asamblea Constituyente tras la caída de Boyer (13-III-1843); define seis departamentos (Sur, Oeste, Artibonito, Norte, Cibao y Ozama). Boyer partió al exilio tras una revuelta militar dirigida por Charles Hérard.",
+   "extractos": [
+    {
+     "ubicacion": "Titre II, art. 8",
+     "cita_original": "Article 8. Aucun blanc ne pourra acquérir la qualité d'Haïtien ni le droit de posséder aucun immeuble en Haïti.",
+     "traduccion": "Ningún blanco podrá adquirir la calidad de haitiano ni el derecho de poseer inmueble alguno en Haití.",
+     "afirmaciones": [
+      "A-110"
+     ]
+    },
+    {
+     "ubicacion": "art. 52",
+     "cita_original": "Quatre pour le Port-Républicain; trois pour chacune des villes des Cayes, des Gonaïves, du Cap-Haïtien, de Saint-Yague et de Santo-Domingo ; deux pour chacune des communes de Jérémie et de Jacmel, et un pour chacune des autres communes.",
+     "traduccion": "[La Cámara de representantes del pueblo:] cuatro por Puerto Príncipe; tres por cada una de las ciudades de Les Cayes, Gonaïves, Cap-Haïtien, Santiago y Santo Domingo; dos por Jérémie y Jacmel, y uno por cada una de las demás comunas.",
+     "afirmaciones": [
+      "A-112"
+     ]
+    },
+    {
+     "ubicacion": "arts. 59-60",
+     "cita_original": "Article 59. Le Sénat se compose de trente-six représentants du peuple, à raison de six par chaque département.",
+     "traduccion": "El Senado se compone de treinta y seis representantes del pueblo, a razón de seis por departamento. [Art. 60: seis senadores por el departamento del Cibao (asamblea electoral de Santiago) y seis por el del Ozama (asamblea electoral de Santo Domingo).]",
+     "afirmaciones": [
+      "A-112"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-110",
+    "A-112"
+   ],
+   "modulos": [
+    "M08"
+   ],
+   "id_existente": "F-0037",
+   "notas": "Resuelve F-0037 (Constitución de Haití de 1843: la URL registrada era Wikipedia) con la edición de la Digithèque MJP. Dato cuantitativo: 2 de los 6 departamentos (Cibao y Ozama) corresponden al Este, con 12 de 36 senadores (33 %) y, en la Cámara, tres diputados para cada una de las ciudades de Santiago y Santo Domingo. Peso desproporcionado frente a la población (entre ~7 % y ~17 % según la cifra de población que se adopte). No se menciona a Báez en el texto. Art. 8 (propiedad prohibida a los blancos): permanece en 1843."
+  }
+ ]
+}
