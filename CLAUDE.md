@@ -10,7 +10,7 @@ Proyecto de investigación documental sobre la isla de La Española (República 
 
 ## Estado de las fases
 - Fase 0 (infraestructura) y Fase 1 (narrativas y registro de 263 afirmaciones): completas.
-- **Siguiente: Fase 2**, barrido de fuentes por módulo (plan, sección 10). Requiere acceso de red a los archivos digitales (modo A) o, si no lo hay, trabajar en modo C con sus límites. Registrar el modo en `decisiones.md` antes de empezar.
+- **Fase 2 en curso** (barrido de fuentes por módulo, plan sección 10, modo A desde la sesión local). Registrados: M13, M16, M08, M00, M09 (`02-fuentes/por-modulo/M##.md`, `registro.csv` con 1.095 filas, `03-afirmaciones/cobertura.csv`). Fusionados pero sin registrar (ids provisionales): M05, M06. Sin empezar: M11, M10, M01, M03, M15, M07, M14, M12, M04, M02. Se reanuda con el Workflow `00-plan/workflows/fase2-barrido-fuentes.js` y `resumeFromRunId` anotado en `decisiones.md`.
 - Fases 3 a 8: pendientes, en el orden del plan.
 
 ## Reglas no negociables

@@ -432,7 +432,7 @@
     {
      "ubicacion": "cálculo propio sobre el CSV: MJSELIMP=36400, YEARAM 1697-1789",
      "cita_original": "Saint-Domingue 1697-1789: 2.058 viajes; desembarcados imputados (SLAMIMP) = 618.031; embarcados imputados (SLAXIMP) = 709.621; desembarcados con dato observado (SLAARRIV) = 456.697.",
-     "traduccion": "Entre 1697 y 1789 llegan a Saint-Domingue unos 618.000 africanos según la base (rango por versión 618.000-695.000 si se incluyen 1790-1820; 709.000 embarcados).",
+     "traduccion": "Entre 1697 y 1789 llegan a Saint-Domingue unos 618.000 africanos según la base (709.621 embarcados). El total de toda la serie 1679-1820 en el mismo CSV es 695.398 desembarcados y 799.773 embarcados; A-055 usa 691.116 (Eddins) y ~800.000.",
      "afirmaciones": [
       "A-055"
      ]
@@ -2301,6 +2301,124 @@
    "modulos": [
     "M05",
     "M06"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "F-0072",
+   "notas": "Ya registrada (pdf-en-linea); aquí se leen los pasajes de cifras del siglo XVIII con PyMuPDF. Su fuente de las cifras de Saint-Domingue (del Monte y Tejada) no ofrece la suya. La paginación coincide con la impresa ('63 JUAN BOSCH' en la p. 63 del PDF).",
+   "titulo": "Composición social dominicana: historia e interpretación (Santo Domingo, 1970; ed. con paginación del PDF del PLD), cap. IX-XI",
+   "autor": "Bosch, Juan",
+   "anio": "1970",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://pld.org.do/assets/documents/JuanBosch/composicion-social-dominicana.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de interpretación de un historiador-político, con cita de fuentes secundarias (del Monte y Tejada, Lugo, Utrera) y cifras que discute pero no verifica en archivo.",
+   "proveniencia": "Juan Bosch (1909-2001), escritor y político, escribió la obra con una tesis sobre la formación de las clases sociales dominicanas (oligarquía del azúcar, 'sociedad hatera'); el PDF es el de la edición del Partido de la Liberación Dominicana. Interés: demostrar que la sociedad colonial era hatera y patriarcal. Cita a del Monte y Tejada (1953) para datos de Saint-Domingue 'sin ofrecer la fuente'.",
+   "extractos": [
+    {
+     "ubicacion": "cap. XI, p. 62 (cita a A. del Monte y Tejada, Historia de Santo Domingo, III, pp. 156-157)",
+     "cita_original": "se introdujeron en la colonia diez y siete mil seiscientos sesenta y cuatro negros varones, ocho mil cuarenta y seis hembras, seis mil quinientos veinticinco párvulos varones y dos mil novecientos diez y seis hembras en seiscientos sesenta buques",
+     "traduccion": "Introducción de africanos en un año de la década de 1780 (¿1788 o 1790?, Bosch no lo sabe): 17.664 + 8.046 + 6.525 + 2.916 = 35.151 personas en 660 buques (suma propia). Compárese: SlaveVoyages (CSV 2019) da 29.524 (1788), 28.029 (1789) y 41.248 (1790) y Barbé-Marbois ~29.000 al año en 1786-88.",
+     "afirmaciones": [
+      "A-055"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI, p. 62",
+     "cita_original": "resultan también aceptables los informes de que para el estallido de la Revolución había en la colonia más de seiscientos mil esclavos; algunos han hablado de setecientos mil.",
+     "traduccion": "Bosch acepta 600.000-700.000 esclavos sin cotejar con el recuento colonial (434.429 según Geggus; Moreau 452.000). Es una de las vías por las que cifras sin base llegan a Diamond (700.000) y a Cordero Michel (~670.000).",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI-XII, pp. 70-71 (sobre el informe de Heredia, 1812: 80.000 almas)",
+     "cita_original": "¿Es posible que de 125.000 habitantes hacia el 1780 Santo Domingo quedara reducido a unos 80.000 en el 1812? No parece posible. O bien no teníamos 125.000 personas en 1780 o no teníamos 80.000 en 1812.",
+     "traduccion": "Bosch ve la incoherencia entre 125.000 (c. 1780) y 80.000 (1812) y atribuye la diferencia a emigración; la lectura alternativa es que la cifra de 125.000 era exagerada (Sevilla Soler: 60.962 en 1782-83 y 62.096 en 1812).",
+     "afirmaciones": [
+      "A-056"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII, p. 32",
+     "cita_original": "Se le llama “situado” en nuestra historia a la cantidad de dinero en efectivo que por orden del rey se enviaba cada año de México a Santo Domingo.",
+     "traduccion": "Definición del situado; Bosch lo fecha hacia 1608 y dice que en el siglo XVII Santo Domingo no tuvo otra moneda. Sin cifras anuales para el siglo XVIII en este pasaje.",
+     "afirmaciones": [
+      "A-061"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054",
+    "A-055",
+    "A-056",
+    "A-061"
+   ],
+   "modulos": [
+    "M00",
+    "M03",
+    "M04",
+    "M05",
+    "M08"
+   ]
+  },
+  {
+   "urls_alternativas": [],
+   "http_status": "200",
+   "id_existente": "F-0817",
+   "notas": "Ya registrada (M08); aquí se leen las pp. 35-37 (PDF de 61 MB, texto extraído con PyMuPDF, OCR ruidoso). Es la base de las cifras altas (46.000 / 56.000 / ~670.000) que usan Franco y Diamond. Los números de página son los del PDF (no hay paginación impresa legible).",
+   "titulo": "La Revolución haitiana y Santo Domingo (4.ª ed. corregida y aumentada, 2000; 1.ª ed. 1968), cap. sobre la sociedad colonial de Saint-Domingue",
+   "autor": "Cordero Michel, Emilio",
+   "anio": "2000 (1968)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/CorderoMichelEmilio-LaRevolucionHaitianaySantoDomingo.pdf",
+   "verificacion": "descargada-y-leida",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía marxista con aparato de notas, pero las cifras de 1789 se toman de Madiou (1847), Ardouin y Moreau (citado por Leyburn) sin cotejar con el recuento colonial.",
+   "proveniencia": "Emilio Cordero Michel (1930-2018), historiador de la UASD, publicó la primera edición en 1968; la 4.ª (2000) la edita la Academia Dominicana de la Historia. Interés: analizar las clases de Saint-Domingue antes de 1789 para explicar la Revolución y su efecto sobre Santo Domingo. Cita a Madiou, Ardouin y Moreau en las notas 23-34.",
+   "extractos": [
+    {
+     "ubicacion": "PDF pp. 35-36 (notas 23-24)",
+     "cita_original": "La población blanca [...] ascendía a 46,000 personas; Saint-Méry ofrece la cifra de 40,000 que es la que comúnmente citan los autores",
+     "traduccion": "Cordero Michel: 46.000 blancos según Madiou (t. I, p. 42); 40.000 según Moreau (t. I, 'p. 285', citado por Leyburn). La cifra de 46.000 es del siglo XIX y no es un recuento.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 36 (notas 26-27)",
+     "cita_original": "la población blanca representaba el 8% de la población total y dominaba la sociedad colonial al poseer el 70% de las riquezas (6,512 plantaciones) y el 75% de los esclavos (532,200).",
+     "traduccion": "Si 532.200 son el 75 % de los esclavos, el total sería ~710.000; pero sumando los 532.200 de los blancos y los 137.000 de los libertos (p. 37) se obtiene ~669.000, el '670.000' que Porro atribuye a Cordero Michel (suma propia; las proporciones 75 % + 25 % no cuadran con esas cifras).",
+     "afirmaciones": [
+      "A-054"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 37 (notas 30-31)",
+     "cita_original": "En 1789, los libertos sumaban 56,666 personas, o sea, el 5% de la población total -Saint-Mery señala 28,000-",
+     "traduccion": "Libertos: 56.666 según Madiou, frente a 28.000 de Moreau: dobla la cifra de Moreau. El '5 %' no cuadra con el 8 % de blancos y los totales dados.",
+     "afirmaciones": [
+      "A-054"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-054"
+   ],
+   "modulos": [
+    "M05",
+    "M08"
    ]
   }
  ]

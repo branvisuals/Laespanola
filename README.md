@@ -19,7 +19,7 @@ Investigación documental sobre la historia de la isla de La Española (Ayiti, Q
 
 - **Fase 0** (infraestructura): completa (2026-10-06).
 - **Fase 1** (narrativas y registro de afirmaciones): completa (2026-10-06). Tres narrativas en `03-afirmaciones/narrativas/` y 263 afirmaciones contrastables en `03-afirmaciones/registro.md` y `registro.csv`, todas en estado pendiente de verificación.
-- **Fase 2** (barrido de fuentes por módulo): pendiente de dos decisiones de infraestructura (modo de acceso a la red y cupo de búsquedas web), ver `00-plan/decisiones.md`.
+- **Fase 2** (barrido de fuentes por módulo): en curso desde la sesión local (2026-10-06), en modo A. Cinco módulos registrados (M13, M16, M08, M00, M09), dos fusionados pendientes de registro (M05, M06), diez por hacer. Bibliografía anotada en `02-fuentes/por-modulo/`, registro de fuentes con 1.095 filas y cobertura afirmación-fuente en `03-afirmaciones/cobertura.csv`. Detalle y siguiente paso en `00-plan/decisiones.md`.
 - Fases 3 a 8: pendientes. Ver `00-plan/plan.md`.
 
 ## Continuar en otra sesión
