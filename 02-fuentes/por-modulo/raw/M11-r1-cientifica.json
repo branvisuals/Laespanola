@@ -1,0 +1,2215 @@
+{
+ "lente": "cientifica",
+ "modulo": "M11",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 28,
+ "busquedas_pendientes": [
+  "Schurr et al. 2026 (Proyecto Genográfico Dominicano): abrir el resumen de AJBA 189(S81):170 o el artículo; la página de UNIBE devuelve 403 (Cloudflare). Buscar versión en bioRxiv o en el PDF del programa de la AABA.",
+  "Bukhari et al. 2017 (Gene 637:33), Tajima et al. 2004 (J Hum Genet), Lalueza-Fox et al. 2001 (Ann Hum Genet) y Montinaro et al. 2015 (tabla de dominicanos): texto completo; el grep de Montinaro no halló porcentajes dominicanos en el texto de Europe PMC.",
+  "Hostos 1884 (6.000 trabajadores azucareros, 5.500 dominicanos): localizar el texto original en Obras completas o en la prensa de 1884; solo se leyó citado por Martínez 1994.",
+  "Del Castillo, José, La inmigración de braceros azucareros en la República Dominicana, 1900-1930 (Cuadernos del CENDIA, UASD, 1978): tabla por provincias del censo de 1920 y series de braceros; solo se leyó vía Martínez 1994 y Coulange-Méroné 2018.",
+  "Primer Censo Nacional de 1920 (publicado en 1923; 2.ª ed. UASD 1975): original; copia solicitable a la BNPHU (signatura 1938 según M13) o a la ONE. Se usó solo vía Coulange-Méroné y Wikipedia (índice).",
+  "Series económicas haitianas 1880-1915 (volumen de café, recaudación aduanera anual, cuota alemana del comercio exterior ~80 % en 1910): Moral, Le paysan haïtien (1961); Lundahl, Peasants and Poverty (1979); Bulmer-Thomas 2012 cap. 7 (F-0826); Plummer, Haiti and the Great Powers (1988); Chatelain, La Banque Nationale (1954). Todo de pago o de préstamo.",
+  "Series azucareras dominicanas 1865-1915 (producción en toneladas; número de ingenios por año): Moya Pons, The Dominican Republic: A National History (F-0816); Baud, 'Sugar and Unfree Labour' (J. Peasant Studies 1992); Pan American Union, Santo Domingo (1895, pp. 16-20); Castillo, 'The Formation of the Dominican Sugar Industry'. La cifra que circula (7.000 toneladas en 1880; 144.911 en 1916) no se pudo trazar.",
+  "Samper y Fernando 2003, Apéndice 'Historical Statistics of Coffee Production and Trade' (Cambridge, The Global Coffee Economy): la página solo muestra la ficha; las tablas de Haití y la República Dominicana no se vieron.",
+  "Casey, Matthew, Empire's Guestworkers (2017): primeras cifras de braceros haitianos en Cuba (1912-1915); no buscado.",
+  "Welles, Naboth's Vineyard (1928; F-1000) y Hoetink, The Dominican People 1850-1900 (F-1001): préstamos, tabla racial y población; solo en préstamo en archive.org.",
+  "Keim 1870 (Santo Domingo, Pen and Pencil Sketches) y Hazard 1873 (F-0770) como testimonios de la ausencia de prejuicio de color (A-153): Hazard solo reproduce el informe de la Comisión de 1871 en su apéndice (pp. 484-486); Keim no se buscó.",
+  "Registros de matrimonios mixtos y actas civiles en la frontera (A-153/A-150): no se encontró ninguna serie; consultar el AGN (Interior y Policía, legajos de Dajabón, Restauración y Las Matas).",
+  "Ecología: cobertura forestal de Haití y la RD hacia 1900 (Hedges et al. 2018, F-0230; Global Forest Watch; Tarter 2016 sobre el mito del 60 % de bosque en 1923): no se buscó porque no toca ninguna afirmación del módulo; solo hay las exportaciones de palo de campeche y caoba del Bureau (1890-92).",
+  "Informes anuales de la receptoría de aduanas dominicana 1905-1915 (BNPHU/AGN; Bureau of Insular Affairs): series de importaciones, exportaciones y recaudación por año; solo se leyeron cuatro cifras (1904, 1905-06, 1906-07 y el promedio 1905-1914)."
+ ],
+ "lagunas": [
+  "No existe ningún censo nacional de ninguno de los dos países entre 1865 y 1915: Haití no ha tenido censo desde la independencia hasta el periodo de la ocupación (St John 1884; Bureau 1892 cita una enumeración incompleta de Geffrard de 1859-66 y un recuento del clero 'algo más de un millón'; 1,9 millones en 1918-19 según el Country Study de la LoC, F-0380, sin fuente), y la República Dominicana solo tiene el censo de 1920 (894.665). Todas las cifras anteriores son estimaciones sin método común: 150.000 (Comisión 1871, 'no pasa de'), 207.000 (tribunal eclesiástico, 1863 según Schoenrich y 1871 según Gautier), 252.000 (proyección de Gautier), 382.312 (censo eclesiástico 1888), 610.000 ('estimación oficial' 1888 del Bureau), 605.000 (estimación oficial 1908), 715.000-795.432 (1917). Esta serie es nivel D hasta que se trace su método.",
+  "Mano de obra haitiana en los ingenios antes de 1915: no hay ninguna serie primaria. Las series de braceros importados de 1893-1914 son de cocolos y puertorriqueños (Lluberes 1990; Martínez 1994: 4.800/4.600/4.300 en 1912-1914); la afirmación general de 'braceros haitianos desde el siglo XIX' (LoC Country Study) no se sostiene con esas series; las cifras haitianas de la ONG jesuita (500 en 1884; 38.225 en 1920) no tienen fuente y la segunda contradice el censo de 1920 (28.258). Evidencia por ausencia: no sustituye a una búsqueda en memorias de gobernadores de Azua, Monte Cristi y Barahona.",
+  "Producción azucarera dominicana 1865-1915: solo se obtuvieron exportaciones de 1881-1889 (quintales, vía Lluberes; falta el dígito de 1886), el número de ingenios (35 en 1884, 14 hacia 1906) y las exportaciones de 1913-1916 (Schoenrich). No se localizó la serie de producción por año ni de áreas.",
+  "Series económicas de Haití 1865-1915: café 1860-1880 (St John) y 1890-1892 (Bureau), recaudación de 1890-91, deuda de 1892 y préstamos de 1874-75, 1896 y 1910 (Henochsberg, vía Chatelain). No hay recaudación ni volumen de exportación por año para 1893-1915 ni cuota de comercio por país; las series de Bulmer-Thomas y Lundahl son de pago.",
+  "Tamaños de ejércitos y bajas: ejército haitiano 20.000 (1860/1867) y 16.000 (1880) con generales en abundancia (St John; Henochsberg); ejército dominicano de 1916: 470 hombres autorizados (Schoenrich). No hay cifras de bajas con base: 'de 1.000 a 15.000' muertos en quince años (Schoenrich) es nivel D; 'veinte revoluciones generales de 1865-1905' (receptor 1907) y '23 exitosas desde 1844' (Schoenrich) son recuentos no comparables.",
+  "Indemnización del Tratado de 1874 (art. 12): 150.000 pesos anuales por adelantado durante ocho años; el Bureau (1892) recoge que la parte dominicana reclamaba 'casi un millón' impago, pero no se localizó ningún registro de pagos efectivos, ni la 'devolución de derechos' calculada por estadística ni los estudios estadísticos que el tratado prevé: no sabemos si se midió alguna vez el comercio fronterizo.",
+  "Extensión de las reclamaciones fronterizas: el Bureau da 'unas 1.000 millas cuadradas' disputadas en 1892; Schoenrich da 1.500 por lado en 1918 (A-151); ninguna cifra tiene medición. La línea provisional de 1912 es la del mapa del Estado Mayor de 1907-1908 (hojas Monte Cristi n.º 6 y Barahona n.º 7), que no se vio; no se calculó el área entre esa línea y los mapas haitiano y dominicano. Aceptación de la línea provisional: la dominicana está documentada solo como 'aquiescencia condicionada' (FRUS 1913 d498); la haitiana no se encontró (FRUS 1912 d529 la transmite a su gobierno e invoca una seguridad de John Hay de 1905 cuyo contenido no se leyó), de modo que 'ambos la aceptaron' (A-152, vía Schoenrich) sigue sin verificar para Haití.",
+  "Composición racial: el único recuento del periodo es el censo de la ciudad de Santo Domingo de 1908 (7.016 blancos, 6.934 de color, 4.676 negros: 37,7 %, 37,2 %, 25,1 %); el censo nacional de 1920 (24,9 % blancos, 49,7 % mestizos, 25,4 % negros) quedó fuera del módulo y no se abrió en el original. Las categorías son de empadronador; las proporciones de Gabb ('cuarterón') y de la Comisión de 1871 son impresiones.",
+  "Genética: ningún estudio sobre ADN antiguo ni genómico de La Española en el periodo; los estudios leídos (Bryc 2010; Moreno-Estrada 2013; D'Atanasio 2020; Simms 2010 y 2012; Salzano y Sans 2014) son de poblaciones actuales y solo contrastan premisas de las afirmaciones raciales (A-149, A-154); la muestra haitiana sigue siendo mínima (6 en Moreno-Estrada; 111-123 en Simms) y no hay genómica hecha en Haití. Schurr 2026 no se abrió (403).",
+  "Fuentes ya registradas que no se pudieron resolver: Derby 1994 (CSSH, cerrado), Dubois 2012 (préstamo en archive.org), Moïse (401 en archive.org), Théodat 1998 (Persée solo da la p. 7; PDF 403), Davidson 2026 (PDF del editor 403; solo el resumen de Crossref).",
+  "Fuera del alcance del módulo y no buscado: trata (slavevoyages), lingüística, epidemiología, ENI-2012/2017, encuestas de actitudes (LAPOP, Latinobarómetro) y cifras de 1937: no producen datos de 1865-1915."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "cocolo / inmigración cocola o inglesa",
+   "tradicion": "dominicana (fuentes oficiales y prensa de San Pedro de Macorís, 1894-1927)",
+   "nota": "Etnónimo, a veces despectivo, para los braceros de las islas anglófonas (Tortola, Saint Thomas, Saint Kitts, Barbados, Anguila) en los ingenios del este desde ~1896; la Memoria de Interior y Policía de 1909 habla de 'cocolos' y Martínez 1994 de 'inmigración cocola o inglesa'. No confundir con haitianos: las series de 1893-1914 son de cocolos y puertorriqueños. El glosario recoge 'bracero' y 'congó' pero no 'cocolo'."
+  },
+  {
+   "termino": "doble deuda (double debt) / rescate (ransom)",
+   "tradicion": "internacional (NYT 2022; Henochsberg 2016)",
+   "nota": "La indemnización de 1825 (150 millones de francos, reducida a 90) más el préstamo de 30 millones de ese año, considerados una sola carga ('double debt'); el NYT la titula 'The Ransom'. El glosario recoge 'dette de l'indépendance' y 'rançon' como nombre haitiano; falta 'doble deuda' como término analítico y la discrepancia sobre la fecha de su pago final (1883 en Henochsberg, 1888 en el NYT)."
+  },
+  {
+   "termino": "uti possidetis de 1874 / status quo post bellum de 1856 / 'present possessions' (art. 4)",
+   "tradicion": "haitiana (uti possidetis de 1874) frente a dominicana (statu quo de 1856), según el memorial haitiano de 1911",
+   "nota": "Dos lecturas rivales del art. 4 del Tratado de 1874 ('posesiones actuales') que sostienen las dos cancillerías: Haití, la posesión al firmarse el tratado (1874); la RD, la posesión de 1856, año en que cesaron las hostilidades (según FRUS 1911 d193, versión haitiana). EE. UU. usa 'provisional de facto boundary line' (1912) y 'status quo line'. Declarar quién usa cada término."
+  },
+  {
+   "termino": "receptoría de aduanas / 'American assistance' (modus vivendi 1905)",
+   "tradicion": "oficial-eeuu (receptor Pulliam, 1907) frente a dominicana ('intervención financiera')",
+   "nota": "El receptor describe la receptoría como 'ayuda desinteresada de los Estados Unidos' ('disinterested assistance', 'American assistance') y la presenta como fin de 20 revoluciones; la historiografía dominicana la llama intervención financiera (Welles 1928: 'Naboth's Vineyard'). El término ya es una tesis; usar 'receptoría de aduanas (1905-1941)' como descriptivo y anotar los dos nombres."
+  },
+  {
+   "termino": "'raza que no sea la caucasiana' (ley de inmigración de 1912)",
+   "tradicion": "oficial-rd (Congreso dominicano, 1912, vía Castillo 1978 y Coulange-Méroné 2018)",
+   "nota": "Categoría legal: la ley exigía permiso del Ejecutivo para inmigrar a 'los naturales de las colonias europeas en América, ... de África ... así como los braceros de otra raza que no sea la caucasiana'. Es la categoría jurídica que sustenta 'inmigración solo blanca' (Schoenrich) y que precede a la orden ejecutiva 372 de 1919; no equivale a las categorías de los censos."
+  },
+  {
+   "termino": "partition / escisión (scission) / separación de 1844",
+   "tradicion": "haitiana oficial (Legación de Haití 1911: 'partition'; Tratado de 1874, art. 13: 'scission/separación')",
+   "nota": "El glosario ya recoge 'séparation' y 'scission de la partie de l'Est'; aquí aparecen dos formas más en documentos oficiales: el Tratado de 1874 usa 'scission de 1844' (art. 13) y la Legación de Haití en 1911 'partition'. El memorial dice además 'Following the partition that took place in 1844 in the Republic of Haiti'. Añadir 'partition/partición'."
+  },
+  {
+   "termino": "griffe / marabout / cuarterón (quadroon) / octavón",
+   "tradicion": "colonial francesa (Moreau de Saint-Méry) y estadounidense (Bureau 1892; Gabb 1871)",
+   "nota": "Taxonomías de mezcla usadas todavía en 1871 y 1892 por informes estadounidenses ('the child of a mulatto and a black is a griffe...'; 'average shade of a quadroon'); no equivalen a las categorías de los censos dominicanos (mestizo, mulato, negro, blanco, indio). Útil para no mezclar vocabularios en A-149 y A-154."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Hand Book of Haiti (Bureau of the American Republics, Bulletin n.º 62, 1892; revisado a 1-IX-1893)",
+   "autor": "Bureau of the American Republics (Washington, D.C.)",
+   "anio": "1892",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/BureauoftheAmericanRepublics-Haiti-1892.pdf",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL41463593W"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación oficial estadounidense de promoción comercial que cita censos del clero, mensajes presidenciales y actas aduaneras con base declarada en varios casos, pero la copia es un escaneo con OCR defectuoso (las citas se restituyen ortográficamente) y no identifica a sus redactores.",
+   "proveniencia": "Boletín del Bureau of the American Republics (precursor de la Unión Panamericana), Washington, GPO, 1892, revisado a septiembre de 1893 para inversionistas y comerciantes de EE. UU.; incluye el informe del cónsul general Durham sobre el comercio de EE. UU. con Haití (junio de 1893). La copia consultada es el PDF de 183 MB de la ADH (OCR en inglés de baja calidad). Sin autor individual identificado; los capítulos de historia y de finanzas citan fuentes haitianas (mensajes presidenciales, el clero) sin identificarlas.",
+   "extractos": [
+    {
+     "ubicacion": "cap. III, p. 24",
+     "cita_original": "Gen. Geffrard, who was President from 1859 to 1866, caused an enumeration of the population to be undertaken, but it only went far enough to establish the fact that the footing up would show considerably less than a million.",
+     "traduccion": "El gral. Geffrard, presidente de 1859 a 1866, hizo emprender una enumeración de la población, pero solo llegó a establecer que el total daría considerablemente menos de un millón. [Ortografía OCR restituida.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. III, pp. 24-25, l. 1134",
+     "cita_original": "the Roman Catholic clergy [...] have taken an approximate census of population for their own purposes, under the direction of their resident central head, the Archbishop of Port au Prince. [...] Their figures show the present population of Haiti to be somewhat more than a million.",
+     "traduccion": "el clero católico [...] ha hecho un censo aproximado de población para sus propios fines, bajo la dirección del arzobispo de Puerto Príncipe. [...] Sus cifras muestran que la población actual de Haití es algo más de un millón. [Hacia 1892; sin cifra exacta ni método.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. III, p. 25",
+     "cita_original": "it is estimated that less than one-tenth of the population consists of white foreigners, mulattoes, quadroons, and octoroons, the remaining nine-tenths being what would, in the United States, be called persons of unmixed African blood",
+     "traduccion": "se estima que menos de una décima parte de la población son extranjeros blancos, mulatos, cuarterones y octavones, y las otras nueve décimas serían lo que en EE. UU. se llamaría personas de sangre africana sin mezcla. [El texto cita la taxonomía de Moreau de Saint-Méry: griffe, marabout, etc.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de relaciones exteriores, p. 68, l. 3043",
+     "cita_original": "there was to be a free exchange of products between them over the frontier and otherwise, and as the balance of that traffic was presumed to be in favor of Haiti, she agreed to pay to her neighbor a certain stipulated sum for eight years from that date",
+     "traduccion": "habría libre intercambio de productos entre ambos países por la frontera y en general; y como se presumía que el saldo de ese tráfico favorecía a Haití, ésta se comprometió a pagar a su vecino una suma estipulada durante ocho años desde esa fecha.",
+     "afirmaciones": [
+      "A-146",
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "cap. de relaciones exteriores, p. 69",
+     "cita_original": "The latter power claims that this indemnity, now running up to nearly $1,000,000, has never been fully paid, and claims also that the old \"treaty of the boundaries\" of 1776 needs a readjustment.",
+     "traduccion": "Esta última potencia [la República Dominicana] sostiene que esa indemnización, que ya llega a casi 1.000.000 de dólares, nunca se pagó completa, y que el viejo \"tratado de límites\" de 1776 [Aranjuez, 1777] necesita un reajuste.",
+     "afirmaciones": [
+      "A-146",
+      "A-151"
+     ]
+    },
+    {
+     "ubicacion": "cap. de relaciones exteriores, p. 69",
+     "cita_original": "by a sort of long-continued tacit consent or acquiescence, the boundaries are taken to be where the two languages begin to commingle, and that no power short of a strong standing force is likely to hold in check effectually the traffic over the frontiers, all the people living there being deeply interested in it.",
+     "traduccion": "por una especie de consentimiento o aquiescencia tácitos y prolongados, se toma como límite el punto donde las dos lenguas comienzan a mezclarse, y ningún poder que no sea una fuerza permanente podrá contener efectivamente el tráfico por las fronteras, en el que están hondamente interesados todos los que viven allí.",
+     "afirmaciones": [
+      "A-150",
+      "A-151"
+     ]
+    },
+    {
+     "ubicacion": "cap. de finanzas, p. 109, l. 4846",
+     "cita_original": "in 1874, the Domingue administration appeared on the bourse of Paris for a loan of more than 30,000,000 of francs [...] The loan was effected in 1875 [...] It was represented originally by 72,353 obligations of 500 francs, each bearing interest at 6 per cent per annum.",
+     "traduccion": "en 1874 la administración Domingue acudió a la bolsa de París en busca de un préstamo de más de 30.000.000 de francos [...] El préstamo se realizó en 1875 [...] y estaba representado originalmente por 72.353 obligaciones de 500 francos con interés del 6 % anual. [Sigue: hasta 1885 se habían redimido menos de 3.000 obligaciones.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de finanzas, p. 112, l. 5008",
+     "cita_original": "there was at that date only $4,040,795 of it in circulation, and according to the same document, the national debt then stood at $15,357,365.40.",
+     "traduccion": "en esa fecha [22-VI-1892] solo había $4.040.795 [de papel moneda] en circulación y, según el mismo documento [mensaje del presidente Hyppolite], la deuda nacional ascendía a $15.357.365,40.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de comercio, p. 86 (tabla)",
+     "cita_original": "A complete list of the exports of all products during the fiscal years 1890, 1891, and 1892, as it appears in official documents, is as follows: [...] Coffee 56,692,039 pounds 79,340,485 pounds 67,831,893 pounds",
+     "traduccion": "Lista completa de exportaciones de los años fiscales 1890, 1891 y 1892 según documentos oficiales: café 56.692.039, 79.340.485 y 67.831.893 libras. [Compara con 55,6 millones en 1880 y 72,6 en 1875 de St John.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de comercio, p. 86 (tabla)",
+     "cita_original": "Logwood 190,861,248 pounds 165,423,485 pounds 114,542,697 pounds [...] Mahogany 38,948 feet 34,932 feet 9,397 feet",
+     "traduccion": "Exportaciones de palo de campeche (logwood): 190.861.248 libras (1890), 165.423.485 (1891) y 114.542.697 (1892); de caoba: 38.948, 34.932 y 9.397 pies. [Tabla leída sobre la imagen de la página: las columnas del OCR se descolocan.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de finanzas, p. 109",
+     "cita_original": "In 1890, this debt amounted to about $4,617,571.25, which calls for an annual outlay (covering interest and payment on principal) of about $292,054.28, and is guaranteed by 20 per cent of the export duties on coffee.",
+     "traduccion": "En 1890 esta deuda [el préstamo de 1875 reestructurado en 1885] ascendía a unos $4.617.571,25, lo que exige un desembolso anual (intereses y amortización) de unos $292.054,28, garantizado por el 20 % de los derechos de exportación del café.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. de finanzas, p. 112",
+     "cita_original": "it negotiated no less than five loans all intended to be on limited time, among the resident merchants and capitalists, aggregating $958,483.43, on four of which it engaged to pay interest at the rate of 1 per cent per month",
+     "traduccion": "negoció no menos de cinco préstamos a corto plazo entre comerciantes y capitalistas residentes, por un total de $958.483,43, cuatro de ellos a 1 % mensual y otro, de $633.180, a 1,5 % mensual (18 % anual) [entre el 3-VII y el 18-XI-1891]. [El quinto, de $633.180, a 1,5 % mensual (18 % anual), según la misma página; \"estas altas tasas son habituales en el país\".]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-146",
+    "A-150",
+    "A-151"
+   ],
+   "modulos": [
+    "M11",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext del PDF de la ADH (183 MB; descargado al scratchpad, no al repositorio). El texto OCR es muy ruidoso (p. ej. \"baurse\", \"Ioan\", \"fiancs\"): las citas en inglés están restituidas por mí con cotejo token a token (≥ 80 % de coincidencia) y deben contrastarse con página antes de citarse en la síntesis. Aporte principal: es el texto de época (1892-93) que describe la cláusula económica del Tratado de 1874 (libre intercambio fronterizo y compensación a la RD durante ocho años) y registra el reclamo dominicano de un saldo de casi un millón (8 x 150.000 pesos = 1,2 M según el art. 12 del tratado: ver F-0051). Hace falta cruzar con documentos dominicanos para saber si fue pagada y cuándo. La frase de que \"los límites se toman donde las dos lenguas comienzan a mezclarse\" es descripción del redactor (sin fuente) y apoya la caracterización de la frontera porosa (A-150) sin probarla. El dato demográfico es el del clero (sin método; \"algo más de un millón\") y la estimación racial (nueve décimas) es la del compilador."
+  },
+  {
+   "titulo": "Santo Domingo (Bureau of the American Republics, Bulletin n.º 52, 1892; fecha de revisión ilegible en el OCR: 1-III-189?)",
+   "autor": "Bureau of the American Republics (Washington, D.C.)",
+   "anio": "1892",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/BureauoftheAmericanRepublics-SantoDomingo-1892.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación oficial estadounidense con cifras de presupuestos y deuda que cita fuentes dominicanas (Consejo de Tenedores de Bonos, decretos), pero con OCR defectuoso y sin autor identificable; la \"estimación oficial de 1888\" contradice el censo eclesiástico de 1888.",
+   "proveniencia": "Boletín n.º 52 del Bureau of the American Republics, 1892 (con revisión posterior a una fecha ilegible), publicado cuando la República Dominicana pasó a sostener el Bureau (abril de 1892); resume geografía, población, finanzas y comercio para el inversionista estadounidense. Copia: PDF de 150 MB de la ADH.",
+   "extractos": [
+    {
+     "ubicacion": "p. 4 (verificada sobre la imagen de la página)",
+     "cita_original": "The population of Santo Domingo was officially estimated in 1888 at 610,000. It is mainly composed of a mixed race of the original Spanish settlers and the Indian inhabitants, of mulattoes and negroes, and of whites or European-descended inhabitants, who are comparatively numerous.",
+     "traduccion": "La población de Santo Domingo fue estimada oficialmente en 1888 en 610.000 [habitantes]. Se compone principalmente de una raza mixta de los colonos españoles originales y los habitantes indios, de mulatos y negros, y de blancos o descendientes de europeos, que son comparativamente numerosos. [Contrasta con el censo eclesiástico de 1888 (382.312) de Schoenrich.]",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "p. 13 (verificada sobre la imagen de la página)",
+     "cita_original": "The revenue for 1890 was $3,829,329, and the expenditure $3,837,300.",
+     "traduccion": "Los ingresos de 1890 fueron de $3.829.329 y los gastos de $3.837.300. [Misma página: deuda interna de 1889, $1.282.952; \"deuda pública\", $1.648.423; deuda internacional al 1-I-1891, $213.295; deuda exterior (Consejo de Tenedores de Bonos) a fines de 1890, £714.300 = $3.571.500, con intereses impagos de £680.000 = $3.400.000.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 5 (verificada sobre la imagen de la página)",
+     "cita_original": "The whole island has an area of 28,249 square miles, of which 18,045 are comprised in the Republic of Santo Domingo and 10,204 belong to Haiti.",
+     "traduccion": "La isla entera tiene una superficie de 28.249 millas cuadradas, de las cuales 18.045 corresponden a la República de Santo Domingo y 10.204 a Haití. [Las 1.500 millas² de cada reclamación (A-151) serían ~8 % del territorio dominicano de 1892 o ~15 % del haitiano: cálculo propio.]",
+     "afirmaciones": [
+      "A-151"
+     ]
+    },
+    {
+     "ubicacion": "p. 5, nota *",
+     "cita_original": "But subsequent to the occupation of the whole island by President Boyer, of Haiti, and the revolution of 1844, which secured the independence of the Republic of Santo Domingo, a portion of this boundary, which covers an extent of about 1,000 square miles, has been disputed.",
+     "traduccion": "Pero después de la ocupación de toda la isla por el presidente Boyer, de Haití, y de la revolución de 1844, que aseguró la independencia de la República de Santo Domingo, una parte de esta frontera, que abarca una extensión de unas 1.000 millas cuadradas, ha sido disputada. [Nota al pie del Bureau en 1892: 1.000 millas², frente a las 1.500 de cada lado que da Schoenrich en 1918 (A-151). El boletín dice además que la línea se estableció \"por tratado en 1777\" y se amojonó. Lectura visual de la imagen de la página: el OCR de esta nota es ilegible.]",
+     "afirmaciones": [
+      "A-151"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-151",
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M09"
+   ],
+   "id_existente": "",
+   "notas": "OCR defectuoso (p. ej. \"poplation\"). La cifra de 610.000 está calificada como \"estimación oficial\" sin base declarada (Gautier 1871: 207.000 de fuente eclesiástica y 252.000 de proyección; Schoenrich: censo eclesiástico 1888 = 382.312; estimación oficial 1908 = 605.000): la serie oficial no es creíble sin método, y la de 1888 casi coincide con la de 1908, lo que sugiere reciclaje de cifras. Nivel D para la serie hasta 1920. La deuda externa y la interna del boletín (n.º 52) se cotejan con Schoenrich (tabla de empréstitos) y FRUS 1905 d316; sus cifras de libras esterlinas tienen dígitos ilegibles en el OCR y no se citan."
+  },
+  {
+   "titulo": "La larga crisis azucarera, 1884-1902 (Estudios Sociales, año XXIII, n.º 81, julio-septiembre 1990)",
+   "autor": "Lluberes, Antonio, s.j. [OCR del PDF: \"Ul:Jberes\"]",
+   "anio": "1990",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/512/498/994",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio académico con aparato crítico (Gaceta Oficial, El Eco de la Opinión, memorias, informes del Foreign Office, Pan American Union) y base declarada para las series; su cuadro de exportaciones de 1881-1889 tiene un dígito ilegible en el OCR.",
+   "proveniencia": "Antonio Lluberes, S.J. (maestría en Historia, George Washington University, 1983; estudios sobre tabaco, azúcar e Iglesia), publica en la revista del Centro Bonó (Santo Domingo) un estudio de la crisis azucarera dominicana entre la caída del precio mundial de 1884 y el tratado de Bruselas de 1902. Usa, entre otras, estadísticas de la Pan American Union (1895) y de El Eco de la Opinión.",
+   "extractos": [
+    {
+     "ubicacion": "tabla I, p. 31, l. 616",
+     "cita_original": "Azúcar 114,604 235,322 204,250 361,856 406,578 [...] 406,142 388,103 450,855 [...] Pan American Union, Santo Domingo, Washington: Government Printing Office, 1895",
+     "traduccion": "Exportaciones de azúcar, en quintales de 112 libras: 114.604 (1881), 235.322 (1882), 204.250 (1883), 361.856 (1884), 406.578 (1885), [1886 ilegible en el OCR], 406.142 (1887), 388.103 (1888), 450.855 (1889). Fuente: Pan American Union, Santo Domingo, 1895.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 47-48, l. 1442",
+     "cita_original": "los ingenios descendieron de treinta y cinco a catorce. Por el contrario, el área cultivada de caña aumentó de 210,000 a 1,182,640 tareas.",
+     "traduccion": "En comparación con 1884 (año de mayor número de ingenios), los ingenios descendieron de treinta y cinco a catorce, mientras el área cañera aumentó de 210.000 a 1.182.640 tareas [hacia 1906]. [Concentración de la propiedad en manos extranjeras.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 47",
+     "cita_original": "Se calcula que para 1903 habían llegado al país unos 4,467 cocolos.",
+     "traduccion": "Se calcula que hacia 1903 habían llegado al país unos 4.467 cocolos. [Sin base declarada; \"se calcula\".]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 47",
+     "cita_original": "Y en Puerto Plata como en San Pedro de Macorís se llegó a pagar $0.25 al día.",
+     "traduccion": "En Puerto Plata y en San Pedro de Macorís se llegó a pagar $0,25 al día [en 1901, cuando la escala salarial llegó a su punto más bajo; en los ingenios de Santo Domingo hubo un recorte del 20 %].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 43-44",
+     "cita_original": "Para diciembre de 1893, 250 braceros habían llegado al país. En enero de 1894, unos 1,000 braceros estaban listos para dejar Puerto Rico.",
+     "traduccion": "En diciembre de 1893 habían llegado 250 braceros; en enero de 1894 unos 1.000 estaban listos para salir de Puerto Rico (Sociedad de Inmigración; Ehlers, Friedheim y Cía.; Santoni).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext; las páginas son las del número 81 de Estudios Sociales (p. 31 es la de la tabla I). Datos de 1881-1889: la tabla de exportaciones dice \"quintales de 112 libras\" y cita la Pan American Union (Washington, GPO, 1895, pp. 16-20): [POR VERIFICAR] contra el original. El texto no atribuye a haitianos ninguna parte de la inmigración azucarera: los braceros de 1893-1903 son puertorriqueños, de Vieques, St. Thomas y Barbados (cocolos). Es evidencia indirecta (por ausencia) de que la mano de obra haitiana no era significativa en la industria azucarera antes de 1902. Interpretación (la crisis salvó o hundió la industria) no se evalúa aquí."
+  },
+  {
+   "titulo": "La fuerza de trabajo en el proceso de modernización de la industria azucarera dominicana: caso de San Pedro de Macorís (Ecos, UASD, año 2, n.º 3, pp. 111-125)",
+   "autor": "Martínez, Héctor Luis",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/50/62/68",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo con apoyo en memorias de gobernadores y del Ministerio de Interior y Policía del AGN (con legajos citados) y en prensa de época; la cifra de Hostos 1884 se da vía una cita y el propio autor la considera posiblemente \"abultada\".",
+   "proveniencia": "Héctor Luis Martínez (historiador dominicano de la UASD) publica en la revista Ecos (1994) un estudio del mercado de trabajo azucarero de San Pedro de Macorís desde 1880 hasta 1930, con base en memorias de gobernadores de Azua y Macorís, memorias de Agricultura e Inmigración y prensa local (El Teléfono, El Eco de la Opinión). Escribe en el marco de la historiografía sobre los braceros (Del Castillo 1977).",
+   "extractos": [
+    {
+     "ubicacion": "p. 111, l. 28",
+     "cita_original": "Según Eugenio María de Hostos, la industria azucarera ocupaba en 1884 unos 6,000 trabajadores de los cuales 5,500 eran dominicanos. Quizá resulte abultada esta cifra",
+     "traduccion": "Según Hostos, la industria azucarera ocupaba en 1884 unos 6.000 trabajadores, de los cuales 5.500 eran dominicanos. Quizá esta cifra esté abultada [dice el autor, que la acepta solo para señalar el predominio local inicial].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 114-115, l. 75",
+     "cita_original": "en 1888 el salario del bracero no superaba los $0.60 por jornadas de trabajo de 14 y 16 horas por día.",
+     "traduccion": "en 1888 el jornal del bracero no pasaba de $0,60 por jornadas de 14 a 16 horas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 119",
+     "cita_original": "Según la Memoria de Interior y Policía correspondiente al año 1909, de 3 a 4 mil cocolos entraban al país a comienzos de cada zafra",
+     "traduccion": "Según la Memoria de Interior y Policía de 1909, entraban al país de 3.000 a 4.000 cocolos al comienzo de cada zafra.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 119",
+     "cita_original": "Las series estadísticas precisas en torno a la importación de braceros caneros se inician a partir de 1912. Durante la zafra de 1912-1913 entraron al país unos 4,800 braceros, reducidos a 4,600 durante la zafra siguiente y a 4,300 en 1914.",
+     "traduccion": "Las series estadísticas precisas de importación de braceros caneros empiezan en 1912: en la zafra de 1912-13 entraron unos 4.800; 4.600 en la siguiente y 4.300 en 1914 (3.700 de ellos a los ingenios de Macorís).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 120, l. 478",
+     "cita_original": "los 40 centavos diarios pagados en 1913 se elevaron en 1919 a entre 60 y 80 centavos por jornadas diarias",
+     "traduccion": "los 40 centavos diarios de 1913 subieron en 1919 a entre 60 y 80 centavos por jornada (en la \"danza de los millones\"), antes de volver a los ~25 centavos de principios de siglo.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext; páginas de la revista. Hostos 1884: [POR VERIFICAR] en el original (el autor lo cita sin ficha): no se localizó el texto de Hostos. Series 1912-1914: base es la memoria del Ministerio de Agricultura e Inmigración (1909 y siguientes); el propio texto atribuye las entradas a cocolos y puertorriqueños, y no menciona braceros haitianos antes de 1915: los haitianos aparecen después (Coulange-Méroné 2018 y Castillo 1978: desplazan a los cocolos en la década de 1920). La cuarta tabla (importación de braceros en ingenios de Macorís 1913-1916: Angelina 4.721; Consuelo 6.290; Cristóbal Colón 1.728; Porvenir 3.560; total 19.918 con la suma declarada) tiene una discrepancia aritmética en el OCR (la suma de las cuatro cifras legibles es 16.299 y el texto da 19.918 con Santa Fe \"n.d.\"): no se cita. Sesgo: historiografía de clase trabajadora favorable a los braceros locales."
+  },
+  {
+   "titulo": "Caracterización de la Comunidad Haitiana en República Dominicana (Informe Flujo Migratorio 2008, componente histórico), anexo en Estudios Sociales 146",
+   "autor": "Servicio Jesuita a Refugiados y Migrantes (República Dominicana)",
+   "anio": "2008",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/99/91",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Informe de una ONG sin aparato crítico: da cifras de 1884, 1920, 1925 y 1937 sin fuente ni método, y su cifra de 1920 (38.225) contradice el censo de ese año (28.258).",
+   "proveniencia": "Informe del Servicio Jesuita a Refugiados y Migrantes (SJRM) de República Dominicana, \"Informe Flujo Migratorio 2008\", reproducido como anexo en el número 146 de Estudios Sociales (Centro Bonó); es un componente histórico de un estudio sociodemográfico de la comunidad haitiana; las cifras históricas no llevan nota.",
+   "extractos": [
+    {
+     "ubicacion": "p. 105-106 (anexo), l. 28",
+     "cita_original": "En el año 1884 había alrededor de 500 haitianos en Santo Domingo, mientras que en el 1920 la cifra sobrepasaba los 38,225 y en el 1925, sumaban más de 100,000 personas.",
+     "traduccion": "En 1884 había alrededor de 500 haitianos en Santo Domingo, mientras que en 1920 la cifra sobrepasaba 38.225 y en 1925 sumaban más de 100.000 personas. [Cifras sin fuente.]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Cifra sin fuente trazable: \"alrededor de 500 haitianos en 1884\" [Nivel D hasta que se trace]; \"38.225 en 1920\" no coincide con el censo de 1920 (28.258 haitianos nacidos en Haití, 3,1 % de la población: Wikipedia \"1920 Santo Domingo census\" cita la publicación oficial de 1923) y \"más de 100.000 en 1925\" coincide con la cifra de Castor 1983 / informe del Departamento de Estado de 1926 (\"más de 60.000, quizá 100.000\"), vía Coulange-Méroné 2018. El informe pertenece a una familia de textos del SJRM; su contenido histórico es de síntesis. Usar solo para señalar la cifra y la discrepancia."
+  },
+  {
+   "titulo": "Elementos sociohistóricos para entender la migración haitiana a República Dominicana (Papeles de Población, vol. 24, n.º 97, pp. 171-200 aprox.)",
+   "autor": "Coulange-Méroné, Schwarz",
+   "anio": "2018",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://www.redalyc.org/journal/112/11257722009/11257722009.pdf",
+   "urls_alternativas": [
+    "https://scielo.org.mx/pdf/pp/v24n97/2448-7147-pp-24-97-173.pdf",
+    "https://doi.org/10.22185/24487147.2018.97.29"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de revista revisada (acceso abierto, Redalyc/SciELO) que sintetiza fuentes secundarias (Castillo 1978, Castor 1983, Baud, Tejada) y recalcula con el censo dominicano de 1920; no aporta archivo propio.",
+   "proveniencia": "Schwarz Coulange-Méroné (El Colegio de México; haitiano), artículo de 2018 que fecha el inicio de la migración laboral haitiana contemporánea en la década de 1910-1920 y se apoya en el censo de 1920 publicado por José del Castillo (1978). Se abrió en Redalyc (HTTP 200) y en el espejo de SciELO México (HTTP 200).",
+   "extractos": [
+    {
+     "ubicacion": "p. 173, l. 103",
+     "cita_original": "existe un consenso entre los estudiosos del tema para fechar el inicio de la migración haitiana contemporánea a este país en la segunda década del siglo XX",
+     "traduccion": "existe consenso entre los estudiosos para fechar el inicio de la migración haitiana contemporánea a este país en la segunda década del siglo XX (Manigat 2012; Lozano y Báez 2011; Wooding y Moseley-Williams 2004).",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "p. 174, l. 167",
+     "cita_original": "en 1912, el congreso dominicano adoptó una ley que prohibió la entrada de inmigrantes “de raza que no sea la caucasiana (sic)” para trabajar en la agricultura",
+     "traduccion": "en 1912 el congreso dominicano adoptó una ley que prohibió la entrada de inmigrantes \"de raza que no sea la caucasiana (sic)\" para trabajar en la agricultura [salvo que la cosecha estuviera en peligro por falta de braceros]. Casi no se aplicó (Tejada 2001; Baud 1993; Castillo 1978).",
+     "afirmaciones": [
+      "A-149"
+     ]
+    },
+    {
+     "ubicacion": "p. 175",
+     "cita_original": "el censo de 1920 indica que ya para este año, los inmigrantes haitianos —incluyendo a los que se dedicaban a otras actividades y aquellos que no trabajaban— representaban el mayor grupo de extranjeros en este país (28,258 personas)",
+     "traduccion": "el censo de 1920 indica que para ese año los inmigrantes haitianos, incluidos los que no trabajaban, eran ya el mayor grupo de extranjeros (28.258 personas); los puertorriqueños, segundo grupo, eran 6.069.",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "p. 175, l. 185",
+     "cita_original": "los datos de ese censo indican que hasta 1920 la migración era principalmente de proximidad ya que 71 por ciento de los haitianos se concentraban en provincias limítrofes o cercanas a la frontera como son Monte Cristi, [...] Barahona y Azua.",
+     "traduccion": "los datos del censo indican que hasta 1920 la migración era sobre todo de proximidad: el 71 % de los haitianos se concentraba en provincias limítrofes o cercanas a la frontera, como Monte Cristi, Barahona y Azua. [Cálculo propio del autor sobre datos del censo de 1920 publicados por Castillo 1978.]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "p. 175",
+     "cita_original": "hasta 1920, la mano de obra haitiana aun no era preponderante en la industria azucarera dominicana, aunque ya era significativa",
+     "traduccion": "hasta 1920 la mano de obra haitiana aún no era preponderante en la industria azucarera dominicana, aunque ya era significativa [en provincias cañeras como San Pedro de Macorís o Santo Domingo, los haitianos eran el segundo grupo tras cocolos y puertorriqueños].",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-149",
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext. El 71 % es cálculo del autor sobre el censo de 1920 de Castillo 1978 (no lo recalculé). Ley de 1912: el texto de Castillo (cita en nota 10) pide permiso del Ejecutivo para \"los naturales de las colonias europeas en América, ... de África ... así como los braceros de otra raza que no sea la caucasiana\" (A-149: política de inmigración \"blanca\" oficial anterior a Trujillo y a Lugo 1916). El autor recuerda que la ocupación de EE. UU. de 1915-1916 es parte de la causa y que sus cifras de 1925 (100.000) son estimación de Castor (1983) y de un informe del Departamento de Estado de 1926 (\"más de 60.000, quizá 100.000\"). Redalyc estaba caído el 2026-10-06 según el reconocimiento: en esta pasada respondió 200."
+  },
+  {
+   "titulo": "La deuda exterior y la creación del sistema monetario y bancario en la \"era de Trujillo\" en 1947 (Ecos, UASD, vol. 18, n.º 10, pp. 39-69; antecedentes del siglo XIX)",
+   "autor": "Franco Pichardo, Franklin",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/128/218/221",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/128",
+    "https://doi.org/10.51274/ecos.v18i10.pp39-69"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador dominicano (Franklin Franco, marxista) con tesis explícita de fraude en la creación de la moneda de 1947; su sección de antecedentes (siglo XIX) resume la deuda y da cifras sin nota ni fuente, y algunas no cuadran con Schoenrich.",
+   "proveniencia": "Franklin Franco Pichardo, historiador social dominicano; artículo de la revista Ecos (UASD, 2010) cuyo primer apartado resume la deuda exterior desde 1869 y la emisión monetaria del siglo XIX como antecedente. La parte del siglo XIX es de síntesis y sin aparato crítico.",
+   "extractos": [
+    {
+     "ubicacion": "§ antecedentes, pp. 44-45",
+     "cita_original": "Endeudamiento exterior que se inició en 1869, con una estafa organizada por prestamistas ingleses propietarios de la empresa: Hartmont y Cia, con la complicidad del mandatario dominicano, Buenaventura Báez [...] el Estado dominicano fue endeudado por cerca de ochocientos mil libras esterlinas, pagaderos semestralmente, durante 25 años, recibiendo apenas al momento de la firma del contrato, 38 mil.",
+     "traduccion": "El endeudamiento exterior se inició en 1869 con una estafa de los prestamistas ingleses Hartmont y Cía., con la complicidad de Báez; el Estado fue endeudado por unas 800.000 libras esterlinas, pagaderas semestralmente durante 25 años, y recibió apenas 38.000 al firmar. [Coincide con Schoenrich: nominal £757.700 y solo $190.455 pagados (~38.000 libras).]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ antecedentes, p. 42",
+     "cita_original": "Ningún economista dominicano, tampoco ningún historiador, ha podido cuantificar la cantidad de moneda nacional emitida entre 1844 y 1900, suma que estimo deben sobrepasar en pesos dominicanos los 250 millones.",
+     "traduccion": "Ningún economista ni historiador dominicano ha podido cuantificar la moneda nacional emitida entre 1844 y 1900, que el autor estima por encima de los 250 millones de pesos dominicanos. [Estimación personal sin método: nivel D.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ antecedentes, p. 45, l. 339",
+     "cita_original": "El último, efectuado en agosto de 1897, lo fue por la suma de $4,236.750 libras esterlinas.",
+     "traduccion": "El último [préstamo con la Santo Domingo Improvement Co.], de agosto de 1897, fue de \"$4,236.750 libras esterlinas\" [sic]. [No cuadra con Schoenrich: 1897, £1.736.750 al 2¾ % + £1.500.000 al 4 %; probable errata de la fuente.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext. Aporta contexto de caudillos y deuda (Báez, Lilís) sin tocar A-146 a A-156. Las cifras de Franco coinciden con Schoenrich en el Hartmont de 1869 (cerca de 800.000 libras; 38.000 libras recibidas ~ $190.455) y discrepan en el préstamo de ferrocarril de Westendorp (540.000 libras en Franco; 900.000 libras en Schoenrich, \"Railway loan 1890\") y en la cifra de 1897. Hay que tomar a Schoenrich como cifra con fuente (informe de Hollander) y a Franco como síntesis. Sesgo: tesis de fraude y de dependencia financiera; las cifras de emisión monetaria no tienen base."
+  },
+  {
+   "titulo": "Dominican Republic: A Country Study, sección \"Cash Crops\" (Library of Congress, Federal Research Division; reproducida en countrystudies.us)",
+   "autor": "Library of Congress, Federal Research Division",
+   "anio": "1989",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://countrystudies.us/dominican-republic/43.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Manual de área de síntesis sin notas ni fuentes; la afirmación sobre los braceros haitianos \"desde finales del siglo XIX\" contradice las series de 1893-1914 (cocolos y puertorriqueños) y el censo de 1920.",
+   "proveniencia": "Country Study del Library of Congress Federal Research Division (serie Area Handbook; la edición dominicana es de 1989 [POR VERIFICAR el año de esta sección]); el espejo countrystudies.us no lleva fecha. Texto leído con WebFetch (el curl devolvió 403 en la segunda lectura): el pasaje citado se confirmó con un prompt de cita literal, no se cotejó contra el HTML en bruto.",
+   "extractos": [
+    {
+     "ubicacion": "sección Cash Crops",
+     "cita_original": "Haitian laborers have harvested most of the Dominican cane crop since the late nineteenth century, by agreement between Hispaniola's two governments.",
+     "traduccion": "Los braceros haitianos han cosechado la mayor parte de la caña dominicana desde finales del siglo XIX, por acuerdo entre los dos gobiernos de la isla. [Afirmación general sin fuente; incompatible con las series de braceros de 1893-1914, que son antillanos anglófonos y puertorriqueños, y con el censo de 1920 (haitianos segundo grupo en las provincias cañeras).]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "sección Cash Crops",
+     "cita_original": "between 1896 and 1905 sugar output tripled.",
+     "traduccion": "entre 1896 y 1905 la producción de azúcar se triplicó. [Sin cifra ni fuente.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Fuente terciaria: sirve solo como índice y como ejemplo de un enunciado repetido (\"braceros haitianos desde el siglo XIX\") que el corpus debe contrastar. Contraste cuantitativo: Hostos 1884 (5.500 de 6.000 trabajadores azucareros dominicanos), cocolos 3.000-4.000 por zafra en 1909 y 4.300-4.800 braceros importados en 1912-1914 (Martínez 1994), 4.467 cocolos hacia 1903 (Lluberes 1990), censo de 1920 (haitianos 28.258, 71 % en provincias limítrofes). La sección \"Haitians\" del mismo estudio (F-0379, countrystudies.us/dominican-republic/25.htm) ya estaba registrada. Citas por WebFetch: [POR VERIFICAR] contra HTML en bruto antes de citar en la síntesis."
+  },
+  {
+   "titulo": "FRUS 1905, doc. 316: Minister Dawson to the Secretary of State (Santo Domingo, 23-I-1905) sobre el arreglo de la deuda dominicana y las aduanas",
+   "autor": "Dawson, Thomas C. (ministro de EE. UU. en Santo Domingo); compilación Department of State (Office of the Historian)",
+   "anio": "1905",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1905/d316",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1905.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despacho diplomático de primera mano que reproduce los cálculos del Departamento de Estado sobre la deuda con fecha y fuente (despacho n.º 36 de 12-IX-1904); la parte estadounidense tiene interés en justificar la intervención.",
+   "proveniencia": "Dispatch n.º 107 del ministro T. C. Dawson, American Legation, Santo Domingo, 23 de enero de 1905, sobre la negociación (con el comandante Dillingham) del protocolo de febrero de 1905 y la receptoría de aduanas; incluye el cable de Washington del 6-I-1905 con cifras de la deuda. Publicado en FRUS 1905 (p. 302 y ss.). Cotejado con la página de history.state.gov y el XML del volumen.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1905, p. 302, l. 120",
+     "cita_original": "the debt of Santo Domingo then was $32,280,000, that estimated revenues under Dominican management of custom-houses are $1,850,000, and that the proposed budget for current administration is $1,300,000",
+     "traduccion": "la deuda de Santo Domingo era entonces de $32.280.000 [según el despacho n.º 36, 12-IX-1904], los ingresos aduaneros estimados bajo administración dominicana $1.850.000 y el presupuesto propuesto para la administración corriente $1.300.000.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "FRUS 1905, p. 302, l. 120",
+     "cita_original": "the payments due on these latter will amount during the ensuing year to $1,700,000, besides $900,000 of arrearages of payments overdue, amounting in all to $2,600,000",
+     "traduccion": "los pagos de la deuda exterior y liquidada sumarían en el año siguiente $1.700.000, más $900.000 de atrasos, en total $2.600.000 [frente a solo $550.000 disponibles tras el presupuesto].",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Cifras de la deuda: $32.280.000 (IX-1904, EE. UU.) frente a $9.595.530,40 de deuda \"liquidada\" fijada por Hollander el 1-VI-1905 (Schoenrich, cap. XXI) y a \"approx. $35.000.000 de valor nominal\" del receptor (FRUS 1907 d272). La diferencia es probablemente de definición (deuda total reclamada frente a deuda liquidada tras el ajuste de Hollander y las transacciones, p. ej. la de la San Domingo Improvement Co. de $11.000.000 reclamados a $4.500.000 pagados, según Schoenrich) y no se resolvió aquí; la síntesis debe indicar el alcance de cada cifra. Sin afirmación A-### del módulo: aporta el contexto de la deuda del caudillismo de 1865-1905 que lleva a la receptoría que luego fija la línea fronteriza de 1912. La frase de FRUS que interesa a M11 está en p. 302 del volumen."
+  },
+  {
+   "titulo": "FRUS 1907 (parte I), doc. 272: informe del Receptor General de Aduanas Dominicanas (Santo Domingo, 23-IX-1907), extracto sin anexos",
+   "autor": "Pulliam, W. E. (receptor general de aduanas dominicanas); compilación Department of State",
+   "anio": "1907",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1907p1/d272",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1907p1.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial con cifras de recaudación verificables en tablas anexas (no impresas), pero escrito para defender la receptoría y con resumen histórico del periodo 1865-1905 sin fuente.",
+   "proveniencia": "Informe de W. E. Pulliam, General Receiver of Dominican Customs, del 23 de septiembre de 1907 (firma al final del documento), con la rendición de los 28 meses del modus vivendi (1-IV-1905 a 31-VII-1907) y un \"resumen de la historia financiera y política\" tomado del primer informe anual; las tablas no se imprimieron. Cotejado en history.state.gov (FRUS 1907, parte I, pp. 323-325) y en el XML.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1907 p. I, p. 324, l. 289",
+     "cita_original": "1865–1905 20 general revolutions: revenues collected over $40,000,000.00 National debt contracted, face value approximately 35,000,000.00 Total expenditures 75.000.000.00",
+     "traduccion": "1865-1905: 20 revoluciones generales; ingresos recaudados de más de $40.000.000; deuda nacional contraída de valor nominal de unos $35.000.000; gastos totales $75.000.000. [Resumen del receptor, sin fuente ni definición de \"revolución general\".]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "FRUS 1907 p. I, p. 325, l. 295",
+     "cita_original": "incurred new indebtedness at the rate of approximately $1,000,000 per annum for some thirty-odd years",
+     "traduccion": "se contrajo nueva deuda a razón de aproximadamente $1.000.000 por año durante unos treinta y tantos años [antes de la receptoría].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "FRUS 1907 p. I, p. 325, l. 295",
+     "cita_original": "The aggregate gross collections handled by the receivership for the period stated amounted to $6,845,344.40 [...] $2,896,675.43, representing 45 per cent, after certain deductions mutually agreed upon, was handed over to the Dominican Government for meeting its current expenses",
+     "traduccion": "Las recaudaciones brutas manejadas por la receptoría en los 28 meses sumaron $6.845.344,40; de ellas $2.896.675,43 (el 45 %, tras ciertas deducciones) se entregaron al gobierno dominicano para sus gastos corrientes.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El cómputo \"20 revoluciones generales\" (1865-1905) no coincide con el de Schoenrich (16 revoluciones \"exitosas\" en el mismo intervalo, 23 en 1844-1914): definiciones distintas. El resumen es de un funcionario que justifica la receptoría (la pieza \"Santo Domingo, then and now\" contrasta dolorosamente el antes con el después) y no es un cómputo independiente. Interés para M11: cuantificación oficial del caudillismo fiscal de 1865-1905 y de la receptoría que sigue; no toca A-146 a A-156."
+  },
+  {
+   "titulo": "FRUS 1912, doc. 519: American Minister to Haiti (Furniss) al Secretario de Estado, informe sobre la inspección de los puestos fronterizos de Anse-à-Pitre a la Laguna del Fondo (Puerto Príncipe, 29-VII-1912)",
+   "autor": "Furniss, H. W. (ministro de EE. UU. en Haití); compilación Department of State",
+   "anio": "1912",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1912/d519",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1912.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe de primera mano de un diplomático que recorrió la frontera en julio de 1912 por orden del Departamento de Estado; sin interés particular en favor de Haití, aunque el informe desmiente al ministro dominicano en Washington.",
+   "proveniencia": "Despacho n.º 1105 de H. W. Furniss, ministro de EE. UU. en Haití, tras visitar el distrito de Pedernales entre el 15 y el 23 de julio de 1912; publicado como extracto en FRUS 1912, p. 363.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1912, p. 363, l. 878",
+     "cita_original": "the present Haitian occupancy is along the line indicated by Captain Young on his map of 1907.",
+     "traduccion": "la ocupación haitiana actual está sobre la línea indicada por el capitán Young en su mapa de 1907.",
+     "afirmaciones": [
+      "A-151",
+      "A-152"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1912, p. 363, l. 878",
+     "cita_original": "The line drawn on the Dominican map to show present Haitian occupancy is fantastic, and might just as well for effect been drawn further to the east to include a larger area.",
+     "traduccion": "La línea trazada en el mapa dominicano para mostrar la ocupación haitiana actual es fantástica y habría podido, para efecto, trazarse más al este para incluir un área mayor.",
+     "afirmaciones": [
+      "A-151"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-151",
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Es una observación de un solo informante en un recorrido corto. Línea de 1907 del capitán Young = base del mapa del Estado Mayor de 1907-1908 que EE. UU. adopta el 24-IX-1912 como línea provisional (FRUS 1912 d527), no la línea de la receptoría de 1905 que cita Schoenrich para A-152."
+  },
+  {
+   "titulo": "FRUS 1912, doc. 527: Acting Secretary of State (Huntington Wilson) al ministro de EE. UU. en la República Dominicana, y mutatis mutandis a Haití (24-IX-1912): línea fronteriza provisional",
+   "autor": "Huntington Wilson, Francis M. (Secretario de Estado interino); compilación Department of State",
+   "anio": "1912",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1912/d527",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1912.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrucción oficial que fija el texto de la nota; fuente primaria directa del acto, aunque emitida por una de las partes (mediador con interés en la receptoría).",
+   "proveniencia": "Telegrama del Departamento de Estado, 24-IX-1912, que ordena comunicar a las cancillerías dominicana y haitiana la nota que adopta una línea de frontera provisional; el mismo día se dirige a Haití (Russell) cambiando \"Furniss\" por \"Russell\". Publicado en FRUS 1912, pp. 368-369.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1912, pp. 368-369, l. 1006",
+     "cita_original": "the Government of the United States has determined to regard as the provisional de facto boundary line between the two republics [...] the line shown on the Map of Haiti and Santo Domingo prepared by the second ( military information ) division, General Staff, Washington, 1907 and 1908",
+     "traduccion": "el Gobierno de EE. UU. ha determinado considerar como línea fronteriza provisional de facto entre las dos repúblicas [...] la línea que muestra el Mapa de Haití y Santo Domingo preparado por la segunda división (información militar) del Estado Mayor, Washington, 1907 y 1908 [hojas Monte Cristi n.º 6 y Barahona n.º 7].",
+     "afirmaciones": [
+      "A-152"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Corrige/matiza A-152: el registro (apoyado en Schoenrich, cap. VII) dice que EE. UU. propuso en 1912 como línea provisional \"la observada en 1905 por la receptoría de aduanas\". FRUS 1912 d527 dice que la línea es la del mapa del Estado Mayor de 1907-1908 (hojas 6 y 7), y d528 añade que esa línea \"prácticamente coincide con el statu quo de enero [de 1911]\". Es decir: la fuente primaria no menciona 1905; la versión de Schoenrich es un resumen secundario o una asimilación. Cartografía: la línea no se comparó con ningún mapa; no se midió la diferencia de área. El 27-IX-1912 (d528) el Departamento reitera la decisión de custodiar con la guardia fronteriza de la receptoría; ambos países aceptaron la línea según Schoenrich (no verificado en FRUS en esta pasada; d529 es la respuesta del ministro haitiano, que protesta sin rechazarla del todo [POR VERIFICAR])."
+  },
+  {
+   "titulo": "FRUS 1912, doc. 528: Acting Secretary of State (Adee) al ministro dominicano en Washington (27-IX-1912) explicando la decisión de la línea provisional",
+   "autor": "Adee, Alvey A. (Secretario de Estado interino); compilación Department of State",
+   "anio": "1912",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1912/d528",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1912.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Nota diplomática oficial que explica la decisión; fuente primaria directa, emitida por una de las partes.",
+   "proveniencia": "Nota de A. A. Adee al ministro dominicano en Washington, 27 de septiembre de 1912 (la misma, mutatis mutandis, al ministro haitiano); explica que el Departamento adopta la línea del mapa del Estado Mayor como línea aduanera de facto. FRUS 1912, p. 369.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1912, p. 369, l. 1023",
+     "cita_original": "As the line indicated on the War Department’s map, referred to in the note to the Foreign Office, insofar as this Government is informed, practically coincides with the status quo existing in January",
+     "traduccion": "Como la línea indicada en el mapa del Departamento de Guerra, mencionada en la nota a la cancillería, hasta donde este Gobierno sabe, coincide prácticamente con el statu quo existente en enero [de 1911]...",
+     "afirmaciones": [
+      "A-152"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La frase completa continúa: \"...and as the map was made long prior to the controversy from wholly impartial information, this Government decided to respect the line therein indicated as the customs frontier and to have this line patrolled by the reestablished customs guard\". La nota se envía al mismo tiempo que se invita a ambas partes a reunirse en el Departamento. Complementa F-1057 (memorial haitiano de 1911)."
+  },
+  {
+   "titulo": "Before the Department of State: The Successors of J. B. Vicini against the Dominican Republic. Letter of Mr. Crammond Kennedy to the Secretary of State, March 10, 1915 (supplement to the letter of January 27, 1915)",
+   "autor": "Kennedy, Crammond (abogado de los sucesores de J. B. Vicini)",
+   "anio": "1915",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://bd.bnphu.gob.do/bitstreams/89ebbccf-7d5c-4c8c-abee-21f02ceddacf/download",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Alegato de parte (reclamantes italo-dominicanos del azúcar) ante el Departamento de Estado, pero las cifras de recaudación proceden de los informes de la receptoría y son verificables; copia digital de la Biblioteca Nacional Pedro Henríquez Ureña (colección ex libris).",
+   "proveniencia": "Crammond Kennedy, abogado en Washington de los sucesores de Juan Bautista Vicini (dueños italianos de los ingenios Angelina, Italia, Ocoa y Central Azuano), escribe el 10 de marzo de 1915 al Secretario de Estado W. J. Bryan para que EE. UU. haga cumplir la asignación del 5 % de la renta de aduanas a sus contratos liquidados en 1902 y 1903; es un suplemento de su carta de 27-I-1915. Copia digital del BNPHU (PDF de 94 páginas, 23 MB). Parte interesada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 21 del impreso (pdf p. 23)",
+     "cita_original": "The United States has collected, since April 1st, 1905, to July 31st, 1914, that is in 9 1/3 years, the sum total of $31,033,207.22, or on an average of $3,326,174.40 per annum, of those customs revenues.",
+     "traduccion": "EE. UU. ha recaudado desde el 1 de abril de 1905 hasta el 31 de julio de 1914, es decir en nueve años y un tercio, un total de $31.033.207,22 de esos ingresos aduaneros, o sea un promedio de $3.326.174,40 por año.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 21 del impreso (pdf p. 23), l. 921",
+     "cita_original": "with a guaranty that those revenues would amount to at least $1,600,000 per annum [...] They have, in fact, amounted to more than double that amount, on an average.",
+     "traduccion": "con la garantía de que esos ingresos serían de al menos $1.600.000 por año [...] De hecho han sido, en promedio, más del doble de esa cantidad.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "l. = línea del txt de pdftotext. Cifra: 31.033.207,22 dólares en 9,33 años (receptoría, 1-IV-1905 a 31-VII-1914) frente a 1.852.209,54 recaudados en 1904 (FRUS 1907 d273, p. 343, ficha propia) y 1.850.000 estimados por Dawson en 1905 (FRUS 1905 d316): la recaudación se duplicó o más bajo la receptoría, según el mismo alegato; cálculo propio: 3,33 / 1,85 = 1,8 veces el promedio. La carta es un alegato de parte: las cifras de recaudación deben contrastarse con los informes anuales del receptor general. Sin afirmación A-### del módulo: contexto fiscal del periodo previo a las ocupaciones."
+  },
+  {
+   "titulo": "FRUS 1907 (parte I), doc. 273: Controller and General Receiver, Santo Domingo, 31-III-1907 (segundo informe anual de la receptoría de aduanas dominicanas)",
+   "autor": "Colton, George R. (Controller and General Receiver of Dominican Customs); compilación Department of State",
+   "anio": "1907",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1907p1/d273",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1907p1.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial anual del propio receptor, con cifras de recaudación verificables en los anexos pero escrito para defender la receptoría.",
+   "proveniencia": "Segundo informe anual del Controller and General Receiver George R. Colton, firmado en Santo Domingo el 31 de marzo de 1907, con la comparación de la recaudación aduanera de los dos años del modus vivendi y la de 1904; publicado en FRUS 1907, parte I (pp. 332-355 aprox.); la cifra citada está en la p. 343.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1907 p. I, p. 343, l. 583",
+     "cita_original": "The customs receipts of the Republic during the second year of inspectorial supervision by the receivership ending March 31, 1907, were $3,181,763.48, against $2,502,154.31 for the previous year and $1,852,209.54 collected during 1904, showing increases of 27 and 72 per cent, respectively, over those comparative periods and being more than double the average annual collections theretofore.",
+     "traduccion": "Los ingresos aduaneros de la República en el segundo año de supervisión de la receptoría, terminado el 31-III-1907, fueron $3.181.763,48, frente a $2.502.154,31 del año anterior y $1.852.209,54 recaudados en 1904; aumentos de 27 % y 72 % respectivamente [...] y más del doble del promedio anual anterior.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Serie de ingresos aduaneros dominicanos: 1904 = 1.852.209,54 (administración dominicana); abril 1905-marzo 1906 = 2.502.154,31; abril 1906-marzo 1907 = 3.181.763,48; promedio abril 1905-julio 1914 = 3.326.174,40 por año (alegato Kennedy, ver ficha propia). Nota: el informe considera \"más del doble del promedio anual anterior\" la recaudación bajo la receptoría; es afirmación del receptor, no una serie independiente de 1865-1904. Las cifras de 1904 coinciden en orden de magnitud con los 1.850.000 de la estimación de Dawson (FRUS 1905 d316)."
+  },
+  {
+   "titulo": "FRUS 1912, doc. 529: ministro de Haití en Washington (Solon Menos) al Secretario de Estado, 30-IX-1912, sobre la línea provisional de frontera",
+   "autor": "Menos, Solon (ministro de Haití en Washington); compilación Department of State",
+   "anio": "1912",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1912/d529",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1912.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Nota oficial de una de las partes, traducida por el Departamento de Estado; fuente primaria directa de la respuesta haitiana, con el interés propio de una parte.",
+   "proveniencia": "Respuesta de la Legación de Haití en Washington a la nota del Departamento de Estado de 27-IX-1912 que comunicaba la línea provisional del mapa del Estado Mayor de 1907-1908; publicada en FRUS 1912, p. 369-370 [página exacta POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1912, doc. 529, l. 1042",
+     "cita_original": "However, until the latter can let me know its feeling with regard to the effect of a convention to which it is a stranger [...] I feel persuaded that nothing will come to invalidate the formal assurance which was given it in 1905 by the Secretary of State, John Hay",
+     "traduccion": "Sin embargo, mientras mi Gobierno no me haga saber su parecer sobre el efecto de una convención que le es ajena [...] estoy persuadido de que nada invalidará la seguridad formal que se le dio en 1905 por el Secretario de Estado, John Hay. [Omite: \"y de una mediación que siempre se felicitó de haber invocado\".]",
+     "afirmaciones": [
+      "A-152"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Matiza A-152: la respuesta haitiana a la línea provisional de 1912 no es una aceptación; el ministro la transmite a su gobierno, la califica de convención \"ajena\" y invoca la seguridad dada en 1905 por John Hay [contenido de esa seguridad POR VERIFICAR; no consta en este documento]. Schoenrich (1918) escribe que \"both countries agreeing\" la línea; la aceptación dominicana está documentada, de manera condicionada, en FRUS 1913 d498 (ficha propia); la haitiana, de forma explícita, no se encontró en la lectura de FRUS 1912-1913 de esta pasada."
+  },
+  {
+   "titulo": "FRUS 1913, doc. 498: ministro de la República Dominicana al Secretario de Estado (1913), aceptación condicionada de la línea provisional del 24-IX-1912",
+   "autor": "Legación de la República Dominicana en Washington [ministro: Peynado, F. A. POR VERIFICAR]; compilación Department of State",
+   "anio": "1913",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1913/d498",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1913.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Nota oficial de una de las partes en traducción de época; fuente primaria directa de la posición dominicana, con interés propio.",
+   "proveniencia": "Nota de la Legación dominicana en Washington al Secretario de Estado en 1913, sobre el proyecto de protocolo de arbitraje que contiene una propuesta de aceptar contractualmente la línea provisional adoptada por EE. UU. el 24-IX-1912; FRUS 1913, pp. 467-468.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1913, pp. 467-468, l. 1883",
+     "cita_original": "this conditional acquiescence—which is given because the Dominican Government is convinced of the absolute necessity of adopting a frontier if cordiality is to be maintained in the relations of the neighboring peoples [...] does not imply a renunciation of the territories in dispute on the part of the Dominican Republic",
+     "traduccion": "esta aquiescencia condicionada, dada porque el Gobierno dominicano está convencido de la necesidad absoluta de adoptar una frontera si se ha de mantener la cordialidad en las relaciones de los pueblos vecinos [...] no implica una renuncia a los territorios en disputa por parte de la República Dominicana.",
+     "afirmaciones": [
+      "A-151",
+      "A-152"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-151",
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Documento de 1913 (fuera del intervalo 1865-1915 por poco: cierra el episodio de la línea provisional). Confirma que la RD aceptó la línea del 24-IX-1912 solo de modo condicionado y que no renunciaba a sus territorios en disputa; una nota posterior (FRUS 1913 d503) acompaña diez copias de un mapa dominicano que muestra esa línea. La fecha exacta de la nota (mes de 1913) no se anotó: [POR VERIFICAR] con la página de history.state.gov."
+  },
+  {
+   "titulo": "Public debt and slavery: the case of Haiti (1760-1915) (secciones sobre gasto público, ejército y préstamos de 1874, 1875, 1896 y 1910)",
+   "autor": "Henochsberg, Simon",
+   "anio": "2016",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "http://piketty.pse.ens.fr/files/Henochsberg2016.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de máster (PSE, dir. Piketty) que reúne series de Bulmer-Thomas, Rotberg, Blancpain y Chatelain y construye un PIB propio sin econometría; las cifras de préstamos citan a Chatelain (1954) y Lundahl pero la tesis misma no es revisada por pares.",
+   "proveniencia": "Simon Henochsberg (Paris School of Economics), tesina de diciembre de 2016 con revisión de Katia Béguin y Denis Cogneau; base del PIB histórico que el NYT usó en 2022. Las cifras de 1874-1910 proceden de Chatelain (La Banque Nationale, 1954), Bellegarde y Lundahl, que el autor no reproduce.",
+   "extractos": [
+    {
+     "ubicacion": "§ gasto público (hacia p. 26)",
+     "cita_original": "The number of men in the army fell sharply to 20,000 under Geffrard in 1860 and 16,000 under Salomon in 1880. Until the US invasion, military expenditures stabilized around 25% of total expenditures.",
+     "traduccion": "El número de hombres en el ejército cayó bruscamente a 20.000 con Geffrard en 1860 y a 16.000 con Salomon en 1880; hasta la invasión de EE. UU., el gasto militar se estabilizó en torno al 25 % del gasto total.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ deuda: el préstamo de 1875 (hacia p. 28)",
+     "cita_original": "the \"Crédit Général\" only managed to gather the nominal amount of 36,500,00 francs which was finally valued at 31,530,470 francs given that bonds of 500 francs sold at 430 francs. According to the deal made, the \"Crédit Général\" was allowed to keep 130 francs on each bond so that the Haitian government only received 21,800,000 francs.",
+     "traduccion": "el Crédit Général solo reunió un nominal de 36.500.00[0, errata de la tesis] francos, valorados en 31.530.470 porque los bonos de 500 se vendieron a 430; como el Crédit se quedaba 130 por bono, el gobierno haitiano solo recibió 21.800.000 francos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ deuda: el préstamo de 1910 (hacia p. 29)",
+     "cita_original": "The loan finally floated around 47 million francs since 500 francs bonds were sold at 361.54 francs.",
+     "traduccion": "El préstamo de 1910 (nominal 65 millones) realmente se colocó por unos 47 millones de francos porque los bonos de 500 se vendieron a 361,54.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ deuda (hacia p. 29), l. 1211",
+     "cita_original": "By the time of the US invasion, the total external debt had increased back to 121 million francs.",
+     "traduccion": "Para cuando EE. UU. invadió, la deuda externa total había vuelto a subir a 121 millones de francos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ deuda (hacia p. 27)",
+     "cita_original": "The double debt was finally serviced in 1883 with the last payment.",
+     "traduccion": "La doble deuda se saldó finalmente en 1883 con el último pago. [El NYT 2022 da 1888: ver F-0772.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M08",
+    "M09",
+    "M12"
+   ],
+   "id_existente": "F-0771",
+   "notas": "l. = línea del txt de pdftotext. Cifras para el módulo: ejército 52.000 (Dessalines), 20.000 (Geffrard 1860), 16.000 (Salomon 1880) [\"The number of men in the army ... 52 000 men (19% of the population)\"]; gasto militar ~25 % del total hasta 1915; préstamos: 1874 (10 M francos, comisión 3,5 %), 1875 (nominal 36,5 M; recibió 21,8 M), 1896 (50 M nominal, recibió 38,75 M), 1910 (65 M nominal; ~45,7 M recibidos según su cuadro); la doble deuda \"pagada\" en 1883 en la tesis frente a 1888 en el NYT (los dos coinciden en que los nuevos préstamos son parte del mismo problema). El PIB per cápita es construcción propia: usar con cautela. Estas cifras no tocan ninguna afirmación A-146 a A-156: contextualizan el peso fiscal haitiano en el periodo del Tratado de 1874 (el préstamo Domingue es de 1874-75)."
+  },
+  {
+   "titulo": "Historical data on Haiti's debt (haiti-double-debt.csv): pagos 1865-1888 y PIB histórico de Henochsberg",
+   "autor": "The New York Times (Porter, Catherine; Apuzzo, Matt; Gebrekidan, Selam; Méheut, Constant)",
+   "anio": "2022",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/nytimes/haiti-debt/main/haiti-double-debt.csv",
+   "urls_alternativas": [
+    "https://github.com/nytimes/haiti-debt",
+    "https://raw.githubusercontent.com/nytimes/haiti-debt/main/README.md"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base documentada con README que cita los archivos de la Caisse des Dépôts y a Bulmer-Thomas y Henochsberg, pero las cifras de 1855-1865 y de algunos años son promedios calculados por el propio equipo.",
+   "proveniencia": "Publicada por el equipo del NYT el 20-V-2022 en el proyecto \"The Ransom\"; el CSV es una serie anual de pagos en francos, con tipo de cambio de Bulmer-Thomas (5,18 francos por dólar en 1865-1888) y PIB nominal en dólares de Henochsberg. Texto y CSV leídos completos.",
+   "extractos": [
+    {
+     "ubicacion": "fila 1865, l. 42",
+     "cita_original": "1865,\"26,109,000.00\",\"3,800,000.00\",\"3,000,000.00\",\"800,000.00\",,46,5.18,\"16,937,576.00\"",
+     "traduccion": "En 1865: saldo de la doble deuda 26,1 millones de francos; pagos 3,8 millones (3,0 de indemnización y 0,8 de principal e intereses del préstamo de 1825); PIB nominal 16,94 millones de dólares; tipo 5,18 francos por dólar.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "fila 1875, l. 52",
+     "cita_original": "1875,\"10,797,985.99\",\"3,122,985.99\",\"1,600,000.00\",\"729,390.00\",\"793,595.99\",33,5.18,\"24,420,495.87\"",
+     "traduccion": "En 1875: saldo 10,8 millones de francos; pagos 3,12 millones (1,6 de indemnización, 0,73 del préstamo de 1825 y 0,79 de recargos); PIB nominal 24,42 millones de dólares.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "fila 1888, l. 65",
+     "cita_original": "1888,\"33,720.00\",\"33,720.00\",,\"32,971.47\",748.53,27,5.18,\"36,714,901.85\"",
+     "traduccion": "En 1888 quedan 33.720 francos y se paga el último remanente (32.971,47 de préstamo y 748,53 de recargos).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "README",
+     "cita_original": "In December 1870, a new agreement between France and Haiti consolidated the indemnity debt with the debt from the 1825 loan. The agreement also introduced late fees on arrears.",
+     "traduccion": "En diciembre de 1870 un nuevo acuerdo consolidó la deuda de la indemnización con la del préstamo de 1825 e introdujo recargos por mora.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "README",
+     "cita_original": "The double debt was therefore paid off in 1888.",
+     "traduccion": "La doble deuda quedó, por tanto, pagada en 1888.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0772",
+   "notas": "Cálculos propios sobre el CSV (verificables): suma de PAYMENTS-DOUBLE-DEBT-FRANCS de 1865 a 1888 = 37.175.356 francos (indemnización 20,1 M; principal e intereses 1825: 11,88 M; el resto, recargos por mora); a 5,18 francos por dólar, el pago de 1865 (3,8 M) equivale a ~0,73 M USD = ~4,3 % del PIB nominal de Henochsberg (16,94 M USD) y el de 1875 (3,12 M) a ~0,60 M USD = ~2,5 % de 24,42 M USD. La cifra de 1888 como fin (NYT) frente a 1883 (Henochsberg) es discrepancia de fuentes sin resolver. El PIB de Henochsberg es construcción propia y la base es de pagos a Francia: no incluye los préstamos de 1874-75, 1896 y 1910. Sin afirmación A-### del módulo: es contexto fiscal del Haití de 1865-1888, antes y durante la firma del Tratado de 1874."
+  },
+  {
+   "titulo": "De l'égalité des races humaines (Anthropologie positive) (cap. sobre craniometría: pp. 134-139 y pp. 56-57)",
+   "autor": "Firmin, Joseph Anténor",
+   "anio": "1885",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/Antnor1885Bnf30437548r/Antnor1885Bnf30437548r_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/Antnor1885Bnf30437548r"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra primaria y fuente directa del libro de 1885 (copia de Gallica/BnF) que reproduce las tablas craneométricas de Topinard, Broca, Morton y Barnard Davis con muestras y valores, cotejables.",
+   "proveniencia": "Anténor Firmin (1850-1911), abogado y diplomático haitiano y miembro de la Société d'anthropologie de Paris, publicó el libro en París (Cotillon, 1885) contra Gobineau y la craneometría de Broca; copia digitalizada de Gallica en archive.org (OCR con guiones de fin de línea). Cita datos y a los autores, no aporta mediciones propias.",
+   "extractos": [
+    {
+     "ubicacion": "p. 135",
+     "cita_original": "\"Faites cuber le même crâne suivant le même procédé par deux personnes successives, dit Broca, et vous pouvez obtenir ainsi des différences de plus de 50 centimètres cubes.",
+     "traduccion": "\"Haced cubicar el mismo cráneo con el mismo procedimiento por dos personas sucesivas, dice Broca, y podréis obtener así diferencias de más de 50 centímetros cúbicos.\" [Firmin cita el error de medición que admite el propio Broca.]",
+     "afirmaciones": [
+      "A-155"
+     ]
+    },
+    {
+     "ubicacion": "pp. 136-137 (tabla de Topinard tomada de Broca; cubage con perdigones, cm3, hombres y mujeres), l. 7957",
+     "cita_original": "88 Auvergnats 1598cc 1445cc [...] 124 Parisiens contemporains 1558 1337 [...] 85 Nègres de l'Afrique occidentale 1430 1251 [...] 21 Nubiens 1329 1298",
+     "traduccion": "Capacidad craneana media (cm3, hombres y mujeres): 88 auverneses 1.598/1.445; 124 parisinos contemporáneos 1.558/1.337; 85 negros del África occidental 1.430/1.251; 21 nubios 1.329/1.298 [las cifras izquierdas son el n de cráneos de cada grupo].",
+     "afirmaciones": [
+      "A-155"
+     ]
+    },
+    {
+     "ubicacion": "pp. 138-139",
+     "cita_original": "En examinant ces différents tableaux, un fait positif se laisse tout d'abord remarquer, c'est l'irrégularité des résultats et l'incertitude où se trouve l'esprit quand il faut juger de leur valeur relative.",
+     "traduccion": "Al examinar estas tablas, un hecho positivo salta primero a la vista: la irregularidad de los resultados y la incertidumbre en que queda el espíritu para juzgar su valor relativo.",
+     "afirmaciones": [
+      "A-155"
+     ]
+    },
+    {
+     "ubicacion": "p. 139, l. 8140",
+     "cita_original": "Broca trouve dans le groupe australien un cubage supérieur à celui du groupe nubien. Ce fait est en contradiction flagrante avec l'opinion de tous les anthropologistes",
+     "traduccion": "Broca halla en el grupo australiano una capacidad craneana superior a la del grupo nubio, lo que contradice abiertamente la opinión de todos los antropólogos [que ponen al nubio como el tipo más elevado de la raza negra y al australiano como el peor dotado].",
+     "afirmaciones": [
+      "A-155"
+     ]
+    },
+    {
+     "ubicacion": "pp. 56-57, l. 3702",
+     "cita_original": "on lui avait apporté un crâne de nègre cubant plus de 1600 grammes, avec un angle facial de 80 et quelques degrés,",
+     "traduccion": "si le hubieran traído un cráneo de negro de más de 1.600 [gramos] con un ángulo facial de 80 y pico grados, habría respondido doctoralmente [que había probablemente un error de apreciación]. [Crítica de Firmin al sesgo de confirmación de Broca; sin cifra propia.]",
+     "afirmaciones": [
+      "A-155"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-155"
+   ],
+   "modulos": [
+    "M11",
+    "M00"
+   ],
+   "id_existente": "F-0887",
+   "notas": "Esta ficha da lo cuantitativo de A-155 que el registro tenía solo por fichas: Firmin no acusa a Gobineau con cifras propias sino que reproduce las tablas de la escuela craneométrica (Topinard/Broca: 85 cráneos de africanos occidentales a 1.430 cm3 frente a 88 auverneses a 1.598; Morton: 79 \"negros de África\" a 1.364 y 38 \"europeos\" a 1.534; Barnard Davis) y muestra con ellas que los resultados son irregulares (los australianos por encima de los nubios; los auverneses por encima de los parisinos) y que el cubage varía más de 50 cm3 con el operador. Hecho: la tabla y los valores; interpretación: que prueban igualdad o desigualdad. Firmin escribe antes de que se abandonara la craneometría; la crítica de Firmin al estilo de la \"escuela americana\" de Morton (\"légitimer le système de l'esclavage\") es juicio suyo. Los valores se tomaron de un OCR con ligaduras; cotejar con página en Gallica antes de citar en la síntesis. l. = línea del djvu.txt."
+  },
+  {
+   "titulo": "Genome-wide patterns of population structure and admixture among Hispanic/Latino populations (PNAS 107, supl. 2)",
+   "autor": "Bryc, Katarzyna; Velez, Christopher; Karafet, Tatiana; Moreno-Estrada, Andrés; et al.",
+   "anio": "2010",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3024022/",
+   "urls_alternativas": [
+    "https://doi.org/10.1073/pnas.0914618107"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con método declarado (Illumina 610K, LAMP), aunque la muestra dominicana es pequeña y se tomó en EE. UU.",
+   "proveniencia": "Equipo de Stanford, Cornell y otros; datos de 100 individuos con ancestría de Ecuador, Colombia, Puerto Rico y República Dominicana (Illumina 610K) más 112 mexicanos; mtDNA de 27 dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "Resultados (PMC3024022)",
+     "cita_original": "the Dominicans and Puerto Ricans showing the highest levels of African ancestry (41.8% and 23.6% African, SDs 16% and 12%)",
+     "traduccion": "los dominicanos y los puertorriqueños muestran los niveles más altos de ancestría africana (41,8 % y 23,6 %, DE 16 % y 12 %).",
+     "afirmaciones": [
+      "A-149",
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Discusión",
+     "cita_original": "We observed that African-derived haplotypes were the predominant origin of mtDNA in Dominicans (17 of 27 individuals)",
+     "traduccion": "Observamos que los haplotipos de origen africano eran el origen predominante del ADN mitocondrial en los dominicanos (17 de 27 individuos).",
+     "afirmaciones": [
+      "A-154"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-149",
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M09",
+    "M16",
+    "M01",
+    "M13"
+   ],
+   "id_existente": "F-0204",
+   "notas": "Se usa aquí solo como prueba cuantitativa actual de una premisa de época: Schoenrich 1918 (\"negros puros menos de una cuarta parte\"), Gabb 1871 (\"tono medio de cuarterón\") y Bonó 1881 (\"nación esencialmente mulata\", A-154) hablaban de fenotipo; los datos autosómicos actuales dan ~42-50 % de ancestría africana en dominicanos, es decir, que la imagen de nación \"mulata\" y \"blanca por cultura\" (A-149) se contrasta con una mayoría de ancestría africana, pero eso no prueba lo que se declaraba en 1865-1915 ni prueba la ancestría de 1900 (hay migración posterior y la muestra es de 2010). Hecho (los porcentajes) separado de interpretación (qué significan las categorías raciales). n dominicano total no leído por separado: [POR VERIFICAR] (el resumen da 100 individuos de cuatro grupos y 27 para mtDNA)."
+  },
+  {
+   "titulo": "Reconstructing the Population Genetic History of the Caribbean (PLoS Genetics 9(11): e1003925)",
+   "autor": "Moreno-Estrada, Andrés; et al.",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003925",
+   "urls_alternativas": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828151/",
+    "https://doi.org/10.1371/journal.pgen.1003925"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Revisado por pares con método de tractos de ancestría; la muestra haitiana es mínima (6) y se excluyó de varios análisis.",
+   "proveniencia": "Genotipos de 251 caribeños muestreados en el sur de Florida (trios, 34 dominicanos y 6 haitianos) y 79 venezolanos indígenas; texto completo vía Europe PMC (PMC3828151).",
+   "extractos": [
+    {
+     "ubicacion": "Resultados",
+     "cita_original": "Dominicans principally cluster between the African and European components",
+     "traduccion": "Los dominicanos se agrupan principalmente entre los componentes africano y europeo.",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Resultados (modelo de mezcla)",
+     "cita_original": "each of the latter involves a second pulse of African ancestry, occurring seven to five generations ago, with higher migration rates in Haitians and Dominicans",
+     "traduccion": "cada uno de estos [modelos de las cuatro islas] incluye un segundo pulso de ancestría africana ocurrido hace siete a cinco generaciones, con mayores tasas de migración en haitianos y dominicanos. [A 30 años por generación: finales del siglo XVIII-primera mitad del XIX; no mide 1865-1915.]",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Métodos",
+     "cita_original": "80 Cubans, 85 Colombians, 34 Dominicans, 27 Puerto Ricans, 19 Hondurans, and 6 Haitians",
+     "traduccion": "trios con 80 cubanos, 85 colombianos, 34 dominicanos, 27 puertorriqueños, 19 hondureños y 6 haitianos. [Muestra haitiana mínima; el artículo la deja fuera de algunos análisis.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M01",
+    "M03",
+    "M09",
+    "M16",
+    "M13"
+   ],
+   "id_existente": "F-0206",
+   "notas": "Dato clave para el contraste con A-154: el estudio no da un porcentaje por país en el texto leído (la tabla de ancestría por país no se localizó en esta pasada; [POR VERIFICAR] los valores 57/36/6,5 % que circulan, que Salzano y Sans 2014 dicen que Moreno-Estrada no publicó \"specific prevalences\"). Lo que sí da es la estructura: dominicanos entre africano y europeo; ancestría indígena sudamericana compartida con la Amazonía interior, Centroamérica y Yucatán; dos pulsos africanos. Haití está representada por 6 individuos: no sirve para hablar de Haití (confirma el aviso del reconocimiento)."
+  },
+  {
+   "titulo": "Haplogroup Diversity of the Dominican Republic: Reconstructing the Effect of the Trans-Atlantic Slave Trade and European Contacts (Y-chromosome study of Dominican men, Genome Biol. Evol. 12(9):1579)",
+   "autor": "D'Atanasio, Eugenia; et al.",
+   "anio": "2020",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7523727/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7523727/fullTextXML",
+    "https://doi.org/10.1093/gbe/evaa176"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Revisado por pares con muestra y método declarados (92 SNPs del Y en 182 varones), aunque los SNPs del Y no resuelven bien el origen geográfico fino.",
+   "proveniencia": "Equipo italo-estadounidense; 182 varones de tres localidades (Santo Domingo n=50, San Juan de la Maguana n=76, Las Galeras n=56). Texto completo vía Europe PMC.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen",
+     "cita_original": "The Dominican Y haplogroup composition was characterized by an excess of northern African/European lineages (59%), followed by the African clades (38%), whereas the Native-American lineages were rare (3%).",
+     "traduccion": "La composición de haplogrupos Y dominicana se caracterizó por un exceso de linajes norteafricanos/europeos (59 %), seguidos por clados africanos (38 %); los linajes nativoamericanos fueron raros (3 %).",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Introducción",
+     "cita_original": "the Dominican Republic shows up to 22% of Native-American lineages, whereas they are virtually absent from Haiti",
+     "traduccion": "por el mtDNA la República Dominicana muestra hasta 22 % de linajes nativoamericanos, mientras que en Haití prácticamente no aparecen [cita Bukhari 2017].",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Resultados",
+     "cita_original": "Santo Domingo ( N = 50), San Juan de la Maguana ( N = 76), and Las Galeras ( N = 56)",
+     "traduccion": "muestra de 182 varones de Santo Domingo (n=50), San Juan de la Maguana (n=76) y Las Galeras (n=56).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M01",
+    "M02",
+    "M08",
+    "M09",
+    "M16"
+   ],
+   "id_existente": "F-0208",
+   "notas": "Hecho: patrón de sesgo sexual en las líneas paternas (59 % norteafricano/europeo, 38 % africano subsahariano, 3 % nativo), con el mtDNA dominado por linajes africanos (Bryc: 17 de 27; Schurr 2026: 78,8 % africano); es un dato actual (muestras de ~2015) que contrasta con relatos de ascendencia \"hispano-taína\": no mide los siglos XIX y principios del XX. Interpretación y significado (qué dice esto de la identidad dominicana) quedan fuera de la cifra. Para Haití: Simms 2012 (Y) y 2010 (STR) en sus fichas."
+  },
+  {
+   "titulo": "The genetic structure of populations from Haiti and Jamaica reflect divergent demographic histories (Am. J. Phys. Anthropol. 142(1):49-66)",
+   "autor": "Simms, Tanya M.; Rodriguez, Carlos E.; Rodriguez, Rodrigo; Herrera, Rene J.",
+   "anio": "2010",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1002/ajpa.21194&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://doi.org/10.1002/ajpa.21194"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con 15 STRs autosómicos; solo se leyó el resumen vía Europe PMC (texto completo de pago).",
+   "proveniencia": "Equipo de Florida International University; 15 loci STR autosómicos en muestras generales de Haití y Jamaica. Resumen vía API de Europe PMC (PMID 19918989).",
+   "extractos": [
+    {
+     "ubicacion": "resumen",
+     "cita_original": "although both Haiti and Jamaica display genetic affinities with the continental African collections, a stronger African signal is detected in Haiti than in Jamaica. Although only minimal contributions from non-African sources were observed in Haiti",
+     "traduccion": "aunque Haití y Jamaica muestran afinidades genéticas con las colecciones africanas continentales, se detecta una señal africana más fuerte en Haití que en Jamaica; en Haití solo se observaron contribuciones mínimas de fuentes no africanas.",
+     "afirmaciones": [
+      "A-154"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M09",
+    "M16"
+   ],
+   "id_existente": "F-0212",
+   "notas": "Solo resumen. Salzano y Sans 2014 (F-0216, Tabla 2) cita este estudio (con el de 2008) para su cifra \"Haití 96 % africano / 4 % europeo / 0 % amerindio\" (13 STRs, n=111). El resumen no da porcentajes. No hay genómica hecha dentro de Haití: la muestra es del trabajo de Simms (origen exacto de la muestra [POR VERIFICAR])."
+  },
+  {
+   "titulo": "Y-chromosomal diversity in Haiti and Jamaica: contrasting levels of sex-biased gene flow (Am. J. Phys. Anthropol.)",
+   "autor": "Simms, Tanya M.; et al.",
+   "anio": "2012",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22Y-chromosomal%20diversity%20in%20Haiti%20and%20Jamaica%22&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://doi.org/10.1002/ajpa.22090"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares (177 SNPs y 17 STRs del Y); solo se leyó el resumen vía Europe PMC.",
+   "proveniencia": "Equipo de FIU; Y-cromosoma en Haití (n=123) y Jamaica (n=159). Resumen vía API de Europe PMC (PMID 22576450, DOI 10.1002/ajpa.22090).",
+   "extractos": [
+    {
+     "ubicacion": "resumen",
+     "cita_original": "comprising 77.2% and 66.7% of the Haitian and Jamaican paternal gene pools, respectively. Yet, European derived chromosomes (i.e., haplogroups G2a*-P15, I-M258, R1b1b-M269, and T-M184) were detected at commensurate levels in Haiti (20.3%) and Jamaica (18.9%)",
+     "traduccion": "los haplogrupos subsaharianos suman 77,2 % y 66,7 % de los acervos paternos haitiano y jamaiquino; los cromosomas de origen europeo aparecen en niveles comparables en Haití (20,3 %) y Jamaica (18,9 %).",
+     "afirmaciones": [
+      "A-154"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M09",
+    "M16"
+   ],
+   "id_existente": "F-0213",
+   "notas": "Solo resumen. Hecho: 77,2 % subsahariano y 20,3 % europeo en el Y haitiano (n=123), lo que contradice la imagen de un Haití \"puramente africano\" que presenta St John (nueve décimas negras) y el relato noirista (A-156) en el plano paterno; las categorías de St John y de la genética no coinciden. Los linajes nativoamericanos \"prácticamente ausentes\" en Haití no se citan en el resumen de esta pasada (lo dice D'Atanasio 2020 citando a Bukhari 2017)."
+  },
+  {
+   "titulo": "Interethnic admixture and the evolution of Latin American populations (Genet. Mol. Biol. 37, supl. 1:151-170; Tabla 2: Haití)",
+   "autor": "Salzano, Francisco M.; Sans, Mónica",
+   "anio": "2014",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983580/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3983580/fullTextXML",
+    "https://doi.org/10.1590/S1415-47572014000200003"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Revisión revisada por pares que tabula estimaciones autosómicas por país con su método y su referencia; recoge pero no genera los datos.",
+   "proveniencia": "Revisión de dos genetistas latinoamericanos (UFRGS; Universidad de la República) de estudios autosómicos de ancestría; la tabla 2 resume las estimaciones del Caribe con tipo y número de marcadores y la referencia de cada una.",
+   "extractos": [
+    {
+     "ubicacion": "Tabla 2",
+     "cita_original": "13 STRs Haiti 111 4 96 0 2 [...] 2. Simms et al. (2008 , 2010 ) East Asian, not Amerindian frequencies were employed in the analyses",
+     "traduccion": "Haití: 13 STRs, n=111; 4 % europeo, 96 % africano, 0 % amerindio; referencia 2 = Simms et al. (2008, 2010), que usaron frecuencias de Asia oriental, no amerindias.",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "Texto",
+     "cita_original": "some show considerable African influence (Carib as a whole, 77%; Haiti, 96%; Jamaica, 78%–82%)",
+     "traduccion": "algunas áreas muestran influencia africana considerable (el Caribe en conjunto, 77 %; Haití, 96 %; Jamaica, 78-82 %).",
+     "afirmaciones": [
+      "A-154"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0216",
+   "notas": "Resuelve la laguna del reconocimiento: la cifra \"Haití ≈ 96 % africano\" no es de Salzano y Sans sino de Simms et al. (2008, 2010) vía 13 STRs en n=111; la tabla nota que \"No specific prevalences were given by Bryc et al. (2010) or Moreno-Estrada et al. (2013)\". Es una estimación con pocos marcadores (STR) y una muestra sin localización geográfica detallada: no equivale a un estudio genómico hecho en Haití (que sigue sin existir según la búsqueda). La tabla no incluye República Dominicana (Bryc y Moreno-Estrada no dieron cifras por país)."
+  },
+  {
+   "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen AJBA 189(S81):170, 95.ª reunión AABA, Denver, 18-21-III-2026)",
+   "autor": "Schurr, Theodore; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; Aldrich, M.; Jaworski, J.; Vega, J.; Vilar, M.",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://cris.unibe.edu.do/handle/123456789/589",
+   "urls_alternativas": [
+    "https://cris.unibe.edu.do/entities/publication/0602fa93-352b-4f12-91cb-32bda351c87d",
+    "https://curf.upenn.edu/rd/dominican-republic-genome-project"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen de congreso (n=1.015 en 25 sitios) sin revisión por pares ni tablas; la página del repositorio de UNIBE devuelve el desafío de Cloudflare (403) y no se pudo abrir.",
+   "proveniencia": "Proyecto Genográfico Dominicano (ADH, National Geographic, UPenn, UNIBE). En esta pasada solo se reconfirmó la existencia y las cifras en fragmentos de búsqueda (misma lectura que la de M09 y M16); la fuente no se abrió.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M01",
+    "M09",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0203",
+   "notas": "NO RESUELTA: fetch 403 (Cloudflare) con WebFetch y con curl en la página del handle y en la de la entidad. Fragmentos de búsqueda coinciden con el registro: autosómico 50,3 % africano, 41,2 % europeo, 3,8 % nativoamericano, 2,3 % Medio Oriente/judío, 1,8 % Asia centro-sur-sureste; mtDNA 78,8 % africano, 12,1 % nativoamericano, 9,1 % euroasiático occidental; Y 71 % euroasiático occidental, 28 % africano, 1 % nativoamericano; 1.015 individuos (665 varones, 350 mujeres). [POR VERIFICAR] hasta abrir el resumen o el artículo. Para el módulo M11 pesa menos que Bryc 2010 y D'Atanasio 2020, que sí se leyeron."
+  },
+  {
+   "titulo": "Haïti-Quisqueya : une double insularité (Mappemonde 51, 1998/3, pp. 7-11)",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.persee.fr/doc/mappe_0764-3470_1998_num_51_3_1395",
+   "urls_alternativas": [
+    "https://doi.org/10.3406/mappe.1998.1395"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Geógrafo haitiano con tesis de doctorado sobre la frontera (Paris X, 1998), pero en esta pasada solo se accedió a la primera página del artículo; el PDF de Persée devolvió 403.",
+   "proveniencia": "Jean-Marie Théodat (Université Paris X), artículo breve de Mappemonde para geógrafos franceses; solo la página 7 era accesible vía WebFetch (el PDF https://www.persee.fr/docAsPDF/... devolvió 403).",
+   "extractos": [
+    {
+     "ubicacion": "p. 7",
+     "cita_original": "une île de taille réduite (76 480 km2)",
+     "traduccion": "una isla de tamaño reducido (76.480 km2) [cifra de 1998; la suma de 18.045 + 10.204 millas cuadradas del Bureau 1892 equivale a unos 73.200 km2 (cálculo propio): distinta definición o cálculo].",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M00",
+    "M16"
+   ],
+   "id_existente": "F-0894",
+   "notas": "PARCIAL: solo p. 7; la cita proviene de la lectura del WebFetch (pasaje con números) y no se cotejó contra el PDF. No contiene datos del periodo 1865-1915 en la parte accesible; no sustituye a Théodat, Haïti-République dominicaine: une île pour deux 1804-1916 (F-0123), que sería la fuente para el periodo y es de pago. El área \"76 480 km2\" no coincide con el cálculo derivado del Bureau (18.045 + 10.204 millas² = 28.249 millas² = ~73.165 km²): diferencia de ~4 %, probablemente por islas adyacentes, definición de área y fuente de 1998."
+  },
+  {
+   "titulo": "Spiritualizing Black Sovereignty (The American Historical Review, mayo de 2026): resumen de Crossref",
+   "autor": "Davidson, Christina Cecelia",
+   "anio": "2026",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://api.crossref.org/works/10.1093/ahr/rhag037",
+   "urls_alternativas": [
+    "https://doi.org/10.1093/ahr/rhag037",
+    "https://academic.oup.com/ahr/advance-article-pdf/doi/10.1093/ahr/rhag037/68339742/rhag037.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo reciente de la AHR (licencia CC BY-NC-ND), pero el PDF del editor devolvió 403 y solo se leyó el resumen en los metadatos de Crossref.",
+   "proveniencia": "Christina Cecelia Davidson (AHR, 19-V-2026): recoge el pleito de 1890 entre la Iglesia Metodista Episcopal Africana (AME) y los descendientes de la emigración afroestadounidense a Haití en la década de 1820, hoy en la República Dominicana (Samaná y Puerto Plata). Resumen vía API de Crossref (HTTP 200); PDF del editor 403.",
+   "extractos": [
+    {
+     "ubicacion": "resumen",
+     "cita_original": "This article recounts the first stages of an 1890 lawsuit between the historic African Methodist Episcopal (AME) Church and descendants of African American emigrants in the Dominican Republic.",
+     "traduccion": "Este artículo relata las primeras etapas de un pleito de 1890 entre la histórica Iglesia Metodista Episcopal Africana (AME) y los descendientes de emigrantes afroestadounidenses en la República Dominicana.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "a majority Catholic country under dictatorship whose antiblack ruling class disavowed the nation's African heritage and historic ties to Haiti",
+     "traduccion": "un país de mayoría católica bajo dictadura [Heureaux] cuya clase dirigente antinegra rechazaba la herencia africana de la nación y sus vínculos históricos con Haití. [Caracterización de la autora en 2026, sin base en el resumen: interpretación a verificar en el texto.]",
+     "afirmaciones": [
+      "A-149"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-149"
+   ],
+   "modulos": [
+    "M11",
+    "M08"
+   ],
+   "id_existente": "F-0836",
+   "notas": "PARCIAL: solo el resumen de Crossref. La caracterización \"clase dirigente antinegra\" es una interpretación de la autora que aplica a 1890 un vocabulario que A-149 sitúa en la élite finisecular y en Lugo (1916): documentar si el pleito la sostiene con fuentes del periodo es tarea de la Fase 3. No es evidencia de la cifra de llegados de 1824."
+  },
+  {
+   "titulo": "Constitutions et luttes de pouvoir en Haïti (copia de archive.org: 31761036281269)",
+   "autor": "Moïse, Claude",
+   "anio": "1988-90",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/31761036281269/31761036281269_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/31761036281269"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "401",
+   "formato": "txt",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de referencia sobre el corpus constitucional haitiano, pero la copia de archive.org es de préstamo y devolvió 401 al pedir el texto.",
+   "proveniencia": "Claude Moïse, historiador haitiano; el registro lo cita como referencia para el corpus constitucional; el año (1988-90) es el del registro y no se verificó en esta pasada. La copia de archive.org exige préstamo.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-147"
+   ],
+   "modulos": [
+    "M11",
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0124",
+   "notas": "NO RESUELTA: HTTP 401 (\"Authorization Required\") con curl sobre el txt de archive.org. No es la fuente más barata para A-147: el texto de las constituciones de 1867, 1874 y 1879 está en mjp.univ-perp.fr y haitidoi.com (F-0052, F-0262), que otros buscadores deben abrir."
+  },
+  {
+   "titulo": "Haitians, Magic, and Money: Raza and Society in the Haitian-Dominican Borderlands, 1900 to 1937 (CSSH 36:3, 488-526)",
+   "autor": "Derby, Lauren (Robin)",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/journals/comparative-studies-in-society-and-history/article/abs/haitians-magic-and-money-raza-and-society-in-the-haitiandominican-borderlands-1900-to-1937/CC8823BE614DC463D6E931E36BD5696E",
+   "urls_alternativas": [
+    "https://www.jstor.org/stable/179294",
+    "https://doi.org/10.1017/S0010417500019216"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo clave de antropología histórica de la frontera, pero cerrado (Unpaywall: no OA) y solo se accedió a la página de aterrizaje del editor.",
+   "proveniencia": "Lauren Derby, Comparative Studies in Society and History, julio de 1994; solo la ficha de Cambridge Core (HTTP 200 al pedir el PDF del editor devuelve la página de aterrizaje en HTML); JSTOR con muro de pago. Un PDF alojado en mail.hhidr.org redirige a un dominio ajeno (301 a baddiebbeauty.com): descartado, no usar.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0173",
+   "notas": "NO RESUELTA (acceso cerrado). Un resultado de búsqueda ofrecía el PDF en mail.hhidr.org/wp-content/uploads/2011/10/derby_article.pdf: respondió 403 por curl y 301 a un sitio comercial ajeno por WebFetch (posible dominio secuestrado); no se siguió la redirección ni se usó. Si algún buscador lo localiza, debe confirmarlo con cuidado."
+  },
+  {
+   "titulo": "Avengers of the New World (2004); Haiti: The Aftershocks of History (2012) (copia de archive.org haitiaftershocks0000dubo, que corresponde al segundo)",
+   "autor": "Dubois, Laurent",
+   "anio": "2004; 2012",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/haitiaftershocks0000dubo",
+   "urls_alternativas": [
+    "https://archive.org/metadata/haitiaftershocks0000dubo"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia de Haití de un especialista; la copia de archive.org es de préstamo restringido y solo se confirmó que los metadatos existen (HTTP 200).",
+   "proveniencia": "Laurent Dubois (Duke), Haiti: The Aftershocks of History (Metropolitan Books, 2012) [editorial POR VERIFICAR]; solo se verificó la existencia de la ficha y de los metadatos de archive.org; el texto está en préstamo y no se leyó.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M11",
+    "M06",
+    "M09",
+    "M12"
+   ],
+   "id_existente": "F-0130",
+   "notas": "NO RESUELTA: texto en préstamo restringido; no hay API pública de texto. El año y los títulos son los del registro (F-0130) y de los metadatos de archive.org, no de la lectura del libro. Su aporte a M11 sería sobre la deuda de 1825 y la presión francesa-alemana; sustituible por Henochsberg, el NYT y Hinrichsen (F-1511)."
+  },
+  {
+   "titulo": "Dominican Republic. Report of the Commission of Inquiry to Santo Domingo (1871): anexo X \"Population\" (ministro Gautier, 20-II-1871) y testimonios de Th. James (Samaná) y W. M. Gabb",
+   "autor": "United States, Commission of Inquiry to Santo Domingo (Wade, White, Howe); anexo de M. M. Gautier; testimonios recogidos por la Comisión",
+   "anio": "1871",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/cu31924021083344/cu31924021083344_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/cu31924021083344"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial con documentos del gobierno dominicano y testimonios de primera mano, pero la Comisión se envió para evaluar la anexión a EE. UU., los testigos fueron escogidos por el gobierno de Báez y las cifras de población son reconocidamente estimaciones.",
+   "proveniencia": "Comisión enviada por el presidente Grant (resolución del Congreso del 12-I-1871) a Santo Domingo en enero-marzo de 1871 para evaluar la anexión; el anexo X reproduce la nota del ministro del Interior M. M. Gautier de 20-II-1871 y los testimonios se tomaron en Santo Domingo y Samaná con preguntas dirigidas por los comisionados. Informe publicado en Washington, GPO, 1871. Texto OCR de archive.org (cu31924021083344_djvu.txt).",
+   "extractos": [
+    {
+     "ubicacion": "anexo X (Population), nota de Gautier 20-II-1871",
+     "cita_original": "The Dominican Republic has never been able to take a reliable census of its population, and all the estimates made have been based on the census taken in 1819.",
+     "traduccion": "La República Dominicana nunca ha podido levantar un censo fiable de su población y todas las estimaciones se han basado en el censo de 1819. [Ortografía OCR corregida: \"Republic\".]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "anexo X (Population)",
+     "cita_original": "the census of 1819 fixed it at only 63,000. Starting with this datum, and supposing that the population doubled in twenty-five years, it would give at the end of fifty years 252,000 souls, which is the figure most generally accepted.",
+     "traduccion": "el censo de 1819 la fijó en solo 63.000. Partiendo de ese dato y suponiendo que la población se duplicara cada veinticinco años, a los cincuenta años daría 252.000 almas, que es la cifra más aceptada.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "anexo X (Population), l. 15766",
+     "cita_original": "The most reliable recent source of information on this subject is the basis adopted by the ecclesiastical court in the arrangement of parishes, which gives a population of only 207,000 souls",
+     "traduccion": "La fuente reciente más fiable es la base adoptada por el tribunal eclesiástico en el arreglo de las parroquias, que da una población de solo 207.000 almas. [Schoenrich 1918 fecha esa cifra (207.700) en 1863 y la atribuye a un censo eclesiástico.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "anexo X (Population)",
+     "cita_original": "It will be observed that this estimate does not include the frontier communes of Hincha, San Rafael, and San Miguel.",
+     "traduccion": "Se observará que esta estimación no incluye las comunes fronterizas de Hincha, San Rafael y San Miguel. [Ortografía OCR corregida: \"Eafael\".]",
+     "afirmaciones": [
+      "A-151"
+     ]
+    },
+    {
+     "ubicacion": "informe de la Comisión, p. 15 (población)",
+     "cita_original": "Comparing these figures of the ecclesiastical court with certain known facts, and with all the evidence we can gather from intelligent witnesses and personal observation, the commissioners estimate that the actual population of the republic does not exceed 150,000.",
+     "traduccion": "Comparando esas cifras del tribunal eclesiástico con ciertos hechos conocidos y con toda la evidencia que podemos reunir de testigos inteligentes y de la observación personal, los comisionados estiman que la población real de la república no pasa de 150.000. [Es la estimación de la propia Comisión; rebaja la cifra de 207.000 y la de 252.000 del ministro Gautier.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "informe de la Comisión, p. 15 (raza), l. 1461",
+     "cita_original": "White blood preponderates largely in Dominica, but pure whites, in the popular sense of the word, are not numerous. The majority are of a mixed race much nearer white than black.",
+     "traduccion": "La sangre blanca predomina en gran medida en Dominica, pero los blancos puros, en el sentido popular, no son numerosos. La mayoría es de raza mixta mucho más cercana a la blanca que a la negra. [Impresión de los comisionados; no hay recuento racial.]",
+     "afirmaciones": [
+      "A-149",
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "informe de la Comisión, p. 13 (condición del pueblo), l. 1333",
+     "cita_original": "They seem to be practically destitute of prejudice of class, race, or color.",
+     "traduccion": "Parecen estar prácticamente desprovistos de prejuicio de clase, raza o color. [Conclusión de los comisionados sobre el pueblo dominicano, 1871.]",
+     "afirmaciones": [
+      "A-153"
+     ]
+    },
+    {
+     "ubicacion": "testimonio del gral. Theophilus James (Samaná), p. 229, l. 20041",
+     "cita_original": "There is no prejudice observable, so far as I have observed, between people on account of color. I am a full black myself.",
+     "traduccion": "No se observa prejuicio, hasta donde he visto, entre las personas por razón de color. Yo mismo soy completamente negro. [Testigo oriundo de Samaná, descendiente de la inmigración afroestadounidense, que había vivido en Haití desde 1861.]",
+     "afirmaciones": [
+      "A-153"
+     ]
+    },
+    {
+     "ubicacion": "testimonio de William M. Gabb (geólogo), p. 232, l. 20336",
+     "cita_original": "There is no prejudice, because social equality here is based not on color at all.",
+     "traduccion": "No hay prejuicio, porque la igualdad social aquí no se basa en absoluto en el color. [Gabb, geólogo de Filadelfia con unos dos años de viaje por el país, 1871.]",
+     "afirmaciones": [
+      "A-153"
+     ]
+    },
+    {
+     "ubicacion": "testimonio de William M. Gabb (geólogo), p. 232",
+     "cita_original": "If you could make an average shade of all the colors of the people of the republic, I think it would be somewhere near the shade of a quadroon.",
+     "traduccion": "Si se pudiera sacar un tono medio de todos los colores de la gente de la república, creo que estaría cerca del tono de un cuarterón. [Descripción impresionista, no medición; categoría racial de EE. UU.]",
+     "afirmaciones": [
+      "A-154"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-149",
+    "A-151",
+    "A-153",
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M09"
+   ],
+   "id_existente": "F-1052",
+   "notas": "l. = línea del djvu.txt de archive.org. Contraste de cifras de población dominicana en 1871: la Comisión estima que \"no pasa de 150.000\" (informe, p. 15); el ministro Gautier da 252.000 (proyección) y 207.000 (tribunal eclesiástico; los comisionados la critican porque la capital figura con 10.000 y por cómputo de calles y casas no pasa de 6.000, según el mismo informe y según Hazard 1873, que lo reproduce en su apéndice, pp. 484-486). Estimación derivada de 1871 = 252.000 (63.000 en 1819 duplicados cada 25 años: es una proyección, no un recuento), cifra \"más fiable\" = 207.000 (tribunal eclesiástico), testigos entre 150.000-160.000 (Rigaud) y 200.000; el Bureau of the American Republics dará 610.000 como \"estimación oficial de 1888\" y el censo eclesiástico de 1888 que cita Schoenrich 382.312: ver fichas respectivas. La nota de Gautier excluye de la cuenta a Hincha, San Rafael y San Miguel, tres de los pueblos que la RD reclama como suyos en la disputa fronteriza (A-151): en 1871 el propio Estado dominicano no los incluía en su población. Sesgo: testigos escogidos en un proceso orientado a la anexión; el testimonio de Gabb sobre \"ningún prejuicio\" coincide con el de James pero ambos son impresiones."
+  },
+  {
+   "titulo": "Tratado de paz, amistad, comercio, navegación y extradición entre Haití y la República Dominicana (Puerto Príncipe, 9-XI-1874; texto bilingüe francés-español): arts. 3, 4, 10, 12 y 13",
+   "autor": "República Dominicana; República de Haití (plenipotenciarios G. Prophète, D. Labonté, V. Lizaire, E. M. A. Gutiérrez, A. Beauregard; C. Nouel, T. Cocco, J. Caminero)",
+   "anio": "1874",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-rd",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/TraitedePaixdamitdecommerceentrelarepubliquedhaitietrepubliquedominicaine.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del propio tratado en edición bilingüe de época, aunque la copia es un escaneo en dos columnas con OCR deficiente (las citas se restituyen ortográficamente).",
+   "proveniencia": "Impreso bilingüe de la ADH (escaneo de 10 MB) con el texto de los 43 [POR VERIFICAR el total] artículos firmados en Puerto Príncipe el 9 de noviembre de 1874 por plenipotenciarios del presidente Domingue y del presidente Báez; en vigor desde el 8-II-1875 según la ficha del registro. Las citas siguientes son de la columna francesa, cotejada con la española.",
+   "extractos": [
+    {
+     "ubicacion": "art. 3 (impreso p. XXXV)",
+     "cita_original": "Les deux parties contractantes s'obligent à maintenir de toute leur force, de tout leur pouvoir, l'intégrité de leurs territoires respectifs, à ne céder, compromettre ni aliéner, en faveur d'aucune puissance étrangère, ni le tout ni aucune partie de leurs territoires",
+     "traduccion": "Las dos partes contratantes se obligan a mantener con toda su fuerza y poder la integridad de sus respectivos territorios y a no ceder, comprometer ni enajenar, en favor de ninguna potencia extranjera, ni el todo ni parte de sus territorios.",
+     "afirmaciones": [
+      "A-146",
+      "A-147"
+     ]
+    },
+    {
+     "ubicacion": "art. 4 (impreso pp. XXXV-XXXVI)",
+     "cita_original": "Les hautes parties contractantes s'engagent formellement à établir, de la manière la plus conforme à l'équité et aux intérêts réciproques des deux peuples, les lignes frontières qui séparent leurs possessions actuelles. Cette nécessité fera l'objet d'un traité spécial",
+     "traduccion": "Las altas partes contratantes se comprometen formalmente a establecer, de la manera más conforme a la equidad y a los intereses recíprocos de los dos pueblos, las líneas fronterizas que separan sus posesiones actuales. Esta necesidad será objeto de un tratado especial.",
+     "afirmaciones": [
+      "A-146",
+      "A-151",
+      "A-152"
+     ]
+    },
+    {
+     "ubicacion": "art. 10 (impreso p. XXXVIII; pdf p. 8, cotejado sobre la imagen)",
+     "cita_original": "Les produits du sol et de l'industrie des deux Républiques, passant par les frontières, n'y seront soumis à aucun droit fiscal.",
+     "traduccion": "Los productos del suelo y de la industria de las dos Repúblicas, al pasar por las fronteras, no estarán sujetos a ningún derecho fiscal. [Libre paso fiscal de productos por la frontera, establecido por tratado.]",
+     "afirmaciones": [
+      "A-146",
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "art. 12 (impreso pp. XXXVIII-XXXIX; pdf pp. 8-9, cotejado sobre la imagen)",
+     "cita_original": "dès qu'il sera permis d'évaluer par la statistique les avantages que la République d'Haïti retire de la liberté du commerce de ses frontières avec celles de la République Dominicaine, un retour de droits de douane sera fait au profit de la dernière",
+     "traduccion": "tan pronto sea posible evaluar por estadística las ventajas que la República de Haití saca de la libertad del comercio de sus fronteras con las de la República Dominicana, se hará en favor de esta última una devolución de derechos de aduana.",
+     "afirmaciones": [
+      "A-146",
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "art. 12 (impreso pp. XXXIX-XL; 'cent cinquante mille piastres' cotejado sobre la imagen, pdf p. 9; 'huit ans' en la p. XL, pdf p. 10, cotejados sobre la imagen)",
+     "cita_original": "la République d'Haïti mettra à la disposition de la République Dominicaine une somme de cent cinquante mille piastres en espèces ou en lettres de change sur l'Europe ou les Antilles, pour les besoins du service public. Cette somme sera comptée par versement annuel payable d'avance pendant huit ans",
+     "traduccion": "la República de Haití pondrá a disposición de la República Dominicana una suma de ciento cincuenta mil pesos [piastres] en efectivo o en letras de cambio sobre Europa o las Antillas, para las necesidades del servicio público, abonada por entregas anuales anticipadas durante ocho años [mientras se hacen los estudios estadísticos que fijen la devolución].",
+     "afirmaciones": [
+      "A-146",
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "art. 13 (impreso p. XL; pdf p. 10, cotejado sobre la imagen)",
+     "cita_original": "au moment de la scission de 1844, constituaient des propriétés individuelles, seront réglées par un traité spécial",
+     "traduccion": "[las reclamaciones sobre bienes inmuebles que] en el momento de la escisión [separación] de 1844 constituían propiedades individuales se regularán por un tratado especial. [El propio tratado habla de \"scission/separación de 1844\"; término del glosario.]",
+     "afirmaciones": [
+      "A-146"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-146",
+    "A-147",
+    "A-150",
+    "A-151",
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M00",
+    "M09"
+   ],
+   "id_existente": "F-0051",
+   "notas": "Esta ficha aporta solo lo cuantitativo y lo que el registro no tenía leído: las cláusulas económicas (arts. 10 y 12). Hecho: el tratado fija 150.000 pesos (piastres) pagaderos por anualidades anticipadas durante ocho años (8 x 150.000 = 1.200.000, cálculo propio si se pagó cada anualidad), mientras se evaluaba por estadística el comercio fronterizo para fijar la \"devolución de derechos\". El Bureau of the American Republics (1892) dice que la parte dominicana reclamaba un saldo impagado de \"casi 1.000.000\" de dólares: ver su ficha. El art. 4 llama a un tratado especial de límites que nunca se firmó antes de 1929 (el registro de la ADH conserva solo el texto). La nota haitiana de 1911 (FRUS 1911 d193) cita la cláusula de límites como \"Article 12\", pero en este texto es el art. 4; el art. 12 es el de la compensación: error de la traducción de FRUS o del memorial. La numeración se leyó en el escaneo (OCR); las líneas l. son del txt de pdftotext y la lectura de arts. 3-4 y 10-13 se cotejó contra la columna española."
+  },
+  {
+   "titulo": "FRUS 1911, doc. 193: Legación de Haití en Washington, aide-mémoire sobre la disputa de límites (27-IV-1911)",
+   "autor": "Legación de Haití en Washington; compilación Department of State (Office of the Historian)",
+   "anio": "1911",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1911/d193",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1911.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Memorial oficial haitiano, parte interesada, pero publicado sin cambios por el Departamento de Estado en traducción de época; recoge cronología verificable de las convenciones de 1895 y 1898.",
+   "proveniencia": "Aide-mémoire de la Legación de Haití en Washington, 27 de abril de 1911, durante la crisis de Pedernales (1911) y la mediación estadounidense; versión traducida por el Departamento de Estado. Cotejado en la página de history.state.gov y en el XML del volumen.",
+   "extractos": [
+    {
+     "ubicacion": "doc. 193",
+     "cita_original": "the Haitian Government consented, in 1895, on the reiterated request of the Dominican Government, to refer to the Supreme Pontiff's arbitration the interpretation of Article IV, to wit, whether the phrase \"present possessions\" implies, for the purpose of delimination the uti possidetis of 1874 or the status quo post helium [sic: bellum] of 1856.",
+     "traduccion": "el Gobierno haitiano consintió en 1895, a petición reiterada del dominicano, en someter al arbitraje del Sumo Pontífice la interpretación del art. IV: si \"posesiones actuales\" implica, para la delimitación, el uti possidetis de 1874 o el statu quo post bellum de 1856.",
+     "afirmaciones": [
+      "A-146",
+      "A-152"
+     ]
+    },
+    {
+     "ubicacion": "doc. 193, l. 631",
+     "cita_original": "From 1899 to 1908 the Dominican Government declined to give effect to those two conventions of 1895 and 1898. And quite recently, much to the Haitian Government's surprise, the Santo Domingo Cabinet declared in its report to Congress in 1909 that those two conventions are not valid",
+     "traduccion": "De 1899 a 1908 el Gobierno dominicano se negó a dar efecto a esas dos convenciones de 1895 y 1898; y en 1909 el gabinete dominicano declaró en su informe al Congreso que no eran válidas. [Versión haitiana; la dominicana está en la memoria de Delorme-Tejera: F-1056 y F-1415.]",
+     "afirmaciones": [
+      "A-152"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-146",
+    "A-152"
+   ],
+   "modulos": [
+    "M11",
+    "M09",
+    "M12"
+   ],
+   "id_existente": "F-1057",
+   "notas": "Aporta a A-152 la cronología de las convenciones: 1895 (arbitraje papal sobre el art. IV), 1898 (convención que, según Haití, resolvía los obstáculos), 1899-1908 (la RD no las aplica) y 1909 (la RD las declara no válidas); el memorial usa \"partition\" (partición) para 1844 y numera por error la cláusula de límites como \"Article 12\" (en el texto del tratado es el art. 4). El registro marca esta ficha como ya leída (F-1057); aquí solo se cotejó la cita cuantitativa y cronológica."
+  },
+  {
+   "titulo": "Una frontera para cruzar: la sociedad rural a través de la frontera dominico-haitiana (1870-1930) (Estudios Sociales, n.º 94, oct.-dic. 1993)",
+   "autor": "Baud, Michiel",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/427/413/825",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia social con apoyo en archivo dominicano (memorias de gobernadores, Gaceta Oficial, legajos del Ministerio de Interior); da bases de cada cifra y reconoce cuándo es estimación propia.",
+   "proveniencia": "Michiel Baud (Universidad de Ámsterdam / CEDLA), traducción de Estudios Sociales (Centro Bonó) de un artículo basado en archivo dominicano (AGN) y en la Gaceta Oficial; segunda parte de su estudio de la frontera 1870-1930 (la primera es \"Una frontera-refugio\", F-0140). Cifras de gobernadores, censos rurales de puestos cantonales y estimaciones propias.",
+   "extractos": [
+    {
+     "ubicacion": "ES 94, p. 9, l. 206",
+     "cita_original": "Un censo rural en la comunidad fronteriza de Restauración reveló que de las 852 familias (5,108 personas) que vivían ahí en 1892, todas poseían sus propias tierras.",
+     "traduccion": "Un censo rural de la comunidad fronteriza de Restauración mostró que las 852 familias (5.108 personas) que vivían allí en 1892 poseían todas tierras propias [base: \"Estado General del Puesto Cantonal de Restauración\", 20-XI-1892, AGN, Interior y Policía, leg. 143].",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, p. 9, l. 210",
+     "cita_original": "ellas juntas poseían unos 5,400 puercos y unas 10,550 cabezas de ganado vacuno",
+     "traduccion": "entre todas poseían unos 5.400 cerdos y unas 10.550 cabezas de ganado vacuno.",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, p. 10, l. 243",
+     "cita_original": "En los informes oficiales del período 1880-1885 se señala un promedio de exportación anual de 30,000 pieles.",
+     "traduccion": "Los informes oficiales de 1880-1885 señalan una exportación anual media de 30.000 pieles. [Fuente: El Correo, 21-VIII-1886, \"Estadística\".]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, pp. 10-11",
+     "cita_original": "Tomando en consideración que la provincia de Azua solamente cubría la mitad de la frontera entera, podríamos estimar que la exportación de ganado hacia Haití ascendía anualmente a unas 15,000 cabezas en este período.",
+     "traduccion": "Considerando que Azua cubría solo la mitad de la frontera, podría estimarse que la exportación de ganado a Haití era de unas 15.000 cabezas por año en ese periodo. [Estimación de Baud sobre las 6.000 cabezas, a 20 pesos, que el gobernador de Azua dio para 1889; Baud la llama \"conservadora\".]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, p. 12",
+     "cita_original": "La exportación legal de la provincia de Azua en 1892 aumentó hasta casi 8,000 reses y más de 30,000 libras de productos agrícolas.",
+     "traduccion": "La exportación legal de la provincia de Azua en 1892 subió a casi 8.000 reses y más de 30.000 libras de productos agrícolas.",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, p. 22",
+     "cita_original": "En 1920, una empresa como el Central Romana ya empleaba entre 7,500 y 9,000 trabajadores haitianos. Se estimó que en 1926, algunos 100,000 haitianos estaban trabajando en el país (Knight, 1928: 158-9).",
+     "traduccion": "En 1920 una empresa como el Central Romana empleaba ya entre 7.500 y 9.000 trabajadores haitianos; se estimó que en 1926 unos 100.000 haitianos trabajaban en el país (Knight 1928). [Fuera del periodo del módulo: sirve de contraste con la ausencia de braceros haitianos en las series anteriores a 1915.]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, pp. 7-8",
+     "cita_original": "efectuadas con dinero haitiano y la 'lingua franca' de la región fue el creole (patois) hablado en Haití. Esto no quiere decir que la región era dominada por los haitianos, tal como lo sostienen muchos políticos dominicanos, sino más bien que la población de la región escogía para negociar el mercado más cercano y atractivo.",
+     "traduccion": "las transacciones comerciales se hacían con dinero haitiano y la lingua franca de la región era el criollo (patois) haitiano. Eso no significa que la región fuera dominada por haitianos, como sostienen muchos políticos dominicanos, sino que su población elegía el mercado más cercano y atractivo. [Descripción y juicio de Baud con base en prensa de 1887 (El Eco de la Opinión) y memorias de gobernadores.]",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "ES 94, p. 24-25, l. 1015",
+     "cita_original": "Es casi imposible determinar la veracidad de estas diferencias. Y más difícil es determinar la verdad de los alegatos acerca de la usurpación haitiana de tierra y especialmente si verdaderamente los campesinos dominicanos fueron sustituidos por intrusos haitianos.",
+     "traduccion": "Es casi imposible determinar la veracidad de estas diferencias [lengua y color como criterios de lo \"haitiano\"]; y más aún la de los alegatos de usurpación haitiana de tierras o de sustitución de campesinos dominicanos por intrusos haitianos. [Baud: no hay medición; la mayoría de los llamados \"haitianos\" podían ser dominicanos de piel oscura que hablaban patois.]",
+     "afirmaciones": [
+      "A-149",
+      "A-150"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-149",
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1384",
+   "notas": "l. = línea del txt extraído con pdftotext del PDF indicado; las páginas son las del número de Estudios Sociales. Baud declara que \"no existen cálculos exactos\" del comercio de ganado y que su cifra de 15.000 cabezas es una proyección (duplicar Azua). Cifras confirmadas: censo rural de 1892 de Restauración (base archivo), 30.000 pieles/año 1880-85 (prensa), 6.000 reses de Azua a Haití en 1889 (gobernador). Las cifras de 1920 y 1926 (7.500-9.000 en el Central Romana; 100.000 en 1926 según Knight 1928) no tienen base primaria en el texto; contrastar con el censo de 1920 (28.258 haitianos, Coulange-Méroné 2018). La caracterización \"frontera para cruzar\" es tesis de Baud, no dato."
+  },
+  {
+   "titulo": "Una frontera-refugio: dominicanos y haitianos contra el Estado (1870-1930) (Estudios Sociales, n.º 92, abr.-jun. 1993)",
+   "autor": "Baud, Michiel",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/441/427/853",
+   "urls_alternativas": [
+    "https://www.academiadominicanahistoria.org.do/wp-content/uploads/2021/07/MichielBaud-MCE.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia social con apoyo en archivo dominicano y en informes de la receptoría estadounidense; en este artículo las cifras son escasas y las que da tienen fuente citada.",
+   "proveniencia": "Michiel Baud (Universidad de Ámsterdam), artículo traducido por Estudios Sociales; la primera parte de su estudio de la frontera (el artículo \"frontera para cruzar\" es F-1384). Usa informes de aduanas y la correspondencia de H. J. Worley con el receptor Colton (1905).",
+   "extractos": [
+    {
+     "ubicacion": "ES 92, nota 12 y texto",
+     "cita_original": "embarques por valor de 20,000 dólares han cruzado la frontera por aquí o en estas inmediaciones, sin pagar impuesto alguno",
+     "traduccion": "embarques por valor de 20.000 dólares han cruzado la frontera por aquí o en las inmediaciones sin pagar impuesto alguno al gobierno [observación de un oficial estadounidense citado en 1905; el texto traducido dice \"for aquí\" por \"por aquí\"].",
+     "afirmaciones": [
+      "A-150"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-150"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0140",
+   "notas": "AVISO sobre el registro: la URL principal del registro para F-0140 (academiadominicanahistoria.org.do/.../MichielBaud-MCE.pdf) es una semblanza biográfica de Baud (31 líneas), no el artículo; el artículo \"Una frontera-refugio\" está en la URL alternativa de Estudios Sociales 441/427/853 (leída aquí). La cifra de 20.000 dólares de contrabando es una percepción de un funcionario de 1905 y no un cómputo; Baud dice además que con la receptoría se pudo pagar \"más de un 55 %\" de las deudas. Las caracterizaciones \"frontera-refugio\" y \"contra el Estado\" son tesis de Baud."
+  },
+  {
+   "titulo": "Santo Domingo: A Country with a Future (caps. VII, X, XI, XVIII, XIX y XXI: frontera, exportaciones, población y raza, ejército, revoluciones y deuda)",
+   "autor": "Schoenrich, Otto",
+   "anio": "1918",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/GITenberg/Santo-Domingo--A-Country-with-a-Future_9813/master/9813.txt",
+   "urls_alternativas": [
+    "https://www.gutenberg.org/ebooks/9813"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Abogado y funcionario estadounidense que visitó el país hacia 1916-1917 y reúne estadísticas oficiales con su base declarada en algunos casos (censo parroquial, receptoría), pero escribe para atraer inversión durante la ocupación y no declara la fuente de varias cifras.",
+   "proveniencia": "Otto Schoenrich (1876-1954), abogado, miembro de la comisión que estudió la deuda dominicana en 1917 y luego asesor del gobierno militar de ocupación [POR VERIFICAR su cargo exacto]; el libro (Nueva York, Scribner, 1918) [casa editorial POR VERIFICAR] se escribió para el lector estadounidense con fines de promoción del país bajo la ocupación militar. Usa tablas de la receptoría de aduanas y los cálculos de Hollander sobre la deuda de 1905 sin reproducir los documentos. Texto local en 02-fuentes/textos/gutenberg/schoenrich-santo-domingo-1918.txt.",
+   "extractos": [
+    {
+     "ubicacion": "cap. XI (población), l. 5210",
+     "cita_original": "In 1863 an ecclesiastical census, based on the returns of the various parish priests, placed the population at 207,700. This number may be described as little more than a compilation of guesses and was probably exaggerated. A similar ecclesiastical census taken in 1888 gave a total of 382,312 inhabitants.",
+     "traduccion": "En 1863 un censo eclesiástico, hecho con los informes de los párrocos, dio 207.700 habitantes. Esa cifra es poco más que una compilación de conjeturas y probablemente estaba exagerada. Un censo eclesiástico similar de 1888 dio 382.312.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XI (población), l. 5231",
+     "cita_original": "In 1908 an official estimate based on birth statistics, placed it at 605,000. An unofficial estimate in 1917, made on the assumption that there are 1000 inhabitants for every 37 births reported, calculated the total population at 795,432",
+     "traduccion": "En 1908 una estimación oficial basada en estadísticas de nacimientos dio 605.000. Una estimación no oficial de 1917, con la hipótesis de 1.000 habitantes por cada 37 nacimientos registrados, calculó 795.432 [Schoenrich la rebaja a unos 715.000].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XI (población y raza), l. 5311",
+     "cita_original": "The census of Santo Domingo City in 1908 reported 7016 whites, 6934 colored persons and 4676 blacks, but apart from the circumstance that numerous white foreigners reside in the capital, it is probable that many persons were classified as white who would have been considered colored in the United States",
+     "traduccion": "El censo de la ciudad de Santo Domingo de 1908 registró 7.016 blancos, 6.934 de color y 4.676 negros; pero, aparte de los muchos extranjeros blancos de la capital, es probable que se clasificara como blancas a personas que en EE. UU. se habrían considerado de color.",
+     "afirmaciones": [
+      "A-149",
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI (población y raza), l. 5297",
+     "cita_original": "At the present time the pure negroes are in a minority, constituting probably less than one-fourth the entire population. The great majority of the inhabitants are of mixed Spanish and African blood, their color ranging from black to white.",
+     "traduccion": "Hoy los negros puros son minoría, probablemente menos de la cuarta parte de la población. La gran mayoría es de sangre mezclada española y africana, con color que va del negro al blanco.",
+     "afirmaciones": [
+      "A-154"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI (raza), l. 5349",
+     "cita_original": "On the contrary they are anxious to be considered as belonging to the white race and are not pleased by reference to their mixed blood.",
+     "traduccion": "Al contrario, están ansiosos de ser considerados de raza blanca y no les agrada que se aluda a su sangre mezclada.",
+     "afirmaciones": [
+      "A-149"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI (inmigración), l. 5354",
+     "cita_original": "I have often heard Dominican statesmen express an eager desire for immigration, but only white immigration. This sentiment is reflected in immigration laws and in several concessions granted in late years in which the concessionnaire was prohibited from importing laborers of African or Asiatic descent.",
+     "traduccion": "He oído a menudo a estadistas dominicanos expresar un vivo deseo de inmigración, pero solo blanca; ello se refleja en leyes de inmigración y en concesiones recientes que prohibían al concesionario importar braceros de ascendencia africana o asiática.",
+     "afirmaciones": [
+      "A-149"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI (raza), l. 5324",
+     "cita_original": "there have never been political parties based on color; and the relations between the races have always been cordial. [...] There is absolutely no color line.",
+     "traduccion": "[En Santo Domingo] nunca ha habido partidos políticos basados en el color y las relaciones entre las razas siempre han sido cordiales. [...] No hay absolutamente ninguna línea de color. [Descripción de un funcionario estadounidense, sin método de observación.]",
+     "afirmaciones": [
+      "A-153"
+     ]
+    },
+    {
+     "ubicacion": "cap. X (azúcar), l. 4880",
+     "cita_original": "Many laborers are then required, and as native labor is not abundant, large numbers of negroes come from the British West Indies to work on the plantations, returning to their homes when the cane has been cut.",
+     "traduccion": "Entonces se necesitan muchos braceros y, como la mano de obra nativa no abunda, llegan en gran número negros de las Indias Occidentales Británicas para trabajar en las plantaciones y vuelven a casa al terminar el corte.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. X (exportaciones), l. 4812",
+     "cita_original": "EXPORTS OF THE DOMINICAN REPUBLIC 1913 1914 1915 1916 Sugar (raw) kilos 78,849,465 101,428,847 102,800,551 122,642,514 [...] Total value $10,469,947 $10,588,787 $15,209,061 $21,527,873",
+     "traduccion": "Exportaciones de la República Dominicana: azúcar crudo 78,8 (1913), 101,4 (1914), 102,8 (1915) y 122,6 (1916) millones de kg; valor total de las exportaciones 10,47, 10,59, 15,21 y 21,53 millones de dólares. [Tabla sin fuente declarada; cierre del periodo del módulo.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XXI (deuda), l. 10764",
+     "cita_original": "the nominal amount of the loan was $3,788,500; of this amount the Republic was to receive but $1,600,000; yet it contracted to pay as interest and sinking fund in twenty-five years a sum amounting to $7,362,500. [...] In fact, however, no more than $190,455 was ever paid to the Dominican government.",
+     "traduccion": "El monto nominal del préstamo (Hartmont, 1869) era de 3.788.500 dólares; la República debía recibir solo 1.600.000 y se obligaba a pagar 7.362.500 en veinticinco años; en realidad solo se pagaron al gobierno 190.455 dólares.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XXI (deuda), l. 10910",
+     "cita_original": "The liquidated debt, secured by international protocol or formal contract, Prof. Hollander found to be as follows on June 1, 1905: [...] Total.... $9,595,530.40",
+     "traduccion": "Según Hollander, la deuda liquidada garantizada por protocolo o contrato era de 9.595.530,40 dólares el 1.º de junio de 1905 (la mayor partida, 4.403.532,71, correspondía a la San Domingo Improvement Company).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XIX (revoluciones), l. 10153",
+     "cita_original": "there have occurred in the seventy years of Dominican independence no less than twenty-three successful revolutions. [...] I have heard estimates ranging from 1000 up to 15,000.",
+     "traduccion": "En los setenta años de independencia ha habido no menos de veintitrés revoluciones exitosas (sin contar 1844 ni 1863-65). Sobre los muertos de los últimos quince años: \"he oído estimaciones que van de 1.000 hasta 15.000\" [sin base alguna: nivel D].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. VII (frontera), l. 3731",
+     "cita_original": "the tendency of the rapidly increasing Haitian population to establish homes in the uninhabited frontier region of Santo Domingo.",
+     "traduccion": "la tendencia de la población haitiana, en rápido aumento, a establecer hogares en la región fronteriza despoblada de Santo Domingo.",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "cap. VII (frontera), l. 3293",
+     "cita_original": "In 1911 and a year later, alleged encroachments by Haiti almost led to war between the two countries. The United States interposed its good offices and in 1912 suggested as provisional boundary [...] the line which was observed as boundary in 1905 when the American receiver general of customs took charge of the frontier custom-houses.",
+     "traduccion": "En 1911 y un año después, presuntas invasiones haitianas casi llevaron a la guerra; EE. UU. ofreció sus buenos oficios y en 1912 propuso como frontera provisional la línea observada en 1905 cuando el receptor general de aduanas se hizo cargo de las aduanas fronterizas. [FRUS 1912 d527 dice otra cosa: ver ficha propia.]",
+     "afirmaciones": [
+      "A-152"
+     ]
+    },
+    {
+     "ubicacion": "cap. XVIII (ejército), l. 9563",
+     "cita_original": "at the time of its dissolution the authorized strength was one infantry regiment of about 470 officers and men, and a band of 33 men.",
+     "traduccion": "en el momento de su disolución (1916) la fuerza autorizada era un regimiento de infantería de unos 470 oficiales y soldados y una banda de 33 hombres (el presupuesto anterior autorizaba unos 800 más 100 de artillería; en tiempo de guerra la fuerza real era mucho mayor y en paz abundaban los \"soldados fantasma\").",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-149",
+    "A-150",
+    "A-152",
+    "A-153",
+    "A-154"
+   ],
+   "modulos": [
+    "M11",
+    "M12",
+    "M00",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0054",
+   "notas": "Texto local cotejado por línea (grep). Cifras demográficas del periodo con base declarada: censo eclesiástico de 1863 (207.700, \"compilación de conjeturas\"), censo eclesiástico de 1888 (382.312), estimación oficial de 1908 por nacimientos (605.000), estimación privada de 1917 (795.432 o ~715.000). El censo de la ciudad de Santo Domingo de 1908 (18.626 habitantes; cálculo propio: 37,7 % blancos, 37,2 % de color, 25,1 % negros) es el único recuento racial del periodo; Schoenrich mismo advierte que la categoría \"blanco\" era laxa. El cómputo de revoluciones (23 exitosas en 1844-1914; cálculo propio sobre su lista: 18 en 1865-1914) no es comparable con las \"20 revoluciones generales de 1865-1905\" del receptor (FRUS 1907 d272). Sesgo: funcionario de la ocupación, favorable a la inversión estadounidense; la sección racial (\"no hay línea de color\", \"ansiosos de ser considerados blancos\") es opinión de visitante, no medición. [POR VERIFICAR] la base de la tabla de exportaciones 1913-1916."
+  },
+  {
+   "titulo": "Hayti, or The Black Republic (cap. IV \"The Population of Hayti\"; caps. sobre ejército, comercio y finanzas; nota sobre Santo Domingo de la Introducción)",
+   "autor": "St John, Spenser",
+   "anio": "1884",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/GITenberg/Hayti-or-The-black-republic_68592/master/68592-0.txt",
+   "urls_alternativas": [
+    "https://www.gutenberg.org/ebooks/68592"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Cónsul y ministro británico con doce años en Haití que cita informes consulares (Stuart 1877) y estadísticas del Board of Trade, pero con prejuicio racial explícito y que admite que no hay censo y que sus cifras son conjeturas; sobre Santo Domingo escribe \"from all I can hear\".",
+   "proveniencia": "Spenser St John (1825-1910), diplomático británico, en Haití desde enero de 1863 (cónsul y luego encargado de negocios) durante unos doce años; libro publicado en Londres en 1884 para el público británico, con tesis explícita sobre la incapacidad de una república negra. Usa cifras de aduanas y de los informes del Foreign Office. Texto local cotejable por línea.",
+   "extractos": [
+    {
+     "ubicacion": "cap. IV (población), l. 3426",
+     "cita_original": "The amount of the population in Hayti is not accurately known, as no census has been taken since the country became independent.",
+     "traduccion": "No se conoce con exactitud la población de Haití pues no se ha hecho ningún censo desde la independencia.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. IV (población), l. 3461",
+     "cita_original": "During the Presidency of General Geffrard (1863), I heard him remark, that from the best official information he could get, the population had increased to over 900,000. This estimate must be largely founded on conjecture.",
+     "traduccion": "Durante la presidencia de Geffrard (1863) le oí decir que, según la mejor información oficial, la población había subido a más de 900.000; esa estimación se funda en gran parte en conjeturas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. IV (población), l. 3512",
+     "cita_original": "The population is generally supposed to consist of at least nine-tenths black to one-tenth coloured",
+     "traduccion": "Se supone en general que la población es al menos nueve décimas negra y una décima de color.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. VIII (ejército), l. 7240",
+     "cita_original": "Some months after the fall of General Geffrard (1867) an account was published stating that the army in round numbers consisted as follows:-- [...] in a late return it is stated at 16,000, and among the non-effectives are about 1500 generals of division.",
+     "traduccion": "Meses después de la caída de Geffrard (1867) se publicó que el ejército constaba, en cifras redondas, de 20.000 (6.500 generales y estado mayor, 7.000 oficiales de regimiento, 6.500 soldados); un informe reciente lo da en 16.000, con unos 1.500 generales de división entre los no efectivos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. X (comercio), l. 8449",
+     "cita_original": "1860 60,514,289 [...] 1873 64,786,690 [...] 1875 72,637,716 [...] 1880 55,562,897",
+     "traduccion": "Exportación de café de Haití en libras: 60.514.289 (1860), 64.786.690 (1873), 72.637.716 (1875) y 55.562.897 (1880); la serie citada parte de 88.360.502 en 1789.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. X (comercio), l. 8858",
+     "cita_original": "In 1876 the total imports into the island were £2,110,000; the total exports, £2,200,000.",
+     "traduccion": "En 1876 las importaciones totales de la isla [parte haitiana] fueron de 2.110.000 libras y las exportaciones de 2.200.000.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. X (comercio), l. 8895",
+     "cita_original": "the Haytian custom-house did not acknowledge more than half the amount of our returns. Either we overvalue our goods in England, or the smuggling must be large.",
+     "traduccion": "la aduana haitiana no reconocía más de la mitad de la cifra de nuestras estadísticas [de exportaciones británicas de 1865-66]. O las sobrevaloramos en Inglaterra o el contrabando debe de ser grande.",
+     "afirmaciones": [
+      "A-150"
+     ]
+    },
+    {
+     "ubicacion": "cap. X (finanzas), l. 8919",
+     "cita_original": "Subsequently the indemnity was reduced to £3,600,000, but although fifty-eight years have passed, a balance still remains due.",
+     "traduccion": "Después la indemnización se redujo a 3.600.000 libras, pero, aunque han pasado cincuenta y ocho años, aún queda un saldo [Henochsberg y el NYT dan la deuda doble saldada en 1883 y 1888 respectivamente].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Introducción, l. 240",
+     "cita_original": "I have not attempted to describe the present condition of the republic of Santo Domingo, but from all I can hear it is making progress. The Dominicans have few prejudices of colour, and eagerly welcome foreign capitalists who arrive to develop the resources of their country.",
+     "traduccion": "No he intentado describir la situación actual de la república de Santo Domingo, pero por lo que oigo progresa. Los dominicanos tienen pocos prejuicios de color y acogen con ganas a los capitalistas extranjeros que llegan a desarrollar los recursos del país.",
+     "afirmaciones": [
+      "A-153"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-150",
+    "A-153"
+   ],
+   "modulos": [
+    "M11",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0053",
+   "notas": "Texto local cotejado por línea. Sobre A-153: la frase está en el capítulo introductorio y St John la introduce con \"from all I can hear\" (referencia de oídas; su residencia fue en Haití), de modo que el \"testimonio de época\" que registra A-153 es de segunda mano. Cifras: población haitiana sin censo (602.308 en 1789 según Madiou citado por St John; \"al menos 750.000\" hasta 1847; \"más de 900.000\" en 1863 según Geffrard; \"probablemente duplicada desde 1825\" según el propio St John sin método). Ejército: 30.000 (1825-30), 20.000 (1867), 16.000 (retorno posterior); Henochsberg da 20.000 en 1860 y 16.000 en 1880. La serie de café 1789-1880 no declara fuente (probablemente informe del cónsul Stuart 1877 y estadísticas aduaneras: [POR VERIFICAR]). Sesgo racial hostil del autor: no afecta a las cifras de aduanas, pero sí a toda inferencia demográfica o cultural."
+  }
+ ]
+}
