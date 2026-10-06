@@ -22,6 +22,10 @@ Investigación documental sobre la historia de la isla de La Española (Ayiti, Q
 - **Fase 2** (barrido de fuentes por módulo): pendiente de dos decisiones de infraestructura (modo de acceso a la red y cupo de búsquedas web), ver `00-plan/decisiones.md`.
 - Fases 3 a 8: pendientes. Ver `00-plan/plan.md`.
 
+## Continuar en otra sesión
+
+Cualquier sesión de Claude Code (local o en la nube) carga `CLAUDE.md` al arrancar y encuentra ahí el orden de lectura, el estado y las reglas. Pasos para una máquina local y mensaje inicial sugerido: `00-plan/plan.md`, sección 15.
+
 ## Método en una frase
 
 Toda afirmación lleva fuente, letra de confianza y, si está disputada, todas las versiones serias con quién las sostiene; nada se cita de memoria y los términos cargados se declaran en el glosario.

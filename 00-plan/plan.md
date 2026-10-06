@@ -250,7 +250,39 @@ README.md
 4. Toda cifra aparece como rango con fuente.
 5. Cada módulo y cada eje tiene su tabla de disputas completa y cada disputa de la sección 9 tiene veredicto.
 
-## 15. Riesgos y mitigaciones
+## 15. Continuación en una sesión local (Claude Code en tu máquina)
+
+El estado completo del proyecto vive en el repositorio, no en esta conversación: plan, bitácora, método, informes de reconocimiento, registro de fuentes, textos y registro de afirmaciones. Una sesión local parte de ahí. Ventajas de lo local: tu red no tiene el proxy que bloquea los archivos digitales (se entra directo en modo A) y el cupo de búsquedas se fija con una variable de entorno.
+
+### Preparar el traspaso desde esta sesión (3 cambios, requieren salir del modo plan)
+1. **`CLAUDE.md` en la raíz del repo**: cualquier sesión (local o en la nube) lo carga al arrancar. Contenido: propósito del proyecto en 5 líneas; orden de lectura obligatorio (`00-plan/plan.md`, `00-plan/decisiones.md`, `01-metodologia/metodo.md`, `escala-de-confianza.md`, `glosario.md`); estado de fases y cuál sigue; reglas no negociables (nada de memoria sin marca, cifras como rangos, términos cargados al glosario, ids F-#### y A-###, commit y push al cerrar cada fase); dónde están los textos cotejables y cómo citarlos por línea; cómo se lanzan los Workflows por fase.
+2. **`00-plan/workflows/fase1-narrativas-afirmaciones.js`**: copia del script del Workflow de la Fase 1 (hoy solo existe en el directorio de la sesión en la nube) para que el patrón sea reutilizable y los scripts de las Fases 2 a 7 se guarden junto a él.
+3. **`.claude/settings.json`** con `{"env": {"CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION": "20000"}}`: se aplica a toda sesión que abra el repo, local o remota.
+4. Commit y push.
+
+### En tu máquina
+```bash
+git clone https://github.com/branvisuals/Laespanola.git
+cd Laespanola
+git checkout claude/hispaniola-historical-research-plan-79fana
+npm install -g @anthropic-ai/claude-code   # si no lo tienes
+claude
+```
+Comprobación de red al arrancar (debe devolver texto, no error):
+```bash
+curl -sS -o /dev/null -w "%{http_code}\n" https://archive.org/download/descriptiontopog00more/descriptiontopog00more_djvu.txt
+```
+
+### Mensaje inicial sugerido para la sesión local
+> Lee CLAUDE.md y sigue su orden de lectura. Estamos al cierre de la Fase 1. Comprueba el acceso a red con un fetch a archive.org y a gallica.bnf.fr; si funciona, registra en `00-plan/decisiones.md` que pasamos a modo A. Luego arranca la Fase 2 (Workflow 2, sección 10 del plan): barrido de fuentes por módulo con 5 lentes, confirmando cada URL con fetch, y empieza por los módulos con más afirmaciones pendientes (M16, M13, M08, M09, M00). Haz commit y push al terminar cada módulo.
+
+### Reglas para no pisarse entre sesiones
+- Una sola sesión activa sobre la rama a la vez. Antes de empezar en cualquier sitio: `git pull origin claude/hispaniola-historical-research-plan-79fana`.
+- Cada fase termina con push; una sesión que se interrumpe deja su estado en `00-plan/decisiones.md`.
+- Los scripts de Workflow de cada fase se guardan en `00-plan/workflows/` antes de lanzarlos, para poder reanudarlos o repetirlos desde otra sesión.
+- Si en la máquina local no está disponible la herramienta Workflow, las mismas fases se ejecutan con agentes en paralelo (herramienta Agent) siguiendo los prompts de los scripts guardados.
+
+## 16. Riesgos y mitigaciones
 
 | Riesgo | Mitigación |
 |---|---|
