@@ -1,0 +1,895 @@
+{
+ "fecha": "2026-10-07",
+ "desglose": {
+  "filas_nuevas": [
+   {
+    "id": "F-3161",
+    "desde": "F-0065",
+    "titulo": "Dumont, Corps universel diplomatique du droit des gens, t. VII (partes I y II)",
+    "pares_movidos": 0
+   },
+   {
+    "id": "F-3162",
+    "desde": "F-0065",
+    "titulo": "Cantillo, Tratados, convenios y declaraciones de paz y de comercio (Madrid, 1843)",
+    "pares_movidos": 0
+   },
+   {
+    "id": "F-3163",
+    "desde": "F-0065",
+    "titulo": "CODOIN t. I (Pacheco y Cárdenas, Madrid, 1864)",
+    "pares_movidos": 0
+   },
+   {
+    "id": "F-3164",
+    "desde": "F-0109",
+    "titulo": "Price-Mars, Ainsi parla l'Oncle (1928)",
+    "pares_movidos": 6
+   },
+   {
+    "id": "F-3165",
+    "desde": "F-0069",
+    "titulo": "Peña Batlle, El sentido de una política (discurso de Elías Piña, 16-XI-1942; La Nación, 1943)",
+    "pares_movidos": 2
+   },
+   {
+    "id": "F-3166",
+    "desde": "F-0069",
+    "titulo": "Peña Batlle, Política de Trujillo (1954)",
+    "pares_movidos": 0
+   },
+   {
+    "id": "F-3167",
+    "desde": "F-0069",
+    "titulo": "Troncoso Sánchez, Las guerras europeas de Santo Domingo (Clío 102, 1955)",
+    "pares_movidos": 3
+   },
+   {
+    "id": "F-3168",
+    "desde": "F-0075",
+    "titulo": "Moya Pons, Manual de historia dominicana (1977)",
+    "pares_movidos": 1
+   },
+   {
+    "id": "F-3169",
+    "desde": "F-0075",
+    "titulo": "Moya Pons, La otra historia dominicana (2008)",
+    "pares_movidos": 0
+   }
+  ],
+  "pares_reasignados_f0137": 4,
+  "pares_ambiguos": [
+   "A-180/F-0069 (M13): la ubicación trae un marcador truncado «(+5 más)» tras la ubicación (b) de la Historia; las 5 ubicaciones ocultas mezclan la Historia (portada e Introducción) y los campos de catálogo/ejemplar del discurso. No se pueden repartir una a una: el marcador quedó en F-0069 y el par de F-3165 lleva solo las ubicaciones visibles. Hay que ir al JSON crudo raw/corrida-1/M13-r1-*.json para repartirlas.",
+   "A-168/F-0075 y A-179/F-0075 (M13): pares con ubicación vacía y verificación solo-localizada. La ficha de M13 los vincula a las grabaciones de Radio Haïti del Duke (RL10059-RR-0072_01; Cassá, Moya Pons, Vega), no a un libro. Se dejan en F-0075 (la URL de Duke la comparte F-0497).",
+   "A-012 y A-018 (M00, F-0109): sus ubicaciones sin prefijo de tomo ('p. 14 (l. 244-246)' y 'pp. 22-25 (l. 569-574)') se atribuyeron a Formation ethnique (F-2950) por coincidencia de cita y de números de línea con las fichas de M01 y M02. No es ambiguo pero la atribución se hizo por cotejo de texto, no por etiqueta de la ficha.",
+   "A-162 (M12, F-0109): se movió entero a F-3164; su ubicación trae un «(+4 más)» truncado, pero todas las ubicaciones visibles y las filas de la tabla de M12 son de Ainsi parla l'Oncle."
+  ],
+  "archivos_modificados": [
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\registro.csv",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\03-afirmaciones\\cobertura.csv",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M00.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M01.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M02.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M03.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M04.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M05.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M06.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M07.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M08.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M09.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M10.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M12.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M13.md",
+   "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\por-modulo\\M16.md"
+  ],
+  "problemas": [
+   "Validación final OK: registro.csv 12 columnas, 3169 filas, ids F-0001 a F-3169 correlativos sin huecos ni repetidos; cobertura.csv 7 columnas, 11620 pares (antes 11613), sin pares repetidos y sin fuentes que falten en el registro. Sin commit ni push.",
+   "Formation ethnique, folk-lore et culture du peuple haïtien YA tenía fila (F-2950, con las mismas URL de classiques.uqam.ca): no se creó fila nueva. Los 12 pares de esa obra que F-0109 cargaba (M00 A-012, A-018; M01 A-022, A-023, A-029; M02 A-030, A-031, A-035, A-036; M05 A-054, A-055, A-066) pasaron a F-2950. F-0109 era en realidad un paquete de tres obras de Price-Mars, no de dos; sus dos URL de formation_ethnique_haiti se quitaron de F-0109 porque F-2950 ya las lista. El campo modulos de F-2950 no se amplió (M04;M05;M08; ahora también recibe pares de M00, M01 y M02).",
+   "F-0069 mezclaba además una obra de otro autor: el discurso de Pedro Troncoso Sánchez en Clío 102 (1955), cuya URL figuraba como si fuera de Peña Batlle. Se creó F-3167 y se le movieron los pares A-047 (M03), A-125 y A-133 (M09). Los pares de A-179 y A-180 (M13) se dividieron: las ubicaciones del discurso de Elías Piña pasaron a F-3165 y las 'Palabras previas' de la Historia se quedaron en F-0069.",
+   "F-3161 (Dumont), F-3162 (Cantillo) y F-3163 (CODOIN t. I) nacen con 0 pares porque los 55 pares de F-0065 eran todos del Recueil général de Linstant Pradine. Además se solapan con filas por documento ya existentes (F-0016 Ryswick, F-0024 Aranjuez, F-0025 Basilea, F-0011 Repartimiento, F-2131, F-2132, F-3051 a F-3055, F-3081 a F-3084); sus URL se copiaron de F-0016/F-0024/F-0011 y los metadatos se confirmaron con archive.org/metadata. Hay que decidir si se conservan o se retiran por redundantes. La fecha de Dumont (1726) es la del catálogo de archive.org, no la de la portada: va como POR VERIFICAR. F-3166 (Política de Trujillo) y F-3169 (La otra historia dominicana) no tienen URL, ni texto, ni pares: son filas de trazabilidad con acceso no-localizada y fiabilidad por-evaluar.",
+   "F-0065 conserva dos URL que no son del Recueil (memoire-esclavage.org y mjp.univ-perp.fr/constit/ht1825.htm, la ordenanza de Carlos X, que ya tiene fila propia en F-1006). Se dejaron porque no pasaban a ninguna de las filas nuevas. Mismo criterio en F-0075 (URL de Duke compartida con F-0497, URL de FLACSO 10469/22800 que listan también F-0086 y F-0296, PDF biográfico de la ADH y un DOI de HAHR 56:3 sin atribuir) y en F-0109 (artículo de opinión de Acento). Las cuatro fichas Koha de F-0075 (8377, 11584, 8998, 7968) y las tres de F-0069 (11878, 3385, 10342) se comprobaron por fetch el 2026-10-07: todas devuelven los títulos de La dominación haitiana y de la Historia de la cuestión fronteriza.",
+   "Al fusionar F-0119 en F-0137 la verificación de A-178 y A-177 subió de descargada-parcial a descargada-y-leida (regla: conservar la mejor), pero A-178/F-0119 tenía ubicación vacía. F-0119 queda sin pares y con acceso texto-completo-en-linea, que describe la página de W&M y no la obra de Denis (La négation du droit à la nationalité; la lente HAI de M16 la fecha en 2020, no 2021): no lo cambié porque la tarea no lo pedía. La laguna de A-217 (tesis de Denis sobre apatridia) sigue abierta.",
+   "La columna relacion de cobertura.csv está vacía en las 11.613 filas originales, así que los pares divididos nacen con relacion vacía; no se tocó. En las fichas de los M##.md, además de las líneas 'Desglose' pedidas por obra nueva, añadí una línea en las fichas de F-0119 (M13, M16) y F-0137 (M13) y, para Formation ethnique, la línea apunta a F-2950. La URL de la traducción española de Ainsi parla l'Oncle (archive.org asi-hablo-el-tio-2) no estaba en el registro: salió de la ficha de M12 y se añadió a F-3164.",
+   "F-0065, F-0109, F-0069 y F-0075 cambiaron de título, autor/año y notas: ahora describen una sola obra (Recueil général; La République d'Haïti et la République Dominicaine, 1953; Historia de la cuestión fronteriza, 1946; La dominación haitiana, 1972). Las notas históricas de las filas originales se conservaron íntegras y se les añadió al final una nota 'Desglose 2026-10-07'. Los M##.md no se reescribieron más que con líneas añadidas al final de cada ficha; el diff de git lo confirma (37 líneas insertadas más 5 en blanco)."
+  ]
+ },
+ "auditoria": {
+  "pares_revisados": 685,
+  "acciones": [
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-0162",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "El extracto (p. 478) dice solo que un manual dominicano de 8.º critica el antihaitianismo; no trata la acusación de 'plan de fusión' a Peña Gómez ni las campañas de 1994 y 1996."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2764",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Matibag cuyo único extracto critica el uso de fuentes secundarias; la ficha dice que solo sirve para pesar la fiabilidad de F-0139."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2685",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "El único extracto es el campo 'Subject' del catalogador (deportación, braceros, antihaitianismo), sin fecha ni mención de Peña Gómez, Balaguer o el Frente Patriótico."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2757",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Hartlyn 1998 (neopatrimonialismo e instituciones, 1986-1996); los extractos no mencionan a Peña Gómez, el origen haitiano ni el 'plan de fusión' (la ficha admite que ninguna reseña lo menciona)."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2765",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Hartlyn 1998 (Beard): historia institucional, sin mención de la acusación a Peña Gómez."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2766",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Hartlyn 1998 (Llamazares): neopatrimonialismo 1986-1996, sin mención de la acusación a Peña Gómez."
+   },
+   {
+    "afirmacion": "A-202",
+    "fuente": "F-2767",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Hartlyn 1998 (Leonard): reformas constitucionales de 1994 y papel de Balaguer, sin mención de la acusación a Peña Gómez."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-0063",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-216",
+    "motivo": "Los extractos del art. 11 de la Constitución haitiana de 1987 son la evidencia de A-216 (nacionalidad haitiana por filiación, argumento contra la apatridia), no del texto de la Ley 285-04 ni de su art. 28. El par con A-216 ya existe: basta retirar este."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2497",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-211",
+    "motivo": "Nota del GARR sobre el proyecto de reforma constitucional de 2009-2010 (luego art. 18.3): trata la Constitución de 2010, no la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2778",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta ENDESA 2002 sobre posesión de acta de nacimiento (porcentajes, muestra): ningún extracto trata la Ley 285-04, su art. 28 ni la definición de 'no residentes'; la evidencia resolutoria de A-203 es el texto de la ley y su reglamento."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2777",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENDESA 2007: porcentajes de posesión de acta y diseño muestral; no trata el texto de la Ley 285-04 ni su art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2779",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENDESA 2013: porcentajes de posesión de acta y cobertura muestral; no trata el texto de la Ley 285-04 ni su art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2780",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2013: falta de acta de nacimiento y cobertura de la muestra; no trata el texto de la Ley 285-04 ni su art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2627",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2007: diseño muestral, historia de los bateyes y violencia contra la mujer; no trata la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2782",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reporte ACNUR/PNUD/UNICEF de bateyes: tablas de posesión de acta; no trata el texto de la Ley 285-04 ni su art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2781",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENHOGAR-MICS 2019: registro de nacimiento de menores de 5 años; no trata el texto de la Ley 285-04 ni su art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-0059",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "La ENI-2012 aporta volúmenes de inmigrantes y descendientes (magnitud demográfica, A-219), no el contenido de la ley. El par con A-219 ya existe: basta retirar este."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2367",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta FLACSO-OIM a inmigrantes (metodología, documentos de identidad): no trata la Ley 285-04 ni el registro consular del art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2479",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio de un barrio de Santo Domingo (1999, anterior a la ley): tipos de documentación migratoria; no trata la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2641",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio sociocultural de inmigrantes (Pequeño Haití, Palavé): no trata la Ley 285-04 ni el art. 28."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2785",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio de migración y salud fronteriza: cifras de segunda mano de encuestas; no trata la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2705",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Solo enumera temas de agenda del GARR (migración, frontera, dominicanos de ascendencia haitiana), anterior a la ley; no trata su contenido."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2706",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Crisis de representación diplomática haitiana en 2005; la ficha admite que no hay mención de la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2640",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta LAPOP 2006 de actitudes (aprobación de ciudadanía a hijos de haitianos): asunto de A-206, no del texto de la Ley 285-04. El par con A-206 ya existe."
+   },
+   {
+    "afirmacion": "A-203",
+    "fuente": "F-2737",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Base CJPE sin extracto: no localiza la Ley 285-04 ni su reglamento; el par solo indica que el portal existe."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2612",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Informe del Dept. de Estado sobre expulsiones de dominicanos oscuros y haitianos con documentos: evidencia de A-210 (el par ya existe), no de Yean y Bosico ni de 'en tránsito'."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2778",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta ENDESA sobre posesión de acta (porcentajes y cobertura muestral): no trata la sentencia ni su supervisión (evidencia resolutoria: Serie C n.º 130 y resoluciones de supervisión)."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2777",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENDESA 2007: posesión de acta y diseño muestral; no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2779",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENDESA 2013: posesión de acta y cobertura muestral; no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2780",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2013: falta de acta y cobertura; no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2627",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2007: diseño muestral y datos sociales; no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2782",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reporte de bateyes (tablas de acta de nacimiento): no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2781",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "ENHOGAR-MICS 2019: registro de menores de 5 años; no trata la sentencia de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-0059",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "ENI-2012 cuantifica inmigrantes y descendientes (A-219); no trata el fallo de la Corte IDH. El par con A-219 ya existe."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-1100",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Corten y Duarte 1994: cifra de 500.000 haitianos y nacidos en la RD, anterior al caso; no trata Yean y Bosico ni 'en tránsito'."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2367",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Metodología de encuesta a inmigrantes y documentos de identidad: sin relación con el fallo."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2479",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio de un barrio de Santo Domingo (1999): sin relación con el fallo de 2005."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2641",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio sociocultural de inmigrantes: sin relación con el fallo."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-0623",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Comercio fronterizo en Dajabón: sin relación con el fallo."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2785",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Migración y salud fronteriza: sin relación con el fallo."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2706",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Crisis de representación diplomática haitiana; la ficha admite que no hay respuesta oficial documentada a Yean y Bosico (es inferencia del lector)."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-2737",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Base CJPE sin extracto: no localiza la sentencia de 2005 ni sus supervisiones."
+   },
+   {
+    "afirmacion": "A-204",
+    "fuente": "F-0266",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Repositorio DSpace del Senado sin extracto sobre la sentencia ni sus supervisiones."
+   },
+   {
+    "afirmacion": "A-205",
+    "fuente": "F-2630",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Carta de intención policial dominico-haitiana del 6-VIII-2010 (seguridad): no trata la ayuda tras el terremoto, las cirugías en Jimaní ni las visitas; la ficha la da solo como contexto y admite que no mide actitudes."
+   },
+   {
+    "afirmacion": "A-205",
+    "fuente": "F-2737",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Base CJPE sin extracto sobre la ayuda de 2010; los decretos 24-10, 28-10 y 29-10 están en F-2749."
+   },
+   {
+    "afirmacion": "A-205",
+    "fuente": "F-0266",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Repositorio DSpace del Senado sin extracto sobre la ayuda de 2010; la Memoria 2010 está en F-2748."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2619",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Cable de 2004 sobre la reacción dominicana a la crisis haitiana (declaración del Senado): ni es de 2010 ni mide actitudes populares; es el cable cuyo par A-210 ya se retiró por pertenecer a otro asunto (Aristide 2004)."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2675",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-195",
+    "motivo": "Sentencia sobre la demanda de los Vicini contra The Price of Sugar (trato a braceros en bateyes, 2007): no trata la ayuda de 2010 ni actitudes; su asunto es la lectura rival del sistema de braceros (A-195)."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2670",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Editorial de 1991 sobre la acusación de esclavitud en los ingenios y el uso demagógico de la bandera: asunto de A-210/A-195, no de la ayuda de 2010 ni de actitudes populares."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2634",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "Cuadro del censo de 2010 con inmigrantes nacidos en Haití: cifra demográfica (A-219), no actitudes ni ayuda."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-0613",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "Artículo demográfico sobre la cifra del censo de 2010 (A-219). El par con A-219 ya existe."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2559",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "Divulgación sobre estimaciones del número de inmigrantes (EIH 2002, censo 2010): A-219, no A-206."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-0059",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "ENI-2012: volúmenes de inmigrantes y descendientes (A-219), no actitudes ni ayuda. El par con A-219 ya existe."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2558",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-220",
+    "motivo": "Informe del PNUD: las estimaciones 'más exageradas' de 1,5 a 3 millones de haitianos son el asunto de A-220 (cifra nacionalista de 'dos o tres millones')."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-1149",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-220",
+    "motivo": "La única cita es el rango de 900.000 a 1,2 millones de haitianos y descendientes (base estatal, EPU 2009): asunto de A-220/A-219; el resto del fallo Dorzema trata la muerte de siete personas en junio de 2000."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2785",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta a migrantes haitianos sobre salud y documentos: no trata la ayuda de 2010 ni actitudes dominicanas."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2733",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Propuesta de mercado común de Latortue (2004): relaciones oficiales sin contenido sobre la ayuda de 2010 ni actitudes populares; la ficha dice que solo sirve de contraste."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2723",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Boletín del GARR de 2003 sobre la declaración Aristide-Mejía y la pasividad del Estado haitiano: sin contenido sobre la ayuda de 2010 ni actitudes populares."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2703",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Visita de cortesía de Préval en 2006 (agenda de comisión mixta): sin contenido sobre la ayuda de 2010 ni actitudes populares."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-0162",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-246",
+    "motivo": "Candio estudia lo que los manuales haitianos dicen (o callan) sobre la RD: evidencia de A-246/A-248, no de la ayuda de 2010 ni de las actitudes populares dominicanas. El par con A-246 ya existe."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-0922",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Ferly analiza lo dominicano en la literatura haitiana (solo resumen): no trata la ayuda de 2010 ni el odio popular dominicano."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2678",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Intermediación urbana fronteriza (mercados, ropa usada, anomia): no trata la ayuda de 2010 ni mide actitudes."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-0623",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Dinámica comercial en Dajabón (perfil de vendedores, caos del mercado): no trata la ayuda de 2010 ni mide actitudes."
+   },
+   {
+    "afirmacion": "A-206",
+    "fuente": "F-2367",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Extractos de metodología de la encuesta FLACSO-OIM y de redadas durante el trabajo de campo: no tratan la ayuda de 2010 ni actitudes."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0203",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-227",
+    "motivo": "Resumen de congreso del Proyecto Genoma Dominicano sin extracto: sus cifras (50,3 % africano, 41,2 % europeo, 3,8 % nativo) son el asunto de A-227; la ficha dice que no trata la categoría 'indio'. El par con A-227 ya existe."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0204",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-235",
+    "motivo": "Bryc 2010 mide 41,8 % de ancestría africana en una muestra dominicana tomada en EE. UU.: asunto de A-235 y A-233, no de la categoría 'indio'. El par con A-235 ya existe."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0208",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-230",
+    "motivo": "D'Atanasio 2020 da la composición del cromosoma Y (59 % europeo/norteafricano, 38 % africano, 3 % nativo): asunto de A-230/A-231; la ficha dice que A-207 (autoidentificación) no se deriva de estos datos. El par con A-230 ya existe."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-2730",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Carta de intelectuales haitianos en solidaridad con víctimas de persecución en la RD (solo primeros párrafos): trata la persecución de 2005, no la categoría 'indio' ni la negritud; la ficha la da como contexto, no prueba."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0922",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Ferly analiza lo dominicano en el imaginario literario haitiano (resumen): no trata la categoría 'indio' ni la negritud dominicana."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0296",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "El extracto de Mangones (p. 150) critica que los Estados usen prejuicios para mantener la división insular; no trata la categoría 'indio' ni la desracialización."
+   },
+   {
+    "afirmacion": "A-207",
+    "fuente": "F-0098",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Ficha biográfica de Céspedes en El Nuevo Diario: solo consigna el título de una obra (no localizada); sin extracto."
+   },
+   {
+    "afirmacion": "A-208",
+    "fuente": "F-0162",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "El extracto (p. 478) dice que un manual dominicano critica el antihaitianismo; no trata 'indio', 'hispano', soberanía ni el pelo (tesis de Candelario)."
+   },
+   {
+    "afirmacion": "A-208",
+    "fuente": "F-0098",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Ficha biográfica de Céspedes sin extracto: no trata la tesis de Candelario ni el uso soberanista de 'indio' e 'hispano'."
+   },
+   {
+    "afirmacion": "A-209",
+    "fuente": "F-0109",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-207",
+    "motivo": "Price-Mars 1953 (II, p. 326) cita con ironía 'raza blanca, mestiza o autóctona' y el empadronamiento de 1935: lectura estática de la categoría (A-207/A-164), no el cambio gradual que afirma A-209; la adenda lo reconoce."
+   },
+   {
+    "afirmacion": "A-209",
+    "fuente": "F-1451",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-207",
+    "motivo": "Hancy Pierre (2015): las clases dominantes se reclaman de la hispanidad y niegan su raíz africana; continuidad de la categoría (A-207), no cambio en curso; la adenda lo dice."
+   },
+   {
+    "afirmacion": "A-209",
+    "fuente": "F-0842",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-207",
+    "motivo": "Savary (2013): la élite dominicana se incomoda con la herencia africana; lectura estática (A-207); la ficha dice que no describe el cambio en curso."
+   },
+   {
+    "afirmacion": "A-209",
+    "fuente": "F-3156",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-207",
+    "motivo": "Paret (2015) lista autodenominaciones 'indio puro/claro/oscuro' y afirma continuidad del rechazo a la raíz africana: A-207 (y A-164), no cambio gradual; la ficha lo dice."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2626",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Petición a la CIDH sobre entrenamiento de insurgentes haitianos en la RD (Guy Philippe, 2001-2004): viene de la petición del crítico sobre 'Aristide y la RD' y no trata el Decreto 233-91 ni las expulsiones; mismo patrón que el par A-210/F-2619 ya retirado."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2639",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Boletín LADB sobre la insurrección haitiana de 2004 y Guy Philippe en la frontera; no trata las expulsiones de 1991 ni de 1999-2000 (solo menciona un anuncio regional de repatriación en 2004)."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2644",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Sprague sobre paramilitarismo en Haití (solo trabajo de campo y cables de WikiLeaks): asunto de 2004, no del decreto de 1991 ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2650",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Despacho de AP de febrero de 2004 sobre rebeldes y soldados dominicanos muertos en Dajabón: crisis de 2004, no expulsiones de 1991 ni 1999-2000."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2651",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Despacho de AP de febrero de 2004 sobre combatientes dominicanos con los rebeldes haitianos: crisis de 2004, no expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2652",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reportaje de CNN de febrero de 2004 sobre armas desde la RD a los rebeldes haitianos: crisis de 2004, no expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2653",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Despacho de AP de febrero de 2004 sobre la petición de entregar a Philippe: crisis de 2004, no expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2656",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Nota de Jurist sobre la petición a la CIDH por el derrocamiento de Aristide (entrenamiento de insurgentes en la RD): crisis de 2004, no expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-0175",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-194",
+    "motivo": "Martínez (LARR 1999): esquema de contratos de braceros hasta 1986 (más de 20.000 al año) y trabajo 'no libre': asunto de A-194/A-196 (M14), no del decreto de 1991. El par con A-194 ya existe."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2561",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Informe del Banco Mundial sobre pobreza: cita 15.000-20.000 braceros; no trata el Decreto 233-91 ni expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2627",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2007 (diseño, cobertura, violencia contra la mujer): ningún extracto trata el decreto de 1991 ni expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2780",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de bateyes 2013 (portal sin extracto etiquetado): no trata el decreto de 1991 ni expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2636",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Encuesta de 2016 sobre discriminación percibida en bateyes: datos posteriores a TC/0168/13 que no tratan el decreto ni las expulsiones (la ficha admite que no describen el periodo)."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-0059",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "ENI-2012: volúmenes de inmigrantes y descendientes (A-219), no expulsiones. El par con A-219 ya existe."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2634",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-219",
+    "motivo": "Cuadro del censo de 2010 con nacidos en Haití (A-219), no expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2641",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio sociocultural de inmigrantes: sin relación con el Decreto 233-91 ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2785",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Estudio de migración y salud fronteriza: sin relación con el decreto ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-0623",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Comercio fronterizo en Dajabón (caos del mercado): sin relación con el decreto ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2678",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Intermediación urbana fronteriza (anomia, militarización): extracto genérico sin relación con las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2367",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Solo menciona que las redadas perturbaron el trabajo de campo de una encuesta; no trata el decreto ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2764",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Reseña de Matibag sobre el uso de fuentes secundarias; la ficha dice que no sirve para hechos de 1986-2003."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-0162",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Candio: los manuales haitianos callan el periodo de Aristide (1991-2004) y las cuestiones migratorias; es juicio sobre libros de texto (A-246), no evidencia del decreto ni de las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2673",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-195",
+    "motivo": "Acta de la Cámara de Diputados de 2007 que condena la campaña que acusa a la industria azucarera de prácticas esclavistas (The Price of Sugar): asunto de A-195, no del decreto de 1991."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2675",
+    "accion": "reasignar",
+    "nueva_afirmacion": "A-195",
+    "motivo": "Sentencia de apelaciones sobre la demanda de los Vicini contra The Price of Sugar (2007): trato a braceros, no expulsiones de 1991 ni de 1999-2000."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2729",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Los extractos son la nota biográfica del embajador Alexandre y su libro en preparación; sin contenido sobre expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2734",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Visita ministerial haitiana de enero de 2005 y petición de más protección consular: sin contenido sobre el decreto ni las expulsiones de 1991 o 1999-2000."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2723",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Boletín del GARR de 2003 sobre la declaración Aristide-Mejía y Guy Alexandre: sin contenido sobre expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2733",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Propuesta de mercado común de Latortue (2004): la ficha dice que no trata expulsiones ni la Ley 285-04."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2703",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Visita de Préval de 2006: agenda de inmigración y comisión mixta sin datos sobre expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-2705",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Agenda de temas del GARR (2004-2005): sin datos sobre el decreto ni las expulsiones."
+   },
+   {
+    "afirmacion": "A-210",
+    "fuente": "F-1149",
+    "accion": "retirar",
+    "nueva_afirmacion": "",
+    "motivo": "Caso Dorzema (2012): persecución de un camión y muerte de siete personas en junio de 2000, que la ficha distingue de las expulsiones masivas de 1999-2000 y del caso de 2014 (F-0523) que menciona A-210; solo aporta una estimación de población."
+   }
+  ],
+  "patron_detectado": "No hay un desplazamiento sistemático de ids por buscador ni una renumeración que haya movido los pares de M15: los 685 pares (9 afirmaciones, A-202 a A-210) tienen ficha en M15.md salvo 5 de la adenda de simetría, y 662 tienen al menos un extracto etiquetado con la afirmación. Los raw/M15-*.json usan los ids vigentes de registro.csv (0 etiquetas fuera de M15). Se detectaron tres desvíos distintos. (1) Peticiones del crítico con afirmación mal puesta: la petición 'Aristide y la RD' (crisis haitiana de 2004, Guy Philippe, petición a la CIDH) quedó etiquetada A-210 aunque no trata el Decreto 233-91 ni las expulsiones; es la misma causa del par A-210/F-2619 ya retirado (8 pares más, y F-2619 sigue en A-206); lo mismo ocurre con la petición sobre la demanda de los Vicini y la pelicula The Price of Sugar (F-2675, F-2673), que es asunto de A-195. (2) Asignación por vecindad temática de las lentes científica y colonial-primaria: encuestas de posesión de acta de nacimiento (ENDESA, bateyes, ENHOGAR), cifras de inmigrantes (ENI, censo de 2010, PNUD) y estudios de comercio fronterizo se pegaron a la afirmación M15 más cercana (A-203, A-204, A-206, A-210) cuando su asunto es A-219/A-220 (M16) o ninguno; igualmente tres artículos genéticos (F-0203, F-0204, F-0208) se etiquetaron A-207 aunque son A-227, A-235 y A-230. Los portales (F-2737, F-0266) quedaron como pares sin extracto. (3) Cinco pares de la adenda de simetría haitiana (F-0109, F-1451, F-0842, F-3156) se etiquetaron A-209 (cambio gradual de identidad) cuando describen la lectura estática de la categoría 'indio' (A-207); las propias fichas lo reconocen. No se tocaron los pares de censo, LAPOP y cédula bajo A-207, A-208 y A-209 porque la evidencia resolutoria de esas afirmaciones los pide expresamente, ni los pares de contexto que la ficha declara como tal (elecciones de 1994 y 1996, relaciones oficiales de 2005, memorias de la Cancillería). Total propuesto: 108 acciones (84 retirar y 24 reasignar; 14 de las reasignaciones apuntan a un par que ya existe, por lo que basta retirarlas).",
+  "otros_modulos_sospechosos": [
+   "M16: 3 extractos de sus JSON crudos etiquetan A-210 (afirmación de M15), 21 pares de cobertura sin ficha propia y 72 pares sin extracto etiquetado (5,9 %); mezcla genética, demografía y la cifra del TC; revisar sobre todo A-213, A-223 y A-217 y las fichas de F-0109 y F-1451 que alimentan pares con A-229, A-230 y A-239 solo como tesis históricas, no como datos genéticos.",
+   "M13: 121 pares (9,8 %, el mayor porcentaje) cuyo extracto no está etiquetado con la afirmación en ninguna ficha M##.md, concentrados en A-166, A-172, A-190, A-179 y A-165; F-1356, F-0100, F-0350 y F-0109 son las fuentes más repetidas, y F-0109 se desglosó en la pasada correctiva.",
+   "M08: 97 pares sin extracto etiquetado (6,4 %), concentrados en A-107, A-108 y A-094, casi la mitad con verificación solo-localizada; riesgo de pares heredados de fichas fusionadas.",
+   "M05: 25 etiquetas de sus JSON crudos apuntan a afirmaciones de M03 y M04 (A-049, A-051, A-052, A-053); puede ser cruce legítimo (cimarronaje, Ryswick) pero hay que confirmar que no son ids de otra numeración.",
+   "M14: 6 etiquetas fuera de módulo (A-187 de M13, A-211 y A-212 de M16) y es vecino directo de M15; F-0175 y F-1098 de M14 aparecieron como pares de M15.",
+   "M12: 11 etiquetas fuera de módulo (A-147 de M11, A-193 de M13) y sus peticiones del crítico siguieron el mismo circuito que M15.",
+   "M02, M05, M00 y M01 (3-5 % de pares sin extracto etiquetado): sin indicios de desplazamiento, pero conviene aplicar el mismo recuento que aquí (pares sin extracto etiquetado y fuentes de portal sin extracto) antes de la Fase 3."
+  ]
+ },
+ "glosario": {
+  "filas_antes": 136,
+  "filas_despues": 145,
+  "filas_corregidas": 65,
+  "filas_nuevas": 9,
+  "justificaciones_reformuladas": 29,
+  "pendientes_por_verificar": [
+   "Fila 7 (doctrina 1805-1846): origen del lema 'l'île une et indivisible' (no es texto constitucional); origen documental de 'la mer pour frontière'; el Tratado de 1874 no se cotejó (los arts. de las constituciones de 1805, 1816, 1846, 1946 y 1987 sí, en mjp.univ-perp.fr)",
+   "Fila 3 (duda 11): 'parte española' en las constituciones dominicanas de 1875, 1896 y 1927, citada solo según Balaguer y Vega B.; cotejar en la Colección de Leyes",
+   "Fila 96: décret-loi haitiano de 1935 (Vincent) contra las 'pratiques superstitieuses' y campaña antisupersticiosa de 1941-1942; leer el libro de Ramsey (2011), conocido solo por reseña (F-0158)",
+   "Fila 21: edición crítica de la elegía 'Anacaona' de Salomé Ureña (F-1594 se leyó en OCR de archive.org)",
+   "Fila 35: autor del rótulo fijo 'Unification de 1801' (el corpus solo tiene 'unification du territoire', Hector 2009, F-0736)",
+   "Fila 39: autor de 'secuestro de niños' (historiografía y prensa dominicanas)",
+   "Fila 5: uso actual de 'partie de l'Est' en el lenguaje oficial y de prensa haitiano (solo documentado en 1924-1930 y en 2006)",
+   "Fila 8: fecha de 1838 que da Bachiller y Morales para Rafinesque (¿lapsus?)",
+   "Fila 67: búsqueda dirigida de epítetos haitianos hostiles hacia los dominicanos en el siglo XIX (la columna haitiana es parcial)",
+   "Fila 107: texto del art. 10 del Tratado fronterizo de 1929",
+   "Fila 115: definiciones de 'bossale' y 'créole' con fuente del corpus",
+   "Fila 127: Derby 1994 y Turits 2002 sin leer completos (tesis A-178)",
+   "Fila 132: cuentas fiscales de los departamentos del este 1825-1843 (peso de la indemnización sobre el este, A-104)",
+   "Duda 10 (resolver con primarias): fecha del Código Rural, 6 o 13 de mayo de 1826 (F-0035, F-0746); vigencia del feriado 'Découverte d'Haïti' (decreto de 1985 frente a Le Quotidien 2024); título de 'Libertador' de Santana (1844 o 1849); último pago de la deuda (1883 o 1888); fecha de Los Alcarrizos (1823 o 1824)",
+   "Fila nueva 'Ideología de rechazo a lo dominicano': la palabra 'antidominicanismo' de Cassá (2022) no aparece en los extractos leídos de F-0419 y F-0420; búsqueda dirigida de un término haitiano propio",
+   "Fila nueva 'Categorías de color y mezcla de la colonia francesa y de Haití': 'grimaud', 'marabou' y el léxico de color del kreyòl actual no tienen fuente en el corpus; cita literal de 'griffe' y 'marabout' en el Hand Book of Haiti de 1892 (F-1926), que solo consta en la ficha de lectura",
+   "Duda 6: búsqueda dirigida con la lente haitiana en la Fase 3 para las 30 columnas haitianas con '—' de los bloques temáticos (más 5 en el bloque de etiquetas académicas)",
+   "Duda 11: puntos [POR VERIFICAR] heredados en filas que ya estaban: Marcorix (Fouchard), xis/hios, Guarocuya, anba fil, el topónimo Masacre, la confiscación de bienes de 1844 y 'bovarysme racial'"
+  ],
+  "archivo_cambios": "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\02-fuentes\\consolidacion\\glosario-cambios-correctiva.md"
+ }
+}
