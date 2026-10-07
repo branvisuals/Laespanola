@@ -1,0 +1,53 @@
+{
+ "veredicto": "cerrar-con-condiciones",
+ "condiciones": [
+  "C1. Corregir en cobertura.csv los 3 pares inválidos de la muestra de control (A-045/F-2086, A-160/F-2835, A-210/F-2619), que siguen como 'descargada-y-leida'. Auditar en M15 los pares heredados de ids provisionales (A-210 se reutilizó al renumerar).",
+  "C2. Registrar en decisiones.md que un par de cobertura indica pertinencia temática, no apoyo. De 30 pares de la muestra, 29 tienen la cita literal, pero solo 3 respaldan el enunciado completo, 24 lo respaldan en parte, lo matizan o sirven de contraste, y 3 no tienen relación. Añadir una columna 'relacion' (apoya / matiza / contradice / contexto) antes de la Fase 3 o al principio.",
+  "C3. Desglosar las fichas que agrupan varias obras: F-0065 (55 afirmaciones), F-0109 (145 pares), F-0069 y F-0075. Corregir el título de F-0097. Reasignar a F-0137 los extractos de Terreurs de frontière que están en F-0119, sin fusionar las filas.",
+  "C4. Actualizar 07-sintesis/limites.md con el reintento de acceso: 27 fuentes leídas, 34 parciales, 80 localizadas sin texto, 9 no localizadas y 1 inexistente; los pares con fallo de fetch bajan de 148 a 14. Añadir lo que falta de la muestra de lagunas: el poema de Oswald Durand (M10) y los vols. I y III de Relaciones históricas (M04).",
+  "C5. Corregir antes de la Fase 4 las filas del glosario de mayor peso: 7 (cita no literal de 'L'île une et indivisible' y el error sobre la Constitución de 1946), 100 (TC/0168/13 con el marco de un lado), 115 (bozal/ladino sin nota y con categorías que no equivalen), 29, 67 y 96 (columnas mal asignadas o '—' desmentidas por el propio corpus).",
+  "C6. Anotar en 00-plan/decisiones.md la consolidación (los dos commits) y este dictamen, y hacer commit y push del cierre."
+ ],
+ "riesgos_fase3": [
+  "Volumen: M16 tiene 701 fuentes, M15 457, M08 430 y M13 427. No se pueden leer a fondo; hay que priorizar por nivel de fuente y por afirmación en disputa.",
+  "Divulgación: 2.028 de 11.165 pares leídos son de divulgación, terciarias o portales (39 % de las fuentes en M16). En la tradición dominicana el 29 % de los pares son de divulgación, frente al 16 % en la haitiana; 20 afirmaciones solo tienen voz dominicana a través de prensa, y 8 la haitiana.",
+  "Textos largos sin copia local en 02-fuentes/textos/ (solo hay unos 23): Madiou F-0106 (92 pares), García F-0068 (69), Ardouin F-0107 (64), Price-Mars F-0109 (145), Oviedo F-0009, Charlevoix F-0019, Moreau F-0021 y F-0022, Sánchez Valverde F-0020. Sin la copia local no se puede citar por número de línea (método, sección 16).",
+  "Un par de cobertura no equivale a respaldo. Sin una columna de relación, la Fase 3 podría contar como apoyo pares que solo son contexto o contraste (el 10 % de la muestra fue inválido).",
+  "Fichas que agrupan varias obras (F-0065, F-0109, F-0069, F-0075): pueden producir citas atribuidas a la obra equivocada.",
+  "Ids provisionales reutilizados al renumerar las afirmaciones (caso A-210): puede haber más pares mal enlazados en los módulos con propuestas fusionadas.",
+  "Primarias infrautilizadas: FRUS 1937 (F-0049) está descargado y solo aparece en 3 pares; FRUS 1863 y 1864 (F-0043, F-0044), en 0.",
+  "80 fuentes siguen localizadas sin texto tras el reintento (bajo derechos, archivo físico, Cloudflare o Anubis). Las afirmaciones que dependen de ellas no pueden superar B.",
+  "Simetría de etiqueta: 14 de las 20 filas nuevas de la adenda son de prensa. Las asimetrías restantes (10 afirmaciones sin fuente haitiana y 6 sin dominicana) se concentran en la genética de M16.",
+  "Prioridad propuesta: 58 primarias en 8 bloques. Conquista: F-0006, F-0009, F-0010, F-1589, F-0001, F-0002, F-0011, F-2131, F-0012, F-0013. Colonias: F-0014, F-0016, F-0024, F-0019, F-0020, F-0021, F-0022, F-1628, F-0023, F-0025. Revolución y 1821-22: F-0027, F-0028, F-0029, F-0032, F-0026, F-0030, F-1848, F-0066, F-0034, F-2218, F-2219, F-2222. 1822-44: F-0035, F-0746, F-1505, F-1060, F-0792, F-0037, F-0038, F-0039, F-0040. 1844-1915: F-0979, F-1055, F-1056, F-0051, F-1004, F-1054, F-0041. 1915-61: F-0055, F-0049, F-0050, F-0057, F-0100, F-0331, F-0350, F-1299. 1961-2026: F-2247, F-2480, F-0063, F-0524, F-0061, F-0062, F-0523, F-0059, F-0060. Científica: F-0220."
+ ],
+ "glosario_problemas": [
+  "Fila 7 (doctrina constitucional haitiana de 1805-1846). Texto: '\"L'île une et indivisible\" (constituciones de 1805, art. 15; 1816, art. 41; 1846)' y 'la Constitución haitiana de 1946 (art. 1) repite la fórmula'. Problema, cotejado en mjp.univ-perp.fr: los artículos dicen 'L'Empire/La République d'Haïti est un(e) et indivisible'; la reivindicación de la isla está en otros artículos (1805, art. 18; 1816, art. 40); la de 1946 no reclama la isla. Corrección: citar los dos artículos por separado y borrar 'repite la fórmula'.",
+  "Fila 100. Texto: 'Pérdida de la nacionalidad por la sentencia TC/0168/13'. Problema: el término adopta el marco de la CIDH y de la tradición haitiana. Corrección: 'Efectos de la sentencia TC/0168/13 sobre la nacionalidad de nacidos en RD de padres extranjeros sin residencia legal'.",
+  "Fila 115. Texto: 'Esclavizado recién llegado de África / nacido o criado en tierras cristianas', con la nota vacía ('N: [M03, M05]'). Problema: 'ladino' (africano hispanizado) no equivale a 'créole' (nacido en la colonia). Corrección: separar las categorías y escribir la nota.",
+  "Fila 29. Texto: 'HT: \"Atenas del Nuevo Mundo\", para la pretensión local (Price-Mars 1953)'. Problema: es un epíteto dominicano colocado en la columna haitiana. Corrección: moverlo a la columna dominicana y citar a Price-Mars como quien lo comenta.",
+  "Fila 67 (designaciones hostiles del siglo XIX). Texto: 'HT: —' con la nota 'Las propuestas no registran epítetos haitianos equivalentes'. Problema: el propio glosario recoge 'faction dite dominicaine' (fila 46), 'scissionnistes' (fila 56) e 'insurgés' (fila 57). Corrección: llenar la columna con esos términos.",
+  "Fila 96 (rótulos oficiales sobre prácticas rituales). Texto: 'HT: —'. Problema: Haití tiene el décret-loi de 1935 contra las 'pratiques superstitieuses' (Vincent) y la campaña antisupersticiosa de 1941-42. Corrección: añadirlos [POR VERIFICAR con el texto del décret-loi].",
+  "Fila 21 (Anacaona). Texto: 'DO: —' con la nota 'Las propuestas no registran un epíteto dominicano equivalente'. Problema: existe el poema 'Anacaona' de Salomé Ureña (1880). Corrección: añadirlo [POR VERIFICAR].",
+  "Fila 17. Texto: 'Ejecución de los señores de Jaragua y de Anacaona (1503)'. Problema: 'ejecución' adopta el marco de Oviedo ('justicia'). Corrección: 'Muerte de los caciques de Jaragua y de Anacaona por orden de Ovando (1503)'.",
+  "Fila 48. Texto: 'Partidarios dominicanos de la unión con Haití (1821-1844)'. Problema: aplica 'dominicano' a ese período, lo que contradice la fila 6. Corrección: 'Habitantes del este partidarios de la unión con Haití'.",
+  "Fila 127. Texto: 'Comunidad bicultural anterior a 1937.' Problema: afirma como hecho la tesis A-178, que está en disputa. Corrección: atribuirla a Turits y a Derby.",
+  "Fila 132. Texto: 'Peso sobre el este en 1822-1844.' Problema: afirma como hecho la tesis A-104, que está en disputa. Corrección: atribuirla a su autor.",
+  "Filas 35, 39 y 5. Textos: 'Unification de 1801', 'secuestro de niños (historiografía y prensa)' y '\"partie de l'Est\" se usa hoy en el lenguaje oficial y periodístico haitiano'. Problema: atribuciones sin fuente. Corrección: poner el autor o [POR VERIFICAR].",
+  "Filas 44, 53, 62 y 74. Textos: 'Victoria de Sánchez Ramírez', 'Levantamiento prohispano de Los Alcarrizos', 'que Haití retuvo' y 'Robo y tráfico de ganado'. Problema: los descriptivos se inclinan hacia un lado. Corrección: 'Guerra de 1808-1809 contra el gobierno francés del este', 'Conspiración', 'bajo control haitiano después de 1844', 'Circulación ilícita de ganado'.",
+  "Fila 8. Texto: 'Rafinesque, desde 1832'. Problema: el plan da 1836. Corrección: cotejar las dos fechas.",
+  "Fila 107. Texto: 'el lado haitiano nombra la obra de forma que encaje con el art. 10 del Tratado de 1929'. Problema: atribuye una intención sin fuente. Corrección: atribuirla o reformularla.",
+  "General: hay 42 columnas '—' (11 dominicanas y 31 haitianas). En 29 de ellas la justificación es 'las propuestas no traen', que describe el proceso y no la tradición. Corrección: reformular como 'las fuentes leídas de la tradición X no registran…' y hacer una búsqueda dirigida. Faltan además dos filas por simetría: el antidominicanismo (Cassá 2022) y el léxico haitiano de color (grimaud, marabou).",
+  "Dudas del editor: 1, aceptar y verificar con grep; 2, resuelta por mi cotejo (fila 7); 3, cambiar el término de 1937 a 'haitianos y personas de ascendencia haitiana nacidas en RD'; 4, aprobar el cambio en 'batey'; 5, una traducción no es un nombre propio (rotular '(traducción)'); 6, de acuerdo con la búsqueda dirigida; 7, sí al bloque 'Etiquetas de la crítica académica'; 8, anotar las fusiones en el CSV de descartados; 9, 'devolución' no es neutro y propongo 'salidas forzadas hacia Haití ejecutadas por autoridades dominicanas'; 10, resolver con primarias (F-0035, F-0746); 11, pasar los [POR VERIFICAR] a la lista de lectura de la Fase 3; 12 y 13, sin cambios."
+ ],
+ "decisiones_para_bran": [
+  "Aprobar el cierre con condiciones y una pasada correctiva corta (unos 3 o 4 agentes en Sonnet) antes de la Fase 3, con brief según el protocolo de modelos.",
+  "Decidir si se añade ahora a cobertura.csv la columna 'relacion' (apoya / matiza / contradice / contexto) o si la llena la Fase 3.",
+  "Política de fichas: una por obra con el tomo como localizador, o una por tomo (grupos 37, 63 y 75); y aprobar el desglose de las fichas que agrupan varias obras (F-0065, F-0109, F-0069, F-0075).",
+  "Dar el visto bueno a los cambios de término cargado del glosario: filas 7, 17, 100 y 115, y dudas 3 (1937) y 9 (devoluciones).",
+  "Aprobar o reequilibrar la lista de 58 primarias para la Fase 3 y elegir los modelos por agente (lectura en Sonnet; fichas de proveniencia en disputa en Opus).",
+  "Decidir si la divulgación basta como cobertura de una tradición o si se exige al menos una fuente académica por tradición en las afirmaciones en disputa.",
+  "Tarea manual pendiente: préstamo en archive.org de La isla al revés (F-0070) para las afirmaciones A-19x de M14."
+ ],
+ "archivo": "C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola\\00-plan\\fase2-cierre.md",
+ "busquedas_usadas": 2
+}

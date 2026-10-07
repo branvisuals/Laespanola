@@ -1496,3 +1496,23 @@ Las ausencias aparecen en los dos sentidos. La tabla reordena por tradición las
 ---
 
 Versión de la Fase 2 (barrido de fuentes); se completa en las Fases 3 a 7. Las lagunas que se cierren o se corrijan se registran en `00-plan/decisiones.md` y se actualizan aquí.
+
+## 6. Actualización tras el reintento de acceso y el dictamen de cierre (2026-10-07)
+
+Siete reintentadores volvieron sobre las 151 fuentes sin URL, no localizadas, bloqueadas o con fallo de fetch (ver `02-fuentes/consolidacion/reintentar-acceso.csv` y `extractos-reintento.csv`):
+
+| Resultado del reintento | Fuentes |
+|---|---|
+| Leídas (texto completo o PDF abierto) | 27 |
+| Leídas en parte | 34 |
+| Localizadas sin texto (bajo derechos, reseña, archivo físico, bloqueo de robots) | 80 |
+| Siguen sin localizarse | 9 |
+| Inexistentes o mal descritas en el registro | 1 |
+
+Los pares de cobertura con fallo de fetch bajan de 148 a 14. Las 80 fuentes localizadas sin texto marcan el techo de confianza B para las afirmaciones que dependen solo de ellas (escala de confianza, regla del modo de acceso). Lagunas señaladas por el crítico de cierre que faltaban en las tablas anteriores:
+
+| Módulo | Qué falta | Por qué | Afirmaciones | Dónde podría estar |
+|---|---|---|---|---|
+| M10 | Poema de Oswald Durand sobre la Restauración dominicana (texto íntegro y datación) | No localizado en línea durante el barrido | ver sección 6 de `M10.md` | Antologías de Durand (*Rires et pleurs*, 1896); dLOC; Gallica |
+| M04 | Rodríguez Demorizi, *Relaciones históricas de Santo Domingo*, vols. I y III | Solo se localizó el vol. II en texto | ver sección 6 de `M04.md` | Catálogo de la ADH; AGN; HathiTrust (préstamo) |
+

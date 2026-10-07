@@ -19,7 +19,7 @@ Investigación documental sobre la historia de la isla de La Española (Ayiti, Q
 
 - **Fase 0** (infraestructura): completa (2026-10-06).
 - **Fase 1** (narrativas y registro de afirmaciones): completa (2026-10-06). Tres narrativas en `03-afirmaciones/narrativas/` y 263 afirmaciones contrastables en `03-afirmaciones/registro.md` y `registro.csv`, todas en estado pendiente de verificación.
-- **Fase 2** (barrido de fuentes por módulo): barrido completo (2026-10-07), en modo A desde una sesión local. Diecisiete bibliografías anotadas en `02-fuentes/por-modulo/`, registro de fuentes con 3.140 filas y cobertura afirmación-fuente en `03-afirmaciones/cobertura.csv` (11.535 pares; las 263 afirmaciones con fuente). Queda la consolidación de cierre (duplicados, glosario, límites, muestra de control) descrita en `00-plan/decisiones.md`.
+- **Fase 2** (barrido de fuentes por módulo): cerrada con condiciones (2026-10-07; dictamen en `00-plan/fase2-cierre.md`). Diecisiete bibliografías anotadas en `02-fuentes/por-modulo/`, registro de fuentes con 3.160 filas, cobertura afirmación-fuente con 11.613 pares para las 263 afirmaciones, glosario de 136 filas y primera versión de `07-sintesis/limites.md`. Pendiente una pasada correctiva corta antes de la Fase 3 (ver `00-plan/decisiones.md`).
 - Fases 3 a 8: pendientes. Ver `00-plan/plan.md`.
 
 ## Continuar en otra sesión
