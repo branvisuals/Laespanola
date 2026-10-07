@@ -19,6 +19,9 @@ export const meta = {
 //
 // args.fecha (YYYY-MM-DD), args.modelos {juez, reintentador, buscador, registrador, agrupador, editor, extractor, redactor, verificador},
 // args.lotes_duplicados (por defecto 4), args.lotes_acceso (por defecto 7), args.max_busquedas_simetria (80), args.max_busquedas_reintento (40)
+// args.solo: para repetir solo una parte (p. ej. agentes caidos por error de servidor), sin tocar el resto:
+//   { jueces: false, acceso_lotes: [1, 3], simetria: ["haitiana"], glosario: false, limites: "redactor" | false, muestra_lotes: [3] }
+//   Los numeros de lote conservan el reparto original (lote n de LOTES), asi que cubren exactamente las mismas filas.
 
 const REPO = 'C:\\Users\\branl\\OneDrive\\Desktop\\Claude\\La Espanola'
 const REPO_SH = '/c/Users/branl/OneDrive/Desktop/Claude/La Espanola'
@@ -31,6 +34,10 @@ const LOTES_DUP = (args && args.lotes_duplicados) || 4
 const LOTES_ACC = (args && args.lotes_acceso) || 7
 const MAX_SIM = (args && args.max_busquedas_simetria) || 80
 const MAX_REI = (args && args.max_busquedas_reintento) || 40
+const SOLO = (args && args.solo) || null
+const LOTES_ACC_LISTA = (SOLO && Array.isArray(SOLO.acceso_lotes)) ? SOLO.acceso_lotes : Array.from({ length: LOTES_ACC }, (_, i) => i + 1)
+const LENTES_SIM = (SOLO && Array.isArray(SOLO.simetria)) ? SOLO.simetria : ['haitiana', 'dominicana']
+const MUESTRA_LOTES = (SOLO && Array.isArray(SOLO.muestra_lotes)) ? SOLO.muestra_lotes : [1, 2, 3]
 
 const REGLAS = `
 REGLAS COMUNES (lee antes de empezar):
@@ -172,7 +179,7 @@ Eres el REGISTRADOR DE SIMETRIA. Dos buscadores han escrito ${archivos.join(' y 
 1. En Bash: cd "${REPO_SH}" && git status --short (pueden aparecer archivos de otros agentes de la consolidacion: no los toques) && git fetch origin ${RAMA} (si origin va por delante y el arbol esta limpio, git pull --rebase; si esta sucio, sigue sin pull y anotalo).
 2. Lee ${REPO}\\02-fuentes\\registro.csv con python -X utf8: ultimo F-####, indice por URL normalizada y por autor+titulo. Para cada fuente de los JSON: si ya existe (id_existente o coincidencia), NO crees fila: anade el modulo si falta, mejora url y acceso solo si lo nuevo esta verificado y anota " | SIM ${FECHA}: <que aporta>"; si no existe, asignale el siguiente F-#### correlativo y anade la fila con las 12 columnas (id,tipo,autor,titulo,anio,idioma,tradicion,modulos,url,acceso,fiabilidad,notas; notas = proveniencia y fiabilidad en una frase, afirmaciones que toca, verificacion, "SIM ${FECHA}"). Nunca borres ni renumeres.
 3. Anade a ${REPO}\\03-afirmaciones\\cobertura.csv (cabecera afirmacion,fuente,modulo,verificacion,ubicacion,fecha) un par por cada afirmacion que toque cada extracto, sin duplicar pares existentes (si el par existe, conserva la mejor verificacion y une ubicaciones).
-4. Escribe ${REPO}\\02-fuentes\\por-modulo\\adenda-simetria.md: introduccion de 100 palabras (que asimetria se corrigio, cuantas afirmaciones siguen sin fuente de cada tradicion y por que, segun las lagunas de los buscadores) y una ficha por fuente (id definitivo, autor, titulo, ano, proveniencia, acceso con URL y verificacion, fiabilidad, tabla de extractos con afirmaciones, notas), agrupadas por modulo.
+4. Escribe ${REPO}\\02-fuentes\\por-modulo\\adenda-simetria.md (si ya existe de una corrida anterior, AMPLIALA con las fichas nuevas y actualiza su introduccion; no la sustituyas): introduccion de 100 palabras (que asimetria se corrigio, cuantas afirmaciones siguen sin fuente de cada tradicion y por que, segun las lagunas de los buscadores) y una ficha por fuente (id definitivo, autor, titulo, ano, proveniencia, acceso con URL y verificacion, fiabilidad, tabla de extractos con afirmaciones, notas), agrupadas por modulo.
 5. Valida con python -X utf8: registro.csv 12 columnas, ids unicos y correlativos sin huecos; cobertura.csv 6 columnas; adenda sin ids provisionales.
 6. git add -- 02-fuentes/registro.csv 03-afirmaciones/cobertura.csv 02-fuentes/por-modulo/adenda-simetria.md 02-fuentes/por-modulo/raw/SIM-haitiana.json 02-fuentes/por-modulo/raw/SIM-dominicana.json && git commit -m "Fase 2, consolidacion: fuentes de simetria (<n> nuevas, <k> actualizadas, <c> pares)" -m "Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>" && git push origin ${RAMA}. Si el push falla, git pull --rebase y reintenta una vez; si falla otra vez, deja el commit local y reportalo.
 Devuelve la salida estructurada.`
@@ -224,13 +231,13 @@ log(`Consolidacion de la Fase 2: ${LOTES_DUP} jueces, ${LOTES_ACC} reintentadore
 
 const cadenas = await parallel([
   // Duplicados
-  () => parallel(Array.from({ length: LOTES_DUP }, (_, i) => () =>
+  async () => (SOLO && SOLO.jueces === false) ? [] : parallel(Array.from({ length: LOTES_DUP }, (_, i) => () =>
     agent(promptJuez(i + 1, LOTES_DUP), opt('juez', { label: `duplicados:lote-${i + 1}`, phase: 'Duplicados', schema: JUEZ_SCHEMA })))),
   // Acceso
-  () => parallel(Array.from({ length: LOTES_ACC }, (_, i) => () =>
-    agent(promptReintento(i + 1, LOTES_ACC), opt('reintentador', { label: `acceso:lote-${i + 1}`, phase: 'Acceso', schema: REINTENTO_SCHEMA })))),
+  async () => parallel(LOTES_ACC_LISTA.map(n => () =>
+    agent(promptReintento(n, LOTES_ACC), opt('reintentador', { label: `acceso:lote-${n}`, phase: 'Acceso', schema: REINTENTO_SCHEMA })))),
   // Simetria: dos buscadores y un registrador
-  () => parallel(['haitiana', 'dominicana'].map(l => () =>
+  async () => !LENTES_SIM.length ? { buscadores: [], registro: null } : parallel(LENTES_SIM.map(l => () =>
     agent(promptBuscadorSimetria(l), opt('buscador', { label: `simetria:${l}`, phase: 'Simetria', schema: BUSQUEDA_SCHEMA }))))
     .then(async (bs) => {
       const ok = bs.filter(Boolean)
@@ -241,7 +248,7 @@ const cadenas = await parallel([
       return { buscadores: ok, registro: reg }
     }),
   // Glosario: tres agrupadores y un editor
-  () => parallel(PERIODOS.map(p => () =>
+  async () => (SOLO && SOLO.glosario === false) ? { agrupadores: [], editor: null } : parallel(PERIODOS.map(p => () =>
     agent(promptAgrupador(p), opt('agrupador', { label: `glosario:${p.key}`, phase: 'Glosario', schema: ARCHIVO_SCHEMA }))))
     .then(async (as) => {
       const ok = as.filter(Boolean)
@@ -252,7 +259,9 @@ const cadenas = await parallel([
       return { agrupadores: ok, editor: ed }
     }),
   // Limites: tres extractores y un redactor
-  () => parallel(PERIODOS.map(p => () =>
+  async () => (SOLO && SOLO.limites === false) ? { extractores: [], redactor: null }
+    : (SOLO && SOLO.limites === 'redactor') ? { extractores: [], redactor: await agent(promptRedactorLimites(PERIODOS.map(p => `${CONS}\\lagunas-${p.key}.md`)), opt('redactor', { label: 'limites:redactor', phase: 'Limites', schema: ARCHIVO_SCHEMA })) }
+    : parallel(PERIODOS.map(p => () =>
     agent(promptExtractor(p), opt('extractor', { label: `limites:${p.key}`, phase: 'Limites', schema: ARCHIVO_SCHEMA }))))
     .then(async (es) => {
       const ok = es.filter(Boolean)
@@ -263,8 +272,8 @@ const cadenas = await parallel([
       return { extractores: ok, redactor: red }
     }),
   // Muestra de control
-  () => parallel(Array.from({ length: 3 }, (_, i) => () =>
-    agent(promptVerificador(i + 1, 3), opt('verificador', { label: `muestra:lote-${i + 1}`, phase: 'Muestra', schema: VERIFICACION_SCHEMA, effort: 'high' })))),
+  async () => parallel(MUESTRA_LOTES.map(n => () =>
+    agent(promptVerificador(n, 3), opt('verificador', { label: `muestra:lote-${n}`, phase: 'Muestra', schema: VERIFICACION_SCHEMA, effort: 'high' })))),
 ])
 
 const [jueces, reintentos, simetria, glosario, limites, verificadores] = cadenas
