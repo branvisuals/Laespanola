@@ -20,6 +20,11 @@ export const meta = {
 //   args.registrar_solo : modulos cuya busqueda y fusion ya existen en disco (M##.md y M##.nuevas/existentes/cobertura.csv
 //                         de una corrida anterior): se omiten busqueda y fusion y corren solo critico, segunda ronda si hace
 //                         falta y registrador. Ejemplo: ["M05","M06"].
+//   args.lentes_solo    : por modulo, las lentes cuyo buscador de ronda 1 debe correr (las demas ya tienen su JSON en raw/):
+//                         {"M12": ["dominicana","colonial-primaria","internacional","cientifica"], "M14": []}. Una lista vacia
+//                         significa "no buscar: fusionar lo que ya hay".
+//   args.raw_previos    : por modulo, rutas (relativas al repo) de JSON crudos de ronda 1 ya existentes que la fusion debe
+//                         incluir junto a los nuevos: {"M12": ["02-fuentes/por-modulo/raw/M12-r1-haitiana.json"], "M14": [...5]}.
 //   args.reparar        : reparaciones previas a los modulos, cada una {modulo, tipo, ...}:
 //                         {modulo:"M09", tipo:"unir-md", fuente:"02-fuentes/por-modulo/M09.corrida-1.md"} une una version
 //                         antigua de la bibliografia con la actual; {modulo:"M00", tipo:"integrar-raw", archivos:[rutas de JSON
@@ -46,6 +51,9 @@ const FECHA = (args && args.fecha) || '2026-10-06'
 const MODELOS = (args && args.modelos) || {}
 const REGISTRAR_SOLO = (args && Array.isArray(args.registrar_solo)) ? args.registrar_solo : []
 const REPARAR = (args && Array.isArray(args.reparar)) ? args.reparar : []
+const LENTES_SOLO = (args && args.lentes_solo) || {}
+const RAW_PREVIOS = (args && args.raw_previos) || {}
+const absRepo = (rel) => `${REPO}\\${rel.replace(/\//g, '\\')}`
 const opt = (rol, extra) => Object.assign({}, MODELOS[rol] ? { model: MODELOS[rol] } : {}, extra)
 
 const MODULOS = {
@@ -226,7 +234,7 @@ function promptFusion(m, archivosRaw, ronda, faltantes) {
   const md = `${REPO}\\02-fuentes\\por-modulo\\${m.id}.md`
   const base = `${REPO}\\02-fuentes\\por-modulo\\${m.id}`
   const cabecera = ronda === 1
-    ? `Eres el FUSIONADOR del modulo ${m.id} (${m.periodo}). Cinco buscadores ciegos entre si han escrito sus resultados en estos JSON: ${archivosRaw.join(' ; ')}. Leelos enteros (python -X utf8 con json). ANTES DE ESCRIBIR: comprueba si ya existe ${md} de una corrida anterior. Si existe, NO lo sustituyas ni lo borres: integra los JSON como una ronda adicional conservando todas sus fichas, sus ids F-#### definitivos y sus secciones (los ids provisionales nuevos continuan la numeracion M##-Nxx desde el ultimo usado), y anota la nueva ronda en la seccion 7. Lo mismo con los CSV auxiliares si existen: se amplian, no se reemplazan.`
+    ? `Eres el FUSIONADOR del modulo ${m.id} (${m.periodo}). Los buscadores ciegos entre si (uno por lente; puede faltar alguna lente o venir de una corrida anterior) han escrito sus resultados en estos JSON: ${archivosRaw.join(' ; ')}. Leelos enteros (python -X utf8 con json). ANTES DE ESCRIBIR: comprueba si ya existe ${md} de una corrida anterior. Si existe, NO lo sustituyas ni lo borres: integra los JSON como una ronda adicional conservando todas sus fichas, sus ids F-#### definitivos y sus secciones (los ids provisionales nuevos continuan la numeracion M##-Nxx desde el ultimo usado), y anota la nueva ronda en la seccion 7. Lo mismo con los CSV auxiliares si existen: se amplian, no se reemplazan.`
     : `Eres el FUSIONADOR DE SEGUNDA RONDA del modulo ${m.id} (${m.periodo}). Ya existe ${md} con la ronda 1 y los archivos ${base}.nuevas.csv, ${base}.existentes.csv y ${base}.cobertura.csv. Los buscadores de la segunda ronda han escrito: ${archivosRaw.join(' ; ')}. Integra la ronda 2 en los cuatro archivos SIN perder nada de la ronda 1: continua la numeracion provisional (M##-Nxx) donde quedo, anade filas, actualiza las secciones 1 a 7 y escribe en la seccion 6 las peticiones del critico que siguen sin resolverse. Si los tres CSV auxiliares ya no existen (porque un registrador anterior los integro en registro.csv y los borro), crealos de nuevo SOLO con lo que aporta esta ronda (las fuentes que ya tienen F-#### en registro.csv van a existentes.csv, no a nuevas.csv). Nunca sustituyas ni borres el M##.md existente: se amplia. Peticiones del critico (JSON): ${JSON.stringify(faltantes, null, 1)}`
   return `${REGLAS}
 ${cabecera}
@@ -319,17 +327,24 @@ async function procesarModulo(id) {
   if (REGISTRAR_SOLO.includes(id)) {
     log(`${id}: reanudacion: se omiten busqueda y fusion (ya existen ${id}.md y sus CSV auxiliares de una corrida anterior); corren critico, segunda ronda si hace falta y registrador`)
   } else {
-    log(`${id}: ronda 1, cinco buscadores (tope ${MAX_B1} busquedas cada uno)`)
-    const r1 = await parallel(LENTES.map(l => () =>
-      agent(promptBuscador(m, l, 1, null), opt('buscador', { label: `${id}:r1:${l.key}`, phase: 'Busqueda', schema: BUSQUEDA_SCHEMA }))))
-    out.ronda1 = r1.filter(Boolean)
-    if (!out.ronda1.length) { out.estado = 'fallo-busqueda'; log(`${id}: ningun buscador termino; modulo omitido`); return out }
+    const lentesACorrer = Array.isArray(LENTES_SOLO[id]) ? LENTES.filter(l => LENTES_SOLO[id].includes(l.key)) : LENTES
+    const rawPrevios = (RAW_PREVIOS[id] || []).map(absRepo)
+    if (lentesACorrer.length) {
+      log(`${id}: ronda 1, ${lentesACorrer.length} buscador(es): ${lentesACorrer.map(l => l.key).join(', ')} (tope ${MAX_B1} busquedas cada uno)${rawPrevios.length ? `; mas ${rawPrevios.length} JSON previos` : ''}`)
+      const r1 = await parallel(lentesACorrer.map(l => () =>
+        agent(promptBuscador(m, l, 1, null), opt('buscador', { label: `${id}:r1:${l.key}`, phase: 'Busqueda', schema: BUSQUEDA_SCHEMA }))))
+      out.ronda1 = r1.filter(Boolean)
+    } else {
+      log(`${id}: ronda 1 omitida: se fusionan ${rawPrevios.length} JSON previos de raw/`)
+    }
+    const archivosR1 = out.ronda1.map(r => r.archivo).concat(rawPrevios)
+    if (!archivosR1.length) { out.estado = 'fallo-busqueda'; log(`${id}: ningun buscador termino y no hay JSON previos; modulo omitido`); return out }
     const fuentes1 = out.ronda1.reduce((s, r) => s + (r.n_fuentes || 0), 0)
     const busq1 = out.ronda1.reduce((s, r) => s + (r.busquedas_usadas || 0), 0)
-    log(`${id}: ronda 1 terminada: ${out.ronda1.length}/5 buscadores, ${fuentes1} fuentes, ${busq1} busquedas`)
-    if (out.ronda1.length < 5) log(`${id}: AVISO: ${5 - out.ronda1.length} buscador(es) no devolvieron resultado; el critico lo vera como laguna`)
+    log(`${id}: ronda 1 terminada: ${out.ronda1.length}/${lentesACorrer.length} buscadores nuevos, ${fuentes1} fuentes nuevas, ${busq1} busquedas; ${archivosR1.length} JSON para la fusion`)
+    if (archivosR1.length < 5) log(`${id}: AVISO: solo ${archivosR1.length} de 5 lentes tienen JSON; el critico lo vera como laguna`)
 
-    fusion = await agent(promptFusion(m, out.ronda1.map(r => r.archivo), 1, null),
+    fusion = await agent(promptFusion(m, archivosR1, 1, null),
       opt('fusionador', { label: `${id}:fusion`, phase: 'Fusion', schema: FUSION_SCHEMA }))
     if (!fusion) { out.estado = 'fallo-fusion'; log(`${id}: el fusionador no termino; modulo sin registrar`); return out }
     log(`${id}: fusion: ${fusion.n_fuentes} fuentes (${fusion.n_nuevas} nuevas, ${fusion.n_existentes} existentes); ${fusion.afirmaciones_cubiertas.length} afirmaciones cubiertas, ${fusion.afirmaciones_sin_fuente.length} sin fuente`)
