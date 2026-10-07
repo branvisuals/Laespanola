@@ -1,0 +1,1177 @@
+{
+ "lente": "internacional",
+ "modulo": "M02",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 17,
+ "busquedas_pendientes": [
+  "Reseña de Tessa Murphy sobre Stone en HAHR 102(3):542-544 (Duke/silverchair devolvió 403): buscar copia abierta o a través de biblioteca",
+  "Reseña de Goetz en Colonial Latin American Review 31(1):166-168 (T&F con desafío de Cloudflare)",
+  "Capítulos de muestra o índice de Captives of Conquest en Penn Press/JSTOR (403 / página sin cargar) para ver si el libro de 2021 tiene apéndice de licencias",
+  "Otte, 'Los jerónimos y el tráfico humano en el Caribe: una rectificación histórica', Anuario de Estudios Americanos 52 (1995): 187-203 (dos consultas sin localizarlo)",
+  "Verlinden 1968, 'Le repartimiento de Rodrigo de Alburquerque à Hispaniola en 1514' (Mélanges, Bruselas): una consulta sin resultado",
+  "Cook 1993 (Colonial Latin American Review 2:213-245) y Born to Die cap. 1 (préstamo archive.org): una consulta, sin copia abierta",
+  "Henige 1978 (HAHR 58:217-237) y la crítica de Zambardino (HAHR 58:700-708): localizadas solo las referencias",
+  "Reseñas arbitradas del libro de Anderson-Córdova 2017 (Ethnohistory, WMQ, CLAR): una consulta sin revistas",
+  "Mira Caballos, Las Antillas Mayores 1492-1550 (2000) y La Española, epicentro del Caribe (2010): solo reseñas y fichas",
+  "A-040 (paleopatología y bioarqueología de contacto): no se buscó en esta ronda; está en la lente científica",
+  "A-034 (genealogía del culto a Anacaona): fuera de la tarea de esta ronda (lente haitiana)",
+  "Otras reseñas de Mira Caballos 1997 distintas de F-2091 (Revista de Indias, Anuario de Estudios Americanos, Hispania): no se buscaron"
+ ],
+ "lagunas": [
+  "El libro de Arranz Márquez (1991) no tiene texto abierto: tres consultas web y tres a la API de búsqueda del Internet Archive dieron resultado negativo; solo hay reseñas (Muñoz, RCHA; Mira Caballos, Ecos) y una ficha de Sáez (1995). Registrar en limites.md. Sin el libro no se pueden reconciliar 26.334, 26.189 y 26.188.",
+  "La base del rango 250.000-500.000 de Stone solo existe en la tesis de 2014 (pp. 5-6) y es una extrapolación (62.000 documentados 'sin nota'; hipótesis de 50-100 esclavos por armada; 'centenares' de licencias). La tesis no tiene apéndice de licencias; el libro de 2021 no se pudo abrir y se desconoce si lo tiene.",
+  "El 33.528 de 1510 no tiene fuente primaria superviviente: el libro del repartimiento de Diego Colón no se conserva (Mira Caballos, p. 121); Livi-Bacci cita a Muñoz; Mira Caballos y Cook difieren en 5 unidades (33.528 / 33.523) sin cotejo.",
+  "El CODOIN t. I contiene errores aritméticos internos (Lares de Guahaba: 266 + 261 = 527, impreso 467); solo se verificó en imagen esa villa. El resto de villas queda sin cotejar contra imagen, y no se pudo comprobar contra el AGI si el error es del original.",
+  "El ~18.000 de A-031 para 1518-19 es la cifra de Cook 2003 (según la ronda 1); Mira Caballos 1997 da 11.000 (1517) y 3.000 (1519) y Livi-Bacci, 11.000 en 1518: la serie de A-031 mezcla autores y no es de una sola fuente.",
+  "Stone 2013 (Ethnohistory), Stone 2021, las reseñas de AHR/JAH (solo resumen), Murphy en HAHR y Goetz en CLAR siguen cerradas o bloqueadas (403/Cloudflare): no se sorteó ningún reto.",
+  "El texto completo de Aleksandrenkov 2017 y del capítulo de Guitar, Ferbel-Azcarate y Estevez 2006 no está en abierto; solo se leyeron los resúmenes.",
+  "Mira Caballos 1997 afirma sin cita que Colón llevó 'negros' en su segundo viaje y no menciona un arribo de africanos con Ovando en 1502 (A-035): la fecha de 1502 sigue sin respaldo primario en esta ronda.",
+  "Sesgo de la academia internacional visto en la ronda: el rango de Stone se repite en reseñas (Rankin, Marquez, Pelegrino, Sierra Silva), en una tesis brasileña (Alexandre) y en prensa (Valcárcel Rojas) sin que ninguna lo cotejara con archivo; las reseñas de Vanderbilt (Pelegrino) y de Temple (Rankin) vienen de redes cercanas a la autora o de doctorandos; la historiografía atlántica tiende a maximizar la escala, mientras que la sevillana (Mira Caballos 1997) da 'varios miles' para las Antillas."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "armadas de rescate / rescate (de esclavos)",
+   "tradicion": "española colonial (documental) y historiografía internacional",
+   "nota": "En la documentación 'rescate' (trueque o rescate) designa la captura y compra de indios esclavizados en islas y costas fuera de La Española; Mira Caballos y Stone lo usan como término técnico, y Arellano (2002) señala su carácter 'claramente esclavista'. Se usa en esta ronda sin eufemismo: 'expediciones de captura y compra de esclavos (rescates)'."
+  },
+  {
+   "termino": "caribes (categoría jurídica) / islas inútiles",
+   "tradicion": "española colonial; Wilson, Stone, Mira Caballos lo analizan",
+   "nota": "'Caribe' fue una etiqueta legal desde 1503 que hacía esclavizables a los indios así llamados, y 'islas inútiles' (los Lucayos, 1509) las islas sin oro cuyos habitantes podían capturarse. No son etnónimos fiables: se citan como categorías de la Corona."
+  },
+  {
+   "termino": "extinción de los taínos / mito de la extinción",
+   "tradicion": "dominicana-lascasiana (extinción) frente a Guitar y la tradición del 'revival' taíno (mito)",
+   "nota": "Mira Caballos 1997 usa 'extinción' sin matiz (unos 500 indios en La Española hacia 1548-1550); Guitar sostiene que es un mito que ocultó la supervivencia de un 10-20 % de la población. El término prejuzga una de las dos tesis de A-036; en el texto se usa 'caída demográfica' y se reserva 'extinción' para citar."
+  },
+  {
+   "termino": "personas de servicio / naborías de casa / indios del cacique / viejos y niños (categorías del repartimiento de 1514)",
+   "tradicion": "documental español (Repartimiento de Alburquerque)",
+   "nota": "Categorías del documento: el total de 22.336 es solo 'personas de servicio' (sin viejos ni niños), mientras que 26.188-26.334 incluyen viejos, niños, caciques y nitaínos; comparar cifras de 1514 sin precisar la categoría produce falsas discrepancias."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "El indio antillano: repartimiento, encomienda y esclavitud (1492-1542) (Sevilla: Muñoz Moya editor, Biblioteca Americana, 1997; prólogo de Adolfo Luis González Rodríguez)",
+   "autor": "Mira Caballos, Esteban",
+   "anio": "1997",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/details/mira-caballos-e.-el-indio-antillano-repartimiento-encomienda-y-esclavitud-1492-1541-ocr-1997",
+   "urls_alternativas": [
+    "https://archive.org/download/mira-caballos-e.-el-indio-antillano-repartimiento-encomienda-y-esclavitud-1492-1541-ocr-1997/Mira%20Caballos%2C%20E.%20-%20El%20indio%20antillano%3A%20repartimiento%2C%20encomienda%20y%20esclavitud%20%281492-1541%29%20%5Bocr%5D%20%5B1997%5D_djvu.txt",
+    "https://archive.org/download/mira-caballos-e.-el-indio-antillano-repartimiento-encomienda-y-esclavitud-1492-1541-ocr-1997/Mira%20Caballos%2C%20E.%20-%20El%20indio%20antillano%3A%20repartimiento%2C%20encomienda%20y%20esclavitud%20%281492-1541%29%20%5Bocr%5D%20%5B1997%5D.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de la Universidad de Sevilla publicada como libro, con aparato de archivo (AGI, AHN, AGS) y cuadros propios; el texto abierto es un OCR defectuoso, por lo que las cifras citadas se cotejaron con la imagen de página del PDF.",
+   "proveniencia": "Esteban Mira Caballos (Universidad de Sevilla) presentó en 1997 este estudio de la población, el trabajo forzado (repartimiento, encomienda), la esclavitud indígena y la trata africana en las cuatro Antillas Mayores entre 1492 y 1542; se apoya en el Archivo General de Indias, el AHN, el AGS, la CODOIN y la obra de Arranz Márquez (1979, 1991). La edición sevillana de 450 pp. lleva prólogo de González Rodríguez. El ejemplar abierto es un escaneo cargado en archive.org el 2023-11-30 por un usuario (no por la editorial) con la etiqueta 'acceso abierto' y la licencia CC BY-ND 4.0 declarada por quien lo cargó. Mira Caballos revisó después sus cifras (Clío 2017, F-2099); aquí todavía sostiene 100.000 habitantes en La Española en 1492 y 300.000 en todas las Antillas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 35, Cuadro II 'Evolución de la población indígena en La Española' (l. 1257-1270 del _djvu.txt; leído en imagen de página); la nota 15 remite a Arranz 1979 y 1991, Oviedo, Moya Pons, Milhou y a la carta de Espinosa de 1529 (AGI, Patronato 174, R. 31)",
+     "cita_original": "1492 ... 100.000 hab. | 1494 ... 90.000 | 1496 ... 75.000 | 1508 ... 60.000 | 1509 ... 40.000 | 1510 ... 33.528 | 1514 ... 26.189 | 1517 ... 11.000 | 1519 ... 3.000 | 1529 ... 2.340 | 1548 ... 500 hab.",
+     "traduccion": "Serie de Mira Caballos para La Española: 100.000 (1492), 60.000 (1508), 33.528 (1510), 26.189 (1514), 11.000 (1517), 3.000 (1519), 500 (1548). Para 1519 da 3.000 y no ~18.000 (cifra de Cook 2003 que recoge A-031); su 26.189 difiere de 26.334 (Cook, Moya Pons) y de 26.188 (Livi-Bacci).",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 121 (l. 5665-5667; imagen de página confirmada)",
+     "cita_original": "Tomando en cuenta esa fuente podemos afirmar que, por cédula Real, Fernando V encomendó 4.341 indios de un total de 33.528, lo cual supuso un 12'94 % del total.",
+     "traduccion": "Cifra del repartimiento general de Diego Colón (1510): 33.528 indios, de los cuales 4.341 por cédula real. La frase no lleva nota propia; el Cuadro II remite a Arranz.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 121 (l. 5658-5662; imagen de página confirmada)",
+     "cita_original": "no conocemos la distribución exacta de los indios, ya que el libro en el que se llevaba la cuenta de los repartimientos realizados por el Almirante entre 1510 y 1515 no ha llegado hasta nosotros",
+     "traduccion": "No se conserva el libro del repartimiento de Diego Colón (1510-1515): la cifra de 33.528 no se puede cotejar en esta obra con un documento superviviente (Livi-Bacci la atribuye a Muñoz).",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 126, Cuadro XIV 'Beneficiarios del repartimiento de 1514 en La Española' (l. 5946-5962; imagen de página confirmada); la nota 147 dice 'IBIDEM, p. 592' (Arranz); el Cuadro XIII cita Arranz, pp. 529-598",
+     "cita_original": "TOTALES 729 [encomiendas] 100 | 26.189 [indios] 100. Por tanto, tenemos que de 26.189 indios repartidos, 11.554, es decir, el 44'12 por ciento recayeron en tan sólo 83 encomenderos, con una media de 138 indios cada uno.",
+     "traduccion": "Total del repartimiento de Alburquerque (1514) según Mira Caballos: 26.189 indios en 729 encomiendas; 11.554 (44,12 %) en manos de 83 encomenderos. Base: tablas de Arranz Márquez (1991, p. 592). Mismo origen que el 26.188 de Livi-Bacci (tabla 5), con 1 unidad de diferencia.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 126, Cuadro XIV (imagen de página); la columna de indios suma 26.189 y la de encomiendas 729 solo si 'regidores' es 27 (el OCR de archive.org lee 21)",
+     "cita_original": "OFICIALES REALES 15 ... 2.879 | PROCURADORES 14 ... 1.135 | VISITADORES 17 ... 1.330 | REGIDORES 27 ... 2.223 | REY Y CORTESANOS 6 ... 2.839 | FAMILIA COLÓN 4 ... 1.148 | RESTO DE BENEF. 646 ... 14.635",
+     "traduccion": "Desglose por categorías de beneficiario (n.º de encomiendas ... n.º de indios). Comprobación propia: 2.879+1.135+1.330+2.223+2.839+1.148+14.635 = 26.189; 15+14+17+27+6+4+646 = 729. Es un desglose por beneficiario, no por categoría de indio (servicio, naboría, viejos, niños), de modo que no permite cotejar fila a fila la tabla 5 de Livi-Bacci.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 36 (l. 1299-1302; imagen de página confirmada; la tabla con 1494 y 1496 está en p. 35)",
+     "cita_original": "ya que en tan solo cuatro años descendió la población una cuarta parte, lo cual estaba claramente determinado por la «influenza suina», comentada anteriormente, que afectó a los indios desde 1493",
+     "traduccion": "Para Mira Caballos la caída de una cuarta parte entre 1492 y 1496 se debió sobre todo a la 'influenza suina' de 1493 (identificada por F. Guerra 1985, nota 16). Contrasta con Livi-Bacci (2003), que no ve rastro de epidemias mayores antes de 1518, y con Arranz (un tercio de pérdida en 1492-1496 por abandono de cultivos, hambres, violencia y epidemias, según la reseña F-2148).",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 36, nota 17 (imagen de página confirmada)",
+     "cita_original": "Pese a la enorme mortandad que supuso la influenza, nos parece excesiva la cifra de 50.000 taínos muertos en 1495 que defienden algunos historiadores ya que eso supondría el fallecimiento en tan sólo un año del 50 por ciento de la población total de la isla.",
+     "traduccion": "Mira Caballos rechaza por excesiva la cifra de 50.000 muertos en 1495 (que 'defienden algunos historiadores' y que remite a la tesis de maestría de Lynne Guitar, Nashville, diciembre de 1994, f. 27): no era la mitad de la isla en un año, aunque la influenza fue grave.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 37 (imagen de página confirmada; l. 1345-1353 del txt)",
+     "cita_original": "entre 1508 y 1519 encontramos una enorme disminución de población al pasar de 60.000 a 3.000 aborígenes. El descenso tan acusado en estos años estuvo motivado fundamentalmente por ser una época de extorsión y de explotación intensiva de los indios que culminó además dramáticamente con la epidemia de viruela que se inició a fines de 1518.",
+     "traduccion": "Entre 1508 y 1519 la población cae de 60.000 a 3.000; el descenso se debe 'fundamentalmente' a la explotación intensiva (órdenes de Fernando V a Diego Colón y a Pasamonte, notas 20-21), con la viruela de fines de 1518 como culminación.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 37 (imagen de página confirmada); nota 23: carta de los dominicos de La Española al señor de Chièvres, Santo Domingo, 4-VI-1516 (Marte, p. 170)",
+     "cita_original": "El trabajo indígena en estos años fue tan duro que, según escribieron los dominicos en 1516, cada año moría un tercio de indígenas en las minas «pues de cien indios no volvían sesenta y en las que se trataban peor de trescientos no volvían treinta».",
+     "traduccion": "Testimonio de los dominicos (1516), parte interesada en la campaña contra la encomienda: mortalidad de un tercio anual en minas. Es la prueba más directa del peso del trabajo forzado en la caída anterior a la viruela, pero es una cifra de testigos con interés, no un recuento.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 38 (PDF 32; l. 1391-1396)",
+     "cita_original": "en estos años la causa principal de la disminución indígena fue la epidemia de viruela que se desató en 1518 tras ser introducida por un navío negrero",
+     "traduccion": "En el mismo párrafo en que reconoce el trabajo forzado, Mira Caballos afirma que en 1508-1519 'la causa principal' fue la viruela de 1518: posición distinta de la que recoge A-030 (choque de la conquista más que viruela) y de la de Livi-Bacci. No puede precisar el porcentaje de mortalidad (tres cuartas partes en unas fuentes, la mitad en otras).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 66 (PDF 60; l. 2891-2900; nota 140 a pie de página)",
+     "cita_original": "En realidad, la causa fundamental fue el choque cultural (clash of peoples) que fue mucho más duro en las Antillas que en el resto del Continente [...] sin olvidar, por supuesto, el sistema laboral impuesto por los españoles donde los malos tratos se convirtieron en algo usual y cotidiano.",
+     "traduccion": "Posición de 1997: causa fundamental = choque cultural, más duro en las islas, más el sistema laboral y los malos tratos; las epidemias vienen después (ver p. 359). Coincide en parte con A-030 ('choque de la conquista'), pero añade el papel final de las epidemias.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 66, nota 140",
+     "cita_original": "Existen incluso trabajos recientes que siguen aún incidiendo en la vieja polémica sobre el grado de responsabilidad de los españoles en el supuesto «genocidio» del indio antillano. Se trata de una discusión en la que no queremos entrar",
+     "traduccion": "Mira Caballos declina entrar en el debate sobre el 'genocidio' (remite a D. Ramos, 1986) y propone multicausalidad y sincronía como marco. Usa el término entrecomillado ('supuesto').",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 359, Conclusiones, punto 1 (PDF 350; l. 18263-18285)",
+     "cita_original": "la combinación del trabajo excesivo con una dieta alimenticia pobre en proteínas provocaron grandes epidemias que fueron, en última instancia, las grandes responsables de la extinción del aborigen antillano. [...] en torno a 1550 apenas si quedaban 500 en la Española",
+     "traduccion": "Conclusión de 1997: el sistema laboral y la mala dieta provocaron las epidemias, que fueron en última instancia las responsables de la 'extinción'; hacia 1550 quedaban unos 500 indios en La Española. Usa 'extinción' sin matiz, es decir, la narrativa que Guitar califica de mito (A-036).",
+     "afirmaciones": [
+      "A-030",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "p. 80 (PDF 73; l. 3512-3518)",
+     "cita_original": "Queda claro, pues, que el término encomienda fue introducido por el propio frey Nicolás de Ovando sin tener mandamiento expreso de la Corona, pues ésta tan sólo le facultó, el 20 de diciembre de 1503, a que repartiese indios a los españoles",
+     "traduccion": "La palabra 'encomienda' la introdujo Ovando sin mandamiento regio; la Corona solo autorizó el repartimiento de indios (provisión de 20-XII-1503). (Según Luque Alcaide, F. M02-N66, Mira Caballos fecha la encomienda en 1505 en otra obra; aquí fija 1503 para el repartimiento legal.)",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 102 (PDF 95; l. 4640-4643)",
+     "cita_original": "por una Real Provisión, expedida, como es de sobra conocido, en Medina del Campo, el 20 de diciembre de 1503, se legalizaron los repartimientos de indios",
+     "traduccion": "Real Provisión de Medina del Campo, 20-XII-1503, que legaliza los repartimientos de indios en La Española.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 261 (PDF 253; l. 13039-13041) y nota 3 (Real Provisión a Ovando, Segovia, 29-VIII-1503, AGI Indiferente General 418, L. 1, ff. 116-116v; CODOIN 1.ª serie, t. XXXI, pp. 187-193)",
+     "cita_original": "Así, mientras que en 1503 quedaron sujetos a esclavitud los caribes, en 1509, se autorizó la captura de los indios lucayos, extendiéndose en 1512 a aquellas zonas de Tierra Firme que fueran expresamente señaladas por las autoridades de la Española",
+     "traduccion": "Cronología legal de la esclavitud indígena: caribes (1503), lucayos (1509), Tierra Firme señalada por la Española (1512). La signatura AGI de 1503 coincide con la que cita Stone 2014 (n. 203); no son dos autores independientes (Stone cita a Mira Caballos).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 268 (PDF 260; l. 13427-13430)",
+     "cita_original": "el 14 de julio de ese año se dio licencia a Miguel de Pasamonte para herrar a todos aquellos lucayos que se resistiesen a los españoles, abriéndose así las puertas de su esclavitud",
+     "traduccion": "El 14-VII-1509 se autorizó a Pasamonte a herrar a los lucayos que resistiesen; Mira Caballos sitúa en 1509 la generalización de la esclavitud de los lucayos.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 289 (PDF 281; l. 14607-14611; nota 139: Las Casas, Historia, lib. III, cap. 44; carta de los dominicos, 4-VI-1519, AGI Patronato 174, R. 12; carta de Zuazo, 22-I-1518)",
+     "cita_original": "el padre Las Casas cifraba los lucayos deportados a las Antillas en unos 40.000, mientras que los dominicos de la Española hablaban de 20.000 y, finalmente, Alonso de Zuazo los cifra en tan sólo 15.000. Nosotros nos inclinamos más por las cantidades de Zuazo",
+     "traduccion": "Tres cifras contemporáneas de lucayos deportados a las Antillas: 40.000 (Las Casas), 20.000 (dominicos, 1519), 15.000 (Zuazo, 1518); Mira Caballos prefiere la de Zuazo. Stone 2014 (p. 99, n. 244) repite las tres citando a Mira Caballos: no son fuentes independientes.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 289 (PDF 281; l. 14600-14602)",
+     "cita_original": "Según la documentación consultada podemos afirmar que hubo en las Antillas varios miles de indios esclavos antes de mediar la centuria.",
+     "traduccion": "Mira Caballos afirma 'varios miles' de indios esclavos en las Antillas antes de 1550 y declara imposible saber cuántos eran naturales de las islas y cuántos venían de las armadas de rescate. Es un orden de magnitud inferior al rango 250.000-500.000 de Stone (circuncaribe e Iberia).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 290 (PDF 282; l. 14643-14646; nota 141)",
+     "cita_original": "cuando, en 1542, se decretó que no se herrasen más esclavos y que se devolviesen «a sus lugares de origen», el licenciado Cerrato informó «que dolió mucho» a los vecinos, ya que había en la isla más de cinco mil indios esclavos",
+     "traduccion": "Tras 1542 había en La Española más de 5.000 indios esclavos (informe del licenciado Cerrato); Mira Caballos lo toma como prueba de una esclavitud indígena amplia cuya procedencia no se puede resolver.",
+     "afirmaciones": [
+      "A-032",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "p. 47-48 (PDF 41-42; l. 1893-1900 y 1916-1921); nota 60: Instrucciones a frey Nicolás de Ovando, Granada, 16-XI-1501 [fecha tal como se imprime; la literatura suele dar 16-IX-1501], CODOIN 1.ª serie, t. XXXI, pp. 13-25; Konetzke t. I, pp. 4-6",
+     "cita_original": "Sabemos que ya Cristóbal Colón, en su segundo viaje, llevó algunos negros a bordo, aunque se trató de un hecho aislado [...]. La Corona se pronunció finalmente en 1501, fecha en la que permitió oficialmente el paso de esclavos a las Indias descubiertas.",
+     "traduccion": "Mira Caballos no habla de un desembarco de africanos en 1502 con Ovando: habla de una norma de 1501 (Instrucción a Ovando) y de un primer viaje de Colón (sin cita en la frase, [POR VERIFICAR]). La fecha de la Instrucción impresa en la nota 60 ('16 de noviembre de 1501') difiere de la 'septiembre de 1501' que da en 1994 (F-2087).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 48 (imagen de página confirmada; PDF 42)",
+     "cita_original": "entre 1503 y 1505, se produjo un paréntesis durante el cual el Comendador de Lares pidió al Rey que no se llevasen negros a la Española por los continuos alzamientos que protagonizaban algunos de ellos",
+     "traduccion": "Entre 1503 y 1505 Ovando (Comendador de Lares) pidió suspender la llegada de esclavos negros por sus alzamientos y luego se retractó; coincide con la carta de Ovando y Juan de Ayala sobre ladinos fugitivos (Stone 2014, pp. 164-165, 1503) y con Guitar (1502).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 51, Cuadro VI (imagen de página) y p. 52, Cuadro VII (imagen de página)",
+     "cita_original": "Cuadro VI: 1505-1510 ... 152 | 1511-1515 ... 195 | 1516-1518 ... 3.107 | TOTALES 3.454. Cuadro VII (destino por islas, 1505-1518): LA ESPAÑOLA 1.829 (53'37 %) | CUBA 708 | SAN JUAN 570 | JAMAICA 320 | TOTALES 3.427",
+     "traduccion": "Esclavos negros llevados a las Antillas con licencia individual, 1505-1518: 3.454 (Cuadro VI) o 3.427 (Cuadro VII; diferencia interna de 27 sin explicar), de ellos 1.829 a La Española y casi el 90 % en 1516-1518. Solo cuenta licencias registradas; el propio autor dice que el fraude era alto.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 49-50 (PDF 43-44; l. 2054-2057; notas 69-70)",
+     "cita_original": "se comenzó a dar, desde 1518, las grandes licencias a deudos como Laurent de Gouvenot, a quien se le autorizó en este año a pasar 4.000 esclavos",
+     "traduccion": "Licencia de 4.000 esclavos negros en 1518 al gobernador de Bresa (Gorrevod; el libro escribe 'Gouvenot'). Coincide con F-2083 y F-2088 (cédula de 18-VIII-1518). Mira Caballos añade que el gobernador pasó 'muchos más de 4.000' por fraude.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 400-401, Apéndice V 'Licencias de esclavos negros a las Antillas (1504-1518)' (imágenes de página); nota (*) en p. 401: 'Fuentes: AGI, Indiferente General 418 y 419'",
+     "cita_original": "05-10-1504 Alonso de Ojeda, la Española, 6 | 15-09-1505 frey Nicolás de Ovando, la Española, 100 | 20-01-1510 Miguel de Pasamonte, la Española, 50 | 16-08-1518 Lorenzo de Gorrevod: la Española 1.400, San Juan 500, Cuba 700, Jamaica 300. (*) La licencia a Gorrevod de 4.000 esclavos la hemos desglosado por islas",
+     "traduccion": "Primeras licencias individuales registradas para La Española: 6 esclavos (Ojeda, 1504) y 100 (Ovando, 1505). De la licencia de Gorrevod, el autor atribuye 1.400 a La Española, 500 a San Juan, 700 a Cuba y 300 a Jamaica (suma 2.900) y descuenta lo destinado a Nueva España o Panamá. Ojo: el OCR de archive.org lee '3.000' en la nota; la imagen dice 4.000.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-035",
+    "A-036",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Es la obra que el crítico pedía; F-2091 es solo la reseña de 1998 y sigue siendo ficha propia. [POR VERIFICAR]: (1) la licencia CC BY-ND 4.0 la declara quien cargó el ejemplar, no la editorial ni el autor; (2) la fuente del 33.528 de 1510 (la frase de p. 121 no tiene nota; el Cuadro II remite a Arranz 1979 y 1991 y a Oviedo, mientras que Livi-Bacci cita a Muñoz); (3) el viaje de Colón con 'negros' (p. 47) sin cita; (4) las dos fechas distintas que da para la Instrucción a Ovando (16-XI-1501 aquí, 16-IX-1501 en 1994). Signaturas del repartimiento de 1514 que cita (nota 133, hacia p. 123, lectura de OCR): AGI Santo Domingo 77, R. 2, N. 32, y, más completa, AGI Justicia 6, N. 4. Sesgo: historiografía española (Sevilla) basada en el AGI, con tesis de 'choque cultural' y contacto bajo (100.000 en 1492 para La Española); sus cifras de contacto son de las más bajas de las que recoge A-030 y él mismo las revisó en 2017. Cifras de 1514 comparadas: Mira Caballos 26.189 (729 encomiendas); Livi-Bacci tabla 5 26.188 (738 encomenderos); Cook 2003 y Moya Pons 26.334; Demorizi/Alexandre 22.336 (solo 'personas de servicio'). La serie de A-031 mezcla autores: 60.000 y 26.334 (Cook/Moya Pons), ~18.000 (Cook 2003) y 3.000 (Mira Caballos)."
+  },
+  {
+   "titulo": "Indian Harvest: The Rise of the Indigenous Slave Trade and Diaspora from Española to the Circum-Caribbean, 1492-1542 (tesis doctoral, Vanderbilt University, mayo de 2014) [= M02-N59 de la ronda 1; nuevos extractos de la ronda 2]",
+   "autor": "Stone, Erin Woodruff",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ir.vanderbilt.edu/bitstreams/413daca0-c453-448e-8653-4a674c3c6d04/download",
+   "urls_alternativas": [
+    "https://ir.vanderbilt.edu/handle/1803/10737"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral dirigida por Jane Landers con archivo en el AGI y la Real Academia de la Historia; la estimación de 250.000-500.000 es, sin embargo, una extrapolación declarada y no un recuento.",
+   "proveniencia": "Erin Woodruff Stone (Vanderbilt; hoy University of West Florida) defendió en mayo de 2014 esta tesis ante Landers, Wright-Rios, Usner y Wernke; base del libro de 2021 (F-0149). Trabajó con beca Fulbright en Sevilla, Santo Domingo, Colombia y Puerto Rico. Interés: mostrar que la esclavización de indios, y no solo la africana, estructuró el Caribe español. El PDF abierto tiene 11.000 líneas de texto; su lista de archivos consultados incluye AGI, Real Academia de la Historia, Archivo del Museo Naval, AHN, AGS y AGN (Santo Domingo).",
+   "extractos": [
+    {
+     "ubicacion": "p. 5 (Introducción; l. 256-259 del txt extraído)",
+     "cita_original": "There is record of approximately 62,000 Indian slaves including the Taíno of Española transported to Spain, the displaced Lucayos Indians from the \"useless\" islands, and the thousands of Indians labelled as Caribes across the Lesser Antilles and into South America. However, this a very conservative estimate.",
+     "traduccion": "Hay registro de unos 62.000 indios esclavos (taínos llevados a España, lucayos desplazados, 'caribes'), pero 'es una estimación muy conservadora'. La frase no lleva nota: la cifra documentada de 62.000 no tiene signatura ni obra citada.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 5 (l. 262-264)",
+     "cita_original": "In the same year twelve other slaving armadas sailed to Trinidad, the Pearl Islands, and even to Panama. We possess no document detailing how many slaves each of these expeditions captured.",
+     "traduccion": "Stone reconoce que no hay documento con el número de esclavos por expedición; la extrapolación parte de ahí.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 6 (l. 265-270)",
+     "cita_original": "if we estimate that each one took between 50 and 100 slaves, then in 1515 up to 1,200 more Indian slaves likely disembarked in Santo Domingo. In later years officials report as many as 15,000 Indian slaves arriving in Española.",
+     "traduccion": "Base del cálculo: se supone que cada armada de 1515 capturó 50-100 esclavos (hipótesis de la autora), lo que daría hasta 1.200 más en Santo Domingo ese año; funcionarios hablan de hasta 15.000 en años posteriores (sin signatura en esa frase).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 6 (l. 269-272)",
+     "cita_original": "By the 1530s the number of slaving licenses issued by the Crown numbered in the hundreds. If most of these did indeed lead to slaving expeditions the actual number of enslaved Indians would have been in the hundreds of thousands.",
+     "traduccion": "Razonamiento condicional: centenares de licencias en la década de 1530; 'si la mayoría' produjo expediciones, centenares de miles de esclavizados. Sin signaturas ni conteo de licencias.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 6 (l. 273-276)",
+     "cita_original": "I estimate that the actual number of Indians enslaved from 1493 to 1542 in the Circum-Caribbean was between 250,000 and 500,000.",
+     "traduccion": "El rango 250.000-500.000 (1493-1542, Circuncaribe) es una estimación de la autora, no un recuento de archivo. El enunciado de A-032 ('más de 250.000 sacados del Caribe') no coincide con esta formulación: el rango cubre esclavizados en el Circuncaribe e Iberia, no solo 'sacados del Caribe'.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 98-99 (cap. III, 'Legally Defining Carib Lands...'; nota 244 en p. 99)",
+     "cita_original": "Las Casas estimated that up to 40,000 Lucayos Indians were sold in Española during the height of the trade in Indians from \"useless\" islands. [n. 244:] Mira Caballos, \"El Sistema Laboral,\" 29. Dominican friars gave a lower number 20,000, while Judge Zuazo estimated 15,000.",
+     "traduccion": "Stone repite las tres cifras (40.000, 20.000, 15.000) citando a Mira Caballos: no es corroboración independiente de la de Mira Caballos 1997 (p. 289).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 98, n. 241 (AGI, Patronato 174, R. 19)",
+     "cita_original": "\"Carta de Rodrigo de Figueroa\" 1513. Archivo General de Indias, Patronato 174, Ramo 19. \"los lucayos son como los otros de la tierra que ya son casi unos.\"",
+     "traduccion": "En 1513 Figueroa decía que los lucayos eran 'casi unos' con los demás indios de la isla: los esclavos foráneos se confundían con los taínos locales (cita que también usa Mira Caballos 1997, p. 290). Relevante para saber cuántos 'indios de La Española' en 1514 eran locales (A-031) y para la supervivencia (A-036).",
+     "afirmaciones": [
+      "A-032",
+      "A-031",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "p. 88, n. 203 (AGI Indiferente General 418)",
+     "cita_original": "\"Cedula Real\" 1503. AGI Indiferente General 418, L. 1, fol. 116r.-116v.",
+     "traduccion": "Signatura de la Real Provisión de 1503 sobre los caribes; es la misma que cita Mira Caballos 1997 (nota 3, 29-VIII-1503). No hay apéndice de licencias en la tesis: estas son las signaturas sueltas de las notas.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "pp. 96 y 99, notas 235 y 246 (AGI Indiferente General 418, L. 3)",
+     "cita_original": "n. 235: \"Licencia para llevar indios\" 21 de julio de 1511. AGI Indiferente General 418, L.3, fol. 91r. | n. 246: \"Licencia para hacer guerra a los caribes\" 24 de diciembre de 1511. AGI Indiferente General 418, L.3, fol. 91r.",
+     "traduccion": "Dos documentos de fechas distintas (21-VII y 24-XII-1511) llevan el mismo folio (91r): posible errata de Stone, [POR VERIFICAR] contra el AGI/PARES.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "pp. 143-144, notas 389 y 392 (AGI Indiferente General 420, L. 8)",
+     "cita_original": "n. 389: \"Licencia a Miguel de Pasamonte para rescatar esclavos,\" 19 de junio de 1519. AGI Indiferente General 420, L.8, fol. 69r. | n. 392: \"Licencia para comprar indios a los portugueses,\" 9 de enero de 1520. AGI Indiferente General 420, L.8, fol. 177r-177v.",
+     "traduccion": "Signaturas de las licencias de 1519 (Pasamonte, rescate de esclavos en Paria para su ingenio) y 1520 (compra de indios a portugueses).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Índice (pp. iii-vi) y final de la tesis",
+     "cita_original": "Conclusion ... 290 | Epilogue: The Slow Decline of the Iberian Indian Slave Trade ... 294 | References ... 302",
+     "traduccion": "El índice no contiene apéndices; tras el epílogo vienen solo las referencias (p. 302). La petición del crítico de 'extraer el apéndice de licencias con signaturas del AGI' no se puede cumplir: ese apéndice no existe en la tesis de 2014. Queda por comprobar si el libro de 2021 lo tiene (F-0149, no abierto).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032",
+    "A-031",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Misma fuente que M02-N59 (ronda 1): la fusión debe unir ambas fichas por URL. Resultado para A-032: la cifra de 250.000-500.000 es una estimación por extrapolación (62.000 documentados, 'muy conservador'; hipótesis de 50-100 esclavos por armada; 'centenares' de licencias), no un recuento con signaturas; la única base trazable en la tesis son las licencias sueltas de las notas. Sesgo: historiografía atlántica de la esclavitud indígena que maximiza la escala del tráfico; la propia autora dice que la cifra es probablemente baja. Mismo rango repetido sin base nueva por Rankin, Marquez, Pelegrino, Sierra Silva, Alexandre y Valcárcel Rojas (ver sus fichas)."
+  },
+  {
+   "titulo": "Reseña de: Erin Woodruff Stone, Captives of Conquest: Slavery in the Early Modern Spanish Caribbean (Philadelphia: University of Pennsylvania Press, 2021) (Strategic Visions 22(2), pp. 39-40)",
+   "autor": "Rankin, Audrey (reseñista)",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://tuljournals.temple.edu/index.php/strategic_visions/article/view/656/460",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de dos páginas de una doctoranda; resume el libro y repite el rango de Stone sin cotejarlo.",
+   "proveniencia": "Audrey Rankin, que figura en el propio PDF como doctoranda de Temple University, reseña el libro de Stone en el volumen 22, n.º 2, de Strategic Visions (revista de Temple University). El PDF abierto (274 KB, dos páginas) no lleva año en el texto extraído: el volumen y el número son los del PDF; el año 2022 es una inferencia por el año del libro [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "p. 40 (segunda página del PDF; segunda columna)",
+     "cita_original": "Stone's close and critical readings of a wide variety of Spanish documents and decrees from this period also vastly alters previous understandings of the size of the Indigenous slave trade in the Caribbean, with Stone's estimations of the actual number of Indians enslaved to be between 250,000 to 500,000.",
+     "traduccion": "Rankin atribuye a Stone un rango de 250.000 a 500.000 indios esclavizados, que presenta como una corrección de las estimaciones anteriores. Es la reseña abierta que el crítico pedía fijar como base verificable del rango.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 39 (primera columna; cita de Stone, p. 5)",
+     "cita_original": "Stone also reveals the existence of \"an endemic illegal, and undocumented Indigenous slave trade,\" which she argues \"flourished due to the contradictory nature of Spanish laws\"",
+     "traduccion": "Stone sostiene que existió un tráfico 'endémico, ilegal y sin documentar': el propio libro admite que una parte del total no está en los registros.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 39 (primera columna)",
+     "cita_original": "Stone combines her reading of Spanish documents and chronicles with archeological sources to create an ethnohistory that traces both the evolution of this slave trade and its impact on the Indigenous populations of the Caribbean.",
+     "traduccion": "Método declarado: documentos españoles, crónicas y arqueología.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Rankin no examina la base del rango; lo reproduce. Reseña favorable (la califica de 'impresionante' y accesible) de una doctoranda de otra universidad; sin crítica de fuentes. Útil para fijar la formulación correcta de A-032: rango 250.000-500.000 de 'indios esclavizados', sin 'sacados del Caribe'."
+  },
+  {
+   "titulo": "The Many Faces of Slavery (reseña de diez libros, entre ellos Captives of Conquest de E. W. Stone; Latin American Research Review 58(2): 452-464)",
+   "autor": "Marquez, John C. (Colorado College)",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/journals/latin-american-research-review/article/many-faces-of-slavery/7F26BC495D50F3A60D19C834AAC86F08",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/lar.2022.102"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ensayo bibliográfico de una revista arbitrada (LARR), en acceso abierto CC BY 4.0 según Crossref, escrito por un historiador de la esclavitud en el Caribe español.",
+   "proveniencia": "John C. Marquez (Department of History, Colorado College) publicó el ensayo en línea el 20-II-2023 en LARR (sección 'Colonial Latin America, Historical Studies'); reseña diez libros sobre esclavitud en América Latina y dedica la primera parte a Stone 2021. Interés: situar la esclavitud indígena junto a la africana. La licencia CC BY 4.0 consta en los metadatos de Crossref.",
+   "extractos": [
+    {
+     "ubicacion": "LARR 58(2), sección 'The other faces of slavery in the Spanish Caribbean', primer párrafo (página exacta no determinada; el ensayo ocupa pp. 452-464)",
+     "cita_original": "Between 1493 and 1542, an estimated 250,000 to 500,000 Indians were enslaved and traded throughout the Spanish Caribbean and the Iberian Peninsula.",
+     "traduccion": "Marquez da el rango como 'estimado' y amplía su ámbito: 'esclavizados y comerciados' en el Caribe español y la Península Ibérica (no solo 'sacados del Caribe'). Es la formulación que debería sustituir al enunciado de A-032.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, párrafo 1 (cita de Stone, p. 2)",
+     "cita_original": "Stone begins from the premise that a complete history and quantification of Indian slavery—what she calls “the other face of slavery in the early Spanish Empire”—is impossible (2). Colonial records are notoriously incomplete, while the silences and gaps in the records on Indian slavery reflect the illegitimate and informal nature of slave trading in the sixteenth century.",
+     "traduccion": "La propia Stone declara imposible cuantificar de forma completa la esclavitud indígena por el carácter ilegal e informal del tráfico: el rango es una estimación, no un total contado.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "misma sección (cita de Stone, p. 129)",
+     "cita_original": "by the 1530s the commerce in Indian slaves was one of the largest businesses in the Spanish Empire",
+     "traduccion": "Stone (p. 129) sostiene que hacia 1530 el comercio de indios esclavos era uno de los mayores negocios del Imperio español.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Marquez no cotejó el rango con archivo: lo atribuye implícitamente a Stone. Reseña elogiosa; no discute la metodología de extrapolación. Es la vía abierta y arbitrada más sólida a la formulación del rango mientras el libro (Penn Press, 403) no se pueda leer. No se leyó el resto del ensayo (los otros nueve libros reseñados)."
+  },
+  {
+   "titulo": "Reseña de: Erin Woodruff Stone, Captives of Conquest: Slavery in the Early Modern Spanish Carribean [sic] (H-LatAm, diciembre de 2022)",
+   "autor": "Pelegrino, Alexandre (Vanderbilt University)",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.h-net.org/reviews/showrev.php?id=57462",
+   "urls_alternativas": [
+    "https://networks.h-net.org/node/23910/reviews/12001776/pelegrino-stone-captives-conquest-slavery-early-modern-spanish"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña editada de H-Net en abierto, con resumen capítulo por capítulo; el reseñista pertenece a la universidad donde Stone se doctoró, lo que no invalida pero sí obliga a anotar la cercanía.",
+   "proveniencia": "Alexandre Pelegrino (Vanderbilt University) escribió la reseña para H-LatAm (diciembre de 2022), por encargo de Casey M. Lurtz (Johns Hopkins). El texto abierto (H-Net) describe el libro de 288 pp., ISBN 978-0-8122-5310-8, y sitúa su aporte en la historia de la esclavitud indígena en América.",
+   "extractos": [
+    {
+     "ubicacion": "H-LatAm (diciembre de 2022), párrafo 3 (sin paginación)",
+     "cita_original": "The impact of Indigenous enslavement went beyond the sizable volume of the trade, which Stone estimates between 250,000 and 500,000 people from 1493 to 1542.",
+     "traduccion": "Pelegrino repite el rango de Stone (250.000-500.000, 1493-1542) como 'estimación' de la autora.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "párrafo 2",
+     "cita_original": "In the next few years, thanks to recurrent epidemics and violence, Indigenous polities lost ground to Spaniards and the Caribbean became a “shatter zone” (p. 11).",
+     "traduccion": "Resumen de la tesis de Stone: tras un primer periodo de equilibrio ('estructura de la coyuntura') las epidemias recurrentes y la violencia debilitan a los pueblos indígenas; es interpretación de la autora (p. 11), no medida de causas.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "párrafo 2",
+     "cita_original": "Yet traces of Indigenous culture, such as language and material objects, survived across the circum-Caribbean as the enslaved interacted with Africans and Europeans.",
+     "traduccion": "Supervivencia de rasgos culturales indígenas en el Circuncaribe, según Stone (relevante para el contexto de A-036, aunque trata de esclavizados desplazados y no de la 'supervivencia taína' de Guitar).",
+     "afirmaciones": [
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032",
+    "A-030",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "El título impreso en H-Net escribe 'Carribean'. Reseña positiva; su única crítica es que no se desarrolla la interacción entre indígenas y africanos. No cuestiona la cifra."
+  },
+  {
+   "titulo": "Reseña de: Erin Woodruff Stone, Captives of Conquest: Slavery in the Early Modern Spanish Caribbean (The American Historical Review 127(1): 528-529)",
+   "autor": "Sierra Silva, Pablo Miguel (University of Rochester)",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://academic.oup.com/ahr/article-abstract/127/1/528/6573719",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Reseña en la principal revista histórica de EE. UU., de un especialista en esclavitud indígena en la América española; solo se leyó el resumen de la página de OUP.",
+   "proveniencia": "Pablo Miguel Sierra Silva (University of Rochester) publica la reseña en The American Historical Review, vol. 127, n.º 1 (marzo de 2022), pp. 528-529. Solo se abrió la página de resumen (WebFetch devolvió 200; curl recibió 403 del desafío de Cloudflare, que no se intentó sortear).",
+   "extractos": [
+    {
+     "ubicacion": "AHR 127(1): 528 (página de resumen, primer párrafo)",
+     "cita_original": "Stone contends that during those decades 250,000 to 500,000 Indians were enslaved in the circum-Caribbean",
+     "traduccion": "Sierra Silva da el rango como tesis de Stone ('contends'), referido a las décadas anteriores a las Leyes Nuevas de 1542.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "[VERIFICADO: fragmento de la página de resumen, obtenido con WebFetch; texto completo y paginación interna no leídos]. El verbo 'contends' marca el rango como posición de la autora, lo que apoya degradar A-032 a B/C hasta cotejar la base. Hay otra reseña en HAHR 102(3):542-544 (Tessa Murphy) que sigue en 403."
+  },
+  {
+   "titulo": "Reseña de: Erin Woodruff Stone, Captives of Conquest: Slavery in the Early Modern Spanish Caribbean (Journal of American History 109(4): 909)",
+   "autor": "Lenik, Stephan (reseñista)",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://academic.oup.com/jah/article-abstract/109/4/909/7109587",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña breve en el Journal of American History; solo se leyó el resumen de la página de OUP y no consta que discuta la cifra.",
+   "proveniencia": "Stephan Lenik reseña el libro en el vol. 109, n.º 4 (marzo de 2023), p. 909. Solo se abrió la página de resumen (WebFetch 200; curl 403 por desafío de Cloudflare).",
+   "extractos": [
+    {
+     "ubicacion": "JAH 109(4): 909 (página de resumen)",
+     "cita_original": "assessing multiple lines of evidence, including archaeological findings, Spanish documents, early chronicles, and a range of secondary sources",
+     "traduccion": "El reseñista describe el método de Stone: arqueología, documentos españoles, crónicas y fuentes secundarias; no menciona recuentos de archivo para el total.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "[VERIFICADO: fragmento de la página de resumen vía WebFetch]. Aporta poco a la cifra; sirve para documentar que la recepción en revistas generales de historia estadounidense repite el rango sin cotejarlo."
+  },
+  {
+   "titulo": "Reseña de: Erin Woodruff Stone, Captives of conquest: slavery in the early modern Spanish Caribbean (Colonial Latin American Review 31(1): 166-168)",
+   "autor": "Goetz, Rebecca Anne (New York University)",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/10609164.2022.2036015",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.1080/10609164.2022.2036015"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña en la Colonial Latin American Review; no se pudo leer (403), así que la fiabilidad es la de la revista, sin juicio sobre el contenido.",
+   "proveniencia": "Rebecca Anne Goetz (NYU) según los metadatos de Crossref (consulta con respuesta 200); la página de Taylor & Francis devuelve 403 con el desafío 'Just a moment...' de Cloudflare, que no se intentó sortear.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Autoría, revista, volumen y páginas vienen de Crossref, no de la lectura de la reseña. No se afirma nada sobre su contenido. Pendiente de lectura manual desde otra red o por biblioteca."
+  },
+  {
+   "titulo": "Captives of Conquest: Slavery in the Early Modern Spanish Caribbean (Philadelphia: University of Pennsylvania Press, 2021; Early Modern Americas; DOI 10.9783/9780812299588)",
+   "autor": "Stone, Erin Woodruff",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.pennpress.org/9780812253108/captives-of-conquest",
+   "urls_alternativas": [
+    "https://doi.org/10.9783/9780812299588",
+    "https://ircommons.uwf.edu/esploro/outputs/book/Captives-of-Conquest-Slavery-in-the/99381858625306600",
+    "https://www.jstor.org/stable/j.ctv18dvw1v"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía de la especialista con archivo en el AGI, pero no se pudo leer ni el texto ni la ficha del editor (Penn Press 403; JSTOR no cargó); solo se leyó el registro bibliográfico de la University of West Florida y reseñas (tres completas, dos en resumen y dos bloqueadas).",
+   "proveniencia": "Erin Woodruff Stone (University of West Florida) publicó el libro en Penn Press en 2021 (235 pp. según el registro de UWF; 288 pp. según H-Net) a partir de su tesis de 2014. El registro del repositorio de UWF (Esploro) respondió 200, sin archivo descargable, y el DOI de De Gruyter respondió 202 vacío; Penn Press respondió 403 a curl y a WebFetch.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2 del libro, citado en Rankin (Strategic Visions 22(2):39) [vía reseña]",
+     "cita_original": "the enslavement of and trade in Indians was central to the processes of conquest",
+     "traduccion": "Tesis del libro (p. 2) según Rankin; vía reseña, no leída en el libro.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 2 del libro, citado en Marquez (LARR 58(2)) [vía reseña]",
+     "cita_original": "a complete history and quantification of Indian slavery—what she calls “the other face of slavery in the early Spanish Empire”—is impossible",
+     "traduccion": "Premisa del libro (p. 2) según Marquez: una cuantificación completa es imposible. Por eso el rango 250.000-500.000 es estimación; el enunciado de A-032 debe reformularse a 'entre 250.000 y 500.000 indígenas esclavizados y comerciados en el Caribe español y la Península, 1493-1542, según Stone'.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0149",
+   "notas": "No se leyó el libro. Las dos citas son del libro tal como las reproducen reseñas abiertas (Rankin; Marquez), no del libro. Para A-032 la base verificable sigue siendo la tesis de 2014 (p. 5-6): rango por extrapolación desde 62.000 documentados. El texto editorial de Penn Press ('upwards of 250,000 people were removed through slavery') solo se vio en fragmentos de buscador en la ronda 1. Reseñas ahora localizadas: Rankin, Marquez (leídas), Pelegrino/H-Net (leída), Sierra Silva/AHR y Lenik/JAH (resumen), Goetz/CLAR y Murphy/HAHR (403). Contradicción menor en las fichas: UWF da 235 pp.; H-Net, 288 pp. (puede incluir notas y bibliografía)."
+  },
+  {
+   "titulo": "America's First Slave Revolt: Indians and African Slaves in Española, 1500-1534 (Ethnohistory 60(2): 195-217)",
+   "autor": "Stone, Erin Woodruff",
+   "anio": "2013",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://doi.org/10.1215/00141801-2018927",
+   "urls_alternativas": [
+    "https://read.dukeupress.edu/ethnohistory/article/60/2/195/9080/America-s-First-Slave-Revolt-Indians-and-African",
+    "https://api.crossref.org/works/10.1215/00141801-2018927"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo arbitrado en Ethnohistory (Duke UP) con fuentes del AGI; solo se leyó el resumen publicado en los metadatos de Crossref, no el texto.",
+   "proveniencia": "Stone publica en Ethnohistory 60(2), abril de 2013, el artículo que enlaza la rebelión de Enriquillo y la de africanos de 1521; su resumen declara que usa documentos del AGI y estudios arqueológicos recientes. El texto en Duke devuelve 403 con el desafío 'Just a moment...' de Cloudflare (no sorteado); Semantic Scholar indica acceso cerrado (isOpenAccess falso). El resumen se obtuvo de la API de Crossref (200).",
+   "extractos": [
+    {
+     "ubicacion": "resumen del artículo (Crossref, campo 'abstract')",
+     "cita_original": "Among the themes I analyze in my article are the scope and meaning of the early indigenous slave trade; the greater social, political, and cultural impact of the Caribbean slave trade from 1500 to 1530; the factors that prompted both the Indians and Africans to revolt; and the roles played by the various religious groups on the island.",
+     "traduccion": "Resumen de la autora: el artículo trata el alcance y el significado de la esclavitud indígena temprana y los factores de las rebeliones indígena y africana; no se pudo comprobar si da una cifra.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "resumen del artículo (Crossref)",
+     "cita_original": "This essay addresses these silences by carefully examining the evolution of colonial society on Española using sources found in the Archivo General de Indias and recent archaeological studies.",
+     "traduccion": "Base declarada: AGI y arqueología reciente.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2081",
+   "notas": "Resolución parcial: el DOI y la ficha de Crossref se abrieron (200) y confirman autoría, revista, volumen, páginas y resumen; el texto sigue cerrado. No hay copia de autora localizada en uwf.edu, academia.edu ni ResearchGate (consultas sin resultados). La tesis de 2014 (capítulo IV, 'Another Look at the Revolt of Enriquillo') es la vía abierta al mismo material."
+  },
+  {
+   "titulo": "Repartimientos y encomiendas en la isla Española (El repartimiento de Alburquerque de 1514) (Madrid-Santo Domingo: Fundación García Arévalo, 1991, 640 pp.)",
+   "autor": "Arranz Márquez, Luis",
+   "anio": "1991",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/398/384/767",
+   "urls_alternativas": [
+    "https://revistas.ucm.es/index.php/RCHA/article/download/RCHA9494110322B/29279/30439",
+    "https://dialnet.unirioja.es/descarga/articulo/7138207.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra especializada y base de casi todas las cifras de 1514, pero no hay texto abierto: solo reseñas y fichas bibliográficas, y el libro no se leyó.",
+   "proveniencia": "Luis Arranz Márquez editó y analizó el repartimiento de Alburquerque con base en el AGI y el Archivo de la Casa Ducal de Alba; es la fuente de las tablas que usan Mira Caballos (p. 592, nota 147; pp. 529-598), Livi-Bacci (tabla 5), Deagan y Cruxent y Anderson-Córdova. La URL confirmada esta ronda es la de una ficha bibliográfica de 1995 (Estudios Sociales 28(99), AGN) que describe el libro; la del RCHA es la reseña ya registrada (F-2148, ronda 1).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M03",
+    "M01"
+   ],
+   "id_existente": "F-0169",
+   "notas": "Búsqueda de acceso abierto (resultado negativo, para 07-sintesis/limites.md): 3 consultas web (título exacto con 'pdf texto completo', 'archive.org', y las cifras 26.334/26.189/26.188), más tres consultas a la API de búsqueda del Internet Archive (autor+título, título, 'arranz márquez repartimiento alburquerque'): 0 resultados. Solo aparecen la reseña de Muñoz en la RCHA (F-2148), la de Mira Caballos en Ecos (M02-N69), la ficha de Sáez en Estudios Sociales (esta ronda) y las citas de terceros. Las cifras de Arranz (26.334 según Cook, Moya Pons y F-0011; 26.189 según Mira Caballos; 26.188 según Livi-Bacci) solo se pueden leer a través de ellos: la diferencia entre ellas no se pudo resolver sin el libro. También se buscó la monografía de Verlinden (1968) sin resultado. Verificar contra el libro físico (Biblioteca Nacional de España o Fundación García Arévalo)."
+  },
+  {
+   "titulo": "O Caribe entre leis e fronteiras étnicas: a escravidão de indígenas e africanos na Ilha de Española, 1492-1551 (dissertação de mestrado, Universidade Federal de Santa Catarina, Programa de Pós-Graduação em História)",
+   "autor": "Alexandre, Victor Vilmar",
+   "anio": "2022",
+   "tipo": "cientifica",
+   "idioma": "pt",
+   "tradicion": "internacional",
+   "url": "https://repositorio.ufsc.br/handle/123456789/247474",
+   "urls_alternativas": [
+    "https://repositorio.ufsc.br/bitstream/handle/123456789/247474/PHST0768-D.pdf?sequence=1&isAllowed=y"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis de maestría (UFSC) con bibliografía amplia (Stone, Mira Caballos, Arranz, Guitar, Anderson-Córdova) pero que trabaja casi solo con literatura secundaria y con la edición de Rodríguez Demorizi del repartimiento de 1514.",
+   "proveniencia": "Victor Vilmar Alexandre defendió el 19-XII-2022 en la UFSC (Florianópolis) esta disertación sobre la esclavitud de indígenas y africanos en La Española, dirigida por Waldomiro Lourenço da Silva Júnior, con Rafael de Bivar Marquese (USP) y Tiago Kramer de Oliveira en la banca. Representa la recepción latinoamericana (brasileña) de Stone 2014 y Mira Caballos 2017. Su Tabla 1 se basa en el texto del repartimiento de 1514 publicado por Rodríguez Demorizi (1971, pp. 73-248) y en la división en ciudades mineras y no mineras de Anderson-Córdova (2017). PDF de 2,4 MB, 8.029 líneas de texto.",
+   "extractos": [
+    {
+     "ubicacion": "p. 17 (l. 288-292 del txt; nota: el autor cita 'ROJAS, 2021' = Valcárcel Rojas, artículo de prensa en Acento)",
+     "cita_original": "durante o período de 1493-1552, estima-se que o comércio de escravos indígenas expropriou cerca de 250.000 a 500.000 indígenas pelo Circuncaribe (ROJAS, 2021).",
+     "traduccion": "Alexandre repite el rango de 250.000 a 500.000 para 1493-1552 (no 1493-1542, como Stone) y lo atribuye a Valcárcel Rojas (2021), un artículo de prensa, no a un recuento de archivo. La frase siguiente cita a Stone 2014, pp. 1-2.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 102 (l. 3528-3531), con la nota 82 y la Tabla 1",
+     "cita_original": "De acordo com Demorizi, o Repartimiento executado em 1514, redistribuiu 22.336 indígenas (sem contar os idosos, as crianças que não podiam trabalhar e os cimarrones) em toda a ilha (Tabela 1)",
+     "traduccion": "El total de 22.336 de Demorizi (1971) es de indígenas 'de servicio', sin viejos, niños inhábiles para trabajar ni cimarrones: es un recuento distinto del de 26.188-26.334, que sí incluye viejos y niños.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 102, Tabela 1 'O Repartimiento de 1514: Número total de indígenas deslocados por cidades' (l. 3533-3560)",
+     "cita_original": "Concepción 2.924 | Santiago 2.223 | Santo Domingo 5.983 | Buenaventura 1.513 | San Juan de la Maguana 1.529 | Puerto Plata 587 | Salvaleón de Higüey 1.198 | Azua 813 | Bonao 1.055 | Puerto Real 839 | Lares de Guahaba 467 | Vera Paz 1.266 | La Sabana 900 | Yáquimo 1039 | Total: 22.336",
+     "traduccion": "Totales por villa del repartimiento de 1514 (personas de servicio). Comprobación propia: 14.172 en las cinco villas mineras y 8.164 en las nueve restantes suman 22.336. Coinciden con el CODOIN en Yáquimo (1.039, p. 226) y en Lares de Guahaba (467 impreso, aunque los dos componentes del propio documento suman 527; ver F-0011).",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 71 (l. 2328-2343; nota 60 con la tabla de estimaciones de contacto de Mira Caballos 2017, p. 295)",
+     "cita_original": "O seu cálculo para a ilha, em 1492, foi de “136,384 habitantes, com una cifra para laisla de 1.79 hab/km2” (CABALLOS, 2017, p. 325) [...] para Caballos, a principal causa desse declínio foram as doenças, e sua alta mortalidade por parte dos indígenas.",
+     "traduccion": "Resumen de Mira Caballos 2017 (F-2099): población de contacto de 136.384 (1,79 hab/km2) y enfermedades como causa principal del declive, asociadas a baja fecundidad por el régimen laboral. Es otra posición que la de A-030 y que la de su propio libro de 1997 (100.000 y 'choque cultural').",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 72, texto y nota 61 (traducción al portugués de Guitar 2002, pp. 2, 10-11; el original inglés se leyó en la ronda 1)",
+     "cita_original": "“Uma perda de 80-90% é uma perda significativa e horrível. É tão horrível que obscurece o fato de que 10 a 20% dos Taínos sobreviveram” (GUITAR, 2002, p. 2; p. 11).",
+     "traduccion": "Guitar sostiene que sobrevivió entre el 10 y el 20 % de los taínos (A-036); Alexandre la sigue ('a extinção total dos taínos é um mito').",
+     "afirmaciones": [
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "p. 72, nota 61 (traducción al portugués de Guitar 2002, pp. 10-11)",
+     "cita_original": "a maioria dos Taínos morreu de doenças como sarampo e gripe porque não tinham imunidade a eles e, a partir de 1519, de varíola. Em áreas tropicais como Hispaniola, entre 80 e 90% dos índios morreram de pragas",
+     "traduccion": "Guitar atribuye la mayoría de las muertes a enfermedades (sarampión, gripe, y viruela desde 1519) y no a la encomienda ni a las guerras: choca con la formulación de A-030, que cita a Livi-Bacci y a Stone, y con Livi-Bacci (2003), que no halla rastro de epidemias mayores antes de 1518.",
+     "afirmaciones": [
+      "A-030",
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Aporta principalmente (a) la Tabla 1 por villas del 22.336, útil para comparar con el CODOIN, y (b) un ejemplo de cómo el rango de Stone circula en la academia brasileña con la atribución cambiada (Valcárcel Rojas 2021, 1493-1552). Sesgo: tesis de maestría que sigue la historiografía atlántica de la esclavitud indígena (Stone) y la tesis de supervivencia taína (Guitar); no revisa la base de las cifras. El texto extraído tiene errores de codificación (se re-extrajo en UTF-8). Las páginas indicadas son las impresas."
+  },
+  {
+   "titulo": "Cuando Cristóbal Colón comenzó a ver a los indígenas como esclavos (Acento, Santo Domingo, 11 de octubre de 2021)",
+   "autor": "Valcárcel Rojas, Roberto",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://acento.com.do/cultura/cuando-cristobal-colon-comenzo-a-ver-a-los-indigenas-como-esclavos-8994422.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo de divulgación de un arqueólogo, sin notas ni bibliografía en la página; sirve para ver cómo circulan las cifras, no como evidencia.",
+   "proveniencia": "Roberto Valcárcel Rojas, arqueólogo (su nacionalidad cubana y su afiliación son [POR VERIFICAR]; el propio texto dice que investiga en el Centro Cultural Eduardo León Jimenes), publicó el texto el 11-X-2021 en el diario dominicano Acento, con un grabado de De Bry. El artículo resume la esclavitud indígena en La Española desde Colón y no cita fuentes; Alexandre 2022 lo toma como origen del rango 250.000-500.000.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo introductorio (resumen del artículo)",
+     "cita_original": "Si entre 11 y 12 millones de africanos fueron arrancados de su tierra y traídos como esclavos a América, entre 5 y 7 millones de indígenas lo fueron en todo el continente. Durante el periodo 1493 – 1552 esta fue la suerte de entre 250 000 y 500 000 indígenas en el Caribe.",
+     "traduccion": "Valcárcel Rojas da el rango 250.000-500.000 para 1493-1552 sin nombrar a Stone ni ninguna otra fuente; la formulación 'indígenas en el Caribe' es la más cercana al enunciado de A-032.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre el destino de los esclavizados",
+     "cita_original": "Hay registros del envió desde La Española a la península Ibérica, de al menos 1510 esclavos entre 1492 y 1550. Esta isla y Puerto Rico, según algunas estimaciones, captaron no menos de 34 000 esclavos indígenas durante ese periodo, procedentes de toda el área caribeña.",
+     "traduccion": "Dos magnitudes para La Española: al menos 1.510 enviados a la Península (1492-1550) y no menos de 34.000 esclavos indígenas captados por La Española y Puerto Rico (la misma cifra la da Wilson 1993, p. 48, F-2136, citando a Anderson-Córdova), muy por debajo de 250.000.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre Colón",
+     "cita_original": "En 1495 envía a Castilla 500 indígenas para vender, y otros 800 en 1498. Su hermano Bartolomé había remitido 300 en 1496 y 300 acompañan, en 1499, a un grupo de españoles en su viaje de retorno.",
+     "traduccion": "Primeros envíos de esclavos taínos a Castilla: 500 (1495), 300 (1496), 800 (1498), 300 (1499), con autorización de Colón; cifras que concuerdan en orden de magnitud con las de la bibliografía, sin fuente citada en el texto [POR VERIFICAR contra el memorial de 1494 (M02-N54) y los autos de 1495-1499].",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre los mercados",
+     "cita_original": "En el Santo Domingo de 1520 un indio esclavo costaba 15 pesos y un africano 54.",
+     "traduccion": "Precio relativo en Santo Domingo hacia 1520: 15 pesos por un indio esclavo frente a 54 por un africano; el artículo no da fuente (Mira Caballos 1997, Cuadros XXVI-XXVII, trata precios de 1521-1535).",
+     "afirmaciones": [
+      "A-032",
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Divulgación sin aparato crítico: toda cifra de este artículo es [POR VERIFICAR] hasta rastrear la fuente primaria o secundaria. La cuenta de Colón se puede cotejar con M02-N54 (Memorial de Torres, 1494: 4.000 indios a 1.500 maravedís la pieza, según el texto). Autor de la lente 'internacional' por su formación (arqueología del contacto en Cuba y La Española) aunque escribe para prensa dominicana."
+  },
+  {
+   "titulo": "Aborigeny Espan'oly v otchete o razdelenii 1514-1515 gg. [Española's Natives in the Account of Repartimiento of 1514-1515] (Etnograficheskoe obozrenie 2: 81-92)",
+   "autor": "Aleksandrenkov, Edward G. (Aleksandrenkov E.G.)",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "ru",
+   "tradicion": "internacional",
+   "url": "https://eo.iea.ras.ru/en/article/10200/",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado de la revista del Instituto de Etnología y Antropología de la Academia de Ciencias de Rusia, pero solo se leyó la ficha con el resumen; el texto completo está en eLIBRARY.ru.",
+   "proveniencia": "Edward Aleksandrenkov (Instituto de Etnología y Antropología, Academia Rusa de Ciencias, Moscú) envió el artículo el 08-II-2016 y se aceptó el 01-VII-2016; se publicó en 2017. Estudia el repartimiento de 1514-1515 y las categorías 'indios del cacique' y 'naborías de casa'. Representa una lectura del documento fuera del eje angloamericano e hispano-dominicano.",
+   "extractos": [
+    {
+     "ubicacion": "ficha del artículo, 'Abstract' (inglés)",
+     "cita_original": "The author focuses on repartimiento in Española in 1514–1515 and draws attention to several different categories of natives that were subjected to encomienda; the main of those were known as indios del cacique and naborías de casa.",
+     "traduccion": "El artículo analiza las categorías de indios del repartimiento de 1514-1515 (indios del cacique y naborías de casa); el resumen no da cifras.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "ficha del artículo, 'Abstract' (inglés)",
+     "cita_original": "That distribution system was recognized as one of the principal causes of demographic collapse among the islanders.",
+     "traduccion": "El sistema de reparto se considera una de las causas principales del colapso demográfico (el resumen no dice quién lo reconoce ni con qué base).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2186",
+   "notas": "Resolución parcial: la ficha responde 200 y confirma autor, revista, año, páginas y resumen; el texto completo ('distribuido por eLIBRARY.ru') exige registro y no se intentó. No hay PDF en abierto localizado (una consulta en ruso sin resultados). Las cifras que use el autor quedan sin leer."
+  },
+  {
+   "titulo": "Ocama-Daca Taíno (Hear me, I am Taíno): Taíno Survival on Hispaniola, Focusing on the Dominican Republic (capítulo en M. C. Forte, ed., Indigenous Resurgence in the Contemporary Caribbean: Amerindian Survival and Revival, Peter Lang, 2006)",
+   "autor": "Guitar, Lynne; Ferbel-Azcarate, Pedro; Estevez, Jorge",
+   "anio": "2006",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://pdxscholar.library.pdx.edu/black_studies_fac/21",
+   "urls_alternativas": [
+    "https://archive.org/download/KacikeJournal_34/FerbelEnglish.pdf",
+    "https://archive.org/download/KacikeJournal_34/GuitarEspanol.pdf"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo de una editorial académica con tres autores que sostienen la tesis de la supervivencia taína; solo se leyó el resumen del repositorio de Portland State, que no ofrece el PDF.",
+   "proveniencia": "Lynne Guitar (historiadora y antropóloga), Pedro J. Ferbel-Azcarate (arqueólogo, Portland State University) y Jorge Estevez (taíno dominicano, Smithsonian NMAI) publican en 2006 una síntesis de la tesis de supervivencia taína. El repositorio PDXScholar (registro black_studies_fac/21) responde 200 pero solo da resumen y un enlace al libro. Existen versiones de Guitar y de Ferbel en la revista KACIKE (archive.org), localizadas en la búsqueda y de la misma línea.",
+   "extractos": [
+    {
+     "ubicacion": "PDXScholar, registro black_studies_fac/21, resumen",
+     "cita_original": "The most prevalent reason for the creation of this myth was the campaign of the Dominican friars, led by Bartolomé de las Casas, to abolish the encomienda system and replace it with a mission system for the conversion of the Native Peoples.",
+     "traduccion": "Resumen del capítulo: el mito de la extinción taína nació sobre todo de la campaña dominica y lascasiana contra la encomienda; es la tesis que recoge A-036.",
+     "afirmaciones": [
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "PDXScholar, registro black_studies_fac/21, resumen",
+     "cita_original": "Indeed, recent historical, ethnographic, ethno-archaeological, linguistic, and DNA studies are demonstrating multidisciplinary evidence for both Taíno cultural and biological survival.",
+     "traduccion": "Los autores afirman que estudios históricos, etnográficos, etnoarqueológicos, lingüísticos y de ADN muestran supervivencia taína cultural y biológica (la parte genética se cruza con M16).",
+     "afirmaciones": [
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M16"
+   ],
+   "id_existente": "F-2191",
+   "notas": "Resolución parcial: se confirmó la ficha (200) pero no hay texto abierto del capítulo. Sesgo conocido: tesis de revival taíno, con un coautor taíno y otro participante en el movimiento; las fuentes de archivo (AGI) que usan están en Guitar 1998 y 2002, no en este resumen. El enlace a KACIKE (archive.org) aparece en búsqueda; no se abrió esta ronda (Guitar 2002 ya fue leído en la ronda 1)."
+  },
+  {
+   "titulo": "Historia de la Iglesia dominicana: cuatro años más de bibliografía (1990-1994) (Estudios Sociales [AGN, Santo Domingo] 28(99), enero-marzo de 1995), ficha sobre Arranz Márquez",
+   "autor": "Sáez, José Luis, S.J.",
+   "anio": "1995",
+   "tipo": "terciaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/398/384/767",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota bibliográfica de un par de líneas dentro de una lista; confirma la existencia y el contenido del libro de Arranz pero no aporta datos propios.",
+   "proveniencia": "José Luis Sáez, S.J. (historiador de la Iglesia dominicana) compila una bibliografía comentada de 1990-1994 para la revista Estudios Sociales del Archivo General de la Nación; la ficha de Arranz está en la p. 42. Es un índice, no evidencia.",
+   "extractos": [
+    {
+     "ubicacion": "p. 42 (entrada 'Arranz Márquez, Luis')",
+     "cita_original": "Un estudio bien documentado y pormenorizado del régimen de la encomienda en la isla, con magníficos cuadros estadísticos de vecinos, regiones, encomenderos y caciques.",
+     "traduccion": "Descripción de 1995 del libro de Arranz (640 pp., Santo Domingo, Fundación García Arévalo, 1991): confirma que contiene tablas por vecinos, regiones, encomenderos y caciques, pero no da cifras.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-031"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Se registra solo para documentar la búsqueda del libro de Arranz (ver nota de F-0169): es la única ficha dominicana abierta localizada que lo describe. Tipo terciaria: sirve como índice hacia la obra, nunca como evidencia."
+  },
+  {
+   "titulo": "Reseña de: Esteban Mira Caballos, Indios y mestizos americanos en la España del siglo XVI (Madrid/Frankfurt: Iberoamericana/Vervuert, 2000, 181 pp.) (Iberoamericana, II, 6 (2002), pp. 279-280)",
+   "autor": "Arellano, Carmen (reseñista)",
+   "anio": "2002",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://journals.iai.spk-berlin.de/index.php/iberoamericana/article/download/1502/1136/3394",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de dos columnas en la revista del Instituto Ibero-Americano de Berlín; resume el libro de Mira Caballos sin cotejar sus cifras.",
+   "proveniencia": "Carmen Arellano reseña en 2002, en la revista Iberoamericana (Instituto Ibero-Americano, Berlín, sección 'Historia y ciencias sociales: España'), el estudio de Mira Caballos sobre los indios y mestizos llevados a España. El PDF abierto es la sección entera de reseñas; solo se leyó esta.",
+   "extractos": [
+    {
+     "ubicacion": "p. 279 (primera columna)",
+     "cita_original": "que llegaron miles de esclavos indígenas a España y que su trata no paró a pesar de las prohibiciones, aunque sí disminuyó su número drásticamente.",
+     "traduccion": "Según la reseñista, Mira Caballos 2000 muestra que llegaron 'miles' de esclavos indígenas a España y que la trata continuó pese a las prohibiciones: dimensión ibérica del tráfico que entra en el rango de Stone (Caribe más Península).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "pp. 279-280 (segunda columna de la p. 279 y primera de la p. 280)",
+     "cita_original": "la población indígena esclava no sobrepasaba el 1,5% de la población esclava en general.",
+     "traduccion": "En España los esclavos indígenas eran como máximo el 1,5 % de la población esclava (con variaciones por ciudad; Sevilla la mayor): orden de magnitud bajo para la parte peninsular.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "p. 280 (primera columna, párrafo final de la reseña)",
+     "cita_original": "Las famosas exploraciones y rescates tenían un carácter claramente esclavista, cuya finalidad muy probablemente era también financiar próximas exploraciones y conquistas.",
+     "traduccion": "Para Mira Caballos (según la reseña) las 'exploraciones y rescates' eran esencialmente esclavistas: término 'rescate' = captura y trueque de esclavos.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Aporta la dimensión peninsular de la esclavitud indígena (parte del rango de Stone). No da cifras absolutas. Se recomienda leer el libro de Mira Caballos 2000 (Iberoamericana-Vervuert) si hay acceso."
+  },
+  {
+   "titulo": "Relación de las cosas que se han hecho en el repartimiento de la Isla Española (1514-1515), en Colección de documentos inéditos relativos al descubrimiento, conquista y colonización de las posesiones españolas en América y Oceanía, t. I (Madrid, 1864), pp. 50-227 (cotejo de totales por villa)",
+   "autor": "Ibáñez de Ibarra, Pero; Alburquerque, Rodrigo de (repartidores); Mosquera, Juan, y Arce, Alonso de (escribanos); ed. Pacheco, Joaquín F., y Cárdenas, Francisco de",
+   "anio": "1514 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/coleccindedocu01cruoft/page/n196_w1200.jpg"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición decimonónica de un documento oficial de 1514 conservado en el AGI; contiene errores internos de suma que se comprobaron en la imagen de página.",
+   "proveniencia": "Documento redactado por los escribanos Juan Mosquera y Alonso de Arce para los repartidores Pero Ibáñez de Ibarra y Rodrigo de Alburquerque en La Concepción y 13 villas (nov. 1514 - ene. 1515); copia impresa por Pacheco y Cárdenas en 1864 desde el AGI (la nota de la p. 227 dice 'hay un clavo en la copia', es decir, que la copia tiene daños). Las signaturas del AGI que da Mira Caballos (1997, nota 133) son Santo Domingo 77, R. 2, N. 32 y Justicia 6, N. 4 (lectura de OCR).",
+   "extractos": [
+    {
+     "ubicacion": "p. 226 (l. 10006-10012 del _djvu.txt; villa Nueva de Yáquimo; OCR normalizado: 'c nueve' leído 'é nueve'; imagen de página no revisada)",
+     "cita_original": "los cuales dichos caciques se halló que tenian ochocientas é siete personas de servicio, é en las dichas naborias doscientas é treinta é dos personas de servicio, sin los viejos é niños que en ellos se hallaron, que son por todos los dichos indios ó naborias mil é treinta é nueve personas de servicio.",
+     "traduccion": "Totales de la villa de Yáquimo: 807 + 232 = 1.039 'personas de servicio', sin viejos ni niños; coincide con la Tabla 1 de Alexandre (1039). Muestra que los totales por villa del documento excluyen viejos y niños, de modo que la suma de las villas (22.336) no es comparable con 26.188-26.334, que los incluyen.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 191 (l. 8428-8434 del _djvu.txt; villa de Lares de Guahaba; imagen de página n196 confirmada)",
+     "cita_original": "en los cuales dichos caciques é indios se hallaron que tenian doscientas é sesenta é seis personas de servicio, é en las dichas naborias se hallaron doscientas é sesenta é una personas de servicio, sin los niños é viejos, que son todos los dichos indios é naborias cuatrocientas é sesenta é siete personas de servicio.",
+     "traduccion": "Error aritmético en el propio texto impreso: 266 + 261 = 527, pero el total dice 467. Alexandre/Demorizi (Tabla 1) repiten 467. La suma de totales impresos (22.336) y la de componentes (22.332, ronda 1) solo coinciden dentro de 4 unidades porque otras villas compensan; no se sabe si el error está en el original del AGI o en la copia de 1864.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M03",
+    "M01"
+   ],
+   "id_existente": "F-0011",
+   "notas": "F-1590 es la misma edición con otra URL (duplicado de registro). Cotejo de las cifras de 1514 (ronda 2): Mira Caballos 1997, 26.189 indios en 729 encomiendas (Arranz, p. 592); Livi-Bacci 2003, tabla 5, 26.188 indios (15.484 de servicio + 7.124 naborías + 1.573 viejos + 1.600 niños + 379 caciques + 28 nitaínos) y 738 encomenderos; Cook 2003 y Moya Pons, 26.334 (Moya Pons: 15.098 de servicio + 7.016 naborías); Demorizi 1971/Alexandre 2022 y la suma de la ronda 1, 22.336 personas de servicio sin viejos ni niños; Sauer, 22.726 (según Stone 2014, n. 341). Las tres cifras 26.189, 26.188 y 26.334 se atribuyen a Arranz y no se pueden reconciliar sin el libro (F-0169). No se recontó el documento entero en esta ronda: solo se verificaron en imagen Lares de Guahaba y, por el texto, Yáquimo. [POR VERIFICAR] el resto de villas contra imagen."
+  }
+ ]
+}

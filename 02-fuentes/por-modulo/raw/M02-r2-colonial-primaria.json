@@ -1,0 +1,1822 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M02",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 12,
+ "busquedas_pendientes": [
+  "Scelle 1906, t. 1, p. 755: cotejo con la imagen del escaneo (archive.org latraitengri01sceluoft) para confirmar la transcripción de la licencia de Gorrevod",
+  "AGI Indiferente 419, L. 7, ff. 735-735v (licencia de Gorrevod) en PARES: reintentar fuera de la ventana del 429, para ver la imagen y la signatura moderna frente a «AGI 46,4,6, I, f. 17» de Scelle",
+  "Eguiguren, Luis Antonio, La Universidad Nacional Mayor de San Marcos (Lima, 1950/1951) o Rivara de Tuesta: texto completo de la real cédula de 12-V-1551 (AGI Lima 566)",
+  "Carta latina de dominicos y franciscanos de La Española a los regentes, 27-V-1517 (Pedro de Córdoba) y carta de los dominicos a Chièvres: texto en CODOIN Ultramar o en la Colección Torres de Mendoza (DII t. 7?) y en Las Casas, Obras escogidas",
+  "CODOIN primera serie t. 31 y 32 (Pacheco-Cárdenas-Torres de Mendoza, 1879): identificar el identificador de archive.org y buscar las cartas de Ovando de 1503-1504 y el texto de las Instrucciones de 1501-1503",
+  "Cuneo, texto italiano en De Lollis, Raccolta Colombiana III, ii, 95-107, para cotejar la traducción de Nordio/Morison",
+  "Altman 2013 (WMQ 70:2) en PDF abierto; Deagan 2004 («Reconsidering Taíno social dynamics after Spanish conquest: gender and class in culture contact studies», American Antiquity 69) en PDF",
+  "Hernáez 1879: lectura completa del vol. 1 en busca de la bula de Santo Domingo de 1538 por si el OCR la deformó (grep «Sancti Dominici», «Alcalá» no dio resultado)",
+  "Utrera 1932 y 1938, Rodríguez Cruz 2002, UASD 1944: pedir escaneo a la ADH (colección personal, acceso restringido) o buscar el PDF en bd.bnphu.gob.do",
+  "Fernández Chaves y Pérez García 2016 (F-2088) y Moscoso 2022 (M02-N63): leer la transcripción parcial de la licencia de Gorrevod con signatura",
+  "Oviedo, Historia general, lib. III, caps. 11-12 (Anacaona y Jaragua) cotejado con Las Casas t. 3, l. 1660-1760 para A-033 (ya cubierto por M02, F-0009)",
+  "Konetzke vol. I: cotejo con las imágenes del escaneo para los números de página y los folios de los 19 documentos extractados (solo se cotejó el doc. 29)"
+ ],
+ "lagunas": [
+  "Texto de la real cédula de 12-V-1551 de San Marcos de Lima: solo hay citas parciales en Garmendia (2001); Konetzke vol. I no la contiene.",
+  "Utrera 1932 (598 pp.), Utrera 1938 (389 pp.), la edición políglota de la UASD de 1944 (72 pp.) y Rodríguez Cruz 2002 (41 pp.): solo registros de catálogo de la ADH; los argumentos contra la bula se conocen por Beltrán de Heredia (1955), parte interesada.",
+  "No se encontró un documento original del Archivo Vaticano ni del registro papal de la bula de 1538: el Bullarium (1732) declara que su ejemplar procede de un autógrafo conservado en el convento de Santo Domingo; las copias de AGI (1542, localizada por César Herrera) y la copia certificada de 1936 de la ADH que menciona la UASD no se pudieron comprobar.",
+  "Cartas de Ovando de 1503-1504: siguen sin localizarse (solo hay respuestas de la Corona: Konetzke doc. 9, First Blacks Ms. 007); CODOIN primera serie t. 31 (D.I.A.) no localizado en archive.org.",
+  "La carta latina de dominicos y franciscanos de 27-V-1517 (Pedro de Córdoba) y las cartas de los dominicos a Chièvres: texto no localizado; solo se vio su existencia en resultados de búsqueda.",
+  "Texto italiano de la carta de Cuneo: solo traducción inglesa de Nordio-Morison (1940/1963).",
+  "Stone 2021, Cook 1998, Anderson-Córdova 2017, Altman 2013 y 2021, Deagan 2004: sin acceso al texto; Stone solo por una reseña (250.000-500.000).",
+  "Voz taína directa: ninguna. Las cacicas del repartimiento de 1514 (con nombres cristianos como Catalina de Ayalibix, Inés de Ibitraco, Barabona) y los matrimonios regulados por las cédulas de 1501, 1514, 1515 y 1516 son las fuentes más cercanas; la voz es la de los repartidores y de la Corona.",
+  "Mujeres taínas: la Instrucción de 1501 reconoce la toma de «mujeres e hijas»; Chanca atribuye La Navidad a los celos por mujeres; la cédula de 1516 ofrece cacicazgos a quien se case con una caciqua heredera. No se localizó documento alguno de las propias mujeres ni una fuente sobre Anacaona distinta de Las Casas, Oviedo y Herrera.",
+  "Iglesia más allá de Montesinos: se leyeron en CODOIN t. I el Memorial informatorio (c. 1517), la carta de los jerónimos (20-I-1517) y el memorial de G. González (1517-18), que muestran a los dominicos como minoría criticada; faltan las cartas de los propios dominicos.",
+  "Arqueología (A-039) y bioarqueología (A-040): F-0180 bloqueada (Leiden «Access Blocked»); F-1754 solo da paleoecología; no se buscó nada sobre A-040 en esta ronda.",
+  "Portales: PARES (429), BVMC (403) y BDH (403) siguen bloqueados para agentes automáticos."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "cuento (de ánimas)",
+   "tradicion": "espanola",
+   "nota": "En el castellano del siglo XVI, «un cuento» es un millón; «un cuento de ánimas» es una cifra de personas, no un conteo censal. Aparece en Las Casas (Historia, Apologética) y en el Memorial a Cisneros (c. 1517). Hay que traducirlo siempre como «millón(es)» y tratarlo como cifra D."
+  },
+  {
+   "termino": "caribe / caníbal (categoría jurídica)",
+   "tradicion": "espanola",
+   "nota": "En las provisiones de 30-X-1503 y 23-XII-1511 «caníbales» y «caribes» designan a quien resiste la conversión y puede ser esclavizado; no es un etnónimo verificado. Debe distinguirse del «caribe» de la antropología (grupo lingüístico) y de «taíno»."
+  },
+  {
+   "termino": "naboría",
+   "tradicion": "espanola",
+   "nota": "Palabra taína adoptada en las cédulas: servidor doméstico o de casa, por oposición a «esclavo» y al indio de repartimiento. Cédula de 14-VIII-1509: darlos «como por naborías y no como esclavos»."
+  },
+  {
+   "termino": "encomienda / repartimiento",
+   "tradicion": "espanola",
+   "nota": "En la documentación de 1503-1518 designan el mismo sistema bajo dos nombres: «repartimiento» (acto de repartir) y «encomienda» (el encargo al español). Nacen como trabajo compelido «como libres»; la Corona dice en 1509 que no han de ser de por vida (después lo fueron)."
+  },
+  {
+   "termino": "cacica / caciqua",
+   "tradicion": "espanola",
+   "nota": "En el repartimiento de 1514 y en las cédulas de 1516, las mujeres titulares de cacicazgo se llaman «cacica» o «caciqua» (p. ej. Catalina de Ayalibix con 112 personas). Es necesario para el análisis de género y para distinguir de «cacique»."
+  },
+  {
+   "termino": "asiento (de negros) vs licencia/merced",
+   "tradicion": "espanola",
+   "nota": "La cédula de 18-VIII-1518 dice «licencia» y «merced», no asiento. La historiografía posterior la llama «primer asiento» (Aguirre Beltrán) o «asiento de los genoveses» (Herrera, Scelle). Conviene usar «licencia de 1518» y reservar «asiento» para los contratos posteriores."
+  },
+  {
+   "termino": "universidad primada de América (Santo Domingo vs Lima vs México)",
+   "tradicion": "dominicana",
+   "nota": "Título disputado: la tradición dominicana lo funda en la bula de 28-X-1538; la peruana, en la cédula de 12-V-1551 (San Marcos) y trata la de Santo Domingo como la de Gorjón (1558); la mexicana, en la cédula de 21-IX-1551. El texto de la bula (Bullarium) dice «Universitas S. Dominici», no «de Santo Tomás de Aquino»."
+  },
+  {
+   "termino": "Estudio General",
+   "tradicion": "espanola",
+   "nota": "Institución previa a la universidad: la bula de 1538 menciona un «studium generale» erigido poco antes por autoridad apostólica que carecía de privilegios para conferir grados; la historiografía dominicana lo sitúa en 1518."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Diario de a bordo del primer viaje (extracto de Las Casas), en Navarrete, Colección de los viages y descubrimientos que hicieron por mar los españoles, t. I, «Primer viage», 2.ª ed. (Madrid: Imprenta Nacional, 1858)",
+   "autor": "Colón, Cristóbal; Las Casas, Bartolomé de (copista); Fernández de Navarrete, Martín (ed.)",
+   "anio": "1492-93 (ed. 1858)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindelosv01nava/coleccindelosv01nava_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindelosv01nava"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "El original se perdió y el texto es el resumen que hizo Las Casas con pasajes literales y paráfrasis; la edición de Navarrete es la estándar del siglo XIX, pero el OCR del ejemplar de archive.org tiene ruido.",
+   "proveniencia": "El Diario del primer viaje (1492-93) no se conserva en el original; Las Casas, que lo tuvo en su poder, compuso un extracto en tercera persona con partes en primera persona del Almirante, y Navarrete lo editó en 1825 (2.ª ed., Madrid, Imprenta Nacional, 1858, es el ejemplar escaneado). Escribió Colón para los Reyes Católicos, con el interés de justificar la empresa y de ponderar el valor del descubrimiento. Resuelve el acceso de F-0001, antes bloqueado: la URL de Navarrete t. I se abre sin problema con fetch.",
+   "extractos": [
+    {
+     "ubicacion": "Navarrete t. I, «Primer viage», p. 174; l. 7775-7778 del txt (entrada del viernes 12-X-1492; tras ella, «Todas son palabras del Almirante»)",
+     "cita_original": "Ellos deben ser buenos servidores y de buen ingenio, que veo que muy presto dicen todo lo que les decía, y creo que ligeramente se harían cristianos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Navarrete t. I, p. 174; l. 7779-7781 del txt (misma entrada)",
+     "cita_original": "Yo, placiendo á nuestro Señor, levaré de aquí al tiempo de mi partida seis á V. A. para que deprendan fablar.",
+     "traduccion": "Primera intención documentada de llevar indígenas a Castilla (como intérpretes); no es todavía esclavización, pero el pasaje que lo precede los califica de «buenos servidores».",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Navarrete t. I, p. 269; l. 11802-11804 del txt (entrada de enero de 1493, partida de La Navidad)",
+     "cita_original": "Dejó en aquella Isla Española, que los indios diz que llamaban Bohío, 39 hombres con la fortaleza, y diz que muchos amigos de aquel Rey Guacanagari",
+     "traduccion": "[OCR corregido: «llamaban»; el OCR da «llama- haiii».] Dato para la guía del módulo (La Navidad: 39 hombres). Cuneo habla de 38 muertos y Chanca de 11 cuerpos hallados: tres cifras distintas para el mismo episodio.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0001",
+   "notas": "Acceso: texto-completo-en-linea (antes localizada-bloqueada por EGRESS_BLOCKED en la sesión anterior; ahora se descarga con curl, 200, 1,57 MB). El ítem de archive.org lleva fecha 1825 en los metadatos, pero la portada del ejemplar dice «Segunda edición… Madrid, Imprenta Nacional, 1858»: la paginación citada es la de 1858. Las cabeceras de página del OCR a veces están dañadas («1 12», «i*78»). Sesgo: la voz es la de Colón, interesado en presentar a los indígenas como dóciles y evangelizables, y a la vez como servidores; el pasaje de A-032 no prueba esclavización, solo la expectativa."
+  },
+  {
+   "titulo": "Carta del doctor Diego Álvarez Chanca al Cabildo de Sevilla sobre el segundo viaje (1494), en Navarrete, Colección de los viages y descubrimientos, t. I, 2.ª ed. (Madrid: Imprenta Nacional, 1858)",
+   "autor": "Álvarez Chanca, Diego; Fernández de Navarrete, Martín (ed.)",
+   "anio": "1494 (ed. 1858)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindelosv01nava/coleccindelosv01nava_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindelosv01nava"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Testigo directo y médico de la flota, que escribe a las pocas semanas de los hechos, aunque con el interés de explicar el fracaso de La Navidad; la edición de Navarrete es estándar.",
+   "proveniencia": "El doctor Chanca, médico sevillano de la armada del segundo viaje (despacho real del 23-V-1493), escribió desde La Española al cabildo de Sevilla en 1494, mientras la flota fundaba La Isabela. Navarrete publicó la carta en el t. I a partir de la copia que Las Casas tenía a mano. Es la descripción más temprana de lo que se halló en el emplazamiento de La Navidad.",
+   "extractos": [
+    {
+     "ubicacion": "Navarrete t. I, «Segundo viage», p. 361; l. 15536-15539 del txt (llegada ante La Navidad, noche del 27-XI-1493)",
+     "cita_original": "otros dos Reyes, llamado el uno Caonabó y el otro Mayrení, habían venido á pelear con él é que le habían quemado el logar",
+     "traduccion": "Lo dijo a los recién llegados un pariente de Guacamarí (Guacanagarí). [OCR corregido: «con él» por «con el», «habían» por «hablan».]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Navarrete t. I, pp. 363-364; l. 15630-15633 del txt",
+     "cita_original": "hallamos que habían mostrado donde estaban muertos 11 cristianos, cubiertos ya de la yerba que había crecido sobre ellos, é todos hablaban por una boca que Caonabó é Mayrení los habían muerto",
+     "traduccion": "Chanca cuenta 11 cuerpos, no los 39 hombres dejados por Colón; Guacanagarí, herido, repite la misma versión. [OCR corregido de «hallamos»; la primera mitad de la frase está en el pie de la p. 363.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Navarrete t. I, p. 364; l. 15633-15636 del txt",
+     "cita_original": "pero con todo eso asomaban queja que los cristianos uno tenía tres mugeres, otro cuatro, donde creemos quel mal que les vino fue de zelos",
+     "traduccion": "Atribución de Chanca de la destrucción de La Navidad a los celos por las mujeres; es la primera mención documental de la toma de mujeres taínas por los colonos, tema que la Instrucción a Ovando de 1501 (Konetzke, doc. 6) vuelve a tratar.",
+     "afirmaciones": [
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-036"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0900",
+   "notas": "Aclaración sobre el registro: el ejemplar escaneado es la 2.ª edición de 1858 (el campo anio del registro dice 1825). La carta de Chanca es la fuente que M02.md daba por no localizada. Versión del hecho según tres testigos del mismo viaje: Colón (Diario) deja 39 hombres; Chanca halla 11 cuerpos; Cuneo (carta de 1495, en Morison) dice que halló «all our above-mentioned men dead» y cifra los muertos en 38; las tres versiones atribuyen la masacre a Caonabó y Mayrení, con diferencias en el motivo (Chanca: celos). Pedro Mártir (Década I, lib. IV) cuenta después la captura de Caonabó por ardid de Hojeda."
+  },
+  {
+   "titulo": "El «conteo» de 1,1 millones de almas atribuido al Almirante (hacia 1495-96): Las Casas, Historia de las Indias, t. 3; y Hernando Colón, Historia del Almirante (tributo de 1495-96)",
+   "autor": "Las Casas, Bartolomé de; Colón, Hernando",
+   "anio": "c. 1527-1561; Historia del Almirante (ed. 1892)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-3-de-5_53171/master/53171-0.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/historiadelalmir01col/historiadelalmir01col_djvu.txt",
+    "archivo local: 02-fuentes/textos/gutenberg/lascasas-historia-indias-t3.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "No existe un documento de conteo de 1496: la cifra de 1.100.000 es lo que Las Casas dice que le contó el arzobispo Deza que le había dicho Colón, es decir, testimonio de oídas en tres eslabones y escrito décadas después.",
+   "proveniencia": "La entrada F-0004 del registro presenta como primaria un «conteo tributario de 1496» atribuido a Bartolomé Colón. La lectura del texto local de Las Casas (t. 3) muestra que no se transmite un documento sino una frase: el arzobispo de Sevilla Diego de Deza habría dicho a Las Casas que el Almirante «había contado» 1.100.000 ánimas, que Las Casas restringe a la comarca de Cibao y la Vega y sobre las que él mismo estima más de tres millones. Hernando Colón, que sí describe el tributo del cascabel de oro y las medallas de cobre para controlar a los tributarios, no da ningún total.",
+   "extractos": [
+    {
+     "ubicacion": "Las Casas, Historia de las Indias, t. 3 (archivo local lascasas-historia-indias-t3.txt), l. 3187-3191",
+     "cita_original": "díjome el Arzobispo de Sevilla, D. Diego de Deza, que fué de aquellos tiempos, que le habia dicho el mismo Almirante, que habia contado un cuento y cien mil ánimas",
+     "traduccion": "Cadena de transmisión: Colón → Deza → Las Casas. «Un cuento» = un millón.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Las Casas, t. 3, l. 3191-3195",
+     "cita_original": "Pero estas fueron solas aquellas que estaban al rededor de las minas de Cibao, como eran las que moraban en la gran Vega y otras cercanas dellas, á las cuales impuso el cascabel de oro que diesen por tributo",
+     "traduccion": "La cifra no es de toda la isla, según el propio Las Casas.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Las Casas, t. 3, l. 3196-3199",
+     "cita_original": "más habia en toda la isla de tres millones, porque en aquellos tiempos no se tenia cuenta con esta provincia de Higuey",
+     "traduccion": "Estimación personal de Las Casas, sin base censal declarada.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Las Casas, t. 3, l. 6535-6541 (año 1508, llegada del tesorero Pasamonte)",
+     "cita_original": "habia, contados en esta isla todos los indios, 60.000 personas; de manera, que desde el año de 494 [...] hasta el de 508, que fueron catorce años, perecieron [...] sobre tres cuentos de ánimas que en ella habia",
+     "traduccion": "Serie de Las Casas: 3 millones (1494) → 60.000 (1508). Contrasta con el repartimiento de 1508 de A-031 y con los «cuentos» de A-030.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "Hernando Colón, Historia del Almirante (Madrid, 1892), t. 1, pp. 272-274; l. 7552-7557 y 7607-7615 del txt",
+     "cita_original": "todos los indios que vivían en Cibao, donde estaban las minas de oro, pagase cada uno, que tuviese catorce años, un cascabel lleno de oro, en polvo, y la demás gente á 25 libras de algodón",
+     "traduccion": "La frase cruza el salto de página (p. 273/274). Tributo de 1495-96, con medallas de cobre como recibo; además habla de «cien mil indios» enemigos en la batalla de la Vega (24-III-1495), cifra de campo, no de censo.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0004",
+   "notas": "Recomendación de degradación: la cifra de 1.100.000 en F-0004 es D como cifra (sin fuente primaria trazable) y la entrada debe retitularse «cifra atribuida a Colón por Las Casas vía Deza», no «conteo tributario de 1496». Las referencias «Bartolomé Colón» y «1496» del registro no aparecen en los pasajes leídos (revisar si proceden de historyreclaimed.co.uk, no accesible). Sesgo: Las Casas necesita cifras altas para la denuncia; los cálculos con «cuentos» son suyos. [POR VERIFICAR: la edición exacta (Fuensanta/Rayón 1875-76) y la paginación del pasaje; aquí se cita por línea del texto local de Gutenberg]."
+  },
+  {
+   "titulo": "Pedro Mártir de Anglería, De rebus Oceanicis et Orbe novo decades tres (Basilea: Juan Bebel, 1533), Década I, lib. IV (hambre de 1495-96 y captura de Caonabó)",
+   "autor": "Mártir de Anglería, Pedro (Pietro Martire d'Anghiera)",
+   "anio": "1533 (Década I escrita c. 1493-1500)",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/petrimartyrisab00angh/petrimartyrisab00angh_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/petrimartyrisab00angh"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Humanista de la corte que nunca estuvo en las Indias y escribe de oídas con interés propagandístico; el texto latino es la fuente más antigua de varias cifras pero no es testimonio directo.",
+   "proveniencia": "Pedro Mártir (1457-1526) escribía cartas-crónicas en latín a prelados italianos con lo que le contaban los que volvían de las Indias; la Década I recoge hasta 1500. La edición de Basilea de 1533 reúne las tres primeras Décadas. Registrada como F-0901 con la referencia «Década III, lib. VII»; esa edición no contiene la Década VII (que sí está en la de Alcalá de 1530, ver F-1589).",
+   "extractos": [
+    {
+     "ubicacion": "Década I, lib. IV; l. 4586-4589 del txt de la ed. de 1533 (OCR con s larga; también ed. Alcalá 1530, l. 1802-1803) [texto normalizado: ſ → s]",
+     "cita_original": "quinquaginta millia hominum amplius iam perierint, cadantque quotidie passim, tanquam morbosi gregis pecudes",
+     "traduccion": "«Más de cincuenta mil hombres habían ya perecido y caían a diario por todas partes, como reses de un rebaño enfermo.» Mártir añade que se supo que el hambre les vino por su propia obstinación (no sembrar para expulsar a los españoles).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Década I, lib. IV; l. 4580-4584 del txt de la ed. de 1533 (OCR; texto normalizado: ſ → s, u → v donde corresponde)",
+     "cita_original": "Blanditiis enim et pollicitationibus, sui erroris inter eundum quod domo discessisset pertaesum, Hoieda tandem ad praefectum illum ducit: capitur, in vincula conicitur",
+     "traduccion": "«Con halagos y promesas [...] Hojeda lo lleva por fin ante el prefecto [Bartolomé Colón]: es apresado y echado a cadenas.» Versión de Pedro Mártir (de oídas) de la captura de Caonabó por ardid, hacia 1494. Tema de la guía del módulo, sin A-### directa.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M00",
+    "M02"
+   ],
+   "id_existente": "F-0901",
+   "notas": "Cifra de oídas (c. 1496) sobre mortandad por hambre durante la guerra de la Vega: es un dato anterior a las encomiendas generales y a la viruela de 1518. La explicación (los indígenas arruinaron sus propias cosechas) es la de los españoles y está interesada. En la ed. de 1533 no se halló mención de los lucayos (grep «lucay», «lucai», «iucai»: 0 resultados): la Década VII no está en esa edición."
+  },
+  {
+   "titulo": "Pedro Mártir de Anglería, De orbe novo Petri Martyris ab Angleria decades (Alcalá de Henares: Miguel de Eguía, 1530), Década VII, caps. 1-2 (lucayos y mortandad)",
+   "autor": "Mártir de Anglería, Pedro (Pietro Martire d'Anghiera)",
+   "anio": "1530 (Década VII escrita c. 1524-25)",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/deorbenouopetrim00angh/deorbenouopetrim00angh_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/deorbenouopetrim00angh",
+    "https://archive.org/download/ARes593133/ARes593133_djvu.txt (ed. 1516, solo Décadas I-III: no contiene los pasajes)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Pedro Mártir no estuvo en las Indias y recoge relatos de retornados; los pasajes coinciden con la cita literal que hace Las Casas, pero las cifras son de oídas.",
+   "proveniencia": "La Década VII, dirigida a Francisco Sforza, se escribió hacia 1524-25 y se imprimió en la edición de Alcalá de 1530 (la 1516 solo trae las Décadas I-III). El capítulo 1 habla de las islas Lucayas y de la trata hacia La Española y Cuba; el 2 vuelve sobre su despoblamiento. Las Casas (Historia, t. 3, l. 6788-6805 del texto local) cita los dos pasajes en latín, lo que permite cotejar el OCR.",
+   "extractos": [
+    {
+     "ubicacion": "Década VII, cap. 1; l. 16655-16659 del txt de la ed. 1530 (OCR) y cita literal en Las Casas, Historia, t. 3, l. 6791-6797 del archivo local lascasas-historia-indias-t3.txt",
+     "cita_original": "Ex illis sex et quadringentas ab annis viginti amplius [...] percurrise inquiunt, et quadraginta utriusque sexus millia in servitutem ad inexhausti auri famem explendam adduxerunt",
+     "traduccion": "«Dicen que de ellas [las islas, 406] han recorrido, desde hace más de veinte años, [...] y que han llevado a servidumbre cuarenta mil [personas] de uno y otro sexo para saciar el hambre insaciable de oro.» Las Casas lee 406 islas y 40.000 lucayos.",
+     "afirmaciones": [
+      "A-030",
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Década VII, cap. 2; l. 16844-16846 del txt de la ed. 1530 (OCR) y cita en Las Casas, Historia, t. 3, l. 6800-6804",
+     "cita_original": "deficientibus ipsarum incolis, tum variis morbis et inedia, tum prae nimio labore, ad duodecies centena millia consumptis",
+     "traduccion": "«Faltándoles sus habitantes, consumidos por diversas enfermedades y por hambre y por exceso de trabajo, hasta doce veces cien mil [1.200.000].» El sujeto de la frase es ambiguo: ¿los isleños traídos a las minas de La Española y Fernandina o los habitantes de las islas en general? Las Casas lo suma a su cuenta de «un cuento y 200.000».",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-032"
+   ],
+   "modulos": [
+    "M00",
+    "M02"
+   ],
+   "id_existente": "F-1589",
+   "notas": "Corrección del registro: los pasajes sobre los lucayos están en la Década VII (caps. 1-2), no en la «Década III, lib. VII» del título registrado. El OCR de la edición de 1530 tiene s larga y abreviaturas: el texto latino de los extractos está tomado de la cita de Las Casas (verificada contra las líneas OCR 16657-16659 y 16844-16846). Cifras de oídas, sin base trazable: 40.000 lucayos en veinte años y 1.200.000 «consumidos» (D como cifras). [POR VERIFICAR: la fecha exacta de composición de la Década VII.]"
+  },
+  {
+   "titulo": "Las Casas, Apologética historia sumaria, cap. XX, en Historiadores de Indias, t. I (Nueva Biblioteca de Autores Españoles, 13), ed. M. Serrano y Sanz (Madrid, 1909)",
+   "autor": "Las Casas, Bartolomé de; Serrano y Sanz, Manuel (ed.)",
+   "anio": "c. 1527-1561 (ed. 1909)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiadoresdei01serr/historiadoresdei01serr_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/historiadoresdei01serr"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Las Casas es testigo y protagonista, pero la Apologética es obra de argumentación con cifras redondas sin base censal.",
+   "proveniencia": "Las Casas compuso la Apologética hacia 1527-1561 en el convento de San Gregorio de Valladolid para probar que los indios eran racionales y aptos para la vida civil. El cap. XX trata de la población de La Española; compara con Egipto bajo Diodoro para sostener una población altísima.",
+   "extractos": [
+    {
+     "ubicacion": "Apologética, cap. XX (encabezado en l. 6323); p. ~50 de la ed. NBAE 13; l. 6867-6870 del txt de archive.org",
+     "cita_original": "Yo creo cierto que pasaban de tres y de cuatro cuentos los que hallamos vivos",
+     "traduccion": "«Yo creo cierto que los que hallamos vivos pasaban de tres y de cuatro millones.» Compárese con el «cuento y cien mil ánimas» de Colón vía Deza (Historia, t. 3) y con los 100.000 que estima Rosenblat (Amiama, F-2098).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0903",
+   "notas": "Pasaje no registrado antes en M02.md. «Cuento» = un millón. La cifra se apoya en la comparación con Egipto (Diodoro) y en los montones de labranza visibles, no en un conteo: D como cifra. [POR VERIFICAR: paginación exacta de la ed. de 1909; el OCR da el número de página 50 en l. 6893.]"
+  },
+  {
+   "titulo": "Memorial dado al cardenal Cisneros de lo que conviene proveer para la buena gobernación de la Isla Española, y denuncia de los abusos é injusticias que en ella se han cometido (anónimo, 1516-1518), en CODOIN t. I (Madrid, 1864), pp. 251-264",
+   "autor": "Anónimo (los editores conjeturan a Las Casas); Pacheco, J. F., y Cárdenas, F. de (eds.)",
+   "anio": "1516-1518 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindedocu01cruoft"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento anónimo y sin fecha, de autor conjetural, escrito desde la corte por alguien con conocimiento de las Indias; la cifra de población es una estimación retrospectiva.",
+   "proveniencia": "El legajo «Patronato Real Antiguo, Arca de Indias, n.º 7» de Simancas guarda este memorial, que los editores (1864) fechan entre 1516 y 1518 y dirigen a Cisneros, regente de España; conjeturan por «la valentía con que está escrito» que lo escribió Las Casas, que volvió a España en 1517. Denuncia el reparto de indios a favoritos del Rey (Lope de Conchillos) y el incumplimiento de las ordenanzas.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 255; l. 11188-11193 del txt",
+     "cita_original": "por ser mal tratados, é peor mantenidos, é mucho trabajados, se han disminuido de un cuento de ánimas que habia en la Española, é que no han quedado sino quince ó diez ó seis mil",
+     "traduccion": "Cifra contemporánea (c. 1517): de un millón a entre 6.000 y 15.000, sin base censal declarada; atribuye la caída al maltrato, la mala comida y el exceso de trabajo, no a la viruela (que llega en diciembre de 1518).",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 256; l. 11205-11210",
+     "cita_original": "El secretario Lope de Conchillos firmó del Rey merced para sí de trescientos indios en la Española, é en la isla de Sant Juan de trescientos, é en la isla de Cuba de trescientos, é en la isla de Jamaica de trescientos; son en todo mil é doscientos",
+     "traduccion": "Concentración de indios en un favorito de la corte; muestra el reparto como mecanismo de patronazgo.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, nota (1) de los editores; l. 11572-11585",
+     "cita_original": "se escribió entre los años de 1516 y 1518, y fué dirigido al cardenal Ximenez de Cisneros [...] nos atrevemos á conjeturar si fué obra del célebre dominico fray Bartolemé de Las Casas",
+     "traduccion": "Atribución conjetural (la grafía «Bartolemé» es la de la edición de 1864).; no hay firma ni fecha.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-2132",
+   "notas": "Resuelve la laguna «F-2132 marcada M02 pero ausente de M02.md». Contraste útil con M02-N50 (jerónimos, 10-I-1519: «casi la tercera parte» muerta por la viruela) y con el repartimiento de 1514 (26.334 en F-0011): el Memorial da 6.000-15.000 hacia 1517, antes de la viruela, cifra más baja que el repartimiento, que cuenta personas «de servicio» y cacicazgos concretos. Esa discrepancia (¿15.000 vs 26.334?) no la resuelve ninguna fuente leída."
+  },
+  {
+   "titulo": "Amiama, Manuel A., La población de Santo Domingo (discurso de ingreso en la Academia Dominicana de la Historia), Clío, n.º 115 (1959), pp. 116-134",
+   "autor": "Amiama, Manuel A.",
+   "anio": "1959",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-1959-115-116-134.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Clio_1959_No_115.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Discurso académico sin aparato crítico; transmite las cifras de Rosenblat y de otros sin citar sus fuentes primarias.",
+   "proveniencia": "Manuel A. Amiama, abogado, lee este discurso al ocupar el sillón de Arturo Logroño en la Academia Dominicana de la Historia (1959, régimen de Trujillo). Reúne series de población desde 1492 sin citar documentos; para 1492 sigue al demógrafo Ángel Rosenblat. Es un testimonio de lo que la historiografía dominicana de mediados del siglo XX daba por sabido.",
+   "extractos": [
+    {
+     "ubicacion": "Clío 115 (1959), PDF; l. 92-96 del txt extraído con pdftotext (el OCR del PDF omite tildes)",
+     "cita_original": "El escritor que con criterio mas cientifico se ha ocupado en este asunto, el doctor Angel Rosemblat, estima que la poblacion de nuestra isla, en 1492, puede fijarse en 100,000 habitantes.",
+     "traduccion": "[Ortografía del OCR; «Rosemblat» = Ángel Rosenblat.] Antes, Amiama dice que otros dan 5, 3 o 1 millón.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Clío 115, l. 108-114 del txt",
+     "cita_original": "ya para el 1508, dieciseis años despues del descubrimiento, durante el gobierno de Fray Nicolas de Ovando, solo quedaban de 40,000 a 60,000 indigenas, y fue preciso traer unos 40,000 naturales de las Islas Lucayas",
+     "traduccion": "Serie dominicana de 1959; coincide en el orden de magnitud con A-031 (60.000 en 1508) y con los 40.000 lucayos de Pedro Mártir (F-1589).",
+     "afirmaciones": [
+      "A-031",
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Clío 115, l. 148-151",
+     "cita_original": "La poblacion alcanzaba en ese ano a unos 70,000 habitantes, pero incluyendo en esta cifra unos 14 o 15,000 indios y a unos cuantos miles de africanos",
+     "traduccion": "Cifra de 1517 sin fuente; cercana a la del Memorial a Cisneros (F-2132).",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "Clío 115, l. 163-169",
+     "cita_original": "Don Antonio Sanchez Valverde estima que esa epidemia segó la vida de 200,000 indigenas, pero esta cifra parece exagerada",
+     "traduccion": "Cifra de Sánchez Valverde para la viruela, desautorizada por el propio Amiama («parece exagerada»).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-2098",
+   "notas": "Resuelve la laguna «F-2098 marcada M02 pero sin extracto». El PDF pesa 43 MB y el OCR omite acentos y a veces deforma cifras: [POR VERIFICAR contra la imagen] las cifras 40,000-60,000 y 14-15,000. Es secundaria débil: sirve para mostrar la cadena de cifras, no para fundarlas. La ortografía de los extractos está normalizada respecto del OCR (sin tildes, «dieciseis anos»)."
+  },
+  {
+   "titulo": "Castilla-Beltrán, A. et al., Ecological responses to land use change in the face of European colonization of Haytí island (Quaternary Science Reviews 241: 106407)",
+   "autor": "Castilla-Beltrán, Alvaro; Hooghiemstra, Henry; Hoogland, Menno L. P.; Donders, Timme H.; Pagán-Jiménez, Jaime R.; McMichael, Crystal N. H.; Rolefes, Steven M. F.; Olijhoek, Thomas; Herrera-Malatesta, Eduardo; Ulloa Hung, Jorge; Hofman, Corinne L.",
+   "anio": "2020",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://dspace.library.uu.nl/server/api/core/bitstreams/45906d53-3473-4442-a717-9414e9dd57f9/content",
+   "urls_alternativas": [
+    "https://dspace.library.uu.nl/handle/1874/408467",
+    "https://doi.org/10.1016/j.quascirev.2020.106407"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con tres registros paleoambientales fechados y datos abiertos; la interpretación demográfica descansa en bibliografía previa (Dobyns, Cassá), no en datos demográficos propios.",
+   "proveniencia": "Equipo NEXUS1492 (Leiden, Ámsterdam, Utrecht, Santo Domingo). Tres secuencias de polen, carbón y fitolitos en el valle del Cibao, la costa cerca de La Isabela y la Cordillera Septentrional para evaluar el impacto indígena y colonial en el paisaje. La versión del repositorio de Utrecht es el PDF del editor (4,2 MB).",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (p. 1); l. 61-63 del txt extraído",
+     "cita_original": "Depopulation and forced population displacement through relocation of indigenous people into Spanish mining areas triggered the recovery and expansion of forests in the valley, coastal plain and mountains.",
+     "traduccion": "«La despoblación y el desplazamiento forzado de población mediante el traslado de indígenas a las zonas mineras españolas desencadenó la recuperación y expansión de los bosques en el valle, la llanura costera y las montañas.»",
+     "afirmaciones": [
+      "A-030",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "p. 7, sección 4.2; l. 262-266",
+     "cita_original": "The regionally emergent pattern of recovery and expansion of the valley-, coastal- and mountainous-forests was linked to the depopulation of northern Haytí driven by diseases that decimated the indigenous population (Dobyns, 1976).",
+     "traduccion": "La atribución a enfermedades cita a Dobyns 1976 (modelo de altos conteos); los datos del artículo no discriminan entre enfermedad y trabajo forzado.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 7, l. 266-268",
+     "cita_original": "Remaining communities were forcedly displaced to inland mining areas, a product of the imposition of new forced labour regimes (Cassa, 2003).",
+     "traduccion": "El desplazamiento a zonas mineras se atribuye a Cassá 2003 (historia general), no a una fuente primaria.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-039"
+   ],
+   "modulos": [
+    "M01",
+    "M02",
+    "M03",
+    "M05"
+   ],
+   "id_existente": "F-1754",
+   "notas": "Resuelve la laguna «F-1754 marcada M02 pero ausente de M02.md». Importa para A-039: los tres registros están en el lado dominicano (Cibao, La Isabela); no hay registro comparable del lado haitiano. Los mangles cerca de La Isabela no muestran impacto colonial significativo, lo que matiza la idea de colonización devastadora uniforme."
+  },
+  {
+   "titulo": "Ulloa Hung, Jorge; Valcárcel Rojas, Roberto, Investigaciones en la Línea Noroeste (RD) y en El Chorro de Maíta (Cuba) (Universiteit Leiden, scholarlypublications)",
+   "autor": "Ulloa Hung, Jorge; Valcárcel Rojas, Roberto",
+   "anio": "s. f.",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2899213/download",
+   "urls_alternativas": [
+    "https://hdl.handle.net/1887/20841 (redirige a https://scholarlypublications.universiteitleiden.nl/handle/1887/20841; mismo bloqueo)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "200 (página HTML «Toegang geblokkeerd / Access Blocked», no el PDF)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Arqueología de contacto de especialistas del proyecto NEXUS1492; no se pudo leer el texto, la fiabilidad se hereda del registro.",
+   "proveniencia": "Trabajo de arqueología de contacto en el noroeste dominicano y en El Chorro de Maíta (Cuba) de Ulloa Hung y Valcárcel Rojas, depositado en el repositorio de Leiden. El servidor devuelve una página de acceso bloqueado (probablemente por filtrado de agentes automáticos), no el documento.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0180",
+   "notas": "Intento de resolución: curl con agente de navegador a la URL del registro y al handle devuelve HTTP 200 con HTML «Access Blocked» de Leiden. No se leyó contenido. Pendiente: probar desde el navegador o buscar otra versión; sin contenido no sirve para A-039 ni A-040."
+  },
+  {
+   "titulo": "Anderson-Córdova, Karen F., Surviving Spanish Conquest: Indian Fight, Flight, and Cultural Transformation in Hispaniola and Puerto Rico (Tuscaloosa: University of Alabama Press), ficha de UBC Press",
+   "autor": "Anderson-Córdova, Karen F.",
+   "anio": "2017 (rústica 2022)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.ubcpress.ca/surviving-spanish-conquest",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de una prensa universitaria; solo se leyó la ficha editorial, no el texto.",
+   "proveniencia": "Karen Anderson-Córdova estudia las respuestas indígenas a la conquista de La Española y Puerto Rico entre 1492 y 1550. La ficha del distribuidor (UBC Press) da el resumen y los capítulos: 1. Habitantes del Caribe en tiempos de Colón; 2. La conquista; 3. Transformaciones culturales; 4. Demografía aborigen en las Antillas; 5. Movimiento voluntario y forzado de indios entre las islas y el continente; 6. La primera frontera de España y la «taineidad» hoy; apéndices sobre movimiento interinsular y legislación de la trata de indios.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01",
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2084",
+   "notas": "El fetch leyó solo la ficha (resumen vía herramienta; la literalidad de las frases breves no se contrastó). La ficha dice año 2022 (edición rústica) frente al 2017 del registro. Pertinente para A-030 (cap. 4), A-032 (cap. 5 y apéndice) y A-036 (supervivencia), pero sin acceso al texto no puede subir ninguna letra."
+  },
+  {
+   "titulo": "Cook, Noble David, Born to Die: Disease and New World Conquest, 1492-1650 (Cambridge University Press, 1998), ejemplar de préstamo en archive.org",
+   "autor": "Cook, Noble David",
+   "anio": "1998",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://archive.org/details/borntodiedisease0000cook",
+   "urls_alternativas": [
+    "https://archive.org/download/borntodiedisease0000cook/borntodiedisease0000cook_djvu.txt (401)",
+    "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/551/618/1036 (artículo de 2003, ver F-1587)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "401 (djvu.txt)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de referencia sobre epidemias de la conquista; no se pudo leer su texto, la fiabilidad se hereda.",
+   "proveniencia": "El ejemplar existe en la biblioteca de préstamo de archive.org (ítem borntodiedisease0000cook, metadatos «access-restricted-item: true»), pero el texto completo exige préstamo con cuenta: la descarga del _djvu.txt devuelve 401. No hay texto abierto del libro.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0227",
+   "notas": "Resolución parcial: se confirma la ubicación del libro y su restricción; sigue sin lectura. La alternativa abierta ya registrada es el artículo de Cook en la Revista de Indias 2003 (F-1587, en M02.md). Pendiente de Fase 3: préstamo digital o edición en papel para la cronología de las epidemias de 1493-1518 que pide A-030."
+  },
+  {
+   "titulo": "Stone, Erin Woodruff, Captives of Conquest: Slavery in the Early Modern Spanish Caribbean (University of Pennsylvania Press, 2021)",
+   "autor": "Stone, Erin Woodruff",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.pennpress.org/9780812253108/captives-of-conquest",
+   "urls_alternativas": [
+    "https://www.pennpress.org/9781512827958/captives-of-conquest (403)",
+    "https://dup.silverchair.com/hahr/article/102/3/542/315898/Captives-of-Conquest-Slavery-in-the-Early-Modern (reseña HAHR, 403)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía académica con archivo del AGI, pero no se pudo leer; la cifra de 250.000 solo se conoce por reseñas y la ficha del editor.",
+   "proveniencia": "Erin Woodruff Stone argumenta que la esclavización de indígenas fue central en la conquista caribeña de 1492 a 1542. El editor (Penn Press) y la reseña de HAHR devuelven HTTP 403; el texto del libro no es accesible. La cifra «más de 250.000» se ve en reseñas (véase la reseña de Strategic Visions, registrada aparte).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0149",
+   "notas": "Intentos: WebFetch a pennpress.org (dos ISBN) y a la reseña HAHR 102:3: 403 en los tres. No se abrió texto del libro. La reseña de Strategic Visions 22:2 (Temple University), abierta y leída, da el rango 250.000-500.000 como «estimación de Stone del número real de indios esclavizados»: eso matiza A-032, que cita solo «más de 250.000» (el piso, no el rango)."
+  },
+  {
+   "titulo": "PARES - Portal de Archivos Españoles (AGI)",
+   "autor": "—",
+   "anio": "—",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://pares.cultura.gob.es/inicio.html",
+   "urls_alternativas": [
+    "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/find?nm=&texto=Gorrevod (429)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "429",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal oficial del Ministerio de Cultura; solo da imágenes de manuscritos, sin OCR.",
+   "proveniencia": "Portal de archivos estatales españoles; allí está AGI Indiferente 419, L.7, ff. 735-735v (licencia de Gorrevod, 18-VIII-1518) según las notas de la crítica de completitud. El servidor devuelve 429 Too Many Requests tanto a curl como a WebFetch.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M03",
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0239",
+   "notas": "Dos intentos (curl y WebFetch) en la misma hora: 429. Aunque se abriera, los manuscritos están como imagen; no es una vía productiva para un agente."
+  },
+  {
+   "titulo": "Biblioteca Virtual Miguel de Cervantes",
+   "autor": "—",
+   "anio": "—",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.cervantesvirtual.com/obra/historia-general-y-natural-de-las-indias-islas-y-tierra-firme-del-mar-oceano--0/",
+   "urls_alternativas": [
+    "https://www.cervantesvirtual.com/nd/ark:/59851/bmc2f7m2 (Oviedo; 403)"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal de una fundación con ediciones críticas; bloqueado por una verificación Cloudflare.",
+   "proveniencia": "La BVMC aloja a Oviedo, Las Casas y otros. Cloudflare devuelve «Just a moment…» (403) a curl y a WebFetch. Para Oviedo hay alternativa abierta: la edición de la Real Academia de la Historia en archive.org (ya registrada como F-0009).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M03",
+    "M05"
+   ],
+   "id_existente": "F-0244",
+   "notas": "Dos intentos con distintas rutas: 403 en ambos."
+  },
+  {
+   "titulo": "Biblioteca Digital Hispánica (BNE)",
+   "autor": "—",
+   "anio": "—",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://bdh.bne.es/bnesearch/Search.do?text=Brev%C3%ADsima+relaci%C3%B3n+de+la+destruici%C3%B3n+de+las+Indias",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal de la Biblioteca Nacional; bloquea agentes automáticos con HTML de la BNE (1,3 MB) sin los resultados.",
+   "proveniencia": "La BDH digitaliza impresos antiguos (Brevísima relación, Las Casas) con imágenes y OCR. Curl y WebFetch devuelven 403.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M03",
+    "M05"
+   ],
+   "id_existente": "F-0245",
+   "notas": "Para la Brevísima existe una alternativa legible ya local (traducción inglesa de 1689 en 02-fuentes/textos/gutenberg) y el PDF de la RAE."
+  },
+  {
+   "titulo": "Bullarium Ordinis FF. Praedicatorum, t. IV (1484-1542), ed. Th. Ripoll y A. Bremond (Roma: Hieronymus Mainardi, 1732), Paulo III, bula «In apostolatus culmine» (28-X-1538), pp. 570-572",
+   "autor": "Ripoll, Tomás; Bremond, Antonin (eds.); Paulo III (documento)",
+   "anio": "1732 (bula de 1538)",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/bub_gb_F42HIZ203V8C/bub_gb_F42HIZ203V8C_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/bub_gb_F42HIZ203V8C",
+    "imágenes de página: https://archive.org/download/bub_gb_F42HIZ203V8C/page/n582.jpg (p. 571) y .../n583.jpg (p. 572)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición erudita de la propia Orden dominica, que declara la procedencia («Ex Archivo Ordinis») pero no ofrece el registro pontificio ni un cotejo con el original; sirve para el texto y la fecha, no para autenticar.",
+   "proveniencia": "El Bullarium de la Orden de Predicadores, preparado por el maestro general Tomás Ripoll y el padre Antonin Bremond, reúne las bulas de la Orden. El t. IV (1484-1542) se imprimió en 1732; el ejemplar es de la Biblioteca Nacional de Nápoles, digitalizado por Google. Imprime la bula tal como la tenía la Orden, con una nota del editor sobre la procedencia del ejemplar. No es un testimonio independiente de la Santa Sede: es la copia que conservaba el archivo dominico. Se descargó el texto (4,4 MB, OCR ABBYY) y se cotejó contra las imágenes de las pp. 570-572, que se leyeron directamente.",
+   "extractos": [
+    {
+     "ubicacion": "p. 571, encabezado; l. 58328-58330 del txt (OCR «Univerfius S* Dominici iaejufHem…»); cotejado con la imagen n582",
+     "cita_original": "Universitas S. Dominici in ejusdem nominis Civitate, & Insula (1) constituta. Ex Archivo (2) Ordinis.",
+     "traduccion": "«Universidad de Santo Domingo, erigida en la ciudad y en la isla del mismo nombre. Del archivo de la Orden.» El nombre que el editor da a la universidad es «de Santo Domingo», no «de Santo Tomás de Aquino». Margen: «Anno 1538 / Die 28 Octobris» (apostilla del editor, núm. XLI).",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. 572, notas al pie de la bula (nota 2, «Archivo»); l. 58452-58455 del txt (OCR ilegible); leído en la imagen n583",
+     "cita_original": "Archivo.) In quo exemplar unum authenticum ex autographo asservato in ejusdem Insulae Coenobio S. Dominici, & alia duo typis impressa.",
+     "traduccion": "«Archivo: en el cual [hay] un ejemplar auténtico, [tomado] del autógrafo conservado en el convento de Santo Domingo de la misma isla, y otros dos impresos.» Es la nota decisiva sobre la procedencia: el editor de 1732 sigue un ejemplar auténtico derivado de un autógrafo que se guardaba en la isla y dos impresos, no el registro papal.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. 570, nota 1 a la bula anterior (De nonnullis Fratribus Indis eximendis servitute Turcarum, 21-IX-1538, «Ex Archivo Ordinis»); imagen n581",
+     "cita_original": "Archivo.) In quo Exemplar ex Archivo Apostolico Libro XII An. IV fol. 83.",
+     "traduccion": "Comparación útil: para otra bula del mismo año y con el mismo encabezado «Ex Archivo Ordinis», el editor cita el registro del Archivo Apostólico (libro XII, año IV, f. 83); para la de Santo Domingo no.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. 571; l. 58361-58364 del txt; leído en la imagen n582",
+     "cita_original": "in qua studium Apostolica auctoritate noviter erectum viget Generale, pro directione dicti studii, quod caret privilegiis, & indultis, Apostolicis sufficientibus ad promotiones Graduum concedi solitorum",
+     "traduccion": "«[...] en la cual [ciudad] florece un estudio general erigido hace poco por autoridad apostólica, el cual carece de privilegios e indultos apostólicos suficientes para conceder los grados [...]». Prueba de un estudio general preexistente (el de 1518, según la historiografía dominicana).",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. 572; l. 58448-58449 del txt; imagen n583",
+     "cita_original": "Datum Romae apud Sanctum Petrum Anno Incarnationis Dominicae Millesimo Quingentesimo Trigesimo Octavo (6), Quinto Kalendas Novembris, Pontificatus nostri Anno Quarto.",
+     "traduccion": "«Dado en Roma, junto a San Pedro, año de la Encarnación del Señor 1538, el quinto de las calendas de noviembre [28-X], cuarto año de nuestro pontificado.» Nota 6 del editor: Pablo III contaba los años desde el día de su coronación.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-037"
+   ],
+   "modulos": [
+    "M02",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Cierra la laguna de la crítica de completitud: el texto de la bula existe en abierto y se leyó. Hallazgos para A-037: (1) el encabezado dice «Universitas S. Dominici», y en el texto de la bula (pp. 571-572, leído en imagen) no aparece «Tomás de Aquino»; la denominación «Santo Tomás de Aquino» es posterior (véase UASD 2014 y Utrera, que la atribuye al pleito del siglo XVIII). (2) La bula pide equiparación «ad instar» con Alcalá y menciona un estudio general anterior; no contiene cláusula de pase regio ni mención de Carlos V (lectura propia de las imágenes, [POR VERIFICAR con la edición de 1944 y la de Beltrán de Heredia]). (3) Procedencia: la nota 2 de la p. 572 apunta a un ejemplar auténtico derivado de un autógrafo en el convento de Santo Domingo, es decir, a la propia Orden; la tesis de Utrera (la bula «no existe», 1932, 1938) y la de Beltrán de Heredia (existe, el registro papal se perdió; halló la partida y la súplica en el Archivo Vaticano en 1954) se miden contra esto. (4) Fecha: 28-X-1538 queda confirmada por el texto del Bullarium; Schoenrich da 1538 para la bula y 1558 para la inauguración. OCR: s larga y abreviaturas; los extractos se transcribieron de la imagen."
+  },
+  {
+   "titulo": "Konetzke, Richard (ed.), Colección de documentos para la historia de la formación social de Hispanoamérica, 1493-1810, vol. I (1493-1592) (Madrid: CSIC, 1953), docs. 2-6, 9-15, 18-20, 22, 25, 28-30",
+   "autor": "Konetzke, Richard (ed.)",
+   "anio": "1953",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/konetzke-r.-comp.-coleccion-de-documentos-para-la-historia-de-la-formacion-socia/Konetzke%2C%20R.%20%28comp.%29%20-%20Colecci%C3%B3n%20de%20Documentos%20para%20la%20Historia%20de%20la%20Formaci%C3%B3n%20Social%20de%20Hispanoam%C3%A9rica%2C%201493-1810.%20Vol.%20I%20%281493-1592%29%20%5Bocr%5D%20%5B1953%5D_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/konetzke-r.-comp.-coleccion-de-documentos-para-la-historia-de-la-formacion-socia",
+    "PDF de página: .../Konetzke%2C%20R.%20%28comp.%29%20-%20Colecci%C3%B3n...%5Bocr%5D%20%5B1953%5D.pdf (38,5 MB)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición documental estándar con signatura del AGI y edición previa citada en cada pieza; el OCR del escaneo comunitario tiene errores de fecha y de cifra que se corrigieron contra la imagen en un caso.",
+   "proveniencia": "Richard Konetzke, historiador de la América española, preparó para el CSIC (Instituto Jaime Balmes) una colección de reales cédulas y provisiones sobre población, mestizaje, trabajo y esclavitud. El vol. I (1953) reúne 1493-1592. Cada pieza lleva la signatura del Archivo General de Indias y las ediciones anteriores (DIA = Colección de documentos inéditos de Indias; DIU = Ultramar; DHAm; Navarrete; Encinas). La ficha de archive.org es un escaneo comunitario (descargado con curl, 1,5 MB de texto, 35.694 líneas): se descarga a scratchpad, no al repositorio, por derechos del libro de 1953.",
+   "extractos": [
+    {
+     "ubicacion": "doc. 2, Madrid, 12-IV-1495; l. 1315-1318 del txt; AGI Patronato 9, R. 1, f. 83 (DIA t. 30, p. 331)",
+     "cita_original": "Cerca de lo que nos escribisteis de los indios que vienen en las carabelas, parécenos que se podrán vender allá mejor en esta Andalucía que en otra parte; debéislo facer vender como mejor os pareciere",
+     "traduccion": "Respuesta de los Reyes a Juan Rodríguez de Fonseca sobre el envío de Antonio de Torres (febrero de 1495). Es el documento real que corresponde a la carta de Cuneo (550 embarcados el 17-II-1495).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 3, Madrid, 16-IV-1495; l. 1338-1348 del txt; AGI Patronato 9, R. 1, f. 85v (Navarrete II, p. 173; DIA t. 30, p. 335)",
+     "cita_original": "informarnos de letrados, teólogos y canonistas si con buena conciencia se pueden vender éstos por esclavos o no, y esto no se puede facer hasta que veamos las cartas que el Almirante nos escriba para saber la causa por qué los envía acá por cautivos",
+     "traduccion": "Cuatro días después los Reyes frenan la venta (fiada, sin cobro) hasta consultar a juristas y teólogos: duda temprana sobre la legitimidad de la esclavización.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 5, Sevilla, 20-VI-1500; l. 1411-1417 del txt; AGI Contratación 3249, f. 242 (Navarrete II, p. 246; DIA t. 38, p. 439)",
+     "cita_original": "algunos indios de los que fueron traídos de las Indias y vendidos en esta ciudad y su Arzobispado y en otras partes de esta Andalucía por mandado de nuestro Almirante de las dichas Indias; los cuales agora nos mandamos poner en libertad",
+     "traduccion": "Orden de liberar a los vendidos y de que Bobadilla los lleve de vuelta a las Indias.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 6, Granada, 16-IX-1501, Instrucción a Ovando; l. 1481-1488 del txt; AGI Indiferente 418, L. 1, f. 39 (DIA t. 31, p. 13)",
+     "cita_original": "algunos cristianos de las dichas Islas, especialmente de La Española, tienen tomadas a los dichos indios sus mujeres e hijas y otras cosas contra su voluntad [...] y si con las indias se quisieren casar, sea de voluntad de las partes y no por de fuerza",
+     "traduccion": "Primera norma real sobre mujeres taínas: los Reyes reconocen la toma de mujeres e hijas y exigen consentimiento en los matrimonios.",
+     "afirmaciones": [
+      "A-036",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "doc. 9, Alcalá, 20-III y Zaragoza, 29-III-1503; l. 1660-1666 del txt; AGI Indiferente 418, L. 1, f. 94v (DIA t. 31, p. 156)",
+     "cita_original": "es necesario que los indios se repartan en pueblos en que vivan juntamente, y que los unos no estén ni anden apartados de los otros por los montes, y que allí tengan cada uno dellos su casa habitada con su mujer e hijos y heredades",
+     "traduccion": "Mandato de concentración en pueblos: base de las reducciones de 1503 y 1513. Konetzke da f. 94v; la transcripción de First Blacks (Ms. 007, N44 en M02.md) da ff. 100r-102v: foliaciones distintas, [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "doc. 10, Segovia, 30-X-1503; l. 1950-1960 del txt (pp. 14-15); AGI Indiferente 418, L. 1, f. 116 (Navarrete II, p. 414; DHAm 6, p. 49)",
+     "cita_original": "si todavía los dichos caníbales resistieren y no quisieren recibir y acoger en sus tierras a los capitanes y gentes [...] los puedan cautivar y cautiven [...] y para que los puedan vender y aprovecharse dellos sin que por ello caigan ni incurran en pena alguna",
+     "traduccion": "Licencia de esclavizar a «caníbales» rebeldes (Cartagena, Baru, San Bernardo): la categoría jurídica de «caribe» como puerta legal de la esclavización.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 11, Medina del Campo, 20-XII-1503; l. 2016-2028 y 2036-2040 del txt (pp. 15-16); AGI Indiferente 418, L. 1, f. 121v (DHAm 6, p. 85; DIA t. 31, p. 209)",
+     "cita_original": "compeláis y apremiéis a los dichos indios que traten y conversen con los cristianos de la dicha isla y trabajen en sus edificios, en coger y sacar oro y otros metales [...] pagándoles el jornal [...] como personas libres como lo son y no como siervos",
+     "traduccion": "Primera base legal del trabajo compelido: los Reyes ordenan compeler al trabajo «como libres» a quienes consideran huidos y vagabundos, por medio de los caciques. Es el germen del repartimiento.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "doc. 12, Burgos, 30-IV-1508; l. 2062-2066 del txt (p. 16); AGI Indiferente 1961, L. 1, f. 32v (DIU t. 5, p. 131)",
+     "cita_original": "en las guerras que se hicieron a los indios de Hyguey y de otras partes desa isla que se relevaron contra nuestro servicio, se tomaron y cautivaron muchos esclavos",
+     "traduccion": "Único documento de 1508 hallado: confirma la existencia de esclavos indígenas de las guerras de Higüey.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 12, Burgos, 30-IV-1508; l. 2078-2084 del txt (p. 17)",
+     "cita_original": "he por bien que se dé licencia y por la presente la doy a todos los dueños de indios esclavos cuando quiera que los pudieren tomar los traigan y se sirvan dellos como de personas sujetas a servidumbre",
+     "traduccion": "La Corona permite a los dueños recobrar esclavos huidos «como personas sujetas a servidumbre».",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 13, Valladolid, 3-V-1509, Instrucción a Diego Colón; l. 2099-2104 del txt",
+     "cita_original": "mi voluntad es que ellos y sus indios sean bien tratados como nuestros buenos súbditos y naturales",
+     "traduccion": "Instrucción de buen trato (dicha a los caciques), contemporánea del reparto de 1509.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "doc. 14, Valladolid, 14-VIII-1509; l. 2248-2262 del txt; AGI Indiferente 418, L. 2, f. 51 (DHAm 6, p. 179; DIA t. 31, p. 449)",
+     "cita_original": "les deis y señaléis de repartimiento cien indios y al caballero que llevare su mujer, ochenta indios y al escudero [...] sesenta indios y al labrador que ansí mismo llevare a su mujer, treinta indios",
+     "traduccion": "Escala del repartimiento de 1509 (100/80/60/30 según condición), más un peso de oro al año por cabeza (l. 2274). Vincula la cuota a que el colono lleve a su mujer castellana.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "doc. 15, Valladolid, 14-VIII-1509; l. 2300-2307 del txt; AGI Indiferente 418, L. 2, f. 47v",
+     "cita_original": "no los han de dar de por vida sino por dos años o tres no más [...] y ha se les señalar como por naborias y no como esclavos, porque a nos parece que señalar los dichos indios de por vida es cargoso de conciencia",
+     "traduccion": "Intención declarada de la Corona (1509): el repartimiento era temporal y no esclavitud; la encomienda real acabó siendo de por vida.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "doc. 18, Sevilla, 21-VII-1511; l. 2514-2528 del txt (OCR parcial); AGI Indiferente 418, L. 3, f. 91 (DHAm 6, p. 363)",
+     "cita_original": "les doy licencia y facultad para que [...] puedan [...] ir a traer y traigan indios de las islas que ellos les señalaren y no de otras algunas libremente sin nos pagar por la traída dellos quinto ni otros derechos algunos",
+     "traduccion": "Importación de indios de las islas sin oro (Lucayas, etc.) a La Española, exenta del quinto real: la política que sostiene las cifras de Pedro Mártir.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 20, Sevilla, 21-VII-1511; l. 2620-2624 del txt; AGI Indiferente 418, L. 3, f. 91v (DIU t. 5, p. 266)",
+     "cita_original": "todo el bien desas partes consiste en que haya número de indios para traer en las minas y granjerías, y faltando éstos esa dicha isla podría venir de cada día en disminución",
+     "traduccion": "La Corona prohíbe sacar esclavos indios de La Española a Castilla porque la isla «se despoblaría dellos»: reconoce el declive demográfico en 1511.",
+     "afirmaciones": [
+      "A-030",
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 22, Burgos, 23-XII-1511 (DHAm 6, p. 411 la fecha el 24); l. 2804-2811 del txt; AGI Indiferente 418, L. 3, f. 211v",
+     "cita_original": "hagan guerra a los caribes de las islas de la Trinidad y de Baru y de la Dominica y Matiniño [...] y los puedan cautivar y cautiven para los llevar a las partes e islas donde ellos quisieren [...] con tanto que no los vendan ni lleven fuera de las dichas Indias",
+     "traduccion": "Guerra y esclavización legales de «caribes» de las Antillas Menores; el texto lo funda en la rebelión de Puerto Rico de 1511.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 25, Leyes de Burgos (copia de San Juan, Valladolid, 23-I-1513), ley 13; l. 3429-3436 del txt (pp. 45-46); AGI Indiferente 419, L. 4, f. 83",
+     "cita_original": "cojan oro con los indios que las tales personas tuvieren encomendados cinco meses del año, y que cumplidos estos cinco meses huelguen los dichos indios cuarenta días",
+     "traduccion": "Régimen minero de las Leyes: cinco meses de trabajo y cuarenta días de descanso.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "doc. 25, ley 27; l. 3751-3762 del txt",
+     "cita_original": "salvo si los tales indios fueren esclavos, porque a estos tales cada uno cuyos fueren los puede tratar como él quisiere, pero mandamos que no sea con aquella riguridad y aspereza que suelen tratar a los otros esclavos",
+     "traduccion": "[OCR: «mardamos» por «mandamos».] Dos regímenes: los indios «de las islas comarcanas» esclavos quedan fuera de las visitas y del tratamiento de las Leyes.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "doc. 25, nota editorial de Konetzke tras el texto; l. 3945-3950 del txt",
+     "cita_original": "Mientras no se encuentre un texto auténtico de las Leyes de Burgos, la copia corregida de su redacción para la isla de San Juan, y registrada en los libros oficiales de aquel año, presenta la forma más fidedigna",
+     "traduccion": "Konetzke edita la copia de San Juan (AGI Indiferente 419, L. 4, f. 83), fechada en Valladolid el 23-I-1513, y advierte que la copia de Justicia 299 (la redacción para La Española, de 27-XII-1512) tiene errores en la edición de Altamira (1938) y que las de Hussey (1932) y Simpson (1934) también. Sustituye a la transcripción de la BLAA sin edición base (M02-N55).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "doc. 28, Valbuena, 19-X-1514; l. 4153-4160 del txt (pp. 61-62); AGI Indiferente 419, L. 5, f. 98 (DIU t. 9, p. 22; RLI 6.1.2)",
+     "cita_original": "si los naturales destos Reinos de Castilla que residen en la Isla Española se casasen con mujeres naturales desa isla, sería muy útile y provechoso al servicio de Dios y nuestro y conveniente a la población desa dicha isla",
+     "traduccion": "Fomento regio del casamiento de castellanos con mujeres taínas (el mestizaje por la vía legal).",
+     "afirmaciones": [
+      "A-036",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "doc. 29, Valladolid, 5-II-1515 (el OCR dice «3»; el índice y la imagen de la p. 62 dicen «5»); l. 4203-4212 del txt; AGI Indiferente 419, L. 5, f. 156v (DIU t. 9, p. 52; Encinas IV, p. 271)",
+     "cita_original": "mi voluntad es que las dichas indias e indios tengan entera libertad para se casar con quien quisieren, así con indios como con naturales destas partes",
+     "traduccion": "La Corona anula el capítulo de las Leyes de Burgos que dificultaba el casamiento de indias con indios.",
+     "afirmaciones": [
+      "A-036",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "doc. 30, Madrid, 13-IX-1516, Instrucción a los jerónimos; l. 4299-4308 del txt (p. 64); AGI Indiferente 419, L. 6, f. 31 (DIU t. 9, p. 53)",
+     "cita_original": "si algún castellano o español [...] se quisieren casar con alguna caciqua o hija de cacique a quien pertenece la sucesión por falta de varones [...] casándose desta manera éste sea cacique [...] muy presto podrán ser todos los caciques españoles",
+     "traduccion": "Política de absorción por el matrimonio con caciquas herederas: las mujeres de la nobleza taína como vía de acceso a los cacicazgos.",
+     "afirmaciones": [
+      "A-036",
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-036",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Cierra las lagunas de la crítica de completitud: R. Provisión de 30-X-1503 (caníbales), de 20-XII-1503 (compulsión al trabajo), R.C. de Burgos 30-IV-1508 (el único documento de 1508), Instrucción de 1509, Leyes de Burgos con la nota editorial, R.C. de 1514-1515 sobre matrimonios e Instrucción a los jerónimos. También añade docs. 2, 3 y 5 (venta de 1495 y su liberación en 1500) que M02.md no tenía. Correcciones al OCR: doc. 29, «3 de febrero» → «5 de febrero de 1515» (imagen de la p. 62 del escaneo e índice); algunos números de página del OCR (p. ej. «— 602 —») son erratas. Hay discrepancia de foliación entre Konetzke (doc. 9: f. 94v) y First Blacks Ms. 007 (ff. 100r-102v) para la Instrucción de marzo de 1503. La fecha de la Instrucción (20 y 29 de marzo) tiene dos días porque Konetzke funde dos redacciones. Sesgo: son documentos de la Corona y de sus consejeros; hablan de «libertad» y «buen trato» con la intención declarada de convertir y de obtener oro; no hay voz indígena. Texto no cotejado con la imagen salvo doc. 29."
+  },
+  {
+   "titulo": "Michele de Cuneo, Letter on the Second Voyage (Savona, 28-X-1495), trad. Luisa Nordio, en S. E. Morison (ed.), Journals and Other Documents on the Life and Voyages of Christopher Columbus (New York: Heritage Press, 1963), pp. 209-228",
+   "autor": "Cuneo, Michele de; Morison, Samuel Eliot (ed.); Nordio, Luisa (trad.)",
+   "anio": "1495 (trad. 1940; ed. 1963)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/journalsdocumentscolumbus/journalsdocumentscolumbus_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/journalsdocumentscolumbus"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Testigo presencial (gentilhombre voluntario de la flota), pero la carta original se perdió y la copia manuscrita (c. 1511) fue discutida; la traducción moderna depende del texto de De Lollis.",
+   "proveniencia": "Michele de Cuneo, noble de Savona y amigo de infancia de Colón, acompañó el segundo viaje y exploró con Hojeda y con el Almirante; escribió desde Savona a Hieronymo Annari el 28-X-1495. El original se perdió; la copia de Jacopo Rossetto (c. 1511) está en Bolonia y la publicó Guerrini en 1885; De Lollis la editó (Raccolta Colombiana III, ii, 95-107). Morison la incluyó en la traducción de Luisa Nordio (1940), en edición de 1963 (traducción con derechos): se citan fragmentos breves.",
+   "extractos": [
+    {
+     "ubicacion": "Morison 1963, p. 226 (sección «f. How we captured many Indians…»); l. 19252-19258 del txt",
+     "cita_original": "we gathered together in our settlement 1600 people male and female of those Indians, of whom, among the best males and females, we embarked on our caravels on 17 February 1495, 550 souls",
+     "traduccion": "Reunieron 1.600 indígenas en La Isabela y embarcaron 550 el 17-II-1495 (primer embarque masivo a Castilla). Es la base primaria de A-032 más temprana, anterior a cronistas.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Morison 1963, p. 226; l. 19259-19265 del txt",
+     "cita_original": "Of the rest who were left the announcement went around that whoever wanted them could take as many as he pleased; and this was done. And when everybody had been supplied there were some 400 of them left",
+     "traduccion": "Los restantes se repartieron entre los colonos a discreción; sobraron unos 400, a los que se dejó ir (muchas mujeres huyeron dejando a sus hijos de pecho).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Morison 1963, p. 213; l. 17808-17824 del txt (28-XI-1493, ante La Navidad)",
+     "cita_original": "we found all our above-mentioned men dead [...] the lord of the mountains called Caonabo had come with 3,000 men, and he to spite him had killed them together with some of his own people and robbed them",
+     "traduccion": "Versión de Cuneo sobre La Navidad: culpa a Caonabó con 3.000 hombres; menciona la ausencia de los ojos de los cadáveres. Cuenta 38 hombres.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Morison 1963, nota 1 a la carta; l. 19439-19443 del txt",
+     "cita_original": "Cuneo's account of this slave-catching episode is the most detailed that we have. [...] The shipment of Indians to Spain put the issue of slavery squarely before the Sovereigns",
+     "traduccion": "Nota de Morison; la primera vez que la cuestión de la esclavitud llegó a los Reyes (ver Konetzke docs. 2-3).",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve la laguna «testigos directos del segundo viaje». Sesgo: Cuneo es italiano, cortesano, y cuenta lo que ve con tono jovial (así lo describe Morison en su introducción). Morison anota que ninguna otra fuente da tantos detalles de este episodio. [POR VERIFICAR contra el texto italiano de De Lollis (no localizado en archive.org).] Las cifras 1.600 / 550 / 400 son de Cuneo, no de documento oficial; los documentos reales de abril de 1495 (Konetzke docs. 2-3) hablan de «los indios que vienen en las carabelas» sin cifra en el texto transcrito."
+  },
+  {
+   "titulo": "Memorial informatorio acerca del modo que se ha tenido en el repartimiento de indios de la Isla Española, y lo que conviene proveer para que la tierra se pueble (anónimo, c. 1517), en CODOIN t. I (Madrid, 1864), pp. 247-250",
+   "autor": "Anónimo; Pacheco, J. F., y Cárdenas, F. de (eds.)",
+   "anio": "c. 1517 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindedocu01cruoft"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial sin firma ni fecha de un autor residente en Castilla, favorable a la tesis de los vecinos, con testimonio de segunda mano sobre el sermón de Montesinos.",
+   "proveniencia": "Memorial anónimo del Archivo de Indias; los editores de 1864 lo fechan hacia 1517, poco después de la muerte de Fernando el Católico, y suponen que su autor estaba en Castilla y quizá fue uno de los jerónimos. Resume la historia del reparto de indios desde Ovando y menciona el sermón del dominico fray Antonio (Montesinos) y la junta de Burgos.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 248; l. 10893-10897 del txt (sobre Ovando)",
+     "cita_original": "la sojuzgó é repartió é encomendó los indios á los cristianos; é en su tiempo se descubrieron las minas en cantidad",
+     "traduccion": "El autor sitúa en el mandato de Ovando el reparto sistemático y el descubrimiento de las minas.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 248; l. 10909-10915 del txt",
+     "cita_original": "acaeció que un fray Antonio, dominico, les hizo un sermón en la ciudad de Santo Domingo, en que dijo que los indios no los podían poseer ni servirse dellos, é que todo el oro que con ellos habían quemado é sacado, lo habían de restituir",
+     "traduccion": "[OCR corregido: «podían», «habían».] Resumen castellano del sermón de Montesinos (1511) escrito por un contrario, hacia 1517: la Iglesia como voz crítica. Menciona después la oposición del franciscano Alonso del Espinar y las veinte juntas de Burgos.",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Complementa a M02-N01 y M02-N06 (Montesinos) con una fuente primaria contemporánea, no hagiográfica. Nota de los editores (l. 10871): «se escribió por los años de 1517». [POR VERIFICAR la paginación exacta: el OCR no distingue bien la cabecera de la p. 248.]"
+  },
+  {
+   "titulo": "Cartas de los priores de San Jerónimo al cardenal Cisneros, Santo Domingo, 20-I-1517 y 22-VI-1517, en CODOIN t. I (Madrid, 1864), pp. 264-289",
+   "autor": "Figueroa, fray Luis de; Santo Domingo, fray Alonso de; Manzanedo, fray Bernardino de; Pacheco, J. F., y Cárdenas, F. de (eds.)",
+   "anio": "1517 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindedocu01cruoft"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe de los gobernadores que llegaron a La Española a fines de 1516, con testimonio de primera mano y con el interés de pedir medidas y recursos.",
+   "proveniencia": "Los tres jerónimos enviados por Cisneros para reformar el gobierno de las Indias escribieron al cardenal en 1517, apenas llegados a Santo Domingo. En la primera carta (20-I-1517) informan, entre otras cosas, de la oposición de los dominicos a traer esclavos de la costa de las Perlas; en la segunda (22-VI-1517) reiteran que la tierra «de cada día se despuebla».",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, pp. 279-280; l. 12165-12171 del txt (carta de 20-I-1517)",
+     "cita_original": "Los padres dominicos querrían é nos demandan que no consintamos traer esclavos de la costa de las Perlas, é que hiciésemos que la persona ó personas que han de hacer los rescates para Sus Altezas, no los pudiesen rescatar",
+     "traduccion": "Los dominicos de La Española se oponen a la trata de esclavos de Tierra Firme («costa de las Perlas»), alegando que no todos los traídos lo son legítimamente.",
+     "afirmaciones": [
+      "A-032",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 281; l. 12221-12226 del txt (carta de 22-VI-1517)",
+     "cita_original": "como esta tierra esté tan sobresaltada é sin asiento fijo, de cada dia se despuebla, é los que en ella moran, están como de paso",
+     "traduccion": "Despoblación de la isla (de colonos y de indios) en 1517, antes de la viruela de 1518.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-032",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Contexto: la primera carta lleva en el pie la firma «Frey Sudoricus [Luis de Figueroa], Prior de la Mejorada — Fr. Alfonsus de Santo Domingo, Prior de Ortega — Fr. Bernardinus de Manzanedo», fechada en Santo Domingo el 20-I-1517 (l. 11595-11610). M02.md ya recoge la carta de los dos jerónimos de enero de 1519 (N50), no estas dos. Las cifras de población no aparecen en estos pasajes."
+  },
+  {
+   "titulo": "Memorial que dio G. [Gil] González al señor obispo de Burgos, vista la información de los PP. Gerónimos (1517-18), en CODOIN t. I (Madrid, 1864), pp. 289-291",
+   "autor": "González [Dávila], Gil; Pacheco, J. F., y Cárdenas, F. de (eds.)",
+   "anio": "1517-1518 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindedocu01cruoft"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de un funcionario sobre una encuesta a «catorce o quince personas» antiguas de las Indias, que opinan por interés de los vecinos.",
+   "proveniencia": "El contador Gil González Dávila resume ante Juan Rodríguez de Fonseca, obispo de Burgos y presidente del Consejo de Indias, la información que los jerónimos hicieron a catorce o quince veteranos sobre dos cuestiones: si los indios tienen habilidad para vivir libres «políticamente», y si hay que traerlos de sus asientos cerca de los españoles, por amor o por fuerza. No es la «Relación» de las causas de la despoblación (M02-N52), sino otro memorial.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 291; l. 12614-12618 del txt",
+     "cita_original": "Las catorce ó quince personas para esto llamadas son de las mas antiguas é hábiles de Indias, é todos so cargo de juramento afirman que los indios no son hábiles para vivir entre sí. Solo un fraile dominico siente lo contrario.",
+     "traduccion": "Resultado de la encuesta de los jerónimos (1517-18): unanimidad de los vecinos veteranos, con un dominico disidente.",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 291; l. 12622-12626 del txt",
+     "cita_original": "para su salvación é conservación de la vida conviene traellos de sus asientos [...] é que cesaran de ir é venir á sus tierras, que es lo que mas los disminuye",
+     "traduccion": "Los testigos atribuyen la disminución de los indios al ir y venir entre sus asientos y las minas, no a enfermedad: explicación contemporánea de la mortandad.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 291; l. 12634-12636 del txt",
+     "cita_original": "convendrá no esté en la Isla ningún dominico, á lo menos los que han traído la opinión pasada",
+     "traduccion": "El memorialista propone alejar de la isla a los dominicos autores de la «opinión pasada» (el sermón de 1511): presión sobre la voz eclesiástica crítica.",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Muestra el reverso de Montesinos: los dominicos como minoría, con una fracción de colonos que pide su expulsión. La fecha «1517-18» es la que los editores deducen del contenido (nota al pie). Atención: el nombre aparece como «G. González»; M02-N52 lo identifica con Gil González Dávila en otro documento, [POR VERIFICAR que sea la misma persona]."
+  },
+  {
+   "titulo": "Cartas de los oidores y oficiales reales de Santo Domingo al Rey, 20-V-1519 y 14-IX-1519 (sumarios), en CODOIN t. I (Madrid, 1864), pp. 369-372",
+   "autor": "Oidores y oficiales reales de Santo Domingo (la carta de 20-V-1519 la firman Francisco Vallejo, Fernando Caballero, Miguel de Pasamonte y Cristóbal de Tapia; la de 14-IX-1519, los oficiales reales); Pacheco, J. F., y Cárdenas, F. de (eds.)",
+   "anio": "1519 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/coleccindedocu01cruoft"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testimonio contemporáneo de los oficiales de la Corona en la isla, con interés fiscal y de colono; los editores advierten que son sumarios o extractos para el Consejo, no textos completos.",
+   "proveniencia": "Los oidores y oficiales reales de La Española escriben al Rey en mayo y septiembre de 1519. La carta de mayo se queja de la «pestilencia» que ha matado «la mayor parte» de los indios. La de septiembre protesta por la merced hecha al gobernador de Bresa (Gorrevod): cuatro mil negros en ocho años sin derechos, que él traspasó a Alonso Gutiérrez de Madrid por 25.000 ducados. Los editores notan que estas cartas parecen «sumario ó estracto hecho para presentar al Consejo de Indias».",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, pp. 369-370; l. 15741-15747 del txt (carta de 20-V-1519)",
+     "cita_original": "Cuando mas necesitada de mercedes está esta isla por el daño que en los indios ha hecho la pestilencia, de que han muerto la mayor parte",
+     "traduccion": "La frase cruza el salto de página 369/370. Dato sobre la viruela a los cinco meses: «la mayor parte» muerta (el jerónimo de enero de 1519 decía «casi la tercera parte»: la cifra sube con el tiempo).",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, pp. 371-372; l. 15817-15823 del txt (carta de 14-IX-1519)",
+     "cita_original": "Vuestra Alteza hizo merced al gobernador de Bresa que pudiese pasar á estas islas é Tierra Firme en ocho años cuatro mil negros, sin pagar los dos ducados que se solían pagar á la Contratación de Sevilla, ni los derechos de almojarifazgo en estas partes",
+     "traduccion": "Confirmación contemporánea y desde la isla de la licencia a Gorrevod: 4.000 negros, en ocho años, sin derechos.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 371; l. 15823-15826 del txt",
+     "cita_original": "El cual gobernador traspasó dicha merced al tesorero Alonso Gutiérrez de Madrid, é á otros sus compañeros por valor de 25,000 ducados",
+     "traduccion": "Reventa de la licencia (25.000 ducados), que concuerda con Donnan (1930) y Aguirre Beltrán (1946).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Corrobora A-035 con una fuente primaria española en castellano que M02.md no traía (N51 recoge otra carta, la de Figueroa de 7-IV-1519, que ya menciona la merced del gobernador de Bresa: «no quieren menos de doce ducados é medio por cada uno»). Los oficiales agregan que «negros son muy deseados; ningunos han venido há cerca de un año» (carta posterior, l. 17734). Pedido de licencia general. [POR VERIFICAR la fecha de esa carta posterior: 1519-20.]"
+  },
+  {
+   "titulo": "Real cédula a los oidores y oficiales de La Española, Burgos, 15-II-1528 (AGI Indiferente 421, L. 13, ff. 7r-10v), transcripción en First Blacks in the Americas, Ms. n.º 045",
+   "autor": "Carlos I (documento); CUNY Dominican Studies Institute (transcripción, 2025)",
+   "anio": "1528 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/10/Transcription-045_C7TaPQK.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/?p=2369 (cronología del proyecto)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Transcripción paleográfica de un proyecto universitario sobre signatura del AGI, sin edición crítica; sirve como texto de primera mano pero con riesgo de errores de lectura.",
+   "proveniencia": "El proyecto First Blacks in the Americas (CUNY Dominican Studies Institute) transcribe documentos del AGI vía PARES. Esta cédula de 1528 responde a una carta de la Audiencia de 5 de agosto del año anterior: pide la relación de los esclavos pasados por la licencia del gobernador de Bresa, habla de los cuatro mil negros repartidos y aprueba la prohibición de negros libres y ladinos por rebeldes. Son 8 páginas; el resumen del proyecto interpreta que los colonos pedían que se enviara la totalidad de los 4.000.",
+   "extractos": [
+    {
+     "ubicacion": "fo. 8r, transcripción; l. 45-62 del txt extraído con pdftotext (barras de fin de línea eliminadas)",
+     "cita_original": "Los quatro mil negros que están Repartidos para esas partes yo he mandado entender en ello [...] la Relaçion de los esclavos que se An pasado por virtud de la liçençia Del governador De bresa",
+     "traduccion": "Diez años después de 1518, la Corona sigue hablando de «la licencia del gobernador de Bresa» y de los cuatro mil negros; pide relación de los pasados a las islas, Tierra Firme y Nueva España.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "fo. 8v, transcripción; l. 75-85 del txt",
+     "cita_original": "Lo que dezis que esta proveydo en esa isla para que no Aya en ella negros libres ni ladinos porque estos son. Los que Alteran. la tierra e ynduzen a los otros que se alçen",
+     "traduccion": "Aprobación regia de la prohibición de negros libres y ladinos en La Española (1528): los ladinos como instigadores de rebelión, en línea con las quejas de Ovando de 1503.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Cierra en parte la laguna sobre la licencia de Gorrevod: no es el texto de la licencia, sino la prueba documental española de su uso y vigencia hasta 1528 con la signatura del AGI. Las transcripciones del proyecto (n.º 006, 014) confirman la serie AGI Indiferente 419 para las licencias de esclavos de 1515-1518, pero no se encontró en el proyecto la licencia a Gorrevod en sí. [POR VERIFICAR con imagen del AGI.]"
+  },
+  {
+   "titulo": "Donnan, Elizabeth (ed.), Documents Illustrative of the History of the Slave Trade to America, vol. 1 (Washington: Carnegie Institution, 1930), doc. 2 «Permission granted to the Governor of Bresa for Four Thousand Slaves» (pp. 41-42) e Introducción (pp. 15-16)",
+   "autor": "Donnan, Elizabeth (ed.)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/documentsillustr01donn/documentsillustr01donn_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/documentsillustr01donn",
+    "https://archive.org/download/documentsillustr00donn/documentsillustr00donn_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición documental clásica, pero traduce al inglés una cédula de la que no da la signatura del AGI en el pasaje leído y se apoya en Scelle (1906), una traducción de una transcripción.",
+   "proveniencia": "Elizabeth Donnan (Carnegie Institution) reunió en cuatro volúmenes los documentos de la trata a América; el vol. 1 empieza con la trata portuguesa y las licencias españolas. La licencia a Gorrevod (en el texto, «Gomenot» o «Lorenzo de Gorrevod, governor of Bresa») se publica en inglés con fecha «Saragossa, 18-VIII-1518»; la introducción comenta que Gorrevod vendió el privilegio a genoveses de Sevilla por 25.000 ducados y que sus efectos duraron hasta 1526.",
+   "extractos": [
+    {
+     "ubicacion": "vol. 1, p. 42; l. 3431-3436 y 3445 del txt (OCR)",
+     "cita_original": "I have given permission, and by the present [instrument] do give it, to Lorenzo de Gorrevod, governor of Bresa, member of my Council, whereby he, or the person or persons who may have his authority therefor, may proceed to take to the Indies [...] four thousand negro slaves both male and female, provided they be Christians",
+     "traduccion": "«He dado licencia y por la presente la doy a Lorenzo de Gorrevod, gobernador de Bresa, de mi Consejo, para que él o quien tenga su poder pueda llevar a las Indias cuatro mil esclavos negros, varones y hembras, con tal de que sean cristianos.» Fecha: «Done in Saragossa, the eighteenth day of August of the year 1518».",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "vol. 1, p. 16 (Introducción); l. 1865-1869 del txt",
+     "cita_original": "On August 18, 1518, Charles granted to his favorite Lorenzo de Gomenot, governor of Bresa, the right to ship 4000 negroes to Hispaniola, Cuba, Jamaica, and Porto Rico (no. 2). Gomenot sold the privilege to Genoese established in Seville, for 25,000 ducats",
+     "traduccion": "Donnan precisa los destinos (La Española, Cuba, Jamaica, Puerto Rico) y la venta a genoveses; no recoge el plazo de ocho años (que sí traen los oficiales de 1519 y Aguirre Beltrán).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Cubre la petición de la crítica: «Donnan, vol. 1, pp. 41-42». Dos ejemplares (documentsillustr00donn y 01donn) con OCR idéntico en el pasaje. La fecha y la identidad del beneficiario coinciden con LDHI (F-0013, que sí trae un extracto en español vía Scelle 1906, p. 755), con CODOIN t. I (oficiales de 1519) y con First Blacks 045 (1528). Variantes del nombre: Gorrevod, Garrevod, Gouvenot, Gomenot. El original en español (AGI Indiferente 419, L. 7, ff. 735-735v según la crítica) no se obtuvo: PARES devolvió 429."
+  },
+  {
+   "titulo": "Aguirre Beltrán, Gonzalo, La población negra de México. Estudio etnohistórico (México, 1946), extracto en Lecturas históricas mexicanas, t. IV (UNAM, Instituto de Investigaciones Históricas)",
+   "autor": "Aguirre Beltrán, Gonzalo",
+   "anio": "1946",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/lecturas/T4/LHMT4_071.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra clásica de etnohistoria mexicana, sin notas en este extracto; transmite el texto de la licencia con comillas, pero sin dar la fuente del pasaje.",
+   "proveniencia": "Gonzalo Aguirre Beltrán (1908-1997), médico y antropólogo mexicano, escribió la obra en 1946; el extracto circula en la serie «Lecturas históricas mexicanas» de la UNAM. Explica el origen de la trata hacia las Antillas y México; sobre la licencia de 1518 cita entre comillas parte de la cédula y menciona una cédula posterior de 21-X-1518 que exime a los tratantes del almojarifazgo.",
+   "extractos": [
+    {
+     "ubicacion": "Lecturas históricas mexicanas, t. IV, doc. 71; l. 149-156 del txt extraído",
+     "cita_original": "Gouvenot, o la «persona o personas que su poder hubieren», quedaron facultados, por cédula de 18 de agosto de 1518, para navegar los cuatro mil esclavos o esclavas -de cada uno la mitad que quisieren- tomándolos de las islas de Guinea y de las otras partes de donde se acostumbra",
+     "traduccion": "Aguirre Beltrán reproduce, parcialmente entre comillas, el texto de la cédula; es secundaria, sin referencia a la signatura del AGI.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "ibid.; l. 166-170",
+     "cita_original": "Gouvenot vendió las 4,000 licencias a comerciantes genoveses de Sevilla en 25,000 ducados, con la promesa de que el gobierno, durante los ocho años siguientes al de 1519, no concedería licencia alguna",
+     "traduccion": "Cifra y plazo de ocho años coinciden con los oficiales de Santo Domingo (1519).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Secundaria con fines de cotejo: el libro de 1946 se apoya sin duda en Scelle y Saco (no confirmado). Una de las pocas fuentes que da el plazo de ocho años y la cédula de 21-X-1518, ambos corroborados por la carta de los oficiales de 14-IX-1519 (el plazo) en CODOIN t. I; la cédula de 21-X-1518 no se ha localizado. Término «asiento»: Aguirre Beltrán llama a esta licencia «el primer asiento» (l. 321), aunque la fuente de 1518 habla de «licencia» y «merced»."
+  },
+  {
+   "titulo": "The Early Trans-Atlantic Slave Trade: Emperor Charles V (licencia de 18-VIII-1518 a Lorenzo de Gorrevod), Lowcountry Digital History Initiative (College of Charleston), exposición «African Laborers for a New Empire»",
+   "autor": "Lowcountry Digital History Initiative (College of Charleston); Scelle, Georges (fuente del extracto español); Worger, W. H., Clark, N. L., Alpers, E. A. (traducción inglesa)",
+   "anio": "2010 (traducción); 1906 (Scelle)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://ldhi.library.cofc.edu/exhibits/show/african_laborers_for_a_new_emp/emperor_charles_v",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Extracto en español de la licencia (con puntos suspensivos), tomado de Scelle 1906 (p. 755) y no del AGI; la traducción inglesa es de una antología de 2010.",
+   "proveniencia": "La exposición de LDHI muestra una imagen «cortesía del AGI» de la licencia y, bajo «Excerpt in Spanish», un extracto de Scelle, La traite négrière aux Indes de Castille (París, 1906), p. 755, con ortografía de la época; la traducción inglesa viene de Worger, Clark y Alpers (eds.), Africa and the West, vol. 1 (Oxford UP, 2010), p. 25. Corrige lo dicho antes de que solo hubiera traducciones.",
+   "extractos": [
+    {
+     "ubicacion": "«Excerpt in Spanish» de la página (fuente indicada: Scelle 1906, p. 755)",
+     "cita_original": "Nuestros oficiales q rresydys en la cibdad de Sevilla en la casa de la contratacion de las yndias sabed que yo he dado licencia e por la presente la doy a lorenço de gorrevod gobernador de bresa de mi consexo [...] quatro myll esclavos y esclavas negros que sean xpianos",
+     "traduccion": "«Nuestros oficiales que residís en la ciudad de Sevilla en la Casa de la Contratación de las Indias, sabed que yo he dado licencia, y por la presente la doy, a Lorenzo de Gorrevod, gobernador de Bresa, de mi consejo [...] cuatro mil esclavos y esclavas negros que sean cristianos.»",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "texto de la exposición (comisarios, sin fuente)",
+     "cita_original": "from 60,000 in 1508 to less than 20,000 ten years later",
+     "traduccion": "Fragmento del texto de contexto de la exposición sobre la población indígena de La Española; los comisarios no citan fuente (60.000 en 1508 = A-031; menos de 20.000 hacia 1518).",
+     "afirmaciones": [
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-031",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0013",
+   "notas": "Resolución mejorada de F-0013: la página sí da un extracto en español de la licencia, con la ortografía de época, y remite a Scelle 1906, p. 755; el original sigue sin verse (AGI Indiferente 419, L. 7, ff. 735-735v). El cotejo con Donnan 1930 (pp. 41-42) y con la CODOIN (1519) confirma beneficiario, número (4.000), calidad (cristianos), fecha (18-VIII-1518) y destino. [POR VERIFICAR contra Scelle 1906, p. 755: este agente no lo abrió.]"
+  },
+  {
+   "titulo": "Utrera, Cipriano de, Universidades de Santiago de la Paz y de Santo Tomás de Aquino y Seminario Conciliar de la ciudad de Santo Domingo de la Isla Española (Santo Domingo: Padres Franciscanos Capuchinos, 1932), 598 pp.",
+   "autor": "Utrera, Cipriano de (O.M. Cap.)",
+   "anio": "1932",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=9071",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra erudita de un capuchino con documentación del AGI y tesis polémica contra la autenticidad de la bula; no se pudo leer, solo su ficha de catálogo.",
+   "proveniencia": "Registro del catálogo Koha de la Biblioteca Vetilio Alfau Durán (Academia Dominicana de la Historia): 598 pp., ilustrado, Colección personal «VAD» (acceso restringido), signatura RD 378.7293 U92u. El libro sostiene, según Beltrán de Heredia (M02-N04), que la bula «no existe», y el bibliógrafo Alfau Durán (1951) lo califica de «obra de extraordinario interés… vivamente impugnada».",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Confirma existencia, datos de edición y paginación; el texto no está en línea. Mismo autor: «In Apostolatus Culmine»: bula mítica de Paulo Tercero (Ciudad Trujillo: Tip. Franciscana, 1938, 389 pp.), signatura RD 262.91 U92i, también solo en ficha (biblionumber 10473). Alfau Durán, Fray Cipriano de Utrera: notas bio-bibliográficas (1951), PDF de la ADH, confirma ambos títulos (l. 318-322 del txt extraído). Pendiente de Fase 3: acceso físico o escaneo para leer los argumentos contra la bula, que ahora se conocen solo por Beltrán de Heredia (1955), la parte interesada."
+  },
+  {
+   "titulo": "Utrera, Cipriano de, «In Apostolatus Culmine»: bula mítica de Paulo Tercero (Ciudad Trujillo: Tip. «Franciscana», 1938), 389 pp.",
+   "autor": "Utrera, Cipriano de (O.M. Cap.)",
+   "anio": "1938",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=10473",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía polémica de un erudito, contra la autenticidad de la bula; no se pudo leer, solo su ficha de catálogo.",
+   "proveniencia": "Registro del catálogo de la Biblioteca Vetilio Alfau Durán (ADH): 389 pp., 21,2 cm, Colección personal «VAD» (acceso restringido). Subjects: bulas pontificias, Derecho canónico, España-Colonias-Fuentes, Iglesia Católica-América. Es la «bula mítica» que cita Beltrán de Heredia en la nota 8 (M02-N04).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha. Pendiente: ver cómo fundamenta la tesis de la inexistencia (según Beltrán: Utrera 1932, p. 581, cita la respuesta oficial negativa del Archivo Vaticano a la Academia en 1931, que Beltrán pone en duda)."
+  },
+  {
+   "titulo": "Universidad de Santo Domingo (UASD), La Bula In Apostolatus Culmine del Papa Paulo III, en virtud de la cual fue erigida y fundada la Universidad de Santo Domingo, Primada de América (Ciudad Trujillo: Editora Montalvo, 1944; Publicaciones de la UASD, vol. 27), 72 pp.",
+   "autor": "Universidad de Santo Domingo; Ortega Frier, Julio (estudio introductorio, según un resumen de búsqueda web no verificado)",
+   "anio": "1944",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=15046",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición oficial de la universidad interesada, con el texto de la bula en varias lenguas según la ficha de WorldCat; solo se vio el registro, no el texto.",
+   "proveniencia": "Registro del catálogo de la ADH: folleto, 72 pp., 23,8 cm, Colección personal. Una búsqueda en Berkeley (lawcat, no abierta: HTTP 403) lo describe como edición políglota (latín, español, inglés, francés y portugués) con un ensayo de Julio Ortega Frier [POR VERIFICAR: dato de resultado de búsqueda, no leído].",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha. Nota clave: el texto de la bula que usa la UASD en 1944 procede de una de las copias mencionadas (el Bullarium, Utrera), no del original; hay que cotejarlo con el Bullarium de 1732 (leído aquí) para ver si hay variantes."
+  },
+  {
+   "titulo": "Rodríguez Cruz, Águeda María (O.P.), La bula In Apostolatus Culmine, erectora de la Universidad de Santo Domingo, primada de América: su autenticidad y legitimidad (Santo Domingo: Editora Universitaria UASD, 2002), 41 pp.",
+   "autor": "Rodríguez Cruz, Águeda María",
+   "anio": "2002",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=5007",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Opúsculo de una historiadora dominica con interés institucional; solo se vio el registro, no el texto.",
+   "proveniencia": "Registro del catálogo de la ADH: 41 pp., con contenido «la Bula; la discutida primacía fundacional universitaria de América; la Universidad de Santo Domingo, decana de América». Es la discusión más reciente en el catálogo de la ADH sobre la autenticidad y la primacía frente a San Marcos.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha. Útil para el sub-hecho disputado de A-037 (primacía frente a San Marcos de Lima y México). El catálogo de la ADH da en la misma búsqueda otros tres registros de la polémica (Utrera 1932, Utrera 1938, UASD 1944) y las ediciones de Beltrán de Heredia de 1955 y 1965."
+  },
+  {
+   "titulo": "El Universitario: edición especial, Aniversario 1538-2014 (Universidad Autónoma de Santo Domingo, octubre de 2014), artículo de José G. Guerrero sobre la bula y el nombre de la universidad",
+   "autor": "Guerrero, José G.; Universidad Autónoma de Santo Domingo (publicación institucional)",
+   "anio": "2014",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://apps.uasd.edu.do/sites/default/files/el20universitario_octubre_2014_especial.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Publicación de la propia universidad, con interés en la primacía; afirma que hay copias en los archivos vaticano y sevillano sin dar signaturas.",
+   "proveniencia": "Número especial de la revista institucional de la UASD con ocasión del 476.º aniversario. Un artículo de José G. Guerrero resume la polémica sobre la bula y afirma que la bula se halla en el Bullarium dominico, en la Colección de Hernáez y en copias vaticana y sevillana. Contiene, además, una ilustración, un texto del rector y un relato del hallazgo de Beltrán de Heredia.",
+   "extractos": [
+    {
+     "ubicacion": "artículo de Guerrero, «La Universidad Autónoma de Santo Domingo…»; l. 473-474 del txt extraído sin maqueta (pdftotext sin -layout)",
+     "cita_original": "El nombre original que aparece en la bula es Universidad de Santo Domingo (Universitatis Sancti Dominici). [...] Es un error afirmar que la universidad primada de América fue llamada Santo Tomás de Aquino",
+     "traduccion": "Coincide con el texto del Bullarium: la bula no nombra a Santo Tomás de Aquino. Guerrero (siguiendo a Utrera) atribuye el nombre al pleito con los jesuitas del siglo XVIII.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "ibid.; l. 482",
+     "cita_original": "Su bula apareció en el Bullarium Ordinis Praedicatorium, en la Colección de bulas breves del padre Francisco Javier Hernáez y en copias del Archivo Vaticano y del Archivo de Indias de Sevilla, la última de las cuales data de 1542 y fue localizada por el historiador César Herrera",
+     "traduccion": "Afirmaciones sin signatura. El Bullarium sí contiene la bula (verificado). Hernáez, vols. 1-2 (ed. 1879, OCR de umich): no se halló. La copia sevillana de 1542 [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-037"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-037"
+   ],
+   "modulos": [
+    "M02",
+    "M07"
+   ],
+   "id_existente": "",
+   "notas": "Fuente de divulgación institucional, de la parte interesada. Lo útil: reconoce que el nombre en la bula es «Universidad de Santo Domingo» y recoge la lista de copias que la UASD invoca; las dos de procedencia no verificada (AGI 1542 y la copia certificada de 1936 de la Academia Dominicana de la Historia) quedan [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Hernáez, Francisco Javier (ed.), Colección de bulas, breves y otros documentos relativos a la Iglesia de América y Filipinas, 2 vols. (Bruselas: Alfred Vromant, 1879), tomos 1-2 (ejemplares de la Universidad de Michigan)",
+   "autor": "Hernáez, Francisco Javier (ed.)",
+   "anio": "1879",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/afz1341.0001.001.umich.edu/afz1341.0001.001.umich.edu_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/afz1341.0002.001.umich.edu/afz1341.0002.001.umich.edu_djvu.txt"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Colección de bulas editadas en el siglo XIX; se descargó el OCR pero solo se hicieron búsquedas por cadena, no lectura completa.",
+   "proveniencia": "Recopilación de bulas pontificias para las Indias (1493-1700) publicada por Francisco Javier Hernáez (1816-1876) en Bruselas (Impr. de A. Vromant, 1879). La UASD (2014) dice que la bula de 1538 aparece en ella. Se descargaron los vols. 1 y 2 y se buscaron «apostolatus», «Universitas/Universidad», «Alcalá», «Estudio general» y «Sancti Dominici».",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "RESULTADO NEGATIVO: en los OCR de los vols. 1 (57.863 líneas) y 2 (65.200 líneas) no se halló la bula In apostolatus culmine ni ninguna bula de erección de universidad en Santo Domingo en 1538; el vol. 1 contiene otras bulas de Paulo III (p. ej. de 1538 sobre diócesis). Queda como [POR VERIFICAR] la afirmación de la UASD de 2014 (OCR defectuoso, s larga, posibles errores). Los dos tomos no se leyeron enteros."
+  },
+  {
+   "titulo": "Reseña de Erin Woodruff Stone, Captives of Conquest (Philadelphia: University of Pennsylvania Press, 2021), Strategic Visions 22:2 (Temple University)",
+   "autor": "Reseñista no identificado en el PDF extraído (Strategic Visions, Temple University)",
+   "anio": "s. f. (vol. 22, n.º II)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://tuljournals.temple.edu/index.php/strategic_visions/article/view/656/460",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de una revista estudiantil/académica sin firma visible en el texto extraído; sirve para ubicar el rango de cifras de Stone, no para fundarlo.",
+   "proveniencia": "Reseña breve de Captives of Conquest en Strategic Visions (Temple University, vol. 22, n.º 2). Resume el argumento de Stone sobre el comercio indígena de esclavos entre 1491 y 1542 y da el rango de cifras que Stone atribuye al número real de indios esclavizados.",
+   "extractos": [
+    {
+     "ubicacion": "p. 39 del número (PDF), párrafo final; l. 52-53 del txt extraído",
+     "cita_original": "Stone's estimations of the actual number of Indians enslaved to be between 250,000 to 500,000.",
+     "traduccion": "Atribuye a Stone un rango de 250.000 a 500.000 indios esclavizados, no solo «más de 250.000» como dice A-032.",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Fuente de segunda mano: no sustituye el libro (F-0149, bloqueado). Se descargó vía WebFetch (el PDF se guardó en el directorio de resultados de la herramienta). Pendiente: confirmar en el libro (cap. «Introduction» o «Conclusion») la base de la estimación."
+  },
+  {
+   "titulo": "Garmendia, Fausto, Cuatrocientos cincuenta años de la fundación de la Universidad Nacional Mayor de San Marcos, Anales de la Facultad de Medicina (UNMSM) 62:1 (2001), pp. 63-70",
+   "autor": "Garmendia, Fausto",
+   "anio": "2001",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.redalyc.org/pdf/379/37962109.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de homenaje institucional de San Marcos, interesado en la primacía limeña; cita parcialmente la cédula de 1551 sin dar la signatura.",
+   "proveniencia": "Fausto Garmendia, académico de medicina, escribe para el 450.º aniversario de San Marcos. Cita una parte de la real cédula de 12-V-1551 (Valladolid) y afirma que «San Marcos es la Universidad más antigua de América», añadiendo que la Universidad de Santiago de la Paz de Santo Domingo fue fundada por Felipe II en 1558. Es el lado peruano de la disputa por la primacía.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 63-64; l. 36 del txt extraído (pdftotext sin maqueta)",
+     "cita_original": "por cuanto Fray Tomás de San Martín, de la Orden de Santo Domingo, provincial de dicha Orden, en las provincias del Perú, nos [ha] hecho relación que en la Ciudad de los Reyes [...] está hecho y fundado un monasterio de su Orden, en el cual hay aparejo para hacer Estudio General",
+     "traduccion": "Cita parcial de la real cédula de 12-V-1551 (Valladolid). El resto concede los privilegios de Salamanca. Dos años después de la súplica del cabildo de Lima; el estudio funcionaba ya desde 1549.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. 64; l. 50 del txt extraído",
+     "cita_original": "la Universidad de Santiago de la Paz de Santo Domingo fue fundada por el rey Felipe II en Valladolid mediante la Real Cédula del 23 de febrero de 1558, que funcionó hasta 1602, en que fue convertida a seminario",
+     "traduccion": "Versión peruana: ignora la bula dominica de 1538 y toma como fundación de Santo Domingo la universidad de Gorjón (1558). Es el centro del sub-hecho disputado de A-037.",
+     "afirmaciones": [
+      "A-037"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-037"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "El texto de la real cédula de 12-V-1551 no se obtuvo completo: Konetzke vol. I no la contiene (sí contiene la de 17-X-1562 sobre las universidades de México y la de 1580 sobre la de Lima); otras fuentes consultadas (Culleton 2016, Dialnet 8349107, upch) solo la mencionan. Redalyc respondió en esta sesión (en la anterior estaba caído). [POR VERIFICAR: la signatura del AGI (Lima 566?) y la edición del texto completo (p. ej. Eguiguren 1950, citado por Garmendia).]"
+  },
+  {
+   "titulo": "Scelle, Georges, La traite négrière aux Indes de Castille: contrats et traités d'assiento, t. 1 (Paris: Sirey, 1906), texto pp. 140-155 y «Documents et pièces justificatives» n.º 1 y 2 (pp. 755-757): cédulas de 18-VIII-1518 y 21-X-1518 a Lorenzo de Gorrevod",
+   "autor": "Scelle, Georges",
+   "anio": "1906",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/latraitengri01sceluoft/latraitengri01sceluoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/latraitengri01sceluoft",
+    "https://archive.org/details/latraitengri02sceluoft (t. 2)",
+    "https://archive.org/details/histoirepolitiq01scelgoog (otro ejemplar de Google)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición documental de un jurista, con transcripción paleográfica impresa y signatura antigua del AGI; el OCR de archive.org tiene errores de lectura («qualro» por «quatro»).",
+   "proveniencia": "Georges Scelle (n. 1878 según archive.org), jurista francés, publicó su tesis sobre los contratos de asiento en dos tomos (Sirey, 1906); el t. 1 termina con «pièces justificatives» transcritas de los archivos españoles, entre ellas la cédula de 18-VIII-1518 que concede a Gorrevod la licencia de 4.000 esclavos y la de 21-X-1518 que exime a las licencias del almojarifazgo. Es la fuente que citan LDHI (p. 755) y, indirectamente, Donnan y Aguirre Beltrán. Descargado el texto de archive.org (2,2 MB).",
+   "extractos": [
+    {
+     "ubicacion": "Documents et pièces justificatives, doc. n.º 1, p. 755; l. 35243-35248 del txt (Zaragoza, 18-VIII-1518) [OCR corregido: «descubrir», «quatro»]",
+     "cita_original": "Nuestros oficiales que rresydys en la cibdad de Sevilla en la casa de la contratacion de las yndias sabed que yo he dado licencia e por la presente la doy a lorenço de gorrevod gobernador de bresa del mi consexo",
+     "traduccion": "«Nuestros oficiales que residís en la ciudad de Sevilla en la Casa de la Contratación de las Indias, sabed que he dado licencia, y por la presente la doy, a Lorenzo de Gorrevod, gobernador de Bresa, de mi Consejo [...]».",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "doc. n.º 1, p. 755; l. 35248-35252 del txt [OCR corregido: «quatro», «xpianos»]",
+     "cita_original": "pueda pasar a llevar a las yndias yslas e tierra firme del mar occeano descubiertas e por descubrir quatro myll esclavos y esclavas negros que sean xpianos de cada uno la cantidad quel quisiere",
+     "traduccion": "«[...] pueda pasar y llevar a las Indias, islas y Tierra Firme del mar Océano, descubiertas y por descubrir, cuatro mil esclavos y esclavas negros que sean cristianos, de cada uno la cantidad que quisiere.»",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "doc. n.º 1, p. 755; l. 35252-35255 del txt",
+     "cita_original": "e que asta que estos sean acavados de sacar e pasar no se puedan pasar otros esclavos algunos ni esclavas salbo los que asta la fecha desta he dado licencia",
+     "traduccion": "Cláusula de exclusividad: hasta que se hayan pasado los 4.000, no se podían pasar otros esclavos, salvo las licencias ya concedidas (de ahí «monopolio» en la historiografía). No hay plazo de ocho años en el texto de la cédula.",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "doc. n.º 1, p. 755; l. 35275-35277 del txt, firma y signatura",
+     "cita_original": "fecha en çaragoça a diez y ocho dias del mes de agosto de myll quinientos y diez y ocho años yo el rrey por mandado del rrey francisco de los covos",
+     "traduccion": "Signatura que da Scelle: «AGI, 46, 4, 6, I, f.º 17» (antigua). La crítica de completitud cita «AGI Indiferente 419, L.7, ff. 735-735v» para el mismo documento: coincidencia de signaturas [POR VERIFICAR; no se pudo abrir PARES (429)].",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "doc. n.º 2, pp. 756-757; l. 35310-35314 del txt (21-X-1518)",
+     "cita_original": "de los dichos quatro mill esclavos o dicha parte que asy llevaren a qualquier de las dichas yslas e tierra firme hasta a la dicha cantidad no se lleven derechos de almoxarifazgo ni otros algunos que a nos pertenescan",
+     "traduccion": "Cédula de Zaragoza, 21-X-1518: exime del almojarifazgo a los esclavos pasados en virtud de la licencia (es la cédula que cita Aguirre Beltrán y que no se había localizado).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "texto, p. 141; l. 7246-7249 del txt (en francés)",
+     "cita_original": "Garrevod sollicita, et les quatre mille licences lui furent accordées gratuitement.",
+     "traduccion": "Scelle: Garrevod pidió y se le concedieron gratis las 4.000 licencias (sin sacar los ocho mil ducados que habría cobrado la Corona por las tarifas antiguas).",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "texto, p. 150; l. 7670-7676 del txt (en francés)",
+     "cita_original": "il existe, dans la collection Muñoz, une lettre de Pasamonte et Alonso Dávila Ampiès [...] le 14 septembre 1519 au sujet de la cession des licences faites par le gouverneur de Brésa «à Alonzo Gutierrez, le trésorier de Madrid, et à d'autres ses associés»",
+     "traduccion": "Scelle identifica la carta de los oficiales de 14-IX-1519, que es la que en CODOIN t. I se lee con el plazo de ocho años y los 25.000 ducados; observa que Herrera dice que la venta fue a genoveses de Andalucía y que de ahí el nombre de «asiento de los genoveses».",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Cierra la laguna sobre el texto original de la licencia a Gorrevod (18-VIII-1518): ya está impreso en español con la ortografía del documento en Scelle 1906, t. 1, p. 755, con signatura antigua del AGI. La licencia dice: cuatro mil esclavos y esclavas negros cristianos, en la proporción de sexos que quiera el titular, desde Guinea o de otras partes, sin registrar en Sevilla si se da fianza, con exención de derechos en la Casa de la Contratación. Matices que importan para A-035: el texto de 1518 habla de «licencia» y «merced» (no «asiento»); el plazo de ocho años y el precio de 25.000 ducados vienen de la carta de los oficiales de Santo Domingo de 14-IX-1519 (CODOIN t. I) y de la historiografía, no de la cédula. La primera frase de A-035 (esclavos africanos en 1502 con Ovando) no se cubre aquí. El OCR confunde «qualro/quatro», «aslá/asta», «presona/persona»; los extractos están corregidos con la forma que da la copia de LDHI (que cita a Scelle). [POR VERIFICAR contra la imagen de la p. 755 en archive.org.]"
+  }
+ ]
+}

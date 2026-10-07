@@ -1,0 +1,1191 @@
+{
+ "lente": "dominicana",
+ "modulo": "M02",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 17,
+ "busquedas_pendientes": [
+  "Peña Batlle, La rebelión del Bahoruco (1948; 2.ª ed. 1970) y obras sobre Ovando (Lugo Lovatón) en Memoria Histórica del Senado y Biblioteca del Congreso",
+  "Tolentino Dipp, Raza e historia en Santo Domingo (archive.org solo en préstamo, HTTP 401 en rondas anteriores)",
+  "Vicente Rubio, Cedulario de la Isla de Santo Domingo, vols. I (1492-1501) y II (1501-1509): el catálogo de la ADH lo lista sin PDF y agn.gob.do devolvió 403 a curl; probar el visor del AGN",
+  "J. M. Incháustegui, Reales cédulas y correspondencia de gobernadores de Santo Domingo (1958), t. I docs. 1-12",
+  "Del Monte y Tejada, Historia de Santo Domingo t. I (463 MB) y Casimiro de Moya t. II-III (518 y 198 MB) del catálogo de la ADH",
+  "Rodríguez Demorizi, Cronología de la Universidad: OCR de las páginas 23-111 y Utrera, Universidades de Santiago de la Paz y Santo Tomás (1932) / In Apostolatus Culmine, bula mítica (1939)",
+  "Deive, La Española y la esclavitud del indio (1995); Vega, Los cacicazgos de la Hispaniola (1990); Silié, Economía, esclavitud y población (1976)",
+  "Pérez Memén, Origen, auge y decadencia de la universidad de los dominicos (1538-1823)",
+  "Balaguer, discursos del V Centenario (1992) y Trujillo, discurso del IV Centenario de la Universidad (1938)",
+  "Libros de texto dominicanos de secundaria (Santillana, Norma, Susaeta, Editora Corripio) con páginas sobre taínos y encomienda",
+  "MENFP/Haití: programme d'histoire, 3e cycle (Taïnos/Indiens); Wesner Emmanuel, Histoire Géographie 3e Secondaire (2011); Roy Fombrun et al. (2013); Auguste y Auguste (2016): corresponden al lente haitiano",
+  "Candio 2020 (F-0162) en theses.fr y búsquedas en kreyòl (Tayino, Anakawona, liv istwa): lente haitiano",
+  "Demetrio Ramos, «¿Genocidio en La Española?» (Doctrina Christiana, CSIC, 1986, pp. 19-54): lentes colonial-primaria e internacional",
+  "Estudios Sociales (Centro Bonó) y Ecos: artículos sobre los primeros negros, la rebelión de 1521 y recepción de Stone 2021 / Livi-Bacci 2003",
+  "dLOC y Biblioteca Digital Pedro Henríquez Ureña: Peguero (1762), Del Monte y Tejada, Casimiro de Moya",
+  "Hatuey en la historiografía y la prensa dominicanas; Fundación García Arévalo y Museo del Hombre Dominicano sobre La Isabela y Concepción de la Vega",
+  "Listín Diario y El Caribe: reacciones al Decreto 783-21 y a la cátedra de Enriquillo",
+  "Cassá, Historia social y económica de la República Dominicana, t. I (F-0076) y Cassá, ed., HGPD t. I cap. 7 (F-1597): relectura de las páginas no leídas"
+ ],
+ "lagunas": [
+  "F-2160 (Moya Pons, «Datos para el estudio de la demografía aborigen en Santo Domingo», Boletín del Museo del Hombre Dominicano; Después de Colón, Alianza, 1987, 195 pp.) sigue sin localizar: archive.org no tiene copia (la búsqueda por título dio cero resultados) y la ficha de la UNSAM devolvió HTTP 402. Sólo se conoce por terceros.",
+  "F-2097 (Moya Pons, Antiquity 1992): sigue tras muro de pago; Cambridge Core confirma ficha, DOI y paginación pero no se dispone del texto.",
+  "Moya Pons, Manual de historia dominicana (1992) y The Dominican Republic: A National History (1995): en archive.org solo en préstamo digital (access-restricted-item; HTTP 401 en el djvu.txt; búsqueda interna «Item not available»); anotar en 07-sintesis/limites.md. Una ronda con acceso a un ejemplar impreso o a un préstamo cerraría A-030, A-031 y A-038 en la voz dominicana más citada.",
+  "Libros de texto dominicanos de secundaria con cifras de 1492, 1508 o 1514: no localizados en línea. Lo leído como discurso escolar son los currículos del MINERD de 2018 (secundaria, segundo ciclo, versión preliminar) y de 2023 (adecuación), el diseño de primaria de 2016 (ronda 1), el texto universitario de Peguero y de los Santos (UCMM 1981), la versión popular de Cassá del AGN (2010) y el análisis de González Canalda (Ecos 2019, nueve textos dominicanos y nueve haitianos). Los manuales haitianos posteriores a 1987 solo llegan por González Canalda (Wesner 2011; Roy Fombrun et al. 2013; Auguste y Auguste 2016).",
+  "A-038: ninguna fuente dominicana leída del MINERD usa «genocidio» para la conquista; el único uso oficial es «el genocidio de 1937». Entre los historiadores, Cassá lo usa en 1992 para la matanza de Jaragua pero no para el conjunto; en 1974 decía «exterminio». No se halló una fuente dominicana que aplique «genocidio» a todo 1492-1520, ni el discurso del V Centenario de Balaguer ni textos escolares de editoriales privadas.",
+  "A-031: ninguna fuente dominicana leída da ~18.000 tras la viruela de 1518-1519. Cassá 1974 da 11.000 en 1518 (derivando unos 7.500 tras la viruela, cálculo propio), Mira Caballos 1997 3.000 en 1519, el AGN 2010 12.000 en 1517. Los totales del repartimiento de 1514 son al menos cuatro: 22.336 (solo adultos de servicio, Demorizi), 25.435 (Demorizi, suma con niños y viejos; Cassá), 26.189 (Mira Caballos) y 26.334 (Arranz Márquez según F-0011); no se cotejó el texto de 1514 con CODOIN ni con el AGI.",
+  "A-033: la fecha de la ejecución de Anacaona (1503 o 1504) sigue sin resolverse; Casimiro de Moya fecha la expedición de Ovando en «mayo o junio de 1503». Faltan las cartas de Ovando de 1503 (no halladas) y el Cedulario de Rubio, vol. II (1501-1509).",
+  "A-034: este lente solo aporta la recepción de Anacaona en los manuales haitianos vista desde un análisis dominicano (González Canalda 2019); la genealogía del culto (Nau 1855, Dorsainvil 1934, Fombrun) corresponde al lente haitiano.",
+  "A-036: Cassá 1974 documenta supervivencia en aldeas de indios (Boyá hasta el siglo XVII) y mestizaje; Peguero y de los Santos 1981 y Rodríguez Demorizi 1971 enuncian la extinción de la raza como hecho («exterminado», «500 en 1570»); no se halló aquí el origen de la tesis de la «extinción» como campaña dominica y lascasiana (Guitar).",
+  "A-037: Rodríguez Demorizi 1970 fecha la bula el 28 de octubre de 1538, pero no se leyó el texto de la bula ni su confirmación regia; el pasaje que remite a Beltrán de Heredia, Bulario de Salamanca (1967) p. 277 no se consultó. La aparente confusión de Schoenrich entre la universidad dominica y el Colegio de Gorjón en 1558 es una inferencia del buscador.",
+  "A-039 y A-040: no se halló una fuente dominicana de acceso abierto con inventario de publicaciones arqueológicas por país ni estudios paleopatológicos de cementerios de contacto. Una nota de Nexus1492 (Leiden, 2016) sobre el estudio de restos óseos en el Museo del Hombre Dominicano estaba bloqueada (Access Blocked); un artículo de Diario Libre (2022) trataba de un cementerio arcaico de Samaná (M01), no del contacto.",
+  "El PDF del diseño curricular de Ciencias Sociales de secundaria (educando.edu.do, 2025) no se pudo abrir (fallo de conexión, código 000). La paginación impresa de Cassá 1974/1992, Peguero-de los Santos 1981 y Sención 2010 se deduce de cabeceras y folios del OCR y requiere cotejo con el ejemplar físico."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Genocidio de Xaragua / matanza de Jaragua (1503)",
+   "tradicion": "dominicana",
+   "nota": "Cassá (1992, pp. 201, 202 y 233) escribe «horroroso genocidio» y «genocidio de Xaragua» para la matanza de los señores y del pueblo de Jaragua por Ovando; Casimiro de Moya (1913) dice «inicuas matanzas de Jaragua e Higüey» y «exterminio de tanta gente»; Peguero y de los Santos (1981) dicen «matanza colectiva». Se propone el descriptivo «matanza de Jaragua (1503)». Quién usa «genocidio» para el episodio y quién para toda la conquista debe quedar separado en el glosario (A-038)."
+  },
+  {
+   "termino": "Exterminio (de los taínos) / «los exterminó la encomienda»",
+   "tradicion": "dominicana",
+   "nota": "Cassá (1974, pp. 187-188): «A los indígenas antillanos los exterminó la encomienda, no las guerras, ni una supuesta crueldad intrínseca de los conquistadores, ni las epidemias…»; Peguero y de los Santos (1981): «el taíno es asimilado y exterminado»; Moya (1913): «exterminio de tanta gente». Es un término de causa (la encomienda) y no solo de resultado; conviene distinguirlo de «extinción» (Demorizi 1971) y de «aniquilada» (Cassá 1992)."
+  },
+  {
+   "termino": "Naborías perpetuas (lucayos)",
+   "tradicion": "dominicana",
+   "nota": "Cassá (1992, p. 214) llama así a la condición jurídica especial de los lucayos deportados desde las Bahamas hacia 1510: no eran esclavos de derecho pero quedaban de por vida con un amo. Relevante para la cifra de A-032 (Stone)."
+  },
+  {
+   "termino": "Lucayos",
+   "tradicion": "dominicana",
+   "nota": "Pueblo taíno de las Bahamas; Cassá (1992, pp. 211-214) estima un contingente de hasta 20.000 antes de 1510 y recuerda 40.000 deportados según «diversas fuentes» frente a los 15.000 de Zuazo en la Española. No figura en el glosario."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Los taínos de La Española (Santo Domingo: Editora de la UASD, 1974; Publicaciones de la UASD vol. CLXV, Colección Historia y Sociedad n.º 11; edición a cargo de Emilio Cordero Michel), cap. I y cap. VI «Destrucción de la sociedad taína»",
+   "autor": "Cassá, Roberto",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/roberto-cassa-los-tainos-de-la-espanola",
+   "urls_alternativas": [
+    "https://archive.org/download/roberto-cassa-los-tainos-de-la-espanola/Roberto%20Cass%C3%A1%20-%20Los%20ta%C3%ADnos%20de%20La%20Espa%C3%B1ola_djvu.txt",
+    "https://archive.org/download/roberto-cassa-los-tainos-de-la-espanola/Roberto%20Cass%C3%A1%20-%20Los%20ta%C3%ADnos%20de%20La%20Espa%C3%B1ola.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de un historiador de primer orden, editada por la UASD, con aparato de notas a CODOIN, Las Casas y la edición de Rodríguez Demorizi (1971) y con el cálculo demográfico explícito, aunque dentro de un marco marxista que el propio autor matizó después (1992).",
+   "proveniencia": "Roberto Cassá (n. 1948), historiador dominicano; escrito con una beca de un año de la Comunidad Latinoamericana de Escritores (México) según su «Reconocimiento», y publicado por la Universidad Autónoma de Santo Domingo en 1974 con edición de Emilio Cordero Michel. Parte de las fuentes publicadas (Las Casas, Oviedo, Pané, CODOIN, el Repartimiento de 1514 en la edición de Rodríguez Demorizi); no trabajó en el AGI. Interés: explicar la destrucción taína como resultado de la encomienda (modo de producción esclavista «sui generis»), en el marco de la historiografía social de la UASD. El ejemplar en línea es una digitalización subida a archive.org por un usuario particular (2025), no por la editorial: su régimen de derechos no está verificado.",
+   "extractos": [
+    {
+     "ubicacion": "cap. VI, pp. 187-188 (l. 8397-8401 del txt)",
+     "cita_original": "A los indígenas antillanos los exterminó la encomienda, no las guerras, ni una supuesta crueldad intrínseca de los conquistadores, ni las epidemias, ni los efectos depresivos del choque cultural.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 191 (cuadro, l. 8565-8575)",
+     "cita_original": "1508 Censo al llegar Pasamonte (7) 60,000 1510-11 Censo del Repartimiento de Diego Colón (8) 33,528 1512 Un fraile dominico al ir a Castilla (9) 40,000 1514 Relación del Repartimiento de R. de Alburquerque (10) 25,435",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 193 (l. 8645-8648)",
+     "cita_original": "la reducción en diez años fue de unas 50,000 personas, con una tasa promedio anual de 13% más o menos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 192 (l. 8613-8616)",
+     "cita_original": "Quizás los 25,435 indios que registra la Relación, se podrían elevar a unos 30,000 para tener una idea más exacta de la población taína natural de la isla en ese año.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, pp. 195-196 (l. 8765-8769)",
+     "cita_original": "es factible pensar que la población total original de la isla Española se elevara a una cifra fluctuante entre 225,000 y 275,000 personas, y creemos que en ningún caso llegaría a las 300,000 o a menos de 200,000.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 196 (l. 8776-8779)",
+     "cita_original": "La causa principal de muerte de los indios, de donde parte nuestro estimado de la población total, fue el régimen de trabajo forzado de las encomiendas, más que las guerras, hambrunas, suicidios o epidemias.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 196 (l. 8784-8790)",
+     "cita_original": "la única epidemia de grandes proporciones en la isla Española fue la de viruelas acaecida a fines de 1518 e inicios de 1519, la cual redujo la población indígena en una tercera parte [...] los muertos a causa de la viruela no pudieron exceder en mucho a 3,500 personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 195 (l. 8754-8757)",
+     "cita_original": "la noticia dada por Diego Méndez de que 89 caciques de la región fueron ejecutados con Anacaona, puede dar una idea de la amplitud de la masacre",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 197 (l. 8823-8827)",
+     "cita_original": "Zuazo, que es una fuente en general más fiable, estimó que se trajeron a la isla Española (habría que entender que llegaron vivos a ella) más de 15,000 lucayos, de los cuales murieron 13,000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 207 (l. 9304-9308)",
+     "cita_original": "Fueron las disposiciones de la Reina Isabel, en Real Cédula del 20 de Diciembre de 1503, las que inauguraron formalmente el régimen de los repartimientos de indios en América",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 211 (l. 9468-9470)",
+     "cita_original": "Todo lo visto sobre las encomiendas nos induce a definirlas como una variante de explotación esclavista, con características sui generis.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 219 (l. 9859-9861)",
+     "cita_original": "la desaparición de éstos continuaba por los efectos sociales del régimen colonial y por el mestizaje de ellos con negros y blancos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "cap. VI, p. 220 (l. 9897-9898)",
+     "cita_original": "De las aldeas de indios, la más importante fue Boyá, que hasta el siglo XVII era mencionada como de sus descendientes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-033",
+    "A-036",
+    "A-038"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-2159",
+   "notas": "Resuelve F-2159 (antes archivo-fisico): texto completo en línea. Sesgo: marco marxista (la encomienda como «variante de explotación esclavista»); es obra temprana y el autor revisó sus cifras en 1992 (ver la ficha de Los indios de las Antillas): 225.000-275.000 (1974) frente a 300.000-350.000 (1992). HECHO: las cifras del cuadro (60.000 en 1508; 33.528 en 1510-11; 25.435 en 1514; 11.000 en 1518) y los rangos son del autor sobre CODOIN y Rodríguez Demorizi 1971; INTERPRETACIÓN: que la encomienda, y no las guerras, epidemias ni el choque cultural, fue la causa principal. Cifras de 1492 con autor y base: Las Casas 3.000.000, B. Colón 1.100.000, Zuazo 1.130.000, Pedro Mártir 1.200.000, y un fraile dominico 600.000, rechazadas todas por sobreestimativas (p. 191). Cálculo del buscador: 11.000 menos «no más de 3.500» muertos por viruela deja unos 7.500 supervivientes en 1519; ninguna fuente dominicana leída da ~18.000 tras la viruela (A-031). En el txt djvu el cuadro dice «33,928» para 1510-11, error de OCR: un segundo OCR de la imagen de la página (PDF p. 182) da 33,528, igual que Cassá 1992, Mira Caballos 1997 y Moya Pons vía Chez Checo. Paginación impresa deducida de las cabeceras del txt [POR VERIFICAR contra el ejemplar físico]. La nota 17 de Cassá 1992 remite a «op. cit., p. 198» para el rango 200.000-300.000, pero en este ejemplar el pasaje está en p. 195-196."
+  },
+  {
+   "titulo": "Los indios de las Antillas (Madrid: Editorial MAPFRE, Colección Indios de América n.º 3, 1992, 330 pp.; edición digital Fundación Ignacio Larramendi, 2017), cap. «La encomienda» (pp. 197-215) y capítulos sobre Puerto Rico, Jamaica y Cuba",
+   "autor": "Cassá, Roberto",
+   "anio": "1992",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/los-indios-de-las-antillas",
+   "urls_alternativas": [
+    "https://archive.org/download/los-indios-de-las-antillas/Los%20indios%20de%20las%20Antillas_djvu.txt",
+    "https://archive.org/details/cassa-r.-los-indios-de-las-antillas-1992"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Síntesis académica de un historiador dominicano de primer orden, publicada por MAPFRE con motivo del Quinto Centenario, con notas a CODOIN, Las Casas y la bibliografía demográfica (Rosenblat, Cook y Borah, Henige, Zambardino).",
+   "proveniencia": "Roberto Cassá, historiador dominicano (UASD, Academia Dominicana de la Historia); libro encargado para la colección «Indios de América» de MAPFRE (1992), revisión y ampliación de su monografía de 1974. Digitalizado por la Fundación Ignacio Larramendi (metadatos de archive.org; el enlace al registro de la Fundación consta allí pero no se abrió en esta sesión). Usa documentos publicados (CODOIN, Inchaustegui 1958, Rodríguez Demorizi 1971), no archivo propio. Escrito en el clima del debate «¿descubrimiento o genocidio?» de 1992.",
+   "extractos": [
+    {
+     "ubicacion": "cap. IX «La encomienda», p. 201 (l. 8644-8646 del txt)",
+     "cita_original": "el comendador de Lares dio la orden de desatar un horroroso genocidio, en el que miles de personas de variadas condiciones fueron ejecutadas y otras tantas esclavizadas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 202 (l. 8706-8708)",
+     "cita_original": "En los momentos en que Ovando se aprestaba al genocidio de Xaragua, fue despachada la trascendental cédula que autorizaba la esclavización de la masa indígena por medio de la encomienda.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038",
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. sobre Cuba, p. 233 (l. 10077-10078)",
+     "cita_original": "Hatuey, quien, escapado del genocidio de Xaragua, había propiciado la formación de una incipiente confederación bajo su mando",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 208 (l. 8968-8970)",
+     "cita_original": "Para 1520 la población de Santo Domingo había sido prácticamente aniquilada como resultado de la encomienda y de otros factores, como una epidemia de viruela.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 209 (texto bajo el cuadro, l. 9018-9021)",
+     "cita_original": "las que provienen de los repartimientos o de evaluaciones puntuales presentan la tendencia inversa, ya que los encomenderos tendían a exagerar la mortalidad de la población que controlaban",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 209 (cuadro; l. 9012-9015; cifras sin las llamadas de nota)",
+     "cita_original": "1508 60.000; 1511 33.528; 1514 25.435; 1518 11.000 (cuadro de la evolución de los repartimientos)",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 209, nota 12 (l. 9042-9043)",
+     "cita_original": "Censo realizado con motivo de la llegada de Miguel de Pasamonte, citado por Bartolomé de Las Casas, Historia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 210 (l. 9071-9074)",
+     "cita_original": "se obtendría una población precolonial de 300.000 personas; si se aplica una tasa de 9,8 %, todavía aceptable, dicho total se eleva hasta un tope de 350.000 personas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 211 (l. 9144-9146)",
+     "cita_original": "Para tener el total de grupo taíno, se debe agregar el contingente lucayo, que se puede estimar en un tope de 20.000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 212, nota 23 (l. 9197-9199)",
+     "cita_original": "Diversas fuentes mencionan la cifra de 40.000 lucayos deportados a las Antillas Mayores. Más fiable, Suazo señala la llegada de 15.000, aunque es probable que no incluyera todos los contingentes conducidos a Cuba y Puerto Rico.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, p. 214 (l. 9282-9284)",
+     "cita_original": "hacia 1510, se autorizase la deportación masiva de los lucayos a las Antillas Mayores, bajo el supuesto de que sus islas eran «inútiles» por carecer de oro",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-033",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: Cassá usa la palabra «genocidio» en tres pasajes sobre Jaragua (pp. 201, 202 y 233: «horroroso genocidio», «genocidio de Xaragua») y otra vez para una matanza en Cuba (p. 235); en 1974 hablaba de «exterminio» por la encomienda. No la usa como categoría jurídica ni para el conjunto de la conquista (para ella dice «aniquilada como resultado de la encomienda y de otros factores»). INTERPRETACIÓN del buscador: el uso es descriptivo-moral, no una calificación del conjunto 1492-1520; que A-038 se apoye en esto requiere distinguir entre la matanza puntual y el proceso demográfico. Revisión de cifras: en 1992 eleva el máximo previo (200.000-300.000) a una población precolonial de 300.000-350.000 (tasa de mortalidad media 8,8-9,8 % anual desde 1493 partiendo de 75.000 hipotéticos en 1508; media usada para el conjunto de Santo Domingo: 325.000), frente al rango 225.000-275.000 de 1974. Cuadro 1508-1518 (60.000; 33.528; 25.435; 11.000) con la base de cada cifra en sus notas 12-15: Pasamonte vía Las Casas, CODOIN VII (jerónimos), Rodríguez Demorizi 1971 pp. 73-248 e Inchaustegui 1958. Rechaza a Rosenblat (100.000) por subestimar y a Cook y Borah (8 millones) por no aplicar tasas diferenciales. La nota 17 remite al libro de 1974, p. 198. Paginación impresa deducida de las cabeceras del txt [POR VERIFICAR contra el ejemplar físico]."
+  },
+  {
+   "titulo": "Los dominicos y las encomiendas de indios de la Isla Española (Santo Domingo: Academia Dominicana de la Historia, vol. XXX; Editora del Caribe, 1971), estudio preliminar, edición del «Repartimiento de la Isla Española, 1514» y de la carta de Zuazo de 1518",
+   "autor": "Rodríguez Demorizi, Emilio",
+   "anio": "1971",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_DominicosYLasEncomiendasDeIndiosDeLaIslaEspanola.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-search.pl?q=encomiendas+de+indios"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición documental del presidente de la Academia Dominicana de la Historia que declara corregir las faltas de transcripción de la edición de 1864 y publica íntegro el Repartimiento de 1514; el estudio preliminar es de tono conmemorativo y filodominico.",
+   "proveniencia": "Emilio Rodríguez Demorizi, presidente de la Academia Dominicana de la Historia (según la página de resolución del libro); el libro se publicó por resolución de la comisión del VIII Centenario del nacimiento de Santo Domingo de Guzmán, creada por decreto del presidente Balaguer, como homenaje a la Orden de Predicadores (portada y página de resolución del PDF). Parte de la edición de 1864 (CODOIN t. I), que él declara plagada de errores y que dice haber comprobado contra el original; recoge la crítica de Utrera a esa edición. La introducción sigue a Rosenblat (1945/1954) para la demografía y es abiertamente laudatoria con los dominicos.",
+   "extractos": [
+    {
+     "ubicacion": "estudio preliminar, PDF p. 11",
+     "cita_original": "Ya en 1508 los 100.000 indios de La Española se habían reducido a 60.000; a 30.000 en 1514, año en que se hizo el censo de los indios [...] a 500 en 1570, absorbidos muy pronto por las razas blanca y negra, por el español y el africano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 14",
+     "cita_original": "Figuran, encomendados, 22.336 hombres y mujeres de servicio, sin contar niños y [...] Hay constancia parcial de la existencia de 1,515 niños, que no pasarían de 3,000, y viejos 1,584",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 14",
+     "cita_original": "muestra el proceso de la extinción indígena en «una fase aguda», como observa Rosenblat",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 16",
+     "cita_original": "no pasaba en 1514 de unas 30.000 almas, al borde de inminente extinción",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 16 (cita de Cristóbal de Tapia, 1510, CODOIN vol. 13, p. 557)",
+     "cita_original": "suplica que mande dar licencia e hacer merced para que los dichos vecinos puedan pasar esclavos negros libremente, porque con esto se remediará y sacarán mucha más cantidad de oro, y [...] sobrelevados los indios de trabajo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 8 (cita de Utrera sobre la edición de 1864)",
+     "cita_original": "los señores encargados de esta labor [...] en atención a que por el fruto se conoce el árbol, no estuvieron nunca en esta labor a la altura que el caso requería",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "estudio preliminar, PDF p. 12 (memorial de Hernando Gorjón, h. 1520)",
+     "cita_original": "la pestilencia de viruelas, sarampión e romadizo e otras enfermedades que han dado a los indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-035",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "El PDF (192 MB, 401 págs.) tiene OCR defectuoso y sin tildes; las citas se restituyeron con tildes y se comprobaron contra el texto extraído de forma insensible a tildes, espacios y signos; las páginas son del PDF, no de la edición impresa [POR VERIFICAR la paginación impresa; Cassá 1974/1992 cita el Repartimiento en pp. 73-248 y la carta de Zuazo en pp. 249-269]. CIFRAS DE 1514 con base: 22.336 hombres y mujeres de servicio encomendados, más 1.515 niños (constancia parcial) y 1.584 viejos; la suma, cálculo del buscador, es 25.435, que es el total que usa Cassá (1974 y 1992) y que cita a esta edición; Mira Caballos (1997) cuenta 26.189 y Arranz Márquez (1991) 26.334 según F-0011: hay al menos cuatro totales para el mismo documento, y esta ficha permite explicar el menor (22.336 = solo adultos de servicio). Demorizi afirma 100.000 para 1492 siguiendo a Rosenblat (y recuerda a Las Casas, 3.000.000; Fray Tomás de Angulo, 2.000.000; López de Velasco, más de 1.000.000), y 30.000 para 1514 (rango implícito: 22.336-30.000); 500 en 1570 sin fuente primaria identificada en el pasaje. La introducción afirma además que el tráfico negrero se practica «desde 1511» y que «el colono prefiere un negro a cinco indios» (sin base citada en ese pasaje). No usa «genocidio» ni «exterminio» en las páginas leídas; habla de «extinción». El texto íntegro del Repartimiento y de la carta de Zuazo (1518) no se cotejó aquí con CODOIN. Moya Pons figura en nota como autor de una obra aún inédita (Trabajo y sociedad en La Española en el siglo XVI) que dedica un capítulo al repartimiento de 1514."
+  },
+  {
+   "titulo": "Bosquejo histórico del descubrimiento y conquista de la isla de Santo Domingo y narración de los principales sucesos ocurridos en la parte española de ella desde la sumisión de su último cacique hasta nuestros días, t. I (Santo Domingo: Sociedad Dominicana de Bibliófilos, 1976; el tomo I es el Bosquejo publicado en Santo Domingo en 1913), cap. IX en adelante",
+   "autor": "Moya, Casimiro N. de",
+   "anio": "1913",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/Moya_CasimiroNde_BosquejoHistoricodelDescubrimientoyConquistadelaIsladeSantoDomingoTomoI_1976.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-search.pl?q=conquista+Santo+Domingo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un historiador-geógrafo y político dominicano (1849-1915) que sigue a los cronistas y a los documentos publicados, con juicios morales explícitos y sin aparato crítico moderno.",
+   "proveniencia": "Casimiro Nemesio de Moya (1849-1915), director general de Estadística y vicepresidente de la República, escribió el Bosquejo como complemento histórico del censo oficial que preparaba la Oficina de Estadística, apoyado en las obras históricas impresas desde Pedro Mártir (prólogo del autor). El tomo I salió en 1913; la Sociedad Dominicana de Bibliófilos, con el Banco Central y el AGN, imprimió en 1976 los siete volúmenes manuscritos (nota biográfica de Vetilio Alfau Durán). Es el relato liberal-hispanista de la «conquista» anterior a Trujillo: condena a Ovando por las matanzas pero alaba su administración.",
+   "extractos": [
+    {
+     "ubicacion": "cap. IX, PDF p. 96",
+     "cita_original": "partió con su ejército para Jaragua en mayo o junio del año 1503",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, PDF p. 97",
+     "cita_original": "acusación fementida elaborada en el malévolo cerebro del promotor de aquella matanza para servir de base al infame proceso con que pretendía justificar el exterminio de tanta gente y el sacrificio de la infeliz princesa",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, PDF p. 97",
+     "cita_original": "reservando a la espiritual cacica, por hacerle honra, para la infame horca, donde la condenó a exhalar su último suspiro",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, PDF p. 97, nota 3 (carta de los dominicos a Xevres, 4-VI-1516, CODOIN VII, p. 397)",
+     "cita_original": "El Comendador mayor mandó atar sesenta caciques a otros tantos palos de buhío [...] mandó poner fuego al buhío é quemólos todos dentro [...] mandó hacer una horca é ahorcar aquella gran señora",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX, PDF p. 112",
+     "cita_original": "el número de los indígenas se había reducido a sesenta mil, de manera que por lo menos un millón de ellos habían perecido, durante las guerras o matanzas muchos, pero de seguro los más agobiados por los insoportables trabajos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. X, PDF p. 114",
+     "cita_original": "sin las inicuas matanzas de Jaragua e Higüey, y sin las ignominiosas ejecuciones de Anacaona y Cotubanamá, sería la que brillaría con luz más radiante en el cielo de la historia colonial",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI, PDF p. 120",
+     "cita_original": "de los sesenta mil que había dos años antes sólo quedaban cuarenta mil de ambos sexos incluyendo niños y viejos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. XIV, PDF p. 147",
+     "cita_original": "una terrible epidemia de viruelas que se cebó casi exclusivamente en los infelices indios, a causa de su aglomeración en las enramadas en que los acorralaban de noche los encomenderos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-033",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Páginas del PDF de 314 págs. (tomo I), no de la edición impresa; los números de capítulo se tomaron de los encabezados cercanos del txt [POR VERIFICAR]. Autor dominicano que ya en 1913 califica de «inicuas matanzas» y de «exterminio» lo ocurrido en Jaragua e Higüey y data la expedición de Ovando en «mayo o junio del año 1503»; la fecha de la ejecución de Anacaona (1503 o 1504) no se resuelve aquí. Cifra de 1508 con base: Moya da «sesenta mil» indígenas y deduce que «por lo menos un millón» habían perecido, lo que implica una población inicial de un millón o más (cálculo del buscador); la base de esa población no se explicita en el pasaje leído [POR VERIFICAR en el capítulo anterior]. Usa «exterminio» y «matanzas» pero no «genocidio» (término anacrónico en 1913). El tomo II (518 MB) y el III (198 MB) del mismo catálogo no se descargaron; tampoco Del Monte y Tejada, t. I (463 MB), cuya ficha está pendiente."
+  },
+  {
+   "titulo": "El sistema de encomiendas en Santo Domingo durante el siglo XVI (Clío, año 71, n.º 165, ene.-jun. 2003, pp. 59-86)",
+   "autor": "Chez Checo, José",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2003-165-059-086.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Cl%C3%ADo_2003_No_165.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de síntesis de un miembro de número de la Academia Dominicana de la Historia, bien anotado pero apoyado en la bibliografía secundaria (Moya Pons, Cassá, Mira Caballos, Lamb) más que en documentos nuevos, con OCR del PDF defectuoso.",
+   "proveniencia": "José Chez Checo, historiador dominicano, miembro de número de la Academia Dominicana de la Historia (nota * del artículo); el estudio, publicado en la revista Clío de la Academia, sigue a Ursula Lamb para Ovando, a Cassá (cap. IX, 1992) y a Moya Pons, y trata el origen de la encomienda, su implantación bajo Ovando, el sermón de Montesino y las Leyes de Burgos (1512).",
+   "extractos": [
+    {
+     "ubicacion": "p. 59",
+     "cita_original": "jugó un destacado papel en el proceso de colonización del Nuevo Mundo constituyéndose, de hecho, en el medio de esclavización de sus primitivos pobladores",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 59",
+     "cita_original": "las famosas Leyes de Burgos mediante las cuales se intentó poner remedio al proceso de caída vertiginosa de la población indígena que aquella institución provocó",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "La situación de los indígenas bajo el sistema esclavista implantado por el gobernador Ovando [...] muchos de ellos morían al no serles posible soportar tan ignominiosa situación, mientras otros se suicidaban",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "disposición de impedir la entrada de negros a la colonia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 75, nota 33",
+     "cita_original": "horrenda matanza donde Anacaona fue ahorcada, véase Ursula Lamb",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "p. 76",
+     "cita_original": "Para remediar dicha situación se reinició de nuevo la entrada de negros esclavos a la isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 76, nota 35 (cita de Moya Pons)",
+     "cita_original": "hoy conocemos bien los detalles del terrible tratamiento que recibían los indios en las minas y en las estancias españolas, y la altísima mortalidad que producía entre ellos el hambre, los maltratos y las enfermedades",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-033",
+    "A-035"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Páginas impresas calculadas desde el PDF (PDF p. 1 = p. 59). El OCR del cuerpo del texto parte las palabras («mucho s», «desastro sa»); las citas se comprobaron ignorando espacios. Chez Checo atribuye a Moya Pons (sin el título en el pasaje legible) la frase de que, cualquiera que fuera la población de 1492, «ya en 1508 los indios habían descendido a unos 60.0[00] individuos» (el OCR trunca el cero) y que ni la importación de unos 40.000 indios de las islas vecinas entre 1508 y 1513 detuvo el colapso; un censo de 1509 da 40.000 y el de 1510 sólo registra 33.5[28] (el OCR dice 33.523) [POR VERIFICAR contra la imagen]. La nota 35 remite a Arrom, a Chaunu (1984) y a Vilar sobre la mano de obra. No usa «genocidio»: dice «esclavización» y «caída vertiginosa de la población». Para el sermón de Montesino y las Leyes de Burgos véase M02-N01 y M02-N55. El mismo catálogo da (sin PDF) el libro de Chez Checo, Montesino 1511: dimensión universal de un sermón (pdf de 191 MB no descargado)."
+  },
+  {
+   "titulo": "¿Cómo se miran haitianos y dominicanos en los libros de texto escolares? (Ecos, Instituto de Historia de la UASD, año XXVI, vol. 1, n.º 17, ene.-jun. 2019, pp. 89-122)",
+   "autor": "González Canalda, María Filomena",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/230/169/172",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Análisis comparado de 9 textos dominicanos y 9 haitianos por una profesora e historiadora, académica correspondiente de la Academia Dominicana de la Historia y autora de libros de texto, pero la parte sobre 1492-1520 es una lista breve de errores con la traducción propia de los pasajes haitianos.",
+   "proveniencia": "María Filomena González Canalda, profesora de Historia Dominicana (UASD, INTEC, UNIBE), autora de textos escolares de Ciencias Sociales y Premio Nacional de Historia (2009, 2014); presentó el trabajo en el seminario «Enseñanza-aprendizaje de la historia» (AGN, 2017) y lo retomó de su artículo de 2014 en Conjonction. Los textos dominicanos analizados están aprobados por el MINERD (nota 4). Compara textos haitianos de Auguste y Auguste (2016), Roy Fombrun et al. (2013), Oriol y Wieser (2001) y Wesner (2011).",
+   "extractos": [
+    {
+     "ubicacion": "p. 91, nota 4",
+     "cita_original": "Todos los libros de texto dominicanos trabajados en este artículo han sido aprobados por el Ministerio de Educación de la República Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 92",
+     "cita_original": "Los mitos de la historia oficial dominicana que son compartidos por la haitiana y que son reproducidos en los libros de texto haitianos son los siguientes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (sobre Auguste y Auguste 2016, p. 41)",
+     "cita_original": "La entrada de esclavos a la isla [...] se debió al consejo de las Casas al rey de España",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 94",
+     "cita_original": "En los libros de texto haitianos son escasas las menciones de mujeres, cuando lo hacen reproducen el discurso de la Historia Oficial como ocurre al presentar a Anacaona",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "p. 96 (sobre Wesner 2011, p. 7)",
+     "cita_original": "Se reproduce una ilustración de un dúho taíno con el pie de página como «Duho d´Anacaona»",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "p. 97 (sobre Wesner 2011, p. 5)",
+     "cita_original": "Se fija en un millón de habitantes de la isla a la llegada de los europeos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 97 (traducción de la autora de Roy Fombrun et al. 2013, p. 17)",
+     "cita_original": "Cristóbal Colón repartió el territorio conquistado y lotes de tierra que distribuyó a los españoles con indios como esclavos para cultivar. Esta distribución se llamó repartimiento.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 121 (conclusiones)",
+     "cita_original": "están presentes los mitos tradicionales de la Historia Oficial: los 5 cacicazgos de la isla; el aporte de la reina Isabel de Castilla para el primer viaje de Cristóbal Colón",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-034",
+    "A-035",
+    "A-038"
+   ],
+   "modulos": [
+    "M00",
+    "M02",
+    "M06",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0102",
+   "notas": "Añade M02 a F-0102. HECHO: la autora no registra en ningún texto, dominicano ni haitiano, el término «genocidio» ni «exterminio» para 1492-1520 (la palabra aparece sólo para 1937 en la sección fronteriza); su lista de «errores» sobre el período es corta y se limita a los textos haitianos (cinco cacicazgos, un millón de habitantes de 1492 en Wesner 2011 p. 5, Anacaona en Wesner p. 7, Roy Fombrun et al. 2013 pp. 7 y 17, Auguste y Auguste 2016 pp. 17, 29 y 41, Oriol y Wieser 2001 pp. 3 y 17); de los textos dominicanos analizados cita, para esta época, sólo el rasgo «la heroica, la víctima y la etérea» (tipología de Lora Hugi) sobre la mujer. Es un silencio útil para A-038 pero no prueba su ausencia en los textos no analizados. Limitación: no se leyeron los manuales haitianos originales (Wesner 2011, Roy Fombrun 2013, Auguste 2016); sus contenidos llegan por la traducción y el juicio de la autora. La identificación de «la entrada de esclavos por consejo de Las Casas» como «mito» es juicio de la autora; la documentación de 1501-1505 (M02-N44 a M02-N48) muestra negros esclavos enviados a La Española antes de Las Casas."
+  },
+  {
+   "titulo": "Diseño curricular. Nivel secundario, modalidad académica, segundo ciclo (4.º, 5.º y 6.º), área de Ciencias Sociales (versión preliminar «para revisión y retroalimentación», Santo Domingo, 2018)",
+   "autor": "Ministerio de Educación de la República Dominicana (MINERD), Viceministerio de Servicios Técnicos y Pedagógicos",
+   "anio": "2018",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://www.ministeriodeeducacion.gob.do/docs/direccion-general-de-educacion-media/G9Ph-diseno-curricular-modalidad-academicapdf.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial del ministerio que fija los contenidos y logros que se enseñan, por tanto prueba directa de qué términos usa el Estado dominicano en la escuela; versión preliminar de 617 páginas.",
+   "proveniencia": "MINERD, gobierno de Danilo Medina (ministro Andrés Navarro, viceministra Denia Burgos); documento del «proceso de revisión y actualización curricular», portada «Versión preliminar. Para revisión y retroalimentación». No es un libro de texto: define conceptos, contenidos e indicadores de logro. Complementa el diseño del segundo ciclo de primaria (M02-N05).",
+   "extractos": [
+    {
+     "ubicacion": "5.º grado, p. impresa 485 (PDF p. 486)",
+     "cita_original": "Reconoce los cambios sociales y económicos producidos en la isla como consecuencia del proceso de conquista y colonización.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "5.º grado, p. impresa 486 (PDF p. 487)",
+     "cita_original": "Análisis de las repercusiones culturales del proceso de conquista y colonización de la isla de Santo Domingo desde finales del siglo XV y el XVI.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "5.º grado, p. impresa 486 (PDF p. 487)",
+     "cita_original": "Formas de resistencia desarrolladas por los pobladores de la isla en contra de la explotación colonial.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038",
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "6.º grado, p. impresa 498 (PDF p. 499)",
+     "cita_original": "Dominación política, violencia militar y paramilitar; el genocidio de 1937.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-038",
+    "A-034"
+   ],
+   "modulos": [
+    "M02",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en este diseño oficial el único «genocidio» es el de 1937; para 1492-1520 usa «conquista y colonización», «explotación colonial», «encomienda», «esclavitud» y «resistencia», sin cifras ni nombres propios (ni Anacaona ni Enriquillo) y sin «taíno» (el término sólo aparece en el área en otros apartados). No se leyó el diseño del primer ciclo de secundaria (2016): su Ciencias Sociales no menciona conquista, encomienda ni taínos. INTERPRETACIÓN del buscador: el currículo reserva «genocidio» a lo ocurrido en el siglo XX y describe la época taína en términos de explotación. Es una versión preliminar de 2018; no consta aquí si se aprobó sin cambios (la adecuación de 2023 en M02-ficha siguiente mantiene el vocabulario). El PDF educando.edu.do del diseño final de Ciencias Sociales (2025) no se pudo abrir (fallo de conexión)."
+  },
+  {
+   "titulo": "Adecuación curricular. Nivel secundario (Santo Domingo: Dirección General de Currículo, agosto de 2023), mallas de Ciencias Sociales, 1.er y 5.º grado",
+   "autor": "Ministerio de Educación de la República Dominicana (MINERD), Dirección General de Currículo",
+   "anio": "2023",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://ministeriodeeducacion.gob.do/docs/direccion-general-de-curriculo/Ht7X-adecuacion-secundaria-2023pdf.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial vigente del ministerio (gobierno de Luis Abinader, ministro Ángel Hernández Castillo) que fija contenidos, procedimientos y actitudes de Ciencias Sociales en secundaria.",
+   "proveniencia": "MINERD, Dirección General de Currículo, agosto de 2023, ministro Ángel Hernández Castillo; adecuación del currículo de secundaria de 2016-2018 a las competencias por grado. Para esta época fija en 1.er grado el «impacto de la expansión colonial europea en el Caribe» y en 5.º «Cultura taína», «conquista y colonización» y «resistencia de los pobladores aborígenes y africanos».",
+   "extractos": [
+    {
+     "ubicacion": "1.er grado, p. impresa 244 (PDF p. 245)",
+     "cita_original": "Realización de análisis crítico sobre el trato a los pobladores de los continentes sometidos al modelo colonial",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "1.er grado, p. impresa 244 (PDF p. 245)",
+     "cita_original": "Realización de simulaciones acerca del régimen de las encomiendas, las luchas de los aborígenes y los esclavos africanos en la isla durante el siglo XVI y XVII",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "5.º grado, p. impresa 269 (PDF p. 270)",
+     "cita_original": "Reflexión crítica sobre la forma en que estos grupos fueron tratados por los colonizadores y la sociedad dominicana posterior",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "5.º grado, p. impresa 269 (PDF p. 270)",
+     "cita_original": "Valoración del legado de los primeros pobladores",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-036"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-038",
+    "A-036",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: tampoco aquí aparece «genocidio» para la conquista; el único uso es «el genocidio de 1937» (PDF p. 278, 6.º grado). El documento habla de «Cultura taina», «régimen de las encomiendas», «luchas de los aborígenes», «trato» y «legado de los primeros pobladores». Un bullet de 1.er grado fecha el «régimen de las encomiendas» en el siglo XVII (la encomienda antillana se extingue hacia 1544; Cassá 1974, p. 219) [POR VERIFICAR si es errata del documento]. Sin cifras de población, sin repartimientos de 1508/1514. Las extracciones de columnas del PDF mezclan celdas; las citas se comprobaron en el texto de las páginas indicadas."
+  },
+  {
+   "titulo": "Visión general de la historia dominicana (Santiago: Universidad Católica Madre y Maestra, Colección «Textos», 1981; Editora Taller), caps. «La colonización de La Española: 1502-1514» y «La Española: 1514-1550» y apartado sobre la cultura taína",
+   "autor": "Peguero, Valentina; Santos, Danilo de los",
+   "anio": "1981",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/vision-general-de-la-historia-dominicana",
+   "urls_alternativas": [
+    "https://archive.org/download/vision-general-de-la-historia-dominicana/Vision%20general%20de%20la%20historia%20dominicana_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto universitario y de bachillerato (Colección «Textos» de la UCMM) de dos profesores, sin aparato crítico en el pasaje leído; sirve como prueba del lenguaje de la enseñanza de la época más que como evidencia de los hechos.",
+   "proveniencia": "Valentina Peguero y Danilo de los Santos, presentados en la contraportada como «dos jóvenes profesores de Historia con reconocida experiencia docente»; Colección «Textos» de la Universidad Católica Madre y Maestra (Santiago), dirigida por Danilo de los Santos; la contraportada dice que servirá «tanto para estudiantes y profesores». Publicado en 1981. El ejemplar en archive.org lo subió un usuario particular; su régimen de derechos no está verificado.",
+   "extractos": [
+    {
+     "ubicacion": "sobre Ovando y Jaragua, p. 51 aprox. (l. 2483-2486 del txt)",
+     "cita_original": "El resultado alevoso del plan de Ovando fue la matanza colectiva de gran parte de los indios de Jaragua y el ahorcamiento de la cacique Anacaona en una plaza pública de Santo Domingo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "sobre los jerónimos, p. 62 aprox. (l. 2919-2922)",
+     "cita_original": "La epidemia de viruelas que atacó a los indios de la isla en el momento en que se empezaba a avecinarlos en 30 de las utópicas poblaciones",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "sobre la cultura taína, p. 82 aprox. (l. 3747-3750)",
+     "cita_original": "En ese siglo, el taíno es asimilado y exterminado. Sin embargo, esto no significó que no dejara una profunda huella racial y cultural dentro de los rasgos hispánicos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-036",
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-033",
+    "A-036",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Paginación impresa deducida de los folios del txt (algunos folios están mal leídos por el OCR) [POR VERIFICAR]. HECHO: el texto de 1981 dice que el taíno «es asimilado y exterminado» en el siglo XVI y que la viruela se suma, como tercera causa, al fracaso del proyecto jerónimo; fecha el ahorcamiento de Anacaona en una plaza de Santo Domingo sin dar año en el pasaje leído. No da cifras de 1492, 1508 o 1514 en los pasajes leídos (grep de «1508», «60.000», «1514» sólo remite a la cronología institucional). Muestra que «exterminado» convive en un texto escolar dominicano con «asimilado» y con la herencia racial y cultural taína (A-036). No usa «genocidio»."
+  },
+  {
+   "titulo": "Historia dominicana: desde los aborígenes hasta la Guerra de Abril (Santo Domingo: Archivo General de la Nación, vol. CXVIII, 2010; basado en el texto de Roberto Cassá, Historia social y económica de la República Dominicana; adaptación en versión popular de Augusto Sención Villalona), cap. «La Encomienda y la colonización» y «Decadencia de la encomienda y tránsito a la agricultura»",
+   "autor": "Sención Villalona, Augusto (adaptación); Cassá, Roberto (texto base)",
+   "anio": "2010",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/historia-dominicana-desde-los-aborigenes-hasta-la-guerra-de-abril",
+   "urls_alternativas": [
+    "https://archive.org/download/historia-dominicana-desde-los-aborigenes-hasta-la-guerra-de-abril/Historia%20Dominicana%20desde%20los%20Aborigenes%20hasta%20la%20Guerra%20de%20Abril_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Versión popular, ilustrada y con encuadres de texto, de la obra de Cassá publicada por el AGN con la Lotería Nacional; reproduce la tesis de Cassá simplificada y cambia algunas cifras.",
+   "proveniencia": "Archivo General de la Nación, vol. CXVIII (2010), con apoyo de la Lotería Nacional; adaptación a versión popular, por Augusto Sención Villalona, del libro de Roberto Cassá. Está dirigida al público general y a la escuela (lenguaje directo, cuadros y recuadros). Es la forma en que la tesis de Cassá circula como texto de lectura.",
+   "extractos": [
+    {
+     "ubicacion": "cap. «La Encomienda y la colonización», recuadro (l. 2035-2043 del txt)",
+     "cita_original": "La mayor parte de la población taina murió como resultado del régimen de La Encomienda. El trato recibido fue tan humillante en todos los órdenes, que provocó un estado emocional que empujaba al suicidio.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. «La Encomienda y la colonización», recuadro sobre Higüey (l. 2095-2097)",
+     "cita_original": "En Higüey hizo dos guerras, donde asesinó y apresó a miles de indígenas, a quienes convirtió en esclavos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cap. «La Encomienda y la colonización» (l. 2121-2123)",
+     "cita_original": "Anacaona fue ejecutada. También fueron asesinados cerca de ochenta caciques, en su mayoría quemados vivos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. «La Encomienda y la colonización», «Cuadro 1: Disminución de la población aborigen» (l. 2051-2080; cifras reconstruidas de columnas)",
+     "cita_original": "1508 último repartimiento de Ovando 60,000; 1511 repartimiento de Diego Colón 33,000; 1514 repartimiento de Alburquerque 25,000; 1517 informe de los padres jerónimos 12,000",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-033",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el cuadro 1 redondea las cifras de Cassá (33.000 en lugar de 33.528; 25.000 en lugar de 25.435) y cambia 1518 por 1517 y 11.000 por 12.000; es un ejemplo de cómo se degradan las cifras al divulgarse. No usa «genocidio» ni «exterminio» en los pasajes leídos; sí «asesinó», «aniquiló» (La Navidad, por Caonabo), «quemados vivos» y «población taina murió como resultado del régimen de La Encomienda». Páginas del libro impreso no determinadas con certeza (el txt no marca bien los folios; el capítulo ocupa aprox. pp. 31-40) [POR VERIFICAR]."
+  },
+  {
+   "titulo": "El indio antillano: repartimiento, encomienda y esclavitud (1492-1542) (Sevilla-Bogotá: Muñoz Moya editor, Biblioteca Americana, 1997), cap. sobre demografía indígena (cuadro II) y cap. sobre el repartimiento de 1514 (cuadro XIV)",
+   "autor": "Mira Caballos, Esteban",
+   "anio": "1997",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/details/mira-caballos-e.-el-indio-antillano-repartimiento-encomienda-y-esclavitud-1492-1541-ocr-1997",
+   "urls_alternativas": [
+    "https://archive.org/download/mira-caballos-e.-el-indio-antillano-repartimiento-encomienda-y-esclavitud-1492-1541-ocr-1997/Mira%20Caballos%2C%20E.%20-%20El%20indio%20antillano%3A%20repartimiento%2C%20encomienda%20y%20esclavitud%20%281492-1541%29%20%5Bocr%5D%20%5B1997%5D.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de un historiador español especialista, con citas de legajos del AGI en las notas (p. ej. Santo Domingo 1121) y con cuadros por encomendero; el OCR del PDF abierto es defectuoso.",
+   "proveniencia": "Esteban Mira Caballos, historiador español, miembro correspondiente extranjero de la Academia Dominicana de la Historia (según F-2099); prólogo de Adolfo Luis González Rodríguez. Se incluye en esta ronda porque es la fuente académica española más citada por la historiografía dominicana reciente (Chez Checo 2003, Mira Caballos 2017 en Clío) y porque el texto está en acceso abierto. El ejemplar en archive.org lo subió un usuario particular («acceso abierto»); su régimen de derechos no está verificado.",
+   "extractos": [
+    {
+     "ubicacion": "cuadro XIV, PDF p. 119 (p. impresa 126)",
+     "cita_original": "tenemos que de 26.189 indios repartidos, 11.554",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "cap. de demografía, PDF p. 29 (p. impresa 35)",
+     "cita_original": "los cálculos realizados por Frank Moya Pons que llega a la cifra de 377.559 para la isla Española en 1492. Sin embargo, no consideramos válido su",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "cap. de demografía, PDF p. 31 (p. impresa 37)",
+     "cita_original": "estuvo motivado fundamentalmente por ser una época de extorsión y de explotación intensiva de los indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "cap. de demografía, PDF p. 60, nota 140",
+     "cita_original": "Existen incluso [...] recientes que siguen aún incidiendo [...] de los españoles en el supuesto «genocidio» del indio antillano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Ficha de apoyo (tradición española), no del lente dominicano. HECHO: Mira Caballos cuenta 26.189 indios repartidos en 1514 (729 encomenderos; 83 con el 44 % de los indios) frente a 25.435 (Cassá, que suma a Rodríguez Demorizi) y 26.334 (Arranz Márquez 1991 según F-0011); su cuadro II sitúa la población de La Española en 100.000 (1492), 90.000 (1494), 75.000, 60.000 (1508), 33.528 (1511), 26.189 (1514), 11.000 (1518) y 3.000 (1519), citando a Arranz Márquez (el OCR del cuadro está estropeado: [POR VERIFICAR contra la imagen]). El 3.000 de 1519 difiere de los ~18.000 de A-031. Remite a Demetrio Ramos, «¿Genocidio en La Española? Algunas precisiones sobre la cuestión», en Doctrina Christiana (Madrid, CSIC, 1986), pp. 19-54, que no se leyó: pendiente para los lentes colonial-primaria e internacional. Rechaza «explicaciones simplistas» y habla de multicausalidad («choque cultural»). Páginas del PDF; la paginación impresa varía de +6 a +10 respecto del PDF."
+  },
+  {
+   "titulo": "Cronología de la Real y Pontificia Universidad de Santo Domingo, 1538-1970 (Santo Domingo: UASD, Colección Historia y Sociedad n.º 1, vol. CXLIV de Publicaciones de la UASD; Editora del Caribe, 1970), «Advertencia» y entradas de 1537 a 1559",
+   "autor": "Rodríguez Demorizi, Emilio",
+   "anio": "1970",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_CronologiaDeLaRealYPontificiaUniversidadDeSantoDomingo1538-1970.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-search.pl?q=Cronologia+Universidad"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronología documental con citas de archivo (AGI, CODOIN, Utrera) de un historiador de la Academia, pero defiende la continuidad de la «tradición universitaria de 1538» y el PDF no tiene capa de texto (se leyó con OCR propio de las primeras 22 de 111 páginas).",
+   "proveniencia": "Emilio Rodríguez Demorizi, presidente de la Academia Dominicana de la Historia; publicación de la UASD en 1970 (la cita de Hernández González la fecha en 1987, otra edición). Resume la cronología de la Universidad de Santo Tomás de Aquino desde el pedido del Cabildo (1538) y reúne los textos de Utrera (que negó la autenticidad de la bula: «bula mítica», 1939) y de Beltrán de Heredia (que la defendió, 1955).",
+   "extractos": [
+    {
+     "ubicacion": "entrada «1538, octubre 28», p. 19",
+     "cita_original": "Por su Bula In Apostolatus Culmine, el Papa Paulo III crea la Universidad de Santo Domingo en el Convento de los P. Dominicos, con los privilegios de las Universidades de Alcalá y Salamanca.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "entrada «1538, octubre 28», p. 19 (referencias)",
+     "cita_original": "In Apostolatus culmine, Bula mítica de Paulo III, S. D., 1939",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "entrada «1551, septiembre 25», p. 21",
+     "cita_original": "Son autorizadas las Universidades de México y de Lima.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "entrada «1558, febrero 23», p. 22",
+     "cita_original": "Por Real Cédula se erige en Estudio y Universidad, como la de Salamanca, pero con algunas limitaciones, el Colegio que mandó fundar Hernando de Gorjón.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "«Advertencia», pp. [II]-[III]",
+     "cita_original": "El Colegio de Gorjón, la Universidad de Santiago de la Paz, no tiene, propiamente, tradición. [...] de un siglo se le silencia.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-037"
+   ],
+   "modulos": [
+    "M02",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "OCR propio (RapidOCR) de las páginas 1-22 del PDF; las citas se comprobaron contra ese OCR ignorando tildes y los sellos «Academia Dominicana de la Historia» del escaneo; la paginación es la del libro impreso según las cabeceras del OCR. HECHO: Demorizi fecha la bula el 28 de octubre de 1538 y el 23 de febrero de 1558 asigna a una cédula que erige el Colegio de Gorjón (Universidad de Santiago de la Paz), no a la universidad dominica: Schoenrich 1918 fecha la «inauguración» en 1558 (M02, A-037) y parece confundir las dos instituciones [INTERPRETACIÓN del buscador; POR VERIFICAR con Utrera 1932]. El 25-IX-1551 se autorizan México y Lima, lo que alimenta el pleito de primacía. Remite a Beltrán de Heredia, Bulario de la Universidad de Salamanca (1967), p. 277, que reproduciría en latín la súplica y la autorización de Roma del 28-X-1538 [POR VERIFICAR; no se consultó]. Falta el texto de la bula y su confirmación regia (A-037 pedía ambos). Páginas 23-111 no se leyeron."
+  },
+  {
+   "titulo": "The politics of forced Indian labour in La Española 1493-1520 (Antiquity 66, n.º 250, marzo 1992, pp. 130-139)",
+   "autor": "Moya Pons, Frank",
+   "anio": "1992",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.cambridge.org/core/product/553294937394A5BAD9E8F7FB2245A6B3",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/S0003598X0008114X"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares de un especialista dominicano en una revista de arqueología, del que sólo se confirmó la ficha y el primer párrafo; el texto está tras muro de pago.",
+   "proveniencia": "Frank Moya Pons, entonces en el Center for Latin American Studies de la Universidad de Florida; sección del Quinto Centenario de Antiquity (1992). La página de Cambridge Core (consultada con WebFetch, que devuelve resumen y no el HTML) confirma título, número, páginas, fecha de publicación en línea (2 de enero de 2015) y DOI 10.1017/S0003598X0008114X, y que el acceso es de pago.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-2097",
+   "notas": "Sin cambios de fondo respecto de la ficha existente: sigue sin texto completo. No se incluye extracto porque el resumen de WebFetch no es una transcripción literal; el primer párrafo (Colón llega en diciembre de 1492 a una sociedad distinta de la que describe Marco Polo) debe cotejarse en la página [POR VERIFICAR]. Se añade el DOI y el dato de acceso. Es el único artículo de Moya Pons en inglés sobre el trabajo forzado 1493-1520; la cifra de 377.559 para 1492 que se le atribuye (Mira Caballos 1997 la rechaza) procede de «Datos para el estudio de la demografía aborigen…» (F-2160, no localizada)."
+  },
+  {
+   "titulo": "Manual de historia dominicana (Santo Domingo: Caribbean Publishers, 1992; 1.ª ed. 1977), capítulos sobre la conquista y la encomienda",
+   "autor": "Moya Pons, Frank",
+   "anio": "1992",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/bwb_84-399-7681",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (metadatos); 401 (texto djvu)",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Manual del autor dominicano más citado en este corpus, pero no se pudo leer: archive.org lo ofrece sólo en préstamo.",
+   "proveniencia": "Frank Moya Pons (La Vega, 1944; presidente de la ADH 2010-2013, según F-2160); su Manual se usa como texto de consulta escolar y universitaria [POR VERIFICAR su difusión]. La copia de archive.org (identificador bwb_84-399-7681; colecciones inlibrary y printdisabled; access-restricted-item = true) exige préstamo digital; la descarga de _djvu.txt devolvió HTTP 401 y la búsqueda dentro del libro, «Item not available».",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M00",
+    "M02",
+    "M08",
+    "M13"
+   ],
+   "id_existente": "F-0075",
+   "notas": "F-0075 agrupa La dominación haitiana, el Manual y La otra historia; aquí se confirma que el Manual de 1992 existe en archive.org solo en préstamo (anotar en limites.md). Los resultados de WebSearch que ofrecían «PDF» del Manual venían de sitios no relacionados con el autor o la editorial (mambu.com, studyabroadfoundation.org, teyit.org) y no se descargaron por no ser fuentes fiables. Las cifras de Moya Pons se leyeron por terceros: 60.000 en 1508, 33.528 en 1510-11 y 377.559 en 1492 (Chez Checo 2003 p. 76; Mira Caballos 1997; M02-F-2096)."
+  },
+  {
+   "titulo": "The Dominican Republic: A National History (New Rochelle, N.Y.: Hispaniola Books, 1995; con el CUNY Dominican Studies Institute), capítulos sobre la conquista",
+   "autor": "Moya Pons, Frank",
+   "anio": "1995",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/dominicanrepubli00fran",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (metadatos); 401 (texto djvu)",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Versión en inglés de la síntesis de Moya Pons, de referencia en el mundo académico anglófono, pero no se pudo leer: archive.org la ofrece sólo en préstamo.",
+   "proveniencia": "Frank Moya Pons, edición en inglés (1995) con el CUNY Dominican Studies Institute; en archive.org (dominicanrepubli00fran; inlibrary, printdisabled; access-restricted-item = true) solo se presta. La descarga de _djvu.txt devolvió HTTP 401.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M08"
+   ],
+   "id_existente": "",
+   "notas": "Registrar el acceso en préstamo en limites.md. No se intentó otra copia. Útil para contrastar si usa «genocide» para 1492-1520."
+  }
+ ]
+}

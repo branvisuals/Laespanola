@@ -1,0 +1,1760 @@
+{
+ "lente": "cientifica",
+ "modulo": "M02",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 43,
+ "busquedas_pendientes": [
+  "Cook y Borah 1971, Essays in Population History vol. 1 (ensayo sobre La Española; archive.org devuelve 401 en essaysinpopulati0001cook): origen de las cifras de 3.770.000 y 7.975.000 que circulan atribuidas a Cook",
+  "Cook 1998, Born to Die cap. 1, pp. 22-23 (tabla de población 1496-1570): solo hay el extracto de manual de OUP; consulta de reseñas de Crosby (PDR 24:3), McNeill (AHR 104:2) y Livi-Bacci (JLAS 2002) con paginación no hecha",
+  "Henige 1999, reseña de Born to Die en JIH 30(1): 109-111 (MIT Press 403; MUSE con reto): confirmar que el fragmento 'no contemporary evidence whatever' es suyo",
+  "Henige 1978 (HAHR 58:2) y Zambardino 1978 (HAHR 58:4): textos completos (Duke 403)",
+  "Guerra 1983, 'El intercambio epidemiológico tras el Descubrimiento de América' (I Jornadas de Historia de la Medicina Hispanoamericana, Cádiz) y Pérez de Tudela, introducción a Las Casas (BAE 1957): fuente de la tabla de 1493-1517",
+  "Alchon 2003, A Pest in the Land, y Kiple y Beck 1997, Biological Consequences of European Expansion (copia abierta del artículo de Cook 1993)",
+  "Stokes 1998 (tesis de la Universidad de Florida) sobre isótopos de dieta, con Juan Dolio y El Soco: cuatro consultas sin ubicar la tesis",
+  "Veloz Maggiolo 1980 (Vida y cultura en la prehistoria de Santo Domingo) y Ortega 2002 (Artefactos en concha: Arqueología en Coral Costa Caribe, Juan Dolio): fuentes primarias de los diez entierros cristianos de Juan Dolio que cita Keehnen",
+  "Luna Calderón 1981 (Variedades anatómicas del atlas de esqueletos precolombinos de Juandolio, Boletín del Museo del Hombre Dominicano 16) y 1985 (Antropología y paleopatología de los pobladores del Soco); Tavárez María 2004 y 2008 (Punta Macao); Coppa et al. 2004 y 2008; Cucina et al. 2003",
+  "Supplementary Information de Fernandes 2021, sección 3 (radiocarbono): contexto y posible corrección de reservorio de I13198 (Juan Dolio) e I15676 (La Caleta)",
+  "Valcárcel Rojas 2012 (tesis de Leiden, hdl 1887/20153; ítems de 10 MB o más no accesibles con WebFetch ni curl) y Valcárcel Rojas 2016 (University Press of Florida): perfil de mortalidad y datos osteológicos completos de El Chorro de Maíta",
+  "Weston 2025, cap. 6 de Bioarchaeology in the Caribbean (T&F 403, Unpaywall cerrado), y Laffoon, Valcárcel Rojas et al. 2012b/2016 (isótopos de dieta de El Chorro de Maíta)",
+  "Tiesler et al. 2016 (IJO 26: 191-202) en copia abierta; Mickleburgh et al. 2019 (White Marl, Jamaica) como segundo comparador",
+  "Leiden, scholarlypublications item 3494384 (mencionado por el crítico): WebFetch supera el tope de 10 MB y curl recibe el reto antibot; no se identificó el documento",
+  "Rothschild et al. 2000: texto completo (sitios, fechas y n por sitio de los 536 restos)"
+ ],
+ "lagunas": [
+  "Cook 1993 (Colonial Latin American Review 2:213-245) sigue cerrado: Unpaywall 'closed', Semantic Scholar 'CLOSED', Taylor & Francis 403. Su cronología de epidemias anteriores a 1518 (1493, 1498, 1502, 1507) solo llega por Stone 2014 n. 220 y por Cook 2003 (F-1587), y su cifra de contacto (500.000-750.000) por F-1587. Tampoco se leyó Crosby 1976 (JSTOR/Crossref cerrados): su definición de 'virgin soil' se leyó solo citada por Jones 2003.",
+  "La versión rival epidemiológica de A-030 queda ahora cubierta en primera mano por Guerra 1985 y 1986 (leídos completos), con control sobre Las Casas; la crítica (Henige) solo por un fragmento de búsqueda cuya atribución no se confirmó. No hay en este corpus una réplica directa de Livi-Bacci o de Cook a la influenza suina con páginas (solo la frase de Cook 1998 en extracto de manual).",
+  "Cifras de contacto atribuidas a 'Cook': 3.770.000 en 1496 (Jones 2003 y Guerra 1986, que remiten a Cook y Borah y a Cook 1998 pp. 22-23), 7,975 millones (Livi-Bacci, de Borah y Cook 1971, según M02.md) y 500.000-750.000 (Cook 1993/2003, F-1587): sin Cook y Borah 1971 vol. 1 ni Cook 1998 pp. 22-23 no se puede decir de dónde sale cada una. Guerra da 1.100.000 en 1985 (de Las Casas 1516) y 3.770.000 en 1986.",
+  "Bioarqueología: existe una serie ósea de La Española que llega al contacto (Juan Dolio: 78 individuos mínimos según Drusini 1987, 108 según Coppa 1995; fechada 'predominantemente a fines del siglo XV' y con ocupación hasta al menos la segunda década del XVI) y estudios de 1987, 1995 y 2000, y un capítulo de 2025, pero solo se pudieron leer los resúmenes; ninguno visto mide la causa del colapso posterior a 1492. El único indicio de causa de muerte en La Española es el de los diez entierros cristianos extendidos de Juan Dolio sin huellas de violencia, 'sugeridos' como epidemia por Keehnen (2019) a partir de Ortega (2002) y Veloz Maggiolo (1980), no leídos.",
+  "Siguen sin análisis físico los nueve restos humanos del Monasterio de San Francisco de Concepción de la Vega (Kulstad 2019, pp. 142-143) y los cuatro entierros primarios de El Cabo (Laffoon 2012, p. 107); Punta Macao (26 individuos, mayólica en el cementerio) tiene estudio de Tavárez María 2004/2008 no leído. La Isabela aporta solo una mujer taína sin isótopos (Price et al. 2020, ya en M02.md). Puerto Real y En Bas Saline: no se halló estudio óseo.",
+  "Una búsqueda en español de los diez entierros cristianos de Juan Dolio (informe primario de Veloz Maggiolo u Ortega) no halló nada en línea. Todo lo isotópico dominicano publicado es de la Edad Cerámica Tardía: 26 individuos de Sr (Laffoon 2012) y 25 de colágeno δ13C y δ15N (Fernandes 2021, hoja SD3), con solo 2 de 29 fechas dominicanas cuyo rango calibrado (OxCal/IntCal20; nivel de probabilidad no declarado en la hoja) supera 1492 (medianas de 1460 y 1470 CE). Laffoon (p. 264) dice que hay pocos estudios isotópicos de contextos protohistóricos y coloniales en las Antillas.",
+  "El comparador cubano (El Chorro de Maíta, 133 individuos, perfil de mortalidad catastrófico, sin lesiones esqueléticas de trabajo) apunta a muerte aguda y posible epidemia pero es de Cuba, fechado c. 1510-1550 y mezcla entierros precolombinos y poscontacto; los datos completos están en el capítulo de 2016 y la tesis de 2012, no leídos.",
+  "La lectura de Las Casas en lib. I cap. CVI ('no quedaron [...] la tercera parte') es ambigua y Guerra 1986 la entiende como 'murió una tercera parte'; sin edición crítica no se resolvió. Tampoco se cotejaron las cartas de Colón (memorial de Torres, 30-I-1494) y de Chanca más allá de lo que reproduce Guerra 1985.",
+  "No hay en esta lente nada nuevo sobre A-031 (serie 60.000 / 26.334 / 18.000), A-032 (Stone: >250.000), A-033, A-034, A-036, A-037 ni A-038 (definición jurídica del término) más allá de los pasajes de Guerra 1985/86 y Danubio 1987 sobre la causalidad."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "colisión epidemiológica / inmunológica (Guerra)",
+   "tradicion": "española (historia de la medicina)",
+   "nota": "Guerra 1985-86 la usa para el contacto: 'colisión epidemiológica de efectos catastróficos' y 'colisión inmunológica'. Carga una tesis: que la mortalidad se debió casi por entero a la enfermedad ('el indígena americano fue victimado por la enfermedad, no por el español', 1986, p. 58) y sirve de reverso al uso de 'genocidio'. Usar la descripción 'epidemias de contacto' y atribuir la tesis a Guerra."
+  },
+  {
+   "termino": "perfil de mortalidad catastrófico (frente a atricional)",
+   "tradicion": "científica (bioarqueología, Paine 2000, Weston)",
+   "nota": "Término descriptivo de la bioarqueología para un cementerio con muchos niños y adultos jóvenes, que se asocia a un evento único (epidemia, desastre). No distingue entre epidemia, hambruna o violencia; en El Chorro de Maíta Weston lo propone con cautela ('perhaps influenced by the introduction of infectious disease'). Declarar en el glosario como descripción, no como diagnóstico."
+  },
+  {
+   "termino": "pueblo de indios encomendados",
+   "tradicion": "internacional (arqueología cubana, Valcárcel Rojas)",
+   "nota": "Categoría de Valcárcel Rojas para El Chorro de Maíta, 'el primero identificado arqueológicamente en Las Antillas'. Es a la vez descripción y tesis (trabajo forzado ya demostrado). Su mismo estudio (Weston) no halla en los huesos signos de trabajo extraordinario; conviene citar la categoría con la nota de que la encomienda procede de fuentes documentales."
+  },
+  {
+   "termino": "indios (categoría colonial) / indio cristianizado",
+   "tradicion": "internacional (Valcárcel Rojas 2014)",
+   "nota": "En Valcárcel Rojas 2014 'indios' (entre comillas) designa a quienes abandonan sus símbolos de identidad y adoptan modos de vida coloniales, y 'mestizos' a la mezcla; es distinto del 'indio claro/oscuro' de la cédula dominicana y del 'indigène' haitiano del glosario. Anotar la homonimia."
+  }
+ ],
+ "incidencias": [
+  "WebSearch: 43 consultas efectivas en 28 llamadas (cinco llamadas se expandieron en varias consultas internas); 'busquedas_usadas' cuenta las consultas internas, no las llamadas.",
+  "El PDF de courses.edx.org rotulado 'VirginSoilWMQ' no es Crosby 1976 sino Jones 2003 ('Virgin Soils Revisited'); se registró como Jones 2003 y Crosby 1976 como fuente solo localizada (Crossref/Semantic Scholar/Unpaywall).",
+  "Leiden: el servidor de universiteitleiden.nl y el repositorio devuelven a curl un reto antibot (no se sorteó); WebFetch sí devolvió los PDF de ítems de menos de 10 MB (Laffoon 2012 completo, Keehnen 2019) y falló con 'maxContentLength size of 10485760 exceeded' en los ítems de la tesis de Valcárcel Rojas y en el 3494384. La ficha del proyecto de El Cabo solo se leyó con WebFetch (resumen).",
+  "Cierres de acceso: Taylor & Francis 403 (Cook 1993, Weston 2025), OUP/Cloudflare 403 (Rothschild 2000), MIT Press 403 y MUSE 'Verification required' (Henige 1999), Springer sin acceso a PDF (Drusini 1987, Danubio 1987, Coppa 1995: solo resúmenes), biblio.ub.uni-heidelberg.de con Anubis, Cambridge frontmatter sin respuesta; no se intentó sortear ningún reto.",
+  "Tablas desalineadas en PDF: el cuadro de la p. 56 de Guerra 1986 y la tabla 12 de Laffoon 2012; el primero se reconstruyó con los porcentajes (cada porcentaje por 3.770.000 reproduce la población) y la segunda no se usa.",
+  "Los recuentos de Supplementary Data 1 y 3 de Fernandes 2021 (140 individuos de La Española; 45 fechas, 29 dominicanas; medias isotópicas; dos rangos calibrados posteriores a 1492) son cálculos propios de esta ronda sobre las hojas descargadas de media.springernature.com.",
+  "El sitio dnagenics.com atribuye a Juan Dolio ADN antiguo fechado 1200-1650 CE (n=8) sin citar publicación; es divulgación sin trazabilidad y no se usó. Las fechas verificadas (SD3 de Fernandes) son otras.",
+  "La verificación de citas textuales se hizo por comparación sin espacios, guiones ni signos de página contra el texto extraído; los extractos de datos tabulares o de hojas de cálculo y el del fragmento de Henige no son citas continuas y se marcan como tales.",
+  "El registro marca F-2094 como 'localizada-bloqueada' (Leiden/OAPEN); se reconfirmó la copia abierta de Sidestone (descargada-y-leida), como ya hacía M02.md.",
+  "Los PDF grandes (Communities in Contact, 25 MB; Fernandes SI, 11 MB; Kulstad, 6 MB; Guerra, Crosby/Jones, Laffoon) se descargaron al scratchpad, no al repositorio."
+ ],
+ "fuentes": [
+  {
+   "titulo": "La epidemia americana de influenza en 1493 (Revista de Indias 45(176): 325-347)",
+   "autor": "Guerra, Francisco",
+   "anio": "1985",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/1320/1604/2027",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo arbitrado y abierto (CC BY 4.0) de un historiador de la medicina, pero el diagnóstico de influenza suina es una inferencia clínica retrospectiva sobre dos cartas de enero de 1494 que describen enfermos españoles (no indios) y que Las Casas atribuye a otras causas; Cook (1998) la juzga solo plausible.",
+   "proveniencia": "Francisco Guerra (Universidad de Alcalá de Henares), médico e historiador de la medicina, publica en 1985 en la Revista de Indias (CSIC, Madrid) la primera exposición larga de su tesis: la mortandad indígena de las Antillas en el primer cuarto de siglo posterior a 1492 se debió a una pandemia de influenza suina iniciada en La Isabela el 9-XII-1493. No estuvo en los hechos; trabaja sobre Colón, Álvarez Chanca, Pedro Mártir, Oviedo, Las Casas, Hernando Colón y Herrera, y sobre una tabla demográfica que toma de Pérez de Tudela (introducción a Las Casas, 1957). Escribe para refutar la explicación por la viruela y, con ella, la lectura lascasiana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 325 (párrafo inicial)",
+     "cita_original": "Por lo general se ha culpado de ello a la viruela, olvidándose que esta enfermedad no fue introducida en la isla de Santo Domingo por esclavos negros hasta 1518, ya que tuvo que ser importada mano de obra africana desde 1510 para reemplazar a los indígenas antillanos, que habían sucumbido en su mayor parte",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "pp. 325-326 (tesis)",
+     "cita_original": "permiten afirmar que la pandemia aparecida en la isla de Santo Domingo en 1493, principal responsable de la desaparición de los indígenas americanos en el cuarto de siglo posterior al Descubrimiento, fue la influenza suina.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 328-329 (Guerra reproduce la carta de Diego Álvarez Chanca al cabildo de Sevilla, enero de 1494, en Navarrete 1825)",
+     "cita_original": "la gente ha adolecido en cuatro o cinco días el tercio della, creo la mayor causa dello ha seído el trabajo e mala pasada del camino, allende de la diversidad de la tierra",
+     "traduccion": "El propio Chanca, médico de la flota, atribuye la mayor parte de la enfermedad de los españoles al trabajo y a la mala travesía y a la diversidad de la tierra; el diagnóstico de influenza es de Guerra, no de Chanca.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 331 (Guerra cita a Las Casas, Memorial de Remedios, 1516, ed. 1958, p. 12)",
+     "cita_original": "de manera que no les bastó haber despoblado una tan grande isla y tan abundosa de gente, donde se contaron mal contados, un cuento y cient mil ánimas",
+     "traduccion": "'Un cuento' = un millón: 1.100.000 almas. Coincide con los 1.100.000 de la tabla de Guerra (p. 341), aunque Guerra no declara que sea su base; es una cifra de abogacía de 1516, sin método declarado, no un censo.",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 331 (Guerra cita a Las Casas, Memorial de Remedios, 1518, ed. 1958, p. 33)",
+     "cita_original": "de un cuento y cient mill animas que había en la Isla Española no han dejado los cristianos sino ocho o nueve mill, que todos los han muerto",
+     "traduccion": "Cifra de Las Casas para 1518 (8.000-9.000), anterior a la viruela de diciembre de 1518; Las Casas atribuye la muerte a los cristianos, no a una epidemia.",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "pp. 332-333 (Guerra reproduce a Las Casas, Historia de las Indias, lib. I, cap. LXXXVIII)",
+     "cita_original": "Mas como la gente venía fatigada de tan largo viaje, no acostumbrado, de la mar, y luego, mayormente la trabajadora y oficiales mecánicos, fueron puestos en los grandes trabajos corporales de hacer las obras y edificios",
+     "traduccion": "Pasaje que Guerra usa como prueba de la epidemia; en el texto de Las Casas las causas que nombra son el viaje, el trabajo, la ración y el cambio de aires (ver el extracto de control sobre F-0006).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 341 (tabla; Guerra la atribuye a Pérez de Tudela en la introducción a Las Casas, 1957, y a su recensión de 1983)",
+     "cita_original": "Isla de Santo Domingo, población indígena: 1493 = 1.100.000; 1506 = 350.000; 1508 = 60.000; 1510 = 16.000; 1514 = 14.000; 1517 = 10.000",
+     "traduccion": "Serie de Guerra (valores literales de la tabla). Difiere de la serie 60.000 / 33.523 / 26.334 / 18.000 de Cook 2003 (F-1587) y de Livi-Bacci; no declara método ni fuente primaria para 1506, 1510, 1514 ni 1517.",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 345 (Conclusiones)",
+     "cita_original": "para entonces ya había pasado su población de 1.100.00 en 1492 a apenas 10.000 en 1517. Es decir, en un cuarto de siglo había prácticamente desaparecido la población prehispánica de aquella isla y las Antillas.",
+     "traduccion": "El original imprime '1.100.00' (errata por 1.100.000).",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 345 (Conclusiones)",
+     "cita_original": "puede afirmarse que la gran mortalidad de los indios, y previamente de los españoles, se debió a una epidemia de influenza suina o gripe del cerdo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 346 (Conclusiones)",
+     "cita_original": "previamente el Almirante había avituallado la flota, del 5 al 7 de octubre de 1493, en La Gomera, Canarias, donde embarcó ocho puercas, que al llegar a tierra el 8 de diciembre entraron en contacto con los expedicionarios",
+     "traduccion": "El hecho de las ocho puercas está en Las Casas (extracto de control); que estuvieran infectadas por un virus y lo transmitieran es inferencia de Guerra.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-2195",
+   "notas": "Hecho: Colón (memorial del 30-I-1494) y Chanca (carta de enero de 1494) describen una enfermedad general de los españoles en La Isabela desde diciembre de 1493 (Chanca: un tercio enfermo en cuatro o cinco días). Interpretación de Guerra: influenza suina, trasmitida por ocho cerdas embarcadas en La Gomera, y principal causa de la desaparición de los indios. Lo que las dos cartas no dicen: que muriera ningún indio ni que hubiera cerdas enfermas. Significado: tesis exculpatoria frente a la lectura lascasiana (ver Guerra 1986, F-2085). Cifra de contacto de Guerra: 1.100.000 (1493), que coincide con la de Las Casas de 1516 ('un cuento y cient mil', citada por Guerra en p. 331) y que Guerra atribuye a la tabla de Pérez de Tudela; es cifra sin método declarado. Cook 1998 (extracto en F-0227) llama 'plausible' a la hipótesis pero no exclusiva y añade tifus y disentería; el registro (F-2195) anota que Livi-Bacci la tilda de especulación [POR VERIFICAR contra el texto de F-0228, donde M02.md solo documenta el 'far fetched' dirigido a la viruela de 1493 de Cook]. Bueno Jiménez 2024 la resume de segunda mano. Tabla de 1517 (10.000) frente a Moya Pons (11.000) y Livi-Bacci ('algunos miles'): ver F-0228. [POR VERIFICAR] la introducción de Pérez de Tudela a la edición de 1957 de Las Casas, donde Guerra dice haber tomado la serie."
+  },
+  {
+   "titulo": "El efecto demográfico de las epidemias tras el descubrimiento de América (Revista de Indias 46(177): 41-58)",
+   "autor": "Guerra, Francisco",
+   "anio": "1986",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/1335/1590/2013",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo arbitrado y abierto, pero es un ensayo de síntesis con tesis explícita contra Las Casas, con cifras que no concuerdan con las de su propio artículo de 1985 y sin método de estimación propio.",
+   "proveniencia": "Francisco Guerra (Alcalá de Henares) amplía en 1986 su tesis de 1985 a todo el continente: las epidemias, y no los malos tratos, explican la despoblación americana. Escribe 'con una perspectiva de cinco siglos' (p. 58) y contra la lectura de Las Casas que sostiene la 'verdadera causa' de la despoblación. Sin experiencia directa; sus cifras de población de La Española las toma de Cook y Borah (1971), según dice en p. 55-56.",
+   "extractos": [
+    {
+     "ubicacion": "p. 41 (Introducción)",
+     "cita_original": "No se ha escrito libro mejor intencionado que éste de Las Casas ni hay otro que haya tenido efectos más nefastos sobre la Historia de España, y a él se debe en gran medida que hayan tenido que transcurrir cinco siglos para llegar a conocer la verdadera causa de la despoblación americana.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "pp. 41-42",
+     "cita_original": "de su tesis puede aceptarse que algunos indígenas, bastantes, murieran por las causas que aduce. Pero no la gran mayoría, pues la práctica del análisis histórico demuestra que las mencionadas por Las Casas nunca se reflejan en cifras estadísticamente significativas, ya que los cambios demográficos importantes son siempre consecuencia de las epidemias.",
+     "traduccion": "Afirmación general, sin cifras ni método estadístico en el artículo.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 52",
+     "cita_original": "El proceso de eliminación deja a la gripe como responsable de la primera epidemia en la isla Española, y la descripción de esta enfermedad de Colón por el doctor Chanca y Las Casas parecen confirmarlo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 52",
+     "cita_original": "se describió correctamente cuando fue introducida, por primera vez en América, por esclavos negros traídos de contrabando directamente desde Africa por tratantes portugueses en 1517.",
+     "traduccion": "Sobre la viruela de 1518. Las Casas dice otra cosa: 'alguna persona trujo de Castilla' (extracto de control en F-0006).",
+     "afirmaciones": [
+      "A-030",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 53",
+     "cita_original": "diez años después del Descubrimiento habían muerto de gripe más del 95 por 100 de los indios y la misma proporción de españoles. En 1496 murió una tercera parte de los indígenas en la isla Española y para 1502 de los 2.000 españoles sólo quedaban unos 300.",
+     "traduccion": "Cifras sin fuente en el pasaje; '95 % en diez años' no concuerda con la tabla de 1985 (350.000 de 1.100.000 en 1506) ni con 'una tercera parte en 1496'.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 53",
+     "cita_original": "Lo que no mató la gripe o la fiebre amarilla desde 1492 a 1517 lo mató la viruela en 1518, de manera que un siglo después del Descubrimiento, donde hubo casi cuatro millones, no quedaban cien indios.",
+     "traduccion": "'Casi cuatro millones' es la cifra de contacto del cuadro de la p. 56 (3.770.000), no los 1.100.000 de su artículo de 1985.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 55",
+     "cita_original": "Las Casas afirmó en 1552 que en 1492 existían en la isla Española o Santo Domingo 3.000.000 de indios; que en 1512, veinte años después del Descubrimiento, habían quedado reducidos a 20.000 y, para 1552, sesenta años después, a tan sólo 200 indios",
+     "traduccion": "Guerra cita la Brevísima (1552). [POR VERIFICAR] la cifra de 20.000 en 1512 contra el texto de la Brevísima.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 55",
+     "cita_original": "los supuestos de Rosenblat parecen ser conservadores, pues para 1492 concedía a la isla Española unos 100.000 habitantes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 56 (cuadro 'Población aborigen de la isla Española'; Guerra dice seguir a Cook y Borah)",
+     "cita_original": "3.770.000 (100 %); 1508: 92.000 (2,45 %); 1509: 61.600 (1,63 %); 1510: 65.800 (1,75 %); 1512: 26.700 (0,71 %); 1514: 27.800 (0,73 %); 1518: 15.600 (0,41 %); 1540: 250 (0,007 %); 1570: 125 (0,003 %)",
+     "traduccion": "Valores literales del cuadro. El PDF desalinea las columnas; la correspondencia año-población se reconstruyó con los porcentajes (cada porcentaje multiplicado por 3.770.000 reproduce la población). La fila inicial se rotula 1492 pero la columna '+' cuenta años desde 1496 (1508 = +12); Jones 2003 (F nuevo) da la misma cifra para 1496.",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 58 (Corolario)",
+     "cita_original": "si prueba una sola cosa es que Las Casas fue injusto con los descubridores. El indígena americano fue victimado por la enfermedad, no por el español.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2085",
+   "notas": "Posición extrema del polo epidemiológico: atribuye casi toda la mortalidad a la gripe (1493-1517), la fiebre amarilla y la viruela (1518), y niega peso estadístico a los malos tratos. Incoherencias internas verificables: (a) cifra de contacto 1.100.000 (1985) frente a 3.770.000 (1986); (b) '95 % en diez años' frente a 'una tercera parte en 1496' y a la tabla de 1985; (c) viruela traída por negros de contrabando portugueses en 1517 (Guerra) frente a 'alguna persona trujo de Castilla' (Las Casas, lib. III) y la carta de los jerónimos del 10-I-1519 (ya recogida en M02.md) fecha el brote en diciembre de 1518 sin decir quién la trajo. Hecho: la tabla de Cook-Borah que reproduce existe en Cook 1998 pp. 22-23 según Jones 2003; interpretación: que ninguna causa distinta de la epidemia tenga peso estadístico. Significado: 'Las Casas fue injusto con los descubridores' es una atribución de significado que el propio Guerra declara. No usa el término genocidio, pero su corolario es el reverso exacto del uso del término por la lectura haitiana (A-038). [POR VERIFICAR] el cuadro de la p. 56 contra el original impreso (columnas desalineadas en el PDF)."
+  },
+  {
+   "titulo": "Historia de las Indias (ed. Madrid, 1875-76): pasajes de control sobre la enfermedad de La Isabela (1493-94), la mortandad de 1494-96 y la viruela de 1518-19 (t. 2, l. 233-236, 748-762, 3195-3204; t. 5, l. 812-841 y 3164-3166)",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "c. 1527-1561 (ed. 1875-76)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-2-de-5_50351/master/50351-0.txt",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-5-de-5_53131/master/53131-0.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cronista que llegó a La Española en 1502, hijo y sobrino de participantes en el segundo viaje, pero escribe como abogado de los indios y redacta décadas después; sirve aquí como control de lo que Guerra dice que Las Casas dice.",
+   "proveniencia": "Bartolomé de las Casas redactó la Historia entre c. 1527 y 1561 y la dejó inédita 40 años; la edición de 1875-76 (Fuensanta del Valle y Sancho Rayón) es la que reproduce la copia local. Aquí se usa solo para cotejar pasajes que Guerra (F-2195, F-2085) cita o glosa, por número de línea del archivo local de este repositorio (02-fuentes/textos/gutenberg/).",
+   "extractos": [
+    {
+     "ubicacion": "lascasas-historia-indias-t2.txt, l. 233-236 (lib. I, cap. LXXXIII)",
+     "cita_original": "compraron ocho puercas á 70 maravedís la pieza. Destas ocho puercas se han multiplicado todos los puercos que, hasta hoy, ha habido y hay en todas estas Indias",
+     "traduccion": "Confirma el dato de las ocho puercas de La Gomera (5-7 de octubre de 1493). Las Casas no dice que estuvieran enfermas ni que contagiaran a nadie.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t2.txt, l. 748-762 (lib. I, cap. LXXXVIII; el mismo pasaje que Guerra 1985 cita en pp. 332-333)",
+     "cita_original": "la tierra, de necesidad, por la distancia tan grande que hay de España hasta aquí, é mudanza de los aires y diferentísimas regiones, los habia de probar [...] á lo cual se llegó la tasa de los bastimentos [...] comenzó la gente, tan de golpe, á caer enferma",
+     "traduccion": "Las causas que Las Casas da para la enfermedad de los españoles en La Isabela son el viaje, el trabajo de construcción, el cambio de aires, las raciones y la tristeza; no menciona ningún contagio animal ni epidemia entre los indios en este pasaje.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t2.txt, l. 3195-3204 (lib. I, cap. CVI; Guerra 1985 cita el comienzo en p. 333)",
+     "cita_original": "con las matanzas de las guerras, y por las hambres y enfermedades que procedieron por causa de aquellas, y de las fatigas y opresiones que despues sucedieron [...] no quedaron de las multitudes que en esta isla, de gentes, habia, desde el año de 94 hasta el de 6, segun se creia, la tercera parte de todas ellas.",
+     "traduccion": "Para 1494-1496 Las Casas atribuye la mortandad a las guerras, el hambre y las enfermedades derivadas de la persecución y la fuga, y a las fatigas y opresiones posteriores. Ambigüedad sintáctica: 'no quedaron [...] la tercera parte' admite 'quedó menos de un tercio' (lectura natural en este contexto retórico) o 'no murió ni un tercio'; Guerra 1986, p. 53, lo lee como 'murió una tercera parte'. [POR VERIFICAR contra una edición crítica.]",
+     "afirmaciones": [
+      "A-030",
+      "A-031",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t5.txt, l. 812-820 (lib. III, cap. CXXVIII, según el índice del editor en l. 131)",
+     "cita_original": "vino una plaga terrible que cuasi todos del todo perecieron, sin quedar sino muy poquitos con vida; ésta fué las viruelas, que dieron en los tristes indios, que alguna persona trujo de Castilla",
+     "traduccion": "Las Casas fecha la viruela en 1518-19 y dice que la trajo 'alguna persona' de Castilla: no menciona esclavos africanos ni contrabando portugués, que es lo que sostiene Guerra 1986, p. 52.",
+     "afirmaciones": [
+      "A-030",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t5.txt, l. 826-829 (mismo capítulo)",
+     "cita_original": "allegábase á ésto la flaqueza y poca sustancia que siempre por la falta de comer, y desnudez, y dormir en el suelo, y sobra de trabajos tenian, y el poco y ningun cuidado que de su salud y conservacion siempre tuvieron los que dellos se servian",
+     "traduccion": "Lectura multicausal de Las Casas para 1518-19: viruela sobre cuerpos ya debilitados por hambre, desnudez, trabajo y descuido de los amos. Es la misma estructura causal que defiende Livi-Bacci 2003 (F-0228).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t5.txt, l. 835-837 (mismo capítulo)",
+     "cita_original": "no creo que quedaron vivos ni se escaparon desta miseria 1.000 ánimas, de la inmensidad de gentes que en esta isla habia",
+     "traduccion": "Cifra de Las Casas (estimación personal, 'no creo') para los supervivientes tras la viruela: menos de 1.000.",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "lascasas-historia-indias-t5.txt, l. 3164-3166 (Las Casas transcribe a Oviedo)",
+     "cita_original": "á otros se les recrecieron tales dolencias, en especial de unas viruelas pestilenciales que vinieron generalmente en toda la isla, que en breve tiempo los indios se acabaron",
+     "traduccion": "Versión de Oviedo citada por Las Casas, que Las Casas discute: para Oviedo la pestilencia de viruelas y los suicidios de los propios indios explican su fin.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-035",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0006",
+   "notas": "Extractos de control para la tesis de la influenza (Guerra). Hecho: Las Casas registra las ocho puercas de La Gomera, la enfermedad general de los españoles de La Isabela en diciembre de 1493-marzo de 1494, la mortandad indígena de 1494-96 y la viruela de 1518-19. Interpretación de Las Casas: causas sociales y de trabajo para 1493-96; viruela más debilidad para 1518-19. Que Guerra lea el mismo pasaje de La Isabela como influenza suina es una reinterpretación clínica retrospectiva que el texto de Las Casas no apoya (ni lo contradice por completo: describe 'calenturas terribles' y gran morbilidad). Sesgo: Las Casas busca mostrar culpa de los encomenderos. Las citas son de la copia local (transcripción limpia, no OCR crudo)."
+  },
+  {
+   "titulo": "Born to Die: Disease and New World Conquest, 1492-1650 (Cambridge University Press, 1998), extracto abreviado de las pp. 16-38 en la plataforma Oxford Learning Link (Backman, Cultures of the West, 'History in Practice')",
+   "autor": "Cook, Noble David",
+   "anio": "1998",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://learninglink.oup.com/access/content/history-in-practice-western-civ/backman3e-student-resources-volume-1-chapter-14-section-3-scholarly-sources-2",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de Cambridge del principal historiador de la enfermedad americana; lo leído es un extracto de manual con elisiones del editor, así que las frases son fiables pero su contexto y su página exacta no.",
+   "proveniencia": "Noble David Cook (Florida International University) publicó Born to Die en 1998; el extracto (pp. 16-38 de la obra) lo selecciona Oxford University Press para estudiantes de historia occidental. No hay, por tanto, texto del capítulo 1 completo; sí las frases en que Cook toma posición sobre Guerra, tifus, disentería y la causa principal.",
+   "extractos": [
+    {
+     "ubicacion": "extracto OUP, pp. 16-38 de la obra (página exacta de cada frase no consta)",
+     "cita_original": "Francisco Guerra's assertion that the Spaniards unwittingly carried and introduced swine influenza seems plausible but it is also possible that other diseases contributed to elevated mortality. Typhus, often associated with troop movements and warfare, was prevalent in Andalusia these years.",
+     "traduccion": "La afirmación de Francisco Guerra de que los españoles llevaron sin saberlo la influenza porcina parece plausible, pero es posible que otras enfermedades contribuyeran a la mortalidad elevada. El tifus, asociado a movimientos de tropas y guerra, era prevalente en Andalucía esos años.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "extracto OUP, pp. 16-38 de la obra",
+     "cita_original": "There is no simple answer for the demographic collapse, because what happened after 1492 is a complex historical process and the factors are multifaceted. [...] Yet the critical factor in the European conquest and collapse of New World civilization was disease.",
+     "traduccion": "No hay una respuesta simple al colapso demográfico, porque lo ocurrido después de 1492 es un proceso complejo y los factores son múltiples [...] Con todo, el factor crítico de la conquista europea y del colapso de la civilización del Nuevo Mundo fue la enfermedad.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "extracto OUP, pp. 16-38 de la obra",
+     "cita_original": "Native American mortality is difficult to assess, because the Spanish took no accurate count and had no grasp of the true size of the island's population in 1494.",
+     "traduccion": "La mortalidad indígena es difícil de evaluar porque los españoles no hicieron un recuento exacto y no sabían el tamaño real de la población de la isla en 1494.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "extracto OUP, pp. 16-38 de la obra",
+     "cita_original": "The sickness or sicknesses that afflicted both Spaniard and native American in late 1493 broke forever the ecological isolation of the two continents.",
+     "traduccion": "La enfermedad o enfermedades que afectaron a españoles e indígenas a fines de 1493 rompieron para siempre el aislamiento ecológico de los dos continentes.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-0227",
+   "notas": "Resuelve solo en parte F-0227 (el libro sigue sin leerse; el archivo de archive.org borntodiedisease0000cook devuelve 401). Hecho: Cook admite que la mortalidad indígena de 1494 no es medible. Interpretación de Cook: la enfermedad fue el factor crítico, con influenza porcina plausible pero también tifus y disentería bacilar. Esto matiza a Guerra (que excluye todo salvo la influenza) y coincide con lo que Bueno Jiménez 2024 resume de Cook 2005 pp. 36 y 46. Sesgo: historiador de la enfermedad. Cifra propia de Cook (500.000-750.000) en F-1587; Jones 2003 (F nuevo) atribuye a Cook 1998, pp. 22-23, una serie de 3.770.000 (1496) a 125 (1570) que parece ser la de Cook y Borah y no la propia de Cook [POR VERIFICAR contra el libro]."
+  },
+  {
+   "titulo": "Disease and the depopulation of Hispaniola, 1492-1518 (Colonial Latin American Review 2(1-2): 213-245)",
+   "autor": "Cook, Noble David",
+   "anio": "1993",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://doi.org/10.1080/10609169308569813",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.1080/10609169308569813",
+    "https://api.unpaywall.org/v2/10.1080/10609169308569813",
+    "https://doi.org/10.4324/9781315261522-2"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo arbitrado del especialista en historia de la enfermedad americana; solo se verificaron los metadatos (Crossref y Unpaywall: sin copia abierta), no el texto.",
+   "proveniencia": "Noble David Cook (Florida International University) publicó el artículo en 1993 en Colonial Latin American Review; es la exposición larga de su cronología de epidemias anteriores a 1518 en La Española. Reeditado en Biological Consequences of European Expansion, 1450-1800 (Routledge, reedición de 2022, pp. 37-69, DOI 10.4324/9781315261522-2).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Sin texto. Unpaywall: oa_status 'closed', sin ubicaciones abiertas; Semantic Scholar: acceso 'CLOSED'; Taylor & Francis devuelve 403 a curl. Su contenido llega solo de segunda mano: Stone 2014, n. 220 (M02-N59) lo resume como varias oleadas de gripe y posiblemente tifus o sarampión en 1493, 1498, 1502 y 1507, y Cook 2003 (F-1587, p. 52) dice que Henige demostró falso el supuesto brote de viruela de principios del siglo XVI; la cifra de contacto de Cook (500.000-750.000) consta en F-1587, cuadro 1.1. Bueno Jiménez 2024 resume, de Cook 2005 (La conquista biológica, Siglo XXI, pp. 36 y 46), la viruela desde Cádiz y el tifus. La versión rival de A-030 sigue, pues, sin primera mano en su forma de 1993. Vía de acceso pendiente: copia en Kiple y Beck (1997) o la reedición Routledge 2022."
+  },
+  {
+   "titulo": "Virgin Soil Epidemics as a Factor in the Aboriginal Depopulation in America (William and Mary Quarterly, 3.ª serie, 33(2): 289-299)",
+   "autor": "Crosby, Alfred W.",
+   "anio": "1976",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://doi.org/10.2307/1922166",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.2307/1922166",
+    "https://api.semanticscholar.org/graph/v1/paper/DOI:10.2307/1922166"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo fundacional de la tesis del 'suelo virgen' en una revista arbitrada; solo se verificaron metadatos (Crossref, Semantic Scholar: acceso cerrado), y su contenido se conoce por la crítica de Jones 2003.",
+   "proveniencia": "Alfred W. Crosby (Universidad de Texas en Austin, historiador del intercambio colombino) publicó el artículo en 1976; formula la categoría 'virgin soil epidemics' que luego usan Guerra, Cook y buena parte de la literatura. No es un estudio de La Española en particular [POR VERIFICAR qué dice sobre las Antillas].",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Sin texto. Lo que se sabe de su contenido proviene de Jones 2003 (F nuevo), que cita su definición (p. 289) y su énfasis en factores ambientales (p. 292). El PDF alojado en courses.edx.org con el nombre 'VirginSoilWMQ' no es Crosby 1976 sino Jones 2003. Término cargado: 'virgin soil' (suelo virgen) implica una vulnerabilidad inmunológica global que Jones muestra que Crosby matizó."
+  },
+  {
+   "titulo": "The Earliest American Epidemic: The Influenza of 1493 (Social Science History 12(3): 305-325)",
+   "autor": "Guerra, Francisco",
+   "anio": "1988",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "https://www.cambridge.org/core/journals/social-science-history/article/abs/earliest-american-epidemic-the-influenza-of-1493/D986CE8979677FC0AB0C746619C5FCE4",
+   "urls_alternativas": [
+    "https://doi.org/10.2307/1171451"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Versión inglesa en revista arbitrada de la tesis de Guerra de 1985 (F-2195); solo se vio la ficha con resumen, y la herramienta de lectura devolvió un resumen parafraseado, no el texto literal.",
+   "proveniencia": "Francisco Guerra (Universidad de Alcalá) lleva en 1988 su tesis de la influenza de 1493 al público anglófono de la historia social. Es la versión que cita Bueno Jiménez 2024.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Sin extractos literales. La ficha de Cambridge Core (página 'abs') confirma título, revista, volumen, páginas y DOI 10.2307/1171451, y que el resumen sostiene la tesis de 1985: la viruela no llegó a Santo Domingo hasta 1518 y la epidemia de 1493 fue influenza suina. Texto completo cerrado (JSTOR/Cambridge)."
+  },
+  {
+   "titulo": "Virgin Soils Revisited (William and Mary Quarterly, 3.ª serie, 60(4): 703-742)",
+   "autor": "Jones, David S.",
+   "anio": "2003",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://courses.edx.org/asset-v1:MITx+21H.899x+3T2020+type@asset+block@VirginSoilWMQ.pdf",
+   "urls_alternativas": [
+    "http://www.jstor.org/stable/3491697"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Revisión crítica arbitrada, escrita por un médico historiador de Harvard, que cita las páginas de Crosby 1976 y de Cook 1998 sobre las que discute; la copia abierta es un escaneo de JSTOR alojado como material de un curso de MIT en edX, con licencia de reproducción no verificada.",
+   "proveniencia": "David S. Jones (McLean Hospital y Massachusetts General Hospital, Harvard) publica en 2003 en el William and Mary Quarterly un repaso de la teoría de los suelos vírgenes: separa la hipótesis genética de la inmunológica y de la social (desnutrición, agotamiento, caos colonial). Es la fuente abierta que permite leer a Crosby 1976 a través de una cita y evaluar el peso de las explicaciones sociales frente a las epidemiológicas. El PDF abierto está rotulado 'VirginSoilWMQ' en una asignatura del MIT.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 703-704 (cita a Crosby 1976, p. 289, n. 2)",
+     "cita_original": "Virgin soil epidemics are those in which the populations at risk have had no previous contact with the diseases that strike them and are therefore immunologically almost defenseless.",
+     "traduccion": "Definición de Crosby 1976 tal como la cita Jones: epidemias de suelo virgen son aquellas en que las poblaciones en riesgo no han tenido contacto previo con las enfermedades que las golpean y están, por tanto, inmunológicamente casi indefensas.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 704 (n. 3 remite a Crosby 1976, p. 292)",
+     "cita_original": "Crosby actually downplayed the \"genetic weakness hypothesis\" and instead emphasized the many environmental factors that might have contributed to American Indian susceptibility to Old World diseases, including lack of childhood exposure, malnutrition, and the social chaos generated by European colonization.",
+     "traduccion": "Crosby, en realidad, restó peso a la hipótesis de la debilidad genética y subrayó los factores ambientales: falta de exposición infantil, desnutrición y el caos social de la colonización.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 720 (n. 49 remite a Cook, Born to Die, pp. 22-23, y a Newson 1985, p. 46)",
+     "cita_original": "The Arawak of Santo Domingo bore the first assault, with their population falling from as many as 3,770,000 in 1496 to 125 in 1570.",
+     "traduccion": "Serie de 3.770.000 (1496) a 125 (1570), la misma que reproduce Guerra 1986 en su cuadro de la p. 56; Jones no la discute y la atribuye a Cook 1998.",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 721",
+     "cita_original": "Though catastrophic, 90 or even 95 percent mortality could have resulted from a subtle imbalance in births and deaths that led to a 2-3 percent annual decline.",
+     "traduccion": "Una mortalidad de 90 o 95 % pudo resultar de un desequilibrio sutil entre nacimientos y muertes con un descenso anual de 2-3 % (la nota 55 calcula 2,3 % anual para perder el 90 % en cien años).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 722",
+     "cita_original": "Though epidemics did bring rapid decimation to many groups, they did not monopolize the mortality. Europeans and Americans killed countless American Indians through war, starvation, neglect, and even hunting.",
+     "traduccion": "Aunque las epidemias trajeron una rápida diezma, no monopolizaron la mortalidad: europeos y americanos mataron a incontables indios por guerra, hambre, abandono e incluso caza.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "p. 722",
+     "cita_original": "However, with account after account describing appalling epidemics from Quebec to Peru, it is impossible not to assign a dominant role to infectious diseases.",
+     "traduccion": "Con todo, ante tantos relatos de epidemias espantosas de Quebec a Perú, es imposible no asignar un papel dominante a las enfermedades infecciosas.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: las series de población que Jones reproduce (3.770.000 en 1496 a 125 en 1570) son de Cook y Borah, no de Jones; él cita a Cook 1998 y a Newson 1985. Interpretación de Jones: las epidemias tuvieron un papel dominante pero no exclusivo, y 'sin inmunidad' mezcla tres mecanismos distintos (genes, anticuerpos, estrés); en 'Some commentators have accused Columbus of introducing four centuries of genocide' (p. 722, n. 58) Jones recoge, sin adoptarlo, el uso del término genocidio (A-038). Las comillas y cifras se verificaron contra un escaneo con OCR defectuoso (se comparó sin espacios ni dígitos). Diferencia de cifras de contacto en lo que se atribuye a 'Cook': 3.770.000 (Jones, Guerra 1986) frente a 500.000-750.000 (Cook 1993/2003, F-1587): aparentemente Jones y Guerra reproducen una cifra anterior de Cook y Borah (1971) [POR VERIFICAR contra Cook 1998, pp. 22-23, y Cook y Borah 1971, vol. 1, cerrados]."
+  },
+  {
+   "titulo": "Columbus and Pandemic Contagion: Historical Antecedents to COVID-19 (Royal Society of Canada, Publication #51, 1-XII-2020; versión previa en Queen's Quarterly 127(3), otoño de 2020)",
+   "autor": "Lovell, W. George",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://rsc-src.ca/sites/default/files/images/Publication%20%2351%20-%20EN%20-%20Columbus%20and%20Pandemic%20Contagion-%20Historical%20Antecedents%20to%20COVID-19_0.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de síntesis de un geógrafo histórico (FRSC) coeditor con Cook de 'Secret Judgments of God', publicado como nota de política para la Real Sociedad de Canadá; refleja la versión 'epidemia primero' con aparato bibliográfico pero sin pasajes de fuente ni cifras desagregadas.",
+   "proveniencia": "W. George Lovell (Queen's University y Universidad Pablo de Olavide, Sevilla), coeditor con N. D. Cook de Secret Judgments of God (2001), escribe en plena pandemia de COVID-19 una comparación divulgativa de los contagios colombinos; la sección sobre La Española reproduce el estado actual de la versión epidemiológica sin discusión de la crítica de Livi-Bacci.",
+   "extractos": [
+    {
+     "ubicacion": "p. 2 (sección 'Hispaniola')",
+     "cita_original": "The range of contact estimates for Hispaniola is staggering, from a mere 60,000 to a massive 8 million, with myriad tallies in between.",
+     "traduccion": "El rango de estimaciones de contacto para La Española es asombroso: de 60.000 a 8 millones.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 2 (sección 'Hispaniola', 'Smallpox')",
+     "cita_original": "Scrutiny by historians Juan Gil and Consuelo Varela (1997) of a hitherto unknown report of Columbus establishes the presence of \"viruelas,\" the Spanish word for smallpox, which they date as having arrived in Hispaniola in the wake of the admiral's second voyage of 1493.",
+     "traduccion": "El examen de Gil y Varela (1997) de un informe desconocido de Colón establece la presencia de 'viruelas', que fechan como llegada a La Española tras el segundo viaje de 1493.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 2 (sección 'Hispaniola')",
+     "cita_original": "by 1519, barely a quarter-century after Columbus came ashore, Hispaniola and its Antillean neighbours had been gutted to what geographer Carl O. Sauer (1996, 204) described as \"a sorry shell.\"",
+     "traduccion": "En 1519 La Española y sus vecinas antillanas habían quedado reducidas a lo que Sauer (1996, p. 204) llamó 'una triste cáscara'.",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: existe un documento colombino (Relación del segundo viaje) que habla de indios muertos 'de viruelas a la partida de Cádiz' (el pasaje exacto lo cita Cook 2003, F-1587, p. 57, y Bueno Jiménez 2024). Interpretación de Lovell, siguiendo a Gil y Varela y a Cook: esas 'viruelas' fecharían la llegada de la viruela a La Española en 1493; Cook mismo reconoce que 'a la partida' es ambiguo (F-1587) y Livi-Bacci califica la conclusión de 'far fetched' (F-0228), y la carta de los jerónimos del 10-I-1519 (ya recogida en M02.md) la sitúa en diciembre de 1518. Lovell no menciona la crítica ni la influenza de Guerra. Su título y marco (pandemia, 'virgin soil') son un significado añadido por el contexto de 2020."
+  },
+  {
+   "titulo": "La rebelión de Francisco Roldán en la isla de La Española, 1497-1499 (Ciencia y Sociedad 49(4): 43-70)",
+   "autor": "Bueno Jiménez, Alfredo",
+   "anio": "2024",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistas.intec.edu.do/index.php/ciso/article/view/3345/3881",
+   "urls_alternativas": [
+    "https://doi.org/10.22206/cys.2024.v49i4.3345"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "epub",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo arbitrado reciente (Ciencia y Sociedad, INTEC) que contrasta a Guerra y a Cook con las fuentes coetáneas, aunque su tema es la rebelión de Roldán y trata la epidemia de 1493 solo como antecedente.",
+   "proveniencia": "Alfredo Bueno Jiménez (Universidad Anáhuac México y UNAM) publica en octubre-diciembre de 2024 un estudio de la rebelión de Roldán (1497-1499); en la sección sobre La Isabela resume las dos interpretaciones de la enfermedad de 1493-94 (Guerra: influenza suina; Cook: viruela desde Cádiz y otras) con las referencias a Coma, Chanca, Colón, Las Casas y Hernando Colón.",
+   "extractos": [
+    {
+     "ubicacion": "sección sobre La Isabela (inicio del artículo; página exacta no consta en el EPUB; artículo pp. 43-70)",
+     "cita_original": "Según Francisco Guerra, gran parte de la tripulación estuvo afectada por la influenza suiza, también conocida como ‘gripe del cerdo’, enfermedad que fue introducida de manera involuntaria a través de ocho cerdas, que fueron embarcadas por el almirante en la isla de Gomera, entre el 5 y 7 de octubre de 1493.",
+     "traduccion": "El artículo escribe 'influenza suiza' (lapsus por 'suina'); cita Guerra 1985 y 1988.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "misma sección",
+     "cita_original": "Noble David Cook propone la hipótesis de que los miembros de la expedición ya estaban contagiados por viruela desde su partida de Cádiz.",
+     "traduccion": "Cita Cook 2005, p. 36 (edición española de Born to Die: La conquista biológica, Siglo XXI).",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "misma sección",
+     "cita_original": "Igualmente, Cook no descarta la posible introducción de otras enfermedades, como la disentería bacilar o el tifus.",
+     "traduccion": "Cita Cook 2005, p. 46.",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Aporta la comparación actual de las dos versiones rivales con referencias a primarias (Coma 1494, Chanca, Colón, Las Casas t. 2 p. 873, Hernando Colón p. 170) y a Cook 2005 (pp. 36, 46), lo que da páginas de la edición española de Born to Die. Hecho: Colón estuvo en cama al menos tres semanas; según Bueno, Chanca informa de que cinco de los intérpretes indígenas embarcados en Cádiz murieron en la travesía y solo dos sobrevivieron; interpretación: ambas diagnósticas son retrospectivas. No usa el término genocidio. No se pudo cotejar la numeración de páginas del EPUB."
+  },
+  {
+   "titulo": "Treating 'Trifles': the Indigenous adoption of European material goods in Early Colonial Hispaniola (1492-1550) (cap. 3 de C. L. Hofman y F. W. M. Keehnen, eds., The Early Americas: History and Culture, Leiden: Brill, 2019; DOI 10.1163/9789004273689_004)",
+   "autor": "Keehnen, Floris W. M.",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3721435/download",
+   "urls_alternativas": [
+    "https://hdl.handle.net/1887/3721434"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo arbitrado en acceso abierto (CC BY-NC-ND) de un arqueólogo de Leiden que sintetiza informes de excavación dominicanos; para los entierros de Juan Dolio depende de Ortega 2002 y Veloz Maggiolo 1980, que no se leyeron.",
+   "proveniencia": "Floris Keehnen (Universidad de Leiden, proyecto NEXUS1492) resume la evidencia arqueológica de la adopción indígena de bienes europeos en La Española entre 1492 y 1550; en el apartado 3.3 reúne lo publicado sobre el cementerio de Juan Dolio (excavado por Boyrie Moya, García Arévalo, Morbán Laucer, Ortega y Veloz Maggiolo entre 1950 y 1970). Escribe para un volumen que ve la continuidad y transformación indígena tras 1492.",
+   "extractos": [
+    {
+     "ubicacion": "§3.3 Juan Dolio, p. 69",
+     "cita_original": "Juan Dolio is located some 50 kilometers to the east of Santo Domingo and has an estimated indigenous occupation from ad 1000 until at least the second decade of the sixteenth century.",
+     "traduccion": "Juan Dolio, unos 50 km al este de Santo Domingo, tiene una ocupación indígena estimada desde el año 1000 d. C. hasta al menos la segunda década del siglo XVI.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "§3.3, p. 69",
+     "cita_original": "a strong focus on the approximately one hundred burials at the site’s cemetery areas [...] While some of the graves contained indigenous offerings, only one skeleton also held Spanish goods",
+     "traduccion": "Unos cien entierros en las áreas de cementerio; solo un esqueleto tenía además objetos españoles.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "§3.3, p. 70",
+     "cita_original": "Ten burials – also indigenous, based on their modified skulls – were found on a more secluded spot on the beach [...] Remarkably, all were interred in a Christian fashion, each in extended position and together placed in one straight line.",
+     "traduccion": "Diez entierros, también indígenas por sus cráneos modificados, hallados en un lugar apartado de la playa; todos enterrados a la manera cristiana, en posición extendida y alineados.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "§3.3, p. 70",
+     "cita_original": "The funerary pattern seems to indicate a collective burial, probably done by Spaniards [...] As the skeletons do not show any traces of violence, their death has been suggested the result of an epidemic outbreak.",
+     "traduccion": "El patrón funerario parece indicar un entierro colectivo, probablemente hecho por españoles; como los esqueletos no muestran huellas de violencia, se ha sugerido que murieron por un brote epidémico.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "§3.3, p. 70",
+     "cita_original": "Among these are two unique local manufactures of Spanish bacines or chamber pots, dated between 1514 and 1520",
+     "traduccion": "Dos fabricaciones locales de bacines españolas, fechadas entre 1514 y 1520 (según Veloz Maggiolo 1993, p. 171).",
+     "afirmaciones": [
+      "A-040"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Es el único pasaje localizado que relaciona un grupo de esqueletos indígenas de La Española del periodo de contacto con una causa de muerte (epidemia). Hecho: diez entierros extendidos, indígenas por deformación craneal, con objetos españoles, en Juan Dolio; Keehnen dice que 'no muestran huellas de violencia'. Interpretación: la hipótesis epidémica ('se ha sugerido') es de autores anteriores (cita Ortega 2002, p. 18, y Veloz Maggiolo 1980, pp. 165-166) y no se apoya, en lo que se ve, en paleopatología ni en fechas radiocarbónicas; un entierro colectivo sin violencia es compatible con una epidemia pero no la demuestra. Significado: ninguno que Keehnen formule sobre el colapso. Este pasaje corrige la 'ausencia' de bioarqueología de contacto anotada en A-040: existe una serie de contacto (Juan Dolio, 78-108 individuos), con estudios óseos de 1987 y 1995 (ver Drusini, Coppa) y de 2000 (Rothschild), pero ninguno visto hasta aquí mide la causa del colapso. [POR VERIFICAR] contra los informes primarios de Ortega (2002) y Veloz Maggiolo (1980); Veloz Maggiolo 1993 (F-1596) menciona 'Juandolio' en el djvu solo por cerámica y radiocarbono en las líneas revisadas (l. 5232-5239, 7245-7247, 9972) y no se hallaron en ellas los diez entierros."
+  },
+  {
+   "titulo": "A genetic history of the pre-contact Caribbean (Nature 590: 103-110): Supplementary Information (pp. 37-39, descripción de sitios dominicanos) y Supplementary Data 1 y 3 (hojas de cálculo con material esquelético, fechas 14C y isótopos de colágeno)",
+   "autor": "Fernandes, Daniel M.; Sirak, Kendra A.; et al.",
+   "anio": "2021",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7864882/",
+   "urls_alternativas": [
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-03053-2/MediaObjects/41586_2020_3053_MOESM1_ESM.pdf",
+    "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-020-03053-2/MediaObjects/41586_2020_3053_MOESM4_ESM.xlsx"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de Nature con datos suplementarios completos de un laboratorio de referencia (Reich, Harvard); las descripciones de sitios del SI son resúmenes de literatura arqueológica previa, que se cita, no hallazgos nuevos.",
+   "proveniencia": "Laboratorio de David Reich (Harvard) con Ron Pinhasi y arqueólogos del Caribe; el SI describe cada sitio muestreado con la bibliografía previa de excavación y osteología (Veloz Maggiolo, Luna Calderón, Coppa, Stokes). Hoy se leyó el SI (PDF de 11 MB) y se calcularon recuentos sobre las hojas Supplementary Data 1 (140 individuos de La Española cribados) y 3 (45 fechas radiocarbónicas con isótopos).",
+   "extractos": [
+    {
+     "ubicacion": "SI p. 39 (Juan Dolio)",
+     "cita_original": "Juan Dolio was occupied as late as European contact as evidenced by the abundance of Spanish and other European pottery sherds in upper levels and in some burials",
+     "traduccion": "Juan Dolio estuvo ocupado hasta el contacto europeo, como muestra la abundancia de tiestos españoles y europeos en niveles superiores y en algunos entierros.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "SI p. 39 (Juan Dolio)",
+     "cita_original": "Further analysis of the skeletal assemblage yielded an estimated minimum number of individuals of 78 persons, of which 31 were adult males, 29 were adult females, 18 were individuals of unknown sex, and 11 were juveniles",
+     "traduccion": "Cifras que el SI atribuye a Veloz Maggiolo 1972 y a Drusini et al. 1987. El SI añade: un estudio posterior (Coppa et al. 1995) identificó 108 individuos.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "SI p. 39 (Juan Dolio)",
+     "cita_original": "A large number of skeletal remains uncovered at the site during excavations in 1974 reportedly date predominantly to the late 15th century",
+     "traduccion": "Fechado, según el SI (que cita a Veloz Maggiolo 1972 y Drusini et al. 1987), 'predominantemente a fines del siglo XV'; el texto de esas obras no se leyó.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "SI p. 39 (Juan Dolio)",
+     "cita_original": "Coppa et al. (1995) found that living conditions improved from the early Taíno period (El Soco) to the period directly preceding European contact (Juan Dolio).",
+     "traduccion": "Resume el resultado de Coppa et al. 1995 (Human Evolution): las condiciones de vida mejoraron entre El Soco y Juan Dolio, anterior al contacto.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "SI p. 39 (Juan Dolio)",
+     "cita_original": "A study on syphilis showed that this population like the others of the Ceramic Age were endemically affected by this disease",
+     "traduccion": "Remite a Rothschild et al. 2000 (CID 31: 936-941).",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "SI p. 38 (Punta Macao)",
+     "cita_original": "some Spanish colonial ceramics (majolica) were found in the cemetery area of the site, perhaps indicating that the cemetery was still in use during the early contact period. The precise relationship between these ceramics and the burials is unclear",
+     "traduccion": "Cementerio de Punta Macao: 15 fosas con 26 individuos excavados en 2004; tres fechas 14C de 1240±40 a 790±60 BP sin calibrar. La mayólica sugiere uso en el contacto temprano, relación no precisada.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 3, fila I13198 (Juan Dolio, Dominican Republic, varón)",
+     "cita_original": "14C 415 ± 20 BP; calibrado 513-340 cal BP (1437-1610 CE, mediana 1460 CE); δ13C colágeno −18,0 ‰; δ15N 10,9 ‰",
+     "traduccion": "Dato de hoja de cálculo (OxCal 4.4, IntCal20; la hoja no declara el nivel de probabilidad del rango, normalmente 95,4 % [POR VERIFICAR]). El rango sobrepasa 1492; la mediana es anterior. Dieta: 70 % C3, sin desviación respecto a la línea de base dominicana.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 3, fila I15676 (La Caleta, Dominican Republic, varón)",
+     "cita_original": "14C 400 ± 20 BP; calibrado 506-332 cal BP (1444-1618 CE, mediana 1470 CE); δ13C colágeno −18,2 ‰; δ15N 10,1 ‰",
+     "traduccion": "Dato de hoja de cálculo. Segundo individuo dominicano cuyo rango calibrado sobrepasa 1492.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 3 (cálculo propio, 2026-10-07)",
+     "cita_original": "45 fechas 14C nuevas; 29 de individuos de la República Dominicana; solo 2 de las 45 (I13198 Juan Dolio, I15676 La Caleta) tienen un rango calibrado que termina después de 1492 CE",
+     "traduccion": "Recuento propio sobre la hoja; con la meseta de calibración de c. 1500-1600, ni siquiera esos dos prueban un entierro posterior a 1492. Los autores clasifican todo el conjunto como 'pre-contact'.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 3 (cálculo propio, 2026-10-07)",
+     "cita_original": "Colágeno de 25 individuos dominicanos con dato: δ13C medio −17,56 ‰ (rango −19,3 a −12,4); δ15N medio 11,08 ‰ (rango 9,3 a 14,7)",
+     "traduccion": "Línea de base isotópica de la dieta de la Edad Cerámica de la costa sudeste y el este de La Española. Ningún individuo del conjunto es de la población afectada por el colapso con certeza.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "Supplementary Data 1 (cálculo propio, 2026-10-07)",
+     "cita_original": "140 individuos cribados de La Española: 138 de la República Dominicana (La Caleta 65, Atajadizo 19, El Soco 16, Juan Dolio 8, otros 30) y 2 de Haití (Diale 1)",
+     "traduccion": "Recuento propio sobre la hoja 'Supplementary Data 1'. Muestra el peso relativo de Juan Dolio (8 de 140) en el ADN antiguo frente a los 78-108 individuos de las series óseas.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-0220",
+   "notas": "Matiza dos afirmaciones del informe de la primera ronda: (1) 'ADN antiguo de La Española posterior a 1492: ninguno' no puede sostenerse sin reservas, porque dos de las 29 fechas dominicanas tienen un rango calibrado (OxCal/IntCal20) que sobrepasa 1492 (aunque sus medianas son del siglo XV); (2) calificar de 'precontacto' la serie de Juan Dolio es una simplificación: el SI y Keehnen (2019) dicen que Juan Dolio estuvo ocupado hasta el contacto, con tiestos europeos en algunos entierros, y que la serie ósea se fecha 'predominantemente a fines del siglo XV'. Hecho: cuenta y fechas de las hojas. Interpretación de los autores: todo el conjunto es 'pre-contact'. Los recuentos y medias de este registro son cálculos propios sobre las hojas descargadas. El sitio dnagenics.com da para Juan Dolio '1200-1650 CE (n=8)'; es divulgación sin cita y no se usa. Caveat: cada fecha 14C es de colágeno de hueso calibrado con IntCal20 en OxCal 4.4; el SI (pp. 55-56) dice que el consumo marino detectado fue mínimo y que no se usó la curva marina. El nivel de probabilidad del rango no está declarado en la hoja."
+  },
+  {
+   "titulo": "Hispaniola - Hell or Home? Decolonizing Grand Narratives about Intercultural Interactions at Concepción de la Vega (1494-1564) (tesis, Universidad de Leiden; Sidestone Press, 2020)",
+   "autor": "Kulstad-González, Pauline M.",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.sidestone.com/openaccess/9789088908514.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de Leiden con excavación propia y revisión de las colecciones dominicanas de La Vega Vieja; sobre los restos humanos afirma expresamente que no hay análisis físico.",
+   "proveniencia": "Pauline Kulstad-González defendió la tesis el 8-X-2019 en Leiden (promotora C. L. Hofman); reanaliza las colecciones del Monasterio de San Francisco y del fuerte de Concepción de la Vega.",
+   "extractos": [
+    {
+     "ubicacion": "§6.4.8 'Human Remains', pp. 141-143 (la tabla de contenido indica la p. 142)",
+     "cita_original": "No formal physical anthropological analyses have been carried out on these remains, and they are classified according to whether they are buried in a flexed or extended position.",
+     "traduccion": "Nueve restos humanos en contexto en el Monasterio de San Francisco (c. 1525-1528) y uno sin procedencia; ninguno con análisis antropológico físico.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "§6.4.8, p. 142",
+     "cita_original": "Based on burial position and context related to location within the Monasterio campus (Fig. 11), remains #1, 2, 8 appear to be Indigenous.",
+     "traduccion": "Tres de los nueve restos (#1, 2, 8) parecen indígenas por la posición flexionada y el contexto; #3 y #4 se identifican como españoles por estar en nichos; #5-#7 están fuera de los muros del convento (el #6 quizá en un nicho español); el #9 podría ser indígena precontacto.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "§6.4.8, pp. 142-143",
+     "cita_original": "Unfortunately, all of these remains have not received conservation treatment and have slowly deteriorated.",
+     "traduccion": "Los restos se han deteriorado; hay fotos en los informes del Museo del Hombre Dominicano.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2094",
+   "notas": "Reconfirma los nueve restos de Concepción de la Vega sin análisis (los extractos de M02.md cubren las pp. 142-143 y 178-179); aporta tres extractos nuevos sobre la clasificación por postura y el deterioro. Hecho: nueve entierros formales en el Monasterio más uno sin procedencia. Interpretación de la autora: la postura (flexionada = indígena; extendida = cristiana) es un criterio débil porque en El Chorro de Maíta los indios cristianizados se enterraron extendidos."
+  },
+  {
+   "titulo": "El Chorro de Maíta: a diverse approach to a context of diversity (en C. L. Hofman y A. van Duijvenbode, eds., Communities in Contact, Leiden: Sidestone Press, 2011, pp. 225-251)",
+   "autor": "Valcárcel Rojas, Roberto; Weston, Darlene A.; Mickleburgh, Hayley L.; Laffoon, Jason E.; van Duijvenbode, Anne",
+   "anio": "2011",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.sidestone.com/openaccess/9789088900631.pdf",
+   "urls_alternativas": [
+    "https://sidestone.com/permlink/9789088900631"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo de un volumen académico con reanálisis osteológico (Weston, 2010) y cráneo-dental de 133 individuos; es un informe preliminar de un cementerio cubano, no de La Española.",
+   "proveniencia": "Equipo de Leiden y del CISAT de Holguín: Weston reanalizó en junio de 2010 el esqueleto del cementerio de El Chorro de Maíta (Cuba; ocupación desde el siglo XIII, cementerio posterior a 1510 y de la primera mitad del XVI según Valcárcel Rojas et al. 2014), con estudio osteológico, isotópico y tafonómico modernos. Es el comparador de contacto más cercano a La Española que se localizó.",
+   "extractos": [
+    {
+     "ubicacion": "p. 231 ('Demography and ethnicity')",
+     "cita_original": "In total there were 90 adults (67.7 percent) and 43 juveniles (32.3 percent). [...] amongst the juveniles, most (13.5 percent) were aged between 5-9 years.",
+     "traduccion": "133 individuos: 90 adultos y 43 inmaduros; entre los inmaduros, el grupo más numeroso (13,5 % del total) tiene 5-9 años.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 232",
+     "cita_original": "A cemetery with a large number of children is more consistent with a catastrophic cemetery, i.e. one where mortality is due to a single or short-term catastrophic event, such as a natural or man-made disaster or a disease epidemic.",
+     "traduccion": "Un cementerio con muchos niños es más coherente con un perfil catastrófico (un solo evento o uno breve: desastre o epidemia).",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 232",
+     "cita_original": "the temporal context of the site, spanning the pre- and post-contact periods, suggests that epidemic disease may have been an important factor in the structuring of the site’s mortuary profile.",
+     "traduccion": "El contexto temporal (pre y poscontacto) sugiere que la epidemia pudo ser un factor importante del perfil mortuorio.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 232",
+     "cita_original": "A preliminary palaeopathological analysis of the skeletal population corroborates the possibility that acute infection may have affected the population.",
+     "traduccion": "El análisis paleopatológico preliminar refuerza la posibilidad de infección aguda.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Comparador cubano, no de La Española. Hecho: 133 individuos; pico de mortalidad en 5-9 años; edad y sexo en la tabla 1 (p. 232). Interpretación: perfil 'catastrófico' (Paine 2000) que sugiere epidemia; los autores no cuantifican el peso de la epidemia frente a otras causas. El cementerio mezcla uso precolombino y poscontacto ('más de un tercio' después de la llegada, según Valcárcel Rojas et al. 2014), de modo que el perfil no es puramente de contacto. Complementa Weston 2018 y Weston y Valcárcel Rojas 2016."
+  },
+  {
+   "titulo": "Nuevas investigaciones arqueológicas en El Chorro de Maíta: de espacio indígena a escenario de dominación colonial (Anales de la Academia de Ciencias de Cuba 4(2): 1-9)",
+   "autor": "Valcárcel Rojas, Roberto; Pérez Iglesias, Lourdes; Guarch Rodríguez, Elena; Hofman, Corinne; Knight, Vernon James; Hoogland, Menno; Martinón-Torres, Marcos; Weston, Darlene; Laffoon, Jason E.; et al.",
+   "anio": "2014",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "cientifica",
+   "url": "https://pure.uva.nl/ws/files/118523449/Nuevas_Investigaciones_Arqueol_gicas_en_El_Chorro_de_Ma_ta.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comunicación corta (CC BY-NC) presentada al Premio Nacional de la Academia de Ciencias de Cuba por el equipo que reanalizó el cementerio; resume resultados publicados en otros lugares y no ofrece tablas.",
+   "proveniencia": "Resumen de 2014 del proyecto cubano-holandés-estadounidense de El Chorro de Maíta (2005-2012), con la contribución de cada autor; destinado a la Academia de Ciencias de Cuba y alojado en el repositorio de la Universidad de Ámsterdam. El resumen insiste en la tesis de 'pueblo de indios encomendados'.",
+   "extractos": [
+    {
+     "ubicacion": "p. 5 (Comunicación corta, Resultados)",
+     "cita_original": "Toda la colección osteológica fue reanalizada. El número de personas inhumadas (133) es mucho mayor al inicialmente considerado (108).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "p. 6",
+     "cita_original": "Más de un tercio de los individuos fueron inhumados con posterioridad al arribo europeo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 6",
+     "cita_original": "La comparación con cementerios atricionales y contextos precolombinos destaca el carácter inusual de la mortalidad de niños indígenas de 5-9 años, al parecer relacionada con muerte catastrófica (posiblemente epidemias).",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 6",
+     "cita_original": "Los individuos no locales son en su mayoría hombres, más jóvenes que los locales, con menor uso de prácticas mortuorias indígenas y mayor uso de las hispanas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 6",
+     "cita_original": "Los caracteres de los individuos no locales ―incluyendo presencia de una indígena mesoamericana y un africano― distan de lo reconocido en grupos de inmigrantes precolombinos pero son compatibles con población esclava desplazada por los europeos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040",
+      "A-035",
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-030",
+    "A-035",
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Comparador cubano. Hecho: 133 individuos, 18 fechas 14C (ocupación desde el siglo XIII, cementerio posterior a 1510 y extendido a la primera mitad del siglo XVI), isótopos de Sr, C y O. Interpretación de los autores: pueblo de indios encomendados; la mortalidad infantil 5-9 años sugiere muerte catastrófica, posiblemente epidemia; los no locales (hombres jóvenes, incluido un africano y una mesoamericana) 'compatibles con población esclava'. Significado: el texto lee el sitio contra 'la idea de colapso inmediato y total'. Compatible con A-032 y A-035 como evidencia material de desplazamientos forzados en el Caribe del siglo XVI."
+  },
+  {
+   "titulo": "Paleopathology at El Chorro de Maíta in Cuba (resumen en Paleopathology Club Newsletter No. 148, abril de 2018, p. 3)",
+   "autor": "Weston, Darlene A.",
+   "anio": "2018",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pathology.vcu.edu/media/pathology/research/gerszten/NEWSLETTER148.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen de ponencia (41.ª sesión del Paleopathology Club, Vancouver, 18-III-2018) de la antropóloga que analizó los 133 esqueletos, sin revisión por pares y con los datos remitidos a su capítulo de 2016.",
+   "proveniencia": "Darlene A. Weston (UBC; el boletín da solo esa afiliación) fue quien reanalizó el esqueleto de El Chorro de Maíta en 2010. El boletín del Paleopathology Club (Virginia Commonwealth University, Gerszten) reproduce su resumen, que cita su capítulo de 2016 y dos comunicados del equipo (AJPA S62).",
+   "extractos": [
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "The historical literature has detailed the devastating effects of European contact on the indigenous populations of the Caribbean, but little research has been undertaken on the physical remains of the people from this time period.",
+     "traduccion": "La literatura histórica ha detallado los efectos devastadores del contacto europeo sobre las poblaciones indígenas del Caribe, pero se ha investigado poco sobre los restos físicos de las personas de ese periodo.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "The 133 individuals buried on the site were examined to determine if the affects of the encomienda system were visible in individuals’ bones and teeth.",
+     "traduccion": "Se examinaron los 133 individuos para ver si los efectos de la encomienda eran visibles en huesos y dientes.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "When compared with pre-historic Caribbean skeletal populations that had not experienced European contact, the El Chorro population did not have increased frequencies of trauma, joint disease, enthesopathies, infectious/inflammatory lesions, or dental caries",
+     "traduccion": "Frente a poblaciones prehistóricas sin contacto, la de El Chorro no tenía más frecuencia de trauma, artropatía, entesopatías, lesiones infecciosas o caries.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "mortality peaked at the 5-9 year age group. When the mortality profile of the El Chorro site was compared to model catastrophic and attritional populations, it was statistically similar to the catastrophic model.",
+     "traduccion": "La mortalidad llegó a su máximo a los 5-9 años y el perfil fue estadísticamente similar al del modelo catastrófico.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "exhibiting no skeletal affects of harsh treatment, poor nutrition, an extraordinary workload, or severe infectious disease as a result of the encomienda system of forced labour",
+     "traduccion": "El esqueleto no muestra efectos de maltrato, mala nutrición, carga extraordinaria de trabajo ni enfermedad infecciosa grave por la encomienda.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "The site’s mortality profile suggests there may have been a catastrophic event, perhaps influenced by the introduction of infectious disease to which the population had no immunity (the acute cause of death).",
+     "traduccion": "El perfil sugiere un evento catastrófico, quizá por la introducción de una enfermedad infecciosa a la que la población no tenía inmunidad.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-030"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Es la única evidencia osteológica localizada que discrimina entre trabajo forzado y epidemia en el Caribe de contacto, y apunta a la epidemia (o a una muerte aguda) más que a los signos esqueléticos del trabajo; pero (a) es Cuba, no La Española, y 'c. 1510-1550'; (b) ausencia de lesiones crónicas no excluye muerte por hambre o violencia aguda; (c) no hay en el resumen ninguna cifra de muestra por categoría, ni intervalos. Hecho: ausencia de aumento de trauma, entesopatías, caries y lesiones infecciosas frente a series precolombinas; pico de mortalidad a 5-9 años. Interpretación: perfil catastrófico, quizá epidemia. Significado: se usa en la discusión sobre qué pudo causar el colapso (A-030). [POR VERIFICAR] la tabla de pruebas estadísticas en el capítulo de 2016 (cerrado)."
+  },
+  {
+   "titulo": "Communities in Contact: Health and Paleodemography at El Chorro de Maíta, Cuba (en I. Roksandic, ed., Cuban Archaeology in the Caribbean, Gainesville: University Press of Florida, 2016, pp. 83-105)",
+   "autor": "Weston, Darlene A.; Valcárcel Rojas, Roberto",
+   "anio": "2016",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://doi.org/10.5744/florida/9781683400028.003.0007",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.5744/florida/9781683400028.003.0007"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo de la University Press of Florida con el análisis completo de salud y paleodemografía de 133 individuos; solo se leyó el resumen que publica Crossref.",
+   "proveniencia": "Capítulo de Weston (UBC) y Valcárcel Rojas (CISAT, Holguín) en un volumen sobre arqueología cubana (ed. Ivor Roksandic). Texto del resumen recuperado de la API de Crossref (200); el capítulo, cerrado.",
+   "extractos": [
+    {
+     "ubicacion": "resumen del capítulo (Crossref); capítulo pp. 83-105",
+     "cita_original": "Analysis of the 133 individuals at the site has revealed a population almost free of skeletal pathology, apart from a few cases of joint degeneration and minor trauma.",
+     "traduccion": "El análisis de los 133 individuos muestra una población casi libre de patología esquelética, salvo pocos casos de degeneración articular y trauma menor.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "resumen del capítulo (Crossref)",
+     "cita_original": "The high proportion of young adult and child burials, coupled with a low number of mature adult burials is highly suggestive of a catastrophic mortality profile.",
+     "traduccion": "La alta proporción de adultos jóvenes y niños, con pocos adultos maduros, sugiere con fuerza un perfil de mortalidad catastrófico.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "resumen del capítulo (Crossref)",
+     "cita_original": "The mortality profile and the relative paucity of pathological skeletal lesions suggests that acute infectious disease may have been an etiological factor in the construction of the site’s demography",
+     "traduccion": "El perfil de mortalidad y la escasez de lesiones sugieren que una enfermedad infecciosa aguda pudo ser un factor etiológico de la demografía del sitio.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-030"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Es la versión impresa del resumen de Weston 2018 (misma tesis: ausencia de patología crónica y perfil catastrófico, epidemia aguda como posible factor). Comparador cubano. Capítulo cerrado (University Press of Florida); se leyó solo el resumen de Crossref."
+  },
+  {
+   "titulo": "Patterns of Paleomobility in the Ancient Antilles: An Isotopic Approach (tesis doctoral, Universidad de Leiden, 31-X-2012)",
+   "autor": "Laffoon, Jason E.",
+   "anio": "2012",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2965041/view",
+   "urls_alternativas": [
+    "https://hdl.handle.net/1887/20072",
+    "https://scholarlypublications.universiteitleiden.nl/access/item%3A2965053/view"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis doctoral de Leiden (promotora Hofman) con 360 individuos analizados y base de datos del biosoma de estroncio; la lectura se hizo sobre el PDF completo recuperado con WebFetch (el acceso directo con curl devuelve un reto antibot).",
+   "proveniencia": "Jason E. Laffoon (Leiden) analizó el estroncio del esmalte de 360 individuos de sitios antillanos de la Edad Cerámica y del periodo protohistórico de El Chorro de Maíta; incluye 26 individuos dominicanos (Punta Macao, El Cabo, Bartolo), todos de la Edad Cerámica Tardía. Es el estudio isotópico más extenso de poblaciones taínas, y el propio autor declara la escasez de estudios de contexto colonial.",
+   "extractos": [
+    {
+     "ubicacion": "Summary, p. 318",
+     "cita_original": "Samples of human dental enamel from 360 individuals from multiple sites spanning a broad range of geographic and temporal contexts in the Caribbean were analyzed for strontium isotope composition.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "p. 264 (Conclusiones, recomendaciones)",
+     "cita_original": "The results generated from this study are heavily biased to the Late Ceramic Age while later (protohistoric and colonial) and earlier (Early Ceramic Age and Archaic) contexts are under- or unrepresented. To date, only a few isotope studies have been conducted on protohistoric and colonial contexts in the Antilles",
+     "traduccion": "Los resultados están muy sesgados hacia la Edad Cerámica Tardía; los contextos protohistóricos y coloniales están infrarrepresentados; hasta hoy hay pocos estudios isotópicos de contextos protohistóricos y coloniales en las Antillas.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "pp. 150-151 (§6.3.2)",
+     "cita_original": "The Sr isotope data from the Dominican Republic (Figure 14) include samples from 26 individuals; including 21 from the site of Punta Macao, four from the site of El Cabo, and one from the site of Bartolo.",
+     "traduccion": "Punta Macao y El Cabo se describen como de la Edad Cerámica Tardía (pp. 105-107) y Bartolo se identifica por cerámica chicoide de superficie; ninguno es de contacto.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "p. 106 (§5.3.2, Punta Macao)",
+     "cita_original": "Available radiocarbon dates obtained from three individuals, along with associated ceramic materials indicate that the burial assemblage primarily dates to the Late Ceramic Age.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-040"
+     ]
+    },
+    {
+     "ubicacion": "p. 107 (§5.3.2, El Cabo)",
+     "cita_original": "The skeletal material has not been subjected to intensive osteological analysis or radiocarbon dating, although based on associated materials the burials seem to date to the Late Ceramic Age.",
+     "traduccion": "Los cuatro entierros primarios del yucayeque de El Cabo no han recibido análisis osteológico intensivo ni fechación.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "p. 184 (Tabla 8, 'Summary of nonlocals for the largest populations')",
+     "cita_original": "Punta Macao: 21 analizados, 1 no local (5 %); El Chorro de Maíta: 88 analizados, 22 no locales (25 %); Anse à la Gourde: 68 y 17 (25 %)",
+     "traduccion": "Valores literales de la tabla (Site, Total n, Nonlocals n, Nonlocals %). En El Chorro de Maíta la identificación incluye 6 casos 'tentativos' (p. 187).",
+     "afirmaciones": [
+      "A-040",
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "p. 245 (§7.4)",
+     "cita_original": "there are proportionally more nonlocal males than nonlocal females amongst the (protohistoric) population from El Chorro de Maíta, Cuba and the percentage of nonlocal males is the highest in this study.",
+     "traduccion": "El único sitio protohistórico/colonial del estudio muestra más varones no locales, lo contrario de los sitios prehistóricos; compatible con movilidad forzada, no demostrada por la tesis.",
+     "afirmaciones": [
+      "A-040",
+      "A-035",
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve con cita un hueco de A-040: los estudios de isótopos de poblaciones taínas dominicanas son precontacto (Edad Cerámica Tardía), y el propio autor dice que los estudios de contexto colonial son pocos (p. 264). Comparador: El Chorro de Maíta (88 individuos con estroncio; 22 no locales). Hecho: los recuentos; interpretación del autor: migraciones de pequeños grupos o individuos, no oleadas (resumen, p. 320). Nota: la tabla de isótopos de dieta de la p. 227 (Tabla 12) menciona Juan Dolio entre otras poblaciones (fuente: Stokes 1998 y Laffoon y de Vos 2011); la extracción de texto desalineó las filas y no se usa. [POR VERIFICAR] cuántos de los individuos de Punta Macao o El Cabo corresponden a un contexto con mayólica (ver Fernandes SI p. 38)."
+  },
+  {
+   "titulo": "Skeletal biology of the Taino: a preliminary report (International Journal of Anthropology 2(3): 247-254)",
+   "autor": "Drusini, Andrea; Businaro, Ferdinando; Calderón, Fernando Luna",
+   "anio": "1987",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://link.springer.com/article/10.1007/BF02442236",
+   "urls_alternativas": [
+    "https://doi.org/10.1007/BF02442236"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe preliminar revisado de 1987 sobre 78 esqueletos taínos de Juan Dolio; solo se leyó el resumen en la ficha de Springer (el PDF devuelve la página de acceso).",
+   "proveniencia": "Andrea Drusini, Ferdinando Businaro y Fernando Luna Calderón (este último, según el SI de Fernandes, dirigió la excavación de 1974) publican en el International Journal of Anthropology 2(3) (septiembre de 1987), un número con varios artículos sobre Colón y los taínos, el estudio óseo preliminar del cementerio de Juan Dolio [afiliaciones POR VERIFICAR; la ficha no las da].",
+   "extractos": [
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "Preliminary data on the skeletal biology of 78 Taino skeletons belonging to Juan Dolio, an archaeological site of the Maguana province, 80 Km. east of S. Domingo, are presented. The minimum number of individuals, sex, age, stature, and morphologic and morphometric characters were determined. Dental wear and pathology of cranial and post-cranial bones were also recorded.",
+     "traduccion": "Datos preliminares sobre 78 esqueletos taínos de Juan Dolio: número mínimo de individuos, sexo, edad, estatura, caracteres morfológicos y morfométricos, desgaste dental y patología craneal y poscraneal.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Responde la consulta del crítico 'Drusini Businaro 1987 Juan Dolio skeletons': existe el estudio, pero solo el resumen es accesible. El resumen no fecha la serie; el SI de Fernandes (p. 39) la sitúa 'predominantemente a fines del siglo XV' y Coppa et al. 1995 en 1400 d. C. La ficha escribe 'provincia de Maguana' (sic) para un sitio de San Pedro de Macorís. Distribución por edad y sexo (31 varones, 29 mujeres, 18 indeterminados, 11 juveniles) en el SI de Fernandes, p. 39, no en el resumen. Hecho: existencia y tamaño; interpretación: ninguna visible. [POR VERIFICAR] el texto completo (paywall Springer)."
+  },
+  {
+   "titulo": "Dental anthropology and paleodemography of the precolumbian populations of Hispaniola from the third millennium B.C. to the Spanish conquest (Human Evolution 10(2): 153-167)",
+   "autor": "Coppa, A.; Cucina, A.; Chiarelli, B.; Luna Calderón, F.; Mancinelli, D.",
+   "anio": "1995",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://link.springer.com/article/10.1007/BF02437538",
+   "urls_alternativas": [
+    "https://doi.org/10.1007/BF02437538"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo arbitrado de un equipo ítalo-dominicano que incluye al excavador, sobre tres cementerios con unos 316 individuos; solo se leyó el resumen en Springer.",
+   "proveniencia": "Coppa (La Sapienza de Roma, según la ficha IRIS del artículo de Rothschild et al.), Cucina, Chiarelli, Luna Calderón (excavador de Juan Dolio en 1974, según el SI de Fernandes) y Mancinelli comparan la demografía y los rasgos dentales de Cueva Roja, El Soco y Juan Dolio [afiliaciones restantes POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "The demography and dental traits of the skeletal samples from the necropoles of Cueva Roja (IIrd millennium b.C.), El Soco (800 a.D) and Juan Dolio (1400 a.D.) have been analyzed. The preceramic sample from Cueva Roja consists of some 50 individuals, the one from El Soco consists of 158 individuals and the one from Juan Dolio of 108 individuals.",
+     "traduccion": "Cueva Roja (c. 50 individuos), El Soco (158) y Juan Dolio (108); este último datado en 1400 d. C.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "The demographic analysis has revealed a slight improvement of life conditions from the pre-contact period to the beginning of the contact period.",
+     "traduccion": "El análisis demográfico muestra una leve mejora de las condiciones de vida desde el precontacto hasta el inicio del contacto.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "As regards the Tainos groups, a slight improvement in life conditions can be noted from the precontact period to the period immediately before the European colonization.",
+     "traduccion": "Entre los grupos taínos, una leve mejora desde el precontacto hasta justo antes de la colonización europea.",
+     "afirmaciones": [
+      "A-040",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Primer estudio demográfico y dental de una serie dominicana que llega al contacto: muestra mejora, no deterioro, antes de 1492. Hecho: tamaños y fechas atribuidas. Interpretación de los autores: 'leve mejora' de las condiciones. Qué no dice el resumen: mortalidad posterior a 1492 (la serie de Juan Dolio se fecha 1400 d. C.), perfil de edad de mortalidad, ni los diez entierros cristianos que cita Keehnen. [POR VERIFICAR] si el análisis demográfico distingue entierros posteriores al contacto en Juan Dolio (texto completo cerrado)."
+  },
+  {
+   "titulo": "First European exposure to syphilis: the Dominican Republic at the time of Columbian contact (Clinical Infectious Diseases 31(4): 936-941)",
+   "autor": "Rothschild, Bruce M.; Calderón, Fernando Luna; Coppa, Alfredo; Rothschild, Christine",
+   "anio": "2000",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=11049773&retmode=xml",
+   "urls_alternativas": [
+    "https://doi.org/10.1086/318158",
+    "https://iris.uniroma1.it/handle/11573/97777"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de una revista clínica arbitrada con examen directo de 536 restos esqueléticos de sitios dominicanos; solo se leyó el resumen de PubMed (OUP devuelve un reto antibot y Unpaywall marca acceso cerrado).",
+   "proveniencia": "Bruce Rothschild (Arthritis Center of Northeast Ohio, según Unpaywall) con F. L. Calderón [identidad con Luna Calderón POR VERIFICAR] y Coppa examinan la paleopatología treponémica de series dominicanas con contacto colombino documentado, para el debate del origen americano de la sífilis.",
+   "extractos": [
+    {
+     "ubicacion": "resumen (PubMed 11049773)",
+     "cita_original": "Skeletal populations were examined from sites with documented Columbian contact in the Dominican Republic. Examination of 536 skeletal remains revealed periosteal reaction characteristic of treponemal disease in 6%-14% of the afflicted population.",
+     "traduccion": "Se examinaron poblaciones esqueléticas de sitios dominicanos con contacto colombino documentado: 536 restos; reacción perióstica característica de enfermedad treponémica en 6-14 % de la población afectada.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "resumen (PubMed 11049773)",
+     "cita_original": "While findings diagnostic of syphilis have been reported in the New World, actual demonstration of syphilis in areas where Columbus actually had contact was missing, until now.",
+     "traduccion": "Hasta este trabajo faltaba la demostración de sífilis en las zonas donde Colón tuvo contacto real.",
+     "afirmaciones": [
+      "A-040"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Contradice la premisa de A-040 en lo que toca a 'paleopatología de series dominicanas de contacto': existe un estudio de 536 restos con diagnóstico diferencial (sífilis frente a pian y bejel). No mide la causa del colapso: es una enfermedad crónica endémica anterior al contacto (el SI de Fernandes, p. 39, dice que Juan Dolio y otras poblaciones cerámicas estaban afectadas; Cueva Roja, arcaica, no). No dice en el resumen qué sitios ni cuántos por sitio. Hecho: 536 restos, 6-14 % con lesiones; interpretación de los autores: el sitio es el punto de contacto inicial de la sífilis y de su difusión al Viejo Mundo (frase del resumen no citada aquí por su carga interpretativa). [POR VERIFICAR] sitios y fechas en el texto completo (cerrado)."
+  },
+  {
+   "titulo": "The Decline of the Tainos. Critical revision of the demographical-historical sources (International Journal of Anthropology 2(3): 241-245)",
+   "autor": "Danubio, M. E.",
+   "anio": "1987",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://link.springer.com/article/10.1007/BF02442235",
+   "urls_alternativas": [
+    "https://doi.org/10.1007/BF02442235"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Resumen de un artículo de cinco páginas sin datos visibles y con atribuciones causales que los cronistas no documentan ('German measles and chicken-pox'); solo se leyó el resumen.",
+   "proveniencia": "M. E. Danubio publica en el International Journal of Anthropology 2(3) (septiembre de 1987, el mismo número en que Drusini et al. estudian los esqueletos de Juan Dolio) una 'revisión crítica' de las fuentes demográfico-históricas del declive taíno [afiliación POR VERIFICAR; la ficha no la da].",
+   "extractos": [
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "One of the causes which led to the Taino extinction was the enormous physical fatigues for all sorts of work which the colonizers forced the Tainos to do.",
+     "traduccion": "Una de las causas de la extinción taína fue la enorme fatiga física de toda clase de trabajos a que los colonizadores obligaron a los taínos.",
+     "afirmaciones": [
+      "A-030",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "The colonizers introduced into the island illnesses, such as German misles and chicken-pox, to which the Tainos were immunologically defenceless.",
+     "traduccion": "Los colonizadores introdujeron enfermedades, como sarampión alemán (rubéola) y varicela, ante las que los taínos estaban inmunológicamente indefensos. [Las erratas son del original; la atribución no se apoya en ninguna fuente visible.]",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "resumen (ficha de Springer)",
+     "cita_original": "the aborigines, to avoid captures, systematically committed suicide and mass abortions.",
+     "traduccion": "Los aborígenes, para evitar la captura, se suicidaron y abortaron sistemáticamente.",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-036",
+    "A-038"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Muestra una síntesis multicausal de 1987 (trabajo forzado, enfermedades, matanzas, suicidios y abortos) y da por 'totalmente extintos' a los taínos (A-036). Sin datos ni método visibles; no se sabe qué fuentes revisó. Fiabilidad baja por estar solo el resumen y por la rubéola y varicela, no documentadas en las fuentes coetáneas leídas en este módulo (la viruela, el sarampión y el romadizo sí aparecen en la información de 1520; ver M02.md). Sirve como indicio del estado de la discusión en 1987."
+  },
+  {
+   "titulo": "Bioarchaeology in the Caribbean (Routledge, 2025): índice; cap. 6, D. Weston, 'Paleodemography and Health at Juan Dolio, Dominican Republic', pp. 142-171 (DOI 10.4324/9780429444449-9)",
+   "autor": "Weston, Darlene; Chinique de Armas, Yadira (eds.)",
+   "anio": "2025",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.routledge.com/Bioarchaeology-in-the-Caribbean/Weston-Chinique-de-Armas/p/book/9781032193878",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.4324/9780429444449-9",
+    "https://www.taylorfrancis.com/books/9780429444449/chapters/10.4324/9780429444449-9"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Primer volumen dedicado a la bioarqueología caribeña, con el capítulo de la osteóloga que estudió Juan Dolio; solo se vio el índice del editor y la ficha de Crossref (Taylor & Francis devuelve 403).",
+   "proveniencia": "Volumen editado por Darlene Weston (UBC) y Yadira Chinique de Armas (Universidad de Winnipeg), Routledge, 2025 (según Crossref el capítulo se publicó el 25-VI-2025). La página del editor da el índice; el texto de los capítulos es de pago.",
+   "extractos": [
+    {
+     "ubicacion": "página del editor (Routledge), índice, cap. 6",
+     "cita_original": "Chapter 6: 'Paleodemography and Health at Juan Dolio, Dominican Republic' — Darlene Weston",
+     "traduccion": "Único capítulo del volumen sobre un sitio de La Española; Crossref lo registra en pp. 142-171 (DOI 10.4324/9780429444449-9), sin resumen.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "página del editor (Routledge), índice, caps. 7 y 11",
+     "cita_original": "Chapter 7: 'Bioarchaeology of Slavery in the Insular Caribbean: Overview, Challenges, and Potential' (Fricke y Laffoon); Chapter 11: 'Isotopic Analysis of Indigenous Paleodiet and Paleomobility in the Western Caribbean: Enamel Strontium and Carbon Isotope Results from Cueva del Perico I, Cuba' (Laffoon y Chinique de Armas)",
+     "traduccion": "El índice, tal como lo devolvió la herramienta de lectura, no incluye ningún capítulo sobre La Isabela, Concepción de la Vega, Puerto Real o En Bas Saline. [POR VERIFICAR: el índice se leyó resumido, no copiado literalmente.]",
+     "afirmaciones": [
+      "A-040",
+      "A-039",
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Documenta que existe un estudio de paleodemografía y salud de Juan Dolio de 2025 (cap. 6) que no se pudo leer y que puede responder directamente si la serie incluye un perfil de mortalidad de contacto. Hecho: título, autor, páginas y fecha (Crossref). Interpretación: lo que el capítulo concluye es desconocido. El volumen incluye 14 capítulos según la página del editor; la cantidad de páginas varía entre fuentes (390 en Routledge, 402 en una librería): [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Houses for the living and the dead: organisation of settlement space and residence rules among the Taíno, the indigenous people of the Caribbean encountered by Columbus (proyecto de investigación, Universidad de Leiden)",
+   "autor": "Hofman, Corinne L. (investigadora responsable); Universidad de Leiden",
+   "anio": "s. f.",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://universiteitleiden.nl/en/research/research-projects/archaeology/organisation-of-settlement-space-and-residence-rules-among-the-taino-the-indigenous-people-of-the-caribbean-encountered-by-columbus",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ficha institucional del proyecto, sin resultados; el servidor bloquea curl y la lectura se hizo con WebFetch, que devolvió un resumen con citas parciales.",
+   "proveniencia": "Ficha del proyecto de Leiden sobre El Cabo (Higüey, Altagracia): habla de 'stable isotope and DNA analyses, palaeopathology and the study of mortuary ritual' aplicados a restos óseos para movilidad, reglas de residencia y descendencia, para la Edad Cerámica Tardía (1000-1492 d. C.).",
+   "extractos": [
+    {
+     "ubicacion": "ficha del proyecto (resumen de la herramienta de lectura; cita parcial)",
+     "cita_original": "stable isotope and DNA analyses, palaeopathology and the study of mortuary ritual",
+     "traduccion": "Análisis previstos para los restos óseos de El Cabo. La ficha no ofrece resultados; Laffoon 2012 (p. 107) confirma que los cuatro entierros primarios no han tenido análisis osteológico intensivo.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Indicio de ausencia de resultados: un proyecto anunciado de paleopatología, isótopos y ADN en un yucayeque que fue abandonado a principios del siglo XVI, sin productos visibles en las rondas consultadas (Samson 2010, F-0171, no incluye ADN ni isótopos). La cita es parcial y no se pudo cotejar con la página, que el servidor bloquea a curl."
+  },
+  {
+   "titulo": "In sickness and in health: possibilities for studying the social and cultural implications of treponemal disease in the Caribbean area (en C. L. Hofman y A. van Duijvenbode, eds., Communities in Contact, Leiden: Sidestone Press, 2011, pp. 269-280)",
+   "autor": "Schats, Rachel",
+   "anio": "2011",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.sidestone.com/openaccess/9789088900631.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo arbitrado de una antropóloga de Leiden sobre treponematosis; su tema es la percepción social de la enfermedad, y las cifras osteológicas las toma de revisiones (Schats 2010, Powell y Cook 2005); solo se leyeron las páginas iniciales.",
+   "proveniencia": "Rachel Schats (Leiden) usa antropología médica y fuentes etnohistóricas para estudiar la sífilis/pian en el Caribe precolombino, a partir de la paleopatología publicada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 270",
+     "cita_original": "Bone lesions consistent with the disease have been found in many skeletal assemblages from both the Greater and Lesser Antilles from AD 400 onwards.",
+     "traduccion": "Lesiones óseas compatibles con la enfermedad treponémica en muchos conjuntos esqueléticos de las Antillas Mayores y Menores desde el año 400 d. C.",
+     "afirmaciones": [
+      "A-040",
+      "A-039"
+     ]
+    },
+    {
+     "ubicacion": "p. 270",
+     "cita_original": "It appears that there are no skeletal assemblages showing the signs of a treponemal infection before AD 400, except for a very early case from the island of Cuba dating to 8000 BP.",
+     "traduccion": "Antes del 400 d. C. solo consta un caso muy temprano de Cuba (8000 BP).",
+     "afirmaciones": [
+      "A-040"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-040",
+    "A-039"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Contexto: la paleopatología caribeña existe y se ocupa sobre todo de series precolombinas. No trata la mortalidad posterior a 1492. Se incluye para delimitar lo que 'paleopatología' ya cubre en el corpus: enfermedad crónica treponémica previa al contacto, no el colapso. Nota de lectura: el extracto está en las páginas iniciales del capítulo; el resto no se leyó."
+  },
+  {
+   "titulo": "Born to Die: Disease and New World Conquest, 1492-1650, by Noble David Cook (reseña; atribución del fragmento a esta reseña NO verificada) (The Journal of Interdisciplinary History 30(1): 109-111)",
+   "autor": "Henige, David",
+   "anio": "1999",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/article/15745",
+   "urls_alternativas": [
+    "https://doi.org/10.1162/jinh.1999.30.1.109",
+    "https://direct.mit.edu/jinh/article/30/1/109-111/47101"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "200 (página 'Verification required' de Project MUSE; MIT Press devuelve 403)",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña arbitrada del crítico más conocido de las cifras de contacto, pero el texto solo se vio como fragmento en un resultado de búsqueda, sin poder abrir la página ni confirmar que el fragmento sea de esta reseña.",
+   "proveniencia": "David Henige (Universidad de Wisconsin-Madison, bibliotecario de África y bibliógrafo crítico de la demografía de contacto, autor de Numbers from Nowhere, 1998) reseña el libro de Cook en 1999. La coincidencia entre el fragmento visto (muse.jhu.edu/article/15745, 'brief excerpt') y esta reseña se infiere de que el JIH figura en MUSE y de que Crossref registra la reseña de Henige; no se confirmó.",
+   "extractos": [
+    {
+     "ubicacion": "fragmento de búsqueda (muse.jhu.edu/article/15745); atribución a Henige 1999, JIH 30(1): 109-111, [POR VERIFICAR]",
+     "cita_original": "there is no contemporary evidence whatever to support it and much to contradict it [...] the first mention of disease occurs only in 1518",
+     "traduccion": "No hay evidencia coetánea alguna que apoye (la tesis de Cook de que la influenza pasó de la tripulación de Colón a los indios de La Española) y hay mucha que la contradice; la primera mención de una enfermedad aparece solo en 1518. [Fragmento visto en un resultado de búsqueda; no se abrió la página.]",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Aporta el contrapunto escéptico a la tesis epidemiológica temprana (Guerra, Cook) que pedía la regla de simetría. Hecho: el fragmento afirma que no hay una mención coetánea de epidemia entre los indios antes de 1518; esto choca con los textos de Colón y Chanca (enfermedad general de los españoles en 1493-94) y con Cook 2003 (F-1587), que reconoce la ambigüedad de las 'viruelas a la partida de Cádiz'. Interpretación del crítico: las hipótesis abstractas no son hipótesis de trabajo útiles. Sesgo: Henige desconfía sistemáticamente de las cifras de contacto, de las altas y de las bajas. El fragmento procede de un resultado de búsqueda con texto 'in lieu of an abstract'; no se pudo confirmar quién lo escribió ni la página."
+  }
+ ]
+}

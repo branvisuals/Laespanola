@@ -1,0 +1,1648 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M02",
+ "ronda": 1,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 33,
+ "busquedas_pendientes": [
+  "Konetzke, Colección de documentos para la historia de la formación social de Hispanoamérica, t. I (1953): real cédula de 30-X-1503 (caníbales) y real provisión de 20-XII-1503 (Medina del Campo); instrucciones de 1509-1511 sobre los Lucayos",
+  "CODOIN t. XXXI y XXXII (Cárdenas): textos de la compulsión al trabajo de 1503 y cédulas de Ovando",
+  "Michele de Cuneo, carta de 15-X-1495 (Savona): texto italiano en la Raccolta Colombiana (parte III, vol. 2) o traducción de Morison (Journals and Other Documents) en archive.org/HathiTrust",
+  "Nau, Histoire des caciques d'Haïti, 1.ª ed. (1854-55) para cotejar con la 2.ª ed. de 1893 ya leída (F-0177); Gallica/dLOC (la búsqueda de archive.org estaba caída el 2026-10-07)",
+  "Dorsainvil, Manuel d'histoire d'Haïti (1934), pasaje sobre Anacaona; Madiou t. I",
+  "Salomé Ureña, \"Anacaona\" (1880): ed. de Poesías completas (Corripio 1989) o ADH/Memoria Histórica",
+  "Bullarium Ordinis Praedicatorum t. IV (1732) p. 571 (bula de 1538); Utrera 1932; Beltrán de Heredia 1955; cédula de 1551 a San Marcos de Lima",
+  "Pedro Mártir, Década VII cap. 1 en latín (cifra de 40.000 lucayos; 406 islas)",
+  "Stone 2021, Captives of Conquest: notas con signaturas del AGI (Justicia, Santo Domingo, Indiferente) para la cifra >250.000",
+  "Información de los jerónimos de 1517 completa (AGI, Patronato 174 y Santo Domingo)",
+  "PARES: imágenes de Indiferente 418 L.1 (ff. 41v, 100-102, 127v-128r, 130v-131r, 132-133, 180v-181v) y Patronato 174 R. 8 para cotejar las transcripciones de First Blacks (429 el 2026-10-07)",
+  "Pleitos colombinos / Pesquisa de Bobadilla en la edición de Varela (La caída de Cristóbal Colón, 2006) para la identidad de \"Juan Prieto\"",
+  "Lemkin: textos inéditos sobre la colonización española (Raphael Lemkin Papers, NYPL; American Jewish Archives, Cincinnati) y Axis Rule in Occupied Europe cap. IX",
+  "Hernando Colón (F-0002) sobre la captura de Caonabo y Anacaona (cotejo con Las Casas t. 2); Gómara (F-1588) sobre Jaragua",
+  "Oviedo, Sumario (1526): juicio sobre Anacaona y el número de indios",
+  "Revisar con la imagen del djvu los números de capítulo/libro de Herrera Década I (Jaragua) y II (viruelas)"
+ ],
+ "lagunas": [
+  "Repartimiento de 1508 (A-031, 60.000): no existe documento localizado; los repartimientos de 1503-05 y de 1509 se han perdido (Livi-Bacci 2006, citando a Arranz, según M01-r2). La cifra de 60.000 indios \"contados\" en 1508 solo consta en Las Casas (Historia, lib. II cap. XLII y lib. III cap. XXXVI), que da 40.000 en 1509 y 13-14.000 en 1514 frente a las 26.334 personas del Repartimiento de Alburquerque (F-1590). Sin primaria para 1508 la cifra queda en D salvo que otra fuente la corrobore.",
+  "Cifra \"~18.000 tras la viruela de 1518-1519\" (A-031): ninguna primaria leída la da. Lo que hay: Arranz (por reseña) 15.000 indios en 1517; jerónimos (10-I-1519) \"casi la tercera parte\" muertos de los indios que quedaban; Figueroa (7-IV-1519, de oídas) \"más de una cuarta parte\"; Las Casas \"no creo que quedaron 1.000\"; Oviedo (1548) \"quinientas personas\" de la progénie original. No hay censo posterior a la viruela en este lote.",
+  "Real provisión de Medina del Campo de 20-XII-1503 (legalización de la encomienda y el repartimiento) y real cédula de 30-X-1503 (indios \"caníbales\" esclavizables): sus textos no se localizaron en línea (3 consultas; se vieron solo citas en secundarias). Hay que buscarlos en Konetzke, Colección de documentos para la historia de la formación social de Hispanoamérica t. I, en la CODOIN t. XXXI y en Encinas, Cedulario. Quedan sin primaria la fecha y el texto de la compulsión al trabajo y de la autorización de esclavizar a los caribes.",
+  "Base primaria de la cifra \"más de 250.000 sacados del Caribe\" (A-032, Stone 2021): no se leyó a Stone ni sus fuentes del AGI. Lo encontrado es cualitativo: memorial de Colón de 1494 (propuesta de esclavizar caníbales), 500 almas enviadas en 1495 (Bernáldez, Las Casas), cédula de 1504 que reserva a la Corona el trato con indios no cristianos, y la expedición a los Lucayos (Las Casas: \"sobre un cuento de ánimas\" en diez años; Mártir vía Las Casas: 40.000 de 406 islas). Ninguna cifra de este lote es de archivo: todas son de cronista.",
+  "Carta de Michele de Cuneo (1495, a Gerolamo Annari): no se localizó el texto en italiano ni en inglés (3 consultas y 1 fetch de Wikisource en esta ronda, 2 consultas en M01; solo estudios y menciones). Es la fuente de testigo directo más importante para el envío de 1495 (mil seiscientas personas reunidas, 550 embarcadas según citas de segunda mano [POR VERIFICAR]).",
+  "Anacaona como figura nacional (A-034): se leyó a Nau (2.ª ed. 1893, F-0177) y la reseña del Moniteur de 1855 que ese libro reproduce, pero no la edición de 1854-55 ni Dorsainvil (1934, F-0481; el servidor de manioc.org cortó la descarga a ~5 MB de 86 MB), ni la edición del poema \"Anacaona\" de Salomé Ureña (1880), ni Madiou t. I (Gallica no respondió: código 000). La divulgación dominicana la presenta como \"figura fundacional de la nación dominicana\" (resultado de búsqueda sobre acento.com.do, página no abierta: [POR VERIFICAR]); A-034 debe reformularse simétricamente. Faltan los manuales de Fombrun y los monumentos de Léogâne citados en RESOLVERIA.",
+  "Bula In Apostolatus Culmine (1538, A-037): no se abrió el texto de la bula (Bullarium Ordinis Praedicatorum t. IV, Roma 1732, p. 571 [POR VERIFICAR, dato de Wikipedia]), ni Utrera 1932 (Universidades de Santiago de la Paz y de Santo Tomás de Aquino) ni Beltrán de Heredia 1955. Solo se leyó a Landolfi 1987, que transmite la posición de Utrera. Tampoco se localizaron las cédulas de fundación de San Marcos de Lima (1551) ni de México (1551).",
+  "Las piezas de First Blacks (CUNY DSI) son transcripciones modernas de manuscritos del AGI; no se cotejaron con las imágenes de PARES (429/403/403 en los portales). La fecha del Ms. 010 es contradictoria dentro del propio proyecto. Hay que verificar paleografía en Fase 3 si una afirmación A depende de una sola de estas piezas.",
+  "Zuazo (22-I-1518): el texto leído es el de la CODOIN (1864) y la transcripción de First Blacks (2025); el original (AGI, Patronato 174 R. 8) no se vio. El regesto de Zuazo al Emperador (CODOIN t. I, p. 293) es resumen de los editores.",
+  "Silencios: ninguna de las fuentes de este lote da voz directa a un taíno; todo está mediado por funcionarios, cronistas o frailes (Pané, el único texto de informante indígena, se cubrió en M01). Las únicas voces de africanos esclavizados son sus huidas (1503) y la mención de que se esperaba que \"se alzasen\" (Zuazo, 1518). Faltan por completo mujeres taínas distintas de Anacaona y las mujeres esclavizadas (solo la cédula de 1504).",
+  "A-039 y A-040 (arqueología de contacto y ausencia de bioarqueología): quedan fuera de la lente de fuentes primarias; no se hallaron documentos coloniales que las toquen. La Isabela y La Navidad solo aparecen por testimonio (Bernáldez, Chanca, Diario) y no se contrastaron con excavaciones.",
+  "Leyes de Burgos: el texto leído es una transcripción semimodernizada de una biblioteca colombiana sin edición base declarada; no se abrió la URL de origen (banrepcultural.org) ni se cotejó con Hussey (HAHR 1932) o Altamira (1938). Las \"Leyes de Valladolid\" (1513) quedan parcialmente cubiertas.",
+  "Herrera: el número de libro de la Década I (el encabezado de página dice \"Libro VI\", el capítulo \"Cap. IIII\") y los libros de la Década II citados no se cotejaron con la tabla de materias; el OCR es de baja calidad (s larga). Las citas de Herrera son aproximadas."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "caníbal / caribe (categoría jurídica del indio esclavizable)",
+   "tradicion": "española colonial (Colón 1494; cédula de 1503 [POR VERIFICAR])",
+   "nota": "En el memorial a Torres (1494) \"caníbales\" designa a los vecinos de las islas Caribes que Colón propone esclavizar y enviar a Castilla; la categoría, fundada en la acusación de antropofagia, sirve luego para autorizar la esclavitud de indios de guerra. Las Casas anota que en La Española nunca los hubo (\"no eran caribes ni los hubo en la Española jamás\", nota en Navarrete). Se usa como categoría de la fuente, entrecomillada."
+  },
+  {
+   "termino": "esclavos \"nascidos en poder de cristianos\" (negros) / negros ladinos y bozales",
+   "tradicion": "española (instrucción de 1501) y glosario (ladino/bozal)",
+   "nota": "La instrucción de 1501 define la excepción a la prohibición de paso con la fórmula \"esclavos negros u otros esclavos que ayan naçido en poder de cristianos nuestros súbditos e naturales\", es decir, ladinos; Zuazo (1518) pide en cambio \"bozales\" de 15 a 20 años desde Cabo Verde. El glosario ya recoge ladino/bozal; falta anotar que la fórmula de 1501 es la definición jurídica del primero."
+  },
+  {
+   "termino": "rescate / rescatar (trato con indios y esclavos)",
+   "tradicion": "española colonial (cédula de 1504; Zuazo 1518)",
+   "nota": "En el siglo XVI \"rescate\" es a la vez trueque comercial y compra de cautivos: la cédula de 1504 reserva a la Corona \"la contratación\" con indios no cristianos; Zuazo propone \"rescate\" de paño en Cabo Verde para comprar negros. No equivale a \"rescate\" en el sentido moderno de pago por liberación."
+  },
+  {
+   "termino": "episodio de Jaragua (1503)",
+   "tradicion": "Oviedo: \"justicia\" por una \"traición acordada\"; Las Casas: \"matanza e injusticia tan inhumana\"; Charlevoix: \"barbarie sans exemple\"; tradiciones nacionales posteriores [POR VERIFICAR]",
+   "nota": "El término \"matanza de Jaragua\" ya es una tesis (Las Casas); \"castigo\" o \"justicia\" es la de Oviedo. El corpus usa \"episodio de Jaragua (1503): ejecución de los señores de Jaragua y de Anacaona\" y anota cómo lo nombra cada fuente. Las tres versiones coinciden en el quemado en un caney/buhío y en el ahorcamiento de Anacaona, y discrepan en el intervalo (inmediato en Las Casas y Herrera; tres meses en Oviedo; proceso en Santo Domingo en Charlevoix) y en la causa (traición probada o supuesta)."
+  },
+  {
+   "termino": "genocidio (aplicado a la conquista de 1492-1520)",
+   "tradicion": "internacional (Lemkin; Convención de 1948); haitiana y parte de la dominicana",
+   "nota": "El art. II de la Convención exige intención de destruir al grupo \"en todo o en parte\"; Lemkin lo aplicó a la conquista española con base en Las Casas (McDonnell y Moses 2005); la demografía histórica (Livi-Bacci, Cook) prefiere hablar de choque de conquista, trabajo forzado y enfermedad. El glosario aún no lo registra; en el corpus se usa solo entrecomillado y atribuido."
+  },
+  {
+   "termino": "reducción a pueblos / pueblos de indios (1512-1519)",
+   "tradicion": "española colonial (Leyes de Burgos; padres jerónimos)",
+   "nota": "Las Leyes de Burgos ordenan trasladar las estancias de los indios junto a las de los españoles \"para doctrina\"; los jerónimos dicen haber hecho \"30 pueblos\" para \"recoger los pocos indios que habían quedado\". La fuente presenta como catequesis y cuidado lo que es concentración forzosa; el corpus usa \"reducción forzosa a pueblos\" como término descriptivo."
+  },
+  {
+   "termino": "guanín",
+   "tradicion": "taíno / española",
+   "nota": "Aleación de oro bajo con cobre; la cédula de 1504 prohíbe llevar \"guanines\" a La Española. Vocablo taíno recogido por Colón y Las Casas."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Instrucción de los Reyes Católicos a Nicolás de Ovando, Granada, 16-IX-1501, art. 23 (AGI, Indiferente 418, L.1, f. 41v); transcripción paleográfica de First Blacks in the Americas, Ms. n.º 005",
+   "autor": "Reyes Católicos (Isabel y Fernando); transcripción: CUNY Dominican Studies Institute (proyecto First Blacks in the Americas)",
+   "anio": "1501 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/07/Transcription-005_4xp7sOU.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/?p=2796"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento de cancillería con signatura del AGI y transcripción paleográfica con corchetes y referencia a las imágenes de PARES; el texto de la cláusula es nítido y coincide con la lectura que ofrece la página del proyecto.",
+   "proveniencia": "Las instrucciones se dieron a Ovando en Granada el 16-IX-1501 para su gobierno de La Española (zarpó en 1502) y quedaron registradas en el libro de cancillería de Indiferente General 418. La cláusula 23 se inscribe en la política de pureza de fe para la conversión de los indios: excluye a moros, judíos, herejes, reconciliados y conversos recientes, y exceptúa a los esclavos negros u otros esclavos nacidos en poder de cristianos. La transcripción es obra del proyecto First Blacks (CUNY DSI), que reivindica la presencia africana temprana; la paleografía es verificable contra las imágenes de PARES (68-74/378).",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 005, f. 41v, art. 23",
+     "cita_original": "no consintireys ni dareys lugar que alla vayan moros ni judíos ni herejes ni reconciliados ni personas nuevamente convertidas a nuestra fee salvo si fueren esclavos negros o otros esclavos que ayan naçido en poder de cristianos nuestros subditos e naturales",
+     "traduccion": "no consentiréis ni daréis lugar a que allá vayan moros, judíos, herejes, reconciliados ni personas recién convertidas a nuestra fe, salvo si fueren esclavos negros u otros esclavos que hayan nacido en poder de cristianos, nuestros súbditos y naturales",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "F-0005",
+   "notas": "IDENTIFICACIÓN CON F-0005: el registro describe F-0005 como \"real cédula que autoriza esclavos negros cristianos en las Indias\", sin fecha y conocida solo por Wikipedia; este documento (1501) es el candidato más probable a \"primer permiso documentado\", pero la equivalencia no está confirmada y puede tratarse de otra pieza (p. ej., la licencia de 1515 a Francisco de Esquivel para seis negros cristianos, Ms. 014 de First Blacks, no leída). Se restituyeron ç e í que la extracción PDF perdió. CONTRADICCIÓN CON UNA SECUNDARIA: Cárdenas Benítez (CHDE Trujillo, 1993, divulgación) resume la cláusula como prohibición de paso \"incluso a los negros\"; la transcripción dice lo contrario (los esclavos negros nacidos en poder de cristianos quedan exceptuados). Hecho = el texto de la cláusula; interpretación = que equivalga a una política de importación de mano de obra (First Blacks) o a mero control religioso; el documento no menciona cifras ni la llegada efectiva."
+  },
+  {
+   "titulo": "Respuesta de los Reyes a una carta de Nicolás de Ovando, Zaragoza, 29-III-1503 (AGI, Indiferente 418, L.1, ff. 100r-102v); transcripción First Blacks Ms. n.º 007",
+   "autor": "Reyes Católicos; transcripción: CUNY Dominican Studies Institute (First Blacks in the Americas)",
+   "anio": "1503 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/09/Manuscript-Transcription-007.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-007-manuscript"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Respuesta oficial de la Corona, con signatura y folios del AGI; la transcripción es parcial (\"[...]\") pero el pasaje sobre los esclavos negros es completo y legible.",
+   "proveniencia": "Respuesta capítulo por capítulo a una carta de Ovando (gobernador de La Española desde 1502) que no se conserva en esta transcripción. Dice, sin cifras, que los esclavos negros enviados \"se han huido\" y que la Corona accede a no enviar más. Es la prueba primaria más temprana localizada de que había africanos esclavizados en la isla y de su huida (cimarronaje) en el año siguiente a la llegada de Ovando.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 007, f. 101r",
+     "cita_original": "en quanto A lo de los negros esclavos que desis que no se enbien alla porque los que alla Avian Se han huydo en esto nos mandaremos se faga como lo desys",
+     "traduccion": "en cuanto a lo de los negros esclavos, que decís que no se envíen allá porque los que allá había se han huido, en esto mandaremos que se haga como lo decís",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "La transcripción omite con \"[...]\" los demás capítulos de la respuesta; la columna marginal resume \"que se mandará que no se vaya por negros esclavos\". La carta de Ovando (1502-1503) a la que responde no está transcrita: no se sabe cuántos negros llegaron ni de dónde venían. Sirve para A-035 solo en lo que afirma (presencia y huida antes de marzo de 1503); que llegaran \"con Ovando en 1502\" es una inferencia compatible, no un dato del documento. Se restituyeron caracteres perdidos en la extracción PDF (ç, ñ)."
+  },
+  {
+   "titulo": "Licencia de los Reyes a los vecinos de La Española para llevar mantenimientos y mercaderías, Medina del Campo, 15-II-1504 (AGI, Indiferente 418, L.1, ff. 127v-128r); transcripción First Blacks Ms. n.º 008",
+   "autor": "Reyes Católicos; transcripción: CUNY Dominican Studies Institute",
+   "anio": "1504 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/08/Transcription-008_R2jXYsW.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-008-manuscript"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Real cédula registrada en cancillería, transcrita con signatura del AGI; la parte pertinente (prohibición de llevar esclavos y reserva del trato con indios no cristianos) es legible.",
+   "proveniencia": "Licencia por diez años (desde 1-I-1504) para que los vecinos cristianos de La Española importen mantenimientos, ganado, herramientas y mercaderías en navíos de súbditos castellanos; excluye expresamente esclavos, \"guanines\" (oro de baja ley), caballos, armas y metales preciosos, y reserva a la Corona el trato con los indios no cristianos. El texto muestra el control regio del flujo de esclavos (y de los \"rescates\" con indios) al inicio de la encomienda de Ovando.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 008, f. 127v",
+     "cita_original": "ninguno pueda llevar nyn sacar deestos nuestros Reynos para la dicha ysla española esclavos nyn guanines nyn cavallos nyn armas nyn oro nyn plata en pasta nyn labrado nyn amonedado",
+     "traduccion": "que ninguno pueda llevar ni sacar de estos nuestros reinos para la dicha isla Española esclavos, ni guanines, ni caballos, ni armas, ni oro ni plata en pasta, ni labrado ni amonedado",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "Transcription 008, f. 128r",
+     "cita_original": "no los puedan vender nyn contratar a los yndios que no fueren cristianos por que la contrataçion de ellos queda E ha de ser para nos e para quien nuestro espeçial poder para ello ovyere",
+     "traduccion": "no los puedan vender ni contratar a los indios que no fueren cristianos, porque la contratación de ellos queda y ha de ser para nosotros y para quien tuviere nuestro poder especial para ello",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035",
+    "A-032"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "No habla de esclavos negros por su nombre: prohíbe \"esclavos\" sin calificativo en la carga que viaja bajo licencia privada, lo que suele leerse como reserva regia de la trata (First Blacks: \"prohibiting the transporting of slaves\"). Esa lectura es interpretación; el texto no explica el motivo. \"Guanines\" son piezas de oro bajo, vocablo taíno. Caracteres restituidos tras la extracción PDF."
+  },
+  {
+   "titulo": "Carta del rey Fernando a Nicolás de Ovando, Segovia, 15-IX-1505: envío de hasta cien esclavos negros y promesa de manumisión (AGI, Indiferente 418, L.1, ff. 180v-181v); transcripción First Blacks Ms. n.º 009",
+   "autor": "Fernando el Católico (secretario Gaspar de Grizio); transcripción: CUNY Dominican Studies Institute",
+   "anio": "1505 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/08/Transcription_009.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-009-manuscript"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Carta regia con signatura del AGI y fecha completa; el pasaje es legible y las lagunas están marcadas.",
+   "proveniencia": "Respuesta del rey a una petición de Ovando de más esclavos negros. Fernando decide enviar \"hasta cien\" para que saquen oro para él, con una persona de confianza por cada diez, y aconseja prometerles que serán ahorrados (manumitidos) si trabajan bien. Es la orden documentada más temprana de un envío grande y planificado de esclavos negros a La Española con destino específico (minería de oro), antes del repartimiento de 1508 y trece años antes de la licencia de Gorrevod.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 009, f. 180v",
+     "cita_original": "A lo que dezis que se enbie mas esclavos negros, paresçeme que es bien y avn tengo determinado de enbiar asta çient esclavos negros para que estos cojan oro para mi [...] e que se prometa a los esclavos que sy trabajaren bien que los hahorraran [sic] en cierto tienpo",
+     "traduccion": "a lo que decís de que se envíen más esclavos negros, me parece bien y aun tengo determinado enviar hasta cien esclavos negros para que estos cojan oro para mí; y que se prometa a los esclavos que si trabajaren bien los ahorrarán en cierto tiempo",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Que Ovando pida \"más\" esclavos negros presupone que ya había algunos en 1505 (coherente con Ms. 007). No consta que se hayan enviado los cien. La manumisión prometida es un incentivo condicionado, no una abolición. Caracteres restituidos tras la extracción PDF."
+  },
+  {
+   "titulo": "Orden de los Reyes a los oficiales de la Casa de la Contratación de Sevilla: herramientas y veinte esclavos negros pedidos por Ovando, Medina del Campo [10-III-1504 o 10-V-1504/1505] (AGI, Indiferente 418, L.1, ff. 130v-131r); transcripción First Blacks Ms. n.º 010",
+   "autor": "Reyes Católicos (Gaspar de Grizio); transcripción: CUNY Dominican Studies Institute",
+   "anio": "1504 (fecha discutida en el propio proyecto)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/09/Transcription-010.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-010-manuscript"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial con signatura, pero la fecha está en conflicto dentro de la propia transcripción y el cierre es de lectura incierta.",
+   "proveniencia": "Mandamiento a los oficiales de la Contratación para comprar y enviar a Ovando fuelles de fragua, picos, una arroba de agua fuerte, \"veynte esclavos negros para andar en nuestras obras\" y un tonelero, además de bestias de carga. Muestra a la Corona proveyendo esclavos negros como mano de obra de las obras regias (minas y fundición) y no solo como servicio doméstico.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 010, f. 130v",
+     "cita_original": "veynte esclavos negros para andar en nuestras obras e un tonelero",
+     "traduccion": "veinte esclavos negros para andar en nuestras obras, y un tonelero",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "FECHA INCIERTA: el encabezado del PDF dice \"1504, May 10\"; el cierre del texto se lee \"x dias del mes de março de diiiio años\" (10 de marzo de 1504 si \"diiiio\" es 1504); la ficha web del proyecto dice 1505. No citar la fecha sin cotejar la imagen en PARES (Indiferente 418, L.1, imágenes 255-256/378). La línea \"veynt[e] escla-nos [sic] neg[r]os\" es lectura de la transcripción. Caracteres restituidos."
+  },
+  {
+   "titulo": "Respuesta de los Reyes a los oficiales de la Casa de la Contratación de las Indias, Medina del Campo, 26-VIII-1504: licencia para llevar mujeres esclavas cristianas a La Española (AGI, Indiferente 418, L.1, ff. 132r-133r); transcripción First Blacks Ms. n.º 016",
+   "autor": "Reyes Católicos (Gaspar de Grizio); transcripción: CUNY Dominican Studies Institute",
+   "anio": "1504 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/09/fb-primary-016-transcription.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-016-manuscript"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Real respuesta con signatura y fecha completa; el pasaje es breve y claro.",
+   "proveniencia": "Contestación a una consulta de los oficiales de Sevilla sobre si se podía llevar a La Española \"mugeres esclavas\": la Corona lo permite \"con tanto que las que fueren Sean xpistianas\". La condición de cristianas implica esclavas ya integradas en la sociedad peninsular (ladinas), no cautivas bozales. El documento no dice \"negras\" ni da cifras.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 016, f. 133r",
+     "cita_original": "A lo que dezis sy daremos liçençia que A la española Se puedan llevar mugeres esclavas paresçenos que Se deven llevar por que en estas no Ay ynconviniente Alguno con tanto que las que fueren Sean xpistianas",
+     "traduccion": "a lo que decís de si daremos licencia para que a La Española se puedan llevar mujeres esclavas, nos parece que se deben llevar, porque en estas no hay inconveniente alguno, con tal que las que fueren sean cristianas",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "First Blacks titula el documento como relativo a \"mujeres negras\"; el texto transcrito dice solo \"mugeres esclavas ... cristianas\". Que sean mujeres africanas es interpretación del proyecto, razonable pero no está en el texto. Caracteres restituidos."
+  },
+  {
+   "titulo": "Carta del licenciado Alonso de Zuazo («Cuaco») a Monsieur de Chièvres, Santo Domingo, 22-I-1518 (AGI, Patronato 174, R. 8, ff. 40r-48v), en CODOIN t. I (1864), pp. 323-332, y transcripción con traducción inglesa de First Blacks Ms. n.º 015",
+   "autor": "Zuazo, Alonso de (juez de residencia); ed. Pacheco y Cárdenas (1864); transcripción First Blacks (CUNY DSI)",
+   "anio": "1518",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://firstblacks.org/wp-content/uploads/2025/09/fb-primary-015-transcription.pdf",
+    "https://firstblacks.org/wp-content/uploads/2025/09/fb-primary-015-translation.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Carta original conservada en el AGI, editada en 1864 y transcrita de nuevo en 2025 (coinciden en los pasajes sobre negros); testigo directo y funcionario regio, aunque con interés en pedir mercedes.",
+   "proveniencia": "Zuazo fue enviado por el cardenal Cisneros como juez de residencia en 1516, al mismo tiempo que los padres jerónimos. Escribe a Chièvres, privado de Carlos I, para que informe al rey; pide trata libre de negros bozales desde Cabo Verde con licencia portuguesa y comercio libre sin pasar por Sevilla, y se ofrece como servidor a cambio de mercedes (\"confiscaciones\"). Su interés personal en las mercedes es explícito en el último folio.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, pp. 326-327; djvu l. 13997-14013 (= First Blacks Ms. 015, ff. 46v-47r)",
+     "cita_original": "Hay necesidad ansimismo que vengan negros esclavos [...] traigan todos los negros é negras que pudieren haber bocales, de edad de quince á diez é ocho años, é veinte años, é hacerse-han en esta Isla á nuestras costumbres",
+     "traduccion": "hace falta también que vengan esclavos negros [...] y que traigan todos los negros y negras bozales que pudieren haber, de quince a dieciocho y veinte años, y se harán en esta isla a nuestras costumbres",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 327; djvu l. 14014-14017 (= First Blacks Ms. 015, f. 47r)",
+     "cita_original": "Sobrellevarse-ha el trabajo de los indios, é sacarse-ha infinito oro. Es tierra esta la mejor que hay en el mundo para los negros",
+     "traduccion": "se aliviaría el trabajo de los indios y se sacaría infinito oro. Esta tierra es la mejor que hay en el mundo para los negros",
+     "afirmaciones": [
+      "A-035",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-2131",
+   "notas": "La transcripción de First Blacks (Patronato 174 R. 8) y la edición de la CODOIN son el mismo texto: los pasajes sobre negros coinciden palabra por palabra salvo ortografía. Esta es una petición, no un registro de importaciones: prueba que en enero de 1518 un funcionario regio proponía abastecer La Española con negros bozales (no ladinos) para aliviar a los indios, y que lo justificaba por la supuesta aptitud de los negros para la tierra. Hecho = la propuesta; interpretación = que fuese la causa del asiento de 1518 (Las Casas la atribuye a su propio memorial y a los flamencos, ver F-0006 lib. III cap. CII). Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Capítulos (extracto de los editores) de carta del licenciado Alonso de Cuaco [Zuazo] al Emperador, Santo Domingo, 22-I-1518, en CODOIN t. I (1864), pp. 292-293",
+   "autor": "Zuazo, Alonso de; extracto de los editores Pacheco, Cárdenas y otros",
+   "anio": "1518 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Es un regesto numerado hecho por los editores del siglo XIX, no el texto de Zuazo: sirve para localizar y comparar, no para citar sus palabras.",
+   "proveniencia": "Los editores de la CODOIN resumen en ocho puntos la carta de Zuazo al Emperador (el original está en el AGI); entre ellos, conceder licencia general para traer negros \"gente recia para el trabajo, al revés de los naturales\" y desmentir el temor a su alzamiento (\"viuda hay en las islas de Portugal ... con ochocientos esclavos\"), con la anécdota de que Zuazo azotó y mutiló orejas a negros huidos que encontró al llegar.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 293, punto 6.º; djvu l. 12694-12697",
+     "cita_original": "Dar licencia general que se traigan negros, gente recia para el trabajo, al revés de los naturales, tan débiles que solo pueden servir en labores de poca resistencia.",
+     "traduccion": "conceder licencia general para que se traigan negros, gente recia para el trabajo, al revés de los naturales, tan débiles que solo pueden servir en labores de poca resistencia",
+     "afirmaciones": [
+      "A-035",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 293, punto 7.º; djvu l. 12702-12704",
+     "cita_original": "Yo hallé al venir aquí algunos negros ladrones; otros huidos á monte; azoté á unos, corté las orejas á otros, é ya no ha venido mas queja.",
+     "traduccion": "al venir aquí hallé algunos negros ladrones y otros huidos al monte; azoté a unos, corté las orejas a otros, y ya no ha venido más queja",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035",
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Es regesto en estilo indirecto de los editores; la frase sobre los \"naturales\" tan \"débiles\" es de ellos o de Zuazo, no se puede saber. Para cita literal hay que ir al AGI. Los negros \"huidos á monte\" encontrados al llegar Zuazo (1516) son testimonio de cimarronaje temprano, anterior a la rebelión de 1521. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Carta de los padres jerónimos Luis de Figueroa y Alonso de Santo Domingo al Rey, Santo Domingo, 10-I-1519, en CODOIN t. I (1864), pp. 366-368",
+   "autor": "Figueroa, fray Luis de; Santo Domingo, fray Alonso de (gobernadores jerónimos de La Española); ed. Pacheco y Cárdenas (1864)",
+   "anio": "1519",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe contemporáneo de gobernadores que declaran ser \"testigos de vista\" de la epidemia; el interés (pedir negros y exención de impuestos) es manifiesto y la cifra de \"casi la tercera parte\" es estimación, no censo.",
+   "proveniencia": "Escrita en enero de 1519, al poco de declararse la viruela (después de diciembre de 1518, según la propia carta), por los dos jerónimos que aún gobernaban la isla (el tercero, Manzanedo, había viajado a España). Dirigida al rey Carlos I, se queja de no haber recibido respuesta a sus cartas anteriores; da noticia de las reducciones a 30 pueblos y pide esclavos negros \"sin imposiciones\" y mercedes para los vecinos.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 367; djvu l. 15637-15642",
+     "cita_original": "habíamos hecho en esta Isla Española 30 pueblos, donde se recojiesen los pocos indios que habian quedado [...] mas de ochocientos mil montones, provisión para mas de siete mil personas en un año",
+     "traduccion": "habíamos hecho en esta isla Española treinta pueblos donde se recogiesen los pocos indios que habían quedado [...] más de ochocientos mil montones [de yuca], provisión para más de siete mil personas en un año",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 367; djvu l. 15646-15649",
+     "cita_original": "ha placido á Nuestro Señor de dar una pestilencia de viruelas en los dichos indios que no cesa, é en la que se han muerto é mueren hasta el presente casi la tercera parte de los dichos indios",
+     "traduccion": "ha placido a Nuestro Señor dar una pestilencia de viruelas en los dichos indios, que no cesa, y en la que se han muerto y mueren hasta el presente casi la tercera parte de los dichos indios",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 367; djvu l. 15653-15656",
+     "cita_original": "Su Majestad mande remediar como á estas partes pasen esclavos negros é negras sin imposiciones",
+     "traduccion": "que Su Majestad mande remediar [la situación] haciendo que a estas partes pasen esclavos negros y negras sin impuestos",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 368; djvu l. 15669-15671",
+     "cita_original": "si algunos indios pocos quedasen, han de ser para guardar los ganados é sostener las haciendas, é Vuestra Alteza perderá en esta Isla mas de 53,000 castellanos",
+     "traduccion": "si quedasen algunos pocos indios, habrán de ser para guardar los ganados y sostener las haciendas, y Vuestra Alteza perderá en esta isla más de 53.000 castellanos",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "CIFRAS: \"casi la tercera parte\" de los indios muertos hasta el 10-I-1519 es una estimación de testigos con interés; no da el total de indios. Los \"mas de siete mil personas\" son raciones de yuca para las reducciones, no un censo, y es un piso: solo cubre a los indios que estaban en los treinta pueblos. Esta carta (a) sitúa la viruela después de diciembre de 1518, (b) la presenta como mortandad adicional sobre unos \"pocos indios que habían quedado\" (es decir, el colapso demográfico anterior es dado por supuesto) y (c) conecta la epidemia con el pedido de negros: un nexo directo entre A-030/A-031 y A-035. Abre quejándose de que no han recibido respuesta a ninguna de sus cartas anteriores. No consta 18.000 en este texto. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Carta del licenciado Rodrigo de Figueroa al Rey (por mano del secretario Cobos), Sevilla, 7-IV-1519, en CODOIN t. I (1864), pp. 368-369",
+   "autor": "Figueroa, Rodrigo de (juez de residencia, luego gobernador); ed. Pacheco y Cárdenas (1864)",
+   "anio": "1519",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Es una noticia de oídas escrita desde Sevilla (\"Hay nueva de que ... Dicen han muerto\"), no testimonio de vista; sirve de contraste con la carta de los jerónimos.",
+   "proveniencia": "Figueroa había llegado a Sevilla a mediados de marzo de 1519 para pasar a las Indias con el encargo de reducir a los indios a vivir en pueblos; cuenta lo que le llega de La Española sobre la viruela y que los jerónimos ya habían repartido indios que él debía tener vacos. La carta es posterior en tres meses a la de los jerónimos y da una cifra menor (una cuarta parte).",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, pp. 368-369; djvu l. 15697-15698 y 15711-15712",
+     "cita_original": "Hay nueva de que en la Española mueren muchos indios de una grandísima enfermedad de viruelas de la cual [...] se cobijan é se hinchan de gusanos hasta que mueren. Dicen han muerto ya mas de una cuarta parte de ellos.",
+     "traduccion": "hay noticia de que en La Española mueren muchos indios de una grandísima enfermedad de viruelas, de la cual se cubren y se hinchan de gusanos hasta que mueren. Dicen que ya han muerto más de una cuarta parte de ellos",
+     "afirmaciones": [
+      "A-030",
+      "A-031"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "La fracción (una cuarta parte, de oídas, abril) y la de los jerónimos (casi un tercio, de vista, enero) son estimaciones distintas del mismo fenómeno y no se pueden sumar. La descripción clínica (\"se cobijan y se hinchan de gusanos\") es compatible con viruela confluyente pero no la diagnostica; el diagnóstico \"viruelas\" lo comparten los jerónimos, Las Casas, Oviedo y Herrera. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Relación de Gil González Dávila, contador del Rey, sobre las causas de la despoblación de la isla Española (s. f., h. 1518; AGI, Patronato Real, leg. 18), en CODOIN t. I (1864), pp. 332-334",
+   "autor": "González Dávila, Gil (contador real, vecino de La Española); ed. Pacheco y Cárdenas (1864)",
+   "anio": "[1518] (conjetura de los editores)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo directo y funcionario de la Real Hacienda, pero la fecha es conjetural (los editores la ponen en 1518 por Herrera) y su interés es proponer remedios que favorezcan a los vecinos.",
+   "proveniencia": "González Dávila, contador de La Española antes de pasar a Darién, redacta tres memoriales sobre la disminución \"ansí de vezinos como de indios\". Atribuye la despoblación a cuatro causas: el cambio constante de gobernadores, el traspaso de indios de unos vecinos a otros (que, \"como ellos sean gente delicada\", les causa mucha impresión), los pleitos y el afán de sacar el mayor oro posible sin gastar nada en conservar a la isla ni en \"el descanso de los indios\". El texto completo de los tres memoriales (djvu l. 14212 a ca. 14900) no contiene la palabra \"viruelas\" (búsqueda por grep), lo que es coherente con una redacción anterior a diciembre de 1518, pero no lo prueba.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, p. 332; djvu l. 14228-14236",
+     "cita_original": "Cuatro cosas principales han seydo causa de la disminución que digo en aquella Isla. La primera, la mudanza de los gobernadores [...] La segunda causa ha seydo el mudar de los indios de unos vezinos en otros",
+     "traduccion": "cuatro cosas principales han sido causa de la disminución que digo en aquella isla. La primera, el cambio de los gobernadores [...] La segunda causa ha sido el mudar a los indios de unos vecinos a otros",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 333; djvu l. 14264-14268",
+     "cita_original": "se ha tenido siempre fin á que de aquella Isla venga siempre el mas oro que se pueda, é no se ha tenido fin á gastar ninguna cosa en la conservación ni acrecentamiento della, ni en el descanso de los indios",
+     "traduccion": "siempre se ha tenido por fin que de aquella isla venga el mayor oro posible, y no se ha tenido por fin gastar nada en su conservación ni acrecentamiento, ni en el descanso de los indios",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Es la explicación contemporánea (de un funcionario, antes o al margen de la viruela) del declive: cambio de manos de los indios, litigios y extracción de oro sin reinversión. Apoya la parte de A-030 que atribuye el colapso previo a 1518 al sistema de trabajo y no a la viruela, pero no lo mide: el autor habla de \"disminución\", sin cifras. Sesgo: culpa a letrados y gobernadores y calla su propia posición de contador. No es un estudio demográfico. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Información (probanza) hecha a petición de la ciudad de Santo Domingo sobre la despoblación de la Isla Española, 10-I y 16-IV-1520; testimonio de Hernando Gorjón, vecino de Azua (AGI, Patronato Real, leg. 18), en CODOIN t. I (1864), pp. 428-429 (resumen) y 595-598",
+   "autor": "Concejo de Santo Domingo; testigos (Hernando Gorjón, Juan de León y otros); ed. Pacheco y Cárdenas (1864)",
+   "anio": "1520",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Probanza oficial con testigos jurados, pero preparada por el concejo para pedir franquicias y con interrogatorio dirigido; las cifras de pueblos y vecinos son memoria de testigos.",
+   "proveniencia": "El concejo de Santo Domingo (procurador Benito de Prado) presenta ante el alcalde bachiller Juan Roldán un interrogatorio sobre la despoblación de la isla, con el que pide libertades y franquicias para atraer colonos. Los testigos describen la reducción de 15 a 12 pueblos, el abandono de la villa de Santa Cruz y de otras, y atribuyen la crisis a la partida de vecinos y a la \"pestilencia\" de viruelas, sarampión y romadizo que dio a los indios.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, pp. 428-429 (resumen de la declaración de Hernando Gorjón); djvu l. 18165-18178",
+     "cita_original": "Por los campos entre innumerables indios habia muchos españoles. Todo [...] hoy está yermo; los caminos cerrados, é si no se remedia presto se acabará la isla de perder",
+     "traduccion": "por los campos, entre innumerables indios, había muchos españoles. Todo hoy está yermo; los caminos cerrados, y si no se remedia pronto se acabará de perder la isla",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, p. 429 (resumen); djvu l. 18182-18185 (cf. l. 16880-16884 en el texto del interrogatorio)",
+     "cita_original": "A las dichas causas añade haberse ido muchos españoles, é la pestilencia de viruelas, sarampión é romadizo é otras enfermedades que han dado á los indios",
+     "traduccion": "a las dichas causas añade el haberse ido muchos españoles y la pestilencia de viruelas, sarampión, romadizo y otras enfermedades que han dado a los indios",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Testimonio de 1520 (poco después de la epidemia) que reúne tres causas: emigración de colonos, enfermedades de los indios (viruela, sarampión, catarro: es decir, más de una enfermedad) y endeudamiento. Menciona sarampión y romadizo, no solo viruela. Los pasajes citados son resumen de los editores; el texto literal de la declaración está en l. 16860-16890 del djvu, parcialmente ilegible por OCR. Sesgo: el concejo exagera la ruina para obtener franquicias. Este documento es la contraparte \"de parte de los vecinos\" de la carta de los jerónimos. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes del OCR; las líneas son del djvu.txt tal como se descargó. Conviene cotejar con la imagen del tomo y con el original del AGI en la Fase 3."
+  },
+  {
+   "titulo": "Memorial que para los Reyes Católicos dio el Almirante don Cristóbal Colón a Antonio de Torres, Isabela, 30-I-1494, con las respuestas marginales de los Reyes, en Navarrete, Colección de los viages y descubrimientos, t. I (Madrid, 1825), pp. 378-381",
+   "autor": "Colón, Cristóbal; ed. Fernández de Navarrete, Martín",
+   "anio": "1494 (ed. 1825)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindelosv01nava/coleccindelosv01nava_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrucción escrita por el propio Colón con las resoluciones de los Reyes anotadas al margen, editada por Navarrete desde el archivo; es la prueba directa de su propuesta, aunque el original conocido es copia.",
+   "proveniencia": "Colón la entrega a Antonio de Torres, capitán de los doce navíos que regresaban a Castilla el 2 de febrero de 1494, con los puntos que debía exponer a los Reyes. Propone enviar caníbales (hombres, mujeres y niños) para que aprendan la lengua, y, más adelante, pagar el ganado y los mantenimientos que traigan las carabelas \"en esclavos de estos caníbales\". Los Reyes responden \"que está muy bien\" a lo primero y dejan en suspenso lo segundo hasta saber la opinión del Almirante.",
+   "extractos": [
+    {
+     "ubicacion": "Navarrete t. I, p. 379; djvu l. 16249-16254",
+     "cita_original": "se envían de presente con estos navios así de los caníbales, hombres y mugeres y niños y niñas, los cuales sus Altezas pueden mandar poner en poder de personas con quien puedan mejor aprender la lengua, ejercitándolos en cosas de servicio",
+     "traduccion": "se envían ahora con estos navíos algunos caníbales, hombres, mujeres, niños y niñas, que Sus Altezas pueden mandar poner en poder de personas con quienes puedan aprender mejor la lengua, ejercitándolos en cosas de servicio",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Navarrete t. I, p. 380; djvu l. 16309-16314",
+     "cita_original": "las cuales cosas se les podrían pagar en esclavos de estos caníbales, gente tan fiera y dispuesta, y bien proporcionada y de muy buen entendimiento, los cuales quitados de aquella inhumanidad creemos que serán mejores que otros ningunos esclavos",
+     "traduccion": "estas cosas se les podrían pagar en esclavos de estos caníbales, gente tan fiera, dispuesta, bien proporcionada y de muy buen entendimiento, los cuales, quitados de aquella inhumanidad, creemos que serán mejores que otros ningunos esclavos",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Navarrete t. I, p. 380, respuesta marginal de los Reyes; djvu l. 16325-16326",
+     "cita_original": "En esto se ha suspendido por agora hasta que venga otro camino de allá, y escriba el Almirante lo que en esto le paresciere",
+     "traduccion": "en esto se ha suspendido por ahora hasta que venga otro viaje de allá y escriba el Almirante lo que en esto le pareciere",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "Navarrete t. I, Introducción, p. 85 nota 1 (nota del editor sobre órdenes reales de abril de 1495; los originales son los docs. 87, 92, 98, 99 y 134 de su Colección diplomática, t. II, no consultado); djvu l. 3606-3612",
+     "cita_original": "mandaron á D. Juan de Fonseca [...] de Abril de 1495, que se vendiesen en Andalucía; pero cuatro dias después, con reflexión mas madura, le previnieron que querían informarse de letrados, teólogos y canonistas, si con buena conciencia se podían vender",
+     "traduccion": "ordenaron a don Juan de Fonseca, el [día ilegible] de abril de 1495, que se vendiesen en Andalucía; pero cuatro días después, con reflexión más madura, le advirtieron que querían informarse de letrados, teólogos y canonistas si con buena conciencia se podían vender",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Es el origen documentado de la política de esclavizar indios en el Caribe: una propuesta de Colón (1494) que la Corona deja \"en suspenso\", y el envío de cautivos en 1495 (ver Bernáldez, F-2134), que Navarrete documenta con órdenes reales contradictorias (vender, luego consultar a juristas). Dato fuerte para A-032 como antecedente, no como cifra: no contiene números de esclavizados ni \"250.000\". La categoría \"caníbal\" aplicada a los vecinos de las islas Caribes (no a los taínos de La Española, que Colón ya distingue) es una construcción jurídica (guerra justa) que el glosario debe registrar. Navarrete (1825) cita a Las Casas (lib. I, cap. 102) para los 500 esclavos y 600 indios de 1495. El día de abril en la nota del editor no es legible en el OCR. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes; las líneas son del djvu.txt descargado. Cotejar con la imagen en la Fase 3."
+  },
+  {
+   "titulo": "Historia de los Reyes Católicos don Fernando y doña Isabel (Andrés Bernáldez, cura de Los Palacios), caps. CXX-CXXI y CXXXI-CXXXII: La Navidad destruida, envío de indios a Sevilla (1494-95) y Caonabo",
+   "autor": "Bernáldez, Andrés (cura de Los Palacios)",
+   "anio": "c. 1513 (ed. moderna)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/25-bernaldez/25%20Bernaldez_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista contemporáneo que conoció a Colón y al hermano de Caonabo (los hospedó), pero que escribe de oídas lo ocurrido en La Española.",
+   "proveniencia": "Bernáldez fue huésped de Colón en 1496 y vio a don Diego, hermano de Caonabo, con su collar de oro. Su crónica relata la destrucción de La Navidad (\"halláronlo quemado\"), la captura de \"infinitos\" indios, el envío de quinientas almas a Sevilla para ser vendidas en 1495 (murieron casi todos) y la muerte de Caonabo en el mar. Es una fuente de la corte-iglesia sevillana y coincide en lo esencial con Las Casas y Navarrete.",
+   "extractos": [
+    {
+     "ubicacion": "cap. CXX; djvu l. 7836-7838",
+     "cita_original": "dijeron que todos eran muertos [...] dijo que el rey Caonaboa, y el rey Mariema, y que les quemaron las casas del lugar",
+     "traduccion": "dijeron que todos [los cristianos] eran muertos [...] dijo [el indio] que el rey Caonabo y el rey Mariema [los habían matado] y que les quemaron las casas del lugar",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. CXX (final); djvu l. 8115-8120",
+     "cita_original": "cautivó infinitos de ellos, de los cuales envió en la segunda vez que invió los navíos quinientas animas de indios y indias, todos de buena edad [...] los cuales todos vendieron, y aprovecharon muy mal, que murieron todos los más",
+     "traduccion": "cautivó a infinitos de ellos, de los cuales envió en el segundo viaje de los navíos quinientas almas de indios e indias, todos de buena edad [...] los cuales todos vendieron, y aprovecharon muy mal, pues murieron casi todos",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "cap. CXXXI-CXXXII (regreso de Colón, junio de 1496); djvu l. 8898-8903",
+     "cita_original": "trujo consigo algunos indios que antes que él de allí partiese él había prendido, al gran Cacique Caonaboa, y a un su hermano [...] y murióse el Caonaboa en la mar o de dolencia o poco placer",
+     "traduccion": "trajo consigo algunos indios que antes de partir había prendido: al gran cacique Caonabo y a un hermano suyo [...] y murió Caonabo en el mar, o de enfermedad o de pena",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-032"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-2134",
+   "notas": "Resuelve F-2134 de \"descargada-parcial\" a leída en los pasajes del módulo. Dato para A-032: la cifra de \"quinientas almas\" enviadas a Sevilla en 1495 coincide con Las Casas (\"más de 500 esclavos\", según la cita de Navarrete; Cuneo, no localizado, da otra cifra [POR VERIFICAR]), y la mortalidad de los cautivos (\"murieron todos los más\") es contemporánea. La muerte de Caonabo \"en la mar\" difiere de la versión de Las Casas/Navarrete (tormenta que hundió los navíos en puerto): discrepancia sobre el detalle, no sobre el hecho. Es una cifra de dos fuentes que no son independientes de Colón. Los números de capítulo siguen la numeración de la edición del texto descargado; los números de la edición de 1870 pueden variar. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes; las líneas son del djvu.txt descargado. Cotejar con la imagen en la Fase 3."
+  },
+  {
+   "titulo": "Ordenanzas reales para el buen regimiento y tratamiento de los indios (Leyes de Burgos), 27-XII-1512, y declaración y moderación de Valladolid, 28-VII-1513 (transcripción de la Biblioteca Luis Ángel Arango, copia en PDF del Prof. Correa, Universitat de València)",
+   "autor": "Juana I y Fernando el Católico (regente); transcripción de la BLAA (editor no identificado en el PDF)",
+   "anio": "1512-1513",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.uv.es/correa/troncal/resources/leyesburgos1512.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto completo de las ordenanzas en transcripción paleográfica semimodernizada de una biblioteca colombiana, sin aparato crítico ni indicación de la edición base (probablemente la de Hussey o Altamira); sirve para localizar y citar, no para dirimir variantes.",
+   "proveniencia": "Promulgadas tras la protesta de fray Antonio Montesinos de la Navidad de 1511 (según la reseña de Arranz, F-0169): ordenanzas que regulan encomienda, vivienda, doctrina, jornadas de minería y trato de los indios de La Española, extendidas a Puerto Rico (el texto lleva la rúbrica \"Diose otra tal para la ysla de san Juan\") y modificadas por la declaración de Valladolid de 1513. Es la reglamentación oficial más antigua de la encomienda: reconoce que los indios mueren \"por enfermedades como por falta de mantenimientos\" y los obliga a traer la tercera parte en minas y a cinco meses de oro por año.",
+   "extractos": [
+    {
+     "ubicacion": "Preámbulo; txt extraído del PDF, l. 21-22",
+     "cita_original": "de su natural son ynclidados a ociosidad y malos vicios de que nuestro señor es deseruido y no a ninguna manera de vertud ni doctrina",
+     "traduccion": "por su naturaleza son inclinados a la ociosidad y a los malos vicios, de que Nuestro Señor es deservido, y no hay en ellos ninguna manera de virtud ni doctrina",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Preámbulo; txt l. 52-53",
+     "cita_original": "y no moriran los que muere en los caminos asy por enfermedades como por falta de mantenimientos",
+     "traduccion": "y no morirán los que mueren en los caminos, así por enfermedades como por falta de mantenimientos",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Ordenanza sobre la tercera parte; txt l. 414-416",
+     "cita_original": "cada vno que touiere yndios en encomienda sean obligados a traher la tercia parte dellos en las minas cojiendo oro o mas de la tercia parte sy quisiere",
+     "traduccion": "cada uno que tuviere indios en encomienda esté obligado a traer la tercera parte de ellos a las minas cogiendo oro, o más de la tercera parte si quisiere",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Ordenanza sobre las fundiciones; txt l. 254-256",
+     "cita_original": "cojan oro con los yndios que las tales personas tovieren encomendadas cinco messes al año e que cumplidos estos cinco messes huleguen los dichos yndios quarenta dias",
+     "traduccion": "cojan oro con los indios que tales personas tuvieren encomendados cinco meses al año, y cumplidos estos cinco meses descansen los indios cuarenta días",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Declaración de Valladolid 1513, art. 1; txt l. 589-592",
+     "cita_original": "las mugeres yndias casadas con los yndios que estan encomendados por repartimiento no sean obligadas de yr ni venir a seruir con sus maridos a las minas ni a otra parte alguna sy no fuere por su voluntad dellas",
+     "traduccion": "las mujeres indias casadas con los indios encomendados por repartimiento no sean obligadas a ir ni venir a servir con sus maridos a las minas ni a otra parte alguna, si no fuere por voluntad de ellas",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Declaración de Valladolid 1513, art. 2; txt l. 601-602",
+     "cita_original": "los niños e niñas yndios menores de quatorce años no sean obligados a seruir en cossas de trabajo",
+     "traduccion": "los niños y niñas indios menores de catorce años no sean obligados a servir en cosas de trabajo",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Colofón de 1512; txt l. 546-547",
+     "cita_original": "Dada en la cibdad de Burgos a XXVII dias del mes de diciembre año de mill e quinientos e doze años",
+     "traduccion": "Dada en la ciudad de Burgos a 27 días del mes de diciembre del año de 1512",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-030"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Para A-030 la fuente aporta dos hechos: (1) el texto oficial de 1512 admite que los indios mueren camino del trabajo por enfermedad y hambre (es decir, antes de la viruela de 1518 hay mortalidad atribuida por la propia Corona al sistema de servicio); (2) fija jornadas (un tercio en minas, cinco meses de oro, 40 días de descanso) que, si se cumplían, ya eran un régimen de trabajo forzado. No prueba si se cumplieron: Pizarro Zelaya (2013, n. 111, citando a Mira Caballos 1997) recoge que los malos tratos siguieron \"hasta la llegada de los Jerónimos\". La ordenanza de las fundiciones prohíbe coger oro con indios durante los cuarenta días de descanso \"sy no fue esclauo\": es decir, había indios esclavos trabajando el oro en La Española en 1512. El PDF no identifica quién transcribió ni de qué edición; la URL de origen (banrepcultural.org) no se abrió en esta sesión. Carácter ideológico: el preámbulo describe a los indios como \"inclinados a ociosidad y malos vicios\", justificación de la reducción a pueblos de españoles; es lenguaje de la Corona, no descripción etnográfica."
+  },
+  {
+   "titulo": "The Early Trans-Atlantic Slave Trade: Emperor Charles V (licencia de 18-VIII-1518 a Laurent de Gorrevod para introducir 4.000 esclavos negros), Lowcountry Digital History Initiative (College of Charleston)",
+   "autor": "Carlos V (documento); traducción de Worger, Clark y Alpers (eds.), Africa and the West: A Documentary History, vol. 1 (Oxford UP, 2010), p. 25; exposición LDHI",
+   "anio": "1518 (traducción 2010)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ldhi.library.cofc.edu/exhibits/show/african_laborers_for_a_new_emp/emperor_charles_v",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Extracto traducido y fragmentario (\"[. . .]\") de un documento oficial, con cita de la antología; la página confirma la cifra pero no las restantes cláusulas (destinos, exclusividad).",
+   "proveniencia": "La licencia fue concedida por el joven Carlos I (V) a Laurent de Gorrevod, gobernador flamenco de Bresse, en Zaragoza o Barcelona en agosto de 1518, para llevar \"cuatro mil esclavos negros, varones y hembras\" a las Indias; Gorrevod la vendió a mercaderes genoveses. La página LDHI reproduce la traducción en inglés de la antología de Worger, Clark y Alpers; no reproduce el original español.",
+   "extractos": [
+    {
+     "ubicacion": "Página LDHI, traducción de Worger, Clark y Alpers 2010, p. 25 (lo que la página da como cita textual, según WebFetch)",
+     "cita_original": "four thousand negro slaves both male and female",
+     "traduccion": "cuatro mil esclavos negros, varones y hembras",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0013",
+   "notas": "La lectura la hizo WebFetch (que resume con un modelo pequeño): la frase en inglés es la que la página muestra, pero la página no se leyó en bruto y no se vio el texto español. Cotejar con Las Casas, Historia, lib. III cap. CII (t. 4, l. 11016-11027: dictamen de los oficiales de la Contratación de 4.000 negros para las cuatro islas Española, San Juan, Cuba y Jamaica; compra por los genoveses en 25.000 ducados con exclusividad de ocho años) y con Herrera Década II, lib. II cap. XX. Navarrete (1825, Introducción) da 24.000 ducados citando a Herrera; Las Casas, 25.000: discrepancia de cifra entre dos fuentes que no son independientes. La licencia es un hecho de 1518; el inicio de la trata masiva a Santo Domingo es posterior."
+  },
+  {
+   "titulo": "Historia de las Indias (ed. Fuensanta del Valle y Sancho Rayón, 1875-76), lib. II caps. IX, XLII-XLIV, L-LI; lib. III caps. XXXVI, CII, CXXVIII",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "c. 1527-1561 (ed. 1875-76)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "02-fuentes/textos/gutenberg/lascasas-historia-indias-t3.txt (copia local; las líneas citadas son de t3, t4 y t5 según se indica)",
+   "urls_alternativas": [
+    "02-fuentes/textos/gutenberg/lascasas-historia-indias-t4.txt",
+    "02-fuentes/textos/gutenberg/lascasas-historia-indias-t5.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "local",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo ocular desde 1502 y encomendero convertido en el principal crítico de la conquista; sus cifras de mortandad (\"tres cuentos\", \"un cuento de ánimas\") son retóricas y él mismo reconoce que \"no es creíble\"; sus relatos de hechos locales concuerdan con otros cronistas.",
+   "proveniencia": "Las Casas llegó a La Española en 1502, con Ovando [fecha POR VERIFICAR; el propio texto dice \"yo tuve uno dellos\" a propósito de los esclavizados de Jaragua]; presenció o conoció de primera mano la matanza de Jaragua (que atribuye a Ovando), los recuentos de indios de 1508-1514, las expediciones esclavistas a los Lucayos y la viruela de 1518-19, y propuso en 1516-17 un remedio con esclavos negros del que luego se arrepintió. Escribió la Historia entre 1527 y 1561 como alegato contra la encomienda; sus cifras globales son una denuncia, no un recuento. Los pasajes están en los tomos 3 (lib. II), 4 y 5 (lib. III) de la edición de 1875-76.",
+   "extractos": [
+    {
+     "ubicacion": "lib. II, cap. IX (t. 3, l. 1757-1760)",
+     "cita_original": "sacan sola á Anacaona maniatada, pónense á la puerta del caney ó casa grande, gentes armadas, que no salga nadie; pegan fuego, arde la casa, quémanse vivos los señores y Reyes en sus tierras",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. IX (t. 3, l. 1773-1774)",
+     "cita_original": "á la reina y señora Anacaona, por hacelle honra, la ahorcaron.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. L (t. 3, l. 7624-7626)",
+     "cita_original": "estrago que habia hecho el Comendador Mayor en la provincia de Xaraguá, quemando tantos señores juntos, y ahorcando á Anacaona, hermana de Behechío, rey de allí",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLII (t. 3, l. 6535-6541)",
+     "cita_original": "año de 508, habia, contados en esta isla todos los indios, 60.000 personas; de manera, que desde el año de 494 [...] hasta el de 508, que fueron catorce años, perecieron en las guerras y enviar por esclavos á vender á Castilla, y en las minas y otros trabajos, sobre tres cuentos de ánimas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. LI (t. 3, l. 7670-7673)",
+     "cita_original": "Habia en esta isla cuando el Almirante vino 40.000 ánimas [...] en obra de un año, desque vino el tesorero Pasamonte, que dijimos haber 60.000, eran perecidos los 20.000 dellos",
+     "traduccion": "había en esta isla, cuando vino el Almirante [Diego Colón, 1509], 40.000 almas [...] en cosa de un año desde que vino el tesorero Pasamonte, cuando dijimos que había 60.000, habían perecido 20.000 de ellos",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. XXXVI (t. 4, l. 1716-1719)",
+     "cita_original": "60.000 indios, no vecinos, sino chicos y grandes, mujeres y niños, y el año de 509, cuando vino el Almirante segundo, D. Diego, habia 40.000; pero cuando vino este Rodrigo de Alburquerque por repartidor el año de 514, habia hasta 13 ó 14.000 indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. CXXVIII (t. 5, l. 819-821)",
+     "cita_original": "vino una plaga terrible que cuasi todos del todo perecieron, sin quedar sino muy poquitos con vida; ésta fué las viruelas, que dieron en los tristes indios, que alguna persona trujo de Castilla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. CXXVIII (t. 5, l. 833-835)",
+     "cita_original": "no creo que quedaron vivos ni se escaparon desta miseria 1.000 ánimas, de la inmensidad de gentes que en esta isla habia y vimos por nuestros ojos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. CII (t. 4, l. 10999-11001)",
+     "cita_original": "si les traia licencia del Rey para que pudiesen traer de Castilla una docena de negros esclavos, que abririan mano de los indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. CII (t. 4, l. 11018-11026)",
+     "cita_original": "respondieron que para estas cuatro islas, Española, Sant Juan, Cuba y Jamáica, era su parecer que al presente bastarian 4.000 esclavos negros [...] luégo ginoveses se la compraron por 25.000 ducados, y con condicion que por ocho años no diese otra licencia el Rey alguna",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-035"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLIII (t. 3, l. 6564-6570)",
+     "cita_original": "las islas de los Lucayos, ó Yucayos, vecinas desta Española y de la de Cuba, estaban llenas de gente, donde estaban ociosos y de ninguna cosa aprovechaban, y que allí nunca serian cristianos, que Su Alteza diese licencia á los vecinos españoles desta isla, para que armasen algunos navíos en que los trujesen á ella",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLIV (t. 3, l. 6783-6787)",
+     "cita_original": "Por esta órden, si órden se sufriera llamarla, en obra de diez años trujeron á esta isla Española, hombres, y mujeres, niños, y viejos, sobre un cuento de ánimas y muchas más",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLIV (t. 3, l. 6788-6791)",
+     "cita_original": "Pedro Mártir afirma haber sido informado, que de aquellas islas de los Lucayos, que eran 406, habian los Españoles traido y puesto en captiverio para echar en las minas, 40.000 ánimas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-032"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031",
+    "A-032",
+    "A-033",
+    "A-035",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M03",
+    "M01"
+   ],
+   "id_existente": "F-0006",
+   "notas": "CIFRAS (todas de Las Casas, sin documento detrás salvo que se indique): 3 millones o \"tres cuentos\" muertos entre 1494 y 1508; 60.000 indios \"contados\" en 1508; 40.000 en 1509; \"13 ó 14.000\" en 1514 (el Repartimiento de Alburquerque da 26.334 personas de servicio: F-1590; la diferencia no se explica en el texto y Las Casas escribe décadas después de memoria); \"no creo que quedaron 1.000\" tras la viruela de 1518-19; \"sobre un cuento de ánimas\" (más de un millón) traídos de los Lucayos en diez años, cifra que él atribuye parcialmente a Pedro Mártir (40.000 de 406 islas); la inconsistencia entre \"cuento\" y los 40.000 de Mártir es suya. Una cifra sin primaria trazable es D (método § 9). PARA A-030: Las Casas pone la viruela como golpe final sobre \"los pocos de indios que restaban\" y atribuye la mortandad previa a guerras, envío de esclavos a vender, minas y \"otros trabajos\" (lib. II cap. XLII), en línea con A-030; pero concede que \"debieron de haberlo comenzado muchos años ántes\" (la curación). PARA A-035: Las Casas confiesa haber dado en 1516-17 el aviso de traer una docena de negros por vecino y se arrepiente después (t. 4, l. 11006-11010: \"no lo diera por cuanto habia en el mundo\", porque siempre tuvo por injusta la esclavitud de los negros). PARA A-036: la afirmación de que el mito de la extinción nace de la campaña lascasiana se complica con Oviedo (adversario de Las Casas) que también escribe en 1548 que \"no se cree que hay\" 500 indios de la progénie de los primeros (ver F-0009). COMPARATIVA A-033 (lo que cada primaria dice del final de Anacaona): Las Casas, ahorcada en el acto, \"por hacelle honra\"; Oviedo (que defiende a Ovando), \"desde á tres meses la mandaron ahorcar por justicia\" tras una \"traición acordada\" en 1503; Herrera, \"luego ahorcaron\"; Charlevoix (1730), conducida a Santo Domingo, proceso y ejecución pública. Son cuatro relatos que no son independientes entre sí (Herrera depende de Las Casas y de Oviedo; Charlevoix de Herrera, Las Casas y Oviedo). Ninguna fuente de este lote da el año con documento: Oviedo da 1503; Charlevoix pone 1503 en el encabezado; el año 1504 aparece en otras fuentes no leídas."
+  },
+  {
+   "titulo": "Historia general y natural de las Indias, t. I (ed. Real Academia de la Historia, 1851), lib. III caps. VI y XII, lib. V cap. III y lib. XVII cap. IV: Jaragua y Anacaona, número de indios y viruelas",
+   "autor": "Fernández de Oviedo y Valdés, Gonzalo",
+   "anio": "1535-1548 (ed. 1851)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/mobot31753000521671/mobot31753000521671_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista oficial, vecino de Santo Domingo y encomendero, que defiende a Ovando y desprecia a los indios (Las Casas lo acusa de \"inmensas mentiras\": t. 5, l. 3125-3128 del texto local); coincide con él en los hechos materiales del episodio de Jaragua y en la desaparición de los indios.",
+   "proveniencia": "Oviedo llegó a las Indias en 1514 y escribió la Historia general entre 1526 y 1557 [fechas POR VERIFICAR]; el libro III (guerra y conquista de La Española) cuenta la gobernación de Ovando desde fuentes orales de los conquistadores (no estuvo en 1503) y es la versión favorable a Ovando de la matanza de Jaragua. El pasaje sobre la población se escribió en 1548. La edición de la RAH (1851) es la de referencia; el texto descargado es OCR.",
+   "extractos": [
+    {
+     "ubicacion": "lib. III, cap. XII (ed. RAH t. I, p. 90); djvu l. 18113-18117",
+     "cita_original": "teniendo el comendador mayor informacion de la traicion acordada el año de mill é quinientos y tres, fué con setenta de caballo é doscientos peones á la provincia de Xaragua",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. XII (ed. RAH t. I, p. 91); djvu l. 18162-18165",
+     "cita_original": "E assi los quemaron á todos dentro en un buhio ó casa, salvo á la dicha Anacaona que desde á tres meses la mandaron ahorcar por justicia",
+     "traduccion": "Y así los quemaron a todos dentro de un buhío o casa, salvo a la dicha Anacaona, a quien a los tres meses mandaron ahorcar \"por justicia\"",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "lib. V, cap. III (ed. RAH t. I, p. 133); djvu l. 23194-23196",
+     "cita_original": "Esta Anacaona fue muger del rey Caonabo y hermana del rey Behecchio: la qual fue muy disoluta",
+     "traduccion": "Esta Anacaona fue mujer del rey Caonabo y hermana del rey Behechio: la cual fue muy disoluta",
+     "afirmaciones": [
+      "A-033",
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. VI (ed. RAH t. I, pp. 74-75); djvu l. 15971-15978",
+     "cita_original": "falló el almirante, quando estas islas descubrió, un millon de indios é indias ó mas [...] no se cree que hay al presente en este año de mill é quinientos y quarenta é ocho, quinientas personas entre chicos é grandes que sean naturales",
+     "traduccion": "halló el almirante, cuando descubrió estas islas, un millón de indios e indias o más [...] no se cree que haya al presente, en este año de 1548, quinientas personas entre pequeños y grandes que sean naturales [de la isla]",
+     "afirmaciones": [
+      "A-030",
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. VI (ed. RAH t. I, p. 75); djvu l. 15980-15983",
+     "cita_original": "Porque los mas que agora hay, son traydos por los chripstianos de otras islas ó de la Tierra-Firme, para se servir dellos",
+     "traduccion": "Porque los más que ahora hay son traídos por los cristianos de otras islas o de Tierra Firme, para servirse de ellos",
+     "afirmaciones": [
+      "A-036"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. VI (ed. RAH t. I, p. 75); djvu l. 15984-15989",
+     "cita_original": "trabajaron algunos excesivamente á los indios: otros no les dieron tan bien de comer como convenia; é junto con esto, esta gente de su natural es ociosa é viciosa, é de poco trabajo",
+     "traduccion": "algunos trabajaron excesivamente a los indios; otros no les dieron de comer tan bien como convenía; y junto con esto, esta gente de su natural es ociosa y viciosa y de poco trabajo",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. VI (ed. RAH t. I, p. 75); djvu l. 15996-16002",
+     "cita_original": "á otros seles recrescieron tales dolencias, en especial de unas viruelas pestilenciales que vinieron generalmente en toda la isla, que en breve tiempo los indios se acabaron",
+     "traduccion": "a otros se les recrecieron tales dolencias, en especial unas viruelas pestilenciales que vinieron generalmente en toda la isla, de modo que en breve tiempo los indios se acabaron",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "lib. XVII, cap. IV (ed. RAH t. I); djvu l. 62463-62466 (sobre Cuba)",
+     "cita_original": "la dolencia pestilencial de las viruelas que tengo dicho, fué universal en todas estas islas",
+     "traduccion": "la dolencia pestilencial de las viruelas que he dicho fue universal en todas estas islas",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-033",
+    "A-034",
+    "A-036"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-0009",
+   "notas": "Oviedo escribe el pasaje sobre los indios \"en este año de 1548\", es decir, treinta años después de la viruela de 1518-19 y a la misma fecha en que Las Casas ya había escrito su alegato; lo que dice es que quedan menos de quinientas personas \"de la progénie de aquellos primeros\" y que \"los mas que agora hay\" han sido traídos de otras islas o de Tierra Firme: esto es fuerte para A-036 (hay indios en la isla pero no son en su mayoría naturales) y problematiza la idea de que la extinción sea un \"mito\" solo de Las Casas. Oviedo, pese a ser partidario de la encomienda, enumera como causas el trabajo excesivo (\"trabajaron algunos excesivamente á los indios\"), la mala alimentación, la \"natural\" ociosa y viciosa de los indios (suicidios por veneno y ahorcamiento) y la viruela: es decir, admite el trabajo forzado y la dieta como causas de la mortandad, lo que conviene a A-030. La cifra \"un millón de indios\" es suya y proviene de \"opinión de muchos\"; sin primaria trazable (D). El Jaragua de Oviedo (traición acordada, quemados en buhío, Anacaona ahorcada tres meses después) contradice a Las Casas en lo esencial: la justificación jurídica (traición) y el intervalo. Oviedo no estuvo allí; Las Casas llegó en 1502 y vio el entorno de Ovando. COMPARATIVA A-033 (lo que cada primaria dice del final de Anacaona): Las Casas, ahorcada en el acto, \"por hacelle honra\"; Oviedo (que defiende a Ovando), \"desde á tres meses la mandaron ahorcar por justicia\" tras una \"traición acordada\" en 1503; Herrera, \"luego ahorcaron\"; Charlevoix (1730), conducida a Santo Domingo, proceso y ejecución pública. Son cuatro relatos que no son independientes entre sí (Herrera depende de Las Casas y de Oviedo; Charlevoix de Herrera, Las Casas y Oviedo). Ninguna fuente de este lote da el año con documento: Oviedo da 1503; Charlevoix pone 1503 en el encabezado; el año 1504 aparece en otras fuentes no leídas. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes; las líneas son del djvu.txt descargado. Cotejar con la imagen en la Fase 3."
+  },
+  {
+   "titulo": "Historia general de los hechos de los castellanos en las islas i tierra firme del mar océano, Década I (año 1503, Jaragua) y Década II (años 1518-1520, viruela); ed. Madrid, 1601",
+   "autor": "Herrera y Tordesillas, Antonio de",
+   "anio": "1601",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiagenerald12herr/historiagenerald12herr_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista mayor con acceso a documentos oficiales, pero compila a Las Casas, Oviedo y papeles de la época; sus datos no son independientes de los suyos salvo cuando cita documento.",
+   "proveniencia": "Herrera (1559-1625 [POR VERIFICAR]), cronista mayor de Indias, publicó en 1601 las dos primeras Décadas y construye el relato de Jaragua y de la viruela desde Las Casas, Oviedo y los papeles del Consejo; en la Década II refiere cómo la viruela de 1518-19 frustró la reducción de los indios a treinta pueblos por los jerónimos y cómo, por la mortandad, se redujo el quinto del oro al diezmo. El texto descargado es OCR de la edición de 1601 con s larga.",
+   "extractos": [
+    {
+     "ubicacion": "Década I, año 1503, cap. IIII (encabezado de página \"Libro VI\"; djvu l. 23262-23270, OCR con s larga normalizada)",
+     "cita_original": "y a Anacaona luego ahorcaron",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "Década II, lib. III, cap. VII, año 1518 (djvu l. 58865-58870; OCR con s larga normalizada y \"q\" desarrollada en \"que\")",
+     "cita_original": "el mal de las viruelas, que todavía duraba, por lo cual, y por la mudanza de su vida y costumbres, y por su flaca naturaleza y complexión, vinieron a gran diminución",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Década II, lib. III, año 1519 (djvu l. 60754-60757; OCR normalizado)",
+     "cita_original": "el mal de las viruelas lo impidió [...] porque perecieron infinitos Indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "Década II, lib. IX, año 1520 (djvu l. 82500-82507; OCR normalizado, ortografía de 1601 conservada)",
+     "cita_original": "por la mortandad pestilencial de las biruelas, auian faltado muchos Indios, se revocó esta orden, y se mandó que como antes se auia pagado el quinto del oro: dende en adelante no se pagasse en aquella Isla, sino el diezmo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-033"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0904",
+   "notas": "Las citas de Herrera tienen OCR con s larga, \"q\" por \"que\" y letras ilegibles; se normalizaron s larga y abreviaturas y NO se verificaron letra a letra con el algoritmo: tratarlas como paráfrasis literal por cotejar con la imagen en Fase 3. El número de libro de la Década I (el encabezado de página dice \"Libro VI\" pero el capítulo se rotula \"Cap. IIII\") debe cotejarse. Que la Corona rebajara el quinto al diezmo \"por la mortandad pestilencial de las biruelas\" es un hecho administrativo que implica reconocimiento oficial de la mortandad (A-030) pero no la cuantifica. Herrera, además, recoge (\"Década II, lib. II, cap. XX\") la versión lascasiana del origen de la trata de negros de 1518; es derivada de Las Casas y no se cuenta como fuente independiente. COMPARATIVA A-033 (lo que cada primaria dice del final de Anacaona): Las Casas, ahorcada en el acto, \"por hacelle honra\"; Oviedo (que defiende a Ovando), \"desde á tres meses la mandaron ahorcar por justicia\" tras una \"traición acordada\" en 1503; Herrera, \"luego ahorcaron\"; Charlevoix (1730), conducida a Santo Domingo, proceso y ejecución pública. Son cuatro relatos que no son independientes entre sí (Herrera depende de Las Casas y de Oviedo; Charlevoix de Herrera, Las Casas y Oviedo). Ninguna fuente de este lote da el año con documento: Oviedo da 1503; Charlevoix pone 1503 en el encabezado; el año 1504 aparece en otras fuentes no leídas."
+  },
+  {
+   "titulo": "De Orbe Novo / Décadas, vol. 1 (trad. MacNutt 1912): Década III, sobre Anacaona y el reino de Jaragua",
+   "autor": "Mártir de Anglería, Pedro (Pietro Martire d'Anghiera); MacNutt, F. A. (trad.)",
+   "anio": "1516 (Década III; trad. 1912)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "02-fuentes/textos/gutenberg/martir-de-orbe-novo-v1-en.txt (copia local; las líneas citadas son de este archivo)",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "local",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Humanista de la corte que no viajó y escribe de informantes que volvían; sobre Anacaona es el testimonio más temprano (antes de 1516), pero traducido en 1912 y de segunda mano.",
+   "proveniencia": "Mártir (1457-1526 [POR VERIFICAR]) recibía informes de marinos y funcionarios; describe a Anacaona, hermana de Behechio y viuda de Caonabo, como poeta de areitos y como señora que, al morir su hermano, hizo enterrar vivas a sus esposas. No recoge en este pasaje la matanza de Jaragua.",
+   "extractos": [
+    {
+     "ubicacion": "Década III, lib. VII (MacNutt, vol. 1; l. 12037-12040 del txt local)",
+     "cita_original": "Anacaona, sister of Beuchios Anacauchoa, King of Xaragua, who was reputed to be talented in the composition of areytos, that is to say poems, caused to be buried alive with her brother the most beautiful of his wives or concubines",
+     "traduccion": "Anacaona, hermana de Beuchios Anacauchoa, rey de Jaragua, que tenía fama de talento para componer areitos, es decir, poemas, hizo enterrar viva con su hermano a la más hermosa de sus esposas o concubinas",
+     "afirmaciones": [
+      "A-034"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-034"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-0010",
+   "notas": "Para A-034 (Anacaona como figura heroica): la fuente más temprana la presenta como poeta y señora de alto rango, no como resistente; el rasgo heroico no viene de la crónica sino de la reelaboración posterior (Charlevoix 1730 la presenta como víctima; Nau 1855 y Ureña 1880 no se localizaron). Pedro Mártir no menciona su muerte en este pasaje. La traducción de MacNutt puede deformar el latín."
+  },
+  {
+   "titulo": "Histoire de l'Isle Espagnole ou de S. Domingue, t. I (Paris, 1730), Livre IV: año 1503, ejecución de Anacoana",
+   "autor": "Charlevoix, Pierre-François-Xavier de",
+   "anio": "1730",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoiredelislee11730char/histoiredelislee11730char_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Jesuita que reelabora a Las Casas, Oviedo y Herrera con espíritu crítico, sin documentos nuevos para 1503; su valor es mostrar cómo la tradición francesa recibió el episodio.",
+   "proveniencia": "Charlevoix (1682-1761 [POR VERIFICAR]) escribe para el público francés de Saint-Domingue y de Europa; su relato de Jaragua es la base de lo que la historiografía haitiana y francesa posterior sabrá de Anacaona. Critica a Oviedo (\"cet Écrivain a toujours grand soin de faire paroître fort criminels tous ceux qui ont éprouvé les plus tristes effets de la cruauté de sa Nation\"), recoge que Herrera y otros historiadores lo tuvieron por \"barbarie sans exemple\", condena él mismo la \"détestable Politique\" y lo sitúa en 1503.",
+   "extractos": [
+    {
+     "ubicacion": "Livre IV (djvu l. 11998-12000; OCR con s larga normalizada)",
+     "cita_original": "Behechio étoit mort depuis peu, & comme aucun de ses Enfans ne lui avoit survécu, son Royaume avoit passé à sa Sœur Anacoana",
+     "traduccion": "Behechio había muerto hacía poco y, como ninguno de sus hijos le había sobrevivido, su reino había pasado a su hermana Anacoana",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "Livre IV (c. p. 233; djvu l. 12073-12080; OCR normalizado)",
+     "cita_original": "Oviedo prétend qu'il le sçut par la confession des 300. Caciques vassaux d'Anacoana, dont il tira cet aveu par les tourmens [...] les autres Historiens, & Herrera lui-même, en ont parlé comme d'une barbarie sans exemple",
+     "traduccion": "Oviedo pretende que lo supo por la confesión de los 300 caciques vasallos de Anacoana, de los cuales sacó esa confesión mediante tormento [...] los demás historiadores, y el propio Herrera, hablaron de ello como de una barbarie sin ejemplo",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "Livre IV (c. p. 234; djvu l. 12129-12131; OCR normalizado)",
+     "cita_original": "elle fut déclarée atteinte & convaincue d'avoir conspiré contre les Espagnols, condamnée comme telle à être pendue, & executée publiquement",
+     "traduccion": "fue declarada atenta y convicta de haber conspirado contra los españoles, condenada como tal a ser ahorcada y ejecutada públicamente",
+     "afirmaciones": [
+      "A-033"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-033"
+   ],
+   "modulos": [
+    "M02",
+    "M05"
+   ],
+   "id_existente": "F-0019",
+   "notas": "Charlevoix añade un detalle que no está en Las Casas ni en Oviedo: que Anacoana fue llevada a Santo Domingo, procesada \"dans toutes les formes de la Justice\" y ejecutada públicamente; no cita fuente en el pasaje leído (Herrera dice solo que luego la ahorcaron). El índice del tomo la rotula \"Anacoana Reine de Maguana\" (djvu l. 24079), lo que sugiere confusión con el reino de su esposo Caonabo. Hecho = el relato; interpretación = juicio sobre la barbarie. Esta es la versión francesa temprana que alimenta a Nau (1855) y a la tradición haitiana; no se localizó Nau. COMPARATIVA A-033 (lo que cada primaria dice del final de Anacaona): Las Casas, ahorcada en el acto, \"por hacelle honra\"; Oviedo (que defiende a Ovando), \"desde á tres meses la mandaron ahorcar por justicia\" tras una \"traición acordada\" en 1503; Herrera, \"luego ahorcaron\"; Charlevoix (1730), conducida a Santo Domingo, proceso y ejecución pública. Son cuatro relatos que no son independientes entre sí (Herrera depende de Las Casas y de Oviedo; Charlevoix de Herrera, Las Casas y Oviedo). Ninguna fuente de este lote da el año con documento: Oviedo da 1503; Charlevoix pone 1503 en el encabezado; el año 1504 aparece en otras fuentes no leídas. Las citas proceden del OCR de archive.org (descargado el 2026-10-07): se unieron cortes de línea y se corrigieron erratas evidentes; las líneas son del djvu.txt descargado. Cotejar con la imagen en la Fase 3."
+  },
+  {
+   "titulo": "Pesquisa de Bobadilla (1500): declaraciones de testigos contra Cristóbal Colón y sus hermanos (Archivo General de Simancas, Consejo Real, INC. 13, 1.ª parte ff. 13v-21r y 2.ª parte ff. 4v-5r); transcripción de Isabel Aguirre Landa, en First Blacks Ms. n.º 003",
+   "autor": "Testigos de la pesquisa de Francisco de Bobadilla; transcripción: Isabel Aguirre Landa (CUNY DSI / Varela 2006)",
+   "anio": "1500 (transcripción 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://firstblacks.org/wp-content/uploads/2025/07/Transcription-003_NGtgiy0.pdf",
+   "urls_alternativas": [
+    "https://firstblacks.org/en/manuscripts/fb-primary-003-manuscript"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testimonios jurados recogidos por un juez enviado para destituir a Colón: testimonio contemporáneo de primera mano pero con un sesgo evidente contra los Colón (el juez traía órdenes de reemplazarlos); se leyeron solo los pasajes sobre Juan Prieto.",
+   "proveniencia": "Pesquisa realizada en 1500 en Santo Domingo por Francisco de Bobadilla, que encarceló a Colón y a sus hermanos; el expediente en Simancas recoge denuncias de azotes y ahorcamientos de colonos castellanos por los Colón. First Blacks lo ofrece por mencionar a \"Juan Prieto\", azotado \"por vellaco\", a quien identifica con el \"Juan Moreno / Juan Prieto\" criado de Colón y primer negro registrado en las Indias.",
+   "extractos": [
+    {
+     "ubicacion": "Transcription 003, 1.ª parte, declaración de Pedro Camacho (l. 293-296 del txt)",
+     "cita_original": "Yten, dize que vio açotar a Juan Prieto que hera ydo a caçar con una perra e se le perdió e no traxo caça, e dezia el pregón «Por vellaco, e porque mintió a su señor»",
+     "traduccion": "Ítem, dice que vio azotar a Juan Prieto, que había ido a cazar con una perra y se le perdió y no trajo caza, y decía el pregón «por bellaco y porque mintió a su señor»",
+     "afirmaciones": [
+      "A-035"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-035"
+   ],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "ADVERTENCIA: la transcripción no dice que Juan Prieto sea negro ni africano; \"Prieto\" puede ser apellido o apodo (también \"prieto\" = de piel oscura). La identificación con un criado negro de Colón es del proyecto First Blacks (y de Varela 2006); no se comprobó. Por eso este documento no es, por sí solo, prueba de presencia africana en 1500 y no debe usarse para adelantar el 1502 de A-035. Lo que sí documenta es el régimen de azotes y ahorcamientos bajo los Colón, que Bobadilla usó para destituirlos. Solo se leyeron las líneas citadas; el resto (≈2.600 palabras) no se analizó. Caracteres restituidos tras la extracción PDF."
+  },
+  {
+   "titulo": "Convention on the Prevention and Punishment of the Crime of Genocide, adoptada por la Asamblea General de la ONU el 9-XII-1948, United Nations Treaty Series vol. 78, n.º 1021, pp. 277 ss. (art. II en p. 280)",
+   "autor": "Asamblea General de las Naciones Unidas",
+   "anio": "1948 (en vigor 1951)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%2078/volume-78-I-1021-English.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial del tratado según la Treaty Series de la ONU (idiomas oficiales: chino, inglés, francés, ruso y español).",
+   "proveniencia": "Instrumento impulsado por Raphael Lemkin, que acuñó \"genocidio\" en 1944; el art. II define el crimen por la intención de destruir \"total o parcialmente\" un grupo nacional, étnico, racial o religioso y enumera cinco actos. Es la definición jurídica con la que se suele medir el uso de \"genocidio\" para la conquista; no es retroactiva (art. no aplicable a 1492-1520), de modo que es un criterio de comparación, no una calificación jurídica de los hechos.",
+   "extractos": [
+    {
+     "ubicacion": "Art. II (p. 280 del vol. 78)",
+     "cita_original": "genocide means any of the following acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such: (a) Killing members of the group;",
+     "traduccion": "genocidio significa cualquiera de los actos siguientes, cometidos con la intención de destruir, total o parcialmente, a un grupo nacional, étnico, racial o religioso, como tal: a) matanza de miembros del grupo;",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "Art. II, letra c (p. 280 del vol. 78)",
+     "cita_original": "(c) Deliberately inflicting on the group conditions of life calculated to bring about its physical destruction in whole or in part;",
+     "traduccion": "c) sometimiento intencional del grupo a condiciones de existencia que hayan de acarrear su destrucción física, total o parcial",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "La letra (c) es la que invoca la discusión sobre la conquista (minas, hambre, reducción forzosa); la letra (a) la de Jaragua. El texto no dice nada sobre la conquista de América: \"genocidio\" aplicado a 1492-1520 es una interpretación o una atribución de significado (A-038 es de nivel \"significado\"), no un hecho. Datos útiles para el módulo: el art. II exige intención (\"with intent to destroy\"), lo que distingue la tesis de un exterminio deliberado (Las Casas, Lemkin) de la tesis demográfica de Livi-Bacci y Cook (choque de conquista, enfermedad y trabajo forzado sin intención de extinguir). La lista de Estados que habían depositado ratificación o adhesión al registrarse el tratado (12-I-1951) incluye a Haití (ratificación, 14-X-1950; p. 279 del vol.) y no incluye a la República Dominicana, que figura solo como signataria: la página de firmas (p. 304 del vol.) lleva la firma atribuida por el OCR a \"Joaquín BALAGUER\", fechada \"11 die. 1948\" (lectura de OCR, por cotejar). Dato lateral para M13/M14. El PDF extrae mal las letras (b), (d), (e): se citan solo (a) y (c)."
+  },
+  {
+   "titulo": "Raphael Lemkin as historian of genocide in the Americas (Journal of Genocide Research 7(4), diciembre 2005, pp. 501-529)",
+   "autor": "McDonnell, Michael A.; Moses, A. Dirk",
+   "anio": "2005",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.dirkmoses.com/uploads/7/3/8/2/7382125/moses___mcdonnell_lemkin_americas.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares basado en los manuscritos inéditos de Lemkin (NYPL, American Jewish Archives); se leyeron los pasajes sobre su método y sobre La Española, no el artículo completo.",
+   "proveniencia": "Los autores (historiadores de genocidio) exhuman los textos de Lemkin sobre el colonialismo español y muestran que su historia de la conquista procede de Las Casas a través de Brion (1929) y MacNutt (1909); el pasaje citado resume a Las Casas sobre La Española: caciques quemados, reyes de Maguana, Jaragua y Higüey muertos \"como resultado del genocidio español\".",
+   "extractos": [
+    {
+     "ubicacion": "p. 503 (l. 150-153 del txt extraído)",
+     "cita_original": "For the essays he wrote on Spanish America, however, Lemkin drew mainly upon the work of Spanish witness Bartolomé de las Casas, derived mainly from Marcel Brion's, Bartolomé de las Casas: \"Father of the Indians\"",
+     "traduccion": "para sus ensayos sobre la América española, Lemkin se basó sobre todo en el testigo español Bartolomé de las Casas, conocido sobre todo a través de la biografía de Marcel Brion",
+     "afirmaciones": [
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "cita de un manuscrito de Lemkin, p. ca. 510 (l. 357-360 del txt extraído)",
+     "cita_original": "Caciques were burned everywhere; the kings of Mabua, Buacagar and Darien, of Maguana, Xaragua and Higuey perished as a result of the Spanish genocide (120, Brion)",
+     "traduccion": "los caciques fueron quemados por todas partes; los reyes de Mabua, Buacagar y Darién, de Maguana, Jaragua y Higüey perecieron como resultado del genocidio español",
+     "afirmaciones": [
+      "A-038"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Esta es una fuente secundaria que cita un manuscrito inédito de Lemkin: sirve para A-038 en cuanto prueba que el propio acuñador del término lo aplicó a la conquista, con la base de Las Casas (y por tanto con las cifras de Las Casas). No es prueba del hecho de la extinción: es historia del concepto. Lemkin trabaja con un Las Casas de segunda mano. El texto de Lemkin que queda por localizar (NYPL, Raphael Lemkin Papers; American Jewish Archives, Cincinnati) es pendiente de Fase 3. La numeración de páginas del extracto 2 es aproximada (el txt extraído no conserva la paginación)."
+  },
+  {
+   "titulo": "Reseña de Luis Arranz Márquez, Repartimientos y encomiendas en la isla Española (El repartimiento de Alburquerque de 1514) (Madrid: Fundación García Arévalo, 1991), por Patricio Hidalgo Nuchera, Revista Complutense de Historia de América, pp. 322-324",
+   "autor": "Hidalgo Nuchera, Patricio (reseñista); Arranz Márquez, Luis (obra reseñada)",
+   "anio": "1991 (reseña posterior; año de la revista no indicado en el PDF, ¿1994?)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://revistas.ucm.es/index.php/RCHA/article/download/RCHA9494110322B/29279/30439",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de tres páginas de una monografía que no se pudo leer (solo hay ejemplar físico en la ADH); las cifras que da son resumen del reseñista y deben cotejarse con el libro.",
+   "proveniencia": "La reseña resume la tesis de Arranz: la población indígena no se puede determinar a finales del siglo XV, pero entre 1492 y 1496 hubo una pérdida de alrededor de un tercio en la zona de dominio español (medida por tributos); Ovando legaliza el primer repartimiento en 1503; hay uno de Diego Colón en 1510 (unos 33.500 indios) y el de Alburquerque en 1514 (algo más de 26.000); en 1517 quedaban 15.000 indios por la huida a los montes y por las epidemias, \"la última de viruelas\".",
+   "extractos": [
+    {
+     "ubicacion": "p. 322-323 (l. 50-55 del txt extraído)",
+     "cita_original": "Arranz llega a la conclusión de que entre 1492 y 1496 hay una pérdida de población de alrededor de un tercio, debido al abandono de campos de cultivo, hambres, violencia y mortandades epidémicas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-030"
+     ]
+    },
+    {
+     "ubicacion": "p. 323 (l. 75-81 del txt extraído)",
+     "cita_original": "En mayo de 1510 Diego Colón, sucesor de Ovando, realiza un nuevo repartimiento que afectará a unos 33.500 indios [...] el de Alburquerque de 1514, que afectó a algo más de 26.000 indios",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031"
+     ]
+    },
+    {
+     "ubicacion": "p. 323 (l. 83-88 del txt extraído)",
+     "cita_original": "en 1517, tres años después del repartimiento, solamente quedaban 15.000 indios debido fundamentalmente a la huida a los montes de muchos de ellos, obligados por el repartimiento de 1514 a cambiar de encomendero y a la fatalidad de las epidemias, la última de viruelas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-031",
+      "A-030"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-031"
+   ],
+   "modulos": [
+    "M02",
+    "M03",
+    "M01"
+   ],
+   "id_existente": "F-0169",
+   "notas": "CIFRAS DE ARRANZ (según el reseñista; base: tributo recaudado y repartimientos oficiales): pérdida de un tercio de 1492 a 1496 en la zona controlada (cuarta parte de la isla); 33.500 en 1510; \"algo más de 26.000\" en 1514; 15.000 en 1517 (antes de la viruela de diciembre de 1518). Esto contradice la serie de A-031 en un punto: A-031 pone \"~18.000 tras la viruela de 1518-1519\", pero Arranz tiene 15.000 en 1517, antes de la viruela; las dos cifras son estimaciones y no se refieren al mismo año ni a la misma base. La reseña dice \"la última de viruelas\" porque habla de epidemias anteriores a 1517 (no explica cuáles); la viruela de 1518 no es la única epidemia que menciona. No se pudo localizar el libro. Pendiente: Arranz 1991 y 2001 (ejemplar físico, ADH, biblionumber 7879)."
+  },
+  {
+   "titulo": "El Imperio Español versus la Universidad Santo Tomás de Aquino (Memorias de una querella memorable) (Santo Domingo: Universidad Autónoma de Santo Domingo, 1987)",
+   "autor": "Landolfi, Ciriaco",
+   "anio": "1987",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/Landolfi-Ciriaco-ElImperioEspanolversuslaUniversidadSantoTomasdeAquino-1987.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo institucional de la UASD (449.º aniversario) sin aparato crítico completo; su valor es transmitir los argumentos de Utrera y dar la posición de la universidad; el PDF (134 MB) tiene OCR defectuoso y solo se leyeron cinco pasajes.",
+   "proveniencia": "Escrito con ocasión del 449.º aniversario de la universidad (1987) por un profesor del claustro de la UASD (datos biográficos del autor no verificados); defiende que la UASD es heredera de la universidad dominica de 1538 y discute a Utrera, quien sostenía que la bula In Apostolatus Culmine nunca se expidió o no obtuvo \"pase regio\".",
+   "extractos": [
+    {
+     "ubicacion": "p. ca. 82 (l. 3464-3469 del txt extraído; OCR sin tildes, restituidas)",
+     "cita_original": "la bula In Apostolatus Culmine expedida por Paulo III el 28 de octubre de 1538 inicia la cronología de los estudios superiores en Santo Domingo [...] Utrera ha tratado de probar con opulenta erudición que la bula no se dio y si se expidió no obtuvo \"pase regio\"",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. ca. 86, cita de Utrera (l. 3553-3555 del txt extraído)",
+     "cita_original": "El emperador Carlos V, por carta de 18 de marzo de 1538, ordena a su embajador en la corte romana",
+     "traduccion": "El emperador Carlos V, por carta de 18 de marzo de 1538, ordena a su embajador en la corte romana [que cuide de que nada se impetre por nadie fuera de lo pedido por el Consejo de Indias]",
+     "afirmaciones": [
+      "A-037"
+     ]
+    },
+    {
+     "ubicacion": "p. ca. 95 (l. 4075-4082 del txt extraído; OCR sin tildes, restituidas)",
+     "cita_original": "su consagración legal dada por añadidura y para zanjar equitativamente la disputa jesuita-dominica en La Española, por el Consejo de Indias en 1708 y 1709, y cédula real del 19 de noviembre del 1709",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-037"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-037"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Para A-037: (a) la fecha de la bula, 28-X-1538, es dato aceptado por Landolfi y por Utrera; (b) Utrera sostiene (según Landolfi) que la bula no obtuvo nunca el pase regio y que el emperador había ordenado el 18-III-1538 a su embajador en Roma impedir toda gestión eclesiástica fuera del Consejo de Indias, y existen reales órdenes de 6-IX-1538, 21-X-1571 y 14-V-1583 para recoger bulas sin pasar por el Consejo; (c) la Universidad recibió su reconocimiento legal por el Consejo de Indias y real cédula de 19-XI-1709, 171 años después. Esta es la mejor localización hasta ahora del sub-hecho disputado (confirmación regia). El texto de la bula (Bullarium Ordinis Praedicatorum, t. IV, Roma 1732, p. 571, y copia en el AGI, Santo Domingo leg. 985 según Wikipedia) y la defensa de la autenticidad por Beltrán de Heredia (1955) son [POR VERIFICAR]: no se abrieron. Landolfi sostiene la tesis \"antiimperialista\" (la corona estorbó a los dominicos); es interpretación."
+  },
+  {
+   "titulo": "PARES - Portal de Archivos Españoles (AGI): búsqueda \"Ovando instrucción 1501\"",
+   "autor": "",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/find?nm=&texto=Ovando+instrucci%C3%B3n+1501",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "429",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal oficial del Ministerio de Cultura; las imágenes son de manuscritos sin OCR.",
+   "proveniencia": "Portal de los archivos estatales españoles; contiene las imágenes del AGI (Indiferente 418, Patronato 174, etc.). WebFetch devolvió 429 (límite de peticiones) el 2026-10-07; en 2026-10-06 se registró EGRESS_BLOCKED.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "F-0239",
+   "notas": "Reintento 2026-10-07: HTTP 429 con WebFetch (no es bloqueo de red, sino límite de peticiones; puede abrirse en otro momento). Las signaturas de las piezas de este lote (AGI Indiferente 418 L.1 ff. 41v, 100r-102v, 127v-128r, 130v-131r, 132r-133r, 180v-181v; Patronato 174 R. 8; Simancas INC. 13) quedan listas para cotejo de imágenes con PARES."
+  },
+  {
+   "titulo": "Biblioteca Virtual Miguel de Cervantes: obra \"Historia general y natural de las Indias\" (Oviedo)",
+   "autor": "",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.cervantesvirtual.com/obra/historia-general-y-natural-de-las-indias-islas-y-tierra-firme-del-mar-oceano/",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Biblioteca digital de la Universidad de Alicante con ediciones críticas; el bloqueo es de acceso, no de fiabilidad.",
+   "proveniencia": "Portal con ediciones de Oviedo, Las Casas, Sánchez Valverde; WebFetch recibió 403 (Cloudflare) el 2026-10-07.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "F-0244",
+   "notas": "Reintento 2026-10-07: HTTP 403 con WebFetch; sigue bloqueado. Las obras necesarias están en archive.org (djvu.txt), por lo que el bloqueo no impide el trabajo del módulo."
+  },
+  {
+   "titulo": "Biblioteca Digital Hispánica (BNE): búsqueda \"Brevísima relación de la destruición de las Indias\"",
+   "autor": "",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://bdh.bne.es/bnesearch/Search.do?text=Brev%C3%ADsima+relaci%C3%B3n+destruici%C3%B3n+Indias+Las+Casas",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Biblioteca nacional con digitalizaciones de ediciones antiguas; el bloqueo es de acceso.",
+   "proveniencia": "Portal con ediciones del siglo XVI (Brevísima, 1552) y del Diario de Colón (Vitr/6/7); WebFetch recibió 403 el 2026-10-07.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M02"
+   ],
+   "id_existente": "F-0245",
+   "notas": "Reintento 2026-10-07: HTTP 403 con WebFetch. Sin cambio respecto a la ronda anterior."
+  },
+  {
+   "titulo": "A Brief Account of the Destruction of the Indies (traducción inglesa de 1689 de la Brevísima relación): prólogo y capítulo \"Of the Island Hispaniola\" (Jaragua y Anacaona)",
+   "autor": "Las Casas, Bartolomé de (traductor de 1689 no identificado en el texto leído)",
+   "anio": "1552 (original); 1689 (traducción)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "02-fuentes/textos/gutenberg/lascasas-brevisima-1689-en.txt (copia local; las líneas citadas son de este archivo)",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "local",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de combate del propio Las Casas, de tono más retórico que la Historia, traducido en 1689 con propósito polémico antiespañol; las cifras difieren del texto español.",
+   "proveniencia": "La Brevísima se redactó en 1542 y se imprimió en Sevilla en 1552 para influir en las Leyes Nuevas; la traducción inglesa de 1689 se hizo en un contexto de polémica antiespañola y puede alterar cifras. Este lote cita el prólogo (población de La Española) y el capítulo de La Española (Jaragua), que es la versión más difundida de la muerte de Anacaona.",
+   "extractos": [
+    {
+     "ubicacion": "Prólogo (l. 214-216 del txt local)",
+     "cita_original": "of Three Millions of Persons, which lived in Hispaniola itself, there is at present but the inconsiderable remnant of scarce Three Hundred",
+     "traduccion": "de tres millones de personas que vivían en la propia La Española, hay ahora apenas un exiguo resto de unas trescientas",
+     "afirmaciones": [
+      "A-030",
+      "A-038"
+     ]
+    },
+    {
+     "ubicacion": "Capítulo \"Of the Island Hispaniola\" (l. 499-503 del txt local)",
+     "cita_original": "he summoned about 300 Dynasta's, or Noblemen to appear before him, and commanded the most powerful of them, being first crouded into a Thatcht Barn or Hovel, to be exposed to the fury of the merciless Fire",
+     "traduccion": "convocó ante sí a unos 300 señores o nobles y mandó que los más poderosos, metidos primero en un granero o choza de paja, fueran expuestos al furor del fuego despiadado",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "Capítulo \"Of the Island Hispaniola\" (l. 504-507 del txt local)",
+     "cita_original": "And Anacaona her self who (as we said before,) sway'd the Imperial Scepter, to her greater honor was hanged on a Gibbet",
+     "traduccion": "Y la propia Anacaona, que (como dijimos) empuñaba el cetro imperial, fue colgada en una horca \"para mayor honra suya\"",
+     "afirmaciones": [
+      "A-033"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-030",
+    "A-033",
+    "A-038"
+   ],
+   "modulos": [
+    "M02",
+    "M03"
+   ],
+   "id_existente": "F-0008",
+   "notas": "DISCREPANCIA ENTRE VERSIONES: la traducción inglesa de 1689 dice que quedan \"scarce Three Hundred\"; el texto español de F-0007 (Wikisource, M01/M03) dice \"docientas personas\"; ambas son retórica de 1542 y dependen de la \"cuenta\" de tres millones, que Las Casas da por conocida pero no documenta (A-038: cifra sin primaria trazable = D). Para A-033 coincide con la Historia (Anacaona ahorcada \"para mayor honra\" = \"por hacelle honra\", Historia lib. II cap. IX) y añade la cifra de \"unos 300 señores\" y la caballería (60 de a caballo y 30 de a pie; Oviedo da 70 de a caballo y 200 peones): tres cifras distintas de la fuerza. Ni Las Casas ni Oviedo ni Herrera dan documento para el número de muertos de Jaragua."
+  },
+  {
+   "titulo": "Histoire des caciques d'Haïti, 2.ª edición (Port-au-Prince, 1893; la 1.ª es de 1854-55), con noticia biográfica y reseña del Moniteur de 1855; caps. sobre Xaragua, Ovando y Anacaona (1503) y 'Noms d'Indiens'",
+   "autor": "Nau, Émile",
+   "anio": "1855 (1.ª ed.); 1893 (2.ª ed. leída)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/histoiredescaci00naugoog/histoiredescaci00naugoog_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato literario-histórico del siglo XIX, sin aparato crítico moderno, que sigue a Las Casas, Oviedo, Herrera y Charlevoix; vale como fuente primaria del discurso nacional haitiano sobre Anacaona, no como prueba de los hechos de 1503.",
+   "proveniencia": "Émile Nau, escritor haitiano de la generación del periodismo patriótico (Le Républicain, Le Patriote), publica en 1854-55 la primera historia de los caciques como obra 'nacional'; la 2.ª edición de 1893 (Port-au-Prince) añade una noticia biográfica, la reseña del Moniteur de 27-I-185[5?] y la presenta como 'l'œuvre nationale la plus digne d'intérêt que l'on puisse consulter sur les antiquités haïtiennes'. El ejemplar leído es el de Google/Michigan (OCR con errores). Nau cuenta la fiesta de Xaragua, la matanza y el ahorcamiento de Anacaona, 'quelques mois' después.",
+   "extractos": [
+    {
+     "ubicacion": "Avant-propos, reseña del Moniteur de 27-I-185[?] reproducida en la 2.ª ed. (djvu l. 383-387; OCR corregido: \"1492\", \"d'âmes\")",
+     "cita_original": "aborigènes qui, en 1492, lors de la découverte, formaient une population de près d'un million d'âmes. Quinze années se sont à peine écoulées, et il n'en reste plus que soixante mille",
+     "traduccion": "aborígenes que en 1492, en el descubrimiento, formaban una población de cerca de un millón de almas. Apenas habían pasado quince años y no quedan más que sesenta mil",
+     "afirmaciones": [
+      "A-031",
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "Noticia biográfica, 2.ª ed., Port-au-Prince, 10-V-1893 (djvu l. 317-321)",
+     "cita_original": "Histoire des Caciques d'Haïti dont nous publions la deuxième édition, après quarante années d'intervalle, est incontestablement l'œuvre nationale la plus digne d'intérêt que l'on puisse consulter sur les antiquités haïtiennes",
+     "traduccion": "Histoire des Caciques d'Haïti, de la que publicamos la segunda edición cuarenta años después, es incontestablemente la obra nacional más digna de interés que se pueda consultar sobre las antigüedades haitianas",
+     "afirmaciones": [
+      "A-034"
+     ]
+    },
+    {
+     "ubicacion": "cap. X (1503), djvu l. 9597-9600",
+     "cita_original": "on ne trouvera pas plus de preuves historiques de l'horrible projet qu'on lui prêtait, que de sa connaissance ou même de son pressentiment de la catastrophe",
+     "traduccion": "no se hallarán más pruebas históricas del horrible proyecto que se le atribuía que de su conocimiento o siquiera presentimiento de la catástrofe",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. X (1503), djvu l. 9642-9645",
+     "cita_original": "Anacaona fut prise en vie, c'était la seule prisonnière qu'Ovando consentit à faire; tout le reste fut passé par les armes",
+     "traduccion": "Anacaona fue tomada con vida; era la única prisionera que Ovando consintió en hacer; todo el resto fue pasado por las armas",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "cap. XI (1504, ejecución del cacique Cotubanamá), djvu l. 10247-10249",
+     "cita_original": "pendu, comme l'avait été Anacaona quelques mois auparavant",
+     "traduccion": "ahorcado, como lo había sido Anacaona algunos meses antes",
+     "afirmaciones": [
+      "A-033"
+     ]
+    },
+    {
+     "ubicacion": "'Noms d'Indiens' (djvu l. 13490-13492)",
+     "cita_original": "Anacaona, cacique du Xaragua, ou royaume de l'Ouest, était doublement célèbre comme reine et comme poète",
+     "traduccion": "Anacaona, cacique de Jaragua, o reino del Oeste, era doblemente célebre como reina y como poeta",
+     "afirmaciones": [
+      "A-034"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-031",
+    "A-033",
+    "A-034"
+   ],
+   "modulos": [
+    "M02",
+    "M01"
+   ],
+   "id_existente": "F-0177",
+   "notas": "PARA A-034: en 1855 la prensa oficial haitiana (el Moniteur) ya hablaba de 'près d'un million d'âmes' reducidas a 60.000 en quince años (cifra que repite a Las Casas, ver F-0006), y en 1893 el libro de Nau se reeditaba como 'obra nacional' sobre las 'antigüedades haitianas': eso fecha la apropiación de la historia taína como patrimonio nacional haitiano al menos en 1854-1893 (cuarenta años antes de la ocupación estadounidense y de Price-Mars). Hecho = la edición y su recepción; significado = la lectura de Anacaona como símbolo de la nación (A-034, nivel de significado); en el pasaje leído, Nau la presenta como 'reina y poeta' y como víctima de un 'massacre d'innocents', no como combatiente. Nau es crítico con Ovando y con el pretexto del complot (sin pruebas históricas), pero sigue a Oviedo en que Anacaona fue ahorcada 'quelques mois' después. FALTA para A-034: Dorsainvil (1934, F-0481, descarga truncada por el servidor de manioc.org), manuales de Fombrun y los monumentos de Léogâne. La edición leída es la de 1893; no se comparó con la de 1854-55. OCR con errores corregidos en las citas."
+  }
+ ]
+}
