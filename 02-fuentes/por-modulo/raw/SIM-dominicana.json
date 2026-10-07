@@ -1,0 +1,933 @@
+{
+  "lente": "dominicana",
+  "fecha": "2026-10-07",
+  "busquedas_usadas": 40,
+  "busquedas_pendientes": [
+    "Abrir el original de Hector y Hurbon (2009), Nau (1894), Dorsainvil (1939-1940) y Vaval, Magloire, Denis para cotejar lo que Marte (2022) les atribuye (A-017, A-244, A-156).",
+    "Deive, Vodú y magia en Santo Domingo (1975; 1988): buscar edición digital en la AGN (colecciones.agn.gob.do/biblioteca.agn.gob.do), el catálogo de la ADH o el CLACSO (A-242, A-243).",
+    "Lalueza-Fox et al. 2001 (Ann. Hum. Genet. 65:137) en texto completo: la copia del repositorio de la UNPHU requiere pasar un desafío anti-bots; alternativa: PubMed/Wiley o la copia de Martínez-Cruzado en Kacike (A-237).",
+    "Resumen PGD 2026 (AJBA 189 S81: 170) por una vía que no devuelva 403 (Wiley, Europe PMC, o solicitar a UNIBE/IMTSAG) (A-230, A-236).",
+    "Comentarios dominicanos posteriores a 2021 sobre Fernandes et al. 2021 en revistas académicas (Clío 2021-2025, Estudios Sociales, Ecos, Boletín del Museo del Hombre Dominicano, Boletín del AGN) con búsqueda por texto completo en el sitio, no por motor (A-025, A-026, A-239).",
+    "Carlos J. Muñoz, conferencia del Museo Nacional de Historia y Geografía (29-VII-2026): preguntar si hay texto o diapositivas (genética e identidad; A-239, A-240).",
+    "Cotejo contra la imagen de las cifras OCR de Inoa 1991 (1.316 árabes en 1920; 162 naturalizados) y las citas de Vega 1987 (OCR defectuoso).",
+    "Abrir The Economist, «Hispaniola – One island, two worlds» (2025) y la fuente de «11 veces» (A-262).",
+    "Sirak, López Belando et al. 2026 (F-1578) y la cobertura de cdn.com.do (403): ver si reportan cifras demográficas o continuidad entre poblaciones preceramicas y ceramicas (A-025, A-239).",
+    "Cuarenta búsquedas del presupuesto de 80 quedaron sin hacer (ver busquedas_usadas)."
+  ],
+  "lagunas": [
+    "A-017: la lectura «filiación moral, no biológica» sí aparece formulada, según un historiador dominicano (Marte 2022, pp. 22, 26, 48, 51-52), por autores haitianos nombrados (Nau 1894; Hector y Hurbon 2009: 50; Vaval, Magloire, Denis; Dorsainvil 1939-1940), pero (i) de segunda mano: ninguno de esos textos se ha abierto; (ii) ninguna de esas obras se escribió frente a los estudios genéticos recientes (Simms 2010 y 2012, Fernandes 2021, PGD 2026), de modo que la laguna de H §7.11 («frente a los datos genéticos») sigue abierta; (iii) Marte es crítico de esa tradición. No se halló ningún otro texto dominicano que trate la categoría «indigène» de 1804 (las notas de prensa solo repiten que Dessalines devolvió el nombre taíno «Haití»).",
+    "A-025: sin fuente dominicana que trate la estimación de Ne de Fernandes et al. 2021 ni su traducción a cifra censal; no se localizó réplica, reseña ni comentario dominicano (prensa, Clío, Estudios Sociales, Ecos, ADH) tras 6 consultas dirigidas. La historiografía dominicana disponible discute la población de 1492 con métodos documentales y demográficos (Rosenblat 100.000; Moya Pons 400.000-600.000, en Mira Caballos 2017, F-2099, y en la antología de Moya Pons 2013, F-2157), no genéticos. La ausencia es un dato, no una prueba.",
+    "A-026: igual que A-025: ningún tratamiento dominicano de la razón censo/Ne; la crítica metodológica queda solo en F-2146 y F-2149 (internacionales).",
+    "A-156: cobertura dominicana parcial. Lora Hugi 2016 (F-0707) cita a Madiou (1847) y Ardouin (1856) solo como fuentes de los «llamamientos» de 1821-1822; Marte 2022 los trata como cronistas de 1803-1804 y califica la visión de Madiou como la de «los escritores mulatos» (lo que matiza su etiquetado como «légende noire»); Núñez Asencio 2026 (baja) menciona el noirismo con una cronología discutible (Les Griots en 1957). Ninguna fuente dominicana localizada discute la división «légende noire / légende mulâtre» como tal, ni Les Griots 1938-1940, ni la lectura noirista de 1844 como fracaso de Boyer.",
+    "A-230: el único tratamiento dominicano localizado de cromosoma Y nativo es la cifra de 1 % atribuida a Coppa por el director del Museo del Hombre Dominicano (Listín 2008; tercera mano, revistas mal identificadas). No hay fuente dominicana que reproduzca el 3 % de D'Atanasio et al. 2020 ni el 1 % del PGD 2026. El resumen del PGD 2026 (F-0203, UNIBE/ADH, de autoría dominicana) sigue sin abrirse: cris.unibe.edu.do, la ficha, el PDF p170 y el DOI de Wiley devolvieron 403 / «Just a moment...»; no se intentó superar la verificación anti-bots.",
+    "A-234: no se halló fuente de tradición historiográfica dominicana que comente el 42,6 % nativo. El propio estudio DPYD (F-0211) es de equipo con base en la UNPHU (Santo Domingo) y financiación parcial del FONDOCYT dominicano; se aporta como caso límite. La ficha de investigadores de la UNPHU y el repositorio institucional (unphu.edu.do, repositorio.unphu.edu.do) devolvieron 403. El resumen del artículo habla de 196 individuos genotipados para ancestría y los métodos de 178: inconsistencia interna a señalar.",
+    "A-236: cobertura dominicana parcial y solo histórica: inmigración árabe desde los años 1880 (Inoa 1991: 1.316 «árabes» en el Censo de 1920; 162 naturalizados 1893-1928), comerciantes sefardíes de 1830-1865 que se asimilaron (Montás Betances 2015) y rastros «guanche» y «euroasiáticos» preliminares (Listín 2008). Nada sobre ascendencia asiática (Asia centro-sur-sureste) ni sobre el componente europeo «latino» de Moreno-Estrada 2013; nada que permita decidir si las categorías Medio Oriente/judío y Asia del PGD 2026 son señal o artefacto del panel GenoChip.",
+    "A-237: cobertura dominicana parcial: Listín 2008-10-10 recoge, de boca de Martínez-Cruzado, los 24 restos de La Caleta (18 haplogrupo C, 6 D); A-237 dice «unos 27 individuos»: discrepancia sin resolver (el artículo de Lalueza-Fox et al. 2001 tiene una copia en el repositorio de la UNPHU que tampoco se pudo abrir: devuelve una página de desafío anti-bots). No hay fuente dominicana que trate la afinidad mesoamericana del haplogrupo A2 ni la hipótesis de indígenas traídos de Tierra Firme o México. Clío 2019 (F-0693) solo da que A2 y C1 aparecen en todas las comunidades y que RD comparte 3 haplotipos A2 con Puerto Rico y ninguno con Cuba.",
+    "A-239: sin tratamiento dominicano de lo que dicen Fernandes et al. 2021 sobre la descendencia de dominicanos actuales de gente de la Edad Cerámica. Hay evidencia dominicana convergente pero no equivalente: ascendencia taína medida (4 % autosómica, Vega 2023; 10 % mtDNA, Clío 2019; 15-18 % mtDNA con muestreo dirigido, Listín 2008-2010) y, como contraste anterior a la genómica, Vega 1987: «de genes indios no tienen nada». Ninguna enlaza esa ascendencia con las poblaciones locales de la Edad Cerámica.",
+    "A-240: ninguna fuente dominicana localizada trata la genética de los haitianos actuales (4 consultas dirigidas a prensa y repositorios dominicanos). Marte 2022 (pp. 51-52) afirma que la mayoría de los historiadores haitianos entiende que no hubo cognación genética ni cultural con los taínos, pero es un enunciado historiográfico, no un dato de detección. La ausencia es un dato sobre la tradición dominicana, no sobre la genética haitiana.",
+    "A-241: ninguna fuente dominicana localizada trata la ausencia de estudios genómicos con muestreo dentro de Haití (la constatación depende de una búsqueda sistemática en PubMed y Google Scholar que no corresponde a esta lente).",
+    "A-242: cobertura parcial: ninguna fuente dominicana trata el rito Petwo ni a Beauvoir-Dominique ni a Savalou E. Lo localizado es dominicano y de otro objeto: Vega 1987 (Deive) sobre luases «indios» en el vodú dominicano y Marte 2022 (pp. 48, 56-57) sobre Anacaona como loa en el vodou haitiano y la fecha tardía de ese vínculo (la leyenda de Anacaona aparece como tópico literario del Cénacle de 1836, no en las tradiciones vodouescas del campesinado).",
+    "A-243: cobertura dominicana indirecta: Vega 1987 y Tejeda Ortiz 2023-2024 documentan en la religiosidad popular dominicana el uso de hachas petaloides como «piedras de rayo» y las interpretan como herencia taína; ninguna discute el argumento de A-243 (reutilización de hachas prehistóricas sin herencia indígena, como en religiones afroatlánticas de Cuba o Brasil) y ninguna trata el contexto haitiano. Fuente clave pendiente: Deive, Vodú y magia en Santo Domingo (1975; 2.ª ed. 1988), que no se halló en línea.",
+    "A-244: cobertura dominicana por Marte 2022 (Nau, Chauvet, Roy Fombrun, La Revue Indigène; pp. 22, 26, 51-52, 56-57). Discrepancias a resolver: Marte fecha la primera edición de Nau en 1837 (A-244: 1855) y su bibliografía cita la edición de París de 1894; y Marte presenta a La Revue Indigène como indigenismo que «haitianiza» lo indígena, mientras una nota de prensa (Hoy 2022, divulgación terciaria, no incluida) dice que ese indigenismo remitía a las raíces africanas. No se halló fuente dominicana sobre Métellus 1986, Danticat 2005 ni Fombrun 1992 como textos.",
+    "A-256: cobertura dominicana directa: Vega 2023 (4 % RD, 10 % PR, 8 % Cuba, autosómico) más Listín 2008-2010 (ADNmt RD distinto del PR; un director del Museo del Hombre dice que se ha exagerado la proporción taína en PR). Ninguna da la cifra de mtDNA puertorriqueño (61 %) ni la de Cuba (33 %) de A-256; las cifras de Vega son autosómicas y sin fuente bibliográfica.",
+    "A-262: cobertura dominicana para el nivel (MEPyD 2024: 11.156 US$ en 2023) y para la fecha de la brecha (Félix 2026, citando Maddison 2023: Haití algo por encima en 1950, RD por encima en 1960), pero ninguna serie comparable de ambos países en un mismo documento. Aviso: la «razón de 11 veces» de The Economist (vía Acento) no cuadra con las cifras de A-262, que dan 5-6,5 veces; revisar si «un orden de magnitud» está bien dicho. El Banco Central no publica PIB per cápita en el Informe de la economía dominicana 2023-2024."
+  ],
+  "fuentes": [
+    {
+      "titulo": "Los indios y el nombre Haití en el proceso formativo del pueblo haitiano (Breves Ensayos, año 1, n.º 5, 26-X-2022; Unidad de Estudios de Haití, Centro de Estudios P. Alemán, S.J., PUCMM)",
+      "autor": "Marte, Roberto",
+      "anio": "2022",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://repositorioinvestigare.pucmm.edu.do/bitstreams/005f751b-e41b-40b8-812b-a7250b421313/download",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Ensayo de 85 páginas con aparato de notas y bibliografía (pp. 69-85) de un historiador que firma con la afiliación «profesor e investigador universitario, residente en Alemania»; publicado por una unidad universitaria dominicana sin arbitraje declarado. Su tesis es crítica de la historiografía haitiana (el vínculo taíno-haitiano sería una construcción ideológica), así que sus caracterizaciones de autores haitianos (Nau, Hector y Hurbon, Dorsainvil, Madiou) deben cotejarse con los textos originales antes de usarlas como evidencia sobre ellos.",
+      "proveniencia": "Roberto Marte, historiador; PDF de la serie «Breves Ensayos» de la Unidad de Estudios de Haití (UEH) del Centro de Estudios P. José L. Alemán, S.J., Pontificia Universidad Católica Madre y Maestra (PUCMM), Santo Domingo; edición digital del 26-X-2022 depositada en el repositorio institucional (repositorioinvestigare). Público: lectores académicos dominicanos; interés declarado: examen crítico de la continuidad taíno-haitiana. Primera mano: ninguna sobre los hechos del siglo XVI ni de 1804; trabaja con crónicas, obras haitianas del XIX y bibliografía secundaria.",
+      "extractos": [
+        {
+          "ubicacion": "p. 22 (PDF p. 22), sección «¿Por qué el nombre Haití?»",
+          "cita_original": "En 1804 el apelativo Haití de la nueva república se convirtió de súbito y en un sentido tropológico en un referente ancestral en razón de que sintetizaba la unión del indio y el africano a través de un destino compartido, el de la explotación inhumana de los esclavos. Los tres primeros versos del primer himno haitiano que se cantó en 1804 rezan: “Quoi? tu te tais peuple indigène / Quand un héros, par ses exploits, / vengeant ton nom, brisant ta chaîne”. Esto fue lo que la historiografía haitiana conceptuó como una “communauté de souffrances”, en la cual se realzaban los padecimientos de sus víctimas",
+          "traduccion": "[Original en español.] El fragmento francés del himno de 1804 dice: «¿Qué? ¿callas, pueblo indígena, cuando un héroe, con sus hazañas, vengando tu nombre, rompiendo tu cadena?». «Communauté de souffrances» = «comunidad de sufrimientos».",
+          "afirmaciones": [
+            "A-017"
+          ]
+        },
+        {
+          "ubicacion": "p. 26 (PDF p. 26), sección sobre el gentilicio «haïtien»",
+          "cita_original": "El gentilicio nacional haïtien no surgió como el de su pueblo vecino insular (dominicano) a resultas de un proceso de formación secular, sino de improviso (al parecer en unas horas) el 1 de enero de 1804 como el apelativo de un Estado que se creyó asociado históricamente a un ancestro putativo (los taínos), no necesariamente por razones genealógicas sino por el paralelismo histórico que se llamó “communauté de souffrances”44. Hay ciertamente una afinidad onomástica directa del nombre taíno Haití, con el gentilicio haïtien, pero esa afinidad no es de tópico ni de fondo, pues el primer término corresponde al pasado taíno de carácter étnico y el segundo hace referencia al presente de carácter nacional y político. Por eso también, muchas décadas después, el indigénisme intelectual haitiano (sobre todo La Revue Indigène) quiso resarcir esa realidad del tiempo de la colonia, haitianizando al máximo lo indígena.",
+          "traduccion": "[Original en español.] «Indigénisme» = indigenismo; «La Revue Indigène» (1927) es la revista del movimiento indigenista haitiano.",
+          "afirmaciones": [
+            "A-017",
+            "A-244"
+          ]
+        },
+        {
+          "ubicacion": "p. 27 (PDF p. 27)",
+          "cita_original": "El vínculo gentilicio “taïno-haïtien” fue una relación ilusoria pero cargada del simbolismo de un arquetipo ancestral cuando se creó la república en 1804 y así ha pervivido hasta nuestros días45 repetido una y otra vez por la intelectualidad haitiana (Gannier, 2004: 151).",
+          "traduccion": "[Original en español.] «Taïno-haïtien» = taíno-haitiano.",
+          "afirmaciones": [
+            "A-017"
+          ]
+        },
+        {
+          "ubicacion": "p. 48 (PDF p. 48)",
+          "cita_original": "Ahora bien, la opinión de los historiadores haitianos ha estado dividida entre quienes sostienen que hubo un parentesco por consanguinidad de los haitianos con los indios aborígenes (Jacob, Maximilien, Elie, Metellus, Comhaire-Sylvain, Fouchard, Roy Fombrun, etc.) y quienes explican dicho parentesco no biológicamente sino acorde a una genealogía metafórica debido al trato despiadado perpetrado por los europeos tanto a los indios como a los esclavos africanos (Nau, Vaval, Magloire, Denis).",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-017",
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "p. 51 (PDF p. 51)",
+          "cita_original": "La mayoría de los historiadores e intelectuales haitianos ha colegido que no hubo una cognación genética ni cultural entre los indios aborígenes y los antiguos esclavos de Saint-Domingue. Émile Nau, el primer letrado haitiano del siglo XIX que estudió la “race indienne,” para empezar el esquema narrativo de la historia insular dio por sentado que “nous ne sommes pas les descendants des aborigènes d’Haïti”.",
+          "traduccion": "[Original en español.] «Nous ne sommes pas les descendants des aborigènes d’Haïti» = «no somos los descendientes de los aborígenes de Haití»; «race indienne» = «raza india».",
+          "afirmaciones": [
+            "A-017",
+            "A-244"
+          ]
+        },
+        {
+          "ubicacion": "pp. 52 (PDF p. 52)",
+          "cita_original": "modernos como Hector/Hurbon reconocen que Haití no les debe nada a los primeros aborígenes (2009: 50). Y destacan que los lazos entre los indios y los haitianos no son de sangre ni culturales, sino lazos morales: que a resultas de las experiencias aciagas sufridas por los indios y por los esclavos africanos bajo el dominio despótico de los europeos había entre ellos un parentesco histórico indirecto incuestionable, una communauté de souffrances. Nau expresó que “L’Africain et l’Indien se sont donné la main dans les chaînes. Voilà par quelle confraternité de malheur, par quelle communauté de souffrances, leurs destinées se sont trouvées melées” (Nau, 1894:14).",
+          "traduccion": "[Original en español.] La cita de Nau (1894: 14) dice: «El africano y el indio se dieron la mano en las cadenas. He ahí por qué confraternidad de desgracia, por qué comunidad de sufrimientos sus destinos se hallaron mezclados». (La frase inicial «modernos como Hector/Hurbon…» continúa «Casi todos los autores haitianos» de la página anterior.)",
+          "afirmaciones": [
+            "A-017",
+            "A-244"
+          ]
+        },
+        {
+          "ubicacion": "p. 52 (PDF p. 52)",
+          "cita_original": "La república haitiana se fundó sobre esa genealogía metafórica y moral de la communauté de souffrances, queriendo decir que la revolución haitiana vengó el trato despiadado perpetrado por los españoles contra los indios86. El 28 de abril de 1804 Dessalines resumió esa actitud vindicativa en una frase: “j’ai vengé l’Amérique”. [...] Al amparo de esa ancestralidad los taínos legaron ese derecho de pertenencia de la isla a sus herederos que eran los nuevos indigènes esclavizados por los franceses. Ese anclaje ideológico en los taínos sirvió de apoyo en términos generales para que Haití se sintiera ser la poseedora legítima de la isla, aunque los taínos (que eran los indios aludidos) no hubieran jugado ningún papel en el relato de los orígenes del pueblo haitiano.",
+          "traduccion": "[Original en español.] «J’ai vengé l’Amérique» = «he vengado a América»; «indigènes» = «indígenas/nativos» (en el uso francés colonial y haitiano). Dos pasajes de la misma página unidos con [...].",
+          "afirmaciones": [
+            "A-017"
+          ]
+        },
+        {
+          "ubicacion": "p. 52 (PDF p. 52), nota 86",
+          "cita_original": "El erudito historiador dominicano Alcides García Lluberes comentó que los esclavos de Saint-Domingue, “la raza tildada de inferior”, “fueron los vengadores victoriosos...de los siervos indios aniquilados por los blancos despiadadamente”.",
+          "traduccion": "[Original en español; sin traducción.] Cita de segunda mano: Marte reproduce a García Lluberes sin dar aquí la obra; no se ha abierto el original.",
+          "afirmaciones": [
+            "A-017"
+          ]
+        },
+        {
+          "ubicacion": "p. 22 (PDF p. 22)",
+          "cita_original": "Y Chauvet urdió en sus poemas de La Fleur d’Or y en su teatro en versos en La fille du Kacik evocaciones idílicas referidas tanto a los indios como a los mulatos y a los negros (Chauvet, 1894, 1899).",
+          "traduccion": "[Original en español.] «La Fleur d’Or» = «La flor de oro»; «La fille du Kacik» = «La hija del cacique».",
+          "afirmaciones": [
+            "A-244"
+          ]
+        },
+        {
+          "ubicacion": "p. 56 (PDF p. 56), sobre Anacaona y el vodou",
+          "cita_original": "Estrictamente dicho, la leyenda de Anacaona comenzó a aparecer en Haití después de la independencia como tópico literario en la joven generación del Cénacle de 1836, específicamente en la obra de Émile Nau, no en las tradiciones vodouescas del campesinado.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-244",
+            "A-242"
+          ]
+        },
+        {
+          "ubicacion": "p. 57 (PDF p. 57)",
+          "cita_original": "Hasta tal punto se relegó la cuestión de que el libro de Nau Histoire des caciques d’Haïti, publicado por primera vez en 1837, siguió siendo durante mucho tiempo el locus classicus más citado.",
+          "traduccion": "[Original en español; sin traducción.] Nota de verificación: Marte da 1837 como fecha de la primera edición de Nau; A-244 da 1855; la bibliografía de Marte cita la edición de París de 1894 (p. 77). Fecha de la primera edición [POR VERIFICAR] contra una portada.",
+          "afirmaciones": [
+            "A-244"
+          ]
+        },
+        {
+          "ubicacion": "p. 57 (PDF p. 57)",
+          "cita_original": "Roy Fombrun agrega lo principal: “L’important pour nous a été de constater que Anacaona est devenue une loa dans le culte vodou” (Roy Fombrun, 1992: 153). El historiador Eddy Lubin dice a su vez: “Je pense qu’il est tout à fait possible de retrouver dans le vodou des traces de ce métissage amérindien africain”",
+          "traduccion": "[Original en español.] Roy Fombrun (1992: 153): «Lo importante para nosotros fue constatar que Anacaona se ha vuelto una loa en el culto vodou». Lubin: «Pienso que es perfectamente posible encontrar en el vodou huellas de ese mestizaje amerindio-africano».",
+          "afirmaciones": [
+            "A-242"
+          ]
+        },
+        {
+          "ubicacion": "p. 48 (PDF p. 48)",
+          "cita_original": "Igual corren muchas ideas tradicionales sobre la influencia de los indios en el mundo ilusivo de las creencias populares haitianas donde las prácticas religiosas taínas y el vodou se presentan relacionados, como en la representación de Papa Loko (simbolizado en San José de la iconografía católica) de la tradición rada que es el loa de los remedios ligado al iroko, árbol africano tenido como sagrado por los taínos. En realidad la creencia de que hay un vínculo de los taínos con los haitianos surgió después de la proclamación de la república en 1804. El artículo 6to. de la constitución de 1843 quiso retomar conciencia de la presencia de los indios en la historia haitiana: “Sont Haïtiens tous individus nés en Haïti ou descendant d'Africain ou d'Indien, et tous ceux nés en pays étrangers d'un Haïtien ou d'une Haïtienne”. Esa creencia no fue únicamente una opinión de los grupos mulatos que cobró fuerzas a partir del largo gobierno de Jean-Pierre Boyer, sino una creencia extendida posteriormente incluso entre algunos intelectuales noiristes.",
+          "traduccion": "[Original en español.] Cita de la Constitución haitiana de 1843, art. 6: «Son haitianos todos los individuos nacidos en Haití o descendientes de africano o de indio, y todos los nacidos en país extranjero de un haitiano o una haitiana».",
+          "afirmaciones": [
+            "A-242",
+            "A-156",
+            "A-017"
+          ]
+        },
+        {
+          "ubicacion": "p. 17 (PDF p. 17), nota crítica sobre Madiou y Ardouin como fuentes de 1803-1804",
+          "cita_original": "La exposición de Madiou era, por lo demás, la forma de ver las cosas de los escritores mulatos que fueron muy propensos a la cultura clásica europea de su tiempo, aunque no por eso el preclaro historiador dejó de censurar el sistema de la esclavitud encomiando la lucha de los esclavos y el orgullo nacional haitiano.",
+          "traduccion": "[Original en español; sin traducción.] Aviso para A-156: Marte califica la visión de Madiou como la de «los escritores mulatos», lo que matiza su etiquetado como «légende noire».",
+          "afirmaciones": [
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "p. 29 (PDF p. 29)",
+          "cita_original": "También Thomas Madiou –el padre fundador de la historiografía nacional haitiana- llamó “haïtiens” a los indios",
+          "traduccion": "[Original en español.] «Haïtiens» = «haitianos» (aplicado por Madiou a los indígenas precolombinos).",
+          "afirmaciones": [
+            "A-156"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-017",
+        "A-156",
+        "A-242",
+        "A-244"
+      ],
+      "modulos": [
+        "M00",
+        "M11",
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Lectura dirigida (grep + lectura de los pasajes citados; págs. 5, 16-17, 22-29, 37, 46-52, 56-57 y bibliografía); PDF de 85 págs. descargado completo (HTTP 200, 1,4 MB); la paginación impresa coincide con la del PDF (el número va en la cabecera de cada página). Aporta para A-017 lo que H §7.11 echaba en falta: identifica por nombre autores haitianos que formulan el vínculo como «moral» y no biológico (Nau, Vaval, Magloire, Denis; Hector y Hurbon 2009: 50; Dorsainvil 1939-1940), si bien no «frente a los datos genéticos» (Marte no trata genética) y todo de segunda mano: hay que abrir esas obras. También registra la posición contraria (consanguinidad: Jacob, Maximilien, Elie, Métellus, Comhaire-Sylvain, Fouchard, Roy Fombrun). Para A-156 no trata la dicotomía «légende noire / légende mulâtre» como tal; sí menciona a Madiou y Ardouin como fuentes, a «intelectuales noiristes» y a Denis. En p. 2, n. 2, descarta la etimología fon de Beauvoir para «Ayiti» por falta de investigación seria. Fecha de la primera edición de Nau: ver nota de extracto (1837 en Marte)."
+    },
+    {
+      "titulo": "¿Llamamientos o invasión? El debate en torno a los llamamientos de 1821 y 1822 (Clío, año 85, n.º 192, jul.-dic. 2016, pp. 98-151)",
+      "autor": "Lora Hugi, Quisqueya",
+      "anio": "2016",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2016-192-098-151.pdf",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Discurso de ingreso a la Academia Dominicana de la Historia (27-IV-2016) de una historiadora de la UASD, con aparato crítico y remisión a Madiou, Ardouin, Price-Mars, Rodríguez Demorizi y Mejía-Ricart; publicado en Clío, revista de la ADH.",
+      "proveniencia": "Quisqueya Lora Hugi, licenciada en Historia por la UASD, doctoranda por la Universidad Pablo de Olavide; texto leído en la ADH el 27-IV-2016 y publicado en Clío n.º 192 (ADH). Público: historiadores dominicanos; interés: desmontar el mito de la «invasión» de 1822 frente a la historiografía dominante.",
+      "extractos": [
+        {
+          "ubicacion": "p. 98 (primera página del artículo; PDF p. 1)",
+          "cita_original": "En torno al período de la unificación a Haití de 1822 a 1844, uno de los principales debates ha sido el relacionado con su naturaleza impuesta o voluntaria. En el siglo XX la historiografía dominante ha establecido que la unificación fue una imposición por medio de la fuerza militar.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "p. 105 (PDF p. 8)",
+          "cita_original": "En el siglo XIX dichos llamamientos habían sido referidos por autores haitianos como Thomas Madiou en su obra Histoire d´Haïti, publicada en 1847, y Beaubrum Ardouin en su Etudes sur l´histoire d´Haïti, de 1856. Madiou señaló que los mismos estaban contenidos en un folleto editado en Puerto Príncipe, en febrero de 1830,",
+          "traduccion": "[Original en español; sin traducción.] Nota: el texto dice «Beaubrum» por Beaubrun; Lora cita a Madiou (1847) y Ardouin (1856) solo como fuentes de los «llamamientos» de 1821-1822, sin etiquetarlos como «légende noire» o «légende mulâtre».",
+          "afirmaciones": [
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "p. 105, nota 23 (PDF p. 8), cita de Gustavo Adolfo Mejía-Ricart, Historia de Santo Domingo, vol. IX (AGN, 2015), p. 442",
+          "cita_original": "En atención a que, si ocioso sería resucitar aquí la antigua cuestión de la legitimidad de las conocidas actas de pronunciamiento en pro de Haití, por parte de las autoridades y munícipes dominicanos, porque ellas están depositadas en nuestros archivos y en la colección de documentos recopilados por la República Haitiana, fácil es negar la existencia de un plebiscito contenido en estos documentos no emanados directamente del pueblo",
+          "traduccion": "[Original en español; sin traducción.] Postura dominicana contraria a la legalidad plebiscitaria de 1822 (contrapunto a la lectura de Ardouin en A-156).",
+          "afirmaciones": [
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "p. 107 (PDF p. 10)",
+          "cita_original": "Sostiene Madiou que desde un mes antes, con excepción de la villa principal, el pabellón haitiano ondeaba en todos los puntos de la Parte Este lo que daba constancia del ánimo de sus habitantes.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-156"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-156"
+      ],
+      "modulos": [
+        "M11"
+      ],
+      "id_existente": "F-0707",
+      "notas": "Fuente ya registrada (F-0707); se aportan extractos nuevos para A-156. Cobertura PARCIAL: la autora usa a Madiou y Ardouin como fuentes de hechos de 1821-1830, no discute la división noirista/mulatista de la historiografía haitiana ni el papel de Les Griots, Denis y Duvalier; para esa parte de A-156 no hay aquí tratamiento. Paginación impresa = página del PDF + 97. Verificado por pdftotext (UTF-8) sobre el PDF completo (HTTP 200)."
+    },
+    {
+      "titulo": "Una exploración en la mentalidad haitiana. Contrapunteo entre León-François Hoffmann (1932-2018) y Micheline Labelle (1940-2024) (Acento, 15-IV-2026)",
+      "autor": "Núñez Asencio, Manuel",
+      "anio": "2026",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/opinion/una-exploracion-en-la-mentalidad-haitiana-9659968.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Artículo de opinión de un ensayista dominicano sin notas; resume a Hoffmann y Labelle y mezcla su lectura con cronología propia, con al menos un desajuste (Les Griots en 1957).",
+      "proveniencia": "Manuel Núñez Asencio, ensayista y columnista dominicano (byline visible en las etiquetas de la página); publicado en la sección Opinión de Acento el 15-IV-2026; público: lector general dominicano; interés: lectura nacionalista de la «mentalidad haitiana».",
+      "extractos": [
+        {
+          "ubicacion": "Acento, 15-IV-2026, sección sobre la guerra racial entre negros y mulatos (párrafos sobre el negrismo)",
+          "cita_original": "El negrismo—doctrina que emergió en el siglo XIX y se radicalizó en el XX— no era un movimiento de unidad racial, sino un golpe de clase con bandera étnica.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-156"
+          ]
+        },
+        {
+          "ubicacion": "Acento, 15-IV-2026, párrafo sobre Duvalier y Les Griots",
+          "cita_original": "En 1957, Francois Duvalier transforma el noirismo (negrismo) en el Movimiento Les Griots, apoyado por los antropólogos Lorimer Denis y Jean Price Mars, como reivindicación cultural negra frente a la élite mulata— en instrumento de poder absoluto.",
+          "traduccion": "[Original en español; sin traducción.] Aviso: la fecha «1957» y la atribución a Price-Mars no coinciden con A-156 (Les Griots, 1938-1940); [POR VERIFICAR] contra fuente haitiana.",
+          "afirmaciones": [
+            "A-156"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-156"
+      ],
+      "modulos": [
+        "M11"
+      ],
+      "id_existente": "",
+      "notas": "La autoría se leyó en las etiquetas del HTML y en la ficha vista por WebFetch. Solo sirve para mostrar cómo la divulgación dominicana encuadra el «noirismo» frente al «mulatismo»; no trata a Madiou ni a Ardouin, ni la pérdida del este en 1844. Sin valor probatorio sobre la historiografía haitiana."
+    },
+    {
+      "titulo": "Estudio demuestra que parte de dominicanos conserva genes taínos (Listín Diario, 8-X-2008)",
+      "autor": "Valdivia, Javier",
+      "anio": "2008",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://listindiario.com/la-republica/2008/10/08/76515/estudio-demuestra-que-parte-de-dominicanos-conserva-genes-tainos.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Reportaje de prensa con entrevistas a los dos lados del debate (UCE/UPR y Museo del Hombre Dominicano); las cifras de Coppa son de tercera mano (el periodista cita al director del Museo, que cita a Coppa) y las revistas indicadas no coinciden con lo que consta en el registro.",
+      "proveniencia": "Javier Valdivia, periodista de Listín Diario (Santo Domingo); 8-X-2008; informa de resultados preliminares del estudio UCE–Universidad de Puerto Rico (Mercedes de la Cruz y Martínez-Cruzado) y de la crítica de Juan Rodríguez Acosta (Museo del Hombre Dominicano). Público: lector general; primera mano: entrevistas del propio periodista.",
+      "extractos": [
+        {
+          "ubicacion": "Listín Diario, 8-X-2008, sección «El estudio / Diferencias»",
+          "cita_original": "En cuanto a los resultados del análisis de ADN del cromosoma Y, Coppa consiguió resultados diferentes, aunque según Rodríguez, igual de representativos: 58% de origen europeo, 36% de origen africano, 1% de origen aborigen o nativos americanos y 5% de origen no determinado.",
+          "traduccion": "[Original en español; sin traducción.] Quien cita a Coppa es Juan Rodríguez Acosta, director del Museo del Hombre Dominicano; el periódico atribuye ese trabajo a Annals of Human Genetics n.º 65 y American Journal of Human Genetics n.º 69 (2001): la identificación de las revistas [POR VERIFICAR] (el número 65 de Ann. Hum. Genet. 2001 corresponde, según el registro F-0222, a Lalueza-Fox et al.).",
+          "afirmaciones": [
+            "A-230"
+          ]
+        },
+        {
+          "ubicacion": "Listín Diario, 8-X-2008",
+          "cita_original": "“Han exagerado la proporción taína existente en Puerto Rico”, dijo Rodríguez a LISTÍN DIARIO, a propósito de los resultados obtenidos por Martínez-Cruzado en investigaciones del mismo tipo hechas en su país natal.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-256"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-230",
+        "A-256"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl sobre la página (HTTP 200; fecha 2008-10-08). Aporta además (no mapeado a afirmaciones de la lista) 15-18 % de ascendencia taína materna preliminar y la crítica de Rodríguez Acosta a la extrapolación desde Puerto Rico. Para A-230 solo cubre el extremo bajo (1 %) de una cifra de cromosoma Y atribuida a Coppa; no recoge ni el 3 % de D'Atanasio 2020 ni el 1 % del PGD 2026."
+    },
+    {
+      "titulo": "Nuevo estudio genético busca romper mitos sobre identidad (Listín Diario, 10-X-2008)",
+      "autor": "Valdivia, Javier",
+      "anio": "2008",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://listindiario.com/la-republica/2008/10/10/76818/nuevo-estudio-genetico-busca-romper-mitos-sobre-identidad.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Reportaje de prensa que traslada, entre comillas y por correo electrónico, la relación del propio genetista (Martínez-Cruzado) sobre los dos trabajos de 2001; es de segunda mano respecto al artículo científico, pero la fuente es el autor y el periodista la identifica.",
+      "proveniencia": "Javier Valdivia, Listín Diario, 10-X-2008; presenta el estudio del Museo del Hombre Dominicano y el IIBI dirigido por Marcio Veloz Maggiolo y resume los trabajos genéticos previos en el país. Público: lector general.",
+      "extractos": [
+        {
+          "ubicacion": "Listín Diario, 10-X-2008, sección «Los pioneros» (palabras de Martínez-Cruzado)",
+          "cita_original": "El mismo investigador puertorriqueño narra que en el año 2001 se publicaron dos trabajos relativos al ADN mitocondrial de República Dominicana, ambos con la colaboración del antropólogo dominicano Fernando Luna Calderón, fallecido en el 2005. [...] Para el primero se extrajo ADN mitocondrial (que se hereda sólo por línea materna) de osamenta antigua obtenida del yacimiento arqueológico La Caleta, en Boca Chica. Este ADN mitocondrial fue analizado para 24 restos, 18 de los cuales demostraron pertenecer al haplogrupo C y los restantes del haplogrupo D.",
+          "traduccion": "[Original en español; sin traducción.] Dos pasajes contiguos del mismo párrafo unidos con [...]. El texto dice «24 restos» (A-237 dice «unos 27 individuos»): discrepancia a resolver contra Lalueza-Fox et al. 2001.",
+          "afirmaciones": [
+            "A-237"
+          ]
+        },
+        {
+          "ubicacion": "Listín Diario, 10-X-2008, sección «Aportes»",
+          "cita_original": "cuyos resultados preliminares han determinado la presencia de genes taínos en un 15 y 18% de la población actual, además de rastros genéticos de nativos de las islas Canarias (conocidos como guanches) y del tipo euroasiático en una parte del mismo conglomerado poblacional.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-236",
+        "A-237"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200; fecha 2008-10-10). Cobertura PARCIAL de A-237: confirma C y D en La Caleta (18 C + 6 D, de 24 restos) pero NO trata la afinidad mesoamericana del A2 moderno ni da el nombre del artículo (la ficha dice solo «dos trabajos publicados en 2001»). La identificación con Lalueza-Fox et al. 2001 es inferencia mía [POR VERIFICAR]. Menciona «rastros genéticos de nativos de las islas Canarias (guanches) y del tipo euroasiático» como hallazgo preliminar de la UCE/UPR, relevante para A-236."
+    },
+    {
+      "titulo": "Estudio determina que hay genes taínos en 15% de los dominicanos (Listín Diario, 17-VI-2010)",
+      "autor": "Valdivia, Javier",
+      "anio": "2010",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://listindiario.com/la-republica/2010/06/17/146622/estudio-determina-que-hay-genes-tainos-en-15-de-los-dominicanos.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Reportaje de prensa sobre la presentación pública de los resultados con citas directas de los dos investigadores responsables; no da tablas, tamaño de las submuestras ni método de muestreo más que el criterio de selección (grupos con «reductos» presuntos).",
+      "proveniencia": "Javier Valdivia, Listín Diario, 17-VI-2010; presentación de «Orígenes continentales de las primeras poblaciones de las islas del Caribe y los movimientos migratorios que los formaron. ADNmt en República Dominicana» por J. C. Martínez-Cruzado (UPR-Mayagüez) y F. Mercedes de la Cruz (UCE). Público: lector general.",
+      "extractos": [
+        {
+          "ubicacion": "Listín Diario, 17-VI-2010, cita de Martínez-Cruzado antes de la presentación",
+          "cita_original": "“Los resultados de la investigación también demostraron que existen diferencias entre el ADN mitocondrial de República Dominicana y entre el de Puerto Rico, y además entre regiones geográficas dominicanas: la del Cibao es diferente a la del Sureste y ambas son diferentes a la del Suroeste”",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-256"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-256"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200; fecha 2010-06-17). El estudio se hizo con muestreo dirigido a zonas con «reductos» presuntos (la propia nota lo dice y recoge que expertos lo consideraron arbitrario), de modo que el 15 % no es extrapolable a toda la población; ese dato afecta a la comparación de A-256. Para A-256 solo cubre la diferencia entre ADNmt dominicano y puertorriqueño, no la magnitud (61 % vs ~10-12 %)."
+    },
+    {
+      "titulo": "Sangre taína en nuestras islas (Hoy, suplemento Areíto, 20-V-2023)",
+      "autor": "Vega, Bernardo",
+      "anio": "2023",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://hoy.com.do/sangre-taina-en-nuestras-islas/",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Columna del coordinador dominicano del Proyecto Genográfico (expresidente de la ADH), con las cifras del proyecto y de Puerto Rico y Cuba, pero sin tablas, método ni fuente bibliográfica para Puerto Rico y Cuba; es testigo de primera mano de la parte dominicana y de segunda mano en el resto.",
+      "proveniencia": "Bernardo Vega Boyrie, economista, historiador y arqueólogo aficionado, presidente de la Academia Dominicana de la Historia en el período de ejecución del estudio; columna de divulgación en Hoy, 20-V-2023 (fecha del metadato: 2023-05-20). Interés: sostener que el dominicano es mayoritariamente mulato y no «indio».",
+      "extractos": [
+        {
+          "ubicacion": "Hoy (suplemento Areíto), 20-V-2023, párrafos 2, 4 y 5",
+          "cita_original": "Nuestro estudio indicó que los dominicanos tenemos un 4% de ADN de origen indígena, o sea taíno o amerindio; un 49% de ADN de origen africano y un 39% de ADN de origen europeo. Como ya habían transcurrido diecisiete generaciones desde el Descubrimiento en 1492, era lógico que la presencia indígena se redujera tan solo a un 4%. El caso de su máxima presencia fue un individuo con un 14%. Y es que los taínos se extinguieron unos treinta o cuarenta años después del Descubrimiento. [...] En Puerto Rico el mismo estudio de National Geographic dio un 10% de ADN taíno en comparación con el 4% dominicano y es que en esa isla los taínos se extinguieron más tarde que en La Española. [...] Allí la muestra de ADN entre mil cubanos por todo su territorio dio un 8% de ADN indígena en comparación con el 10% en Puerto Rico y solo un 4% en la República Dominicana.",
+          "traduccion": "[Original en español; sin traducción.] Tres pasajes unidos con [...].",
+          "afirmaciones": [
+            "A-256"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-256"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl sobre la URL corta (HTTP 200); la URL larga https://hoy.com.do/suplementos/areito/sangre-taina-en-nuestras-islas_962593.html muestra el mismo texto y la misma fecha vía WebFetch. Para A-256 es la fuente dominicana más directa: da el 10 % (PR), 8 % (Cuba) y 4 % (RD) de ADN indígena (cifras autosómicas, no mtDNA; no coinciden con las 61 % y 33 % de A-256, que son mtDNA) y la explicación de Vega (en PR los taínos se extinguieron más tarde). También afirma «indias taínas se amancebaron con españoles o africanos», relevante para A-231."
+    },
+    {
+      "titulo": "Santos, shamanes y zemíes (Santo Domingo: Fundación Cultural Dominicana, 1987); cap. «La herencia indígena en la cultura dominicana de hoy»",
+      "autor": "Vega, Bernardo",
+      "anio": "1987",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/VegaBernardo_SantoShamanesyZemies.pdf",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Compilación de trabajos de arqueología y antropología del director del Museo del Hombre Dominicano (1978-1982), con documentación de archivo y de colecciones; la conferencia es de divulgación, sin notas, y el OCR del PDF es defectuoso.",
+      "proveniencia": "Bernardo Vega Boyrie, Fundación Cultural Dominicana, 1987; el capítulo procede de un ciclo de conferencias del Museo del Hombre Dominicano sobre la dominicanidad. Público: lector dominicano culto; interés: situar la herencia indígena en la cultura actual y desmontar el «espejismo» del indio.",
+      "extractos": [
+        {
+          "ubicacion": "«La herencia indígena en la cultura dominicana de hoy» (conferencia en el Museo del Hombre Dominicano, 27 de marzo, año ilegible en el OCR; reproducida en Ensayos sobre cultura dominicana, Museo del Hombre Dominicano, c. 1981), sección «Religión popular»; p. 116 de la edición (PDF p. 128). [OCR corregido: tildes y puntuación]",
+          "cita_original": "Aun cuando ni las creencias mágico-religiosas, ni el panteón de dioses, ni la ceremonia de la Cohoba, de los taínos, han sobrevivido entre los dominicanos, no es menos cierto que en la religión popular dominicana hay sincretismos relacionados con la historia de la conquista. Carlos Esteban Deive nos cuenta cómo, en el vodú dominicano, entre los luases se encuentran: Anacaona, Caonabo, Cayacoa, Enriquillo, Guarionex, Guacanagarix, Guaroa, Hatuey, Mencía, Tamayo y la «india del Agua Dulce», o del «Agua Azul». Los luases, según el mismo autor, pertenecen a cuatro divisiones (agua, tierra, aire y fuego) y la división del agua es también conocida como la división «india».",
+          "traduccion": "[Original en español; sin traducción.] (Deive es la fuente de Vega; no se ha abierto Vodú y magia en Santo Domingo.) Es el vodú dominicano, no el rito Petwo haitiano de A-242.",
+          "afirmaciones": [
+            "A-242"
+          ]
+        },
+        {
+          "ubicacion": "Ídem, p. 116 (PDF p. 128). [OCR corregido: tildes y puntuación]",
+          "cita_original": "En la brujería dominicana, además, es común colocar, en los altares, piezas taínas, usualmente de piedra, que son pintadas de azul claro. Muchos «huaqueros» tienen dificultad en comprarle piezas a los campesinos, por creer estos últimos en sus poderes mágicos. El hacha petaloide o piedra de rayo, como le llaman los campesinos, en todo el Caribe, se supone que protege contra los rayos y, además, refresca el agua en las tinajas.",
+          "traduccion": "[Original en español; sin traducción.] Testimonio dominicano del uso popular del hacha petaloide como «piedra de rayo», con la precisión «en todo el Caribe».",
+          "afirmaciones": [
+            "A-243",
+            "A-242"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-242",
+        "A-243"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "F-2152",
+      "notas": "Fuente ya registrada (F-2152); se aportan extractos nuevos. PDF de 142 MB (HTTP 200) leído solo en el capítulo indicado (pdftotext UTF-8; OCR con errores). Paginación impresa = página del PDF - 12. Otros pasajes del mismo capítulo útiles para contraste (no mapeados a afirmaciones de la lista): p. 117, «En nuestro país prácticamente no se han hecho estudios para determinar el porciento de sangre indígena», y p. 118, «Una gran proporción de nuestra población exige que se le tipifique como “indios” o “indias”, en vez de mulatos o mulatas, cuando de genes indios no tienen nada» (posición dominicana anterior a la genómica; contrasta con A-239)."
+    },
+    {
+      "titulo": "La lluvia y el agua en la cultura popular dominicana (Acento, 28-XI-2023)",
+      "autor": "Tejeda Ortiz, Dagoberto",
+      "anio": "2023",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/opinion/la-lluvia-y-el-agua-en-la-cultura-popular-dominicana-9272019.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Columna de un antropólogo y folclorista dominicano con trabajo de campo sobre religiosidad popular, pero sin notas ni localización de las observaciones.",
+      "proveniencia": "Dagoberto Tejeda Ortiz, antropólogo social y folclorista dominicano; columna semanal en Acento (Convite); público: lector general dominicano.",
+      "extractos": [
+        {
+          "ubicacion": "Acento, 28-XI-2023, párrafo sobre las lluvias y los rayos",
+          "cita_original": "En algunos lugares, además, se enterraban en las esquinas de las viviendas “piedras de rayos” que no eran más que hachas indígenas petaloides protectoras, para evitar los rayos.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-243"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-243"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200; fecha 2023-11-28; byline por el HTML). Interpreta las «piedras de rayos» como hachas indígenas petaloides, es decir, como supervivencia o reutilización de objetos taínos en la religiosidad popular dominicana: es la lectura dominicana opuesta al argumento de A-243 (reutilización sin herencia indígena); la columna no distingue entre las dos explicaciones."
+    },
+    {
+      "titulo": "La protección mágica en la cultura popular dominicana (Acento, 26-XI-2024)",
+      "autor": "Tejeda Ortiz, Dagoberto",
+      "anio": "2024",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/opinion/la-proteccion-magica-en-la-cultura-popular-dominicana-9426686.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Misma columnista y mismas limitaciones que la columna de 2023: autoridad de campo, sin aparato.",
+      "proveniencia": "Dagoberto Tejeda Ortiz; Acento, 26-XI-2024 (metadato 2024-11-26).",
+      "extractos": [
+        {
+          "ubicacion": "Acento, 26-XI-2024, párrafo sobre religiosidad popular y protección",
+          "cita_original": "Además de esto, la vivienda se protege con “piedra de rayos” (Hachas petaloides).",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-243",
+            "A-242"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-242",
+        "A-243"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200). El párrafo sitúa la «piedra de rayos» junto a las advocaciones del vodú dominicano (luás, Santa Marta la Dominadora, Barón del Cementerio, Belié Belcán) en la misma lista de protecciones, que es la asociación vodú/objeto taíno que A-242 atribuye al Petwo haitiano."
+    },
+    {
+      "titulo": "Diversidad genética en ADN mitocondrial en la República Dominicana: Implicaciones para la historia y demografía de la Española (Clío, año 88, n.º 197, ene.-jun. 2019, pp. 193-206)",
+      "autor": "Paulino-Ramírez, Robert; Oakley, Elizabeth; Vega, Bernardo; Vilar, Miguel G.; Mencía-Ripley, Aída; Tapia, Leandro; Guerrero-Martínez, Suzana; Benítez, Arismendy; Schurr, Theodore G.",
+      "anio": "2019",
+      "tipo": "cientifica",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/Clio-2019-197-193-206.pdf",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Artículo con método descrito en la revista de la ADH, de equipo mixto UNIBE-UPenn-ADH-National Geographic; análisis parcial (472 de 1.010 individuos; 12 de 25 sitios) y sin tablas numéricas por haplogrupo en el texto (solo figuras).",
+      "proveniencia": "Equipo del Proyecto Genográfico Dominicano: UNIBE (Decanato de Investigación), Universidad de Pensilvania, Academia Dominicana de la Historia (B. Vega), National Geographic Society; financiado por UNIBE, National Geographic, UPenn, la ADH y J. B. Vicini Lluberes. Publicado en Clío, revista de la ADH.",
+      "extractos": [
+        {
+          "ubicacion": "p. 198 (PDF p. 6), «Resultados»",
+          "cita_original": "Los tipos indígenas A, B, C y D representan solo el 10 % de la población, siendo A y C los más frecuentes. Este patrón es simi- lar al observado en Puerto Rico con frecuencias más altas de los tipos A2 y C1 (Vilar et al 2014).",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-256"
+          ]
+        },
+        {
+          "ubicacion": "p. 200 (PDF p. 8), «Resultados»",
+          "cita_original": "Dado que se cree que la población taína en la República Dominicana se deriva de las poblaciones de Puerto Rico, los resultados son diferentes de lo esperado. La muestra de República Dominicana comparte solo 3 haplotipos con la muestra de Puerto Rico y no haplotipos con Cuba.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-256",
+            "A-237"
+          ]
+        },
+        {
+          "ubicacion": "p. 200 (PDF p. 8), «Conclusiones»",
+          "cita_original": "La presencia de haplotipos A2 y C1 en cada comunidad refleja un patrón visto en otras islas del Caribe, especialmente en las islas vecinas de Puerto Rico y Cuba.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-237",
+            "A-256"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-237",
+        "A-256"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "F-0693",
+      "notas": "Fuente ya registrada (F-0693) como «cientifica»; se la presenta aquí como dominicana porque es de autoría y publicación dominicanas (UNIBE + ADH; Clío): decisión de clasificación para el consolidador. PDF completo (HTTP 200, 0,9 MB). El texto da 10 % de tipos indígenas (A, B, C, D) en mtDNA, mientras el resumen de congreso PGD 2026 (F-0203) da 12,1 %: diferencia de submuestra (472 vs 1.015). NO trata la afinidad mesoamericana del A2 (A-237) ni la cifra puertorriqueña de A-256; solo compara haplotipos A2 de RD con PR (comparten 3) y Cuba (ninguno)."
+    },
+    {
+      "titulo": "The Frequency of DPYD c.557A>G in the Dominican Population and Its Association with African Ancestry (Pharmaceutics 17(1), 8)",
+      "autor": "Guevara, Mariela; de la Cruz, Carla González; Rodrigues-Soares, Fernanda; Rodríguez, Ernesto; Manóchio, Caíque; Peñas-Lledó, Eva; Dorado, Pedro; LLerena, Adrián",
+      "anio": "2024",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "dominicana",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11768636/",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Artículo revisado por pares con método descrito, pero con solo 90 AIM, cohorte universitaria de conveniencia y una inconsistencia interna (196 individuos en el resumen frente a 178 con ancestría en los métodos).",
+      "proveniencia": "Equipo con base en la UNPHU (Santo Domingo; M. Guevara y E. Rodríguez, Departamento de I+D) y en la Universidad de Extremadura (España) y centros brasileños; cohorte reclutada en la UNPHU; financiación parcial del FONDOCYT dominicano.",
+      "extractos": [
+        {
+          "ubicacion": "Abstract (Resultados)",
+          "cita_original": "From 196 Dominican individuals genotyped for genomic ancestry, 12 were self-reported Whites (6.12%), 15 Afro-descendants (7.65%), and 169 Admixed (86.22%). The molecular ancestry analysis showed that this population is 23.8% European, 42.6% Native American, and 33.6% African.",
+          "traduccion": "De 196 individuos dominicanos genotipados para ancestría genómica, 12 se declararon blancos (6,12 %), 15 afrodescendientes (7,65 %) y 169 mestizos/mezclados (86,22 %). El análisis de ancestría molecular mostró que esta población es 23,8 % europea, 42,6 % nativa americana y 33,6 % africana.",
+          "afirmaciones": [
+            "A-234"
+          ]
+        },
+        {
+          "ubicacion": "§2.4 «Continental Ancestry Analysis»",
+          "cita_original": "In this study, African, European, and Native American individual ancestry was estimated in 178 Dominican individuals by genotyping 90 ancestry informative markers (AIMs).",
+          "traduccion": "En este estudio la ancestría individual africana, europea y nativa americana se estimó en 178 individuos dominicanos genotipando 90 marcadores informativos de ancestría (AIM).",
+          "afirmaciones": [
+            "A-234"
+          ]
+        },
+        {
+          "ubicacion": "§2.1 «Subjects» y «Funding»",
+          "cita_original": "The study cohort included 196 healthy, unrelated Dominican students and staff, recruited from the “Universidad Nacional Pedro Henríquez Ureña” (UNPHU, https://unphu.edu.do , accessed on 1 December 2024) in Santo Domingo, Dominican Republic. None of the participants were immigrants, which applied to at least two of their previous generations [...] This research was partially funded by the AEXCID-Junta de Extremadura (24IA001), Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico (FONDOCYT) from the República Dominicana (2020–2021–2C5–204)",
+          "traduccion": "La cohorte incluyó 196 estudiantes y personal dominicanos sanos, sin parentesco entre sí, reclutados en la Universidad Nacional Pedro Henríquez Ureña (UNPHU), en Santo Domingo; ninguno era inmigrante hasta dos generaciones atrás. Financiación parcial: AEXCID-Junta de Extremadura (24IA001) y FONDOCYT de la República Dominicana (2020-2021-2C5-204).",
+          "afirmaciones": [
+            "A-234"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-234"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "F-0211",
+      "notas": "CLASIFICACIÓN LÍMITE: no es fuente de tradición historiográfica dominicana; se aporta para que el consolidador decida si la autoría y financiación dominicanas (UNPHU, FONDOCYT) bastan como cobertura de A-234. Texto verificado con Europe PMC (fullTextXML, HTTP 200). Confirma que la cifra 42,6 % nativa está en el original (no es error del extracto). Nótese que el resumen habla de 196 individuos genotipados para ancestría y los métodos de 178."
+    },
+    {
+      "titulo": "Los árabes en Santo Domingo (Estudios Sociales, vol. XXIV, n.º 85, jul.-sep. 1991, pp. 35-55)",
+      "autor": "Inoa, Orlando",
+      "anio": "1991",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/488/474",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Artículo de un profesor de historia dominicana de la PUCMM en Estudios Sociales, con notas y cifras del Censo de 1920 y de estudios previos (De León y Sánchez 1979; Hoetink; Nicholls 1974); el PDF es un escaneo con OCR defectuoso, de modo que cada cifra debe cotejarse con la imagen.",
+      "proveniencia": "Orlando Inoa, historiador, profesor de historia dominicana en la PUCMM (recinto Santo Domingo), publicado en Estudios Sociales (Centro de Estudios Sociales P. Juan Montalvo, S.J.); público académico dominicano; sin interés genético: trata la inmigración árabe (siria, libanesa, palestina) desde la década de 1880.",
+      "extractos": [
+        {
+          "ubicacion": "pp. 35-36 (primera página del artículo y comienzo de la siguiente), «Los árabes en el Caribe». [OCR corregido]",
+          "cita_original": "En el año 1882 el Ministerio de lo Interior y policía de la República Dominicana realizó un registro de extranjeros radicados en el país, en el cual se analizaron los principales grupos de inmigrantes que habían llegado para esa época, y no se consignó la presencia de algún árabe en suelo dominicano. No pasaría mucho tiempo desde que se realizó ese inventario para que se empezara a notar la presencia de árabes en el país. La fecha de llegada de los primeros árabes a la República Dominicana se puede ubicar a mediados de la década de los ochenta del siglo pasado.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        },
+        {
+          "ubicacion": "p. 51 (PDF p. 17). [OCR corregido]",
+          "cita_original": "Gervacio de León y Sánchez (1979:24) informan que en el período comprendido entre 1893 a 1928, 162 árabes se nacionalizaron dominicanos: 30 libaneses, 56 sirios y 76 palestinos.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        },
+        {
+          "ubicacion": "p. 52 (PDF p. 18). [OCR corregido]",
+          "cita_original": "Árabes de la segunda generación empezaron a casarse con jóvenes dominicanas, especialmente, después de que algunos árabes empezaron a ser exitosos en los negocios. Esta tendencia fue contraria a lo ocurrido en otras partes del Caribe. En Haití y en Trinidad los árabes se casaron entre sí y no se identificaron con la sociedad en que vivían, especialmente manteniéndose alejados de la política interna.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        },
+        {
+          "ubicacion": "p. 55, nota 2 (PDF p. 21). [OCR corregido]",
+          "cita_original": "A Haití emigraron más árabes que a la República Dominicana. David Nicholls [Economic Dependence and Political Autonomy. The Haitian Experience (Montreal: McGill University, 1974), 26] citando fuentes haitianas dice que para 1905 había entre 10,000 a 15,000 sirios en Haití. Si comparamos esta cifra con los 1,316 árabes que registra el Primer Censo Nacional de la República Dominicana en el 1920, vemos que la relación es más de diez a uno.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-236"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Descargado completo (HTTP 200, 2,1 MB; la edición de pdftotext trae el número del artículo de PDF distinto del impreso: impreso = PDF + 34). Cobertura PARCIAL de A-236: documenta una inmigración de Oriente Medio pequeña pero real (1.316 «árabes» en el Censo de 1920; 162 naturalizados 1893-1928) y su endogamia inicial seguida de mestizaje en la segunda generación; no dice nada sobre ascendencia judía ni asiática y no permite evaluar si el 2,3 % de ascendencia «Medio Oriente/judía» del PGD 2026 es señal o artefacto del panel (la cifra del PGD no se ha abierto: F-0203 devuelve 403)."
+    },
+    {
+      "titulo": "Historia empresarial de la República Dominicana: El papel de la inmigración judía (1830-1865) (Clío, año 84, n.º 189, ene.-jun. 2015, pp. 173-2xx)",
+      "autor": "Montás Betances, Manuel Moisés",
+      "anio": "2015",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/189-1.pdf",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Conferencia en la ADH (9-IV-2014) de un economista y profesor de la PUCMM, con notas, archivos (Archivo General de Indias) y prensa de época; historia empresarial, no genética ni demografía.",
+      "proveniencia": "Manuel Moisés Montás Betances, economista, consultor empresarial y catedrático de la PUCMM; versión ampliada de una ponencia en la World Business History Conference (Fráncfort, 2004) y de la conferencia en la ADH del 9-IV-2014; publicada en Clío 189 (ADH).",
+      "extractos": [
+        {
+          "ubicacion": "p. 174 (artículo: pp. 174-2xx; PDF p. 174), sección I «De Curazao y Saint-Thomas a Santo Domingo (1830-1844)»",
+          "cita_original": "Es un hecho conocido, aunque todavía relativamente poco documentado y estudiado, que los judíos sefarditas3 procedentes de Curazao y Saint-Thomas desempeñaron un rol importante en la vida económica de la nación en el segundo tercio del siglo XIX.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        },
+        {
+          "ubicacion": "p. 209 (PDF p. 209)",
+          "cita_original": "Para ese entonces, la mayoría de los cerca de 25 comerciantes sefarditas que se habían establecido en la República Dominicana habían abandonado el país, liquidando sus mercancías o dejando sus negocios en manos de sus hijos, ya reconocidos como dominicanos.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        },
+        {
+          "ubicacion": "p. 210 (PDF p. 210)",
+          "cita_original": "para esa época resultaba cada vez más frecuente que los descendientes dominicanos de los inmigrantes sefarditas se alejaran de los negocios para acercarse más al ejercicio de las profesiones liberales y la política, ocupando diversas posiciones consulares, carteras ministeriales e incluso la Presidencia de la República en 1916 con Francisco Henríquez y Carvajal",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-236"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-236"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Descargado el número completo (HTTP 200, 2,7 MB); en este número el PDF y la paginación impresa coinciden. La primera página del artículo es la 174 (la 173 es el final del artículo anterior). Cobertura PARCIAL de A-236: acredita una comunidad sefardí (~25 comerciantes de Curazao y Saint-Thomas, 1830-1865) que se asimiló y cuyos descendientes fueron reconocidos como dominicanos (incluido el presidente Francisco Henríquez y Carvajal, 1916); no hay estimación demográfica ni genética. El mismo PDF figura como F-2083 por otro artículo (Julián, Clío 189), de modo que conviene dar a este artículo un F propio."
+    },
+    {
+      "titulo": "La identidad (mitocondrial) dominicana (Acento, 1-VIII-2016)",
+      "autor": "Herrera, Jochy",
+      "anio": "2016",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/opinion/la-identidad-mitocondrial-dominicana-8369217.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Artículo de opinión sin notas que interpreta una nota de prensa; la atribución del 8 % residual a «neandertal o asiático» no tiene respaldo en el comunicado conocido y mezcla ADN nuclear con mitocondrial.",
+      "proveniencia": "Jochy Herrera (columnista dominicano; byline leído por WebFetch, no visible en el HTML descargado); Acento, 1-VIII-2016 (metadato 2016-08-01); comenta el anuncio del Proyecto Genográfico en la ADH.",
+      "extractos": [
+        {
+          "ubicacion": "Acento, 1-VIII-2016, párrafo 5 (comentario a la presentación en la ADH)",
+          "cita_original": "Científicos del National Geographic Society y la Universidad de Pensilvania en colaboración con la Universidad Iberoamericana (UNIBE) y el Museo del Hombre Dominicano coordinados por el Lic. Bernardo Vega, tras analizar mil muestras de saliva de voluntarios esparcidos en 25 comunidades del país anunciaron que la composición genética dominicana contiene 49% de ADN africano, 39% europeo, 4% precolombino y 8% neandertal u originario del continente asiático.",
+          "traduccion": "[Original en español; sin traducción.] Aviso: el «8 % neandertal u originario del continente asiático» es una glosa del columnista sobre el 8 % que resta de los porcentajes del anuncio de 2016 (49 + 39 + 4); otras notas de prensa (El Día, 6-VII-2016) no lo mencionan.",
+          "afirmaciones": [
+            "A-236"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-236"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl; el nombre del autor procede de la ficha vista por WebFetch. Valor: solo como testimonio de cómo la prensa dominicana recibió en 2016 la fracción no ibérica/africana/taína del resultado, antes de que el PGD 2026 la desglosara (2,3 % Medio Oriente/judía; 1,8 % Asia). No es evidencia sobre ascendencia."
+    },
+    {
+      "titulo": "Presidente Luis Abinader: «República Dominicana tiene el potencial para convertirse en una economía avanzada» (MEPyD, 27-II-2024)",
+      "autor": "Ministerio de Economía, Planificación y Desarrollo (MEPyD), República Dominicana",
+      "anio": "2024",
+      "tipo": "primaria",
+      "idioma": "es",
+      "tradicion": "oficial-rd",
+      "url": "https://mepyd.gob.do/presidente-luis-abinader-repblica-dominicana-tiene-el-potencial-para-convertirse-en-una-economia/",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Declaración oficial recogida en nota de prensa de un ministerio; da las cifras sin indicar serie, moneda constante ni fuente (¿BCRD?, ¿FMI?); sirve como cifra oficial dominicana, no como serie.",
+      "proveniencia": "MEPyD (Gobierno de la República Dominicana), nota que recoge palabras del presidente Luis Abinader sobre el crecimiento 2020-2023; público: prensa y ciudadanía; interés: promoción de la gestión económica.",
+      "extractos": [
+        {
+          "ubicacion": "Nota de prensa del Ministerio de Economía, Planificación y Desarrollo, 27-II-2024",
+          "cita_original": "Abinader precisó que, en 2020, el producto interno bruto (PIB) de la República Dominicana era de 78,923 millones de dólares y en 2023 se estima que alcanzó los 120,629 millones. Además de que el país ha pasado de una renta per cápita de 8,583 dólares en 2019 a 11,156 dólares en 2023, lo que supone un incremento del 30 %.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-262"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-262"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200; fecha 2024-02-27). 11.156 US$ (2023) está dentro del rango 10.000-11.000 de A-262 (Banco Mundial). No incluye serie de Haití. No se halló PIB per cápita en los informes anuales del Banco Central (Informe de la economía dominicana 2023 y 2024: sin cifra per cápita)."
+    },
+    {
+      "titulo": "Oportunidades Empresariales entre la República Dominicana y Haití (Unidad de Estudios de Políticas Económicas y Sociales del Caribe, MEPyD, septiembre 2016)",
+      "autor": "Andújar, Jordy (MEPyD, UEPESC)",
+      "anio": "2016",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "oficial-rd",
+      "url": "https://mepyd.gob.do/wp-content/uploads/drive/UEPESC/Informes/oportunidades-entorno-empresarial-rep-dominicana-y-haiti.compressed.pdf",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Informe técnico oficial que toma las cifras del Banco Mundial y de la CEPAL con fuente indicada; el año de los datos es 2013 y la base es PPA, no comparable sin más con las cifras nominales de 2023 de A-262.",
+      "proveniencia": "Jordy Andújar, Unidad de Estudios de Políticas Económicas y Sociales del Caribe, Ministerio de Economía, Planificación y Desarrollo, Santo Domingo, septiembre de 2016; público: sector empresarial y decisores; interés: oportunidades de comercio e inversión con Haití.",
+      "extractos": [
+        {
+          "ubicacion": "p. 5 (PDF p. 5), sección «I. Contexto del crecimiento económico en Haití»; y cuadro de indicadores p. 6",
+          "cita_original": "Haití presenta una disminución del PIB por habitante de 0.7% promedio anual en los últimos 45 años, en una situación social que se devela como el país más pobre de América y uno de los más pobres del mundo -el 59% de los haitianos vive por debajo de la línea de pobreza y el 24% en condiciones de pobreza extrema1. El ingreso per cápita de apenas US$1,703 (PPP de 2013) es el más bajo de la región, con un nivel alto de desigualdad distributiva, el coeficiente de Gini se eleva a 0.61.",
+          "traduccion": "[Original en español; sin traducción.] El cuadro de p. 6 repite: «Ingreso per cápita (PPA $ precios internacionales 2013). BM: 1,703». Nota al pie 1: «Datos del Banco Mundial (World Development Indicators)».",
+          "afirmaciones": [
+            "A-262"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-262"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "PDF completo (HTTP 200, 32 págs.). Cifra de Haití: US$ 1.703 PPA 2013 (BM), no nominal 2023; la cifra nominal 2023-24 de A-262 (1,7-2 mil) es de la serie NY.GDP.PCAP.CD del Banco Mundial (F-0236). Mezclar PPA 2013 con nominal 2023 puede confundir: aquí solo se aporta como lectura oficial dominicana de la brecha."
+    },
+    {
+      "titulo": "Cómo Haití y la República Dominicana comenzaron a separarse (elDinero, 5-V-2026; serie «La isla desigual», opinión)",
+      "autor": "Félix, Guarocuya",
+      "anio": "2026",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://eldinero.com.do/363854/como-haiti-y-la-republica-dominicana-comenzaron-a-separarse/",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Columna de un economista dominicano (doctorando en la Universidad de Barcelona) que cita el Maddison Project Database 2023 con una cautela metodológica correcta (serie comparable solo desde 1950), pero cuya tabla no pude leer (no está en el texto del HTML).",
+      "proveniencia": "Guarocuya Félix, economista con más de 30 años de experiencia en el sector público, privado y académico (según la ficha del artículo); elDinero, periódico económico dominicano; 5-V-2026 (metadato 2026-05-05); marco: «trampa de convergencia por exposición» desde la perspectiva dominicana.",
+      "extractos": [
+        {
+          "ubicacion": "elDinero, 5-V-2026, tabla y texto (la tabla no se extrajo del HTML)",
+          "cita_original": "En 1950, Haití aparece todavía ligeramente por encima de la República Dominicana en ingreso por habitante. La distancia es reducida y, en términos de magnitud histórica, no anuncia todavía la brecha contemporánea. Diez años después, la relación ya se ha invertido: la República Dominicana supera a Haití.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-262"
+          ]
+        },
+        {
+          "ubicacion": "elDinero, 5-V-2026, nota metodológica",
+          "cita_original": "Nota metodológica: Los datos de PIB per cápita en términos de paridad de poder adquisitivo (PPP) y población provienen del Maddison Project Database 2023. Las cifras han sido redondeadas para facilitar su exposición sin alterar las tendencias generales. La serie comparable para los países actuales arranca, en esta base, en 1950.",
+          "traduccion": "[Original en español; sin traducción.]",
+          "afirmaciones": [
+            "A-262"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-262"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200). Fecha la brecha: Haití algo por encima en 1950; la RD lo supera en 1960; brecha «contundente» en 2000. Sin cifras en el texto (la tabla es imagen o bloque aparte): para A-262 sirve solo para fechar la apertura de la brecha (Maddison 2023), pendiente de cotejo contra la base original. El primer artículo de la serie (https://eldinero.com.do/362440/…-1-8/, 20-IV-2026) fija la perspectiva y tampoco da cifras."
+    },
+    {
+      "titulo": "The Economist: Los dominicanos son 11 veces «más ricos» que los haitianos (Acento, 1-IV-2025)",
+      "autor": "Solano, Julio (según la ficha vista por WebFetch)",
+      "anio": "2025",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/economia/the-economist-los-dominicanos-son-11-veces-mas-ricos-que-los-haitianos-9478031.html",
+      "verificacion": "descargada-y-leida",
+      "http_status": 200,
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Resumen de prensa de un artículo de The Economist sin cifras, año, serie ni base (PPA o nominal) de la razón «11 veces».",
+      "proveniencia": "Acento (agencia dominicana), 1-IV-2025 (metadato 2025-04-01); el autor aparece en la ficha vista por WebFetch pero no en el HTML descargado; público: lector general.",
+      "extractos": [
+        {
+          "ubicacion": "Acento, 1-IV-2025, párrafo «La diferencia económica es palpable»",
+          "cita_original": "La diferencia económica es palpable: los habitantes de República Dominicana son 11 veces más ricos que sus vecinos haitianos.",
+          "traduccion": "[Original en español; sin traducción.] Se refiere al artículo de The Economist «Hispaniola – One island, two worlds».",
+          "afirmaciones": [
+            "A-262"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-262"
+      ],
+      "modulos": [
+        "M16"
+      ],
+      "id_existente": "",
+      "notas": "Texto verificado con curl (HTTP 200). OJO con A-262: la razón de 11 veces no coincide con las cifras de A-262 (10-11 mil frente a 1,7-2 mil, que son 5-6,5 veces) ni con la expresión «un orden de magnitud»; puede deberse a PPA, a otro año o a otra definición [POR VERIFICAR contra el artículo de The Economist, que no se ha abierto]."
+    }
+  ]
+}
