@@ -1,0 +1,1390 @@
+{
+ "lente": "cientifica",
+ "modulo": "M14",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 44,
+ "busquedas_pendientes": [
+  "Moya Pons et al. 1986, El batey (636 pp.): copia en biblioteca (FONDOCIENCIAS, PUCMM, INTEC) o préstamo digital; índice de cuadros y muestra",
+  "Jansen y Millán 1991 y Los trabajos de las mujeres en los bateyes (INTEC, 1990): texto o tablas (muestra, analfabetismo 48,3 %, jefatura de hogar)",
+  "Murphy 1991, Dominican Sugar Plantations (Praeger) y Murphy 1984 (Ciencia y Sociedad IX(2)): préstamo digital de archive.org o biblioteca",
+  "ONE, VI Censo Nacional 1981, volumen nacional: tabulado definitivo de extranjeros por país; CEPAL-CELADE IMILA/Redatam para la RD 1981",
+  "IPUMS-International: extracto con BPLCOUNTRY/NATIVITY para la RD 1981 (exige crear una cuenta gratuita; no se creó)",
+  "Trouillot 1990 (préstamo de archive.org); Stepick 1982 (MRG Report 52); Icart 1987, Négriers d'eux-mêmes; Marshall 1979, The Haitian Problem (Bahamas)",
+  "Statistics Canada, censo de 1986: nacidos en Haití por período de inmigración; censo de Bahamas de 1980: lugar de nacimiento",
+  "ONU, Demographic Yearbook 1983-1990: tablas de población extranjera por país de nacimiento (se probó la edición de 1985; sin tabla útil para la RD 1981)",
+  "OIT, NORMLEX: observaciones de la CEACR sobre RD (convenios 29 y 105), 1984-1989, y párrafo especial de la Conferencia de 1989",
+  "Banco Central de la RD: series de exportación de azúcar 1960-1980 y volumen de caña (p. 189 del boletín de noviembre de 1986 sin capa de texto)",
+  "DEMOS-94 (n = 2.424), Gallup-Hoy 1995-1998, LAPOP 2006+ y Latinobarómetro: preguntas sobre haitianos (A-200); no se abrieron",
+  "Deive 1975, Vodú y magia en Santo Domingo, y Davis 1987, La otra ciencia (A-201): sin texto abierto localizado",
+  "FLACSO-Andes: Silié 1998 (F-0296, handles 10469/22307 y 22800) y capítulos de Dore Cabral, Corten y Veras (22800): 403 a curl y WebFetch",
+  "Labelle, Larose y Piché 1983: PDF completo (protegido por Anubis); Wooding y Moseley-Williams 2004 (progressio.org.uk): 404",
+  "FACS 1984, Estudios niveles de vida en los bateyes del CEA (informe original de las tablas usadas por Dore Cabral)"
+ ],
+ "lagunas": [
+  "Voces de mujeres: solo hay datos agregados (n = 116 mujeres, 20 historias de vida, 1989) en Millán 1993 y cifras de segunda mano del libro de 1991; ninguna cita literal de una mujer del batey. El libro de Jansen y Millán (1991) y El batey (1986) siguen sin leerse; solo fichas (Open Library) y citas con página de Zecca, Landry y Millán.",
+  "Censo dominicano de 1981: no se obtuvo la cifra ponderada de nacidos en Haití. Sustituto verificable: en la muestra del 8,5 % (475.829 personas), 5.702 personas (1,20 %) constan con nacionalidad haitiana (imputada por el encuestador, no declarada); cálculo propio ≈ 67.000 sin ponderadores, frente a 75.502 preliminares (Báez). El microdato de IPUMS-I exige cuenta.",
+  "El código de nacionalidad 16 de la muestra de 1960 (1.924 personas) coincide con la escala de 29.350 haitianos del censo de 1960 pero no está rotulado en el documento: no se usa como cifra. La muestra de 1970 (informe de CELADE) tiene archivos defectuosos.",
+  "Las tablas del FACS 1983-84 (Dore Cabral 1987) tienen errores internos de transcripción (27,1 % en el texto y 27,9 % en el cuadro; 1.731 frente a 1.721; numeración de cuadros invertida); el informe original de 1984 no se localizó. No se sabe si la muestra cubre a los cortadores estacionales alojados en barracones.",
+  "La encuesta de 1967 (CIAS, n = 173) cubre solo 4 ingenios, excluye el Central Romana y no desglosa por nacionalidad; no hay otra encuesta con n anterior a 1983 localizada.",
+  "Diáspora y caída de Jean-Claude Duvalier: la serie de la Guardia Costera de EE. UU. (solo año calendario, 1982 en adelante) mide interdicciones marítimas, no stock; el stock de haitianos en el exterior en 1986 sigue sin fuente primaria (Bahamas: 30.000+ frente a 10.000-15.000 en 1980; Quebec ≈ 30.000 en 1983; Florida ≈ 26.000 en 1980; todas sin método). Trouillot 1990 y Stepick 1982 no se pudieron leer; «triplicó la diáspora en menos de cinco años» (Silié et al. 2002) no tiene cifra.",
+  "Economía del azúcar: solo se leyeron las series de 1981-85 del Banco Central (valor, volumen y precio de azúcar crudo); falta 1960-80 y el volumen de producción de caña por ingenio.",
+  "A-200 (antihaitianismo de élite o popular): no se halló ninguna encuesta de actitudes anterior a 1994; la primera con n en lo localizado es DEMOS-94 (n = 2.424), no abierta en esta ronda. A-201 (vodú): ni Deive 1975 ni Davis 1987 tienen texto abierto; la lente científica no aporta mediciones del número de practicantes.",
+  "Genética, ADN antiguo, arqueología, demografía colonial, epidemiología y trata atlántica no tienen aplicación directa al período 1961-86 (ya declarado en la ronda 1); no se rellenó."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "dominicano(a) de origen o ascendencia haitiana",
+   "tradicion": "dominicana",
+   "nota": "Categoría de Dore Cabral 1987 («dominicano de origen haitiano»), Millán 1993 («dominicanas de origen haitiano») y Silié et al. 2002 («de ascendencia haitiana») para nacidos en la RD con padres o abuelos nacidos en Haití; el 39,3 % de los mayores de 10 años de los bateyes del CEA tenía padre nacido en Haití (FACS 1983-84). Está unida a «dominico-haitiano» y a la sentencia TC/0168/13 (ya en el glosario), pero la categoría en sí no está."
+  },
+  {
+   "termino": "apartheid caribeño",
+   "tradicion": "dominicana",
+   "nota": "Dore Cabral 1987, p. 64: lo define como el confinamiento físico de los descendientes de haitianos en los bateyes. Término cargado y metafórico; se registra como etiqueta del autor, no como descripción."
+  },
+  {
+   "termino": "trabajo no libre (unfree labour)",
+   "tradicion": "internacional",
+   "nota": "Concepto analítico de Brass, Miles y Cohen usado por Dore Cabral 1992 y Silié et al. 2002 (p. 145) para los braceros haitianos; intermedio entre «esclavitud moderna» (A-195) y «migración circular con agencia» (A-196). No está en el glosario."
+  },
+  {
+   "termino": "kongoses (variante de congó)",
+   "tradicion": "dominicana",
+   "nota": "Millán 1993 (p. 74, nota 2) define «kongoses» como los braceros haitianos contratados que viven en bateyes agrícolas durante la zafra; el glosario ya trae «congó» (peyorativo); la OIT 1983 escribe «Kongos»."
+  },
+  {
+   "termino": "boat people (haitianos que salían por mar)",
+   "tradicion": "internacional",
+   "nota": "Silié et al. 2002 lo contraponen al bracero que va a la RD; el estatuto («refugiados» frente a migrantes económicos) fue objeto del litigio HRC v. Smith (1982). La forma kreyòl del término [POR VERIFICAR]."
+  },
+  {
+   "termino": "ambafil",
+   "tradicion": "haitiana (usado en bateyes)",
+   "nota": "Zecca Castel 2024 lo glosa como «inmigrantes ilegales», en oposición a los «regulares»; origen y ortografía [POR VERIFICAR]."
+  },
+  {
+   "termino": "picador (de caña)",
+   "tradicion": "dominicana",
+   "nota": "Nombre del cortador de caña en CIAS 1969, Moya Pons 1986 y Silié et al. 2002 (que lo define como quien hace corte, alza y arrime); distinto de «bracero» (el contratado por convenio) y de «congó» (peyorativo)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Relaciones de género y etnicidad en la industria azucarera dominicana (cap. en Soledad González Montes, coord., Mujeres y relaciones de género en la antropología latinoamericana, México: El Colegio de México, Programa Interdisciplinario de Estudios de la Mujer, 2010 [c1993], pp. 71-88)",
+   "autor": "Millán, Cecilia",
+   "anio": "1993 (ed. abierta 2010; trabajo de campo de 1989)",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.colmex.mx/downloads/jq085k837?locale=es",
+   "urls_alternativas": [
+    "https://repositorio.colmex.mx/downloads/jq085k837?locale=en",
+    "https://repositorio.colmex.mx/concern/books/f7623d40s?locale=en"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo de una socióloga de INTEC con diseño declarado (cuestionario a 116 mujeres, 20 historias de vida, trabajo de campo de 1989) y cifras con porcentaje y base; es un resumen, sin cuestionario ni tablas completas, y está fuera del período por 3 años.",
+   "proveniencia": "Cecilia Millán, socióloga del Programa de Estudios de la Mujer del Instituto Tecnológico de Santo Domingo (INTEC), escribió el texto para el libro que recoge las ponencias de la 1.ª Reunión Latinoamericana de Antropología de la Mujer (México, 1990, según la ficha catalográfica del libro); El Colegio de México lo publicó en 1993 y lo reeditó en acceso abierto en 2010 (licencia CC BY-NC-ND). Resume el estudio de caso que hizo con Senaida Jansen en 1989 en bateyes del ingenio Barahona (sur) y del ingenio Consuelo (este) (Los trabajos de las mujeres en los bateyes, INTEC, 1990). Escribe desde un enfoque que combina clase, género y etnia (cita a Albarracín 1988 sobre trabajo doméstico y valor) y contra los estudios que daban a las mujeres del batey por improductivas (Moya Pons et al. 1986).",
+   "extractos": [
+    {
+     "ubicacion": "p. 74, nota 1",
+     "cita_original": "La información fue obtenida a través de un cuestionario aplicado a 116 mujeres. Se realizaron, además, 20 historias de vida.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "de un total de 675 personas registradas, 49% son mujeres y el 51 son hombres",
+     "traduccion": "[Muestra de composición del hogar; 96 mujeres por cada 100 hombres según el texto.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "para 1989 el total de la población de los bateyes era de 113 507 personas",
+     "traduccion": "[Estimación del CEA citada por la autora, sin método; 1989.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "En 1980 la proporción de haitianos en el total de la fuerza laboral de la industria azucarera fue de 80%",
+     "traduccion": "[Cita a Del Castillo 1981 y Corten 1989 para esta y la cifra siguiente; sin definición de «haitiano» (¿nacidos en Haití, o descendientes?).]",
+     "afirmaciones": [
+      "A-194",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 73",
+     "cita_original": "el Consejo Estatal del Azúcar (CEA) emplea alrededor de 70%",
+     "traduccion": "[Del total de trabajadores haitianos, según la misma cita.]",
+     "afirmaciones": [
+      "A-194"
+     ]
+    },
+    {
+     "ubicacion": "p. 74",
+     "cita_original": "Constatamos que esa población no es itinerante sino permanente, ya que sólo una mínima parte la constituyen hombres solos (kongoses)",
+     "traduccion": "[Hecho de campo (1989) que contradice la imagen de población solo estacional; no se da el porcentaje de «kongoses».]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 75",
+     "cita_original": "83% de las mujeres entrevistadas realiza actividades productivas que generan ingresos",
+     "traduccion": "[n = 116 mujeres (p. 74, nota 1).]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 75",
+     "cita_original": "47% de las mujeres entrevistadas gasta su ingreso en comidas para el \"diario\" porque el salario del marido no es suficiente; 35% trabaja sólo para comer y 12%, porque no hay otro ingreso en la familia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "pp. 75-76",
+     "cita_original": "sólo 6% ha aprobado el nivel primario completo y sólo alrededor de la mitad sabe leer y escribir",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 77",
+     "cita_original": "la proporción de mujeres de la muestra que se declararon jefas de hogar es de 38%, bastante por encima del promedio nacional (que es de alrededor de 20%)",
+     "traduccion": "[El 73 % estaba casada o unida; el promedio rural citado es 16,8 %.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 77",
+     "cita_original": "constituyen una carga económica para sus maridos (Moya Pons et al., 1986, p. 97)",
+     "traduccion": "[Millán rebate esa tesis de El batey con sus datos de ingresos y jefatura femenina.]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 80",
+     "cita_original": "no importa que objetivamente 91.4% de las mujeres entrevistadas haya nacido en la República Dominicana",
+     "traduccion": "[Frente al 8,6 % restante; autodefinición por ascendencia en las líneas siguientes: «indias» las de antepasados dominicanos, «negras» las de ascendencia haitiana, pocas «mulatas».]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 80",
+     "cita_original": "Llamar \"haitianos\" a los residentes del batey, independientemente de su nacionalidad, garantiza la continua desvalorización de su fuerza de trabajo.",
+     "traduccion": "[Interpretación de la autora, no resultado de encuesta.]",
+     "afirmaciones": [
+      "A-195",
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-194",
+    "A-195",
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (declarado por la autora): estudio comparado de casos hecho en 1989 en el sur (ingenio Barahona) y el este (ingenio Consuelo); 116 cuestionarios a mujeres, 20 historias de vida, 675 personas registradas en el listado de hogares. INTERPRETACIÓN: que el capital azucarero se apoya en el trabajo doméstico no pagado, que «triple discriminación» (clase, género, color) y que la identidad «india» sea negación de lo haitiano. SILENCIO RELLENADO SOLO EN PARTE: es el único estudio con muestra de mujeres del batey localizado para M14, pero el capítulo no reproduce ninguna cita literal de las 20 historias de vida (leído en lo esencial, pp. 71-85 y bibliografía; no leídas las pp. 85-88 sobre identidad). La cita de Moya Pons et al. 1986 (p. 97) y la de Murphy 1989 (CEA ~60 % del azúcar, Vicini ~10 %, Romana ~30 %; p. 72) son de segunda mano. Los porcentajes de autoidentificación racial (42,2 / 37,9 / 7,8 %) no aparecen en el capítulo, solo en la reseña de Palau Infante (2017). El trabajo es de 1989: describe los bateyes al final del régimen de contratos (1966-86), no su inicio."
+  },
+  {
+   "titulo": "Reseña de: Jansen, S. y Millán, C. (1991), Género, trabajo y etnia en los bateyes dominicanos (Santo Domingo: INTEC). Batey: Revista Cubana de Antropología Sociocultural, vol. 9, n.º 9 (2017), pp. 107-108 (Dialnet: pp. 108-109)",
+   "autor": "Palau Infante, Onettis (consignada «Lcda. Iván Onettis Palau Infante» en la propia reseña)",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://dialnet.unirioja.es/descarga/articulo/5825817.pdf",
+   "urls_alternativas": [
+    "https://dialnet.unirioja.es/servlet/articulo?codigo=5825817"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de una socióloga cubana que resume el diseño y tres cifras del libro, sin base (n) para los porcentajes y sin haber visto el campo; vale como puntero verificable a una obra no digitalizada.",
+   "proveniencia": "Reseña de una socióloga del Instituto Cubano de Radio y Televisión (Santiago de Cuba) publicada en un número de la revista Batey (Universidad de Oriente, Cuba) dedicado a los bateyes cubanos. Reseña el libro de Jansen y Millán (INTEC, 1991) como «estudio de caso» sobre mujeres de los bateyes dominicanos; escribe 26 años después del trabajo de campo y no aporta datos propios.",
+   "extractos": [
+    {
+     "ubicacion": "p. 107",
+     "cita_original": "se estudiaron 7 bateyes de la región sur y 4 de la región este",
+     "traduccion": "[Diseño de la muestra del libro: 11 bateyes.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 107",
+     "cita_original": "32 mujeres de los bateyes del ingenio Barahona y 30 mujeres de los bateyes del ingenio Consuelo",
+     "traduccion": "[Subconjunto de 62 mujeres para las preguntas de color de piel, según la reseña; Millán 1993 da 116 mujeres entrevistadas en total.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 108",
+     "cita_original": "el 42.2% se nombraron ser indias, el 37.9% negras y sólo el 7.8%, mulatas",
+     "traduccion": "[Las tres cifras suman 87,9 %; la reseña no dice qué ocupa el 12,1 % restante ni la base exacta.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (según la reseña): 7 bateyes del sur y 4 del este; encuesta en dos partes (características del batey; características de la población, con trabajo de las mujeres). INTERPRETACIÓN de las autoras (vía reseña): la ideología dominante «inventa el color indio» para negar la ascendencia africana. Las cifras de autodefinición racial son [POR VERIFICAR contra el libro] porque la reseña no da la base. Año de campo del libro [POR VERIFICAR]; Millán 1993 fecha el estudio en 1989. No contiene ninguna voz literal de mujer."
+  },
+  {
+   "titulo": "Género, trabajo y etnia en los bateyes dominicanos (Santo Domingo: Instituto Tecnológico de Santo Domingo, Programa de Estudios de la Mujer, 1991, 194 pp.; ISBN 8489525366)",
+   "autor": "Jansen, Senaida; Millán, Cecilia",
+   "anio": "1991",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://openlibrary.org/books/OL1630676M",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL1669299W",
+    "https://dialnet.unirioja.es/servlet/articulo?codigo=5825817"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio con muestra declarada de INTEC citado como pionero por Landry 2013 y Zecca 2024, pero no se localizó copia digital; la fiabilidad es del libro, no de lo leído.",
+   "proveniencia": "Senaida Jansen y Cecilia Millán, del Programa de Estudios de la Mujer de INTEC. Amplía Los trabajos de las mujeres en los bateyes (INTEC, 1990; Millán 1993 lo cita como base). Según Landry 2013 fue la primera investigación sobre bateyes desde una mirada de género. Open Library registra 194 pp. y bibliografía en pp. 155-161.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-195",
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "SOLO FICHA: el catálogo (Open Library, registro OL1630676M, HTTP 200) confirma título, editorial, 194 pp., ISBN y temas («Women sugar workers», «Rural women»). Sin acceso al texto: sus datos solo se conocen por Palau Infante 2017 (diseño y autoidentificación racial), Landry 2013 (analfabetismo 48,3 %; 47,4 % solo primaria; 67,2 % de las haitianas en edad reproductiva) y Millán 1993 (116 mujeres, 20 historias de vida, 1989). Pendiente: consulta en biblioteca INTEC/PUCMM. Existe una discrepancia de año (1990 vs 1991) entre Millán 1993 (Los trabajos…, 1990) y las reseñas; parecen dos informes distintos o dos ediciones [POR VERIFICAR]."
+  },
+  {
+   "titulo": "El batey: estudio socioeconómico de los bateyes del Consejo Estatal del Azúcar (Santo Domingo: Fondo para el Avance de las Ciencias Sociales, 1986, xxiv + 636 pp.)",
+   "autor": "Moya Pons, Frank (dir.); Ferrán, Fernando; et al.",
+   "anio": "1986",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://openlibrary.org/books/OL2484073M",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL848678W"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio de encargo con trabajo de campo sobre los bateyes de todos los ingenios del CEA, citado por todos los trabajos posteriores; aquí solo se verifica la ficha y citas de segunda mano.",
+   "proveniencia": "Dirigido por el historiador Frank Moya Pons con la colaboración de Fernando Ferrán y otros, publicado por el Fondo para el Avance de las Ciencias Sociales (FACS) en 1986. El FACS hizo de septiembre de 1983 a mayo de 1984 un estudio de campo en los bateyes de los ingenios del Estado (Dore Cabral 1987, pp. 57-58); si El batey es el informe de ese trabajo es [POR VERIFICAR]. Según Millán 1993 y Landry 2013 sostiene que las mujeres del batey eran económicamente improductivas y reproductoras de mano de obra.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 46-47 (cit. en Zecca Castel 2024, p. 221)",
+     "cita_original": "en los picadores se hace carne la explotación económica y se personaliza el aspecto embrutecedor del trabajo humano",
+     "traduccion": "[Cita de segunda mano; no cotejada con el original.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 87 (cit. en Zecca Castel 2024, p. 226)",
+     "cita_original": "una válvula de escape",
+     "traduccion": "[Sobre los conucos tolerados en la época del CEA: huerto como escape social y subsistencia en el tiempo muerto. Cita de segunda mano.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (cit. en Landry 2013, pp. 205-206)",
+     "cita_original": "en los Bateyes también residen mujeres que tienden a ser las más pobres de los pobres",
+     "traduccion": "[Cita de segunda mano; la misma cita sigue: «simples reproductoras sexuales de mano de obra».]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 94 (cit. en Landry 2013, p. 206)",
+     "cita_original": "hay muy pocas posibilidades económicas para la población femenina dentro de la sociedad cañera dominicana, pues allí no se le ofrece trabajo",
+     "traduccion": "[Cita de segunda mano.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-194",
+    "A-195",
+    "A-196"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "SOLO FICHA + CITAS DE SEGUNDA MANO. Open Library (registro OL2484073M, HTTP 200): «El batey», FACS, 1986, xxiv + 636 pp., bibliografía en pp. 531-536, «con la colaboración de Fernando Ferrán… [et al.]». Los datos de población, muestra y encuesta del libro NO se pudieron leer; el reconocimiento anterior lo daba por 'confirmado solo como ficha' y lo sigue estando. Millán 1993 (p. 77) lo rebate con su encuesta de 1989: tesis de la mujer improductiva frente a 83 % de mujeres con ingresos. El título exacto varía entre «Estudio económico» (Millán 1993) y «Estudio socioeconómico» (Open Library, Zecca, Landry). Pendiente: consulta en biblioteca (FONDOCIENCIAS, PUCMM, INTEC)."
+  },
+  {
+   "titulo": "El batey: historia de un dispositivo colonial en perspectiva antropológica. El caso de la República Dominicana (Confluenze. Rivista di studi iberoamericani, vol. XVI, n.º 2, 2024, pp. 212-236; DOI 10.6092/issn.2036-0967/18843)",
+   "autor": "Zecca Castel, Raúl",
+   "anio": "2024",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://confluenze.unibo.it/article/download/18843/18838/86842",
+   "urls_alternativas": [
+    "https://doi.org/10.6092/issn.2036-0967/18843"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado de una revista universitaria (Bolonia) con bibliografía amplia sobre los bateyes, pero es una síntesis histórico-antropológica reciente y la mayoría de sus datos del período son de segunda mano.",
+   "proveniencia": "Raúl Zecca Castel, antropólogo de la Università degli Studi di Milano-Bicocca (afiliación del encabezado); su bibliografía incluye un documental de 2006 con su apellido (Zecca 2006) [POR VERIFICAR autoría y trabajo de campo]. Escribe en 2024 para el público académico iberoamericanista, con una tesis de continuidad colonial («dispositivo colonial») entre la plantación esclavista y el batey. Sabe los años de 1961-86 por fuentes (Moya Pons 1986, Plant 1987, HRW 1989, Millán 1993), no por observación.",
+   "extractos": [
+    {
+     "ubicacion": "p. 224",
+     "cita_original": "los contratos bilaterales vigentes entre 1952 y 1986 para la contratación de mano de obra procedente de Haití preveían que los trabajadores fueran repatriados al terminar la zafra",
+     "traduccion": "[Con cita del artículo del acuerdo de 1952 (Resolución n.º 3200 del Congreso): «las empresas agrícolas se comprometerán […] a repatriarlos, con pago de gastos de viaje y de manutención».]",
+     "afirmaciones": [
+      "A-194",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 224",
+     "cita_original": "en la mayoría de los casos este compromiso no se cumplió y la población haitiana en los bateyes empezó a crecer de forma exponencial",
+     "traduccion": "[Afirmación del autor sin cifra ni fuente de datos; en el texto la explicación es que los salarios no pagaban el regreso.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 227",
+     "cita_original": "campos de concentración de los que los trabajadores no tienen libertad para salir",
+     "traduccion": "[Plant 1987, p. 80, tal como lo cita Zecca; es el término de A-195.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 221",
+     "cita_original": "en los picadores se hace carne la explotación económica y se personaliza el aspecto embrutecedor del trabajo humano",
+     "traduccion": "[Moya Pons 1986, pp. 46-47, citado por Zecca.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 222",
+     "cita_original": "en el caso específico del batey, no debemos olvidar que el mayor potencial de opresión y discriminación se encuentra en la conjunción de una triple determinación",
+     "traduccion": "[Millán 1993, p. 78, citada por Zecca.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-194",
+    "A-195",
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (documentado en el artículo): los bateyes se concebían para hombres adultos solo durante la zafra (diciembre a junio); en 1952-86 los contratos bilaterales preveían la repatriación al final de la zafra. INTERPRETACIÓN del autor: continuidad colonial («guetos»), «fuerte discriminación interseccional». Las expresiones «campos de concentración» (Plant) y «prisioneros de facto» (Wooding y Moseley-Williams 2004) se atribuyen a otros. Zecca fecha la CEA justo tras la muerte de Trujillo (1961), pero la Ley n.º 7 que crea el CEA es de 1966 (véase M14-N50): imprecisión del artículo. Su cita del Acuerdo de 1952 corresponde a la Resolución n.º 3200, no a los acuerdos de 1966-86. Término criollo «ambafil» (inmigrantes ilegales) [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Feminización y urbanización de la migración haitiana en República Dominicana: una aproximación hacia su caracterización (Revista Pueblos y Fronteras Digital, UNAM, vol. 8, n.º 15, jun.-nov. 2013, pp. 201-224)",
+   "autor": "Landry, Véronique",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.redalyc.org/pdf/906/90627463008.pdf",
+   "urls_alternativas": [
+    "http://www.redalyc.org/articulo.oa?id=90627463008"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado con estadísticas de MUDHA 2005 y ENI-2012 y puntero a Jansen y Millán (1991) y Moya Pons (1986) con páginas, pero las cifras del período son de segunda mano.",
+   "proveniencia": "Véronique Landry, investigadora (Pueblos y Fronteras Digital, revista de la UNAM) que revisa la bibliografía sobre mujeres haitianas migrantes en la RD, con datos del Movimiento de Mujeres Dominico-Haitianas (MUDHA 2005) y de la ENI-2012. Escribe en 2013 desde la perspectiva de género; declara que solo existen tres estudios significativos sobre mujeres haitianas migrantes y que la investigación de Jansen y Millán (1991) fue la primera sobre bateyes desde una mirada de género.",
+   "extractos": [
+    {
+     "ubicacion": "p. 215",
+     "cita_original": "Según Jasen y Millán (1991), 48.3% de las mujeres insertadas en los Bateyes no sabía leer o escribir. Para las que sí fueron a la escuela, 47.4% de la muestra solamente cursó la primaria.",
+     "traduccion": "[Cifras de segunda mano del libro de 1991, p. 49 (según Landry); sin base (n) en el artículo.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 222, nota 24",
+     "cita_original": "el porcentaje de mujeres haitianas en los Bateyes en edad reproductiva en el año 1991 es casi el mismo, 67.2%",
+     "traduccion": "[Compara con MUDHA 2005; la autora interpreta estabilidad de la corriente femenina.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 222, nota 24",
+     "cita_original": "fue la primera indagación enfocada en el estudio de los Bateyes desde una mirada de género",
+     "traduccion": "[Sobre Jansen y Millán 1991.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "pp. 205-206",
+     "cita_original": "hay muy pocas posibilidades económicas para la población femenina dentro de la sociedad cañera dominicana, pues allí no se le ofrece trabajo",
+     "traduccion": "[Moya Pons 1986, p. 94, citado por Landry.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-195",
+    "A-196"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Útil sobre todo como puntero verificado a los números del libro de 1991 y a las citas de Moya Pons 1986 con página (93-94). La nota 26 aclara que Jansen y Millán no analizan el lugar de origen en Haití sino la ascendencia étnica (generaciones de residencia). Las cifras de MUDHA 2005 y Scudu 2009 son posteriores y no sirven para 1961-86."
+  },
+  {
+   "titulo": "El cortador de caña (1967) (Revista Estudios Sociales, Santo Domingo, vol. 2, n.º 6, 1969, pp. 74-81)",
+   "autor": "Centro de Investigación y Acción Social (CIAS)",
+   "anio": "1969 (encuesta de agosto de 1967)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/850/836/1672",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/850"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Encuesta de 1967 con muestreo declarado (equiprobabilístico, n = 173, ±8 % al 95 %) y tablas por ingenio, hecha por un centro de investigación social con diez colaboradores en el terreno (nota 1 del artículo); limitada a 4 ingenios y sin desglose por nacionalidad.",
+   "proveniencia": "El Centro de Investigación y Acción Social (CIAS, Santo Domingo; la revista Estudios Sociales que lo publica la edita hoy el Centro Bonó; filiación jesuita del CIAS [POR VERIFICAR]) hizo en agosto de 1967 un cuestionario a cortadores de caña en los bateyes de cuatro ingenios (Esperanza, Catarey, Caei y Quisqueya) y un informe descriptivo de los encuestadores; excluyó los datos del Central Romana por no poder muestrear sus bateyes. Publicó el estudio en Estudios Sociales en 1969, para explicar la escasez de cortadores dominicanos, con la mirada de la acción social. Es la medición de campo más antigua con n en M14.",
+   "extractos": [
+    {
+     "ubicacion": "p. 75",
+     "cita_original": "En total se aceptaron las respuestas de 173 cortadores de caña",
+     "traduccion": "[Con la frase siguiente: «número suficiente para afirmar con un 95 % de confianza» que preguntas de dos alternativas no variarán más de ±8 %.]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 75 (tabla)",
+     "cita_original": "Cuatro Ingenios 36.8 años de edad promedio; casados (incl. viudos y separados) 66.1 %, solteros 33.3 %",
+     "traduccion": "[Ingenios: Caei 38,2; Catarey 35,9; Esperanza 36,7; Quisqueya 37,0 años.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 77",
+     "cita_original": "Por tonelada de caña cortada se pagaban 0.90 pesos en el Esperanza y en el Catarey, $1.00 en el Caei y en el Quisqueya.",
+     "traduccion": "[El cortador más hábil, «si se le recoge la caña a tiempo», ganaba unos cuatro pesos diarios; el promedio era inferior y podía bajar de un peso al día con descuentos en la pesada. Texto leído sobre la imagen de la página; el OCR tiene errores.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "pp. 76-77 (tabla)",
+     "cita_original": "Si pudiera encontrar otro trabajo distinto al de cortador de caña ¿lo aceptaría? Cuatro Ingenios: Sí 96.5 %, No 2.0 %",
+     "traduccion": "[Años de cortador: 12,7 de promedio en los cuatro ingenios (17,5 en Caei; 6,8 en Esperanza).]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 78 (tabla)",
+     "cita_original": "Cuatro Ingenios: la vivienda es mala 76.1 %; la comida es mala 69.0 %; el trato es ofensivo a la dignidad humana 58.1 %",
+     "traduccion": "[Esperanza 85,3 / 79,4 / 73,5 %; Quisqueya 92,0 / 66,6 / 88,0 %; Caei 58,0 / 50,0 / 36,2 %; el propio texto avisa que «ofensivo» depende de la «concientización» del cortador.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 78 (tabla)",
+     "cita_original": "tengo alguna tierra mía: Caei 41.2 %, Catarey 14.5 %, Esperanza 0.0 %, Quisqueya 8.0 %, Cuatro Ingenios 15.9 %",
+     "traduccion": "[Pocos tenían otra fuente de subsistencia en el «tiempo muerto»; el 80,1 % no tenía otro trabajo.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-194",
+    "A-195",
+    "A-196"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: n = 173 cortadores en 4 ingenios (agosto de 1967); resultados por ingenio y para el conjunto. En Esperanza había «elevada proporción de picadores haitianos» (edad media 32,4 años; solo 50 % casados; 2,5 hijos por casado); en el Caei todos los cortadores entrevistados eran dominicanos (texto, p. 76). INTERPRETACIÓN de los autores: la escasez de cortadores dominicanos se explica por condiciones, no por «vagancia racial»; sugieren pagar mejor, humanizar el trato y dar parcelas. Texto leído sobre el OCR y las imágenes de las páginas 77 y 78; las tablas del OCR están desordenadas. No desglosa por nacionalidad (la proporción de haitianos solo se menciona para Esperanza), así que no mide la tesis de «invasión». El estudio es de agosto de 1967: nueve meses después del acuerdo con Haití (noviembre de 1966) y semanas antes del decreto n.º 1612 (29-VIII-1967) que suspendió el tránsito terrestre en la frontera."
+  },
+  {
+   "titulo": "Los dominicanos de origen haitiano y la segregación social en la República Dominicana (Estudios Sociales, año XX, n.º 68, abril-junio de 1987, pp. 57-80; cuadros 1-10 del anexo, pp. 73-80)",
+   "autor": "Dore Cabral, Carlos",
+   "anio": "1987",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/599/585/1168",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/view/599"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de un sociólogo de INTEC que presenta los cuadros de la encuesta del FACS (n = 2.395 personas de 10 años y más, 12 ingenios del CEA, 1983-84); hay errores de transcripción entre el texto y el anexo.",
+   "proveniencia": "Carlos Dore Cabral, sociólogo dominicano (INTEC), argumenta que los bateyes estatales son habitados mayoritariamente por «dominicanos de origen haitiano» segregados, y usa para ello las encuestas del Fondo para el Avance de las Ciencias Sociales (FACS): estudio de campo de septiembre de 1983 a mayo de 1984 en los bateyes agrícolas de las corporaciones azucareras del Estado y zonas rurales vecinas, y una encuesta de tiempo muerto en el ingenio Barahona. Escribe en 1987 desde una posición crítica de la segregación («apartheid caribeño»).",
+   "extractos": [
+    {
+     "ubicacion": "p. 58 (texto)",
+     "cita_original": "En la encuesta que realizó el Fondo para el Avance de las Ciencias Sociales en los bateyes de los doce (12) ingenios del Estado, la respuesta reportaba un 71.9% de dominicanos (nacidos en República Dominicana) y un 27.1 % haitianos",
+     "traduccion": "[El texto dice 27,1 %; el cuadro 2 del anexo da 27,9 % (668 de 2.395) y 71,9 % (¿1.721 de 2.395? el cuadro imprime 1.731). Lectura sobre la imagen de la p. 74.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 74, Cuadro 2 (imagen)",
+     "cita_original": "Población de 10 años y más por edad según país de nacimiento. TOTAL 2395; R.D. 1731 (71.9 %); HAITI 668 (27.9 %); OTRO 4 (0.2 %); NS/NR 2 (0.1 %)",
+     "traduccion": "[1.731 + 668 + 4 + 2 = 2.405 ≠ 2.395: el 1.731 probablemente es 1.721. Fuente del cuadro: «Estudios niveles de vida en los bateyes del CEA», FACS, 1984.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 73, Cuadro 1 (imagen)",
+     "cita_original": "Población de 10 años y más según país de nacimiento de los padres. TOTAL 2,395; padre nacido en Haití 943 (39.3 %), madre 869; padre nacido en R.D. 1,440, madre 1,520; otro 12 y 6",
+     "traduccion": "[Es decir, el 39,3 % tenía padre haitiano; el texto (p. 59) lo usa para hablar de «ascendencia en primera generación». El texto llama a este «cuadro 2» y al de nacimiento «cuadro 1»: la numeración del texto está invertida respecto al anexo.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 59 (texto)",
+     "cita_original": "un 69.3% descendía en segunda generación de uno o dos nacionales haitianos",
+     "traduccion": "[Cuadros 3 y 4 (p. 75, imagen): abuelo nacido en Haití 113 de 163 (69,3 %); abuela 111 de 163 (68,1 %). Muestra del estudio de tiempo muerto del ingenio Barahona, n = 163 (49 + 113 + 1 NS/NR, reconstruido de las frecuencias).]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 60 (texto)",
+     "cita_original": "un 92.6% de la población de los bateyes respondió que no pensaba en mudarse de esas concentradas poblaciones de fuerza de trabajo para la caña",
+     "traduccion": "[Cuadro 7 (p. 78, imagen): n = 2.393; piensa mudarse 143 (6,0 %); no 2.218 (92,6 %); NS/NR 34 (1,4 %).]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 76, Cuadro 5 (imagen)",
+     "cita_original": "Población de 10 años y más nacida en el exterior, según tiempo de residencia en el país, por sexo. TOTAL 672 (hombres 437; mujeres 235); 20 y más años: 204 (165 hombres, 39 mujeres)",
+     "traduccion": "[Cálculo propio: 204/672 = 30,4 % con más de 20 años; 497 de 672 (74 %) con 5 años o más (excl. 18 ignorados); mujeres = 35,0 % de los nacidos en el exterior. El texto dice «más de un 30 % sobre 21 años».]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 77, Cuadro 6 (imagen)",
+     "cita_original": "Población de 10 años y más según tiempo de residencia en el batey, por nacionalidad. TOTAL 1751 (R.D. 1282; Haití 465; otro 4); 15 y + años: 977 (55.8 %); nacidos en Haití con 15 y + años: 173 (37.2 %)",
+     "traduccion": "[Cálculo: 977/1.751 = 55,8 %. Base distinta de 2.395 por datos faltantes que el artículo no explica.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 64 (texto)",
+     "cita_original": "que es lo que se define como apartheid caribeño",
+     "traduccion": "[Término cargado del autor para el confinamiento de dominicanos de origen haitiano en bateyes; no es de uso neutro.]",
+     "afirmaciones": [
+      "A-195",
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-195",
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "YA INTEGRADA EN LA RONDA 1 (M14-N56) con 2 extractos del texto; esta entrada añade los cuadros del anexo, que la ronda 1 no leyó («cuadro 1 en anexo, no leído»). Mismo URL. HECHO: encuesta del FACS (n = 2.395 personas de 10 años y más, bateyes de 12 ingenios del CEA, 1983-84) y encuesta de tiempo muerto (Barahona, n = 163). INTERPRETACIÓN de Dore Cabral: el batey estatal es mayoritariamente «dominicano de origen haitiano», segregado. Cautelas: (1) no se sabe si la muestra cubre a los cortadores estacionales alojados en barracones (el «congó» típico); (2) las discrepancias de transcripción de arriba; (3) los cuadros son de un informe de 1984 (FACS) que no se pudo leer en su original [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Banco Central de la República Dominicana, Boletín Mensual, noviembre de 1986 (vol. XL, n.º 11): «Exportaciones por productos principales, enero-octubre 1985-1986» (p. 93) y «Principales productos de exportación: valor, volumen y precio unitario» (p. 97)",
+   "autor": "Banco Central de la República Dominicana",
+   "anio": "1986",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://repositoriocultural.bancentral.gov.do/bitstreams/0c851fd6-7df5-45fd-939e-1d7a0898e27a/download",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estadística oficial del emisor con valor, volumen y precio unitario por año; las cifras de 1985 y 1986 llevan asterisco de provisionales y el PDF (218 pp.) es un escaneo con capa de texto solo en 22 páginas: se leyeron solo las pp. 93 y 97, cotejadas con la imagen.",
+   "proveniencia": "Boletín mensual del Banco Central (Santo Domingo), noviembre de 1986, con estadísticas del sector externo; el archivo es un escaneo de 218 páginas (ScanSnap, 2026) alojado en el repositorio cultural de la institución. Informa lo que el emisor registraba sobre exportaciones, sin interés polémico, y sirve para fechar el colapso del precio del azúcar crudo que coincide con el final de los contratos con Haití.",
+   "extractos": [
+    {
+     "ubicacion": "p. 97 (PDF p. 100), tabla «Azúcar crudo»",
+     "cita_original": "1981: 513,247 (000 US$), 847,501 T.M., 605.60 US$/T.M.; 1982: 265,514, 833,289, 318.63; 1983: 263,562, 917,719, 287.19; 1984: 271,886, 828,442, 328.19; 1985*: 158,477, 655,229, 241.86",
+     "traduccion": "[Valor, volumen y precio unitario de las exportaciones de azúcar crudo. Cálculo propio 1981→1985*: valor −69 %; precio −60 %; volumen −23 %. 1985 provisional.]",
+     "afirmaciones": [
+      "A-194",
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 93 (PDF p. 96)",
+     "cita_original": "TOTAL EXPORTADO enero-octubre: 1985 637,026 (000 US$); 1986* 598,069. DERIVADOS DE LA CAÑA DE AZUCAR: 191,636 (30.1 %) en 1985; 144,691 (24.2 %) en 1986*. Azúcar crudo: 616,497 T.M. / 144,069 (22.6 %) en 1985; 393,031 T.M. / 110,106 (18.4 %) en 1986*",
+     "traduccion": "[Los derivados de la caña pasaron de un 30,1 % a un 24,2 % del valor exportado en un año.]",
+     "afirmaciones": [
+      "A-194",
+      "A-195"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-194",
+    "A-195"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (cifras del emisor): ver extractos. No mide mano de obra ni contratos; da el contexto económico del sistema de braceros: con precios de 1985 un 60 % por debajo de los de 1981, el ingreso por tonelada de azúcar y la capacidad del CEA de pagar a Haití por trabajador (US$ 2,225-2,25 millones por 19.000 trabajadores en 1982-84, según el informe de la OIT de 1983, M14-N28) cae. La relación causal es INTERPRETACIÓN mía, no del boletín. No se obtuvo la serie 1960-80 (este boletín solo recoge 1981-85) ni los volúmenes de producción de caña de la p. 189 (página sin capa de texto). Año de la serie en la tabla: «1985*» y «1986*» son provisionales."
+  },
+  {
+   "titulo": "IPUMS-International: «Sample characteristics: Dominican Republic» (muestras de 1960, 1970, 1981, 2002 y 2010; ficha del VI Censo Nacional de Población y Vivienda, 1981)",
+   "autor": "Minnesota Population Center (IPUMS International); Oficina Nacional de Estadística (ONE) de la RD",
+   "anio": "2026 (consulta); censo de 1981",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://international.ipums.org/international-action/sample_details/country/do",
+   "urls_alternativas": [
+    "https://microdata.worldbank.org/catalog/2135/data-dictionary/P",
+    "https://international.ipums.org/international-action/variables/BPLCOUNTRY"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Metadatos oficiales del archivo de microdatos del censo; no contiene los resultados: el microdato exige registro gratuito y no se descargó.",
+   "proveniencia": "Ficha de metadatos del proyecto IPUMS-International (Minnesota Population Center, Universidad de Minnesota), que armoniza microdatos censales; para la RD reproduce la muestra del censo de 1981 de la Oficina Nacional de Estadística (ONE). Sirve para fijar el tamaño y diseño de la muestra cuyas frecuencias se leen en CELADE (2002).",
+   "extractos": [
+    {
+     "ubicacion": "pestaña 1981, «Microdata sample characteristics»",
+     "cita_original": "Census/survey day December 13, 1981 … Sample fraction 0.085 Sample size (person records) 475829",
+     "traduccion": "[Muestra del 8,5 % del censo de 1981: 475.829 registros de personas; «Weights computed by census agency should be used for most types of analysis» (no autoponderada).]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "pestaña 1960, «Microdata sample characteristics»",
+     "cita_original": "Sample fraction 0.066 Sample size (person records) 201556",
+     "traduccion": "[Muestra del 6,6 % del censo de 1960 (base de comparación).]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: existen muestras de IPUMS-I para 1960, 1970, 1981, 2002 y 2010; la variable BPLCOUNTRY figura con universo «Dominican Republic 1981: All persons» en la página de la variable. NO se obtuvo la cifra de nacidos en Haití: exige crear cuenta y pedir un extracto (no se creó cuenta). La ficha del World Bank Microdata Library (catálogo 2135: 475.829 registros de personas) también pide login (HTTP 200 en la página, 0 variables listadas). La cifra de nacionalidad «haitiana» de la muestra de 1981 sale del documento de CELADE (2002), no de IPUMS."
+  },
+  {
+   "titulo": "Muestra del Censo de Población de República Dominicana de 1981: informe de recuperación de datos y frecuencias del archivo original RD81G770.771 (documento «dr81info.doc», 2002)",
+   "autor": "Autor no identificado (documento de trabajo vinculado a CELADE: menciona CONCOR y el «Diccionario Chillán»; destinatarios D. Jaspers-Faijer y Á. Fucaraccio)",
+   "anio": "2002 (muestra de 1981)",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://users.pop.umn.edu/~rmccaa/ipumsla/dr81info.doc",
+   "urls_alternativas": [
+    "https://users.pop.umn.edu/~rmccaa/ipumsla/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tabla de frecuencias sin ponderar de la muestra original del censo (475.829 personas), con sumas internas que cuadran; la variable es la «nacionalidad» imputada por el encuestador, no el lugar de nacimiento, y el documento es una nota técnica sin autor.",
+   "proveniencia": "Nota de trabajo del 8-I-2002 (encabezado: «PARA: Dirk Jaspers-Faijer, Ángel Fucaraccio. ASUNTO: Muestra del Censo de Población de República Dominicana de 1981») sobre la recuperación de la muestra desde cintas magnéticas (el texto menciona el CELADE, el programa CONCOR y el «Diccionario Chillán»); incluye frecuencias de todos los campos. La aloja Robert McCaa en la página del proyecto IPUMS-Latinoamérica (Universidad de Minnesota). El archivo es un Word binario: el texto se extrajo con un script de Python, no con Word; las sumas de cada tabla (475.829) cuadran, lo que descarta desfases de lectura.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Frecuencias», campo 64 «NACIONALIDAD»",
+     "cita_original": "NACIONALIDAD Solo PERSONA COD=02 campo 64 a 64 rango valido 0 a 0 CODIGO FRECUENCIA PORCENTAJE 0 0 0.00 1 468285 98.41 2 5702 1.20 9 1842 0.39 … VL1=1 DOMINICANO VL2=2 HAITIANO VL3=3 OTRA NACIONALIDAD … ESTA PREGUNTA ES IMPUTADA POR EL ENCUESTADOR",
+     "traduccion": "[1981, muestra del 8,5 %: 468.285 dominicanos (98,41 %), 5.702 haitianos (1,20 %) y 1.842 con código 9 (0,39 %; la etiqueta dice «3 = otra nacionalidad», incongruencia del documento). Cálculo propio sin ponderadores: 5.702 / 0,085 ≈ 67.000 haitianos en el país, frente a los 75.502 preliminares de Báez Evertsz (F-1327, nota 172) y los 182.000-200.000 de ONAPLAN (estimación).]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "sección «Introducción y síntesis»",
+     "cita_original": "El archivo resultante de la unión de ambos, el RD81G770.771 tiene 103.904 registros de vivienda y 475.829 registros de personas, con un total de 579.733 registros. Debe hacerse notar que el Boletín del Banco de Datos dice que la muestra tiene 593.776 registros.",
+     "traduccion": "[Discrepancia de 14.043 registros que el informe no explica.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "campo 49-50 «AGNO DE LLEGADA AL PAIS» (solo extranjeros)",
+     "cita_original": "80 375 0.08 81 792 0.17 99 1258 0.26 bb 469686 98.71",
+     "traduccion": "[Base: 6.143 extranjeros con año de llegada informado (todas las nacionalidades). Cálculo propio, suponiendo que «NN» = 19NN: hasta 1960, 1.105; 1961-70, 921; 1971-80, 2.067; 1981, 792; sin respuesta, 1.258. Más de la mitad de los que dan año llegó después de 1970.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en la muestra del censo de 1981 (8,5 %), 5.702 de 475.829 personas (1,20 %) constan con nacionalidad haitiana. INTERPRETACIÓN: no mide a los dominicanos de ascendencia haitiana (la nacionalidad la imputa el encuestador; no hay pregunta de ascendencia), ni a los indocumentados no censados; por tanto es un piso, no un total. La cifra ponderada oficial (ONE) no se localizó: este es el sustituto verificable de la 'cifra definitiva' pedida; el cálculo ≈ 67.000 es mío y sin ponderadores ni intervalo. Contraste cuantitativo con A-199 («invasión pacífica»): 1,2 % de la muestra de 1981 es haitiana por nacionalidad; el año de llegada indica entradas sobre todo en 1971-81. No se sabe si mide a los braceros estacionales: el censo fue el 13-XII-1981, al comienzo de la zafra (diciembre-junio según Zecca Castel 2024) [POR VERIFICAR el criterio de empadronamiento de los cortadores alojados en barracones]."
+  },
+  {
+   "titulo": "República Dominicana 1960: informe de recuperación de datos y frecuencias de la muestra del censo de población (documento «dr60info.doc», 2001)",
+   "autor": "Autor no identificado (documento de trabajo de la misma serie; destinatarios D. Jasper-Faijer y Á. Fucaraccio)",
+   "anio": "2001 (muestra de 1960)",
+   "tipo": "base-de-datos",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://users.pop.umn.edu/~rmccaa/ipumsla/dr60info.doc",
+   "urls_alternativas": [
+    "https://users.pop.umn.edu/~rmccaa/ipumsla/dr70info.doc"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Frecuencias de la muestra de 1960, pero los códigos de nacionalidad no están rotulados en el documento y el de 1970 describe archivos defectuosos; solo se lee como línea de base.",
+   "proveniencia": "Primer informe (30-XI-2001) de la recuperación de la muestra del censo de 1960 (202.838 registros leídos; 201.556 según el boletín del banco de datos), de la misma serie y el mismo alojamiento que la nota de 1981. El informe de 1970 (28-XII-2001) advierte de archivos con registros de largo irregular y no se usa.",
+   "extractos": [
+    {
+     "ubicacion": "campo 40-41 «NACIONALIDAD» (solo nacidos en el extranjero)",
+     "cita_original": "00 199919 98.56 … 16 1924 0.95 … 00 NATIVO SE PREGUNTO SOLO A LOS NACIDOS EN EL EXTRANJERO",
+     "traduccion": "[1960: 199.919 registros «nativo» de 202.838 (98,56 %); el código 16 reúne 1.924 personas (0,95 %). El documento no rotula los códigos de país: que 16 = Haití es solo una inferencia mía, porque 1.924 / 0,0666 (fracción de muestreo) ≈ 28.900, cercano a los 29.350 haitianos del censo de 1960 que cita Báez Evertsz. [POR VERIFICAR contra el diccionario de códigos.]]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Solo da la línea de base de 1960, un año antes del período de M14. No usar la identificación del código 16 con Haití mientras no se halle el diccionario de códigos (RD60 en CELADE/IPUMS-LA). El informe de 1970 (dr70info.doc, 200 OK) no se usó: reconoce que el archivo RD70G163.MA no coincide con el boletín y que otros archivos están mal formados."
+  },
+  {
+   "titulo": "Dominican Republic Population and Housing Census 1981 (ficha del Global Health Data Exchange, IHME)",
+   "autor": "Institute for Health Metrics and Evaluation (GHDx); Oficina Nacional de Estadística (RD)",
+   "anio": "2026 (consulta); censo de 1981",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://ghdx.healthdata.org/print/3472",
+   "urls_alternativas": [
+    "https://ghdx.healthdata.org/record/dominican-republic-population-and-housing-census-1981"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ficha de catálogo sin cifras; confirma que el censo de 1981 recogió lugar de nacimiento y migración internacional.",
+   "proveniencia": "Registro de un catálogo de datos sanitarios del IHME (Universidad de Washington) que describe el censo dominicano de 1981 con sus palabras clave; cita a la ONE como productora.",
+   "extractos": [
+    {
+     "ubicacion": "«General Info»",
+     "cita_original": "Time period covered December, 1981 - December, 1981",
+     "traduccion": "[El empadronamiento de diciembre de 1981.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "«Keywords»",
+     "cita_original": "Birth place , Complete birth history , Disability , Domestic migration , Education , Education access , Electricity , Employment , Family composition , Family size , Household deaths , Housing , Housing conditions , Housing materials , Income , Infants , International migration",
+     "traduccion": "[El censo preguntó por lugar de nacimiento y migración internacional.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Solo confirma qué preguntas existían; no hay resultados. El tabulado definitivo de 'nacidos en Haití' del censo de 1981 sigue sin localizar (ONE, vol. nacional)."
+  },
+  {
+   "titulo": "Primera Encuesta Nacional de Inmigrantes en la República Dominicana (ENI-2012), Informe General: cap. 7 «Proceso migratorio y vínculos con los países de origen» (7.1 y cuadro 7.3)",
+   "autor": "Oficina Nacional de Estadística (RD) / UNFPA / Unión Europea",
+   "anio": "2013 (encuesta 2012)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/InformeENI-2012-General.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Encuesta oficial probabilística con diseño declarado; es de 2012, así que solo mide a los residentes de 2012 que llegaron antes de 1990 (sesgo de supervivencia y de última migración).",
+   "proveniencia": "Informe general de la ENI-2012 (ONE con UNFPA y la UE), con Franc Báez Evertsz como especialista. Aquí se leen la sección sobre frecuencia migratoria y circulación (7.1) y la distribución por períodos de llegada (cuadro 7.3), que ya no estaban en la ronda 1.",
+   "extractos": [
+    {
+     "ubicacion": "§7.1, p. 169",
+     "cita_original": "la mayoría de los inmigrantes, el 75.9%, señaló que efectuó una única migración",
+     "traduccion": "[Para trabajar o vivir en el país; excluye viajes turísticos y visitas.]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "§7.1, p. 170",
+     "cita_original": "el 22.8%, reportó haber migrado dos veces o más",
+     "traduccion": "[Sobre el total de inmigrantes; la misma página da media 8,1 y mediana 3 migraciones entre los circulares (8,3 y 6,6 veces para haitianos y de otros países).]",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "§7.1, p. 170",
+     "cita_original": "El promedio de veces que migraron llega a 8.1 y la mediana a 3 veces",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 7.3, p. 174 (fila «Antes de 1990», única y última migración)",
+     "cita_original": "Antes de 1990 6.6 5.4 6.2 6.3 5.1 5.9 9.6 7.2 8.6 30,074",
+     "traduccion": "[Columnas: total hombres/mujeres/ambos; Haití hombres/mujeres/ambos (5,9 %); otros países. Base: 487.382 personas (432.300 nacidas en Haití); no coincide con los 524.632 inmigrantes del titular del informe y el texto no explica la diferencia de 37.250. Cálculo propio: 30.074 / 487.382 = 6,2 %.]",
+     "afirmaciones": [
+      "A-196",
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M16"
+   ],
+   "id_existente": "F-0059",
+   "notas": "AMPLÍA F-0059 con extractos nuevos del cap. 7 (el registro lo tiene con 15 extractos de otros capítulos, M16). Contraste cuantitativo, no del período: solo 6,2 % de los inmigrantes de 2012 (30.074 personas) llegó antes de 1990 en su única o última migración; la gran mayoría llegó desde 2000. Esto no mide el flujo de 1961-86 (mucha gente murió, volvió o se quedó sin ser contada), pero sí impide extrapolar a 1961-86 las cifras actuales. La circularidad de 2012 (22,8 % con 2 o más migraciones, media 8,1) es evidencia moderna sobre A-196, no del período."
+  },
+  {
+   "titulo": "U.S. Coast Guard Historic Documents: «Migrant Interdiction Historical Statistics, Calendar Year 1982-2003» (MIGRANT_STATS.PDF, 2 pp.)",
+   "autor": "United States Coast Guard (documentos históricos)",
+   "anio": "2020 (según la ruta del URL: 23-IV-2020); series 1982-2003",
+   "tipo": "base-de-datos",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "http://web.archive.org/web/20260511154248if_/https://media.defense.gov/2020/Apr/23/2002287254/-1/-1/0/MIGRANT_STATS.PDF",
+   "urls_alternativas": [
+    "https://media.defense.gov/2020/Apr/23/2002287254/-1/-1/0/MIGRANT_STATS.PDF"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Serie oficial de la Guardia Costera por año calendario y nacionalidad, con totales que cuadran para 1982-1991; es un resumen de 2 páginas sin definiciones ni notas, y la capa de texto desordena algunas filas menores.",
+   "proveniencia": "Cuadro de «estadísticas históricas de interdicción de migrantes» de los Documentos Históricos de la Guardia Costera de EE. UU., publicado en media.defense.gov (la ruta del URL dice 2020/Apr/23). El sitio original devolvió 403 a curl y a WebFetch; se leyó la copia del 11-V-2026 de la Wayback Machine (HTTP 200, 68 KB). Cubre interdicciones en el mar, no llegadas a tierra.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, tabla «1982-1992», fila Haiti",
+     "cita_original": "Haiti 193 762 2942 2411 3388 3541 4614 3737 1124 10087 31438",
+     "traduccion": "[Haitianos interdictados por año calendario 1982, 1983, … 1992. Suma 1982-1986 (cálculo propio): 9.696; 1982-1990: 22.712.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, tabla «1982-1992», fila Dominican Republic",
+     "cita_original": "Dominican 0 76 146 123 166 71 400 701 1246 1455 436",
+     "traduccion": "[Dominicanos interdictados, mismos años; hasta 1986 son 511.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 1, tabla «1982-1992», fila de totales",
+     "cita_original": "198 924 3288 2658 3631 3680 5112 4907 2858 13790 34439",
+     "traduccion": "[Totales de todas las nacionalidades; para 1982-1991 la suma de las filas Haití + RD + Cuba + China + otros cuadra con estos totales (comprobado).]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el acuerdo de interdicción EE. UU.-Haití es de 23-IX-1981 (M14-N13, CIDH) y la serie arranca en 1982; faltan 1981 y los meses previos. Cifras [POR VERIFICAR contra el PDF original de media.defense.gov, bloqueado; la copia de Wayback es de 2026]. La serie del PDF es por año calendario, no fiscal; no coincide exactamente con el 21.461 de la alegación de los peticionarios de la CIDH (1981 a c. 1990-92). La fila de China y las cifras de 1992 están desordenadas en la capa de texto y no se usan. Contexto de diáspora: es un indicador de salida marítima irregular, no de la diáspora total (cuyo stock se estima con el censo de EE. UU.: 4.816 nacidos en Haití en 1960 a 92.395 en 1980, M14-N11)."
+  },
+  {
+   "titulo": "Haitian Refugee Center v. Smith, 676 F.2d 1023 (5th Cir. Unit B, May 24, 1982), docket 80-5683",
+   "autor": "United States Court of Appeals for the Fifth Circuit (Unit B)",
+   "anio": "1982",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://m.openjurist.org/676/f2d/1023",
+   "urls_alternativas": [
+    "https://openjurist.org/676/f2d/1023"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Sentencia de un tribunal federal de apelación que resume los hechos probados por el tribunal de distrito (Haitian Refugee Center v. Civiletti, 503 F. Supp. 442, 1980) con cifras del propio INS; es primera mano para lo que el tribunal tuvo por probado, no un estudio demográfico.",
+   "proveniencia": "Opinión del Quinto Circuito (Unit B) sobre el «Programa Haitiano» del INS de 1978-79, que procesó de forma acelerada a más de 4.000 haitianos solicitantes de asilo en el sur de Florida; resume el expediente del juicio de 1980 (tribunal federal de distrito, S.D. Fla.). Texto reproducido por OpenJurist (dominio público).",
+   "extractos": [
+    {
+     "ubicacion": "¶ 1",
+     "cita_original": "filed a class action in federal district court on behalf of over 4,000 Haitians in the south Florida area who had sought political asylum in the United States",
+     "traduccion": "[Demandantes: Haitian Refugee Center y haitianos del sur de Florida.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "¶ 13",
+     "cita_original": "By June of that year between six and seven thousand unprocessed Haitian deportation cases were pending in the Miami office.",
+     "traduccion": "[Junio de 1978; la oficina del INS en Miami.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "¶ 13",
+     "cita_original": "the backlog was primarily attributable to a slow trickle of Haitians over a ten year period",
+     "traduccion": "[El tribunal descarta una «llegada masiva» en poco tiempo como causa del atraso.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "¶ 24",
+     "cita_original": "None of the over 4,000 Haitians processed during this program were granted asylum.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14",
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (acreditado judicialmente): entre 6.000 y 7.000 casos pendientes de deportación de haitianos en Miami en junio de 1978, más de 4.000 procesados en el programa acelerado, ninguno con asilo concedido. INTERPRETACIÓN del tribunal de distrito (503 F. Supp. 442, 1980): el trato del INS violó la Constitución, la ley y los tratados; el Quinto Circuito confirmó la sentencia «as modified» (¶ 61-62). La nota 11 de la sentencia atribuye la «oleada» a promotores que vendían pasajes a Haití (cita de «record material»). Sirve como primaria sobre la diáspora de los años setenta; no cuantifica la diáspora total."
+  },
+  {
+   "titulo": "Haitians in the Bahamas (The Christian Science Monitor, 5 de junio de 1980)",
+   "autor": "Webbe, Stephen (corresponsal)",
+   "anio": "1980",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.csmonitor.com/1980/0605/060554.html",
+   "urls_alternativas": [
+    "https://m.csmonitor.com/1980/0605/060554.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reportaje firmado desde Nassau con cifras de dos fuentes enfrentadas (gobierno bahameño y fuentes haitianas); no hay conteo propio.",
+   "proveniencia": "Stephen Webbe, corresponsal del Christian Science Monitor, escribió en junio de 1980 desde New Providence (Bahamas) sobre la inmigración haitiana ilegal; cita al secretario permanente adjunto del Ministerio de Trabajo bahameño y a haitianos del barrio de Carmichael Road, y el libro de Dawn Marshall The Haitian Problem (1979). Es prensa de la época sobre un destino alternativo a la RD.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "The government contends that there are more than 30, 000, but Haitian sources put the figure at between 10,000 and 15,000.",
+     "traduccion": "[Haitianos en Bahamas, 1980: 30.000 o más (gobierno) frente a 10.000-15.000 (fuentes haitianas); el artículo dice que «nadie sabe cuántos».]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "párr. 10",
+     "cita_original": "Haitians began arriving in Florida in 1972, and there are now an estimated 26 ,000 there.",
+     "traduccion": "[Estimación de 1980 para Florida, sin fuente ni método.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "párr. 9",
+     "cita_original": "was only able to discover 86 out of 600 returned Haitians",
+     "traduccion": "[Equipo del Departamento de Estado enviado a Haití para evaluar el trato a los repatriados desde EE. UU.; cita del artículo.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Cifras en rango con autor y base: 30.000+ (gobierno de Bahamas, sin método) frente a 10.000-15.000 (fuentes haitianas, sin método): ambas D por sí solas. La cifra de 40.000 haitianos en Bahamas en 1978-80 que circula en la literatura (Corten y Duarte citando a Icart 1987) NO figura en este artículo, que da 30.000+. Los números de párrafo cuentan desde el primero tras el titular («When Bahamians proudly intone…»)."
+  },
+  {
+   "titulo": "Émigration et immigration: les Haïtiens au Québec (Sociologie et sociétés, vol. 15, n.º 2, octubre de 1983, pp. 73-88)",
+   "autor": "Labelle, Micheline; Larose, Serge; Piché, Victor",
+   "anio": "1983",
+   "tipo": "cientifica",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://www.erudit.org/en/journals/socsoc/1983-v15-n2-socsoc106/001394ar/",
+   "urls_alternativas": [
+    "https://www.erudit.org/en/journals/socsoc/1983-v15-n2-socsoc106/001394ar.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado de tres demógrafos y sociólogos de Quebec basado en estadísticas oficiales de inmigración; solo se leyó el resumen (el PDF quedó tras la comprobación anti-bot Anubis, que no se eludió).",
+   "proveniencia": "Micheline Labelle, Serge Larose y Victor Piché (afiliación no consultada) publicaron en 1983 un estudio de la inmigración haitiana en Quebec con estadísticas oficiales de inmigración y los principales rasgos sociodemográficos, según el resumen. Escriben cuando, según el mismo resumen, la comunidad haitiana de Quebec rondaba los 30.000 miembros.",
+   "extractos": [
+    {
+     "ubicacion": "resumen",
+     "cita_original": "now numbers nearly 30,000 members",
+     "traduccion": "[La comunidad haitiana de Quebec «cuenta ahora cerca de 30.000 miembros» (1983), según el resumen en inglés que devolvió la página; la redacción literal del resumen en francés no se cotejó.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "SOLO RESUMEN (WebFetch sobre la página de Érudit, HTTP 200): confirma título, autores, número y paginación; el cuerpo y las series anuales de inmigración no se leyeron. Dato de diáspora en Canadá/Quebec para 1983: ≈ 30.000 (sin método en el resumen). Búsqueda previa citaba que en 1968 los haitianos eran 0,25 % de los inmigrantes recibidos en Canadá y que en 1986 eran ~6 % de los inmigrantes de Quebec: [POR VERIFICAR; vienen de fichas de buscador, no se abrieron]."
+  },
+  {
+   "titulo": "La nueva inmigración haitiana (Santo Domingo: FLACSO-República Dominicana, enero de 2002; ISBN 99934-33-33-0), cap. I (§1.7-1.9: crisis haitiana, migración y crisis política) y cap. V (§5.2.1)",
+   "autor": "Silié, Rubén; Segura, Carlos; Dore Cabral, Carlos",
+   "anio": "2002",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "http://web.archive.org/web/20250505211615if_/https://repositorio.flacsoandes.edu.ec/bitstream/10469/22631/2/LFLACSO-Silie.pdf",
+   "urls_alternativas": [
+    "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22631/2/LFLACSO-Silie.pdf"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Libro de investigación de FLACSO con muestra declarada de entrevistas y dos estudios; las secciones sobre 1981-86 son de síntesis bibliográfica (Girault, Caprio, Icart) y la afirmación de que la diáspora «se triplicó» no lleva cifra.",
+   "proveniencia": "Rubén Silié, Carlos Segura y Carlos Dore Cabral (FLACSO-RD) publicaron en 2002 el estudio de la «nueva inmigración haitiana» (urbana, años noventa) y de los dominicanos de ascendencia haitiana, con entrevistas en profundidad y teoría fundamentada. El repositorio de FLACSO-Andes devolvió 403 a curl; se leyó la copia del 5-V-2025 de la Wayback Machine (HTTP 200, 8,6 MB). Escriben desde la sociología dominicana crítica del uso de «trabajo no libre».",
+   "extractos": [
+    {
+     "ubicacion": "p. 57",
+     "cita_original": "a partir de 1981 se acelera la crisis",
+     "traduccion": "[Economía haitiana según «todos los estudios conocidos» que citan (Girault 1994, Cadet 1990, Caprio 1993).]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 62",
+     "cita_original": "que logró triplicar la diáspora haitiana en menos de cinco años",
+     "traduccion": "[Afirmación sin cifra ni fuente; se refiere a la migración rural-urbana y al exterior desde los años ochenta. Es D como cifra.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 62",
+     "cita_original": "Se puede afirmar que las migraciones se convirtieron en un factor importante para la caída del régimen duvalierista.",
+     "traduccion": "[Interpretación de los autores.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 63",
+     "cita_original": "siguió pensando en beneficiarse por la vía informal de los emigrantes: recibiendo prebendas para facilitar la salida, fuese de los boat people o de los braceros hacia República Dominicana",
+     "traduccion": "[Interpretación sobre el régimen de Jean-Claude Duvalier; sin prueba documental citada en el pasaje.]",
+     "afirmaciones": [
+      "A-195"
+     ]
+    },
+    {
+     "ubicacion": "p. 65",
+     "cita_original": "no eran los más pobres, sino los que podían pagar el pasaje en el barco",
+     "traduccion": "[Sobre los boat people hacia EE. UU. (Icart 1987); frente a los que iban a la RD, «en peores condiciones económicas», p. 66.]",
+     "afirmaciones": [
+      "A-199"
+     ]
+    },
+    {
+     "ubicacion": "p. 145",
+     "cita_original": "trabajadores no libres, en el sentido de que carecían de entera libertad, sobre todo de movilidad, para la venta de su fuerza de trabajo",
+     "traduccion": "[Sobre los braceros haitianos en los inicios; con nota a Brass, Miles, Cohen y Dore Cabral 1992 sobre el concepto de trabajo no libre.]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    },
+    {
+     "ubicacion": "p. 150",
+     "cita_original": "la división por nacionalidades se condensa en el hecho de que los trabajadores de factoría sean dominicanos y que los obreros haitianos están confinados al ámbito de la esfera agraria",
+     "traduccion": "[Báez Evertsz 1986, p. 204, citado por los autores.]",
+     "afirmaciones": [
+      "A-195",
+      "A-196"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-195",
+    "A-196",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Fuente nueva (no estaba en la ronda 1 ni en el registro: F-0296 es el libro de FLACSO de 1998, otro título). Lecturas parciales: §1.7-1.9 (pp. 56-68) y pasajes del cap. V (pp. 145-150); no leídos los caps. II-IV y la metodología (muestra [POR VERIFICAR]). Término cargado: «trabajo no libre» (concepto de Brass y otros). Matiz sobre A-195: no usa «esclavitud» ni «venta»; sitúa la salida de haitianos hacia la RD dentro de una lógica de mercado de trabajo con ilegalidad instrumentalizada (p. 68). La cifra «triplicó la diáspora» es afirmación sin base; la serie cuantitativa queda sin cubrir."
+  },
+  {
+   "titulo": "Haiti, State Against Nation: The Origins and Legacy of Duvalierism (New York: Monthly Review Press, 1990; ficha de préstamo digital en Internet Archive, identificador haitistateagains0000trou)",
+   "autor": "Trouillot, Michel-Rolph",
+   "anio": "1990",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/metadata/haitistateagains0000trou",
+   "urls_alternativas": [
+    "https://archive.org/details/haitistateagains0000trou"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de un antropólogo haitiano de referencia sobre el duvalierismo; aquí solo se confirma la existencia de una copia en préstamo restringido, no su contenido.",
+   "proveniencia": "Michel-Rolph Trouillot (1949-2012), antropólogo e historiador haitiano; según las descripciones editoriales de catálogo (no leídas en el libro) el libro analiza el duvalierismo como producto de la disyunción entre Estado y nación. Se editó en 1990, cuatro años después de la caída de Jean-Claude Duvalier. La ficha de Internet Archive describe una copia de préstamo digital de 294 imágenes.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-195",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "F-0111",
+   "notas": "SOLO FICHA (JSON de metadatos de archive.org, HTTP 200): título, autor, editorial, 1990, ISBN 0853457557 y 0853457565, 294 imágenes, «access-restricted-item: true». La búsqueda interior de archive.org devolvió «No hOCR or Abbyy file present», así que no se pudo ni consultar fragmentos. No se usa la copia comunitaria 'stateagainstnation' (derechos dudosos, según la instrucción de esta ronda), aunque F-0111 la lista como URL. Para el período 1961-86 interesa su análisis de la emigración de la élite y de la «nación» frente al Estado, [POR VERIFICAR] hasta leer el libro por préstamo en biblioteca."
+  },
+  {
+   "titulo": "Haitian Refugees in the U.S. (Londres: Minority Rights Group, Report n.º 52, 1982)",
+   "autor": "Stepick, Alex (con Dale Frederick Swartz)",
+   "anio": "1982",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://minorityrights.org/resources/haitian-refugees-in-the-u-s/",
+   "urls_alternativas": [
+    "https://libcat.library.tamu.edu/Record/in00000508799"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe de Alex Stepick para una ONG de derechos de minorías sobre los refugiados haitianos en EE. UU. hasta 1982; no se pudo abrir y su fiabilidad es la esperada de la serie, no la comprobada.",
+   "proveniencia": "Informe n.º 52 de Minority Rights Group (Londres, 1982) por Alex Stepick con la ayuda de Dale Frederick Swartz, según fichas de catálogo que devolvió la búsqueda (no abiertas). Minority Rights Group es una ONG de derechos de las minorías.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "FALLO DE FETCH: minorityrights.org devolvió 403 («Just a moment…», Cloudflare) a curl y a WebFetch; el catálogo de Texas A&M también 403 con la misma comprobación. Los datos bibliográficos (Report 52, 1982, Stepick y Swartz) vienen de fichas de búsqueda de varios catálogos (UPenn, TAMU, British Museum, Holy Cross): [POR VERIFICAR] contra una ficha abierta. La búsqueda indicó que la propia ONG avisa de que no hay versión digital [POR VERIFICAR]. No se halló ninguna copia en ERIC."
+  },
+  {
+   "titulo": "Dominican Sugar Plantations: Production and Foreign Labor Integration (New York: Praeger, 1991, xii + 186 pp.; ISBN 0275931137)",
+   "autor": "Murphy, Martin F.",
+   "anio": "1991",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://openlibrary.org/books/OL1883319M",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL4475839W"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de un antropólogo con trabajo de campo en las plantaciones azucareras dominicanas en los años ochenta, citada por los estudios posteriores (Corten y Duarte 1994, F-1100; de Murphy también citan obras anteriores Millán 1993, Silié et al. 2002 y la ENI-2012); no se pudo leer.",
+   "proveniencia": "Martin F. Murphy, antropólogo, es autor de una tesis del Departamento de Antropología de la Universidad de Columbia (1986, citada por Millán 1993) y de un artículo en Ciencia y Sociedad, IX(2), 1984 (citado por Madruga 1985). El libro de Praeger (1991) trata, según su descripción editorial (no leída en el libro), de la lógica de producción, la integración de mano de obra extranjera y una comparación de tres corporaciones.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-195",
+    "A-196"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "SOLO FICHA (Open Library, registro OL1883319M, HTTP 200): Praeger, 1991, xii + 186 pp., bibliografía en pp. 165-180; temas «Alien labor, Haitian -- Dominican Republic». Sin texto. Corten y Duarte (1994, F-1100) lo citan para las series oficiales de haitianos por año; Millán (1993) cita su informe de 1989 (CEA ~60 % del azúcar). El pedido de la ronda 2 («encuesta de bateyes») queda sin cubrir: no se pudo ver la muestra de Murphy. Pendiente: préstamo o biblioteca."
+  },
+  {
+   "titulo": "La República Dominicana y Haití frente al futuro (Santo Domingo: FLACSO, 1998; ed. Rubén Silié y Carlos Segura)",
+   "autor": "Silié, Rubén (ed.); Cassá, Roberto; et al.",
+   "anio": "1998",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22307/3/LFLACSO-01-Silie.pdf",
+   "urls_alternativas": [
+    "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22800/11/LFLACSO-09-Silie.pdf",
+    "https://biblio.flacsoandes.edu.ec/libros/digital/48461.pdf"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Libro colectivo de FLACSO con Cassá entre los autores (tesis de A-200), pero sigue sin poder abrirse.",
+   "proveniencia": "Obra colectiva de FLACSO-RD (1998) editada por Rubén Silié y Carlos Segura, con capítulos de Roberto Cassá y otros; el repositorio de FLACSO-Andes la aloja por capítulos.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-200"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "F-0296",
+   "notas": "REINTENTO SIN ÉXITO (2026-10-07): curl con agente de navegador devolvió 403 (HTML de 2.728 bytes) para los tres URLs alternativos del repositorio (handles 10469/22307 y 10469/22800, y biblio.flacsoandes.edu.ec); WebFetch también devolvió 403. La API de disponibilidad de la Wayback Machine no tiene copia de 22307/3 y respondió 429 en el resto de intentos; en cambio sí hay copia del libro de 2002 (handle 22631), usada arriba. El repositorio de FLACSO-Andes sigue bloqueado."
+  }
+ ]
+}

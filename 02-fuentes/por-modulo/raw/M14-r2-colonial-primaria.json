@@ -1,0 +1,1134 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M14",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 18,
+ "busquedas_pendientes": [
+  "Boletín Judicial / sentencias de Juzgados de Paz y Cortes 1961-1986 que apliquen la Ley 391 de 1943 («voudou» o «luá») o el art. 118 del Reglamento 824 (el catálogo de la ENJ devolvió HTTP 500 y no localicé el Boletín de esos años en línea)",
+  "Hemeroteca dominicana 1961-1986 (Listín Diario, El Caribe, Última Hora): redadas, clausuras o cobertura de la Ley 391",
+  "Copias en bibliotecas digitales de Deive (1975, 1996) y Davis (1987): Museo del Hombre Dominicano, Biblioteca Nacional Pedro Henríquez Ureña (bd.bnphu.gob.do exige inicio de sesión), Funglode, UASD",
+  "Gaceta Oficial n.º 5976 (28-IX-1943) original: Archivo General de la Nación o Biblioteca Nacional (el volumen del Senado termina en el n.º 5969; la LOC no tiene 1943-44)",
+  "Palma Sola (diciembre de 1962; movimiento religioso popular reprimido por el Estado): informes oficiales, Consejo de Estado y Fuerzas Armadas",
+  "Código Penal dominicano (art. 479 y siguientes, hechicería y supersticiones) y Ley n.º 1951 de 1949 sobre espectáculos públicos: texto en la Colección de 1949 (item dd81afc7-6ea2-4b50-b264-90478849f8d8 del Senado)",
+  "Concordato de 1954 con la Santa Sede (religión católica oficial) y Constitución de 1963 (libertad de cultos) para el marco constitucional de 1961-66",
+  "Expediente del Tribunal Constitucional por la acción de inconstitucionalidad contra la Ley 391 mencionada por NACLA (abril de 2024)",
+  "Memorias 1961-1986 de las Secretarías de Educación, Bellas Artes y Cultos, del Museo del Hombre Dominicano y del Instituto de Cultura Dominicana (el OCR de la Memoria de 1970 es casi inservible)",
+  "Decreto o resolución de 1992 sobre el culto del Barón del Cementerio (fuera del período, pero cierra la cadena normativa)"
+ ],
+ "lagunas": [
+  "A-201 sigue sin resolverse en su afirmación central («el relato oficial omite»): las normas halladas (Ley 391 de 1943, art. 118 del Reglamento 824 de 1971) prueban penalización y marginación normativa, no silencio; no se halló ningún expediente de APLICACIÓN en 1961-1986 (sentencias, partes policiales, prensa), ni texto oficial de relato (programas escolares, discursos) que trate el vodú. Faltan Deive (1975) y Davis (1987).",
+  "No se halló la Gaceta Oficial n.º 5976 original de la Ley 391: el texto promulgado procede de la Colección oficial de 1943 (que dice «espectáculos» donde el proyecto, el informe de comisión y los oficios dicen «bailes»); no se pudo establecer cuándo y por quién se cambió la palabra [POR VERIFICAR].",
+  "Vigencia de la Ley 391 de 1943 tras 1961: ningún barrido por palabras clave (voud, vudú, vodú, luá, brujer, hechicer, baquin, folkl, «Ley 391») halló modificación o derogación en las Colecciones de Leyes de 1961-64, 1966-69 y 1972-84 (20 volúmenes), ni en las Gacetas de 1970, 1971, 1985 y 1986, ni mención en 29 libros de actas del Senado de 1961-86; el OCR es irregular (en la propia p. 535 de la Colección de 1943 el OCR escribe «vou, dou» y «voPdou»), faltan las Colecciones de 1965, 1970, 1971, 1985 y 1986 y los libros de actas de 1962, 1964-66, 1975 y 1977, de modo que la ausencia de hallazgos NO prueba que la ley no se modificara.",
+  "Vigencia del Reglamento 824 de 1971: confirmada hasta 1986 (Dec. 743 de 1979, Dec. 348 de 1982, Ley 278 de 1985, Dec. 987-86-210 de 1986), sin que se halle modificación del art. 118; vigencia posterior a 1986 solo por NACLA (2025), secundaria no verificada.",
+  "Reglamento 995 de 1955: leído por palabras clave; el reglamento general de 1949 que este deroga y la Ley n.º 1951 de 1949 no se leyeron.",
+  "Vínculo del Museo del Hombre Dominicano (Ley 318 de 1972) con los estudios de Deive y Davis: no verificado en las fuentes leídas; la ley no menciona lo africano ni el vodú.",
+  "F-1357 (BNPHU: inicio de sesión), F-0296 (FLACSO: 403 anti-bot) y F-0070 (La isla al revés: préstamo de la Internet Archive, 403) siguen sin texto; no se eludieron las barreras.",
+  "NACLA (2025): curl bloqueado por Anubis; las citas proceden de dos lecturas coincidentes de WebFetch (un resumen) y deben cotejarse; autoría no confirmada.",
+  "Las Colecciones de Leyes y las Gacetas del archivo del Senado son escaneos con OCR desigual; las citas de este JSON se verificaron sobre la imagen salvo las marcadas OCR (Dec. 348 de 1982, p. 177 del libro de actas de 1930-32, Memoria de Turismo de 1983, Decreto 1684 verificado en imagen)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "«bailes / espectáculos orgiásticos» («voudou» o «luá»)",
+   "tradicion": "oficial-rd (Estado trujillista, 1943)",
+   "nota": "Rótulo legal de la Ley 391 de 1943 para prácticas rituales afrocaribeñas; el delito es «ultraje a las buenas costumbres». El proyecto y los oficios dicen «bailes»; la Colección oficial dice «espectáculos». Término descriptivo propuesto: «prácticas rituales afrocaribeñas (vodú/luá)», con el rótulo oficial entre comillas la primera vez. Falta en el glosario."
+  },
+  {
+   "termino": "«elementos exóticos» / «prácticas salvajes»",
+   "tradicion": "oficial-rd (mensaje de Trujillo de 28-VIII-1943)",
+   "nota": "Calificativos del Ejecutivo para quienes practican el «voudou»/«luá» (trabajadores temporales de «empresas agrarias») y para las prácticas mismas; «exótico» reaparece en 1984 («transculturación del arte exótico», Ley 248). Son términos del emisor, no categorías analíticas."
+  },
+  {
+   "termino": "«danzas africanas» (categoría b del art. 118)",
+   "tradicion": "oficial-rd (Reglamento 824, 1971)",
+   "nota": "Categoría reglamentaria que agrupa rumbas, danzas africanas y streap-tease como bailes «atentatorios a la moral y al pudor público». No equivale a «vodú»; el término no está en el glosario."
+  },
+  {
+   "termino": "«luá» / «luases»",
+   "tradicion": "dominicana (oficial y popular)",
+   "nota": "Aparece en la Ley 391 como sinónimo de «voudou» y en Deive (según Peguero) como «luasismo»; designa a los espíritus (luás) y por extensión la práctica. Falta en el glosario; conviene definirlo junto a «vudú dominicano / 21 Divisiones»."
+  },
+  {
+   "termino": "«supersticiones tradicionales»",
+   "tradicion": "oficial-rd (Dec. 1684 de 1983)",
+   "nota": "Expresión oficial de 1983 para las creencias de la medicina folklórica dominicana; el mismo calificativo («superstición») usó Trujillo en 1943 para explicar por qué las prácticas «se aclimatan»."
+  },
+  {
+   "termino": "«ultraje a las buenas costumbres»",
+   "tradicion": "oficial-rd (Ley 391, 1943)",
+   "nota": "Tipo penal general de la Ley 391; la Constitución de 1966 vuelve a usar «buenas costumbres» como límite de la libertad de cultos (art. 8, n.º 8)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Senado de la República Dominicana, Expediente 3596 (28-VIII-1943): proyecto de ley por cuyo medio se establecen penas correccionales para los que practiquen los bailes conocidos con el nombre de «voudou» o «luá» (mensaje n.º 19506 del Poder Ejecutivo, informe de la Comisión Permanente de lo Interior y Policía, texto del proyecto, oficios de la Cámara de Diputados y de la Presidencia sobre la promulgación como Ley n.º 391)",
+   "autor": "Trujillo Molina, Rafael L. (Presidente de la República); Paíno Pichardo, R. (Secretario de Estado de la Presidencia); Bonetti Burgos, J. M. (Cámara de Diputados); Díaz, Gustavo A.; Fermín Cabral, Mario; Ferser, Teófilo (Comisión Permanente de lo Interior y Policía del Senado)",
+   "anio": "1943",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/873cf4bc-8c01-4512-9e06-42b68c073940/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/b4257f0c-ba27-44fb-81cb-711eb39fc66e/full",
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/b4257f0c-ba27-44fb-81cb-711eb39fc66e"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Expediente legislativo original (13 páginas escaneadas de documentos mecanografiados con firma y sello) del archivo del Senado; el texto se leyó sobre la imagen de cada página, no solo sobre el OCR, que es ruidoso en esta copia.",
+   "proveniencia": "Expediente del Senado de la República Dominicana (Proyectos de ley, fecha de catálogo 1943-08-28, 2,59 MB, 13 páginas). Reúne los papeles del trámite de la ley contra el «voudou» y el «luá»: mensaje del Presidente Trujillo al Senado (28-VIII-1943), informe favorable de la Comisión Permanente de lo Interior y Policía (2-IX-1943), el texto del proyecto, el oficio de la Cámara de Diputados del 16-IX-1943 y el de la Secretaría de Estado de la Presidencia del 21-IX-1943. Es voz del Estado trujillista en su fase de dominicanización cultural (después de 1937) y no recoge ninguna voz de los practicantes.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 3 (mensaje n.º 19506 de Trujillo al Presidente del Senado, Ciudad Trujillo, 28-VIII-1943), párr. 1",
+     "cita_original": "Desde hace tiempo se viene comprobando que algunos elementos exóticos de los que vienen al país por cierto tiempo para trabajar en las empresas agrarias, practican clandestinamente los bailes orgiásticos denominados \"voudou\" o \"luá\", los cuales son extraños absolutamente a las costumbres y a los gustos de todos los dominicanos sin excepción.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 3 (mismo mensaje), párr. 2",
+     "cita_original": "Las disposiciones legales que actualmente pueden invocarse para castigar a los autores de esas prácticas salvajes no son suficientemente severas, por lo cual se hace necesario dictar una ley sobre esta materia, por cuyo imperio esas prácticas se destierren completa y definitivamente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 3 (mismo mensaje), final del párr. 2",
+     "cita_original": "[...] no obstante la repugnancia que los nacionales manifiestan por ellas, se aclimatan favorecidas por la ignorancia o la superstición.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 7 (informe de la Comisión Permanente de lo Interior y Policía, Ciudad Trujillo, 2-IX-1943; firman G. A. Díaz, M. Fermín Cabral, T. Ferser)",
+     "cita_original": "[...] tiene por objeto establecer enérgicas sanciones contra aquellas personas que traten de propagar y arraigar en el país la práctica salvaje de bailes orgiásticos de origen africano, tales como el llamado voudou. [...] representa una medida de preservación social que merece la inmediata sanción del Congreso Nacional.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12 (texto del proyecto, art. 1)",
+     "cita_original": "Se considera como un ultraje a las buenas costumbres y como tal será castigado con penas correccionales, la práctica de los bailes conocidos con el nombre de \"voudou\" o \"luá\", así como cualquier otro de igual o similar naturaleza, ya sea realizado en sitio público o no.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 12 (texto del proyecto, art. 2 y párr. I)",
+     "cita_original": "Las personas convictas de haber cometido este delito contra las buenas costumbres, serán castigadas con prisión de dos meses a dos años o con multa de diez a quinientos pesos. Párrafo I.- Igual pena les será impuesta a las personas en cuyas casas, establecimientos, fincas o posesiones se celebre cualquier acto de la naturaleza ya expresada.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF pp. 12-13 (texto del proyecto, art. 2 párr. II, art. 3 y art. 4)",
+     "cita_original": "Los infractores de esta ley quedarán, asimismo, sujetos a la vigilancia especial de la alta policía, por un período que no podrá ser menor de un año. Las sentencias podrán disponer también su deportación, cuando fuere de lugar. [...] Art. 3.- Los objetos que hayan sido utilizados en dichos actos, serán confiscados y destruidos [...]",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 4 (oficio n.º 832 de la Cámara de Diputados al Vicepresidente del Senado, 16-IX-1943)",
+     "cita_original": "Este asunto fué aprobado por la Cámara de Diputados en sesión celebrada hoy y remitido al Poder Ejecutivo para los fines constitucionales de lugar.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 6 (oficio n.º 21174 de R. Paíno Pichardo, Secretario de Estado de la Presidencia, 21-IX-1943)",
+     "cita_original": "[...] el proyecto de ley que establece penas correccionales para los que practiquen los bailes conocidos con el nombre de \"voudou\" o \"luá\", así como cualquier otro de igual naturaleza, en sitios públicos o no, ha sido promulgado con fecha de ayer y registrado bajo el No. 391.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (documento): el Poder Ejecutivo propuso en 1943 una ley específica contra el «voudou» y el «luá», que el Senado aprobó el 7 y el 8 de septiembre (12 votos, sin debate registrado: ver la ficha del Libro de actas) y la Cámara el 16; fue promulgada el 20-IX-1943 como Ley n.º 391. INTERPRETACIÓN del propio texto (marco del emisor): lo presenta como práctica «exótica» ajena a los dominicanos, de «origen africano» (informe de la Comisión), importada por trabajadores temporales de «empresas agrarias»; el documento NO nombra a los haitianos. El mensaje dice que las disposiciones vigentes «no son suficientemente severas», es decir, ya existía alguna norma penal general. Nótese que el proyecto y los oficios dicen «bailes», mientras que la Colección oficial de 1943 imprime «espectáculos» (ver la ficha de la Colección). ATENCIÓN a la homonimia: existe otra Ley n.º 391, del 17-XII-1940, sobre cédula personal de identidad (mujeres extranjeras); la numeración se reinicia entre períodos y las fuentes secundarias confunden a veces ambas (un resumen de búsqueda atribuyó a la Ley 391 la cédula de las mujeres). Citar siempre «Ley 391 de 1943». El OCR de la copia es ruidoso (p. 2, 5 y 13 casi ilegibles en texto); las citas se verificaron sobre la imagen. No hay voz de practicantes."
+  },
+  {
+   "titulo": "Colección de Leyes, Resoluciones, Decretos y Reglamentos de los Poderes Legislativo y Ejecutivo de la República Dominicana, de enero a diciembre de 1943, tomo I (Poder Legislativo, leyes n.º 150 a 473): Ley n.º 391, que establece penas correccionales para las personas que practiquen los espectáculos de «voudou» o «luá» (G. O. n.º 5976, 28-IX-1943)",
+   "autor": "República Dominicana, Congreso Nacional; Poder Ejecutivo (Rafael L. Trujillo); edición oficial de Imprenta J. R. Vda. García, Sucesores",
+   "anio": "1943 (ed. Ciudad Trujillo, 1945)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/4ad922b8-1bff-4445-a016-14110be22e3e/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/4358cad7-5a74-4cea-a5cd-731ab04aedc5",
+    "https://memoriahistorica.senadord.gob.do/bitstreams/93311cfb-9d4e-4f24-9ba0-33b4f5ee8b2b/download (tomo II, 1943)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial impresa de la legislación del año, escaneada en el archivo del Senado (735 páginas, 170 MB); la página de la Ley 391 se leyó sobre la imagen, no solo sobre el OCR.",
+   "proveniencia": "Compilación oficial de las leyes, decretos y reglamentos de 1943 impresa en 1945 en Ciudad Trujillo; cada ley lleva el encabezado con el número y el de la Gaceta Oficial donde se publicó. Aquí sirve como el texto promulgado de la Ley 391, porque el número original de la Gaceta Oficial (n.º 5976, del 28-IX-1943) no está en el volumen encuadernado del archivo del Senado (llega al n.º 5969, de 11-IX-1943; ver incidencias) ni en la Library of Congress.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 535 (p. impresa 534), encabezado de la ley",
+     "cita_original": "Ley N° 391, que establece penas correccionales para las personas que practiquen los espectáculos de \"voudou\" o \"luá\".— G. O. N° 5976, del 28 de Septiembre de 1943.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 535 (p. impresa 534), considerando",
+     "cita_original": "CONSIDERANDO: Que se ha comprobado que algunos elementos exóticos llegados al país practican clandestinamente los espectáculos orgiásticos conocidos con el nombre de \"voudou\" o \"luá\", los cuales son absolutamente extraños a las costumbres y a los gustos de los dominicanos sin excepción",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 535 (p. impresa 534), art. 1",
+     "cita_original": "Art. 1.— Se considera como un ultraje a las buenas costumbres y como tal será castigado con penas correccionales, la práctica de los espectáculos conocidos con el nombre de \"voudou\" o \"luá\", así como cualquier otro de igual o similar naturaleza, ya sea realizado en sitio público o no.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 535 (p. impresa 534), art. 2",
+     "cita_original": "Art. 2.— Las personas convictas de haber cometido este delito contra las buenas costumbres, serán castigadas con prisión de dos meses a dos años o con multa de diez a quinientos pesos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 536 (p. impresa 535), cierre",
+     "cita_original": "DADA en Ciudad Trujillo, Distrito de Santo Domingo, Capital de la República Dominicana, a los veinte días del mes de septiembre del año mil novecientos cuarenta y tres [...] RAFAEL L. TRUJILLO.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 110 (p. impresa 111), Ley n.º 191 (G. O. n.º 5872, 17-II-1943), homonimia",
+     "cita_original": "Artículo Unico:— Se agrega el siguiente párrafo al Art. 2 de la Ley sobre Cédula Personal de Identidad, Nº 391, del 17 de Diciembre de 1940",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el texto promulgado dice «espectáculos» (encabezado, considerando y art. 1) donde el proyecto del Ejecutivo, el informe de la Comisión y los oficios dicen «bailes»; no se pudo determinar en qué fase del trámite se cambió la palabra (la Cámara y el Senado describen el asunto con «bailes» en sus oficios del 16-IX y del 21-IX) ni cotejar con la Gaceta Oficial n.º 5976 original, que no se halló [POR VERIFICAR]. La numeración legislativa se reinicia: la Ley n.º 391 del 17-XII-1940 (cédula personal de identidad de las mujeres extranjeras; modificada por la Ley n.º 191 de 1943 y citada en el Expediente 3429 del Senado, 20-I-1943) es otra ley. La ley no distingue religión de baile: el tipo penal es el «ultraje a las buenas costumbres»; el castigo es prisión de 2 meses a 2 años o multa de 10 a 500 pesos, vigilancia de la alta policía (mínimo un año), posible deportación y destrucción de los objetos usados. Vigencia posterior: ningún barrido por palabras clave (OCR irregular) de las Colecciones de Leyes de 1961-1984 localizó modificación o derogación (ver lagunas); una fuente secundaria de 2025 (NACLA) la da por vigente."
+  },
+  {
+   "titulo": "Libro de actas de sesiones del Senado de la República Dominicana: 1943, nos. 157-242 (Libro A n.º 21): Acta 180 (31-VIII-1943), Acta 182 (2-IX), Acta 184 (7 y 8-IX), Acta 191 (21-IX) y Acta 193 (23-IX-1943) sobre el proyecto contra el «voudou» y el «luá»",
+   "autor": "República Dominicana, Senado (Vicepresidente en funciones Rafael Augusto Sánchez; senadores; Secretaría)",
+   "anio": "1943",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/d7fb35f9-7e1f-4f52-b384-988e41992b2f/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/3e152526-6d73-4101-9e38-333de81fc0af"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Actas oficiales mecanografiadas del propio Senado, escaneadas (455 páginas, 288 MB); las páginas citadas se leyeron sobre la imagen.",
+   "proveniencia": "Libro de actas de las sesiones del Senado trujillista en el segundo semestre de 1943 (Libro A n.º 21). Registra la lectura del mensaje del Ejecutivo, el informe de comisión, las dos discusiones y el aviso de promulgación; es un documento de procedimiento, no de debate.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 119 (Acta 180, 31-VIII-1943, p. 2), correspondencia",
+     "cita_original": "Mensaje No. 19506, fechado a 28 de agosto de 1943 [...] un proyecto de ley por cuyo medio se imponen penas más severas a los elementos exóticos que clandestinamente practican los bailes orgiásticos denominados \"voudou\" o \"luá\" [...] Pase a la Comisión de lo Interior y Policía para su estudio e informe.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 130 (Acta 182, 2-IX-1943, p. 3), informes",
+     "cita_original": "Hay un informe presentado por la Comisión Permanente de lo Interior y Policía favorable a la aprobación del proyecto de ley enviado por el Poder Ejecutivo por cuyo medio se imponen penas más severas que las actuales para los que practiquen los bailes orgiásticos de origen africano denominados \"voudou\" o \"luá\".",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 155 (Acta 184, 7-IX-1943, p. 6), tercer punto del orden del día",
+     "cita_original": "PRIMERA LECTURA Y DISCUSION DEL PROYECTO DE LEY POR CUYO MEDIO SE ESTABLECEN PENAS MAS SEVERAS PARA LOS QUE PRACTIQUEN LOS BAILES ORGIASTICOS DENOMINADOS \"VOUDOU\" O \"LUA\". [...] (DOCE VOTOS EN FAVOR) APROBADO EN PRIMERA DISCUSION.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 152 (Acta 184, 8-IX-1943, p. 5), tercer punto del orden del día",
+     "cita_original": "SEGUNDA LECTURA Y DISCUSION DEL PROYECTO DE LEY POR CUYO MEDIO SE ESTABLECEN PENAS MAS SEVERAS QUE LAS ACTUALES PARA AQUELLOS QUE PRACTIQUEN LOS BAILES ORGIASTICOS DE ORIGEN AFRICANO, DENOMINADOS \"VOUDOU\" O \"LUA\" [...] (DOCE VOTOS EN FAVOR) APROBADO EN SEGUNDA DISCUSION.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 193 (Acta 191, 21-IX-1943, p. 2), correspondencia",
+     "cita_original": "Mensaje No. 832, con fecha 16 de septiembre, por cuyo medio avisa recibo y la aprobación por aquella Cámara, del proyecto de ley en virtud del cual se establecen penas correccionales para los que practiquen los bailes conocidos con el nombre de \"voudou\" o \"luá\" [...]",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF pp. 203-204 (Acta 193, 23-IX-1943), correspondencia",
+     "cita_original": "[...] oficios del Señor Secretario de E. de la Presidencia por los cuales comunica al Senado que el Hon. Señor Presidente de la República ha promulgado las siguientes leyes: a) ley que establece sanciones más severas que las actuales para aquellos que practiquen los bailes orgiásticos denominados \"voudou\" u \"luá\"",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: tramitación en una semana (31-VIII a 8-IX en el Senado), con 12 votos a favor en cada discusión y sin intervención de senador alguno registrada en las páginas leídas. El texto del acta añade «de origen africano» al título del proyecto (Acta 182 y 184), fórmula ausente en el mensaje del Ejecutivo y en el título de la Ley 391. El Acta 184 aparece con fecha 7-IX en un folio y 8-IX en otro (continuación de la sesión). El número de acta 191 y 193 se leyó sobre la imagen; los números 180 y 182 también. La lectura de otras páginas del libro (nos. 157-242) no se hizo íntegra; se buscaron por palabras clave «voud», «vod», «luá», «bailes» y «orgi» en el texto OCR."
+  },
+  {
+   "titulo": "Senado de la República Dominicana, Expediente 1106 (23-XII-1930): proyecto de ley que prohíbe el baile de «voudou» o «sánce» y sus similares (aprobado por la Cámara de Diputados el 19-XII-1930; oficio de Miguel Ángel Roca)",
+   "autor": "Roca, Miguel Ángel (Presidente de la Cámara de Diputados); Congreso Nacional (Cámara de Diputados)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/4c0ec27c-12fd-4aad-8d26-82f6cf04d752/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/24596d5b-4198-44f1-961b-c5a7593e41b7"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Expediente legislativo original (3 páginas mecanografiadas escaneadas, 1,4 MB) leído sobre la imagen; es un proyecto, no una ley promulgada.",
+   "proveniencia": "Proyecto aprobado por la Cámara de Diputados el 19-XII-1930 (cuatro meses después de la toma de posesión de Trujillo) y remitido al Senado el 23-XII-1930. Es el antecedente legislativo de la Ley 391 de 1943, con la que contrasta: incluye el «sánce», el «guangá», el «baquiní» y las «curas hechas por medio de hechicerías», y no usa el calificativo de «africano».",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 2 (oficio de la Cámara de Diputados al Presidente del Senado, Santo Domingo, 23-XII-1930)",
+     "cita_original": "Tengo el placer de remitir a Ud., para los fines constitucionales, el Proyecto de Ley que prohibe el Baile conocido con el nombre de \"VOUDOU\" ó \"SANCE\" y sus similares, aprobado debidamente por la Cámara de Diputados.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 3 (texto del proyecto), art. 1 y art. 2",
+     "cita_original": "Art. 1.- A partir de la publicación de la presente Ley, queda prohibido en todo el territorio de la República el baile conocido con los nombres de \"voudou\", \"sance\", \"luá\" o \"guangá\". Art. 2.- También queda prohibido el \"baquiní\" y en general todo género de curas hechas por medio de hechicerías.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 3 (texto del proyecto), art. 3 y párrafo",
+     "cita_original": "[...] multa de DIEZ ($10.00) a CINCUENTA ($50.00) PESOS y prisión de uno a seis meses por la primera infracción [...] Si es extranjero, será deportado como elemento indeseable, no pudiendo volver más al país.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: es un PROYECTO; la ficha siguiente (Libro de actas 1930-32) muestra que el Senado lo aplazó el 23-XII-1930 y no se halló rastro de su aprobación posterior. No debe citarse como ley. Interés para A-201: muestra que la prohibición de estas prácticas se discutió legislativamente desde 1930 (primeros meses del gobierno de Trujillo) y que en 1943 el Ejecutivo la retomó con agravantes (deportación, alta policía) y con la categoría de «ultraje a las buenas costumbres». El texto del art. 3 se leyó sobre la imagen (el OCR de la copia es casi inutilizable)."
+  },
+  {
+   "titulo": "Libro de actas de sesiones del Senado de la República Dominicana: 1930-1932, nos. 1-171 (Libro A n.º 9): sesión del 23-XII-1930, primera lectura y aplazamiento del proyecto que prohíbe los bailes «voudou» y similares",
+   "autor": "República Dominicana, Senado (Presidencia del senador Mario Fermín Cabral; secretarios Lorenzo E. Brea y Doroteo A. Rodríguez)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/74db5503-a8f6-4af4-aa80-110d831611d2/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/3a373e20-6b1f-4171-9057-e89404aafd44"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Actas oficiales del Senado escaneadas (535 páginas, 310 MB); la página citada se leyó sobre la imagen.",
+   "proveniencia": "Libro de actas del Senado durante la primera legislatura ordinaria de 1930 y las siguientes. Documenta cómo el Senado trató en primera lectura el proyecto de la Cámara contra el «voudou».",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 179 (acta de la sesión del 23-XII-1930, p. 4; número de acta borroso en la imagen), sexto punto del orden del día",
+     "cita_original": "SEXTO PUNTO:- \"Primera lectura y discusión del proyecto de ley que prohibe los bailes denominados voudou etc.\" [...] despues de una larga discusión en la cual se distinguieron los Senadores Doroteo Rodriguez, Sanchez, Chottin, Brea y la Presidencia, fué APLAZADO el proyecto a proposición del Senador Brea.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 177 (misma sesión, correspondencia), OCR reconstruido",
+     "cita_original": "[...] adjunto al cual envia el proyecto de ley que prohibe los bailes denominados con el nombre de voudou etc.- Quedó sobre el tapete.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en 1930 el Senado discutió largamente el proyecto (cinco intervinientes nombrados, sin el contenido de sus argumentos) y lo aplazó a propuesta del senador Brea; en 1943, con el mismo Senado ya trujillista, se aprobó en dos votaciones de 12 votos sin debate registrado. No se leyó el libro íntegro: una búsqueda por palabras clave en el OCR (voud, sance, baquin, guang, hechicer) halló solo esas menciones; no aparece una reconsideración posterior del proyecto en 1930-32. El número de acta (¿50?) no se leyó con seguridad."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año XCII, n.º 9220 (Santo Domingo de Guzmán, 10 de abril de 1971): Reglamento n.º 824, para el funcionamiento de la Comisión Nacional de Espectáculos Públicos y Radiofonía (dado el 25-III-1971)",
+   "autor": "Balaguer, Joaquín (Presidente de la República Dominicana); Contín Aybar, Néstor (Director-Administrador y Consultor Jurídico del Poder Ejecutivo)",
+   "anio": "1971",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://tile.loc.gov/storage-services/service/ll/llflg/do/10/04/19/71/00/do1004197100/do1004197100.pdf",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/bitstreams/871c0edd-c758-4dcf-bc1d-83e17e5492bb/download (volumen encuadernado 1971, n.os 9211-9249, 145 MB; no leído: la copia de la LOC basta)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Número original de la Gaceta Oficial (36 páginas) digitalizado por la Law Library of Congress; el art. 118 se leyó sobre la imagen de la p. 32.",
+   "proveniencia": "Publicación oficial del Reglamento dictado por Balaguer en ejercicio del art. 55 de la Constitución, que deroga y sustituye el Reglamento n.º 995 del 13-VII-1955 (Trujillo) y se apoya en la Ley n.º 1951 del 7-III-1949. La Comisión Nacional de Espectáculos Públicos y Radiofonía depende de la Dirección General de Correos y Telecomunicaciones y controla espectáculos, radio, televisión, discos y artistas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1 (portada y sumario)",
+     "cita_original": "Santo Domingo de Guzmán, República Dominicana, 10 de abril de 1971. SUMARIO: Actos del Poder Ejecutivo. Reglamento N° 824, para el funcionamiento de la Comisión Nacional de Espectáculos Públicos y Radiofonía.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "pp. 3-4 (art. 2)",
+     "cita_original": "[...] tiene como propósito evitar que en la República Dominicana se lleven a cabo espectáculos públicos y emisiones radiofónicas que ofendan la moral, las buenas costumbres, las relaciones con países amigos y en general que puedan ser perjudiciales a los principios y normas del pueblo dominicano.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "p. 18 (art. 62, tercero)",
+     "cita_original": "Tratar de elevar el nivel cultural del pueblo, y la conservación de la característica nacional, sus costumbres y tradiciones, la pureza del idioma y exaltar los valores de la nacionalidad dominicana.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "p. 32 (art. 118)",
+     "cita_original": "Los bailarines serán clasificados en dos categorías: (a) y (b). [...] De categoría (b), los que se dediquen a bailar rumbas, danzas africanas, streap-tease y todos los bailes que sean considerados atentatorios a la moral y al pudor público.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "pp. 32-33 (art. 118, párrafo)",
+     "cita_original": "Los de categoría (b), no podrán presentarse en televisión ni programas vivos en los cuales se permita la entrada a menores.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "p. 36 (art. 135 y cierre)",
+     "cita_original": "El presente Reglamento deroga y sustituye el N° 995, sobre Espectáculos Públicos y Emisiones Radiofónicas, de fecha 13 de julio de 1955 [...] DADO en Santo Domingo de Guzmán [...] a los veinticinco días del mes de marzo del año mil novecientos setentiuno [...] JOAQUÍN BALAGUER.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el texto oficial clasifica a quienes bailan «danzas africanas» junto a las rumbas y el streap-tease en la categoría (b), la de los bailes «atentatorios a la moral y al pudor público», que no pueden presentarse en televisión ni en programas en vivo con menores. La norma no menciona el vodú ni a Haití. INTERPRETACIÓN (de este corpus, a verificar): el artículo excluye de la televisión un tipo de baile definido por origen («africanas»), pero no se ha leído ningún expediente de aplicación (sanciones, listas de artistas) de 1971-86; no prueba por sí solo que haya existido una política de omisión del vodú. Falta cotejar el Reglamento n.º 995 de 1955 (Colección de 1955, tomo 2: no está en el archivo; el tomo 1 es solo legislativo). Una fuente secundaria de 2025 (NACLA) dice que el Reglamento sigue en vigor. La copia de la LOC fue escaneada por la Law Library (sello «SENT TO LAW LIBRARY» en la portada)."
+  },
+  {
+   "titulo": "Reglamento No. 824 para el funcionamiento de la Comisión Nacional de Espectáculos Públicos y Radiofonía (texto íntegro, 10.265 palabras, «Actualizado el 26 de agosto de 2024»), fc-abogados.com",
+   "autor": "Carlos Felipe Law Firm S. R. L. (transcripción del texto del Reglamento)",
+   "anio": "2024 (transcripción; Reglamento de 1971)",
+   "tipo": "terciaria",
+   "idioma": "es",
+   "tradicion": "ninguna",
+   "url": "https://fc-abogados.com/reglamento-no-824-para-el-funcionamiento-de-la-comision-nacional-de-espectaculos-publicos-y-radiofonia/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Transcripción de un despacho de abogados, sin Gaceta ni aparato crítico, pero cotejada con la Gaceta Oficial n.º 9220: coincide palabra por palabra en los arts. 2, 62, 118 y 135 y en la fecha.",
+   "proveniencia": "Página comercial de un bufete dominicano que reproduce el texto del Reglamento. La fecha («veinticinco días del mes de marzo del año mil novecientos setentiuno») y la firma de Joaquín Balaguer constan al final del texto, aunque no la Gaceta Oficial.",
+   "extractos": [
+    {
+     "ubicacion": "art. 118 (línea 342 del texto extraído)",
+     "cita_original": "De categoría (b), los que se dediquen a bailar rumbas, danzas africanas, streap-tease y todos los bailes que sean considerados atentatorios a la moral y al pudor público.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "cierre (líneas 374-376 del texto extraído)",
+     "cita_original": "DADO en Santo Domingo de Guzmán, Distrito Nacional, Capital de la República Dominicana, a los veinticinco días del mes de marzo del año mil novecientos setentiuno [...] JOAQUIN BALAGUER.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Terciaria: solo índice. Sirve para cerrar la laguna del crítico: la fecha del Reglamento es el 25-III-1971 y su Gaceta es la n.º 9220 del 10-IV-1971 (ver ficha de la Gaceta Oficial). No citar como evidencia; citar la Gaceta."
+  },
+  {
+   "titulo": "Constitución de la República Dominicana, proclamada por la Asamblea Nacional el 28-XI-1966 (Santo Domingo: Junta Central Electoral, 1966): art. 7 (frontera) y art. 8, n.º 8 (libertad de conciencia y de cultos)",
+   "autor": "Asamblea Nacional de la República Dominicana",
+   "anio": "1966",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/e277b4d7-ebea-4582-9045-200b7443f616/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/efc63d1a-7b15-4c20-9864-597f9de89f17"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional oficial impreso por la Junta Central Electoral, con capa de texto razonable.",
+   "proveniencia": "Es el mismo documento de la ficha provisional M14-N49 (art. 11 sobre nacionalidad), leído ahora para dos artículos nuevos útiles a A-201 y al contexto fronterizo; la fusión debe unificar por URL.",
+   "extractos": [
+    {
+     "ubicacion": "art. 8, n.º 8 (p. impresa 6; líneas 265-267 de la salida de pdftotext -layout)",
+     "cita_original": "8.- La libertad de conciencia y de cultos, con sujeción al orden público y respeto a las buenas costumbres.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "art. 7 (p. impresa 2-3; línea 123 de la salida de pdftotext -layout)",
+     "cita_original": "Es de supremo y permanente interés nacional el desarrollo económico y social del territorio de la República a lo largo de la línea fronteriza, así como la difusión en el mismo de la cultura y la tradición religiosa del pueblo dominicano.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-199",
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201",
+    "A-199"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: la Constitución vigente de 1966-86 garantiza la libertad de conciencia y de cultos «con sujeción al orden público y respeto a las buenas costumbres», que es la misma categoría («buenas costumbres») con que la Ley 391 de 1943 tipifica el «ultraje»; no deroga expresamente la ley. El art. 7 es un mandato constitucional de difundir en la frontera «la cultura y la tradición religiosa del pueblo dominicano» (no precisa cuál). INTERPRETACIÓN (no del texto): se ha leído como política de dominicanización fronteriza; no figura en el texto. Este es el mismo documento que M14-N49: unificar por URL."
+  },
+  {
+   "titulo": "Senado de la República Dominicana, Expediente 983 (26-IV-1972): Ley n.º 318 que crea el «Museo del Hombre Dominicano» (mensaje de Joaquín Balaguer del 14-IV-1972; oficio de promulgación del 27-IV-1972; texto de la ley)",
+   "autor": "Balaguer, Joaquín (Presidente de la República); Ricourt, J. Ricardo (Secretario Administrativo de la Presidencia); Congreso Nacional",
+   "anio": "1972",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/1aa82c32-9fd9-40af-a41f-2db7c5e1cd61/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/6414736e-6454-402a-b69c-df4b8e2c8892"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Expediente legislativo original (30 páginas, 10,7 MB) del archivo del Senado; los documentos citados se leyeron sobre la imagen.",
+   "proveniencia": "Documentos del trámite de la ley que crea la institución donde, desde 1973, trabajaron los etnólogos que estudiaron el vodú dominicano (Deive y Davis son citados por la bibliografía como vinculados al Museo; no verificado aquí [POR VERIFICAR]). Es voz del Ejecutivo de Balaguer sobre el patrimonio cultural.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 3 (mensaje de Balaguer al Presidente del Senado, 14-IV-1972, párr. 1)",
+     "cita_original": "El Gobierno Nacional, consciente de la importancia educativa que tiene para el pueblo dominicano y del atractivo turístico que podría representar para nuestro país el patrimonio cultural de la Nación, está interesado en su conservación por medio de las investigaciones antropológicas y arqueológicas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 2 (oficio n.º 12308 de J. R. Ricourt, 27-IV-1972)",
+     "cita_original": "Pláceme comunicarle, que la Ley en virtud de la cual se crea el \"Museo del Hombre Dominicano\" [...] ha sido promulgada en fecha 26 de abril en curso y marcada con el No. 318.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 22 (texto de la ley, art. 1)",
+     "cita_original": "Se crea el \"Museo del Hombre Dominicano\" [...] y tendrá a su cargo todo lo relativo a las investigaciones Antropológicas, Etnológicas y de Arqueología precolombina en la República Dominicana.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 22 (texto de la ley, art. 2)",
+     "cita_original": "[...] mantener y conservar una exhibición de objetos representativos de las culturas dominicanas y relacionadas en sus diversas etapas, cumpliendo a la vez un propósito didáctico.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: la ley crea una sección de Etnología (art. 3) y habla de «culturas dominicanas y relacionadas», sin mencionar lo africano ni el vodú. INTERPRETACIÓN: es evidencia contra una lectura simple de «omisión»: el Estado de 1972 financia una institución que acabaría albergando estudios etnográficos del vodú, pero su texto fundacional enmarca el patrimonio como «orígenes y evolución del pueblo dominicano» y «atractivo turístico». La numeración de la ley (n.º 318) repite la de la Ley n.º 318 del 14-VI-1968 (patrimonio cultural), citada en el art. 13: cuidado con la homonimia. El vínculo Museo-Deive-Davis no está en este expediente."
+  },
+  {
+   "titulo": "Memoria 1983: Secretaría de Estado de Turismo (Santo Domingo, 1984): División de Eventos y Folklore; Carnaval de Santo Domingo del 26-II-1983; Ballet Folklórico de Turismo",
+   "autor": "República Dominicana, Secretaría de Estado de Turismo",
+   "anio": "1984 (año 1983)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/0849d2e7-04d8-41d5-97c7-e60b44739e18/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/df8251ab-9550-4e86-8dc1-b26195d52677"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Memoria institucional oficial (203 páginas, 56 MB) con capa de texto aceptable; la cita se tomó del texto OCR de las pp. 35 y 133 del PDF.",
+   "proveniencia": "Informe anual de la Secretaría de Estado de Turismo del gobierno de Salvador Jorge Blanco, en el que el Estado presenta su política de «rescate de nuestras tradiciones» y su promoción del folklore (Ballet Folklórico, festivales de grupos folklóricos, carnaval). Lo escribe la propia dependencia, con interés promocional.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 133 (p. impresa 79), «Carnaval de Santo Domingo»",
+     "cita_original": "Dentro del marco de la política de rescate de nuestras tradiciones, que lleva a cabo la Secretaría de Estado de Turismo, fue celebrado [...] el Carnaval de Santo Domingo [...] representando las clásicas máscaras de Diablos Cojuelos, Califé, Robalagallina, La Muerte en Jeep, Los Africanos y otras",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 132 (portada de sección)",
+     "cita_original": "MEMORIA 1983 DIVISION DE EVENTOS Y FOLKLORE",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 39, calendario de eventos",
+     "cita_original": "Igualmente, Festival de Música y Conjuntos Típicos de República Dominicana, Festival de Grupos Folklóricos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en 1983 una dependencia oficial incluye «Los Africanos» entre las máscaras clásicas del carnaval y tiene un Ballet Folklórico y una división de folklore; la memoria no menciona vodú, gagá ni cofradías. Matiza una lectura de silencio total: el Estado de los años 80 incorpora referencias africanas al folklore turístico, pero separa el folklore escénico de las prácticas rituales. No se leyó la memoria completa; la búsqueda por palabras clave (vodú, vudú, africa, folklor, gagá, palos, cofrad, congos, brujer) dio solo lo citado más las actuaciones del Ballet Folklórico."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones de los poderes Legislativo y Ejecutivo de la República Dominicana, 1983, tomo II: Decreto n.º 1684 (28-XII-1983; G. O. n.º 9628, 31-XII-1983), que concede la Orden Heráldica de Cristóbal Colón al Dr. Francisco Javier Quintero Lumbreras, autor de «La Curación por la Palabra en la República Dominicana»",
+   "autor": "Jorge Blanco, Salvador (Presidente de la República Dominicana)",
+   "anio": "1983",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/38ec564d-fa8b-4099-8247-1464b39559e0/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/7f6cb333-31c7-4d45-9606-a3aa96f92f99"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección oficial de decretos del año, escaneada en el archivo del Senado; la p. 1636 se leyó sobre la imagen.",
+   "proveniencia": "Decreto de condecoración del gobierno de Jorge Blanco. Los considerandos describen el trabajo del condecorado, un profesor de la Universidad de Alcalá de Henares, como estudio antropológico y psiquiátrico de «la medicina folklórica y nuestras supersticiones tradicionales».",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 791 (p. impresa 1636), Dec. n.º 1684, considerando; continúa en p. 1637 (dado el 28-XII-1983)",
+     "cita_original": "CONSIDERANDO: Que el Dr. Francisco Javier Quintero Lumbreras [...] ha sido un decidido admirador del pueblo dominicano y es autor de un extenso trabajo denominado \"La Curación por la Palabra en la República Dominicana\", basado en una investigación antropológica y psiquiátrica sobre la medicina folklórica y nuestras supersticiones tradicionales",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: el Estado de 1983 honra con una condecoración a un estudioso extranjero de la medicina folklórica dominicana y emplea la expresión «nuestras supersticiones tradicionales» como categoría descriptiva propia («nuestras»). No nombra el vodú ni la religión. La obra del condecorado no se leyó [POR VERIFICAR]. Hallado en un barrido por palabras clave del OCR de las Colecciones de Leyes (1961-1984); fuente complementaria de A-201, no resolutoria."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones de los poderes Legislativo y Ejecutivo de la República Dominicana, 1984, tomo I: Ley n.º 248 (3-XII-1984; G. O. n.º 9651, 16-XII-1984), que designa con el nombre de «Palacio de Arte Casandra Damirón» el edificio de Radio Televisión Dominicana",
+   "autor": "Congreso Nacional; Jorge Blanco, Salvador (Presidente de la República Dominicana)",
+   "anio": "1984",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/c9ed25bc-ac43-4707-a8b1-c58f374a999f/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/a0d4c247-9b62-4db9-b527-00e61da6a771"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección oficial de leyes del año, escaneada en el archivo del Senado; las pp. 812-813 se leyeron sobre la imagen.",
+   "proveniencia": "Ley de nominación aprobada por la Cámara de Diputados (16-X-1984) y el Senado (20-XI-1984) y promulgada el 3-XII-1984. Sus considerandos son el único pasaje de ley de 1961-86 hallado que define en términos generales el «folklore» y la «dominicanidad» frente al «arte exótico».",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 811 (p. impresa 812), primer considerando",
+     "cita_original": "CONSIDERANDO: Que es interés principal del Congreso Nacional el preservar y fortalecer las características esenciales de nuestra nacionalidad y que las mismas están íntimamente vinculadas a los usos y costumbres que identifican nuestro folklore;",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 812 (p. impresa 813), tercer considerando",
+     "cita_original": "CONSIDERANDO: Que es obligación del Estado preservar las bases esenciales de la cultura dominicana, promoviendo el reconocimiento de aquellos dominicanos que hubieren contribuido al rescate, enaltecimiento y enraizamiento de los valores culturales vernáculos, como medio de preservar la dominicanidad de los negativos efectos de la transculturación del arte exótico;",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: ley de 1984 que atribuye al Estado la obligación de preservar la «dominicanidad» frente a la «transculturación del arte exótico» y vincula la nacionalidad al «folklore»; no define qué es «exótico» ni menciona lo africano o lo haitiano. «Exótico» es el mismo adjetivo que la Ley 391 de 1943 usa para los practicantes del «voudou». INTERPRETACIÓN (no del texto): se puede leer como continuidad de un vocabulario de pureza cultural o como mera retórica de nominación de edificios; el documento no lo decide. Hallada en un barrido por palabras clave."
+  },
+  {
+   "titulo": "Forbidden African Legacies in the Dominican Republic (NACLA Report on the Americas, 2025)",
+   "autor": "NACLA [autoría no confirmada en mi lectura; Repeating Islands la atribuye a Simón Rodríguez, fecha 27-III-2025, POR VERIFICAR]",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://nacla.org/forbidden-african-legacies-dominican-republic",
+   "urls_alternativas": [
+    "https://repeatingislands.com/?p=284 (reseña del mismo texto, terciaria; no usada como evidencia)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Revista de análisis con línea editorial crítica y sin aparato de notas en lo leído; sirve para constatar que en 2025 se afirma la vigencia de las normas, no para probar su contenido.",
+   "proveniencia": "Artículo de una publicación de izquierda sobre América Latina (NACLA). Curl fue bloqueado por la protección anti-bot Anubis (no se eludió); el texto se leyó dos veces mediante WebFetch, que devolvió un resumen del texto: las citas siguientes son las que devolvió ese resumen y deben cotejarse con el artículo [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "sección sobre la Ley 391 (según WebFetch, 2 lecturas coincidentes)",
+     "cita_original": "Vodou religion is also criminalized by Trujillo's Law 391.",
+     "traduccion": "La religión vodú también está criminalizada por la Ley 391 de Trujillo.",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "sección sobre el Reglamento 824 (según WebFetch)",
+     "cita_original": "rumbas, African dances, strip-tease and all dances which are considered offensive to morality and public decency",
+     "traduccion": "rumbas, danzas africanas, strip-tease y todos los bailes considerados ofensivos para la moral y el pudor público",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Según el resumen de WebFetch, el artículo dice que una organización (Identidad Dominicana) interpuso en abril de 2024 una acción de inconstitucionalidad contra la Ley 391 que seguía pendiente, que los intentos de reformar el Reglamento 824 en 2005 y 2021 fracasaron y que un proyecto de «Ley de Libertad de Expresión» de 2024 lo derogaría; también que en 1992 se prohibió el culto del Barón del Cementerio (fuera del período). Nada de eso se pudo comprobar en una fuente primaria (no se halló el expediente del Tribunal Constitucional). El artículo llama «criminalizada» la religión; el texto de la ley (ver fichas primarias) tipifica un «ultraje a las buenas costumbres» por practicar bailes o espectáculos «voudou» o «luá»: el encuadre religioso es interpretación del autor."
+  },
+  {
+   "titulo": "Legislación acerca de la cédula personal de identidad: otras disposiciones de interés general (Ciudad Trujillo: Secretaría de Estado del Tesoro y Crédito Público, 1954, 156 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado del Tesoro y Crédito Público",
+   "anio": "1954",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/items/ef870d5a-e536-4157-b1fb-1f3f7fffa568",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/b750d2c7-8429-42ae-9b6b-e4c23e420bb7/content",
+    "https://bd.bnphu.gob.do/bitstreams/b750d2c7-8429-42ae-9b6b-e4c23e420bb7/download"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación oficial; el archivo (42,1 MB) exige autenticación y no se leyó.",
+   "proveniencia": "Folleto oficial de 1954 sobre la cédula personal. Reintento del 2026-10-07: la ficha del ítem y los metadatos del archivo (LegislacionAcercaCedulaPersonalIdentidadRD1954_DerechoCivil.pdf, 42.120.545 bytes) responden 200, pero el contenido responde 401 en la API y redirige a la página «Biblioteca Digital BNPHU :: Acceso» (inicio de sesión) en la ruta /bitstreams/.../download. No se intentó autenticarse.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "F-1357",
+   "notas": "Sigue localizada-bloqueada. Sin relación directa con A-201. Nota para el registro: las leyes de cédula 391 (1940) y 191 (1943) figuran en la Colección de Leyes 1943 (tomo I, PDF p. 110), de acceso abierto en el archivo del Senado, que puede sustituir el folleto para el texto de esas leyes."
+  },
+  {
+   "titulo": "La República Dominicana y Haití frente al futuro (FLACSO, 1998; ed. Rubén Silié, con aportes de Roberto Cassá)",
+   "autor": "Silié, Rubén (ed.); Cassá, Roberto; et al.",
+   "anio": "1998",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://repositorio.flacsoandes.edu.ec/bitstream/10469/22307/3/LFLACSO-01-Silie.pdf",
+   "urls_alternativas": [
+    "https://repositorio.flacsoandes.edu.ec/handle/10469/22307"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Volumen académico de FLACSO; no se leyó.",
+   "proveniencia": "Reintento del 2026-10-07: el repositorio de FLACSO-Ecuador sigue devolviendo HTTP 403 con una página de verificación anti-bot (2.728 bytes) tanto en el PDF como en el handle; no se eludió. Fuera de mi lente de fuentes primarias.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "F-0296",
+   "notas": "Sigue localizada-bloqueada."
+  },
+  {
+   "titulo": "La isla al revés: Haití y el destino dominicano (Santo Domingo: Fundación José Antonio Caro, 1983; 2.ª ed. 1984)",
+   "autor": "Balaguer, Joaquín",
+   "anio": "1983",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/details/laislaalreveshai00bala",
+   "urls_alternativas": [
+    "https://archive.org/stream/laislaalreveshai00bala/laislaalreveshai00bala_djvu.txt"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "403",
+   "formato": "txt",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del propio Balaguer (fuente primaria de A-197, A-199), pero bajo derechos; en la Internet Archive es de préstamo restringido.",
+   "proveniencia": "Reintento del 2026-10-07: los metadatos de la Internet Archive responden 200 (ítem de préstamo), pero el texto completo (_djvu.txt) responde 403 «Item not available»; no se intentó eludir el préstamo. Una búsqueda web (1 consulta) no halló copia de acceso libre. El registro lo tiene como via-resena; la clasificación correcta del acceso es bajo-derechos.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "F-0070",
+   "notas": "Sin cambio de contenido. Proponer cambiar el acceso de via-resena a bajo-derechos (existe ejemplar en préstamo)."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año LXXVI, n.º 7863 (Ciudad Trujillo, 23 de julio de 1955): Reglamento n.º 995 sobre Espectáculos Públicos y Emisiones Radiofónicas (dado el 13-VII-1955)",
+   "autor": "Trujillo Molina, Héctor Bienvenido (Presidente de la República Dominicana); Pérez, L. Julián (Director-Administrador de la Gaceta)",
+   "anio": "1955",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/50bcc329-73bf-4a6e-a0de-3988fa281a43/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/b767a06e-44bd-4dbc-9546-0f758d849e7e"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Volumen encuadernado de la Gaceta Oficial de 1955 (3.022 páginas, 175 MB) del archivo del Senado; el Reglamento ocupa las pp. 1638-1659 del PDF y se leyó por palabras clave en todo su texto y sobre la imagen en los arts. 37 y 43.",
+   "proveniencia": "Reglamento general de espectáculos y radio del régimen trujillista (97 artículos), el que el Reglamento n.º 824 de 1971 deroga y sustituye (art. 135). Sirve de término de comparación para saber qué de la norma de 1971 es herencia trujillista y qué es novedad del gobierno de Balaguer.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 1638 (G. O. p. 1), encabezamiento",
+     "cita_original": "Año LXXVI. Ciudad Trujillo, 23 de Julio de 1955. N° 7863. [...] Reglamento N° 995 sobre Espectáculos Públicos y Emisiones Radiofónicas. HÉCTOR BIENVENIDO TRUJILLO MOLINA Presidente de la República Dominicana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 1647 (G. O. p. 12), art. 37",
+     "cita_original": "No será permitida la exhibición ni representación de películas cinematográficas, ni de obras teatrales o programas radiales que por su índole, género, lenguaje, situaciones, pasajes, o escenas constituyan un agravio a la moral o a las buenas costumbres.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 1649 (G. O. p. 14), art. 43 (final)",
+     "cita_original": "Si fuese bailarín deberá mostrar sus aptitudes ante uno o más miembros de la Comisión Nacional de Espectáculos Públicos, el Director General de Bellas Artes, el Director del Teatro-Escuela y un maestro-profesor de bailes Coreográficos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    },
+    {
+     "ubicacion": "PDF p. 1659 (G. O. p. 24), cierre",
+     "cita_original": "DADO en Ciudad Trujillo [...] a los trece días del mes de julio del mil novecientos cincuenta y cinco [...] HÉCTOR B. TRUJILLO MOLINA.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (con el límite del OCR): en el texto completo del Reglamento 995 no figuran «rumbas», «africanas», «danzas» ni «streap-tease» (búsqueda por palabras clave en las 97 disposiciones; los arts. 37 y 43 se leyeron sobre la imagen); solo hay la cláusula general de «agravio a la moral o a las buenas costumbres» (art. 37) y el examen de aptitud de los bailarines (art. 43). Por tanto la clasificación de bailarines en categorías (a) y (b), con «danzas africanas» en la (b) excluida de la televisión, es una novedad del Reglamento 824 de 1971 (gobierno de Balaguer) y no una herencia literal del Reglamento trujillista de 1955. Matiz: el Reglamento 995 se apoya en la Ley n.º 1951 de 1949 y deroga el reglamento general de 1949, que no se leyeron."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones de los poderes Legislativo y Ejecutivo de la República Dominicana, 1979, tomo II: Decreto n.º 743 (15-III-1979; G. O. n.º 9498, 31-III-1979), que modifica el artículo primero del Reglamento n.º 824 de la Comisión Nacional de Espectáculos Públicos y Radiofonía",
+   "autor": "Guzmán, Antonio (Presidente de la República Dominicana)",
+   "anio": "1979",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/4fedf021-9027-4fd6-8e5f-ef27a1c854a2/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/78daa6fd-7ce2-4b79-8d87-d011b762f5a4"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección oficial de decretos del año, escaneada en el archivo del Senado; el texto del decreto es legible (PDF pp. 263-264).",
+   "proveniencia": "Decreto del primer gobierno del PRD (Antonio Guzmán) que amplía la Comisión a siete miembros. Prueba de que el Reglamento 824 seguía vigente y era modificado por un Ejecutivo posterior al de Balaguer.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 263 (p. impresa 265)",
+     "cita_original": "Dec. No. 743, que modifica el artículo primero del Reglamento para el Funcionamiento de la Comisión Nacional de Espectáculos Públicos y Radiofonía No. 824, del 25 de marzo de 1971. (G. O. No. 9498, del 31 de marzo de 1979) [...] ARTICULO UNICO.- Queda modificado el artículo primero del Reglamento [...] No. 824",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en 1979 un gobierno distinto al de Balaguer modifica el art. 1 del Reglamento 824 (composición de la Comisión: siete miembros, dependiente de la Dirección General de Telecomunicaciones) sin tocar el art. 118. No se halló ningún decreto 1971-1986 que lo derogue o modifique el art. 118 en los barridos por palabras clave de las Colecciones de Leyes de 1972 a 1984 y de las Gacetas de 1970, 1971, 1985 y 1986 (el OCR es irregular y faltan las Colecciones de 1970, 1971, 1985 y 1986: ver lagunas)."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones de los poderes Legislativo y Ejecutivo de la República Dominicana, 1982, tomo II, parte 2: Decreto n.º 348 (16-X-1982; G. O. n.º 9599, 1-XI-1982), que confirma a la Sra. Zaida Ginebra Vda. Lovatón como Presidente de la Comisión Nacional de Espectáculos Públicos y Radiofonía",
+   "autor": "Jorge Blanco, Salvador (Presidente de la República Dominicana)",
+   "anio": "1982",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/0683011a-d620-4ee2-9549-e7d80ed29573/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/25083c41-22c6-4a8c-aeec-902ce563e844"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Colección oficial de decretos del año, escaneada en el archivo del Senado; la cita se tomó del texto OCR (PDF pp. 447-448, repetido en pp. 769-770) sin cotejo sobre la imagen.",
+   "proveniencia": "Decreto de nombramiento, uno de varios sobre la Comisión en 1982 (otro, del 8-XII-1982, designa a Luis Manuel Pérez Olivo como Vicepresidente).",
+   "extractos": [
+    {
+     "ubicacion": "PDF pp. 447-448 (p. impresa 450-451)",
+     "cita_original": "Dec. No. 348, que confirma a la Sra. Zaida Ginebra Vda. Lovatón, como Presidente de la Comisión Nacional de Espectáculos Públicos y Radiofonía. G. O. No. 9599, del 1ro. de noviembre de 1982",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: la Comisión que aplica el Reglamento 824 sigue en funciones en 1982 con presidente y vicepresidente nombrados por decreto. No hay expediente de sus decisiones."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año CVI, nos. 9653-9676 (1985): Ley n.º 278 que declara obligatoria la presentación de artistas nacionales en todos aquellos lugares donde se presenten espectáculos públicos (mayo de 1985; p. impresa 997)",
+   "autor": "Congreso Nacional; Jorge Blanco, Salvador (Presidente de la República Dominicana)",
+   "anio": "1985",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/1093090f-802e-421f-be08-958a0d13e452/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/92687c82-a0a0-4253-bce7-4e7a55dc55f2"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Volumen encuadernado de la Gaceta Oficial de 1985 (1.386 páginas) del archivo del Senado; el visto y el art. 1 se leyeron sobre la imagen de la p. 835 del PDF; el OCR del resto es malo.",
+   "proveniencia": "Ley de protección del trabajo de los artistas nacionales, promovida con la Asociación Nacional de Músicos, Cantantes, Bailarines, Locutores y Actores (AMUCABA). Fecha de promulgación: mayo de 1985 (el día 20 es lectura de OCR, POR VERIFICAR; el Senado la aprobó el 5-III-1985).",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 835 (p. impresa 997), visto y art. 1",
+     "cita_original": "VISTO el Reglamento No. 824, sobre Espectáculos Públicos y Radiofonía, del 25 de marzo de 1971; [...] Artículo 1.- Se declara obligatoria la presentación de artistas nacionales (músicos, cantantes, bailarines y afines) en todos aquellos lugares donde se presenten espectáculos públicos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: una ley de 1985 cita expresamente el Reglamento 824 como norma vigente y atribuye a la Comisión la emisión del carnet de identificación de los artistas (OCR ilegible en parte). Prueba de vigencia, no de aplicación del art. 118."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año CVII, nos. 9677-9701 (1986): Decreto n.º 987-86-210 (12-IX-1986), que nombra a la Dra. Onoida Zayas y al Lic. David A. Ramírez, Presidente y Vicepresidente de la Comisión Nacional de Espectáculos Públicos y Radiofonía (p. impresa 2289)",
+   "autor": "Balaguer, Joaquín (Presidente de la República Dominicana)",
+   "anio": "1986",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/26bc3578-5fe7-4876-940e-da9472923d59/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/items/7aad55e2-bd54-41a3-a69e-4ad35cafca2c"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Volumen encuadernado de la Gaceta Oficial de 1986 del archivo del Senado; el decreto se leyó sobre la imagen de la p. 2174 del PDF.",
+   "proveniencia": "Decreto de Balaguer, recién regresado a la presidencia (16-VIII-1986), que renueva la dirección de la Comisión.",
+   "extractos": [
+    {
+     "ubicacion": "PDF p. 2174 (p. impresa 2289)",
+     "cita_original": "Artículo 1.- La Dra. Onoida Zayas, queda designada Presidente de la Comisión Nacional de Espectáculos Públicos y Radiofonía, vacante. [...] DADO en Santo Domingo de Guzmán [...] a los doce (12) días del mes de septiembre del año mil novecientos ochenta y seis",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-201"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-201"
+   ],
+   "modulos": [
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: la Comisión sigue activa al final del período (1986), con Balaguer de nuevo en la presidencia."
+  }
+ ],
+ "incidencias": [
+  "Internet Archive: el texto completo de La isla al revés (_djvu.txt) responde 403 «Item not available» (préstamo); la API de búsqueda funciona pero no halló Deive, Davis ni Balaguer. No se eludió.",
+  "BNPHU (F-1357): el bitstream redirige a la página «Biblioteca Digital BNPHU :: Acceso» (inicio de sesión) y la API devuelve 401; FLACSO (F-0296): 403 anti-bot; NACLA: curl detenido por Anubis; ENJ (biblioteca.enj.org): HTTP 500 en dos ítems; Repeating Islands: solo se usó como índice.",
+  "La Library of Congress tiene la Gaceta Oficial de abril de 1971 (n.º 9220, que contiene el Reglamento 824) pero no las de 1943-44 ni 1955.",
+  "El portal del Senado (memoriahistorica.senadord.gob.do) permite descargar los PDF por la ruta /bitstreams/<uuid>/download y consultar la API REST de DSpace (la búsqueda indexa solo metadatos, no texto completo). Contiene las Colecciones de Leyes de 1925-1984 (faltan 1965, 1970, 1971), las Gacetas Oficiales de casi todos los años y los libros de actas del Senado: es la vía para la Fase 3 en normas dominicanas.",
+  "Búsquedas: 13 llamadas a WebSearch (algunas ejecutaron hasta 4 subconsultas internas; recuento prudente: 18). El resto del trabajo fue fetch directo (curl, API del Senado, LOC) y barridos locales por palabras clave de 20 Colecciones de Leyes (1961-84), 29 libros de actas del Senado (1961-86) y 4 Gacetas (1970, 1971, 1985, 1986).",
+  "Homonimia: Ley n.º 391 de 17-XII-1940 (cédula de mujeres extranjeras) frente a Ley n.º 391 de 20-IX-1943 (voudou/luá); también Ley n.º 318 de 1968 frente a Ley n.º 318 de 1972 (Museo del Hombre). Citar siempre con el año.",
+  "El OCR de los PDF del Senado es irregular: los hallazgos principales se leyeron sobre la imagen; los barridos negativos no son prueba de ausencia."
+ ],
+ "resumen_hallazgos": [
+  "Ley n.º 391 del 20-IX-1943 (G. O. n.º 5976, 28-IX-1943): texto promulgado, trámite completo (mensaje de Trujillo del 28-VIII, informe de comisión del 2-IX, Senado 7-8-IX con 12 votos y sin debate registrado, Cámara 16-IX) y penas (prisión de 2 meses a 2 años o multa de 10 a 500 pesos, alta policía, deportación, destrucción de objetos). Precedente: el Senado aplazó en 1930 un proyecto más amplio (voudou, sance, luá, guangá, baquiní, hechicerías).",
+  "Reglamento n.º 824 del 25-III-1971 (G. O. n.º 9220, 10-IV-1971; Balaguer): el art. 118 clasifica las «danzas africanas» en la categoría (b), excluida de la televisión; es una novedad frente al Reglamento 995 de 1955 (G. O. n.º 7863), que no la contiene; sigue vigente y es modificado en 1979 (Dec. 743), con la Comisión en funciones en 1982, 1985 y 1986.",
+  "Marco general: Constitución de 1966 (libertad de cultos «con sujeción al orden público y respeto a las buenas costumbres»); Ley 318 de 1972 (Museo del Hombre Dominicano, sin mención de lo africano); Memoria de Turismo de 1983 (máscara «Los Africanos» en el carnaval); Dec. 1684 de 1983 («supersticiones tradicionales»); Ley 248 de 1984 («transculturación del arte exótico»).",
+  "Lectura para A-201: la parte documental («existe un vodú dominicano... documentado etnográficamente») sigue sin cubrirse aquí (faltan Deive y Davis). La parte «que el relato oficial omite» no se sostiene como silencio sino como penalización normativa y marginación en los medios; debe reformularse («el Estado lo penaliza o lo clasifica como contrario a las buenas costumbres, y su folklore escénico incluye referencias africanas sin tocar el vodú») y verificarse su aplicación efectiva antes de afirmarla. Confianza sugerida para la existencia de las normas: A (texto oficial leído sobre imagen); para su aplicación en 1961-86: D (sin evidencia)."
+ ]
+}
