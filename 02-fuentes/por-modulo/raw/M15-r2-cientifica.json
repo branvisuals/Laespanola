@@ -1,0 +1,1033 @@
+{
+ "lente": "cientifica",
+ "modulo": "M15",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 22,
+ "busquedas_pendientes": [
+  "Gallup-Hoy de 2009 y 2010 (opinión sobre los haitianos y la ayuda tras el terremoto): hoy.com.do y gallup.com.do",
+  "Latinobarómetro 2008-2011, módulo de inmigración o discriminación para la RD (sistema de análisis en línea, interactivo)",
+  "World Values Survey, ola 5 (RD, 2008) y ola 6 (RD, 2014): ítem 'no querría como vecinos a inmigrantes o trabajadores extranjeros'",
+  "ONE, Volumen III del X Censo 2022 (PDF): espejos en CEPAL/REDATAM o en la versión digital; cuadro de autopercepción por provincia y sexo",
+  "Encuesta FLACSO-OIM 'Encuesta sobre inmigrantes haitianos en la República Dominicana' (2004) y Silié, Segura y Dore, 'La nueva inmigración haitiana' (2002): en la web de la OIM",
+  "Tejada Yangüela, 'Bateyes del Estado' (encuesta de 1999, publicada en 2001) y la encuesta BATEYES 2002 de CESDEM",
+  "Serie anual de repatriaciones de la DGM, 2008-2015 (Anuario de Migraciones)",
+  "Simmons 2009 y Wigginton y Middleton 2019 en acceso abierto (A-209)",
+  "Murphy 1991 (Dominican Sugar Plantations, Praeger) y Moya Pons 1986 (El batey), cifras de braceros 1966-1986"
+ ],
+ "lagunas": [
+  "El PDF del Volumen III del censo de 2022 (fuente primaria del 'indio 34 %') no se abrió: one.gob.do da 403 con verificación anti-bot, el PDF no está en Wayback y la ficha de la publicación solo se confirmó por Wayback. La cifra se lee en El Caribe (5-6-III-2025); la suma de sus categorías coincide con el universo declarado de 8.616.295, y el 34,2 % es cálculo propio. Universo exacto (12 años o más; si incluye extranjeros) sin confirmar.",
+  "Antes y después de 2010 (A-206): solo hay la serie LAPOP (2006, 2008, 2010, 2012) y, en 2014, Gallup-Hoy. No se localizaron Gallup-Hoy de 2009-2010 ni módulo de inmigración de Latinobarómetro para la RD; Latinobarómetro 2011 solo da autoidentificación racial y percepción general de discriminación.",
+  "BATEYES 2007 no tabula nacionalidad; faltan BATEYES 2002, Tejada Yangüela (1999-2001), la encuesta FLACSO-OIM (2002-2004) y cualquier cuadro de nacionalidad de los residentes de bateyes del periodo 1986-2010. Las voces de braceros y mujeres de batey se limitan a HRW 1990 (testimonios masculinos), Rosario y Ulloa 2006 (observación) y la limitación declarada en BATEYES 2007.",
+  "Censo de 2010: no se sabe si la tabla de nacidos en otro país está ajustada por la omisión de viviendas (7 %); no cuenta a los dominicanos de ascendencia haitiana.",
+  "Encuesta del UNFPA (2019/2021): sin ficha técnica de muestra ni cobertura geográfica en los textos leídos (n = 1.309 por EFE).",
+  "Cifras de braceros de 1966-1986 (más de veinte mil al año en los últimos años) solo de segunda mano (Murphy 1991, vía Martínez 1999); no hay serie de repatriaciones de 1991 ni de 1999-2000 con método.",
+  "F-1755 (Higuera-Gundy 1999), F-1758 (Churches 2014) y F-0203 (Schurr 2026): sin abrir; ScienceDirect, Wiley y cris.unibe.edu.do dan 403 y no se eludieron (OpenAlex marca F-1758 como híbrido abierto, pero el PDF devuelve 403)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "buscón (reclutador de braceros)",
+   "tradicion": "dominicana y haitiana (HRW 1990)",
+   "nota": "Intermediario pagado por cabeza que recluta haitianos para los ingenios del CEA; HRW (1990) habla de 15 a 30 dólares por persona. Puede ser neutral en el uso local y cargado en el relato de trabajo forzoso."
+  },
+  {
+   "termino": "nativo descendiente de inmigrantes / dominicano de ascendencia haitiana / dominico-haitiano",
+   "tradicion": "oficial-rd (ONE, ENI-2012), internacional (HRW, Wooding) y haitiana",
+   "nota": "La ENI-2012 usa 'nativos descendientes de inmigrantes' (244.151, de ellos 209.912 de haitianos); las ONG usan 'dominico-haitianos'; el discurso oficial dominicano evita ligar nacionalidad y ascendencia. Debe ir al glosario junto a 'Pérdida de la nacionalidad por la sentencia TC/0168/13'."
+  },
+  {
+   "termino": "indio canela / indio claro / moreno lavaíto / jabao",
+   "tradicion": "dominicana",
+   "nota": "Categorías cromáticas que aparecen entre las 27 de la encuesta del UNFPA y en la ficha de LAPOP 2006 ('mulata (jabao)'); el glosario solo recoge 'indio claro/oscuro' de la cédula."
+  },
+  {
+   "termino": "kongos / congó (cortador recién llegado)",
+   "tradicion": "internacional (HRW 1990) y dominicana peyorativa",
+   "nota": "HRW lo define como el cortador haitiano que corta por primera vez, con la etimología de los esclavizados nacidos en África; el glosario ya trae 'congó' (peyorativo) en 'Trabajador cañero migrante'."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "IX Censo Nacional de Población y Vivienda 2010, Informe General, Volumen I (Santo Domingo, junio de 2012): Cuadro 9, población nacida en otro país por país de nacimiento, y cap. 10.1, cobertura censal",
+   "autor": "República Dominicana, Oficina Nacional de Estadística (ONE); dirección: Francisco Cáceres Ureña; consultor internacional: Walter Cavero Dhaga",
+   "anio": "2012",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20121202090504if_/http://censo2010.one.gob.do/volumenes_censo_2010/vol1.pdf",
+   "urls_alternativas": [
+    "http://censo2010.one.gob.do/volumenes_censo_2010/vol1.pdf (URL original del PDF; no se abrió directamente, solo la copia de la Wayback Machine del 2012-12-02)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial del censo con la tabla primaria de país de nacimiento y la explicación del ajuste por omisión; el recuento de extranjeros tiene los límites de todo censo con población irregular.",
+   "proveniencia": "Informe General del IX Censo (empadronamiento del 1 al 7 de diciembre de 2010) publicado por la ONE en junio de 2012 con asesoría internacional. Escrito para uso del Estado y de la comunidad estadística, cuando el debate sobre el volumen de haitianos se apoyaba en estimaciones sin base (la ENI-2012 lo dice). Datos de primera mano: boleta censal, cobertura y ajuste. Wikipedia (2010 Dominican Republic census) solo sirvió de índice para localizar esta URL y no se usa como evidencia.",
+   "extractos": [
+    {
+     "ubicacion": "p. 98 (pdf p. 99), Cuadro 9, fila Haití",
+     "cita_original": "Haití 311,969 193,328 118,641 184,738 107,394 77,344 127,231 85,934 41,297",
+     "traduccion": "Nacidos en Haití censados en 2010: 311.969 (193.328 hombres y 118.641 mujeres; 184.738 en zona urbana y 127.231 en zona rural). Cifra primaria de la ONE, que hasta ahora solo constaba de segunda mano (Méroné 2019, F-0613).",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 98 (pdf p. 99), Cuadro 9, fila Total",
+     "cita_original": "Total 395,791 239,997 155,794 257,656 147,372 110,284 138,135 92,625 45,510",
+     "traduccion": "Población nacida en otro país: 395.791 (239.997 hombres y 155.794 mujeres). Los nacidos en Haití son el 78,8 % de ese total (cálculo propio: 311.969 / 395.791); Estados Unidos aparece con 24.457 y España con 6.691 en la misma tabla.",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 525 (pdf p. 526), cap. 10.1 Cobertura censal",
+     "cita_original": "estableciéndose una omisión censal de viviendas del orden de 7% a nivel nacional ... se obtuvo una población ajustada de 9,445,281 habitantes",
+     "traduccion": "La ONE ajustó el total por una omisión de viviendas de alrededor de 7 % (tres procedimientos dieron 'ligeramente inferior a 8 %', 5 % y 7 %) y obtuvo 9.445.281 habitantes.",
+     "afirmaciones": [
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-206",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: 311.969 personas censadas en 2010 declararon haber nacido en Haití. El informe no dice, en el texto extraído, si la tabulación de nacidos en otro país está ajustada por la omisión de 7 %: [POR VERIFICAR]. El censo de 2010 no tabula a los hijos de haitianos nacidos en la RD (no pregunta el país de nacimiento de los padres, según la ronda 1 sobre F-0613), de modo que no mide a los dominicanos de ascendencia haitiana. Rango del volumen de nacidos en Haití según fuentes con método: 311.969 (censo, diciembre de 2010) a 458.233 (ENI-2012, julio-septiembre de 2012); la diferencia de método y de fecha impide leerla como crecimiento. Estimaciones sin método previas: de 115.000 a 880.000 (PNUD 2010, citado en ENI-2012 p. 40) y de uno a más de dos millones en los medios."
+  },
+  {
+   "titulo": "Primera Encuesta Nacional de Inmigrantes en la República Dominicana (ENI-2012): Informe General",
+   "autor": "República Dominicana, Oficina Nacional de Estadística (ONE); asistencia técnica y financiera de la Unión Europea y del UNFPA",
+   "anio": "2013",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/InformeENI-2012-General.pdf",
+   "urls_alternativas": [
+    "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/ResumenENI-2012II.pdf (resumen; no abierto)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Encuesta probabilística nacional con diseño, marco muestral (censo de 2010), tasas y factores de expansión publicados; la ONE declara los límites del dato.",
+   "proveniencia": "Encuesta de la ONE realizada del 31 de julio al 30 de septiembre de 2012 (26 equipos con intérprete), con 68.248 viviendas o lugares habitados con entrevista de hogar, 13.449 entrevistas completas a inmigrantes y 6.997 a nativos descendientes de inmigrantes (pp. 47-48). Publicada en 2013 para dar cifras confiables a un debate público dominado por estimaciones personales. Datos de primera mano de 2012; la llegada se pregunta de forma retrospectiva, de modo que cubre el periodo 1986-2010 solo de forma indirecta.",
+   "extractos": [
+    {
+     "ubicacion": "p. 29, Resumen ejecutivo",
+     "cita_original": "el total de inmigrantes alcanza el volumen de 524,632 personas, el 5.4% del total de la población del país ... 458,233 personas nacieron en Haití, representando el 87.3% de la población de inmigrantes",
+     "traduccion": "ENI-2012: 524.632 inmigrantes (5,4 % de la población), de los cuales 458.233 nacidos en Haití (87,3 %).",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 30, Resumen ejecutivo",
+     "cita_original": "244,151 personas, representando el 2.5% de la población total nacional ... 209,912 personas son descendientes de inmigrantes haitianos",
+     "traduccion": "Los nativos descendientes de inmigrantes suman 244.151 (2,5 % de la población), de los cuales 209.912 son descendientes de haitianos. Inmigrantes y descendientes de haitianos juntos: 458.233 + 209.912 = 668.145 (cálculo propio).",
+     "afirmaciones": [
+      "A-203",
+      "A-204",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 31, Resumen ejecutivo",
+     "cita_original": "el 55.3% de esa población reportó tener acta de nacimiento dominicana ... el 25.6%, señaló poseer acta de nacimiento del país de origen de sus padres ... el 23.5% reportó tener cédula dominicana",
+     "traduccion": "Entre los nacidos en la RD de padres extranjeros, el 55,3 % declaró tener acta de nacimiento dominicana, el 25,6 % acta del país de los padres y el 23,5 % cédula dominicana: base cuantitativa del riesgo de indocumentación o apatridia de la segunda generación.",
+     "afirmaciones": [
+      "A-203",
+      "A-204"
+     ]
+    },
+    {
+     "ubicacion": "p. 40, §1.2 Antecedentes y justificación",
+     "cita_original": "el número de inmigrantes a la República Dominicana oscila entre uno y más de dos millones de personas ... los cuales varían entre 115,000 y 880,000 personas (PNUD 2010)",
+     "traduccion": "Las opiniones mediáticas sitúan el número de inmigrantes entre uno y más de dos millones, 'sin fundamento fáctico'; las estimaciones de organismos y autores varían entre 115.000 y 880.000 (PNUD 2010).",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 172, §7.2 Años de llegada",
+     "cita_original": "el 38.6% llegó recientemente, entre el 2010 y 2012 ... el 18.5% entre el 2000 y 2005, y el 17.3% antes del 2000",
+     "traduccion": "Periodo de llegada (última o única migración): 38,6 % en 2010-2012, 23,6 % en 2006-2009, 18,5 % en 2000-2005 y 17,3 % antes del 2000. Para los haitianos, antes de 1990 son el 5,9 % y 1990-1999 el 9,7 % (cuadro de p. 174; cálculo propio).",
+     "afirmaciones": [
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-203",
+    "A-204",
+    "A-206",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: volúmenes de la ENI-2012 (mediados de 2012, dos años y medio después del terremoto). Interpretación: la propia ENI señala que unos 188.000 inmigrantes llegaron en 2010-2012 y pide un examen más detenido (p. 172); esa cohorte no se puede atribuir al terremoto sin más. El diario Hoy (3-II-2014) atribuye a esta encuesta '768,783 extranjeros, de ellos 668,145 haitianos', que en realidad suman inmigrantes y descendientes (524.632 + 244.151 = 768.783; 458.233 + 209.912 = 668.145). Para 1986-2010 la serie con método es solo el censo de 2010 (311.969 nacidos en Haití; ver la ficha del Informe General del IX Censo) y esta encuesta retrospectiva."
+  },
+  {
+   "titulo": "Encuesta Sociodemográfica y sobre VIH/SIDA en los Bateyes Estatales de la República Dominicana 2007 (BATEYES 2007), informe final (DHS FR212)",
+   "autor": "Centro de Estudios Sociales y Demográficos (CESDEM); Macro International Inc. (MEASURE DHS)",
+   "anio": "2008",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "cientifica",
+   "url": "https://dhsprogram.com/pubs/pdf/FR212/FR212.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Encuesta de hogares con muestra probabilística bietápica de bateyes del CEA, tasas de respuesta publicadas (99 % hogares, 96 % mujeres, 90 % hombres) y cuestionario DHS; su marco no cubre bateyes privados ni asentamientos fuera de los del CEA.",
+   "proveniencia": "CESDEM (centro dominicano de demografía) con Macro International, financiada por USAID, el Banco Mundial y el Fondo Global, hecha en paralelo (pero de forma independiente) a la ENDESA 2007 y publicada en junio de 2008. Marco: 209 bateyes y unos 28.855 hogares de los ingenios del CEA; 114 conglomerados y 25 viviendas por conglomerado (2.850 viviendas); 2.540 hogares, 1.575 mujeres de 15-49 y 1.820 hombres de 15-59 entrevistados. Es de primera mano para 2007 y compara con la encuesta de bateyes de 2002.",
+   "extractos": [
+    {
+     "ubicacion": "p. 8-9, §1.4 Diseño de la muestra",
+     "cita_original": "se obtuvo un listado depurado con 209 bateyes ... En la primera etapa, se seleccionó una muestra de 114 conglomerados ... se escogieron 25 viviendas dentro de cada conglomerado, lo que representa un total de 2,850 viviendas seleccionadas",
+     "traduccion": "Marco de 209 bateyes (unos 28.855 hogares) de los ingenios del CEA; primera etapa de 114 conglomerados con probabilidad proporcional al tamaño y 25 viviendas por conglomerado (2.850 viviendas).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 10, §1.5 Cobertura de la muestra y Cuadro 1.3",
+     "cita_original": "encontrados 2,561 hogares ocupados, siendo entrevistados 2,540 de ellos, lo que representa una tasa de respuesta de hogar del 99 por ciento ... logrando entrevistar a 1,575 de ellas, para una tasa de respuesta individual de mujeres del 96 por ciento ... se entrevistaron a 1,820, que corresponde a una tasa de respuesta del 90 por ciento",
+     "traduccion": "Cobertura: 2.561 hogares encontrados y 2.540 entrevistados (99,2 %); 1.575 mujeres (96,1 %) y 1.820 hombres (89,8 %) entrevistados.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 3, §1.1.2",
+     "cita_original": "problemas en la contratación de braceros provenientes de Haití debido a las fricciones históricas que se presentan en las relaciones entre ambos Estados de la isla ... el CEA redujo en un 50 por ciento su producción a partir de 1988",
+     "traduccion": "El informe atribuye la decadencia del CEA en los años ochenta, entre otros factores, a la escasez de mano de obra local y a los problemas para contratar braceros haitianos; el CEA redujo su producción a la mitad desde 1988 y los ingenios se arrendaron en 1999.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 5, §1.1.3",
+     "cita_original": "para mediados de los años ’80 la población de los bateyes era próxima a 73,000, siendo cerca del 80 por ciento de origen haitiano",
+     "traduccion": "Cifra de segunda mano (Martínez 2007, que cita un estudio sobre bateyes): hacia mediados de los años ochenta la población de los bateyes rondaba las 73.000 personas, cerca de un 80 % de origen haitiano.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, cap. 2",
+     "cita_original": "la aún importante presencia en los bateyes de mano de obra ligada a la fase agrícola de la producción de azúcar ... en su mayoría de origen haitiano, en gran parte constituyente de hogares unipersonales residentes en barracones",
+     "traduccion": "En 2007 los bateyes seguían teniendo mano de obra agrícola cañera 'en su mayoría de origen haitiano', en buena parte en hogares unipersonales en barracones (afirmación del informe; la encuesta no tabula nacionalidad).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 18, §2.1.5",
+     "cita_original": "el 22 por ciento de la población total de los hogares entrevistados no posee el documento ... el 48 por ciento de los niños y niñas de 0-4 años ... a nivel nacional la población afectada por este problema, de acuerdo a la ENDESA 2007, representa sólo el 5 por ciento",
+     "traduccion": "Falta de acta de nacimiento en los bateyes: 22 % de la población y 48 % de los niños de 0 a 4 años, frente al 5 % nacional (ENDESA 2007). Un tercio de los de 16 años o más no tiene cédula (11 % a nivel nacional).",
+     "afirmaciones": [
+      "A-203",
+      "A-204"
+     ]
+    },
+    {
+     "ubicacion": "p. 132, cap. 9 (violencia contra la mujer)",
+     "cita_original": "Una mayor cultura del silencio en los bateyes ... las mujeres de los bateyes sientan más miedo de hablar por razones que no necesariamente se vinculan al tema de la violencia sino a su condición de legalidad, como en el caso de las haitianas",
+     "traduccion": "Límite declarado por los autores sobre la voz de las mujeres de batey: el miedo a hablar por su condición de legalidad, 'como en el caso de las haitianas', puede subestimar la violencia (18 % de las mujeres de 15-49 reportó violencia física desde los 15 años).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-203",
+    "A-204",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: es un estudio con n sobre los bateyes de 2007. Límites: (1) en el texto extraído no aparece ninguna tabulación por nacionalidad o país de nacimiento (0 coincidencias de 'nacionalidad'): la composición haitiana de los bateyes se afirma por referencia a otros autores, no se mide; para medirla sirven la encuesta de 2016 de Keys et al. (42,5 % nacidos en Haití) y la ENI-2012. (2) Solo cubre bateyes del CEA. (3) La prevalencia de VIH de 15-49 años fue 3,2 % en 2007 (3,1 % mujeres; 3,3 % hombres), casi dos puntos menos que en 2002 (p. 112). (4) Los datos de 1990 (Ramírez 1992: 40 a 50 % de las mujeres de origen o ascendencia haitiana; 350 a 400 bateyes) y de 1920 (3 % de población haitiana según Vega) son de segunda mano (pp. 4-5). La encuesta BATEYES 2002 y el estudio de Tejada Yangüela (1999-2001) no se abrieron."
+  },
+  {
+   "titulo": "Harvesting Oppression: Forced Haitian Labor in the Dominican Sugar Industry (Americas Watch, National Coalition for Haitian Refugees y Caribbean Rights, 1990)",
+   "autor": "Camejo, Mary Jane; Wilentz, Amy (Americas Watch / Human Rights Watch; National Coalition for Haitian Refugees; Caribbean Rights)",
+   "anio": "1990",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.hrw.org/reports/pdfs/d/domnrep/domrep.906/domrep906full.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de campo de una ONG de incidencia con testimonios nominales y fechas de 1989-1990, pero sin muestra definida ni cifras de conjunto; se centra a propósito en los reclutas nuevos (los kongos) y en las plantaciones del CEA.",
+   "proveniencia": "Informe de 1990 de Americas Watch con el National Coalition for Haitian Refugees (director: Jocelyn McCalla) y Caribbean Rights, escrito para presionar al Gobierno dominicano, al USTR y al Comité de Derechos Humanos de la ONU antes del V Centenario de 1992. Los autores entrevistaron a decenas de cortadores (con la ayuda de una activista haitiana, Guylène Viaud) en bateyes del CEA; lo que dicen del reclutamiento es de primera mano en las entrevistas, no verificable por documento. Es una ONG crítica del Estado dominicano; excluye a propósito los ingenios privados (La Romana).",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, I. Introduction",
+     "cita_original": "The Dominican state sugar industry is entirely dependent on Haitian field labor",
+     "traduccion": "La industria azucarera estatal dominicana depende por entero de la mano de obra de campo haitiana (afirmación del informe; el propio texto aclara que se limita a las plantaciones del CEA, que opera diez de las doce plantaciones del país).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 2, I. Introduction",
+     "cita_original": "the CEA hires recruiters to lure Haitians from their villages and towns in Haiti with promises of high pay and easy work, and then seizes them at the Haitian-Dominican border for transport -- often against their will -- to CEA plantations",
+     "traduccion": "El CEA contrata reclutadores que atraen a haitianos con promesas y luego los toma en la frontera para llevarlos, 'a menudo contra su voluntad', a las plantaciones (acusación de Americas Watch, 1989-1990).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 5, I. Introduction",
+     "cita_original": "it pays buscones as much as $15 to $30 per head for Haitians, most of whom are initially recruited through deception",
+     "traduccion": "El CEA paga a los buscones hasta 15 a 30 dólares por cabeza (afirmación del informe).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 6, I. Introduction",
+     "cita_original": "killing 46 Haitians and one of the Dominican soldiers",
+     "traduccion": "El 27-I-1989 un camión abierto que llevaba haitianos de Dajabón al ingenio Río Haina volcó y mató a 46 haitianos y a un soldado dominicano; desde entonces el CEA usa autobuses cerrados.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 7, I. Introduction",
+     "cita_original": "In the Dominican Republic, there is one set of laws for Dominicans, and another -- unwritten but enforced -- for Haitian cane cutters",
+     "traduccion": "Valoración (no hecho) de los autores: en la RD habría un régimen legal para dominicanos y otro, no escrito pero aplicado, para los cortadores haitianos.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 11, II.A The Use of Deception",
+     "cita_original": "This guy I knew, Osnel Aladin, he told me we would get paid 35 pesos [about $5.50]",
+     "traduccion": "Testimonio de Frankel Lubin (35 años, de las colinas cercanas a Jacmel; llegó el 20-XII-1989 al batey Margarita, ingenio Santa Fe, Barahona): un conocido le prometió 35 pesos [unos 5,50 dólares] por hora por recoger tomates; el tipo de cambio en la visita era de 6,28 pesos por dólar. Voz de bracero.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-1098",
+   "notas": "Resuelve la ficha F-1098 (etiquetada M15 y ausente del módulo): el informe de 1990 documenta el sistema de contratación forzada anterior a la expulsión de 1991. Hecho: testimonios fechados; interpretación: 'comparable a la esclavitud' (p. 1, valoración de las ONG); el significado no se evalúa aquí. Martínez (1999) cita este informe para la custodia militar de los haitianos, de modo que las dos fuentes no son independientes en ese punto. No es contemporáneo del Decreto 233-91 (junio de 1991) y no trae la cifra total de cortadores ni de residentes en bateyes."
+  },
+  {
+   "titulo": "From Hidden Hand to Heavy Hand: Sugar, the State, and Migrant Labor in Haiti and the Dominican Republic (Latin American Research Review 34(1): 57-84; publicado en línea en 2022)",
+   "autor": "Martínez, Samuel",
+   "anio": "1999",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AFA1357E87B5EAC61F2B4E5A932C402A/S0023879100024304a.pdf/from-hidden-hand-to-heavy-hand-sugar-the-state-and-migrant-labor-in-haiti-and-the-dominican-republic.pdf",
+   "urls_alternativas": [
+    "https://www.cambridge.org/core/journals/latin-american-research-review/article/from-hidden-hand-to-heavy-hand-sugar-the-state-and-migrant-labor-in-haiti-and-the-dominican-republic/AFA1357E87B5EAC61F2B4E5A932C402A",
+    "https://doi.org/10.1017/S0023879100024304"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares de un antropólogo con trabajo de campo en bateyes y frontera; cita fuentes primarias y secundarias, aunque la cifra de braceros descansa en Murphy (1991) y en Americas Watch (1990).",
+   "proveniencia": "Samuel Martínez (Universidad de Connecticut), antropología económica; el artículo es de 1999 (LARR 34:1) y consta publicado en línea el 5-X-2022 en Cambridge Core. Escrito para lectores académicos de estudios latinoamericanos; sostiene que el Estado gestionó el trabajo migrante entre los años treinta y sesenta. Lo que cuenta de 1966-1986 es de segunda mano (Moya Pons et al. 1986; Murphy 1991).",
+   "extractos": [
+    {
+     "ubicacion": "p. 75 (pdf p. 19)",
+     "cita_original": "The contract-labor scheme lasted until 1986 and was suspended only when Jean-Claude Duvalier fell from power ... Officially approved recruitment has not been reinstated",
+     "traduccion": "El esquema de contratos laborales duró hasta 1986 y se suspendió solo cuando cayó Jean-Claude Duvalier; la contratación oficial no se ha restablecido. Fecha en 1986 el fin de los contratos de braceros.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 75 (pdf p. 19)",
+     "cita_original": "In its last years, contract migration brought in more than twenty thousand seasonal workers annually to complete the Dominican Republic's cane harvest (Murphy 1991,81-82)",
+     "traduccion": "En sus últimos años, la migración contratada traía a más de veinte mil trabajadores de temporada al año (cifra de Murphy 1991, pp. 81-82; Martínez no la verifica).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 76 (pdf p. 20)",
+     "cita_original": "army and police officers have handed over Haitian detainees for the equivalent of a few dollars per adult to agents of the CEA for shipment to estates needing harvest laborers (Americas Watch 1990,5, 10)",
+     "traduccion": "Militares y policías entregarían a los detenidos haitianos a agentes del CEA por unos pocos dólares por adulto; la cita es de Americas Watch (1990), es decir, no es fuente independiente de F-1098.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 79 (pdf p. 23)",
+     "cita_original": "The braceros' condition is more accurately described as \"unfree labor\" than as \"enslavement\" or even \"involuntary servitude,\"",
+     "traduccion": "Interpretación del autor: la condición de los braceros es más exactamente 'trabajo no libre' que 'esclavitud' o 'servidumbre involuntaria'.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0175",
+   "notas": "Resuelve el pendiente de F-0175 para M15: el artículo de LARR (no el libro Peripheral Migrants, 1995, que sigue sin leerse) fecha en 1986 el fin del esquema de contratos (caída de Duvalier) y habla de más de veinte mil braceros al año en los últimos años (Murphy 1991, segunda mano). Da contexto al Decreto 233-91 y a la dependencia posterior de mano de obra irregular. Se leyeron las pp. 75-80; el resto del artículo ya lo leyó la ronda de M13. Sesgo: antropología económica centrada en el Estado."
+  },
+  {
+   "titulo": "Informe General del X Censo Nacional de Población y Vivienda 2022 (ONE, junio de 2024), anexo con la boleta censal: sección VI, pregunta 64 de autopercepción étnico-racial",
+   "autor": "República Dominicana, Oficina Nacional de Estadística (ONE)",
+   "anio": "2024",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20260512041645id_/https://www.one.gob.do/media/atbcumc0/informe-general-xcnpv-completo.pdf",
+   "urls_alternativas": [
+    "https://www.one.gob.do/media/atbcumc0/informe-general-xcnpv-completo.pdf (URL original; responde 403 con verificación anti-bot de Cloudflare, no se eludió)",
+    "https://www.one.gob.do/publicaciones/2024/informe-general-del-x-censo-nacional-de-poblacion-y-vivienda-2022/ (ficha de la publicación; solo se confirmó que existe en Wayback)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200 (copia de la Wayback Machine del 2026-05-12; el original da 403)",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial que reproduce la boleta censal tal como se aplicó; solo se leyó la boleta (pdf p. 609 y repeticiones), no los cuadros de resultados, que no contiene.",
+   "proveniencia": "Informe General de la ONE sobre el X Censo (empadronamiento de 2022, 'primer censo tecnológico'), presentado el 27-VI-2024; incluye como anexo las boletas censales. Texto primario del instrumento: lo que se preguntó y con qué opciones. La primera frase de la pregunta sale con la fuente tipográfica codificada en la extracción (se lee completa en la transcripción de Acento, Binny Sosa D'Meza, 14-XII-2022).",
+   "extractos": [
+    {
+     "ubicacion": "pdf p. 609 (p. 608), sección VI, pregunta 64",
+     "cita_original": "facciones, color de piel y otras características culturales. Partiendo de estos términos... ... ¿Se considera (NOMBRE) una persona...",
+     "traduccion": "'... facciones, color de piel y otras características culturales. Partiendo de estos términos... ¿Se considera (NOMBRE) una persona...' (la frase inicial, 'Las personas suelen definirse a sí mismas de acuerdo con sus...', sale codificada en la extracción y se completa con Acento).",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "pdf p. 609 (p. 608), opciones de respuesta de la pregunta 64",
+     "cita_original": "Negra o negro? 1 ... Morena o moreno? 2 ... Mestiza o mestizo? 3 ... Mulata o mulato? 4 ... India o indio? 5 ... Asiática o asiático? 6 ... Blanca o blanco? 7 ... Otro? 8 ... No sabe o no responde? 9",
+     "traduccion": "Nueve opciones cerradas leídas al entrevistado: negra/o, morena/o, mestiza/o, mulata/o, india/o, asiática/o, blanca/o, otro y no sabe o no responde. 'Indio' compite con 'moreno', 'mestizo' y 'mulato', que sí se ofrecen.",
+     "afirmaciones": [
+      "A-209",
+      "A-207",
+      "A-208"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-207",
+    "A-208",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: texto de la pregunta y opciones de la boleta de 2022. Comparación de instrumentos (para A-209): el censo ofrece nueve opciones cerradas (incluye 'mulata' y 'mestiza', que la columna de Acento omite al transcribirla); la encuesta del UNFPA usa 27 categorías precodificadas sin leerlas; LAPOP 2006 ofrecía 'blanca, negra, mulata (jabao), mestiza (indio), otra'; Latinobarómetro 2011 pregunta por 'raza'. El universo de la pregunta (12 años o más, según El Caribe) no se pudo confirmar en la boleta: el encabezado de la sección sale codificado. Los resultados (cuadros) no están en este informe: están en el volumen III."
+  },
+  {
+   "titulo": "Informe Características Demográficas Básicas del X Censo Nacional de Población y Vivienda 2022 (Volumen III), ficha de publicación de la ONE (729 pp.; ISBN 978-9945-508-17-8)",
+   "autor": "República Dominicana, Oficina Nacional de Estadística (ONE)",
+   "anio": "2024",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/20260307031520/https://one.gob.do/publicaciones/2024/informe-caracteristicas-demograficas-basicas-del-x-censo-nacional-de-poblacion-y-vivienda-2022/",
+   "urls_alternativas": [
+    "https://one.gob.do/publicaciones/2024/informe-caracteristicas-demograficas-basicas-del-x-censo-nacional-de-poblacion-y-vivienda-2022/ (original; 403)",
+    "https://one.gob.do/media/2nblpt3v/informe-características-demograficas-xcnpv-final.pdf (PDF del volumen: 403 con curl; sin copia en Wayback)",
+    "https://www.one.gob.do/noticias/2024/la-oficina-nacional-de-estadistica-one-presenta-los-resultados-del-x-censo-nacional-de-poblacion-y-vivienda-2022/ (nota de prensa del 27-VI-2024, leída vía Wayback 2026-04-14)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (Wayback; el original y el PDF dan 403)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ficha oficial que acredita la existencia, fecha y paginación del volumen, pero no contiene los cuadros; el PDF con los resultados de autopercepción no se pudo abrir.",
+   "proveniencia": "Ficha de la web de la ONE sobre el Volumen III del X Censo (características demográficas básicas; 729 páginas), publicada, según la ficha, el 30-IX-2024. La nota de prensa de la ONE del 27-VI-2024 presenta solo el Informe General (primer censo tecnológico, unas 35.000 personas en el operativo) y anuncia los informes detallados para los meses siguientes: la fecha de junio de 2024 que circula para el volumen III corresponde al Informe General.",
+   "extractos": [
+    {
+     "ubicacion": "ficha de la publicación",
+     "cita_original": "Publicado el: 30 de septiembre, 2024 ... 729 páginas ... ISBN: 978-9945-508-17-8 ... El presente informe correspondiente al Volumen III sobre las Características demográficas básicas de la población.",
+     "traduccion": "Volumen III, 729 páginas, publicado el 30-IX-2024 (ISBN 978-9945-508-17-8). Hay una 'versión digital' provisional de 78 páginas, hasta que se publique la definitiva con los cuadros diagramados.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "nota de prensa del 27-VI-2024",
+     "cita_original": "27 de junio, 2024 ... la presentación del Informe General del X Censo Nacional de Población y Vivienda 2022 (XCNPV)",
+     "traduccion": "La nota del 27-VI-2024 anuncia el Informe General; los demás informes se darían a conocer 'en los próximos meses'.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Esta es la fuente primaria de la cifra de autopercepción (A-209, A-226 de M16), pero NO se abrió: one.gob.do devuelve 403 (Cloudflare) a curl y a WebFetch, el PDF no está en Wayback y la 'versión digital' (https://www.one.gob.do/media/hmebcpry/informe-características-demográficas-xcnpv-versión-digital.pdf) tampoco tiene copia. Los números se leyeron en El Caribe (5-6-III-2025), que cita el volumen III; la suma de sus categorías coincide con el universo declarado (8.616.295). La discrepancia de fecha (27-VI-2024 frente a 30-IX-2024) se resuelve así: junio es el Informe General; septiembre, el volumen III."
+  },
+  {
+   "titulo": "El 33% de los dominicanos se percibe moreno y negro (El Caribe, 5-6-III-2025), con las cifras del Volumen III del X Censo 2022",
+   "autor": "Rodríguez, Diana (Periódico elCaribe)",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "http://web.archive.org/web/20250317175146/https://www.elcaribe.com.do/panorama/pais/el-33-de-los-dominicanos-se-percibe-moreno-y-negro/",
+   "urls_alternativas": [
+    "https://www.elcaribe.com.do/panorama/pais/el-33-de-los-dominicanos-se-percibe-moreno-y-negro/ (original; 403 con verificación anti-bot, no se eludió)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (Wayback del 2025-03-17; el original da 403)",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota periodística que reproduce cifras de un informe oficial que no se pudo abrir; la suma de las categorías cuadra con el universo declarado, lo que reduce el riesgo de error de transcripción.",
+   "proveniencia": "Nota de la periodista Diana Rodríguez en el diario El Caribe (Santo Domingo), fechada el 5 o 6 de marzo de 2025 (la página muestra las dos), que cita el Volumen III del censo de 2022 y la Encuesta Nacional de Autopercepción Racial y Étnica del UNFPA (2021). Escrita para el público general; no declara el cuadro ni la página del informe. Sin interés partidista visible.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "de una población de 8,616,295 dominicanos de 12 años en adelante, 2,237,370 (26%) dijeron ser morenas o morenos y 642,018 (7%) se perciben negras o negros",
+     "traduccion": "Del universo de 8.616.295 personas de 12 años o más: 2.237.370 morenas/os (26 %) y 642.018 negras/os (7 %).",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "1,611,752 contestaron que son blancas o blancos; 665,387 se reconocen como mestizas o mestizos; 330,207 se ven como mulatas o mulatos. Como indias o indios se identifican 2,946,377 y como asiáticas o asiáticos 28,343",
+     "traduccion": "Blancas/os 1.611.752; mestizas/os 665.387; mulatas/os 330.207; indias/os 2.946.377; asiáticas/os 28.343.",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "123,039 no supieron qué responder y 31,802 no se identificaron con ninguno de los tonos de piel citados",
+     "traduccion": "No supieron responder 123.039; 'otro' 31.802.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-207",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho (cálculo propio con las cifras de El Caribe): las nueve categorías suman exactamente 8.616.295. Porcentajes sobre ese universo: indio 34,2 % (2.946.377); moreno 26,0 %; blanco 18,7 %; mestizo 7,7 %; negro 7,5 %; mulato 3,8 %; no sabe 1,4 %; otro 0,4 %; asiático 0,3 %. Confirma, como cifra secundaria con comprobación aritmética, el 'indio 34 %' de A-209; no la confirma como cifra del informe de la ONE (no abierto). El titular suma morenos y negros (33,4 %), casi igual que 'indio' (34,2 %). Comparación entre instrumentos (A-209): censo 2022, nueve opciones cerradas, 12 años o más: indio 34 %. UNFPA 2019-2021, 27 categorías precodificadas sin leer, n = 1.309 adultos: indio 45 %. Latinobarómetro 2011 (n = 1.000; 'raza'): indígena 4 %, mestizo 29 %, mulato 24 %, negro 26 %. LAPOP 2010, según la ronda 1 (M15-N75): 68,6 % se declaró indio. La proporción 'indio' depende del instrumento (de 4 % a 69 %): las cifras no son comparables entre sí y ninguna serie con la misma pregunta cubre antes de 2022, de modo que 'cambio gradual hacia una identidad negra' no se puede evaluar con ellas. Universo: no se sabe si las 8,6 millones de personas incluyen a extranjeros [POR VERIFICAR]."
+  },
+  {
+   "titulo": "X Censo. Auto-percepción y categorización racial: la pregunta no. 64 (2 de 2) (Acento, columna La Calzada Estrecha, 14-XII-2022)",
+   "autor": "Sosa D'Meza, Binny",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/x-censo-auto-percepcion-y-categorizacion-racial-la-pregunta-no-64-2-de-2-9141742.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión contraria a la pregunta; sirve solo como transcripción del texto de la pregunta y como testimonio de la crítica interna al censo, no como dato.",
+   "proveniencia": "Columna de la autora (sin credencial declarada en el texto leído) en Acento, el 14-XII-2022, tres semanas después del trabajo de campo del censo. Defiende que la pregunta 64 debió hacerse en un estudio aparte. Su transcripción omite 'mulata o mulato', que la boleta de la ONE sí trae.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'Pregunta 64'",
+     "cita_original": "Pregunta 64. Las personas suelen definirse a sí mismas de acuerdo con sus facciones, color de piel y otras características culturales. Partiendo de estos términos. Se considera (Nombre) una persona:",
+     "traduccion": "Texto de la pregunta 64 del censo de 2022 (primer enunciado completo).",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente",
+     "cita_original": "la actual Cédula de Identificación y Electoral de República Dominicana no tiene registrado el color de piel o la categorización de la “raza” a través de la misma, solo se registra la nacionalidad",
+     "traduccion": "Afirmación de la autora: la cédula actual no registra color de piel ni 'raza', solo la nacionalidad (contrastar con la ley 8-92 y el texto de la cédula; no se verifica aquí).",
+     "afirmaciones": [
+      "A-207",
+      "A-208"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-207",
+    "A-208",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Opinión; el hecho citable es el texto de la pregunta, que se contrasta con la boleta de la ONE (ficha del Informe General de 2022). La afirmación sobre la cédula queda [POR VERIFICAR] con el documento."
+  },
+  {
+   "titulo": "Diálogo de Tambores: Desde la diversidad cultural dominicana, Libro Memoria (UNFPA, marzo de 2022), con la presentación de la Encuesta Nacional de Autopercepción Racial y Étnica 2019, República Dominicana",
+   "autor": "Fondo de Población de las Naciones Unidas (UNFPA) República Dominicana; investigador de la encuesta: Diógenes Lamarche",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://dominicanrepublic.unfpa.org/sites/default/files/pub-pdf/libro_memoria_dialogo_de_tambores.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "El libro resume la encuesta (preguntas, categorías y resultados), pero la ficha técnica de la muestra y la cobertura geográfica no constan en el texto leído; el informe original de la encuesta no se localizó.",
+   "proveniencia": "Memoria del primer 'Diálogo de Tambores' (marzo de 2022), impulsado por el Gobierno dominicano (Ministerios de Cultura, de Relaciones Exteriores y de Economía) con el sistema de Naciones Unidas (UNFPA, ACNUR, OPS/OMS, UNESCO, ACNUDH) y organizaciones de la sociedad civil; incluye, en las pp. 59-70, la presentación de la encuesta del UNFPA. Sus 27 categorías de autoidentificación se recogieron sin leerlas al entrevistado. Quien la usa: debates sobre afrodescendencia; el UNFPA tiene interés declarado en visibilizar la afrodescendencia. La encuesta consta como 'Encuesta Nacional de Autopercepción Racial y Étnica 2019' en el libro y como de 2021 en la prensa.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 61-62 (pdf p. 32), preguntas utilizadas",
+     "cita_original": "en el cuestionario se incluyeron 27 categorizaciones pre codificadas para autoidentificación individual ... Estas categorías no fueron leídas a las personas entrevistadas",
+     "traduccion": "El cuestionario incluyó 27 categorías precodificadas más 'otro', que no se leyeron al entrevistado: la respuesta es espontánea.",
+     "afirmaciones": [
+      "A-207",
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "pp. 69-70 (pdf p. 36), conclusiones",
+     "cita_original": "45 % de las personas encuestadas se autodescribe como india. 18 % se describe como blanca, y 16 % como morena. Tan solo 9 % se identifica como mulata, 8 % como negra, y mestiza fue mencionada tan solo por 1 %",
+     "traduccion": "Autodescripción individual: india 45 %; blanca 18 %; morena 16 %; mulata 9 %; negra 8 %; mestiza 1 %.",
+     "afirmaciones": [
+      "A-207",
+      "A-208",
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "pp. 69-70 (pdf p. 36), conclusiones",
+     "cita_original": "76 % entiende que los mismos son de origen dominicano ... 9 % de las personas encuestadas entiende que sus antepasados son europeos, 5 % señala que son taínos, y 4 % que son africanos",
+     "traduccion": "Sobre los antepasados: 76 % responde 'dominicano', 9 % europeos, 5 % taínos y 4 % africanos: el contraste con 45 % 'indio' lo señalan los propios autores.",
+     "afirmaciones": [
+      "A-207",
+      "A-208"
+     ]
+    },
+    {
+     "ubicacion": "pp. 69-70 (pdf p. 36), conclusiones",
+     "cita_original": "Las personas más jóvenes son quienes menos se identifican como indias",
+     "traduccion": "Patrón por edad: los más jóvenes son quienes menos se identifican como indios (dato transversal; no demuestra cambio en el tiempo).",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-207",
+    "A-208",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: porcentajes de la encuesta; la EFE (El Día, 18-III-2022) da n = 1.309 personas de más de 18 años. Cobertura geográfica y diseño muestral: [POR VERIFICAR] (otra fuente la describe como hecha 'principalmente en la capital', no leída). Interpretación: el patrón por edad es transversal y no mide un cambio. El libro también recoge, sobre la ascendencia nacional, que el 52 % considera española la ascendencia de los dominicanos, 22 % taína y 8 % africana, y que sobre los haitianos el 45 % la ve africana, 33 % francesa y 7 % taína (creencias del público; interesan a las tesis identitarias del proyecto, no a una afirmación de M15)."
+  },
+  {
+   "titulo": "Solo el 8 % de los dominicanos se identifica como negro (EFE, publicado en El Día, 18-III-2022)",
+   "autor": "Agencia EFE (despacho publicado en El Día)",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/solo-el-8-de-los-dominicanos-se-identifica-como-negro/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de agencia que da el tamaño de la muestra de la encuesta del UNFPA y repite sus resultados; no da la ficha técnica completa.",
+   "proveniencia": "Despacho de EFE desde Santo Domingo, 18-III-2022, el día de la presentación del Diálogo de Tambores; incluye declaraciones del viceministro de Política Exterior Multilateral, Rubén Silié, que no se usan aquí como dato.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "el 45 % de los dominicanos se considera indio, un 18 % se define como blanco, un 16 % como moreno y un 9 % mulato, según la encuesta Autopercepción Racial y Étnica en la República Dominicana, que entrevistó a 1.309 personas mayores de 18 años",
+     "traduccion": "Resultados de la encuesta del UNFPA y su muestra: 1.309 personas mayores de 18 años.",
+     "afirmaciones": [
+      "A-207",
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-207",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Aporta solo el dato n = 1.309 (no se encontró diseño ni cobertura). La nota dice que la encuesta fue 'publicada en la capital del país', lo que no equivale a que la muestra se limite a la capital: [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Informe Latinobarómetro 2011 (Tabla Nº16: raza a la que pertenece por país; escala de discriminación por raza) e Informe metodológico 2011, ficha de la República Dominicana",
+   "autor": "Corporación Latinobarómetro (Santiago de Chile)",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.latinobarometro.org/documents/LAT-2011/informe-latinobarometro-2011.pdf",
+   "urls_alternativas": [
+    "https://www.latinobarometro.org/documents/LAT-2011/informemetodologico-latinobarometro-2011.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Encuesta internacional con muestra probabilística por país y metodología publicada; en la RD n = 1.000 con error de 3,1 puntos, y la pregunta de 'raza' no ofrece la categoría 'indio'.",
+   "proveniencia": "La Corporación Latinobarómetro, ONG con apoyo de organismos y gobiernos, aplicó 20.204 entrevistas cara a cara en 18 países del 15 de julio al 16 de agosto de 2011 (Venezuela con retraso). Para la RD: 1.000 casos, error muestral 3,1 puntos, 65 % urbano y 35 % rural, muestreo probabilístico polietápico (informe metodológico, p. 21). Es una encuesta de opinión, sin variable de nacionalidad de los padres.",
+   "extractos": [
+    {
+     "ubicacion": "p. 63, Tabla Nº16",
+     "cita_original": "P. ¿A qué raza se considera perteneciente usted? ... Mestizo Blanco Indígena Mulato Negro Otra raza Asiático ... R. Dominicana 29 11 4 24 26 0 3",
+     "traduccion": "Raza a la que se considera perteneciente (RD, 2011): mestizo 29 %, blanco 11 %, indígena 4 %, mulato 24 %, negro 26 %, otra raza 0 %, asiático 3 %. Sin opción 'indio'; 'indígena' solo 4 %.",
+     "afirmaciones": [
+      "A-207",
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "p. 62, escala de discriminación por raza",
+     "cita_original": "La discriminación por raza es también un problema mayoritario en Brasil donde este indicador alcanza el 46%, en Bolivia el 43% y México 43% junto con República Dominicana",
+     "traduccion": "En la RD, la media de dominicanos de cada 100 que se cree discriminada por raza es 43 (la pregunta mide percepción de discriminación en general, no hacia haitianos).",
+     "afirmaciones": [
+      "A-206",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "informe metodológico, p. 21, ficha de la RD",
+     "cita_original": "1000 casos ... 3,1 puntos porcentuales ... 65% urbano; 35% rural ... Muestreo probabilístico polietápico",
+     "traduccion": "Ficha de la RD: 1.000 casos, error de 3,1 puntos, 65 % urbano y 35 % rural, muestreo probabilístico polietápico.",
+     "afirmaciones": [
+      "A-206",
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-206",
+    "A-207",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: distribución de autoidentificación en 2011 con una pregunta de 'raza' sin la opción 'indio' (los resultados con 'mestizo 29 %' y 'indígena 4 %' no son comparables con el 'indio' del censo ni con el 45 % del UNFPA). Latinobarómetro 2009 y 2010 se descargaron (el campo de 2010 fue del 4-IX al 6-X de 2010): no traen un valor limpio para la RD sobre inmigrantes o discriminación en el texto extraído (los gráficos salen intercalados), de modo que NO sirven para un diseño antes y después del terremoto. El módulo de inmigración de Latinobarómetro en la RD no se localizó: [POR VERIFICAR] si existe."
+  },
+  {
+   "titulo": "Cultura política de la democracia en República Dominicana: 2006 (Barómetro de las Américas, LAPOP, Vanderbilt University, diciembre de 2006), cap. X, 'Migración: haitiana y dominicana'",
+   "autor": "Morgan, Jana; Espinal, Rosario; Seligson, Mitchell A. (LAPOP / Vanderbilt University)",
+   "anio": "2006",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://cdn.vanderbilt.edu/vu-my/wp-content/uploads/sites/1209/2019/04/14113704/DOMINICAN-REPUBLIC-2006-Spanish-AmericasBarometer.pdf",
+   "urls_alternativas": [
+    "https://www.vanderbilt.edu/lapop/dr/2006-culturapolitica.pdf (mismo archivo)",
+    "https://www.vanderbilt.edu/lapop/dr/2006-techinfo-spanish.pdf (ficha técnica)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe de una encuesta nacional (n = 1.519, error efectivo de 3,4 %) con cuestionario publicado; la muestra es por cuotas dentro del hogar, no probabilística estricta, y mide opiniones, no hechos.",
+   "proveniencia": "LAPOP (Vanderbilt) con trabajo de campo de Gallup República Dominicana del 1 al 22 de junio de 2006, análisis de Morgan (Tennessee) y Espinal (Temple), patrocinio de USAID. Es la ola anterior a las de 2008 y 2010 que ya estaban en la ronda 1 y la primera con las dos preguntas sobre los derechos de los haitianos (ciudadanía de los hijos de haitianos nacidos en la RD y permisos de trabajo a indocumentados).",
+   "extractos": [
+    {
+     "ubicacion": "p. 192, cap. X",
+     "cita_original": "En una escala del 0 al 100 puntos, los valores más altos señalan más aprobación de otorgar la ciudadanía. El promedio de respuesta a esta pregunta es de 43.4 ... El promedio en la respuesta a esta pregunta es 40.9",
+     "traduccion": "Aprobación de la ciudadanía de los hijos de haitianos nacidos en la RD: media de 43,4 en una escala de 0 a 100 (junio de 2006); aprobación de permisos de trabajo a haitianos indocumentados: 40,9.",
+     "afirmaciones": [
+      "A-206",
+      "A-203"
+     ]
+    },
+    {
+     "ubicacion": "p. xxiii (resumen ejecutivo)",
+     "cita_original": "En ambos casos la mayoría opinó en desacuerdo",
+     "traduccion": "En ambas preguntas la mayoría opinó en desacuerdo (resumen ejecutivo, junio de 2006).",
+     "afirmaciones": [
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "p. 194, cap. X",
+     "cita_original": "La aprobación de los derechos de los haitianos es mayor entre las personas que se identifican como negras en comparación con otros grupos raciales",
+     "traduccion": "La aprobación de los derechos de los haitianos es mayor entre quienes se identifican como negros (Gráfico X-12).",
+     "afirmaciones": [
+      "A-206",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "p. 199, conclusiones",
+     "cita_original": "las actitudes hacia la migración haitiana están divididas en el país, con una tendencia al rechazo en al asignación de derechos",
+     "traduccion": "Conclusión de los autores: las actitudes hacia la migración haitiana están divididas, con tendencia al rechazo en la asignación de derechos.",
+     "afirmaciones": [
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "p. 13, metodología",
+     "cita_original": "El trabajo de campo se realizó en un periodo de 22 días, del 1 al 22 de junio de 2006",
+     "traduccion": "Trabajo de campo: 1 al 22 de junio de 2006 (n = 1.519; error muestral de ±2,5 %; con el efecto del diseño 1,8, ±3,4 %, p. 15).",
+     "afirmaciones": [
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "pp. 241-242, cuestionario",
+     "cita_original": "¿Usted considera que es una persona: Blanca, negra, mulata (Jabao), mestiza u ... otra? (1) Blanca (2) Negra (3) Mulata(Jabao) (4) Mestiza(Indio) (7) Otra (8) NS/NR",
+     "traduccion": "Pregunta de autoidentificación de 2006: blanca, negra, mulata (jabao), mestiza (indio), otra; 'indio' va como sinónimo de 'mestiza', no como categoría propia.",
+     "afirmaciones": [
+      "A-207",
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-203",
+    "A-206",
+    "A-207",
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: medias de 2006 (43,4 y 40,9; escala 0-100). Con las ya leídas en la ronda 1 (2008: 47,2 y 38,5; 2010, febrero-marzo: 48,3 y 42,4; 2012: 54,8 para la ciudadanía) forman la serie LAPOP 2006-2012: antes del terremoto (2006, 2008), con la encuesta de 2010 hecha en febrero-marzo, uno o dos meses después del terremoto, y 2012. Ninguna pasa de 55 puntos. Interpretación: la serie sube de forma moderada, pero sin medir 'ausencia de hostilidad' (A-206, que es un enunciado de significado). Límites: es una serie de promedios de una escala de acuerdo, sin la distribución completa en el texto leído; la ola de 2006 usó cuotas. Gallup-Hoy de 2009-2010 no se localizó."
+  },
+  {
+   "titulo": "Perceived discrimination in bateyes of the Dominican Republic: results from the Everyday Discrimination Scale and implications for public health programs (BMC Public Health 19: 1513)",
+   "autor": "Keys, Hunter M.; Noland, Gregory S.; De Rochars, Madsen Beau; Taylor, Thomas H.; Blount, Stephen; Gonzales, Manuel",
+   "anio": "2019",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6852895/",
+   "urls_alternativas": [
+    "https://doi.org/10.1186/s12889-019-7773-2"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares, de acceso abierto, con encuesta de conglomerados estratificada (n = 768) e intervalos de confianza; es de 2016, fuera del periodo del módulo, y sus bateyes provienen de programas de salud pública.",
+   "proveniencia": "Equipo de la Universidad de Ámsterdam, el Centro Carter, la Universidad de Florida, los CDC y el centro dominicano de control de enfermedades transmitidas por vectores. Encuesta de marzo y abril de 2016 en bateyes de todo el país, hecha en el marco de la eliminación de malaria y filariasis; datos de primera mano de residentes con escala de discriminación cotidiana.",
+   "extractos": [
+    {
+     "ubicacion": "Abstract, Methods",
+     "cita_original": "In March—April 2016, a stratified, multi-stage cluster survey that included the 9-item Everyday Discrimination Scale (EDS) was conducted among residents (n = 768) of bateyes across the Dominican Republic",
+     "traduccion": "En marzo-abril de 2016 se hizo una encuesta de conglomerados estratificada y polietápica con la Escala de Discriminación Cotidiana entre 768 residentes de bateyes de todo el país.",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "Abstract, Results",
+     "cita_original": "Haitian-born persons (42.5%), Dominican-born persons with Haitian descent (25.5%), and Dominican-born persons without Haitian descent (32.0%)",
+     "traduccion": "Composición de la muestra de bateyes en 2016: nacidos en Haití 42,5 %; nacidos en la RD con ascendencia haitiana 25,5 %; nacidos en la RD sin ascendencia haitiana 32,0 %.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "Abstract, Results",
+     "cita_original": "Haitian-born and Haitian-descended people also attributed discrimination to their origin, documentation status, or skin color",
+     "traduccion": "Los nacidos en Haití y los de ascendencia haitiana atribuyeron la discriminación a su origen, su situación documental o el color de piel; la pobreza fue motivo común a todos.",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-206",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: datos de 2016 (posterior a TC/0168/13, septiembre de 2013); no describen 1986-2010 ni la reacción al terremoto, pero dan la composición actual de los bateyes con muestra (solo 42,5 % nacidos en Haití) y la voz de los residentes. Medias de la escala (rango 0-45): nacidos en Haití 18,2 (IC 95 %: 16,4-20,1); ascendencia haitiana 16,5 (14,9-18,0); sin ascendencia haitiana 13,3 (12,1-14,5). Límite: los bateyes de la muestra se eligieron para programas de salud; la generalización a todos los bateyes es [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Algunos aspectos socioculturales de la inmigración haitiana hacia la República Dominicana (Ciencia y Sociedad 31(1): 64-124)",
+   "autor": "Rosario, Reina; Ulloa, Jorge",
+   "anio": "2006",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.redalyc.org/pdf/870/87031105.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado de una revista del INTEC con trabajo de campo propio (147 entrevistas a inmigrantes en un batey y en un mercado), pero la muestra no es probabilística y varias cifras se apoyan en estudios que no se leyeron (FLACSO-OIM 2004).",
+   "proveniencia": "Antropóloga y colega del Instituto Tecnológico de Santo Domingo (INTEC) con estudiantes entrevistadores; trabajo de campo en dos campañas (diciembre de 2004 a enero de 2005 y febrero a abril de 2005) en el batey de Palavé (89 entrevistas a profundidad a inmigrantes y otras tantas a descendientes) y en el 'Pequeño Haití', detrás del Mercado Modelo de Santo Domingo (58 inmigrantes). Voz de primera mano de residentes de un batey periurbano, pero seleccionados con un criterio no probabilístico.",
+   "extractos": [
+    {
+     "ubicacion": "p. 84, datos generales de la población estudiada",
+     "cita_original": "En el batey de Palavé se realizaron 89 entrevistas a profundidad en inmigrantes haitianos",
+     "traduccion": "Batey de Palavé (periferia de Santo Domingo): 89 entrevistas a profundidad a inmigrantes haitianos y otras tantas a descendientes; en total 147 inmigrantes entrevistados con el Pequeño Haití (58).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 84",
+     "cita_original": "una mayor incidencia de inmigrantes de sexo femenino en ambas localidades, característica que no era común en años anteriores",
+     "traduccion": "Observación de campo (2004-2005): predominio de mujeres entre los inmigrantes de ambas localidades, rasgo nuevo respecto de años anteriores (voz de mujeres de batey indirecta, no recogida en cita).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 86",
+     "cita_original": "el 93.9% de los entrevistados en el Pequeño Haití reconoció su ascendencia haitiana, sin embargo en su mayoría negaron haber nacido en Haití, lo que evidentemente se relaciona con un resguardo respecto a su condición o estatus migratorio en República Dominicana",
+     "traduccion": "Entre los entrevistados del Pequeño Haití, el 93,9 % reconoció ascendencia haitiana pero la mayoría negó haber nacido en Haití, estrategia de protección del estatus migratorio (interpretación de los autores).",
+     "afirmaciones": [
+      "A-203",
+      "A-204",
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-203",
+    "A-204",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: n = 89 (Palavé) y 58 (Pequeño Haití); fecha del campo 2004-2005 (el texto la escribe 'Diciembre-Enero del 2004', ambiguo). Interpretación: la negación del nacimiento en Haití como estrategia. Cita estudios sin leer: FLACSO-OIM 'Encuesta sobre inmigrantes haitianos en República Dominicana' (2004) y 'La nueva inmigración haitiana' (Silié, Segura y Dore, 2002), y un estudio del SJRM de 2004 sobre actitud racial (86 % de los representantes de instituciones educativas entrevistados creen que la sociedad dominicana es racista; 26 % lo ve en el rechazo por el color de piel): secundaria, no leídos los originales. Útil para 'Silencios' (inmigrantes y mujeres)."
+  },
+  {
+   "titulo": "Encuesta Gallup-Hoy: Para el 62% de los ciudadanos sentencia TC no es antihaitiana (Hoy, 3-II-2014)",
+   "autor": "Hoy (redacción); encuesta de Gallup República Dominicana para el periódico Hoy",
+   "anio": "2014",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://hoy.com.do/encuesta-gallup-hoy-para-el-62-de-los-ciudadanos-sentencia-tc-no-es-antihaitiana/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informa de una encuesta nacional de una firma conocida, con fechas de campo, pero la nota no da el tamaño de la muestra ni el error; es el medio que encargó la encuesta.",
+   "proveniencia": "Nota del periódico Hoy del 3-II-2014 con los resultados de la encuesta Gallup-Hoy hecha 'en todo el país del 24 al 28 de enero' de 2014, cuatro meses después de la sentencia TC/0168/13. Resuelve en parte la laguna de la ronda 1, que solo tenía comentarios de segunda mano (Lozano, 2014; EFE, 2018). Es posterior a 2010: sirve como punto de llegada de la serie de actitudes, no como 'después inmediato' del terremoto.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1, 5 y 20",
+     "cita_original": "Seis de cada10 dominicanos y dominicanas (62%) consideran que la controversial sentencia 168-13, del Tribunal Constitucional, no es antihaitiana ... Una amplia mayoría de los ciudadanos (83%) estima que el Gobierno debe prohibir la entrada de más inmigrantes haitianos",
+     "traduccion": "Gallup-Hoy (24-28 de enero de 2014): 62 % cree que la sentencia 168-13 no es antihaitiana (30,4 % sí); 83 % cree que el Gobierno debe prohibir la entrada de más inmigrantes haitianos.",
+     "afirmaciones": [
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Discriminación'",
+     "cita_original": "Más de la mitad de la población (58.5%) cree que los haitianos son discriminados en el país, aunque un 40.6% considera que no",
+     "traduccion": "El 58,5 % cree que los haitianos son discriminados en el país; el 40,6 % piensa que no.",
+     "afirmaciones": [
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Opiniones divididas'",
+     "cita_original": "Para el 48.5%, estos ciudadanos deben ser sacados del país. El 46.2% estima que se les debe dar la oportunidad de legalizar su estatus",
+     "traduccion": "Sobre los haitianos indocumentados: 48,5 % que deben salir del país; 46,2 % que se les dé la oportunidad de legalizarse.",
+     "afirmaciones": [
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-206"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: porcentajes de una encuesta de enero de 2014. Interpretación: los resultados muestran opiniones divididas (62 % no ve antihaitianismo en la sentencia; 83 % pide cerrar la entrada; 58,5 % ve discriminación hacia los haitianos), lo que no se puede leer como 'ausencia de hostilidad' ni como 'hostilidad generalizada'. No hay Gallup-Hoy de 2009-2010 localizada, de modo que el diseño antes y después de 2010 sigue sin cerrarse. Muestra y error: [POR VERIFICAR]. La nota confunde las cifras de la ENI-2012 (768.783 extranjeros y 668.145 haitianos incluyen descendientes; ver ficha de la ENI)."
+  }
+ ]
+}

@@ -1,0 +1,2078 @@
+{
+ "lente": "internacional",
+ "modulo": "M15",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 34,
+ "busquedas_pendientes": [
+  "Informe del Departamento de Estado sobre RD de 1991 a 1995 (no está en govinfo; state.gov bloqueado; la Wayback Machine limitó las consultas): 'Country Reports on Human Rights Practices for 1991' Dominican Republic Haitian cane workers June 1991",
+  "Informes del Departamento de Estado sobre RD de 1997, 2000, 2001 y 2003 (ids de state.gov/g/drl/rls/hrrpt no hallados en la Wayback; el de 2000 trataría el caso de Guayubín)",
+  "Fuente haitiana (Le Nouvelliste, AlterPresse, Radio Kiskeya, Presidencia de Haití) del agradecimiento de Préval a Leonel Fernández, 14-20 de enero de 2010",
+  "Respuesta de la CIDH a la petición de 2006 sobre el derrocamiento de Aristide (destino de la petición) y la Haiti Commission of Inquiry (Ramsey Clark, marzo de 2004), citada por la petición",
+  "Comunicado o declaración del Gobierno de Aristide (febrero de 2004) contra el Estado dominicano; nota de la cancillería haitiana de mayo de 2003 pidiendo la entrega de Guy Philippe",
+  "Editorial de Diario Libre del 7-II-2004 y prensa dominicana de febrero de 2004 (Listín Diario, Hoy) sobre Philippe y la frontera",
+  "Memorias 1992-1993 de la Cancillería dominicana (no están en el repositorio del Senado) y Gaceta Oficial con los decretos dominicanos sobre el embargo 1991-1994",
+  "Torres-Saillant, 'The Tribulations of Blackness' (F-0080; MUSE exige verificación), Candelario 2007 (F-0081) y Mayes 2014: acceso al texto o a capítulos de acceso abierto",
+  "Sagás 2000, pp. 105-116 (campaña de 1996): acceso institucional en Fulcrum o copia de biblioteca",
+  "Censo 2022 de la ONE (informe general): porcentaje de 'indio' (A-209) y comparación con encuestas (Latinobarómetro, DEMOS) para A-206"
+ ],
+ "lagunas": [
+  "A-205: se confirma la frase de Ban Ki-moon del 19-I-2010 con la transcripción de la ONU (en inglés, 'very generously and swiftly'), pero 'primer país' y '1.500 cirugías en Jimaní' siguen sin documento oficial; el agradecimiento de Préval consta solo en un despacho de EFE (discurso indirecto, 18-I-2010), no en fuente haitiana.",
+  "A-202: la expresión 'plan de fusión' sigue sin texto primario de 1994-1996. El informe de observación de NDI y el Centro Carter (1998) documenta que Balaguer pidió votar contra 'planes extranjeros de unificar' las dos naciones una semana antes del 16-V-1996 y que el Frente Patriótico invocó 'manos no dominicanas' (denunciado como racista por el PRD), pero NO que acusaran a Peña Gómez de ser su instrumento. Sagás 2000 (pp. 105-116) no se pudo leer. El resto del informe de NDI (resumen ejecutivo y capítulos de otras hojas) no se leyó con OCR de calidad.",
+  "A-209: de Simmons 2009 y de Wigginton y Middleton 2019 solo se leyeron fichas editoriales, el resumen del artículo de Simmons 2008 y dos reseñas (San Miguel y Channell, esta última completa); la reseña de Lucero (The Americas 2020) quedó tras muro de pago. Ninguna de las dos obras mide autoidentificación de la población: Simmons parte de estudiantes de un programa de intercambio y de observación en la JCE; Wigginton y Middleton analizan libros de texto.",
+  "A-210: faltan los informes del Departamento de Estado de 1991-1995, 1997, 2000, 2001, 2003 y 2006-2009; las cifras anuales de expulsiones halladas (12.000 en 2002; 3.817 en 2004; 3.185 en 2010) son declaraciones de la Dirección de Migración sin recuento anexo, y las de 1991, 1996 y 1999 siguen sin base ('thousands', 'approximately 10,000' de Barahona).",
+  "Aristide y la RD: no se halló una declaración primaria del Gobierno de Aristide de febrero de 2004 acusando al de Mejía; la acusación consta en la petición de 2006 a la CIDH (leída), que es de parte y se apoya en prensa, y en la prensa internacional de 2004. La versión dominicana de 2004 (Philippe 'sin armas ni fuerza combatiente') depende de un cable filtrado de la embajada de EE. UU. El HRW World Report 2005 sobre Haití (leído) no menciona la RD como base de los rebeldes.",
+  "Embargo y golpe de 1991: sigue sin documento dominicano primario del embargo 1991-1994; solo hay reportaje (Klarreich 1993), despacho (Knight-Ridder 1994) y mensaje de Clinton (1995).",
+  "El PDF de NDI y el Centro Carter (ACE) es una fotocopia con dos páginas por hoja y rotada, sin capa de texto; se leyó con OCR (rapidocr) y se cotejó a simple vista solo la hoja 23."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Haitian Other master script (guion maestro del Otro haitiano)",
+   "tradicion": "internacional (educación; teoría crítica de la raza)",
+   "nota": "Concepto de Wigginton y Middleton (2019) para el relato escolar que presenta lo haitiano, lo negro y lo extranjero como lo opuesto a lo dominicano; habla de «black denial» y de «pigmentocracia». Es una categoría analítica de la obra, no un término de las fuentes de época."
+  },
+  {
+   "termino": "Historical colorization (colorización histórica)",
+   "tradicion": "internacional (antropología; Simmons 2008)",
+   "nota": "Simmons lo define como las prácticas de nombrar raza y color dentro del propio grupo; lo usa para comparar a afroamericanos en RD y dominicanos en EE. UU. Complementa la entrada «indio» del glosario."
+  },
+  {
+   "termino": "«Manos no dominicanas» (non-Dominican hands)",
+   "tradicion": "dominicana (Frente Patriótico Nacional, 2-VI-1996); denunciado como racista por Peña Gómez y el PRD",
+   "nota": "Fórmula del documento del Frente según el informe de NDI y el Centro Carter: proteger la soberanía y la independencia frente a «manos no dominicanas». El informe no cita el original en español. Se relaciona con el «plan de fusión» de la entrada ya propuesta."
+  },
+  {
+   "termino": "Repatriación masiva / moratoria de deportaciones",
+   "tradicion": "oficial-rd (Dirección de Migración, presidente Fernández)",
+   "nota": "El Estado habla de «repatriaciones masivas» (anuncio regional del 19-II-2004; suspensión ordenada por Fernández en junio de 2005 según funcionarios citados por el Departamento de Estado) y de «moratoria de todas las deportaciones» tras el terremoto de 2010 (informe de 2010). Complementa la entrada «Repatriación / deportación / expulsión» de la ronda 1."
+  },
+  {
+   "termino": "Racial priming (cebado racial)",
+   "tradicion": "internacional (educación; Wigginton y Middleton, vía la reseña de Channell)",
+   "nota": "Estrategia política de apelar a señales raciales para movilizar votantes, que los autores comparan con el uso en EE. UU. y aplican a Balaguer y Peña Gómez. Etiqueta analítica de segunda mano (no se leyó el libro)."
+  },
+  {
+   "termino": "Discriminación de facto por condición de migrantes",
+   "tradicion": "internacional (Corte IDH, Nadege Dorzema 2012, párr. 238)",
+   "nota": "Conclusión de la Corte sobre las víctimas haitianas del 18-VI-2000, sin pronunciarse sobre una discriminación estructural general. Distingue el hecho probado (trato de facto) de la tesis (discriminación sistémica)."
+  }
+ ],
+ "incidencias": [
+  "A-210 confunde dos sentencias: la de Nadege Dorzema (24-X-2012, hechos del 18-VI-2000) y la de Personas dominicanas y haitianas expulsadas (2014, F-0523). El enunciado atribuye a «el caso que la Corte IDH falló en 2014» las expulsiones de 1999-2000 y las medidas cautelares; conviene separar los dos casos al redactar la afirmación.",
+  "F-1149 (Dorzema) solo tiene M16 en el registro: añadir M15. F-0144 y F-0155 (Simmons y Wigginton y Middleton) quedan resueltas solo como ficha editorial vía reseña; F-0609 se vuelve a registrar porque es la vía de acceso al libro de Simmons; F-0083 (Sagás 2000) solo ficha de Fulcrum.",
+  "La cifra de 10.000 haitianos deportados circula mezclada: el informe de 1998 la da para todo el país entre enero y septiembre de 1998; el de 1999, para la provincia de Barahona. Ninguno declara base.",
+  "Discrepancias de fecha entre fuentes: el informe del Departamento de Estado sobre 2005 pone la sentencia Yean y Bosico el «8 de octubre» (fue el 8-IX-2005, según la propia Corte IDH, nota 44 de Dorzema); el de 2002 pone el caso de los seis haitianos y un dominicano en «julio de 2000» (fue el 18-VI-2000). Discrepancia de hechos entre AP/cable (dos soldados dominicanos muertos el 14-II-2004) y NotiCen (uno muerto, cinco heridos).",
+  "La frase de Ban Ki-moon de A-205 consta en inglés como «very generously and swiftly» (19-I-2010); la ONU reconoció también el apoyo dominicano en 2012 y 2014 (otras dos entradas), y la prensa de 2026 atribuye frases parecidas a Guterres: riesgo de confundir fechas y personas en resúmenes de búsqueda.",
+  "Registro F-0080 (Torres-Saillant, «The Tribulations of Blackness»): el resumen de una búsqueda lo ubica en Callaloo 23(3), 2000, pp. 1086-1111; el registro dice 1998. [POR VERIFICAR: no se abrió el catálogo.]",
+  "Accesos: curl recibió HTTP 202/403/«Just a moment» (WAF o Cloudflare) en un.org, MavMatrix, Fulcrum y el repositorio de la Univ. de Nuevo México; esas páginas se leyeron con el navegador del panel (sin resolver ningún desafío interactivo). Project MUSE (artículos) mostró «Verification required» y Wiley «Just a moment»: no se abrieron ni se intentó eludirlos. state.gov (1997-2001 y actual) devuelve «Technical Difficulties»: se usaron capturas de la Wayback Machine, que limitó (429) las consultas masivas.",
+  "El PDF de NDI y el Centro Carter y la Memoria 2004 de la Cancillería (74 MB) requirieron OCR; los extractos se cotejaron contra ese texto, con posibles erratas (p. ej., «haiti anos»). La hoja 23 del PDF de NDI se contrastó además con la imagen.",
+  "El scratchpad de la sesión es compartido con otros agentes: encontré allí un build1.py ajeno (no lo toqué) y mis scripts auxiliares usan nombres cortos (f.py, vq.py, wb.py, dsp.py, ocr.py, ocr2.py) que pudieron sobrescribir archivos homónimos de otros agentes; si algún agente concurrente falla con esos nombres, es la causa probable."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Caso Nadege Dorzema y otros vs. República Dominicana. Fondo, Reparaciones y Costas. Sentencia de 24 de octubre de 2012 (Serie C n.º 251)",
+   "autor": "Corte Interamericana de Derechos Humanos",
+   "anio": "2012",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://www.corteidh.or.cr/docs/casos/articulos/seriec_251_esp.pdf",
+   "urls_alternativas": [
+    "http://hrlibrary.umn.edu/iachr/C/251-ing.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Sentencia de un tribunal internacional cuyos hechos probados descansan en el expediente del proceso militar dominicano, en declaraciones de sobrevivientes, del chofer y de los cuatro militares, y en una audiencia pública.",
+   "proveniencia": "Sentencia de la Corte IDH (San José), firmada el 24-X-2012 tras la audiencia pública del 21-VI-2012, en el caso que la CIDH sometió contra el Estado dominicano por los hechos del 18-VI-2000: persecución y tiroteo de militares contra un camión con unos 30 migrantes haitianos en la región fronteriza del noroeste (de Santa María hacia Santiago; los detenidos fueron llevados a Dajabón), muertes, detención y expulsión de sobrevivientes, y descargo final en la justicia militar. Los hechos probados citan la prueba folio por folio; la Corte declara que no necesita pronunciarse sobre un contexto general de discriminación estructural (párr. 40). Es un tribunal sin interés en el relato nacional de ninguno de los dos Estados; su sesgo es el de su mandato (aplicar la Convención Americana). Da voz, por la vía del proceso, a migrantes y a soldados rasos, hoy un silencio del módulo.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 41 (l. 886 del txt de pdftotext -layout)",
+     "cita_original": "En la madrugada del 18 de junio de 2000, un camión marca Daihatsu color amarillo, conducido por el señor Félix Antonio Núñez Peña, en compañía del señor Máximo Rubén de Jesús Espinal, ambos de nacionalidad dominicana, inició el trayecto a la ciudad de Santiago de los Caballeros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 44 (l. 961)",
+     "cita_original": "Los militares realizaron numerosos disparos con sus armas de reglamento y un fusil M16 en dirección al camión, los cuales impactaron en su compuerta trasera y en la cabina",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 47 (l. 1081)",
+     "cita_original": "cuando los militares llegaron al sitio de la volcadura, al ver que varias de las personas que se encontraban en el camión salieron corriendo por el nerviosismo de la situación, comenzaron a dispararles",
+     "traduccion": "Versión del chofer y de los sobrevivientes; los militares sostuvieron que solo dispararon al aire (misma párr.).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 47 (l. 1087)",
+     "cita_original": "según los testimonios de los militares, cuando éstos arribaron al sitio de la volcadura, al ver que algunas de las personas que se encontraban en el camión comenzaron a huir, realizaron varios disparos al aire",
+     "traduccion": "Versión de los militares.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 48 (l. 1091)",
+     "cita_original": "perdieron la vida Fritz Alce, Ilfaudia Dorzema y Nadege Dorzema, todos de nacionalidad haitiana, y Máximo Rubén de Jesús Espinal, de nacionalidad dominicana. Durante la volcadura del camión, falleció Jacqueline Maxime debido a un trauma en tórax y abdomen",
+     "traduccion": "El párr. 48 sigue con Pardis Fortilus; con Roselene Thermeus son siete los muertos que la Corte da por acreditados (resolutivo 1): seis haitianos y un dominicano.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 49 (l. 1156)",
+     "cita_original": "el Estado señaló que tenía conocimiento de al menos 13 personas sobrevivientes que resultaron heridas",
+     "traduccion": "La Corte acredita 10 sobrevivientes heridos con nombre y al menos cuatro más (párr. 49).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 52 (l. 1226)",
+     "cita_original": "los cuerpos de los seis haitianos fallecidos fueron inhumados en una fosa común en Gurabo",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 54 (l. 1237)",
+     "cita_original": "El 18 de junio de 2000, luego de la volcadura del camión, 11 personas sobrevivientes fueron detenidas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 55 (l. 1289)",
+     "cita_original": "agentes militares del cuartel amenazaron con obligarlos a trabajar en el campo o bien darles dinero a dichos agentes a cambio de que éstos los llevaran a la frontera con Haití",
+     "traduccion": "Cuartel militar de Dajabón, tarde del 18-VI-2000.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 55 (l. 1294)",
+     "cita_original": "no fueron informadas de haber hecho algo prohibido o ilegal, no les permitieron contactar a un abogado, o a la embajada haitiana ni a ninguna otra persona",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 61 (l. 1431)",
+     "cita_original": "se encontraron culpables de homicidio a Santiago Florentino Castilla y Bernardo de Aza Núñez y se les condenó a cinco años de prisión",
+     "traduccion": "Consejo de Guerra de Primera Instancia, 5-III-2004.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 61 (l. 1436)",
+     "cita_original": "Johannes Paul Franco Camacho fue encontrado “no culpable de los hechos” y se descargó “de toda responsabilidad penal”",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 62 (l. 1444)",
+     "cita_original": "ordenó el descargo de los acusados con base en “los artículos 321 y 327 del Código Penal Dominicano”",
+     "traduccion": "Consejo de Guerra de Apelación, 27-V-2005: anula la condena de Castilla y de Aza Núñez.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 64 (l. 1491)",
+     "cita_original": "rechaz[ó] la demanda de designación de juez” en virtud de que la justicia militar había conocido el trámite primeramente",
+     "traduccion": "Suprema Corte de Justicia, 3-I-2005: confirma la competencia de la jurisdicción militar.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 86 (l. 1814)",
+     "cita_original": "quedó acreditado que, si bien el camión no atendió la señal de la autoridad, lo cual generó una persecución temeraria, en ningún momento existió alguna agresión o ataque de parte de las personas que se encontraban en el camión",
+     "traduccion": "La Corte sigue (mismo párr.): los agentes «accionaron, de manera indiscriminada, armas de alto calibre».",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 178 (l. 3234)",
+     "cita_original": "el Estado trató a los migrantes como un grupo, sin individualizarlos o darles un trato diferenciado como ser humano y tomando en consideración sus eventuales necesidades de protección. Lo anterior representó una expulsión colectiva, en contravención del artículo 22.9 de la Convención Americana",
+     "traduccion": "Nueve migrantes afectados (lista en el párr.).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 238 (l. 4143)",
+     "cita_original": "existió una discriminación de facto en perjuicio de las víctimas del caso por su condición de migrantes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 39 (l. 835)",
+     "cita_original": "Según distintas estimaciones, en República Dominicana viven entre 900.000 y 1,2 millones de haitianos y dominicanos de ascendencia haitiana",
+     "traduccion": "Rango de estimaciones; la nota cita el Informe Nacional del Estado dominicano al EPU (A/HRC/WG.6/6/DOM/1, 2009): base estatal, no censo.",
+     "afirmaciones": [
+      "A-210",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "párr. 40 (l. 849)",
+     "cita_original": "para la resolución del presente caso no es necesario hacer un pronunciamiento sobre el alegado contexto de discriminación estructural",
+     "traduccion": "La Corte declina decidir sobre la discriminación estructural alegada por la CIDH y los representantes.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-206"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-1149",
+   "notas": "Se añade M15 a los módulos de F-1149 (hoy solo M16): los hechos son de junio de 2000. El enunciado A-210 habla de «el caso que la Corte IDH falló en 2014» a propósito de las expulsiones de 1999-2000; esta sentencia (2012) trata un hecho distinto (la prensa haitiana lo llama «masacre de Guayubín», M15-N68); el caso de 2014 es F-0523 (Personas dominicanas y haitianas expulsadas), ya leído. El nombre «Guayubín» solo aparece en la sentencia dentro de un testimonio citado (l. 2065). Cifras de la Corte (hechos probados, no estimaciones): 7 muertos acreditados (6 haitianos, 1 dominicano), 10 heridos acreditados de 13 que el Estado reconocía, 11 detenidos (7 identificados), 9 migrantes en la expulsión colectiva del párr. 178; los muertos de la persecución lo fueron por impactos de bala (párr. 48); los cuatro militares fueron acusados de homicidio voluntario (párr. 58); en 2004 el Consejo de Guerra condenó a dos a 5 años, a uno a 30 días de suspensión de funciones y absolvió al cuarto (párr. 61), y en apelación (2005) los dos condenados a 5 años fueron descargados (párr. 62). Términos: la Corte dice «expulsión colectiva» y «migrantes haitianos»; los autos del proceso militar hablan de «tráfico de personas» (párr. 57) y de haitianos «de contrabando» (párr. 60, circunstancia atenuante alegada por el fiscal militar). La grafía «Casilla/Castilla» varía en la propia sentencia. [POR VERIFICAR: el resolutivo 2 incluye a Alphonse Oremis y Honorio Winique, de quienes la Corte dice no tener información sobre su detención o expulsión (nota 92)]."
+  },
+  {
+   "titulo": "Reconstructing Racial Identity and the African Past in the Dominican Republic (University Press of Florida, 2009, 176 pp.): ficha editorial en Project MUSE y en Mixed Race Studies",
+   "autor": "Simmons, Kimberly Eison",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/book/17842",
+   "urls_alternativas": [
+    "https://mixedracestudies.org/wp/?p=12873"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía de editorial universitaria, pero solo se leyeron la ficha editorial (con índice) y una reseña crítica; no el cuerpo del libro.",
+   "proveniencia": "Kimberly Eison Simmons, antropóloga (Univ. of South Carolina según la ficha), University Press of Florida, 2009. Parte de trabajo con estudiantes de un programa de intercambio en Santiago (2000-2004, según su artículo de 2008) y de observación en la Junta Central Electoral (según la reseña de San Miguel). Escrita desde la antropología estadounidense de la diáspora africana, con una tesis de «cambio sísmico» en la identidad racial dominicana. No se leyó nada del cuerpo del libro.",
+   "extractos": [
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "Kimberly Simmons explores the fascinating socio-cultural shifts in Dominicans’ racial categories, concluding that Dominicans are slowly embracing blackness and ideas of African ancestry.",
+     "traduccion": "Kimberly Simmons explora los cambios socioculturales en las categorías raciales dominicanas y concluye que los dominicanos van asumiendo poco a poco la negritud y la ascendencia africana.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "Simmons also examines the movement of individuals between the Dominican Republic and the United States, where traditional notions of indio are challenged, debated, and called into question.",
+     "traduccion": "Simmons examina además el movimiento de personas entre RD y EE. UU., donde las nociones tradicionales de «indio» se desafían, se debaten y se cuestionan.",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "índice, cap. 2, pp. 34-60",
+     "cita_original": "Indio: A Question of Color",
+     "traduccion": "«Indio»: una cuestión de color.",
+     "afirmaciones": [
+      "A-207",
+      "A-208"
+     ]
+    },
+    {
+     "ubicacion": "índice, cap. 3, pp. 61-89",
+     "cita_original": "The Dominican Diaspora: Blackening and Whitening and Mixture across Borders",
+     "traduccion": "La diáspora dominicana: ennegrecimiento, blanqueamiento y mezcla a través de las fronteras.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209",
+    "A-207",
+    "A-208"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0144",
+   "notas": "Acceso real: solo ficha editorial (MUSE: «Open Access: No»; índice con cap. 2 «Indio: A Question of Color») y la reseña de San Miguel (F-0609, entrada aparte). La ficha dice «slowly embracing» (gradual); el enunciado A-209 dice «cambio en curso»: coinciden en el rumbo, no en la cuantificación; no hay muestra ni cifras en lo leído. Sesgo conocido: academia estadounidense con orientación afirmativa (busca el rastro de la africanidad); el título de la reseña de San Miguel pregunta si se trata de «wishful thinking». Mixed Race Studies da la fecha 2009-07-05 para el libro."
+  },
+  {
+   "titulo": "Navigating the Racial Terrain: Blackness and Mixedness in the United States and the Dominican Republic (Transforming Anthropology 16(2), octubre de 2008, pp. 95-111; DOI 10.1111/j.1548-7466.2008.00019.x): resumen",
+   "autor": "Simmons, Kimberly Eison",
+   "anio": "2008",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://mixedracestudies.org/wp/?p=12870",
+   "urls_alternativas": [
+    "https://api.crossref.org/works/10.1111/j.1548-7466.2008.00019.x"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares (Crossref confirma la ficha), pero solo se leyó el resumen publicado por un blog bibliográfico; el texto (Wiley) devolvió bloqueo 403.",
+   "proveniencia": "Artículo de Simmons en Transforming Anthropology (revista de la Association of Black Anthropologists), octubre de 2008. Es la base empírica previa del libro de 2009: experiencias de estudiantes del programa CIEE en Santiago (RD) entre 2000 y 2004 y de dominicanos en EE. UU. No es una encuesta ni una muestra representativa.",
+   "extractos": [
+    {
+     "ubicacion": "resumen (Mixed Race Studies, 25-III-2011)",
+     "cita_original": "I draw on the experiences of students who participated in the Council on International Educational Exchange (CIEE) Program in Spanish Language and Caribbean Studies, in Santiago, Dominican Republic, from 2000 to 2004",
+     "traduccion": "Me baso en la experiencia de estudiantes del programa de español y estudios caribeños del CIEE en Santiago (RD) entre 2000 y 2004.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "resumen",
+     "cita_original": "I suggest that growing interactions between African Americans and Afro-Dominicans, and a growing understanding of race and the racial systems in both the United States and the Dominican Republic, contribute to how identities are being reconstructed.",
+     "traduccion": "Sugiero que la creciente interacción entre afroamericanos y afrodominicanos, y una comprensión creciente de los sistemas raciales de ambos países, contribuyen a cómo se reconstruyen las identidades.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Solo resumen; el tamaño de la muestra (n de estudiantes) no consta en él. Lo que sostiene es que la identidad se «reconstruye» por contacto entre afroamericanos y dominicanos, no que la población dominicana en conjunto se haya reidentificado como negra. Crossref (consultado) registra 60 referencias; Wiley devolvió HTTP 403."
+  },
+  {
+   "titulo": "Unmastering the Script: Education, Critical Race Theory, and the Struggle to Reconcile the Haitian Other in Dominican Identity (University of Alabama Press, 2019): ficha editorial en Project MUSE",
+   "autor": "Wigginton, Sheridan; Middleton, Richard T., IV",
+   "anio": "2019",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/book/123795",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía de editorial universitaria (128 pp.); se leyeron la ficha editorial con índice y una reseña completa en acceso abierto (Channell 2021), no el cuerpo del libro.",
+   "proveniencia": "Sheridan Wigginton y Richard T. Middleton IV (del campo de la educación; afiliaciones [POR VERIFICAR]), University of Alabama Press, 2019. Corpus: libros de texto de ciencias sociales y biografías para escolares dominicanos (las biografías del cap. 3 son de 2006, según la reseña; el cap. 4 compara textos separados por una década). Marco: teoría crítica de la raza aplicada a un país no anglosajón, con el concepto de «Haitian Other master script». Mide materiales escolares, no actitudes ni autoidentificación de la población.",
+   "extractos": [
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "reflect an increasing shift toward a clear and public inclusion of blackness in Dominican identity that serves to renegotiate the country’s long-standing antiblack racial master script",
+     "traduccion": "(los textos) reflejan un giro creciente hacia la inclusión clara y pública de la negritud en la identidad dominicana, que renegocia el viejo guion racial antinegro del país.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "The authors argue that although many of the attempts at this inclusion reflect a lessening of “black denial,” when considered as a whole, the materials often struggle to find a consistent and coherent narrative for the place of blackness within Dominican identity",
+     "traduccion": "Los autores sostienen que, aunque muchos intentos de inclusión reflejan menos «negación de lo negro», en conjunto los materiales no logran una narrativa coherente sobre el lugar de la negritud en la identidad dominicana.",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "supporting the uneven, slow, and highly context-specific nature of the process",
+     "traduccion": "(el análisis apoya) el carácter desigual, lento y muy dependiente del contexto del proceso.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209",
+    "A-207",
+    "A-202"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0155",
+   "notas": "El índice de MUSE (consultado) da cap. 3 «The Masters of the Script: Balaguer, Peña Gómez, and the Anti-Haitian Nation» (pp. 52-64; el título completo figura con comillas en la ficha) y cap. 4 «Dominican National Identity: Social Science Textbooks and the Boundaries of Blackness» (pp. 65-81): el cap. 3 es relevante para A-202, pero solo a través de biografías escolares de 2006. A-209 («los dominicanos adoptan de forma gradual una identidad negra») excede lo que la obra mide: libros de texto, no población; y el propio resumen habla de un proceso «desigual, lento» y sin narrativa coherente. La reseña de Channell (entrada aparte) añade que, según los autores, el mensaje de fondo (identidad basada en rasgos europeos) cambió poco entre textos separados por una década. Cambridge registra otra reseña (Lucero, The Americas 2020), solo ficha."
+  },
+  {
+   "titulo": "Reseña de Wigginton y Middleton, Unmastering the Script (PALARA: Publication of the Afro-Latin/American Research Association, n.º 25, otoño de 2021, pp. 28-29; DOI 10.32855/2639-1295.1083)",
+   "autor": "Channell, Alexandra (Texas Christian University)",
+   "anio": "2021",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://mavmatrix.uta.edu/palara/vol25/iss1/10",
+   "urls_alternativas": [
+    "https://mavmatrix.uta.edu/cgi/viewcontent.cgi?article=1083&context=palara"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña académica en revista de acceso abierto, de una lectora ajena a los autores, que resume capítulo por capítulo y señala límites metodológicos; no es un análisis independiente de los textos escolares.",
+   "proveniencia": "Reseña escrita en 2021 desde una universidad de EE. UU. para PALARA (revista de la asociación afro-latino-americana). Se leyó completa con el navegador del panel (curl devolvía 403 al PDF alojado en MavMatrix, el repositorio de la Univ. of Texas at Arlington; la misma URL abre en el navegador). Fecha de la ficha: 1-XII-2021.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 28-29, resumen del cap. 3",
+     "cita_original": "The biography of politician José Francisco Peña Gómez exemplifies how textbooks often portray Haitians as a threat to Dominicans",
+     "traduccion": "La biografía de Peña Gómez ejemplifica cómo los libros de texto suelen presentar a los haitianos como una amenaza para los dominicanos.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "p. 28, resumen del cap. 3",
+     "cita_original": "examines biographies of politicians published in 2006",
+     "traduccion": "(el cap. 3) examina biografías de políticos publicadas en 2006.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "p. 29, resumen del cap. 4",
+     "cita_original": "While the authors noted that the more recent textbook illustrations portrayed fewer negative depictions of darker-skinned people, they also suggested that the underlying messaging of identifying and constructing Dominican identity based on European traits remained largely unchanged.",
+     "traduccion": "Aunque los autores notaron menos imágenes negativas de personas de piel oscura en los textos más recientes, sugirieron que el mensaje de fondo (construir la identidad dominicana sobre rasgos europeos) seguía en gran parte igual.",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "p. 29, resumen del cap. 5",
+     "cita_original": "textbook content following the plan's institution continued to perpetuate mindsets and processes aligned with Eurocentricity and the erasure and rejection of African ancestry",
+     "traduccion": "Los contenidos posteriores al plan decenal siguieron perpetuando mentalidades alineadas con el eurocentrismo y el borrado y rechazo de la ascendencia africana.",
+     "afirmaciones": [
+      "A-209",
+      "A-207"
+     ]
+    },
+    {
+     "ubicacion": "p. 29, crítica de la reseñadora",
+     "cita_original": "Another helpful inclusion could be more information surrounding the selection criteria (rationales for inclusions and exclusions) of the social science textbooks selected for this book, and the methods used in this research.",
+     "traduccion": "Otra inclusión útil sería más información sobre los criterios de selección de los libros de texto y sobre los métodos de la investigación.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209",
+    "A-207",
+    "A-202"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Aporta la contrapartida de A-209: lo medido en los textos escolares es un cambio parcial (menos estereotipos gráficos) con continuidad del mensaje europeizante; los libros de 2006 siguen presentando a Peña Gómez como amenaza. La reseñadora pide criterios de selección del corpus: sin ellos no se puede generalizar. Los datos del libro (año 2006 de las biografías) son de segunda mano [no se leyó la obra]."
+  },
+  {
+   "titulo": "Reseña de Wigginton y Middleton, Unmastering the Script (listada en la ficha como «Unmasking the Script»), The Americas 77(4), octubre de 2020, pp. 663-665; DOI 10.1017/tam.2020.92",
+   "autor": "Lucero, Bonnie A. (University of Houston-Downtown)",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://resolve.cambridge.org/core/journals/americas/article/dominican-identity-unmasking-the-script-education-critical-race-theory-and-the-struggle-to-reconcile-the-haitian-other-in-dominican-identity-by-sheridan-wigginton-and-richard-t-middleton-iv-tuscaloosa-university-of-alabama-press-2019-pp-128-6495-cloth/7971E11EE0E3FA20D0CA173C35C71B44",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña arbitrada en una revista de historia latinoamericana de primer nivel, pero el texto está tras muro de pago: solo se confirmó la ficha (Cambridge: «abstract not available»).",
+   "proveniencia": "Reseña publicada en línea el 21-X-2020 en The Americas (Academy of American Franciscan History, Cambridge UP). Solo ficha bibliográfica.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-209"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Sin extracto: solo se confirmó que existe y su paginación. La ficha de Cambridge titula la obra «Unmasking the Script» (error de la ficha respecto al título de MUSE y de la editorial). Es la segunda reseña académica localizada del libro (la otra es Channell 2021, leída)."
+  },
+  {
+   "titulo": "Reseña de Kimberly Eison Simmons, Reconstructing Racial Identity and the African Past in the Dominican Republic: «¿Cambio identitario en República Dominicana o ‘Wishful Thinking’?» (A Contracorriente 7(3), primavera de 2010, pp. 427-436)",
+   "autor": "San Miguel, Pedro L. (Universidad de Puerto Rico, Río Piedras)",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://acontracorriente.chass.ncsu.edu/index.php/acontracorriente/article/download/546/857/1811",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de un historiador del Caribe en revista arbitrada de acceso abierto; da cuenta directa de la tesis y del método de Simmons, pero es una lectura crítica y deliberadamente escéptica.",
+   "proveniencia": "Pedro L. San Miguel, historiador puertorriqueño, 2010, en A Contracorriente (North Carolina State University). Declara haber estado en RD durante la campaña de 1996 («puedo dar fe de la vileza que ella alcanzó»). Su escepticismo ante «el cambio sísmico» es explícito desde el título.",
+   "extractos": [
+    {
+     "ubicacion": "p. 428",
+     "cita_original": "ha ocurrido una mutación radical en la forma en que los dominicanos perciben y construyen sus identidades étnico-raciales",
+     "traduccion": "Resumen de San Miguel de la tesis de partida de Simmons.",
+     "afirmaciones": [
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "pp. 431-432",
+     "cita_original": "los empleados de la JCE seguían recurriendo a las clasificaciones tradicionales, basadas en el empleo de términos como “indio claro” o “indio oscuro”",
+     "traduccion": "Sobre la observación de Simmons en la Junta Central Electoral: San Miguel dice que contradice su tesis y que la única funcionaria que usaba otro sistema era la que Simmons había escogido y a quien explicó su propósito.",
+     "afirmaciones": [
+      "A-207",
+      "A-208",
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "p. 432",
+     "cita_original": "una discusión sistemática de las elecciones de 1996, cuando se desató una repugnante campaña racista en contra de uno de los candidatos a la presidencia de República Dominicana, José Francisco Peña Gómez, debido a que era negro y de ascendencia haitiana",
+     "traduccion": "San Miguel lamenta que el libro de Simmons no discuta esa campaña.",
+     "afirmaciones": [
+      "A-202",
+      "A-209"
+     ]
+    },
+    {
+     "ubicacion": "p. 432, nota 3",
+     "cita_original": "Ernesto Sagás, Race and Politics in the Dominican Republic (Gainesville: University Press of Florida, 2000), 105-116",
+     "traduccion": "Remisión de San Miguel a las pp. 105-116 de Sagás 2000 para la campaña de 1996.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-209",
+    "A-207",
+    "A-208",
+    "A-202"
+   ],
+   "modulos": [
+    "M15",
+    "M16",
+    "M13"
+   ],
+   "id_existente": "F-0609",
+   "notas": "Se registra de nuevo porque es la única vía de acceso al contenido del libro de Simmons (F-0144). Útil además como puntero: Sagás 2000, pp. 105-116, trata la campaña de 1996 contra Peña Gómez (F-0083, solo ficha; el libro es de acceso institucional en Fulcrum). San Miguel testimonia presencialmente el carácter racista de la campaña de 1996 (testimonio de un observador, no documento de la campaña). «Indio claro/oscuro» va entre comillas en el original."
+  },
+  {
+   "titulo": "Race and Politics in the Dominican Republic (University Press of Florida, 2000): ficha editorial en Fulcrum",
+   "autor": "Sagás, Ernesto",
+   "anio": "2000",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.fulcrum.org/concern/monographs/2801pj71g",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de editorial universitaria, la primera dedicada al antihaitianismo; pero el cuerpo no se pudo leer (acceso institucional) y solo consta la ficha.",
+   "proveniencia": "Ernesto Sagás (Rutgers University en el momento de la edición), University Press of Florida, 2000. Estudia el antihaitianismo desde la colonia hasta su uso político reciente (discurso, caricaturas, anuncios de campaña, libros de texto). La ficha de Fulcrum se leyó con el navegador del panel (curl devolvía 403) y declara «You don't have access to this book».",
+   "extractos": [
+    {
+     "ubicacion": "ficha editorial (resumen)",
+     "cita_original": "Finally, he examines how race and nationalist anti-Haitian feelings still are manipulated by conservative politicians and elites who seek to maintain the status quo, drawing on examples from recent political rhetoric and cartoons, campaign advertisements, and public school history textbooks.",
+     "traduccion": "Examina cómo políticos y élites conservadores siguen manipulando la raza y el sentimiento antihaitiano para mantener el statu quo, con ejemplos de retórica política reciente, caricaturas, anuncios de campaña y libros de texto.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-202"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "F-0083",
+   "notas": "Sin acceso al texto. El puntero es de San Miguel 2010 (F-0609): Sagás 2000, pp. 105-116, para la campaña de 1996. La cita de la ficha se tomó de la salida del navegador y no se cotejó en un archivo local. La frase «plan de fusión» sigue sin texto primario."
+  },
+  {
+   "titulo": "República Dominicana: nuevos bloques y pactos (Nueva Sociedad n.º 147, enero-febrero de 1997, pp. 12-17)",
+   "autor": "Silié, Rubén (sociólogo, director de FLACSO-República Dominicana)",
+   "anio": "1997",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://globethics.dspace7-test.openrepository.com/bitstreams/e84a9034-9757-4fc0-9afc-0f315bff14af/download",
+   "urls_alternativas": [
+    "https://nuso.org/articulo/republica-dominicana-nuevos-bloques-y-pactos/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Análisis coetáneo de un sociólogo dominicano de FLACSO en una revista latinoamericana de ciencias sociales (Nueva Sociedad, de la Fundación Friedrich Ebert), escrito meses después de la campaña, con posición propia sobre su carácter racista y sin citar documentos de campaña.",
+   "proveniencia": "Rubén Silié, sociólogo e historiador dominicano (FLACSO), escribe para la sección «Coyuntura» de Nueva Sociedad (Caracas, FES) sobre las elecciones de mayo y junio de 1996, la alianza Balaguer-Bosch y el Frente Patriótico. Texto completo leído en el PDF del repositorio de Globethics (instancia de pruebas); la página de nuso.org reproduce solo el primer párrafo (consultada). Posición: favorable al bloque democrático de centroizquierda; llama «fraude» al resultado de 1994.",
+   "extractos": [
+    {
+     "ubicacion": "l. 71 del txt del PDF de Globethics",
+     "cita_original": "donde el PLD se sumó a las consignas racistas y xenófobas, tradicionalmente empleadas por Balaguer en contra de Peña Gómez",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "l. 174 del txt",
+     "cita_original": "hijo de haitiano, vinculado al narcotráfico",
+     "traduccion": "Parte de la imagen que se construyó de Peña Gómez en la campaña, según Silié (junto a «inestable, orador incendiario»).",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "l. 183 del txt",
+     "cita_original": "orientando la campaña hacia la disyuntiva entre elegir a un haitiano o a un dominicano",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "l. 268 del txt",
+     "cita_original": "sólo por la satisfacción de poder seguir siendo dominicano en tierra dominicana",
+     "traduccion": "Lema atribuido a Balaguer para justificar el Frente Patriótico.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-202"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Confirma, desde un análisis de 1997, la naturaleza racista y xenófoba de la campaña de 1996 y el eje «un haitiano o un dominicano»; NO contiene la expresión «plan de fusión» (grep 'fusi' sin resultados): la acusación de fusión sigue sin texto primario de la época. Las comillas de los extractos son del autor o de su cita de Balaguer. La localización se da por línea del txt derivado del PDF (el artículo ocupa pp. 12-17 de la revista, sin que el PDF permita fijar la página de cada pasaje)."
+  },
+  {
+   "titulo": "1996 Human Rights Report: Dominican Republic (Country Reports on Human Rights Practices for 1996, Departamento de Estado, enero de 1997)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "1997",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "http://web.archive.org/web/20090807063642/http://www.state.gov/www/global/human_rights/1996_hrp_report/domrepub.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Serie oficial anual y continua con redacción de la embajada en Santo Domingo; da cifras sin base declarada («thousands») y no cita sus fuentes más que por tipo («groups»), pero es contemporánea y sin interés en la política interna dominicana.",
+   "proveniencia": "Informe anual del Departamento de Estado al Congreso (Foreign Assistance Act, secs. 116(d) y 502B(b)), sobre 1996. Redactado por la embajada de EE. UU. en Santo Domingo con ONG locales, ACNUR y prensa. Copia de la Wayback Machine (captura del 7-VIII-2009) del sitio archivado de 1997-2001; el sitio vivo (state.gov) devuelve «Technical Difficulties». EE. UU. tenía interés propio en la elección dominicana y en el flujo migratorio; sin acceso a archivos militares dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d, Freedom of Movement... and Repatriation (l. 243 del txt)",
+     "cita_original": "Thousands were expelled immediately prior to the May 16 presidential election, but there was no noticeable upsurge in expulsions prior to the June 30 runoff election or since.",
+     "traduccion": "Miles fueron expulsados inmediatamente antes de la elección presidencial del 16 de mayo, pero no hubo aumento notable antes de la segunda vuelta del 30 de junio ni después.",
+     "afirmaciones": [
+      "A-202",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 249)",
+     "cita_original": "Haitian deportees were humiliated by having their heads shaved and painted and being left without their belongings far from where they live in the country.",
+     "traduccion": "El informe atribuye esta información a ONG internacionales y dominicanas y a ACNUR, para los primeros meses de 1996.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5, National/Racial/Ethnic Minorities (l. 368)",
+     "cita_original": "Dominicans are strongly prejudiced against Haitians, many of whom are illegal immigrants and constitute a significant percentage of the unskilled manual labor force.",
+     "traduccion": "Los dominicanos tienen un fuerte prejuicio contra los haitianos, muchos de ellos inmigrantes ilegales y parte considerable de la mano de obra manual no cualificada.",
+     "afirmaciones": [
+      "A-206",
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5 (l. 374)",
+     "cita_original": "Credible sources charge that the Government at times refuses to recognize individuals of Haitian ancestry born in the country as Dominican citizens.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-203",
+      "A-204"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-202",
+    "A-210",
+    "A-206",
+    "A-203",
+    "A-204"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: expulsiones en miles justo antes de la primera vuelta del 16-V-1996, sin cifra ni base (D según el método para la cifra; el hecho de que hubo expulsiones sí consta en varias fuentes). Interpretación posible (no del informe): coincidencia con la campaña de 1996; el informe no establece causa. Da la secuencia temporal: expulsiones en miles antes del 16-V y sin aumento notable antes de la segunda vuelta del 30-VI. No contiene «plan de fusión»."
+  },
+  {
+   "titulo": "1998 Human Rights Report: Dominican Republic (Country Reports on Human Rights Practices for 1998, Departamento de Estado, febrero de 1999)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "1999",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "http://web.archive.org/web/20090807072558/http://www.state.gov/www/global/human_rights/1998_hrp_report/domrepub.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Serie oficial anual; la cifra de deportados la atribuye a «observadores internacionales» sin nombrarlos.",
+   "proveniencia": "Informe anual del Departamento de Estado sobre 1998 (Wayback, captura del 7-VIII-2009 del sitio archivado de 1997-2001). Misma cadena de redacción que la de 1996.",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d (l. 80 del txt)",
+     "cita_original": "International observers estimated that the Government deported approximately 10,000 Haitians between January and September.",
+     "traduccion": "Observadores internacionales estimaron que el Gobierno deportó a unos 10.000 haitianos entre enero y septiembre (de 1998).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 81)",
+     "cita_original": "NGO representatives working in rural areas reported that decisions to deport often were made by lower ranking members of the security forces, sometimes based upon the racial characteristics of the deportees.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "CUIDADO con la cifra de 10.000: el informe de 1998 la da para todo el país entre enero y septiembre de 1998 («observadores internacionales», sin base); el informe de 1999 repite «aproximadamente 10.000» pero solo para la provincia de Barahona. Quien cite «10.000 deportados en 1999» está mezclando los dos informes. Base de la estimación: no declarada (D)."
+  },
+  {
+   "titulo": "Country Reports on Human Rights Practices for 1999, vol. I (Joint Committee Print, 106.º Congreso): sección «Dominican Republic»",
+   "autor": "U.S. Department of State, para los comités de Relaciones Internacionales de la Cámara y de Relaciones Exteriores del Senado",
+   "anio": "2000",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.govinfo.gov/content/pkg/CPRT-106JPRT63935/html/CPRT-106JPRT63935-VolumeI.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto oficial impreso por el Congreso (govinfo), con descripciones detalladas del procedimiento de las redadas atribuidas al director de Migración; las cifras se dan sin base (observadores internacionales, ONG).",
+   "proveniencia": "Informe del Departamento de Estado sobre 1999, publicado en 2000 (106.º Congreso, 2.ª sesión) como Joint Committee Print (CPRT-106JPRT63935, vol. I; el HTML pesa unos 7 MB y la sección «DOMINICAN REPUBLIC» empieza en la l. 59370 del txt derivado). Redactado por la embajada con ONG y funcionarios dominicanos (el director de Migración).",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d (l. 60026 del txt derivado)",
+     "cita_original": "International observers estimated that the Government deported approximately 10,000 Haitians from the southwestern province of Barahona alone.",
+     "traduccion": "Observadores internacionales estimaron que el Gobierno deportó a unos 10.000 haitianos solo de la provincia de Barahona.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 60028)",
+     "cita_original": "In many cases, the Government denied those deported the opportunity to demonstrate that they resided legally in the Dominican Republic or to make arrangements for their families or property.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 60033)",
+     "cita_original": "At year's end, there was no accurate count of the number of persons affected by this practice.",
+     "traduccion": "Al cierre del año no había un recuento exacto de las personas afectadas.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 60037)",
+     "cita_original": "According to the Director of Migration, hundreds of Dominican cedulas (identification cards) were confiscated from individuals during the month of November, before those persons were escorted to the Haitian side of the common frontier.",
+     "traduccion": "Según el director de Migración, cientos de cédulas dominicanas fueron confiscadas en noviembre antes de llevar a esas personas al lado haitiano.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 60049)",
+     "cita_original": "They approach persons who look to them like Haitians, usually persons who have very dark complexions and fairly poor clothing.",
+     "traduccion": "Descripción atribuida al director de Migración del método de las redadas (el informe sigue con la prueba de idioma y acento).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 60094)",
+     "cita_original": "In December the Government signed agreements with Haiti stipulating that it would not repatriate persons at night, on weekends, or on holidays",
+     "traduccion": "Los acuerdos de diciembre de 1999 (protocolo Préval-Fernández).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5, Minorities (l. 60360)",
+     "cita_original": "the authorities picked up and expelled darker Dominicans and legal Haitian residents, including some properly documented university students",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210",
+      "A-204"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-204"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve parcialmente A-210 para 1999: expulsiones masivas, aceleradas en el segundo semestre y sobre todo en noviembre, con cédulas confiscadas, redadas por fenotipo y acento, y un acuerdo bilateral en diciembre. NO da cifra nacional de 1999: el «aproximadamente 10.000» es solo de Barahona (y el de 1998, nacional, es de la otra entrada). Menciona también un informe de octubre de la CIDH (el de 1999, F-1096). Hay, además, la cifra «perhaps 500,000 Haitian immigrants--or 7 percent» en bateyes (l. 60363), sin base declarada."
+  },
+  {
+   "titulo": "2004 Country Reports on Human Rights Practices: Dominican Republic (Departamento de Estado, 28 de febrero de 2005)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2005",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "http://web.archive.org/web/20090118071228/http://www.state.gov/g/drl/rls/hrrpt/2004/41758.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Serie oficial anual; las fuentes se citan por tipo (Comisión Nacional de Derechos Humanos dominicana, ONG).",
+   "proveniencia": "Informe del Departamento de Estado sobre 2004 (Wayback, captura del 18-I-2009; el sitio vivo de state.gov devuelve «Technical Difficulties»). Cubre el año de la crisis de Aristide, la campaña electoral de mayo y el cambio de gobierno (Mejía a Fernández, agosto de 2004).",
+   "extractos": [
+    {
+     "ubicacion": "sec. 1.c (l. 56 del txt)",
+     "cita_original": "military and police officials reportedly beat, tortured, and randomly deported Haitians living in the border towns of Pedernales and Elias Pina",
+     "traduccion": "Atribuido a la Comisión Nacional de Derechos Humanos (dominicana) al comienzo de la frase.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 116)",
+     "cita_original": "In some cases, the Government denied expellees the opportunity to demonstrate that they were legal residents or to make arrangements for their families or property.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Útil para la continuidad de la práctica de 1996-2005 (mismas formulaciones que 1999). No da cifra anual de expulsiones de 2004; la Memoria de la Cancillería de 2004 da 3.817 (otra entrada)."
+  },
+  {
+   "titulo": "2005 Country Reports on Human Rights Practices: Dominican Republic (Departamento de Estado, marzo de 2006)",
+   "autor": "U.S. Department of State, Bureau of Democracy, Human Rights, and Labor",
+   "anio": "2006",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "http://web.archive.org/web/20101128162258/http://www.state.gov/g/drl/rls/hrrpt/2005/61725.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Serie oficial anual; recoge declaraciones de funcionarios dominicanos y cita una nota de prensa de la cancillería, pero sin base para las cifras.",
+   "proveniencia": "Informe del Departamento de Estado sobre 2005 (Wayback, captura del 28-XI-2010; id 61725). Cubre la sentencia Yean y Bosico, la decisión de la Suprema Corte de diciembre sobre «en tránsito» y la suspensión de las «repatriaciones masivas».",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d (l. 587 del txt)",
+     "cita_original": "Government officials stated that President Fernandez ordered the suspension of \"mass repatriations\" in June.",
+     "traduccion": "Funcionarios dijeron que el presidente Fernández ordenó la suspensión de las «repatriaciones masivas» en junio (de 2005).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 587)",
+     "cita_original": "Migration officials and security forces sometimes destroyed and confiscated expellees' residency documents.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 588)",
+     "cita_original": "In December the Supreme Court ruled that \"in transit\" status applied to children of illegal migrants.",
+     "traduccion": "Diciembre de 2005: la Suprema Corte aplica la excepción «en tránsito» a hijos de migrantes ilegales.",
+     "afirmaciones": [
+      "A-203",
+      "A-204"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5 (l. 668)",
+     "cita_original": "On October 8, the Inter-American Court of Human Rights found against the government in a case brought on behalf of two Dominican girls of Haitian ancestry to whom government registrars had refused to provide birth certificates.",
+     "traduccion": "El informe dice 8 de octubre; la sentencia de Yean y Bosico es del 8 de septiembre de 2005.",
+     "afirmaciones": [
+      "A-204"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5 (l. 668)",
+     "cita_original": "A December 12 press release quoted the foreign minister as saying that even though the verdict against the country was unjust, the country would pay as instructed by the court.",
+     "traduccion": "Nota de prensa del 12-XII-2005: la cancillería dice que el fallo es injusto pero que el país pagará.",
+     "afirmaciones": [
+      "A-204"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-203",
+    "A-204"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Dos usos. (1) A-204: el informe estadounidense recoge la reacción oficial dominicana (fallo «injusto», se pagará) y la decisión de la Suprema Corte de diciembre de 2005, que contradice el sentido de la sentencia interamericana; la fecha «8 de octubre» del informe es errónea frente a 8-IX-2005 (A-204) [discrepancia a señalar, no a corregir en la fuente]. (2) A-210: suspensión de las «repatriaciones masivas» en junio de 2005 por orden presidencial (según funcionarios; base: declaración oficial, sin decreto citado)."
+  },
+  {
+   "titulo": "Secretary-General's press encounter following Security Council adoption of resolution on Haiti (Nueva York, 19 de enero de 2010)",
+   "autor": "Naciones Unidas, Secretario General (Ban Ki-moon)",
+   "anio": "2010",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.un.org/sg/en/content/former-secretary-general/press-events/2010-01-19/secretary-generals-press-encounter-following-security-council-adoption-of-resolution-haiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción oficial de la ONU de una declaración pública del Secretario General, con la pregunta del periodista que la provoca; habla de una apreciación, no de una medición.",
+   "proveniencia": "Declaración y preguntas de la prensa de Ban Ki-moon, Nueva York, 19-I-2010, tras la adopción de la resolución 1908 del Consejo de Seguridad, una semana después del terremoto. Publicada por la oficina del Secretario General. curl y WebFetch recibían HTTP 202 sin cuerpo (desafío del WAF de CloudFront); se leyó con el navegador del panel (HTTP 200). Resuelve la ficha provisional M15-N110, que la ronda 1 dejó como fallo-fetch.",
+   "extractos": [
+    {
+     "ubicacion": "respuesta del SG a la 4.ª pregunta (periodista: «the Dominican Republic has offered a battalion»)",
+     "cita_original": "From the beginning of this crisis, the Dominican Republic Government has been providing very generously and swiftly all possible assistance to their neighbouring country, Haiti, and we are very much grateful to them.",
+     "traduccion": "Desde el comienzo de esta crisis el Gobierno de la República Dominicana ha estado prestando con mucha generosidad y rapidez toda la ayuda posible a su país vecino, Haití, y le estamos muy agradecidos.",
+     "afirmaciones": [
+      "A-205"
+     ]
+    },
+    {
+     "ubicacion": "misma respuesta",
+     "cita_original": "Ten thousand gallons of fuel, I think, arrived last night from the Dominican Republic.",
+     "traduccion": "Diez mil galones de combustible, creo, llegaron anoche desde la República Dominicana.",
+     "afirmaciones": [
+      "A-205"
+     ]
+    },
+    {
+     "ubicacion": "misma respuesta (sobre la inmigración)",
+     "cita_original": "I am also aware that the Dominican Republic Government is trying to accommodate as many as possible, those people within the existing rules and regulations of their country, but they have been very generous.",
+     "traduccion": "También sé que el Gobierno dominicano trata de acomodar al mayor número posible de esas personas dentro de las normas vigentes de su país, pero han sido muy generosos.",
+     "afirmaciones": [
+      "A-205",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "pregunta del periodista (contexto)",
+     "cita_original": "the Dominican Republic has offered a battalion –it has been said publicly –they've also said that they are very concerned about immigration and people crossing the border.",
+     "traduccion": "(Pregunta:) la República Dominicana ha ofrecido un batallón y también dice estar muy preocupada por la inmigración y por la gente que cruza la frontera.",
+     "afirmaciones": [
+      "A-205",
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205",
+    "A-206"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "CONFIRMA la frase de Ban Ki-moon de A-205, pero en inglés: «very generously and swiftly» (el enunciado la da en español como «generosidad y rapidez», traducción de EFE y de resúmenes de búsqueda). Es una respuesta a una pregunta de un periodista sobre el batallón y la inmigración, el 19-I-2010 en Nueva York, no una carta ni un comunicado de agradecimiento. NO dice «primer país» ni «1.500 cirugías»: eso sigue sin documento de la ONU. El texto cubre además el carácter condicionado de la apreciación (la inmigración «dentro de las normas vigentes»). Cuidado con la confusión con otros textos 2012-2026 de la ONU que agradecen a RD (véanse las entradas de 2012 y 2014)."
+  },
+  {
+   "titulo": "Readout of the Secretary-General's meeting with H.E. Mr. Danilo Medina Sánchez, President of the Dominican Republic (Nueva York, 24 de septiembre de 2012)",
+   "autor": "Naciones Unidas, Secretario General (Ban Ki-moon)",
+   "anio": "2012",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.un.org/sg/fr/node/184246",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Comunicado oficial de la oficina del Secretario General sobre una reunión; es una fórmula de cortesía protocolaria, no una evaluación de la ayuda.",
+   "proveniencia": "Comunicado de la oficina del Secretario General sobre su reunión con el presidente Medina en Nueva York (24-IX-2012), con la fecha dada por la página (versión francesa del sitio, texto en inglés).",
+   "extractos": [
+    {
+     "ubicacion": "párrafo único",
+     "cita_original": "The Secretary-General acknowledged the support of the Dominican Republic to Haiti in the aftermath of the 2010 earthquake and beyond.",
+     "traduccion": "El Secretario General reconoció el apoyo de la República Dominicana a Haití tras el terremoto de 2010 y después.",
+     "afirmaciones": [
+      "A-205"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Documento de la ONU, de 2012, que reconoce el apoyo dominicano «tras el terremoto de 2010 y después». No sustituye a la frase del 19-I-2010 (entrada aparte), pero confirma que la ONU mantuvo el reconocimiento. Sin contenido sobre «primer país» ni cirugías."
+  },
+  {
+   "titulo": "In Dominican Republic, Ban hails collective effort to bolster human rights, development, peace (UN News, 16 de julio de 2014)",
+   "autor": "Centro de Noticias de la ONU (UN News)",
+   "anio": "2014",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://news.un.org/en/node/473162",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica del servicio de noticias de la ONU sobre un discurso de Ban ante el Congreso dominicano, con una errata de fecha en la frase sobre el terremoto.",
+   "proveniencia": "Crónica de UN News (16-VII-2014) de la primera visita de Ban Ki-moon a la RD y de su discurso ante el Congreso. Redactada por el departamento de información de la ONU; resume, no transcribe.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 8 de la crónica",
+     "cita_original": "he thanked the Dominican Republic for major contributions to that country, particularly since the 2014 earthquake.",
+     "traduccion": "(Ban) agradeció a la República Dominicana sus grandes contribuciones a ese país [Haití], en particular desde «el terremoto de 2014» [sic: de 2010].",
+     "afirmaciones": [
+      "A-205"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "La crónica dice «2014 earthquake» (errata evidente: el terremoto fue en 2010). No es la fuente de la frase de 2010 (véase la transcripción del 19-I-2010). Se incluye porque es probable que resúmenes de búsqueda mezclen esta visita de 2014 con enero de 2010."
+  },
+  {
+   "titulo": "Activities of Secretary-General in Haiti, 14 March (SG/T/2716, 16 de marzo de 2010)",
+   "autor": "Naciones Unidas, Departamento de Información Pública",
+   "anio": "2010",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "http://web.archive.org/web/20251031194334/https://press.un.org/en/2010/sgt2716.doc.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Comunicado oficial de la ONU; texto leído en una captura de la Wayback Machine porque press.un.org devuelve «Client Challenge».",
+   "proveniencia": "Comunicado de prensa de la ONU (SG/T/2716, 16-III-2010) sobre la visita de Ban a Haití el 14-III-2010, con la mención de la Conferencia de Evaluación de Necesidades de Santo Domingo.",
+   "extractos": [
+    {
+     "ubicacion": "párr. de la reunión con Préval",
+     "cita_original": "They also discussed the 16-17 March Needs Assessment Conference in Santo Domingo, in the Dominican Republic",
+     "traduccion": "También hablaron de la Conferencia de Evaluación de Necesidades del 16 y 17 de marzo en Santo Domingo.",
+     "afirmaciones": [
+      "A-205"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Contexto: la RD fue sede (16-17-III-2010) de una conferencia de evaluación de necesidades de la reconstrucción de Haití, previa a la conferencia de donantes del 31-III en Nueva York. No dice nada sobre «primer país» ni sobre la ayuda en enero."
+  },
+  {
+   "titulo": "Préval diz que ajuda internacional ao Haiti deve ir além do terremoto (EFE, Santo Domingo, 18 de enero de 2010; Jornal de Brasília)",
+   "autor": "Agência EFE (publicado en el Jornal de Brasília)",
+   "anio": "2010",
+   "tipo": "divulgacion",
+   "idioma": "pt",
+   "tradicion": "internacional",
+   "url": "https://jornaldebrasilia.com.br/noticias/mundo/preval-diz-que-ajuda-internacional-ao-haiti-deve-ir-alem-do-terremoto/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de agencia con fecha (18-I-2010) que resume un discurso en acto público; no da cita directa del agradecimiento y está traducido al portugués.",
+   "proveniencia": "Despacho de EFE (agencia española) desde Santo Domingo sobre la apertura de la cumbre «Unidos por un futuro mejor para Haití» (Palacio Nacional, 18-I-2010), convocada por Leonel Fernández, con Préval presente; publicado en portugués por el Jornal de Brasília. No es fuente haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "O presidente haitiano agradeceu a rápida resposta da comunidade internacional e especialmente a Fernández, o primeiro presidente estrangeiro a visitar seu país para constatar a magnitude da tragédia.",
+     "traduccion": "El presidente haitiano agradeció la rápida respuesta de la comunidad internacional y especialmente a Fernández, el primer presidente extranjero en visitar su país para constatar la magnitud de la tragedia.",
+     "afirmaciones": [
+      "A-205"
+     ]
+    },
+    {
+     "ubicacion": "párr. 8",
+     "cita_original": "é imprescindível que superemos as diferenças do passado",
+     "traduccion": "«Es imprescindible que superemos las diferencias del pasado», dijo Préval, según EFE.",
+     "afirmaciones": [
+      "A-205",
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205",
+    "A-206"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Cubre el hueco «agradecimiento de Préval» de A-205 solo con una fuente de agencia (EFE), no con una fuente haitiana: el agradecimiento de Préval a Fernández por ser «el primer presidente extranjero» en visitar el país consta aquí en discurso indirecto. Sigue pendiente una fuente haitiana (Le Nouvelliste, Radio Kiskeya, AlterPresse, presidencia). No hay cita textual de Préval en francés o criollo."
+  },
+  {
+   "titulo": "The 1996 Presidential Election in the Dominican Republic (NDI y The Carter Center / Council of Freely Elected Heads of Government, 1998; ISBN 1-880134-27-6; en ACE Project como «Final Report, Observing the 1996 Dominican Republic Elections»)",
+   "autor": "National Democratic Institute for International Affairs (NDI); The Carter Center, Council of Freely Elected Heads of Government",
+   "anio": "1998",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://aceproject.org/ero-en/regions/americas/DO/dominican-republic-final-report-observing-the-1996/at_download/file",
+   "urls_alternativas": [
+    "https://aceproject.org/ero-en/regions/americas/DO/dominican-republic-final-report-observing-the-1996/view"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe final de una misión de observación con delegaciones presentes en la primera y la segunda vuelta; lo que describe de primera mano (declaraciones públicas y reacciones) es fiable, y lo que atribuye a terceros se presenta como alegación.",
+   "proveniencia": "Informe de las misiones preelectoral y de las dos rondas (16-V y 30-VI-1996) del NDI y del Centro Carter, con el expresidente Carter, financiadas por USAID (agradecimientos del informe) y publicadas en 1998. Escrito para la comunidad internacional de observación electoral, con interés en legitimar o no el proceso (aquí lo declara limpio, a diferencia de 1994). El PDF de ACE (12,4 MB, 63 hojas) es una fotocopia sin capa de texto, con dos páginas del libro por hoja y girada 90°; se leyó con OCR (rapidocr_onnxruntime) dividiendo cada hoja y se cotejó a simple vista la hoja 23 (págs. 28-29 del libro). Lo citado procede de las hojas 23, 26 y 27 (págs. 28-29 y 35-36).",
+   "extractos": [
+    {
+     "ubicacion": "capítulo «The May 16, 1996 First-round Election», pág. 29 del libro (hoja 23 del PDF)",
+     "cita_original": "At a campaign rally the week before the election, President Balaguer called on the country to vote against foreign intervention and foreign plans to unify Haiti and the Dominican Republic into one nation. The government also began massive efforts to repatriate illegal Haitians living in the Dominican Republic.",
+     "traduccion": "En un mitin de campaña, una semana antes de la elección (16-V-1996), el presidente Balaguer pidió votar contra la intervención extranjera y los planes extranjeros de unificar Haití y la República Dominicana en una sola nación. El Gobierno empezó también esfuerzos masivos para repatriar a haitianos ilegales.",
+     "afirmaciones": [
+      "A-202",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "pág. 29",
+     "cita_original": "Fernandez requested that the government halt repatriation activities in order to avoid misrepresenting the situation as a racial issue.",
+     "traduccion": "Leonel Fernández (candidato del PLD) pidió al Gobierno que detuviera las repatriaciones para no presentar la situación como un asunto racial.",
+     "afirmaciones": [
+      "A-202",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "pág. 28",
+     "cita_original": "In late April, the PLD indicated that they would instruct their party pollwatchers to challenge the vote of anyone who appeared to be Haitian, forcing the prospective voter to cast a tendered ballot.",
+     "traduccion": "A finales de abril el PLD dijo que instruiría a sus apoderados de mesa para impugnar el voto de cualquiera que pareciera haitiano.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "pág. 28",
+     "cita_original": "The NDI/Council pre-election delegation expressed deep concern that such action could be discriminatory and viewed as racist.",
+     "traduccion": "La delegación preelectoral expresó honda preocupación por que esa acción pudiera ser discriminatoria y vista como racista.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "pág. 28",
+     "cita_original": "The PLD, however, denounced the electoral registry in late April, alleging that it improperly included thousands of Haitians.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "cap. 6, pág. 36 (hoja 27)",
+     "cita_original": "The document also suggested that, in the interest of protecting the sovereignty and independence of the country from non-Dominican hands, all voters should cast their ballot for Leonel Fernandez.",
+     "traduccion": "Sobre el texto del Frente Patriótico Nacional, firmado el 2-VI-1996 por Balaguer y Bosch.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    },
+    {
+     "ubicacion": "pág. 36",
+     "cita_original": "In addition, they denounced as racist the Front's reference to the protection of Dominican independence from “non-Dominican hands.”",
+     "traduccion": "Peña Gómez y otros dirigentes del PRD denunciaron como racista esa referencia.",
+     "afirmaciones": [
+      "A-202"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-202",
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Es el testimonio más cercano a los hechos encontrado hasta ahora para A-202, y matiza su enunciado. Consta: (1) Balaguer, una semana antes del 16-V-1996, llamó a votar contra «planes extranjeros de unificar» las dos naciones (descripción de los observadores, no cita literal de Balaguer); (2) el Frente Patriótico (2-VI) habla de proteger la soberanía de «manos no dominicanas» y el PRD lo denunció como racista; (3) el PLD planeó impugnar el voto de quien pareciera haitiano y luego rectificó. NO consta que Balaguer o el Frente acusaran a Peña Gómez de ser «instrumento» de un plan de fusión: esa acusación personal sigue sin texto primario. Las repatriaciones previas al 16-V coinciden con el informe del Departamento de Estado de 1996 («thousands were expelled immediately prior to the May 16... election»). Los dos extractos de pág. 29 que hablan de repatriaciones son de interés para A-210. OCR: errores menores posibles en nombres propios; las citas se cotejaron contra el OCR de las hojas, y las págs. 28-29 también contra la imagen. De este informe solo se leyeron con calidad las hojas 14-19 (perfiles de los partidos) y 23, 26 y 27; el resto (incluido el resumen ejecutivo) solo tiene un OCR desordenado."
+  },
+  {
+   "titulo": "DOMINICAN REACTION TO HAITI CRISIS (cable 04SANTODOMINGO1094 de la embajada de EE. UU. en Santo Domingo, 20 de febrero de 2004; publicado por Aftenposten el 18-III-2011)",
+   "autor": "Embajada de Estados Unidos en Santo Domingo (firma «HERTELL», embajador Hans Hertell; clasificado por la DCM Lisa Kubiske)",
+   "anio": "2004",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.aftenposten.no/norge/i/nAR9m/20022004-dominican-reaction-to-haiti-crisis",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cable diplomático de primera mano (reuniones con altos funcionarios dominicanos y ONG, fechadas), pero filtrado por un tercero (WikiLeaks/Aftenposten, con pasajes tachados por el diario) y redactado con intereses de EE. UU.",
+   "proveniencia": "Cable confidencial de la embajada en Santo Domingo a Washington el 20-II-2004, sobre la reacción dominicana a la crisis haitiana, redactado a partir de reuniones del 18 al 20 de febrero con el Estado Mayor (general Soto Jiménez), el viceministro Pichardo, ACNUR, la OIM, MUDHA y otras ONG. Obtenido por WikiLeaks y publicado por Aftenposten (versión con tachaduras «TEXT REMOVED BY AFTENPOSTEN»). Autenticidad no verificada de forma independiente; el contenido es coherente con la prensa de la época. EE. UU. quería que RD no sirviera de base a los alzados contra Aristide (el cable lo dice).",
+   "extractos": [
+    {
+     "ubicacion": "apertura del cable (resumen)",
+     "cita_original": "Embassy on February 20 delivered reftel demarche to military and MFA officials, emphasizing the need to prevent Dominican territory from being used by persons seeking to oust President Aristide by violence.",
+     "traduccion": "La embajada entregó el 20-II el demarche a militares y cancillería, subrayando la necesidad de impedir que el territorio dominicano fuera usado por quienes buscaban derrocar a Aristide por la violencia.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párrafo sobre la reunión con el viceministro Pichardo (18-II)",
+     "cita_original": "Regarding opposition fighter Guy Philippe, Pichardo said the military told the Ministry that Philippe had crossed the border without arms or any fighting force.",
+     "traduccion": "Sobre Guy Philippe, Pichardo dijo que los militares informaron a la cancillería de que había cruzado la frontera sin armas ni fuerza combatiente.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sección «Haitian expats alarmed» (reunión del 18-II)",
+     "cita_original": "When asked about Guy Philippe's recent return to Haiti, Bertin claimed that he had known of the plan beforehand and that Philippe crossed the border with a dozen men.",
+     "traduccion": "Un exiliado haitiano en RD (Jean Bertin) dijo que sabía del plan de antemano y que Philippe cruzó con una docena de hombres.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párrafo sobre repatriaciones y la frontera (19-II)",
+     "cita_original": "On February 19 the Foreign Relations Secretariat, Directorate of Migration and Armed Forces jointly announced that repatriations of undocumented Haitians would be suspended temporarily.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "up until the decision to suspend, 3,500 — 4,000 Haitians had been repatriated in 2004; the military listed 3,148 repatriations as of February 16.",
+     "traduccion": "Hasta la suspensión, entre 3.500 y 4.000 haitianos repatriados en 2004 según Migración; 3.148 según los militares al 16-II. Base: declaración oficial, sin recuento anexo.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "apertura del cable (resumen)",
+     "cita_original": "The Senate has unanimously declared that \"Haitian problems should be resolved in Haiti\" and has called on the GODR not to accept Haitian refugees.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "segundo párrafo",
+     "cita_original": "There are now 500-600 Dominican troops assigned to the northern border close to rebel-held areas of Haiti, more than the usual 300-350.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párrafo sobre repatriaciones y la frontera",
+     "cita_original": "Tensions on the border have escalated since two Dominican soldiers were killed on February 14 -- by Haitians, according to a Dominican legislator from that locality; by Dominican criminals, according to the Armed Forces leadership.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-206"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Aristide y la RD fuera de las expulsiones. La versión dominicana de febrero de 2004 (cancillería): Philippe cruzó «sin armas ni fuerza combatiente»; la crítica de la propia prensa dominicana (Diario Libre, 7-II, véase NotiCen) habla de «complicidad de las autoridades». Versión haitiana: en el cable solo consta el cónsul haitiano, que acusa a Philippe de matar gente en Haití (no a RD). NO se halló aquí una acusación del Gobierno de Aristide contra el de Mejía; la acusación haitiana de complicidad dominicana consta en la petición de 2006 a la CIDH (entrada aparte y nota de Jurist). El cable muestra también que el 19-II-2004 se suspendieron las repatriaciones (tras 3.500-4.000 en lo que iba de año) y que el Senado pedía que Haití resolviera sus problemas en casa. [No hay A-### dedicada a Aristide; propongo una afirmación nueva: «En febrero de 2004 rebeldes anti-Aristide entraron en Haití desde la RD y el Gobierno dominicano negó haberlos armado o apoyado» (B-C, por verificar).]"
+  },
+  {
+   "titulo": "Haitian opposition marches, exiled paramilitary forces join rebels (AP, Puerto Príncipe, 14-15 de febrero de 2004; Jamaica Observer, 15-II-2004)",
+   "autor": "The Associated Press",
+   "anio": "2004",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://jamaicaobserver.com/2004/02/15/haitian-opposition-marches-exiled-paramilitary-forces-join-rebels",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de agencia, contemporáneo, que atribuye a testigos y deja sin atribuir quién mató a los dos soldados; no hay fuente propia para el vínculo con RD más allá de «reportedly».",
+   "proveniencia": "Despacho de la AP del 14-II-2004 (publicado en el Jamaica Observer, 15-II-2004) sobre la sublevación contra Aristide iniciada en Gonaïves, la marcha opositora y la llegada de exiliados desde la RD.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 7",
+     "cita_original": "Two Dominican soldiers were killed on the Dominican border at Dajabon on Saturday and their weapons were taken from them. It was unclear who was responsible for the killings, but in the last few days a commando of 20 men led by an exiled paramilitary leader crossed the border.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 8",
+     "cita_original": "Dominican President Hipolito Mejia said Sunday that authorities would arrest any Haitian trying to enter the Dominican Republic suspected of taking part in the uprising.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 10",
+     "cita_original": "Also spotted was Guy Philippe, a former police chief who fled to the Dominican Republic after being accused by the Haitian government of fomenting a coup in 2002.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Con el despacho de la AP del 15-II (siguiente entrada) establece que, según testigos, Chamblain y Philippe llegaron a Gonaïves procedentes de la RD, donde vivían en el exilio desde 2000/1994. El mismo despacho circuló en otros diarios (p. ej., Daily Kansan de 16-II-2004): cuenta como una sola fuente."
+  },
+  {
+   "titulo": "Haiti rebels bring in Dominican fighters (AP, Gonaïves, 14-15 de febrero de 2004; Lawrence Journal-World)",
+   "autor": "The Associated Press",
+   "anio": "2004",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www2.ljworld.com/news/2004/feb/15/haiti_rebels_bring/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de agencia que atribuye a «witnesses» la llegada de los refuerzos desde la RD; el titular dice «Dominican fighters» aunque el cuerpo habla de exiliados haitianos.",
+   "proveniencia": "Despacho de la AP desde Gonaïves del 14-II-2004 (publicado el 15-II-2004 en el Lawrence Journal-World). Testigos contactados por teléfono.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "Haitian rebels seeking to topple the president brought in reinforcements from the neighboring Dominican Republic, including the exiled former leader of 1980s death squads and a former police chief accused of fomenting a coup, witnesses said Saturday",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "El titular («Dominican fighters») no coincide con el cuerpo (exiliados haitianos que llegan «from the neighboring Dominican Republic»): cuidado con citar solo el titular."
+  },
+  {
+   "titulo": "Dominican Republic Bearing Brunt Of Haiti Insurrection (NotiCen / Latin America Digital Beat, Latin American and Iberian Institute, University of New Mexico, 19 de febrero de 2004)",
+   "autor": "LADB Staff (Latin America Data Base, University of New Mexico)",
+   "anio": "2004",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://digitalrepository.unm.edu/noticen/9171",
+   "urls_alternativas": [
+    "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=10170&context=noticen"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Boletín universitario de síntesis (LADB, ISSN 1089-1560) que cita prensa dominicana y declaraciones públicas con fecha; tono a veces editorializante (títulos como «Differential Permeability»), sin aparato de notas.",
+   "proveniencia": "Síntesis de la Latin America Data Base de la Universidad de Nuevo México, sobre la reacción dominicana a la crisis haitiana, con citas de Mejía en Dajabón, de un editorial de Diario Libre (7-II-2004) y del canciller Guerrero. El PDF se leyó con el navegador del panel (curl recibía el desafío de Cloudflare en digitalrepository.unm.edu).",
+   "extractos": [
+    {
+     "ubicacion": "p. 1 del artículo (p. 2 del PDF), sobre Mejía en Dajabón",
+     "cita_original": "I gave instructions to the military that conspirators who come and go [across the border] be arrested.",
+     "traduccion": "Mejía en la frontera de Dajabón, tras la muerte de los soldados.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 1 del artículo",
+     "cita_original": "The Dominican Republic had, at the time, made guarantees to Haiti that Phillippe would not be a danger to that country.",
+     "traduccion": "La RD había dado garantías a Haití de que Philippe no sería un peligro para ese país (el boletín no da fecha ni fuente).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 1 del artículo, editorial de Diario Libre del 7-II-2004",
+     "cita_original": "The presence of this gentleman in Haitian territory in conspiratorial labors can be interpreted, at the least, as a blunder, but with the complicity of the authorities.",
+     "traduccion": "Cita traducida del editorial de Diario Libre del 7-II-2004; el original en español no se localizó.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 3 del artículo (p. 4 del PDF)",
+     "cita_original": "Potential for border violence may increase in the coming days when, according to Director of Migration for the Northern Region Sabas Burgos, the Dominican Republic will expel large numbers of Haitians.",
+     "traduccion": "El director regional de Migración anunció una «repatriación masiva» en días (19-II-2004).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Complementa el cable de EE. UU.: confirma (a) que Philippe vivía en RD con garantías dadas a Haití y que la prensa dominicana (Diario Libre) criticó una posible complicidad oficial; (b) las órdenes de Mejía de arrestar a los «conspiradores»; (c) el anuncio de una «repatriación masiva» regional el mismo 19-II en que el cable dice que las repatriaciones se suspendían: dato contradictorio entre fuentes (suspensión nacional vs anuncio regional) [POR VERIFICAR cuál se aplicó]. El texto afirma que murió un soldado y fueron heridos cinco; el AP y el cable dicen que dos soldados murieron: otra discrepancia sobre el hecho de Dajabón del 14-II. Mejía aparece escrito «Mijia» en el boletín. La cita de Diario Libre es traducción del boletín."
+  },
+  {
+   "titulo": "In Haiti, Unrest, Violence Escalating (CNN Live At Daybreak, 18 de febrero de 2004; reportaje de Lucia Newman desde Puerto Príncipe)",
+   "autor": "CNN (Lucia Newman, corresponsal)",
+   "anio": "2004",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://transcripts.cnn.com/show/lad/date/2004-02-18/segment/03",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Transcripción urgente («rush transcript») de un reportaje de televisión, sin atribución de la afirmación sobre las armas a una fuente concreta.",
+   "proveniencia": "Transcripción de CNN de un reportaje emitido el 18-II-2004 desde Puerto Príncipe, con entrevista a un líder de los alzados en Gonaïves.",
+   "extractos": [
+    {
+     "ubicacion": "voz en off de Newman",
+     "cita_original": "The guns also come from across the border, from the Dominican Republic, brought by exiled former paramilitary and army leaders.",
+     "traduccion": "Las armas también vienen de al otro lado de la frontera, de la República Dominicana, traídas por exdirigentes paramilitares y militares exiliados.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Afirmación de una corresponsal sin fuente declarada: refleja la versión mediática internacional de febrero de 2004 (armas desde RD) frente a la dominicana (Philippe cruzó sin armas, según el cable). Fiabilidad baja para el hecho de las armas."
+  },
+  {
+   "titulo": "Haiti groups ask OAS rights commission to investigate Aristide overthrow (Jurist, Universidad de Pittsburgh, febrero de 2006)",
+   "autor": "Jurist (University of Pittsburgh School of Law)",
+   "anio": "2006",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.jurist.org/news/2006/02/haiti-groups-ask-oas-rights-commission/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Noticia de un portal jurídico que resume la petición de unas organizaciones haitianas a la CIDH; no reproduce la petición ni evidencia.",
+   "proveniencia": "Nota de Jurist (2-II-2006, Joshua Pantesco) sobre la petición que cuatro organizaciones presentaron ante la Comisión Interamericana en nombre de ciudadanos haitianos por el derrocamiento de Aristide en 2004. La petición misma se leyó (entrada aparte).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 4",
+     "cita_original": "The petition also alleges that the Dominican Republic allowed insurgent forces to train in their country",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Es la expresión formal de la acusación haitiana (de parte aristidista) contra el Estado dominicano de haber permitido el entrenamiento de insurgentes; es una alegación de parte, sin prueba en esta fuente. Texto de la petición en la entrada correspondiente; la respuesta del Gobierno de Mejía consta solo en el cable de EE. UU. y en declaraciones de febrero de 2004."
+  },
+  {
+   "titulo": "Memoria 2004: Secretaría de Estado de Relaciones Exteriores (Santo Domingo, 2005)",
+   "autor": "República Dominicana, Secretaría de Estado de Relaciones Exteriores",
+   "anio": "2005",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/e8319489-ef15-4677-850c-5b3b61609f76/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/71344"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria oficial de rendición de cuentas de la Cancillería, de primera mano sobre cifras y posiciones oficiales, con texto OCR de calidad desigual y con silencios sobre los episodios polémicos del año.",
+   "proveniencia": "Memoria anual de la Cancillería dominicana sobre 2004 (cubre el final del gobierno de Mejía y los primeros meses del de Leonel Fernández), digitalizada por el Senado (74 MB; el texto de la capa OCR tiene errores como «haiti anos»). Interés: rendir cuentas y mostrar una diplomacia coherente; no menciona la crisis de febrero de 2004 en Haití por nombre.",
+   "extractos": [
+    {
+     "ubicacion": "sección inicial «Relaciones con Haití», p. 18 (l. 915 del txt)",
+     "cita_original": "las condiciones actuales de inestabilidad política, inseguridad social y apremiantes medios de subsistencia del pueblo han afectado las relaciones con Haití. Se puede afirmar que están recesivas, en proceso de inercia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "División de Relaciones con Haití, p. 68 (l. 4432)",
+     "cita_original": "las relaciones con Haití se encuentran en estado recesivo debido a esas contingencias internas de petiurbación social",
+     "traduccion": "(OCR: «petiurbación» por «perturbación»).",
+     "afirmaciones": [
+      "A-210",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "p. 71, Consejo Nacional de Fronteras (l. 4496)",
+     "cita_original": "La Dirección General de Migración reportó la repatriación a su país de origen de 3,817 ciudadanos haiti anos ilegales en territorio dominicano.",
+     "traduccion": "Cifra anual de repatriaciones de 2004 según la Cancillería (OCR: «haiti anos» por «haitianos»). Base: Dirección General de Migración, sin desglose.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-206"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Primario dominicano de 2004. Tres datos: (1) tono oficial de «relaciones recesivas» con Haití; (2) 3.817 repatriados en 2004 (cifra oficial para todo el año, que encaja con los 3.500-4.000 que ya constaban a 19-II-2004 en el cable de EE. UU.: o bien las repatriaciones se frenaron mucho después de febrero, o la cifra de la Memoria es incompleta); (3) SILENCIO: en el texto leído (grep de «Philippe», «Aristide», «rebeld», «insurgente» sin resultados útiles) no hay mención del alzamiento de febrero de 2004, ni de Philippe ni de las acusaciones haitianas; esto es una ausencia en el texto OCR, no prueba de que no se tratara en otros documentos. El saludo de la Memoria al bicentenario de la independencia de Haití (1-I-2004) aparece en la p. 69."
+  },
+  {
+   "titulo": "Paramilitarism and the Assault on Democracy in Haiti (Monthly Review Press, 2012, 400 pp.): reseña de Boaz Anglade en Race & Class, reproducida por Monthly Review",
+   "autor": "Sprague, Jeb (reseña de Boaz Anglade)",
+   "anio": "2012",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://monthlyreview.org/paramilitarism-and-the-assault-on-democracy-in-haiti-reviewed-in-race-class/",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía académica-periodística con documentos FOIA y cables de WikiLeaks, pero partidista (editorial socialista, perspectiva aristidista); solo se leyó un extracto de reseña de la propia editorial.",
+   "proveniencia": "Jeb Sprague (sociólogo, University of California Santa Barbara según la editorial), Monthly Review Press, 2012. Basada, según la reseña, en más de 11.000 documentos FOIA, cables de WikiLeaks y entrevistas en Haití, RD y Norteamérica. Se leyó solo un fragmento de la reseña de Anglade publicado por Monthly Review (la reseña completa está en Race & Class).",
+   "extractos": [
+    {
+     "ubicacion": "extracto de la reseña (párr. 2)",
+     "cita_original": "extensive field research and interviews in Haiti, the Dominican Republic and in North America",
+     "traduccion": "(Sobre el trabajo de campo de Sprague.)",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "extracto de la reseña (párr. 2)",
+     "cita_original": "diplomatic cables on Haiti unveiled by Wikileaks",
+     "traduccion": "(Una de las bases documentales de Sprague.)",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha y un fragmento de reseña: NO se leyó el pasaje del libro sobre la RD como base de los paramilitares del FLRN. La obra es el desarrollo académico (partidista) de la acusación aristidista de complicidad dominicana; hay que contrastar con el cable de la embajada de EE. UU. de 2004 y la AP. Sesgo conocido: pro-Lavalas, editorial de izquierda; usa documentos y entrevistas con fuentes anónimas."
+  },
+  {
+   "titulo": "Haitians Get Around UN Sanctions Via Dominican Border (The Christian Science Monitor, 16 de noviembre de 1993)",
+   "autor": "Klarreich, Kathie (especial para The Christian Science Monitor)",
+   "anio": "1993",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.csmonitor.com/1993/1116/16011.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reportaje de una periodista presente en la frontera (La Descubierta, Jimaní), con testimonios con nombre o anónimos; periodismo, no inspección.",
+   "proveniencia": "Reportaje de Kathie Klarreich desde La Descubierta (RD), 16-XI-1993, sobre el contrabando de gasolina hacia Haití durante el embargo de la ONU (resolución 841, vigente desde junio de 1993). Con funcionarios dominicanos de Migración entrevistados in situ.",
+   "extractos": [
+    {
+     "ubicacion": "reportaje desde La Descubierta, párrafo sobre el cumplimiento del embargo",
+     "cita_original": "Dominican President Joaquin Balaguer Ricardo maintains that the embargo is being enforced from his side of the island, though he has flatly refused to accept UN observers at the border.",
+     "traduccion": "Balaguer sostiene que el embargo se cumple de su lado de la isla, aunque rechazó de plano a observadores de la ONU en la frontera.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "reportaje desde La Descubierta (Migración, La Descubierta)",
+     "cita_original": "Not a drop passes here. We are signatories to the UN - we can't let that happen.",
+     "traduccion": "Victor Romero, oficial dominicano de Migración, a la periodista (en el original, entre comillas).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Sin A-### asignada: contexto de M15 (golpe de 1991 y embargo 1991-1994: la frontera dominicana como punto de fuga). Documenta la posición oficial de Balaguer («se cumple») y la negativa a observadores de la ONU en 1993; el texto describe contrabando de gasolina a Haití con complicidad de militares (según testigos anónimos). Falta el documento dominicano primario. "
+  },
+  {
+   "titulo": "U.S. to send troops to help Dominicans guard Haitian border (Knight-Ridder News Service; The Virginian-Pilot, 22 de junio de 1994)",
+   "autor": "Knight-Ridder News Service",
+   "anio": "1994",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://scholar.lib.vt.edu/VA-news/VA-Pilot/issues/1994/940622/06220451.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de agencia que atribuye los datos a «funcionarios de EE. UU.» sin nombrarlos; cifras (15.000 soldados, 88 observadores) sin documento oficial.",
+   "proveniencia": "Despacho de Knight-Ridder desde Washington del 22-VI-1994, publicado en The Virginian-Pilot (archivo de la Virginia Tech). Fuente: funcionarios del Gobierno de Clinton.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1",
+     "cita_original": "The Clinton administration plans to send U.S. troops, helicopters, all-terrain vehicles and other equipment to help the Dominican Republic seal its border to smugglers from Haiti",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "would advise and observe some 15,000 Dominican troops already assembled along the country's 200-mile border with Haiti",
+     "traduccion": "Cifra atribuida a funcionarios de EE. UU., sin base.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Sin A-### asignada. Muestra que en junio de 1994 (un mes después de la res. 917) EE. UU. tenía que ayudar a Balaguer a cerrar una frontera por donde seguía pasando el contrabando; coherente con el reportaje de Klarreich de 1993 y con la ficha M15-N87 (actas del Consejo de Seguridad, 6-V-1994)."
+  },
+  {
+   "titulo": "Message to the Congress Reporting on the National Emergency With Respect to Haiti (Bill Clinton, 3 de febrero de 1995; The American Presidency Project)",
+   "autor": "Clinton, William J. (Presidente de EE. UU.)",
+   "anio": "1995",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://presidency.ucsb.edu/node/220561",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Mensaje oficial del Presidente al Congreso, de primera mano sobre la política de EE. UU., pero con un lenguaje diplomático que no describe la eficacia dominicana.",
+   "proveniencia": "Informe semestral de Clinton al Congreso (3-II-1995) sobre la emergencia nacional respecto de Haití (IEEPA), publicado por el American Presidency Project (UC Santa Barbara). Interés: justificar la intervención de septiembre de 1994 y el estado de las sanciones.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "To augment embargo enforcement, the United States and other countries entered into a cooperative endeavor with the Dominican Republic to monitor that country's enforcement of sanctions along its land border and in its coastal waters.",
+     "traduccion": "Para reforzar el cumplimiento del embargo, EE. UU. y otros países emprendieron con la RD una iniciativa de cooperación para vigilar el cumplimiento de las sanciones en su frontera terrestre y sus aguas costeras.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Sin A-### asignada. Documento primario estadounidense que confirma la existencia de un mecanismo de monitoreo del cumplimiento dominicano del embargo desde mayo-junio de 1994; no dice que el cumplimiento fuera deficiente. El documento dominicano equivalente (decreto o nota de la Cancillería de 1993-1994) sigue sin localizar."
+  },
+  {
+   "titulo": "Haitian protesters want to remove current president (AP; The University Daily Kansan, 16 de febrero de 2004, p. 5A; OCR de la Universidad de Kansas)",
+   "autor": "The Associated Press",
+   "anio": "2004",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://digital.lib.ku.edu/islandora/object/ku-udk%3A89034/datastream/OCR/download",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Despacho de la AP del 15-II-2004 reproducido por un diario universitario (texto OCR con alguna errata); añade al despacho de Jamaica Observer un dato sobre la petición haitiana de 2003 y la respuesta dominicana.",
+   "proveniencia": "Versión de la AP publicada en The University Daily Kansan (University of Kansas) el 16-II-2004, p. 5A, con texto OCR de la biblioteca digital de la universidad. Es el mismo despacho del 14-15 de febrero que la entrada del Jamaica Observer, con párrafos adicionales.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 11-12 de la nota",
+     "cita_original": "In May, Haiti's foreign minister visited the Dominican Republic requesting that authorities turn over Philippe. Dominican officials had detained him earlier that month but released him after finding no evidence to support claims he was plotting against Haiti's government. No extradition treaty exists between the neighboring countries.",
+     "traduccion": "En mayo (de 2003) el canciller haitiano visitó la RD para pedir la entrega de Philippe; las autoridades dominicanas lo habían detenido antes ese mes y lo soltaron al no hallar pruebas del complot; no hay tratado de extradición.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "párr. 10 de la nota",
+     "cita_original": "Dominican Gen. Fernando Cruz Mendez said Philippe would be arrested if he tried to reenter the Dominican Republic.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Es lo más cercano a una «versión haitiana» documentada: el Gobierno haitiano pidió en mayo de 2003 la entrega de Philippe y el Gobierno dominicano lo liberó por falta de pruebas (versión dominicana); el despacho no dice que Haití acusara entonces a RD de complicidad. El mes del dato («In May») es mayo de 2003 por contexto (el despacho es de febrero de 2004) [inferencia, no explícito]. Cuenta como una sola fuente con el despacho del Jamaica Observer (misma AP)."
+  },
+  {
+   "titulo": "Country Reports on Human Rights Practices for 2002, vol. II (S. Prt. 108-30, Joint Committee Print): sección «Dominican Republic»",
+   "autor": "U.S. Department of State, para los comités de Relaciones Exteriores del Senado y de la Cámara",
+   "anio": "2003",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.govinfo.gov/content/pkg/CPRT-108JPRT88454/html/CPRT-108JPRT88454.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto oficial impreso por el Congreso (govinfo) con una cifra anual atribuida a la Dirección de Migración dominicana (base: declaración oficial) y descripciones de práctica; el informe se equivoca de mes en el caso de 2000.",
+   "proveniencia": "Informe del Departamento de Estado sobre 2002, publicado en 2003 como S. Prt. 108-30, vol. II (CPRT-108JPRT88454; la sección «DOMINICAN REPUBLIC» empieza en la l. 56129 del txt derivado del HTML de 5,5 MB). Redactado por la embajada con ONG y funcionarios dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d (l. 56894 del txt derivado)",
+     "cita_original": "The Directorate of Migration reported that it repatriated over 12,000 Haitians during the year.",
+     "traduccion": "La Dirección de Migración informó que repatrió a más de 12.000 haitianos durante el año (2002). Base: declaración de la propia Dirección.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 56896)",
+     "cita_original": "In some cases, the Government denied those deported the opportunity to demonstrate that they were legal residents in the country or to make arrangements for their families or property.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 56641)",
+     "cita_original": "Such officials approached persons who looked like Haitians, including persons who had very dark complexions and fairly poor clothing, and engaged them in conversation, mainly to check their use of Spanish and any accent they might have.",
+     "traduccion": "Descripción de las redadas por fenotipo y acento (misma que en 1999).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 56917)",
+     "cita_original": "For years, the term ``in transit'' had been interpreted to include anyone not legally residing in the country, which included the vast majority of Haitians, regardless of the years they had spent in the country.",
+     "traduccion": "Durante años «en tránsito» se había interpretado como cualquiera sin residencia legal, es decir, la gran mayoría de los haitianos, sin importar los años en el país.",
+     "afirmaciones": [
+      "A-203",
+      "A-204"
+     ]
+    },
+    {
+     "ubicacion": "sec. 1.a (l. 56031)",
+     "cita_original": "the six Haitians and one Dominican shot in July 2000",
+     "traduccion": "El informe de 2002 sitúa en julio de 2000 (la Corte IDH dice 18 de junio) el caso de los seis haitianos y un dominicano muertos a tiros; dice que no hubo novedades en el caso.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210",
+    "A-203",
+    "A-204"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Aporta una cifra anual oficial con base declarada (Migración: más de 12.000 repatriados en 2002), a comparar con 3.817 en 2004 (Memoria de la Cancillería) y 3.185 en 2010 (informe de 2010). Prueba, además, que hacia 2002 la lectura extensiva de «en tránsito» (que la Corte IDH rechazó en 2005) era práctica de hasta entonces. Discrepancia a señalar: el caso de los seis haitianos y un dominicano (Dorzema) es del 18-VI-2000 según la Corte IDH; este informe dice julio de 2000. El pasaje sobre la Corte IDH en 2000 y las medidas provisionales (sec. 2.d) existe pero no se cita por contener un guion en «Dominican-Haitians» al cambio de línea."
+  },
+  {
+   "titulo": "Country Reports on Human Rights Practices for 2010, vol. II (S. Prt. 112-30, Joint Committee Print): sección «Dominican Republic»",
+   "autor": "U.S. Department of State, para los comités de Relaciones Exteriores del Senado y de la Cámara",
+   "anio": "2011",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.govinfo.gov/content/pkg/CPRT-112JPRT66165/html/CPRT-112JPRT66165-VolumeII.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto oficial impreso por el Congreso (govinfo) con cifras atribuidas a organismos con nombre (DGM, OIM, director de Migración) y reconocimiento de que otros recuentos son mayores.",
+   "proveniencia": "Informe del Departamento de Estado sobre 2010, publicado en 2011 como S. Prt. 112-30, vol. II (CPRT-112JPRT66165-VolumeII; la sección «DOMINICAN REPUBLIC» empieza en la l. 66107 del txt derivado del HTML de 5,8 MB). Cubre el año del terremoto y la moratoria de deportaciones.",
+   "extractos": [
+    {
+     "ubicacion": "sec. 2.d (l. 66716 del txt derivado)",
+     "cita_original": "Following the January 12 earthquake in Haiti, the president announced a moratorium on all deportations of Haitians living in the country.",
+     "traduccion": "Tras el terremoto del 12 de enero el presidente anunció una moratoria de todas las deportaciones de haitianos que vivían en el país.",
+     "afirmaciones": [
+      "A-205",
+      "A-206"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 66719)",
+     "cita_original": "Although the Government claimed it no longer practiced mass deportation, such practices were still reported.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-205",
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 66723)",
+     "cita_original": "The DGM reported 3,185 Haitians expelled to Haiti during the year, although other reports from border crossing posts reflected a higher number.",
+     "traduccion": "La Dirección General de Migración informó de 3.185 haitianos expulsados en 2010; otros registros de los puestos fronterizos daban más.",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 2.d (l. 66725)",
+     "cita_original": "NGOs reported that in the majority of these cases, the Government's agents did not follow due process or internal basic human rights guidelines",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-206",
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. 5 (l. 66801)",
+     "cita_original": "The IOM estimated that following the January 12 earthquake, there was an influx of approximately 130,000 additional undocumented migrants.",
+     "traduccion": "Estimación de la OIM; el director de Migración dijo en octubre unos 200.000 más (l. 66805).",
+     "afirmaciones": [
+      "A-206"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-205",
+    "A-206",
+    "A-210"
+   ],
+   "modulos": [
+    "M15",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Aporta evidencia para A-206 (la ayuda como prueba de ausencia de odio popular): la ayuda coexistió con una moratoria de deportaciones anunciada por el presidente pero con prácticas de «deportación masiva» aún denunciadas por ONG, 3.185 expulsiones oficiales en 2010 (las cifras de otros registros, mayores; sin cifra alternativa), y un discurso oficial de «200.000 haitianos más» tras el terremoto. Es un puente hacia la evolución 2010-2015 (módulo M16). El texto menciona que en 2009 el Gobierno dio al Consejo de DD. HH. de la ONU el rango de 900.000 a 1,2 millones de inmigrantes sin papeles (base de la cifra que usa también la Corte IDH en Dorzema). La cifra de 130.000 de la OIM es una estimación, y la de 200.000 una declaración del director de Migración, sin método declarado."
+  },
+  {
+   "titulo": "Complaint regarding violations of the right to participate in representative government committed against [Names Withheld] and others (petición a la Comisión Interamericana de Derechos Humanos, 2 de febrero de 2006)",
+   "autor": "Bureau des Avocats Internationaux; Institute for Justice and Democracy in Haiti; Allard K. Lowenstein International Human Rights Clinic (Yale Law School); TransAfrica Forum",
+   "anio": "2006",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "http://web.archive.org/web/20220320014805if_/http://www.teledyol.net/IJDH/IACHRPet_v.pdf",
+   "urls_alternativas": [
+    "https://www.jurist.org/news/2006/02/haiti-aristide-overthrow-redress"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Escrito de parte (organizaciones que representan a ciudadanos haitianos partidarios de Aristide), con notas a prensa y entrevistas pero sin prueba propia sobre la RD; es la formulación más completa de la acusación haitiana, no una constatación de los hechos.",
+   "proveniencia": "Petición presentada el 2-II-2006 ante la CIDH por cuatro organizaciones (con sede en Haití, EE. UU. y la clínica jurídica de Yale) en nombre de ciudadanos haitianos anónimos, contra el Gobierno Interino de Haití, EE. UU. y la RD, por el derrocamiento de Aristide en febrero de 2004. Escrita para obtener una declaración de la CIDH; interés de parte (aristidista). Se leyó una copia de la Wayback Machine (captura del 20-III-2022) del PDF alojado en teledyol.net, que ya no responde (HTTP 000). Las notas remiten a prensa (Haïti Progrès, Boston Globe, Montreal Gazette, BBC Monitoring).",
+   "extractos": [
+    {
+     "ubicacion": "sec. de hechos, p. 4 (l. 110 del txt de pdftotext -layout)",
+     "cita_original": "Starting in the late 1990’s, former members of Haiti’s demobilized army and others began military training in the Dominican Republic. From 2001 to 2004, these groups conducted periodic raids across the border against targets in Haiti.",
+     "traduccion": "A finales de los años noventa antiguos militares haitianos y otros empezaron a entrenarse militarmente en la RD; de 2001 a 2004 hicieron incursiones periódicas a través de la frontera.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 4 (l. 113)",
+     "cita_original": "Haitian authorities protested the use of the Dominican Republic’s territory for staging these attacks, but they were not stopped.",
+     "traduccion": "Las autoridades haitianas protestaron por el uso del territorio dominicano; no se los detuvo.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 4 (l. 119)",
+     "cita_original": "Philippe was also arrested in May 2003, again at the request of Haitian officials. But each time, the Dominican Republic released the rebels without prosecuting them or preventing them from using Dominican territory for training or staging attacks.",
+     "traduccion": "Philippe fue arrestado también en mayo de 2003, otra vez a petición de funcionarios haitianos; cada vez la RD liberó a los rebeldes sin procesarlos ni impedirles usar su territorio.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 5 (l. 138)",
+     "cita_original": "In December 2002, the U.S. government sent 20,000 M-16 rifles to the Dominican Republic. According to several sources, including Noble Espejo, a former general in the Dominican Republic’s armed forces, and a senior United States military official cited by the Boston Globe, some of these guns arrived in the hands of the Haitian rebels.",
+     "traduccion": "Según varias fuentes (un exgeneral dominicano y un oficial estadounidense citado por el Boston Globe), algunos de esos fusiles llegaron a manos de los rebeldes haitianos.",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "p. 5 (l. 145)",
+     "cita_original": "Another rebel group, led by Louis Jodel Chamblain and Guy Philippe, crossed the border from the Dominican Republic into Haiti on February 6, 2004.",
+     "traduccion": "Fecha de la petición: 6-II-2004 (AP y el cable de EE. UU. sitúan la llegada a Gonaïves hacia el 14-II).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    },
+    {
+     "ubicacion": "sec. de derecho, l. 1439",
+     "cita_original": "The Dominican Republic has violated Article 1 by harboring armed groups in its territory as they trained to overthrow the democratically elected Haitian government and repeatedly attacked that government from the territory of the Dominican Republic.",
+     "traduccion": "Imputación jurídica contra la RD (art. 1 de la Convención Americana y principio de no intervención).",
+     "afirmaciones": [
+      "A-210"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-210"
+   ],
+   "modulos": [
+    "M15"
+   ],
+   "id_existente": "",
+   "notas": "Documenta de primera mano la ACUSACIÓN haitiana (de parte aristidista) contra la RD que el crítico pedía: entrenamiento militar en la RD desde fines de los noventa; incursiones 2001-2004; arrestos de Philippe tras los intentos de golpe de 28-VII y 17-XII-2001 y en mayo de 2003, siempre con liberación; fusiles M-16 enviados por EE. UU. en diciembre de 2002; Chamblain y Philippe cruzando la frontera el 6-II-2004 [fecha de la petición; otras fuentes dan el 14-II: discrepancia a resolver]. Frente a esto, la versión dominicana de febrero de 2004 (cable de la embajada de EE. UU., NotiCen) dice que Philippe cruzó «sin armas ni fuerza combatiente» y que Mejía ordenó arrestar a los «conspiradores». La petición cita como respaldo a prensa y a una «Haiti Commission of Inquiry» (Ramsey Clark), sin pruebas primarias dominicanas; la CIDH no se pronunció en este módulo [POR VERIFICAR: destino de la petición]. Sesgo conocido: parte, pro-Lavalas; usa el término «kidnapping» para la salida de Aristide el 29-II-2004 (calificación de parte)."
+  }
+ ]
+}

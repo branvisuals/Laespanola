@@ -10,7 +10,7 @@ Proyecto de investigación documental sobre la isla de La Española (República 
 
 ## Estado de las fases
 - Fase 0 (infraestructura) y Fase 1 (narrativas y registro de 263 afirmaciones): completas.
-- **Fase 2 en curso** (barrido de fuentes por módulo, plan sección 10, modo A desde la sesión local). Registrados: M13, M16, M08, M00, M09 (`02-fuentes/por-modulo/M##.md`; `registro.csv` con 1.575 filas; `03-afirmaciones/cobertura.csv` con 5.833 pares). Pendientes de arreglo: fusionar `M09.corrida-1.md` en `M09.md` e integrar `raw/corrida-2/M00-*` en `M00.md`. Fusionados sin registrar (ids provisionales): M05, M06. Sin empezar: M11, M10, M01, M03, M15, M07, M14, M12, M04, M02. Se continúa con una corrida NUEVA del Workflow `00-plan/workflows/fase2-barrido-fuentes.js` (nunca con `resumeFromRunId`; ver aviso en el script) con `args.modulos` y `args.registrar_solo` como indica la última entrada de `decisiones.md`.
+- **Fase 2 en curso** (barrido de fuentes por módulo, plan sección 10, modo A desde la sesión local). Registrados: M00, M01, M03, M05, M06, M07, M08, M09, M10, M11, M13, M16 (`02-fuentes/por-modulo/M##.md`; `registro.csv` con 2.246 filas; `03-afirmaciones/cobertura.csv` con 9.175 pares; 224 de 263 afirmaciones con fuente). A medias: M15 fusionado sin registrar (ids provisionales), M14 buscado sin fusionar (`raw/M14-r1-*.json`), M12 con un buscador de cinco. Sin empezar: M04, M02. Se continúa con una corrida NUEVA del Workflow `00-plan/workflows/fase2-barrido-fuentes.js` (nunca con `resumeFromRunId`) con los `args` que indica la última entrada de `decisiones.md`.
 - Fases 3 a 8: pendientes, en el orden del plan.
 
 ## Reglas no negociables
