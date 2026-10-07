@@ -1,0 +1,1416 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M01",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 9,
+ "busquedas_pendientes": [
+  "Michele de Cuneo, carta de Savona (1495), texto completo en italiano o inglés: se buscó 2 veces (EN e IT) y no apareció un texto accesible",
+  "PARES (AGI): instrucción de 1501 a Ovando y cualquier registro del repartimiento de 1508 (origen de la cifra de 60.000)",
+  "Información de los Jerónimos (1517) completa y otros testimonios de 1517-1519: solo se leyeron cartas sueltas de la CODOIN t. I (Zuazo, Memorial a Cisneros, carta de los jerónimos de 10-I-1519)",
+  "Relación de Rodrigo de Figueroa (1520) sobre guatiaos y caribes (Herrera, Década II), que Rafinesque cita",
+  "Pedro Mártir, Epistolario (cartas 177, 180, 189, 190, 206, 1497-1499): noticias sobre los mitos de Pané",
+  "Ulloa 1571 en ejemplar legible (BNF/Gallica): el OCR de archive.org es muy ruidoso",
+  "Las Casas, Apologética historia, ed. crítica O'Gorman (UNAM): numeración exacta de capítulos y cotejo",
+  "Moya Pons, Manual de historia dominicana: cálculo de 377.559 (1494) desde el repartimiento de 1508 (se buscó una vez sin éxito; es carril dominicano/científico)",
+  "Oviedo, Historia general, ed. Pérez de Tudela (BAE 117-121): cotejo de págs. y de la lista de los cinco caciques",
+  "Hernando Colón: ed. Caddeo/Keen para el tributo de 1496 y la Relación de Pané",
+  "Fewkes 1907 y Brinton 1871 como primera aparición de «Arawak/Taino» en el siglo XIX (carril científico)",
+  "Cervantes Virtual (403): Brevísima, Sánchez Valverde y Oviedo con edición base declarada"
+ ],
+ "lagunas": [
+  "No existe fuente primaria anterior a 1492: todo lo colonial sobre cacicazgos, población y religión es retrospectivo (Pané 1494-98; Bernáldez c. 1513; Oviedo 1526-1548; Las Casas 1527-1561) y los números son de oído.",
+  "La lista de «cinco reinos» procede en último término de Las Casas y Oviedo; Charlevoix, Sánchez Valverde, Herrera y la tradición posterior la repiten sin base independiente. Falta contrastar con documentos de archivo (AGI) que nombren caciques y provincias en 1493-1510.",
+  "Oviedo, Sumario (1526), nombra solo dos reyes grandes (Caonabo y Guarionex); no se resolvió si es resumen o desacuerdo.",
+  "La cifra de 1.100.000 (1496) depende de un dicho de Colón a Deza transmitido por Las Casas; no se localizó el recuento original.",
+  "No se sumaron los subtotales de «personas de servicio» del Repartimiento de 1514 (CODOIN t. I); no se localizó el de 1508.",
+  "Sin ningún texto primario sobre las «oleadas de poblamiento» (arcaicos, saladoides, ostionoides, chicoides): ese eje es solo arqueológico y corresponde al carril científico.",
+  "No se pudo leer la edición base de la Brevísima en textos.info ni ediciones críticas (Cervantes Virtual 403; Wikisource incompleto; PDF de la RAE solo es una muestra).",
+  "Cuneo no se localizó en texto; Zuazo y el Memorial a Cisneros solo se leyeron en la CODOIN de 1864 (OCR), no en el AGI ni en una edición moderna; Mártir solo en inglés (MacNutt) y en latín con OCR ruidoso."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "reino y rey / cacicazgo y cacique",
+   "tradicion": "española colonial (Las Casas, Oviedo, Brevísima) vs antropología arqueológica",
+   "nota": "Las Casas escribe «cinco reyes y cinco reinos»; Oviedo «cinco prefectos o reyes, que los indios llaman caciques». La arqueología (Wilson 1990; Keegan y Hofman 2017) habla de «cacicazgos» (chiefdoms), con jerarquía y fronteras discutidas. El término descriptivo del corpus debe ser «cacicazgo» y anotar que los cronistas decían «reino»."
+  },
+  {
+   "termino": "nitaíno / taíno",
+   "tradicion": "Diario de Colón (23 dic. 1492), Chanca (1493) vs Rafinesque (1832-1836)",
+   "nota": "En Colón «nitayno» es un rango (hidalgo, señor principal, según Las Casas) y en Chanca «tayno» es «bueno»; el etnónimo «taíno» para todo el pueblo es de Rafinesque (que lo glosa «noble»). Conviene añadir «nitaíno» y explicar que el uso moderno no está en las fuentes de 1492-1548."
+  },
+  {
+   "termino": "naboría / behique (buhiti) / cemí / areíto",
+   "tradicion": "lengua indígena transmitida por Las Casas, Pané, Oviedo",
+   "nota": "Vocabulario de organización social y religión: naboría = criado o gente de servicio (Las Casas); behique/buhiti = especialista ritual y curandero (Pané, Oviedo); cemí = ídolo o espíritu (Pané, Oviedo, Mártir); areíto = canto-memoria colectiva (Oviedo). Son palabras de la isla filtradas por oídos españoles; se usan en forma descriptiva y con grafía de cada autor."
+  },
+  {
+   "termino": "caribe / caniba",
+   "tradicion": "Diario de Colón vs Las Casas vs Oviedo",
+   "nota": "Colón anota «Caniba» en las islas del norte y «Carib» en La Española como nombre de gente temida; Las Casas niega que hubiera caribes en La Española; Oviedo llama «caribe» a Caonabó y Las Casas «lucayo». El rótulo mezcla etnónimo y acusación de canibalismo (con interés esclavista) y no debe usarse como categoría étnica sin cita."
+  },
+  {
+   "termino": "macorix / ciguayo",
+   "tradicion": "Pané, Las Casas",
+   "nota": "Nombres de grupos con lengua distinta de la «universal» de la isla (tres lenguas según Las Casas). «Macorix» significa para Las Casas «lenguaje extraño, casi bárbaro» (término de los hablantes de la lengua general, no autoetnónimo). Relevante para no asumir un pueblo único en 1492."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Historia de las Indias (lib. I-III; ed. Fuensanta del Valle y Sancho Rayón, Madrid, 1875-76), citada por tomo y línea del texto local",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "c.1527-1561 (ed. 1875-76)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-3-de-5_53171/master/53171-0.txt",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-1-de-5_49298/master/49298-0.txt",
+    "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-2-de-5_50351/master/50351-0.txt",
+    "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-4-de-5_56283/master/56283-0.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Testigo presencial (llegó a La Española en 1502) y lector de los papeles del Almirante, pero con tesis (defensor de los indios) y cifras sin recuento propio.",
+   "proveniencia": "Las Casas (1484-1566) vivió en la isla como encomendero y luego como dominico; escribió la Historia entre c. 1527 y 1561. Para 1492-1496 depende del Diario y de papeles de Colón; para las cifras de población, de recuerdos suyos y de lo que le dijo el arzobispo Deza. Transcripción limpia de Project Gutenberg sobre la edición de 1875-76 (los n.º de línea coinciden en el espejo GITenberg y en la copia local del repo).",
+   "extractos": [
+    {
+     "ubicacion": "lib. III, cap. X, t. 3 l. 11645-11648 del txt local (GITenberg 53171, mismo n.º de línea)",
+     "cita_original": "habia sobre tres ó cuatro cuentos de ánimas, que tenian sus pueblos y poblaciones ordenadas, como habia cinco Reyes, y cinco reinos principales",
+     "traduccion": "había sobre tres o cuatro millones de almas, que tenían sus pueblos ordenados, como había cinco reyes y cinco reinos principales.",
+     "afirmaciones": [
+      "A-021",
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XVIII, t. 3 l. 3189-3190",
+     "cita_original": "dicho el mismo Almirante, que habia contado un cuento y cien mil ánimas",
+     "traduccion": "el propio Almirante le había dicho (al arzobispo Deza) que había contado un millón cien mil almas.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XVIII, t. 3 l. 3191-3195",
+     "cita_original": "Pero estas fueron solas aquellas que estaban al rededor de las minas de Cibao, como eran las que moraban en la gran Vega y otras cercanas dellas, á las cuales impuso el cascabel de oro que diesen por tributo, como arriba se dijo, en el primer libro, y con ellas pudieron entrar alguna parte de la provincia de Xaraguá",
+     "traduccion": "Pero esas fueron solo las que estaban alrededor de las minas de Cibao, las de la Vega y otras cercanas, a las que impuso el cascabel de oro como tributo, y quizá parte de Xaraguá.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XVIII, t. 3 l. 3195-3198",
+     "cita_original": "Pero segun creo, sin temor de que creyéndolo me engañe, más habia en toda la isla de tres millones, porque en aquellos tiempos no se tenia cuenta con esta provincia de Higuey",
+     "traduccion": "Pero, según creo y sin temor de equivocarme, había en toda la isla más de tres millones, porque entonces no se tenía cuenta de la provincia de Higüey.",
+     "afirmaciones": [
+      "A-022",
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLII, t. 3 l. 6535-6537",
+     "cita_original": "habia, contados en esta isla todos los indios, 60.000 personas; de manera, que desde el año de 494, en el cual comenzó su desventura, como pareció en el libro I, capítulo 90, hasta el de 508",
+     "traduccion": "Cuando llegó este Tesorero (noviembre de 1508) había, contados en la isla todos los indios, 60.000 personas; desde 1494 hasta 1508...",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLII, t. 3 l. 6537-6541",
+     "cita_original": "perecieron en las guerras y enviar por esclavos á vender á Castilla, y en las minas y otros trabajos, sobre tres cuentos de ánimas",
+     "traduccion": "...perecieron en las guerras, en el envío de esclavos a Castilla y en las minas más de tres millones de almas.",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "lib. III, cap. XXXVII, t. 4 l. 1797-1800",
+     "cita_original": "donde habia sobre tres millones de vecinos naturales della, y que aquel Cacique y señor Guaybona",
+     "traduccion": "donde había más de tres millones de vecinos naturales de ella (al comentar el repartimiento de Alburquerque, 1514).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "lib. I, cap. LVII, t. 1 l. 11781-11784",
+     "cita_original": "Guacanagarí, uno de los cinco Reyes grandes y señalados desta isla, el que creemos que señoreaba toda la mayor parte de tierra que está por la banda del Norte",
+     "traduccion": "Guacanagarí, uno de los cinco reyes grandes y señalados de esta isla, el que creemos que señoreaba la mayor parte de la tierra de la banda del Norte.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "lib. I, cap. LVIII, t. 1 l. 11914-11919",
+     "cita_original": "Hasta aquí, no habia podido entender el Almirante, si este nombre Cacique significaba Rey ó Gobernador, y otro nombre que llamaban Nitayno, si queria decir Grande, ó por hidalgo ó Gobernador; y la verdad es, que Cacique era nombre de Rey, y Nitayno era nombre de caballero y señor principal",
+     "traduccion": "Hasta aquí el Almirante no había podido entender si «cacique» significaba rey o gobernador, ni si «nitayno» quería decir grande, hidalgo o gobernador; y la verdad es que cacique era nombre de rey y nitayno de caballero y señor principal. (Glosa de Las Casas al Diario del 23-24 dic. 1492.)",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "lib. I, cap. CXX, t. 2 l. 4893-4899",
+     "cita_original": "de gran número de gente, que habitaba toda aquella grande serranía, que llamaban ciguayos, cuasi nazarenos como entre los judíos, porque nunca se cortaban ó pelaban pelo alguno de sus cabellos",
+     "traduccion": "Mayobánex era señor de gran número de gente que habitaba toda aquella gran serranía, que llamaban ciguayos, casi nazarenos, porque nunca se cortaban pelo alguno.",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. I, t. 3 l. 350-353",
+     "cita_original": "estos se llamaban naborías, que quiere decir en la lengua desta isla, criados",
+     "traduccion": "estos se llamaban naboría, que quiere decir en la lengua de esta isla criados.",
+     "afirmaciones": []
+    }
+   ],
+   "id_existente": "F-0006",
+   "notas": "Las tres cifras de Las Casas para 1492 (más de tres millones; «tres o cuatro cuentos de ánimas»; 1.100.000 contados «alrededor de Cibao») no son tres fuentes: salen de la misma pluma y la última la transmite de oído (Deza). El propio Las Casas limita el recuento de 1496 a Cibao y la Vega (l. 3191-3194) y admite que no se contó Higüey ni otras provincias (l. 3197-3198): es un recuento tributario parcial, no un censo. El 1508 (60.000, tras «tres cuentos» muertos) es la única cifra de Las Casas con visos de recuento oficial, pero no cita documento. CONTRASTE DOCUMENTAL (nuevo en esta ronda): la magnitud «un millón» ya circulaba en documentos oficiales de 1516-1518 anteriores a la Historia de Las Casas: el Memorial anónimo a Cisneros dice «un cuento de ánimas» y la carta de Zuazo a Chièvres (22-I-1518) «un cuento é ciento é treinta mil indios» (ver las dos fichas nuevas). Las Casas eleva esa cifra a «más de tres millones» (l. 3197-3198). CORRECCIÓN DE REGISTRO: los pasajes de los «cinco reyes» de t. 5 (l. 10085 y l. 13416) pertenecen al Apéndice de la Apologética historia incluido en el t. 5 (l. 6929 en adelante: caps. VII, IX, XX, CXCVII), no a la Historia; ver la ficha F-0903. Los A-0xx citados en esta ficha son solo los de M01.",
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Apologética historia sumaria (extractos del Apéndice del t. 5 de la Historia de las Indias, caps. VII, IX, XX y CXCVII; y ed. NBAE 13, Historiadores de Indias t. I, 1909)",
+   "autor": "Las Casas, Bartolomé de; Serrano y Sanz, Manuel (ed.)",
+   "anio": "c.1527-1561 (ed. 1876 y 1909)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiadoresdei01serr/historiadoresdei01serr_djvu.txt",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-5-de-5_53131/master/53131-0.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Las Casas escribe como testigo de la isla (1502-) para probar la racionalidad de los indios, de modo que la lista de reinos y las lenguas son memoria suya, no documento.",
+   "proveniencia": "Obra de Las Casas en el convento de San Gregorio de Valladolid (c. 1527-1561). Los pasajes de los cinco reyes están en dos ediciones independientes (NBAE 13 de 1909, OCR de archive.org; Apéndice del t. 5 de la ed. de 1876, transcripción de Gutenberg): es el mismo texto de Las Casas, no dos testigos. Mezcla recuerdos propios («yo conocí...») con lo oído a los primeros pobladores.",
+   "extractos": [
+    {
+     "ubicacion": "Apologética historia, cap. XX; t. 5 del texto local l. 10084-10088 (= Historiadores de Indias t. I, NBAE 13, p. 46-47; l. 6498 del djvu)",
+     "cita_original": "Cinco reyes habia grandes, de cinco principales reinos y provincias que en esta tierra ó Isla hay; el uno se llamó Guacanagarí, la sílaba última aguda, el cual reinaba en la provincia que se llamaba el Marien",
+     "traduccion": "Había cinco reyes grandes, de cinco principales reinos y provincias que hay en esta tierra o isla; el uno se llamó Guacanagarí, que reinaba en la provincia llamada el Marién.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. XX; t. 5 l. 10088-10094",
+     "cita_original": "el otro Rey fué Guarionéx, la última sílaba luenga, que en la Vega Real reinaba, y éste fué muy gran señor; el otro se llamó Caonabó, la misma última tambien larga, que en la provincia reinó de la Maguána",
+     "traduccion": "El otro rey fue Guarionex, que reinaba en la Vega Real; el otro se llamó Caonabó, que reinó en la provincia de la Maguana.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. XX; t. 5 l. 10096-10098",
+     "cita_original": "Fué el cuarto rey Behechio, la penúltima luenga tambien, que reinó en el reino de Xaraguá",
+     "traduccion": "El cuarto rey fue Behechio, que reinó en el reino de Xaraguá.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. XX; t. 5 l. 10100-10105",
+     "cita_original": "Era el quinto reino en la provincia de Higuey, la penúltima luenga, que es al Oriente, cuya tierra, viniendo de Castilla á esta Isla, es la primera que topamos, y en éste reinaba en mi tiempo una reina vieja llamada Higuanamá",
+     "traduccion": "El quinto reino era la provincia de Higüey, al oriente, donde en mi tiempo reinaba una reina vieja llamada Higuanamá.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. XX; t. 5 l. 10105-10106",
+     "cita_original": "A estos cinco reyes obedecian y seguian otros infinitos grandes señores",
+     "traduccion": "A estos cinco reyes obedecían y seguían otros infinitos grandes señores.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. CXCVII; t. 5 l. 13416-13418 (= NBAE l. 67533 del djvu)",
+     "cita_original": "En ella cognoscimos cinco principales reyes que la gobernaban principaban y regian, cuyos nombres eran",
+     "traduccion": "En ella (La Española) conocimos cinco reyes principales que la gobernaban, cuyos nombres eran...",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. CXCVII; t. 5 l. 13434-13437",
+     "cita_original": "segun entendimos los que á los principios á esta Isla vinimos, era de nacion Lucayo, natural de las islas de los Lucayos",
+     "traduccion": "según entendimos los que vinimos al principio a esta isla, [Caonabó] era de nación lucayo, natural de las islas de los Lucayos.",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. CXCVII; t. 5 l. 13455-13459",
+     "cita_original": "El rey ó señor que principaba en la provincia de Haniguayaba, tengo presuncion que era señor y rey libre por sí",
+     "traduccion": "El rey o señor que gobernaba la provincia de Haniguayaba, presumo que era señor y rey libre por sí mismo.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. CXCVII; t. 5 l. 13460-13464",
+     "cita_original": "como el rey ó señor de los Ciguayos, llamado Mayobánex, la penúltima luenga, que no fuese subjecto al rey de la Vega",
+     "traduccion": "como el rey o señor de los ciguayos, llamado Mayobánex, que no fuese súbdito del rey de la Vega.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. IX; t. 5 l. 8555-8559",
+     "cita_original": "pienso que se debia llamar todo su estado deste rey Guarionex, Maguá, la última sílaba aguda, cuasi por excelencia, como si dijeran reino de la Vega",
+     "traduccion": "pienso que todo el estado de este rey Guarionex se debía llamar Maguá, como si dijeran reino de la Vega.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. VII; t. 5 l. 8157-8161",
+     "cita_original": "Llamaban los indios á la Vega grande Maguá, absolutamente la última sílaba aguda, y á esta provincia decian con adicion, Maguana, cuasi la Vega menor",
+     "traduccion": "Los indios llamaban a la Vega grande Maguá, y a esta provincia, con adición, Maguana, como la Vega menor.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. CXCVII; t. 5 l. 13541-13547 (= NBAE l. 67761 del djvu)",
+     "cita_original": "Tres lenguas habia en esta Isla distintas, que la una á la otra no se entendia; la una era de la gente que llamábamos del Macoríx de abajo, y la otra de los vecinos del Macoríx de arriba",
+     "traduccion": "Había en esta isla tres lenguas distintas, que no se entendían entre sí: la de la gente del Macorix de abajo y la de los vecinos del Macorix de arriba; la otra lengua fue la universal de toda la tierra.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Apologética historia, cap. VII o VIII (Macorix de arriba); t. 5 l. 7409-7412",
+     "cita_original": "Macorix quiere decir como lenguaje extraño, cuasi bárbaro, porque eran estas lenguas diversas entre sí y diferentes de la general desta isla",
+     "traduccion": "Macorix quiere decir como lenguaje extraño, casi bárbaro, porque estas lenguas eran diversas entre sí y diferentes de la general de esta isla.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "F-0903",
+   "notas": "Las Casas da dos listas de los cinco reyes (cap. XX y cap. CXCVII) que difieren en el orden; ambas nombran Marién (Guacanagarí), Vega Real/Maguá (Guarionex), Maguana (Caonabó), Xaraguá (Behechio) y Higüey (la reina Higuanamá). Pero él mismo introduce cuatro matices: (a) «otros infinitos grandes señores» obedecían a los cinco; (b) Haniguayaba y los ciguayos (Mayobánex) pudieron ser «señores libres» (l. 13455-13467); (c) «Maguá» es el nombre del llano y «Maguana» su diminutivo, no un estado distinto (l. 8157-8161); (d) el reino de Higüey no estuvo bien contado (t. 3 l. 3197). La cifra «cinco» es, pues, una simplificación de Las Casas, no una enumeración exhaustiva. En el djvu de NBAE el número de capítulo del primer pasaje no se leyó por OCR (cap. XIX/XX); el t. 5 local da XX. Las Casas atribuye a Caonabó origen lucayo; Oviedo y Charlevoix lo hacen caribe (ver F-0009 y F-0019).",
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Brevísima relación de la destruición de las Indias (texto completo, transcripción de textos.info)",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "1542 (impr. Sevilla, 1552)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.textos.info/fray-bartolome-de-las-casas/brevisima-relacion-de-la-destruccion-de-las-indias/ebook",
+   "urls_alternativas": [
+    "https://es.wikisource.org/wiki/Brev%C3%ADsima_relaci%C3%B3n_de_la_destrucci%C3%B3n_de_las_Indias",
+    "https://www.rae.es/sites/default/files/hojear_brevisima_relacion_de_la_destruicion_de_las_indias.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de Las Casas (testigo con tesis, escrito para Felipe II) en una transcripción cuya edición base no se declara; las cifras son las de su memoria.",
+   "proveniencia": "Redactada en 1542 (así lo dice el texto de Wikisource: «en este de 1542 en que escribo»), dedicada «al muy alto príncipe de las Españas, don Felipe» (l. 78 del txt) y publicada en Sevilla en 1552 (impresor Sebastián Trujillo, l. 2589); el capítulo «Los reinos que había en la isla Española» sigue el orden Maguá, Marién, Maguana, Xaraguá, Higüey. La página de textos.info no indica la edición transcrita [POR VERIFICAR: cotejar con la ed. de Cervantes Virtual (403 a curl) o con la princeps de 1552].",
+   "extractos": [
+    {
+     "ubicacion": "sección «Los reinos que había en la isla Española», l. 334 del txt extraído de la página",
+     "cita_original": "Había en esta isla Española cinco reinos muy grandes principales y cinco reyes muy poderosos, a los cuales cuasi obedecían todos los otros señores, que eran sin número, puesto que algunos señores de algunas apartadas provincias no reconocían superior dellos alguno",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección «Los reinos que había en la isla Española», l. 340-342",
+     "cita_original": "El un reino se llamaba Maguá, la última sílaba aguda, que quiere decir el reino de la vega",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección «Los reinos...», l. 360-368",
+     "cita_original": "El otro reino se decía del Marién, donde agora es el Puerto Real, al cabo de la Vega, hacia el Norte, y más grande que el reino de Portugal, aunque cierto harto más felice y digno de ser poblado, y de muchas y grandes sierras y minas de oro y cobre muy rico, cuyo rey se llamaba Guacanagarí",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección «Los reinos...», l. ≈383",
+     "cita_original": "El tercero reino y señorío fué la Maguana, tierra también admirable, sanísima y fertilísima, donde agora se hace la mejor azúcar de aquella isla. El rey del se llamó Caonabó",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección «Los reinos...», l. ≈400-403",
+     "cita_original": "El cuarto reino es el que se llamó de Xaraguá; éste era como el meollo o médula o como la corte de toda aquella isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección «Los reinos...», l. ≈425",
+     "cita_original": "El quinto reino se llamaba Higüey e señoreábalo una reina vieja que se llamó Higuanamá",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Prólogo/argumento, l. 204-205",
+     "cita_original": "habiendo en la isla Española sobre tres cuentos de ánimas que vimos, no hay hoy de los naturales de ella docientas personas",
+     "traduccion": "habiendo en la isla Española más de tres millones de almas que vimos, no hay hoy de los naturales de ella doscientas personas.",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "id_existente": "F-0007",
+   "notas": "RESUELVE F-0007 (localizada-bloqueada): el texto completo está en textos.info (HTML, 200). Es la lista que reproduce A-021 («Marién, Maguá, Maguana, Jaragua, Higüey»): la Brevísima da cinco reinos y cinco reyes «a los cuales cuasi obedecían todos los otros señores», pero añade que «algunos señores de algunas apartadas provincias no reconocían superior dellos alguno». Wikisource (es) devuelve 200 pero la obra está incompleta (solo el exordio); el PDF «hojear» de la RAE es una muestra de 68 KB sin el capítulo de La Española: ninguno sirve para el pasaje. Para cotejo, la traducción inglesa de 1689 (F-0008) tiene «Six of their greatest Kingdoms» y luego enumera cinco; ver esa ficha.",
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ]
+  },
+  {
+   "titulo": "A Brief Account of the Destruction of the Indies (trad. inglesa de 1689), pasajes sobre La Española",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "trad. 1689 (orig. 1542)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/A-Brief-Account-of-the-Destruction-of-the-Indies--13-Or-a-faithful-NARRATIVE-OF-THE-Horrid-an__20321/master/20321.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Traducción de época con tendencia antiespañola y dos discrepancias numéricas respecto del original (seis reinos; trescientas personas).",
+   "proveniencia": "Traducción inglesa de 1689 del texto de Las Casas, hecha en Londres en clave de leyenda negra (ver 02-fuentes/textos/README.md). Se conserva solo para el cotejo con el original español de F-0007.",
+   "extractos": [
+    {
+     "ubicacion": "l. 381-383 del txt local (GITenberg 20321); sección «Of the Kingdoms contained in Hispaniola»",
+     "cita_original": "This Isle of Hispaniola was made up of Six of their greatest Kingdoms, and as many most Puissant Kings, to whose Empire almost all the other Lords, whose Number was infinite, did pay their Allegiance",
+     "traduccion": "Esta isla de La Española estaba compuesta de seis de sus mayores reinos y otros tantos poderosísimos reyes, a cuyo imperio casi todos los demás señores, de número infinito, rendían obediencia. [El original español dice «cinco reinos».]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "l. 214-217 del txt local",
+     "cita_original": "that of Three Millions of Persons, which lived in Hispaniola itself, there is at present but the inconsiderable remnant of scarce Three Hundred",
+     "traduccion": "de tres millones de personas que vivían en la propia La Española, hoy queda solo un resto insignificante de apenas trescientos. [El original español dice «docientas personas».]",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "id_existente": "F-0008",
+   "notas": "La URL raw de GITenberg 20321 se descargó de nuevo en esta sesión (200, 207.669 bytes): las líneas citadas están en l. 216 y l. 381 del raw (l. 214-217 y 380-383 en la copia del repo, que tiene otra cabecera). Dos discrepancias con el español de F-0007: (1) «Six of their greatest Kingdoms» frente a «cinco reinos muy grandes principales»; el mismo traductor enumera luego «A Second... Third... Fourth... Fifth Kingdom» (l. 444, 465, 487, 516), de modo que «Six» es un error o una variante del traductor y no cuenta como evidencia de seis reinos; (2) «scarce Three Hundred» frente a «docientas personas». Quien cite A-022 desde la versión inglesa citaría 300 y no 200.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ]
+  },
+  {
+   "titulo": "Conteo tributario de La Española de 1496 (Bartolomé Colón), transmitido por Las Casas y descrito por Hernando Colón",
+   "autor": "Colón, Bartolomé; Las Casas, Bartolomé de; Colón, Hernando",
+   "anio": "1496 (transmisión: Las Casas c.1527-1561; H. Colón 1530s)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-3-de-5_53171/master/53171-0.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/historiadelalmir01col/historiadelalmir01col_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "No existe el recuento original: la cifra de 1.100.000 es un dicho oral de Colón al arzobispo Deza que Las Casas recuerda décadas después, y él mismo la limita a Cibao y la Vega.",
+   "proveniencia": "Hernando Colón describe la tasa de 1496 (un cascabel de oro por cada indio de más de catorce años en Cibao; 25 libras de algodón para el resto) sin dar un total; el 1.100.000 sale solo de Las Casas, que lo oyó de Deza. Ver F-0006 y F-0002.",
+   "extractos": [
+    {
+     "ubicacion": "Las Casas, Historia, lib. II, cap. XVIII, t. 3 l. 3189-3190",
+     "cita_original": "dicho el mismo Almirante, que habia contado un cuento y cien mil ánimas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "Las Casas, Historia, lib. II, cap. XVIII, t. 3 l. 3191-3195",
+     "cita_original": "Pero estas fueron solas aquellas que estaban al rededor de las minas de Cibao, como eran las que moraban en la gran Vega y otras cercanas dellas, á las cuales impuso el cascabel de oro que diesen por tributo, como arriba se dijo, en el primer libro, y con ellas pudieron entrar alguna parte de la provincia de Xaraguá",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "Hernando Colón, Historia del Almirante, t. 1, pp. 273-274 (l. 7607-7611 del djvu 1892)",
+     "cita_original": "Que todos los indios que vivían en Cibao, donde estaban las minas de oro, pagase cada uno, que tuviese catorce años, un cascabel lleno de oro, en polvo, y la demás gente á 25 libras de algodón",
+     "traduccion": "Que todos los indios que vivían en Cibao, donde estaban las minas de oro, pagase cada uno, de los de catorce años arriba, un cascabel lleno de oro en polvo, y la demás gente 25 libras de algodón.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    }
+   ],
+   "id_existente": "F-0004",
+   "notas": "RESUELVE F-0004 (fragmento-busqueda): el pasaje exacto está en Las Casas, Historia lib. II cap. XVIII, y es lo que repite History Reclaimed (F-0188: se abrió su portada con 200 pero no se localizó el artículo «Myth of Millions»; no se usa). Qué es y qué no es: (a) es un dato de segunda mano (Colón -> Deza -> Las Casas); (b) cubre «las minas de Cibao, la gran Vega y otras cercanas» y quizá parte de Xaraguá, no toda la isla; (c) no figura en la descripción del tributo de Hernando Colón, que no da totales. Por tanto, 1,1 millones es una cota inferior parcial de origen oral, no un censo; Las Casas lo usa para sostener su «más de tres millones». El mismo orden de magnitud (1.130.000 «al principio que esta isla se descubrió») figura ya en la carta de Zuazo de 1518 (ficha nueva), anterior a la Historia de Las Casas. Pendiente [POR VERIFICAR]: si algún documento de AGI (PARES) conserva el recuento de Bartolomé Colón.",
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-027"
+   ]
+  },
+  {
+   "titulo": "Historie del S.D. Fernando Colombo / Historia del Almirante, caps. de la «Escritura de Fray Román (Pané)» y de la tasa de 1496",
+   "autor": "Colón, Hernando",
+   "anio": "1571 (it.); ed. española Madrid 1892",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiadelalmir01col/historiadelalmir01col_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/historiedelsdfer00coln/historiedelsdfer00coln_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de hijo del Almirante que incorpora la Relación de Pané, pero el original español se perdió y el texto que leemos es retraducción del italiano.",
+   "proveniencia": "Hernando Colón, hijo del Almirante, escribió la Historia del Almirante [POR VERIFICAR: fecha de redacción, década de 1530]; el original español se perdió y se conserva en la versión italiana de Alfonso de Ulloa (Venecia, 1571). El texto español de 1892 (Madrid, Col. de libros raros o curiosos, t. 5) es retraducción [POR VERIFICAR: traductor]. Incluye íntegra la Relación de Pané, que es la copia más antigua que sobrevive.",
+   "extractos": [
+    {
+     "ubicacion": "t. 1, p. 281 (l. 7822-7832 del djvu, ed. Madrid 1892: «Escritura de Fray Román (Pané)»)",
+     "cita_original": "Cada uno de los Indios observa particular modo y superstición, en adorar los ídolos que tienen en casa, que llaman Cemis",
+     "traduccion": "Cada uno de los indios observa particular modo y superstición en adorar los ídolos que tienen en casa, que llaman cemíes.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Historie, Venecia 1571, cap. de la Relación de Pané (l. 14042-14046 del djvu italiano; OCR ruidoso, grafía normalizada)",
+     "cita_original": "la Prouincia della Maddalena Maroris hauea diuersa lingua dall'altra, & che non era inteso il suo parlar per tutta la terra",
+     "traduccion": "la provincia de la Magdalena (Maroris = Macorix) tenía lengua diferente de la otra, y su habla no se entendía por toda la tierra.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "F-0002",
+   "notas": "Se añaden dos extractos nuevos para M01: la fórmula inicial de Pané sobre los cemíes y, en la edición italiana de 1571, la frase sobre la diferencia lingüística de Macorix. El OCR del djvu italiano es muy ruidoso (s larga como f, signos intercalados): la cita se da en grafía normalizada y se comprobó de forma difusa contra el OCR; no sustituye la lectura de un ejemplar. Para el tributo de 1496 ver F-0004.",
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Relación acerca de las antigüedades de los indios (ed. Arrom, 3.ª ed., Siglo XXI, México)",
+   "autor": "Pané, Ramón; Arrom, José Juan (ed.)",
+   "anio": "c.1498 (ed. 1974; 3.ª ed.)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/FrayRamonPaneRelacionAcercaDeLasAntiguedadesDeLosIndios/Fray%20Ram%C3%B3n%20Pan%C3%A9%20-%20Relaci%C3%B3n%20acerca%20de%20las%20antiguedades%20de%20los%20indios_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Único texto escrito que recoge por contacto directo, en lengua local, creencias de la isla antes de 1500; con límites declarados por el propio autor (solo La Española, informantes de Macorix y de Guarionex).",
+   "proveniencia": "Fraile jerónimo («pobre ermitaño de la Orden de San Jerónimo», dice él) que vive entre los indios de La Española por orden de Colón (Arrom: más de un año en la isla hacia marzo de 1495) y escribe «por mandato del Almirante» hacia 1498. El original se perdió: Arrom reconstruye el texto español desde la Historie de 1571. La edición leída (Arrom, Siglo XXI) está bajo derechos; el texto de Pané, no.",
+   "extractos": [
+    {
+     "ubicacion": "Relación, cap. I (ed. Arrom 1974, p. 22; l. 941-945 del djvu)",
+     "cita_original": "La Española tiene una provincia llamada Caonao, en la que está una montaña, que se llama Cauta, que tiene dos cuevas nombradas Cacibajagua una y Amayaúna la otra. De Cacibajagua salió la mayor parte de la gente que pobló la isla",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Estudio preliminar de Arrom, p. 7 (Pané citado), l. 305-310 del djvu",
+     "cita_original": "El señor Almirante me dijo entonces que la provincia de la Magdalena o Macorix tenía lengua distinta de la otra, y que no se entendía el habla por todo el país",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Proemio, p. 21 (l. 910-913 del djvu)",
+     "cita_original": "Cada uno, al adorar los ídolos que tienen en casa, llamados por ellos cemíes, observa un particular modo y superstición",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "cap. XV, p. 34 (l. 1389-1397 del djvu)",
+     "cita_original": "Todos, o la mayor parte de los de la isla Española, tienen muchos cemíes de diversas suertes. Unos contienen los huesos de su padre, y de su madre, y parientes, y de sus antepasados; los cuales están hechos de piedra o de madera",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Proemio, p. 21 (l. 918-919 del djvu)",
+     "cita_original": "porque ellos no saben leer, ni contar sino hasta diez",
+     "traduccion": "porque ellos no saben leer ni contar sino hasta diez. [Pané explica así que sus informantes no conservaban registros numéricos ni escritos.]",
+     "afirmaciones": [
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "F-0003",
+   "notas": "Para M01 tiene tres usos: (1) religión y sociedad: cemíes, behiques y el cacique como intermediario; (2) el relato nativo de origen (Caonao-Cauta-Cacibajagua/Amayaúna) como tradición oral, no como evidencia cronológica ni de las oleadas arqueológicas; (3) heterogeneidad lingüística (Macorix frente a la lengua «que se entendía por toda la tierra» de Guarionex). Arrom discute si Pedro Mártir usó el manuscrito de Pané o las conversaciones con Colón (intro., l. 440-460 del djvu): las coincidencias de nombres entre ambos no prueban dos testigos independientes. Las marcas numéricas de nota al pie que el OCR incrusta en el texto se retiraron de las citas. [POR VERIFICAR] la numeración de capítulos y páginas contra el impreso.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Repartimiento de la Isla Española (1514), en Colección de documentos inéditos... de Indias, t. I (Madrid, 1864)",
+   "autor": "Ibáñez de Ibarra, Pero; Alburquerque, Rodrigo de; Pacheco, J. F.; Cárdenas, F. de (eds.)",
+   "anio": "1514 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de repartidores reales sobre un recuento nominal por ciudad, pero solo cuenta personas «de servicio» y deja fuera a niños y viejos.",
+   "proveniencia": "Recuento hecho por Pero Ibáñez de Ibarra y Rodrigo de Alburquerque en 1514 para repartir caciques y naborías entre los vecinos; copia del AGI publicada en la CODOIN en 1864. Documenta lo que quedaba veinte años después del contacto, no la población de 1492.",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, «Repartimiento de la Isla Española», encabezado (l. 1933-1941 del djvu)",
+     "cita_original": "Relación de las cosas que se han hecho en el repartimiento de la Isla Española por los muy nobles señores, el licenciado Pero Ibañez de Ibarra é Rodrigo de Alburquerque, repartidores de los caciques é indios déla dicha Isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, ciudad de la Concepción (l. 2279-2283 del djvu)",
+     "cita_original": "sin los niños é viejos que son por todos los dichos indios ó naborías dos mil é novecientos é veinte ó cuatro personas de servicio.",
+     "traduccion": "sin los niños y viejos, que son por todos los dichos indios o naborías dos mil novecientos veinticuatro personas de servicio.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "CODOIN t. I, Repartimiento de 1514 (l. 3336-3341 del djvu)",
+     "cita_original": "Encomendósele el cacique Ayamuynuex, é su mujer é hijos, que están en el asiento é casa que se dice Xinabueca con los nitaynos Juan Labrador, é Soto, é Grado, é Agostin é Nabeca, con setenta é cuatro personas de servicio.",
+     "traduccion": "Se le encomendó el cacique Ayamuynuex, con su mujer e hijos, que están en el asiento y casa que se dice Xinabueca, con los nitaynos Juan Labrador, Soto, Grado, Agostín y Nabeca, con setenta y cuatro personas de servicio.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "F-1590",
+   "notas": "«Nitayno» aparece unas 32 veces en la CODOIN t. I (recuento por búsqueda en el djvu), casi todas en este repartimiento, como rango intermedio entre el cacique y las personas de servicio y, ya cristianizado, como apellido (Alonso Nitayno, Francisco Vallejo nitayno): en un documento oficial de 1514 la palabra designa un rango social, no un pueblo; el extracto de l. 3336 es un ejemplo. RESUELVE F-0011 (archivo-fisico): F-0011 «Repartimiento de Alburquerque» y F-1590 son el MISMO documento (la CODOIN t. I imprime el original del AGI); conviene fusionarlos en la consolidación del registro y conservar F-1590 por tener URL. Cada ciudad da un subtotal de «personas de servicio» que excluye a niños y viejos; sumar los subtotales (no se hizo aquí: es tarea de M02 y de A-024) daría una cota inferior de la población de 1514, no su total. Las Casas, t. 4 l. 1772-1800 (lib. III cap. XXXVII) transcribe partes del mismo repartimiento y comenta que antes había «más de tres millones». Moya Pons parte, según A-024, del repartimiento de 1508 (que no se conserva; solo la cifra de 60.000 de Las Casas, ver F-0006).",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-024",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Repartimiento de Alburquerque (1514): copia del AGI impresa en la CODOIN t. I (Madrid, 1864)",
+   "autor": "Ibáñez de Ibarra, Pero; Alburquerque, Rodrigo de",
+   "anio": "1514 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de repartidores reales; solo cuenta personas de servicio y excluye niños y viejos.",
+   "proveniencia": "Ver la ficha de F-1590: es el mismo documento. El encabezado del impreso (l. 1933) lo titula «Repartimiento de la Isla Española» y lo atribuye a los repartidores Pero Ibáñez de Ibarra y Rodrigo de Alburquerque; procede del Archivo General de Indias (Sevilla).",
+   "extractos": [
+    {
+     "ubicacion": "CODOIN t. I, «Repartimiento de la Isla Española», encabezado (l. 1933-1941 del djvu)",
+     "cita_original": "Relación de las cosas que se han hecho en el repartimiento de la Isla Española por los muy nobles señores, el licenciado Pero Ibañez de Ibarra é Rodrigo de Alburquerque, repartidores de los caciques é indios déla dicha Isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    }
+   ],
+   "id_existente": "F-0011",
+   "notas": "RESUELVE F-0011 (archivo-fisico → texto en línea). La nota de F-0011 daba 26.334 indios (Arranz Márquez 1991) y también 22.336 y 26.189 [POR VERIFICAR]: no se sumaron en esta ronda los subtotales de la CODOIN, de modo que ninguna de las tres cifras se confirma ni se refuta aquí. Se recomienda fusionar F-0011 con F-1590 en la consolidación del registro.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-024"
+   ]
+  },
+  {
+   "titulo": "Carta del licenciado Alonso de Zuazo («Cuaco») a Monsieur de Chièvres, Santo Domingo de la Isla Española, 22 de enero de 1518",
+   "autor": "Zuazo, Alonso de",
+   "anio": "1518 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Carta de un juez de residencia en funciones, cercana a los hechos, que cita «los repartimientos pasados» como base pero no los identifica ni da el cálculo.",
+   "proveniencia": "Zuazo fue juez de residencia en Santo Domingo, nombrado por el cardenal Cisneros al mismo tiempo que los padres jerónimos (nota de la CODOIN, l. 12680-12690 del djvu); escribe el 22-I-1518 a «Monsieur de Xevres» (Chièvres) para denunciar el repartimiento de Alburquerque (1514) y pedir remedio. Es crítico de Alburquerque y de los antiguos oficiales, y su cifra sirve a su argumento de que el repartimiento destruyó a los indios. Publicada en la CODOIN t. I (1864) desde el AGI.",
+   "extractos": [
+    {
+     "ubicacion": "Carta de Zuazo a Chièvres, Santo Domingo, 22-I-1518; CODOIN t. I, p. ≈310 (l. 13370-13374 del djvu)",
+     "cita_original": "á lo que se alcanza de los repartimientos pasados dende el tiempo del Almirante viejo hasta hoy, se hallaron al principio que esta Isla Española se descubrió, un cuento é ciento é treinta mil indios, é ahora no llegan á once mil personas",
+     "traduccion": "según se alcanza de los repartimientos pasados, desde el tiempo del Almirante viejo hasta hoy, se hallaron al principio, cuando esta isla Española se descubrió, un millón ciento treinta mil indios, y ahora no llegan a once mil personas.",
+     "afirmaciones": [
+      "A-022",
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "",
+   "notas": "Es la cifra documental más temprana que se haya localizado en esta ronda para la población de 1492: 1.130.000 indios (frente a «un cuento y cien mil» de Las Casas por vía de Deza, F-0004, y «un cuento de ánimas» del Memorial a Cisneros, ficha nueva). Tres cautelas: (1) Zuazo no cita qué repartimientos ni da el cálculo, y del tiempo del «Almirante viejo» solo se conoce la tasa tributaria de 1496 (F-0004) [POR VERIFICAR si hubo otro padrón colombino]; «repartimientos pasados» puede referirse a los de Ovando (1508) y Alburquerque (1514); (2) el «ahora no llegan a once mil» (1518) es mucho más bajo que lo que cuentan las «personas de servicio» del repartimiento de 1514 (F-1590), lo que sugiere conteos con criterios distintos [POR VERIFICAR: sumar el repartimiento de 1514]; (3) la coincidencia aproximada con el 1,1 millón de Las Casas puede deberse a que Las Casas oyó una versión de esta misma cifra oficial: no se pueden tratar como dos testimonios independientes. Lo que sí queda establecido es la magnitud: «un millón» ya circulaba en documentos oficiales de 1516-1518, antes de la Historia de Las Casas, y no el «más de tres millones» de éste. Los padres jerónimos escriben el 10-I-1519 (CODOIN t. I, l. 15617-15640 del djvu) que reunieron «los pocos indios que habían quedado» en 30 pueblos con yuca para «más de siete mil personas»: orden de magnitud coherente con las «once mil personas» de Zuazo (tema de M02).",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ]
+  },
+  {
+   "titulo": "Memorial dado al cardenal Cisneros de lo que conviene proveer para la buena gobernación de la Isla Española (anónimo, 1516-1518)",
+   "autor": "Anónimo (los editores de la CODOIN conjeturan a Las Casas)",
+   "anio": "1516-1518 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial sin fecha ni firma de un denunciante bien informado que residía en la corte; da una cifra redonda sin base.",
+   "proveniencia": "Documento anónimo del legajo «Patronato Real Antiguo, Arca de Indias, n.º 7» de Simancas, que los editores de la CODOIN (1864) datan entre 1516 y 1518 y dirigen a Cisneros; atribuyen su autoría a Las Casas «por conjetura» (nota 1, l. 11572-11587 del djvu). Denuncia a Lope de Conchillos y los abusos del repartimiento.",
+   "extractos": [
+    {
+     "ubicacion": "Memorial dado al cardenal Cisneros, CODOIN t. I, p. 255 (l. 11186-11191 del djvu)",
+     "cita_original": "se han disminuido de un cuento de ánimas que habia en la Española, é que no han quedado sino quince ó diez ó seis mil",
+     "traduccion": "se han disminuido de un millón de almas que había en La Española, y no han quedado sino quince o diez o seis mil.",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    }
+   ],
+   "id_existente": "",
+   "notas": "Si fuera de Las Casas (conjetura de los editores, no probada), «un cuento de ánimas» sería su cifra más temprana (1516-1518), un millón, frente al «más de tres millones» de su Historia (1527-1561): muestra de cómo una cifra de orden de magnitud sube con el tiempo. Como memorial anónimo es un dato de origen incierto; su valor es documentar que en 1516-1518 se hablaba de un millón (y no de tres) y de «quince o diez o seis mil» supervivientes. El autor reside en la corte de Castilla («Valladolid», según la nota editorial).",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-024"
+   ]
+  },
+  {
+   "titulo": "Historia general y natural de las Indias, t. I (ed. Real Academia de la Historia, 1851), libros III y V",
+   "autor": "Fernández de Oviedo, Gonzalo",
+   "anio": "1535 (lib. III y V en t. I; ed. RAH 1851)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/mobot31753000521671/mobot31753000521671_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cronista oficial y testigo (vio a los primeros indios en Barcelona en 1493 y vivió en La Española), con fuentes orales declaradas; el OCR de archive.org tiene ruido.",
+   "proveniencia": "Oviedo publicó en 1535 la primera parte de la Historia y la corrigió hasta 1548 (el pasaje del millón dice «este año de 1548»). Dice haber compilado sus «memorias» desde 1493 y consultado testigos. Es el segundo testimonio, independiente de Las Casas en la forma y en la lista (Cayacoa en lugar de Higuanamá), aunque no necesariamente en los informantes.",
+   "extractos": [
+    {
+     "ubicacion": "Libro III, cap. IV, p. 65 (l. 15222-15230 del djvu de RAH 1851)",
+     "cita_original": "cinco prefetos ó reyes, que los indios llaman caciques, que mandaban y señoreaban toda la isla; debaxo de los quales avia otros caciques de menor señorio, que obedescian á alguno de los cinco principales",
+     "traduccion": "cinco prefectos o reyes, que los indios llaman caciques, que mandaban y señoreaban toda la isla; debajo de los cuales había otros caciques de menor señorío, que obedecían a alguno de los cinco principales.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Libro III, cap. IV, p. 65 (l. 15245-15248)",
+     "cita_original": "Los nombres de los cinco eran estos: Guarionex, Caonabo, Behechio, Goacanagari, Cayacoa",
+     "traduccion": "Los nombres de los cinco eran estos: Guarionex, Caonabo, Behechio, Goacanagari, Cayacoa.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Libro III, cap. IV, p. 66 (l. 15286-15290)",
+     "cita_original": "seyendo un caribe principal, se vino á esta isla como capitan aventurero",
+     "traduccion": "[Caonabo], siendo un caribe principal, se vino a esta isla como capitán aventurero.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Libro III, cap. VI, pp. 71-72 (l. 15968-15977)",
+     "cita_original": "falló el almirante, quando estas islas descubrió, un millon de indios é indias ó mas, de todas edades, ó entre chicos é grandes: de los quales todos é de los que despues nascieron, no se cree que hay al presente en este año de mill é quinientos y quarenta é ocho, quinientas personas",
+     "traduccion": "El Almirante halló, cuando descubrió estas islas, un millón de indios e indias o más, de todas las edades; no se cree que hoy, en 1548, haya quinientas personas descendientes de aquellos primeros.",
+     "afirmaciones": [
+      "A-022",
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Libro V, cap. I, p. 126 (l. 22127-22135)",
+     "cita_original": "ellos llaman cemi, y á este tienen por su Dios",
+     "traduccion": "A [la figura del demonio] llaman cemí, y a este tienen por su Dios.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Libro V, cap. I, p. 126 (l. 22132-22136)",
+     "cita_original": "E tenian ciertos hombres entre sí que llaman buhiti, que servian de auríspices ó agoreros adevinos",
+     "traduccion": "Tenían ciertos hombres entre sí que llaman buhiti, que servían de augures o agoreros adivinos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Libro V, cap. I, p. 125 (l. 22084-22090)",
+     "cita_original": "solos sus cantares, que ellos llaman areytos, es su libro ó memorial que de gente en gente queda de los padres á los hijos",
+     "traduccion": "solo sus cantares, que llaman areítos, es su libro o memorial que de gente en gente queda de los padres a los hijos.",
+     "afirmaciones": [
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "F-0009",
+   "notas": "Oviedo confirma «cinco» pero con una lista de personas, no de provincias (Guarionex, Caonabo, Behechio, Goacanagari y Cayacoa); y en su Sumario de 1526 (ver ficha propia) solo nombra dos reyes grandes. Oviedo califica a Caonabo de «caribe», Las Casas de «lucayo» y Charlevoix de «Caraïbe»: la etiqueta étnica del cacique de Maguana no está resuelta. El «millón o más» es opinión de «muchos que lo vieron» (testimonio de oídas, redactado en 1548). Se corrigió en las citas el OCR («estasislas», guiones de línea). Números de página según el OCR del djvu [POR VERIFICAR contra el impreso].",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Sumario de la natural historia de las Indias (1526), ed. Álvaro Baraibar, Biblioteca Indiana 26",
+   "autor": "Fernández de Oviedo, Gonzalo; Baraibar, Álvaro (ed.)",
+   "anio": "1526 (ed. 2010)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/fernandez-de-oviedo-g.-sumario-de-la-natural-historia-de-las-indias-2010/Fern%C3%A1ndez%20de%20Oviedo%2C%20G.%20-%20%20Sumario%20de%20la%20natural%20historia%20de%20las%20Indias%20%5B2010%5D_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto de Oviedo dirigido a Carlos V en 1525-1526, cercano a los hechos, en edición crítica anotada de la Universidad de Navarra con licencia Creative Commons.",
+   "proveniencia": "Oviedo lo escribió en 1525 (el texto dice «este presente año de 1525») para el emperador Carlos V y se imprimió en Toledo en 1526 (introducción de Baraibar, l. 1396 del djvu); la ed. de Baraibar (Iberoamericana/Vervuert, 2010) lleva introducción y notas y está en acceso abierto. Es anterior en nueve años a la Historia general y más breve.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 2, «De la isla Española», pp. 74-75 de la ed. Baraibar (l. 3361-3363 y 3403 del djvu)",
+     "cita_original": "Aquesta isla fue muy poblada de indios, y hubo en ella dos reyes grandes, que fueron Caonabo y Guarionex, y después subcedió en el señorío Anacaona",
+     "traduccion": "Esta isla fue muy poblada de indios, y hubo en ella dos reyes grandes, Caonabo y Guarionex, y después sucedió en el señorío Anacaona.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "cap. 2, p. 75 (l. 3404-3408 del djvu)",
+     "cita_original": "los indios que al presente hay son pocos y los cristianos no son tantos cuantos debría haber",
+     "traduccion": "los indios que ahora hay son pocos y los cristianos no son tantos como debería haber.",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "id_existente": "",
+   "notas": "Dato disonante para A-021: en 1526 Oviedo menciona solo «dos reyes grandes» (Caonabo y Guarionex); en la Historia general (1535-1548) enumera cinco caciques. No es contradicción necesaria (el Sumario es un resumen para el emperador) pero impide presentar «cinco» como unanimidad de la fuente. La cita une dos páginas (74-75) separadas en el djvu por notas a pie; se retiraron los asteriscos de nota. Las notas de Baraibar (p. ej. nn. 41-44) son aparato crítico moderno, no Oviedo.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ]
+  },
+  {
+   "titulo": "De Orbe Novo / Décadas, vol. 1 (trad. MacNutt 1912): Décadas I y III",
+   "autor": "Pedro Mártir de Anglería (Pietro Martire d'Anghiera); MacNutt, F. A. (trad.)",
+   "anio": "1511-1530 (trad. 1912)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/De-Orbe-Novo-Volume-1--of-2-The-Eight-Decades-of-Peter-Martyr-D-Anghera_12425/master/12425.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/deorbenouopetrim00angh/deorbenouopetrim00angh_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Humanista de la corte que no viajó a las Indias y escribe con informes de terceros; traducción de 1912 con notas del traductor que no son de Mártir.",
+   "proveniencia": "Mártir (1457-1526) escribió en latín cartas-crónicas a prelados con lo que le contaban Colón y los que volvían (Décadas publicadas entre 1511 y 1530, según el registro). La versión inglesa de MacNutt (1912) es la del repo; se localizó el pasaje de los cemíes (Década I, lib. IX) también en el latín de 1530 (archive.org, deorbenouopetrim00angh: «Zemes», «Iocauna», «Cazibaxagua», «Amaiauna»), con OCR ruidoso; las citas de este registro son del inglés.",
+   "extractos": [
+    {
+     "ubicacion": "Década I, lib. IX, l. 5493-5496 del txt local (GITenberg 12425)",
+     "cita_original": "They believe the zemes to be intermediaries between them and God, whom they represent as one, eternal, omnipotent, and invisible. Each cacique has his zemes, which he honours with particular care",
+     "traduccion": "Creen que los cemíes son intermediarios entre ellos y Dios, al que representan como uno, eterno, omnipotente e invisible. Cada cacique tiene sus cemíes, que honra con particular cuidado.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Década I, lib. IX, l. 5505-5509",
+     "cita_original": "There exists in Hispaniola a district called Caunauna, where the human race took its origin in a cavern on a certain mountain",
+     "traduccion": "Hay en La Española una región llamada Caunauna, donde la raza humana tuvo su origen en una caverna de cierta montaña. [Versión de Mártir del relato de Pané: Caonao, Cauta, Cacibajagua.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Década III, lib. VIII, l. 11655-11659",
+     "cita_original": "Beyond the mountains of Cibao towards the north there opens another valley called the Guarionexius",
+     "traduccion": "Más allá de las montañas de Cibao, hacia el norte, se abre otro valle llamado Guarionexio, porque siempre ha pertenecido, de padre a hijo y por derecho hereditario, a los caciques llamados Guarionexios.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Década III, lib. VIII, l. 11705-11707",
+     "cita_original": "Many people claim that they formerly numbered more than twelve millions; how many there are to-day I will not venture to say, so much am I horrified",
+     "traduccion": "Muchos afirman que antes eran más de doce millones; cuántos hay hoy no me atrevo a decirlo, tan horrorizado estoy.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "F-0010",
+   "notas": "Tres cautelas: (1) la cifra «doce millones» es un «many people claim», sin autor ni base; la nota de MacNutt al pie (que habla de 14.000 y 4.000 supervivientes) es del traductor de 1912, no de Mártir [POR VERIFICAR su fuente]; (2) los nombres del relato de origen (Caunauna, Cauta, Cazabixaba/Amaiauna, Machochael) coinciden con Pané, de quien Mártir recibió noticias, según infiere Arrom de cartas de 1497-1499, por conversaciones con Colón (F-0003): dos versiones de una misma tradición, no dos testigos; (3) la nota 4 de MacNutt (l. 3586-3588) que enumera cinco caciques (Caunaboa, Guarionex, Gauccanagari, Behechio, Cotubanama) es comentario del traductor, no texto de Mártir, y no se usa como evidencia de A-021. El pasaje de la herencia del cacicazgo de Guarionex es evidencia directa de sucesión de padre a hijo.",
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-027"
+   ]
+  },
+  {
+   "titulo": "Histoire de l'Isle Espagnole ou de S. Domingue, t. I (Paris, 1730), Livre I",
+   "autor": "Charlevoix, Pierre-François-Xavier de",
+   "anio": "1730",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoiredelislee11730char/histoiredelislee11730char_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilador jesuita del siglo XVIII que cita a Las Casas, Oviedo y Herrera: no es testigo, pero es la fuente de la lista de reinos por nombre de provincia que usa la tradición posterior.",
+   "proveniencia": "Charlevoix, jesuita [POR VERIFICAR: biografía no consultada en esta sesión], publicó el t. I de la Histoire en París en 1730; sus capítulos sobre los indios resumen cronistas españoles, citados por nombre en el texto (Las Casas, l. 4019; Oviedo, l. 1976 del djvu).",
+   "extractos": [
+    {
+     "ubicacion": "Livre I, p. ≈38-39 (l. 2796-2803 del djvu)",
+     "cita_original": "Quelques auteurs ont prétendu qu’on y trouva trois millions d’âmes. D’autres en retranchent les deux tiers ; peut-être ceux-ci en mettent-ils trop peu, mais il y a beaucoup d’apparence que ceux-là en mettoient trop, & qu’il faut prendre un milieu",
+     "traduccion": "Algunos autores han pretendido que se hallaron tres millones de almas; otros les quitan dos tercios; quizá estos ponen demasiado poco, pero es muy probable que aquellos pusieran demasiado y que haya que tomar un término medio entre ambas opiniones.",
+     "afirmaciones": [
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "Livre I, p. ≈59 (l. 3896-3898 del djvu)",
+     "cita_original": "Ils la trouvèrent divisée presque toute entière en cinq Royaumes parfaitement indépendans les uns des autres",
+     "traduccion": "La encontraron dividida casi por entero en cinco reinos perfectamente independientes unos de otros.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Livre I, p. ≈61 (l. 4012-4016 del djvu)",
+     "cita_original": "mais ces mines n’étoient pas du Royaume de Magua, dont le Souverain au temps delà découverte se nommoit Guarionex",
+     "traduccion": "pero esas minas no eran del reino de Magua, cuyo soberano al tiempo del descubrimiento se llamaba Guarionex.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Livre I, p. ≈61-62 (l. 4032-4040 del djvu)",
+     "cita_original": "Le troisième portoit le nom de Maguana, & renfermoit la Province de Cibao, & presque tout le cours de la riviere Hattibonito, ou l’Artibonite, qui est la plus grande de l’isle. Caonabo, qui y regnoit, étoit Caraïbe, il avoit passé dans l’isle en avanturier",
+     "traduccion": "El tercero llevaba el nombre de Maguana... Caonabo, que reinaba allí, era caribe; había pasado a la isla como aventurero.",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "F-0019",
+   "notas": "El orden Magua, Marien, Maguana, Xaragua, Higuey y los nombres de los reyes de Charlevoix coinciden con Las Casas (Brevísima, Apologética) y no aportan un tercer testimonio independiente. Interesa por tres cosas: (a) describe límites y capitales de cada reino (l. 4010-4075 del djvu) como si fueran Estados con fronteras — una reconstrucción del siglo XVIII sobre Las Casas que la arqueología de cacicazgos no confirma por sí sola; (b) sobre la población hace una media mental («un milieu») entre tres millones y un tercio de eso, sin base: es opinión, no cálculo; (c) llama «Caraïbe» a Caonabo (Las Casas: lucayo; Oviedo: caribe). OCR de s larga normalizado en las citas; página ≈ por los encabezados «40 Histoire», «44 Histoire», «62 Histoire» del djvu.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Idea del valor de la Isla Española (Madrid, 1785)",
+   "autor": "Sánchez Valverde, Antonio",
+   "anio": "1785",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/ideadelvalordela00snguat/ideadelvalordela00snguat_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto del siglo XVIII que repite a Las Casas sin fuente propia (lo cita nominalmente: «como testifica el ilustrísimo Casas»).",
+   "proveniencia": "Sánchez Valverde, sacerdote criollo de Santo Domingo [POR VERIFICAR: biografía no consultada en esta sesión], publicó la Idea en Madrid en 1785 para defender la utilidad de la parte española ante la Corona. Los capítulos iniciales describen la población indígena a partir de Las Casas y Charlevoix.",
+   "extractos": [
+    {
+     "ubicacion": "cap. II (l. 1419-1424 del djvu, ejemplar de la UFM)",
+     "cita_original": "Los habitantes, que encontramos en Hayti, aunque no consta con seguridad su número, que algunos hacen subir á mas de cinco millones, es cierto que componían cinco poderosas Monarquías",
+     "traduccion": "Los habitantes que encontramos en Haití, aunque no consta con seguridad su número, que algunos hacen subir a más de cinco millones, es cierto que componían cinco poderosas monarquías.",
+     "afirmaciones": [
+      "A-021",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "cap. IX o X (l. 3880-3884 del djvu)",
+     "cita_original": "Principalmente quando la población de aquella isla, aunque no llegase á tres millones, como testifica el ilustrísimo Casas, no puede negarse, que era muy grande en proporción á la extensión del terreno",
+     "traduccion": "Principalmente cuando la población de aquella isla, aunque no llegase a tres millones, como testifica el ilustrísimo Casas, no puede negarse que era muy grande en proporción a la extensión del terreno.",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    }
+   ],
+   "id_existente": "F-0020",
+   "notas": "Fuente derivada: su «cinco poderosas monarquías» y su «tres millones, como testifica el ilustrísimo Casas» repiten a Las Casas (no cuentan como independientes), y la cifra de «más de cinco millones» la atribuye vagamente a «algunos» sin nombre ni base (dato D). Muestra que en 1785 un autor de Santo Domingo escribe ya «cinco poderosas Monarquías» y «tres millones, como testifica Casas». Capítulos estimados por la numeración que traen los encabezados del djvu (I, III, V-IX, XI); el exacto de los dos pasajes [POR VERIFICAR].",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023"
+   ]
+  },
+  {
+   "titulo": "Historia general de los hechos de los castellanos en las islas i tierra firme del mar océano, Década I (Madrid, 1601)",
+   "autor": "Herrera y Tordesillas, Antonio de",
+   "anio": "1601",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiagenerald12herr/historiagenerald12herr_djvu.txt",
+   "verificacion": "descargada-parcial",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista mayor que compila a Las Casas, Oviedo y Mártir sin pisar América; OCR con s larga (f) que obligó a normalizar y verificar de forma difusa.",
+   "proveniencia": "Herrera (1559-1625), cronista mayor de Indias, publicó en 1601 las dos primeras Décadas con acceso a los archivos reales. Para La Española coincide con Las Casas y con Pané (a través de Hernando Colón) [dependencia no demostrada aquí]: describe los cemíes, el cacique Mauciatibel y Coaybay en la misma secuencia de Pané.",
+   "extractos": [
+    {
+     "ubicacion": "Década I, lib. ? (l. 9068-9073 del djvu)",
+     "cita_original": "Era Caonabo el mas poderoso, y por si mismo valiente, y tenia tres valerosos hermanos, Reynaua en la prouincia que llaman Maguana",
+     "traduccion": "Caonabó era el más poderoso, y por sí mismo valiente, y tenía tres valerosos hermanos; reinaba en la provincia que llaman Maguana.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "id_existente": "F-0904",
+   "notas": "Las citas están en grafía normalizada (ſ→s, v/u de época respetada) y se comprobaron de forma difusa contra el OCR (razón mínima 0,88); los números de página/cabecera se leyeron en el OCR y son aproximados. Herrera no añade un testimonio independiente: su descripción de los cemíes y de la creación (cueva de la que salieron el Sol y la Luna, cacique Mauciatibel, Coaybay) reproduce a Pané. La descripción de los cemíes (Década I, lib. III, l. 10246-10300 del djvu) no se cita porque el OCR a dos columnas mezcla las notas marginales con el texto y no permite verificar una cita literal; se leyó y reproduce a Pané. Utilidad para el corpus: muestra que la tradición de los cemíes y de la jerarquía de caciques ya estaba fijada en 1601 por vía de Las Casas y Pané.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021"
+   ]
+  },
+  {
+   "titulo": "Diario del primer viaje, en Colección de los viages y descubrimientos... (Navarrete, t. I)",
+   "autor": "Colón, Cristóbal; Las Casas, Bartolomé de (copista y glosador); Fernández de Navarrete, Martín (ed.)",
+   "anio": "1492-1493 (ed. 1825)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindelosv01nava/coleccindelosv01nava_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de testigo presencial (Colón) pero solo conservado en el resumen de Las Casas, que mezcla las palabras del Almirante con las suyas y con notas marginales.",
+   "proveniencia": "El original se perdió; sobrevive la copia-resumen de Las Casas (con sus notas marginales), que Navarrete publicó en 1825. Es el primer testimonio escrito sobre los pueblos de La Española (dic. 1492-ene. 1493), con observaciones sobre cacique, nitayno, número de gente y lenguas.",
+   "extractos": [
+    {
+     "ubicacion": "Diario, 13 dic. 1492; Navarrete t. I (l. 10455-10457 del djvu)",
+     "cita_original": "La población era de 1,000 casas y de mas de 3,000 hombres",
+     "traduccion": "La población era de 1.000 casas y de más de 3.000 hombres. [Un pueblo grande del norte de La Española, visto por nueve hombres de Colón; el recuento es de Las Casas resumiendo el Diario.]",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 22 dic. 1492 (l. 11208-11210)",
+     "cita_original": "Vinieron este dia mas de 120 canoas á los navios todas cargadas de gente",
+     "traduccion": "Vinieron este día más de 120 canoas a los navíos, todas cargadas de gente.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 23 dic. 1492 (l. 11271-11275)",
+     "cita_original": "Hasta entonces no habia podido entender el Almirante si lo dicen por Rey ó por Gobernador. También dicen otro nombre por grande que llaman Nitayno, no sabia si lo decian por Hidalgo ó Gobernador ó Juez",
+     "traduccion": "Hasta entonces el Almirante no había podido entender si [cacique] lo dicen por rey o por gobernador; también dicen otro nombre por «grande» que llaman Nitayno, y no sabía si lo decían por hidalgo, gobernador o juez. [Nota marginal de Las Casas: «Nitayno era principal y Señor después del Rey, como grande del Reino».]",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 23 dic. 1492 (l. 11277-11279)",
+     "cita_original": "todo el pueblo, que habia mas de 2,000 hombres",
+     "traduccion": "todo el pueblo, que había más de 2.000 hombres.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 30 dic. 1492 (l. 11688-11692)",
+     "cita_original": "habian venido cinco Reyes subjetos á aqueste que se llamaba Guacanagari, todos con sus coronas",
+     "traduccion": "habían venido cinco reyes sujetos a aquel que se llamaba Guacanagarí, todos con sus coronas.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 13 ene. 1493 (golfo de Samaná), nota de Las Casas al indio de pelo largo (l. 12349-12350)",
+     "cita_original": "Estos debían ser los que llamaban Ciguayos, que todos traían los cabellos así muy largos",
+     "traduccion": "Estos debían ser los que llamaban ciguayos, que todos traían los cabellos así muy largos.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 13 ene. 1493, nota de Las Casas a «caribes» (l. 12352)",
+     "cita_original": "No eran caribes ni los hobo en la Española jamás",
+     "traduccion": "No eran caribes ni los hubo en la Española jamás.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Diario, 13 ene. 1493, nota de Las Casas (l. 12398-12401)",
+     "cita_original": "Estos creo eran los que se llamaban ciguayos en las sierras y costas del Norte de la Española, desde cuasi Puerto de Plata hasta Higuey inclusive",
+     "traduccion": "Estos creo que eran los que se llamaban ciguayos en las sierras y costas del norte de La Española, desde casi Puerto de Plata hasta Higüey inclusive.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "F-0001",
+   "notas": "Para M01: (1) las cifras de 1492 son ocasionales y de ojo (1.000 casas y más de 3.000 hombres en un pueblo; más de 2.000 hombres en la plaza de otro; 120 canoas), no recuento; (2) «Nitayno» aparece en el Diario como cargo (señor principal, después del rey) y no como etnónimo; es el único uso del término en Colón y no autoriza el sentido moderno de «taíno» como pueblo (ver Chanca en F-0900 y Rafinesque en F-0905); (3) Las Casas, en nota marginal, niega que hubiera caribes en La Española, lo que choca con la etiqueta «caribe» que Oviedo da a Caonabó; (4) el 30 dic. 1492 hay «cinco reyes» sujetos a Guacanagarí: un dato de 1492 sobre jerarquía distinto de la lista posterior de «cinco reinos» (aquí son cinco subordinados de un solo señor). El OCR de Navarrete lee «bobo» donde probablemente dice «hobo»; se corrigió y se marca aquí [POR VERIFICAR contra el impreso]. Samaná es también el sitio de los genomas arcaicos de Sirak et al. (F-1578; F-0223): el Diario permite ubicar en la bahía de Samaná, en enero de 1493, a un grupo de pelo largo y arcos que Las Casas identifica con los ciguayos (pero esa identificación es de Las Casas décadas después). Líneas = djvu de archive.org (coleccindelosv01nava).",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-023",
+    "A-024",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Carta del Dr. Chanca (segundo viaje, 1493) y Carta de Colón a Luis de Santángel (1493), en Navarrete, Colección..., t. I",
+   "autor": "Álvarez Chanca, Diego; Colón, Cristóbal; Fernández de Navarrete, Martín (ed.)",
+   "anio": "1493 (ed. 1825)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindelosv01nava/coleccindelosv01nava_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Cartas de dos testigos presenciales escritas en 1493 (médico de la flota y el Almirante), publicadas por Navarrete con cotejo de manuscritos.",
+   "proveniencia": "Chanca, médico sevillano de la flota del segundo viaje, escribe al Cabildo de Sevilla en 1493 describiendo La Española; Colón escribe a Santángel al volver del primer viaje. Ambas cartas se conservan copiadas y Navarrete las imprimió en 1825.",
+   "extractos": [
+    {
+     "ubicacion": "Carta del Dr. Chanca al Cabildo de Sevilla (segundo viaje, nov. 1493); Navarrete t. I, p. 358 (l. 15388-15395 del djvu)",
+     "cita_original": "isla como es grande es nombrada por provincias, é á esta parte que primero llegamos llaman Hayti, y luego á la otra provincia junta con esta llaman Xamaná, é á la otra Bohio",
+     "traduccion": "esta isla, como es grande, es nombrada por provincias; a esta parte donde llegamos primero la llaman Hayti, luego a la otra provincia junta con esta llaman Xamaná, y a la otra Bohío.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Carta del Dr. Chanca, nov. 1493, hallazgo de La Navidad (l. 15536-15539 del djvu)",
+     "cita_original": "otros dos Reyes, llamado el uno Caonabó y el otro Mayreni",
+     "traduccion": "porque otros dos reyes, llamado el uno Caonabó y el otro Mayreni, habían venido a pelear con él [Guacamarí/Guacanagarí].",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Carta de Chanca (l. 15139-15142)",
+     "cita_original": "diciéndolos tayno tayno, que quiere decir bueno",
+     "traduccion": "diciéndoles «tayno, tayno», que quiere decir «bueno». [Quienes lo dicen son los de la barca, con intérpretes de La Española, que se dirigen así a los isleños que miran la flota desde la playa; el contexto es Guadalupe, noviembre de 1493 (nota de Navarrete sobre Diego Márquez).]",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Carta de Colón a Luis de Santángel (feb.-mar. 1493); Navarrete t. I, p. 316 (l. 13738-13741 del djvu)",
+     "cita_original": "muchas veces me acaeció enviar á tierra dos ó tres hombres á alguna villa para haber fabla, y salir á ellos dellos sin número",
+     "traduccion": "muchas veces me sucedió enviar a tierra a dos o tres hombres a algún pueblo para hablar, y salir a ellos [indios] sin número.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "F-0900",
+   "notas": "Dos de los tres extractos son para el debate de la etiqueta «taíno»: en Chanca, «tayno» es una palabra que los de la barca (con intérpretes de La Española) dicen a los isleños de Guadalupe para tranquilizarlos y que Chanca traduce «bueno»; en el Diario (F-0001), «nitayno» es un rango. Ninguna de las dos fuentes usa «taíno» como nombre de un pueblo; ese uso es posterior (F-0905). El pasaje de Santángel es de impresión general («sin número») y vale solo como indicio de densidad, no como cifra. El extracto de Chanca sobre «tayno» NO es sobre La Española: es el desembarco en Guadalupe (el pasaje no nombra la isla; se deduce del contexto y de la nota de Navarrete) [POR VERIFICAR contra el manuscrito]. Prueba solo que «tayno» era una palabra de los intérpretes antillanos que significaba «bueno».",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-023",
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Historia de los Reyes Católicos don Fernando y doña Isabel (cap. CXX, segundo viaje de Colón)",
+   "autor": "Bernáldez, Andrés",
+   "anio": "c.1488-1513 (ed. Sevilla 1870; ed. digital 2025)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/25-bernaldez/25%20Bernaldez_djvu.txt",
+   "verificacion": "descargada-parcial",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista contemporáneo (cura de Los Palacios, capellán de Deza) que narra el segundo viaje con papeles de Colón y sigue de cerca la carta de Chanca; el texto leído es una edición electrónica con ortografía modernizada sobre la de Sevilla, 1870.",
+   "proveniencia": "Bernáldez fue cura de Los Palacios (Sevilla) de 1488 a 1513 y capellán del arzobispo Diego de Deza; según el prólogo de Rodrigo Caro que recoge la edición, escribe como testigo de vista y Colón fue su huésped. El capítulo CXX resume la llegada a La Española en noviembre de 1493 a partir de relatos del segundo viaje. El texto leído es una edición electrónica de «Clásicos de Historia» (archive.org, 2025) sobre la ed. de dos tomos de Sevilla, Imp. Geofrin, 1870 (prólogo de F. de Gabriel y Ruiz de Apodaca), con ortografía y puntuación modernizadas por J. Martínez Romeo (l. 1-12 del djvu).",
+   "extractos": [
+    {
+     "ubicacion": "cap. CXX (l. 7822-7826 del djvu de «25 Bernaldez»)",
+     "cita_original": "porque otros dos Reyes, llamado el uno Caonaboa, y el otro Mariema habían venido a pelear con él",
+     "traduccion": "porque otros dos reyes, uno llamado Caonaboa y otro Mariema, habían venido a pelear con él [Guacanarí]. [Nov. 1493, hallazgo de La Navidad destruida.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "id_existente": "",
+   "notas": "Dato menor y NO independiente de Chanca: el pasaje reproduce casi palabra por palabra la carta de Chanca (Navarrete t. I, l. 15536-15539; ver F-0900), de modo que Bernáldez copia o comparte fuente con Chanca. Por eso no cuenta como segundo testimonio. Contenido: en noviembre de 1493 los informantes de Guacanagarí hablan de «otros dos reyes», Caonabó y «Mariema/Marieni», como rivales. Que «Mariema» sea un cacique de Marién o un error de transcripción no se puede decidir con este texto. Bernáldez fue capellán de Diego de Deza, el arzobispo que según Las Casas le dijo que Colón había «contado un cuento y cien mil ánimas» (F-0004): el vínculo no está documentado en Bernáldez, que no da cifras de población de La Española en el segundo viaje (se buscó «millón», «cuenta» y «gente de esta isla»). No se leyó el resto de los capítulos del segundo viaje (CXXI-CXXIX) más allá de buscar «cacique» y «Cibao».",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "afirmaciones": [
+    "A-021"
+   ]
+  },
+  {
+   "titulo": "The American Nations (Filadelfia, 1836), vol. I, cap. VI «Haytian Annals»",
+   "autor": "Rafinesque, Constantine Samuel",
+   "anio": "1836",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.gutenberg.org/cache/epub/34070/pg34070.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Obra de un autodidacta con reputación de inventar documentos (Walam Olum); las cifras y los «anales» no citan fuente.",
+   "proveniencia": "Rafinesque (1783-1840) publicó en Filadelfia su historia general de las naciones americanas para un público erudito angloamericano. La obra fija «Taino» (que él glosa «noble») como nombre colectivo de los pueblos arahuacos de las Antillas Mayores. Se leyó en la copia de Gutenberg 34070.",
+   "extractos": [
+    {
+     "ubicacion": "vol. I, cap. VI «Haytian Annals», l. 3813-3816 del txt de Gutenberg 34070",
+     "cita_original": "The nation who furnished these annals, was the Haytian of Hayti, a branch of the nation dwelling also in Cuba, and filling the Lucayes and smaller Antilles: whose collective proper name was TAINO meaning noble",
+     "traduccion": "La nación que proporcionó estos anales fue la haitiana de Haití, rama de la nación que habitaba también en Cuba y las Lucayas y Antillas menores, cuyo nombre propio colectivo era TAINO, que significa noble.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "vol. I, cap. VI (l. 4513-4516)",
+     "cita_original": "divides the nation into 3 castes, Tainos, or nobles, Bohitos or priests, Anaborias or vassals",
+     "traduccion": "divide la nación en 3 castas: tainos o nobles, bohitos o sacerdotes, anaborias o vasallos.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "vol. I, cap. VI (l. 4766-4769)",
+     "cita_original": "The population of all the Tainos in the Antilles was at least two millions; 1,200,000 in Hayti; 600,000 in Cuba; 100,000 in Boriquen",
+     "traduccion": "La población de todos los tainos en las Antillas era de al menos dos millones: 1.200.000 en Haití, 600.000 en Cuba, 100.000 en Boriquén.",
+     "afirmaciones": [
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    }
+   ],
+   "id_existente": "F-0905",
+   "notas": "Rafinesque dice haber reunido su vocabulario de «los dialectos taínos» de Roman, Colón, Anglería, Muñoz, Las Casas, Herrera y otros (l. 3849-3851 del txt) y fija «Taino» como nombre colectivo; en Colón y Chanca la palabra es un rango o un «bueno» (ver F-0001 y F-0900). No se ha localizado un uso etnonímico anterior en esta ronda, de modo que Rafinesque es el primer uso conocido aquí [POR VERIFICAR contra la bibliografía de Curet 2014 y Keegan y Hofman 2017] y trae cifras de población (1.200.000 en Haití) sin base citada: dato D. Se retiraron los guiones bajos de cursiva. Ya registrada para M00; aquí se añaden los extractos sobre el etnónimo y la cifra de población para M01 (el primer uso de «Taino» en 1832 está en F-0906).",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01"
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ]
+  },
+  {
+   "titulo": "Columbus, Ramon Pane, and the Beginnings of American Anthropology (Proc. American Antiquarian Society, 1906): traducción inglesa de la Relación de Pané",
+   "autor": "Bourne, Edward Gaylord",
+   "anio": "1906",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/columbusramonpan00bour/columbusramonpan00bour_djvu.txt",
+   "verificacion": "descargada-y-leida",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción de un historiador de Yale hecha desde la versión italiana de 1571 con comentario crítico; secundaria, pero independiente de la edición de Arrom (1974) y útil para cotejar.",
+   "proveniencia": "Bourne (Yale) publicó en 1906 una traducción de la Relación de Pané desde Ulloa (1571) con introducción. Se usa aquí como segunda traducción, independiente de la de Arrom, del mismo texto perdido.",
+   "extractos": [
+    {
+     "ubicacion": "p. ≈ cap. I de Pané traducido por Bourne (l. 513-518 del djvu)",
+     "cita_original": "Espanola has a province called Caanau in which there is a mountain which is called Canta where there are two caves, the one named Cacibagiagua and the other Amaiuua. From Cacibagiagua came forth the larger part of the people who settled in the island",
+     "traduccion": "La Española tiene una provincia llamada Caanau, en la cual hay una montaña llamada Cauta, donde hay dos cuevas, una llamada Cacibagiagua y la otra Amaiuua. De Cacibagiagua salió la mayor parte de la gente que pobló la isla.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Pané, pasaje de Magdalena/Macorix, versión de Bourne (l. 1408-1415 del djvu)",
+     "cita_original": "The Lord Admiral told me that the language of the province Magdalena Maroris (Macorix) was different from the other, and that the speech there was not understood throughout the land, and that therefore I should go and reside with another principal Cacique named Guarionex, lord of a numerous people whose language was understood everywhere in the land",
+     "traduccion": "El Almirante me dijo que la lengua de la provincia de Magdalena Maroris (Macorix) era diferente de la otra, y que allí no se entendía el habla por toda la tierra; por eso debía ir a residir con otro cacique principal, Guarionex, señor de mucha gente, cuya lengua se entendía en todas partes.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "id_existente": "",
+   "notas": "Cotejo útil de F-0003: las dos ediciones (Arrom, 1974; Bourne, 1906) coinciden en el contenido de los dos pasajes (cuevas de Cacibajagua/Amayaúna y la diferencia de lengua de Macorix); difieren en grafías (Caonao/Caanau; Cacibajagua/Cacibagiagua). Bourne anota que el Cauta y las dos cuevas aparecen en Pedro Mártir con otra grafía (Cazibaxagua, Amaiauna). El extracto de la lengua de Macorix es largo (57 palabras) por exigencia de la frase completa.",
+   "urls_alternativas": [],
+   "http_status": "200",
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "afirmaciones": [
+    "A-029"
+   ]
+  }
+ ]
+}

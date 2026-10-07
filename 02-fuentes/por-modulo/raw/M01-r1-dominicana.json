@@ -1,0 +1,1491 @@
+{
+ "lente": "dominicana",
+ "modulo": "M01",
+ "ronda": 1,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 47,
+ "busquedas_pendientes": [
+  "Balaguer / Peña Batlle / Utrera / Rodríguez Demorizi sobre indios y taínos en texto digital (no localizados en las búsquedas hechas)",
+  "José Gabriel García, Compendio de la historia de Santo Domingo, t. I (capítulos de los aborígenes): las copias de archive.org tienen OCR inservible y solo cubren tomos 2-4",
+  "Antonio del Monte y Tejada, Historia de Santo Domingo, t. I (PDF de la ADH de 679 MB y de 462 MB; no se descargaron y no se sabe si tienen capa de texto)",
+  "Emiliano Tejera, Palabras indígenas de la isla de Santo Domingo (1935): buscar texto digital en BNPHU o archive.org",
+  "Moya Pons, 'Datos para el estudio de la demografía aborigen en Santo Domingo' (Boletín del Museo del Hombre Dominicano 5(6), 1976) y la compilación 'Los taínos en 1492. El debate demográfico' (ADH vol. CIII, 2013): no hay texto en línea localizado",
+  "Moya Pons, Manual de historia dominicana (9.ª ed. 1992, pp. 26 y 293), Después de Colón (1987), La Española en el siglo XVI (1971), Otras miradas a la historia (2017): sin texto en línea",
+  "Vega, Los cacicazgos de La Española (1980; reed. 1990); Cassá, Los taínos de La Española (1974) y Los indios de las Antillas (1992): sin texto en línea",
+  "Reacción dominicana publicada a Fernandes et al. 2021 (Diario Libre, Listín, Hoy, El Día): dos consultas sin resultado; probar con nombres de arqueólogos (López Belando, Jiménez Lambertus, Ortega)",
+  "Boletín del Museo del Hombre Dominicano (índices) y página institucional del Museo del Hombre Dominicano",
+  "Bosch (Composición social dominicana), Franco Pichardo (Historia del pueblo dominicano), Tolentino Dipp, Jimenes Grullón sobre indios y mestizaje: no se leyeron",
+  "Candelario (Black behind the ears) y Sagás sobre la construcción del 'indio': de pago",
+  "Libro Abierto del MINERD (textos de Ciencias Sociales de 4.º a 6.º) y currículo vigente: el Diseño Curricular de secundaria de 2016 no contiene contenido taíno extraíble",
+  "Vásquez Romero (Ecos n.º 19, 2020) sobre encomiendas y etnocidio, y Balcácer (Clío n.º 202, 2021) sobre Enriquillo: pistas ya localizadas para M02 y M03, sin leer a fondo",
+  "Szászdi, 'Los pactos de hermandad entre los indios taínos y los conquistadores españoles' (Clío n.º 165, 2003): localizado en el catálogo de la ADH (M02)"
+ ],
+ "lagunas": [
+  "El texto original de Moya Pons sobre 377.559 no se leyó: la derivación (251.706 en 1503 como 2/3 de la población original) sale de Mira Caballos 2017 (p. 299), que además cree que Moya malinterpretó a Las Casas. A-024 pone 'repartimiento de 1508 más un tercio' y '1494'; las fuentes leídas no lo confirman.",
+  "Del HGPD t. I solo se leyeron las páginas 50-70 y 165-330; no se cotejó la edición impresa y la paginación sigue la edición digital.",
+  "No hay voz dominicana publicada sobre Fernandes et al. 2021 (Ne, A-025/A-026): la lente dominicana solo cubre A-021 a A-024, A-027 a A-029; para A-025 y A-026 depende de la lente científica.",
+  "Las fuentes 'oficiales' (MINERD) se limitan a páginas del suplemento Plan LEA de Listín Diario y a una planificación docente; no se localizó un texto escolar oficial de Ciencias Sociales con la cifra de 1492.",
+  "Veloz Maggiolo (1972) y su lista de cinco cacicazgos con 26/21/14/21/21 nitainatos solo se conocen a través de Juan De la Cruz (Acento, 2026); el libro de 1972 no se consultó.",
+  "Los artículos de El Caribe, CDN y El Nuevo Diario devuelven 403 a curl y a WebFetch; solo se pudo leer El Nuevo Diario por la Wayback Machine. El Caribe (Taínos: su cultura y orígenes; Bailando con osos, taínos y más; Diversidad lingüística de la isla Española) quedó sin leer salvo la columna 'Bailando con osos' (copia Wayback, no registrada)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "genocidio / etnocidio / hecatombe demográfica (de los taínos)",
+   "tradicion": "dominicana crítica (Franco 2012; Vásquez Romero, Ecos 2020; De la Cruz 2026); matizado por Moya Pons 1992 ('crimen de la conquista', 'choque') y por la historiografía escolar ('mito de la extinción')",
+   "nota": "Franco 2012 llama genocidio a la caída de la población aborigen; el HGPD I dice que casi todos los indios 'desaparecieron' en menos de treinta años (p. 177); Plan LEA habla de 'mito de la extinción'. El término descriptivo del corpus: colapso demográfico indígena (c. 1492-1550), con la causa (enfermedad, trabajo forzado, guerra) como disputa aparte."
+  },
+  {
+   "termino": "descubrimiento / encuentro / choque / invasión (de 1492)",
+   "tradicion": "hispanista-oficial: 'descubrimiento' (Amiama 1959); liberal-crítica: 'choque del descubrimiento' (Moya Pons 1992); crítica de izquierda: 'invasión española' (Franco 2012, De la Cruz 2026); hay también 'encuentro de culturas' (Gómez Cerda 2024)",
+   "nota": "El nombre del hecho ya es una tesis; añadir al glosario con el término descriptivo 'llegada de Colón a la isla (diciembre de 1492)' y la conquista subsiguiente."
+  },
+  {
+   "termino": "tainidad",
+   "tradicion": "dominicana (Guerrero 2015; crítica de Veloz Maggiolo 1993, 1996 y HGPD I, p. 193)",
+   "nota": "Guerrero llama 'mito' a la tainidad como unidad étnica y cultural de la isla y la reivindica como 'símbolo' de resistencia; Veloz Maggiolo critica que 'taíno' se use para toda la población antillana. Conviene declarar la etiqueta junto con las series arqueológicas."
+  },
+  {
+   "termino": "nitaíno / nitainato",
+   "tradicion": "dominicana (Cassá 2009: ayudantes del cacique; De la Cruz 2026 citando a Veloz 1972: subcacicazgos; Plan LEA 2023: los cacicazgos 'se dividían en nitaínos')",
+   "nota": "Tres sentidos en uso: noble, subcacique y territorio subordinado; en Las Casas y Pané significa 'principal'."
+  },
+  {
+   "termino": "series arqueológicas dominicanas (barreroide, banwaroide, caimitoide, saladoide, ostionoide, chicoide o 'Boca Chica', meillacoide/macorije)",
+   "tradicion": "arqueología dominicana (Veloz Maggiolo, a partir de nombres de sitios) frente a la clasificación de Rouse",
+   "nota": "Los nombres sirven de etiqueta de cerámica o industria, no de pueblo; Veloz las usa también como 'culturas' y los macorijes como pueblo con lengua propia. A-029 pone a prueba esa equivalencia."
+  }
+ ],
+ "incidencias": [
+  "El scratchpad de la sesión es compartido con otros agentes (había cientos de archivos ajenos); trabajé en la subcarpeta m01dom/ para no pisar nada. Solo escribí en el repositorio el archivo M01-r1-dominicana.json.",
+  "Discrepancia con A-024: el registro atribuye 377.559 a Moya Pons con fecha 1494 y método 'repartimiento de 1508 más un tercio'; Mira Caballos 2017 (p. 299) lo deriva de 251.706 en 1503 como 2/3 del original; Moya Pons 1992 (pp. 230-231) da 'aproximadamente unas 400,000 personas en 1492' tras revisar su estimación de 600.000 de 1971; Franco 2012 dice 400.000 en 1987; HGPD I (p. 177) dice 'no sobrepasaba el medio millón'; Moya Pons 2010 (vía Franco) da 400.000-600.000.",
+  "Discrepancia con A-024 sobre Rosenblat: Amiama 1959 y Mira Caballos 2017 dan 100.000; Veloz Maggiolo 1993 le atribuye 125.000.",
+  "Matiz para A-021: Cassá 2009 (p. 16) nombra solo cuatro cacicazgos (Xaragua, Maguá, Maguana, Marién) y dice 'varios'; Veloz 1993 dice que 'tradicionalmente se han aceptado como cinco' pero existían numerosos caciques; HGPD I (p. 236) los da como 'aún en discusión'; Amadeo Julián (Clío 182, p. 18) recoge que el mapa de Morales/Mártir (Sauer) traza cinco provincias distintas (Caizcimú, Huhabo, Cayabo, Bainoa, Guacayarima) y que Morales dibujó en 1508 cuando los cacicazgos ya no existían. La lista de cinco con caciques es de Las Casas (texto local) y se repite sin matiz en prensa y escuela (Cross 2026, Gómez Cerda 2024, Plan LEA 2023).",
+  "A-028 puede actualizarse: la ponencia de Sirak (julio de 2026) es hoy también un preprint (F-1578, bioRxiv 2026); la prensa dominicana (El Nuevo Diario) confirma cuatro individuos precerámicos de Samaná y una 'sola gran migración'.",
+  "Hallazgo escolar: Plan LEA (Listín Diario, 2024) afirma 'genes taínos en 15% de los dominicanos' y que la historia taína 'nos pertenece solo a los quisqueyanos'; el 15% no tiene fuente y contradice F-0203 (3,8% autosómico, 12,1% ADNmt).",
+  "Fuente registrada F-1597 (HGPD I): la ficha da pp. 169, 193, 219, 243, y las páginas HTML /N/ de la edición digital contienen el texto completo; si se registra, conviene guardar las páginas leídas (50-70, 165-330).",
+  "Descartes: no registré Vega, Santos, shamanes y zemíes (1987; leí la introducción y el índice; trata de cemíes y Enriquillo, sin cobertura de A-021 a A-029), ni Clío 183, 187, 188, 192, 202, 204, 205 ni Ecos 254, 255, 394 (sin contenido para M01).",
+  "WebFetch devolvió 403 para elcaribe.com.do y cdn.com.do (curl también para elnuevodiario.com.do, que se leyó por Wayback); 'archive.org/fulltext/inside' devolvió 403 para el libro restringido de Moya Pons (The Dominican Republic: A National History): no se intentó eludirlo."
+ ],
+ "fuentes": [
+  {
+   "titulo": "Historia general del pueblo dominicano, t. I: Aspectos metodológicos, culturas aborígenes, conquista y proceso histórico del siglo XVI (Academia Dominicana de la Historia, vol. CV); caps. 2 (Cassá), 3 (Moya Pons), 4 y 5 (Veloz Maggiolo) y 6 (Gil y Varela)",
+   "autor": "Cassá, Roberto (coord. general); Rodríguez Morel, Genaro (coord. del t. I); Moya Pons, Frank; Veloz Maggiolo, Marcio; Gil, Juan; Varela, Consuelo",
+   "anio": "2013",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://hgpdvol1.academiadominicanahistoria.org.do/",
+   "urls_alternativas": [
+    "https://hgpdvol1.academiadominicanahistoria.org.do/177/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/193/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/219/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/236/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/297/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/64/",
+    "https://hgpdvol1.academiadominicanahistoria.org.do/toc/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra colectiva de la Academia Dominicana de la Historia con firma de especialistas y aparato crítico; refleja la posición institucional vigente sobre cacicazgos, etiqueta 'taíno' y demografía de 1492.",
+   "proveniencia": "Tomo I de la historia general que la Academia Dominicana de la Historia publicó en 2013 (coordinador general Roberto Cassá; coordinador del tomo Genaro Rodríguez Morel; la Junta Directiva 2010-2013 la presidía Frank Moya Pons, que firma el cap. 3). Los caps. 4 y 5 son del arqueólogo Marcio Veloz Maggiolo y sintetizan su trabajo de campo y el del Museo del Hombre Dominicano; el cap. 6 es de Juan Gil y Consuelo Varela. Se escribe para el público culto y la enseñanza, desde la institución que fija el canon historiográfico dominicano. Lectura página a página del texto HTML de la edición digital (pp. 50-70 y 165-330; la ficha no se ha leído entera).",
+   "extractos": [
+    {
+     "ubicacion": "p. 177 (cap. 3, Moya Pons; https://hgpdvol1.academiadominicanahistoria.org.do/177/)",
+     "cita_original": "Es importante recordar que en 1492 la población taína no sobrepasaba el medio millón de personas y, por lo tanto, la relación hombre/tierra era extremadamente baja.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 177 (cap. 3, Moya Pons)",
+     "cita_original": "El choque de la dominación española hizo desaparecer casi todos los indios en menos de treinta años. Ya en 1520 apenas quedaban poco más de 1,000 indios en la Española.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 297 (cap. 6, Gil y Varela; https://hgpdvol1.academiadominicanahistoria.org.do/297/)",
+     "cita_original": "De creer otra vez a F. Moya Pons, siempre ecuánime y ponderado, la población indígena que en 1492, cuando llegó Colón, contaba con 400,000 individuos, en 1508 se había reducido a unos 60,000.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 236 (cap. 5, Veloz Maggiolo; https://hgpdvol1.academiadominicanahistoria.org.do/236/)",
+     "cita_original": "La división en grandes zonas de poder, llamadas cacicazgos, fue un elemento distintivo. Estos cacicazgos, aún en discusión en cuanto a sus fronteras y contenidos tribales, se constituían en verdaderas federaciones temporales de cara a un enemigo común.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 219 (cap. 5, Veloz Maggiolo; https://hgpdvol1.academiadominicanahistoria.org.do/219/)",
+     "cita_original": "El cacicazgo, indicador de una sociedad en vías de estratificación, parece haber sido un proceso relativamente tardío en las Antillas Mayores",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 193 (cap. 4, Veloz Maggiolo; https://hgpdvol1.academiadominicanahistoria.org.do/193/)",
+     "cita_original": "Generalmente se ha utilizado el término «taíno» para señalar a los habitantes de la isla de Santo Domingo anteriores al contacto con los europeos. Para muchos dominicanos y antillanos el término «sociedad taína» resulta abarcador de todo cuanto significaba actividad humana en las Antillas y Santo Domingo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 193 (cap. 4, Veloz Maggiolo)",
+     "cita_original": "la llamada «sociedad taína» no fue sino solo una parte de las diversas sociedades que durante milenios habitaron y se desarrollaron entre las islas antillanas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 229 (cap. 5, Veloz Maggiolo; https://hgpdvol1.academiadominicanahistoria.org.do/229/)",
+     "cita_original": "La demografía era variable. Arqueólogos del área han supuesto la posibilidad de poblados mayores de mil personas para sitios muy densos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 64 (cap. 2, Cassá, sobre Las Casas; https://hgpdvol1.academiadominicanahistoria.org.do/64/)",
+     "cita_original": "No obstante su probidad, la exaltación de lo aborigen y la condena de la conquista lo llevaron con frecuencia a la hipérbole.",
+     "traduccion": "Cassá valora así la obra de Las Casas (la frase sigue a las pp. 63-64, donde se habla de él): hipérbole frecuente por exaltación de lo aborigen.",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 240 (cap. 5, Veloz Maggiolo; https://hgpdvol1.academiadominicanahistoria.org.do/240/)",
+     "cita_original": "Ya en 1550 la población indígena había prácticamente desaparecido.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-029"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-1597",
+   "notas": "Posición institucional de la ADH en 2013: población taína de 1492 'no sobrepasaba el medio millón' (Moya Pons, p. 177) frente a 'Las Casas más de tres millones' (A-022/A-023); los cacicazgos aparecen como 'aún en discusión' y Veloz Maggiolo no enumera los cinco en el cap. 5 (p. 236); y el término 'taíno' se declara abarcador en exceso (p. 193). Contradice a la baja la cifra de Las Casas pero no da base de cálculo en estas páginas (el cálculo de Moya Pons está en otra obra: ver Mira Caballos 2017 y Moya Pons 1992). Distinto de Moya Pons 1992, que da 400.000 'aproximadamente' (cifra redonda). Gil y Varela (p. 297) citan a Moya Pons de segunda mano. Las páginas se leen en la edición digital FlippingBook (numeración de la edición impresa). [POR VERIFICAR]: la edición impresa y su paginación exacta no se cotejaron."
+  },
+  {
+   "titulo": "La isla de Santo Domingo antes de Colón (Santo Domingo, Banco Central de la República Dominicana, 1993)",
+   "autor": "Veloz Maggiolo, Marcio",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/laisladesantodom00velo/laisladesantodom00velo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/laisladesantodom00velo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Síntesis del principal arqueólogo dominicano, editada por el Banco Central con bibliografía especializada, aunque escrita 'sin abundancia de citas' como obra divulgativa.",
+   "proveniencia": "Marcio Veloz Maggiolo (1936-2021, arqueólogo, antropólogo y escritor) escribió este libro por encargo del Banco Central de la República Dominicana (1993), después de su 'Panorama histórico de las Antillas precolombinas' (título según su introducción); declara que lo concibió como obra informativa y divulgativa con citas obviadas. Usa los datos del Museo del Hombre Dominicano (unos 500 yacimientos del período taíno) para estimar población. Discute la tradición que acepta cinco cacicazgos y la identificación taíno = toda la población antillana.",
+   "extractos": [
+    {
+     "ubicacion": "l. 8178-8183 del _djvu.txt (cap. X, 'División regional y demográfica. Aspectos sociales')",
+     "cita_original": "Aunque tradicionalmente se han aceptado como cinco los cacicazgos de la isla de Santo Domingo, lo cierto es que la crónica, diversas investigaciones hechas por autores dominicanos, y hallazgos arqueológicos, revelan que existían numerosos caciques",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "l. 8192-8199 del _djvu.txt (mismo apartado)",
+     "cita_original": "Aunque algunos autores como Angel Rosemblat consideran que sólo había en la isla de Santo Domingo 125.000 habitantes al momento de la conquista, las investigaciones arqueológicas del Museo del Hombre Dominicano revelan unos 500 yacimientos para el período taíno.",
+     "traduccion": "Veloz atribuye 125.000 a Rosenblat; otras fuentes (Amiama 1959, Mira Caballos 2017) dan 100.000.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "l. 8199-8203 del _djvu.txt",
+     "cita_original": "Si se asignan 500 personas por yacimiento, en el momento de la conquista, la población no podía ser inferior al cuarto de millón, y posiblemente podría ser —ya que existen sitios desconocidos— de aproximadamente 400,000 personas.",
+     "traduccion": "Rango implícito 250.000-400.000; base: 500 yacimientos x 500 personas (supuesto del autor, no medida).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "l. 8470-8476 del _djvu.txt (cap. XI, 'Para una definición de la cultura taína')",
+     "cita_original": "estamos convencidos de que es la cerámica del tipo Boca Chica la que ha tipificado los yacimientos que se consideran taínos. Esto es importante, porque algunos investigadores han llegado a la conclusión de que taíno significa homogeneidad, como antes señalé, similitud cultural",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "l. 2854-2858 del _djvu.txt (cap. V)",
+     "cita_original": "Es en el siglo IX cuando aparecen en las Antillas los grupos llamados «taínos». Aunque este nombre ha sido dado a casi toda la población antillana por asimilación.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-024",
+    "A-029"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "F-1596",
+   "notas": "Año: la portada dice 1993 (el registro F-1596 también). Tres lecturas distintas del mismo autor sobre los cacicazgos: Veloz (1972, citado por Juan De la Cruz en Acento 2026, no cotejado) enumera cinco con sus nitainatos; en 1993 dice que 'tradicionalmente se han aceptado como cinco' pero existían numerosos caciques; en 2013 (HGPD I, p. 236) son 'aún en discusión'. La cifra de 250.000-400.000 sale de un supuesto (500 personas por yacimiento) y es del tipo que Henige criticaría (A-027). Sesgo: arqueólogo de cultura chicoide/taína que reivindica pluralidad cultural frente al relato escolar."
+  },
+  {
+   "titulo": "Saber sobre nuestra historia antigua (Estudios Sociales, vol. XXIX, n.º 106, oct.-dic. 1996, pp. 33-38)",
+   "autor": "Veloz Maggiolo, Marcio",
+   "anio": "1996",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/351/337/673",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de divulgación escrito por un arqueólogo con trabajo de campo, en revista del AGN con comité, que critica el uso escolar de 'cultura taína'.",
+   "proveniencia": "Veloz Maggiolo firma el artículo como doctor en Historia (Univ. de Madrid), antropólogo, arqueólogo, diplomático, profesor de la UASD y director del suplemento 'Isla Abierta' del periódico Hoy (según la nota del propio artículo). Lo publica en la revista del Archivo General de la Nación en 1996 como 'trabajo de divulgación', para corregir la enseñanza escolar y universitaria de la historia aborigen. Resume fechas de radiocarbono y las series arqueológicas (barreroide, banwaroide, saladoide, ostionoide, chicoide, meillacoide).",
+   "extractos": [
+    {
+     "ubicacion": "p. 33",
+     "cita_original": "Muy generalmente los maestros de escuela, los hombres de la cultura, los intelectuales confunden la \"cultura taína\" con las culturas precolombinas de la isla de Santo Domingo, y aún más, denominan con el término \"taíno\" al aborigen de cualquier cultura precolombina en el área antillana.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 36",
+     "cita_original": "Hasta ahora los estudios revelan que estas migraciones fueron continuas, y que se mezclaron con los pobladores iniciales",
+     "traduccion": "Veloz (1996) defiende migraciones continuas desde Sudamérica; Fernandes et al. 2021 (A-029) concluyen lo contrario para los cambios de estilo cerámico (sin nuevas migraciones).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 37",
+     "cita_original": "Pero otras culturas como los macoriges con alfarería llamada \"meillacoide\" por su relación con el sitio Meillac de Haití, estaban presentes y habían alcanzado igualmente el rango cacical.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "F-0882",
+   "notas": "Extracto sobre los 'tres dialectos o lenguas' (macorix, ciguayo, taíno) en p. 34 (no citado). Veloz equipara series cerámicas con 'culturas' y con migraciones; es la posición que A-029 pone a prueba. La paginación (33-38) sale de los folios impresos en el PDF."
+  },
+  {
+   "titulo": "Historia de la República Dominicana: desde los aborígenes hasta la guerra de abril (versión popular; coord. Augusto Sención Villalona), cap. I 'La población aborigen'",
+   "autor": "Cassá, Roberto",
+   "anio": "2009",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://juanbosch.org/wp-content/uploads/2024/03/Historia-Rep.-Dom.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Versión popular, sin notas, de un historiador de primer orden; sirve para ver qué se transmite al público, no como prueba de los hechos.",
+   "proveniencia": "Roberto Cassá, historiador dominicano, autor de 'Los taínos de La Española' (1974) y 'Los indios de las Antillas' (1992) (la reseña de Ecos de 1993 califica este último de interpretación marxista). Esta versión popular (primera edición 2009, coordinada por Augusto Sención Villalona, financiada con apoyo de la Lotería Nacional) está pensada para un público amplio y escolar. La copia en línea está en el sitio juanbosch.org (subida de marzo de 2024 según la URL).",
+   "extractos": [
+    {
+     "ubicacion": "cap. I, p. 16 (cabecera «16 La población aborigen»)",
+     "cita_original": "Para finales del siglo XV, en la isla había varios cacicazgos. El más grande era el de Xaragua, dirigido por Bohechío y donde había alrededor de 80 caciques. El segundo en importancia era el de Maguá, dirigido por Guarionex. Otros cacicazgos importantes eran el de Maguana, dirigido por Caonabo, y el de Marién, dirigido por Guacanagarí.",
+     "traduccion": "Enumera cuatro cacicazgos (Xaragua, Maguá, Maguana, Marién); no nombra Higüey en este pasaje y habla de 'varios', no de cinco.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, p. 13",
+     "cita_original": "Estos agricultores llegaron a Santo Domingo desde Puerto Rico en el siglo IV después de Cristo. Los primeros núcleos se distinguían por producir cerámica pintada llamada saladoide.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M00",
+    "M01",
+    "M03",
+    "M05",
+    "M06",
+    "M08"
+   ],
+   "id_existente": "F-0841",
+   "notas": "El pasaje de los cacicazgos difiere de la lista de 'cinco' y del propio Cassá de 1979 (que Mira Caballos recoge con una estimación de 250.000 habitantes, no cotejada). Usa la secuencia cerámica (saladoide) como marcador de llegada de 'arauacos', es decir, equipara estilo y pueblo (A-029). Paginación según las cabeceras del PDF, a verificar contra la edición impresa."
+  },
+  {
+   "titulo": "Genomas arcaicos de Samaná (ponencia de Kendra A. Sirak, Univ. de Harvard, en el XXXI Congreso Internacional de Arqueología del Caribe, Santo Domingo, julio de 2026) según El Nuevo Diario; y restos arcaicos de Samaná según EFE/El Día (4-X-2022)",
+   "autor": "Sirak, Kendra A. (ponente); EFE; El Nuevo Diario (ADDP)",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/restos-humanos-arcaicos-hallados-en-samana-tienen-5300-anos/",
+   "urls_alternativas": [
+    "https://elnuevodiario.com.do/hallazgo-historico-en-samana-revelan-primeros-pobladores-del-caribe-llegaron-en-una-unica-gran-migracion/",
+    "https://web.archive.org/web/2026/https://elnuevodiario.com.do/hallazgo-historico-en-samana-revelan-primeros-pobladores-del-caribe-llegaron-en-una-unica-gran-migracion/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Notas de prensa sobre una ponencia de congreso (no revisada por pares); sirven para fechar y localizar la noticia, no como evidencia genética.",
+   "proveniencia": "El Día publica el 4-X-2022 un despacho de EFE con las declaraciones del arqueólogo Adolfo López Belando sobre los restos de Samaná (datados en 5.300 años por radiocarbono) y el estudio de ADN con Harvard. El Nuevo Diario (julio de 2026, congreso IACA, cuya clausura se anuncia para el 17 de julio) resume la ponencia de Sirak en el simposio 'Siguiendo las huellas de nuestros antepasados'. La página de El Nuevo Diario devuelve 403 a curl; se leyó la copia de la Wayback Machine.",
+   "extractos": [
+    {
+     "ubicacion": "EFE/El Día, 4-X-2022, párr. 1",
+     "cita_original": "Los restos humanos arcaicos hallados recientemente en un yacimiento arqueológico en Samaná (noreste de República Dominicana) datan de hace 5.300 años, según las pruebas de carbono 14 a las que fueron sometidas las osamentas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "EFE/El Día, 4-X-2022, párr. 'Además...'",
+     "cita_original": "la Universidad de Harvard va a mandar un equipo para tomar muestras de ADN de los cráneos y ver el sitio",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "El Nuevo Diario (vía Wayback), párr. 3 del cuerpo",
+     "cita_original": "identificando a cuatro individuos del periodo precerámico con una firma genética única",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "El Nuevo Diario (vía Wayback), párr. 5 del cuerpo",
+     "cita_original": "los primeros pobladores del Caribe no llegaron en múltiples oleadas dispersas, sino a través de una sola gran migración originada en el continente.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028",
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028",
+    "A-029"
+   ],
+   "modulos": [
+    "M00",
+    "M01"
+   ],
+   "id_existente": "F-0223",
+   "notas": "Confirma lo que A-028 dice de Sirak 2026 (Samaná, ponencia) y aporta la fecha del congreso (XXXI IACA, julio de 2026) y el dato de que son cuatro individuos precerámicos, recuperados en los yacimientos Cueva Funeraria de Daniel, Abrigo Daniel, Abrigo Dana y Playa Madama. Existe además un preprint (F-1578, bioRxiv 2026) que cubre el contenido científico y que no se leyó aquí: A-028 puede actualizarse de ponencia a preprint."
+  },
+  {
+   "titulo": "La población aborigen y los orígenes violentos del cruce racial (primer capítulo adelantado de 'La población dominicana')",
+   "autor": "Franco, Franklyn J.",
+   "anio": "2012",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/actualidad/la-poblacin-aborigen-y-los-orgenes-violentos-del-cruce-racial-LPDL348254",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Adelanto en prensa de un libro de un historiador académico, sin notas en esta versión, pero con un catálogo explícito de cifras de cronistas y de las revisiones de Moya Pons.",
+   "proveniencia": "Diario Libre (Santo Domingo) publicó el 17-VIII-2012 el primer capítulo de 'La población dominicana', 'próximo a salir en octubre', 'de la autoría del historiador y académico Franklyn J. Franco' (según el propio periódico). Se escribe para el público general desde una historiografía crítica de izquierda, que califica la conquista de 'genocidio'. La fecha sale del metadato datePublished de la página (2012-08-17).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'Así por ejemplo...' (4.º del cuerpo)",
+     "cita_original": "el padre La Casas nos habla de 3 o 4 millones, Oviedo reduce la cifra a 1 millón de habitantes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'En las diferentes referencias...' (3.º del cuerpo)",
+     "cita_original": "las coincidencias en cuanto al número total de la población son escasas, y las cifras distantes. En tal virtud, no se ha podido establecer su real magnitud",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'El historiador dominicano Moya Pons...' (7.º del cuerpo)",
+     "cita_original": "El historiador dominicano Moya Pons en su primera referencia a la población taína de nuestra isla, la estimó en 1971 en 600,000 habitantes; más tarde corrigió y la redujo a 400,000 en 1987",
+     "traduccion": "Franco redondea la estimación de 1987 a 400.000 (otras fuentes dan 377.559: ver Mira Caballos 2017).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "la población taína previa a la invasión española debió estar constituida entre 400,000 y 600,000 personas",
+     "traduccion": "Cita de Moya Pons (ed.), Historia de la República Dominicana, CSIC-ADH, 2010, capítulo sobre población.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'El alemán Nikolaus Federmanns...' (6.º del cuerpo; frase 'Advertimos por último')",
+     "cita_original": "muchos especialistas de la época moderna opinan que la población de La Española debió de ser superior a los 100 mil habitantes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Independientemente de las cifras...' (9.º del cuerpo)",
+     "cita_original": "una verdadera hecatombe demográfica, es decir, un genocidio de características desconocidas hasta aquel momento en la historia de la humanidad",
+     "traduccion": "Término cargado: 'genocidio' (ver terminos_nuevos).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Es la fuente dominicana que mejor muestra la trayectoria de Moya Pons: 600.000 (1971), 400.000 (1987), 400.000-600.000 (2010). Usa cifras de Rosenblat como base de su propio cuadro (no cotejado: el artículo web lo introduce pero el cuadro no se reproduce en el texto extraído). Franco no identifica la base de cada cifra de cronista. Sesgo: el autor describe la conquista como genocidio y exagera ('total desaparición'); es una posición, no un dato."
+  },
+  {
+   "titulo": "El choque del descubrimiento (conferencia; Ciencia y Sociedad, vol. XVII, n.º 3, jul.-sept. 1992, pp. 219-242)",
+   "autor": "Moya Pons, Frank",
+   "anio": "1992",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://dialnet.unirioja.es/descarga/articulo/7473264.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del propio autor de la estimación demográfica más citada en la historiografía dominicana, que explica su cambio de cifra y sus límites; es una conferencia, sin aparato de notas.",
+   "proveniencia": "Conferencia de Frank Moya Pons (historiador, entonces profesor en la Univ. de Florida; presidiría luego la Academia Dominicana de la Historia) sobre 'el choque del descubrimiento', publicada en la revista del INTEC en 1992, año del quinto centenario. Se dirige a un público amplio y toma partido contra la celebración de 1492 ('el crimen de la conquista'). Cita a Las Casas largamente y presenta su propia cifra de población de 1492 y su cambio de opinión entre 1971 y 1975.",
+   "extractos": [
+    {
+     "ubicacion": "p. 230",
+     "cita_original": "Sobre esta cifra de una posible población original de 400,000 personas tenemos algo que decir pues tal vez nunca sepamos cuál fue la cifra exacta de la población aborigen de la Española en 1492. Estudiosos modernos han presentado estimados que varían entre 100,000 y los 8 millones de personas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "pp. 230-231",
+     "cita_original": "presenté un estimado de 600,000 habitantes en 1971, pero después de haber revisado todas las fuentes disponibles y de haber realizado nuevos cálculos llegué a la conclusión en 1975 de que la población aborigen de la Española pudo haber sido aproximadamente unas 400,000 personas en 1492.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 230",
+     "cita_original": "en 1508, cuando las autoridades realizaron el primer censo de indios, apenas quedaban 60,000 indios de los 400,000 que había cuando Colón pisó la isla por primera vez.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024",
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 230",
+     "cita_original": "Basado en este testimonio, el cronista Bartolomé de las Casas concluyó años más tarde que la población debió alcanzar los tres millones de individuos.",
+     "traduccion": "El 'testimonio' es el cálculo de Colón: 1.100.000 indios en el centro de la isla en 1496 (misma página).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 231",
+     "cita_original": "Aun aceptando que sólo había 400,000 personas en 1492, el censo de 1508 muestra que más de un tercio de millón de indios perdieron la vida en los primeros quince años de la conquista.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "El texto del PDF viene sin espacios entre palabras (capa de texto de Dialnet); las citas se reconstruyen con espacios normales y se verificaron contra el texto compactado. Fecha de la corrección: 1971 (600.000) a 1975 (400.000 'aproximadamente'); A-024 pone 377.559 'Moya Pons 1987/1494': aquí el propio autor da 400.000 como cifra redonda y admite que 'pudo haber sido mucho más alta' (p. 231). Alineado con A-027 en lo esencial: 'tal vez nunca sepamos'. Cita 1,1 millones de Colón (1496) como base del cálculo lascasiano de tres millones: eso aclara de dónde sale A-022. Sesgo declarado: título y tono contra la conmemoración de 1492."
+  },
+  {
+   "titulo": "The politics of forced Indian labour in La Española 1493-1520 (Antiquity, vol. 66, n.º 250, 1992, pp. 130-139) — solo el extracto visible",
+   "autor": "Moya Pons, Frank",
+   "anio": "1992",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.cambridge.org/core/product/553294937394A5BAD9E8F7FB2245A6B3",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de revisión por pares de un especialista, pero solo se leyó el primer párrafo (extracto) y la lista de referencias; el cuerpo está tras muro de pago.",
+   "proveniencia": "Frank Moya Pons, entonces en el Center for Latin American Studies de la Universidad de Florida, publicó este artículo en Antiquity (sección especial de 1992 sobre el quinto centenario). Está escrito en inglés para un público arqueológico internacional. La referencia incluye Cook y Borah 1971, Denevan 1976 y Henige 1978, lo que muestra que conocía ese debate.",
+   "extractos": [
+    {
+     "ubicacion": "p. 130, primer párrafo (extracto de Cambridge Core)",
+     "cita_original": "These ‘Indians’ called themselves Tainos, to signify that they were peaceful, although they defended themselves well from their neighbouring enemies, the Caribes of the Lesser Antilles islands",
+     "traduccion": "Estos 'indios' se llamaban a sí mismos taínos, para significar que eran pacíficos, aunque se defendían bien de sus enemigos vecinos, los caribes de las Antillas Menores.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Solo útil para el debate de la etiqueta 'taíno' (no cubierto por A-021 a A-029): la historiografía dominicana institucional lo trata como autodenominación ('pacíficos'); Rafinesque 1836 y Curet 2014 lo discuten. El cuerpo del artículo (que probablemente contiene su método demográfico en inglés) no se leyó [POR VERIFICAR]."
+  },
+  {
+   "titulo": "La población de Santo Domingo (discurso de ingreso en la Academia Dominicana de la Historia; Clío, n.º 115, 1959, pp. 116-134)",
+   "autor": "Amiama, Manuel A.",
+   "anio": "1959",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-1959-115-116-134.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Clio_1959_No_115.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Discurso académico de la época hispanista (1959, régimen de Trujillo), que cita estimaciones con autor pero no calcula; útil como testimonio de la posición oficial, no como medición.",
+   "proveniencia": "Manuel A. Amiama, licenciado, lee este discurso al ocupar el sillón vacante de Arturo Logroño (1893-1948) en la Academia Dominicana de la Historia; el texto incluye cifras de población hasta 1959. Parte de la historiografía académica dominicana de los años del trujillismo y defiende una población baja y la supervivencia de la 'raza indígena' en el pueblo dominicano (tesis que dice sostener desde 1943). Texto leído en OCR sin tildes; las citas se restituyen y se verificaron con coincidencia aproximada.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 117-118 (cabeceras OCR)",
+     "cita_original": "Los cronistas e historiadores no se han puesto de acuerdo sobre la población que tenía la isla hoy llamada de Santo Domingo",
+     "traduccion": "El texto sigue: 'en 1492, al tiempo de su descubrimiento por los españoles. Algunos la fijan en 5.000,000 de habitantes, otros en 3,000.000... Hay quien... 1,000.000'. El OCR lee '2492' por 1492.",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "pp. 117-118",
+     "cita_original": "El escritor que con criterio más científico se ha ocupado en este asunto, el doctor Ángel Rosemblat, estima que la población de nuestra isla, en 1492, puede fijarse en 100,000 habitantes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 118",
+     "cita_original": "ya para el 1508, dieciséis años después del descubrimiento, durante el gobierno de Fray Nicolás de Ovando, sólo quedaban de 40,000 a 60,000 indígenas",
+     "traduccion": "El OCR lee 's61o' por 'sólo'.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "pp. 130-131 (Observación 1)",
+     "cita_original": "Que es muy difícil, o francamente imposible determinar la población que tenía la Isla al llegar los descubridores españoles",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 132",
+     "cita_original": "la población indígena de 1492 no era, ni remotamente tan elevada como algunos cronistas fantasiosos lo estamparon en sus relaciones pintorescas",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 132",
+     "cita_original": "la raza indígena no fue exterminada totalmente y que todavía quedan en nuestro pueblo muchos millares de habitantes que son supervivencia indudable de aquella raza",
+     "traduccion": "Posición hispanista de 1959 sobre la supervivencia indígena (relevante para la tesis dominicana de descendencia taína).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Mira Caballos (2017) lista 'Amiama (1959) 100,000' en su cuadro; Amiama dice que Rosenblat da 100.000 y que la evolución posterior 'parece estar en favor de una estimación conservadora de 100.000 habitantes' (conclusión 1). Paginación inferida de las cabeceras del OCR. [POR VERIFICAR]: la biografía de Amiama más allá de lo que dice el texto. Sesgo: discurso de época trujillista que acentúa la ausencia de exterminio indígena total y la relación hispano-indígena."
+  },
+  {
+   "titulo": "Revisando el viejo debate del colapso de los taínos de La Española (Clío, año 86, n.º 194, jul.-dic. 2017, pp. 284-335)",
+   "autor": "Mira Caballos, Esteban",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2017-194-284-335.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estado de la cuestión anotado y con cuadro de 21 estimaciones y sus fuentes, publicado en la revista de la Academia Dominicana de la Historia; el autor expone su propia posición escéptica.",
+   "proveniencia": "Esteban Mira Caballos, historiador español, miembro correspondiente extranjero de la Academia Dominicana de la Historia (según la nota 1 del artículo). El texto es la versión anotada de una videoconferencia dada a alumnos de la UNAM (sede de Ottawa) el 15-III-2016 y se apoya en la compilación 'Los taínos en 1492. El debate demográfico' (eds. F. Moya Pons y R. Flores Paz, ADH vol. CIII, Editora Búho, 2013), que reúne 14 aportes (Rosenblat, Cook y Borah, Moya Pons, Henige, Zambardino, Guerra, Danubio, Anderson-Córdova, N. D. Cook, Livi Bacci). Incluido por haberse publicado en la revista de la ADH, aunque el autor sea español.",
+   "extractos": [
+    {
+     "ubicacion": "p. 285 (tras la nota 3; folio impreso '284' en el pie de la hoja anterior)",
+     "cita_original": "A veces se presenta al taíno como un grupo homogéneo; de hecho, habitualmente se utiliza el término para señalar a los habitantes de la isla Española anteriores a la llegada de los europeos. Sin embargo, se trata de una errónea simplificación de la realidad",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 289",
+     "cita_original": "no pueden ser tomados en consideración a efectos numéricos por dos motivos: primero, porque hicieron las estimaciones a bote pronto sin pararse a contar; y segundo, porque exageraban todo lo que veían",
+     "traduccion": "Se refiere a Colón, Benzoni, Pedro Mártir, Las Casas y Oviedo.",
+     "afirmaciones": [
+      "A-022",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 291",
+     "cita_original": "fray Bartolomé de Las Casas cambió de opinión en varias ocasiones, oscilando sus versiones entre los 1.1 millones, y “los más de tres y cuatro” millones",
+     "traduccion": "En la Brevísima se queda con 3 millones (misma página, según Mira).",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 294",
+     "cita_original": "las fluctuaciones son excesivas y van desde los 60,000 aborígenes de Verlinden a los casi 8 millones de Cook y Borah",
+     "traduccion": "Cuadro I (p. 295): Verlinden 1973, 60.000; Amiama 1959, 100.000; Rosenblat, 100.000; Mira Caballos 1997, 100.000; Cassá 1979, 250.000; Morison 1948, 300.000; Moya Pons 1987, 377.559; Cook 1993, 500.000-750.000; Moya Pons 1971, 600.000; Zambardino 1978, 1.000.000; Guerra, 1.100.000; Watts 1987, 3-4 millones; Borah y Cook 1971, 7.975.000 (21 filas en total).",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 299",
+     "cita_original": "Dado que la población en 1503 era de 251,706 habitantes y constituía los 2/3 pates de la original, la población total era de 377,559.",
+     "traduccion": "'pates' es errata del original por 'partes'. Esta es la derivación de Moya Pons (1976) según Mira, no el texto de Moya Pons.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 300",
+     "cita_original": "dependiendo de la fiabilidad que se otorguen a unos datos u otros pueden salir los poco más de 60,000 habitantes de que hablaba Verlinden o los varios millones que defendieran Cook y Borah.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-027"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Aporta la base de 377.559: según Mira (p. 299), Moya Pons ('Datos para el estudio de la demografía aborigen en Santo Domingo', Boletín del Museo del Hombre Dominicano 5(6), 1976, pp. 79-92, reeditado en la compilación de 2013, pp. 105-116) parte de 251.706 en 1503 como los 2/3 de la población original, y Mira señala que Moya habría malinterpretado a Las Casas (que diría que quedó 'la tercera parte', no que bajó un tercio; con esa lectura saldría 755.118). Corrige a A-024: el método no es 'repartimiento de 1508 más un tercio', y 377.559 es de 1976/1987 (según Mira), no 'de 1494'. Mira defiende una posición baja (100.000) y no confía en Las Casas. El texto de 1976 y la compilación de 2013 no se encontraron en línea [POR VERIFICAR contra Moya Pons 1976]. El cuadro I de Mira se toma de Cook 2003, Cook 2005, Livi Bacci 2006 y Anderson-Córdova (según su nota 30)."
+  },
+  {
+   "titulo": "La conquista del cacicazgo de Higüey y la fundación de Salvaleón de Higüey (Clío, año 80, n.º 182, jul.-dic. 2011, pp. 11-73)",
+   "autor": "Julián, Amadeo",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://academiadominicanahistoria.org.do/wp-content/uploads/2017/07/182-1.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio de un miembro de número de la ADH con notas a las crónicas, a Sauer y a Livi Bacci; los pasajes usados son revisión de literatura, no hallazgo propio.",
+   "proveniencia": "Amadeo Julián, miembro de número de la Academia Dominicana de la Historia (nota 1 del artículo), escribe un estudio sobre Higüey desde el poblamiento indígena (datos arqueológicos) hasta la fundación de Salvaleón. Se publica en la revista Clío de la Academia, en el número editado por Emilio Cordero Michel, para lectores académicos. Se apoya en Las Casas, Pedro Mártir, Sauer y Livi Bacci (Tabla 6, p. 286 de Los estragos de la conquista, 2006).",
+   "extractos": [
+    {
+     "ubicacion": "p. 18 (tras el pie '17')",
+     "cita_original": "En dicho mapa aparecen las cinco provincias de la isla, que según Morales y Mártir eran: Caizcimú, Huhabo, Cayabo, Bainoa y Guacayarima.",
+     "traduccion": "El 'mapa' es el de Sauer, hecho con las informaciones de Andrés de Morales y Pedro Mártir; las cinco 'provincias' no son Marién, Maguá, Maguana, Jaragua y Higüey.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 19 (tras el pie '18')",
+     "cita_original": "La explicación que se ha dado, es que Morales elaboró su mapa, a raíz de haber recorrido la isla por orden de Ovando, en 1508, cuando esos cacicazgos y sus caciques habían ya dejado de existir como tales.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 19",
+     "cita_original": "De un elenco de 17 autores, cuatro estarían entre los que estiman que la población indígena al momento del descubrimiento no pasaba de 100,000. Cinco proponen cifras que oscilan entre 500 mil y 750 mil.",
+     "traduccion": "Julián resume la Tabla 6 de Livi Bacci (2006).",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 20 (tras el pie '19')",
+     "cita_original": "Sin entrar en la polémica ni tomar partido por una cifra cualquiera de las propuestas, solo a título de información",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 20 (cita de Las Casas, Historia de las Indias, y nota 10)",
+     "cita_original": "más había en toda la isla de tres cuentos porque, en aquellos tiempos, no se tenía cuenta con esta provincia de Higüey",
+     "traduccion": "Nota 10 de Julián: 'un cuento era igual a un millón' (tres millones). Las Casas dice que el 1.100.000 de Colón cubría solo las gentes del Cibao y la Vega.",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Matiza A-021: la cuenta de 'cinco' reinos de Las Casas (no la de Julián) no es la única división en cinco: Morales y Mártir, vía Sauer, dan cinco 'provincias' distintas (Caizcimú, Huhabo, Cayabo, Bainoa, Guacayarima). Las Casas, en el pasaje que cita Julián, explica que no se contó Higüey, Haniguayaba ni Guacayarima. La Tabla 6 de Livi Bacci (2006), que Julián resume, no se cotejó aquí [POR VERIFICAR]. Paginación inferida de los folios que aparecen al pie de cada hoja en el PDF. Datación arqueológica inicial que da Julián (barreroide, 3.630 a. C., costa occidental de Haití; Barrera-Mordán 2.610 a. C.) en p. 12, útil para M01 aunque no se cita aquí."
+  },
+  {
+   "titulo": "Panorama histórico de la literatura dominicana, 2.ª ed. (Colección Pensamiento Dominicano), cap. 'Literatura indigenista'",
+   "autor": "Henríquez Ureña, Max",
+   "anio": "1966",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://bd.bnphu.gob.do/bitstreams/8d9b8719-a10a-4ce2-9d1a-7b6e41c8f0c1/download",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia literaria de un crítico mayor de la cultura dominicana, con fechas y obras citadas; solo se leyó el capítulo sobre indigenismo.",
+   "proveniencia": "Max Henríquez Ureña (crítico y escritor dominicano) publicó este panorama de la literatura dominicana; esta es la segunda edición revisada y ampliada, impresa en Santo Domingo en 1966 (la ficha del libro dice 'Santo Domingo, R. D., 1966'). La copia digital procede de la Biblioteca Nacional Pedro Henríquez Ureña. Analiza por qué los poetas dominicanos del siglo XIX recuperaron la figura de los aborígenes (Galván, Salomé Ureña, Nicolás Ureña).",
+   "extractos": [
+    {
+     "ubicacion": "p. 280 (cap. 'Literatura indigenista')",
+     "cita_original": "Es la guerra de Restauración nacional, librada contra España, la que mueve a los dominicanos a recordar a los desaparecidos aborígenes y a llorar sus desventuras.",
+     "traduccion": "",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 280",
+     "cita_original": "sí cabe afirmar que estaba latente un móvil político detrás del motivo sentimental que indujo a los dominicanos a cultivar los temas indigenistas.",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01",
+    "M10"
+   ],
+   "id_existente": "",
+   "notas": "No toca A-021 a A-029; sirve a la tesis dominicana de descendencia taína (E identidad): fecha el momento en que lo indígena entra en el imaginario patriótico dominicano (1863-1865, guerra contra España, 'móvil político' según un crítico de la época) y nombra Enriquillo (Galván), Anacaona (Salomé Ureña) y la Oda a mi Patria de Nicolás Ureña (1872). Foliado leído en el PDF (p. 280). Solo se leyeron unas pocas páginas del capítulo [POR VERIFICAR el resto]."
+  },
+  {
+   "titulo": "Torres-Saillant, Silvio: Introduction to Dominican Blackness (Dominican Studies Research Monograph Series, CUNY Dominican Studies Institute, 2.ª ed. 2010)",
+   "autor": "Torres-Saillant, Silvio",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "dominicana",
+   "url": "https://www.ccny.cuny.edu/sites/default/files/dsi/upload/Introduction_to_Dominican_Blackness_Web.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de un especialista dominicano en la diáspora con bibliografía; las cifras de 1492 las toma de Moya Pons, no son aportación propia.",
+   "proveniencia": "Silvio Torres-Saillant, estudioso dominicano de la diáspora (Syracuse University, según su CV [POR VERIFICAR]), publicó esta monografía en 1994 (según el prólogo de la segunda edición) y en segunda edición en 2010 (CUNY DSI). Escribe desde la crítica interna al discurso dominicano de raza. curl devolvió 403 al servidor del City College; el PDF se obtuvo con WebFetch (que lo guardó localmente) y se leyó con pdftotext.",
+   "extractos": [
+    {
+     "ubicacion": "p. 8 (cap. IV, 'The Spreading of Blackness')",
+     "cita_original": "A census of the colony taken in 1508 showed that a mere 60,000 Tainos remained from the original 400,000 found by the Spaniards in 1492 (Moya Pons 1992:26).",
+     "traduccion": "El censo de 1508 mostró que quedaban solo 60.000 taínos de los 400.000 originales hallados por los españoles en 1492.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 45 (cap. sobre el concepto dominicano de raza)",
+     "cita_original": "the regime gave currency to the term indio (Indian) to denominate the complexion of people of mixed ancestry.",
+     "traduccion": "El régimen (de Trujillo) dio curso al término 'indio' para designar el color de la gente de ascendencia mixta.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-024"
+   ],
+   "modulos": [
+    "M01",
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Torres-Saillant cita a Moya Pons, Manual de historia dominicana, 9.ª ed., Caribbean Publishers, 1992 (p. 26 para 400.000 y 60.000; p. 293 para 3.000 taínos en 1519). Ese 'Moya Pons 1992:26' es una pista para cotejar el Manual. El 3.000 de 1519 difiere de 'poco más de 1,000 en 1520' (HGPD I, p. 177). El extracto de 'indio' no toca las A-021 a A-029 pero sustenta la discusión de la categoría racial 'indio' (glosario). La paginación (8 y 45) sale de los folios del PDF."
+  },
+  {
+   "titulo": "Roberto Cassá. Los indios de las Antillas. Madrid, Editorial MAPFRE, 1992 (reseña; Ecos, vol. 1, n.º 2, 1993, p. 212)",
+   "autor": "Rodríguez [Morel], Genaro",
+   "anio": "1993",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/39/138/142",
+   "urls_alternativas": [
+    "https://revistas.uasd.edu.do/index.php/ecos/article/view/39",
+    "https://doi.org/10.51274/ecos.v1i2.pp212"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña breve en la revista del Instituto de Historia de la UASD, de un historiador especialista en la época colonial; sirve como resumen de la tesis de Cassá, no como prueba.",
+   "proveniencia": "Genaro Rodríguez (firma 'Genaro Rodríguez' en la ficha; probablemente Genaro Rodríguez Morel, [POR VERIFICAR]) reseña en 1993 el libro de Roberto Cassá 'Los indios de las Antillas' (MAPFRE, 1992, 318 pp.). Publica en Ecos, órgano del Instituto de Historia de la UASD. El texto tiene errores de OCR (acentos), y las citas se verificaron con coincidencia aproximada.",
+   "extractos": [
+    {
+     "ubicacion": "p. 212",
+     "cita_original": "situando la aldea como unidad dentro de la cual se desarrollaba la cultura taína. Dentro de esto se contempla el problema del poder de los caciques en relación al sistema socioeconómico.",
+     "traduccion": "Según la reseña, Cassá toma la aldea como unidad de la cultura taína (no el cacicazgo supraaldeano).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 212",
+     "cita_original": "Cassa plantea que el legado indígena solo tuvo presencia mediante el mestizaje y no como ingrediente puro.",
+     "traduccion": "OCR: 'indlgena', 't uvo' en el original; se restituyen.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Útil para ubicar a Cassá (1992) frente a la lista de cinco cacicazgos (1974/2009): la reseña lo presenta como interpretación marxista que 'sitúa la aldea como unidad'. El libro de Cassá y 'Los taínos de La Española' (1974) no se encontraron en línea [POR VERIFICAR]. Rodríguez de la ficha OJS: nombre completo no confirmado."
+  },
+  {
+   "titulo": "Taínos, arte y sociedad: un viaje a los orígenes (reseña del libro de Manuel García Arévalo, Editorial Popular, Santo Domingo, 2019, 208 pp.)",
+   "autor": "Dobarro, Clara",
+   "anio": "2021",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/tainos-arte-y-sociedad-un-viaje-a-los-origenes-8937752.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Reseña de promoción de un libro patrocinado por el Banco Popular; vale solo como vehículo de dos citas literales de García Arévalo, cuya obra no se ha consultado.",
+   "proveniencia": "Clara Dobarro escribe en Acento (26-IV-2021) sobre el libro de Manuel García Arévalo (fundador de la Sala de Arte Prehispánico y miembro de la Academia Dominicana de la Historia, tesorero 2010-2013 según el colofón del HGPD I) editado por el Banco Popular Dominicano en 2019. El tono es laudatorio y de divulgación.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 5 del cuerpo (cita de García Arévalo)",
+     "cita_original": "no fue la primera ni la única en poblar el entorno antillano. El Caribe insular, siglos antes de la aparición de los llamados “taínos”, estuvo habitado por grupos humanos de características sociales, culturales y económicas muy diferentes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2 del cuerpo (cita de García Arévalo)",
+     "cita_original": "en el fondo, no es más que una manifestación del mestizaje cultural que, a través de los tiempos, ha marcado el perfil de las islas del Caribe",
+     "traduccion": "García Arévalo se refiere a la cultura taína.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Las dos frases son de García Arévalo (2019), citadas por la reseñista; el libro no se consultó [POR VERIFICAR contra el original]. Muestra a una voz institucional dominicana (ADH, Banco Popular) que acepta la pluralidad cultural previa a los 'llamados taínos'."
+  },
+  {
+   "titulo": "Nivel de desarrollo de las comunidades aborígenes de Santo Domingo al producirse la invasión española en el siglo XV",
+   "autor": "De la Cruz, Juan",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/nivel-de-desarrollo-de-las-comunidades-aborigenes-de-santo-domingo-al-producirse-la-invasion-espanola-en-el-siglo-xv-9754177.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de un historiador universitario que cita con página la obra de Veloz Maggiolo, pero escrito para la prensa y con interpretación marxista propia; las citas de Veloz son de segunda mano.",
+   "proveniencia": "Juan De la Cruz, 'historiador y profesor universitario' (doctor en Historia Contemporánea por la Univ. del País Vasco y doctorado en Ciencias de la Educación, UASD/Cuba, según la nota de Acento), publica en Acento el 20-IX-2026. Reproduce varios pasajes de Veloz Maggiolo, 'Arqueología prehistórica de Santo Domingo' (McGraw-Hill Far Eastern, 1972, pp. 74-75, 234, 236, 240), y añade su propia lectura (cacicazgos como confederaciones tribales con 'formas incipientes de Estado'). Fecha de la nota: 20-IX-2026.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Los taínos constituyeron...' (cita de Veloz 1972, p. 234, según la nota [4] del artículo)",
+     "cita_original": "En la isla Española, existían, al momento de la conquista, cinco grandes cacicazgos: Marién, con su jefe Guacanagarix; Maguana, con su jefe Caonabó; Maguá, con su jefe Guarionex; Jaragua, con su jefe Behechío Boechío, e Higüey, con su jefe Cayacoa.",
+     "traduccion": "Texto atribuido por De la Cruz a Veloz Maggiolo (1972); no cotejado con el original.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "mismo bloque (cita de Veloz 1972, p. 234)",
+     "cita_original": "El cacicazgo de Jaragua, por ejemplo, comprendía 26 nitainatos, el de Maguá 21; el de Marién 14; el de Maguana 21, y el de Higüey, también 21.",
+     "traduccion": "Suma 103 nitainatos; no se ve la fuente primaria de esas cifras.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "último párrafo",
+     "cita_original": "dando paso al exterminio de casi medio millón de personas nativas que encontraron en estas tierras pródigas",
+     "traduccion": "Cifra implícita de ~500.000 en 1492 (consistente con el 'medio millón' de HGPD I, p. 177).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "párr. 1 del cuerpo",
+     "cita_original": "los restos humanos arcaicos hallados en un yacimiento arqueológico en el Monumento Natural del Cabo en Samaná (noreste de la República Dominicana) datan de hace 5,300 años",
+     "traduccion": "El texto añade 'antes de Cristo' por error. La 'procedencia directa de Venezuela' es la hipótesis de López (EFE 2022); la ponencia de Sirak 2026 habla de afinidad istmo-colombiana.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-024",
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Muestra la persistencia en 2026 del relato de 'cinco grandes cacicazgos' con cacique supremo y la cifra de ~500.000 entre historiadores universitarios dominicanos, citando a Veloz de 1972 (que Veloz matizó en 1993 y 2013). Hay error de datación ('5,300 años antes de Cristo' en vez de hace 5.300 años) y atribuye a Harvard una procedencia venezolana que en la prensa solo aparece como hipótesis del arqueólogo López. Sesgo: marxista-estructural."
+  },
+  {
+   "titulo": "Primigenios Kiskeyanos",
+   "autor": "Cross, Sergio Samuel",
+   "anio": "2026",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/primigenios-kiskeyanos-9676670.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Texto de divulgación de un arquitecto-historiador sin notas, que repite la versión escolar de los cacicazgos.",
+   "proveniencia": "Sergio Samuel Cross Rivera, arquitecto conservador del Palacio de Gobierno y urbanista, escribe en Acento (12-V-2026) una nota ilustrada con material del Centro Cultural Taíno Casa del Cordón (Banco Popular). Resume la 'Kiskeya' taína para el gran público; cierra con la lista de los cinco cacicazgos.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Cacicazgos.'",
+     "cita_original": "Kiskeya tenía cinco cacicazgos. Marién, con Guacanagarix, quien colaboró con Colón y primero en recibirles; Maguá (Reino de la Vega Real) con Guarionex; Maguana, con Caonabo, primer líder de la resistencia; Jaragua, con Bohechío, luego Anacaona, ejecutada por Ovando; Higüey, liderado por Cayacoa, luego Cotubanamá.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "sección 'Cacicazgos.'",
+     "cita_original": "Por enfermedades como viruela, explotación en minas, campos y enfrentamientos bélicos, se extinguieron a mediados del siglo XVI.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo de la vulgata actual: cinco cacicazgos sin matiz, extinción a mediados del siglo XVI, 'Kiskeya' como nombre. No cita fuentes."
+  },
+  {
+   "titulo": "Breves datos históricos de la Isla de Santo Domingo",
+   "autor": "Gómez Cerda, José",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/breves-datos-historicos-de-la-isla-de-santo-domingo-9422957.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión que resume 'datos históricos' escolares sin citar fuente alguna.",
+   "proveniencia": "José Gómez Cerda publica en Acento (17-XI-2024, sección 'La lucha es diaria') una síntesis de bachillerato sobre la isla antes y después de 1492. No hay biografía del autor en la página [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 del cuerpo",
+     "cita_original": "400,000 nativos había en la Isla, en 5 cacicazgos;",
+     "traduccion": "A continuación lista Higüey (Cayacoa), Maguá (Guarionex), Maguana (Caonabo), Marién (Guacanagarix) y Jaragua (Bohechío).",
+     "afirmaciones": [
+      "A-021",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "bajada del titular",
+     "cita_original": "ellos eran los « TAINOS ».",
+     "traduccion": "Antes: 'Los aborígenes que encontraron los españoles... tenían una CULTURA propia, basada en la igualdad de los miembros de su sociedad'.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-024",
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo del relato escolar: 400.000 nativos en 5 cacicazgos, sin matiz sobre la base de la cifra y con 'taínos' como etnónimo único."
+  },
+  {
+   "titulo": "De indios vivos a cristianos muertos",
+   "autor": "Almonte Minaya, Anthony",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/de-indios-vivos-a-cristianos-muertos-9552429.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Recuento periodístico de Las Casas sin cotejo ni notas.",
+   "proveniencia": "Anthony Almonte Minaya (historiador, educador y politólogo, maestría en Historia Dominicana por la UASD, según la nota de Acento) publica el 19-IX-2025 un repaso de la destrucción de los reinos de la isla a partir de Las Casas. Es una nota de divulgación con epígrafe de Galeano.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 del cuerpo",
+     "cita_original": "Explica el padre Las Casas, que a la llegada de los conquistadores la isla de La Española, estaba dividida en cinco reinos, regidos por cinco reyes poderosos los cuales eran asistidos por gran número de señores.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Sigue a Las Casas (Historia de las Indias, t. III, l. 11648 del texto local) y no distingue 'reino' de 'cacicazgo'; demuestra la transmisión mediática del relato lascasiano de cinco reinos."
+  },
+  {
+   "titulo": "El día que los indios vivos se convirtieron en cristianos muertos… polémica a 140 años de Enriquillo",
+   "autor": "Martínez, Vianco",
+   "anio": "2019",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/cultura/el-dia-que-los-indios-vivos-se-convirtieron-en-cristianos-muertos-polemica-a-140-anos-de-enriquillo-8724294.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Artículo periodístico que cita de segunda mano a Moya Pons y a Mira Caballos; vale como pista bibliográfica, no como fuente de la cifra.",
+   "proveniencia": "Vianco Martínez, 'especial para Acento' (6-IX-2019), recoge citas de Frank Moya Pons ('Otras miradas a la historia', 2017; Academia Dominicana de la Historia vol. CIII: 'Los últimos taínos. Los taínos en 1492. El debate demográfico'), de Mira Caballos y de Pedro Henríquez Ureña, y versos de Neruda. Sin notas.",
+   "extractos": [
+    {
+     "ubicacion": "párrafo que empieza «Según el historiador Frank Moya Pons (Otras miradas a la historia, 2017)»",
+     "cita_original": "La población nativa de la isla Española decreció de unas 400,000 personas en 1493 a apenas 26,334 en 1514",
+     "traduccion": "Moya Pons, citado por el periodista.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "párrafo que empieza «“Tal fue el volumen de muertes que un conteo realizado en 1508...» (cita de Moya Pons con la referencia 'Moya Pons 1979')",
+     "cita_original": "Tal fue el volumen de muertes que un conteo realizado en 1508 encontró solo 60,000 indios",
+     "traduccion": "Sigue: 'restantes de una población de cerca de 400,000 habitantes (Moya Pons 1979)'. 1510: 40.000; 1511: 33.535 (según la misma cita).",
+     "afirmaciones": [
+      "A-024",
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-024"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Pista bibliográfica: Moya Pons 'Los taínos en 1492. El debate demográfico' (ADH 103, 2013) y 'Otras miradas a la historia' (2017); el periodista cita 'Moya Pons 1979' sin dar título. Ninguna se leyó directamente [POR VERIFICAR]. Las cifras 400.000 (1493) y 26.334 (1514) son de Moya Pons según la cita."
+  },
+  {
+   "titulo": "La Tainidad y su herencia",
+   "autor": "Guerrero, Johnny",
+   "anio": "2015",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/la-tainidad-y-su-herencia/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión de un abogado que resume la crítica arqueológica sobre 'taíno' y añade tesis propias sin fuente.",
+   "proveniencia": "Johnny Guerrero, abogado, secretario general del capítulo dominicano de la Asociación Americana de Juristas (según la nota del periódico), publica la columna en El Día el 28-IV-2015. Recoge la crítica del término 'taíno' (en línea con Veloz Maggiolo) y afirma la existencia de aborígenes no contados en los censos del siglo XVI.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "Los españoles acuñaron el concepto de taino como sinónimo de todas las etnias y culturas que aun existían a su llegada a la isla y el hibrido surgido con el intercambio entre ellas.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "párr. 5",
+     "cita_original": "la organización política de los aborígenes de la Española, que estaba dividida en cinco grandes cacicazgos, gobernados por un cacique y por otros caciques de menor jerarquía, llamados nitaínos",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "párr. 9",
+     "cita_original": "esos censos no tomaron en consideración las grandes poblaciones originarias que habitaban en las montañas de la isla Española, al haberse escapado del cautiverio de las encomiendas y la esclavitud",
+     "traduccion": "Afirmación sin cita; relevante para la fiabilidad de los censos de 1508-1514 en que se basan las estimaciones bajas (A-024).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-024",
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Declara que la 'tainidad es un mito' pero 'una realidad actual' como símbolo; sin fuente para la tesis de que había decenas de miles de indios y negros no contados [POR VERIFICAR]. Introduce el término 'tainidad' (ver terminos_nuevos)."
+  },
+  {
+   "titulo": "Los cacicazgos, ¿cómo se manejaron a la llegada de Colón? (Plan LEA)",
+   "autor": "Del Jesús, Elizahenna",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://planlea.edu.do/2023/04/los-cacicazgos-como-se-manejaron-a-la-llegada-de-colon/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Material de apoyo escolar de un programa educativo de prensa, sin citas; la página sale con el rótulo de un nombre ('Miguel Reyes Sánchez') que probablemente es la fuente del texto [POR VERIFICAR].",
+   "proveniencia": "Plan LEA es un programa educativo vinculado a Listín Diario [POR VERIFICAR su naturaleza institucional]: la autora figura como coordinadora editorial de Plan LEA y de Listín Diario, graduada de la UASD, y la página enlaza al MINERD. Fecha: 20-IV-2023. La presenta como lectura escolar, con el rótulo 'Miguel Reyes Sánchez' encima del texto (no se sabe si autor o fuente).",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 del cuerpo",
+     "cita_original": "Cuando Colón llegó a la isla, encontró que los aborígenes tenían una organización administrativa en cinco cacicazgos: Marién, Maguá, Maguana, Higuey y Jaragua, los cuales se dividían en nitaínos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2 del cuerpo",
+     "cita_original": "Cada uno de estos territorios eran independientes, bajo la administración de un cacique, con un gobierno hereditario y absoluto; y tenían sus límites muy bien definidos",
+     "traduccion": "Contrasta con 'aún en discusión en cuanto a sus fronteras' (HGPD I, p. 236).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Texto idéntico al de otros sitios escolares dominicanos (p. ej. 'Los 5 cacicazgos en República Dominicana', cce.edu.do, que devuelve 404 hoy). Es la versión que llega a la escuela. No es documento oficial del MINERD aunque el portal enlaza con él [POR VERIFICAR el vínculo institucional]."
+  },
+  {
+   "titulo": "¿Cómo era nuestra isla a la llegada de los españoles? (Plan LEA)",
+   "autor": "Del Jesús, Elizahenna",
+   "anio": "2024",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://planlea.edu.do/2024/03/como-era-nuestra-isla-a-la-llegada-de-los-espanoles/",
+   "urls_alternativas": [
+    "https://planlea.edu.do/2021/06/como-era-nuestra-isla-antes-de-la-llegada-de-los-espanoles/"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Material de apoyo escolar sin fuentes, con cifras erróneas o sin base (p. ej. 15% de genes taínos).",
+   "proveniencia": "Plan LEA (programa educativo vinculado a Listín Diario [POR VERIFICAR]); la autora figura como su coordinadora editorial. Fecha: 25-III-2024 (hay una versión de 2021 con el mismo texto). Presenta a escolares los 'cinco grandes cacicazgos', la 'extinción' y la herencia genética taína.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'Quisqueya a la de los españoles...'",
+     "cita_original": "la historia taina nos pertenece solo a los quisqueyanos, que nos queda en el lado este español.",
+     "traduccion": "Afirmación identitaria que niega que Haití comparta la historia taína.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Debido al maltrato...'",
+     "cita_original": "Así nació el mito de la extinción de los taínos.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "párr. 'Los taínos fueron declarados...'",
+     "cita_original": "Los taínos fueron declarados extintos poco después de 1565, cuando un censo destacado que solo había 200 indios viviendo en La Española.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "último párrafo del cuerpo",
+     "cita_original": "Hay genes taínos en 15% de los dominicanos.",
+     "traduccion": "El estudio del Proyecto Genográfico Dominicano da 3,8% autosómico y 12,1% de ADNmt (F-0203); 15% no tiene fuente.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ],
+   "modulos": [
+    "M01",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo del relato escolar actual: cinco cacicazgos, 'mito de la extinción', 200 indios en 1565, 15% de genes taínos, 'la historia taína nos pertenece solo a los quisqueyanos'. Contradice el cuadro genético de F-0203 y la tesis de Guerrero (2015). Sin fuente para el 'censo' de 1565 [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Resaltan investigación de antiguos pobladores de Hispaniola",
+   "autor": "Diario Libre (redacción)",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/planeta/ciencia/2022/09/02/resaltan-investigacion-de-antiguos-pobladores-de-hispaniola/2038859",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota de prensa sobre un acto con declaraciones del presidente de la Academia de Ciencias y del arqueólogo del proyecto; sirve para fechar el proyecto Cabo Samaná, no como evidencia genética.",
+   "proveniencia": "Diario Libre (2-IX-2022, según la URL) cubre el acto en que el presidente de la Academia de Ciencias de la República Dominicana, Luis Scheker, resalta el proyecto 'Identificación del origen y filiación de los primeros habitantes arcaicos de la isla' en el Monumento Natural Cabo Samaná; declara el arqueólogo Adolfo López sobre estudios de ADN con Harvard.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3",
+     "cita_original": "López manifestó que actualmente realizan estudios de ADN, de la mano de la Universidad de Harvard, análisis de carbono 14 y antropología física",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "párr. 2",
+     "cita_original": "ha resultado en el hallazgo de un cementerio que se remontaría a más de 3,000 años y en donde se han encontrado, hasta el momento, 18 enterramientos",
+     "traduccion": "Datación posterior: 5.300 años por radiocarbono (EFE/El Día, 4-X-2022).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Primera noticia pública del proyecto genético sobre los arcaicos de Samaná (septiembre de 2022); la ponencia de Sirak es de julio de 2026 (ver F-0223)."
+  },
+  {
+   "titulo": "Casa del Cordón: presencia humana en Cabo Samaná data de más de seis mil años",
+   "autor": "Servicios de Acento.com.do",
+   "anio": "2025",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/actualidad/casa-del-cordon-presencia-humana-en-cabo-samana-data-de-mas-de-seis-mil-anos-9562231.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Nota institucional de prensa sobre un conversatorio del Centro Cultural Taíno Casa del Cordón (Banco Popular).",
+   "proveniencia": "Acento (10-X-2025) reproduce la información del conversatorio 'Seis mil años en la isla: en busca de las huellas ancestrales en Cabo Samaná' con el arqueólogo Adolfo López Belando, investigador principal del proyecto Cabo Samaná.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 'Entre los descubrimientos...'",
+     "cita_original": "un cementerio con restos de aproximadamente 20 personas de más de 5,500 años, la Cueva Funeraria de Daniel con entierros de más de 4,000 años y la planta de una vivienda del cuarto milenio antes de nuestra era.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Dos cifras de antigüedad distintas en la misma nota ('más de seis mil años' en el titular; '5.500 años' en el cuerpo). Para A-028 solo fija el contexto arqueológico del que salen los genomas de Sirak 2026."
+  }
+ ]
+}

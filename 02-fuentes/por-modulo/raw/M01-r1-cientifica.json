@@ -1,0 +1,2221 @@
+{
+  "lente": "cientifica",
+  "modulo": "M01",
+  "ronda": 1,
+  "fecha": "2026-10-06",
+  "busquedas_usadas": 28,
+  "busquedas_pendientes": [
+    "Keegan y Hofman 2017, The Caribbean before Columbus: capítulos sobre cacicazgos y población (solo hay copia no autorizada; buscar la edición legal o reseñas con cifras)",
+    "Curet 2005, Caribbean Paleodemography: densidades y estimaciones arqueológicas para La Española",
+    "Rodríguez Ramos 2010 y 2011 sobre la taineidad y la continuidad cerámica (artículos abiertos)",
+    "Fechas radiocarbónicas originales de Barrera-Mordán, Pedernales y Cueva Roja (Veloz Maggiolo y Ortega; Moore)",
+    "Supplementary Data 12 (ROH) de Fernandes 2021 y Extended Data Table 1 (Ne por sitio) en formato tabla",
+    "Henige 1986 (\"When did smallpox reach the New World\") y Guerra 1988 (gripe porcina de 1493)",
+    "Cook 1993 (Colonial Latin American Review 2:213-245) y Born to Die, cap. sobre el Caribe",
+    "Arranz Márquez 1991, texto del repartimiento de Alburquerque (362 caciques, 26.334 indios)",
+    "Browning y Browning 2015 (Ne a partir de IBD) como control metodológico de A-026",
+    "Búsqueda de críticas a la regla Ne-censo en humanos horticultores (Ne/N en poblaciones humanas históricas)",
+    "Estudios genómicos modernos en Haití (ADN autosómico) para la tesis de ascendencia taína",
+    "Informe de Andrés de Morales de 1508 (cinco cacicazgos con nombres distintos) en fuente primaria (lente colonial)"
+  ],
+  "lagunas": [
+    "Bloqueos que impidieron leer los textos centrales sobre población de 1492: Henige 1978 y Zambardino 1978 (Duke, 403), Livi-Bacci HAHR 2003 (Project MUSE exige verificación; solo se leyó su resumen metodológico en la Revista de Indias), Cook y Borah 1971 (libro, Google Books 429), Denevan 1992 (préstamo restringido en Internet Archive). Las cifras de esos autores constan solo de segunda mano (Cook 2003, Livi-Bacci 2003, Deagan 1993).",
+    "A-021 (cinco cacicazgos) no pudo contrastarse con la arqueología de referencia: Wilson 1990 (acceso institucional), Keegan y Hofman 2017 (la única copia en línea hallada es una subida no autorizada, no usada), Oliver 2009 (solo registro) y las tesis de Ulloa Hung 2013 y Samson 2010 (Leiden bloqueó el acceso con CAPTCHA). Solo hay indicios: Veloz Maggiolo (numerosos caciques), 362 caciques en 1514 (Livi-Bacci/Arranz), Granberry y Vescelius (cinco reinos taínos más macorís y ciguayos).",
+    "Una resultado de búsqueda menciona un informe de 1508 de Andrés de Morales con cinco cacicazgos de nombres distintos de los de Oviedo (Caizcimu, Caihabo, Bainoa, Guacaharima, Huabo); no se localizó en una fuente fiable y queda [POR VERIFICAR] (compete a la lente colonial-primaria).",
+    "No se halló crítica publicada a la conversión de Ne en censo de Fernandes 2021; el único control externo es el cociente Ne/N en fauna silvestre (Palstra y Fraser 2012), con incertidumbre de dos órdenes de magnitud. La regla de 3 a 10 veces Ne no está calibrada para sociedades de cacicazgo antillanas. Tampoco se encontró la cifra \"10.000-50.000\" en el artículo ni en el suplemento: solo en notas de prensa de Harvard y del Florida Museum.",
+    "Faltan la tabla S1 de Nägele 2020 (suplemento no descargado), la Extended Data Table 1 de Fernandes (Ne por sitio, imagen) y la suma de individuos de La Española en Fernandes 2021; el texto de Nieves-Colón 2020 y de Schurr 2026 no se abrió (solo resumen o registro).",
+    "El cuerpo del preprint de Sirak 2026 solo se leyó mediante WebFetch (citas del cuerpo sin cotejar contra texto descargado) y es un preprint sin revisión por pares; el PDF devolvió 429 (Cloudflare).",
+    "Haití sigue casi sin datos: un único sitio con ADN antiguo (Diale 1, 2 individuos) y ningún estudio genómico moderno hecho en el propio país en esta ronda; la ascendencia taína en Haití solo se apoya en el 0,0 % de mtDNA taíno de Bukhari 2017 (resumen).",
+    "Cronología: la llegada a La Española se sitúa en 4545-3930 cal BP (Napolitano 2019), ~4400 cal BP en Samaná (Sirak 2026) y ~2600 a.C. (Veloz Maggiolo), frente a \"~6.000 años\" (Fernandes, Hofman); las fechas originales de Barrera-Mordán y Pedernales no se cotejaron. No se localizaron datos cuantitativos sobre religión (cemíes) más allá de los comentarios de Curet 2014.",
+    "F-0227 (Cook, Born to Die), F-0233 (originales de Verlinden y Rosenblat) y F-0172 (yacimientos sin estudio atribuido) quedan sin resolver."
+  ],
+  "terminos_nuevos": [
+    {
+      "termino": "Edad Lítica / Arcaica / Cerámica (Lithic, Archaic, Ceramic Age) y ascendencia \"relacionada con arcaicos/cerámicos\"",
+      "tradicion": "internacional (arqueología y genética del Caribe)",
+      "nota": "Periodización material (herramientas de piedra, cerámica) que Fernandes 2021 usa también como etiqueta genética (\"Archaic-related\", \"Ceramic-related\"); no equivale a etnias ni a \"taínos\". Las fechas varían según el autor: Lítica ~4000 a.C. y Arcaica ~3000 a.C. (SI de Fernandes), llegada a La Española 4545-3930 cal BP (Napolitano 2019), \"~6.000 años\" (Fernandes, Hofman). Conviene añadir al glosario con la advertencia de Fernandes de no confundir ascendencia genética con identidad."
+    },
+    {
+      "termino": "población efectiva (Ne) frente a población censal (N)",
+      "tradicion": "científica (genética de poblaciones)",
+      "nota": "Ne es un parámetro genético (tamaño de una población idealizada con la misma deriva), no un recuento; Fernandes 2021 lo convierte en censo multiplicando por 3 a 10 sin calibración propia. Debe ir al glosario porque A-025 y A-026 dependen de esa distinción; el \"10.000-50.000\" circula como cifra de población pero procede de una nota de prensa (Harvard Gazette, 2020)."
+    },
+    {
+      "termino": "taíno (primer uso del etnónimo): Rafinesque 1836 frente a Martius 1867 y Bachiller y Morales 1883",
+      "tradicion": "internacional (historiografía antillana)",
+      "nota": "El glosario atribuye la construcción del etnónimo a Rafinesque (1836); Curet 2014 (Ethnohistory) atribuye el primer uso a Martius (1867, según Coll y Toste 1907) y la adopción por la historiografía caribeña a Bachiller y Morales (1883), sin mencionar a Rafinesque. Curet sostiene además que tayno/tainon era un adjetivo (\"bueno, noble\") y no un nombre propio. Discrepancia por resolver con las fichas F-0905 y F-0906 antes de fijar la atribución."
+    },
+    {
+      "termino": "taineidad (Taínoness)",
+      "tradicion": "internacional (Rodríguez Ramos, Oliver, citados por Curet 2014)",
+      "nota": "Concepto que entiende \"lo taíno\" como resultado histórico de interacciones multiétnicas y multirregionales, no como descendencia homogénea de los saladoides; es la alternativa al uso etnonímico y sustenta el debate de A-029."
+    },
+    {
+      "termino": "ciguayo y macorís (macorix) como pueblos y lenguas distintos del taíno",
+      "tradicion": "colonial (Las Casas) y lingüística (Granberry y Vescelius)",
+      "nota": "Las Casas distingue en La Española los taínos (cinco reinos), los macorís (macorix de arriba y de abajo) y los ciguayos (Samaná) con lenguas distintas; Amiama (Clío 1959) clasifica a los ciguayos como \"caribes\", clasificación que Granberry y Vescelius rechazan (el ciguayo no sería ni caribe ni taíno; evidencia: una palabra, tuob \"oro\"). Para A-021 conviene distinguir \"cacicazgos taínos\" de \"pueblos de la isla\"."
+    },
+    {
+      "termino": "hecatombe demográfica / genocidio (usado por científicos y por historiadores)",
+      "tradicion": "dominicana (Franco 2012) e internacional (Reich 2020)",
+      "nota": "Franco (Diario Libre, 2012) habla de \"hecatombe demográfica, es decir, un genocidio\"; Reich (Harvard Gazette, 2020) de \"one of the world's first genocides\" aun aceptando 10.000-50.000 habitantes. El glosario ya trata \"genocidio\" como término cargado; aquí se registra que ambos extremos de la discusión sobre la cifra lo usan para el significado, no para el hecho demográfico."
+    },
+    {
+      "termino": "\"Escuela de Berkeley\", cifras altas frente a bajas (\"high counters\" / \"low counters\")",
+      "tradicion": "internacional (historiografía demográfica)",
+      "nota": "Cook 2003 llama \"Escuela de Berkeley\" a Cook y Borah (cifras de millones), mientras Henige y Rosenblat representan las cifras bajas; Fernlund (History Reclaimed 2026) usa \"high counters/low counters\". Etiquetas de campo, no neutrales; usar la cifra y el autor en vez de la etiqueta."
+    },
+    {
+      "termino": "\"los primeros dominicanos\" (aplicado a restos arcaicos de Samaná)",
+      "tradicion": "dominicana (declaración del arqueólogo A. López en EFE, 2022)",
+      "nota": "Etiqueta nacionalizadora para restos de unos 4.400 años anteriores a cualquier estado; no es un hecho arqueológico sino una atribución de significado. El preprint de Sirak 2026 habla de \"Lithic Age\" y de ancestría compartida con Cuba."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "A genetic history of the pre-contact Caribbean (Nature 590:103-110)",
+      "autor": "Fernandes, Daniel M.; Sirak, Kendra A.; Ringbauer, Harald; Sedig, Jakob; Rohland, Nadin; Cheronet, Olivia; Mah, Matthew; Mallick, Swapan; Olalde, Iñigo; Culleton, Brendan J.; et al. (supervisión conjunta: Keegan, William F.; Coppa, Alfredo; Lipson, Mark; Pinhasi, Ron; Reich, David)",
+      "anio": "2021",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/s41586-020-03053-2.pdf",
+      "urls_alternativas": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/7864882/",
+        "https://doi.org/10.1038/s41586-020-03053-2"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Nature con revisión por pares, 174 individuos nuevos más 89 publicados, método de Ne descrito en el suplemento; la conversión a población censal es una inferencia declarada por los propios autores.",
+      "proveniencia": "Reich Lab (Harvard Medical School) con Univ. de Viena, Sapienza y Florida Museum; publicado en línea el 23-XII-2020. Coautores del Museo del Hombre Dominicano, la Univ. Autónoma de Santo Domingo, la Univ. de las Bahamas y museos cubanos aportaron material y contexto; el material de Haití (Diale 1) procede de la colección de Rainey y Rouse de 1934-35 (Peabody, Yale). Los autores declaran que la ascendencia genética no debe confundirse con identidad.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen, p. 1 del PDF (Nature 590:103)",
+          "cita_original": "we estimate to be a minimum of 500-1,500 and a maximum of 1,530-8,150 individuals on the combined islands of Puerto Rico and Hispaniola in the dozens of generations before the individuals who we analysed lived.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025"
+          ]
+        },
+        {
+          "ubicacion": "Resumen, p. 1 del PDF",
+          "cita_original": "Census sizes are unlikely to be more than tenfold larger than effective population sizes, so previous pan-Caribbean estimates of hundreds of thousands of people are too large.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026",
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Social structure and population size estimates\", p. 5 del PDF",
+          "cita_original": "Estimates of Ne can be used to infer census population size, which in humans is typically threefold, and up to tenfold, greater",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Tabla 1 (Demographic history), p. 2 del PDF",
+          "cita_original": "Ne values for Ceramic-associated sites were larger (about 500-1,500) than for Archaic-associated sites (about 200-300), and are estimated at around 1,500-8,000 across islands.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Social structure and population size estimates\", p. 5 del PDF; Fig. 3 (leyenda)",
+          "cita_original": "A comparison between the two major clades in Hispaniola and Puerto Rico gives an estimate of Ne = 3,082 (95% confidence interval of 1,530-8,150)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Social structure and population size estimates\", p. 5 del PDF",
+          "cita_original": "This provides an upper bound for the recent effective size of the joint population living in Hispaniola and Puerto Rico, as limited migration reduces the rate of distant cousins and IBD sharing across sites.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Social structure and population size estimates\", p. 5 del PDF",
+          "cita_original": "Estimates of Ne from the ROH signal represent lower bounds on pan-Caribbean effective population size, as they could reflect restricted gene pools for people living just at those sites",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Social structure and population size estimates\", p. 5 del PDF",
+          "cita_original": "Multiplying Ne estimates by three- to tenfold to obtain census size, we infer that estimates of pre-contact population size of hundreds of thousands or even millions for large islands such as Hispaniola",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Discusión (sexto punto), p. 7 del PDF",
+          "cita_original": "they point to a census size across these large islands that was substantially less than the estimates of hundreds of thousands to millions at contact that have been suggested in some of the literature",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Discusión (sexto punto), p. 7 del PDF",
+          "cita_original": "Although these estimates represent the past approximately 20 generations since the analysed individuals lived",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Discusión (tercer punto), p. 6 del PDF (la frase continúa: \"culture-history model that views these stylistic transitions as the result of major movements of new people\")",
+          "cita_original": "we find no association between our *Caribbean_Ceramic subclades and the traditional Caribbean ceramic typologies (Saladoid, Ostionoid, Meillacoid and Chicoid), providing no support for a",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Genetic structure of the pre-contact Caribbean\", p. 2 del PDF",
+          "cita_original": "comprised 4 sites along 50 km of coastline (from west to east, La Caleta, Andrés, Juan Dolio and El Soco)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028",
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Genetic structure of the pre-contact Caribbean\", p. 2 del PDF",
+          "cita_original": "These sites were occupied for about 1,400 years, documenting genetic continuity across changes in ceramic styles.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"The spread of ceramic users\", p. 5 del PDF",
+          "cita_original": "We found only three individuals from two Ceramic-associated sites in Hispaniola with significant Archaic-related admixture",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen, p. 1 del PDF",
+          "cita_original": "Humans settled the Caribbean about 6,000 years ago",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Pre-contact ancestry in present-day populations\", p. 6 del PDF",
+          "cita_original": "a previously undocumented deep branch of mitochondrial (mt)DNA haplogroup C1d at a frequency of about 7% across Caribbean Ceramic subclades",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Ethics\", p. 2 del PDF",
+          "cita_original": "Genetic ancestry should not be conflated with perceptions of identity, which cannot be defined by genetics alone.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Discusión (último párrafo), p. 7 del PDF; Extended Data Table 3",
+          "cita_original": "primarily comprising pre-contact Indigenous populations (about 4% on average in Cuba, about 6% in the Dominican Republic and about 14% in Puerto Rico according to our estimation by qpAdm)",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-023",
+        "A-024",
+        "A-025",
+        "A-026",
+        "A-028",
+        "A-029"
+      ],
+      "modulos": [
+        "M01",
+        "M00"
+      ],
+      "id_existente": "F-0220",
+      "notas": "Hecho: Ne por ROH (4-20 cM) y por IBD del cromosoma X; el \"máximo\" de 1.530-8.150 es el intervalo de confianza al 95 % del estimador IBD (Ne = 3.082) y los propios autores lo llaman cota superior; los Ne por sitio (ROH) son cotas inferiores. Interpretación: la regla \"censo = 3 a 10 veces Ne\" se toma de la literatura (refs. 27-28 del artículo; la ref. 27 es Frankham 1995, repaso de fauna silvestre). La cifra de \"10.000-50.000\" que circula como cifra del artículo NO aparece en el texto ni en el suplemento (búsqueda de cadena en ambos): procede de la nota de prensa de Harvard (véase la ficha del Harvard Gazette). Aritméticamente 3 x 500 a 10 x 8.150 da ~1.500-81.500 para La Española y Puerto Rico juntas. La muestra son esqueletos de sitios concretos (sobre todo la costa sureste de RD) y el Ne mide unas 20-50 generaciones antes de los individuos, no 1492. No hay muestras de Haití salvo Diale 1 (2 individuos). Las páginas citadas son las del PDF del manuscrito (24 págs.). [POR VERIFICAR]: la tabla Extended Data Table 1 (Ne por sitio) es imagen y no se leyó."
+    },
+    {
+      "titulo": "Supplementary Information to \"A genetic history of the pre-contact Caribbean\" (Fernandes et al., Nature 2021)",
+      "autor": "Fernandes, Daniel M.; Sirak, Kendra A.; et al.",
+      "anio": "2021",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-03053-2/MediaObjects/41586_2020_3053_MOESM1_ESM.pdf",
+      "urls_alternativas": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/instance/7864882/bin/NIHMS1645837-supplement-1.pdf"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Suplemento revisado por pares del artículo de Nature: contexto arqueológico por sitio, métodos de Ne y relaciones de parentesco con detalle que el artículo omite.",
+      "proveniencia": "Mismos autores que el artículo; el contexto arqueológico por sitio lo redactaron los coautores que aportaron los esqueletos (Museo del Hombre Dominicano, Veloz Maggiolo; Peabody/Yale para Diale 1). 5.594 líneas de texto; se leyeron las secciones de contexto arqueológico, consanguinidad, Ne e IBD.",
+      "extractos": [
+        {
+          "ubicacion": "SI sección 7 (Consanguinity), p. 68 (numeración interna)",
+          "cita_original": "we find that the two studied individuals from Diale 1 in Haiti were related (second-degree relatives), as were all four individuals from the site of Macao in the Dominican Republic",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 2, sitio Diale 1 (Haití), p. 33",
+          "cita_original": "The Diale 1 and Diale 2 sites are located on the western side of Ft. Liberté Bay on the northeast coast of present-day Haiti.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 2, sitio Diale 1, p. 34",
+          "cita_original": "These results suggest that there may have been a cline of admixture between Archaic and Ceramic-related ancestry within Hispaniola during the Ceramic Age, with larger proportions of residual Archaic-related ancestry persisting in the western part of the island (in present-day Haiti)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 2, sitio La Caleta, p. 40",
+          "cita_original": "radiocarbon dates indicating an early occupation around 545 BCE that continued throughout the Early and Late Ceramic Ages, with the most recent radiocarbon dates around 1280 CE",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 7 (IBD), p. 74",
+          "cita_original": "even across sites in Hispaniola and across islands, there is an abundance of long IBD_X indicative of effective population sizes below 10,000. This is an overestimate of the recent population size",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 7 (Consanguinity), p. 71",
+          "cita_original": "We stress that for most populations, ancestry spreads geographically when tracing it backward in time (Ralph and Coop 2013), so effective population size values should be seen as comparison in an idealized case.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 1 (Archaeological background), p. 10",
+          "cita_original": "The most common explanation is that Ostionoid developed from Saladoid within the islands.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 1 (Meillacoid), p. 11",
+          "cita_original": "there were other pottery-making traditions in Hispaniola that preceded Meillacoid (and Ostionoid) pottery styles by perhaps 1,000 years",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "SI sección 1 (Lithic Age), p. 6",
+          "cita_original": "The Caribbean Islands were first settled by humans around 4000 BCE, although this earliest phase of human occupation is not well studied or adequately dated.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-025",
+        "A-026",
+        "A-028",
+        "A-029"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Resuelve la laguna de A-028 (\"sitios de Haití no confirmados\"): la única muestra haitiana es Diale 1 (bahía de Fort-Liberté, costa noreste; cerámica meillacoide; excavada por Rainey y Rouse en 1934-35), con 2 individuos (parientes de segundo grado) que muestran 16-20 % de ascendencia relacionada con los arcaicos; los demás sitios son dominicanos (La Caleta N=63, Atajadizo N=18, El Soco N=13, Macao N=4, entre otros; Cueva Roja, arcaico, en Pedernales). Cálculo de paginación: la numeración interna del SI va una por debajo de la del PDF. [POR VERIFICAR]: no se sumó el total de individuos de La Española."
+    },
+    {
+      "titulo": "Genomic insights into the early peopling of the Caribbean (Science 369:456-460)",
+      "autor": "Nägele, Kathrin; Posth, Cosimo; Iraeta Orbegozo, Miren; Chinique de Armas, Yadira; Hernández Godoy, Silvia Teresita; González Herrera, Ulises M.; Nieves-Colón, Maria A.; et al.",
+      "anio": "2020",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://www.uwinnipeg.ca/global-college/docs/early-peopling-of-the-caribbean.pdf",
+      "urls_alternativas": [
+        "https://doi.org/10.1126/science.aba8697"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Informe de Science con revisión por pares y datos genómicos de 93 individuos; versión \"first release\" (4-VI-2020), sin el material suplementario.",
+      "proveniencia": "Max Planck (Jena) y Univ. de Copenhague con arqueólogos cubanos, puertorriqueños y de Winnipeg; muestras de Cuba, Bahamas, Puerto Rico, Guadalupe y Santa Lucía.",
+      "extractos": [
+        {
+          "ubicacion": "Texto principal, p. 1 del PDF (first release)",
+          "cita_original": "The 52 Archaic-related individuals come from seven sites in Cuba and date to c. 3200-700 cal. BP, while the 41 Ceramic-related individuals stem from nine sites in Cuba, the Bahamas, Puerto Rico, Guadeloupe, and St. Lucia, dating around 1500-400 cal. BP",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen, p. 1 del PDF",
+          "cita_original": "We generated genome-wide data for 93 ancient Caribbean islanders dating between 3200-400 cal. BP and find evidence of at least three separate dispersals into the region",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Introducción, p. 1 del PDF",
+          "cita_original": "the earliest securely dated archaeological sites in the region date to around 5,000 cal. BP and are located in Barbados, Cuba, Curaçao, and St. Martin, followed by Hispaniola and Puerto Rico",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0219",
+      "notas": "Confirma A-028: ninguno de los 93 individuos procede de La Española (52 arcaicos de 7 sitios de Cuba; 41 cerámicos de Cuba, Bahamas, Puerto Rico, Guadalupe y Santa Lucía). Los autores postulan al menos tres dispersiones; el fechado \"~5.000 cal BP\" de los sitios más antiguos remite a su ref. 2 [POR VERIFICAR cuál]. No se leyó la tabla S1 (suplemento no descargado)."
+    },
+    {
+      "titulo": "First Lithic Age Caribbean genomes document pre-Ceramic genetic continuity and affinities to Central America and northern South America (bioRxiv preprint)",
+      "autor": "Sirak, Kendra; López Belando, Adolfo José; Shelley, Daniel; García Arévalo, Manuel; Shelley, Dana; Mallick, Swapan; Rohland, Nadin; Reich, David",
+      "anio": "2026",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1.full",
+      "urls_alternativas": [
+        "https://www.biorxiv.org/content/10.64898/2026.05.12.724636v1.full.pdf",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.64898/2026.05.12.724636&resultType=core&format=json"
+      ],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Preprint sin revisión por pares (publicado el 13-V-2026) del mismo laboratorio que Fernandes 2021, con datos genómicos de 19 individuos de Samaná.",
+      "proveniencia": "Laboratorio Reich (Harvard) con el arqueólogo español Adolfo López Belando, que excava Samaná desde hace años (véase la nota de EFE de 2022), y Manuel García Arévalo; fechas por radiocarbono (PSUAMS y Beta).",
+      "extractos": [
+        {
+          "ubicacion": "Resumen (registro Europe PMC PPR1210145)",
+          "cita_original": "We generated genome-wide data from 19 individuals from Hispaniola's Samaná Peninsula and focused on four who lived during the earliest pre-Ceramic \"Lithic Age\". Extending the Caribbean genetic record by more than a millennium to ∼4,400 calBP",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen (registro Europe PMC PPR1210145)",
+          "cita_original": "we show that pre-Ceramic Age populations across Hispaniola and Cuba derive from a single ancestry source and document long-term genetic continuity across islands, with some local genetic structure within Hispaniola.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen (registro Europe PMC PPR1210145)",
+          "cita_original": "We infer very small effective community sizes, consistent with locally structured mating pools and little evidence of close-kin mating.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Results, \"Chronology and archaeology\" (texto completo vía WebFetch)",
+          "cita_original": "I36726, the oldest individual in our dataset, is directly dated to 3870 ± 30 BP (PSUAMS-14458; calibrated to 4411– 4158 calBP without a marine reservoir correction or 4342–3930 calBP under a mixed marine– terrestrial model with a Samaná peninsula-specific correction)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Results, \"Very small effective community sizes in Samaná\" (vía WebFetch)",
+          "cita_original": "We estimate the recent Ne to be 114-163 (95% confidence interval fitted via the likelihood profile)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Results, \"Chronology and archaeology\" (vía WebFetch)",
+          "cita_original": "Excavations in 2022-2023 focused on three sites within this complex – Cueva Funeraria de Daniel, Abrigo Daniel, and Abrigo Dana – as well as Playa Madama located ∼5 km north.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Discussion (vía WebFetch)",
+          "cita_original": "First, we identify subtle but consistent population structure within Hispaniola. Individuals from Samaná share excess drift relative to pre-Ceramic Age individuals from southeastern Hispaniola (Andrés) and Cuba.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-025",
+        "A-026",
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1578",
+      "notas": "Cumple el tercer punto de A-028 (Samaná), pero como PREPRINT, no como ponencia de congreso: el resumen se leyó textual en la API de Europe PMC; las citas del cuerpo se obtuvieron con WebFetch (el PDF directo devolvió 429/Cloudflare 1015), por eso la verificación es parcial: las marcadas \"vía WebFetch\" no se cotejaron contra un texto descargado. Dato clave: el individuo más antiguo se fecha en 4411-4158 cal BP (4342-3930 con corrección de reservorio mixto), no en ~5.300 años como dijo la prensa en 2022 (véase la ficha de EFE). Ne arcaico de Samaná = 114-163 frente a 200-300 en arcaicos de Cuba (Fernandes 2021)."
+    },
+    {
+      "titulo": "Origins and genetic legacies of the Caribbean Taino (PNAS 115(10):2341-2346)",
+      "autor": "Schroeder, Hannes; Sikora, Martin; Gopalakrishnan, Shyam; et al.; Willerslev, Eske",
+      "anio": "2018",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877975/",
+      "urls_alternativas": [
+        "https://doi.org/10.1073/pnas.1716839115"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de PNAS con revisión por pares; un solo genoma (12,4x), por lo que sus inferencias demográficas tienen amplia incertidumbre.",
+      "proveniencia": "Univ. de Copenhague (Centro de Geogenética) y colaboradores; un individuo de Preacher's Cave, Eleuthera (Bahamas), diente de unos 1.000 años.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "We report the genome sequence of a 1,000-year-old Lucayan Taino individual recovered from the site of Preacher’s Cave in the Bahamas.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Sección de demografía (ROH), Fig. 2",
+          "cita_original": "Based on the distribution of longer ROH (≥1.6 Mb), we estimate an effective size of around 1,600 individuals",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección de demografía (ROH)",
+          "cita_original": "However, the island of Eleuthera measures only around 518 km 2 , and it is difficult to imagine how this community was able to sustain such a relatively large effective size without outside contact.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-026",
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0218",
+      "notas": "Confirma A-028: el genoma es de un individuo de Bahamas (lucayo), no de La Española. Contrapunto para A-026: con un solo genoma estimaron Ne ~1.600 (\"relativamente grande\"), frente a las estimaciones pequeñas de Fernandes 2021 con 174 individuos; los autores sugieren que ese Ne solo se explica con contactos interinsulares (red pan-regional), lo que concuerda con la cautela de Fernandes sobre las cotas."
+    },
+    {
+      "titulo": "Ancient DNA reconstructs the genetic legacies of precontact Puerto Rico communities (Mol. Biol. Evol. 37(3):611-626)",
+      "autor": "Nieves-Colón, Maria A.; Pestle, William J.; Reynolds, Austin W.; Llamas, Bastien; de la Fuente, Constanza; Fowler, Kathleen; et al.; Stone, Anne C.",
+      "anio": "2020",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1093/molbev/msz267&resultType=core&format=json",
+      "urls_alternativas": [
+        "https://doi.org/10.1093/molbev/msz267",
+        "https://www.biorxiv.org/content/10.1101/765685v2.full.pdf"
+      ],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "fragmento-busqueda",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Artículo revisado por pares; solo se leyó el resumen del registro de Europe PMC (texto completo no abierto; el preprint de bioRxiv devolvió 429).",
+      "proveniencia": "Arizona State Univ., Stanford y otros; mitogenomas de 45 individuos de Tibes, Punta Candelero y Paso del Indio (Puerto Rico).",
+      "extractos": [
+        {
+          "ubicacion": "Resumen (registro Europe PMC 31710665)",
+          "cita_original": "Bone, tooth, and dental calculus samples were collected from 124 individuals from three precontact archaeological sites: Tibes, Punta Candelero, and Paso del Indio.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen (registro Europe PMC 31710665)",
+          "cita_original": "We found a high proportion of Native American mtDNA haplogroups A2 and C1 in the precontact Puerto Rico sample (40% and 44%, respectively).",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0221",
+      "notas": "Confirma A-028 para este estudio: es Puerto Rico, no La Española. En Puerto Rico precolombino A2 (40 %) y C1 (44 %), mientras que Lalueza-Fox 2001 halló solo C y D en La Caleta (RD): distribuciones distintas. No se descargó el texto completo."
+    },
+    {
+      "titulo": "MtDNA from extinct Tainos and the peopling of the Caribbean (Annals of Human Genetics 65(2):137-151)",
+      "autor": "Lalueza-Fox, Carles; Calderón, Francesc L.; Calafell, Francesc; Morera, Bernardo; Bertranpetit, Jaume",
+      "anio": "2001",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE:%22mtDNA%20from%20extinct%20Tainos%22&resultType=core&format=json",
+      "urls_alternativas": [
+        "https://doi.org/10.1046/j.1469-1809.2001.6520137.x",
+        "https://pubmed.ncbi.nlm.nih.gov/11427174/"
+      ],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "fragmento-busqueda",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo revisado por pares (Univ. Pompeu Fabra); solo se leyó el resumen, que contiene los datos cuantitativos principales; ADN antiguo de 2001 con las limitaciones técnicas de entonces (PCR convencional, región HVRI).",
+      "proveniencia": "Laboratorio de Bertranpetit (Barcelona); huesos del yacimiento de La Caleta (RD), de colecciones de museo.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen (registro Europe PMC 11427174)",
+          "cita_original": "Samples belonging to pre-Columbian Taino Indians from the La Caleta site (Dominican Republic) have been analyzed",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Twenty-seven bone samples were extracted and analyzed for mtDNA variation.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "only two (C and D) of the major mtDNA lineages were present in the sample: 18 individuals (75%) belonged to the C haplogroup, and 6 (25%) to the D haplogroup.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Sequence and haplogroup data show that the Tainos had a substantially reduced mtDNA diversity, which is indicative of an important founder effect",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0222",
+      "notas": "Confirma A-028 (La Caleta): 27 huesos, 19 secuenciados en HVRI, 24 clasificados (18 C = 75 %, 6 D = 25 %; sin A ni B). Resuelve la cifra \"≈75/25\" del reconocimiento. Contraste: los dominicanos actuales llevan mucho A2 (Martínez-Cruzado) mientras en La Caleta no apareció, y Fernandes 2021 halló mtDNA C1d en ~7 % de los cerámicos; interpretación abierta (aporte no local frente a deriva). [POR VERIFICAR]: la tabla de haplotipos del artículo."
+    },
+    {
+      "titulo": "Taino and African maternal heritage in the Greater Antilles (Gene 637:33-40)",
+      "autor": "Bukhari, Areej; Luis, Javier R.; Alfonso-Sánchez, Miguel A.; García-Bertrand, Ralph; Herrera, Rene J.",
+      "anio": "2017",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.gene.2017.09.004&resultType=core&format=json",
+      "urls_alternativas": [
+        "https://pubmed.ncbi.nlm.nih.gov/28912065/",
+        "https://doi.org/10.1016/j.gene.2017.09.004"
+      ],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "fragmento-busqueda",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Artículo revisado por pares; solo se leyó el resumen. Muestra haitiana general (FIU); las cifras de RD, Cuba y PR proceden de datos publicados.",
+      "proveniencia": "Florida International Univ. (Herrera); mtDNA HVRI/HVRII de la población general haitiana comparada con referencias de Cuba, RD, Jamaica y PR.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen (registro Europe PMC 28912065)",
+          "cita_original": "The Taino maternal DNA is prominent in the ex-Spanish colonies (61.3%-22.0%) while it is basically non-existent in the ex-French and ex-English colonies of Haiti (0.0%) and Jamaica (0.5%), respectively.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "The African mtDNA component is almost fixed in Haiti (98.2%) and Jamaica (98.5%)",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [],
+      "modulos": [
+        "M01",
+        "M00"
+      ],
+      "id_existente": "F-0210",
+      "notas": "Dato genético moderno (no del periodo de M01) pero necesario para evaluar la tesis haitiana de ascendencia taína: 0,0 % de mtDNA taíno en la muestra haitiana. Hecho: el porcentaje; interpretación de los autores: normas distintas de matrimonio mixto en los primeros años tras el contacto (no probada en el resumen). El rango 61,3-22,0 % va de Puerto Rico a RD. [POR VERIFICAR] qué n y qué referencia dan el 22,0 % de RD."
+    },
+    {
+      "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen de congreso, Am. J. Biol. Anthropol. 189 supl. S81)",
+      "autor": "Schurr, Theodore G.; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; et al.",
+      "anio": "2026",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://cris.unibe.edu.do/handle/123456789/589",
+      "urls_alternativas": [
+        "https://api.crossref.org/works/10.1002/ajpa.70227",
+        "https://doi.org/10.1002/ajpa.70227"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "403",
+      "formato": "html",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Resumen de congreso (95.ª reunión de la AABA, III-2026), no artículo revisado; el contenido no se pudo abrir.",
+      "proveniencia": "Proyecto Genográfico Dominicano (Academia Dominicana de la Historia, National Geographic, UPenn, UNIBE).",
+      "extractos": [],
+      "afirmaciones": [],
+      "modulos": [
+        "M01",
+        "M00"
+      ],
+      "id_existente": "F-0203",
+      "notas": "WebFetch al repositorio de UNIBE devolvió 403; Crossref (200) confirma el registro bibliográfico (programa de la reunión de la AABA, AJBA 189 S81, III-2026) pero sin el texto del resumen. Las cifras del reconocimiento (50,3 % africano, etc.) siguen sin verificar en esta ronda."
+    },
+    {
+      "titulo": "Parental relatedness through time revealed by runs of homozygosity in ancient DNA (Nature Communications 12:5425)",
+      "autor": "Ringbauer, Harald; Novembre, John; Steinrücken, Matthias",
+      "anio": "2021",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8440622/",
+      "urls_alternativas": [
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8440622/"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo metodológico revisado por pares (hapROH); es el método que Fernandes 2021 usa, en su versión de preprint, para detectar ROH y estimar Ne.",
+      "proveniencia": "Univ. de Chicago, Harvard y Univ. de Pensilvania; 1.785 humanos antiguos de los últimos 45.000 años.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Simulation and experiments show that this method robustly detects runs of homozygosity longer than 4 centimorgan for ancient individuals with at least 0.3 × coverage.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Resultados (Américas)",
+          "cita_original": "this elevated sROH [4,8] cM cannot be explained by bottlenecks during early migrations into the Americas, but one needs to invoke more recent, sustained small effective population sizes.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-026"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Fuente de método para A-026: el artículo de Fernandes cita este trabajo (como preprint, ref. 25) y usa su software hapROH; no contiene estimaciones para La Española. La inferencia de Ne a partir de ROH asume un modelo idealizado (el propio SI de Fernandes lo reconoce). Hecho: detección de ROH; interpretación: población pequeña sostenida."
+    },
+    {
+      "titulo": "The Taíno: Phenomena, Concepts, and Terms (Ethnohistory 61(3):467-495)",
+      "autor": "Curet, L. Antonio",
+      "anio": "2014",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://tiboko.com/wp-content/uploads/2023/11/Taino_Phenomena_Concepts_and_Terms-1.pdf",
+      "urls_alternativas": [
+        "https://doi.org/10.1215/00141801-2681759",
+        "https://read.dukeupress.edu/ethnohistory/article/61/3/467/9176/The-Taino-Phenomena-Concepts-and-Terms"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de revista revisada por pares de un arqueólogo del Smithsonian especialista en cacicazgos antillanos; es una revisión conceptual, no aporta datos nuevos.",
+      "proveniencia": "L. Antonio Curet (National Museum of the American Indian, Smithsonian), 2014; revisa la historia del término \"taíno\" y las propuestas de Rodríguez Ramos (\"taineidad\"), Oliver y otros; el PDF alojado en tiboko.com es copia no oficial del artículo.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"A Matter of Definition\", p. 471",
+          "cita_original": "According to Cayetano Coll y Toste (1907: 55), the German ethnographer Carl F. P. Martius (1867) was the first to use the term Taíno to refer to the native groups of the island of Haiti",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Sección \"A Matter of Definition\", p. 471",
+          "cita_original": "The term was first adopted by Caribbean historiography in 1883 when Antonio Bachiller y Morales used it in his book titled Cuba Primitiva",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Sección \"A Matter of Definition\", p. 470",
+          "cita_original": "It is clear that the term was used more as a qualifying adjective to refer to a concept of goodness (the phenomenon) rather than as an ethnic label or ethnonym as it has been used by many scholars",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Sección de implicaciones, p. 483",
+          "cita_original": "Puerto Rico and Hispaniola show significant differences in the archaeological record despite the fact of being considered by Rouse and many others as classic Taíno (or Chican Ostionoid subseries).",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección sobre la propuesta de Rodríguez Ramos, p. 476",
+          "cita_original": "what we call Taíno does not simply refer to culturally evolved descendants of the early South American Saladoids. Rather, it is the result of multiethnic, and even multiregional",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección de implicaciones (religión), p. 484",
+          "cita_original": "the Hispaniolan vomic spatulae, inhalers, and duhos tend to be more elaborate in craftsmanship and are more common than those found in Puerto Rico, while no cohoba idol has been found in Puerto Rico to date.",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-029"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0178",
+      "notas": "Hecho: Curet atribuye el primer uso del término a Martius (1867, según Coll y Toste 1907) y su adopción por la historiografía caribeña a Bachiller y Morales (1883); NO menciona a Rafinesque (1836) en el texto (búsqueda de cadena), de modo que la atribución a Rafinesque que usa el glosario no la respalda este artículo (discrepancia por resolver con F-0905/F-0906). Interpretación de Curet: \"taíno\" es en origen un adjetivo (\"bueno, noble\"), no un etnónimo. Los números de página son los impresos (467-495) calculados desde el PDF. [POR VERIFICAR] el libro Keegan y Hofman 2017 (Oxford UP), mencionado en la misma entrada del registro, no se leyó."
+    },
+    {
+      "titulo": "Reconciling material cultures in archaeology with genetic data: The nomenclature of clusters emerging from archaeogenomic analysis (Scientific Reports 8:13003)",
+      "autor": "Eisenmann, Stefanie; Bánffy, Eszter; van Dommelen, Peter; Hofmann, Kerstin P.; Maran, Joseph; Lazaridis, Iosif; Mittnik, Alissa; McCormick, Michael; Krause, Johannes; Reich, David; Stockhammer, Philipp W.",
+      "anio": "2018",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6115390",
+      "urls_alternativas": [
+        "https://doi.org/10.1038/s41598-018-31123-z"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Scientific Reports revisado por pares, con arqueólogos y genetistas (incluido Reich); es metodológico y no trata el Caribe.",
+      "proveniencia": "Max Planck (Jena), Munich, Heidelberg y Harvard; propone sistemas de nomenclatura para los grupos genéticos sin heredar las \"culturas\" arqueológicas. Fernandes 2021 cita este trabajo para nombrar sus grupos con asterisco.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Recent studies have frequently borrowed archaeological cultural designations to name these genetic groups, while neglecting the historically problematic nature of the concept of cultures in archaeology.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-029"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Apoya el marco metodológico de A-029 (no equiparar series cerámicas con poblaciones o etnias): es una referencia general; no contiene datos del Caribe. Fernandes 2021 (ref. 14) la usa para su nomenclatura de grupos."
+    },
+    {
+      "titulo": "Reevaluating human colonization of the Caribbean using chronometric hygiene and Bayesian modeling (Science Advances 5(12):eaar7806)",
+      "autor": "Napolitano, Matthew F.; DiNapoli, Robert J.; Stone, Jessica H.; Levin, Maureece J.; Jew, Nicholas P.; Lane, Brian G.; O'Connor, John T.; Fitzpatrick, Scott M.",
+      "anio": "2019",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6957329",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Science Advances con revisión por pares; compila 2.484 determinaciones de radiocarbono y aplica criterios de higiene cronométrica; declara que solo ~54 % de las fechas cumple los criterios y solo 10 son clase 1.",
+      "proveniencia": "Univ. de Oregón y colaboradores (Fitzpatrick); modelos bayesianos en OxCal para 26 islas. Autores y datos de la publicación (Sci. Adv. 5(12), 18-XII-2019, DOI 10.1126/sciadv.aar7806) verificados en los metadatos de PMC.",
+      "extractos": [
+        {
+          "ubicacion": "Abstract",
+          "cita_original": "We have collated 2484 radiocarbon determinations, assigned them to classes based on chronometric hygiene criteria, and constructed Bayesian colonization models of the acceptable determinations to examine patterns of initial settlement.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Abstract",
+          "cita_original": "(i) the region was settled in two major population dispersals that likely originated from South America; (ii) colonists reached islands in the northern Antilles before the southern islands",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Tabla 3 (Hispaniola: 226 fechas, 44 modeladas, HPD 68,2 % y 95,4 %, cal BP)",
+          "cita_original": "Hispaniola 226 44 4385–4040 4545–3930",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Discussion",
+          "cita_original": "Before our chronometric hygiene, the oldest reported radiocarbon dates in the Greater Antilles suggested that Archaic populations reached the area as early as ca. 7400–6900 cal years B.P.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Results",
+          "cita_original": "The biggest differences are for Anguilla, Cuba, Hispaniola, and Puerto Rico, which are as much as ca. 2100 to 2300 years younger than previously reported.",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Dato cuantitativo clave para la cronología de la llegada a La Española: estimación de colonización 4545-3930 cal BP (95,4 %), es decir ~2600-1980 a.C., frente a \"~6.000 años\" de Fernandes/Hofman y a las fechas de 7400-6900 cal BP citadas antes de la depuración; coincide con la fecha más antigua de Veloz Maggiolo (Barrera-Mordán, 2610 a.C.), con el individuo más antiguo de Samaná (4411-4158 cal BP) y con la extinción de perezosos (~4.400 14C BP, Steadman 2005). Hecho: modelo bayesiano sobre fechas depuradas; interpretación: ruta \"hacia el sur\" frente a \"trampolín\". Límite: solo 10 fechas de clase 1 en todo el Caribe y 44 modeladas para La Española; el fechado podría rejuvenecerse o envejecer con nuevas dataciones."
+    },
+    {
+      "titulo": "Indigenous Caribbean perspectives: archaeologies and legacies of the first colonised region in the New World (Antiquity 92(361):200-216)",
+      "autor": "Hofman, Corinne L.; Ulloa Hung, Jorge; Herrera Malatesta, Eduardo; Jean, Joseph Sony; Sonnemann, Till; Hoogland, Menno",
+      "anio": "2018",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/384B0BCE06D2A5D0DF0A0BD90D192237/S0003598X17002472a.pdf/indigenous-caribbean-perspectives-archaeologies-and-legacies-of-the-first-colonised-region-in-the-new-world.pdf",
+      "urls_alternativas": [
+        "https://doi.org/10.15184/aqy.2017.247"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Antiquity con revisión por pares basado en prospección y excavación (proyecto NEXUS1492, Leiden) en el norte de RD y Haití; reconoce que su alcance es regional.",
+      "proveniencia": "Univ. de Leiden con INTEC y Museo del Hombre Dominicano; prospecciones en el noroeste de la isla (Puerto Plata a Fort-Liberté) y excavaciones en tres asentamientos del contacto.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"More than 300 indigenous settlements\", p. 205",
+          "cita_original": "More than 300 sites, radiocarbon dated to AD 800-1500 (Figure 4), were documented, reflecting inter-community interaction through mixtures of ceramic styles (Ostionoid, Meillacoid and Chicoid)",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-029"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Final remarks\", p. 214",
+          "cita_original": "The earliest evidence for settlement in the area dates to AD 800, but increases in site density indicate population growth after AD 1000-1200, and especially between AD 1200 and the time of contact.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"An early colonial perception of the northern Hispaniolan landscape\", p. 203",
+          "cita_original": "in the `chiefdom polity', or cacicazgo, of Marien, under control of cacique Guacanagarí",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        },
+        {
+          "ubicacion": "Introducción, p. 201",
+          "cita_original": "whose ancestors had entered the archipelago from different parts of South and Central America around 6000 BC",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021",
+        "A-023",
+        "A-024",
+        "A-028",
+        "A-029"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1577",
+      "notas": "Aporta una cifra de asentamiento (más de 300 sitios fechados en AD 800-1500 solo en el norte de La Española; cf. ~500 yacimientos taínos para toda RD en Veloz Maggiolo) y el crecimiento de densidad después de AD 1200, pero NO da cifra de población. Su uso del término \"cacicazgo de Marién\" para el territorio de Guacanagarí respalda el nombre, no el número de cacicazgos. Las páginas son las impresas (Antiquity 92:200-216), calculadas desde el PDF."
+    },
+    {
+      "titulo": "¿Una primera epidemia americana de viruela en 1493? (Revista de Indias 63(227):49-64)",
+      "autor": "Cook, Noble David",
+      "anio": "2003",
+      "tipo": "cientifica",
+      "idioma": "es",
+      "tradicion": "internacional",
+      "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/551/618/1036",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de la Revista de Indias (CSIC) de un historiador de la demografía colonial (FIU); su Cuadro 1.1 es una compilación de estimaciones ajenas, con la cifra de Cook de 1999 como propia.",
+      "proveniencia": "Noble David Cook (Florida International Univ.), número monográfico de la Revista de Indias (2003, n.º 227) sobre demografía indígena; sintetiza estimaciones previas y examina nueva documentación colombina sobre viruela en 1493; su propia estimación (1999) es de 500.000-750.000.",
+      "extractos": [
+        {
+          "ubicacion": "Cuadro 1.1 (primera mitad), p. 51",
+          "cita_original": "Verlinden (1973) 1492 60.000 Amiama (1959) 1492 100.000 Rosenblat (1959, 1976) 1492 100.000 Lipschutz (1966) 1492 100.000-500.000 Moya Pons (1987) 1494 377.559 Cordova (1968) 1492 500.000 N.D. Cook (1993) 1492 500.000-750.000 Moya Pons (1971) 1492 600.000",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Cuadro 1.1 (segunda mitad), p. 51",
+          "cita_original": "Zambardino (1978) 1492 1.000.000 Denevan (1992) 1492 1.000.000 Guerra (1988) 1492 1.100.000 Denevan (1976) 1492 1.950.000 Watts (1987) 1492 3.000.000-4.000.000 Borah & Cook (1971) 1492 7.975.000",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Primer párrafo, p. 49",
+          "cita_original": "La cifra de 7.975.000 propuesta allí (con latitud entre cuatro a catorce millones) ha sido rebatida por muchos especialistas",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023"
+          ]
+        },
+        {
+          "ubicacion": "Primer párrafo, p. 49",
+          "cita_original": "nunca se contaron a sí mismos y los cambios introducidos con la segunda expedición de Cristóbal Colón tuvieron un impacto tan profundo y rápido que nunca podremos conocer cuánta gente vivía pocos años antes",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-027"
+          ]
+        },
+        {
+          "ubicacion": "Primer párrafo (la frase empieza al pie de la pág. anterior: \"Las estimaciones oscilan entre un mínimo de\"), p. 50",
+          "cita_original": "unos 60.000, postulado por Verlinden",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Párrafo sobre la crítica de Henige, p. 52",
+          "cita_original": "población indígena temprana y cualquier método que se use para estimarla está condenado de entrada a fallar",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-027"
+          ]
+        },
+        {
+          "ubicacion": "Segundo párrafo, p. 50",
+          "cita_original": "Miguel de Pasamonte informó que la población fue en 1508 de, aproximadamente, sesenta mil almas. Al cabo de dos años bajó, según Diego Colón, a 33.523 habitantes. En 1514 en un supuesto «censo» arrojaba cerca de 26.334. La población bajó a dieciocho mil en 1518-19 y para 1542, no llegaba a los dos mil habitantes.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-022",
+        "A-023",
+        "A-024",
+        "A-027"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1587",
+      "notas": "Resuelve en lo posible F-0233 (estimaciones recogidas sin estudio propio: Verlinden, Rosenblat, Cook y Borah, Watts): el Cuadro 1.1 da autor, año y cifra de 14 estimaciones, de 60.000 (Verlinden 1973) a 7.975.000 (Borah y Cook 1971; latitud 4-14 millones), con los redondeos del cuadro. Correcciones al registro: Rosenblat = 100.000 (el cuadro) frente a 125.000 que le atribuye Veloz Maggiolo; Moya Pons = 377.559 (1494, versión de 1987) o 600.000 (1971); Denevan 1976 = 1.950.000 y Denevan 1992 = 1.000.000. Hecho: el cuadro; interpretación de Cook: ni 1493 ni nuevas fuentes permiten fijar la cifra, pero la hipótesis de epidemia temprana reforzaría las cifras altas. Henige aparece solo resumido por Cook (su postura: no hay información fiable). Cook atribuye a Henige haber demostrado falso un supuesto brote de viruela en el primer decenio del siglo XVI [POR VERIFICAR contra Henige]. El cuadro cita \"Cook (1993)\" aunque la nota remite a 1999."
+    },
+    {
+      "titulo": "Las múltiples causas de la catástrofe: consideraciones teóricas y empíricas (Revista de Indias 63(227):31-48)",
+      "autor": "Livi Bacci, Massimo",
+      "anio": "2003",
+      "tipo": "cientifica",
+      "idioma": "es",
+      "tradicion": "internacional",
+      "url": "https://flore.unifi.it/retrieve/e398c37b-8e9c-179a-e053-3705fe0a4cff/550-1035-1-PB.pdf",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Revista de Indias de un demógrafo de referencia (Florencia) que resume en pocas líneas el método de su estudio de La Española en el HAHR; no contiene el desarrollo completo.",
+      "proveniencia": "Massimo Livi Bacci (Univ. de Florencia), mismo número monográfico que Cook 2003; resume su \"Return to Hispaniola\" (HAHR 2003) y argumenta que el declive no puede explicarse solo por epidemias.",
+      "extractos": [
+        {
+          "ubicacion": "Sección V (La Española), p. 43",
+          "cita_original": "las estimaciones expuestas por los especialistas oscilan de un mínimo de 60.000 a un máximo de 8 millones, más de 133 veces la estimación más baja",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección V (La Española), p. 43",
+          "cita_original": "Esta estimacion se puede presentar como una distribución probabilista con una densidad máxima de entre 200.000 y 300.000 habitantes y valores descendentes rápidamente por debajo de los 100.000 o por encima de los 400.000.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección V (La Española), p. 43",
+          "cita_original": "Puesto que la función del cacique era hereditaria, a los 362 caciques registrados (nominalmente) en 1514, debía corresponderles un número similar 20 años antes, cada uno al frente de una aldea-asentamiento",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección V (La Española), p. 43",
+          "cita_original": "organización de la población, seguramente subdividida en grupos asentados en torno a una aldea, ordenados jerárquicamente alrededor de un cacique y con un tamaño medio de varios cientos de personas",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección V (La Española), p. 44",
+          "cita_original": "no hay pruebas históricas de epidemias mortales en la isla antes de la viruela de 1518-19, cuando la población ya había menguado a pocos miles de habitantes",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023"
+          ]
+        },
+        {
+          "ubicacion": "Sección V, cita de Oviedo (1548), p. 44",
+          "cita_original": "no se cree que hay al presente en este año de mil quinientos y cuarenta y ocho, quinientas personas",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021",
+        "A-022",
+        "A-023",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1579",
+      "notas": "Este artículo resume el método de Livi-Bacci (a-f: capacidad de carga, organización por aldeas, número de caciques en 1514, tributo de oro de 1495-96, mano de obra en minas, estructura por edades) sin dar los cálculos; su resultado es una distribución de probabilidad con moda entre 200.000 y 300.000 (A-024). Por eso A-021 puede apoyarse en un dato indirecto: 362 caciques nominalmente registrados en 1514 (Arranz Márquez), cada uno al frente de una aldea, lo que contrasta con los \"cinco reinos\" de Las Casas (hecho: 362 caciques; interpretación: que eran cabezas de aldea y no cacicazgos mayores). El HAHR 2003 no se pudo abrir (véase su ficha). Cita a Oviedo: \"millón de indios\" que se atribuía a Colón. Las páginas son las impresas (31-48)."
+    },
+    {
+      "titulo": "Return to Hispaniola: Reassessing a Demographic Catastrophe (Hispanic American Historical Review 83(1):3-51)",
+      "autor": "Livi-Bacci, Massimo",
+      "anio": "2003",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://muse.jhu.edu/article/49192/pdf",
+      "urls_alternativas": [
+        "https://doi.org/10.1215/00182168-83-1-3",
+        "https://api.crossref.org/works?query.bibliographic=Livi-Bacci+Return+to+Hispaniola"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "200 (página \"Verification required\" de Project MUSE; no es el artículo)",
+      "formato": "pdf",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo del HAHR del demógrafo de referencia, pero no se pudo leer: Crossref confirma el registro (DOI 10.1215/00182168-83-1-3, vol. 83 n.º 1, febrero de 2003, pp. 3-51).",
+      "proveniencia": "Massimo Livi-Bacci (Florencia); estudio de demografía histórica de La Española con simulaciones de capacidad de carga y mortalidad.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0228",
+      "notas": "WebFetch y curl a MUSE devuelven un desafío de verificación; no hay copia abierta en FLORE (el registro 2158/345675 corresponde a otro artículo de Livi Bacci, PDR 2006, sin archivo). El método y el resultado \"200.000-300.000\" solo se leyeron en el resumen de la Revista de Indias (F-1579). El rango del HAHR citado en el registro (\"0,2-0,3 millones\") sigue [POR VERIFICAR] en el texto original."
+    },
+    {
+      "titulo": "On the Contact Population of Hispaniola: History as Higher Mathematics (Hispanic American Historical Review 58(2):217-237)",
+      "autor": "Henige, David",
+      "anio": "1978",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://read.dukeupress.edu/hahr/article/58/2/217/150540",
+      "urls_alternativas": [
+        "https://doi.org/10.1215/00182168-58.2.217",
+        "https://doi.org/10.2307/2513086"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "403",
+      "formato": "html",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo del HAHR del principal crítico de las cifras altas; Crossref confirma su existencia (vol. 58 n.º 2, mayo de 1978, pp. 217-237), pero el texto no se abrió.",
+      "proveniencia": "David Henige (Univ. de Wisconsin-Madison), bibliotecario e historiador crítico de la \"Escuela de Berkeley\"; crítica a Borah y Cook y a Rosenblat/Sauer por aceptar las cifras de Las Casas.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-027",
+        "A-023"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0231",
+      "notas": "WebFetch devolvió 403 (Duke). La postura de Henige solo se leyó de segunda mano en Cook 2003 (F-1587): \"falta información fiable sobre la población indígena temprana y cualquier método que se use para estimarla está condenado de entrada a fallar\", y en Fernandes 2021 (ref. 6). Numbers from Nowhere (1998) tampoco se abrió (página de OU Press solo en el registro)."
+    },
+    {
+      "titulo": "Critique of David Henige's \"On the Contact Population of Hispaniola: History as Higher Mathematics\" (HAHR 58(4):700-708)",
+      "autor": "Zambardino, Rudolph A.",
+      "anio": "1978",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://read.dukeupress.edu/hahr/article/58/4/700/152755",
+      "urls_alternativas": [
+        "https://doi.org/10.1215/00182168-58.4.700",
+        "https://doi.org/10.2307/2513347"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "403",
+      "formato": "html",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Réplica del HAHR (noviembre de 1978, pp. 700-708) confirmada por Crossref; el texto no se abrió. Zambardino es estadístico, no historiador.",
+      "proveniencia": "Rudolph A. Zambardino (estadístico), réplica a Henige a favor de métodos estadísticos de estimación; da ~1 millón (±30 %) según Cook 2003.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-027",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0225",
+      "notas": "WebFetch devolvió 403 (Duke). Su estimación de ~1.000.000 con un margen de ~30 % solo se leyó de segunda mano en Cook 2003 (F-1587). Obsérvese que A-024 lista a Zambardino (~1 millón) entre las \"centenas de miles\": 1 millón es la frontera entre A-023 y A-024."
+    },
+    {
+      "titulo": "From Contact to Criollos: The Archaeology of Spanish Colonization in Hispaniola (Proceedings of the British Academy 81:67-104)",
+      "autor": "Deagan, Kathleen; Cruxent, José María",
+      "anio": "1993",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://www.britac.ac.uk/documents/3996/81p067.pdf",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Síntesis de los autores de las excavaciones de En Bas Saline, La Isabela y Puerto Real, publicada por la British Academy; algunas cifras demográficas que cita son de segunda mano y el PDF es un escaneo con OCR defectuoso en algunas líneas.",
+      "proveniencia": "Kathleen Deagan (Florida Museum of Natural History, Univ. de Florida) y José María Cruxent (Univ. Nacional Experimental Francisco de Miranda, Coro, Venezuela); tres proyectos de la Univ. de Florida con colegas de Haití y RD en sitios de 1492 a 1580.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"The Taino People\", p. 71",
+          "cita_original": "Archaeological data suggest that on Hispaniola, at least, one of the higher figures may have been more accurate, given the site densities encountered in the very few areas of the island that have been surveyed",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-023",
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"The Taino People\", p. 71",
+          "cita_original": "in Hispaniola, Taino peoples had been reduced from perhaps several million in 1492 to fewer than 25,000 by 1515",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022",
+            "A-023"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"En Bas Saline: First Contacts\", p. 73",
+          "cita_original": "At 200,000 square metres in area, En Bas Saline is the largest Taino site mapped so far in Haiti.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"En Bas Saline: First Contacts\", p. 73",
+          "cita_original": "Its size and shape indicate a chiefly capital, in that the village is in the shape of a circle surrounding a plaza and raised mound for the chiefly residence",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021",
+        "A-022",
+        "A-023",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0170",
+      "notas": "Resuelve F-0170 (antes no-localizada) para La Isabela, En Bas Saline (Haití; asentamiento de ca. AD 1200 a poco después de 1500; probable capital de Guacanagarí) y Puerto Real. Juicio de Deagan y Cruxent (1993): la densidad de sitios prospectados sugiere que alguna de las cifras altas pudo ser más precisa; es una inferencia de 1993, anterior a Fernandes 2021, y no ofrece cifra propia. Hecho: tamaño del sitio y fechas; interpretación: capital cacical. Sus cifras demográficas (100.000 a 6-8 millones entre autores; \"varios millones\" en 1492 a \"menos de 25.000\" en 1515) son de segunda mano (Moya Pons 1992, Arranz 1991). El sitio de La Isabela (RD) corresponde a 1493-1498. Páginas impresas (67-104)."
+    },
+    {
+      "titulo": "Languages of the Pre-Columbian Antilles (Tuscaloosa: University of Alabama Press)",
+      "autor": "Granberry, Julian; Vescelius, Gary S.",
+      "anio": "2004",
+      "tipo": "secundaria",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://tiboko.com/wp-content/uploads/2023/11/Language-of-the-Pre-Columbian-Antilles-by-Julian-Granberry-Gary-S.-Veschelius.pdf",
+      "urls_alternativas": [
+        "https://fulcrum.org/concern/monographs/dn39x435v",
+        "https://doi.org/10.2307/jj.30346802"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Monografía académica de lingüistas con aparato crítico; su tesis (varias lenguas en las Antillas Mayores) se apoya en muy pocos datos léxicos (una palabra ciguaya) y fue discutida; el PDF de tiboko.com es copia no oficial.",
+      "proveniencia": "Julian Granberry y Gary S. Vescelius (University of Alabama Press, 2004); reconstruyen el taíno, el macorís, el ciguayo y el guanahatabey a partir de Las Casas y de topónimos y glosas.",
+      "extractos": [
+        {
+          "ubicacion": "Cap. 2 (\"The Languages of the Greater Antilles\"), p. 7",
+          "cita_original": "Las Casas and the other writers of the early 1500s clearly distinguished four aboriginal languages in the Greater Antilles, Taíno, Macorís, Ciguayo, and Guanahatabey",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        },
+        {
+          "ubicacion": "Cap. 2, p. 18",
+          "cita_original": "Hispaniola was inhabited by three distinct ethnic entities--the Taíno, divided into five kingdoms; the Macorís, divided into two distinct provinces, Upper and Lower Macorís; and the Ciguayo, on the Samaná Peninsula--each linguistically distinct from the others",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0702",
+      "notas": "Importa para A-021 por dos razones: (1) confirma que la fuente (\"cinco reinos\") describe solo a los taínos y que Las Casas distinguía además macorís (dos provincias) y ciguayos (Samaná) con lenguas distintas: los \"cinco cacicazgos\" no cubrían la isla entera; (2) la península de Samaná es donde se sitúan los restos arcaicos de Sirak 2026, sin que nada afirme que los arcaicos sean antepasados de los ciguayos [inferencia mía: no probada]. El mismo libro advierte que la unidad lingüística única (\"una sola lengua\") es un dictum aceptado sin crítica. Hecho: lo que escribió Las Casas; interpretación: las filiaciones lingüísticas son hipótesis (el ciguayo se apoya en una sola palabra, \"tuob\"). Páginas impresas (PDF menos 17)."
+    },
+    {
+      "titulo": "La isla de Santo Domingo antes de Colón (Santo Domingo: Banco Central de la República Dominicana)",
+      "autor": "Veloz Maggiolo, Marcio",
+      "anio": "1993",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://archive.org/download/laisladesantodom00velo/laisladesantodom00velo_djvu.txt",
+      "urls_alternativas": [
+        "https://archive.org/details/laisladesantodom00velo"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "txt",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Síntesis de un arqueólogo dominicano de primer orden con datos del Museo del Hombre Dominicano, pero de divulgación institucional sin aparato crítico detallado y con texto OCR; su estimación de población usa una multiplicación sin fuente primaria.",
+      "proveniencia": "Marcio Veloz Maggiolo (Museo del Hombre Dominicano, Univ. Autónoma de Santo Domingo), publicada por el Banco Central en 1993; coautor de Fernandes 2021 y proponente del origen centroamericano de los primeros pobladores.",
+      "extractos": [
+        {
+          "ubicacion": "Cap. \"División regional y demográfica. Aspectos sociales\", l. 8178-8183 del djvu.txt",
+          "cita_original": "Aunque tradicionalmente se han aceptado como cinco los cacicazgos de la isla de Santo Domingo, lo cierto es que la crónica, diversas investigaciones hechas por autores dominicanos, y hallazgos arqueológicos, revelan que existían numerosos caciques",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        },
+        {
+          "ubicacion": "Mismo capítulo, l. 8195-8201 del djvu.txt",
+          "cita_original": "las investigaciones arqueológicas del Museo del Hombre Dominicano revelan unos 500 yacimientos para el período taíno. Si se asignan 500 personas por yacimiento, en el momento de la conquista, la población no podía ser inferior al cuarto de millón",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Mismo capítulo, l. 8192-8195 del djvu.txt",
+          "cita_original": "Aunque algunos autores como Angel Rosemblat consideran que sólo había en la isla de Santo Domingo 125.000 habitantes al momento de la conquista",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Cap. sobre el poblamiento más antiguo, l. 1206-1208 del djvu.txt",
+          "cita_original": "en el sitio Barrera-Mordán, en la provincia de Azua la fecha más antigua es de 2610 antes de Cristo",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Introducción al capítulo sobre los primeros habitantes, l. 284-285 del djvu.txt",
+          "cita_original": "un largo proceso migratorio que parece haberse iniciado hacia el 4000 Antes de Cristo",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021",
+        "A-024",
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1596",
+      "notas": "Fuente dominicana que matiza A-021: \"cinco cacicazgos\" es la cifra tradicional pero hubo \"numerosos caciques\" (jefes de linaje) con unificación eventual. Su estimación demográfica (500 yacimientos x 500 personas = 250.000 y posiblemente ~400.000) es un cálculo sin fuente primaria: ni el número de personas por yacimiento ni la contemporaneidad de los 500 yacimientos están probados (hecho: ~500 yacimientos registrados; interpretación: multiplicador y simultaneidad). Atribuye a Rosenblat 125.000, mientras que Cook 2003, Amiama 1959 y otros dan 100.000 (discrepancia en el registro). Fechas más antiguas de La Española: Barrera-Mordán (Azua) 2610 a.C. y Pedernales 2590 a.C., y migración inicial desde Centroamérica hacia el 4000 a.C. [POR VERIFICAR: las fechas no se contrastaron con los fechados originales]. Veloz Maggiolo es coautor de Fernandes 2021, pero allí no aparece su estimación de población."
+    },
+    {
+      "titulo": "Reseña de L. Arranz Márquez, Repartimientos y encomiendas en la isla Española (El repartimiento de Alburquerque de 1514) (Revista Complutense de Historia de América, reseñas, pp. 322-324)",
+      "autor": "Muñoz, José Miguel (reseñista; segundo apellido ilegible en el OCR) sobre Arranz Márquez, Luis",
+      "anio": "1994",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "espanola",
+      "url": "https://revistas.ucm.es/index.php/RCHA/article/download/RCHA9494110322B/29279/30439",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Reseña (fuente de segunda mano) de una monografía especializada; sirve como índice de las conclusiones de Arranz, pero el libro no se leyó y el año y el volumen de la revista no figuran en el texto extraído.",
+      "proveniencia": "Reseña en la Revista Complutense de Historia de América (Madrid); el libro reseñado es de Luis Arranz Márquez (Fundación García Arévalo, Madrid, 1991), base de las cifras de 1514 que usan Livi-Bacci y Deagan.",
+      "extractos": [
+        {
+          "ubicacion": "Reseña, p. 322",
+          "cita_original": "Para Arranz no es posible determinar a ciencia cierta la población indígena existente a finales del siglos XV en la isla Española debido a la falta de datos mínimamente fiables",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-027"
+          ]
+        },
+        {
+          "ubicacion": "Reseña, pp. 322-323",
+          "cita_original": "Arranz llega a la conclusión de que entre",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Reseña, p. 323 (la reseña añade que afectó a \"algo más de 26.000 indios\"; el OCR del PDF lee \"dc\" por \"de\", por eso no se transcribe esa parte)",
+          "cita_original": "el último repartimiento de indios de la isla Española, el de Alburquerque de 1514",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        },
+        {
+          "ubicacion": "Reseña, p. 323",
+          "cita_original": "solamente quedaban 15.000 indios debido fundamentalmente a la huida a los montes de muchos de ellos",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-022",
+        "A-024",
+        "A-027"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Índice de las conclusiones de Arranz Márquez 1991: no cree posible fijar la población de 1492; reconstruye el declive sobre el tributo de la zona española (~un cuarto de la isla) con una pérdida de ~un tercio entre 1492 y 1496; 33.500 indios en 1510, algo más de 26.000 en 1514 y 15.000 en 1517. La frase \"Arranz llega a la conclusión de que entre\" se completa en la página siguiente (\"1492 y 1496 hay una pérdida de población de alrededor de un tercio\"). Resuelve parcialmente la laguna n.º 6 del reconocimiento (cifras de 1514, de segunda mano). [POR VERIFICAR] volumen y año exactos de la revista (el identificador de URL sugiere 1994) y el apellido del reseñista."
+    },
+    {
+      "titulo": "La población de Santo Domingo (Clío, Órgano de la Academia Dominicana de la Historia, n.º 115, pp. 116 y ss.)",
+      "autor": "Amiama, Manuel A.",
+      "anio": "1959",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/clio/Clio_1959_No_115.pdf",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "pdf",
+      "acceso": "pdf-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Discurso ante la Academia (con el elogio de su predecesor) de un licenciado de 1959 sin aparato de notas en las páginas leídas; el PDF es un escaneo (130 págs., 32 MB) con OCR deficiente que se verificó visualmente página a página.",
+      "proveniencia": "Manuel A. Amiama, discurso ante la Academia Dominicana de la Historia en 1959 (régimen de Trujillo); resume la demografía de la isla desde 1492 con base en Rosenblat y en cronistas; da por cierta la hipótesis de población baja de Rosenblat.",
+      "extractos": [
+        {
+          "ubicacion": "Clío n.º 115, p. 118 (pág. 8 del PDF; comprobado visualmente)",
+          "cita_original": "Algunos la fijan en 5.000.000 de habitantes, otros en 3.000.000. Hay quien, más prudente, se conforma con la cifra de 1.000.000.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022",
+            "A-023"
+          ]
+        },
+        {
+          "ubicacion": "Clío n.º 115, p. 118 (comprobado visualmente)",
+          "cita_original": "El escritor que con criterio más científico se ha ocupado en este asunto, el doctor Angel Rosenblat, estima que la población de nuestra isla, en 1492, puede fijarse en 100,000 habitantes.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Clío n.º 115, p. 118 (comprobado visualmente)",
+          "cita_original": "ya para el 1508, dieciseis años después del descubrimiento, durante el gobierno de Fray Nicolás de Ovando, sólo quedaban de 40,000 a 60,000 indígenas",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        },
+        {
+          "ubicacion": "Clío n.º 115, p. 119 (comprobado visualmente)",
+          "cita_original": "Estos caribes, llamados ciguayos en nuestra isla, ocupaban, hasta bastante tierra adentro, la costa noreste",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021",
+        "A-022",
+        "A-023",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Fuente dominicana de 1959 que adopta la cifra baja de Rosenblat (100.000) y argumenta por la facilidad de la conquista y la ausencia de centros urbanos: ejemplo de que la tradición académica dominicana ha sostenido históricamente la cifra BAJA, no la alta (relevante para simetría). También recoge la clasificación hoy abandonada de los ciguayos como \"caribes\" (con Caonabo y Mayobanex), contraria a Granberry y Vescelius (el ciguayo no es ni caribe ni taíno; dato lingüístico escaso). Hecho: lo que dice Amiama; interpretación: su juicio de verosimilitud. Es una de las fuentes de Cook 2003 (Cuadro 1.1: Amiama 1959 = 100.000). Las líneas del texto OCR son ilegibles en parte: las citas se transcribieron de la imagen de la página."
+    },
+    {
+      "titulo": "Essays in Population History, Volume One: Mexico and the Caribbean (Berkeley: University of California Press)",
+      "autor": "Cook, Sherburne F.; Borah, Woodrow",
+      "anio": "1971",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://www.ucpress.edu/books/essays-in-population-history-volume-one/paper",
+      "urls_alternativas": [
+        "https://books.google.com/books?vid=ISBN9780520329775"
+      ],
+      "verificacion": "solo-localizada",
+      "http_status": "200 (UC Press); 429 (Google Books)",
+      "formato": "html",
+      "acceso": "bajo-derechos",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Obra influyente pero criticada (Henige, Rosenblat); el capítulo sobre La Española (pp. 376-410 según Fernandes 2021, ref. 5) no se abrió: solo la ficha editorial.",
+      "proveniencia": "Cook y Borah (Berkeley), \"Escuela de Berkeley\"; retroproyección desde el declive a partir de cifras de Las Casas y Sauer.",
+      "extractos": [
+        {
+          "ubicacion": "Ficha editorial de UC Press (\"About the Book\")",
+          "cita_original": "Essays in Population History: Mexico and the Caribbean, Volume One brings together a series of seven essays that examine the demographic history of Mexico and the Caribbean.",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-023"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0224",
+      "notas": "El contenido del capítulo (7.975.000, latitud 4-14 millones) solo se leyó de segunda mano en Cook 2003 (F-1587, Cuadro 1.1). Google Books (ID FDssEAAAQBAJ) devolvió 429/CAPTCHA. La ficha editorial es solo prueba de existencia, no de la cifra."
+    },
+    {
+      "titulo": "The Native Population of the Americas in 1492 (2.ª ed., Madison: University of Wisconsin Press)",
+      "autor": "Denevan, William M. (ed.)",
+      "anio": "1992",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://archive.org/details/nativepopulation0000unse",
+      "urls_alternativas": [
+        "https://muse.jhu.edu/book/8750"
+      ],
+      "verificacion": "solo-localizada",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "bajo-derechos",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Obra colectiva de referencia con el capítulo de Rosenblat sobre La Española; solo se abrió la ficha de préstamo de Internet Archive (no el texto).",
+      "proveniencia": "William Denevan (Wisconsin), 1976 y 2.ª ed. 1992; Denevan estima ~1.950.000 (1976) y ~1.000.000 (1992) para La Española según Cook 2003.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-023",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0226",
+      "notas": "Archive.org lo ofrece solo en préstamo (acceso restringido); el capítulo de Rosenblat (1976, pp. 43-66) y el de Denevan no se leyeron: sus cifras (100.000; 1,95 y 1,0 millones) solo constan de segunda mano en Cook 2003. Se corrige el registro: Denevan cambió de ~1,95 millones (1976) a ~1 millón (1992) en la 2.ª edición."
+    },
+    {
+      "titulo": "Hispaniola: Caribbean Chiefdoms in the Age of Columbus (Tuscaloosa: University of Alabama Press)",
+      "autor": "Wilson, Samuel M.",
+      "anio": "1990",
+      "tipo": "secundaria",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://www.ubcpress.ca/hispaniola",
+      "urls_alternativas": [
+        "https://fulcrum.org/concern/monographs/hq37vn951"
+      ],
+      "verificacion": "solo-localizada",
+      "http_status": "200 (UBC Press, ficha); Fulcrum 403 con curl y sin acceso abierto según WebFetch",
+      "formato": "html",
+      "acceso": "bajo-derechos",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Monografía clave sobre los cacicazgos de La Española por un arqueólogo (Univ. de Texas); solo se leyó la sinopsis del editor, no el libro.",
+      "proveniencia": "Samuel M. Wilson (entonces profesor asistente en la Univ. de Texas en Austin); reconstruye en forma narrativa la organización política taína a partir de las crónicas y la arqueología.",
+      "extractos": [
+        {
+          "ubicacion": "Sinopsis del editor (UBC Press / Univ. of Alabama Press)",
+          "cita_original": "They were organized politically into large cacicazgos , or chiefdoms, comprising 70 or more villages under the authority of a paramount cacique , or chief.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0179",
+      "notas": "Solo sinopsis editorial: describe cacicazgos \"de 70 o más aldeas\" bajo un cacique supremo, lo que concuerda en orden de magnitud con los 362 caciques de 1514 de Livi-Bacci/Arranz repartidos entre unas cinco jefaturas mayores (70 x 5 = 350), pero esa coincidencia es una inferencia mía, no una afirmación de Wilson. Fulcrum/ACLS Humanities Ebook lo ofrece solo con acceso institucional. A-021 pide contrastar con Wilson 1990: pendiente de leer el libro. La entrada F-0179 incluye también a Oliver 2009 (véase su ficha aparte)."
+    },
+    {
+      "titulo": "The Circulation of Chiefs' Names, Women, and Cemís (cap. de Caciques and Cemí Idols: The Web Spun by Taíno Rulers between Hispaniola and Puerto Rico, University of Alabama Press, pp. 157-188)",
+      "autor": "Oliver, José R.",
+      "anio": "2009",
+      "tipo": "secundaria",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://api.crossref.org/works/10.2307/jj.30297438.22",
+      "urls_alternativas": [
+        "https://doi.org/10.2307/jj.30297438.22"
+      ],
+      "verificacion": "solo-localizada",
+      "http_status": "200 (registro de Crossref, sin texto)",
+      "formato": "xml",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Monografía académica de referencia sobre cacicazgos y cemíes; solo se confirmó el registro bibliográfico del capítulo en Crossref (JSTOR), sin acceso al texto.",
+      "proveniencia": "José R. Oliver; estudio de redes políticas y simbólicas entre La Española y Puerto Rico (título del libro).",
+      "extractos": [],
+      "afirmaciones": [
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Solo localizada. Curet 2014 resume el uso que hace Oliver (2009) del concepto de \"taineidad\" para reconstruir cosmología y religión. La entrada F-0179 del registro agrupa a Wilson 1990 y Oliver 2009; esta ficha es la de Oliver."
+    },
+    {
+      "titulo": "Arqueología en la línea noroeste de La Española: paisaje, cerámicas e interacciones (tesis doctoral, Univ. de Leiden, 2013)",
+      "autor": "Ulloa Hung, Jorge",
+      "anio": "2013",
+      "tipo": "secundaria",
+      "idioma": "es",
+      "tradicion": "internacional",
+      "url": "https://hdl.handle.net/1887/20841",
+      "urls_alternativas": [
+        "https://scholarlypublications.universiteitleiden.nl/handle/1887/20841"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "200 (página \"Toegang geblokkeerd / Access Blocked\" con CAPTCHA de Leiden)",
+      "formato": "html",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Tesis doctoral (Leiden, 23-IV-2013) de un arqueólogo del INTEC y del Museo del Hombre Dominicano; la existencia y fecha constan en resultados de búsqueda, pero el repositorio devolvió un bloqueo y el texto no se abrió.",
+      "proveniencia": "Jorge Ulloa Hung (INTEC, Museo del Hombre Dominicano), dirigida en Leiden; base del trabajo de Hofman et al. 2018 sobre más de 300 sitios del norte.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-029",
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0180",
+      "notas": "WebFetch y curl a los ítems 2899213-2899229 del repositorio devolvieron la misma página de bloqueo; sin lectura. Hofman et al. 2018 (F-1577) cita esta tesis para la mezcla de estilos ostionoide, meillacoide y chicoide."
+    },
+    {
+      "titulo": "Renewing the house: trajectories of social life in the yucayeque (community) of El Cabo, Higüey, Dominican Republic, AD 800 to 1504 (tesis doctoral, Univ. de Leiden, 2010; Sidestone Press)",
+      "autor": "Samson, Alice V. M.",
+      "anio": "2010",
+      "tipo": "secundaria",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://hdl.handle.net/1887/15288",
+      "urls_alternativas": [
+        "https://scholarlypublications.universiteitleiden.nl/handle/1887/15288"
+      ],
+      "verificacion": "fallo-fetch",
+      "http_status": "200 (página \"Toegang geblokkeerd / Access Blocked\" con CAPTCHA de Leiden)",
+      "formato": "html",
+      "acceso": "localizada-bloqueada",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Tesis de Leiden/Sidestone Press sobre El Cabo (Higüey) con más de 2.000 rasgos domésticos según su resumen de catálogo; el texto no se abrió.",
+      "proveniencia": "Alice Samson (Leiden), dirigida por Hofman y Hoogland; coloca a El Cabo en AD 800-1504 y narra su declive tras el contacto.",
+      "extractos": [],
+      "afirmaciones": [
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0171",
+      "notas": "El registro la describía como \"excavaciones de El Cabo\" sin título: se trata de la tesis \"Renewing the house\" (Leiden 2010). Sin lectura por bloqueo. El Cabo está en la región de Higüey (cacicazgo de Higüey en A-021). Alice Samson figura además como revisora de Fernandes 2021 (agradecimiento de Nature)."
+    },
+    {
+      "titulo": "Effective/census population size ratio estimation: a compendium and appraisal (Ecology and Evolution 2(9):2357-2365)",
+      "autor": "Palstra, Friso P.; Fraser, Dylan J.",
+      "anio": "2012",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "cientifica",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3488685/",
+      "urls_alternativas": [
+        "https://doi.org/10.1002/ece3.329"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Metaanálisis revisado por pares de 2.617 estimaciones de Ne en poblaciones silvestres; no trata humanos ni el Caribe.",
+      "proveniencia": "CNRS/Muséum national d'Histoire naturelle y Concordia Univ.; revisión de la literatura sobre el cociente Ne/N para conservación de especies.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"Ne/N ratios: general magnitude and uncertainty\" (Resultados)",
+          "cita_original": "median values for Ne/N and Nb/Na ratios were found to be 0.231 and 0.225, respectively",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Uncertainty in Ne/N ratios thus sometimes spanned at least two orders of magnitude.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-026"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-026"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Sirve solo como control externo de la regla \"censo = 3 a 10 veces Ne\" de Fernandes 2021: en poblaciones SILVESTRES la mediana de Ne/N correctamente enlazada es 0,231 (n=31; es decir, N ~ 4 veces Ne), la de todas las estimaciones 0,123, y valores previos de 0,14 (Palstra y Ruzzante 2008) y 0,11 (Frankham 1995), con incertidumbres de dos órdenes de magnitud. No existe una calibración equivalente para humanos horticultores; el factor 10 de Fernandes es de la literatura humana (refs. 27-28 del artículo) y su validez para sociedades de cacicazgo antillanas no está probada [POR VERIFICAR]. Hecho: las medianas; interpretación: aplicarlas a humanos es analogía."
+    },
+    {
+      "titulo": "Asynchronous extinction of late Quaternary sloths on continents and islands (PNAS 102(33):11763-11768)",
+      "autor": "Steadman, David W.; Martin, Paul S.; MacPhee, Ross D. E.; Jull, A. J. T.; McDonald, H. Gregory; Woods, Charles A.; Iturralde-Vinent, Manuel; Hodgins, Gregory W. L.",
+      "anio": "2005",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1187974",
+      "urls_alternativas": [
+        "https://doi.org/10.1073/pnas.0502777102"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de PNAS con revisión por pares y 9 fechas AMS nuevas sobre perezosos de Haití; el nexo causal con la llegada humana es una inferencia cronológica, no una demostración.",
+      "proveniencia": "Univ. de Florida (Steadman), Arizona (Martin, Jull), AMNH (MacPhee) y colaboradores cubanos y haitianos; huesos de cuevas y sumideros del lado haitiano de La Española.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "Radiocarbon dates directly on dung, bones, or other tissue of extinct sloths place their “last appearance” datum at ≈11,000 radiocarbon years before present (yr BP) or slightly less in North America, ≈10,500 yr BP in South America, and ≈4,400 yr BP on West Indian islands.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Sección de resultados (Hispaniola)",
+          "cita_original": "The two youngest dates (≈4,500 yr BP = ≈5,000 cal BP) lie within the period of demonstrated human presence on Hispaniola",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Evidencia ecológica independiente sobre la cronología humana en La Española: la última aparición de los perezosos antillanos (~4.400 años 14C BP; las dos fechas más jóvenes de Haití ~4.500 14C BP = ~5.000 cal BP) coincide con el rango de llegada humana modelado por Napolitano 2019 (4545-3930 cal BP) y con Samaná (~4400 cal BP). Cuidado con las unidades: 14C BP no calibrado frente a cal BP. Hecho: fechas AMS; interpretación: la extinción siguió a la llegada humana. Ninguno de los huesos dados se asocia a rasgos culturales (según el artículo)."
+    },
+    {
+      "titulo": "A 10,300 14C yr Record of Climate and Vegetation Change from Haiti (Quaternary Research 52:159-170)",
+      "autor": "Higuera-Gundy, A.; Brenner, M.; Hodell, D. A.; Curtis, J. H.; Leyden, B. W.; Binford, M. W.",
+      "anio": "1999",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://api.openalex.org/works/doi:10.1006/qres.1999.2062",
+      "urls_alternativas": [
+        "https://doi.org/10.1006/qres.1999.2062",
+        "https://api.crossref.org/works/10.1006/qres.1999.2062"
+      ],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "fragmento-busqueda",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de Quaternary Research con revisión por pares (núcleo del lago Miragoane, Haití); solo se leyó el resumen reconstruido de OpenAlex, no el texto (editor sin acceso abierto).",
+      "proveniencia": "Univ. de Florida y colaboradores; núcleo de 7,6 m del lago Miragoane (Haití) con δ18O y polen.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen (OpenAlex)",
+          "cita_original": "The pollen record of the last millennium reflects pre-Columbian (Taino) and European deforestation.",
+          "traduccion": "",
+          "afirmaciones": []
+        },
+        {
+          "ubicacion": "Resumen (OpenAlex)",
+          "cita_original": "Climatic drying that began ∼3200 14C yr B.P. may have driven some mesophilic animal species to extinction.",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-1755",
+      "notas": "Solo resumen: el registro polínico del último milenio refleja deforestación \"pre-colombina (taína) y europea\" en el sur de Haití, pero el resumen no cuantifica el porcentaje de bosque perdido ni separa ambos periodos. Útil como indicio ecológico, no como cifra de población. Para la cuantificación de la deforestación moderna (Hedges 2018, FAO) véase otros módulos. El registro de OpenAlex se descargó (200); doi.org respondió 200 pero no se leyó la página del editor."
+    },
+    {
+      "titulo": "The Myth of Millions: Rethinking Hispaniola Before Columbus (History Reclaimed)",
+      "autor": "Fernlund, Kevin Jon",
+      "anio": "2026",
+      "tipo": "divulgacion",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://historyreclaimed.co.uk/hispaniola-indigenous-population/",
+      "urls_alternativas": [
+        "https://historyreclaimed.co.uk"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Artículo de divulgación (publicado el 6-V-2026) de un autor no especialista en Caribe, con tesis explícita (\"disease, not genocide\"), y que añade afirmaciones que Fernandes 2021 no hace ni cita.",
+      "proveniencia": "History Reclaimed (sitio británico de divulgación histórica); autor Kevin Jon Fernlund; usa Fernandes 2021 para argumentar a favor de cifras bajas y de la enfermedad como causa principal del declive.",
+      "extractos": [
+        {
+          "ubicacion": "Sección iii (\"The Genomic Revolution\"), párrafo 1",
+          "cita_original": "the pre‑contact population of Hispaniola was not in the hundreds of thousands, let alone the millions, but in the low tens of thousands—of the order of thirty thousand people in 1492.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección iii (\"The Genomic Revolution\")",
+          "cita_original": "Using the study’s effective population size estimates, even the combined population of Hispaniola and Puerto Rico could not have exceeded roughly 80,000—and was likely far lower.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección ii (\"Columbus, Las Casas, and the Rhetoric of Numbers\")",
+          "cita_original": "A census taken in 1540 counted only 250 surviving Indigenous people on Hispaniola.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-022",
+        "A-025",
+        "A-026"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0188",
+      "notas": "Resuelve F-0188 (antes localizada-bloqueada: la URL correcta es la del artículo, no la portada). Sesgo: interpreta la cifra de Fernandes como \"unas 30.000 personas en 1492\" para La Española (el artículo da una cota de ~80.000 para La Española y Puerto Rico JUNTAS, y la nota de Harvard 10.000-50.000 para ambas), y afirma sin fuente que un censo de 1540 contó 250 indígenas [POR VERIFICAR: el dato no se rastrea]; atribuye a Colón y a su hermano la cifra de 1,1 millones como \"una venta\" (interpretación sin cita). Además mezcla con Mesoamérica (Borah, Dobyns) y concluye sobre \"causas\" y \"genocidio\" con razonamiento propio. No debe entrar en la síntesis como evidencia; sirve para documentar cómo circula el uso político de la cifra."
+    },
+    {
+      "titulo": "Island investigations (Harvard Gazette; nota de HMS Communications sobre Fernandes et al. 2021)",
+      "autor": "Dutchen, Stephanie (HMS Communications)",
+      "anio": "2020",
+      "tipo": "divulgacion",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://news.harvard.edu/gazette/story/2020/12/ancient-dna-shines-light-on-caribbean-history-prehistory",
+      "urls_alternativas": [
+        "https://hms.harvard.edu/news/island-investigations"
+      ],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Nota de prensa institucional (Harvard Medical School, 23-XII-2020) que refleja declaraciones de los autores, pero cuya cifra principal no figura en el artículo ni en el suplemento.",
+      "proveniencia": "Oficina de comunicación de la Harvard Medical School, institución de los autores principales (Reich Lab); cita a Reich, Coppa y otros.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"Population size\"",
+          "cita_original": "To the researchers’ surprise, the numbers suggested that somewhere between 10,000 and 50,000 people were living in the combined region of Hispaniola (Haiti and the Dominican Republic) and Puerto Rico in the centuries before Europeans arrived.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Population size\"",
+          "cita_original": "This number is much lower than previous estimates and historical accounts of hundreds of thousands to millions of people.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Cita de David Reich, sección \"Population size\"",
+          "cita_original": "Whether there were 1 million Indigenous people in Hispaniola in 1492 or a few tens of thousands as we now know to be true, the fact remains that what happened after Europeans arrived in the Caribbean constitutes one of the world’s first genocides",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-025",
+        "A-026"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "ORIGEN TRAZABLE de la cifra \"10.000-50.000\": esta nota es la fuente donde aparece como resultado (\"somewhere between 10,000 and 50,000 people\"), no el artículo de Nature (cuyo texto dice solo que las estimaciones de cientos de miles son demasiado grandes). La nota atribuye el método a Ringbauer. Reich usa el término \"genocidio\" (término cargado, véase glosario) en una cita; es una interpretación de significado, separada del hecho demográfico. Dato aritmético: 3-10 veces el Ne máximo de 8.150 da 24.000-81.500; 10-50.000 es consistente con parte de ese rango, pero el método de conversión no se publica en la nota."
+    },
+    {
+      "titulo": "Ancient DNA retells story of Caribbean’s first people (Florida Museum, Research News)",
+      "autor": "van Hoose, Natalie",
+      "anio": "2020",
+      "tipo": "divulgacion",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://www.floridamuseum.ufl.edu/science/ancient-dna-retells-story-of-caribbeans-first-people",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "media",
+      "justificacion_fiabilidad": "Nota institucional del Florida Museum (23-XII-2020) con citas de Keegan y Reich; reproduce la cifra de la nota de Harvard.",
+      "proveniencia": "Florida Museum of Natural History (coautor: William F. Keegan); texto de Natalie van Hoose.",
+      "extractos": [
+        {
+          "ubicacion": "Sección \"Revising estimates of Caribbean population size\"",
+          "cita_original": "Ringbauer’s technique showed about 10,000 to 50,000 people were living on two of the Caribbean’s largest islands, Hispaniola and Puerto Rico, shortly before European arrival.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025",
+            "A-026"
+          ]
+        },
+        {
+          "ubicacion": "Sección \"Revising estimates of Caribbean population size\"",
+          "cita_original": "This falls far short of the million inhabitants Columbus described to his patrons, likely to impress them, Keegan said.",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-025"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-025",
+        "A-026"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Segunda nota institucional que repite 10.000-50.000 para La Española y Puerto Rico juntas; no es fuente independiente de la cifra (depende de la misma comunicación de los autores). La frase sobre Colón es opinión de Keegan (\"likely to impress them\"), no hecho documentado en la nota."
+    },
+    {
+      "titulo": "Restos humanos arcaicos hallados en Samaná tienen 5,300 años (EFE, El Día, 4-X-2022)",
+      "autor": "EFE (Agencia EFE)",
+      "anio": "2022",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://eldia.com.do/restos-humanos-arcaicos-hallados-en-samana-tienen-5300-anos/",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Cable de agencia que cita al arqueólogo director de la excavación sobre fechas por carbono 14 preliminares, sin informe publicado ni intervalo de calibración.",
+      "proveniencia": "EFE (4-X-2022, 14:41) a partir de declaraciones del arqueólogo español Adolfo López; anuncia que la Univ. de Harvard enviaría un equipo a tomar muestras de ADN.",
+      "extractos": [
+        {
+          "ubicacion": "Párrafo 1",
+          "cita_original": "Los restos humanos arcaicos hallados recientemente en un yacimiento arqueológico en Samaná (noreste de República Dominicana) datan de hace 5.300 años, según las pruebas de carbono 14 a las que fueron sometidas las osamentas",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-028"
+          ]
+        },
+        {
+          "ubicacion": "Declaración de Adolfo López",
+          "cita_original": "Son los primeros dominicanos. Nos hemos llevado una sorpresa tremenda",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-028"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "F-0223",
+      "notas": "CORRECCIÓN AL REGISTRO: esta nota es de EFE del 4-X-2022 y NO menciona a Kendra Sirak ni al XXXI Congreso de Arqueología del Caribe (2026) como indica la fila F-0223; anuncia que Harvard tomaría muestras de ADN. El \"5.300 años\" es una cifra preliminar de 2022 (antes se creía ~3.000 años); el preprint de 2026 fecha al individuo más antiguo en 4411-4158 cal BP (F-1578), de modo que ~5.300 no se sostiene como edad de los restos analizados genéticamente [la cifra pudo referirse a otro material; no se sabe]. Hecho: dichos reportados; interpretación de López: \"los primeros dominicanos\" y llegada directa desde Venezuela (\"no estamos seguros todavía\"). Menciona perezosos gigantes cazados en el sitio (cf. Steadman 2005)."
+    },
+    {
+      "titulo": "La población aborigen y los orígenes violentos del cruce racial (Diario Libre, 17-VIII-2012; extracto del cap. 1 de \"La población dominicana\")",
+      "autor": "Franco, Franklyn J. (extracto publicado por Diario Libre)",
+      "anio": "2012",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://www.diariolibre.com/actualidad/la-poblacin-aborigen-y-los-orgenes-violentos-del-cruce-racial-LPDL348254",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Extracto periodístico de un libro de un historiador y académico dominicano, sin notas ni referencias; compila cifras de cronistas de segunda mano y usa el término \"genocidio\" en su propia voz.",
+      "proveniencia": "Franklyn J. Franco, historiador y académico dominicano; Diario Libre (Santo Domingo), 17-VIII-2012, como adelanto de \"La población dominicana\" (octubre de 2012).",
+      "extractos": [
+        {
+          "ubicacion": "Párrafo de compilación de cifras",
+          "cita_original": "Así por ejemplo: el padre La Casas nos habla de 3 o 4 millones, Oviedo reduce la cifra a 1 millón de habitantes",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022",
+            "A-023"
+          ]
+        },
+        {
+          "ubicacion": "Párrafo de compilación de cifras",
+          "cita_original": "El historiador dominicano Moya Pons en su primera referencia a la población taína de nuestra isla, la estimó en 1971 en 600,000 habitantes; más tarde corrigió y la redujo a 400,000 en 1987",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Cita de Moya Pons, Historia de la República Dominicana (2010), según el artículo",
+          "cita_original": "expresa que \"la población taína previa a la invasión española debió estar constituida entre 400,000 y 600,000 personas\"",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-024"
+          ]
+        },
+        {
+          "ubicacion": "Párrafo de compilación de cifras",
+          "cita_original": "las coincidencias en cuanto al número total de la población son escasas, y las cifras distantes. En tal virtud, no se ha podido establecer su real magnitud",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-027"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-022",
+        "A-023",
+        "A-024",
+        "A-027"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Útil como muestra de la tradición historiográfica dominicana: un académico reconoce que no se puede fijar la magnitud, cita a Moya Pons con sus tres estimaciones sucesivas (600.000 en 1971, 400.000 en 1987, 400.000-600.000 en 2010) y, por tanto, esa tradición NO defiende las cifras de millones. Las cifras de los cronistas que lista (Las Casas 3-4 millones, Oviedo 1 millón, Zuazo 1.130.000, Pedro Mártir 1.200.000, Federmann 500.000, Fonseca 600.000) son [POR VERIFICAR]: el artículo no da citas y no se contrastaron con las crónicas. El autor usa \"invasión\" y \"genocidio\" (términos cargados; véase el glosario). Hecho: las cifras que cita; interpretación: \"hecatombe demográfica\" y \"genocidio\"."
+    },
+    {
+      "titulo": "El día que los indios vivos se convirtieron en cristianos muertos… polémica a 140 años de Enriquillo (Acento)",
+      "autor": "Martínez, Vianco (especial para Acento.com.do)",
+      "anio": "2019",
+      "tipo": "divulgacion",
+      "idioma": "es",
+      "tradicion": "dominicana",
+      "url": "https://acento.com.do/cultura/el-dia-que-los-indios-vivos-se-convirtieron-en-cristianos-muertos-polemica-a-140-anos-de-enriquillo-8724294.html",
+      "urls_alternativas": [],
+      "verificacion": "descargada-y-leida",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "texto-completo-en-linea",
+      "fiabilidad": "baja",
+      "justificacion_fiabilidad": "Artículo periodístico cultural que cita a Moya Pons (Otras miradas a la historia, 2017) de segunda mano; fecha de publicación 6-IX-2019 según los metadatos de la página.",
+      "proveniencia": "Acento (Santo Domingo), colaboración de Vianco Martínez; recoge la polémica sobre la desaparición de los taínos citando a Galván, Henríquez Ureña y Moya Pons.",
+      "extractos": [
+        {
+          "ubicacion": "Cita de Moya Pons, Otras miradas a la historia (2017), según el artículo",
+          "cita_original": "La población nativa de la isla Española decreció de unas 400,000 personas en 1493 a apenas 26,334 en 1514",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-022",
+            "A-024"
+          ]
+        }
+      ],
+      "afirmaciones": [
+        "A-022",
+        "A-024"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Solo sirve para registrar que Moya Pons (2017) sigue dando ~400.000 personas en 1493 y 26.334 en 1514 (cifra del repartimiento de Alburquerque; cf. Cook 2003 y Livi-Bacci). Moya Pons es una de las fuentes de Cook 2003, Cuadro 1.1. Es cita de segunda mano; no se leyó el libro."
+    },
+    {
+      "titulo": "Reconsidering Taíno Social Dynamics after Spanish Conquest: Gender and Class in Culture Contact Studies (American Antiquity 69(4):597-626)",
+      "autor": "Deagan, Kathleen",
+      "anio": "2004",
+      "tipo": "cientifica",
+      "idioma": "en",
+      "tradicion": "internacional",
+      "url": "https://cambridge.org/core/journals/american-antiquity/article/reconsidering-taino-social-dynamics-after-spanish-conquest-gender-and-class-in-culture-contact-studies/E45B974112D69A4D8232BC78C94BED95",
+      "urls_alternativas": [],
+      "verificacion": "descargada-parcial",
+      "http_status": "200",
+      "formato": "html",
+      "acceso": "fragmento-busqueda",
+      "fiabilidad": "alta",
+      "justificacion_fiabilidad": "Artículo de American Antiquity con revisión por pares de la excavadora principal de En Bas Saline; solo se leyó el resumen de Cambridge Core (el texto exige acceso).",
+      "proveniencia": "Kathleen Deagan (Florida Museum of Natural History, Univ. de Florida); seis años de excavación en En Bas Saline (Haití), aldea taína ocupada antes y después del contacto.",
+      "extractos": [
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "drawing upon six years of archaeological work at the En Bas Saline site in Haiti, the only extensively excavated Taíno townsite occupied both before and after contact",
+          "traduccion": "",
+          "afirmaciones": [
+            "A-021"
+          ]
+        },
+        {
+          "ubicacion": "Resumen",
+          "cita_original": "suggest that there were few major alterations to traditional Taíno social practice during the post-contact period",
+          "traduccion": "",
+          "afirmaciones": []
+        }
+      ],
+      "afirmaciones": [
+        "A-021"
+      ],
+      "modulos": [
+        "M01"
+      ],
+      "id_existente": "",
+      "notas": "Solo resumen. Aporta que En Bas Saline (Haití; capital cacical según Deagan y Cruxent 1993) es el único poblado taíno extensamente excavado con ocupación pre y poscontacto; el resumen no da cifras de población ni de cacicazgos. Útil para el módulo posterior sobre supervivencia cultural."
+    }
+  ]
+}

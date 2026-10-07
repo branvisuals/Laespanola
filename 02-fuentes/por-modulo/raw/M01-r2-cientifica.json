@@ -1,0 +1,1444 @@
+{
+ "lente": "cientifica",
+ "modulo": "M01",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 21,
+ "busquedas_pendientes": [
+  "Cook y Borah 1971 (cap. de La Española, pp. 376-410): ninguna copia legible hallada; falta una copia de autor o un ejemplar escaneado (HathiTrust, no probado por 403)",
+  "Henige 1998, Numbers from Nowhere (OU Press): capítulos sobre La Española, solo se tiene la ficha editorial",
+  "N.D. Cook 1998 Born to Die, cap. del Caribe, y Cook 1993 (Colonial Latin American Review 2: 213-245)",
+  "Rosenblat 1976 (capítulo de Denevan, con su apéndice): solo se leyó el original de 1967",
+  "Moya Pons 1971 (La Española en el siglo XVI, 600.000) y Moya Pons 1987 (Después de Colón, 378.000): texto original",
+  "Arranz Márquez 1991 (texto del repartimiento de Alburquerque: 26.334 indios frente a 26.188 de Livi-Bacci)",
+  "Zambardino 1980, «Mexico's population in the sixteenth century», J. Interdisciplinary History 11(1): 1-27",
+  "Henige 1986 («When did smallpox reach the New World»)",
+  "Estudios de ascendencia autosómica con haitianos residentes en Haití y n grande (ninguno hallado en abierto)",
+  "Bukhari 2017: texto completo para la n de la muestra haitiana",
+  "Curet 2005, Caribbean Paleodemography; Rodríguez Ramos 2010 y 2011 sobre taineidad y continuidad cerámica",
+  "Fechas radiocarbónicas originales de Barrera-Mordán, Pedernales y Cueva Roja (Veloz Maggiolo y Ortega; Moore)",
+  "Browning y Browning 2015 (Ne a partir de IBD) y críticas a la regla Ne-censo en humanos",
+  "Supplementary Data 12 (ROH) y Extended Data Table 1 (Ne por sitio) de Fernandes 2021 en formato tabla",
+  "Informe de Andrés de Morales de 1508 (cinco cacicazgos con otros nombres), de la lente colonial-primaria"
+ ],
+ "lagunas": [
+  "Cook y Borah 1971 sigue sin leerse en su texto original: se localizaron la ficha de UC Press (sin acceso abierto), los préstamos restringidos de archive.org y el ejemplar físico de la Wellcome Collection. Lo que consta de ese texto viene de Henige 1978 (que lo cita con página, pp. 376-410), de Zambardino 1978 y de Livi-Bacci 2003 (Tabla 1 y n. 2). Recomendación del crítico aplicada: declararlo en 07-sintesis/limites.md y no seguir buscando a ciegas.",
+  "El capítulo de Rosenblat en Denevan 1976/1992 no se leyó; se sustituyó por el original en español de 1967 (archive.org), cuya parte I se leyó. La parte II (México) y los cuadros no se leyeron. La disponibilidad en archive.org de ese libro puede ser no autorizada.",
+  "Livi-Bacci 2003 se leyó en el mecanuscrito de su página personal, no en la versión impresa del HAHR: la paginación no es la del HAHR y las cifras deben cotejarse con la impresa antes de citar página.",
+  "Henige 1978 y Zambardino 1978 están escaneados sin capa de texto: se leyeron con OCR y se cotejaron contra la imagen solo las citas centrales (pp. 218, 236, 237 y 704 de Zambardino); las demás citas son literales del OCR, con riesgo residual de errores de reconocimiento.",
+  "Lado haitiano de la evidencia genética: la muestra más grande es de 291 haitianos rurales solo con ADNmt HVS-1 (Wilson 2012, solo resumen); las muestras de Simms 2010 y 2012 (n=123 en el Y) y de Bukhari 2017 solo constan por resumen y sin proporciones nativas; Moreno-Estrada 2013 tiene 6 haitianos de la diáspora de Florida con n efectiva de 2 a 6 según el pasaje. No hay estudio autosómico de gran n con haitianos de Haití en acceso abierto. D'Atanasio 2020 cita para Haití 70 % africano y 25 % europeo en el Y frente al 77,2 % y 20,3 % del resumen de Simms 2012, sin explicar la diferencia.",
+  "Lalueza-Fox 2001: 27 muestras, pero 18 + 6 haplogrupos = 24 y 19 secuenciadas; sin texto completo no se resuelve la diferencia.",
+  "F-0203 (Schurr 2026): el DOI del registro corresponde al programa completo del congreso de la AABA, no a un resumen individual, y los dos portales devuelven reto de Cloudflare.",
+  "Hecho de método descubierto: la copia de Wayback Machine de los PDF «bronze OA» de Duke (HAHR) permite leer artículos de la revista que Duke bloquea con 403; el de Livi-Bacci (HAHR 83(1)) no tiene captura útil (solo la página antibot)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "población de contacto (contact population)",
+   "tradicion": "científica (historia demográfica; Henige 1978, Livi-Bacci 2003)",
+   "nota": "Término técnico para la población en el momento del contacto (1492), distinta de «población precolombina» o «aborigen»; se usa con fecha y rango explícitos, nunca como cifra única, porque su valor es la disputa misma (60.000 a ~8 millones según Livi-Bacci, 2003, Tabla 1)."
+  },
+  {
+   "termino": "ánimas / vecinos / indios / «unidades humanas» (human units) en el recuento atribuido a c. 1496",
+   "tradicion": "colonial (Las Casas, fray Bernardo de Santo Domingo, Zuazo) y científica (Cook y Borah, Henige, Rosenblat)",
+   "nota": "La unidad contada cambia el resultado por un factor de 4: Henige (p. 232) muestra que Cook y Borah convierten «persons» e «Indians» en «human units» (adultos de 14 años o más) para multiplicar; Rosenblat (p. 12) lee «vecino» como cabeza de familia (1.100.000 vecinos = mínimo 4,4 millones) para mostrar que la cifra no es estadística. Zuazo dice «indios»; los dominicos, «personas» y «vecinos»; Las Casas, «ánimas»."
+  },
+  {
+   "termino": "paradigma del «suelo virgen» (virgin soil) frente a «leyenda negra»",
+   "tradicion": "científica e historiográfica (Livi-Bacci 2003; Henige 1978)",
+   "nota": "Dos explicaciones de la caída demográfica que se retroalimentan con la cifra de contacto: la «leyenda negra» (crueldad excepcional, Las Casas) exigiría cifras altas, igual que el «suelo virgen» (epidemias sin inmunidad, Cook y Borah, Guerra); Livi-Bacci propone la «inquietante normalidad de la Conquista» (dislocación económica y social) y sostiene que ninguna de las dos gana credibilidad por subir la población inicial. Son marcos interpretativos y no hechos; el corpus debe usar «caída demográfica» y declarar el marco."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "On the Contact Population of Hispaniola: History as Higher Mathematics (Hispanic American Historical Review 58(2): 217-237)",
+   "autor": "Henige, David",
+   "anio": "1978",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2023/https://read.dukeupress.edu/hahr/article-pdf/58/2/217/735771/0580217.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1215/00182168-58.2.217",
+    "https://read.dukeupress.edu/hahr/article-pdf/58/2/217/735771/0580217.pdf (403 desde curl y WebFetch; OpenAlex lo marca como OA «bronze»)",
+    "https://read.dukeupress.edu/hahr/article/58/2/217/150540",
+    "https://www.jstor.org/stable/2513086"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en la revista de referencia, leído entero (21 págs.) y con las citas centrales cotejadas contra la imagen de las págs. 218, 236 y 237.",
+   "proveniencia": "David Henige, bibliógrafo de Estudios Africanos en la Universidad de Wisconsin-Madison (nota de autor, p. 217), publica en el HAHR de mayo de 1978 un examen del método y del manejo de fuentes de Cook y Borah (1971) para La Española; en el mismo volumen sale la réplica de Zambardino. Trabaja con las fuentes impresas (CDI, Las Casas, Mártir, Oviedo, Cuneo) y no con archivo. Su interés declarado es probar los métodos de los defensores de las cifras altas; no ofrece cifra propia.",
+   "extractos": [
+    {
+     "ubicacion": "p. 218 (texto principal; verificada contra la imagen)",
+     "cita_original": "Briefly, Cook and Borah conclude that about eight million Indians were probably living on Hispaniola when Columbus landed there; that this population was halved during the next four years; that it was reduced to some 30,000 Indians by 1514",
+     "traduccion": "En resumen, Cook y Borah concluyen que unos ocho millones de indios vivían probablemente en La Española cuando Colón desembarcó; que esa población se redujo a la mitad en los cuatro años siguientes; que había bajado a unos 30.000 indios en 1514.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 218, n. 6 (OCR l. 75)",
+     "cita_original": "Cook and Borah suggest a range from 4,070,000 to 14,560,000 but, not surprisingly, the figure most often cited in reviews is their mid-point figure of 8,000,000",
+     "traduccion": "Cook y Borah proponen un rango de 4.070.000 a 14.560.000 pero, como era de esperar, la cifra más citada en las reseñas es su punto medio de 8.000.000.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 219 (OCR l. 84)",
+     "cita_original": "previous modern estimates of Hispaniola's contact population ranged between 60,000 and 600,000",
+     "traduccion": "las estimaciones modernas anteriores de la población de contacto de La Española iban de 60.000 a 600.000.",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 219, n. 8 (verificada contra la imagen)",
+     "cita_original": "Moya Pons' estimate seems to result from a misreading of Las Casas' account of a population of 60,000 in 1508.",
+     "traduccion": "La estimación de Moya Pons parece resultar de una mala lectura del relato de Las Casas sobre una población de 60.000 en 1508. [En la misma nota Henige da la cifra de Moya Pons (1971, pp. 66-67) como 600.000.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 224 (OCR l. 314)",
+     "cita_original": "Obviously, sometime between 1535 and 1542 he tripled his early estimate, without ever accounting plausibly for the change.",
+     "traduccion": "Es evidente que entre 1535 y 1542 triplicó su estimación inicial, sin explicar nunca de forma verosímil el cambio. [Se refiere a Las Casas.]",
+     "afirmaciones": [
+      "A-022",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 224 (OCR l. 309)",
+     "cita_original": "In it Las Casas presented three more estimates of this population. In one of these he accepted the figure of 1.1 million while his other estimates were about 3 million.",
+     "traduccion": "En ella [la Historia de las Indias] Las Casas presentó tres estimaciones más de esa población: en una aceptó la cifra de 1,1 millones y en las otras daba unos 3 millones.",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 226, Tabla I (OCR l. 403)",
+     "cita_original": "Alonso de Zuazo (1518) 1,130,000 Indians Entire island",
+     "traduccion": "Alonso de Zuazo (1518): 1.130.000 indios, toda la isla. [La Tabla I de Henige reúne cuatro fuentes de 1516-1519 con 1.000.000-1.130.000.]",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 227 (OCR l. 453)",
+     "cita_original": "But rumor does not constitute evidence of any event—only of a subsequent belief in it.",
+     "traduccion": "Pero el rumor no es prueba de ningún hecho, solo de una creencia posterior en él. [Sobre el supuesto recuento de c. 1496.]",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 230 (OCR l. 579)",
+     "cita_original": "Cuneo, writing about the time of the battle, reckoned that Caonabo, the major Indian leader in the battle, could field 50,000 men, but when the Spanish moved to occupy the Cibao, where he ruled, they were opposed by an army of no more than 5,000 men.",
+     "traduccion": "Cuneo, escribiendo hacia la fecha de la batalla, calculó que Caonabó podía reunir 50.000 hombres, pero cuando los españoles ocuparon el Cibao, que él gobernaba, se les opuso un ejército de no más de 5.000.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 232 (OCR l. 686)",
+     "cita_original": "The remainder of the population is calculated at forty percent, yielding a total of 3,770,000, as “the most probable single figure with which to operate”",
+     "traduccion": "El resto de la población se calcula en un cuarenta por ciento, lo que da un total de 3.770.000, «la cifra única más probable con la que operar» [Cook y Borah, para 1496].",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 233 (OCR l. 718)",
+     "cita_original": "Cook and Borah are well aware that this extraordinarily large figure requires a net decline of over twenty percent per year between mid-1493 and mid-1496",
+     "traduccion": "Cook y Borah saben bien que esta cifra extraordinariamente alta exige un descenso neto de más del veinte por ciento anual entre mediados de 1493 y mediados de 1496.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 235 (OCR l. 802)",
+     "cita_original": "the complete silence of the sources with regard to epidemics of any kind before the introduction of smallpox in 1518-1519 somewhat vitiates the case for it",
+     "traduccion": "el silencio total de las fuentes sobre epidemias de cualquier tipo antes de la viruela de 1518-1519 debilita en cierto modo ese argumento. [Contradicho después por Guerra 1985, que lee la epidemia de Isabela de 1493 como influenza.]",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 236 (verificada contra la imagen; OCR l. 877)",
+     "cita_original": "Nor should the meagerness of the data by itself deter investigation.",
+     "traduccion": "Tampoco la escasez de los datos debería, por sí sola, frenar la investigación.",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 237 (verificada contra la imagen; OCR l. 888)",
+     "cita_original": "I would argue that it is futile to offer any numerical estimates at all on the basis of the evidence now before us.",
+     "traduccion": "Yo sostendría que es inútil ofrecer estimaciones numéricas de ningún tipo con la evidencia que tenemos ahora ante nosotros.",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 237 (OCR l. 894)",
+     "cita_original": "there was a tragically precipitate decline during the first several decades of Spanish rule which in some cases led to extinction",
+     "traduccion": "hubo un descenso trágicamente precipitado durante las primeras décadas de dominio español, que en algunos casos llevó a la extinción. [Henige lo da por indudable.]",
+     "afirmaciones": [
+      "A-022",
+      "A-027"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0231",
+   "notas": "RESUELVE F-0231 (antes localizada-bloqueada: Duke devolvía 403). Método de acceso: la copia de Wayback Machine del PDF de Duke (web.archive.org/web/2023/https://read.dukeupress.edu/hahr/article-pdf/58/2/217/735771/0580217.pdf) se descarga con curl; sirve igual para otros artículos HAHR marcados «bronze» en OpenAlex. Las páginas están escaneadas sin capa de texto: se leyó con OCR (RapidOCR) y se cotejaron contra la imagen las págs. 218, 236 y 237; las citas de Las Casas en español (p. 223) no se transcriben porque el OCR perdió los diacríticos. CORRECCIÓN A A-027: la frase «escasos y a menudo erróneos» (meager and often demonstrably wrong) NO aparece en Henige 1978; es de la ficha editorial de OU Press de Numbers from Nowhere (1998). Lo que Henige 1978 dice es (p. 237) que es inútil dar cifras numéricas «on the basis of the evidence now before us» y que por ahora no se puede medir el ritmo del descenso en el periodo más temprano; en la p. 236 menciona «the meagerness of the data» pero añade que eso «by itself» no debe frenar la investigación y que la alternativa es producir evidencia nueva. Su tesis es condicional (evidencia disponible en 1978) y metodológica. Henige acepta un descenso «tragically precipitate» y casi extinción hacia mediados del siglo XVI (pp. 218, 237). Hecho: Cook y Borah (1971, pp. 376-410) estiman 7.975.000 (rango 4.070.000-14.560.000) según Henige n. 6 y Livi-Bacci n. 2 (máximo 14.560.000). Interpretación de Henige: la cifra de 1496 (3.770.000) descansa en suposiciones encadenadas («human units», duplicar por la mitad de la isla bajo control español, 40 % de no adultos) y la proyección logarítmica hacia 1492 exige un descenso de más del 20 % anual sin evidencia de epidemias. Henige también enumera las estimaciones modernas previas (60.000-600.000, p. 219 n. 8: Amiama 100.000, Lipschutz 100.000-500.000, Morison 300.000, Córdova 500.000, Moya Pons 1971 600.000). Sesgo: escepticismo metodológico dirigido a un solo bando de cifras; su crítica de las cifras de Las Casas (p. 224) trata sus estimaciones como polémicas."
+  },
+  {
+   "titulo": "Critique of David Henige's \"On the Contact Population of Hispaniola: History as Higher Mathematics\" (Hispanic American Historical Review 58(4): 700-708, sección Forum)",
+   "autor": "Zambardino, R. A. (Rudolph A.)",
+   "anio": "1978",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://web.archive.org/web/2022/https://read.dukeupress.edu/hahr/article-pdf/58/4/700/745674/0580700.pdf",
+   "urls_alternativas": [
+    "https://doi.org/10.1215/00182168-58.4.700",
+    "https://read.dukeupress.edu/hahr/article-pdf/58/4/700/745674/0580700.pdf (403 directo)",
+    "https://read.dukeupress.edu/hahr/article/58/4/700/152755",
+    "https://www.jstor.org/stable/2513347"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Réplica revisada en el HAHR, leída entera (9 págs.), de un autor que se declara no historiador y cuya extrapolación logarítmica reutiliza los puntos de Cook y Borah, no datos independientes.",
+   "proveniencia": "R. A. Zambardino, Principal Lecturer in Computing Science en North Staffordshire Polytechnic, Stafford (nota de autor, p. 700), responde en el Forum del HAHR de noviembre de 1978 a Henige. Dice expresamente «I am not an historian» (p. 704-705). Interés: rescatar el método estadístico y el aporte de Borah y Cook frente a la generalización de Henige a todo el Nuevo Mundo; acepta rechazar los ocho millones y propone un millón para La Española.",
+   "extractos": [
+    {
+     "ubicacion": "p. 701 (OCR l. 57)",
+     "cita_original": "the doubts sown by Henige seem legitimate and sufficiently strong to justify the rejection of the extraordinary hypothesis of eight million",
+     "traduccion": "las dudas sembradas por Henige parecen legítimas y lo bastante fuertes para justificar el rechazo de la hipótesis extraordinaria de los ocho millones.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 701 (OCR l. 69)",
+     "cita_original": "Hispaniola is only a minor side issue in the massive body of Borah and Cook estimates.",
+     "traduccion": "La Española es solo un asunto menor dentro del enorme conjunto de estimaciones de Borah y Cook.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 702 (OCR l. 105)",
+     "cita_original": "The strange fact is that this testimony (partly summarized by Henige in Table I) is concentrated in remarkable harmony around a figure of one million.",
+     "traduccion": "Lo extraño es que este testimonio (resumido en parte por Henige en su Tabla I) se concentra en notable armonía en torno a una cifra de un millón.",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 704 (verificada contra la imagen; OCR l. 154)",
+     "cita_original": "the strip indicates a range of values around one million (from 0.7 to 1.3 million) for 1492 and the practical extinction of the population in the 1540s",
+     "traduccion": "la franja indica un rango de valores en torno a un millón (de 0,7 a 1,3 millones) para 1492 y la extinción práctica de la población en la década de 1540. [Extrapolación logarítmica de los puntos de 1508-1518.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 704 (verificada contra la imagen)",
+     "cita_original": "one million is an acceptable hypothesis for the pre-Columbian population of Hispaniola, with a likely margin of approximation of thirty percent",
+     "traduccion": "un millón es una hipótesis aceptable para la población precolombina de La Española, con un margen probable de aproximación del treinta por ciento.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 705 (OCR l. 223)",
+     "cita_original": "the eight million figure arose not from the mathematical methods used, but from the assumptions made about the 1496 count",
+     "traduccion": "la cifra de ocho millones surgió no de los métodos matemáticos usados sino de las suposiciones hechas sobre el recuento de 1496.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 706 (OCR l. 260)",
+     "cita_original": "Margins bigger than the ratio 1 to 10 can arise in some of the population estimates under consideration.",
+     "traduccion": "En algunas de las estimaciones de población consideradas pueden darse márgenes mayores que la razón de 1 a 10.",
+     "afirmaciones": [
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 707 (OCR l. 296)",
+     "cita_original": "Henige's paper has served a very important purpose and his rejection of the eight million estimate for Hispaniola should be accepted. The generalizations introduced or implied in the last section of his paper, however, should be firmly resisted.",
+     "traduccion": "El artículo de Henige ha cumplido un propósito muy importante y su rechazo de la estimación de ocho millones para La Española debe aceptarse. Las generalizaciones introducidas o implícitas en la última sección de su artículo, en cambio, deben rechazarse con firmeza.",
+     "afirmaciones": [
+      "A-027"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0225",
+   "notas": "RESUELVE F-0225 (antes localizada-bloqueada). Misma vía que Henige: copia de Wayback del PDF «bronze OA» de Duke; escaneo sin capa de texto, leído con OCR y cotejado visualmente en la p. 704 (el OCR había omitido «approximation of thirty percent»). PRECISA el registro: el autor es R. A. Zambardino, informático (Computing Science), no «estadístico» ni «Frank»; su estimación es «around one million (from 0.7 to 1.3 million)» por extrapolación logarítmica de las cifras de Cook y Borah de 1508-1518 (p. 704, fig. 1 de su Forum) y la califica «hipótesis aceptable» con un margen de aproximación de ~30 %, no una medición. Acepta la crítica de Henige a la cifra de 1496 pero rechaza su conclusión general (p. 707), y estima para México central 5-10 millones en vez de 25 (p. 707). Refuerza lo que ya decía A-024 (Zambardino ~1 millón) y matiza A-027: el escepticismo de Henige no fue aceptado por todos los críticos de las cifras altas. Sesgo: su un millón sale de extrapolar los recuentos de 1508-1518 que Cook y Borah ya habían reunido y se contrasta con las cifras de 1516-1518 (Zuazo, dominicos) que Henige y Rosenblat tratan como de oídas; no es evidencia independiente de ellas."
+  },
+  {
+   "titulo": "Return to Hispaniola: Reassessing a Demographic Catastrophe (Hispanic American Historical Review 83(1): 3-51), texto del autor («RETURN TO HISPANIOLA RIVISTO»), con notas y tablas en archivos aparte, en return-to-hispaniola.zip",
+   "autor": "Livi-Bacci, Massimo",
+   "anio": "2003",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://labdisia.disia.unifi.it/livi/pubblicazioni/return-to-hispaniola.zip",
+   "urls_alternativas": [
+    "https://labdisia.disia.unifi.it/livi/pubblicazioni/",
+    "https://doi.org/10.1215/00182168-83-1-3",
+    "https://muse.jhu.edu/article/49192/pdf (verificación; no leído)",
+    "https://read.dukeupress.edu/hahr/article-pdf/83/1/3/707009/hahr83_1-02bacciv2.pdf (Wayback solo guarda la página de reto antibot)",
+    "https://hdl.handle.net/2158/345288 (FLORE, ficha sin archivo)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del propio autor de un artículo revisado por pares en el HAHR, con método explícito (cinco vías independientes) y tablas; es el manuscrito, no la versión impresa.",
+   "proveniencia": "Massimo Livi-Bacci, demógrafo de la Universidad de Florencia, publica en el HAHR (feb. 2003) una reevaluación de la población de contacto y de las causas de la extinción de los taínos, a partir de las fuentes impresas (Las Casas, Oviedo, Mártir), del Repartimiento de 1514 editado por Arranz y de modelos de capacidad de carga, oro y estructura por edades. Aloja el manuscrito en su página personal del DiSIA. Declara no tener «the necessary expertise to take part in this philological debate» sobre el supuesto recuento de 1496 (mecanuscrito p. 4) y se apoya en Arranz; el interés es metodológico (reducir el rango de estimaciones irreconciliables).",
+   "extractos": [
+    {
+     "ubicacion": "ABSTRACT.pdf del zip (l. 14)",
+     "cita_original": "This eclecticism of methods leads to a range comprised between 100,000 and 400,000 inhabitants.",
+     "traduccion": "Este eclecticismo de métodos lleva a un rango comprendido entre 100.000 y 400.000 habitantes.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 3 (l. 79)",
+     "cita_original": "these are comprised between a low of 60,000 and a high of almost 8 million",
+     "traduccion": "estas [estimaciones modernas del último medio siglo, Tabla 1] van de un mínimo de 60.000 a un máximo de casi 8 millones.",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 4 (l. 96)",
+     "cita_original": "No trace of this count survives in the documents of the times; the indication of one million was first given by the Dominicans",
+     "traduccion": "No se conserva rastro de ese recuento en los documentos de la época; la indicación de un millón la dieron primero los dominicos. [Sobre el supuesto recuento de Bartolomé Colón de 1495-1496.]",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 14, sec. 4 «Caciques» (l. 398)",
+     "cita_original": "Las Casas talks of the five main caciques (reyes) of the island, but describes also the subdivision of the island into 30 districts.",
+     "traduccion": "Las Casas habla de los cinco caciques (reyes) principales de la isla pero describe también la subdivisión de la isla en 30 distritos.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 14, sec. 4 (l. 399)",
+     "cita_original": "Hernán Colón reduces the number of the main caciques to four, but adds that each one had 70 or 80 other caciques at its orders.",
+     "traduccion": "Hernán Colón reduce a cuatro los caciques principales, pero añade que cada uno tenía a sus órdenes 70 u 80 caciques más.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 15, sec. 4 (l. 434)",
+     "cita_original": "One would not be too much off the mark in making the assumption that at the time of contact the population of the island had been organized in 400 or 500 cacicazgos, with an average dimension of a few hundred people.",
+     "traduccion": "No se andaría muy lejos de la verdad suponiendo que, en el momento del contacto, la población de la isla estaba organizada en 400 o 500 cacicazgos, con un tamaño medio de unos pocos cientos de personas.",
+     "afirmaciones": [
+      "A-021",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 14, sec. 4 (l. 412)",
+     "cita_original": "About ten percent of the caciques of Alburquerque's Repartimento of 1514 were women.",
+     "traduccion": "Alrededor del diez por ciento de los caciques del Repartimiento de Alburquerque de 1514 eran mujeres. [Dato para la sección Silencios: mujeres caciques.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "mecanuscrito p. 27, sec. 8 (l. 783)",
+     "cita_original": "While the accounts do not leave any doubt as to the seriousness of the disease that hit the Spaniards, little is known about its effects among the natives.",
+     "traduccion": "Aunque los relatos no dejan duda sobre la gravedad de la enfermedad que golpeó a los españoles, poco se sabe de sus efectos entre los nativos. [Sobre la enfermedad de 1493-1494 y la hipótesis de influenza porcina de Guerra.]",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 36, sec. 10 (l. 1056)",
+     "cita_original": "the carrying capacity of the island - under the rather optimistic hypothesis that half the island's surface was under cultivation in a shifting system and that between 0.2 and 0.5 hectares of land per person would be needed to insure subsistence - can be set between 1.5 and 6.3 million.",
+     "traduccion": "la capacidad de carga de la isla -bajo la hipótesis bastante optimista de que la mitad de la superficie estuviera cultivada en un sistema itinerante y que se necesitaran entre 0,2 y 0,5 ha por persona- se puede fijar entre 1,5 y 6,3 millones. [Techo teórico, no estimación.]",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 37, sec. 10 (l. 1072)",
+     "cita_original": "Under the minimal hypothesis that productivity per person and per year was 100 grams, and that one adult male out of three worked in the mines (about 8 percent of the total population), 10,000 persons were needed to produce 1,000 kilograms, or approximately one in twelve in a total population of 120,000.",
+     "traduccion": "Bajo la hipótesis mínima de que la productividad por persona y año era de 100 gramos y de que un varón adulto de cada tres trabajaba en las minas (alrededor del 8 % de la población total), hacían falta 10.000 personas para producir 1.000 kg, es decir, aproximadamente una de cada doce en una población total de 120.000. [Hacia 1502-1508.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 38, sec. 10 (l. 1108)",
+     "cita_original": "This rate, if carried backward to 1492, would yield a population of about 80,000.",
+     "traduccion": "Esa tasa [de descenso de ~5 % anual que muestra la estructura por edades del Repartimiento de 1514], proyectada hasta 1492, daría una población de unos 80.000.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 38, sec. 10 (l. 1113)",
+     "cita_original": "A probability distribution of this elusive number would peak between 200,000 and 300,000 and fall to low levels below 100,000 and above 400,000.",
+     "traduccion": "Una distribución de probabilidad de este número esquivo tendría su pico entre 200.000 y 300.000 y caería a niveles bajos por debajo de 100.000 y por encima de 400.000.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "mecanuscrito p. 40, sec. 10 (l. 1176)",
+     "cita_original": "Neither the \"black legend\" with its exceptional cruelty, nor the \"virgin soil\" paradigm with its extreme mortality are required to explain the extinction of the Tainos. The unsettling normality of Conquest was sufficient cause.",
+     "traduccion": "Ni la «leyenda negra» con su crueldad excepcional ni el paradigma del «suelo virgen» con su mortalidad extrema son necesarios para explicar la extinción de los taínos. La inquietante normalidad de la Conquista fue causa suficiente. [Interpretación del autor.]",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "NOTES RIVISTE.pdf, n. 2 (l. 36)",
+     "cita_original": "The maximum estimate is 14,560,000.",
+     "traduccion": "La estimación máxima es 14.560.000. [Nota 2, sobre Cook y Borah, Essays in Population History, vol. 1, cap. 6, que alimenta la cifra de ~8 millones de la Tabla 1.]",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "table5.pdf, Tabla 5 «Repartimiento de Alburquerque por distrito, 1514», fila TOTAL (l. 34)",
+     "cita_original": "TOTAL 15484 7124 1573 1600 379 28 26188 738",
+     "traduccion": "Totales de la Tabla 5 (elaboración de Livi-Bacci sobre Arranz): servicio 15.484; naborías 7.124; viejos 1.573; niños 1.600; caciques 379; nitaínos 28; total de indios 26.188; encomenderos 738.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "NOTES RIVISTE.pdf, n. 64 (l. 182)",
+     "cita_original": "In our count there are 362 caciques, less than the 381 caciques (or, better, 369 caciques plus 12 nitaynos with functions of cacique; Arranz, Repartimiento y encomienda, 529)",
+     "traduccion": "En nuestro recuento hay 362 caciques, menos que los 381 [de Arranz] (o, mejor, 369 caciques más 12 nitaínos con funciones de cacique; Arranz, p. 529).",
+     "afirmaciones": [
+      "A-021",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0228",
+   "notas": "RESUELVE F-0228 (antes localizada-bloqueada: Project MUSE exige verificación). El zip contiene ABSTRACT.pdf, el texto «RETURN TO HISPANIOLA RIVISTO.pdf» (1.181 líneas con pdftotext), «NOTES RIVISTE.pdf» y las tablas 1-9 y figura 1. El propio manuscrito declara «Edizione definitive in: ... HAHR, vol. LXXXIII, n. 1, February 2003»: la paginación citada aquí es la del mecanuscrito, no la del HAHR (3-51/52); cotejar cada cifra con la versión impresa antes de citar página del HAHR. Resultados: rango propio 100.000-400.000 con pico en 200.000-300.000 (abstract y sec. 10). Cinco vías: (1) capacidad de carga 1,5-6,3 millones como techo (hipótesis de media isla cultivada, 0,2-0,5 ha por persona); (2) tributarios de oro de Arranz: 90.000 en 1494 y 60.000 en 1496 en Vega Real y Cibao, 180.000-270.000 para toda la isla; (3) mano de obra minera: 120.000 hacia 1502-1508; (4) caciques: 362 caciques de 1514 → 400-500 cacicazgos de unos pocos cientos de personas = 120.000-200.000 (hasta 200.000-250.000 con comunidades de 500); (5) estructura por edades de 1514: descenso de ~5 % anual → ~80.000 en 1492. PRECISA el registro sobre el Repartimiento de 1514 (laguna del módulo): la suma de la Tabla 5 da 26.188 indios (no 26.334), 738 encomenderos y 379 caciques por distrito que se reducen a 362 «reconstituidos» entre distritos (Tabla 6, n. 64); Arranz cuenta 381 (369 caciques + 12 nitaínos con función de cacique, p. 529); mediana de indios por cacique 35, media 51. Aun así es un recuento reelaborado sobre Arranz (F-0169), no el documento original. Respecto de A-021: Livi-Bacci recoge los «cinco caciques (reyes) principales» de Las Casas y los 30 distritos, y que Hernán Colón da cuatro principales con 70-80 caciques cada uno; su propia hipótesis demográfica usa unidades mucho más pequeñas (400-500 cacicazgos de unos pocos cientos de personas) y es compatible con una jerarquía de cinco caciques principales sobre decenas de distritos; Livi-Bacci no discute la arqueología de los cacicazgos. Hecho/interpretación: el rango 100.000-400.000 es una inferencia de cinco métodos con hipótesis explícitas, no un dato; el propio autor lo llama «elusive number»."
+  },
+  {
+   "titulo": "Livi-Bacci 2003, Tabla 1 «Estimates of contact population of Hispaniola by contemporary authors» (adaptada de N.D. Cook, Born to Die, 1998, p. 23): estimaciones de Verlinden, Amiama, Rosenblat, Mira Caballos, Lipschutz, Moya Pons, Zambardino, Denevan, Guerra, Watts y Borah y Cook",
+   "autor": "Livi-Bacci, Massimo (tabla adaptada de Cook, Noble David)",
+   "anio": "2003",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://labdisia.disia.unifi.it/livi/pubblicazioni/return-to-hispaniola.zip#table1.pdf",
+   "urls_alternativas": [
+    "https://labdisia.disia.unifi.it/livi/pubblicazioni/return-to-hispaniola.zip"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cuadro de segunda mano (Livi-Bacci adapta a N.D. Cook), con años de edición y no de cálculo y sin método de cada autor.",
+   "proveniencia": "Cuadro de Livi-Bacci (2003) que reordena el cuadro 1.1 de N.D. Cook (Born to Die, 1998, p. 23). Reúne 17 estimaciones modernas de la población de contacto de La Española entre 1954 y 1997; las cifras están en miles y los años son los de publicación.",
+   "extractos": [
+    {
+     "ubicacion": "table1.pdf, Tabla 1 «Estimates of contact population of Hispaniola by contemporary authors» (l. 81)",
+     "cita_original": "Verlinden 1973 60",
+     "traduccion": "Verlinden (1973): 60 mil. [Tabla en miles; es el mínimo del rango de 60.000 a ~8 millones.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, Tabla 1 (l. 83)",
+     "cita_original": "Rosenblat 1954, 1976 100",
+     "traduccion": "Rosenblat (1954, 1976): 100 mil. [Coincide con Amiama 1959: 100 mil y Mira Caballos 1997: 100 mil, filas contiguas de la tabla.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, Tabla 1 (l. 87)",
+     "cita_original": "Moya Pons 1987 378",
+     "traduccion": "Moya Pons (1987): 378 mil. [Otra fila de la misma tabla: Moya Pons 1971: 600 mil.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, Tabla 1 (l. 92)",
+     "cita_original": "Zambardino 1978 1000",
+     "traduccion": "Zambardino (1978): 1.000 mil. [Denevan 1992: 1.000 mil; Guerra 1988: 1.100 mil; Denevan 1976: 1.950 mil.]",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, Tabla 1 (l. 97)",
+     "cita_original": "Borah and Cook 1971 7975",
+     "traduccion": "Borah y Cook (1971): 7.975 mil [~8 millones].",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, Tabla 1, fila de Watts (l. 96)",
+     "cita_original": "Watts 1987",
+     "traduccion": "Watts (1987): 3.000-4.000 mil [el valor aparece como «3/4000» en el texto extraído de la tabla].",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "table1.pdf, pie de la Tabla 1 (l. 99)",
+     "cita_original": "Adapted from N.D. Cook, Born To Die: Disease and the New World Conquest (Cambridge: Cambridge University Press, 1998),23",
+     "traduccion": "Adaptado de N.D. Cook, Born to Die (Cambridge UP, 1998), p. 23. [Es decir: Livi-Bacci reproduce el cuadro de Cook; no lee de nuevo a cada autor.]",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-024"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0233",
+   "notas": "RESUELVE PARCIALMENTE F-0233, que recogía «sin estudio propio» las cifras de Verlinden, Rosenblat, Cook y Simpson y Watts. Ahora constan (miles): Verlinden 1973 60; Amiama 1959 100; Rosenblat 1954 y 1976 100; Mira Caballos 1997 100; Lipschutz 1966 100-500; Nabel Pérez 1992 250; Moya Pons 1987 378; Córdova 1968 500; N.D. Cook 1993 500-750; Moya Pons 1971 600; C. N. de Moya 1976 1.000; Zambardino 1978 1.000; Denevan 1992 1.000; Guerra 1988 1.100; Denevan 1976 1.950; Watts 1987 3.000-4.000; Borah y Cook 1971 7.975. La cifra de «Cook y Simpson ~4 millones» (1948) NO está en esta tabla: la confirma la reseña de 1967 en Historia Mexicana (ver ficha); Rosenblat 1967 cita a Cook y Simpson 1948 (p. 39 n.) pero en el pasaje leído no da el número. Moya Pons aparece con dos cifras (600 mil en 1971, 378 mil en 1987): A-024 recoge solo la segunda; Henige 1978 n. 8 coincide en 600.000 para 1971. Advertencia de formato: en el pdftotext las columnas de «Table A» (estimaciones de autores de la época, también en table1.pdf) salen desalineadas; la Tabla 1 es la que se cita. Es cuadro de segunda mano: de estas cifras solo se leyeron en su autor original la de Zambardino (1978) y la de Rosenblat (1967, cifra de 1954/1976); el resto consta de segunda mano."
+  },
+  {
+   "titulo": "Essays in Population History: Mexico and the Caribbean, vol. 1 (Berkeley: University of California Press, 1971), cap. «The Aboriginal Population of Hispaniola», pp. 376-410",
+   "autor": "Cook, Sherburne F.; Borah, Woodrow",
+   "anio": "1971",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.ucpress.edu/books/essays-in-population-history-volume-one/paper",
+   "urls_alternativas": [
+    "https://archive.org/details/essaysinpopulati0001cook (préstamo restringido)",
+    "https://archive.org/details/bub_gb_SIZ7utYJlFYC (es el vol. 3, ver notas)",
+    "https://wellcomecollection.org/works/fvru3dnh (solo ejemplar físico, depósito cerrado EH.5)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de los dos autores de la estimación más alta, sometida a la crítica de Henige y Zambardino; su método es transparente (según Zambardino) pero el texto no pudo leerse.",
+   "proveniencia": "Sherburne F. Cook y Woodrow Borah, de la llamada «escuela de Berkeley» (así la nombra Rosenblat 1967; Livi-Bacci y Henige los sitúan en la Universidad de California); el capítulo sobre La Española (pp. 376-410) estima ~8 millones hacia 1492 por retroproyección logarítmica de los recuentos de 1508-1518 y del supuesto recuento de c. 1496. Ver Henige 1978 y Zambardino 1978 para el contenido citado con página.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-023",
+    "A-027"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0224",
+   "notas": "SIGUE SIN LEERSE el texto original. Intentos de esta ronda: ficha de UC Press (HTTP 200: solo descripción, 488 págs., sin acceso abierto); Internet Archive essaysinpopulati0001cook y 0002 (restringidos a préstamo, según ronda 1); Wellcome Collection (solo físico); Wayback sin captura; Google Books/Scholar sin copia de autor. ADVERTENCIA PARA FUTUROS BUSCADORES (verificada): archive.org/details/bub_gb_SIZ7utYJlFYC figura con el título «Essays in population history: Mexico and the Caribbean» pero su texto completo (djvu.txt, 652 KB, acceso libre) es el volumen 3, «Mexico and California»; no contiene la palabra «Hispaniola» (0 apariciones). Lo que consta de segunda mano con página: el capítulo ocupa pp. 376-410 (Henige n. 4; Zambardino n. 3); estima ~8 millones: cifra central de 7.975.000 (Henige n. 6 la llama «mid-point» y la redondea a 8.000.000; Livi-Bacci, Tabla 1) dentro de un rango de 4.070.000 a 14.560.000 (Henige n. 6; Livi-Bacci n. 2); ojo, 7.975.000 no es el punto medio aritmético de ese rango (sería ~9,3 millones), de modo que «punto medio» es un uso de los comentaristas y no un cálculo comprobado; su cifra de 1496 es 3.770.000 (Henige p. 232, citando p. 397); figura 42 en p. 392 (Zambardino n. 4); capacidad de carga en p. 408 y epidemias en pp. 409-410 (Henige nn. 72-74, 81). Se recomienda declararlo en 07-sintesis/limites.md y no seguir buscando a ciegas."
+  },
+  {
+   "titulo": "The Native Population of the Americas in 1492 (2.ª ed., Madison: University of Wisconsin Press, 1992), cap. 2 «The Population of Hispaniola at the Time of Columbus» (Á. Rosenblat), pp. 43-66",
+   "autor": "Denevan, William M. (ed.); Rosenblat, Ángel (cap. 2)",
+   "anio": "1992",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://muse.jhu.edu/book/8750",
+   "urls_alternativas": [
+    "https://archive.org/details/nativepopulation0000unse (préstamo restringido)"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra de referencia editada por el principal estimador hemisférico, con capítulo de Rosenblat; solo se confirmó la tabla de contenidos.",
+   "proveniencia": "William M. Denevan (geógrafo, Wisconsin) edita en 1976 (1.ª ed.) y 1992 (2.ª ed.) el volumen que reúne el capítulo de Rosenblat sobre La Española (pp. 43-66), que según Henige (1978, n. 5) es una traducción de partes de Rosenblat 1967, con un apéndice («addendum»).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-023",
+    "A-024"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0226",
+   "notas": "La ficha de Project MUSE (HTTP 200; lectura vía WebFetch) confirma el capítulo 2 en pp. 43-66 y que el texto no es de acceso abierto. El contenido de Rosenblat se leyó en su original en español de 1967 (ver ficha propia, archive.org); Henige 1978 n. 5 indica que el capítulo de Denevan 1976 traduce partes de ese libro, con un apéndice, y que Rosenblat no comenta específicamente el ensayo de Cook y Borah. Las cifras de Denevan sobre La Española constan solo de la Tabla 1 de Livi-Bacci: 1.950 mil (1976) y 1.000 mil (1992). Sin lectura del capítulo ni de la introducción de Denevan 1992."
+  },
+  {
+   "titulo": "La población de América en 1492: viejos y nuevos cálculos (México: El Colegio de México, Centro de Estudios Históricos, 1967), parte I «La población de la Española en 1492», pp. 8-22",
+   "autor": "Rosenblat, Ángel",
+   "anio": "1967",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/rosenblat-angel.-la-poblacion-de-america-en-1492.-viejos-y-nuevos-calculos-ocr-1967",
+   "urls_alternativas": [
+    "https://archive.org/details/rosenblat-angel.-la-poblacion-en-america-en-1492.-nuevos-y-viejos-calculos-1967",
+    "https://archive.org/details/rosenblat-a.-la-poblacion-en-america-en-1492.-nuevos-y-viejos-calculos-mexico",
+    "https://repositorio.colmex.mx/concern/books/k643b410m?locale=en (ficha del Colmex: acceso restringido)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el texto de la cifra baja más citada (100.000), escrito por su autor con las fuentes impresas a la vista; su método es crítico de fuentes, no estadístico, y sus márgenes son por su propia declaración «sin valor técnico».",
+   "proveniencia": "Ángel Rosenblat (la reseña de 1967 lo llama «historiador argentino»; él cuenta que empezó en 1935 desde un interés lingüístico) publica en El Colegio de México un libro de 100 páginas con dos partes: La Española en 1492 y México central en 1519 y 1548, en réplica a Cook, Simpson y Borah (cita Ibero-Americana 31, 1948, y las cifras de Borah y Cook de 1960-1963 para México). Escribe hacia 1966-1967 (alude a noticias de septiembre de 1966), antes del ensayo de Cook y Borah de 1971, que por tanto no puede comentar. Su interés declarado es no forzar cifras ni a favor ni en contra de la obra española.",
+   "extractos": [
+    {
+     "ubicacion": "p. 8 (djvu.txt l. 121)",
+     "cita_original": "si en lugar de los tres o cuatro millones de indios que asignaba el P. Las Casas a la Española —la cifra era arma de su ardiente apostolado indigenista y no formaba parte de una evaluación estadística— yo sólo admitía 100000",
+     "traduccion": "Si en lugar de los tres o cuatro millones de indios que asignaba Las Casas a La Española —la cifra era arma de su ardiente apostolado indigenista y no parte de una evaluación estadística— yo solo admitía 100.000.",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 9 (djvu.txt l. 179)",
+     "cita_original": "Frente a las cifras hiperbólicas de las viejas fuentes, yo calculé 100 000 indios en la Española en el momento de la llegada de Colón.",
+     "traduccion": "Frente a las cifras hiperbólicas de las fuentes antiguas, yo calculé 100.000 indios en La Española en el momento de la llegada de Colón.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 12 (djvu.txt l. 302)",
+     "cita_original": "En la terminología general de entonces, vecino significaba cabeza de familia.",
+     "traduccion": "En la terminología general de entonces, «vecino» significaba cabeza de familia. [Rosenblat la usa para leer los 1.100.000 «vecinos» de fray Bernardo de Santo Domingo como un mínimo de unos 4.400.000 habitantes y concluir que «la cifra no tiene valor estadístico».]",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (djvu.txt l. 783)",
+     "cita_original": "nos ha hecho pensar en unos 100 000 habitantes para el periodo 1492-1495 (en realidad, de 80 000 a 120 000, lo que, sin valor técnico, llamábamos “margen de error” del 20 %)",
+     "traduccion": "[la población de unos 60.000 indios hacia 1508-1510] nos ha hecho pensar en unos 100.000 habitantes para 1492-1495 (en realidad de 80.000 a 120.000, lo que, sin valor técnico, llamábamos «margen de error» del 20 %).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (2.º djvu.txt de archive.org, l. 827; el 1.er OCR deja ilegible el comienzo de la frase)",
+     "cita_original": "la primera epidemia que registran los cronistas es la de viruelas de 1517-1518, cuando ya quedaban menos de 30 000 indios en toda la isla",
+     "traduccion": "la primera epidemia que registran los cronistas es la de viruelas de 1517-1518, cuando ya quedaban menos de 30.000 indios en toda la isla.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (djvu.txt l. 786)",
+     "cita_original": "Es la población que calculaba también Gudmund Hatt, de Copenhague —según nos comunicaba Sapper—, basado en sus estudios arqueológicos.",
+     "traduccion": "Es la población que calculaba también Gudmund Hatt, de Copenhague —según nos comunicaba Sapper—, basándose en sus estudios arqueológicos. [Información de oídas, sin cita de obra: no es un dato verificable.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE NUEVA. Leída en el texto OCR del Internet Archive (djvu.txt, 4.759 líneas): Introducción (pp. 7-9) y pasajes de la parte I (pp. 9-12 y 22); no se leyó la parte II (México central) ni los cuadros. El ejemplar de archive.org es una copia probablemente no autorizada (hay tres subidas del mismo libro, una con aviso de acceso restringido en bwb_P8-AKX-186) y el repositorio del Colmex declara el libro de acceso restringido: se usó solo para lectura y cotejo y no se redistribuye. Hecho: Rosenblat da 100.000 (80.000-120.000) para 1492-1495, deducidos de los 60.000 de 1508-1510 y de descripciones de paisaje (aldeas dispersas sin poblaciones grandes), y rechaza los 1.100.000 de los dominicos como alegato (lee «vecinos» = cabezas de familia, mínimo 4,4 millones, para mostrar que la cifra no tiene valor estadístico). Interpretación: Las Casas cifra «tres o cuatro millones» como arma de su apostolado. Henige 1978 (n. 5) dice que el capítulo de Denevan 1976 (pp. 43-66) traduce partes de este libro; Livi-Bacci 2003 lo cita como 1954 y 1976 (100 mil). La reseña de Historia Mexicana (ver ficha) añade que Rosenblat contrasta con los 4.000.000 que Cook y Simpson (1948) derivaban de Las Casas."
+  },
+  {
+   "titulo": "Reseña de Á. Rosenblat, La población de América en 1492. Viejos y nuevos cálculos (México: El Colegio de México, 1967), en «Examen de libros», Historia Mexicana, pp. 147-151",
+   "autor": "Reseñista sin identificar en las páginas extraídas [POR VERIFICAR]",
+   "anio": "1967",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://repositorio.colmex.mx/downloads/3f4626056?locale=en",
+   "urls_alternativas": [
+    "https://repositorio.colmex.mx/catalog/3f4626056.json (metadatos: archivo «17-065-1967-01471_000167385.pdf», 6 págs., visibilidad abierta)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña contemporánea de revista académica que resume con fidelidad a Rosenblat y añade un cálculo propio de densidades, pero sin firma legible en las páginas extraídas.",
+   "proveniencia": "Reseña publicada en Historia Mexicana (El Colegio de México), probablemente vol. 17 n.º 1 (65), 1967, según el nombre del archivo del repositorio («17-065-1967»); volumen y número [POR VERIFICAR]. Reseña al libro de su propia institución editora y lo presenta como contribución a la polémica con la escuela de Berkeley; el reseñista no se pronuncia sobre las cifras mexicanas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 148 (pdftotext l. 50-53; el OCR del PDF escribe «Gasas» por Casas)",
+     "cita_original": "Cook y Simpson suponen que la cifra de 4 000 000 aproximadamente para 1492 que se puede desprender de la obra del padre Las Casas para la población de la isla Española es correcta",
+     "traduccion": "Cook y Simpson suponen correcta la cifra de unos 4.000.000 para 1492 que puede desprenderse de la obra de Las Casas para la población de La Española.",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 148 (pdftotext l. 74)",
+     "cita_original": "Los argumentos de Rosenblat para bajar aquella cifra a la que él sostiene de 100 000 habitantes el año del descubrimiento (con un \"margen de error\" del 20%), número muy lógico, podrán parecer no tan contundentes por no estar basados en cifras tomadas directamente de las fuentes primarias",
+     "traduccion": "Los argumentos de Rosenblat para bajar esa cifra a los 100.000 habitantes que él sostiene para el año del descubrimiento (con un «margen de error» del 20 %), número muy lógico, podrán parecer menos contundentes por no basarse en cifras tomadas directamente de las fuentes primarias.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 148-149 (pdftotext l. 95)",
+     "cita_original": "La densidad de población que resultaría aceptando los cuatro millones sería de 57.6 habs. por Km²",
+     "traduccion": "La densidad de población que resultaría aceptando los cuatro millones sería de 57,6 hab. por km². [El reseñista usa 74.286 km² para la isla; con el cálculo de Rosenblat da 1,3 hab. por km².]",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE NUEVA. El PDF trae las págs. 147-151 de «Examen de libros» (el comienzo de la reseña está en la p. 147, tras la reseña anterior); la firma del reseñista no figura en el texto extraído. Su valor para el módulo: confirma de forma contemporánea (1967) que Cook y Simpson (1948) sostenían ~4.000.000 para La Española a partir de Las Casas, la cifra de «Cook y Simpson ~4 millones» de F-0233 que solo constaba de memoria, y que Rosenblat se apoyaba en un margen de ±20 %. El cálculo de densidades (57,6 frente a 1,3 hab./km²) es del reseñista, no de Rosenblat. Metadatos tomados del índice Solr del repositorio (catalog/3f4626056.json)."
+  },
+  {
+   "titulo": "The Aboriginal Population of Tropical America: Problems and Methods of Estimation (publicado en Population and Economics, 1968 según la ficha del repositorio; copia del CIDOC, 37 págs.)",
+   "autor": "Denevan, William M.",
+   "anio": "1968",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://repositorio.colmex.mx/pdf_viewer/p8418s262?locale=es",
+   "urls_alternativas": [
+    "https://repositorio.colmex.mx/catalog/p8418s262.json (metadatos)",
+    "https://hdl.handle.net/20.500.11986/COLMEX/10050895"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de Denevan de 1968, previo a la polémica de Henige, leído en escaneo con OCR defectuoso; sirve como testimonio del rango de cifras antes de 1971, no como estimación propia para La Española.",
+   "proveniencia": "William M. Denevan (Dept. of Geography, University of Wisconsin) escribe en 1968 sobre los problemas de estimar poblaciones nativas en las tierras bajas tropicales; la copia procede del archivo del Centro Intercultural de Documentación (CIDOC) de Cuernavaca, hoy en el repositorio de El Colegio de México (fecha de manifestación 1968-00; título y año de publicación en Population and Economics según la ficha).",
+   "extractos": [
+    {
+     "ubicacion": "p. 5 del original (pdftotext l. 127-131)",
+     "cita_original": "For Hispaniola population estimates for 1492 range up to 5 or 6 million, but even if the very conservative calculation of only 100,000 by Rosenblat is used, the depopulation rate",
+     "traduccion": "Para La Española las estimaciones de población de 1492 llegan hasta 5 o 6 millones, pero aun si se usa el cálculo muy conservador de solo 100.000 de Rosenblat, la tasa de despoblación [fue igualmente tremenda: 200 a 1 en 56 años].",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "pp. 5-6 del original (pdftotext l. 151-153)",
+     "cita_original": "Sauer, for example, is able to cite six Spaniards who gave figures for the Island of Hispaniola",
+     "traduccion": "Sauer, por ejemplo, puede citar a seis españoles que dieron cifras para la isla de La Española [«over a million» o 1.100.000, posiblemente a partir de un censo parcial de adultos para el tributo ordenado por Colón en 1496].",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 19 del original (pdftotext l. 611-614)",
+     "cita_original": "Steward and Rosenblat give contact densities of 13 to 14 per square mile",
+     "traduccion": "Steward y Rosenblat dan densidades de contacto de 13 a 14 por milla cuadrada [para La Española, Puerto Rico y las Antillas Menores; «otros estudiosos las aumentarían considerablemente»].",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-024"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE NUEVA. Descarga con curl del visor del repositorio (WebFetch devolvió un CAPTCHA, curl obtuvo el PDF de 3,2 MB). El OCR de ABBYY tiene errores («v;as» por was, «^200»); las citas con nocheck se cotejaron a mano contra las líneas 127-131 y 611-614 del pdftotext. Dato clave: ya en 1968 Denevan escribe que las estimaciones de 1492 para La Española «range up to 5 or 6 million» y que Rosenblat da 100.000 (despoblación de 200 a 1 en 56 años, quedando unos 500 indios en 1548); es decir, el rango alto-bajo de ~50 a 1 existía antes del ensayo de Cook y Borah de 1971. Recoge también el argumento de Sauer sobre seis españoles con «over a million» o 1.100.000 posiblemente de un censo parcial de adultos de 1496. El título y la revista salen de la ficha del repositorio; no se contrastó con una cita externa."
+  },
+  {
+   "titulo": "La epidemia americana de influenza en 1493 (Revista de Indias 45(176): 325-347)",
+   "autor": "Guerra, Francisco",
+   "anio": "1985",
+   "tipo": "cientifica",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/1320/1604/2027",
+   "urls_alternativas": [
+    "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/1319/1603/2026 (resúmenes del número)",
+    "https://resolve.cambridge.org/core/journals/social-science-history/article/abs/earliest-american-epidemic-the-influenza-of-1493/D986CE8979677FC0AB0C746619C5FCE4 (versión inglesa de 1988 en Social Science History, solo resumen)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares de un especialista en historia de la medicina, abierto (CC BY 4.0), pero su hipótesis de influenza porcina no es consenso: Livi-Bacci la tilda de especulación y N.D. Cook propone tifus.",
+   "proveniencia": "Francisco Guerra (Universidad de Alcalá de Henares), historiador de la medicina; propone que la primera epidemia americana (diciembre de 1493 en Isabela) fue influenza porcina (Livi-Bacci añade que la habrían traído ocho cerdas embarcadas en La Gomera; detalle no leído en Guerra). Se basa en el Memorial de Colón a los Reyes (30-I-1494), en Álvarez Chanca, Mártir, Oviedo, Las Casas, H. Colón y Herrera. Interés: dar una causa epidemiológica a la despoblación antillana frente a la explicación habitual por la viruela de 1518.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 325-326 (pdftotext l. 43-52; la frase cruza el salto de página)",
+     "cita_original": "la pandemia aparecida en la isla de Santo Domingo en 1493, principal responsable de la desaparición de los indígenas americanos en el cuarto de siglo posterior al Descubrimiento, fue la influenza suina",
+     "traduccion": "la pandemia aparecida en la isla de Santo Domingo en 1493, principal responsable de la desaparición de los indígenas americanos en el cuarto de siglo posterior al Descubrimiento, fue la influenza porcina.",
+     "afirmaciones": [
+      "A-023",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 326 (pdftotext l. 56)",
+     "cita_original": "La primera epidemia americana fue descrita por dos testigos presenciales en enero de 1494, Cristóbal Colón y Alvarez Chanca",
+     "traduccion": "La primera epidemia americana fue descrita por dos testigos presenciales en enero de 1494, Cristóbal Colón y Álvarez Chanca. [Los testigos describen la enfermedad de los españoles de Isabela; el efecto sobre los taínos se infiere de Las Casas y otros.]",
+     "afirmaciones": [
+      "A-023"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-023",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE NUEVA (no confundir con F-2085, Guerra 1986 en otra revista). Leído el planteamiento (págs. 325-327) y localizadas las conclusiones (p. 347); no se leyó el cuerpo del argumento clínico y epidemiológico (págs. 328-346). Relevancia: Henige 1978 (p. 235) sostiene que el «silencio completo de las fuentes» sobre epidemias antes de 1518 debilita el argumento de las cifras altas; Guerra (1985) responde, siete años después, que hubo una pandemia en 1493. Livi-Bacci (2003, sec. 8) resume que Guerra «has speculated» influenza porcina y que N.D. Cook no la descarta pero propone tifus, y que los relatos solo prueban la enfermedad de los españoles. Hecho: Colón y Chanca describen una enfermedad general en Isabela en diciembre de 1493-enero de 1494. Interpretación: que fuera influenza porcina y que fuera la principal causa de la despoblación taína. El número de este mismo volumen incluye a Arranz Márquez, «Cuatro documentos colombinos», con una carta de Diego Colón sobre una «gran mortandad de romadizo» (1512) (resumen en 1319; no leído)."
+  },
+  {
+   "titulo": "Reconstructing the Population Genetic History of the Caribbean (PLoS Genetics 9(11): e1003925); texto leído en la versión arXiv:1306.0558",
+   "autor": "Moreno-Estrada, Andrés; Gravel, Simon; Zakharia, Fouad; et al.",
+   "anio": "2013",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://arxiv.org/pdf/1306.0558",
+   "urls_alternativas": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3828151",
+    "https://doi.org/10.1371/journal.pgen.1003925"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en una revista de referencia con datos de chip de alta densidad, pero con 6 haitianos de la diáspora, de modo que no mide la ascendencia nativa de Haití.",
+   "proveniencia": "Equipo de Stanford, Miami y Puerto Rico (Bustamante, Martin, Cuccaro, Martínez-Cruzado) genotipa 251 personas de ascendencia caribeña de parentescos nucleares (tríos) reclutadas en el sur de Florida y 79 venezolanos nativos, para inferir ancestría local y modelos demográficos. Sus datos no son de residentes en las islas sino de la diáspora; el objetivo es médico-poblacional más que histórico.",
+   "extractos": [
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 112-114 del pdftotext -layout",
+     "cita_original": "SNP array data for 251 admixed individuals from parent-offspring trios of Caribbean descent sampled in South Florida, including Cubans, Haitians, Dominicans, Puerto Ricans, Colombians, and Hondurans",
+     "traduccion": "datos de chip SNP de 251 individuos mestizos de tríos padres-hijo de ascendencia caribeña muestreados en el sur de Florida, entre ellos cubanos, haitianos, dominicanos, puertorriqueños, colombianos y hondureños.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 713-715",
+     "cita_original": "A total of 76 trios, 2 duos, and 19 parents were genotyped using Affymetrix 6.0 SNP arrays, which included: 80 Cubans, 85 Colombians, 34 Dominicans, 27 Puerto Ricans, 19 Hondurans, and 6 Haitians.",
+     "traduccion": "Se genotiparon 76 tríos, 2 dúos y 19 progenitores con chips Affymetrix 6.0: 80 cubanos, 85 colombianos, 34 dominicanos, 27 puertorriqueños, 19 hondureños y 6 haitianos.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 145-146",
+     "cita_original": "Haitians, which showed the largest average proportion of West African ancestry (84%)",
+     "traduccion": "los haitianos, que mostraron la mayor proporción media de ascendencia africana occidental (84 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 293-294",
+     "cita_original": "(no Haitian haplotypes were included due to low levels of Native American ancestry)",
+     "traduccion": "(no se incluyeron haplotipos haitianos por los bajos niveles de ascendencia nativa americana).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 362-364",
+     "cita_original": "Because >25% of European ancestry was required for inclusion in ASPCA analysis, only two Haitian haplotypes were projected",
+     "traduccion": "Como el análisis ASPCA exigía >25 % de ascendencia europea, solo se proyectaron dos haplotipos haitianos [sin entrar en el análisis estadístico].",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 201-202",
+     "cita_original": "Although Haitians do show the same trend, with only 2 parent pairs is nearly impossible to assess significance",
+     "traduccion": "Aunque los haitianos muestran la misma tendencia, con solo 2 parejas de progenitores es casi imposible evaluar la significación.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 888-889",
+     "cita_original": "Haitians were not included in the analysis due to low sample size (n=4).",
+     "traduccion": "Los haitianos no se incluyeron en el análisis por el tamaño de muestra (n=4).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "arXiv:1306.0558 pdf, l. 295-296",
+     "cita_original": "Caribbean islanders cluster with Equatorial-Tucanoan speakers, which is a major linguistic group",
+     "traduccion": "los isleños caribeños se agrupan con hablantes ecuatorial-tucanoanos, un gran grupo lingüístico [para los haplotipos nativos de cubanos, dominicanos y puertorriqueños].",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0206",
+   "notas": "El texto se leyó en el PDF de arXiv (7,5 MB; 3.167 líneas con pdftotext): se leyeron resumen, resultados sobre estructura de población, sección de ancestría subcontinental, métodos de muestreo y pies de figura donde aparecen haitianos (grep «Haiti»). La versión publicada (PMC3828151, vía WebFetch) coincide en los datos citados (6 haitianos, 84 %, «no Haitian haplotypes were included due to low levels of Native American ancestry»), pero no se cotejó cita a cita. REGISTRA CON SU n lo que A-028 pide: los datos genómicos modernos con haitianos en acceso abierto descansan en 6 haitianos de la diáspora de Florida; la n efectiva cambia de un pasaje a otro (6 genotipados; 2 parejas de progenitores en el análisis de apareamiento; n=4 en el análisis de segmentos; 2 haplotipos en el ASPCA), lo que el artículo no reconcilia. El 84 % es la media de ascendencia africana, no una medición de ascendencia nativa: los haplotipos haitianos quedaron fuera del análisis de ascendencia nativa precisamente por tenerla baja. Por tanto es evidencia compatible con ascendencia nativa muy baja en esos haitianos, no prueba de ausencia en Haití. Para los dominicanos (n=34 en Florida), los haplotipos nativos se agrupan con ecuatorial-tucanoanos, igual que en cubanos y puertorriqueños. Hecho (datos) frente a interpretación («reconstrucción» demográfica) separados."
+  },
+  {
+   "titulo": "Y Haplogroup Diversity of the Dominican Republic: Reconstructing the Effect of the European Colonization and the Trans-Atlantic Slave Trades (Genome Biology and Evolution 12(9): 1579-1590)",
+   "autor": "D'Atanasio, Eugenia; Trionfetti, Flavia; Bonito, Maria; Sellitto, Daniele; Coppa, Alfredo; Berti, Andrea; Trombetta, Beniamino; Cruciani, Fulvio",
+   "anio": "2020",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7523727/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7523727/fullTextXML",
+    "https://doi.org/10.1093/gbe/evaa176",
+    "https://academic.oup.com/gbe/article/12/9/1579/5896526"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares en acceso abierto con n=182 y 92 SNP del Y; sus afirmaciones sobre Haití son de segunda mano (Bukhari 2017 y Simms 2012).",
+   "proveniencia": "Equipo de la Sapienza (Roma) y el CNR de Italia, con otros colaboradores, analiza el cromosoma Y de 182 hombres dominicanos (Santo Domingo, San Juan de la Maguana, Las Galeras) cuya sangre o saliva se recogió hace más de 20 años, y compara con ADNmt de la literatura. No incluye haitianos propios: la sección sobre Haití resume otros estudios.",
+   "extractos": [
+    {
+     "ubicacion": "Abstract (PMC7523727, texto Europe PMC l. 10)",
+     "cita_original": "we analyzed 92 single nucleotide polymorphisms on the Y chromosome in 182 Dominican individuals from three different locations. The Dominican Y haplogroup composition was characterized by an excess of northern African/European lineages (59%), followed by the African clades (38%), whereas the Native-American lineages were rare (3%).",
+     "traduccion": "analizamos 92 polimorfismos de nucleótido único del cromosoma Y en 182 dominicanos de tres localidades. La composición de haplogrupos Y dominicana se caracterizó por un exceso de linajes norteafricanos/europeos (59 %), seguidos de clados africanos (38 %), mientras que los linajes nativoamericanos eran raros (3 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Introducción (l. 25)",
+     "cita_original": "Considering the mtDNA diversity, the Dominican Republic shows up to 22% of Native-American lineages, whereas they are virtually absent from Haiti",
+     "traduccion": "Considerando el ADNmt, la República Dominicana muestra hasta un 22 % de linajes nativoamericanos, mientras que son prácticamente inexistentes en Haití. [Cita de Bukhari 2017, no resultado propio.]",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Materiales y métodos, «The Sample» (l. 30)",
+     "cita_original": "Santo Domingo (N = 50), San Juan de la Maguana (N = 76), and Las Galeras (N = 56)",
+     "traduccion": "Santo Domingo (N = 50), San Juan de la Maguana (N = 76) y Las Galeras (N = 56). [Hombres; muestras recogidas hace más de 20 años.]",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resultados (l. 61)",
+     "cita_original": "The Native American component is represented by the Q-M242 haplogroup that was rarely observed (highest frequency: 7%).",
+     "traduccion": "El componente nativoamericano está representado por el haplogrupo Q-M242, rara vez observado (frecuencia máxima: 7 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Discusión, «Comparison between the Dominican Republic and Haiti and Other Antilles» (l. 96)",
+     "cita_original": "Considering the mtDNA haplogroup composition, no Native American lineages are reported and the European clades are rare (<2%), whereas more than 98% of the population show an African haplogroup",
+     "traduccion": "Considerando la composición de haplogrupos de ADNmt, no se reportan linajes nativoamericanos y los clados europeos son raros (<2 %), mientras que más del 98 % de la población muestra un haplogrupo africano. [Se refiere a Haití; cita de Bukhari 2017.]",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Discusión, misma sección (l. 96)",
+     "cita_original": "the African lineages account for 70% of the Y lineages, with the sub-Saharan E1b1a-M2 clade reaching a frequency higher than 60%, whereas the European paternal lineages are less common compared with other former colonies (25%), and no Native clades have been reported",
+     "traduccion": "los linajes africanos suponen el 70 % de los linajes Y, con el clado subsahariano E1b1a-M2 por encima del 60 %, mientras que los linajes paternos europeos son menos comunes que en otras antiguas colonias (25 %) y no se han reportado clados nativos. [Se refiere a Haití; cita de Simms 2012.]",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0208",
+   "notas": "Texto completo leído vía Europe PMC (fullTextXML de PMC7523727). Aporta al lado haitiano de A-028 solo de segunda mano: en Haití el ADNmt no tendría linajes nativos y el 98 % sería africano (Bukhari 2017), y en el Y los linajes africanos serían 70 % y los europeos 25 % (atribuido a Simms 2012). DISCREPANCIA a no pasar por alto: el resumen de Simms 2012 (F-0213) da 77,2 % subsahariano y 20,3 % europeo para Haití (n=123), no 70/25; D’Atanasio no explica la diferencia (posible reclasificación de haplogrupos). Para los dominicanos: 3 % de Y nativo (Q-M242, máximo 7 % en una localidad) y 22 % de ADNmt nativo (literatura). Datos modernos, no antiguos: sirven para contrastar la tesis de descendencia taína solo como contexto de A-028, que trata de ADN antiguo."
+  },
+  {
+   "titulo": "The genetic structure of populations from Haiti and Jamaica reflect divergent demographic histories (American Journal of Physical Anthropology 142(1): 49-66)",
+   "autor": "Simms, Tanya M.; Rodriguez, Carlos E.; Rodriguez, Ricardo; Herrera, Rene J.",
+   "anio": "2010",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19918989%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/19918989",
+    "https://doi.org/10.1002/ajpa.21194"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares, pero solo se leyó el resumen (el texto es de pago, OpenAlex lo marca cerrado) y el resumen no da n ni proporciones.",
+   "proveniencia": "Equipo de Rene Herrera (Florida International University, según FIU Discovery) tipifica 15 STR autosómicos en colecciones generales de Haití y Jamaica para estimar la estructura genética y las contribuciones de África, Europa y Asia oriental; sus muestras de Haití se recogieron en la isla [lugar y n POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 19918989; l. 5)",
+     "cita_original": "we report, for the first time, allelic frequency data across the complete set of 15 autosomal STR loci for general collections from Haiti and Jamaica",
+     "traduccion": "presentamos, por primera vez, frecuencias alélicas del conjunto completo de 15 loci STR autosómicos de colecciones generales de Haití y Jamaica.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "a stronger African signal is detected in Haiti than in Jamaica. Although only minimal contributions from non-African sources were observed in Haiti",
+     "traduccion": "se detecta una señal africana más fuerte en Haití que en Jamaica. Aunque en Haití solo se observaron contribuciones mínimas de fuentes no africanas.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0212",
+   "notas": "Solo resumen (Europe PMC). El resumen no menciona ascendencia nativa americana ni da n ni porcentajes para Haití; las cifras de 85-96 % africano que circulan para Haití proceden de revisiones (p. ej. Salzano y Sans 2014 con 96 %). Los STR autosómicos de pocos loci tienen poca resolución para ascendencia nativa. Complementa el Y de Simms 2012 (F-0213)."
+  },
+  {
+   "titulo": "Y-chromosomal diversity in Haiti and Jamaica: contrasting levels of sex-biased gene flow (American Journal of Physical Anthropology 148(4): 618-631)",
+   "autor": "Simms, Tanya M.; Wright, Marisil R.; Hernandez, Michelle; Perez, Omar A.; Ramirez, Evelyn C.; Martinez, Emanuel; Herrera, Rene J.",
+   "anio": "2012",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22576450%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/22576450",
+    "https://doi.org/10.1002/ajpa.22090",
+    "https://discovery.fiu.edu/display/pub91524"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares con n=123 haitianos y 177 SNP del Y, pero solo se leyó el resumen (texto cerrado).",
+   "proveniencia": "Equipo de Rene Herrera (FIU) analiza el cromosoma Y de 123 haitianos y 159 jamaicanos con 177 marcadores binarios y 17 STR para comparar flujo génico sesgado por sexo; es el primer estudio de linajes paternos en ambos países según su resumen.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 22576450; l. 5)",
+     "cita_original": "177 high-resolution Y-chromosome binary markers and 17 Y-STR loci were typed in Haiti (n = 123) and Jamaica (n = 159)",
+     "traduccion": "se tipificaron 177 marcadores binarios de alta resolución del cromosoma Y y 17 loci Y-STR en Haití (n = 123) y Jamaica (n = 159).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "comprising 77.2% and 66.7% of the Haitian and Jamaican paternal gene pools, respectively. Yet, European derived chromosomes (i.e., haplogroups G2a*-P15, I-M258, R1b1b-M269, and T-M184) were detected at commensurate levels in Haiti (20.3%) and Jamaica (18.9%)",
+     "traduccion": "que suman el 77,2 % y el 66,7 % de los acervos paternos haitiano y jamaicano, respectivamente. Los cromosomas de origen europeo (G2a*-P15, I-M258, R1b1b-M269 y T-M184) se detectaron en niveles comparables en Haití (20,3 %) y Jamaica (18,9 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0213",
+   "notas": "Solo resumen. REGISTRA CON SU n: 123 haitianos. De los linajes que enumera el resumen para Haití suman 77,2 % subsaharianos y 20,3 % europeos = 97,5 %; el 2,5 % restante no se describe en el resumen (M16 ya señaló que el resumen no dice que los linajes nativos estén «virtualmente ausentes»). D’Atanasio 2020 le atribuye 70 % africano y 25 % europeo para Haití: la discrepancia queda sin explicar. Sin acceso a la tabla de haplogrupos no se puede confirmar si hay Q-M3 (nativo) en la muestra."
+  },
+  {
+   "titulo": "Taino and African maternal heritage in the Greater Antilles (Gene 637: 33-40)",
+   "autor": "Bukhari, Areej; Luis, Javier R.; Alfonso-Sanchez, Miguel A.; Garcia-Bertrand, Ralph; Herrera, Rene J.",
+   "anio": "2017",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28912065%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/28912065",
+    "https://doi.org/10.1016/j.gene.2017.09.004",
+    "https://ekoizpen-zientifikoa.ehu.eus/documentos/5da703772999527d16bbac59 (ficha sin texto)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo revisado por pares con muestra haitiana propia, pero solo se leyó el resumen y la n haitiana no consta.",
+   "proveniencia": "Equipo de Rene Herrera (FIU) con coautores de la Universidad del País Vasco (según el portal de producción científica de la UPV/EHU): evalúa HVRI, HVRII y sitios codificantes del ADNmt en «la población general haitiana» y los compara con Cuba, República Dominicana, Jamaica y Puerto Rico a partir de datos publicados.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 28912065; l. 5)",
+     "cita_original": "The Taino maternal DNA is prominent in the ex-Spanish colonies (61.3%-22.0%) while it is basically non-existent in the ex-French and ex-English colonies of Haiti (0.0%) and Jamaica (0.5%), respectively.",
+     "traduccion": "El ADN materno taíno es prominente en las ex colonias españolas (61,3 %-22,0 %) mientras que es básicamente inexistente en las ex colonias francesa e inglesa, Haití (0,0 %) y Jamaica (0,5 %), respectivamente.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "To accomplish this, the mtDNA HVRI and HVRII regions, as well as coding diagnostic sites, were assessed in the Haitian general population and compared to data from reference populations.",
+     "traduccion": "Para ello se evaluaron las regiones HVRI y HVRII del ADNmt y sitios diagnósticos de la región codificante en la población general haitiana y se compararon con poblaciones de referencia.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "The African mtDNA component is almost fixed in Haiti (98.2%) and Jamaica (98.5%)",
+     "traduccion": "El componente africano del ADNmt está casi fijado en Haití (98,2 %) y Jamaica (98,5 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0210",
+   "notas": "Solo resumen; texto cerrado en OpenAlex y sin copia de autor localizada. LA n DE LA MUESTRA HAITIANA NO CONSTA en el resumen [POR VERIFICAR]: no debe presumirse que sea la misma de Wilson et al. 2012 (n=291). Las cifras citadas (0,0 % taíno en Haití, 98,2 % africano) son un resultado del propio artículo y no pueden compararse como porcentaje del acervo antiguo: el rango 61,3 %-22,0 % es entre las ex colonias españolas (Puerto Rico probablemente el 61,3 %, República Dominicana alrededor del 22 %) sin que el resumen asigne cada valor [POR VERIFICAR]. Hecho: no se halló mtDNA nativo en la muestra haitiana; interpretación de los autores (no verificable aquí): diferentes normas sobre matrimonios mixtos con mujeres taínas en los primeros años del contacto."
+  },
+  {
+   "titulo": "Forensic analysis of mtDNA haplotypes from two rural communities in Haiti reflects their population history (Journal of Forensic Sciences 57(6): 1457-1466)",
+   "autor": "Wilson, Jamie L.; Saint-Louis, Vertus; Auguste, Jensen O.; Jackson, Bruce A.",
+   "anio": "2012",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22583388%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://pubmed.ncbi.nlm.nih.gov/22583388",
+    "https://doi.org/10.1111/j.1556-4029.2012.02186.x",
+    "https://www.ojp.gov/index%2Ephp/node/1292761"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio forense revisado por pares con la n más grande en Haití (291), pero solo resumen y de enfoque forense, no de ascendencia nativa.",
+   "proveniencia": "Jamie L. Wilson, Vertus Saint-Louis, Jensen O. Auguste y Bruce A. Jackson publican un estudio de población con fines forenses (bases de datos de personas desaparecidas), con secuencias HVS-1 de 291 sujetos de zonas rurales del norte y el sur de Haití, que presentan como el primer conjunto genético de Haití.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 22583388; l. 5)",
+     "cita_original": "This study uses hypervariable segment one (HVS-1) mitochondrial DNA (mtDNA) nucleotide sequences from 291 subjects primarily from rural areas of northern and southern Haiti, where admixture would be minimal.",
+     "traduccion": "Este estudio usa secuencias de nucleótidos del segmento hipervariable uno (HVS-1) del ADNmt de 291 sujetos, principalmente de zonas rurales del norte y el sur de Haití, donde la mezcla sería mínima.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "the African maternal genetic component of Haitians had slightly higher West-Central African admixture than African-Americans and Dominicans, but considerably less than Afro-Brazilians",
+     "traduccion": "el componente genético materno africano de los haitianos tenía una mezcla centro-occidental africana algo mayor que la de afroamericanos y dominicanos, pero bastante menor que la de afrobrasileños.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0214",
+   "notas": "REGISTRA CON SU n lo que A-028 pide: 291 haitianos rurales (norte y sur), la muestra de ADNmt más grande localizada en Haití; el resumen NO da proporciones de haplogrupos nativos. CORRIGE EL REGISTRO: F-0214 consigna los autores como «Wilson, Mark; Saint-Louis, Ketly; Auguste, Judith; Jackson, Latifa»; el PMID 22583388 da «Wilson JL, Saint-Louis V, Auguste JO, Jackson BA» (y el resumen de OJP, Jamie L. Wilson, Vertus Saint-Louis, Jensen O. Auguste, Bruce A. Jackson). Resumen solo; el texto completo (Wiley) no se abrió."
+  },
+  {
+   "titulo": "Genetic background of people in the Dominican Republic with or without obese type 2 diabetes revealed by mitochondrial DNA polymorphism (Journal of Human Genetics 49(9): 495-499)",
+   "autor": "Tajima, Atsushi; Hamaguchi, Kazuyo; Terao, Hiroaki; Oribe, Atsushi; Perrotta, Victor M.; Baez, Carlos A.; Arias, Juan R.; Yoshimatsu, Hironobu; Sakata, Toshiie; Horai, Satoshi",
+   "anio": "2004",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15368103%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://doi.org/10.1007/s10038-004-0179-7",
+    "https://www.nature.com/articles/jhg200481 (redirección a login)"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio revisado por pares pero de muestra clínica pequeña (33 sanas, 50 pacientes), leído solo en resumen.",
+   "proveniencia": "Equipo encabezado por Atsushi Tajima y Satoshi Horai (afiliaciones [POR VERIFICAR]) estudia la diabetes tipo 2 obesa en la República Dominicana; el ADNmt sirve para caracterizar el trasfondo genético de dos grupos de mujeres dominicanas, no para estimar ascendencia nacional. Estévez y Mateo (Ecos 2020) la citan como «Tajima/Hamaguchi».",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 15368103; l. 5)",
+     "cita_original": "nucleotide sequences of the D-loop region of human mitochondrial DNA (mtDNA) were examined in 33 healthy women and 50 gender-matched patients with obese type 2 diabetes (OD) from the Dominican Republic",
+     "traduccion": "se examinaron secuencias de nucleótidos de la región D-loop del ADN mitocondrial humano en 33 mujeres sanas y 50 pacientes del mismo sexo con diabetes tipo 2 obesa (OD) de la República Dominicana.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "In the OD group, the majority (64.0%) of the mtDNA lineages were from African ancestry, whereas the Native American fraction was predominant (51.5%) in the healthy group, with both showing smallest amounts (14.0% and 9.1%, respectively) of European contribution.",
+     "traduccion": "En el grupo OD, la mayoría (64,0 %) de los linajes de ADNmt eran de ascendencia africana, mientras que la fracción nativoamericana era predominante (51,5 %) en el grupo sano, y ambos grupos mostraban las menores cantidades (14,0 % y 9,1 %) de aporte europeo.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0209",
+   "notas": "Solo resumen. El 51,5 % nativo corresponde a 33 mujeres sanas de una muestra clínica con lugar de muestreo no indicado en el resumen: no es representativo del país (Bukhari 2017 da 22,0 % para la República Dominicana; D’Atanasio 2020 cita hasta 22 % de ADNmt nativo). El grupo OD (n=50) tiene 64 % africano y aporte nativo no dado en el resumen (por diferencia ~22 %, calculado, no declarado) [POR VERIFICAR]."
+  },
+  {
+   "titulo": "MtDNA from extinct Tainos and the peopling of the Caribbean (Annals of Human Genetics 65(2): 137-151)",
+   "autor": "Lalueza-Fox, Carles; Calderón, Francesc L.; Calafell, Francesc; Morera, Bárbara; Bertranpetit, Jaume",
+   "anio": "2001",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:11427174%20AND%20SRC:MED&format=json&resultType=core",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/s0003480001008533"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Primer ADN antiguo taíno de La Española, revisado por pares y con controles de contaminación, pero leído solo en resumen.",
+   "proveniencia": "Grupo de Carles Lalueza-Fox y Jaume Bertranpetit (afiliaciones de 2001 [POR VERIFICAR]) analiza restos del sitio La Caleta (República Dominicana). Es la única fuente de ADN antiguo de La Española en A-028 junto con Fernandes 2021.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Europe PMC, PMID 11427174; l. 5)",
+     "cita_original": "Samples belonging to pre-Columbian Taino Indians from the La Caleta site (Dominican Republic) have been analyzed",
+     "traduccion": "Se han analizado muestras de indios taínos precolombinos del sitio de La Caleta (República Dominicana).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "Twenty-seven bone samples were extracted and analyzed for mtDNA variation.",
+     "traduccion": "Se extrajeron y analizaron 27 muestras óseas para la variación del ADNmt.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    },
+    {
+     "ubicacion": "Resumen (l. 5)",
+     "cita_original": "only two (C and D) of the major mtDNA lineages were present in the sample: 18 individuals (75%) belonged to the C haplogroup, and 6 (25%) to the D haplogroup",
+     "traduccion": "solo dos (C y D) de los linajes mayores de ADNmt estaban presentes en la muestra: 18 individuos (75 %) pertenecían al haplogrupo C y 6 (25 %) al D.",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0222",
+   "notas": "CONFIRMA lo marcado [POR VERIFICAR] en el registro: 27 muestras óseas de La Caleta, solo haplogrupos C y D y proporciones 75/25. PERO: 18 + 6 = 24 individuos, no 27, y la secuenciación del HVRI se hizo en 19; el resumen no explica la diferencia (probablemente 24 tipificados por restricción). Sin n por haplogrupo en el texto completo no se puede afinar. Conclusión de los autores: C y D, frecuentes en Sudamérica, apuntan al continente sur como origen de los ancestros de los taínos, con efecto fundador. Solo resumen; el texto de Wiley no se abrió."
+  },
+  {
+   "titulo": "A 10,300 14C yr Record of Climate and Vegetation Change from Haiti (Quaternary Research 52(2): 159-170)",
+   "autor": "Higuera-Gundy, Antonia; Brenner, Mark; Hodell, David A.; Curtis, Jason H.; Leyden, Barbara W.; Binford, Michael W.",
+   "anio": "1999",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://resolve.cambridge.org/core/journals/quaternary-research/article/10300-14c-yr-record-of-climate-and-vegetation-change-from-haiti/DD3DFBA728AEBAB5F7F39B32D1CAF963",
+   "urls_alternativas": [
+    "https://doi.org/10.1006/qres.1999.2062"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Registro de núcleo con δ18O y polen revisado por pares, de un solo lago del sur de Haití; solo se confirmó el resumen.",
+   "proveniencia": "Antonia Higuera-Gundy (Florida Museum of Natural History, Univ. de Florida, según Cambridge Core), Mark Brenner, David Hodell y coautores estudian un núcleo de 7,6 m del lago Miragoâne (Haití) con δ18O y polen desde ~10.300 años 14C AP; interés paleoclimático, con una lectura de impacto humano en el último milenio.",
+   "extractos": [
+    {
+     "ubicacion": "Resumen (Cambridge Core; l. 1)",
+     "cita_original": "The pollen record of the last millennium reflects pre-Columbian (Taino) and European deforestation.",
+     "traduccion": "El registro polínico del último milenio refleja la deforestación precolombina (taína) y la europea.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-1755",
+   "notas": "Resumen confirmado en la ficha de Cambridge Core (HTTP 200); el PDF no es de acceso abierto. El resumen fija la sequía desde ~3200 años 14C AP y atribuye a la deforestación taína y europea el polen del último milenio, sin separar en el resumen ambos aportes ni dar fechas calibradas ni cifras: no sirve aún para estimar población. Sin afirmación de A-021 a A-029 que lo use."
+  },
+  {
+   "titulo": "Interethnic admixture and the evolution of Latin American populations (Genetics and Molecular Biology 37(1 suppl.): 151-170)",
+   "autor": "Salzano, Francisco M.; Sans, Mónica",
+   "anio": "2014",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3983580/",
+   "urls_alternativas": [
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3983580/fullTextXML",
+    "https://doi.org/10.1590/s1415-47572014000200003"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Revisión de acceso abierto que tabula estimaciones de otros estudios sin reanálisis; la fila de Haití remite a datos de STR autosómicos (Simms 2010).",
+   "proveniencia": "Francisco M. Salzano (Universidade Federal do Rio Grande do Sul) y Mónica Sans revisan la mezcla interétnica en América Latina con estimaciones por país; no incluyen estudios solo de marcadores uniparentales.",
+   "extractos": [
+    {
+     "ubicacion": "Sección sobre Centroamérica y Caribe (PMC3983580, texto Europe PMC l. 63)",
+     "cita_original": "some show considerable African influence (Carib as a whole, 77%; Haiti, 96%; Jamaica, 78%–82%)",
+     "traduccion": "algunas áreas muestran una influencia africana considerable (Caribe en conjunto, 77 %; Haití, 96 %; Jamaica, 78 %-82 %).",
+     "afirmaciones": [
+      "A-028"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-028"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0216",
+   "notas": "Se leyó la frase de síntesis y se localizó la fila de Haití en la tabla (texto aplanado, columnas no separables con certeza: «Haiti ... 13 STRs»); el 96 % africano es de la frase, no de la tabla. M16 ya había confirmado 96 % africano, 4 % europeo y 0 % amerindio para Haití en esta revisión. Es evidencia de segunda mano, sin n ni método propios: en M01 solo se usa para ubicar la cifra que circula para Haití."
+  },
+  {
+   "titulo": "Genomic diversity in the Dominican Republic: A complex legacy of Taíno, African and European ancestries (resumen de congreso, American Journal of Biological Anthropology 189, supl. S81)",
+   "autor": "Schurr, Theodore G.; Paulino-Ramírez, Robert; Mencía-Ripley, Aída; et al.",
+   "anio": "2026",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "cientifica",
+   "url": "https://cris.unibe.edu.do/handle/123456789/589",
+   "urls_alternativas": [
+    "https://cris.unibe.edu.do/entities/publication/0602fa93-352b-4f12-91cb-32bda351c87d",
+    "https://onlinelibrary.wiley.com/doi/10.1002/ajpa.70227",
+    "https://api.crossref.org/works/10.1002/ajpa.70227"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Resumen de congreso (no revisado por pares) cuyo texto no se pudo abrir en esta ronda.",
+   "proveniencia": "Proyecto Genográfico Dominicano (UNIBE, UPenn, National Geographic); ponencia de la reunión de la AABA de 2026.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0203",
+   "notas": "INTENTO FALLIDO: cris.unibe.edu.do y onlinelibrary.wiley.com devuelven 403 con reto de Cloudflare («Just a moment») a curl; Crossref (HTTP 200) muestra que el DOI 10.1002/ajpa.70227 corresponde al «Program of the 95th Annual Meeting of the American Association of Biological Anthropologists» (Wiley, AJBA 189, S81, publicado en línea 2026-03-13), es decir, al programa completo y no a un resumen individual: el registro F-0203 debe citarse con el número de resumen dentro del programa, no solo con ese DOI. No se aportan extractos ni cifras (las del registro, n=1.015, siguen de ronda anterior)."
+  }
+ ]
+}

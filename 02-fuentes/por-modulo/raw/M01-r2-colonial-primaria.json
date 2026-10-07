@@ -1,0 +1,768 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M01",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 9,
+ "busquedas_pendientes": [
+  "Alonso de Santa Cruz, Islario general: ¿conserva la descripción de Morales de 1508 (Las Casas cree que la tenía)?",
+  "Sauer 1966, The Early Spanish Main (texto): origen moderno del 'mapa de Morales' y de la lectura de las provincias como mapa",
+  "PARES (AGI): imagen digital del Repartimiento de 1514 para dirimir las seis discrepancias aritméticas (se buscó una vez, sin resultado)",
+  "Instrucción real de 1513 a Alburquerque e Ibarra (resumida en la CODOIN t. I, l. 1960-2230 del djvu): lectura y cita de las categorías 'indios de servicio', 'naborías de casa', 'viejos y niños'",
+  "Arranz Márquez 1991 (ADH, ejemplar físico, biblionumber 7879) y 2001: totales de caciques y de indios; repartimientos perdidos de 1503-05 y 1509",
+  "Vega 1980/1990, Los cacicazgos de La Hispaniola (ADH, ejemplar físico, biblionumber 2639): mapa de Morales",
+  "Gaffarel 1907 nota 2: comprobar en Ardouin la adopción de la división de Morales",
+  "Mártir, Epistolario (cartas 1514-1516): posible mención de la carta náutica de Morales"
+ ],
+ "lagunas": [
+  "La descripción original de Morales (1508) y su mapa no se localizaron: Las Casas dice que no pudo verla; el contenido de las cinco provincias solo consta por Mártir. No hay prueba documental de 1508 de que las 'provincias' fueran unidades políticas.",
+  "El texto latino de Mártir citado es el de la ed. de Alcalá de 1516; las hojas de las provincias y del encargo de Ovando se leyeron en la imagen, pero la lista de regiones de Bainoa solo por OCR. No se consultó edición crítica moderna.",
+  "El original del Repartimiento de 1514 (AGI) no se consultó: no se sabe si las seis discrepancias aritméticas (Puerto de Plata, Santo Domingo, Buenaventura, Lares de Guahaba, Vera Paz, Salvatierra de la Sabana) están en el original o en la copia de 1864; solo tres se cotejaron con la imagen de la edición de 1864.",
+  "El recuento de caciques (362 / 401 / ~407 entradas) y las cifras 26.334 y 26.189 no se reconciliaron: falta una tabla manual por cacique y la lectura de Arranz Márquez 1991 (solo ejemplar físico en la ADH). Anotar en limites.md.",
+  "No se replicó la Tabla 2 de Livi-Bacci (hombres, mujeres y niños de Concepción y Puerto Plata) con el texto de la CODOIN: el parser de OCR recupera solo un subconjunto.",
+  "Los repartimientos de 1503-05 y de 1509 se han perdido según Livi-Bacci 2006, nota 18, citando a Arranz 2001: la base primaria de 'repartimiento de 1508 más un tercio' (A-024) no existe como documento; solo queda la cifra de 60.000 de Las Casas.",
+  "Vega 1980 (mapa de Morales) y Arranz 1991 solo en ejemplar físico en la ADH: anotar en limites.md."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "provincia / región (regiuncula) / cantón / reino / cacicazgo (unidades territoriales de La Española en 1492)",
+   "tradicion": "española colonial (Mártir: provincia y regiuncula; Las Casas: reino y provincia; Oviedo: prefectos o reyes), francesa (Charlevoix: royaume) y arqueológica (cacicazgo/chiefdom)",
+   "nota": "El latín de 1516 de Mártir usa 'provincia' y 'regiunculae' y nunca 'regnum'; MacNutt y Gaffarel traducen 'little states / petits états', que cargan de significado político lo que el latín no dice. Se usa 'provincia' o 'región' al citar a Mártir y 'reino' solo al citar a Las Casas, Oviedo o Charlevoix; 'cacicazgo' es la categoría descriptiva del corpus."
+  },
+  {
+   "termino": "persona de servicio / naboría de casa / indio de cacique / viejos y niños 'que no son de servicio' (categorías del Repartimiento de 1514)",
+   "tradicion": "oficial-colonial española (CODOIN t. I)",
+   "nota": "'Persona de servicio' excluye niños y viejos: todo total del repartimiento es cota inferior de la población indígena de 1514; 'naboría de casa' es el indio de servicio doméstico; 'indio de cacique' el que vive bajo su cacique; 'allegada' es una mujer o pariente añadida al registro. Conviene fijar el uso al citar cifras."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "De Orbe Novo / Décadas, vol. 1 (trad. MacNutt 1912): Década III, lib. VII, descripción de La Española según el piloto Andrés Morales",
+   "autor": "Mártir de Anglería, Pedro (Pietro Martire d'Anghiera); MacNutt, F. A. (trad.)",
+   "anio": "1516 (Década III; trad. 1912)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/De-Orbe-Novo-Volume-1--of-2-The-Eight-Decades-of-Peter-Martyr-D-Anghera_12425/master/12425.txt",
+   "urls_alternativas": [
+    "02-fuentes/textos/gutenberg/martir-de-orbe-novo-v1-en.txt (copia local; las líneas citadas son de este archivo)",
+    "https://archive.org/download/deorbenouopetrim00angh/deorbenouopetrim00angh_djvu.txt (latín de 1530, OCR ruidoso)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato de un humanista que no viajó y que cita a Morales como informante directo; la traducción de 1912 se aparta del latín de 1516 en tres puntos (ver notas), de modo que sirve para localizar el pasaje pero no para dirimir su sentido.",
+   "proveniencia": "Mártir (1457-1526) imprimió la Década III en latín en Alcalá en 1516; el pasaje es posterior a la partida de Pedrarias hacia Darién [POR VERIFICAR la fecha: 1514]. Aquí es informante Andrés de Morales, piloto que había recorrido la isla por encargo de Ovando (Las Casas, Herrera y el latín de 1516 coinciden en que el encargo vino del propio Ovando). La división en cinco 'provincias' no es de Mártir sino de la descripción de Morales que Mártir transcribe. MacNutt (1912) traduce con notas propias.",
+   "extractos": [
+    {
+     "ubicacion": "Década III, lib. VII, l. 11133-11137 del txt local (MacNutt)",
+     "cita_original": "Morales had carefully and attentively explored the land supposed to be a continent, as well as the neighbouring islands and the interior of Hispaniola. He was commissioned by the brother of Nicholas Ovando, Grand Commander of the Order of Alcantara and governor of the island, to explore Hispaniola.",
+     "traduccion": "Morales había explorado con cuidado el supuesto continente, las islas vecinas y el interior de La Española. Lo comisionó para explorarla 'el hermano de Nicolás Ovando', comendador mayor de Alcántara y gobernador de la isla. [El latín de 1516 dice «frater Nicolaus Ovandus», es decir fray/frey Nicolás Ovando mismo: ver la ficha del latín de 1516.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, l. 11377-11381 del txt local",
+     "cita_original": "We have already related that Morales proposes a new division, by which the island would be divided into five districts. We shall give to each of these little states its ancient name and shall enumerate whatever is worthy of note in each of them.",
+     "traduccion": "Ya hemos referido que Morales propone una nueva división de la isla en cinco distritos; daremos a cada uno de estos 'pequeños estados' su nombre antiguo. [El latín de 1516 dice «descripción observada desde siempre por los habitantes» y «regiunculae» (pequeñas regiones), no 'estados': ver la ficha del latín.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, l. 11383-11388 del txt local",
+     "cita_original": "The most eastern district of the island belongs to the province of Caizcimu ... Next come the provinces of Huhabo and Cahibo; the fourth is Bainoa, and the extreme western part belongs to the province of Guaccaiarima; but that of Bainoa is larger than the three preceding ones.",
+     "traduccion": "El distrito más oriental pertenece a la provincia de Caizcimú; siguen Huhabo y Cahibo; la cuarta es Bainoa y el extremo occidental pertenece a Guaccaiarima, pero Bainoa es mayor que las tres anteriores.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, l. 11416-11418 del txt local",
+     "cita_original": "The districts or cantons of Caizcimu are Higuey, Guanama, Reyre, Xagua, Aramana, Arabo, Hazoa, Macorix, Caicoa, Guiagua, Baguanimabo, and the rugged mountains of Haiti.",
+     "traduccion": "Los distritos o cantones de Caizcimú son Higüey, Guanamá, Reyré, Xagua, Aramaná, Arabo, Hazoa, Macorix, Caicoa, Guiagua, Baguanimabo y las ásperas montañas de Haití. [Higüey es aquí un cantón dentro de Caizcimú, no un reino aparte como en Las Casas.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, l. 11442-11446 del txt local",
+     "cita_original": "The cantons of Magua and Cacacubana belong to the province of Cahibo. The natives in this province speak an entirely different language from that spoken by the other islanders; they are called Macoryzes.",
+     "traduccion": "Los cantones de Magua y Cacacubana pertenecen a la provincia de Cahibo. Sus habitantes hablan una lengua totalmente distinta de la de los demás isleños y se llaman macoríes. [Magua, uno de los 'cinco reinos' de Las Casas, es aquí un cantón de la provincia de Cahibo.]",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, l. 11452-11457 del txt local",
+     "cita_original": "Bainoa, the fourth province has the following dependent cantons: Maguana, Iagohaiucho, Bauruco, Dabaigua ... Marien, Guarricco, Amaquei, Xaragua, Yaguana, Azzuei, Iacchi",
+     "traduccion": "Bainoa, la cuarta provincia, tiene como cantones dependientes Maguana, Iagohaiucho, Bauruco, Dabaigua ... Marién, Guarricco, Amaquei, Xaragua, Yaguana, Azzuei, Iacchi. [Tres de los 'cinco reinos' de Las Casas (Maguana, Marién, Jaragua) son aquí cantones de una sola provincia.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VIII, l. 11515-11517 del txt local",
+     "cita_original": "The province of Bainoa, which is three times the size of the three provinces of Caizcimu, Huhabo, and Caihabon",
+     "traduccion": "La provincia de Bainoa, que es tres veces mayor que las tres de Caizcimú, Huhabo y Caihabón.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0010",
+   "notas": "HECHO: Mártir transcribe una división de La Española en CINCO provincias que no coincide con los 'cinco reinos' de Las Casas (Marién, Maguá, Maguana, Jaragua, Higüey) ni con la lista de cinco caciques de Oviedo (Guarionex, Caonabo, Behechio, Goacanagari, Cayacoa): coincide el número, no las unidades. En la lista de Morales/Mártir, Higüey es un cantón de Caizcimú; Maguá, un cantón de Cahibo; Maguana, Marién y Jaragua, cantones de Bainoa: tres de los 'reinos' de Las Casas son 'regiones' de una sola provincia. Mártir no da fecha para la descripción: la de 1508 sale de Las Casas (t. 3 l. 6247-6256, lib. II cap. XLI; ver ficha F-0006) y de Julián (M01-N06). INTERPRETACIÓN: que las 'provincias' sean unidades políticas, geográficas o hidrográficas no lo dice Mártir; Gaffarel 1907 (nota 2, ver ficha propia) las lee como 'diferencias naturales de configuración del suelo, fertilidad, abundancia de aguas'. TRES DIVERGENCIAS DE LA TRADUCCIÓN INGLESA respecto del latín de 1516 (cotejado contra la imagen de la ed. de Alcalá): (1) MacNutt escribe 'Morales proposes a new division', mientras el latín dice «Novam hic nauclerus affert ab incolis ab aeterno observatam descriptionem» (descripción 'observada desde siempre por los habitantes'): la atribución a los propios indígenas se pierde; (2) 'the brother of Nicholas Ovando' traduce «frater Nicolaus Ovandus» (fray Nicolás Ovando, comendador mayor y gobernador: él mismo); (3) 'little states' traduce «regiunculae» (pequeñas regiones). Las grafías varían: Caihabo/Caiabo/Cahibo; Huhabo/Hubabo; Guaccaiarima/Guaccayarima. La nota 5 de MacNutt (l. 11096) sobre Gaspar Morales se refiere a otro Morales (expedición de Pedrarias). Pasaje del latín de 1530: l. 8910-8925 del djvu (OCR ruidoso)."
+  },
+  {
+   "titulo": "De orbe novo decades (Década III, hoja con cabecera «Liber octauus»), Alcalá de Henares, Arnao Guillén de Brocar, 1516 (ejemplar de la Universidad de Sevilla, A Res. 59/3/13(3))",
+   "autor": "Mártir de Anglería, Pedro (Pietro Martire d'Anghiera); Brocar, Arnao Guillén de (impresor); Nebrija, Antonio de (cura et diligentia)",
+   "anio": "1516",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/ARes593133/ARes593133_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/ARes593133",
+    "https://archive.org/download/ARes593133/page/n109_w1600.jpg (hoja de la división en cinco partes)",
+    "https://archive.org/download/ARes593133/page/n106_w1600.jpg (hoja del encargo de Ovando a Morales)",
+    "https://archive.org/download/deorbenouopetrim00angh/deorbenouopetrim00angh_djvu.txt (ed. 1530: mismo pasaje, l. 8910-8925)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Primera impresión del texto latino de la Década III, anterior en 14 años a la ed. de 1530 y a todas las traducciones; el OCR de archive.org es muy ruidoso pero las dos hojas citadas se leyeron en la imagen del escaneo y el texto latino es nítido.",
+   "proveniencia": "Mártir escribe en latín para destinatarios eclesiásticos de Roma; la edición de Alcalá de 1516 la imprime Brocar 'cura et diligentia' de Nebrija (según la ficha del catálogo de la Univ. de Sevilla en archive.org). Es el texto base del que dependen la ed. de 1530 y las traducciones de MacNutt (1912), Torres Asensio (1892) y Gaffarel (1907). El informante es el piloto Andrés de Morales; Mártir no vio la carta náutica (promete enviarla al papa).",
+   "extractos": [
+    {
+     "ubicacion": "hoja con cabecera «Liber octauus» (imagen n109 del escaneo; l. 8916-8919 del djvu); lectura con abreviaturas resueltas, cotejada con la imagen",
+     "cita_original": "Novam hic nauclerus affert ab incolis ab aeterno observatam descriptionem. In quinque partes universam dividemus: deinde cuiusque provinciae regiunculas veteribus nominibus appellabimus quodque memoratu dignum in singulis erit referemus.",
+     "traduccion": "Este piloto trae una descripción nueva, observada desde siempre por los habitantes. Dividiremos toda la isla en cinco partes; luego llamaremos con sus nombres antiguos a las pequeñas regiones de cada provincia y referiremos lo digno de memoria de cada una.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "misma hoja (imagen n109; l. 8919-8927 del djvu), cotejada con la imagen",
+     "cita_original": "Insulae initium ab oriente amplectitur provincia nomine Caizcimu ... sequitur illam Huhabo: inde Caihabo. quarta est Bainoa. angulum occidentalem tenet Guaccaiarima: sed penultima Bainoa latioribus constat terminis quam tres eam praecedentes.",
+     "traduccion": "El comienzo de la isla por oriente lo abarca la provincia llamada Caizcimú ... le sigue Huhabo, luego Caihabo; la cuarta es Bainoa; el ángulo occidental lo ocupa Guaccaiarima; pero Bainoa, la penúltima, tiene límites más anchos que las tres anteriores.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "misma hoja (imagen n109; l. 8937 del djvu), cotejada con la imagen",
+     "cita_original": "In Caizimu regiones sunt Higuei, Guanama, Reyre, Xagua, Aramana, Arabo, Hazoa, Macorix, Caiaco, Guaiagua, Baguanimaho & asperi montes Haitienses.",
+     "traduccion": "En Caizcimú las regiones son Higüey, Guanamá, Reyré, Xagua, Aramaná, Arabo, Hazoa, Macorix, Caiaco, Guaiagua, Baguanimaho y las ásperas montañas haitienses. [Higüey = 'regio', no 'regnum'.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "hoja siguiente (l. 8956-8958 del djvu; solo OCR, no cotejada con la imagen)",
+     "cita_original": "In Bainoa regiones sunt Maguana, Iagohaiucho, Bauruco, Dabiagua ... Marien, Guaricco, Amaguei, Xaragua, Yaguana, Azzuei, Iacchi",
+     "traduccion": "En Bainoa las regiones son Maguana, Iagohaiucho, Bauruco, Dabiagua ... Marién, Guaricco, Amaguei, Xaragua, Yaguana, Azzuei, Iacchi. [Lectura de OCR contrastada con MacNutt y Torres Asensio, que dan la misma lista.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "hoja anterior (imagen n106; l. 8675-8681 del djvu), cotejada con la imagen",
+     "cita_original": "quendam Andream Moralem navium ea littora nova percurrentium nauclerum ... Hispaniolae interna omnia diligenter solicitéque scrutatus est. Vestigandae Hispaniolae curam viro huic frater Nicolaus Ovandus militiae Alcantarae maior commendatarius: Hispaniolae gubernator demandavit",
+     "traduccion": "cierto Andrés Morales, piloto de las naves que recorren aquellas costas nuevas ... investigó con diligencia todo el interior de La Española. El cuidado de explorarla se lo encomendó a este hombre fray Nicolás Ovando, comendador mayor de Alcántara y gobernador de La Española.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "FUENTE CLAVE para A-021: en el texto original, Mártir presenta el esquema de cinco provincias como 'descripción observada desde siempre por los habitantes' (ab incolis ab aeterno observatam) según el piloto Morales; la traducción inglesa corriente lo convierte en 'Morales propone una nueva división'. Las traducciones española (Torres Asensio 1892) y francesa (Gaffarel 1907) sí conservan 'observada de tout temps / usaron eternamente' (ver fichas propias). Esto cambia el planteamiento: lo disputado no es solo si Morales inventó una división española en 1508 (lectura de Julián, M01-N06, que explica el mapa porque los cacicazgos 'habían ya dejado de existir como tales'), sino si la atribución a los 'habitantes desde siempre' es fiel o es una proyección del informante; Mártir no ofrece prueba. HECHO: unidades 'provincia' y 'regiuncula/regio' (nunca 'regnum'); Mártir llama 'reges' a Guarionex y Guaccanarillus en otros pasajes. INTERPRETACIÓN: las 'provincias' de Morales siguen en parte la hidrografía (ríos Iuna, Attibunicus, Naiba, Iache): no hay en el texto un criterio político. La hoja lleva cabecera «Liber octauus», mientras MacNutt (sobre otra edición) la sitúa al final del lib. VII: la división en libros difiere entre ediciones [POR VERIFICAR contra la ed. de 1530]. El OCR de archive.org de las otras hojas es ruidoso (p. ej. «Noui hic nauclerus ... ab terno obíeruatas deícríptione»); solo se citan hojas leídas en la imagen, salvo la indicada."
+  },
+  {
+   "titulo": "Décadas del Nuevo Mundo (Década III, lib. VII; trad. Joaquín Torres Asensio, Madrid, 1892; reed. «Clásicos de Historia» n.º 525)",
+   "autor": "Mártir de Anglería, Pedro; Torres Asensio, Joaquín (trad.)",
+   "anio": "1892 (orig. 1516)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/525-pedro-martir-de-angleria/525%20Pedro%20Martir%20de%20Angleria_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/decadas-del-nuevo-mundo.-pedro-martir-de-angleria/D%C3%A9cadas%20del%20nuevo%20mundo.-%20Pedro%20M%C3%A1rtir%20de%20Angler%C3%ADa_djvu.txt (ed. Polifemo, Madrid 1989, intro. de Ramón Alba: misma traducción, l. 13613-13624; no es un testigo independiente)",
+    "https://archive.org/details/fuenteshistorica03anghuoft (escaneo de la ed. de 1892)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción decimonónica del latín que, a diferencia de MacNutt, conserva la atribución a los indígenas ('usaron eternamente'); no es edición crítica y el OCR de la reimpresión de 2024 es mediano.",
+   "proveniencia": "Joaquín Torres Asensio tradujo y publicó en Madrid en 1892 las Décadas dentro de los 'libros rarísimos que sacó del olvido' sobre Colón y América (portada de la reimpresión); la edición Polifemo (1989) y la de 'Clásicos de Historia' (2024) reproducen ese texto.",
+   "extractos": [
+    {
+     "ubicacion": "Década III, lib. VII, p. ≈167 (l. 10290-10295 del djvu)",
+     "cita_original": "cierto Andrés Morales, piloto de las naves que recorren aquellas costas, el cual investigó con diligente solicitud ... todo lo interior de la Española. Le dio el encargo de explorar la Española a este hombre fray Nicolás Ovando, Comendador mayor de la milicia de Alcántara y Gobernador de la Española",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, p. ≈170 (l. 10496-10499 del djvu)",
+     "cita_original": "Este piloto trae una nueva descripción que usaron eternamente los indígenas. Dividiremos toda la isla en cinco partes; después designaremos con los nombres antiguos las pequeñas regiones de cada provincia",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, p. 171 (l. 10503-10506 del djvu)",
+     "cita_original": "El principio de la isla por el Oriente lo coge la provincia llamada Caizcimú ... Después la sigue Huhabo; luego Caihabo; la cuarta es Bainoa; el extremo occidental lo ocupa Guaccayarima",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII, p. 171 (l. 10523-10525 del djvu)",
+     "cita_original": "En Caizcimú están los regiones Higuei, Guanamá, Reyré, Xagua, Aramanú, Avaho, Hazoa, Macorix, Cayacoa, Guayagua, Baguanimaho y las ásperas montañas de Haití",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII (l. 10556-10558 del djvu)",
+     "cita_original": "La provincia Cayabo tiene las regiones Magua y Cacacubana. Los habitantes de esta región tienen idioma muy diferente de los otros de la Española, y les dicen macoryxes.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "Década III, lib. VII (l. 10560-10563 del djvu)",
+     "cita_original": "En Bainoa las regiones son: Maguana, Yagohaiucho, Bauruco, Dabiagua, Attibuní ... Maiaguariti, Atiei, Maccazina, Guahabba, Aniuici, Marión, Guaricco, Araagttei, Xaragua, Yaguana",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Tres traducciones coinciden con el latín de 1516 en la lista de provincias y regiones; difieren en la frase clave: Torres Asensio y Gaffarel mantienen 'observada desde siempre por los indígenas'; MacNutt la omite. La ed. Polifemo de 1989 reproduce la traducción de Torres Asensio (misma redacción): no cuenta como segunda traducción. Torres Asensio traduce 'regiunculae' como 'pequeñas regiones' (no 'estados') y 'frater Nicolaus Ovandus' como 'fray Nicolás Ovando'. Páginas: el número 171 aparece impreso tras el pasaje en el PDF; las demás son aproximadas. Ortografía de topónimos: Cayabo (en la descripción de regiones) frente a Caihabo (en la lista inicial); Guaccayarima/Guaccaiarima."
+  },
+  {
+   "titulo": "De orbe novo, de Pierre Martyr Anghiera. Les huit décades, traduites du latin avec notes et commentaires (trad. Paul Gaffarel; París, 1907), Troisième décade, con notas 1-2 al pasaje de Morales",
+   "autor": "Mártir de Anglería, Pedro; Gaffarel, Paul (trad. y notas)",
+   "anio": "1907 (orig. 1516)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/deorbenovodepier00angh/deorbenovodepier00angh_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción comentada que, a diferencia de MacNutt, conserva 'observada de tout temps'; sus notas identifican los cuatro ríos, citan documentos de 1515-1516 sobre Morales y vinculan la división con Ardouin, pero no es edición crítica.",
+   "proveniencia": "Paul Gaffarel tradujo las ocho Décadas del latín (París, 1907) con notas propias [biografía y editorial no consultadas: POR VERIFICAR]. Según su nota 2, la tradición historiográfica haitiana (Ardouin) adoptó la división de Morales.",
+   "extractos": [
+    {
+     "ubicacion": "Troisième décade, lib. VII (l. 13320-13324 del djvu)",
+     "cita_original": "Morales propose une division nouvelle, observée de tout temps par les insulaires. L'île se divisera en cinq parties. Nous donnerons aux petits états de chacune de ces parties leurs noms anciens",
+     "traduccion": "Morales propone una división nueva, observada desde siempre por los isleños. La isla se dividirá en cinco partes. Daremos a los pequeños estados de cada una sus nombres antiguos.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "nota 2 al pasaje (l. 13340-13342 del djvu)",
+     "cita_original": "La division proposée par Morales correspond à des différences naturelles de configuration du sol, de fertilité des terres, d'abondance des eaux, etc. Elle a été adoptée par Ardouin",
+     "traduccion": "La división propuesta por Morales corresponde a diferencias naturales de configuración del suelo, fertilidad de las tierras, abundancia de aguas, etc. Ardouin la adoptó.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "nota 1 al pasaje de Morales (l. 12987-12990 del djvu)",
+     "cita_original": "On a conservé des états d'émargement, à la date du 30 août 1515 et du 23 juillet 1516, où figure André Morales comme pilote de Sa Majesté Ferdinand. Voir collection Munoz, A 102, 103.",
+     "traduccion": "Se han conservado estados de pago de 30-VIII-1515 y 23-VII-1516 donde figura Andrés Morales como piloto de Su Majestad Fernando (colección Muñoz, A 102, 103).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "La nota 2 es interpretación de Gaffarel (1907), no de Mártir: la división sería 'natural' (suelo, fertilidad, agua) y no política. Gaffarel dice que Ardouin la adoptó 'en Études sur l'histoire d'Haïti (1853-1860)'; no se comprobó en Ardouin (el buscador de la lente haitiana descargó Ardouin t. I y anotó que abre con la colonia francesa del siglo XVIII, así que podría tratarse de otra obra de Ardouin: POR VERIFICAR). Gaffarel traduce, como MacNutt, 'le frère de Nicolas Ovando' (l. 12975-12976) y 'petits états': ambos se apartan del latín de 1516 en esos dos puntos. Los documentos de 1515-1516 (colección Muñoz) atestiguan a Morales como piloto real, pero no el contenido de su descripción. No hay prueba de que Gaffarel viera el original de Morales. Las citas unen sílabas de fin de línea del OCR («nou-velle»); el texto francés del pasaje se leyó completo en el djvu."
+  },
+  {
+   "titulo": "Las Casas, Historia de las Indias (lib. II, cap. XLI, t. 3 l. 6247-6256; y lib. I, cap. CLXVIII, t. 2 l. 12231-12233): el encargo de Ovando a Andrés de Morales y su descripción no hallada",
+   "autor": "Las Casas, Bartolomé de",
+   "anio": "c.1527-1561 (ed. 1875-76)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://raw.githubusercontent.com/GITenberg/Historia-de-las-Indias-vol-3-de-5_53171/master/53171-0.txt",
+   "urls_alternativas": [
+    "02-fuentes/textos/gutenberg/lascasas-historia-indias-t3.txt (copia local; las líneas citadas son de este archivo)",
+    "02-fuentes/textos/gutenberg/lascasas-historia-indias-t2.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Testigo en Santo Domingo (conoció personalmente a Morales) y lector de papeles oficiales, pero confiesa que no pudo ver la descripción y su cifra de 'cinco reyes' es una síntesis propia.",
+   "proveniencia": "Las Casas llegó a La Española en 1502 (según el registro) y escribió la Historia entre c. 1527 y 1561; conoció a Morales ('que yo bien cognoscí', t. 2 l. 12232), a quien cita como testigo en el pleito del Almirante contra el Fiscal, y sitúa el encargo de Ovando 'en estos días', en el tramo que acaba 'por este tiempo, que era el año de 508'.",
+   "extractos": [
+    {
+     "ubicacion": "lib. II, cap. XLI, t. 3 l. 6247-6254 del txt local",
+     "cita_original": "el Comendador Mayor mandó á un piloto llamado Andrés de Morales ... que anduviese todos los rincones desta isla y pusiese por escripto cuántos rios, y cuántas sierras, y cuántos montes, y cuántos valles, con la dispusicion de cada uno, que en ellos hallase. No pude ver yo esta descripcion",
+     "traduccion": "El comendador mayor (Ovando) mandó a un piloto llamado Andrés de Morales que recorriera todos los rincones de la isla y pusiera por escrito cuántos ríos, sierras, montes y valles había, con la disposición de cada uno. Yo no pude ver esta descripción.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "lib. II, cap. XLI, t. 3 l. 6253-6256 del txt local",
+     "cita_original": "Pienso que la terná Alonso de Sancta Cruz, cosmógrafo, vecino de Sevilla, porque destas cosas tiene en su poder hartas. Acordó tambien por este tiempo, que era el año de 508",
+     "traduccion": "Pienso que la tendrá Alonso de Santa Cruz, cosmógrafo de Sevilla. Por este tiempo, que era el año de 1508, el comendador mayor acordó también enviar a descubrir Cuba.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "lib. I, cap. CLXVIII, t. 2 l. 12231-12233 del txt local (a propósito del pleito colombino)",
+     "cita_original": "un testigo que se llamó Andrés de Morales, que yo bien cognoscí, principal piloto y viejo en estas Indias, vecino desta ciudad de Sancto Domingo",
+     "traduccion": "un testigo llamado Andrés de Morales, a quien conocí bien, piloto principal y viejo en estas Indias, vecino de Santo Domingo.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Apologética, cap. CXCVII, t. 5 l. 13444-13447 del txt local",
+     "cita_original": "no supe, cuando lo pudiera saber, si este nombre Higuanamá fué propio de aquella Reina ó comun de los reyes de aquel reino",
+     "traduccion": "No supe, cuando pude saberlo, si el nombre Higuanamá era propio de aquella reina o común de los reyes de aquel reino. [Relevante para identificar a la cacica 'Isabel de Iguanamá' del repartimiento de 1514, ver F-1590.]",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0006",
+   "notas": "HECHO (independiente de Mártir): en 1508 Ovando encargó a Morales una descripción de 'ríos, sierras, montes y valles' de la isla; Las Casas no menciona provincias ni reinos en ese encargo y declara que no logró ver el escrito. Por tanto (a) la fecha de 1508 de la descripción de Morales tiene respaldo en Las Casas, (b) lo que Las Casas dice que Morales escribió es geografía física, y (c) la división en cinco provincias de Mártir/Julián es lo que Mártir dice haber recibido de Morales, sin que ningún documento de 1508 la corrobore. CONTRASTE con la lista de Las Casas de 'cinco reyes y cinco reinos' (lib. III cap. X, t. 3 l. 11645-11648; y Apologética cap. XX, F-0903): las unidades son distintas (Marién, Vega Real/Maguá, Maguana, Xaraguá, Higüey frente a Caizcimú, Huhabo, Cahibo, Bainoa, Guaccayarima); coincide el número. Para Las Casas Higüey es reino aparte y 'no se tenía cuenta con esta provincia de Higüey' (t. 3 l. 3197-3198); en Morales/Mártir es un cantón de Caizcimú. Tabla comparativa de las cuatro listas primarias: Morales/Mártir (1514-1516): Caizcimú, Huhabo, Cahibo, Bainoa, Guaccayarima [provincias geográficas]; Las Casas (c. 1550-1561): Marién, Vega Real/Maguá, Maguana, Xaraguá, Higüey [reinos, con 'otros infinitos grandes señores' sujetos]; Oviedo, Historia general (1535-1548): Guarionex, Caonabo, Behechio, Goacanagari, Cayacoa [personas]; Oviedo, Sumario (1526): 'dos reyes grandes', Caonabo y Guarionex [personas]."
+  },
+  {
+   "titulo": "Herrera y Tordesillas, Historia general de los hechos de los castellanos, Década I, lib. VI, cap. [XVIII, lectura incierta del OCR]: el encargo a Andrés de Morales",
+   "autor": "Herrera y Tordesillas, Antonio de",
+   "anio": "1601",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/historiagenerald12herr/historiagenerald12herr_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronista mayor que compila a Las Casas; en este pasaje coincide con él casi a la letra y el OCR a dos columnas con s larga obliga a normalizar.",
+   "proveniencia": "Antonio de Herrera, cronista mayor de Indias, imprime la Década I en Madrid en 1601 (portada de la copia de archive.org). Para este pasaje sigue el contenido de la Historia de Las Casas (t. 3 lib. II cap. XLI) sin nombrarla.",
+   "extractos": [
+    {
+     "ubicacion": "Década I, lib. VI, cap. [XVIII] (l. 26424-26440 del djvu; OCR normalizado de dos columnas)",
+     "cita_original": "En estos días el Comendador mayor mandó a Andrés de Morales Piloto de mucha experiencia, que anduviese todos los rincones de la Isla, y los pusiese por escrito no dejando Monte, Río, Valle, ni Sierra, que no notase con la disposición que en cada uno hallase",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "misma página (l. 26437-26441 del djvu; OCR normalizado)",
+     "cita_original": "porque ponerla tan por menudo en esta historia, como Andrés de Morales la hizo sería cosa muy prolija, se dirá lo que bastare para entender lo necesario desta Isla en la descripción general",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0904",
+   "notas": "Herrera repite el contenido del encargo (monte, río, valle, sierra; nada político) pero no reproduce las cinco provincias en ninguna parte del texto (búsqueda de Caizcimú, Huhabo, Bainoa y Guaccaiarima, con variantes ortográficas, sin resultados en el djvu de la Década I). Su 'como Andrés de Morales la hizo' sugiere que conocía el escrito o su fama, pero no lo prueba: es dependencia de Las Casas, no testigo independiente [dependencia no demostrada más allá del parecido textual]. El número de capítulo no se leyó con seguridad en el OCR ('Cap, xv ni'). Cabecera: «Década I. Libro VI». Las citas son lectura normalizada del OCR de dos columnas (s larga y guiones de fin de línea resueltos); no se cotejaron con la imagen."
+  },
+  {
+   "titulo": "Repartimiento de la Isla Española (1514), en CODOIN t. I (Madrid, 1864): totales por villa de caciques, naborías y personas de servicio, y comprobación aritmética",
+   "autor": "Ibáñez de Ibarra, Pero; Alburquerque, Rodrigo de; Mosquera, Juan; Arce, Alonso de (escribanos); Pacheco, J. F.; et al. (eds.)",
+   "anio": "1514 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/download/coleccindedocu01cruoft/page/n196_w1200.jpg (p. 191)",
+    "https://archive.org/download/coleccindedocu01cruoft/page/n213_w1200.jpg (p. 208)",
+    "https://archive.org/download/coleccindedocu01cruoft/page/n104_w1200.jpg (p. 99)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Recuento nominal oficial por villa, redactado por los repartidores reales ante dos escribanos; solo cuenta personas 'de servicio' (excluye niños y viejos) y la edición de 1864 imprime seis totales que no suman sus partes.",
+   "proveniencia": "Recuento y reparto ejecutado por Rodrigo de Alburquerque y el licenciado Pero Ibáñez de Ibarra desde el 15-VII-1514 (primer párrafo del documento); los escribanos Juan Mosquera y Alonso de Arce asientan villa por villa los caciques, naborías de casa, viejos y niños; copia del AGI impresa en la CODOIN t. I (1864). Una búsqueda web resume que la instrucción real a los repartidores es de 4-X-1513 (Valladolid) [POR VERIFICAR: no se leyó la instrucción]. Documenta 1514, no 1492.",
+   "extractos": [
+    {
+     "ubicacion": "«Repartimiento de la Isla Española», encabezado (l. 1951-1956 del djvu)",
+     "cita_original": "llegados los dichos señores repartidores á la dicha Isla Española, á la ciudad de Santo Domingo, que fué á quince dias del mes de julio de mili é quinientos é catorce años, estando en Cabildo la Justicia é regidores",
+     "traduccion": "Llegados los repartidores a Santo Domingo el 15 de julio de 1514, ante el cabildo.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Concepción de la Vega (l. 2277-2283 del djvu, ≈ p. 58)",
+     "cita_original": "se halló que tenían dos mil é ochenta é dos personas de servicio con ciertos caciques ..., é que en las dichas naborías se hallaron que habia ochocientos é cuarenta é dos personas de servicio, sin los niños é viejos que son por todos los dichos indios ó naborías dos mil é novecientos é veinte ó cuatro personas de servicio",
+     "traduccion": "Caciques: 2.082 personas de servicio; naborías: 842; total sin niños ni viejos: 2.924. [El texto impreso dice 'estas dichas naborías' donde por la cuenta debe decir 'caciques': 2.082 + 842 = 2.924.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Santiago (l. 3315-3321 del djvu, ≈ p. 81)",
+     "cita_original": "en los cuales dichos caciques se halló que tenian mili é ciento é noventa ó nueve personas de servicio, é en las dichas naborías mili é veinte é cuatro personas de servicio, sin los niños é viejos, que son por todos los dichos indios é naborías dos mili é doscientos é veinte é tres personas de servicio",
+     "traduccion": "Caciques 1.199; naborías 1.024; total 2.223 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Puerto de Plata (l. 4150-4154 del djvu, p. 99; cotejada con la imagen del escaneo)",
+     "cita_original": "se halló que tenia doscientas é sesenta é siete personas de servicio, é en las naborías de casa trescientas é diez personas de servicio, sin los niños é viejos que son por todos los dichos indios é naborías quinientas é ochenta é siete personas de servicio",
+     "traduccion": "Caciques 267; naborías 310; total impreso 587 (la suma de las partes da 577: diferencia de 10).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Santo Domingo (l. 4494-4503 del djvu, pp. 106-107)",
+     "cita_original": "los cuales dichos caciques se halló que tenían cuatro mil doscientas é trece personas de servicio, é en las dichas naborías mili é setecientas é sesenta personas de servicio, sin los niños é viejos, que son por todos los dichos indios cinco mil é novecientos é ochenta é tres personas de servicio",
+     "traduccion": "Caciques 4.213; naborías 1.760; total impreso 5.983 (la suma da 5.973: diferencia de 10). [El OCR lee 'millé' por 'mil é' en 4.213.]",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Salvaleón de Higüey (l. 6260-6265 del djvu, ≈ p. 143)",
+     "cita_original": "en los cuales dichos caciques se halló que tenian novecientas é trece personas de servicio, é en las dichas naborias doscientas é ochenta é cinco personas de servicio, sin los niños é viejos que son por todos los dichos indios ó naborias mili ó ciento é noventa é ocho personas de servicio",
+     "traduccion": "Caciques 913; naborías 285; total 1.198 (suma exacta).",
+     "afirmaciones": [
+      "A-024",
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Azua (l. 6648-6653 del djvu, ≈ p. 152)",
+     "cita_original": "en los cuales dichos caciques se hallé que tenían seiscientos é setenta é seis personas de servicio, é en las dichas naborias ciento é treinta é siete personas de servicio, sin los niños é viejos, que son por todos los dichos indios é naborias ochocientas é trece personas de servicio",
+     "traduccion": "Caciques 676; naborías 137; total 813 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Buenaventura (l. 7010-7016 del djvu, ≈ p. 160)",
+     "cita_original": "los cuales dichos caciques se hallaron que tenian mil é setenta é tres personas de servicio, é en las dichas naborias cuatrocientas é cincuenta personas de servicio sin los niños é viejos, que son por todos los dichos caciques é indios é naborias mili é quinientas é trece personas de servicio",
+     "traduccion": "Caciques 1.073; naborías 450; total impreso 1.513 (la suma da 1.523: diferencia de 10).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Ibonao (l. 7613-7618 del djvu, ≈ p. 172)",
+     "cita_original": "entre los cuales dichos caciques se halló que tenian setecientas é diez é nueve personas de servicio, é que las dichas naborias trecientas é treinta é seis personas de servicio, sin los niños é viejos, que son por todos los dichos indios é naborias mili é cincuenta é cinco personas de servicio",
+     "traduccion": "Caciques 719; naborías 336; total 1.055 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Puerto Real (l. 8036-8042 del djvu, ≈ p. 180)",
+     "cita_original": "en los cuales dichos caciques se halló que tenían quinientas é cuarenta personas de servicio, é en las dichas naborías doscientas é noventa é nueve personas de servicio sin los niños é viejos que son por todos los dichos indios é naborías ochocientas é treinta é nueve personas de servicio",
+     "traduccion": "Caciques 540; naborías 299; total 839 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Lares de Guahaba (l. 8428-8433 del djvu, p. 191; cotejada con la imagen del escaneo)",
+     "cita_original": "se hallaron que tenian doscientas é sesenta é seis personas de servicio, é en las dichas naborias se hallaron doscientas é sesenta é una personas de servicio, sin los niños é viejos, que son todos los dichos indios é naborias cuatrocientas é sesenta é siete personas de servicio",
+     "traduccion": "Caciques 266; naborías 261; total impreso 467 (la suma da 527: diferencia de 60).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "San Juan de la Maguana (l. 8655-8660 del djvu, ≈ p. 195)",
+     "cita_original": "los cuales dichos caciques se hallaron que tenian mil é ciento siete personas de servicio, é en las dichas naborias cuatrocientas é veinte é dos porsonas de servicio, sin los niños é viejos que en ellos se hallaron, que son por todos los dichos indios é naborias mil é quinientas é veinte é nueve personas de servicio",
+     "traduccion": "Caciques 1.107; naborías 422; total 1.529 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Vera Paz (l. 9183-9190 del djvu, p. 208; cotejada con la imagen del escaneo)",
+     "cita_original": "se halló que tenían quinientas é dos personas de servicio, é en las dichas naborías setecientas é catorce personas de servicio, sin los niños é viejos, que son por todos los dichos indios é naborías mil é doscientas é sesenta é seis personas de servicio",
+     "traduccion": "Caciques 502; naborías 714; total impreso 1.266 (la suma da 1.216: diferencia de 50).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Salvatierra de la Sabana (l. 9680-9685 del djvu, ≈ p. 219)",
+     "cita_original": "se halló que tenian seiscientas é noventa é dos personas de servicio, é en las dichas naborías se hallaron doscientas é cuatro personas de servicio, sin los niños é viejos, que son por todos los dichos indios é naborías novecientas personas de servicio",
+     "traduccion": "Caciques 692; naborías 204; total impreso 900 (la suma da 896: diferencia de 4).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Villa Nueva de Yaquimo (l. 10005-10010 del djvu, ≈ p. 225)",
+     "cita_original": "los cuales dichos caciques se halló que tenian ochocientas é siete personas de servicio, é en las dichas naborias doscientas é treinta é dos personas de servicio, sin los viejos é niños que en ellos se hallaron, que son por todos los dichos indios ó naborias mil é treinta c nueve personas de servicio",
+     "traduccion": "Caciques 807; naborías 232; total 1.039 (suma exacta).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Higüey (l. 6304-6307 del djvu)",
+     "cita_original": "se le encomendó la dicha cacica Isabel de Iguanamá con cincuenta naborias de servicio, en que está el nitayno Pedro Capitán, que solía servir á Beatriz González",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Higüey (l. 6329-6332 del djvu)",
+     "cita_original": "se le encomendó treinta é siete personas de servicio en la cacica doña María de Higuey, en que entran el capitán del piloto é su gente",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "Concepción (l. 2392-2394 del djvu)",
+     "cita_original": "Encomendósele mas el cacique Antonio Descebar del Marien, con veinte é dos personas de servicio: hombres once, é mujeres once.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-024",
+    "A-021"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-1590",
+   "notas": "CÁLCULO PROPIO sobre la transcripción de la CODOIN (Python; no es una cita): el repartimiento tiene 14 villas y los totales impresos suman 22.336 personas de servicio (excluidos niños y viejos); los subtotales de caciques suman 15.056 y los de naborías 7.276, es decir 22.332 por las partes (diferencia de -4 entre la suma de partes y la suma de totales impresos). Ocho villas cuadran exactamente (Concepción, Santiago, Higüey, Azua, Ibonao, Puerto Real, San Juan de la Maguana, Villa Nueva de Yaquimo) y seis no; diferencia = suma de partes menos total impreso: Puerto de Plata -10, Santo Domingo -10, Buenaventura +10, Lares de Guahaba +60, Vera Paz -50, Salvatierra de la Sabana -4. Tres de las seis (Puerto de Plata, Lares de Guahaba, Vera Paz) se cotejaron contra la imagen de la edición de 1864 y el error es del impreso, no del OCR; no se sabe si está en el original del AGI [POR VERIFICAR]. RESULTADO: 22.336 coincide con una de las tres cifras que circulan (22.336, 26.189, 26.334): es la suma de los totales por villa que imprime la edición de 1864 [VERIFICADO: cálculo propio], y es una COTA INFERIOR de la población indígena de 1514 porque excluye niños y viejos. Las cifras 26.334 y 26.189 (y 'algo más de 26.000' de Arranz, vía M01-N55) no se reproducen: un recuento automático parcial de los viejos y niños que el texto lista cacique por cacique da al menos 3.021 (viejos 1.538, niños 1.483; Higüey no los desglosa y el parser pierde entradas por OCR), de modo que 22.336 + 3.021 = 25.357 es un mínimo del total con viejos y niños; 26.334 exigiría ~3.998: es compatible pero [POR VERIFICAR]. CACIQUES: el recuento automático de entradas 'cacique/cacica ... con N personas de servicio' da unas 407-415 entradas (sin deduplicar nombres ni encomenderos), frente a 362 caciques de Livi-Bacci 2006 (reconstrucción suya) y 401 de Herrera Malatesta vía Moya Pons 1986: orden de magnitud compatible con ambas; no se resuelve cuál es la cuenta correcta sin una tabla manual por cacique (tarea de Fase 3). Media aproximada: 15.056 / (362 a 407) = 37 a 42 personas de servicio por cacique. NO SE REPLICÓ la Tabla 2 de Livi-Bacci (Concepción 949 hombres / 786 mujeres / 217 niños): mi parser, que pierde entradas por OCR, recupera 689 / 548 / 157 para 27 entradas con hombres, mujeres y algún niño, es decir un subconjunto; ni confirma ni refuta. HIGÜEY (A-021): en 1514 los 913 'de caciques' de la villa de Higüey se reparten en torno a dos cacicas principales, doña María de Higüey e Isabel de Iguanamá, compartidas por muchos encomenderos; el nombre 'Iguanamá' recuerda la reina 'Higuanamá' de Las Casas (Apologética cap. XX y CXCVII), pero Las Casas mismo duda si era nombre propio o título (t. 5 l. 13444-13447): identificación [POR VERIFICAR]. NEGATIVO: la búsqueda en el OCR de los nombres Guarionex, Caonabo, Behechio, Guacanagarí, Cotubanamá, Anacaona, Mayobanex y 'Xaragua' da 0 resultados en los ~280.000 caracteres del repartimiento; 'del Marien' aparece 3 veces (caciques Antonio Descebar, Cristóbal y Baraona 'del Marien'), 'Maguana' 2 y 'Higuey' 22: Marién figura como etiqueta de origen de varios caciques distintos, no como un solo reino. Estos conteos dependen del OCR. F-1590 y F-0011 son el mismo documento. NORMALIZACIÓN DE LAS CITAS: son lectura del texto impreso a partir del OCR de archive.org (se unen sílabas de fin de línea y se corrigen errores evidentes de OCR como «dicl^os», «hallé» por «halló», «mili/mil», «ó/é»); solo las tres páginas indicadas se cotejaron con la imagen. Las líneas son las del djvu descargado (24.850 líneas); las páginas con ≈ son aproximadas por las cabeceras de página del OCR."
+  },
+  {
+   "titulo": "Repartimiento de Alburquerque (1514): copia del AGI impresa en la CODOIN t. I (Madrid, 1864); ver F-1590 (mismo documento)",
+   "autor": "Ibáñez de Ibarra, Pero; Alburquerque, Rodrigo de",
+   "anio": "1514 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://archive.org/download/coleccindedocu01cruoft/coleccindedocu01cruoft_djvu.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el mismo documento que F-1590 (la CODOIN t. I imprime la copia del AGI); la fiabilidad es la de F-1590.",
+   "proveniencia": "Ver F-1590.",
+   "extractos": [
+    {
+     "ubicacion": "14 villas, suma de totales impresos (cálculo sobre l. 2277-10010 del djvu)",
+     "cita_original": "sin los niños é viejos, que son por todos los dichos indios é naborías ... personas de servicio",
+     "traduccion": "Fórmula repetida en cada una de las 14 villas del repartimiento; la suma de los 14 totales impresos es 22.336 personas de servicio (ver F-1590).",
+     "afirmaciones": [
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-024"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "F-0011",
+   "notas": "RESUELVE F-0011 (acceso archivo-fisico a texto-completo-en-linea): las cifras que la nota de F-0011 atribuía a Arranz Márquez 1991 (26.334; también 22.336 y 26.189) se contrastan en F-1590: 22.336 es la suma de los totales por villa de la edición de 1864; 26.334 y 26.189 no se reproducen. Se propone fusionar F-0011 con F-1590 en el registro (misma obra, misma URL)."
+  },
+  {
+   "titulo": "The Depopulation of Hispanic America after the Conquest (Population and Development Review 32(2), junio de 2006; PDF de prueba del autor)",
+   "autor": "Livi-Bacci, Massimo",
+   "anio": "2006",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://labdisia.disia.unifi.it/livi/pubblicazioni/depopulation-of-hispanic-america.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo revisado por pares de un demógrafo que ha leído a Arranz Márquez y resume sus propios resultados de HAHR 2003; las cifras de 1514 son reconstrucción suya sobre el repartimiento, no una cita textual del documento.",
+   "proveniencia": "Livi-Bacci (Univ. de Florencia, sitio del Dipartimento di Statistica) resume el debate sobre la despoblación de las Américas y vuelve sobre La Española con el repartimiento de 1514 como único recuento casi censal; es la fuente en inglés que da 362 caciques y la Tabla 2. El PDF es una prueba de imprenta (la cabecera dice 'XXX-XXX'); la paginación citada es la de la prueba.",
+   "extractos": [
+    {
+     "ubicacion": "p. 13 de la prueba (texto principal)",
+     "cita_original": "The total number of caciques, according to my own reconstruction, was 362, whose people were assigned to 498 encomenderos, indicating that a considerable number of cacicazgos ... were redistributed among two or more masters (Arranz Márquez 1991).",
+     "traduccion": "El número total de caciques, según mi propia reconstrucción, fue 362, cuya gente se asignó a 498 encomenderos, lo que indica que muchos cacicazgos se repartieron entre dos o más amos.",
+     "afirmaciones": [
+      "A-021",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 14 de la prueba",
+     "cita_original": "Two of the 14 districts (Concepción and Puerto Plata) specify the number of men and women among the \"Indios de servicio\" belonging to each cacique.",
+     "traduccion": "Dos de los 14 distritos (Concepción y Puerto Plata) especifican el número de hombres y mujeres entre los 'indios de servicio' de cada cacique.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 14 de la prueba, Tabla 2",
+     "cita_original": "Concepción 949 men, 786 women, 217 children; Puerto Plata 128, 108, 34; Total 1,077, 894, 251 (ratio women to men 0.830; children to women 0.281)",
+     "traduccion": "Hombres, mujeres y niños de los caciques con desglose y al menos un niño: Concepción 949 / 786 / 217; Puerto Plata 128 / 108 / 34; total 1.077 / 894 / 251.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "nota 5, p. 29 de la prueba",
+     "cita_original": "The repartimiento (count) of 1514 enumerated 738 encomenderos (Spanish settlers), corresponding to perhaps 3,000-4,000 people.",
+     "traduccion": "El repartimiento de 1514 enumeró 738 encomenderos, que corresponderían a unas 3.000-4.000 personas.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "nota 18, p. 30 de la prueba",
+     "cita_original": "Governor Ovando ordered a first repartimiento of the natives between 1503 and 1505. A new general repartimiento was ordered by the King in 1509 ... The documentation of these two repartimientos has been lost (see Arranz Márquez 2001).",
+     "traduccion": "Ovando ordenó un primer repartimiento entre 1503 y 1505 y el rey otro general en 1509; la documentación de ambos se ha perdido.",
+     "afirmaciones": [
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "nota 19, pp. 30-31 de la prueba",
+     "cita_original": "I concluded that the number of Tainos at Columbus's arrival could be placed between 200,000 and 300,000, with probabilities abruptly falling for estimates below 100,000 or over 400,000.",
+     "traduccion": "Concluí que el número de taínos a la llegada de Colón podía situarse entre 200.000 y 300.000, con probabilidades que caen bruscamente por debajo de 100.000 o por encima de 400.000.",
+     "afirmaciones": [
+      "A-024",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "nota 19, p. 31 de la prueba",
+     "cita_original": "Modern estimates of the contact population of the island range between a minimum of 60,000 and a maximum of 8 million, with the astonishing ratio of 1:133.",
+     "traduccion": "Las estimaciones modernas de la población de contacto van de un mínimo de 60.000 a un máximo de 8 millones, una razón de 1:133.",
+     "afirmaciones": [
+      "A-024",
+      "A-023",
+      "A-027"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Es un artículo distinto de F-0228 (HAHR 2003, bloqueado) y de F-1579 (Revista de Indias 2003); la nota 19 es el resumen del propio autor del resultado de 2003 (200.000-300.000 como moda; ver F-0228), por lo que sirve de segunda vía para A-024. HECHO: Livi-Bacci da 362 caciques 'según mi propia reconstrucción' (no 'cuenta del documento'), 14 distritos y 738 encomenderos; la cifra de 498 encomenderos para esos caciques es suya. INTERPRETACIÓN: los 362 son estimación de un autor que cuenta caciques únicos; el recuento de entradas del documento da cerca de 407 [ver F-1590 notas]. La Tabla 2 incluye solo caciques con hombres y mujeres especificados y al menos un niño. Páginas definitivas de la revista [POR VERIFICAR: el PDF no las trae]."
+  },
+  {
+   "titulo": "Española's Natives in the Account of Repartimiento of 1514-1515 (Etnograficheskoe obozrenie 2017, n.º 2, pp. 81-92)",
+   "autor": "Aleksandrenkov, Edward G.",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "ru",
+   "tradicion": "internacional",
+   "url": "https://eo.iea.ras.ru/en/article/10200/",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de revista especializada, pero solo se vio la ficha con resumen: el texto completo está en eLIBRARY.ru y no se leyó.",
+   "proveniencia": "Edward G. Aleksandrenkov analiza en Etnograficheskoe obozrenie (Moscú) las categorías de nativos del repartimiento de 1514-1515 ('indios del cacique', 'naborías de casa'); afiliación y metodología no consultadas.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-024"
+   ],
+   "modulos": [
+    "M01",
+    "M02"
+   ],
+   "id_existente": "",
+   "notas": "Solo ficha; el resumen confirma las categorías 'indios del cacique' y 'naborías de casa' del repartimiento. No contiene totales y no se leyó el artículo. Pista para M02 y para una lectura independiente del documento. El esquema de idiomas del JSON no prevé 'ru'; se usa 'ru'."
+  }
+ ]
+}

@@ -1,0 +1,1566 @@
+{
+ "lente": "haitiana",
+ "modulo": "M01",
+ "ronda": 2,
+ "fecha": "2026-10-06",
+ "busquedas_usadas": 22,
+ "busquedas_pendientes": [
+  "HathiTrust (catálogo y búsqueda de texto completo): Rouse 1939, Rainey 1941, Aubourg 1951 y números del Bulletin du Bureau d'ethnologie (403 desde esta máquina)",
+  "Bibliothèque haïtienne des Spiritains y Bibliothèque nationale d'Haïti (consulta física o portal propio): Aubourg 1951, Fouchard 1972 y 1984, Élie 1944-45, los cuatro folletos de Corvington no digitalizados, Maximilien 1943, Georges-Jacob 1941, Dehoux",
+  "dLOC por título: Georges-Jacob, L'Ethnie haïtienne (1941); Lorimer Denis, Une étape littéraire (1934); Duraciné Vaval, Histoire de la littérature haïtienne (1933): solo aparecen citados",
+  "Revue de la Société haïtienne d'histoire, de géographie et de géologie (1934-1950): Mangonès 1934 sobre 'Quisqueya'; reseñas de Price-Mars a Élie (oct. 1944, oct. 1945) y a Roumain (abril 1942, p. 54)",
+  "Hénock Trouillot, Les origines sociales de la littérature haïtienne (1962); Franck Fouché 1964; Odile Dupon-Gannier, Les Derniers Indiens des Caraïbes (tesis Bordeaux III, 1993; theses.fr)",
+  "Odette Roy Fombrun, L'Ayiti des Indiens (1992); Christophe Charles (prés.), Christophe Colomb, les Indiens et leurs survivances en Haïti (1992); participantes y contenido de las Actes du forum 2013",
+  "Repositorio de la UEH y Chantiers: memorias de la Faculté d'ethnologie sobre arqueología precolombina (WebSearch sin resultados útiles)",
+  "Prensa haitiana (Le Nouvelliste, Le National, AlterPresse, Loop Haïti, Haïti Libre, AyiboPost) sobre Schroeder 2018, Fernandes 2021 (Diale 1) y Sirak 2026: dos búsquedas sin resultados; falta la consulta en los buscadores internos de cada diario",
+  "Programas y manuales actuales del MENFP (Histoire de mon pays, Haïti, vol. 1; programa de 6.º año fundamental) por tablas de contenido en línea",
+  "Duke Radio Haïti: escuchar F-0118 (Savalou E) y buscar otros programas de Entre Nous con 'Indiens/Taïnos/Kasik'",
+  "Max Paul 1990, 'El Desarrollo de las investigaciones arqueológicas y etnológicas en Haití' (Fundación García Arévalo; Memoria del Primer Encuentro del Caribe Amerindio, 1988)",
+  "dLOC: Le Matin 30-XI-1983 (discurso de Jean-Claude Duvalier ante la estatua del Indio desconocido) y Le Nouvelliste de 28-30 de noviembre de 1983",
+  "Beaubrun Ardouin, Géographie de l'île d'Haïti (1832, 1856, 1864): Léger 1907 y Hall 1929 la citan; no se localizó edición en línea",
+  "Brill/NWIG: Geggus, 'The naming of Haiti' (F-0183): 403 por WebFetch, navegador integrado y DOI",
+  "Presupuesto: quedaron sin gastar 58 de las 80 búsquedas WebSearch previstas; el descubrimiento principal se hizo con la búsqueda de texto completo de dLOC (unas 40 consultas), la API de catálogo de archive.org, Gallica SRU, Open Library y Persée"
+ ],
+ "lagunas": [
+  "TEXTOS NO LOCALIZADOS (silencio documental parcial, no falta de esfuerzo): Aubourg 1951 (Haïti préhistorique, 79 pp.); la serie del Bulletin du Bureau d'ethnologie (ningún número digitalizado en dLOC, Gallica, archive.org ni Persée); Fouchard 1972 y su artículo de 1984; Mangonès 1934; Maximilien 1943; Roumain 1942-43; Élie 1944-45; cuatro de los cinco folletos de Corvington; el estudio de Dehoux (existencia dudosa según Bissainthe); Rouse 1939/1964 (solo préstamo en archive.org) y Rainey 1941 (solo catálogos). Lo que sí se pudo leer: la tradición haitiana de 1892 a 1956 en dLOC (Rouzier, Justin, Gentil-Chauvet, Janvier, Léger, Mangonès-Maximilien, Corvington, Duvivier, Bissainthe, Romain, Aristide) y las síntesis de 1994-2005 (Hoffmann, Charlier-Doucet, Beauvoir-Dominique).",
+  "A-028 y la genómica: ninguna voz académica, institucional ni de prensa haitiana sobre el ADN antiguo (Schroeder 2018, Nägele 2020, Fernandes 2021, Sirak 2026) ni sobre la inferencia de población efectiva (A-025 y A-026); dos búsquedas en francés e inglés sin resultados. El dato haitiano más cercano es de 1946: Romain cuenta 3 cráneos de naturales de Quisqueya en las colecciones haitianas. La corrección de la ronda 1 (Fernandes 2021 incluye 2 individuos de Diale 1, Haití) no tiene eco localizado en la prensa haitiana.",
+  "Cifras de población indígena en la tradición haitiana: 1 millón (Placide-Justin 1826, Léger 1907, Dorsainvil 1934, Bellegarde 1953, y Moreau según Aristide 1956), 2 millones (Madiou 1847 'au dire des historiens espagnols', Rouzier 1892, Janvier 1905, Bellegarde y Lhérisson 1906) y 400.000 (Hoffmann 1994); todas derivan de cronistas (Las Casas) o de Charlevoix y Placide-Justin; ninguna cita a Cook y Borah, Henige o Livi-Bacci. Hoffmann 1994 es el único que cita la literatura moderna (Moya Pons 1986, d'Ans 1987, Rouse 1992) y da la horquilla 370.000-8.000.000.",
+  "Cacicazgos (A-021): nueve textos haitianos de 1826 a 1941 repiten los cinco cacicazgos (Marién, Maguá, Maguana, Jaragua/Xaragua, Higüey) y para triangular cuentan como una o dos cadenas de copia (Charlevoix -> Placide-Justin -> Nau -> Justin 1895, Léger, Janvier, Corvington; Rouzier 1892 -> Gentil-Chauvet 1896 -> Price 1910 -> Dorsainvil 1934 [esto último no comprobado]). Ninguno discute la crítica arqueológica sobre el número y la jerarquía de los cacicazgos; la única voz haitiana con base arqueológica es Beauvoir-Dominique 2005 ('formes d'organisation les plus complexes' en el oeste) y, ya en M01, Sony Jean 2019.",
+  "Paywalls: Le Nouvelliste (Domerçant 2008, Sony Jean 2012, Thomas 2020) exige iniciar sesión; no se creó ninguna cuenta; solo se leyó el avance.",
+  "Persée: los PDF devuelven 403 a curl y al navegador integrado; se leyó el texto página a página por el endpoint /doc/page/ (Hoffmann 1994 completo; reseña de Petitjean-Roget salvo el final; Viré 1940 solo la p. 108).",
+  "UEH, Chantiers, programas del MENFP y fuentes en criollo: sin resultados útiles en WebSearch; la ficha en criollo ya registrada (Smithsonian 2004) sigue siendo la única en kreyòl.",
+  "Siguen bloqueados: Brill (Geggus 1997, F-0183), jbe-platform (Hoffmann, 'Haitian Sensibility'), TUM (Anubis), HathiTrust (403), Emory ETD (CAPTCHA, ronda 1)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Xis / hios (cacicazgo, 'royaume-cacicat')",
+   "tradicion": "haitiana",
+   "nota": "Rouzier 1892 (p. 89: «royaumes-cacicats, ou xis»), Gentil y Chauvet 1896 (p. 138: «royaumes appelés xis ou hios») y Price 1910 (p. 43, que copia a Gentil y Chauvet) glosan el cacicazgo con una palabra india 'xis'/'hios' que no aparece en Placide-Justin 1826, Nau ni Léger [POR VERIFICAR el origen]. Añadir como variante haitiana de 'cacicazgo'."
+  },
+  {
+   "termino": "Nytaino / nytainos (gobernador de provincia bajo el cacique)",
+   "tradicion": "haitiana",
+   "nota": "Rouzier 1892 (pp. 88-89): «des nytainos, ou gouverneurs de provinces, qui lui payaient chaque année une redevance de poudre d'or, de cohiba et de coton». Dorsainvil 1934 (ronda 1) usa 'nytaino'. Es la forma haitiana de 'nitaíno', rango intermedio de la jerarquía de los cacicazgos (relevante para A-021)."
+  },
+  {
+   "termino": "Chémis (cemíes) y Chémès (pueblo)",
+   "tradicion": "haitiana",
+   "nota": "Mangonès y Maximilien 1941 (p. 16) llaman «chémis (dieux indiens)» a las imágenes de las grutas, lo que apoya la derivación 'chemès < zemí' [POR VERIFICAR] propuesta en la ronda 1; Vilaire (1919, cit. por Hoffmann p. 15) escribe 'chémis (idoles pré-colombiennes)'; Viré 1940 (p. 108) y Dorsainvil 1934 usan 'Chémès (Arawacs)' como etnónimo. Duvivier 1941 (PDF p. 26): «les Tainos, nom réservé aux Arawaks émigrés dans les Antilles». Ampliar la fila 'Pueblo indígena de la isla en 1492' del glosario con 'Chémès/Chémis', 'Aborigènes', 'Indiens' y 'Arawaks'."
+  },
+  {
+   "termino": "Marcorix (Fouchard 1972)",
+   "tradicion": "haitiana",
+   "nota": "Según la reseña de Petitjean-Roget (F-0891), Fouchard llama 'marcorix' a la lengua dominante de los taínos o arawacos de la isla; en la lingüística de Granberry y Vescelius (F-0702) el macorix es una lengua distinta [POR VERIFICAR contra el libro]. Caso de término cargado con otra referencia."
+  },
+  {
+   "termino": "Jour de l'Indien et de la Culture Nationale (28-XI; decreto del 11-XI-1983)",
+   "tradicion": "oficial-haiti",
+   "nota": "Ahora verificado en Le Moniteur n.º 79-A (14-XI-1983, pp. IX-X): el art. 1 consagra el 28 de noviembre; los considerandos hablan de 'l'ethnie indienne' y de 'un des affreux génocides de l'Histoire'. Hoffmann 1994 (p. 32) añade que la fecha es el aniversario del ataque de Caonabo al fuerte de la Navidad y que se erigió la estatua del 'Indien inconnu' (Ludovic Bonze). Cierra el [POR VERIFICAR] de la ronda 1."
+  },
+  {
+   "termino": "«Génocide des Indiens» / «ethnocide originel» (uso haitiano)",
+   "tradicion": "haitiana",
+   "nota": "El decreto de 1983 usa 'génocides' para los indios; Hoffmann 1994 habla de 'ethnocide' (p. 11: «L'histoire de l'Hispaniola s'ouvre par un ethnocide»; p. 33: «l'ethnocide originel»), dice que Madiou hace expiar «le génocide originel» (p. 26; el texto de Madiou, t. I, pp. viii-x, dice «la destruction des Indiens») y que Vastey «évoque le génocide des Indiens» (p. 25). Añadir a la entrada 'genocidio' del glosario: la denuncia de la destrucción de los indios es un tópico de la tradición haitiana desde la primera mitad del siglo XIX, y el Estado adoptó la palabra 'génocide' en 1983."
+  },
+  {
+   "termino": "Survivances indiennes / constante indienne / «lots démographiques indiens» (Zip-Zip, Viens-Viens)",
+   "tradicion": "haitiana",
+   "nota": "Tesis de que quedan núcleos de descendencia india en Haití: Élie 1944 (Zip-Zip de la Grande Rivière du Nord, Viens-Viens de Saltrou, mestizos de Kenscoff y Petit-Goâve), Maximilien 1943, Romain 1946, Lorimer Denis 1934 ('hérédité psychologique'); la rebaten Price-Mars, Aristide 1956 ('de telles affirmations sont osées, parce qu'elles manquent de preuves') y Hoffmann 1994 ('l'affirmation n'a convaincu personne'). Es la versión haitiana de la tesis de descendencia taína, sin base genética."
+  },
+  {
+   "termino": "Armée des Incas / Gouvernement des Incas (1803)",
+   "tradicion": "haitiana",
+   "nota": "Beauvoir-Dominique 2005 (p. 181) dice que Fouchard halló una carta del general Capois con el membrete 'Armée des Incas' (4-VII-1803) y que Dessalines y Pétion organizaban el 'Gouvernement indigène' llamado 'des Incas' [la autora cita sin referencia exacta; POR VERIFICAR contra Fouchard]. Interesa a M06 y a la glosa de 'indigène'."
+  },
+  {
+   "termino": "Dominicanie (parte oriental de la isla)",
+   "tradicion": "haitiana",
+   "nota": "Gentil y Chauvet 1896 (p. 139) llaman 'la Dominicanie' a la parte oriental; Duvivier 1941 llama 'Haïti' a toda la isla y 'la partie haïtienne' al oeste; Justin 1895 (p. 3): «Haïti est aujourd'hui le nom officiel de la partie occidentale de l'île». Añadir como variantes en la fila 'Nombre de la isla'."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "L'élément indien dans la conscience collective des Haïtiens (Études créoles 17(1): 11-38)",
+   "autor": "Hoffmann, Léon-François",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.persee.fr/doc/ecreo_0708-2398_1994_num_17_1_1460",
+   "urls_alternativas": [
+    "https://www.persee.fr/doc/page/ecreo_0708-2398_1994_num_17_1_1460/ecreo_0708-2398_1994_num_17_1_T1_0012_0000/710"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico con aparato crítico de un especialista en literatura haitiana (Princeton) que inventaría la bibliografía haitiana sobre los indios y discute sus cifras; no es fuente primaria sobre 1492.",
+   "proveniencia": "Léon-François Hoffmann (Princeton University; estudioso de la literatura haitiana) publica en 1994 en Études créoles un panorama de cómo la intelectualidad haitiana ha pensado a los indios: historiadores (Madiou, Nau), manuales escolares, literatura (Chevry, Chauvet, Burr-Reynaud, Alexis, Métellus), ideólogos (Lorimer Denis) y política de Estado (decreto de 1983). Interés: historia de las ideas, no reconstrucción demográfica; escribe dos años después del Quinto Centenario. Fuente de primera mano para el corpus literario; para las cifras se apoya en Dupon-Gannier 1993, Moya Pons 1986, d'Ans 1987 y Rouse 1992.",
+   "extractos": [
+    {
+     "ubicacion": "p. 11",
+     "cita_original": "Leur nombre, estimé à 400 000 en 1492, ne dépassait plus quelque 500 personnes vingt-cinq ans plus tard.",
+     "traduccion": "Su número, estimado en 400.000 en 1492, ya no pasaba de unas 500 personas veinticinco años después (cifra sin base declarada en el texto; la nota 1 remite a Las Casas y a la horquilla moderna).",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "nota 1, p. 33",
+     "cita_original": "Les estimations modernes ne sont pas d'un grand secours, puisqu'elles oscillent entre un maximum peu vraisemblable de huit millions et un minimum de 370.000 âmes.",
+     "traduccion": "Las estimaciones modernas no ayudan mucho, pues oscilan entre un máximo poco verosímil de ocho millones y un mínimo de 370.000 almas.",
+     "afirmaciones": [
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "nota 1, p. 33",
+     "cita_original": "Sur les trois millions de naturels de l'île Espagnole que nous avons vus il n'y en a même plus deux cents aujourd'hui",
+     "traduccion": "De los tres millones de naturales de la isla Española que vimos, hoy ya no quedan ni doscientos (Las Casas, 1532, citado por Dupon-Gannier 1993, p. 338; Hoffmann no cita el original).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 12",
+     "cita_original": "seuls les quelque 20 % des Haïtiens qui ont fréquenté l'école ont peut-être acquis de nos jours, grâce aux manuels d'histoire d'Haïti, des connaissances rudimentaires sur les Chémès, Arawaks et Caraïbes.",
+     "traduccion": "solo el 20 % de los haitianos que han ido a la escuela tienen quizá hoy, gracias a los manuales de historia de Haití, conocimientos rudimentarios sobre los chemès, arawacos y caribes.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 12",
+     "cita_original": "Ces manuels s'inspirent des travaux des premiers historiens haïtiens, et plus particulièrement de Thomas Madiou, puisque l'autre grand ancêtre de l'historiographie haïtienne, Beaubrun Ardouin, dans ses Études sur l'histoire d'Haïti (1853) passe directement à la période française",
+     "traduccion": "Esos manuales se inspiran en los primeros historiadores haitianos, sobre todo en Thomas Madiou, pues Beaubrun Ardouin pasa directamente al período francés.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 12",
+     "cita_original": "Le premier Haïtien à avoir consacré un livre aux Indiens de l'Hispaniola est le baron Emile Nau. Son Histoire des caciques d'Haïti parut en préoriginale (et sous une forme légèrement romancée) dans le quotidien port-au-princien L'Union entre 1837 et 1839, puis en volume, toujours à Port-au-Prince, en 1855",
+     "traduccion": "El primer haitiano que dedicó un libro a los indios de La Española es el barón Émile Nau; su Histoire des caciques d'Haïti salió primero en el diario L'Union (1837-1839) y luego en volumen, en Port-au-Prince, en 1855.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 14",
+     "cita_original": "les habitants de l'île, semble-t-il, étaient en majorité des Taïnos et des Chémès, appartenant à l'ethnie Arawak, dont la langue n'avait rien à voir ni avec celles des Caraïbes, ni avec celle des Cigüayos et des esclaves Ciboneys",
+     "traduccion": "los habitantes de la isla, al parecer, eran en mayoría taínos y chemès, de etnia arawak, con una lengua que nada tenía que ver con la de los caribes ni con la de los ciguayos y los esclavos ciboneyes.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 14",
+     "cita_original": "Parmi les rares travaux à caractère scientifique dus à des chercheurs haïtiens, une monographie de Jacques Roumain intitulée Contribution à l'ethno-botanique pré-colombienne des Grandes Antilles en 1942, et un article du même auteur sur L'Outillage lithique des Ciboney d'Haïti l'année suivante.",
+     "traduccion": "Entre los escasos trabajos de carácter científico de investigadores haitianos: una monografía de Jacques Roumain (1942) y un artículo suyo sobre el utillaje lítico de los ciboney (1943).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 31",
+     "cita_original": "Ce postulat de psychologie collective génétique, selon laquelle des caratéristiques psychiques se transmettent organiquement à travers les phénotypes raciaux repose sur les théories de Gobineau et de Taine et n'a aucune valeur scientifique.",
+     "traduccion": "Ese postulado de psicología colectiva genética, según el cual rasgos psíquicos se transmiten orgánicamente a través de los fenotipos raciales, se apoya en Gobineau y Taine y no tiene valor científico (sobre la tesis de la herencia india de Lorimer Denis).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 32",
+     "cita_original": "Par décret du 11 novembre 1983, le régime duvaliériste déclara le 28 novembre (jour anniversaire de l'attaque de Fort Nativité par Caonabo) « Jour de l'Indien et de la Culture Nationale ».",
+     "traduccion": "Por decreto del 11 de noviembre de 1983 el régimen duvalierista declaró el 28 de noviembre (aniversario del ataque de Caonabo al fuerte de la Navidad) «Día del Indio y de la Cultura Nacional».",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 33",
+     "cita_original": "Peut-être parce que, étant donné la rapidité de l'ethnocide originel, revendiquer l'indianité ferait sourire.",
+     "traduccion": "Quizá porque, dada la rapidez del etnocidio original, reivindicar la indianidad haría sonreír (explicación de por qué la élite haitiana no se dice mestiza de indio, a diferencia de la dominicana).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Leído con el visor página a página de Persée (endpoint /doc/page/...; el PDF devuelve 403 a curl y al navegador integrado). Texto de las pp. 11-38 leído entero. Hallazgos: (1) fecha de la primera edición de Nau = 1855 (volumen) tras la prepublicación en L'Union 1837-39; (2) lista de la bibliografía haitiana sobre los indios: Nau 1855, Fouchard 1972, los cinco opúsculos de Corvington, Roumain 1942-43, Fombrun 1992 (L'Ayiti des Indiens), Ch. Charles 1992; (3) el propio Hoffmann califica de 'peu vraisemblable' el máximo de 8 millones y adopta 400.000; (4) la nota 4 cita a Maximilien 1943 (Cahiers d'Haïti) refutado por A. Aristide 1956. Sesgo: crítica literaria; la cifra de ~500 personas a los 25 años no lleva fuente y debe contrastarse con los repartimientos (F-1590); no comprobado aquí. Las citas conservan la ortografía del texto de Persée. Nacionalidad de origen del autor [POR VERIFICAR]: se clasifica como tradición haitiana por su objeto y por publicar dentro de los estudios haitianos."
+  },
+  {
+   "titulo": "L'art précolombien d'Haïti: catalogue de l'Exposition précolombienne organisée à l'occasion du IIIe Congrès des Caraïbes",
+   "autor": "Mangonès, Edmond; Maximilien, Louis",
+   "anio": "1941",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00089868/00001/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/AA/00/08/98/68/00001/AA00089868_00001.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Catálogo oficial de la primera exposición arqueológica haitiana, redactado por dos pioneros; testimonio fiable de lo que la élite ilustrada decía en 1941, no prueba de la sociedad de 1492.",
+   "proveniencia": "Edmond Mangonès (futuro alcalde de Port-au-Prince y miembro fundador del Bureau d'ethnologie) y el médico militar Dr. Louis Maximilien presentan en marzo de 1941, bajo el patrocinio del presidente Sténio Vincent, la exposición precolombina del III Congreso del Caribe; imprime la Imprimerie de l'État (500 ejemplares; 29 pp. y 62 láminas). La introducción (pp. 3-9) va firmada por Mangonès; el ensayo sobre los arawacos y el arte (hasta la p. 14) y las notas sobre Bassin Zim y la Roche Tampée por Maximilien. Interés: legitimar la arqueología como contribución haitiana a la etnografía americana y rectificar los prejuicios de los manuales. Primera mano: colecciones y observaciones de campo de Maximilien; para la historia de los indios depende de Nau, Washington Irving y los cronistas.",
+   "extractos": [
+    {
+     "ubicacion": "p. 3 (introducción de E. Mangonès)",
+     "cita_original": "L'Exposition précolombienne, organisée à l'occasion du IIIe Congrès des Caraïbes, est la première contribution haïtienne à l'Ethnographie américaine.",
+     "traduccion": "La Exposición precolombina, organizada con motivo del III Congreso del Caribe, es la primera contribución haitiana a la etnografía americana.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 4",
+     "cita_original": "toutes la population indienne de Haiti, anéantie, en témoigne",
+     "traduccion": "toda la población india de Haití, aniquilada, lo atestigua [sic: el OCR da 'toutes la'] (sin cifra).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. 12 (ensayo de L. Maximilien)",
+     "cita_original": "Les arowaks ont été jusqu'ici considérés comme une race qui nous serait étrangère",
+     "traduccion": "Los arawacos han sido considerados hasta ahora una raza que nos sería ajena.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 12",
+     "cita_original": "nos historiens habituellement les présentent comme des troglodytes au caractère mol et indolent, aux mœurs dissolues, sans aucune lueur de civilisation. Seul le Baron Nau leur a consacré un livre",
+     "traduccion": "nuestros historiadores los presentan habitualmente como trogloditas de carácter blando e indolente, de costumbres disolutas, sin ninguna luz de civilización; solo el barón Nau les dedicó un libro.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 12",
+     "cita_original": "Les premiers habitants de l'île ont préféré mourir exterminés dans des luttes féroces plutôt que de se plier à la servitude.",
+     "traduccion": "Los primeros habitantes de la isla prefirieron morir exterminados en luchas feroces antes que someterse a la servidumbre.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 14",
+     "cita_original": "une oligachie avec un cacique au sommet d'une noblesse composée de feudataires",
+     "traduccion": "una oligarquía con un cacique en la cúspide de una nobleza compuesta de feudatarios [sic: el OCR da 'oligachie'].",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 16",
+     "cita_original": "gravures représentant des chémis (dieux indiens)",
+     "traduccion": "grabados que representan chémis (dioses indios): 'chémi' = cemí/zemí, imagen divina (apoya la derivación de 'chemès/chemis' sugerida en la ronda 1).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 18",
+     "cita_original": "Les Indiens et les Africains ont vécu souvent ensemble en fuyant la servitude espagnole.",
+     "traduccion": "Los indios y los africanos vivieron a menudo juntos huyendo de la servidumbre española (sobre la gruta de Bassin Zim).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Texto leído del OCR de las 111 páginas de dLOC (descargadas de ufdcimages.uflib.ufl.edu; PDF de 179 MB no bajado). Las citas corrigen diacríticos y errores evidentes del OCR; donde el OCR dejó una forma dudosa se marca [sic]. El ensayo de Maximilien lleva la firma 'Docteur Louis Maximilien, Port-au-Prince, mars 1941'. Confusión de época: atribuye el 'taino' a la obra del P. Raymond Breton (que trabajó el caribe insular, no la lengua de La Española) [POR VERIFICAR el alcance de la frase]. Resuelve la referencia 'Mangonès y Maximilien 1941' del crítico: es un catálogo de exposición, no un estudio demográfico; no aporta cifras de población. Relata además (pp. 5-7) que los autores solicitaron al Smithsonian un programa de investigaciones y que siguieron Krieger, Perrygo y Parish (Peabody/Yale), Rainey y Rouse; que el P. Piacentini (Spiritain) había descrito antes la cultura aborigen de la Île à Cabrit, y que L. Kernizan y el propio Maximilien reunieron colecciones."
+  },
+  {
+   "titulo": "Deux caciques de Xaragua: Bohéchio et Anacaona (col. Lectures historiques)",
+   "autor": "Corvington, Hermann",
+   "anio": "194- (s.f.)",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00089851/00001/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/AA/00/08/98/51/00001/AA00089851_00001.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Opúsculo de divulgación histórica de un profesor haitiano, sin aparato crítico, apoyado en Nau, Charlevoix, Oviedo y Fernando Colón; vale como testimonio del relato haitiano de los años 1940, no como prueba de 1492.",
+   "proveniencia": "Hermann Corvington (jurista haitiano según las fichas de Bissainthe 1951 [POR VERIFICAR su cargo docente]) publica en Port-au-Prince, en la librería de Samuel Devieux, este folleto de 40 pp. dentro de la serie 'Lectures historiques' (la ficha de dLOC y Bissainthe 1951 lo fechan en los años 1940, sin año exacto; el hermano folleto sobre Caonabo es de 1944). Va dirigido a un público escolar y culto. Para el reino de Xaragua cita a Nau y a Charlevoix; no aporta fuente de primera mano sobre los indios. Digitalizado con fondos del Latin American Microform Project (LAMP).",
+   "extractos": [
+    {
+     "ubicacion": "p. 6",
+     "cita_original": "Il est regrettable que, durant les premiers temps de leur occupation militaire, les espagnols aient détruit les habitants d'Ayti, car l'histoire familiale, sociale et nationale de ces derniers, logée dans leur mémoire et transmise de génération en génération par les areytos, s'évanouit dans le même désastre.",
+     "traduccion": "Es lamentable que, en los primeros tiempos de su ocupación militar, los españoles destruyeran a los habitantes de Ayti, pues la historia familiar, social y nacional de estos, alojada en su memoria y transmitida de generación en generación por los areítos, se desvaneció en el mismo desastre.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 13",
+     "cita_original": "son royaume mieux situé que tous les autres Caciquats de l'île, les dépassait en étendue et en population.",
+     "traduccion": "su reino, mejor situado que todos los demás cacicazgos de la isla, los superaba en extensión y en población (afirmación comparativa, sin cifra ni fuente).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 15",
+     "cita_original": "Ce caciquat comprenait cinq provinces [...] Parmi les autres provinces, on comptait encore : le Guahaba, le Yaquino, la Yagua et le Cayaya.",
+     "traduccion": "Ese cacicazgo comprendía cinco provincias [...] entre ellas, además: Guahaba, Yaquino, Yagua y Cayaya (el OCR da 'Haniguayazo' para la primera).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 15",
+     "cita_original": "Le Xaragua, protégé au nord et à l'est, par les rivières de l'Artibonite et de la Neyba, borné à l'ouest et au sud par la mer, touchait à trois caciquats : le Marien, la Maguana et la Magua",
+     "traduccion": "El Xaragua, protegido al norte y al este por los ríos Artibonito y Neiba, limitado al oeste y al sur por el mar, lindaba con tres cacicazgos: Marién, Maguana y Maguá.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "pp. 15-16",
+     "cita_original": "le royaume de Béhéchio aurait été, au surplus, borné vers le sud-est par le caciquat du Higuey",
+     "traduccion": "el reino de Behechio habría estado además limitado al sureste por el cacicazgo de Higüey (con lo que nombra los cinco cacicazgos).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Texto leído del OCR de dLOC (44 páginas); el OCR es ruidoso: las citas corrigen diacríticos y guiones de línea. Es uno de los cinco opúsculos de Corvington (Caonabo 1944; Deux caciques de Xaragua; Guacanagaric; Guayacuya; Histoire humaine des aborigènes d'Haïti): solo este está digitalizado en dLOC (comprobado con búsquedas de texto completo por título y por los nombres de los caciques). Resuelve la parte 'tradición haitiana académica' de A-021: la lista de cinco cacicazgos y la estructura provincial del Xaragua siguen a Nau/Charlevoix, sin base arqueológica. Hermann Corvington [POR VERIFICAR: profesión exacta; Bissainthe 1951 lo cataloga también como autor de tesis jurídicas]."
+  },
+  {
+   "titulo": "Dictionnaire géographique et administratif universel d'Haïti, t. II, artículo «Haïti» (pp. 85-90)",
+   "autor": "Rouzier, S. (Sémexant [POR VERIFICAR el nombre de pila])",
+   "anio": "1892",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00025083/00002/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/02/50/83/00002/UF00025083_00002.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de referencia haitiana de la época, compilatoria y sin citar fuentes en el artículo general; indica lo que se enseñaba y daba por sabido, no la base de las cifras.",
+   "proveniencia": "S. Rouzier, geógrafo haitiano, compila en París (C. Blot, [1892], 4 vols.) un diccionario geográfico y administrativo de toda la isla ('Haïti' designa la isla; la 'République d'Haïti' es el oeste), con un artículo general sobre la isla. Para uso del Estado, la escuela y el público. No cita fuente para la población aborigen ni para los cinco 'États'; el texto coincide casi palabra por palabra con Gentil y Chauvet (1896) y con la tradición de Nau.",
+   "extractos": [
+    {
+     "ubicacion": "p. 87",
+     "cita_original": "En effet, Colomb y trouva une population aborigène de deux millions d'âmes qui disparaîtront en moins de deux siècles sous le fer meurtrier des Espagnols.",
+     "traduccion": "En efecto, Colón encontró allí una población aborigen de dos millones de almas que desaparecerían en menos de dos siglos bajo el hierro mortífero de los españoles.",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "p. 88",
+     "cita_original": "L'île d'Haïti, lors de sa découverte, avait une population évaluée à deux millions d'âmes.",
+     "traduccion": "La isla de Haití, en el momento de su descubrimiento, tenía una población evaluada en dos millones de almas.",
+     "afirmaciones": [
+      "A-023"
+     ]
+    },
+    {
+     "ubicacion": "pp. 88-89",
+     "cita_original": "Un cacique, chef spirituel et temporel, dans la famille duquel le pouvoir souverain était héréditaire, les gouvernait d'une façon régulière et douce, quoique absolue. Au-dessous du cacique étaient des nytainos, ou gouverneurs de provinces, qui lui payaient chaque année une redevance de poudre d'or, de cohiba et de coton.",
+     "traduccion": "Un cacique, jefe espiritual y temporal, en cuya familia el poder soberano era hereditario, los gobernaba de modo regular y suave, aunque absoluto. Bajo el cacique estaban los nytainos, o gobernadores de provincias, que le pagaban cada año un tributo de polvo de oro, cohíba y algodón.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 89",
+     "cita_original": "Lors de la découverte d'Haïti, l'île était divisée en 5 États, royaumes-cacicats, ou xis, commandés par des chefs appelés caciques",
+     "traduccion": "En el momento del descubrimiento de Haití, la isla estaba dividida en 5 Estados, reinos-cacicazgos o 'xis', mandados por jefes llamados caciques (siguen Magua/Guarionex, Marien/Guacanagarí, Higuey/Cayacoa, Maguana/Caonabo y Xaragua/Behechio).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Leído en el OCR de dLOC (413 páginas del t. II; el artículo 'Haïti' ocupa las pp. 85-90 impresas; los números de página de las citas son los impresos, leídos en los pies de página). Aparece el término 'xis' para el cacicazgo y 'nytainos' para los gobernadores de provincia (el manual de Dorsainvil 1934, F-0481, usa 'nytaino'; la línea de transmisión Rouzier -> Gentil y Chauvet -> Price -> Dorsainvil es plausible pero no demostrada). Rouzier da la población de 1892: 994.000 en la República de Haití y 300.000 en la dominicana. Atención: 'dos millones' no tiene base declarada; coincide con la cifra que Madiou atribuye 'au dire des historiens espagnols' (F-0106) y no es independiente de ella."
+  },
+  {
+   "titulo": "Les relations extérieures d'Haïti, cap. I «Formation territoriale de l'île d'Hayti»",
+   "autor": "Justin, Joseph",
+   "anio": "1895",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00000993/00001/citation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra jurídico-diplomática de un autor haitiano; el capítulo inicial resume a Nau sin fuente propia; su valor es mostrar cómo se fundaba el 'territorio de Haití' en los cinco reinos indios.",
+   "proveniencia": "Joseph Justin, jurista y diplomático haitiano [POR VERIFICAR su biografía], publica en París (A. Savine, 1895) un estudio de las relaciones exteriores de Haití; abre con la 'formación territorial de la isla', donde presenta los cinco cacicazgos como origen del territorio. Escribe para un público internacional y con propósito político (fundamentar la integridad territorial). Cita expresamente a Émile Nau, Histoire des caciques d'Haïti, p. 54.",
+   "extractos": [
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "Haïti est aujourd'hui le nom officiel de la partie occidentale de l'île. Les premiers habitants appelaient le pays indifféremment : Haïti (terre montagneuse), Bohio (grande terre), Quisqueya (mère des terres).",
+     "traduccion": "Haití es hoy el nombre oficial de la parte occidental de la isla. Los primeros habitantes llamaban al país indistintamente Haití (tierra montañosa), Bohío (tierra grande), Quisqueya (madre de las tierras).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 3",
+     "cita_original": "Le territoire d'Haïti était primitivement divisé en cinq grands royaumes ou Caciquats : Le Marien, au Nord ; Le Xaragua, à l'Ouest et au Sud ; Le Maguana, au Centre ; Le Higuey, à l'Est ; Et la Magua, au Nord-Est.",
+     "traduccion": "El territorio de Haití estaba primitivamente dividido en cinco grandes reinos o cacicazgos: Marién (norte), Xaragua (oeste y sur), Maguana (centro), Higüey (este) y Maguá (nordeste).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 4 (cita de Nau, Histoire des Caciques, p. 54)",
+     "cita_original": "Le commandement suprême était déféré à un cacique environné, autant que quelque roi que ce fût au monde, de l'obéissance et de l'hommage de ses sujets. La puissance était héréditaire dans sa famille et ne manquait même pas du prestigieux entourage d'une noblesse",
+     "traduccion": "El mando supremo se confiaba a un cacique rodeado, como cualquier rey del mundo, de la obediencia y el homenaje de sus súbditos; el poder era hereditario en su familia y no carecía del prestigioso séquito de una nobleza (cita de Nau).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Páginas impresas confirmadas por el pie '- 4 -' del OCR; el cap. I empieza en la p. 3. Ojo: 'Joseph Justin' no es Placide-Justin (F-0795, 1826). El texto es de 1895 y parte del supuesto de que 'el territorio de Haití' era toda la isla en 1492: el dato se usa como prueba de la tesis haitiana de la isla una (ver M00, M08) y no como prueba arqueológica. Dependiente de Nau (cita nominal)."
+  },
+  {
+   "titulo": "Grande géographie de l'île d'Haïti",
+   "autor": "Gentil, Robert; Chauvet, Henri",
+   "anio": "1896",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00073987/00001/citation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Manual escolar de geografía propuesto para adopción por el Departamento de Instrucción Pública de Haití; compilatorio, sin fuentes en el pasaje; sirve como testimonio de la enseñanza oficial de 1896.",
+   "proveniencia": "Robert Gentil y Henri Chauvet (el segundo, probablemente el autor del drama 'La Fille du Kacik', 1894 [POR VERIFICAR la identidad]) publican en París (Imp. Goupy, 1896) una geografía de la isla para las escuelas haitianas; el volumen reproduce el informe de la comisión que lo examinó para la Secretaría de Estado de Instrucción Pública ('peut être adoptée... avec les modifications que nous avons signalées'). Interés: pedagógico y patriótico. El pasaje sobre los cinco reinos coincide casi palabra por palabra con el artículo 'Haïti' de Rouzier (1892).",
+   "extractos": [
+    {
+     "ubicacion": "p. 138",
+     "cita_original": "Avant la découverte de l'île par les Espagnols, les Indiens l'avaient divisée en cinq royaumes appelés xis ou hios et gouvernés par des chefs nommés caciques (kaciks).",
+     "traduccion": "Antes del descubrimiento de la isla por los españoles, los indios la habían dividido en cinco reinos llamados 'xis' o 'hios' y gobernados por jefes llamados caciques.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 139",
+     "cita_original": "Le Xaragua, qui embrassait la plaine du Cul-de-Sac et toute la presqu'île du Sud ; le chef-lieu en était Yaguana (Léogane), qui fut d'abord la résidence du cacique Behechio (ou Bohekio), puis de sa sœur, la reine Anakaona; 5° Le royaume de Higuey, qui s'étendait dans toute la partie méridionale de la Dominicanie, jusqu'au cap Engaño : le cacique Kayakoa y régnait.",
+     "traduccion": "El Xaragua, que abarcaba la llanura del Cul-de-Sac y toda la península del Sur; su capital era Yaguana (Léogane), residencia primero del cacique Behechio y luego de su hermana la reina Anacaona; 5.º el reino de Higuey, que se extendía por toda la parte meridional de la 'Dominicanie' hasta el cabo Engaño; allí reinaba el cacique Cayacoa.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 2",
+     "cita_original": "ils massacrèrent en masse les aborigènes ou bien les firent périr par les rudes travaux des mines d'or",
+     "traduccion": "masacraron en masa a los aborígenes o los hicieron perecer en los rudos trabajos de las minas de oro (sin cifra).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Las pp. 138-139 se leen en los encabezados del OCR; la p. 2 por el encabezado '2 GRANDE GÉOGRAPHIE'. Llama 'la Dominicanie' a la parte oriental, lo que interesa a M00. La fórmula 'xis ou hios' reaparece en Price 1910 (que cita a Gentil y Chauvet por su nombre) y 'xis' ya está en Rouzier 1892: para efectos de triangulación son una misma cadena de copia. Auguste Magloire cita esta Geografía (Étude sur le tempérament haïtien, 1908, p. 191; L'erreur révolutionnaire, 1909, p. 149), prueba de su uso entre la intelectualidad haitiana."
+  },
+  {
+   "titulo": "Du gouvernement civil en Haïti, cap. I «De 1492 à 1804. Période coloniale»",
+   "autor": "Janvier, Louis-Joseph",
+   "anio": "1905",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00074050/00001/citation",
+   "urls_alternativas": [
+    "https://dloc.com/AA00000988/00001/citation"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo político de un diplomático y publicista haitiano; resume la historia colonial sin fuentes; la cifra de dos millones de indios muertos es retórica de denuncia, no estimación fundada.",
+   "proveniencia": "Louis-Joseph Janvier (1855-1911), abogado, diplomático y publicista haitiano, publica en Lille (Le Bigot frères, 1905) un ensayo sobre la organización administrativa de Haití; el capítulo I resume la historia desde 1492 para justificar reformas. Escribe contra el racismo científico y a favor de la descentralización. Sin fuente primaria sobre los indios.",
+   "extractos": [
+    {
+     "ubicacion": "p. 9",
+     "cita_original": "L'île d'Haïti fut découverte par Christophe Colomb le 6 décembre 1492. Elle était alors divisée en cinq petits royaumes. Le royaume de Marien, situé dans le nord-ouest, avait pour capitale Guarico et son chef s'appelait Guacanagaric.",
+     "traduccion": "La isla de Haití fue descubierta por Cristóbal Colón el 6 de diciembre de 1492; estaba entonces dividida en cinco pequeños reinos; el de Marién, en el noroeste, tenía por capital Guarico y su jefe se llamaba Guacanagarí (siguen Magua, Higüey, Maguana y Xaragua con sus caciques).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 11",
+     "cita_original": "Deux millions d'Indiens étaient morts de 1500 à 1540",
+     "traduccion": "Dos millones de indios habían muerto entre 1500 y 1540 (frase de denuncia en un párrafo sobre la trata; sin fuente).",
+     "afirmaciones": [
+      "A-022",
+      "A-023"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Páginas impresas deducidas del encabezado '10 DU GOUVERNEMENT CIVIL EN HAÏTI' de la página siguiente. Llama 'petits' a los cinco reinos, matiz único en la serie haitiana. La cifra 'dos millones muertos 1500-1540' implica una población inicial igual o mayor a dos millones y coincide con la serie Madiou/Rouzier; no cita fuente."
+  },
+  {
+   "titulo": "Haïti: son histoire et ses détracteurs (edición francesa; edición inglesa: Haiti, her history and her detractors)",
+   "autor": "Léger, Jacques-Nicolas [POR VERIFICAR: la ficha de dLOC solo da el nombre en el título]",
+   "anio": "1907",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00001021/00001/citation",
+   "urls_alternativas": [
+    "https://dloc.com/AA00001020/00001/citation"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra apologética de un diplomático haitiano; en el capítulo indígena cita expresamente a Placide-Justin y a Nau, de modo que no es independiente de ellos.",
+   "proveniencia": "Jacques N. Léger (diplomático haitiano [POR VERIFICAR su cargo]) publica en Nueva York (Neale, 1907) una defensa histórica de Haití frente a sus detractores. El cap. I (Quisqueya o Haití) describe a los aborígenes y los cinco cacicatos y cita en nota a Placide-Justin (pp. 40 y 42) y a Nau; para la geografía cita a B. Ardouin. Escribe para el público anglosajón.",
+   "extractos": [
+    {
+     "ubicacion": "p. 17",
+     "cita_original": "Avant le 15e siècle, ses habitants, au nombre environ d'un million, vivaient relativement heureux: l'ancien monde ignorait jusqu'à leur existence.",
+     "traduccion": "Antes del siglo XV sus habitantes, en número de aproximadamente un millón, vivían relativamente felices; el Viejo Mundo ignoraba hasta su existencia (nota 3: Placide Justin, Histoire d'Haïti).",
+     "afirmaciones": [
+      "A-023",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 19",
+     "cita_original": "Les cinq Cacicats ou royaumes étaient: 1°. Le Marien, sous la dépendance de Guacanagaric [...] 2°. le Magua [...] avait pour chef Guarionex [...] 3°. Le Maguana obéissant à Caonabo [...] 4°. Le Xaragua ayant pour chef Bohechio [...] et 5°. Higuey [...] avait pour chef Cotubanama",
+     "traduccion": "Los cinco cacicatos o reinos eran: 1.º Marién (Guacanagarí); 2.º Maguá (Guarionex); 3.º Maguana (Caonabo); 4.º Xaragua (Bohechio); 5.º Higüey (Cotubanama).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 26",
+     "cita_original": "en 1507, à peine 15 ans après l'arrivée des Espagnols, d'une population d'environ un million il ne restait plus que 60,000 indigènes. Quatre ans plus tard, en 1511, il n'y en avait que 14,000.",
+     "traduccion": "en 1507, apenas 15 años después de la llegada de los españoles, de una población de aproximadamente un millón no quedaban más que 60.000 indígenas; cuatro años más tarde, en 1511, solo 14.000 (nota 6: Placide Justin, Histoire d'Haïti, pp. 40 y 42).",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-022",
+    "A-023",
+    "A-024"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Cadena de copia verificada: las cifras de 1507 (60.000) y 1511 (14.000) y la base de 'un millón' están en Placide-Justin 1826, p. 40 (ver la entrada F-0795 de esta ronda); Léger no las suma como independientes. Páginas impresas deducidas de los encabezados del OCR ('18 Haïti: son histoire et ses détracteurs' = p. 18; el cap. I empieza en la p. 17). La edición inglesa (AA00001020) existe en dLOC con la misma paginación aproximada; no se cotejó. Aviso para M00: Léger llama 'Haïti' a toda la isla ('l'île qu'aux États-Unis l'on se plaît à appeler Haïti la mystérieuse')."
+  },
+  {
+   "titulo": "Cours de droit administratif",
+   "autor": "Price, Hannibal [POR VERIFICAR: el estadista haitiano homónimo murió en 1893, antes de la fecha de la edición y de la obra de Gentil y Chauvet que cita]",
+   "anio": "1910",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00001078/00001/citation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Copia literal, citada por el propio autor, de Gentil y Chauvet; no añade evidencia independiente.",
+   "proveniencia": "Curso de derecho administrativo impreso en Le Havre (Duval & Davoult, 1910) con un apartado sobre las 'divisiones territoriales del tiempo de los caciques'. Citado aquí solo para mostrar que el texto escolar de 1896 se reprodujo en la doctrina jurídica haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 43",
+     "cita_original": "que MM. Gentil et Chauvet ont consacré à la question dans leur grande Géographie. « Avant la découverte de l'île par les Espagnols, les Indiens l'avaient divisée en cinq royaumes, appelés xis ou hios et gouvernés par des chefs nommés caciques (kachis). Ces cinq royaumes étaient :",
+     "traduccion": "que los señores Gentil y Chauvet dedicaron a la cuestión en su gran Geografía. «Antes del descubrimiento de la isla por los españoles, los indios la habían dividido en cinco reinos, llamados xis o hios y gobernados por jefes llamados caciques...»",
+     "afirmaciones": [
+      "A-021"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Se registra solo para marcar la dependencia: cuenta como una sola fuente con Gentil y Chauvet (regla de triangulación). La identidad del autor ('Price, Hannibal' según el catálogo) debe aclararse antes de usarlo."
+  },
+  {
+   "titulo": "Bibliographie générale et méthodique d'Haïti, t. I (introducción histórica y sección sobre los aborígenes)",
+   "autor": "Duvivier, Ulrick",
+   "anio": "1941",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00095143/00001/citation",
+   "urls_alternativas": [
+    "https://dloc.com/UF00095938/00001/citation",
+    "https://dloc.com/AA00000834/00001/citation"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Bibliografía nacional anotada de un autor haitiano, con una introducción histórica compilada de Nau y de Placide-Justin; útil como inventario de lo que se había escrito hasta 1941, no como prueba de 1492.",
+   "proveniencia": "Ulrick Duvivier, bibliógrafo haitiano, publica en Port-au-Prince (Imprimerie de l'État, 1941, 2 vols.) la primera bibliografía general y metódica de Haití con una introducción geográfica e histórica y una sección de obras sobre los aborígenes. Los ejemplares de dLOC proceden de la Bibliothèque haïtienne des Spiritains (UF00095143) y de otras bibliotecas (UF00095938; AA00000834: Saint Louis University Law Library). Para el origen de los indios sigue el relato de Nau (cita su Histoire des caciques) y las 'données ethnographiques actuelles'.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, PDF p. 25 (cita de Nau)",
+     "cita_original": "à l'époque de la découverte, il semblait que deux races très distinctes composaient le peuple aborigène d'Haïti. Dans tout le nord-est, le sud-est et assez avant dans l'est, c'est-à-dire dans les royaumes de la Magua et de Higuey et jusqu'au Cibao, les peuplades étaient fortement mélangées de Caraïbes.",
+     "traduccion": "en la época del descubrimiento parecía que dos razas muy distintas componían el pueblo aborigen de Haití: en todo el nordeste, sureste y buena parte del este, es decir, en los reinos de Magua y Higüey y hasta el Cibao, las poblaciones estaban fuertemente mezcladas con caribes (tesis de Nau recogida en 1941).",
+     "afirmaciones": [
+      "A-021",
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "t. I, PDF p. 26",
+     "cita_original": "D'après les données ethnographiques actuelles, les Tainos —nom réservé aux Arawaks émigrés dans les Antilles—, seraient plutôt originaires de l'Amérique du Sud et en particulier du Venezuela",
+     "traduccion": "Según los datos etnográficos actuales, los taínos —nombre reservado a los arawacos emigrados a las Antillas— serían más bien originarios de América del Sur y en particular de Venezuela.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "t. I, PDF p. 98",
+     "cita_original": "DEHOUX (Dr. J. B.) Etude sur les Aborigènes d'Haïti, par le Dr. J. B. Dehoux. Port-au-Prince, in-8°.",
+     "traduccion": "Ficha de una obra de Dehoux sobre los aborígenes de Haití, sin fecha ni paginación; Bissainthe 1951 declara dudar de su existencia real.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. I, PDF p. 105",
+     "cita_original": "SUR LA LANGUE des aborigènes d'Ayti. (In: Bulletin du Département de l'Instruction publique, Port-au-Prince, 2ème année, No. 1, 1895, sans nom d'auteur.)",
+     "traduccion": "Artículo anónimo sobre la lengua de los aborígenes de Ayti en el Boletín del Departamento de Instrucción Pública (1895).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Leído en el OCR de dLOC (338 páginas del t. I en UF00095143). La numeración de las citas es la del PDF de dLOC ('Volume1_Page_025'); no se leyó el número impreso. La introducción llama 'Haïti' a toda la isla (77.250 km2; 'la partie haïtienne' = 28.900 km2) y sitúa la 'découverte d'Haïti' el 6-XII-1492. Dos fechas distintas para la primera edición de Nau: 1854 (Duvivier, t. I, PDF p. 98) y 1855 (Bissainthe 1951, Hoffmann 1994, Beauvoir-Dominique 2005): predomina 1855; 1854 queda como variante de Duvivier. La tesis de las 'dos razas' (caribes en Magua/Higüey) es de Nau y no coincide con la lingüística posterior (Granberry y Vescelius, F-0702): se registra como creencia del siglo XIX."
+  },
+  {
+   "titulo": "Dictionnaire de bibliographie haïtienne",
+   "autor": "Bissainthe, Max",
+   "anio": "1951",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00101782/00001/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/10/17/82/00001/UF00101782_00001.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Bibliografía nacional exhaustiva de un bibliógrafo haitiano, que anota cuándo no pudo ver una obra y qué críticas contemporáneas la acompañan; fuente excelente para fechas y existencia.",
+   "proveniencia": "Max Bissainthe, bibliotecario y bibliógrafo haitiano, publica en Washington (Scarecrow Press, 1951) el primer diccionario de bibliografía haitiana (1.068 páginas escaneadas), con 'siglas' de las bibliotecas donde vio cada obra y notas sobre las críticas. Es un testigo del estado de la producción haitiana sobre los indios hasta 1951.",
+   "extractos": [
+    {
+     "ubicacion": "ficha 1019, p. 84",
+     "cita_original": "1019 CORVINGTON, HERMANN Caonabo, Seigneur de la Maguana. PauP, Imp. S. Dévieux, 1944. 27p.",
+     "traduccion": "Folleto de Corvington sobre Caonabo (1944, 27 pp.); le siguen Deux caciques de Xaragua (194-, 40 pp., ficha 1020), Guacanagaric (1026), Guayacuya (1027) y la Histoire humaine des Aborigènes d'Haïti (1028).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "ficha 1028, p. 84",
+     "cita_original": "1028 ID. Histoire humaine des Aborigènes d'Haïti; origine et provenance des Aborigènes, PauP, Imp. S. Dévieux, s.d. 31p.",
+     "traduccion": "Folleto sin fecha de Corvington sobre el origen y la procedencia de los aborígenes, en la 'Collection d'ouvrages universitaires'.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "ficha 1144, p. 94",
+     "cita_original": "Nous cataloguons ce livre, sans avoir la moindre idée de son existence réelle; des journaux en parlèrent certes, mais nous n'avons rencontré parmi les dizaines de personnes qualifiées que nous avons interrogées, une seule qui en eût entendu parler",
+     "traduccion": "Catalogamos este libro [Étude sur les aborigènes d'Haïti, de Dehoux] sin tener la menor idea de su existencia real; los periódicos hablaron de él, pero entre las decenas de personas cualificadas consultadas no encontramos ni una que lo conociera.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ficha 1389, p. 116",
+     "cita_original": "Tome 1 : l'Atlantide - les problèmes colombiens - Ciboneys, Tainos et Caraïbes - lexicographie indienne - les conquistadors - Grandeur et décadence d'Hispaniola",
+     "traduccion": "Contenido del t. I de la Histoire d'Haïti de Louis-Émile Élie (1944-45): la Atlántida, los problemas colombinos, ciboneyes, taínos y caribes, lexicografía india, los conquistadores.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "fichas 2992-2993, p. 239",
+     "cita_original": "2993 ID. L'art précolombien d'Haïti; catalogue de l'exposition précolombienne organisée à l'occasion du 3ème Congrès des Caraïbes [...] présenté par ... et Louis Maximilien. PauP, Imp. de l'Etat, 1941. 29p. lxii pls.",
+     "traduccion": "Ficha del catálogo de Mangonès y Maximilien (1941; 29 pp. y 62 láminas); la ficha 2992 anota otro folleto de E. Mangonès, 'Regrettable initiative de la U.S. Geographical Society', que protesta porque esa sociedad llamó 'Hispaniola' a la isla de Haití.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ficha 3286, p. 263",
+     "cita_original": "3286 NAU, AUGUSTE, EMILE Histoire des caciques d'Haïti, par le Baron... PauP, Imp. T. Bouchereau, Imp.-Ed., 1855. vi, 364p. [...] Plusieurs chapitres de l'ouvrage avaient d'abord paru, sans signature, dans l'Union (1837-1839)",
+     "traduccion": "Fecha la primera edición de Nau en 1855 (Port-au-Prince, T. Bouchereau; 364 pp.); varios capítulos habían aparecido antes, sin firma, en L'Union (1837-1839).",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "ficha 3808, p. 308",
+     "cita_original": "3808 ID. Contribution à l'étude de l'ethnobotanique pré-colombienne des Grandes Antilles. PauP, Imp. de l'Etat, 1942. 45p. [...] V : la critique de PRICE MARS (Rev. de la Soc. d'Hist. et de Géog., avril 1942, p. 54).",
+     "traduccion": "Ficha de la monografía de Jacques Roumain (1942, 45 pp.), con reseña de Price-Mars en la Revue de la Société d'histoire et de géographie (abril de 1942).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M00"
+   ],
+   "id_existente": "",
+   "notas": "Las páginas son las impresas (lectura de los pies '- 84 -', '- 94 -', '- 116 -', '- 239 -', '- 263 -', '- 308 -'). Leídas solo las fichas indicadas (búsqueda por palabras clave en las 1.068 páginas: aborig-, indien, ciboney, précolomb-, cacique, Anacaona, Mangonès, Maximilien, Aubourg). Resultado negativo importante: Bissainthe NO registra 'Haïti préhistorique' (las fichas de Aubourg solo remiten a 'Folklore...' y a 'L'avenir du pays...'; la obra de 1951 pudo salir después del cierre del repertorio [POR VERIFICAR]) ni ningún estudio demográfico haitiano de los indios; la bibliografía haitiana sobre ellos hasta 1951 se reduce a Nau, Corvington, Élie, Roumain, Mangonès-Maximilien y notas sueltas. La ficha 1144 pone en duda la existencia del estudio de Dehoux (Duvivier 1941 lo lista sin fecha). 'ID.' de la ficha 1144 remite al autor de la página anterior (Dehoux) [POR VERIFICAR el encabezado, que cae en la página previa]."
+  },
+  {
+   "titulo": "Puerto Real: défis nationaux et internationaux de l'archéologie haïtienne (en N. Sanz, ed., Archéologie de la Caraïbe et Convention du patrimoine mondial, World Heritage Papers 4, pp. 178-184)",
+   "autor": "Beauvoir-Dominique, Rachel",
+   "anio": "2005 (ponencia de 2004)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://whc.unesco.org/document/6048",
+   "urls_alternativas": [
+    "https://whc.unesco.org/en/documents/6048"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Ponencia de la responsable de arqueología del Bureau national d'ethnologie, publicada por el Centro del Patrimonio Mundial de la UNESCO; síntesis institucional de primera mano sobre la arqueología haitiana.",
+   "proveniencia": "Rachel Beauvoir-Dominique (Bureau National d'Ethnologie, Port-au-Prince) presenta en el seminario 'Archéologie des patrimoines trans-caraïbes' (Martinica, septiembre de 2004) un balance de la arqueología haitiana y del proyecto Puerto Real; la UNESCO la publica en 2005 en un volumen de 213 pp. Interés: obtener protección para el patrimonio haitiano. Primera mano: conoce la historia institucional del Bureau y los expedientes de campo; para los taínos cita a Las Casas y a Rouse y Rainey.",
+   "extractos": [
+    {
+     "ubicacion": "p. 178 (resumen)",
+     "cita_original": "Malgré un départ prometteur durant les années 1940, Haïti confronte présentement le pillage de ses ressources patrimoniales en l'absence de structures capables d'en assurer la préservation.",
+     "traduccion": "Pese a un comienzo prometedor en los años 1940, Haití afronta hoy el saqueo de sus recursos patrimoniales por falta de estructuras capaces de preservarlos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 179",
+     "cita_original": "la migration Taïno ayant progressé vers l'ouest depuis l'Orénoque, la partie occidentale de cette terre a témoigné des formes d'organisation les plus complexes de cette population. Las Casas décrivait la province de Guahaba comme étant, « la plus belle terre et province de l'île » ; [...] la province du Xaragua célèbre pour son art et sa poésie.",
+     "traduccion": "habiendo avanzado la migración taína hacia el oeste desde el Orinoco, la parte occidental de esa tierra conoció las formas de organización más complejas de esa población; Las Casas describía la provincia de Guahaba como «la más hermosa tierra y provincia de la isla»; el Xaragua, célebre por su arte y su poesía.",
+     "afirmaciones": [
+      "A-021"
+     ]
+    },
+    {
+     "ubicacion": "p. 179",
+     "cita_original": "C'est sous son égide qu'Haïti organisait en 1941, pour la première (et, hélas, dernière) fois, un Congrès Régional d'Archéologie Préhistorique, évènement qui avait permis un regroupement fondamental du patrimoine national dans ce domaine et la publication par messieurs Mangonès et Maximilien d'un catalogue de toute première qualité",
+     "traduccion": "Bajo su égida (la de Roumain) Haití organizó en 1941, por primera (y por desgracia última) vez, un Congreso Regional de Arqueología Prehistórica, que permitió agrupar el patrimonio nacional y la publicación por Mangonès y Maximilien de un catálogo de primera calidad.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 179",
+     "cita_original": "Irving Rouse et Froelich Rainey autour de Fort-Liberté (région d'origine des termes classiques de cultures précolombiennes : « Carrier » et « Meillac »)",
+     "traduccion": "Irving Rouse y Froelich Rainey en torno a Fort-Liberté (región de origen de los términos clásicos de culturas precolombinas: «Carrier» y «Meillac»).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 181",
+     "cita_original": "Rappelons l'importance du choix, le 4 décembre 1803, peu avant l'assaut final, de l'appellation taïno d'Ayti pour la nouvelle nation",
+     "traduccion": "Recordemos la importancia de la elección, el 4 de diciembre de 1803, poco antes del asalto final, del nombre taíno de Ayti para la nueva nación (la fecha es la que da la autora; la convención historiográfica habitual es otra, ver M00/M06).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-029"
+   ],
+   "modulos": [
+    "M01",
+    "M00",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE la ficha provisional M01-N36 de la ronda 1 (marcada fallo-fetch por 403). Descargado con curl (cabecera de navegador y 'Referer' de whc.unesco.org) a mi scratchpad: PDF de 213 pp., 4,5 MB; el paper ocupa las pp. 178-184 impresas (PDF 179-185). Se leyeron esas páginas; el resto del volumen no. Los números de página son los impresos (pie '179', '181', '184'). La nota 28 cita a Jean Fouchard, 'Où, quand et par qui fut choisi de redonner à notre patrie le nom indien d'Ayti', Bulletin du Bureau National d'Ethnologie n.º 1, 1984, y la bibliografía recoge Mangonès y Maximilien 1941 y Nau 1894 'primera edición 1855'. Dice también que la propuesta de Hodges y el proyecto Puerto Real arrancan hacia 1975 y que el abandono del Bureau empieza con Estimé, Magloire y Duvalier."
+  },
+  {
+   "titulo": "Anthropologie, politique et engagement social. L'expérience du Bureau d'ethnologie d'Haïti (Gradhiva 1: 109-125)",
+   "autor": "Charlier-Doucet, Rachelle",
+   "anio": "2005",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://journals.openedition.org/gradhiva/313",
+   "urls_alternativas": [
+    "https://doi.org/10.4000/gradhiva.313"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de una revista académica del Musée du quai Branly sobre la historia institucional del Bureau, con archivo de la Bibliothèque haïtienne des Spiritains y entrevistas a los protagonistas.",
+   "proveniencia": "Rachelle Charlier-Doucet, antropóloga que investigó el fondo haitiano de los Spiritains y entrevistó a Honorat, Blot, Hector y Lorraine Mangonès, traza la historia intelectual e institucional del Bureau d'ethnologie (decreto-ley del 31-X-1941) y su proyecto de probar 'survivances amérindiennes'. Dossier 'Haïti et l'anthropologie' de Gradhiva n.º 1.",
+   "extractos": [
+    {
+     "ubicacion": "§ 4",
+     "cita_original": "Cinq ans auparavant, Edmond Mangonès et le Dr Louis Maximilien avaient organisé une exposition dans le but de sensibiliser le public lettré sur les trésors du passé précolombien haïtien.",
+     "traduccion": "Cinco años antes, Edmond Mangonès y el Dr. Louis Maximilien habían organizado una exposición para sensibilizar al público letrado sobre los tesoros del pasado precolombino haitiano.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 6",
+     "cita_original": "il s'agissait de procéder à un inventaire systématique de la culture haïtienne en mettant l'accent sur deux de ses deux composantes ignorées et méprisées jusqu'ici, l'africaine et l'amérindienne",
+     "traduccion": "se trataba de hacer un inventario sistemático de la cultura haitiana subrayando dos de sus componentes ignorados y despreciados hasta entonces: el africano y el amerindio.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 20",
+     "cita_original": "Pour la première période de vingt-deux ans (1941-1963), la production totale est de vingt publications",
+     "traduccion": "En los primeros veintidós años (1941-1963) la producción total del Bureau es de veinte publicaciones.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "C'est avec la création du Bureau en 1941 que, pour la première fois, des recherches furent entreprises sous les auspices d'une institution culturelle haïtienne. Le Bureau signa un accord avec le musée Peabody de l'université de Yale",
+     "traduccion": "Con la creación del Bureau en 1941 se emprendieron por primera vez investigaciones bajo los auspicios de una institución cultural haitiana; el Bureau firmó un acuerdo con el museo Peabody de Yale.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "pour l'un des pionniers de l'archéologie haïtienne, le Dr Louis Maximilien, l'intérêt scientifique était lié à un désir d'action sociale : dans ce domaine aussi il fallait changer les préjugés, notamment sur les Amérindiens, préjugés qu'avaient intériorisés la plupart des lettrés haïtiens",
+     "traduccion": "para uno de los pioneros de la arqueología haitiana, el Dr. Louis Maximilien, el interés científico iba unido a un deseo de acción social: también aquí había que cambiar los prejuicios, sobre todo hacia los amerindios, que la mayoría de los letrados haitianos habían interiorizado.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "les populations précolombiennes étaient vues à travers le prisme des relations des chroniqueurs européens et des manuels d'histoire à l'usage des écoliers haïtiens qui, les uns et les autres, véhiculaient des stéréotypes sur les Indiens",
+     "traduccion": "las poblaciones precolombinas eran vistas a través del prisma de las relaciones de los cronistas europeos y de los manuales de historia para escolares haitianos que, unos y otros, transmitían estereotipos sobre los indios.",
+     "afirmaciones": [
+      "A-021",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "§ 24",
+     "cita_original": "Le Bureau voulait prouver l'existence de survivances amérindiennes – jusqu'alors réputées quasi inexistantes dans la culture haïtienne",
+     "traduccion": "El Bureau quería probar la existencia de supervivencias amerindias, hasta entonces tenidas por casi inexistentes en la cultura haitiana.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "§ 32",
+     "cita_original": "les ressources locales n'aient jamais permis de lancer de grandes campagnes de fouilles archéologiques, généralement très coûteuses, et que le Bureau ait plutôt mis l'accent sur les recherches ethnographiques",
+     "traduccion": "los recursos locales nunca permitieron lanzar grandes campañas de excavación, generalmente muy costosas, y el Bureau puso el acento en la investigación etnográfica.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "nota 21",
+     "cita_original": "Louis Maximilien (1943) fait référence au Manuel d'histoire d'Haïti de Justin Chrysostome Dorsainvil qui venait d'être publié",
+     "traduccion": "Louis Maximilien (1943) se refiere al Manual de historia de Haití de Dorsainvil, recién publicado (el texto que Maximilien rebate es el manual F-0481).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-021",
+    "A-024",
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "MEJORA la ficha provisional M01-N22 (ronda 1: 'descargada-parcial' por WebFetch). Esta ronda abrió el texto completo con el navegador integrado de la sesión (OpenEdition lo sirve sin bloqueo allí) y verificó cada cita palabra por palabra contra el DOM de la página. Los '§' son los números de párrafo de OpenEdition. Bibliografía de la autora, útil para el rastreo: Aubourg 1951 'Haïti préhistorique. Mémoire sur les cultures précolombiennes, ciboney et taïno', Imprimerie de l'État, 'Publication du Bureau d'ethnologie de la République d'Haïti' Série II-8; Mangonès y Maximilien 1941; Maximilien 1943 'Quelques apports indiens à la vie haïtienne', Les Cahiers d'Haïti 5: 42-47; Charles 1964 'Index bibliographique des Bulletins et Publications du Bureau d'ethnologie', Bulletin IV-30: 47-56; Max Paul 1990, 'El Desarrollo de las investigaciones arqueológicas y etnológicas en Haití', en Pueblos y Políticas en el Caribe Amerindio (México, Instituto Indigenista Interamericano / Fundación García Arévalo: 43-49)."
+  },
+  {
+   "titulo": "Le problème de l'Indien et de ses survivances en Haïti (Optique, Port-au-Prince, pp. 33-40; repris dans Bulletin du Bureau d'ethnologie, série 2, n.º 13, 1956)",
+   "autor": "Aristide, Achille",
+   "anio": "1956",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00093110/00027/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/AA/00/93/11/00/00027/Optique-1956-05.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo crítico de un autor haitiano que discute con otros haitianos sin aportar datos nuevos; vale como voz disidente de la tesis de las supervivencias indias y como testimonio del debate demográfico en Haití.",
+   "proveniencia": "Achille Aristide publica en la revista mensual Optique (Port-au-Prince; el PDF de dLOC se titula 'Optique-1956-05') un balance crítico de la tesis de las 'survivances' indias que defendían Louis Maximilien (Cahiers d'Haïti, 1943) y Louis-Émile Élie (Histoire d'Haïti, 1944); la reedita el Bulletin du Bureau d'ethnologie (serie 2, n.º 13). Discute además las cifras de población de los indios y la herencia india de Lorimer Denis, Duvalier y Georges-Jacob.",
+   "extractos": [
+    {
+     "ubicacion": "p. 33",
+     "cita_original": "un sentiment de dévotion, d'évocation et de reconnaissance à l'endroit des premiers habitants de l'Ile, les Indiens, qui furent en même temps les « Premiers Haïtiens »",
+     "traduccion": "un sentimiento de devoción, de evocación y de reconocimiento hacia los primeros habitantes de la isla, los indios, que fueron al mismo tiempo los «primeros haitianos».",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 34",
+     "cita_original": "en ce qui concerne la population des Indiens trouvés dans l'Ile, à la découverte, [Moreau de Saint-Méry] évalue cette dernière à 1.000.000 d'habitants. D'autres historiens rapportent le chiffre de 2.000.000. L'historien haïtien, Thomas Madiou, dans « Histoire d'Haïti » tome 1, page 13, pense que cette dernière estimation est exagérée",
+     "traduccion": "en cuanto a la población de los indios hallados en la isla en el descubrimiento, [Moreau de Saint-Méry] la evalúa en 1.000.000 de habitantes; otros historiadores dan la cifra de 2.000.000; el historiador haitiano Thomas Madiou (Histoire d'Haïti, t. I, p. 13) piensa que esta última estimación es exagerada.",
+     "afirmaciones": [
+      "A-023",
+      "A-024",
+      "A-027"
+     ]
+    },
+    {
+     "ubicacion": "p. 35",
+     "cita_original": "Nous pensons que de telles affirmations sont osées, parce qu'elles manquent de preuves.",
+     "traduccion": "Pensamos que tales afirmaciones [las supervivencias de lotes demográficos indios de Élie: los 'Zip-Zip', los 'Viens-Viens' de Saltrou] son osadas porque carecen de pruebas.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 35",
+     "cita_original": "W. Irving, entr'autres, n'a-t-il pas démontré que les conquistadores furent de véritables mangeurs d'Indiens pour avoir fait disparaître un million de ces derniers en l'espace de douze ans environ",
+     "traduccion": "¿No ha demostrado W. Irving, entre otros, que los conquistadores fueron verdaderos devoradores de indios, al hacer desaparecer un millón de ellos en unos doce años?",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "p. 36",
+     "cita_original": "il déclare lui-même qu'aucun travail anthropométrique sur les aborigènes de l'Ile n'a été effectué",
+     "traduccion": "[Maximilien] declara él mismo que no se ha hecho ningún trabajo antropométrico sobre los aborígenes de la isla.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-023",
+    "A-024",
+    "A-027"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Las páginas son las impresas del artículo (pies '34', '35', '36' del OCR; el PDF las numera 35-41). Fecha: el PDF de dLOC es 'Optique-1956-05'; Hoffmann 1994 da 'mai 1956' en una nota y 'n.º 27, mars 1956' en la bibliografía: la discrepancia queda sin resolver. OCR muy ruidoso: las citas corrigen acentos y puntuación y se marcan con corchetes las inserciones. La atribución a Moreau de Saint-Méry de 1.000.000 se deduce del contexto (el OCR corta el nombre) [POR VERIFICAR contra F-0022]. La referencia a Madiou 't. 1, p. 13' no coincide con la p. 10 donde F-0106 verificó la frase 'exagérée' (ver la ficha F-0106). Enumera como investigadores de la prehistoria haitiana a Fewkes, Rouse, Krieger, Fisher, Roumain, Aubourg, Métraux, Mangonès, Maximilien y Bastien."
+  },
+  {
+   "titulo": "Mémoire sur l'anthropométrie en Haïti (extraits), en Conjonction (Institut français d'Haïti) n.º 4, pp. 13-17",
+   "autor": "Romain, Jean-Baptiste (prefacio de Jacques Butterlin)",
+   "anio": "1946",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00076567/00002/citation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Extracto de un memorial de antropología física de un egresado de la primera promoción del Institut d'ethnologie; documenta la escasez de base osteológica y repite sin verificar las supervivencias de Élie.",
+   "proveniencia": "J.-B. Romain (licenciado en derecho y antropólogo, de la primera promoción del Institut d'ethnologie de Port-au-Prince) publica extractos de su 'Mémoire sur l'anthropométrie en Haïti' en la revista Conjonction del Institut français d'Haïti (n.º 4, 1946), con prefacio del geólogo Jacques Butterlin (mayo de 1946). Aborda el 'problema de la constante india' en la comunidad haitiana desde la somatología.",
+   "extractos": [
+    {
+     "ubicacion": "p. 14",
+     "cita_original": "Le problème de la constante indienne dans notre communauté sollicite ethnologues et historiens.",
+     "traduccion": "El problema de la constante india en nuestra comunidad solicita a etnólogos e historiadores.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 15",
+     "cita_original": "des lots démographiques indiens persistent parmi nous. Louis Emile, dans son Histoire d'Haïti, [...] cite (tome premier) : les Zip-Zip sur les crêtes de la Grande Rivière du Nord, les Viens-Viens de Saltrou",
+     "traduccion": "lotes demográficos indios persisten entre nosotros; Louis-Émile Élie, en su Histoire d'Haïti, cita (t. I) los 'Zip-Zip' de las crestas de la Grande Rivière du Nord y los 'Viens-Viens' de Saltrou (el texto dice 'parue en 1914' [sic por 1944]).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 16",
+     "cita_original": "Carence de documents anthropométriques sur l'Indien, notre élément formatif le plus archaïque. Malgré la richesse de nos grottes, [...] nos collections de crânes de naturels de Quisqueya demeurent infimes : (3 spécimens)",
+     "traduccion": "Carencia de documentos antropométricos sobre el indio, nuestro elemento formativo más arcaico; pese a la riqueza de nuestras grutas, nuestras colecciones de cráneos de naturales de Quisqueya siguen siendo ínfimas: (3 especímenes).",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Los números de página son los impresos (pie '-14-', '-15-', '-16-'). Sin extracto directo sobre A-021 a A-029, pero fija un dato de contexto para A-028: en 1946 la colección osteológica haitiana de naturales era de 3 cráneos (según Romain), antes de cualquier ADN. Nota: dLOC lista este ejemplar en el registro de 'Conjonction' con la numeración 'Issue 4'; los números 2-3 nunca se publicaron según la ficha."
+  },
+  {
+   "titulo": "Le Moniteur, journal officiel de la République d'Haïti, n.º 79-A (14 de noviembre de 1983): Décret consacrant le 28 novembre «Jour de l'Indien et de la Culture Nationale»",
+   "autor": "République d'Haïti (Jean-Claude Duvalier, presidente vitalicio, y su Consejo de Ministros)",
+   "anio": "1983",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://dloc.com/UF00076854/09126/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/68/54/09126/1983-11-14-A.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial del decreto en el diario oficial del Estado haitiano; prueba de primera mano de la posición del Estado en 1983, no del pasado indígena.",
+   "proveniencia": "Decreto firmado en el Palacio Nacional el 11 de noviembre de 1983 por Jean-Claude Duvalier ('Président à vie') y publicado en Le Moniteur n.º 79-A del 14-XI-1983 (Presses Nationales d'Haïti; ejemplar de la Bibliothèque haïtienne des Spiritains en dLOC). Interés: legitimar la 'cultura nacional' con el aporte indio en el último trienio del régimen. Primera mano: es el acto normativo mismo.",
+   "extractos": [
+    {
+     "ubicacion": "pp. IX-X (PDF 9-10), considerandos",
+     "cita_original": "Considérant que dans l'inventaire du patrimoine culturel national haïtien se révèle manifeste l'apport de l'ethnie indienne à travers notamment [...] les sites archéologiques, les objets, les noms de lieux d'époque pré-colombienne",
+     "traduccion": "Considerando que en el inventario del patrimonio cultural nacional haitiano se revela manifiesto el aporte de la etnia india a través, sobre todo, de [las lenguas], los sitios arqueológicos, los objetos y los topónimos de época precolombina.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. X (PDF 10), considerandos",
+     "cita_original": "Considérant que les Indiens furent l'objet d'un des affreux génocides de l'Histoire",
+     "traduccion": "Considerando que los indios fueron objeto de uno de los más atroces genocidios de la Historia (uso oficial del término 'génocide' por el Estado haitiano en 1983).",
+     "afirmaciones": [
+      "A-022"
+     ]
+    },
+    {
+     "ubicacion": "p. X (PDF 10), art. 1",
+     "cita_original": "Le 28 novembre est consacré « JOUR DE L'INDIEN ET DE LA CULTURE NATIONALE »",
+     "traduccion": "El 28 de noviembre queda consagrado como «Día del Indio y de la Cultura Nacional».",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-022"
+   ],
+   "modulos": [
+    "M01",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE el punto pendiente de la ronda 1 (decreto de 1983 'POR VERIFICAR'): el decreto existe, está fechado el 11-XI-1983 y fija el 28 de noviembre. La fecha se corresponde con la que da Hoffmann 1994 (p. 32: 'aniversario del ataque de Fort Nativité por Caonabo'); el texto del decreto no da esa razón. OCR del PDF sin acentos; las citas restituyen las tildes y marcan con corchetes lo que el OCR perdió ('les linguistiques'). El decreto no da cifras de población. Entrada de glosario: el Estado haitiano usó 'génocide' para la conquista de los indios (ver términos nuevos)."
+  },
+  {
+   "titulo": "Le Nouvelliste, 28 de abril de 1952, p. 1: «Le mouvement folklorique en Haïti» (nota sobre las publicaciones del Bureau d'ethnologie)",
+   "autor": "Le Nouvelliste (Port-au-Prince), sin firma",
+   "anio": "1952",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00000081/07877/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/00/00/81/07877/UF00000081_07877.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Nota de prensa de época sobre una publicación; confirma su existencia y su institución editora, no su contenido.",
+   "proveniencia": "Columna de primera plana del diario más antiguo de Haití que reseña el boletín del Bureau d'Ethnologie sobre 'Le mouvement folklorique en Haïti' (Oriol, Viaud y Aubourg, con introducción de Lorimer Denis y François Duvalier) y recuerda que el año anterior la institución publicó una monografía sobre 'Haïti préhistorique'. Lectura hecha sobre la imagen de la página (el OCR de dLOC de ese pasaje es ilegible por las columnas).",
+   "extractos": [
+    {
+     "ubicacion": "p. 1, col. 1",
+     "cita_original": "Le Bureau d'Ethnologie poursuit inlassablement la série de ses publications sérieuses. L'année dernière, il fit paraître une magnifique monographie sur HAÏTI PRÉHISTORIQUE.",
+     "traduccion": "El Bureau d'Ethnologie prosigue incansablemente la serie de sus publicaciones serias; el año pasado hizo aparecer una magnífica monografía sobre HAÏTI PRÉHISTORIQUE.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Corrobora de forma independiente (junto con Gradhiva 2005, Heritage 2020 y Haiti Sun 1961) que 'Haïti préhistorique' de Michel Aubourg salió en 1951 como publicación del Bureau d'Ethnologie. El pasaje se leyó en la imagen 00001.jpg del ejemplar (1000x1297 px) ampliada; la misma página incluye la nota de que la monografía y el boletín 'Le mouvement folklorique en Haïti' (cerca de 125 pp.) son obra del 'personnel technique' del Bureau (Oriol, Viaud, Aubourg)."
+  },
+  {
+   "titulo": "Haiti Sun, 8 de octubre de 1961, p. 16: W. Hodges, «Voûte à Minguet» (cita de Aubourg, Haïti préhistorique)",
+   "autor": "Hodges, W. (firma 'By W. HODGES'; probablemente el pastor William Hodges del Musée Guahaba [POR VERIFICAR])",
+   "anio": "1961",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://dloc.com/AA00015023/00079/citation",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/AA/00/01/50/23/00079/00020.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Cita de segunda mano de un artículo de prensa escrito por un aficionado extranjero; solo sirve para fechar y situar la obra de Aubourg.",
+   "proveniencia": "Artículo de divulgación en el semanario anglófono de Port-au-Prince (ejemplar de Duke en dLOC) sobre la cueva de Voûte à Minguet (Dondon). Hodges resume lo que Aubourg dice en 'Haiti Prehistorique' (extracto de la publicación del Bureau d'Ethnologie, feb. 1951) sobre los petroglifos como imágenes de cemíes.",
+   "extractos": [
+    {
+     "ubicacion": "p. 16 (PDF 20)",
+     "cita_original": "Michel Aubourg, in « Haiti Prehistorique » (Extrait de la Publication du Bureau d'Ethnologie, Feb. 1951) says that the Tainos (Arawaks) inscribed the images of their gods on wood, on tools, on pottery, and even the walls of certain caves, such as Bassin Zim.",
+     "traduccion": "Michel Aubourg, en «Haiti Prehistorique» (extracto de la publicación del Bureau d'Ethnologie, feb. 1951), dice que los taínos (arawacos) inscribían las imágenes de sus dioses en madera, herramientas, cerámica e incluso en las paredes de ciertas cuevas, como Bassin Zim.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Único testimonio de contenido (aunque indirecto) de Aubourg 1951 hallado en línea: Aubourg usa 'Tainos (Arawaks)' y trata los petroglifos como imágenes de dioses. La firma 'W. Hodges' se lee en la p. 1 del artículo (PDF 5: 'By W. HODGES'); la posible identificación con el pastor William Hodges (Musée Guahaba) procede de Beauvoir-Dominique 2005 ('Pasteur William Hodges') [POR VERIFICAR que sean la misma persona]."
+  },
+  {
+   "titulo": "Handbook of Latin American Studies, vol. 37, «Ethnology: West Indies», p. 103, ficha 1232 (Fouchard 1972)",
+   "autor": "Library of Congress, Hispanic Foundation / Latin American, Portuguese and Spanish Division (comp.)",
+   "anio": "1975 [POR VERIFICAR el año del vol. 37]",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://dloc.com/AA00082697/00017/citation",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Bibliografía anotada de la Biblioteca del Congreso con una frase de reseña por ficha; confirma la existencia y el tema de la obra, no su contenido.",
+   "proveniencia": "El Handbook of Latin American Studies (Library of Congress; digitalizado por la Universidad de Florida en dLOC) anota en su vol. 37 el libro de Fouchard. Interés: orientar a los especialistas. Reseñista no identificado en la página leída.",
+   "extractos": [
+    {
+     "ubicacion": "p. 103, ficha 1232",
+     "cita_original": "1232. Fouchard, Jean. Langue et littérature des aborigènes d'Ayti. Paris, Editions de l'Ecole, 1972. 172 p. (Col. Histoire et littérature) Utilizing diverse archival and historical sources, author attempts a general review of the problems of illuminating language and oral literature of Haitian aboriginals.",
+     "traduccion": "Fouchard, Jean. Langue et littérature des aborigènes d'Ayti. París, Éditions de l'École, 1972. 172 pp.: utilizando diversas fuentes de archivo e históricas, el autor intenta un repaso general de los problemas de iluminar la lengua y la literatura oral de los aborígenes haitianos.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "Segundo testimonio independiente sobre el libro de Fouchard (el primero, la reseña de Petitjean-Roget en Outre-Mers 1973, es F-0891). Ninguno de los dos da cifras de población. Número de páginas: 172 aquí, 173 en la reseña de Persée, 174 en Hoffmann 1994 [la discrepancia es de catalogación]."
+  },
+  {
+   "titulo": "Fouchard (Jean): Langue et littérature des aborigènes d'Ayti (reseña, Revue française d'histoire d'outre-mer 60(221): 700-701)",
+   "autor": "Petitjean-Roget, Jacques (reseñista); obra de Fouchard, Jean",
+   "anio": "1973 (reseña); 1972 (obra)",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.persee.fr/doc/outre_0300-9513_1973_num_60_221_1725_t1_0700_0000_4",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña de un especialista en la prehistoria de las Antillas menores que resume el libro de Fouchard capítulo a capítulo; sirve para conocer su contenido, no para validarlo.",
+   "proveniencia": "Jacques Petitjean-Roget (investigador de las Antillas francesas) reseña en 1973 el libro que el historiador y diplomático haitiano Jean Fouchard publicó en 1972 en París. Interés: dar cuenta de una obra poco accesible; sin acceso al texto completo del libro.",
+   "extractos": [
+    {
+     "ubicacion": "p. 700",
+     "cita_original": "M. J. Fouchard, partant d'une compilation de documents anciens, a cherché à faire l'histoire de ce qu'il appelle une sorte de Moyen Age de l'île.",
+     "traduccion": "Fouchard, partiendo de una compilación de documentos antiguos, ha buscado hacer la historia de lo que llama una especie de Edad Media de la isla.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 700",
+     "cita_original": "Il rappelle brièvement quelle a été l'origine des populations d'Ayti qu'il orthographie ainsi pour bien marquer la différence avec le nom de l'île actuel, Haïtï.",
+     "traduccion": "Recuerda brevemente cuál fue el origen de las poblaciones de Ayti, que escribe así para marcar la diferencia con el nombre actual de la isla, Haïtï.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    },
+    {
+     "ubicacion": "p. 700",
+     "cita_original": "le marcorix, langue dominante des Taïnos ou Arawacks de l'île.",
+     "traduccion": "el 'marcorix', lengua dominante de los taínos o arawacos de la isla (denominación que la reseña atribuye a Fouchard; Granberry y Vescelius, F-0702, tratan el macorix como lengua distinta).",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0891",
+   "notas": "Re-leída esta ronda: la página de Persée sirve la primera página de la reseña (la segunda queda cortada por el OCR: 'La dernière partie du livre est consacrée à l'évocation des survivances d'une « littérature marcorix »'). Añadido el segundo testimonio (HLAS 37, p. 103) y el contexto de Hoffmann 1994 (p. 13), que cita el prólogo de Fouchard: 'ce petit livre n'a d'autre propos que de grouper et d'analyser, à l'intention de notre jeunesse, les maigres informations des premiers chroniqueurs'. El texto completo del libro de Fouchard sigue sin localizarse en línea. Ver la ficha de Beauvoir-Dominique 2005 para su artículo de 1984 en el Bulletin du Bureau national d'ethnologie n.º 1."
+  },
+  {
+   "titulo": "La Préhistoire en Haïti (Bulletin de la Société préhistorique française 37(4-5): 108-137)",
+   "autor": "Viré, Armand",
+   "anio": "1940",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://www.persee.fr/doc/bspf_0249-7638_1940_num_37_4_4750",
+   "urls_alternativas": [
+    "https://doi.org/10.3406/bspf.1940.4750"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de un prehistoriador francés tras una misión de 1938; solo se pudo leer la primera página (el PDF devuelve 403).",
+   "proveniencia": "Armand Viré, prehistoriador francés (se presenta como comandante de la Orden Nacional haitiana 'Honneur et Mérite'), viajó a Haití en 1938 invitado por plantadores haitianos para prospectar aguas subterráneas y aprovechó para estudiar la prehistoria; publica el balance en 1940 (tirada aparte de 32 pp. en 1941 según Bissainthe 1951, ficha 8374, cuyo 'ID.' remite probablemente a Viré [POR VERIFICAR]). Se incluye porque es el testimonio de prehistoria 'a la haitiana' más temprano que se pudo localizar en línea y usa el vocabulario de los manuales haitianos.",
+   "extractos": [
+    {
+     "ubicacion": "p. 108",
+     "cita_original": "L'île était habitée par les Chémès (Arawacs) population de race rouge, de mœurs plus douces que celles de leurs ennemis les Caraïbes.",
+     "traduccion": "La isla estaba habitada por los chemès (arawacos), población de raza roja, de costumbres más suaves que las de sus enemigos los caribes.",
+     "afirmaciones": [
+      "A-029"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-029"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "SOLO LA PRIMERA PÁGINA (p. 108): la herramienta de lectura y curl devuelven únicamente el texto de la primera página; el PDF (docAsPDF) da 403. Tradición 'francesa' por la nacionalidad del autor; el uso de 'Chémès' coincide con Dorsainvil 1934 (F-0481) y con Hoffmann 1994. Llama 'Quisqueia' a la isla. No se pudo leer la parte arqueológica (pp. 109-137), que sería la que cita a coleccionistas haitianos."
+  },
+  {
+   "titulo": "Histoire politique et statistique de l'île d'Hayti, Saint-Domingue (Libro I, p. 40: cifras de 1507 y 1511)",
+   "autor": "Placide-Justin, Michel",
+   "anio": "1826",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoirepolitiq00justgoog/histoirepolitiq00justgoog_djvu.txt",
+   "urls_alternativas": [
+    "https://manioc.martinique.univ-antilles.fr/omeka-s/files/original/2813/PAP11069.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación de 1826 sobre cronistas y Charlevoix, sin fuente propia para las cifras de los indios, pero es el origen directo de las cifras que repite la tradición haitiana.",
+   "proveniencia": "Ya registrada (F-0795). En esta ronda se cotejó la p. 40 del Libro I porque Léger (1907, p. 26) cita 'Placide Justin, Histoire d'Haïti, pages 40, 42' como base de sus cifras de 60.000 indígenas en 1507 y 14.000 en 1511.",
+   "extractos": [
+    {
+     "ubicacion": "Libro I, p. 40",
+     "cita_original": "En 1507, il ne restait déjà plus, dans toute l'île Espagnole, que soixante mille indigènes, c'est-à-dire la seizième partie à peu près de ce qu'on y en avait trouvé quinze ans auparavant.",
+     "traduccion": "En 1507 ya no quedaban en toda la isla Española más que sesenta mil indígenas, es decir, aproximadamente la decimosexta parte de los que se habían hallado quince años antes (16 x 60.000 = 960.000: base implícita de 'un millón').",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    },
+    {
+     "ubicacion": "Libro I, p. 40",
+     "cita_original": "en 1511 environ, il ne restait plus que quatorze mille Indiens chargés de tout le travail de la colonie",
+     "traduccion": "hacia 1511 ya no quedaban más que catorce mil indios encargados de todo el trabajo de la colonia.",
+     "afirmaciones": [
+      "A-022",
+      "A-024"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-022",
+    "A-024"
+   ],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0795",
+   "notas": "Cierra la cadena de transmisión Placide-Justin 1826 -> Léger 1907 (con la nota expresa de Léger). El OCR de archive.org no da el número de página impreso de forma limpia; el encabezado '40 HISTOIRE D'HAYTI.-1507.' abre la página y el siguiente es 'LIVRE PREMIER. 41'. Placide-Justin da 'un million à peu près d'insulaires' en la p. 2 (extracto ya recogido en M01.md). Las dos cifras (60.000 y 14.000) son las que Rouzier, Léger y Madiou reproducen con variantes; no son independientes."
+  },
+  {
+   "titulo": "Entre Nous: «Savalou E», Rachel Beauvoir y Didier Dominique (2) (Radio Haïti-Inter, 12-II-1989)",
+   "autor": "Beauvoir-Dominique, Rachel; Dominique, Didier; Dominique, Jan J. (entrevistador)",
+   "anio": "1989",
+   "tipo": "primaria",
+   "idioma": "ht",
+   "tradicion": "haitiana",
+   "url": "https://repository.duke.edu/dc/radiohaiti/RL10059-CS-1228_02",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Grabación de archivo (22 min 51 s) de la que solo se pudo leer la ficha descriptiva en criollo, inglés y francés; no se escuchó el audio.",
+   "proveniencia": "Programa 'Entre Nous' de Radio Haïti-Inter (archivo en Duke) en que Rachel Beauvoir y Didier Dominique presentan su libro 'Savalou E' (premio Casa de las Américas), escrito en criollo, sobre la sociedad campesina, el trabajo colectivo y las sociedades secretas, como defensa del vodú tras el dechoukaj de 1986.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "F-0118",
+   "notas": "RESUELTO PARCIALMENTE: la página carga en el navegador integrado de la sesión (la prueba Anubis que bloqueó a curl y a WebFetch en la ronda 1 no impide ahí la lectura). La ficha descriptiva (HT/EN/FR) habla de sociedad campesina, trabajo colectivo, sociedades secretas ('champwèl') y defensa del vodú; NO menciona taínos, cemíes ni piedras de rayo. La ronda en que se anotaron 'tres extractos sobre piedras de rayo y cemíes' (nota de registro.csv, M16) no puede corroborarse con esta ficha: esos pasajes, si existen, están en el audio, que no se escuchó. Recomendación: no usar F-0118 para afirmaciones de M01 hasta contar con la transcripción o escuchar el audio."
+  },
+  {
+   "titulo": "Haïti préhistorique: mémoire sur les cultures précolombiennes, ciboney et taïno (Publication du Bureau d'ethnologie de la République d'Haïti, série II, n.º 8)",
+   "autor": "Aubourg, Michel",
+   "anio": "1951",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://openlibrary.org/works/OL42932520W",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL1401142W"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Monografía del personal técnico del Bureau d'ethnologie; existencia confirmada por cuatro testigos independientes, contenido solo conocido por citas indirectas.",
+   "proveniencia": "Michel Aubourg, miembro del personal técnico del Bureau d'Ethnologie (coautor de 'Le mouvement folklorique en Haïti', 1952; estudió prehistoria con el geólogo Jacques Butterlin según Charlier-Doucet 2005), publica en 1951 esta memoria de 79 pp. (Éd. Panorama / Imprimerie de l'État). Es la primera síntesis haitiana de las culturas ciboney y taína. Sin acceso al texto.",
+   "extractos": [
+    {
+     "ubicacion": "Gradhiva 2005, bibliografía (ref. de Charlier-Doucet)",
+     "cita_original": "1951 Haïti préhistorique. Mémoire sur les cultures précolombiennes, ciboney et taïno. Port-au-Prince, Imprimerie de l'État (« Publication du Bureau d'ethnologie de la République d'Haïti » Série II-8).",
+     "traduccion": "Ficha bibliográfica de la obra en la bibliografía de Charlier-Doucet.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "NO SE LOCALIZÓ EL TEXTO. Testigos de existencia: (1) Gradhiva 2005 (bibliografía); (2) Heritage 2020, ref. 75 (Éditions Panorama, 1951); (3) Le Nouvelliste 28-IV-1952 ('une magnifique monographie sur HAÏTI PRÉHISTORIQUE'); (4) Haiti Sun 8-X-1961 (Hodges cita el extracto de feb. 1951); (5) catálogo Open Library (79 pp.; dos registros, uno con fecha 1940, que parece un error de catalogación). Búsquedas hechas: archive.org (API de catálogo), Gallica (SRU), dLOC (texto completo), Persée, Open Library, WebSearch en francés e inglés. Probable depósito físico: Bibliothèque haïtienne des Spiritains y Bibliothèque nationale d'Haïti. SILENCIO DOCUMENTAL, no falta de esfuerzo."
+  },
+  {
+   "titulo": "Prehistory in Haiti: a study in method (Yale University Publications in Anthropology 21, 1939; reimpr. Human Relations Area Files Press, 1964)",
+   "autor": "Rouse, Irving",
+   "anio": "1939 (reimpr. 1964)",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/prehistoryinhait0000rous",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL1302514W"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra fundacional de la arqueología haitiana por el arqueólogo de Yale; solo se pudo confirmar la existencia y el régimen de acceso.",
+   "proveniencia": "Irving Rouse (Yale) publica su estudio de método sobre la prehistoria de Haití en 1939 (serie del Departamento de Antropología de Yale) y lo reimprime en 1964 la Human Relations Area Files Press (202 pp.; bibliografía pp. 160-165, según la ficha de archive.org). Primera mano: excavaciones de 1935-1937 [POR VERIFICAR fechas]. Beauvoir-Dominique 2005 atribuye a los trabajos de Rouse y Rainey en Fort-Liberté el origen de los términos clásicos 'Carrier' y 'Meillac'.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "SOLO PRÉSTAMO: la copia de archive.org (identificador prehistoryinhait0000rous, reimpresión de 1964) es de préstamo controlado, sin texto abierto; no hay copia abierta de la edición de 1939 en archive.org (búsqueda por título, autor y serie 'Yale University Publications in Anthropology' sin resultados). Open Library lista cuatro registros de la obra (1939/1964). El registro de Quai Branly que localizó una búsqueda ya no abre (redirige a la portada). Anotar en 07-sintesis/limites.md. Alternativa legible: Beauvoir-Dominique 2005 y Sony Jean 2019 (M01-N20) resumen la secuencia de Rouse y Rainey."
+  },
+  {
+   "titulo": "Excavations in the Ft. Liberté region, Haiti (Yale University Publications in Anthropology 23)",
+   "autor": "Rainey, Froelich G.",
+   "anio": "1941",
+   "tipo": "cientifica",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://openlibrary.org/works/OL4284646W",
+   "urls_alternativas": [
+    "https://openlibrary.org/works/OL4284645W"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de excavación del arqueólogo de Yale, base de la secuencia de Fort-Liberté; solo se confirmó la existencia.",
+   "proveniencia": "Froelich G. Rainey (Yale) publica en 1941, para el Departamento de Antropología de Yale, la memoria de sus excavaciones en la región de Fort-Liberté, al norte de Haití (los catálogos consultados por búsqueda dan 48 pp. con láminas [POR VERIFICAR]); complementa la 'Culture of the Fort Liberté region' de Rouse (1941, YUPA 24). Rainey publicó antes 'A new prehistoric culture in Haiti' (PNAS 22, 1936).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "NO SE LOCALIZÓ TEXTO abierto: ni archive.org (búsquedas de catálogo), ni dLOC, ni Gallica, ni Persée. El catálogo de la TUM bloquea con Anubis y el de CiNii no devolvió contenido; se usó Open Library (dos registros) para confirmar existencia. HathiTrust no pudo consultarse (403). Sigue pendiente la consulta de HathiTrust por el portal de la biblioteca de Bran. Heritage 2020 (refs. 66-71) lista Krieger 1932, Rainey 1936 y 1941, Boggs 1940 y Rouse 1939 y 1941."
+  },
+  {
+   "titulo": "Bulletin du Bureau d'ethnologie de la République d'Haïti, série II (1942-1956 en lo conocido) y Bulletin du Bureau national d'ethnologie (desde 1984): artículos sobre los aborígenes conocidos solo por referencias",
+   "autor": "Bureau d'ethnologie de la République d'Haïti (Roumain, Fisher, Mangonès, Maximilien, Bastien, Aubourg, Aristide, Fouchard y otros)",
+   "anio": "1942-1992",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://journals.openedition.org/gradhiva/313",
+   "urls_alternativas": [
+    "https://mdpi-res.com/d_attachment/heritage/heritage-03-00041/article_deploy/heritage-03-00041.pdf",
+    "https://www.persee.fr/doc/ecreo_0708-2398_1994_num_17_1_1460"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Serie institucional de referencia para la arqueología y etnología haitianas; los números no están digitalizados y se conocen por las citas de Charlier-Doucet 2005, Jean et al. 2020 y Hoffmann 1994.",
+   "proveniencia": "Boletín del organismo creado por decreto-ley del 31 de octubre de 1941 (director fundador Jacques Roumain) para investigar y proteger el patrimonio arqueológico y etnográfico. Los números de los años 1940-50 contienen los trabajos de Roumain, Bastien, Fisher y Aubourg; a partir de 1984 la serie pasa a llamarse Bulletin du Bureau national d'ethnologie. Ficha agregada: no es un único documento.",
+   "extractos": [
+    {
+     "ubicacion": "Jean et al. 2020 (Heritage 3), refs. 74, 77, 80",
+     "cita_original": "Aubourg, M. Les recherches archéologiques de M. Herber [sic] Krieger dans le nord d'Haiti. Bull. Bur. D'Ethnol. 1947, 3, 41-49. [...] Bastien, R. Archéologie de la Baie de Port-au-Prince. Bull. Bur. D'Ethnol. 1944, 3, 33-38. [...] Roumain, J. L'outillage lithique des Ciboney d'Haiti. Bull. Bur. D'Ethnol. Répub. D'Haiti 1943, 2, 22-27.",
+     "traduccion": "Referencias de tres artículos arqueológicos del Bulletin (Aubourg 1947; Bastien 1944; Roumain 1943), tal como las lista Jean et al. 2020.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Hoffmann 1994, p. 38 (bibliografía)",
+     "cita_original": "ROUMAIN, Jacques : « L'Outillage lithique des Ciboney d'Haïti », in Bulletin du Bureau d'Ethnologie (Port-au-Prince), no. 2-3, 1943 : 22-27 .",
+     "traduccion": "Referencia del mismo artículo de Roumain en Hoffmann (con la numeración 'n.º 2-3, 1943').",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Gradhiva 2005, § 20",
+     "cita_original": "Pour la première période de vingt-deux ans (1941-1963), la production totale est de vingt publications",
+     "traduccion": "En los primeros veintidós años (1941-1963) el Bureau produjo veinte publicaciones en total.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "SILENCIO DOCUMENTAL (no ausencia de esfuerzo): búsqueda de texto completo en dLOC con 'Bureau d'ethnologie' (105 resultados; en las tres primeras páginas de resultados, 72 de ellos, ninguno es un número del Bulletin: son prensa, Le Moniteur, folletos y citas), Gallica (SRU: solo los Bureau of American Ethnology y fichas de archivos: Collège de France, 'Articles du Bulletin du Bureau d'ethnologie (1943, 1944)' y una carta de Lorimer Denis; Bibliothèque de Lyon, 'Échange d'objets avec le Bureau d'ethnologie d'Haïti'), archive.org (API: ningún número), Persée y WebSearch. Otros artículos del Bulletin relevantes que solo se conocen por referencia: A. Aristide, 'Le problème de l'Indien...' (reeditado en la serie 2, n.º 13, 1956); J. Fouchard, 'Où, quand et par qui fut choisi de redonner à notre patrie le nom indien d'Ayti' (Bulletin du Bureau national d'ethnologie n.º 1, 1984); M. Aubourg 1947; K. Fisher 1944 y 1947; R. Bastien 1944. Índice bibliográfico: A. Charles, 'Index bibliographique des Bulletins et Publications du Bureau d'ethnologie', Bulletin IV-30 (1964): 47-56 (no localizado). Los números de 1984-1992 se citan en Beauvoir-Dominique 2005 (Bulletin du Bureau National d'Ethnologie, número especial 1987-1992)."
+  },
+  {
+   "titulo": "Quelques apports indiens à la vie haïtienne (Les Cahiers d'Haïti, n.º 5, diciembre de 1943, pp. 42-47)",
+   "autor": "Maximilien, Louis",
+   "anio": "1943",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://journals.openedition.org/gradhiva/313",
+   "urls_alternativas": [
+    "https://www.persee.fr/doc/ecreo_0708-2398_1994_num_17_1_1460"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo de un pionero de la arqueología haitiana, conocido solo por referencias y por la crítica de Aristide.",
+   "proveniencia": "El Dr. Louis Maximilien, médico militar y pionero de la arqueología haitiana, defiende en Les Cahiers d'Haïti que existen aportes indios biológicos y culturales en la sociedad haitiana, rebatiendo el manual de Dorsainvil (según Charlier-Doucet 2005, nota 21). Lo refuta Achille Aristide en Optique (1956).",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "NO SE LOCALIZÓ EL TEXTO (la revista Les Cahiers d'Haïti no figura como título digitalizado en dLOC; solo aparece citada en otras obras). Referencias: Charlier-Doucet 2005 (bibliografía y nota 21); Hoffmann 1994 (nota 4 y bibliografía: 'no. 5, déc. 1943: 42-47'); Aristide 1956 (resume y critica la tesis; el OCR dañado deja legible solo que Maximilien pone 'conclusions favorables' a los aportes indios, y que apoya sus argumentos en el carnaval, el sincretismo religioso, las hachas votivas y la antropología física de Hrdlicka)."
+  },
+  {
+   "titulo": "Actes du forum international sur les traces de nos ancêtres amérindiens (Pétionville, 2013)",
+   "autor": "Fondation Odette Roy Fombrun pour l'éducation (ed.)",
+   "anio": "2015",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://openlibrary.org/works/OL32765333W",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Actas de un foro de la sociedad civil haitiana con ponencias de arqueólogos y artistas; solo se conoce la ficha de catálogo.",
+   "proveniencia": "La Fondation Odette Roy Fombrun pour l'éducation (Port-au-Prince) publica en 2015 (304 pp.) las actas del primer foro internacional sobre la ascendencia amerindia de Haití; la ficha de Open Library dice que los temas incluyen 'Tainos in Haiti, Taino art, pre-Columbian...' (texto de la descripción truncado). Un resultado de búsqueda sitúa el foro en abril de 2013 [POR VERIFICAR].",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M01"
+   ],
+   "id_existente": "",
+   "notas": "NO SE LOCALIZÓ EL TEXTO. Interesa porque es la expresión civil reciente del discurso haitiano sobre 'nuestros ancestros amerindios' (ver Fombrun, F-0165, y la reseña de Takam Tikou, M01-N23). Quedan por ver los participantes (posiblemente Beauvoir-Dominique, Sony Jean) y si el volumen contiene cifras de población."
+  }
+ ]
+}
