@@ -1,8 +1,8 @@
-# Adenda de simetría: fuentes de la lente dominicana (consolidación de la Fase 2)
+# Adenda de simetría: fuentes de las lentes dominicana y haitiana (consolidación de la Fase 2)
 
-Adenda de simetría de la consolidación de la Fase 2 (2026-10-07). El diagnóstico dejó 16 afirmaciones sin fuente leída de tradición dominicana y 30 sin fuente haitiana. El buscador dominicano aportó 19 fuentes (15 nuevas, 4 ya registradas) y 50 extractos que cubren 10 de las 16, casi siempre de forma parcial o de segunda mano. Siguen sin fuente dominicana 6 (A-025, A-026, A-234, A-239, A-240, A-241): no se halló tratamiento directo, y esa ausencia es un dato; A-234 solo cuenta con un estudio de equipo dominicano catalogado como científico. No hay archivo del buscador haitiano: las 30 afirmaciones sin fuente haitiana siguen abiertas.
+Adenda de simetría de la consolidación de la Fase 2 (2026-10-07). El diagnóstico dejó 16 afirmaciones sin fuente leída de tradición dominicana y 30 sin fuente haitiana. El buscador dominicano aportó 19 fuentes y cubre 10 de las 16; el haitiano aportó 20 y cubre 20 de las 30, solo cuatro con tratamiento directo (A-005, A-060, A-255, A-263). Siguen sin fuente dominicana 6 (A-025, A-026, A-234, A-239, A-240, A-241) y sin fuente haitiana 10 (A-025, A-227, A-232, A-233, A-234, A-237, A-256, A-258, A-259, A-260): ninguna fuente localizada las trata, sobre todo en genética de poblaciones; esa ausencia es un dato, no una prueba.
 
-Origen: `02-fuentes/por-modulo/raw/SIM-dominicana.json` (lente dominicana, 40 búsquedas usadas de un presupuesto de 80; las 40 restantes quedaron sin hacer). No existe `raw/SIM-haitiana.json` en el repositorio: el registrador solo recibió el archivo dominicano. Registrador: 2026-10-07. Todas las fuentes se descargaron y leyeron (HTTP 200). Las citas de obras no libres de derechos se abrevian aquí a 15 palabras o menos; el extracto completo está en el JSON de origen. Los extractos con «[SIM 2026-10-07]» en `cobertura.csv` se añadieron a pares ya existentes.
+Origen: `02-fuentes/por-modulo/raw/SIM-dominicana.json` (lente dominicana, 40 búsquedas usadas de un presupuesto de 80; las 40 restantes quedaron sin hacer) y `02-fuentes/por-modulo/raw/SIM-haitiana.json` (lente haitiana, 22 búsquedas usadas; unas 58 de las 80 previstas quedaron sin hacer). Registrador: 2026-10-07; la parte dominicana se registró en una corrida anterior y esta corrida amplía la adenda con la haitiana. Todas las fuentes se descargaron y leyeron (HTTP 200), salvo tres de la lente haitiana que quedan como descarga parcial: Hoffmann 1994 (solo la primera página; el PDF de Persée devuelve 403), Lalime 2013 (solo la entradilla; muro de pago) y Théodat 1998 (solo el resumen). Las citas de obras no libres de derechos se abrevian aquí a 15 palabras o menos; el extracto completo está en el JSON de origen. Los extractos con «[SIM 2026-10-07]» en `cobertura.csv` se añadieron a pares ya existentes (los de la lente dominicana; los 45 pares de la lente haitiana son todos nuevos).
 
 ## Resumen
 
@@ -27,10 +27,34 @@ Origen: `02-fuentes/por-modulo/raw/SIM-dominicana.json` (lente dominicana, 40 b�
 | F-3153 | Andújar, Jordy (MEPyD, UEPESC) | Oportunidades Empresariales entre la República Dominicana y Haití (Unidad de Es… | 2016 | oficial-rd | M16 | fila nueva | A-262 |
 | F-3154 | Félix, Guarocuya | Cómo Haití y la República Dominicana comenzaron a separarse (elDinero, 5-V-2026… | 2026 | dominicana | M16 | fila nueva | A-262 |
 | F-3155 | Solano, Julio | The Economist: Los dominicanos son 11 veces «más ricos» que los haitianos (Acen… | 2025 | dominicana | M16 | fila nueva | A-262 |
+| F-0109 | Price-Mars, Jean | La République d'Haïti et la République Dominicaine. Les aspects divers d'un prob… | 1953 | haitiana | M00, M03, M05, M09, M13, M15, M16 | ya registrada; extractos y nota añadidos | A-014, A-065, A-122, A-164, A-209, A-229, A-230, A-231, A-235, A-236, A-239 |
+| F-1451 | Pierre, Hancy | De la construction des catégories de race et de nation en République dominicaine… | 2015 | haitiana | M00, M03, M09, M13, M15, M16 | ya registrada; extractos y nota añadidos | A-014, A-046, A-122, A-164, A-209, A-229, A-230, A-239 |
+| F-0165 | Fombrun, Odette Roy | Renommons l'île: Quisqueya, non pas Hispaniola (texto de septiembre de 2000, rep… | 2000 | haitiana | M00 | ya registrada; extractos y nota añadidos | A-005 |
+| F-0896 | Charlier Doucet, Rachelle | « QUISQUEYA », « QUISQUEYENS », les enjeux d'une appellation (Le Nouvelliste, 12… | 2014 | haitiana | M00 | ya registrada; extractos y nota añadidos | A-005 |
+| F-0894 | Théodat, Jean-Marie | Haïti-Quisqueya : une double insularité (Mappemonde, n.º 51, 1998/3, pp. 7-11) | 1998 | haitiana | M00 | ya registrada; extractos y nota añadidos | A-005 |
+| F-0842 | Savary, Savannah | Le tort d'être noir dans l'autre République de Kiskéia (Le Nouvelliste, 19 déc.… | 2013 | haitiana | M00, M15 | ya registrada; extractos y nota añadidos | A-014, A-209 |
+| F-0888 | Hurbon, Laënnec | Comprendre Haïti. Essai sur l'État, la nation, la culture (Paris, Éditions Karth… | 1987 | haitiana | M00, M13, M15 | ya registrada; extractos y nota añadidos | A-014, A-209 |
+| F-3156 | Paret, Robert | La République dominicaine, un double visage et un double langage pour les Haïtie… | 2015 | haitiana | M13, M15 | fila nueva | A-164, A-209 |
+| F-0106 | Madiou, Thomas | Histoire d'Haïti, tome 1 (Port-au-Prince, 1847) | 1847 | haitiana | M01, M16 | ya registrada; extractos y nota añadidos | A-026, A-238 |
+| F-2163 | Hoffmann, Léon-François | L'élément indien dans la conscience collective des Haïtiens (Études créoles 17(1… | 1994 | haitiana | M01 | ya registrada; extractos y nota añadidos | A-026 |
+| F-2171 | Aristide, Achille | Le problème de l'Indien et de ses survivances en Haïti (Optique, Port-au-Prince,… | 1956 | haitiana | M01, M16 | ya registrada; extractos, URL y nota añadidos | A-240, A-241 |
+| F-3160 | Faine, Jules | Philologie créole: études historiques et étymologiques sur la langue créole d'Ha… | 1936 | haitiana | M16 | fila nueva | A-255 |
+| F-2122 | Bojarski, Sam | From language to religion, Haitian culture bears Indigenous Taino influences (Th… | 2024 | haitiana | M01, M16 | ya registrada; extractos y nota añadidos | A-255 |
+| F-0895 | Théodat, Jean-Marie | Haití, Quisqueya; los límites de la insularidad (1630-1916) (Estudios Fronterizo… | 1997 | haitiana | M03, M05 | ya registrada; extractos y nota añadidos | A-046 |
+| F-0889 | Anglade, Georges | Atlas critique d'Haïti (Montréal, ERCE y Centre de recherches caraïbes, Universi… | 1982 | haitiana | M05 | ya registrada; extractos y nota añadidos | A-060 |
+| F-3157 | Victor, Jean André | Pourquoi et comment Haïti s'effondre-t-elle ? (Le Nouvelliste, 22 nov. 2012; pri… | 2012 | haitiana | M05, M16 | fila nueva | A-060, A-263 |
+| F-3158 | Lalime, Thomas | Une île, deux peuples, deux histoires (Le Nouvelliste, 2 sept. 2013) | 2013 | haitiana | M05 | fila nueva | A-060 |
+| F-3159 | Bellande, Alex | L'espace boisé actuel en Haïti : régression ou progression ? (AyiboPost, 22 avri… | 2022 | haitiana | M05, M16 | fila nueva | A-060, A-263 |
+| F-1639 | Bellegarde, Dantès | Pages d'histoire: I. L'esclavage et le trafic des Noirs dans l'île d'Haïti; II.… | 1925 | haitiana | M05, M16 | ya registrada; extractos, URL y nota añadidos | A-065, A-231 |
+| F-0108 | Bellegarde, Dantès | Histoire du peuple haïtien (1492-1952) (Port-au-Prince, 1953; ed. electrónica Le… | 1953 | haitiana | M05 | ya registrada; extractos y nota añadidos | A-065 |
 
-Totales: 15 filas nuevas en `registro.csv` (F-3141 a F-3155), 4 filas existentes actualizadas, 24 pares nuevos y 3 pares fusionados en `cobertura.csv` (total 27 pares afirmación-fuente).
+Totales de la lente dominicana: 15 filas nuevas en `registro.csv` (F-3141 a F-3155), 4 filas existentes actualizadas, 24 pares nuevos y 3 pares fusionados en `cobertura.csv` (total 27 pares afirmación-fuente).
 
-## Fichas por módulo
+Totales de la lente haitiana: 5 filas nuevas en `registro.csv` (F-3156 a F-3160), 15 filas existentes actualizadas (todas con nota «SIM 2026-10-07»; módulos añadidos en 9 y URL en 2) y 45 pares nuevos y 0 fusionados en `cobertura.csv` (total 45 pares afirmación-fuente).
+
+Total de la adenda: 20 filas nuevas, 19 filas actualizadas y 72 pares afirmación-fuente.
+
+## Fichas de la lente dominicana
 
 ### Fuente transversal (M00, M11 y M16)
 
@@ -320,6 +344,313 @@ Totales: 15 filas nuevas en `registro.csv` (F-3141 a F-3155), 4 filas existentes
 
 - Notas: Texto verificado con curl (HTTP 200). OJO con A-262: la razón de 11 veces no coincide con las cifras de A-262 (10-11 mil frente a 1,7-2 mil, que son 5-6,5 veces) ni con la expresión «un orden de magnitud»; puede deberse a PPA, a otro año o a otra definición [POR VERIFICAR contra el artículo de The Economist, que no se ha abierto].
 
+## Fichas de la lente haitiana
+
+Fuente: `raw/SIM-haitiana.json`. Agrupadas por el módulo de las afirmaciones que tocan; los módulos de cada fuente figuran en la tabla resumen.
+
+### Fuentes transversales (M00, M03, M05, M09, M13, M15 y M16)
+
+#### F-0109. Price-Mars, Jean, La République d'Haïti et la République Dominicaine. Les aspects divers d'un problème d'histoire, de géographie et d'ethnologie (Port-au-Prince, 1953, Collection du Tricinquantenaire de l'Indépendance d'Haïti); tomo I en la traducción española de Martín Aldao y José Luis Muñoz Azpiri (La República de Haití y la República Dominicana), tomo II en el original francés (1953)
+- Registro: ya existía como F-0109; no se crea fila. Se añade el módulo M15 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Dr. Jean Price-Mars (prefacio firmado en Pétionville, 2 de junio de 1953); la obra se publicó en la Colección del Tricinquantenaire de l'Indépendance d'Haïti y discute las tesis dominicanas de Peña Batlle (cita su informe doctrinal de 1942) y de Sánchez y Sánchez. Paginación: el folio aparece a pie de página en ambos volúmenes (en el tomo I el índice da p. 49 para el cap. II y el folio 48 precede al título del capítulo); la ubicación se da con ese criterio y con las líneas del archivo de texto, que permiten cotejar (margen de error de una página).
+- Acceso: https://archive.org/download/la-republica-de-haiti-y-la-republica-dominicana-jean-price-mars-1953/La%20rep%C3%BAblica%20de%20Hait%C3%AD%20y%20la%20Rep%C3%BAblica%20Dominicana%20-%20Jean%20Price%20Mars%20-%201953_djvu.txt | https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00002/Mars_RD_Haiti_fr_2.pdf | pdf-en-linea | descargada-y-leida; HTTP 200 (archive.org djvu.txt, 561 KB, tomo I en español) y 200 (ufdcimages PDF, 14 MB, tomo II en francés) | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: alta. Obra de síntesis de un etnólogo e historiador haitiano de primer rango, con aparato de notas y citas de Moreau de Saint-Méry, Charlevoix, García y estadísticas oficiales dominicanas; es a la vez fuente secundaria y documento de la posición haitiana de 1953, escrito contra la doctrina de Peña Batlle. Las citas del tomo I son de una traducción (el original francés del tomo I no se cotejó).
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-014, A-065, A-122, A-164, A-209, A-229, A-230, A-231, A-235, A-236, A-239.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| t. I (trad. esp.), p. 181; djvu.txt l. ~7608-7620 (cap. VII, empadronamiento de 1935) | «998.733 mestizos, 287.667 negros, 192.733 blancos y 339 amarillos» | [Original en español.] Cifras sobre 1.479.417 habitantes que Price-Mars toma del empadronamiento dominicano de 1935 (El Album de Oro); no menciona la cédula ni la Ley 247. | A-014, A-164, A-235 |
+| t. I (trad. esp.), pp. 183-184; djvu.txt l. ~7714-7747 | «un pequeño número de sobrevivientes indios» | [Original en español.] Tesis histórica sobre la composición del pueblo dominicano (blancos, negros y pocos indios), no un dato genético. | A-014, A-229, A-230, A-235, A-239 |
+| t. I (trad. esp.), p. 184; djvu.txt l. ~7768-7772 | «la mayoría de los colonos, en 1788, era de sangre mezclada» | [Original en español.] Atribuye la afirmación a Moreau de Saint-Méry y remonta la mezcla a la fundación de la colonia; tesis histórica, no dato genético. | A-014, A-231 |
+| t. I (trad. esp.), p. 184; djvu.txt l. ~7774-7780 | «homogeneidad y de pureza de sangre española» | [Original en español.] Cuestiona la «pureza de sangre española» con el «homo mediterráneus» (el buscador lo remite a Marcellin Boule); no trata Medio Oriente, judío ni Asia. | A-236 |
+| t. I (trad. esp.), p. 72; djvu.txt l. ~2815-2822 y ~2836-2842 | «obligaban a los españoles a recurrir a la práctica intérlope» | [Original en español.] Sujeto: Inglaterra, Francia, Holanda y Portugal, que monopolizaban la trata; no da serie de embarcados al Santo Domingo español. | A-065 |
+| t. I (trad. esp.), p. 72; djvu.txt l. ~2840-2846 | «la unión del blanco y de la negra» | [Original en español.] Origen, dice, de la clase de mestizos, tan numerosa como la de los blancos o más; tesis histórica, no dato genético. | A-014, A-231 |
+| t. II (francés), p. 326; PDF l. ~16079-16082 | «la communauté dominicaine est de “ race blanche, métissée ou autochtone ”» | «la comunidad dominicana es de “raza blanca, mestiza o autóctona”». La frase es irónica: «Que a los intelectuales de las orillas del Ozama les plazca creer…». | A-014, A-164, A-209 |
+| t. II (francés), p. 327; PDF l. ~16105-16112 | «la population noire atteint presque le tiers de la totalité des habitants» | «la población negra alcanza casi un tercio del total de habitantes». Price-Mars cita las categorías «raciales» del empadronamiento del 13-V-1935 y discute el cálculo del estadístico dominicano; no menciona la cédula. | A-014, A-164, A-235 |
+| t. II (francés), p. 327; PDF l. ~16122-16126 | «l'élément améro-indien … quasiment inexistant comme nombre» | «el elemento amerindio … casi inexistente en número». Tesis histórica sobre los dominicanos, no un dato genético. | A-014, A-164, A-229, A-239 |
+| t. II (francés), p. 134; PDF l. ~6534-6540 (junta del 9-VI-1844) | «M. Duarte s'opposa avec la dernière énergie à la réalisation d'un pareil projet» | «El señor Duarte se opuso con la mayor energía a la realización de semejante proyecto» (el protectorado francés propuesto por Bobadilla). No cita el pasaje de Serra sobre la admiración de Duarte por el pueblo haitiano. | A-122 |
+| t. II (francés), p. 41; PDF l. ~1804-1808 | «sincèrement et radicalement opposés à laisser soumettre leur peuple à une domination étrangère» | «sincera y radicalmente opuestos a que su pueblo fuera sometido a una dominación extranjera»; la frase nombra a Juan Pablo Duarte como ejemplo. | A-122 |
+
+- Notas: Fuente ya registrada (F-0109, M00;M01;M05;M06;M07;M08;M09;M10;M11...); aquí solo aporta extractos nuevos para afirmaciones de la asimetría haitiana. Para A-164 y A-209 trata la categoría 'mestizo/indio' del empadronamiento de 1935 y la ideología de la 'raza mestiza', pero NO la Ley 247 de 1931 ni la cédula (la palabra 'cedula' aparece una sola vez, a propósito de los braceros, tomo II, pp. ~328-330). Sobre A-122 no contiene el pasaje de Serra. Sobre A-229/A-230/A-239: es una tesis histórica (supervivencia india mínima), no un dato genético.
+
+#### F-1451. Pierre, Hancy, De la construction des catégories de race et de nation en République dominicaine (Le Nouvelliste, 27 févr. 2015) (2015)
+- Registro: ya existía como F-1451; no se crea fila. Se añaden los módulos M00, M03, M13, M15 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Hancy Pierre, firmante en Le Nouvelliste (Port-au-Prince); artículo motivado por el ahorcamiento de un limpiabotas haitiano en Santiago y por la memoria del embajador Guy Alexandre; escrito tras la sentencia TC 168-13. Afiliación del autor no indicada en la página.
+- Acceso: https://lenouvelliste.com/article/141774/De-la-construction-des-categories-de-race-et-de-nation-en-Republique-dominicaine | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Artículo de opinión de autor identificable en el principal diario haitiano, que resume la literatura dominicana (Deive, Franco, Fennema y Loewenthal, Peña Batlle) con citas, pero sin aparato crítico completo; sirve como posición haitiana, no como prueba de los hechos.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-014, A-046, A-122, A-164, A-209, A-229, A-230, A-239.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 27-II-2015, párr. 2 («Tout a commencé avec l'éloge des mulâtres») | «l'éloge des mulâtres comme étant des descendants de la population indigène» | «el elogio de los mulatos como descendientes de la población indígena». Cita a Luperón: los mulatos tenderían a volver a «la raza primitiva de la isla». | A-014, A-164, A-209 |
+| Le Nouvelliste, 27-II-2015, párr. 2, frase siguiente | «le métissage entre Indigènes et Espagnols n'eût pas été viable» | «el mestizaje entre indígenas y españoles no habría sido viable». Añade que las referencias indígenas serían hoy «quimeras»: tesis histórica, no dato genético. | A-014, A-229, A-230, A-239 |
+| Le Nouvelliste, 27-II-2015, párr. 4 (Devastaciones) | «des déplacements forcés massifs des habitants de la région de Santiago» | «desplazamientos forzosos masivos de los habitantes de la región de Santiago». Fecha las devastaciones de Osorio en 1606 (la bibliografía suele dar 1605-1606); no cita el censo de Osorio. | A-046 |
+| Le Nouvelliste, 27-II-2015, penúltimo párrafo | «Les classes dominantes en République dominicaine se réclament de l'hispanité» | «Las clases dominantes de la República Dominicana se reclaman de la hispanidad» y, sigue el texto, niegan sus raíces africanas. | A-014, A-209 |
+| Le Nouvelliste, 27-II-2015, último párrafo | «Juan Pablo Duarte ne fut pas raciste ni antihaïtien» | «Juan Pablo Duarte no fue racista ni antihaitiano». Cita «Franco, 1979:89»; no reproduce el pasaje de Serra. | A-122 |
+
+- Notas: Fuente ya registrada (F-1451, M09;M16); aporta extractos nuevos. No trata la cédula ni la Ley 247. Los extractos sobre indígenas (A-229, A-230, A-239) son tesis histórica, no dato genético.
+
+### M00: el nombre de la isla (A-005)
+
+#### F-0165. Fombrun, Odette Roy, Renommons l'île: Quisqueya, non pas Hispaniola (texto de septiembre de 2000, reproducido en Île en île) (2000)
+- Registro: ya existía como F-0165; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Odette Roy Fombrun (Port-au-Prince, 1917), fundadora de la primera escuela preescolar haitiana; texto fechado 'Septembre 2000' reproducido por el sitio Île en île; apoya su propuesta en la protesta de Edmond Mangonès en Montevideo (1934).
+- Acceso: https://ile-en-ile.org/odette-roy-fombrun-renommons-lile-quisqueya-non-pas-hispaniola/ | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Texto de propuesta de una educadora e historiadora de la infancia haitiana (autora de L'Ayiti des Indiens, 1992), sin aparato crítico en este formato; documenta la posición haitiana, no la prueba filológica.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-005.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Île en île, párr. 1 del texto (IX-2000) | «les Taïnos, avant l'arrivée de Colomb, appelaient Haíti, Bohio ou Quisqueya» | «los taínos, antes de la llegada de Colón, llamaban a la isla Haití, Bohío o Quisqueya». La autora los glosa como «tierra montañosa» o «gran tierra»; no discute la hipótesis ciguaya. | A-005 |
+
+- Notas: Fuente ya registrada (F-0165). Contrasta con Charlier Doucet 2014 (F-0896), que considera Quisqueya un nombre inventado por Pedro Mártir: la tradición haitiana está dividida sobre el mismo punto.
+
+#### F-0896. Charlier Doucet, Rachelle, « QUISQUEYA », « QUISQUEYENS », les enjeux d'une appellation (Le Nouvelliste, 12 févr. 2014) (2014)
+- Registro: ya existía como F-0896; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Rachelle Charlier Doucet, que se presenta como 'anthropologue' en Le Nouvelliste y habla de 'nuestros dos países'; texto de opinión que advierte contra el uso de 'Quisqueya' para toda la isla.
+- Acceso: https://lenouvelliste.com/article/127447/quisqueya-quisqueyens-les-enjeux-dune-appellation | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Artículo de una antropóloga con referencias (Tejera Penson 1908, Geggus 1997, Fouchard 1988) pero sin aparato completo; es una posición razonada, útil porque reporta qué enseñan los manuales del MENFP.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-005.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 12-II-2014, párr. 1 y sección «Quid de Quisqueya ?» | «ce nom a été inventé de toutes pièces par l'imagination fertile de Pedro Martyr d'Angleria» | «ese nombre fue inventado de pies a cabeza por la fértil imaginación de Pedro Mártir de Anglería». Atribuye la demostración a Apolinar Tejera Penson (1908). | A-005 |
+| Le Nouvelliste, 12-II-2014, sección «Comment donc s'appelait l'île ?» | «seuls deux noms étaient utilisés par les amérindiens pour désigner cette île» | «solo dos nombres usaban los amerindios para designar esta isla»: Bohío y Haití. Añade que los manuales del MENFP enseñan el tríptico «Haïti, Quisqueya ou Bohio». | A-005 |
+| Le Nouvelliste, 12-II-2014, misma sección, tras la cita de Tejera Penson | «cette affirmation d'Angleria est qualifiée de fantaisiste» | «esa afirmación de Anglería es calificada de fantasiosa» por geógrafos, historiadores y lingüistas de los períodos precolombino e hispánico, según la autora. | A-005 |
+
+- Notas: Fuente ya registrada (F-0896, M00;M16). No menciona a Granberry y Vescelius ni la hipótesis ciguaya.
+
+#### F-0894. Théodat, Jean-Marie, Haïti-Quisqueya : une double insularité (Mappemonde, n.º 51, 1998/3, pp. 7-11) (1998)
+- Registro: ya existía como F-0894; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Jean-Marie Théodat, geógrafo (Université Paris 1 Panthéon-Sorbonne según F-0685); su tesis de 1998 trata las relaciones haitiano-dominicanas; registrado como tradición haitiana en F-0123.
+- Acceso: https://www.persee.fr/doc/mappe_0764-3470_1998_num_51_3_1395 | fragmento-busqueda | descargada-parcial; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: alta. Artículo de un geógrafo (Paris 1) en una revista científica; solo se leyó el resumen y la primera página en la ficha de Persée (el PDF completo no se bajó).
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-005.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Mappemonde 51, p. 7 (resumen en la ficha de Persée) | «Quisqueya, autre toponyme d'origine taïno, est utilisé par les Dominicains» | «Quisqueya, otro topónimo de origen taíno, es utilizado por los dominicanos» para su porción de la isla. Lo trata como taíno sin discutir un posible origen ciguayo. | A-005 |
+
+- Notas: Fuente ya registrada (F-0894). Tercera postura haitiana sobre A-005 (taíno; el uso dominicano restringe el nombre al país).
+
+### M00, M13 y M15: raza, «indio» e identidad dominicana vista desde Haití (A-014, A-164, A-209)
+
+#### F-0842. Savary, Savannah, Le tort d'être noir dans l'autre République de Kiskéia (Le Nouvelliste, 19 déc. 2013) (2013)
+- Registro: ya existía como F-0842; no se crea fila. Se añaden los módulos M00, M15 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Savannah Savary, periodista de Le Nouvelliste (Port-au-Prince), escrito tras la sentencia TC 168-13; cita a Geneviève Douyon ('Cacher le Nègre, éviter l'Haïtien') sobre museos dominicanos.
+- Acceso: https://lenouvelliste.com/article/125438/le-tort-detre-noir-dans-lautre-republique-de-kiskeia | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: baja. Reportaje/ensayo de prensa de una periodista de Le Nouvelliste, con citas de terceros (Geneviève Douyon) pero sin aparato crítico; vale como testimonio de la lectura haitiana de la identidad dominicana (2013), no como evidencia de los hechos.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-014, A-209.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 19-XII-2013, sección sobre las élites dominicanas (párr. «Même si la majorité du peuple dominicain») | «une part importante de l'élite dominicaine pense que les Haïtiens sont des êtres inférieurs» | «una parte importante de la élite dominicana piensa que los haitianos son seres inferiores». La autora enumera luego racismo, hipocresía y rechazo de la pertenencia a la «raza negra». | A-014, A-209 |
+| Le Nouvelliste, 19-XII-2013, misma sección, cita de Geneviève Douyon | «expriment un inconfort avec un héritage venu directement de l'Afrique» | «expresan incomodidad con una herencia venida directamente de África». Cita de Geneviève Douyon sobre los centros de cultura e historia dominicanos. | A-014, A-209 |
+
+- Notas: Fuente ya registrada (F-0842, M08;M09). No menciona la cédula ni el censo de 2022; refleja el relato haitiano de que la identidad 'india' niega la raíz africana, sin describir el cambio en curso (A-209).
+
+#### F-0888. Hurbon, Laënnec, Comprendre Haïti. Essai sur l'État, la nation, la culture (Paris, Éditions Karthala, 1987; ed. electrónica Les Classiques des sciences sociales) (1987)
+- Registro: ya existía como F-0888; no se crea fila. Se añade el módulo M15 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Laënnec Hurbon, 'directeur de recherche au CNRS et professeur à l'Université Quisqueya de Port-au-Prince' según la portada digital; ensayo (Paris, Éditions Karthala, 1987, 174 pp.) que critica el discurso racial de Duvalier y de Balaguer (Haïti al revés, 1984).
+- Acceso: https://classiques.uqam.ca/contemporains/hurbon_laennec/comprendre_haiti/comprendre_haiti.pdf | pdf-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Ensayo de un investigador haitiano (CNRS, Université Quisqueya) con aparato de notas; la observación sobre la identidad dominicana es de pasada y en 1987, antes de los estudios de Simmons y de la sentencia TC 168-13.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-014, A-209.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| ed. digital UQAC, p. 105; PDF l. ~3622-3637 | «majoritairement noir, il refoule sa condition» | «mayoritariamente negro, reprime su condición». Habla de una parte del pueblo dominicano que interioriza la perspectiva del antihaitianismo (1987). | A-014, A-209 |
+| ed. digital UQAC, p. 90; PDF l. ~3058-3060 | «l'on commence à peine à interroger l'immense refoulement» | «apenas se empieza a interrogar el inmenso refoulement (represión)» sobre la cuestión negra en la República Dominicana (1987). | A-209 |
+
+- Notas: Fuente ya registrada (F-0888, M00;M13;M14). Paginación: el folio figura como cabecera de página en la edición digital; el pasaje de la p. 105 va tras la cabecera '105' y el de la p. 90 tras la cabecera '90'.
+
+#### F-3156. Paret, Robert, La République dominicaine, un double visage et un double langage pour les Haïtiens. Deuxième partie : La face cachée (Le Nouvelliste, 17 août 2015) (2015)
+- Registro: fila nueva en `registro.csv` (tipo divulgacion; idioma fr; módulos M13;M15).
+- Proveniencia: Robert Paret (el texto termina con 'Pèlerin, août 2015'), ciudadano haitiano que relata una visita a un batey dominicano tras 1986 y analiza el antihaitianismo; escrito tras la sentencia TC 168-13.
+- Acceso: https://lenouvelliste.com/article/148482/La-Republique-dominicaine-un-double-visage-et-un-double-langage-pour-les-Haitiens | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ninguna
+- Fiabilidad: baja. Relato personal y artículo de opinión de un autor identificable, que cita a Franklin Franco Pichardo (Du racisme et de l'antihaïtianisme, C3 Éditions, p. 109) y a Maurice Lemoine; sin aparato crítico; sirve solo como lectura haitiana de la categoría 'indio'.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-164, A-209.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 17-VIII-2015, penúltima sección (párr. «Cette discrimination, dont sont victimes») | «“ Indio puro ”, “ Indio claro ”, “ Indio obscuro. ”» | [Original en español dentro del texto francés.] Autodenominaciones que, según Paret, atenúan el estigma pero rechazan el componente africano de la identidad. | A-164, A-209 |
+| Le Nouvelliste, 17-VIII-2015, párrafo siguiente | «n'étant réservée qu'aux Haïtiens pauvres des bateys» | «reservada solo a los haitianos pobres de los bateyes»; se refiere a la denominación «negro, congo, africano». | A-164, A-209 |
+
+- Notas: Fuente nueva (el registro tiene otro texto de Robert Paret, F-1138, 2014, con distinta URL). No menciona la Ley 247 ni la cédula como documento: habla de las auto-denominaciones 'indio puro/claro/oscuro'. Afirma continuidad del rechazo a la raíz africana, no un cambio.
+
+### M01 y M16: población indígena, antropometría y léxico taíno (A-026, A-238, A-240, A-241, A-255)
+
+#### F-0106. Madiou, Thomas, Histoire d'Haïti, tome 1 (Port-au-Prince, 1847) (1847)
+- Registro: ya existía como F-0106; no se crea fila. Se añade el módulo M16 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Thomas Madiou, historiador y funcionario haitiano; tomo 1 de 1847 (archive.org id histoiredhaiti01madi).
+- Acceso: https://archive.org/download/histoiredhaiti01madi/histoiredhaiti01madi_djvu.txt | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Historia general de Haití de la primera generación posindependencia, de un autor-actor político; cita a los cronistas españoles sin aparato crítico moderno; OCR de archive.org con errores. Su valor aquí es historiográfico: muestra cómo la tradición haitiana trató la cifra de la población aborigen y la importación de indígenas.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-026, A-238.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| t. 1, pp. 9-10; djvu.txt l. ~1322-1337 | «les écrivains Espagnols ont considérablement grossi le nombre» | «los escritores españoles han exagerado considerablemente el número» de habitantes de la isla. En la p. 10 repite que la cifra aborigen fue «considerablemente exagerada» y da 60.000 habitantes en 1507. Precedente historiográfico, no análisis genético. | A-026 |
+| t. 1, p. 10; djvu.txt l. ~1344-1349 | «faire passer en Haïti 40,000 insulaires des Lucayes» | «hacer pasar a Haití 40.000 isleños de las Lucayas (Bahamas)». El texto previo habla de repoblar con indios de islas vecinas o con africanos. OCR con erratas. | A-238 |
+
+- Notas: Fuente ya registrada (F-0106, vía Gallica/dLOC). Aquí se leyó la edición de 1847 en archive.org porque Gallica bloquea la descarga con verificación de bot. Para A-026 es un precedente historiográfico sobre la cifra de 1492, no un análisis de la inferencia genética. Para A-238 documenta la importación de indígenas de las Lucayas, no de Tierra Firme o México.
+
+#### F-2163. Hoffmann, Léon-François, L'élément indien dans la conscience collective des Haïtiens (Études créoles 17(1): 11-38) (1994)
+- Registro: ya existía como F-2163; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Léon-François Hoffmann, Princeton University (firma de la ficha); registrado como tradición haitiana en F-2163; la primera página abre con un epígrafe de Roger Dorsinville.
+- Acceso: https://www.persee.fr/doc/ecreo_0708-2398_1994_num_17_1_1460 | fragmento-busqueda | descargada-parcial; HTTP 200 (ficha de Persée con la primera página; el PDF completo devuelve 403) | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: alta. Artículo de revista especializada (Études créoles) de un profesor de Princeton University; solo se leyó la primera página que muestra la ficha de Persée.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-026.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Études créoles 17(1), p. 11 (primera página, ficha de Persée) | «estimé à 400 000 en 1492, ne dépassait plus quelque 500 personnes» | «estimado en 400.000 en 1492, ya no pasaba de unas 500 personas» veinticinco años después. Visión haitiana de la demografía taína; no trata genética. | A-026 |
+
+- Notas: Fuente ya registrada (F-2163). Reintentar el acceso al texto completo (Persée PDF 403) antes de usarla para A-240 (supervivencia india en los haitianos).
+
+#### F-2171. Aristide, Achille, Le problème de l'Indien et de ses survivances en Haïti (Optique, Port-au-Prince, mai 1956, pp. 33-40) (1956)
+- Registro: ya existía como F-2171; no se crea fila. Se añade el módulo M16 y una nota «SIM 2026-10-07»; se añade la URL del texto consultado; el acceso no cambia.
+- Proveniencia: Achille Aristide, colaborador de la revista mensual Optique (Port-au-Prince, 1956); la revista edita el debate sobre las 'survivances' indias entre intelectuales haitianos.
+- Acceso: https://ufdcimages.uflib.ufl.edu/AA/00/09/31/10/00027/Optique-1956-05_pdf.txt | pdf-en-linea | descargada-y-leida; HTTP 200 (texto OCR de dLOC, 107 KB; el PDF del mismo número también devuelve 200) | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Ensayo crítico de un autor haitiano que discute a Maximilien (1943) y Élie (1944); texto OCR con pérdida de acentos, de modo que las citas llevan acentos restituidos.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-240, A-241.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Optique, V-1956, pp. 38-39 (OCR, cierre del ensayo) | «ne nous permettent pas d'avoir des données constantes et comparatives» | «no permiten tener datos constantes y comparables»; se refiere a las pocas mediciones antropométricas y biométricas hechas en Haití por Mabille, Roumain, Maximilien, J. B. Romain y Louis Roy. Acentos restituidos. | A-241, A-240 |
+| Optique, V-1956, p. 36 (OCR) | «aucun travail anthropométrique sur les aborigènes de l'Île n'a été effectué» | «ningún trabajo antropométrico sobre los aborígenes de la isla ha sido efectuado». Aristide resume aquí lo que admite Maximilien (1943). OCR restituido. | A-240 |
+
+- Notas: Fuente ya registrada (F-2171, M01). Es un testimonio histórico de 1956 sobre la escasez de datos antropométricos haitianos, no un estudio genético; sirve de antecedente de la laguna A-241.
+
+#### F-3160. Faine, Jules, Philologie créole: études historiques et étymologiques sur la langue créole d'Haïti (Port-au-Prince, Imprimerie de l'État, 1936) (1936)
+- Registro: fila nueva en `registro.csv` (tipo secundaria; idioma fr; módulos M16).
+- Proveniencia: Jules Faine, autor de la obra; edición de la Imprimerie de l'État, Port-au-Prince; la bibliografía incluye un 'Vocabulaire caraïbe par Mgr. Noël de Santo-Domingo (Ciudad Trujillo)' publicado en Le Temps de Port-au-Prince (referencia dominicana, no verificada).
+- Acceso: https://archive.org/download/BIULO.GEN.III.2464/BIULO_GEN_III_2464_djvu.txt | texto-completo-en-linea | descargada-y-leida; HTTP 200 (djvu.txt, 1 MB; metadatos de archive.org: dominio público) | fecha de consulta 2026-10-07 | URLs alternativas: ninguna
+- Fiabilidad: media. Obra filológica con glosario etimológico, impresa por el Estado haitiano, pero anterior a la lingüística criolla moderna; agrupa bajo 'caraïbe' el léxico indígena sin distinguir taíno de caribe insular y cita el Dictionnaire caraïbe-françois del P. Raymond (1666/1675).
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-255.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| cap. «Origines», p. 2; djvu.txt l. ~899-906 | «Le créole s'est approprié un vocabulaire caraïbe assez considérable» | «El criollo se ha apropiado de un vocabulario caribe bastante considerable». Sigue una lista de unas dos decenas de voces (lambi, cassave, canot, hamac, ouragan…) sin recuento ni criterio de atribución. | A-255 |
+| cap. «Origines», p. 9; djvu.txt l. ~1303-1306 | «Dès le début, le caraïbe y a donc apporté sa contribution» | «Desde el comienzo, el caribe aportó su contribución», que habrá sido quizá la única supervivencia de esa lengua muerta. | A-255 |
+
+- Notas: Fuente nueva. Confirma la afirmación de que el sustrato indígena del kreyòl se cita con listas sin número y bajo la etiqueta 'caraïbe' (no 'taíno'). Faine cita en su bibliografía el Vocabulaire de Mgr. Nouel/'Noël' (Santo Domingo).
+
+#### F-2122. Bojarski, Sam, From language to religion, Haitian culture bears Indigenous Taino influences (The Haitian Times, 27 nov. 2024) (2024)
+- Registro: ya existía como F-2122; no se crea fila. Se añade el módulo M16 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Sam Bojarski, The Haitian Times (medio de la diáspora haitiana); el registro anota fechas 2021/2024 para este texto.
+- Acceso: https://haitiantimes.com/2024/11/27/from-language-to-religion-haitian-culture-bears-indigenous-taino-influence/ | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: baja. Nota de prensa de un medio de la diáspora haitiana, que cita a un instructor de criollo (Yvon Lamour, Haitian Creole Language Institute); sin aparato crítico ni recuento; sirve como evidencia del tipo de afirmación que circula.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-255.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| The Haitian Times, 27-XI-2024, sección «Haitian Creole shaped by Indigenous predecessors» | «People have collected some words that are from the Tainos» | [Original en inglés.] Cita de Yvon Lamour, instructor de criollo: «la gente ha recopilado algunas palabras que son de los taínos», sobre todo de comida (manba, kasav, lambi, mabi, anana); sin número ni criterio. | A-255 |
+
+- Notas: Fuente ya registrada (F-2122, M01). Complementa a Faine 1936: seis décadas después el sustrato léxico sigue citándose sin recuento.
+
+### M03: Devastaciones y censo de Osorio (A-046)
+
+#### F-0895. Théodat, Jean-Marie, Haití, Quisqueya; los límites de la insularidad (1630-1916) (Estudios Fronterizos, n.º 40, jul.-dic. 1997, pp. 115-139; traducción del francés de Danielle Wynants) (1997)
+- Registro: ya existía como F-0895; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Jean-Marie Théodat, 'Geógrafo de la Universidad de París X' según la nota del artículo; traducción del francés por Danielle Wynants.
+- Acceso: https://ref.uabc.mx/ojs/index.php/ref/article/download/309/519 | pdf-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: alta. Artículo en una revista académica mexicana, de un geógrafo registrado como haitiano; cita a Moya Pons (1977) para las Devastaciones.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-046.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Estudios Fronterizos 40, p. 124 (PDF l. ~412-416) | «Osorio, quien ocasionó la devastación de los establecimientos de la parte occidental (1605)» | [Original en español.] Cita a Moya Pons (1977); fecha la Devastación en 1605 y no da el censo de 1606. | A-046 |
+
+- Notas: Fuente ya registrada (F-0895). Solo da el contexto de las Devastaciones, no las cifras del censo de Osorio.
+
+### M05 y M16: trata, divergencia ambiental y cobertura forestal (A-060, A-065, A-263)
+
+#### F-0889. Anglade, Georges, Atlas critique d'Haïti (Montréal, ERCE y Centre de recherches caraïbes, Université de Montréal, 1982; ed. electrónica Les Classiques des sciences sociales) (1982)
+- Registro: ya existía como F-0889; no se crea fila. Se añade el módulo M05 y una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Georges Anglade, geógrafo (ERCE y Centre de recherches caraïbes, Montréal); el atlas incluye una 'murale Hispaniola' (edición con la UCMM de Santiago) como contrapunto dominicano.
+- Acceso: https://classiques.uqam.ca/contemporains/anglade_georges/atlas_critique_haiti/atlas_critique_haiti.pdf | pdf-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: alta. Obra de geografía crítica de un geógrafo haitiano, con cartografía y estadísticas; es anterior a Diamond (2005), así que no lo responde, pero ofrece la explicación estructural haitiana de la degradación ambiental.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-060.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| ed. digital, p. 122; PDF l. ~3961-3978 (sección «La conjoncture actuelle a une histoire») | «le bilan écologique à l'indépendance (1804) n'a pas dû être alarmant» | «el balance ecológico a la independencia (1804) no debió de ser alarmante». Reconoce quejas de los grandes colonos de la llanura por la degradación de los mornes en los últimos años de la colonia. | A-060 |
+| ed. digital, p. 122; PDF l. ~4000-4010 | «Le problème essentiel de la dégradation de l'environnement vient de la structure économique» | «El problema esencial de la degradación ambiental viene de la estructura económica». Al campesino parcelario se le exige producir para la exportación, y la presión extranjera agrava la degradación. | A-060 |
+
+- Notas: Fuente ya registrada (F-0889). Explica el contraste con el lado dominicano por la estructura económica y la historia colonial, no por la cultura ni las élites en sentido de Diamond. El folio figura como cabecera en la edición digital. No da un porcentaje de cobertura forestal.
+
+#### F-3157. Victor, Jean André, Pourquoi et comment Haïti s'effondre-t-elle ? (Le Nouvelliste, 22 nov. 2012; primera de tres partes, inspirada en Effondrement de Jared Diamond) (2012)
+- Registro: fila nueva en `registro.csv` (tipo divulgacion; idioma fr; módulos M05;M16).
+- Proveniencia: Jean André Victor, firmante en Le Nouvelliste (afiliación no indicada en la página). Escrito dos años después del terremoto de 2010 (el texto menciona el sismo del 12 de enero de 2010).
+- Acceso: https://lenouvelliste.com/article/111001/pourquoi-et-comment-haiti-seffondre-t-elle | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ninguna
+- Fiabilidad: media. Artículo de opinión firmado, que resume la tesis de Diamond (cap. 11 y 14) y la aplica a Haití; la cifra '98 % de los bosques destruidos' no lleva fuente en el texto. Vale como recepción haitiana de Diamond, no como medida forestal.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-060, A-263.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 22-XI-2012, entradilla | «Le présent texte est inspiré du livre de Jared Diamond, intitulé Effondrement» | «Este texto se inspira en el libro de Jared Diamond, Effondrement». La entradilla añade que el libro no tuvo eco significativo en Haití. | A-060 |
+| Le Nouvelliste, 22-XI-2012, sección «Présentation générale de la thèse de Diamond» | «les Dominicains ont réussi là où les Haïtiens ont échoué» | «los dominicanos tuvieron éxito donde los haitianos fracasaron». Resume a Diamond (Balaguer, Trujillo, parques) y da 74 reservas naturales y 30 % de cobertura forestal dominicana, sin fuente. | A-060, A-263 |
+| Le Nouvelliste, 22-XI-2012, sección «Les Remarques de Diamond à propos d'Haïti» | «98% des forêts sont détruites» | «el 98 % de los bosques están destruidos». Cifra atribuida a Diamond, sin fuente en el texto. | A-263 |
+| Le Nouvelliste, 22-XI-2012, misma sección | «les remarques de Diamond ne sont pas infondées» | «las observaciones de Diamond no carecen de fundamento». Matiza que el daño ambiental es condición necesaria, no suficiente (vecinos hostiles, respuestas de la sociedad). | A-060 |
+
+- Notas: Fuente nueva. Acepta en lo esencial la lectura de Diamond (a diferencia de Anglade y Bellande, que ofrecen explicaciones estructurales o cuestionan la cifra). Las partes 2 y 3 ('A suivre') no se localizaron: la búsqueda en lenouvelliste.com devolvió solo la primera parte.
+
+#### F-3158. Lalime, Thomas, Une île, deux peuples, deux histoires (Le Nouvelliste, 2 sept. 2013) (2013)
+- Registro: fila nueva en `registro.csv` (tipo divulgacion; idioma fr; módulos M05).
+- Proveniencia: Thomas Lalime, firmante en Le Nouvelliste (Port-au-Prince).
+- Acceso: https://lenouvelliste.com/article/119693/Une-ile-deux-peuples-deux-histoires | fragmento-busqueda | descargada-parcial; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ninguna
+- Fiabilidad: media. Reseña/comentario firmado sobre el cap. 11 de Diamond, pero el cuerpo está tras muro de pago: solo se leyó la entradilla (≈ 1.700 caracteres).
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-060.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| Le Nouvelliste, 2-IX-2013, entradilla visible | «Le titre d'aujourd'hui est celui du onzième chapitre de l'ouvrage intitulé Effondrement» | «El título de hoy es el del undécimo capítulo de la obra Effondrement». La entradilla dice que la comparación Haití-República Dominicana tiene «forte consonance environnementale»; el resto no se pudo leer. | A-060 |
+
+- Notas: Fuente nueva, solo localizada y leída en la entradilla; el argumento de Lalime queda [POR VERIFICAR]. Registrar como solo-localizada a efectos de síntesis.
+
+#### F-3159. Bellande, Alex, L'espace boisé actuel en Haïti : régression ou progression ? (AyiboPost, 22 avril 2022; artículo invitado) (2022)
+- Registro: fila nueva en `registro.csv` (tipo divulgacion; idioma fr; módulos M05;M16).
+- Proveniencia: Alex Bellande, 'agro-économiste et auteur de « Haïti déforestée, paysages remodelés »' según la firma; publicado en AyiboPost (Port-au-Prince).
+- Acceso: https://ayibopost.com/lespace-boise-actuel-en-haiti-regression-ou-progression/ | https://web.archive.org/web/2025/https://ayibopost.com/lespace-boise-actuel-en-haiti-regression-ou-progression/ | texto-completo-en-linea | descargada-y-leida; HTTP 200 (la página original devuelve solo el título a una descarga sin JavaScript; el texto se leyó en la copia de Wayback, 200) | fecha de consulta 2026-10-07 | URLs alternativas: ninguna
+- Fiabilidad: media. Artículo de un agro-economista identificado, autor del libro Haïti déforestée, paysages remodelés, que cita un estudio revisado (Churches et al. 2014); formato de artículo invitado en un medio digital haitiano, sin aparato crítico completo.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-060, A-263.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| AyiboPost, 22-IV-2022, sección «Quelle est véritablement l'étendue du couvert boisé du pays ?» | «Diverses sources présentent des écarts a priori incompréhensibles dans les chiffres» | «Diversas fuentes presentan diferencias a priori incomprensibles en las cifras»: 1,5 %, 4 %, 18 %, 23 % y 29 %. | A-263 |
+| AyiboPost, 22-IV-2022, misma sección, frase siguiente | «personne n'a pu définir l'origine de ce chiffre» | «nadie ha podido determinar el origen de esa cifra» (la de 1,5-2 %). | A-263 |
+| AyiboPost, 22-IV-2022, cierre del artículo | «le chiffre de 2 % de “ couverture végétale ” pour Haïti est faux» | «la cifra del 2 % de “cobertura vegetal” para Haití es falsa». | A-263, A-060 |
+| AyiboPost, 22-IV-2022, sección sobre las estimaciones satelitales | «représentent 29 % de la surface du pays» | «representan el 29 % de la superficie del país»: vegetación perenne arbórea o arbustiva con la nomenclatura de la FAO; cita a Churches et al. 2014 (F-1758). | A-263 |
+
+- Notas: Fuente nueva. Confirma desde el lado haitiano que las cifras rivales dependen de la definición (cobertura arbórea/arbustiva perenne frente a bosque) y que el '2 %' no tiene origen trazable; no tiene tratamiento específico de Hedges et al. 2018. Existe otro reportaje de Loop Haïti (8-V-2017, Rosny Ladouceur) sobre la presentación del libro de Bellande, leído solo en copia Wayback y no registrado: la cifra del 30 % allí es de Andrew Tarter (F-1757), no haitiana.
+
+#### F-1639. Bellegarde, Dantès, Pages d'histoire: I. L'esclavage et le trafic des Noirs dans l'île d'Haïti; II. La société française de Saint-Domingue en 1789; III. Pétion et Bolivar (Port-au-Prince, Bibliothèque de la Société d'histoire d'Haïti, Imprimerie Chéraquit, 1925) (1925)
+- Registro: ya existía como F-1639; no se crea fila. Se añade el módulo M16 y una nota «SIM 2026-10-07»; se añade la URL del texto consultado; el acceso no cambia.
+- Proveniencia: Dantès Bellegarde (1877-1966 según la edición digital de su Histoire du peuple haïtien), historiador y diplomático haitiano; las dos primeras partes fueron conferencias ante la Société d'histoire et de géographie d'Haïti, en plena ocupación estadounidense.
+- Acceso: https://dloc.com/UF00074089/00001 (registro F-1639); texto consultado vía https://api.dloc.patron.uflib.ufl.edu/pagetext?bibid=UF00074089&vid=00001&size=500&start=0 | texto-completo-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Conferencias de un historiador y diplomático haitiano ante la Société d'histoire et de géographie d'Haïti; se apoya en Moreau de Saint-Méry, Charlevoix, Peytraud y Bryan Edwards; el texto OCR de dLOC tiene errores (acentos y caracteres), por lo que las cifras se cotejaron con el contexto y las citas llevan los acentos restituidos.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-065, A-231.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| dLOC «Page 11» (≈ p. 11, ed. 1925), cap. I | «que l'on envoyât à Haïti, en 1517, 4.000 nègres de Guinée» | «que se enviara a Haití, en 1517, 4.000 negros de Guinea». Una nota al pie dice que la trata se regulaba por asientos con privilegio exclusivo. OCR restituido. | A-065 |
+| dLOC «Page 45», cap. III | «Le nombre des nègres introduits chaque année à St-Domingue était en moyenne de 13.000» | «El número de negros introducidos cada año en Saint-Domingue era en promedio de 13.000». Sin período ni fuente explícita en el pasaje; luego cita a Bryan Edwards y a Moreau de Saint-Méry sobre la mortalidad. OCR restituido. | A-065 |
+| dLOC «Page 34», cap. sobre los libertos | «Sur 500.000 esclaves qu'il y avait dans la colonie en 1789, 40.000 au moins» | «De 500.000 esclavos que había en la colonia en 1789, al menos 40.000» eran mulatos, según C. des Fosses. Describe el mestizaje de Saint-Domingue como uniones de colonos con mujeres esclavizadas, con juicios morales de época. OCR restituido. | A-231 |
+
+- Notas: Fuente ya registrada (F-1639, M05). Para A-065: da la serie anual solo del lado francés (promedio de 13.000) y para el lado español solo el hito de 1517; no hay serie del Santo Domingo español en el autor, lo que es coherente con la afirmación. Para A-231 solo da el contexto histórico, no datos genéticos. Las cifras de 'Page 45' y 'Page 11' deben cotejarse con el escaneo antes de citarlas en la síntesis.
+
+#### F-0108. Bellegarde, Dantès, Histoire du peuple haïtien (1492-1952) (Port-au-Prince, 1953; ed. electrónica Les Classiques des sciences sociales, 2004) (1953)
+- Registro: ya existía como F-0108; no se crea fila. No se añaden módulos; se añade una nota «SIM 2026-10-07»; url y acceso no cambian (ya estaban verificados o el registro conserva el mejor acceso).
+- Proveniencia: Dantès Bellegarde (1877-1966), publicado para el Tricentenario/Cincuentenario; edición digital de 2004 por Rency Inson Michel (UEH).
+- Acceso: https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.pdf | pdf-en-linea | descargada-y-leida; HTTP 200 | fecha de consulta 2026-10-07 | URLs alternativas: ver `registro.csv`
+- Fiabilidad: media. Manual de historia nacional de un historiador haitiano, sin aparato crítico moderno pero con citas de Saco y Charlevoix; es el relato escolar de referencia de la época.
+- Tradición: haitiana. Hallada por la lente haitiana (SIM). Usada para: A-065.
+
+| Ubicación | Cita original (abreviada) | Traducción o nota | Afirmaciones |
+|---|---|---|---|
+| ed. digital, pp. 25-26; PDF l. ~804-826 | «l'envoi à Hispaniola, en 1517, de quatre mille nègres d'Afrique» | «el envío a la Española, en 1517, de cuatro mil negros de África». Añade que los esclavos africanos se rebelaron varias veces. | A-065 |
+
+- Notas: Fuente ya registrada (F-0108). Solo da el hito de 1517; ninguna serie de embarcados del Santo Domingo español.
+
 ## Lo que sigue sin cubrir en la lente dominicana
 
 Según las lagunas del buscador dominicano (`raw/SIM-dominicana.json`, campo `lagunas`):
@@ -343,7 +674,7 @@ Según las lagunas del buscador dominicano (`raw/SIM-dominicana.json`, campo `la
 | A-256 | Vega 2023 (4 % RD, 10 % PR, 8 % Cuba, autosómico), Listín 2008-2010 y Clío 2019. | Ninguna da la cifra de mtDNA puertorriqueño (61 %) ni la cubana (33 %) de A-256; las cifras de Vega son autosómicas y sin fuente bibliográfica. |
 | A-262 | MEPyD 2024 (11.156 US$ en 2023), Andújar 2016 (Haití 1.703 PPA 2013) y Félix 2026 (fecha de la brecha, según Maddison 2023). | Ninguna serie comparable de ambos países en un mismo documento; la razón de «11 veces» de The Economist (vía Acento) no cuadra con las cifras de A-262 (5-6,5 veces): revisar si «un orden de magnitud» está bien dicho. |
 
-### Búsquedas que quedaron pendientes
+### Búsquedas pendientes de la lente dominicana
 
 - Abrir el original de Hector y Hurbon (2009), Nau (1894), Dorsainvil (1939-1940) y Vaval, Magloire, Denis para cotejar lo que Marte (2022) les atribuye (A-017, A-244, A-156).
 - Deive, Vodú y magia en Santo Domingo (1975; 1988): buscar edición digital en la AGN (colecciones.agn.gob.do/biblioteca.agn.gob.do), el catálogo de la ADH o el CLACSO (A-242, A-243).
@@ -356,8 +687,61 @@ Según las lagunas del buscador dominicano (`raw/SIM-dominicana.json`, campo `la
 - Sirak, López Belando et al. 2026 (F-1578) y la cobertura de cdn.com.do (403): ver si reportan cifras demográficas o continuidad entre poblaciones preceramicas y ceramicas (A-025, A-239).
 - Cuarenta búsquedas del presupuesto de 80 quedaron sin hacer (ver busquedas_usadas).
 
-### Estado de la asimetría tras esta adenda
+## Lo que sigue sin cubrir en la lente haitiana
 
-- Sin fuente leída de tradición dominicana (criterio del diagnóstico: fuente leída con tradición `dominicana` u `oficial-rd` en `registro.csv`): 6 afirmaciones (A-025, A-026, A-234, A-239, A-240, A-241); antes 16.
-- Sin fuente leída de tradición haitiana: 30 afirmaciones; antes 30. Esta adenda no las toca porque no hay `SIM-haitiana.json`.
-- A-234 queda en la primera lista por el criterio estricto: su única cobertura de autoría dominicana (F-0211) está catalogada como `cientifica`.
+Según las lagunas del buscador haitiano (`raw/SIM-haitiana.json`, campo `lagunas`; texto del buscador):
+
+| Afirmación | Estado de la cobertura haitiana y qué falta |
+|---|---|
+| A-005 | cobertura de tres posturas haitianas sobre el nombre (Fombrun: taíno; Théodat: taíno; Charlier Doucet: invento de Pedro Mártir); ninguna fuente haitiana localizada trata la hipótesis ciguaya de Granberry y Vescelius ni la crítica filológica de Arrom o de Emiliano Tejera. |
+| A-014 | cobertura de la tesis de la nación mulata y de raíz africana (Price-Mars 1953, Hurbon 1987, Hancy Pierre 2015, Savary 2013); ninguna fuente haitiana localizada trata la afirmación específica del siglo XVI (primera sociedad de las Américas con mayoría negra y mulata) ni discute a Franco 1969 o Tolentino Dipp 1974; Bellegarde solo fija el hito de 1517. |
+| A-025 | sin tratamiento en la tradición haitiana; ninguna fuente localizada comenta a Fernandes et al. 2021 ni la Ne de La Española y Puerto Rico (1 consulta que el buscador desdobló en 4 variantes, la primera restringida a medios haitianos, sin resultado). |
+| A-026 | solo cobertura contextual: Madiou 1847 (t. 1, pp. 9-10) y Hoffmann 1994 (p. 11) discuten la cifra de población de 1492, pero ninguna fuente haitiana trata la inferencia genética (Ne a población censal). |
+| A-046 | solo cobertura del contexto (Devastaciones de Osorio en Hancy Pierre 2015 y Théodat 1997); ninguna fuente haitiana localizada cita el censo de 1606 (9.648 esclavizados, 1.117 vecinos, 40 clérigos). Madiou t. 1 y Ardouin t. 1 no mencionan a Osorio. |
+| A-060 | cobertura completa de la recepción haitiana de Diamond (Victor 2012, Lalime 2013 solo entradilla) y de explicaciones alternativas (Anglade 1982, Bellande 2022); falta el texto de Lalime y las partes 2 y 3 de Victor. |
+| A-065 | cobertura parcial: Bellegarde 1925 (promedio anual de 13.000 en Saint-Domingue; 1517 para el lado español) y Price-Mars 1953 (monopolio de las potencias marítimas y asiento); ninguna fuente haitiana localizada da una serie de embarcados del Santo Domingo español, lo que coincide con la afirmación. |
+| A-122 | cobertura parcial: Price-Mars 1953 (tomo II, pp. 41 y 134: Duarte opuesto a toda dominación extranjera) y Hancy Pierre 2015 (Duarte no fue racista ni antihaitiano); ninguna fuente haitiana localizada cita el pasaje de Serra sobre la admiración por el pueblo haitiano. Ardouin t. 10-11 no menciona a Duarte; la crónica de Le Nouvelliste sobre el bicentenario de Duarte (12-III-2013, conferencia de la Fondation Zile en Fokal) está tras muro de pago. |
+| A-164 | ninguna fuente haitiana localizada trata la Ley 247 de 1931 ni la cédula como documento; solo hay lectura interpretativa de la categoría 'indio' o 'mestizo' (Price-Mars sobre el empadronamiento de 1935, Hancy Pierre 2015, Paret 2015). La ausencia es un dato: el tema de la cédula no aparece en las fuentes haitianas leídas. |
+| A-209 | cobertura de la lectura haitiana estática (Hurbon 1987, Savary 2013, Paret 2015, Hancy Pierre 2015: la identidad 'india' niega la raíz africana); ninguna fuente haitiana localizada trata el cambio gradual, a Simmons 2009, a Wigginton y Middleton 2019 ni el censo de 2022. Hurbon 1987 (p. 90) dice que apenas se empezaba a interrogar el rechazo. |
+| A-227 | sin tratamiento haitiano del Proyecto Genoma Dominicano (AABA 2026); ninguna fuente de prensa haitiana consultada lo menciona. |
+| A-229 | solo cobertura contextual (Price-Mars: 'un pequeño número de sobrevivientes indios'; Hancy Pierre: 'les référents indigènes ne sont que chimères'); son tesis históricas haitianas sobre los dominicanos, no datos genéticos. |
+| A-230 | solo cobertura contextual (misma tesis histórica de Price-Mars y Hancy Pierre); ningún dato de cromosoma Y en fuentes haitianas. |
+| A-231 | solo cobertura contextual del patrón histórico (Bellegarde 1925, p. 34; Price-Mars tomo I p. 72: uniones entre colonos blancos y mujeres negras o esclavizadas); ninguna fuente haitiana localizada trata los datos de cromosoma Y y ADN mitocondrial. |
+| A-232 | sin fuente haitiana; es una cuestión metodológica de genética de poblaciones sin tratamiento en la tradición haitiana. |
+| A-233 | sin fuente haitiana; ninguna fuente localizada comenta que las muestras dominicanas de Bryc 2010 y Moreno-Estrada 2013 sean de la diáspora. |
+| A-234 | sin fuente haitiana; el estudio DPYD no aparece en las fuentes haitianas consultadas. |
+| A-235 | solo cobertura contextual: Price-Mars (pueblo dominicano = blancos, negros y pocos indios; 'la population noire atteint presque le tiers' en 1935) y Hurbon 1987 ('majoritairement noir'); son lecturas de censos e historia, no de ADN. |
+| A-236 | cobertura parcial: Price-Mars tomo I p. 184 cuestiona la 'pureza de sangre española' a partir de Marcellin Boule (el tronco mediterráneo con afinidades norteafricanas); no trata Medio Oriente, judío ni Asia. |
+| A-237 | sin fuente haitiana; ninguna fuente localizada trata los haplogrupos A2, C y D ni La Caleta. |
+| A-238 | cobertura parcial: Madiou 1847 (t. 1, p. 10) relata la importación de 40.000 isleños de las Lucayas a La Española, lo que apoya la idea de indígenas traídos de fuera, pero de las Bahamas, no de Tierra Firme ni México; sin tratamiento genético. |
+| A-239 | solo cobertura contextual con la tesis opuesta: Hancy Pierre ('le métissage entre Indigènes et Espagnols n'eût pas été viable') y Price-Mars ('élément améro-indien … quasiment inexistant comme nombre'); ninguna fuente haitiana discute los resultados de Fernandes et al. sobre ascendencia de la Edad Cerámica. |
+| A-240 | solo antecedentes: Aristide 1956 (debate sobre 'survivances' indias y escasez de mediciones antropométricas); Hoffmann 1994 truncado (el PDF de Persée devuelve 403); ninguna fuente haitiana trata los datos de Simms 2010/2012 ni de Salzano y Sans 2014. |
+| A-241 | antecedente documental (Aristide 1956: datos antropométricos escasos); las búsquedas restringidas a medios y revistas francófonos/haitianos (5 consultas) y una en inglés sin restricción no hallaron ningún estudio genómico con muestreo dentro de Haití ni institución haitiana que lo haya hecho; la ausencia queda reforzada, no establecida de forma exhaustiva. Los hallazgos en inglés fueron estudios forenses de mtDNA rural y trabajos sobre Plasmodium, ambos ajenos a la lente. |
+| A-255 | cobertura con Faine 1936 (lista de voces 'caraïbes' sin recuento ni criterio) y Bojarski 2024 (Lamour: 'some words', sobre todo de comida); ninguna obra de referencia haitiana cuantifica el sustrato taíno, lo que coincide con la afirmación. Hoffmann 1994 y Pompilus 1961 no se pudieron leer. |
+| A-256 | sin fuente haitiana; la comparación con Puerto Rico y Cuba no aparece en las fuentes haitianas consultadas. |
+| A-258 | sin fuente haitiana localizada sobre el perfil genético de la frontera ni de los bateyes; las lecturas haitianas de la frontera (Théodat 1997) son geográficas. |
+| A-259 | sin fuente haitiana; las búsquedas de 23andMe o AncestryDNA en prensa haitiana solo dieron pruebas de paternidad y adopciones. |
+| A-260 | sin fuente haitiana que trate la participación o la consulta en investigación genética; la búsqueda en prensa y revistas francófonas solo dio estudios sobre producción científica general de Haití. |
+| A-263 | cobertura completa desde el lado haitiano: Bellande 2022 (cifras 1,5 %, 4 %, 18 %, 23 %, 29 %; el 2 % es falso; Churches et al. 29 % con nomenclatura FAO) y Victor 2012 (98 % destruido, sin fuente); ninguna fuente haitiana localizada trata a Hedges et al. 2018 ni su definición de bosque primario. |
+
+### Búsquedas pendientes de la lente haitiana
+
+- A-122: fuente haitiana que cite el pasaje de Serra sobre la admiración de Duarte por el pueblo haitiano (Guy Alexandre; Fondation Zile/Fokal 2013; Madiou, Histoire d'Haïti t. 8 en la ed. de 1904 de Verrollot, no hallada en archive.org ni en dLOC)
+- A-164: Ley 247 de 1931 y la categoría 'indio' en la cédula en autores haitianos (Castor, Hurbon, Paraison, Louidor), en español y en kreyòl
+- A-046: cita haitiana del censo de Osorio de 1606 (Fouchard, Les marrons de la liberté; Hénock Trouillot)
+- A-209: cobertura haitiana del censo dominicano de 2022 (indio 34 %) y de Simmons 2009 (AlterPresse, Haïti Liberté, Le National)
+- M16: recepción haitiana del Proyecto Genoma Dominicano 2026, de Fernandes 2021 en kreyòl y de 23andMe
+- Texto completo de Hoffmann 1994 (Persée 403), de Lalime 2013 (muro de pago), de las partes 2 y 3 de Victor 2012, de Pompilus 1961 y del libro de Bellande 2015
+- Presupuesto restante: unas 58 de las 80 búsquedas previstas
+- Registrar, si procede, el reportaje de Loop Haïti (8-V-2017, Rosny Ladouceur) sobre el libro de Bellande, leído solo en copia Wayback y no registrado (ver la ficha de F-3159).
+
+## Estado de la asimetría tras esta adenda
+
+Criterio del diagnóstico (`02-fuentes/consolidacion/asimetria-dominicana.csv` y `asimetria-haitiana.csv`): afirmación sin ninguna fuente leída (`descargada-y-leida` o `descargada-parcial` en `cobertura.csv`) cuya tradición en `registro.csv` sea `dominicana` u `oficial-rd` (lente dominicana) o `haitiana` u `oficial-haiti` (lente haitiana).
+
+- Sin fuente leída de tradición dominicana: 6 afirmaciones (A-025, A-026, A-234, A-239, A-240, A-241); antes 16. A-234 queda en la lista por el criterio estricto: su única cobertura de autoría dominicana (F-0211) está catalogada como `cientifica`.
+- Sin fuente leída de tradición haitiana: 10 afirmaciones (A-025, A-227, A-232, A-233, A-234, A-237, A-256, A-258, A-259, A-260); antes 30. Las diez son de genética de poblaciones y ninguna fuente haitiana localizada las trata: las búsquedas en prensa y revistas francófonas y haitianas solo dieron temas ajenos (pruebas de paternidad y adopciones, producción científica general de Haití, estudios forenses de ADN mitocondrial rural y sobre Plasmodium), de modo que la ausencia queda reforzada, no establecida de forma exhaustiva.
+- Sin fuente de ninguna de las dos tradiciones: A-025 y A-234.
+- Calidad de la cobertura haitiana lograda para las otras 20, según el propio buscador: directa o completa en A-005, A-060, A-255 y A-263; parcial en A-014, A-065, A-122, A-236 y A-238, y solo en lectura interpretativa en A-164 y A-209 (nada sobre la Ley 247 ni la cédula, nada sobre el cambio gradual de identidad); solo contextual o de antecedentes en A-026, A-046, A-229, A-230, A-231, A-235, A-239, A-240 y A-241 (tesis históricas sobre el mestizaje o la escasez de datos antropométricos, no datos genéticos). Que una afirmación deje la lista no significa que esté resuelta: ninguna de esas fuentes sustituye la evidencia resolutoria indicada en `03-afirmaciones/registro.csv`.
+- Por el criterio estricto (solo `descargada-y-leida`), las afirmaciones sin fuente haitiana serían 12: las 10 anteriores más A-120 y A-208, cuya única fuente haitiana es parcial (F-1055 y F-2695, de corridas anteriores); esta adenda no las toca.
+- Fuentes leídas solo en parte, que cuentan para el criterio pero no deben pesar en la síntesis: F-2163 (Hoffmann 1994, A-026), F-0894 (Théodat 1998, A-005) y F-3158 (Lalime 2013, A-060).
