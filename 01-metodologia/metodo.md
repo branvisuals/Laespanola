@@ -49,6 +49,9 @@ Toda afirmación A o B pasa por cuatro escépticos independientes (lente dominic
 
 Cada frase de la síntesis enlaza a un id de fuente (`F-####`) y, cuando se pueda, a la cita textual con página, línea o URL. Nada se cita de memoria. Lo que no se pudo confirmar se marca `[POR VERIFICAR]` y no entra en la síntesis.
 
+
+**Pares de cobertura.** `03-afirmaciones/cobertura.csv` enlaza afirmaciones con fuentes. Un par indica que la fuente trata el asunto de la afirmación (pertinencia temática), no que la respalde. La columna `relacion` (`apoya`, `matiza`, `contradice`, `contexto`) la asignan los lectores de la Fase 3 y los escépticos de la Fase 5 para los pares que leen; vacía significa sin evaluar. En las afirmaciones disputadas se exige, cuando exista, al menos una fuente primaria o secundaria académica por tradición; la prensa y la divulgación cuentan como cobertura pero no bastan para subir de B.
+
 ## 12. Límites
 
 Lo que no se pudo consultar (archivos físicos, muros de pago, red bloqueada) se documenta en `07-sintesis/limites.md` con el motivo.
