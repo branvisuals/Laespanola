@@ -1,0 +1,1235 @@
+{
+ "lente": "colonial-primaria",
+ "modulo": "M12",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 9,
+ "busquedas_pendientes": [
+  "NARA RG 38 / RG 127: finding aid de «Military Government of Santo Domingo» y expedientes de la Guardia Nacional (catalog.archives.gov): no hecha",
+  "Gaceta Oficial dominicana 1918 (Senado, memoriahistorica) buscando «Guardia Nacional» + «frontera» + orden general n.º 25: no hecha",
+  "Informes del Receptor General de Aduanas («Report of the eleventh fiscal period: Dominican Customs Receivership», BNPHU/2973; PDF no servido): no abierto; podría documentar la absorción de la Guardia de Aduanas en 1918",
+  "Le Moniteur haïtien 1921-1922 (dLOC): ley sobre emigración: una búsqueda web sin resultado; no hecha en dLOC",
+  "FRUS 1925-1927 vol. I y II (retirada y frontera tras 1924): no revisados (solo 1923-1924 por grep acotado, negativo)",
+  "Ecos UASD n.º 80/30/36 (artículo sobre gavilleros): posible fuente de la Exposición del Seibo; no abierto",
+  "Audiencias, tramos restantes de la RD (Logroño, Pérez, Brugal, Suárez y Vásquez de Hato Mayor, caso Bautista) y testigos haitianos de Hinche: no leídos",
+  "Censo dominicano 1920 en navegador (ONE, HathiTrust 008976127): no hecha (403)"
+ ],
+ "lagunas": [
+  "Expedientes de la Guardia Nacional Dominicana 1919-1924 (NARA RG 38/127; AGN) no consultados: sin digitalizar en línea según las búsquedas. Se sustituyen parcialmente por Miller (1935), por los informes trimestrales del Gobernador Militar en FRUS (1917-1920) y por FRUS 1922 vol. I, docs. 170-178, que documentan patrullas y destacamentos fronterizos pero no el trato a haitianos.",
+  "La Orden General n.º 25 de 1918 que cita Tillman (Dollar Diplomacy by Force, 2016) no se localizó (dos búsquedas web sin resultado); las O. E. 139 y 154 del Gobierno Militar sobre la Guardia de Fronteras y la extradición a Haití están en la ficha M12-N37 (leídas por la ronda 1).",
+  "Miller, «Our Experiences in Santo Domingo», Parte I (Marine Corps Gazette, 1935): no localizada (URL análoga con HTTP 404). La Parte II sí se leyó.",
+  "McClellan, «Operations Ashore in the Dominican Republic» (USNI Proceedings, feb. 1921) y Fuller y Cosmas, Marines in the Dominican Republic 1916-1924 (1974): páginas en marines.mil y usni.org devuelven 403 (Cloudflare) a curl y a WebFetch; para la Fase 3 con navegador.",
+  "Censo dominicano de 1920 (cuadro de nacionalidad y definición de haitiano) y F-1404 (instrucciones a enumeradores): la ficha BNPHU abre (200) pero el PDF no se sirve (HTTP 401 en la API; la ruta /bitstreams/<uuid>/download devuelve la aplicación HTML); ONE y HathiTrust siguen en 403. La cifra de 28.258 haitianos (1920) solo se ve en resúmenes secundarios [POR VERIFICAR].",
+  "El texto del tratado de límites de 1929 (art. 10 sobre ríos) no está en ningún FRUS local: FRUS 1928 doc. 499 y FRUS 1929 doc. 783 remiten al tomo cv de la Serie de Tratados de la SdN, p. 193 (cubierto por F-0643, ya registrado; no se leyó en esta ronda).",
+  "Peticiones y declaraciones de mujeres dominicanas (Junta Patriótica de Damas, Ercilia Pepín, 1920-1921): no están en el OCR de las audiencias (grep sin resultados); solo hay referencias secundarias (Durán Jourdain, Ecos 14, 2017, que cita una declaración en Listín Diario de enero de 1920 que no se leyó). La «Exposición del Congreso Regional Nacionalista del Seybo» tampoco se localizó (dos búsquedas).",
+  "De las audiencias del Senado (1.700 pp. de OCR dañado) solo se leyeron los tramos citados: Cordero, Coradin, Hernández Rivera (pp. 1106-1119), Maissade y Hinche (pp. 902-904), Union Patriotique y Hudicourt (pp. 3-4, 1448), emigración (pp. 1352-1390) y dos pasajes de Kelsey (pp. 1271-1272). Quedan sin leer los testimonios de Logroño, Pérez, Brugal, Suárez y Vásquez (Hato Mayor), el caso Bautista y los demás testigos haitianos.",
+  "Ley haitiana de emigración de 1921-1922: en las audiencias solo aparece como proyecto (carta n.º 534 y preámbulo de un proyecto de tarifas consulares, pp. 1372-1386); no se localizó el texto promulgado ni su publicación en Le Moniteur.",
+  "Persiste la ausencia de series de reclutamiento por ingenio y de flujos de braceros haitianos hacia la RD en 1916-1924: las cifras primarias halladas (29.181 en 1919-20; 21.057 de octubre de 1920 a marzo de 1921; 25.086 en un año fiscal) son salidas hacia Cuba, no hacia la RD."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Ocupación / intervención de EE. UU. (Haití 1915-1934; RD 1916-1924)",
+   "tradicion": "internacional",
+   "nota": "Los documentos oficiales estadounidenses dicen «military occupation», «Military Government» (RD) y «treaty officials», «High Commissioner» (Haití); Lugo (1916) y la prensa dominicana dicen «la intervención americana»; la tradición haitiana dice «l'occupation américaine» y la Union Patriotique habla de tratado «impuesto» (audiencias, 1921). El término descriptivo del corpus debería ser «ocupación militar de EE. UU.», con el nombre local entre comillas."
+  },
+  {
+   "termino": "Gavilleros / bandidos / cacos (1916-1924)",
+   "tradicion": "dominicana",
+   "nota": "Los informes de Knapp y Snowden y el parte sobre Vicentico Evangelista (audiencias, p. 1109) dicen «bandits», «outlaws», «Negro bandit»; la historiografía dominicana (Ducoudray, Cassá, Uribe Peguero) los llama «gavilleros» y a veces «patriotas» o «resistencia armada»; en Haití los equivalentes son los «cacos» (segunda guerra caco, 1918-1920). Término cargado: elegir «insurgentes rurales del este (gavilleros)» y anotar los tres nombres."
+  },
+  {
+   "termino": "Campo de concentración / concentración de campesinos (Hato Mayor, 1918)",
+   "tradicion": "dominicana",
+   "nota": "El testigo Alejandro Coradin (audiencias, p. 1119, 1921-22) habla de «concentration camp» y compara con los de Cuba; los oficiales hablan de «concentration» de habitantes en el pueblo. Término cargado y anacrónico en parte; usar «concentración forzosa de campesinos en pueblos y empalizadas» y atribuir a quien lo dice."
+  },
+  {
+   "termino": "Línea de 1912 (línea provisional de facto, «línea americana», línea del statu quo)",
+   "tradicion": "oficial-eeuu",
+   "nota": "Línea que el Departamento de Estado fijó en 1912 como frontera provisional; en FRUS 1922 se dice que «existe solo en el mapa». Haití la contesta al este del Pedernales (mapa Moya de 1905); la RD la acepta «con reservas de derechos» (nota del 23-XI-1922). Las tres lecturas deben anotarse: tratado de 1874 (art. 4), línea de 1912, tratado de 1929."
+  },
+  {
+   "termino": "Corvée / kòve (Haití, 1916-1918)",
+   "tradicion": "haitiana",
+   "nota": "Trabajo forzoso en caminos locales amparado en una ley haitiana de 1863-1865 que la gendarmería revivió; un cura de Hinche dice que se usó «hasta 1918» y que los trabajadores comían tres veces al día (audiencias, p. 902). Los ocupantes lo llaman «corvée system» o «road work»; los haitianos «corvée», «kòve». Término cargado."
+  },
+  {
+   "termino": "Funcionarios del tratado (Treaty officials): Alto Comisionado, Consejero Financiero-Receptor General (Haití)",
+   "tradicion": "oficial-eeuu",
+   "nota": "Terminología del tratado de 1915 para el control estadounidense de aduanas, hacienda y gendarmería en Haití; el Alto Comisionado (Russell, 1922-1930) no es un embajador. Distinguir de la ocupación militar de la RD (Gobierno Militar, 1916-1922) y de su Receptor General de Aduanas (convención de 1907)."
+  },
+  {
+   "termino": "Tutela estadounidense (A-161)",
+   "tradicion": "internacional",
+   "nota": "Expresión del registro de afirmaciones, no de las fuentes. Los FRUS usan «good offices», «approval», «umpire»; en 1920 la cancillería dominicana la dirigía un coronel de marines que pedía autorización a Washington. Para 1929 la RD ya era soberana (retirada de 1924) y el papel de EE. UU. era el de árbitro designado por petición de las dos partes. Redefinir A-161 con las dos fases."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Foreign Relations of the United States, 1929, vol. I, cap. 24 «Dominican Republic and Haiti», docs. 783-786: nota haitiana del 15-III-1929 sobre la Comisión Mixta, instrucción al Alto Comisionado Russell del 9-V-1929, notas dominicanas del 9-VII y 14-VIII-1929 y respuesta de Stimson del 21-VIII-1929",
+   "autor": "Departamento de Estado de EE. UU. (Stimson; White; Johnson); Camille J. León (Haití); Rafael A. Sánchez y A. Morales (RD)",
+   "anio": "1929",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1929v01.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1929v01/d783"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Correspondencia diplomática impresa por el Departamento de Estado con signatura de archivo (738.3915/398, /400, /408); coteja con el extracto local y con el XML TEI de HistoryAtState (200).",
+   "proveniencia": "Cuatro documentos que el Departamento de Estado imprimió en su serie anual (FRUS): la nota haitiana (en traducción) pidiendo que el presidente de EE. UU. designe al miembro de la Comisión Mixta, la instrucción a Russell, la nota del canciller dominicano Sánchez y la respuesta de Washington. Los redactores son diplomáticos de los tres gobiernos; el interés estadounidense es registrar su papel de árbitro designado. Ninguno de los textos reproduce el tratado: el FRUS remite al tomo cv de la Serie de Tratados de la Sociedad de Naciones, p. 193.",
+   "extractos": [
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 939 (doc. 783, León al Secretario de Estado, Puerto Príncipe, 15-III-1929) [#d783]",
+     "cita_original": "This second Commission will be composed of five members, the nationals respectively of the Republic of Haiti, the Dominican Republic, the United States of North America, the United States of Brazil and the United States of Venezuela.",
+     "traduccion": "El ministro haitiano de Relaciones Exteriores (León) describe a Washington, el 15-III-1929, la comisión especial de arbitraje del art. 7: cinco miembros, de nacionalidad haitiana, dominicana, estadounidense, brasileña y venezolana.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 939 (doc. 783, León al Secretario de Estado, 15-III-1929) [#d783]",
+     "cita_original": "have agreed to request, if it should be necessary, the chief of each of the three last named States to select the citizen of his country who will be summoned to fulfill this delicate mission.",
+     "traduccion": "Ambos gobiernos acordaron pedir, si hiciera falta, al jefe de cada uno de los tres Estados no signatarios (EE. UU., Brasil, Venezuela) que designe a su ciudadano para la comisión. El mecanismo de designación del miembro estadounidense lo fija el propio tratado; no es una cláusula de tutela general.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 954 (doc. 784, Francis White al Alto Comisionado Russell, Washington, 9-V-1929) [#d784]",
+     "cita_original": "the Haitian Government requested the Department to ascertain if the President would be willing to appoint an American member to the Mixed Commission",
+     "traduccion": "Instrucción del Departamento de Estado al Alto Comisionado en Haití (Russell), 9-V-1929: Haití pidió que el presidente de EE. UU. aceptase nombrar al miembro estadounidense. (El texto impreso fecha el tratado «January 21, 1921 [1929]»: errata del FRUS corregida entre corchetes por los editores.)",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 956 (doc. 784, Francis White al Alto Comisionado Russell, 9-V-1929) [#d784]",
+     "cita_original": "to endeavor to determine informally what the conditions are to be for the payment of the members of the Mixed Commission, should such a Commission be formed.",
+     "traduccion": "Washington encarga a su Alto Comisionado en Puerto Príncipe (Haití seguía ocupada) averiguar informalmente quién pagaría a los miembros de la Comisión Mixta: el funcionario estadounidense en Haití hace de intermediario del trámite.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 962 (doc. 784, Stimson a León, Washington, 9-V-1929 (anexo)) [#d784]",
+     "cita_original": "the President will be glad to make such an appointment in the event that the formation of the Mixed Commission becomes necessary.",
+     "traduccion": "Respuesta de Stimson a León, 9-V-1929: el presidente de EE. UU. nombrará al miembro estadounidense si llega a constituirse la Comisión Mixta.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1929v01-espanola.txt, l. 979 (doc. 785, Sánchez al Secretario de Estado, Santo Domingo, 9-VII-1929 (anexo a la nota de Morales, 14-VIII-1929)) [#d785]",
+     "cita_original": "the ratifications being exchanged at Santo Domingo on the 29th of April of this year. Article 7 of that treaty provides that if the boundary commission should be unable to agree there shall be organized a commission consisting of five members",
+     "traduccion": "El canciller dominicano Sánchez (9-VII-1929) confirma el canje de ratificaciones el 29-IV-1929 y describe el art. 7: si la comisión de límites no se pone de acuerdo, se organiza una comisión de cinco miembros.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-161",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-0046",
+   "notas": "Extracto local cotejado: 02-fuentes/textos/frus/frus1929v01-espanola.txt, l. 929-996. HECHO: Haití pidió en marzo de 1929 que EE. UU. designase al miembro estadounidense; Washington aceptó (9-V-1929); la RD comunicó el canje de ratificaciones del 29-IV-1929 y destacó el art. 7 (9-VII-1929). INTERPRETACIÓN que A-161 debe matizar: estos documentos NO usan ni apoyan por sí solos la expresión «bajo tutela estadounidense»; muestran un papel de árbitro designado por petición de las dos partes, y un trámite canalizado por el Alto Comisionado en Haití (Haití seguía ocupada hasta 1934; la RD no, desde 1924). La tutela efectiva está en la fase 1919-1920 (ver ficha FRUS 1920 vol. I, docs. 296-311) y en 1922 (ver ficha FRUS 1922 vol. I, docs. 170-178). El tratado de límites no se lee aquí (art. 10 sobre ríos sigue sin leerse en los FRUS locales; ver A-161). El extracto local no incluye la comunicación del texto del tratado."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1928, vol. I, cap. 23 «Dominican Republic and Haiti», docs. 493-499 (negociación de la frontera, enero-noviembre de 1928) y doc. 617 (Russell sobre concesión aérea en Haití, 26-XI-1928)",
+   "autor": "Departamento de Estado de EE. UU. (Kellogg); Evan E. Young y Franklin B. Frost (legación en Santo Domingo); John H. Russell (Alto Comisionado en Haití)",
+   "anio": "1928",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1928v01.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1928v01/d493"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despachos de la legación estadounidense con signatura de archivo (738.3915/328, /335, /338, /345, /349, /372); coteja con el XML TEI (HTTP 200).",
+   "proveniencia": "Despachos que el ministro Young y el encargado de negocios Frost enviaron al Secretario de Estado sobre la negociación fronteriza dominico-haitiana de 1928 (traducciones de las notas de Sánchez y Dejean incluidas), más un despacho del Alto Comisionado Russell sobre Haití. Los diplomáticos informan lo que ven desde la legación; no estuvieron en las mesas de negociación (Troncoso de la Concha y el ministro haitiano Dejean).",
+   "extractos": [
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1817 (doc. 493, Young al Secretario de Estado, telegrama, 14-I-1928) [#d493]",
+     "cita_original": "Informal conversations looking to the settlement of the boundary question have been instituted here.",
+     "traduccion": "Young (Santo Domingo, 14-I-1928): se han iniciado conversaciones informales para resolver la cuestión de límites.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1836 (doc. 494, Dejean a Sánchez, anexo 2 a Young, 20-II-1928) [#d494]",
+     "cita_original": "The Haitian Government in consequence declares itself ready to conclude, by direct negotiations with the Dominican Government and without recourse to arbitration, a treaty which definitely assures the drawing of the frontier on the basis of the possessions which the two States at present occupy",
+     "traduccion": "Nota del ministro haitiano Dejean a Sánchez (21-I-1928, canjeada el 13-II-1928): Haití acepta negociar directamente, sin arbitraje, un tratado que fije la frontera según las posesiones actuales de cada Estado (cambio respecto de la posición de 1920, que pedía arbitraje papal).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1859 (doc. 495, Young al Secretario de Estado, 9-III-1928) [#d495]",
+     "cita_original": "The Legation is in close touch with the matter, and in a quiet and discreet manner is doing everything possible and appropriate to assist in the effecting of a final settlement of this long-standing and troublesome question.",
+     "traduccion": "Young, 9-III-1928: la legación estadounidense sigue de cerca las negociaciones y ayuda «de manera discreta». La RD ya no estaba ocupada (1924) y negocia con su propio plenipotenciario (Troncoso de la Concha); el papel de EE. UU. es de apoyo, no de dirección.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1849 (doc. 495, Young, 9-III-1928) [#d495]",
+     "cita_original": "The line agreed upon starts from the outlet of the Massacre river and follows the 1912 line (American line) to the junction point of the Massacre and Capotille rivers",
+     "traduccion": "Primer tramo acordado informalmente en marzo de 1928: la línea de 1912 («línea americana») hasta la confluencia de los ríos Masacre y Capotillo. Muestra que el tratado de 1929 parte de la línea provisional de facto fijada por EE. UU. en 1912.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1912 (doc. 498, Kellogg a Frost, telegrama, 31-VII-1928) [#d498]",
+     "cita_original": "please express to the President and the Minister for Foreign Affairs personally my hearty congratulations on this peaceful settlement of the long-standing dispute",
+     "traduccion": "Kellogg, 31-VII-1928, tras la firma del acuerdo informal del 30-VII: felicita a Vásquez y a Sánchez; no se atribuye la autoría del arreglo.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 1923 (doc. 499, nota editorial al despacho de Young, 13-XI-1928) [#d499]",
+     "cita_original": "For text of the treaty as signed at Santo Domingo, Jan. 21, 1929, see League of Nations Treaty Series, vol. cv , p. 193. Ratifications were exchanged at Santo Domingo, Apr. 29, 1929.",
+     "traduccion": "Nota editorial del FRUS: firma del tratado el 21-I-1929 en Santo Domingo y canje de ratificaciones el 29-IV-1929; el texto no se imprime (remite a la Serie de Tratados de la SdN, vol. cv, p. 193). Confirma las fechas de A-161.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1928v01-espanola.txt, l. 2020 (doc. 617, Russell al Secretario de Estado, Puerto Príncipe, 26-XI-1928) [#d617]",
+     "cita_original": "form one of those ties that I am trying to develop which will bind Haiti to the United States commercially in such manner as to assure the future stability of this country",
+     "traduccion": "El Alto Comisionado Russell, 26-XI-1928, justifica una exención fiscal a Pan American Airways con un objetivo declarado: atar comercialmente a Haití a EE. UU. para «asegurar la estabilidad futura». Evidencia de la lógica económica de la ocupación (A-157). La mención a Millspaugh como «Financial Adviser-General Receiver» confirma que el control fiscal estadounidense seguía vigente en 1928.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-161",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-0045",
+   "notas": "Extracto local cotejado: 02-fuentes/textos/frus/frus1928v01-espanola.txt, l. 1807-2038. HECHO: las conversaciones de 1928 se hicieron por vía directa y sin arbitraje (a petición haitiana, nota del 21-I-1928); EE. UU. «asistió con discreción»; el tratado parte de la línea de 1912. INTERPRETACIÓN: la RD ya no estaba bajo ocupación desde 1924, por lo que «tutela estadounidense» (A-161) describe mejor a Haití (Alto Comisionado, Consejero Financiero-Receptor General) que a la RD en 1928-1929. El doc. 499 no imprime el texto del tratado. [POR VERIFICAR]: la razón del cambio haitiano entre 1920 (arbitraje papal) y 1928 (negociación directa) no figura en estos documentos."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1930, vol. II, cap. 36 «Revolution in the Dominican Republic», docs. 838 y 845 (Grummon sobre el socorro haitiano tras el huracán de septiembre de 1930)",
+   "autor": "Departamento de Estado de EE. UU.; Grummon (encargado de negocios en Haití); Hoover y Trujillo (correspondencia)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1930v02.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1930v02/d845"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-descargado",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Telegramas diplomáticos con signatura (836.48 1930 Hurricane/12, /24); XML TEI verificado (HTTP 200).",
+   "proveniencia": "Telegramas del encargado de negocios estadounidense en Puerto Príncipe al Secretario de Estado sobre la ayuda haitiana a Santo Domingo tras el huracán del 3-IX-1930. El volumen trata la revolución dominicana de 1930 (ascenso de Trujillo); el capítulo no contiene documentos sobre la frontera ni sobre braceros. Sirve solo como contexto de 1930.",
+   "extractos": [
+    {
+     "ubicacion": "frus/frus1930v02-espanola.txt, l. 704 (doc. 838, Grummon al Secretario de Estado, telegrama 193, 5-IX-1930) [#d838]",
+     "cita_original": "The Haitian Government has approved a special credit of 100,000 gourdes for relief in Santo Domingo relief work. The Deputy General Receiver has given his accord.",
+     "traduccion": "Grummon (Puerto Príncipe, 5-IX-1930), dos días después del huracán San Zenón: el gobierno haitiano aprueba un crédito especial de 100.000 gourdes para socorrer a Santo Domingo y el Receptor General Adjunto estadounidense da su visto bueno (control fiscal estadounidense aún en 1930; A-157).",
+     "afirmaciones": [
+      "A-157",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1930v02-espanola.txt, l. 778 (doc. 845, Grummon al Secretario de Estado, telegrama 194, 8-IX-1930) [#d845]",
+     "cita_original": "The Haitian Government has sent a commission of engineers to assist in reopening main highway between the Haitian frontier and Santo Domingo City, in order to facilitate the sending of supplies to stricken area.",
+     "traduccion": "Grummon, 8-IX-1930: Haití envía ingenieros para reabrir la carretera entre la frontera y la capital dominicana. Contexto de cooperación oficial en septiembre de 1930, el año que A-160 señala como de aceleración de la represión (A-160 habla de represión racializada; este documento solo muestra que en ese mes la relación oficial fue cooperativa; no contradice ni confirma la tesis).",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "frus/frus1930v02-espanola.txt, l. 780 (doc. 845, Grummon, telegrama 194, 8-IX-1930) [#d845]",
+     "cita_original": "Last Saturday General Trujillo requested President Roy to send a detachment of 50 or 100 Haitian guards to Santo Domingo City to assist in rescue work. President Roy, however, agreed that despatch of guards would probably be ineffective and might lead to unfortunate friction.",
+     "traduccion": "Trujillo (el FRUS lo llama «General Trujillo» aquí y «President Trujillo» en el doc. 836 del 4-IX-1930) pidió al presidente haitiano Roy 50 o 100 guardias haitianos para el rescate; Roy lo juzgó ineficaz y fuente de «fricción». Dato de 1930 sobre la relación entre ambos mandos (A-160, contexto).",
+     "afirmaciones": [
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-160"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0047",
+   "notas": "Extracto local cotejado: 02-fuentes/textos/frus/frus1930v02-espanola.txt, l. 704 y 769-787. BÚSQUEDA NEGATIVA: grep de «Haitian|frontier|border» sobre el extracto local de FRUS 1930 vol. II (970 l.) solo da los telegramas del huracán (l. 704, 774-780); no hay documentos sobre represión fronteriza, ni sobre braceros, en este extracto. HECHO: Haití (bajo ocupación, con Receptor General Adjunto estadounidense) envió socorro en septiembre de 1930. Fuera de alcance de A-160: la represión racializada de 1930 (si la hubo) no aparece aquí."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1920, vol. I, docs. 308-309: Russell al Secretario de Estado (Santo Domingo, 12-VIII-1920) con la nota de la cancillería dominicana (Marix, 10-VIII-1920) y el memorándum haitiano de Magloire (2-VIII-1920) sobre el arbitraje papal; respuesta de Colby del 13-IX-1920",
+   "autor": "William W. Russell (ministro de EE. UU. en Santo Domingo); A. T. Marix (coronel USMC, a cargo de la cancillería dominicana); Félix Magloire (ministro de Haití en Santo Domingo); Bainbridge Colby (Secretario de Estado)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1920v01/d308",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1920v01.xml",
+    "https://history.state.gov/historicaldocuments/frus1920v01/d309"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despacho diplomático con signatura (738.3915/213) que transcribe en traducción las notas de ambos gobiernos; coteja página web (WebFetch 200) y XML TEI (200).",
+   "proveniencia": "Despacho n.º 598 del ministro estadounidense en Santo Domingo. Transmite a Washington una nota de la cancillería dominicana, que en 1920 dirigía un coronel de marines del Gobierno Militar de ocupación, y la memoria del ministro haitiano con las adiciones que Haití quería en el protocolo de arbitraje papal. Los dos gobiernos eran en ese momento Estados ocupados por EE. UU. (Haití desde 1915, la RD desde 1916).",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308 (Magloire a Marix, subanexo 1), p. 305 [#d308]",
+     "cita_original": "not only to decide upon the special case of the interpretation of Article 4 of the Treaty of 1874, but also, by extension, sovereignly and definitely upon all that pertains to the demarcation of the boundaries of the two Republics.",
+     "traduccion": "Memorándum del ministro haitiano Magloire (2-VIII-1920): según la ley haitiana del 1-X-1898, el papa podría decidir no solo la interpretación del art. 4 del Tratado de 1874, sino «soberana y definitivamente» todo lo que concierne al trazado de la frontera.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308 (Magloire a Marix, 2-VIII-1920), p. 305 [#d308]",
+     "cita_original": "leave in favor of Haiti all of the possessions occupied by that Nation since the year of 1874",
+     "traduccion": "Adición que Haití pide al protocolo: si el árbitro falla a su favor, la RD trazará la frontera de modo que Haití conserve todas las posesiones ocupadas desde 1874. Posición haitiana de 1920: la frontera de hecho (uti possidetis) desde el Tratado de 1874.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308 (Marix a Russell, 10-VIII-1920), p. 305 [#d308]",
+     "cita_original": "this reply (No. 4) will not be sent to the Haitian Minister without the approval of the State Department at Washington or some suggestion from it as to the answer that should be made.",
+     "traduccion": "El encargado de la cancillería dominicana (coronel Marix, del Cuerpo de Infantería de Marina de EE. UU.) declara que su respuesta a Haití no se enviará sin la aprobación del Departamento de Estado en Washington. Evidencia directa de tutela sobre la política exterior de la RD en 1920.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 308 (encabezamiento del anexo), p. 304 [#d308]",
+     "cita_original": "The Official in Chargé of the Dominican Department of Foreign Affairs (Marix) to the American Minister (Russell)",
+     "traduccion": "Encabezamiento FRUS del anexo: el funcionario a cargo de la cancillería dominicana (Marix) escribe al ministro de EE. UU. Russell, no a un ministro dominicano.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 309 (Colby a Russell, telegrama 35, 13-IX-1920), p. 307 [#d309]",
+     "cita_original": "Department perceives no objection to proposed inclusion of provisions Haitian law authorizing arbitration",
+     "traduccion": "Colby (13-IX-1920) responde por telegrama al ministro Russell en Santo Domingo con las instrucciones que el gobierno militar dominicano pidió para su réplica a Haití (el Departamento de Estado fija el contenido de la contestación).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-161",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-1058",
+   "notas": "Resuelve la ficha F-1058 (el texto se leyó entero en el XML TEI y la página web): HECHO: en 1920 la cancillería dominicana estaba dirigida por un coronel de la Infantería de Marina de EE. UU. que debía pedir autorización a Washington para contestar a Haití; Haití pidió reconocimiento de sus posesiones desde 1874 y un procedimiento por el que el papa decidiera sobre todo el trazado. INTERPRETACIÓN: esto sustenta mucho mejor que los FRUS de 1929 la frase «bajo tutela estadounidense» de A-161, pero para la fase 1919-1921, no para el tratado firmado en 1929 (cuando la RD ya era soberana). El memorándum haitiano es una traducción al inglés del francés (originales no impresos)."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1920, vol. I, docs. 296-300, 306, 310 y 311 (arbitraje papal de la frontera dominico-haitiana, julio de 1919-diciembre de 1920) y 1921, vol. I, doc. 181 (2-VI-1921)",
+   "autor": "Departamento de Estado de EE. UU. (Lansing, Colby, Davis); Marina de EE. UU. (Daniels; Snowden, Gobernador Militar); W. W. Russell y J. Brewer (legación en Santo Domingo); Bailly-Blanchard (legación en Haití)",
+   "anio": "1919-1921",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1920v01.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1920v01/d296",
+    "https://history.state.gov/historicaldocuments/frus1920v01/d311",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1921v01.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Expedientes diplomáticos con signatura (738.3915/198-218) en edición oficial; d296 y d311 confirmados también en history.state.gov (WebFetch 200).",
+   "proveniencia": "Serie de 16 documentos que reúne la correspondencia de 1919-1920 entre el Gobierno Militar de Santo Domingo, el Departamento de Estado, el Departamento de Marina y las legaciones en Puerto Príncipe y Santo Domingo sobre cómo fijar la frontera entre Haití y la RD. Sus autores eran los funcionarios de la ocupación; las posiciones de Haití aparecen citadas por ellos o en memoranda traducidos. Es la fuente más directa del FRUS para saber quién dirigía la política exterior dominicana de 1919 a 1921.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 296 (Lansing a Daniels, 31-VII-1919), p. 295 [#d296]",
+     "cita_original": "he held a conference on July 5, 1919, with the President of Haiti, at which he proposed that the Governments of Haiti and the Dominican Republic appoint a Commission to delimit the proper boundary between Haiti and the Dominican Republic; the United States Government being asked to appoint the fifth member of the Commission",
+     "traduccion": "Lansing a Daniels (31-VII-1919), citando al Gobernador Militar: Snowden propuso el 5-VII-1919 al presidente de Haití una comisión mixta con un quinto miembro estadounidense. Es el origen de la fórmula de cinco miembros que reaparece en el art. 7 de 1929.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 297 (Russell al Secretario de Estado, n.º 496, 20-VIII-1919), p. 296 [#d297]",
+     "cita_original": "The proposed letter will not be sent until the Department of State approves, and if this approval is obtained, it is the desire of the Department of Foreign Relations that the American Minister in Haiti be informed, and instructed to use his influence to have the Haitian Government accept the proposal from the Dominican Government.",
+     "traduccion": "Russell, 20-VIII-1919: la cancillería del gobierno militar no enviará su carta a Haití sin aprobación del Departamento de Estado y quiere que el ministro de EE. UU. en Haití presione al gobierno haitiano para que acepte. Tutela doble: los dos Estados ocupados negocian con mediación estadounidense.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 297 (proyecto de nota anexo), p. 296 [#d297]",
+     "cita_original": "It is certain that if this question is not settled it will lead to misfortune, extending perhaps at some future day to armed conflict between the two peoples.",
+     "traduccion": "Proyecto de nota redactado por el coronel Rufus H. Lane (USMC) como funcionario a cargo de la cancillería dominicana (ago. de 1919; enviada el 22-XII-1919): el militar estadounidense advierte de un posible conflicto armado entre los dos pueblos si no se zanja la frontera.",
+     "afirmaciones": [
+      "A-161",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 298 (Lansing a W. W. Russell, n.º 321, 10-XII-1919), p. 297 [#d298]",
+     "cita_original": "the plan then considered and discussed was that a Commission should be formed of two Haitians and two Dominicans and with the United States as umpire, and that this plan was approved by the President of Haiti",
+     "traduccion": "Lansing a Russell (10-XII-1919), citando al ministro en Haití: el plan hablado con el presidente haitiano era una comisión de dos haitianos, dos dominicanos y EE. UU. como árbitro; el Gobierno Militar lo cambió por el arbitraje papal.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 299 (Lansing a Daniels, 19-XII-1919), p. 299 [#d299]",
+     "cita_original": "the State Department should normally have cognizance of matters which arise between foreign countries, I venture to suggest that it would seem advisable for the Military Governor of Santo Domingo, before taking action on matters of international policy, to present them to the Department of State for its advice and approval.",
+     "traduccion": "Lansing a Daniels (19-XII-1919): el Departamento de Estado pide que el Gobernador Militar de Santo Domingo someta a su aprobación los asuntos de política internacional. La política exterior dominicana la llevaba de hecho el Gobierno Militar.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 300 (Snowden a Daniels, 14-I-1920), p. 300 [#d300]",
+     "cita_original": "It is considered that the settlement of this boundary line at this time is a matter of paramount importance to the future welfare of both countries concerned",
+     "traduccion": "Snowden a Daniels (14-I-1920), con asunto «Action in Matters of International Policy—Haiti-Santo Domingo Boundary Line»: el Gobernador Militar considera el arreglo fronterizo de importancia primordial y pide de nuevo la aprobación del Departamento de Estado.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 306 (Brewer al Secretario de Estado, n.º 574, 14-V-1920), p. 303 [#d306]",
+     "cita_original": "protocol that this Ministry intends to submit to the Haitian Minister as soon as it is known that it is satisfactory to the Government of the United States",
+     "traduccion": "Brewer (14-V-1920) cita la nota de la cancillería dominicana: el protocolo se presentará al ministro haitiano cuando se sepa que satisface al Gobierno de EE. UU.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 310 (Davis a Russell, telegrama 41, 23-XI-1920), p. 307 [#d310]",
+     "cita_original": "Department deems it practical to provide for eventual demarcation of boundary by a commission of American experts under supervision of United States Geological Survey.",
+     "traduccion": "Davis (23-XI-1920): Washington propone que una comisión de expertos estadounidenses del Servicio Geológico (USGS) demarque la frontera. Segundo ejemplo de tutela técnica estadounidense sobre un asunto bilateral.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. I, doc. 311 (Russell al Secretario de Estado, n.º 641, 3-XII-1920, anexo), p. 308 [#d311]",
+     "cita_original": "Mr. A. T. Marix, Colonel, U.S.M.C., as the officer in Charge of the Administration of the Department of State of Foreign Relations of the Dominican Republic, has proposed to Mr. Felix Magloire, as the Envoy Extraordinary and Minister Plenipotentiary of the Republic of Haiti, the following:",
+     "traduccion": "Texto final del protocolo (3-XII-1920): el plenipotenciario por la RD es un coronel de la Infantería de Marina de EE. UU. que administra la cancillería dominicana; el borrador del tratado lo firmarían el contraalmirante Snowden «para la República Dominicana» y el presidente Dartiguenave por Haití.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1921, vol. I, doc. 181 (Bailly-Blanchard al Secretario de Estado, n.º 498, 2-VI-1921), p. 229 [#d181]",
+     "cita_original": "Admiral Snowden with whom the matter had been discussed saw no objection to it.",
+     "traduccion": "Bailly-Blanchard (Puerto Príncipe, 2-VI-1921): el gobierno haitiano afirma que el almirante Snowden no vio inconveniente en las dos cláusulas añadidas por Haití; Haití firmaría el protocolo con ellas.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-161",
+    "A-157",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: (1) El 5-VII-1919 el Gobernador Militar Snowden propuso a Dartiguenave una comisión mixta con quinto miembro estadounidense (FRUS 1920 I, 295); (2) la cancillería del Gobierno Militar la dirigían coroneles de marines (Lane en 1919, Marix en 1920), que consultaban a Washington cada nota; (3) el Departamento de Estado reclamó el control de la política internacional del Gobierno Militar (19-XII-1919); (4) el protocolo de arbitraje papal se negoció en proyecto pero no consta que se perfeccionara [POR VERIFICAR: ver FRUS 1921-1922]. INTERPRETACIÓN: estos documentos dan contenido concreto a «tutela estadounidense» (A-161) en 1919-1921. SIGNIFICADO: el art. 7 de 1929 (comisión de cinco, uno estadounidense) repite la fórmula que los ocupantes propusieron en 1919. Cada extracto indica la página impresa del FRUS."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1922, vol. I, docs. 170-178: disputa fronteriza dominico-haitiana (incidente de Anse-à-Pitres, patrullaje, línea de 1912), septiembre-noviembre de 1922",
+   "autor": "John H. Russell (Alto Comisionado en Haití); William W. Russell (ministro en Santo Domingo); Charles E. Hughes (Secretario de Estado)",
+   "anio": "1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1922v01.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1922v01/d170"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despachos diplomáticos con signatura (738.3915/228-234) en edición oficial; d170 confirmado en history.state.gov (WebFetch 200) y XML TEI (200).",
+   "proveniencia": "Intercambio de nueve documentos entre las dos legaciones de EE. UU., el Departamento de Estado y las autoridades de ocupación de ambas mitades de la isla, a raíz de un tiroteo en Anse-à-Pitres. Su objeto es decidir si, antes de retirar el Gobierno Militar de la RD (1924), conviene restablecer una guardia de frontera. Es lo más próximo en línea a la «vigilancia fronteriza 1917-1924» que A-160 pedía a los expedientes de la Guardia Nacional.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 170 (J. H. Russell al Secretario de Estado (interino), n.º 67, 20-IX-1922), p. 434 [#d170]",
+     "cita_original": "Recently, there have been several cases of violations of the boundary by both Haitians and Dominicans, and it is believed that this subject is one of vital importance deserving prompt consideration by the Dominican Government.",
+     "traduccion": "Russell, Alto Comisionado en Haití (20-IX-1922): menciona varias violaciones de la frontera «por haitianos y por dominicanos», sin cifras. El texto atribuye las violaciones simétricamente a ambos lados.",
+     "afirmaciones": [
+      "A-160",
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 170 (Russell, n.º 67, 20-IX-1922), p. 434 [#d170]",
+     "cita_original": "a Marine coming from the Dominican side had opened fire upon the house in which he, the Prefect, was sitting.",
+     "traduccion": "Incidente de Anse-à-Pitres, 11-IX-1922: según el prefecto haitiano de Jacmel, un marine venido del lado dominicano disparó contra su casa y murió en el cruce de fuego con dos gendarmes haitianos. Un tribunal de investigación se reunió en Pedernales. Versión del prefecto, transmitida por Russell.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 170 (Russell, n.º 67, 20-IX-1922), p. 434 [#d170]",
+     "cita_original": "it is my strong opinion that before said withdrawal is effected the Receiver General of Dominican Customs should be directed to re-establish and operate a border patrol",
+     "traduccion": "Russell pide que antes de la retirada estadounidense se restablezca una patrulla fronteriza a cargo del Receptor General de Aduanas dominicano (la «Guardia de Aduanas» o frontier guard). El lado ocupante de Haití quería vigilancia fronteriza permanente.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 171 (J. H. Russell al Secretario de Estado, n.º 70, 4-X-1922), p. 434 [#d171]",
+     "cita_original": "taxes were levied by the Military Government on the natives living in the section just east of the Pedernales River, a coffee growing section",
+     "traduccion": "Russell (4-X-1922): con la ocupación de la RD, la zona al este del río Pedernales, que Haití dice ocupada por haitianos desde antes de 1912, quedó gravada con impuestos del Gobierno Militar. Fiscalidad ocupante como factor de disputa en la frontera sur.",
+     "afirmaciones": [
+      "A-160",
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 174 (W. W. Russell al Secretario de Estado, telegrama 39, 28-X-1922), p. 438 [#d174]",
+     "cita_original": "frontier guard should not be re-established at the present time for the reason that it would mean equipment and maintenance of force of at least one hundred men and considerable additional expense to the provisional government",
+     "traduccion": "Russell (ministro en Santo Domingo, telegrama del 28-X-1922, con el comisionado Welles): no restablecer la guardia fronteriza porque exigiría al menos 100 hombres y gasto adicional al gobierno provisional.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 174 (telegrama 39, 28-X-1922), p. 438 [#d174]",
+     "cita_original": "This provisional boundary line which was accepted by both countries exists only on the map and no one knows where it is on the ground.",
+     "traduccion": "La línea provisional de 1912 «solo existe en el mapa» y nadie sabe dónde está sobre el terreno (Russell, 28-X-1922): la frontera de hecho era una zona comunitaria, no una raya.",
+     "afirmaciones": [
+      "A-160",
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 175 (Hughes a J. H. Russell, n.º 48, 30-X-1922), p. 439 [#d175]",
+     "cita_original": "The Department has no information tending to substantiate the report referred to by the Haitian Government that Haitians on the Dominican side of the provisional line have been dispossessed of their property by the Dominican authorities.",
+     "traduccion": "Hughes (30-X-1922): el Departamento no tiene información que respalde la queja haitiana de que haitianos al lado dominicano de la línea fueron despojados de sus bienes por las autoridades dominicanas; pide a Haití que remita casos concretos. Queja de 1922, sin verificar por ninguna de las partes en estos documentos.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. I, doc. 178 (J. H. Russell al Secretario de Estado, n.º 90, 18-XI-1922), p. 441 [#d178]",
+     "cita_original": "Arrangements have been made between the Chief of the Policia Nacional Dominicana and the Chief of the Gendarmerie d’Haiti, by which it is hoped that friction between these two forces will be avoided",
+     "traduccion": "Russell (18-XI-1922): acuerdo entre los jefes de la Policía Nacional Dominicana y de la Gendarmería de Haití para patrullar la frontera según la línea de 1912 sin fricciones. La Policía Nacional tenía oficiales de marines mientras duró el Gobierno Militar (Miller 1935); la composición de la Gendarmería no se leyó en esta ronda.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-160",
+    "A-161"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en 1922 la frontera tenía vigilancia por dos policías (Policía Nacional Dominicana, con oficiales de marines según Miller 1935, y Gendarmería de Haití), con una línea provisional (1912) no demarcada en el terreno; Washington no restableció la Guardia de Aduanas. NO HAY en estos documentos represión racializada de haitianos en la RD; hay una queja haitiana de despojo (sin verificar) y un incidente armado entre un marine y gendarmes. Para A-160 (Cadeau: 1919) estos FRUS tampoco la confirman ni la contradicen; la evidencia pedida (expedientes de la Guardia 1919-1924, NARA RG 38/127) sigue sin consultarse. Un grep del XML de FRUS 1923 vol. II y 1924 vol. II dio resultado negativo para documentos sobre la frontera con Haití."
+  },
+  {
+   "titulo": "Informes anuales y trimestrales del Gobernador Militar de Santo Domingo en FRUS (1917, d894; 1918, d393; 1919 vol. II, d58; 1920 vol. II, d99): pasajes sobre la frontera con Haití",
+   "autor": "Harry S. Knapp y Thomas Snowden (Gobernadores Militares de Santo Domingo); Josephus Daniels (Secretario de Marina)",
+   "anio": "1917-1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1919v02.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1919v02/d58",
+    "https://history.state.gov/historicaldocuments/frus1918/d393",
+    "https://history.state.gov/historicaldocuments/frus1920v02/d99",
+    "https://history.state.gov/historicaldocuments/frus1917/d894",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1917.xml",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1918.xml",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1920v02.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial auténtico, pero redactado por el propio ocupante para su ministerio y sin pruebas verificables; coteja con history.state.gov (d58 por WebFetch, 200) y con el XML TEI.",
+   "proveniencia": "Informes que el Gobernador Militar enviaba trimestralmente al Secretario de Marina, y que Marina remitía a Estado; FRUS imprime extractos. Los autores son oficiales navales (Knapp, Snowden) con interés en mostrar orden y progreso; el pasaje de 1919 resume el «caos» de 1918 para justificar la ocupación. No reflejan a campesinos, mujeres ni a los acusados de bandidaje.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1917, doc. 894 (Informe anual del Gobernador Militar, adjunto a la carta del Secretario de Marina, 8-VIII-1917), p. 717 [#d894]",
+     "cita_original": "the question of taxes, both national and municipal; the settlement of the boundary between Santo Domingo and Haiti; the establishment of a national prison on modern lines",
+     "traduccion": "Informe anual del Gobierno Militar (Knapp, 1917): el arreglo de la frontera con Haití figura entre las tareas pendientes de la ocupación, junto con impuestos y cárcel nacional. Muestra que la frontera estuvo en la agenda ocupante desde 1917.",
+     "afirmaciones": [
+      "A-161",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1918, doc. 393 (Knapp a Daniels, 1-VII-1918 (informe trimestral abril-junio de 1918)), p. 359 [#d393]",
+     "cita_original": "There has been some suspicion that arms in small quantities have been smuggled into the country; and also that arms have been sent across the border from Santo Domingo into Haiti. These reports have not been definitely proved.",
+     "traduccion": "Informe trimestral de Knapp (1-VII-1918): sospecha de contrabando de armas hacia Haití por la frontera, «no probada definitivamente». Mención temprana (1918) de la frontera como problema de seguridad en los informes ocupantes (no se verificó que sea la primera).",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1919, vol. II, doc. 58 (Snowden a Daniels, 28-VIII-1919 (informe del trimestre cerrado el 30-VI-1919)), p. 127 [#d58]",
+     "cita_original": "Last to be mentioned here, but not the least in the trouble line, were the smugglers over the Haitian frontier and the marauders who periodically crossed the border either to escape capture on the Haitian side or to commit robberies on this side.",
+     "traduccion": "Informe de Snowden (28-VIII-1919): contrabandistas y merodeadores cruzan la frontera, para huir de la policía haitiana o para robar en la RD. Visión del ocupante, retrospectiva sobre 1918: hechos sin cifras.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1919, vol. II, doc. 58 (Snowden a Daniels, 28-VIII-1919), p. 127 [#d58]",
+     "cita_original": "The last mentioned, composed mostly of Haitien and English speaking negroes, robbed small stores in outlying sections and occasionally held up a traveller at night",
+     "traduccion": "Snowden: grupos de ladronzuelos de la provincia de Macorís, «compuestos sobre todo por haitianos y negros de habla inglesa». Clasificación racial y nacional del ocupante (A-160: asociación entre haitianos y delincuencia en la fuente oficial estadounidense de 1919); describe los hechos desde el cuartel, sin prueba.",
+     "afirmaciones": [
+      "A-160",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. II, doc. 99 (Snowden a Daniels, informe del 2.º trimestre de 1920 (remitido por Daniels el 1-IX-1920)), p. 121 [#d99]",
+     "cita_original": "The efficiency of the Guardia is improving greatly and they are doing excellent work in patrolling, capturing criminals, confiscating arms, guarding the border and in general performing the work of a constabulary.",
+     "traduccion": "Informe de Snowden (trimestre abril-junio de 1920): la Guardia Nacional Dominicana patrulla, captura, confisca armas y «guarda la frontera». Confirma que en 1920 la frontera era una tarea de la Guardia.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1920, vol. II, doc. 99 (Snowden a Daniels, informe del 2.º trimestre de 1920), p. 131 [#d99]",
+     "cita_original": "(d) To fix by arbitration the boundary line between Santo Domingo and Haiti.",
+     "traduccion": "Entre las tareas que Snowden se propone completar antes de entregar el poder: fijar por arbitraje la frontera con Haití (cf. FRUS 1920 vol. I, docs. 296-311).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-160",
+    "A-161",
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Complementa M12-N48 (informes de 1918 d394 y cónsul Edwards 1919 d53). HECHO: en 1918-1920 la frontera aparece como problema de contrabando, armas y merodeadores, vigilado por la Guardia Nacional, y como tema de arbitraje. INTERPRETACIÓN del ocupante: la asociación de haitianos con «bandidaje» (d58). Ninguno de estos informes habla de represión de haitianos por razón de raza; la afirmación de Cadeau (1919) no se ve ni se refuta aquí. Cifra: la Guardia tenía 1.114 plazas el 1-VII-1918 (FRUS 1918 d393, tabla: 19 oficiales de marines, 28, 1.056 de tropa y 11 civiles; la suma cuadra; la columna del «28» no se identifica en el texto impreso, probablemente oficiales dominicanos [POR VERIFICAR])."
+  },
+  {
+   "titulo": "Foreign Relations of the United States, 1922, vol. II, doc. 480: Hughes al Alto Comisionado Russell sobre el uso de tribunales de ocupación (provost courts) en Haití, 4-X-1922",
+   "autor": "Charles E. Hughes (Secretario de Estado); John H. Russell (Alto Comisionado)",
+   "anio": "1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1922v02.xml",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1922v02/d480"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Instrucción oficial del Secretario de Estado (838.00/1894) en edición oficial; leída en el XML TEI (200).",
+   "proveniencia": "Instrucción n.º 40 de Hughes a Russell, respuesta a un despacho del 6-IX-1922 en que el Alto Comisionado discutía el uso de los tribunales de ocupación en Haití. Muestra el interior de la política estadounidense sobre justicia en la Haití ocupada; no refleja el punto de vista haitiano.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1922, vol. II, doc. 480 (Hughes al Alto Comisionado Russell, n.º 40, 4-X-1922), p. 560 [#d480]",
+     "cita_original": "the employment of the provost courts in any case affecting Haitian citizens, however necessary such employment may be, is a source of embarrassment to the Department",
+     "traduccion": "Hughes a Russell (4-X-1922): el Departamento de Estado reconoce que los tribunales de ocupación (provost courts) en casos de ciudadanos haitianos son un motivo de «embarazo» para su política en Haití. Evidencia de justicia militar paralela a la haitiana.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922, vol. II, doc. 480 (Hughes a Russell, 4-X-1922), p. 560 [#d480]",
+     "cita_original": "the reorganization of the Haitian judiciary system to the point where the Haitian Government is in a position to enforce the laws through its own courts",
+     "traduccion": "El mismo despacho cifra la salida del régimen de tribunales de ocupación en la reorganización del sistema judicial haitiano: a 1922, el Estado haitiano aún no hacía cumplir sus leyes con tribunales propios en todos los casos (A-157, Estado reorganizado bajo tutela).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Aporta a A-157 (reorganización del Estado): la ocupación mantuvo tribunales propios para delitos contra el personal estadounidense y la prensa. No toca migración ni frontera. No se leyó el despacho de Russell del 6-IX-1922 (no impreso)."
+  },
+  {
+   "titulo": "Diplomatic Spurs: «Our Experiences in Santo Domingo (Part II)», Marine Corps Gazette, mayo de 1935 (reedición web, PDF mca-marines.org)",
+   "autor": "Miller, Charles J. (teniente coronel, Cuerpo de Infantería de Marina de EE. UU.)",
+   "anio": "1935",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.mca-marines.org/wp-content/uploads/Our-Experiences-in-Santo-Domingo-II.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato de un oficial que sirvió en la ocupación y que dice basarse en los archivos de la Brigada, escrito 11 años después y con tono justificativo; sin pruebas anexas.",
+   "proveniencia": "Artículo en dos partes que un oficial de marines publicó en la revista de la Marine Corps Association en 1935, dentro de la serie «Diplomatic Spurs». Describe la organización de la Guardia/Policía Nacional Dominicana, el desarme de la población y las operaciones contra bandidos («gavilleros») de 1916-1924. Escribe para un público militar estadounidense y para defender el historial del Cuerpo; afirma haber consultado los archivos de la Brigada. La Parte I no se localizó (URL análoga: HTTP 404).",
+   "extractos": [
+    {
+     "ubicacion": "Marine Corps Gazette, mayo de 1935, Parte II, sección «Policía Nacional Dominicana» (PDF de la reedición web, p. W15)",
+     "cita_original": "During the time the Policia fell entirely under the jurisdiction of Military Government, its forces were usually stationed by companies in the provincial capitals less detachments at smaller towns and along the Haitian border.",
+     "traduccion": "Miller (1935): mientras la Policía (antes Guardia Nacional Dominicana, creada el 7-IV-1917) dependió del Gobierno Militar, se destacaba por compañías en las capitales provinciales, con destacamentos en pueblos menores y «a lo largo de la frontera haitiana». Fuente retrospectiva y del propio ocupante.",
+     "afirmaciones": [
+      "A-160",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Marine Corps Gazette, mayo de 1935, Parte II, sección «Policía Nacional Dominicana» (PDF de la reedición web, p. W15)",
+     "cita_original": "Its principal duties were those of a constabulary force, and as such, it was charged with the suppression of outlawry and other crimes, apprehension of fugitives from justice, prevention of smuggling",
+     "traduccion": "Funciones de la Guardia/Policía: supresión del bandolerismo y otros delitos, captura de prófugos y «prevención del contrabando» (el contrabando es la función fronteriza que mencionan también los informes de Snowden).",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "Marine Corps Gazette, mayo de 1935, Parte II, sección «Disarming the population» (PDF de la reedición web, p. W20-W21)",
+     "cita_original": "On November 29, 1916, the Military Governor issued the disarming order, forbidding all inhabitants to carry or have in their possession firearms, ammunition or explosives",
+     "traduccion": "Orden de desarme del 29-XI-1916, el mismo día de la Proclama de ocupación: prohíbe a todos los habitantes portar o tener armas de fuego, municiones o explosivos. Reorganización del monopolio de la fuerza (A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Marine Corps Gazette, mayo de 1935, Parte II, sección «Disarming the population» (PDF de la reedición web, p. W22)",
+     "cita_original": "Either the civil officials were made to secure the prohibited articles, or the armed forces conducted a house to house search for concealed weapons.",
+     "traduccion": "Miller admite registros casa por casa cuando los funcionarios civiles no recogían las armas; los califica de «inevitables y plenamente justificables». Es la versión del ocupante de la coerción del desarme.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Marine Corps Gazette, mayo de 1935, Parte II, sección «Disarming the population» (PDF de la reedición web, p. W22)",
+     "cita_original": "In December 1916, an operator from the Brigade Intelligence Office made a trip to the San Juan valley and the Haitian border and succeeded in returning to Santo Domingo City with 826 rifles and over 14,000 rounds of ammunition.",
+     "traduccion": "Un agente de inteligencia de la Brigada volvió en diciembre de 1916 de San Juan y la frontera haitiana con 826 fusiles y más de 14.000 cartuchos, tras «intimidar» a los jefes locales. La cifra es del informe interno que Miller resume (no hay base de verificación independiente).",
+     "afirmaciones": [
+      "A-157",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-160",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Responde en parte a la petición del crítico (vigilancia de la frontera por la Guardia Nacional 1917-1924 vista por el ocupante): HECHO (según Miller): la Policía/Guardia tuvo destacamentos «a lo largo de la frontera haitiana» y entre sus funciones estaba prevenir el contrabando; en diciembre de 1916 la Brigada decomisó armas en la zona fronteriza. NO dice nada sobre trato a haitianos ni sobre racialización. INTERPRETACIÓN del autor: el desarme fue «tan en interés del pueblo dominicano como del ocupante»: es juicio del ocupante, no se acepta. No se leyeron la Parte I ni la orden general n.º 25 de 1918 que cita Tillman (no localizada: dos búsquedas sin resultado). PDF de 2016, texto de 1935; la paginación original no se conoce."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo, Hearings before a Select Committee..., 67th Cong., S. Res. 112 (GPO, 1921-1922): testigos dominicanos de El Seibo, Hato Mayor y San Pedro de Macorís (Cordero, Coradin, Hernández Rivera), pp. 1106-1119",
+   "autor": "Senado de EE. UU., Select Committee on Haiti and Santo Domingo (McCormick, Pomerene, Jones); testigos Francisco A. Cordero, Alejandro Coradin, Pedro Hernández Rivera; Mr. Howe (interrogador del lado del Gobierno Militar); Horace G. Knowles (representante de la Patriotic League of the Dominican Republic)",
+   "anio": "1921-1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Declaraciones bajo juramento ante un comité del Senado, con interpretación (inglés/español) y contrainterrogatorio parcial; OCR de Google dañado en el margen derecho y comité con interés político.",
+   "proveniencia": "Audiencias del comité McCormick en la RD en diciembre de 1921 (la sesión del 13-XII-1921 consta en el OCR; las fechas de los testigos citados no se leyeron), con testigos dominicanos presentados por Horace G. Knowles (representante de la Patriotic League of the Dominican Republic y del gobierno dominicano depuesto) y preguntas del lado del Gobierno Militar de Mr. Howe (cargo exacto no leído). Los testigos hablan por una causa (fin de la ocupación) y delante de oficiales del Gobierno Militar; los senadores limitaron lo que se podía contar al conocimiento propio. Leídos solo los tramos citados (pp. 1106-1119); el volumen entero (1.700 pp.) no se leyó.",
+   "extractos": [
+    {
+     "ubicacion": "audiencias, p. 1107 (Cordero); inquiryintooccu00domigoog_djvu.txt, l. 103300-103303 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "acts unworthy of the good name of American armies, committed [in the prov]ince of San Pedro de Macoris and El Seibo, of which I have knowl[edge], and I have been an eyewitness to others.",
+     "traduccion": "Francisco A. Cordero (comerciante de San Pedro de Macorís, nacido en Santiago) declara ante el comité que conoce y ha presenciado actos «indignos del buen nombre de los ejércitos estadounidenses» en las provincias de Macorís y El Seibo. El comité limitó su declaración a lo que vio él mismo (senador Pomerene).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1109 (informe militar, sin autor identificado en el OCR); inquiryintooccu00domigoog_djvu.txt, l. 103491-103492 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "Vicentico Evangelista, a Negro bandit and murderer, was lo[cated in] a camp on a hill near Seibo known as the \"Loma de la Vaca.\"",
+     "traduccion": "Informe de un oficial de marines (leído al comité por Mr. Howe) sobre Vicentico Evangelista, jefe de gavilleros en El Seibo (1917): lo llama «bandido negro y asesino». Voz del ocupante, que clasifica racialmente al insurgente; el mismo informe dice que murió «tratando de huir» cuando iba a ser trasladado (hecho: murió a tiros bajo custodia; versión oficial no contrastada por testigos).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1109 (informe militar); inquiryintooccu00domigoog_djvu.txt, l. 103502-103503 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "which consisted of about 300 ragamuffins and fugitives from justice",
+     "traduccion": "El mismo informe describe a las fuerzas de Vicentico como «unos 300 harapientos y prófugos de la justicia»: cifra y calificativo del ocupante, sin fuente primaria independiente.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1115 (carta de Cordero incorporada al expediente de su juicio); inquiryintooccu00domigoog_djvu.txt, l. 104074-104078 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "Do you think that we Dominicans [should rep]eat the conduct of that celebrated Moorish king \"Boadil\"? What is the [course] that you in these circumstances would counsel your friends and [fellow citizens to] take?",
+     "traduccion": "Carta de Francisco A. Cordero, San Pedro de Macorís, 1-XII-1916 (traducción del Gobierno Militar), a Horacio Vásquez: pregunta si los dominicanos deben repetir la conducta del rey moro Boabdil (rendirse sin luchar). Fue prueba de cargo contra él.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1115 (acusación del tribunal militar); inquiryintooccu00domigoog_djvu.txt, l. 104088-104091 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "invitation to one [Vás]quez, a resident of Santo Domingo, Dominican Republic, to enter [with] Cordero into a treasonable conspiracy against the military Govern[ment of the] United States in the Dominican Republic.",
+     "traduccion": "La acusación del tribunal militar interpretó la carta como invitación a una «conspiración traidora» contra el Gobierno Militar. Dato sobre la criminalización de la disidencia durante la ocupación. El OCR corta el margen: la mención del destinatario se reconstruye por el contexto (carta a Horacio Vásquez).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1118 (Coradin); inquiryintooccu00domigoog_djvu.txt, l. 104294-104299 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "After that he was shot, and [after] being shot he was hung from a tree. [...] I saw it, and I saw him hanging from a tree.",
+     "traduccion": "Dr. Alejandro Coradin (doctor en derecho, de Hato Mayor): el 22-VI-1917 vio cómo un oficial con uniforme de marine, no dominicano y llamado Peralez según el OCR, arrastraba, torturaba, mataba a tiros y colgaba de un árbol a José María Rincón, que había llevado a la botica una receta para una enfermedad de la piel. Howe preguntó si el capitán Merckle estaba en Hato Mayor ese día y Coradin dijo que no: el acusado de ese hecho es el teniente, no Merckle. Testimonio ocular de parte, no probado en estas páginas.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1118 (Coradin); inquiryintooccu00domigoog_djvu.txt, l. 104340-104343 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "Capt. Merckle and Maj. Taylor, under the orders of Col. [...], had concentrated all the peasants in town. There were about 2,000 [persons in] the public square",
+     "traduccion": "Coradin sobre el 24-VIII-1918: oficiales de marines habían concentrado a los campesinos en el pueblo (unos 2.000 en la plaza) cuando el capitán Merckle mató de un tiro en la oreja a Cipriano Alarcón. La «reconcentración» de campesinos es una práctica contrainsurgente de 1917-1919 en el este.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1119 (Coradin); inquiryintooccu00domigoog_djvu.txt, l. 104388-104389 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "locked up like pigs in stockades under the pretext [of invest]igating whether or not they were bad persons",
+     "traduccion": "Coradin: los habitantes del campo concentrados fueron encerrados «como cerdos en empalizadas» con el pretexto de averiguar si eran malas personas; entrega una fotografía de lo que llama un campo de concentración («similar a los de Cuba», OCR confuso).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1119 (Hernández Rivera); inquiryintooccu00domigoog_djvu.txt, l. 104448-104451 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "I was taken prisoner by the forces of occupation under the [comm]and of Capt. Merckle, who was in charge of that district. A rope was [put] round my neck, my hands tied, and I was taken to the country about 4 [k]ilometers from town, on foot, and had to keep up with a horse trotting.",
+     "traduccion": "Pedro Hernández Rivera (puertorriqueño, 14 años en la RD, residente en Hato Mayor), 14 de abril de 19?? (el OCR da «19ia», probablemente 1918): preso por las fuerzas de ocupación a las órdenes del capitán Merckle, con una soga al cuello, a pie detrás de un caballo al trote. Dice que no hubo cargo contra él.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1119 (Hernández Rivera); inquiryintooccu00domigoog_djvu.txt, l. 104467-104469 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "when in the country I was tied by the feet, placed on my [back] with my face to the sun, and with a funnel water was poured into my [mouth] from a demijohn.",
+     "traduccion": "Hernández Rivera describe la «tortura del agua» (embudo y damajuana) que le habría aplicado Merckle; el testigo estuvo atado tres o cuatro días y fue liberado «porque no había nada contra él».",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Amplía la ficha M12-N43 con las voces dominicanas que esa ficha no traía (solo Kelsey, McIlhenny, Barnett). HECHO: hay testimonios jurados de dominicanos y un puertorriqueño sobre muertes, tortura y concentración de campesinos por marines en Hato Mayor (provincia de El Seibo) en 1917-1918, y sobre la criminalización de una carta privada (Cordero). INTERPRETACIÓN: son denuncias de parte, no probadas en estas páginas; los oficiales aludidos (Merckle, Taylor) fueron objeto de otras investigaciones que no se leyeron. Los mismos tramos incluyen informes de marines que presentan a los insurgentes como bandidos; la tensión entre ambas versiones es el núcleo de la disputa sobre los «gavilleros» (en el glosario falta el término). No se encontraron en el OCR la «Exposición del Congreso Regional Nacionalista del Seibo» ni la petición de las mujeres dominicanas (Junta Patriótica de Damas, Ercilia Pepín, 1921): grep de «Pepín|Damas|Ercilia|Mieses|Pellerano|dominicanas» sin resultados; posiblemente no se imprimieron en las audiencias."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo, Hearings (1921-1922): testimonios de campesinos y mujeres haitianos en Maissade/Atalaye (6-XII-1921) y memorándum de la visita a los curas de Hinche, pp. 902-904",
+   "autor": "Senado de EE. UU., Select Committee on Haiti and Santo Domingo (senador Oddie); Ernest Angell (consejero); testigos Mme Philoscar Joseph, Menosthène Tifour",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Declaraciones orales de campesinos haitianos traducidas por un intérprete, recogidas en una plantación de una empresa estadounidense; en el tramo leído no consta juramento (el presidente dijo después, p. 1449, que en Puerto Príncipe se tomó juramento a petición de Pilkington) y el OCR está dañado.",
+   "proveniencia": "Sesión del 6-XII-1921 en la plantación de Atalaye (American West Indies Co.), en la residencia de su superintendente Baker, con el senador Oddie y Ernest Angell (representante de la Haiti-Santo Domingo Independence Society, la NAACP y la Union Patriotique); los testigos son vecinos de Maissade, en la región de las operaciones contra los cacos. El memorándum de Hinche resume una conversación con curas locales. Las víctimas hablan en la residencia del superintendente de una empresa estadounidense, con un senador y un abogado estadounidenses presentes.",
+   "extractos": [
+    {
+     "ubicacion": "audiencias, p. 903 (Mme Joseph); inquiryintooccu00domigoog_djvu.txt, l. 78234-78236 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "He gave me 15 blows with a stick on the arms and the head, [a]nd I was bathed in blood, and he asked Marcial if he was not going to kill anybody",
+     "traduccion": "Madame Philoscar Joseph (Maissade), 6-XII-1921, en la plantación de Atalaye: dice que Williams, de la gendarmería, le dio 15 palos en brazos y cabeza; el comandante haitiano Marcial no quiso matar a nadie. Testimonio de una campesina en presencia del senador Oddie y del abogado Angell.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 904 (Mme Joseph); inquiryintooccu00domigoog_djvu.txt, l. 78276-78277 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "I did not have any right to make complaint, because if I had made complaint I would have been killed.",
+     "traduccion": "La misma testigo explica por qué no se quejó: «no tenía derecho a quejarse, porque si me quejaba me habrían matado»; atribuye la amenaza a Williams y a Marcial («grandes jefes»). Voz de una mujer campesina sobre la impunidad en las zonas ocupadas.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 904 (Tifour); inquiryintooccu00domigoog_djvu.txt, l. 78319-78319 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "The white man Williams killed my mother.",
+     "traduccion": "Menosthène Tifour (Savanne Grande, Maissade): acusa al mismo Williams de matar a su madre cerca de Río Frío hacía año y medio. Declaración sin verificación documental en estas páginas.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 902 (memorándum de Hinche, sin autor); inquiryintooccu00domigoog_djvu.txt, l. 78160-78161 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "All the working people here are very content with the [occupation, which] has given them their first opportunity to work their land.",
+     "traduccion": "Memorándum de la entrevista con los curas de Hinche (redactado por un miembro de la comitiva del comité, no por los curas): los trabajadores están «muy contentos» con la ocupación porque «les ha dado su primera oportunidad de trabajar su tierra». Versión favorable a la ocupación, de segunda mano, que contrasta con la de las campesinas y debe pesar igual por simetría.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 902 (memorándum de Hinche); inquiryintooccu00domigoog_djvu.txt, l. 78170-78173 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "A local priest told Mr. Angell that he had heard that the [corvée was] used from time to time up to 1918, but that it was common talk that [those] who worked in the corvee then got three meals a day for the first time [in their] lives.",
+     "traduccion": "Un cura local dijo a Angell haber oído que la corvée se usó «de vez en cuando hasta 1918» y que los que trabajaban en ella comían tres veces al día por primera vez. Rumor de tercera mano sobre una institución central de la reorganización del trabajo (A-157); el OCR dice «1018» (leído 1918).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Corrige la laguna del crítico («silencio de campesinos, mujeres y víctimas»): hay voces de mujeres y campesinos haitianos en las audiencias, no solo de ocupantes. HECHO: acusaciones concretas de golpes y muerte contra un oficial de gendarmería de nombre Williams en Maissade; la comisión dijo que se investigarían. INTERPRETACIÓN: relatos de parte, sin contraste documental aquí; la corvée se menciona como práctica hasta 1918 por rumor; el testimonio de los curas es pro-ocupación (posición de clase). Sobre la RD el comité no recogió testimonio femenino en este tramo."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo, Hearings (1921-1922): memoria de la Union Patriotique d'Haïti (Stenio Vincent, 5-VIII-1921; carta del 17-IX-1921) y testimonio de Hudicourt, pp. 3-4, 522-523 y 1447-1450",
+   "autor": "Senado de EE. UU., Select Committee on Haiti and Santo Domingo; Stenio Vincent (Union Patriotique d'Haïti); Ernest Angell (consejero de la Union); Hudicourt",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog",
+    "https://archive.org/download/inquiryintooccu00conggoog/inquiryintooccu00conggoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memoria de parte (organización nacionalista haitiana) y testimonio de un adversario político, leídos en el acta de un comité del Senado con OCR dañado; no hay verificación independiente de las cifras.",
+   "proveniencia": "La Union Patriotique d'Haïti era la asociación nacionalista que, con apoyo de la NAACP, presentó ante el Senado la oposición haitiana a la ocupación. Su consejero Angell leyó su memoria; el comité también escuchó a Hudicourt, que se presentó como independiente. Los textos se redactan para influir en la decisión del Senado.",
+   "extractos": [
+    {
+     "ubicacion": "audiencias, p. 3 (Vincent); inquiryintooccu00domigoog_djvu.txt, l. 350-352 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "in the name of the Union Patriotique d'Haïti, which, with its branches in all the cities and villages of Haiti, has at least 20,000 members, I have the honor of presenting to the Senate commission of inquiry",
+     "traduccion": "Stenio Vincent (según la presentación del acta, expresidente del Senado haitiano al ser disuelto por las fuerzas armadas de EE. UU., y ministro de Haití en La Haya) presenta ante el comité, en nombre de la Union Patriotique d'Haïti, una memoria. La cifra de 20.000 miembros es de la propia organización, sin verificación.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 4 (Vincent); inquiryintooccu00domigoog_djvu.txt, l. 367-370 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "This memoir relates the conditions and circumstances in which the treaty of September 16, 1915, was imposed upon the Haitian people, the violent means used to achieve this result",
+     "traduccion": "La memoria de la Union Patriotique sostiene que el tratado del 16-IX-1915 fue «impuesto» al pueblo haitiano con «medios violentos». Posición haitiana de 1921 sobre el origen de la ocupación (interpretación de parte; el texto estadounidense del tratado y la declaración de Dartiguenave son otras fuentes).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1448 (Hudicourt); inquiryintooccu00domigoog_djvu.txt, l. 128840-128844 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "When in Port au Prince some members of the Union Patriotique learned that I had planned to come to the United [States], I was offered money. I refused because I intended to be completely [...] any kind of tie.",
+     "traduccion": "Hudicourt (haitiano que se presenta como independiente y antiguo miembro del Consejo de Estado) declara que, al saber que viajaría a Washington, miembros de la Union Patriotique le ofrecieron dinero y él lo rechazó. Testimonio de un haitiano que no es del Union Patriotique ni de los tratadistas: muestra que las voces haitianas ante el comité no eran uniformes.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: existió una memoria de la Union Patriotique (1921) y un testimonio adversario. No se leyó la memoria completa (texto francés en el anexo, ~pp. 522-523). El extracto de la p. 522-523 (carta de 17-IX-1921, «régime de terreur» de la ley marcial) no se cita porque el OCR está demasiado dañado. INTERPRETACIÓN: la cifra de 20.000 es autodeclarada."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo, Hearings (1921-1922): testimonio de John A. McIlhenny sobre la emigración laboral haitiana a Cuba y correspondencia haitiano-estadounidense sobre pasaportes, braceros y derechos consulares, pp. 1352-1390",
+   "autor": "John A. McIlhenny (Consejero Financiero-Receptor General de Haití); A. J. Maumus (Receptor General y Consejero Financiero interino, según el OCR); Departamento del Interior y de Hacienda de Haití; Walter B. Howe (preguntas)",
+   "anio": "1921-1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testimonio de un funcionario del tratado y cartas oficiales impresas como anexos (traducidas del francés), con OCR dañado; las cifras proceden de tablas de puertos y consulados cuya base no se detalla.",
+   "proveniencia": "McIlhenny, nombrado Consejero Financiero de Haití por Washington, declaró ante el comité en 1922 para explicar la hacienda haitiana; en el curso de las preguntas de Mr. Howe se imprimió en el acta su correspondencia con el gobierno haitiano sobre la emigración a Cuba. Es la fuente oficial más cercana a la «correspondencia haitiana sobre braceros de la p. 1370» que pedía el crítico.",
+   "extractos": [
+    {
+     "ubicacion": "audiencias, p. 1354 (McIlhenny); inquiryintooccu00domigoog_djvu.txt, l. 124641-124644 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "During the [fiscal] year 1919-20, 29,181 Haitian laborers went to Cuba to work in the plant[ations] there. From each of these laborers a fee of $2 was collected",
+     "traduccion": "John A. McIlhenny (Consejero Financiero-Receptor General de Haití) declara que en el año fiscal 1919-20 salieron 29.181 braceros haitianos a las plantaciones de Cuba y que cada uno pagó 2 dólares al cónsul; solo 1.964 dólares llegaron al Tesoro de Haití. Cifra de un funcionario del tratado; base: registros de puerto y cónsules, no explicitada.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1354 (McIlhenny); inquiryintooccu00domigoog_djvu.txt, l. 124687-124689 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "The practice continued until suspension of labor [emigration] last year. There are no emigrants, and, consequently, no collections, [un]less restrictions upon emigration have been removed recently.",
+     "traduccion": "McIlhenny: la práctica de cobrar al emigrante terminó con la suspensión de la emigración laboral «el año pasado» (1921); no hay emigrantes ni cobros salvo que se hayan levantado las restricciones. Indica que la emigración laboral haitiana fue regulada y suspendida por las autoridades en 1921.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1368-1369 (Maumus); inquiryintooccu00domigoog_djvu.txt, l. 125284-125286 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "According to the laws in force, the Haitian treasury should have collected: (a) Passport duties 21,057 at $2",
+     "traduccion": "Carta de A. J. Maumus (firma como Consejero Financiero interino, según el OCR) al ministro haitiano de Finanzas y Comercio: 21.057 emigrantes salieron de puertos haitianos hacia Cuba entre el 1-X-1920 y el 31-III-1921 (la cifra aparece también en la línea de impuestos de inmatriculación a 1 dólar). Cifra de flujo a Cuba, de una tabla oficial; no es comparable con el stock de haitianos del censo dominicano de 1920.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1384 (Maumus); inquiryintooccu00domigoog_djvu.txt, l. 125985-125986 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "the 25,086 [emigrants conformably to the law and to the instruc]tions of the Department of the Interior to the [consuls in Cuba]",
+     "traduccion": "Otra carta de la oficina del Consejero Financiero cifra en 25.086 los emigrantes de un año fiscal (probablemente 1920-21) sobre los que debía cobrarse el derecho de inmatriculación; la frase es parcial por el OCR.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1386 (carta n.º 534 citada por Maumus); inquiryintooccu00domigoog_djvu.txt, l. 126163-126165 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "a project of law would be submitted to the [...] council of state, a law establishing the conditions of Haitian emigration.",
+     "traduccion": "Carta n.º 534 (16-I-1922) de «esta oficina» (el redactor, un funcionario del tratado, sin nombre en el OCR): el secretario de Estado del Interior acordó presentar al Consejo de Estado un proyecto de ley que fijara las condiciones de la emigración haitiana.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1386 (carta n.º 534 citada por Maumus); inquiryintooccu00domigoog_djvu.txt, l. 126167-126171 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "Public opinion, justly desolated by the disastrous conditions [made in] Cuba by the employers upon our fellow citizens, has demanded for a long [time] that a law on emigration protecting the emigrants be adopted by the Haitian legislators",
+     "traduccion": "Misma carta (16-I-1922): «la opinión pública, justamente desolada por las condiciones desastrosas que los empleadores hacen sufrir en Cuba a nuestros conciudadanos, exige desde hace tiempo» una ley de emigración que los proteja. Indica que en Haití hubo oposición pública a la emigración laboral sin garantías (destino: Cuba) y que se reclamó regulación estatal.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1372 (proyecto de ley haitiano); inquiryintooccu00domigoog_djvu.txt, l. 125424-125426 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "it is proper to control the [number of Haitians residing outside] [...], notably the laborers who emigrate to the [adjacent islands and to assure them] the greatest protection on the part of our agents [abroad]",
+     "traduccion": "Preámbulo de un proyecto de ley haitiano (1921-1922) sobre tarifas consulares y certificados de inmatriculación «obligatorios para todo haitiano residente en el exterior»: controlar el número de haitianos en el extranjero, en especial los braceros que emigran a las islas vecinas.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en 1919-1921 la emigración laboral haitiana se dirigía sobre todo a Cuba (29.181 en 1919-20; 21.057 de octubre de 1920 a marzo de 1921), regulada con pasaportes, tasas consulares y contratos con intermediarios; Haití suspendió la emigración en 1921 por los abusos en Cuba y discutió una ley de emigración. INTERPRETACIÓN: refuerza la lectura de Kelsey (M12-N43) de que en 1920 los braceros de los ingenios dominicanos venían «de las Antillas» más que de Haití, y respalda A-159 (migración como demanda de economías azucareras, no «invasión»), pero NO documenta flujos a la RD: las cifras son de salidas hacia Cuba. El censo de 1920 (28.258 haitianos en la RD) sigue sin leerse. Cifras sin base explícita: se dan como rango implícito de las fuentes (estimaciones de los funcionarios del tratado). [POR VERIFICAR]: la fecha exacta de la carta de Maumus (agosto de 1921) y el nombre del redactor de la carta n.º 534."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo, Hearings (1921-1922): testimonio de Carl Kelsey (10-III-1922), pp. 1271-1272, pasajes sobre haitianos residentes y estacionales en la RD (extractos adicionales a M12-N43)",
+   "autor": "Kelsey, Carl (sociólogo, Universidad de Pensilvania); Senado de EE. UU., Select Committee on Haiti and Santo Domingo (Pomerene, preguntas)",
+   "anio": "1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo experto pero con estancia corta y fuentes de oídas; OCR dañado en el margen izquierdo y derecho de estas páginas.",
+   "proveniencia": "Kelsey estuvo en Haití y la RD en 1920 (según la ficha M12-N43, enviado por la American Academy of Political and Social Science); el comité McCormick lo interrogó en marzo de 1922. Las respuestas que se citan son de las preguntas del senador Pomerene sobre migración. Estos pasajes no están en la ficha M12-N43, que cita los de la p. 1271 sobre permisos de ingenios y 'invasión'.",
+   "extractos": [
+    {
+     "ubicacion": "audiencias, p. 1272 (Kelsey); inquiryintooccu00domigoog_djvu.txt, l. 118543-118545 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "There are several thousand Haitians residing permanently in Santi[...] they have a permanent population of some 20,000. They have quickly [learned] the Spanish language, and are indistinguishable.",
+     "traduccion": "Carl Kelsey (sociólogo, visita de 1920; declara el 10-III-1922): «hay varios miles de haitianos residiendo de modo permanente» en la RD, con una «población permanente de unos 20.000», que aprenden rápido el castellano y son «indistinguibles». El OCR recorta el topónimo (¿Santiago?) y el sujeto de la cifra de 20.000; la frase habla de una población asentada, no de braceros de zafra. Observación de un testigo extranjero de una estancia de meses, no un censo.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "audiencias, p. 1271 (Kelsey); inquiryintooccu00domigoog_djvu.txt, l. 118525-118527 (OCR de Google, margen recortado; palabras entre corchetes reconstruidas)",
+     "cita_original": "these were over there during the cane-cutting period, etc., and would return [after the] cane-cutting period was over.",
+     "traduccion": "Kelsey (misma sesión): en 1920 le informaron de que los haitianos que cruzaban a la RD estaban allí «durante el período de corte de caña y volvían» al terminar. Respalda el carácter estacional de parte de la migración (A-158/A-159); es información de oídas.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO (según Kelsey, 1920): migración haitiana hacia la RD parcialmente estacional y parcialmente asentada; dos magnitudes distintas que A-158 no separa: la categoría censal de 28.258 haitianos en 1920 (ver censo, sin leer) podría mezclar estacionales y residentes. INTERPRETACIÓN: Kelsey ve una diferencia clara con la 'invasión' (palabra que usa en otra respuesta, M12-N43). Cifra de 20.000: sin base declarada ('unos'); se trata como estimación D según la escala de confianza."
+  },
+  {
+   "titulo": "Operations Ashore in the Dominican Republic (U.S. Naval Institute Proceedings, febrero de 1921)",
+   "autor": "McClellan, Edwin N. (mayor, USMC)",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.usni.org/magazines/proceedings/1921/february/operations-ashore-dominican-republic",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato contemporáneo de un oficial participante (por la ficha de búsqueda), pero no se pudo abrir y la fiabilidad se asigna por la naturaleza de la fuente.",
+   "proveniencia": "Localizado en una búsqueda web (título y fecha del resultado); el portal USNI responde 403 (desafío de Cloudflare) a WebFetch y a curl. No se abrió; la autoría, el contenido y la mención de la frontera son [POR VERIFICAR]. Podría contener la versión de un oficial de la Brigada sobre las operaciones contra gavilleros (1916-1921).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-157",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Sin extractos: fallo-fetch. Para la Fase 3: abrir con navegador. La ficha que lista a McClellan como autor viene del resultado de búsqueda, no de la página."
+  },
+  {
+   "titulo": "Marines in the Dominican Republic, 1916-1924 (History and Museums Division, HQ USMC, 1974)",
+   "autor": "Fuller, Stephen M. (capitán USMCR); Cosmas, Graham A.",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://www.marines.mil/portals/1/Publications/Marines%20in%20the%20Dominican%20Republic%20PCN%2019000412600_1.pdf",
+   "urls_alternativas": [
+    "https://www.marines.mil/News/Publications/MCPEL/Electronic-Library-Display/Article/898665/marines-in-the-dominican-republic-1916-1924-pt-2/"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historia oficial del Cuerpo de Infantería de Marina basada en fuentes primarias (por la ficha de búsqueda), pero escrita desde la institución; no se abrió.",
+   "proveniencia": "Localizada en resultados de búsqueda; marines.mil responde 403 (Cloudflare) a curl y a WebFetch tanto el PDF como la página de la MCPEL. No se abrió ningún contenido; se cita para que la Fase 3 la lea con navegador y cotejar los pasajes sobre patrullas de frontera y sobre los gavilleros contra los informes de FRUS.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-160",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Sin extractos: fallo-fetch. Es la mejor candidata en línea para cubrir la «vigilancia de frontera por la Guardia 1917-1924» además de Miller (1935) y FRUS."
+  },
+  {
+   "titulo": "Primer censo nacional (1920): instrucciones a los enumeradores (Secretaría de Estado de lo Interior y Policía, 31 pp.), ficha del repositorio de la BNPHU",
+   "autor": "República Dominicana, Secretaría de Estado (Interior y Policía)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1938",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/bitstreams/743cc7ce-809d-4780-b4fe-9b4a3b426a04/download",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/743cc7ce-809d-4780-b4fe-9b4a3b426a04/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (contenido del PDF)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la oficina censal; se juzga por la ficha, no se leyó (valor del registro).",
+   "proveniencia": "Reintento del 2026-10-07: la página handle devuelve 200 (aplicación Angular sin texto) y la ruta /bitstreams/<uuid>/download también 200 pero devuelve de nuevo la página HTML de la aplicación (363 KB), no el PDF; la API /server/api/core/bitstreams/<uuid>/content devuelve 401. Sigue sin leerse el documento que A-158 pide (definición de nacionalidad y cobertura fronteriza). Búsqueda adicional del censo de 1920 en archive.org y dLOC sin resultado (la única cifra, 28.258 haitianos de 49.520 extranjeros, se ve solo en resúmenes secundarios).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1404",
+   "notas": "No resuelta. Ruta para la Fase 3: solicitar copia a la BNPHU o abrir con el navegador integrado; alternativa: HathiTrust 008976127 (403 a curl). Las cifras del censo de 1920 siguen siendo [POR VERIFICAR] en primaria."
+  }
+ ]
+}

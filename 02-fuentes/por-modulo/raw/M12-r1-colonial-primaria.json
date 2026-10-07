@@ -1,0 +1,1508 @@
+{
+ "lente": "colonial-primaria (fuentes primarias oficiales y documentales: tratados, órdenes ejecutivas del Gobierno Militar, FRUS, memorias y gacetas, constituciones, censos y textos de época)",
+ "modulo": "M12",
+ "ronda": 1,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 14,
+ "busquedas_pendientes": [
+  "Cadeau 'More than a Massacre' capítulo 1 + expedientes de la Guardia Nacional Dominicana 1919-1924 (AGN, NARA RG 38/127) para verificar el origen de la represión fronteriza de 1919",
+  "Texto del Protocolo de Revisión del Tratado fronterizo de 1936 (LoN Treaty Series) para comprobar si modificó el art. 10 del Tratado de Paz, Amistad y Arbitraje",
+  "Instrucciones del Director General del Censo y planillas del censo de 1935 (Dominicana) y resultados del Primer Censo Nacional de 1920 en la tabla de nacionalidades",
+  "Memorias de la Secretaría de Estado de Agricultura e Inmigración 1919-1929 (series de braceros por ingenio) en memoriahistorica.senadord.gob.do y en el AGN",
+  "La Revue indigène (Port-au-Prince, 1927-1928) digitalizada en dLOC o Gallica",
+  "Ley dominicana n.º 5074 y reglamento n.º 5280 (1912-1913): origen del número citado por UNAPEC",
+  "Informe de la Moton Commission (1930) y respuestas haitianas al informe Forbes (Union Patriotique, Le Moniteur)",
+  "Decreto de corvée de 1917 (Haití) y órdenes de la Gendarmerie d'Haïti sobre trabajo en caminos",
+  "Convención de 1924 EE.UU.-RD (texto en LoN Treaty Series o FRUS 1924) y Plan Hughes-Peynado en español (Gaceta Oficial 1922)",
+  "Contratos de la Barahona Company (1917-1925) y registros de braceros haitianos del sur dominicano",
+  "Órdenes ejecutivas de 1921-1922 (volúmenes ya descargados al scratchpad; OCR no realizado) sobre Guardia Nacional, frontera y migración",
+  "Ley haitiana de 1921 sobre emigración de obreros y tasas consulares (texto en las audiencias, pp. 1370-1372; no transcrita)"
+ ],
+ "lagunas": [
+  "Resultados del censo dominicano de 1920 (28.258 haitianos según resúmenes) y del de 1935: el portal de la ONE y HathiTrust devolvieron 403; no se abrió ninguna tabla censal original. Solo se leyeron la O. E. 505/552 (1920) y la ley 821 (1935).",
+  "Series de reclutamiento de braceros por ingenio 1919-1929: no localizadas. Solo hay cifras de 1916-17 (Memoria SEA: 6.325 braceros de las Antillas orientales) y 1916-1919 (folleto oficial: 9.600 obreros azucareros).",
+  "Prueba directa del 'inicio de la represión racializada en 1919' (A-160): encontré la O. E. 372 (16-XII-1919), una norma racial general sobre braceros no caucásicos, pero no expedientes de frontera ni de la Guardia Nacional sobre haitianos; no leí a Cadeau.",
+  "No se verificó el texto del Tratado Fronterizo 'en la edición dominicana' (memoriahistorica.senadord.gob.do) ni el Protocolo de 1936; se leyó la edición de la Sociedad de las Naciones.",
+  "Fuentes haitianas oficiales sobre la ocupación (Le Moniteur, decretos de corvée, Moton) y La Revue indigène: no localizadas; el lado haitiano de esta ronda es Price-Mars, la Constitución de 1918 y los testimonios en inglés de las audiencias.",
+  "Las órdenes ejecutivas de 1918, 1919 y 1920 se leyeron solo en las partes relevantes (1919 con OCR completo de 576 pp.; 1920 con OCR de las pp. 280-568 de 806; 1918 con capa de texto); quedan sin leer los volúmenes de 1921-1922 y buena parte de 1918-1920.",
+  "El texto de las audiencias del Senado procede de un escaneo de Google con el margen recortado: las citas del testimonio de Kelsey llevan palabras reconstruidas entre corchetes y se cotejaron con la imagen de cada página."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Ocupación estadounidense / intervención norteamericana (Haití 1915-1934; República Dominicana 1916-1924)",
+   "tradicion": "dominicana / haitiana / estadounidense",
+   "nota": "Los documentos del ocupante dicen 'occupation' y 'military government'; Price-Mars (1919) escribe 'intervention américaine'; Lugo (1916) 'La intervención americana'; la Digithèque MJP escribe 'l'Occupation'. El corpus usa 'ocupación estadounidense' como término descriptivo y anota cada denominación; añadir al glosario."
+  },
+  {
+   "termino": "Cacos (Haití) / gavilleros (RD oriental)",
+   "tradicion": "haitiana / dominicana",
+   "nota": "'Caco' es el término local que usa Kelsey y los despachos de Caperton para los grupos armados del norte haitiano ('revolutionary bandits'); 'gavilleros' (no aparece en FRUS, que dice 'bandits') designa a los grupos armados del Seibo y San Pedro de Macorís; las lecturas nacionalistas los ven como resistencia a la ocupación, las del ocupante como bandidaje. Añadir al glosario con ambas lecturas."
+  },
+  {
+   "termino": "Cocolos",
+   "tradicion": "dominicana",
+   "nota": "Braceros de las Antillas menores (anglófonas y danesas) en los ingenios del este; en los documentos de 1916-1919 son los braceros con permiso (St. Kitts, Antigua, St. Thomas, etc.). Ya aparece en el glosario como 'cocolo' (peyorativo para haitiano en algunos usos modernos); la fuente primaria lo usa para antillanos anglófonos."
+  },
+  {
+   "termino": "Corvée (kòve) / sistema de corvée",
+   "tradicion": "haitiana",
+   "nota": "Trabajo obligatorio en caminos que el ocupante revivió en 1917 apoyándose en una ley del siglo XIX (Kelsey, audiencias de 1922, p. 1296); la Digithèque MJP lo vincula con la 'longue révolte paysanne contre l'Occupation'. Debatido: necesidad militar (ocupante) frente a trabajo forzado (tradición haitiana)."
+  },
+  {
+   "termino": "Bovarysme collectif",
+   "tradicion": "haitiana",
+   "nota": "Concepto de Jules de Gaultier que Price-Mars aplica a la élite haitiana (avant-propos de 'Ainsi parla l'Oncle', 15-XII-1927): 'la faculté que s'attribue une société de se concevoir autre qu'elle n'est'. Añadir al glosario junto a 'indigénisme'."
+  },
+  {
+   "termino": "Guardia Nacional Dominicana / Gendarmerie d'Haïti (Garde d'Haïti)",
+   "tradicion": "oficial-eeuu / dominicana / haitiana",
+   "nota": "Cuerpos de policía-ejército creados por los ocupantes: la Guardia Nacional Dominicana (O. E. 47, 7-IV-1917, sustituye al Ejército disuelto) y la Gendarmerie d'Haïti (Convención de 1915, art. X). Término para distinguir de los ejércitos nacionales anteriores."
+  },
+  {
+   "termino": "Gobierno Militar de Santo Domingo / Military Government",
+   "tradicion": "oficial-eeuu / dominicana",
+   "nota": "Nombre oficial del régimen de ocupación dominicano (29-XI-1916 a 1922-24); sus normas se llaman 'Órdenes Ejecutivas'. El mismo gobernador (Snowden) representó militarmente a EE.UU. en Haití desde 25-II-1919 (O. E. 268)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Tratado fronterizo dominico-haitiano / Traité sur la délimitation de la frontière, firmado en Santo Domingo el 21 de enero de 1929, y canje de notas (League of Nations Treaty Series, vol. 105, n.º 2413, pp. 193-214)",
+   "autor": "República Dominicana; República de Haití; Sociedad de las Naciones (Secretariat, ed.)",
+   "anio": "1929 (ed. 1930)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20105/v105.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial en español y francés (ambos auténticos, art. 19) comunicado por la cancillería dominicana y publicado por la Sociedad de las Naciones; la versión inglesa es traducción del Secretariado 'a título de información'.",
+   "proveniencia": "Tratado firmado en Santo Domingo el 21-I-1929 por plenipotenciarios dominicanos (Alfonseca, Troncoso de la Concha, Peynado, Morales, Peña Batlle, Álvarez) y el ministro haitiano Léon Dejean; canje de ratificaciones en Santo Domingo el 29-IV-1929 (nota al pie); registrado en Ginebra en 1930 (vol. 105). Haití seguía bajo ocupación estadounidense (hasta 1934); la ocupación de RD había terminado en 1924. El texto lo comunica una sola de las partes (RD) al Secretariado.",
+   "extractos": [
+    {
+     "ubicacion": "Art. 7 (texto español, 'Articulo septimo'), LoN TS 105, pp. 200-201; trad. ing. art. 7, p. 210",
+     "cita_original": "se organizará una Comisión Mixta compuesta de cinco miembros elegidos así: uno dominicano por el Presidente de la República Dominicana, uno haitiano por el Presidente de la República de Haití, uno norteamericano por el Presidente de los Estados Unidos de América, [...] y uno venezolano por el Presidente de los Estados Unidos de Venezuela",
+     "traduccion": "Confirma el art. 7: comisión mixta de cinco miembros, dos nacionales y tres extranjeros (EE.UU., Brasil, Venezuela) designados por sus presidentes. Es una cláusula de arbitraje de las discrepancias de trazado, no una tutela general; la participación estadounidense en el tratado se limita a esa designación (el texto no dice 'tutela'). Español transcrito del OCR del PDF con erratas corregidas y cotejado con la traducción inglesa.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Art. 10, trad. ing. LoN TS 105, p. 211 (Tratado n.º 2413)",
+     "cita_original": "The questions shall be solved by a strict majority that is to say, there must be a majority of three votes in all cases and circumstances whatsoever.",
+     "traduccion": "Las cuestiones se resolverán por mayoría estricta, es decir, con una mayoría de tres votos en todo caso. El art. 10 del tratado de límites trata de la mayoría de la comisión mixta; NO regula los ríos fronterizos (ver el Tratado de Paz, Amistad y Arbitraje, n.º 2414, art. 10).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Nota al pie sobre canje de ratificaciones, LoN TS 105, p. 194 (versión fr./ing.)",
+     "cita_original": "The Exchange of ratifications took place at Santo-Domingo, April 29, 1929.",
+     "traduccion": "El canje de ratificaciones tuvo lugar en Santo Domingo el 29 de abril de 1929. Coincide con la fecha que consigna A-161.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Preámbulo, trad. ing. LoN TS 105, p. 207",
+     "cita_original": "WHEREAS THE DOMINICAN REPUBLIC and THE REPUBLIC OF HAITI, which are free, sovereign and independent States, share the territory of the island on which they are situated",
+     "traduccion": "Considerando que la República Dominicana y la República de Haití, que son Estados libres, soberanos e independientes, comparten el territorio de la isla en que se encuentran. Reconocimiento mutuo de dos Estados sobre una isla compartida (relevante para la tesis de la indivisibilidad; sin A-### de M12).",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "Art. 15, trad. ing. LoN TS 105, p. 211",
+     "cita_original": "the recognition by them of the line described in Article I as the final and permanent frontier between the two countries shall be subject to the explicit condition that the actual delimitation shall be accomplished fully",
+     "traduccion": "El reconocimiento de la línea del art. 1 como frontera final y permanente queda sujeto a la condición explícita de que la delimitación efectiva se complete conforme al tratado (condicionalidad que alimenta los diferendos de trazado posteriores, p. ej. el Protocolo de 1936).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Art. 17, trad. ing. LoN TS 105, p. 212",
+     "cita_original": "the Government of the Republic of Haiti undertakes to pay any compensation due to the Haitians whose property was confiscated in the Dominican Republic in 1884.",
+     "traduccion": "Haití se obliga a pagar las compensaciones debidas a los haitianos cuyos bienes fueron confiscados en la República Dominicana en 1884 (el mismo artículo extingue todo reclamo pecuniario recíproco). Dato para los módulos M11/M09 sobre confiscaciones de 1844 y 1884.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-161"
+   ],
+   "modulos": [
+    "M12",
+    "M11",
+    "M13"
+   ],
+   "id_existente": "F-0643",
+   "notas": "CORRECCIÓN A A-161: el art. 10 del tratado de límites del 21-I-1929 (n.º 2413) trata de la mayoría de tres votos de la comisión mixta; la cláusula sobre ríos fronterizos (no hacer obras que muden el curso; derecho a uso justo y equitativo) es el art. 10 del Tratado de Paz, Amistad y Arbitraje del 20-II-1929 (n.º 2414, canje 1-VII-1929; ver ficha siguiente). El tratado 2413 tiene 19 artículos (la ficha F-0643 dice 17: error de registro); el art. 17 es la renuncia a reclamos pecuniarios y el art. 19 la ratificación. La frase 'bajo tutela estadounidense' de A-161 no está en el texto: el art. 7 solo prevé tres árbitros extranjeros nombrados por los presidentes de EE.UU., Brasil y Venezuela. Fiabilidad de la traducción inglesa: informativa (Secretariado). [POR VERIFICAR] si la comisión mixta llegó a constituirse (no se leyó)."
+  },
+  {
+   "titulo": "Tratado de Paz, Amistad y Arbitraje entre la República Dominicana y Haití / Traité de paix, d'amitié et d'arbitrage, firmado en Santo Domingo el 20 de febrero de 1929 (League of Nations Treaty Series, vol. 105, n.º 2414, pp. 215-226)",
+   "autor": "República Dominicana; República de Haití; Sociedad de las Naciones (Secretariat, ed.)",
+   "anio": "1929 (ed. 1930)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20105/v105.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial bilingüe (es/fr) con la certificación del canciller dominicano (16-VI-1930) para el art. 18 del Pacto, publicado en el recueil de la Sociedad de las Naciones; traducción inglesa informativa.",
+   "proveniencia": "Firmado en Santo Domingo el 20-II-1929 por los mismos plenipotenciarios del tratado de límites (Dejean por Haití); canje de ratificaciones el 1-VII-1929 (nota al pie p. 216). Texto comunicado por la cancillería dominicana; Horacio Vásquez firma la ratificación dominicana. Es un tratado de arbitraje de 12 artículos, distinto del de límites.",
+   "extractos": [
+    {
+     "ubicacion": "Art. 10, párr. 1 (texto español), LoN TS 105, p. 220 (trad. ing. p. 225)",
+     "cita_original": "[...] ríos y otros cursos de agua nacen en el territorio de un Estado y corren por el territorio del otro o sirven de límites entre los dos Estados, ambas Altas Partes Contratantes se comprometen a no hacer ni consentir ninguna obra susceptible de mudar la corriente de aquellas o de alterar el producto de las fuentes de las mismas.",
+     "traduccion": "Es la prohibición que cita la lectura dominicana (sin obras que cambien el curso natural o afecten las fuentes). Versión inglesa: 'undertake not to carry out or be a party to any constructional work calculated to change their natural course or to affect the water derived from their sources'.",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Art. 10, párr. 2 (texto español), LoN TS 105, p. 220 (trad. ing. p. 225)",
+     "cita_original": "Esta disposición no se podrá interpretar en el sentido de privar a ninguno de los dos Estados del derecho de usar, de una manera justa y equitativa, dentro de los límites de sus territorios respectivos, dichos ríos y otros cursos de agua para el riego de las tierras y otros fines agrícolas e industriales.",
+     "traduccion": "Es el derecho de uso 'justo y equitativo' que invoca la lectura haitiana. Ambas lecturas están en el MISMO artículo, en párrafos sucesivos: el texto no favorece a una sola parte; lo disputado es la interpretación de 'obra susceptible de mudar la corriente' frente al 'uso justo y equitativo' (hecho vs interpretación).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Nota al pie sobre canje de ratificaciones, LoN TS 105, p. 216",
+     "cita_original": "The exchange of ratifications took place at St. Domingo, July 1, 1929.",
+     "traduccion": "El canje de ratificaciones del Tratado de Paz, Amistad y Arbitraje tuvo lugar en Santo Domingo el 1 de julio de 1929 (el del tratado de límites, el 29 de abril de 1929).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    },
+    {
+     "ubicacion": "Art. 2 (texto español), LoN TS 105, p. 217",
+     "cita_original": "se comprometen a no levantar en sus respectivos territorios, en un límite de diez (10) kilómetros de la línea fronteriza convenida y trazada de acuerdo con el Tratado del 21 de Enero de 1929, ninguna fortificación ni obra de guerra.",
+     "traduccion": "Las partes se comprometen a no levantar fortificaciones ni obras de guerra a menos de diez kilómetros de la frontera; los cuarteles para la vigilancia y policía fronteriza no cuentan como obras de guerra (párr. 2 del mismo artículo).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-161"
+   ],
+   "modulos": [
+    "M12",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0642",
+   "notas": "Esta ficha es la que resuelve la cláusula fluvial que A-161 atribuye al 'art. 10' del tratado fronterizo: es el art. 10 del Tratado de Paz, Amistad y Arbitraje (20-II-1929), no del de límites del 21-I-1929. Para la disputa del canal del río Masacre (2023) conviene citar ambos tratados por separado. El protocolo de 1936 y los acuerdos posteriores no se tocan aquí. [POR VERIFICAR] si el art. 10 fue modificado por el Protocolo de Revisión de 1936 (no leído en esta tarea)."
+  },
+  {
+   "titulo": "Papers Relating to the Foreign Relations of the United States, 1915 (Haití y Santo Domingo): docs. 541 (Lansing al Secretario de Marina, 28-VII-1915), 550 (Caperton, 7-VIII-1915), 572 (Johnson, 14-IX-1915) y 576 (Caperton, 26-IX-1915)",
+   "autor": "Departamento de Estado de EE. UU. (Lansing; Caperton; Johnson)",
+   "anio": "1915",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1915/d541",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1915/d550",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1915.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Despachos y telegramas contemporáneos de los actores, publicados por el Departamento de Estado; reflejan solo la perspectiva estadounidense y pueden estar editados (nota 'paraphrase').",
+   "proveniencia": "Documentos de la correspondencia entre el Departamento de Estado, la Marina (contralmirante William B. Caperton) y las legaciones en Port-au-Prince y Santo Domingo, julio-septiembre de 1915; publicados en FRUS (XML TEI de HistoryAtState en GitHub, leído completo; d541 reabierto en history.state.gov). Interés: documentar la decisión y la ejecución de la intervención; no recoge la visión haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1915, doc. 541, Lansing al Secretario de Marina, Washington, 28-VII-1915",
+     "cita_original": "Admiral Caperton be instructed to land marines from the Washington at the earliest opportunity",
+     "traduccion": "Pide que se instruya al almirante Caperton para desembarcar marines del 'Washington' lo antes posible (y que los capitanes británico y francés no desembarquen los suyos). Fija el arranque de la ocupación de Haití el 28-VII-1915 (la fecha coincide con la que consigna A-157 y con la Digithèque MJP).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1915, doc. 550 (telegrama paráfrasis), Caperton, USS 'Washington', 7-VIII-1915",
+     "cita_original": "Dartiguenave, President of the Senate, stated that Congressmen are agreed that Haiti must and will accede gladly to any terms proposed by the United States.",
+     "traduccion": "Según Caperton, el presidente del Senado Dartiguenave dijo que los congresistas aceptarían 'con gusto' cualquier término propuesto por EE.UU.; Caperton planea dejar que el Congreso elija presidente el 12 de agosto. Testimonio estadounidense de una elección tutelada (la versión haitiana de la presión no está en el documento).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1915, doc. 572, encargado Johnson (Santo Domingo) al Secretario de Estado, 14-IX-1915",
+     "cita_original": "On the question of increasing personnel of frontier guard, Government takes position it cannot spare the money. Receivership considering paying for increase out of the 5 per cent.",
+     "traduccion": "Antes de la ocupación dominicana (1916), Washington ya presionaba para reforzar la guardia fronteriza dominicana y proponía pagarla con el 5 % de la Receptoría de Aduanas; el gobierno dominicano alegaba falta de fondos. El mismo despacho: decreto dominicano que prohíbe exportar municiones a Haití.",
+     "afirmaciones": [
+      "A-157",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1915, doc. 576, Port-au-Prince, 26-IX-1915 (telegrama paráfrasis, Caperton)",
+     "cita_original": "Ten marines wounded; counted forty dead Cacos on Haut du Cap road.",
+     "traduccion": "Diez marines heridos; contados cuarenta cacos muertos en el camino de Haut du Cap (patrullas del 25-26 de septiembre de 1915). Primera evidencia de combate con los 'cacos' bajo la ocupación; la cifra es un recuento estadounidense.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: fecha de la petición de desembarco (28-VII-1915). Interpretación: 'intervención por anarquía' (versión estadounidense) u 'ocupación' (haitiana) no se decide aquí. El término 'caco' es el que usan los documentos; la tradición haitiana los vincula con la resistencia (ver terminos_nuevos). El desembarco efectivo del 28-VII-1915 no figura en estos cuatro documentos (el 541 solo lo solicita); lo da la Digithèque MJP (F-1902)."
+  },
+  {
+   "titulo": "Tratado entre EE. UU. y Haití sobre finanzas, desarrollo económico y tranquilidad de Haití, firmado en Port-au-Prince el 16-IX-1915 (Treaty Series n.º 623; proclamación del 3-V-1916), en FRUS 1916, doc. 362",
+   "autor": "Estados Unidos de América; República de Haití (Davis y Borno); Wilson (proclamación)",
+   "anio": "1915 (proclamado 1916)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1916/d362",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1916/ch52",
+    "https://www.govinfo.gov/content/pkg/STATUTE-39/pdf/STATUTE-39-Pg1654.pdf",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1916.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro del tratado tal como lo proclamó el presidente Wilson (inglés y francés auténticos); el origen coaccionado de la firma es un hecho aparte, no un defecto del texto.",
+   "proveniencia": "Firmado por el encargado de negocios Robert Beale Davis Jr. y el canciller Louis Borno, bajo ocupación militar desde julio de 1915 y con Dartiguenave como presidente recién elegido; canje de ratificaciones en Washington el 3-V-1916. FRUS 1916 reproduce la proclamación (Treaty Series 623). Texto (EN) leído completo en el XML y reabierto en history.state.gov (HTTP 200).",
+   "extractos": [
+    {
+     "ubicacion": "Art. X, FRUS 1916 doc. 362",
+     "cita_original": "to create without delay an efficient constabulary, urban and rural, composed of native Haitians. This constabulary shall be organized and officered by Americans, appointed by the President of Haiti, upon nomination by the President of the United States.",
+     "traduccion": "Gendarmería urbana y rural de haitianos, organizada y mandada por oficiales estadounidenses nombrados a propuesta del presidente de EE.UU. (base de la reorganización del ejército, A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Art. II, FRUS 1916 doc. 362",
+     "cita_original": "The President of Haiti shall appoint, upon nomination by the President of the United States, a General Receiver and such aids and employees as may be necessary, who shall collect, receive and apply all customs duties",
+     "traduccion": "Un Receptor General nombrado a propuesta de EE.UU. recauda y aplica todos los derechos de aduana (control fiscal); junto con el Asesor Financiero (mismo art.) reorganiza el Estado.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Art. XI, FRUS 1916 doc. 362",
+     "cita_original": "The Government of Haiti agrees not to surrender any of the territory of the Republic of Haiti by sale, lease, or otherwise, or jurisdiction over such territory, to any foreign government or power",
+     "traduccion": "Haití no cede territorio ni jurisdicción a ninguna potencia extranjera (cláusula que también bloquea cualquier cesión a la RD).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Art. XVI, FRUS 1916 doc. 362",
+     "cita_original": "The present treaty shall remain in full force and virtue for the term of ten years, to be counted from the day of exchange of ratifications, and further for another term of ten years",
+     "traduccion": "Vigencia de diez años desde el canje (3-V-1916), prorrogable otros diez si no se cumplió su propósito; fundamenta el plazo de 1936 que menciona el informe Forbes.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: contenido del tratado. Interpretación: 'tratado' voluntario frente a imposición bajo ocupación (tradición haitiana: 'convention' arrancada por la fuerza; tradición estadounidense: acuerdo de cooperación). Price-Mars (La vocation de l'élite, 1919, prefacio) menciona 'la Convention haïtiano-américaine' y la 'âpre discussion' que dividió a la élite."
+  },
+  {
+   "titulo": "Proclamation of Occupation and Military Government (capitán H. S. Knapp, USS 'Olympia', Santo Domingo, 29-XI-1916), subinclusión del doc. 265 de FRUS 1916",
+   "autor": "Knapp, Harry S. (Capitán, USN); Brewer (encargado); Departamento de Estado (ed.)",
+   "anio": "1916",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1916/d265",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1916.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto de la proclamación tal como la transmitió el propio Knapp al encargado estadounidense; el documento es el acto fundacional de la ocupación y no una descripción posterior.",
+   "proveniencia": "Proclamación del 29-XI-1916 que declara la República Dominicana en 'estado de ocupación militar', adjunta a la carta de Knapp a Brewer y reproducida en FRUS 1916. Interés: justificar la ocupación por violaciones de la Convención de 1907. La versión española se publicó en la Gaceta Oficial n.º 2758 (ver ficha de la Colección de órdenes ejecutivas 1916-17).",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1916, doc. 265, subinclusión (Proclamation of Occupation and Military Government)",
+     "cita_original": "the Republic of Santo Domingo is hereby placed in a state of Military Occupation by the forces under my command, and is made subject to Military Government and to the exercise of military law applicable to such occupation.",
+     "traduccion": "La República de Santo Domingo queda en estado de ocupación militar por las fuerzas de Knapp y sujeta a gobierno militar y ley militar. Fecha: 29-XI-1916.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1916, doc. 265, subinclusión, párr. 8",
+     "cita_original": "This military occupation is undertaken with no immediate or ulterior object of destroying the sovereignty of the Republic of Santo Domingo",
+     "traduccion": "La ocupación se emprende 'sin objeto inmediato ni ulterior de destruir la soberanía' dominicana: es la justificación oficial estadounidense, no un hecho verificado.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1916, doc. 265, subinclusión, párr. 10",
+     "cita_original": "All revenue accruing to the Dominican Government ... shall be paid to the Military Government herein established, which will, in trust for the Republic of Santo Domingo, hold such revenue",
+     "traduccion": "Todos los ingresos del Estado dominicano pasan al Gobierno Militar, que los retiene 'en fideicomiso': reorganización fiscal inmediata del Estado.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: fecha y contenido de la proclamación. El motivo alegado (violación del art. III de la Convención de 1907 y desorden) es una atribución del ocupante; la tradición dominicana (Lugo, 'La intervención americana', 1916; F-1924) la discute. El mismo doc. 265 reproduce también un borrador del propio Knapp."
+  },
+  {
+   "titulo": "Colección de órdenes ejecutivas del núm. 1 al 16 inclusives y reglamentos administrativos del 1 al 7 inclusives: de noviembre 29, 1916 hasta diciembre 31, 1917 (Santo Domingo, 1918; incluye la Proclama de ocupación, G. O. núm. 2758, y la O. E. 47 sobre la Guardia Nacional Dominicana)",
+   "autor": "Gobierno Militar de Santo Domingo (Knapp, H. S.)",
+   "anio": "1918",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/b0aef0c0-ac44-4900-b7db-3ebbb187f31e/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/63a76e03-5c71-467e-a3aa-4bfe437556cd"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial de las órdenes del Gobierno Militar tal como se publicaron en la Gaceta Oficial (texto bilingüe es/en), digitalizada por el Senado dominicano; el OCR del PDF es ruidoso y las citas se corrigieron contra el contexto.",
+   "proveniencia": "Colección impresa en 1918 por el propio Gobierno Militar (capitán/contraalmirante Knapp) con las órdenes ejecutivas y avisos en español e inglés; digitalizada por el Senado de la RD (Memoria Histórica, 70,8 MB). Interés oficial: dar fuerza de ley a la ocupación y dejar constancia de su legalidad; no incluye las objeciones dominicanas.",
+   "extractos": [
+    {
+     "ubicacion": "Proclama de ocupación, G. O. núm. 2758, primeras páginas de la colección (texto español)",
+     "cita_original": "DECLARO Y PROCLAMO a todos los que les interese, que la República Dominicana queda por la presente puesta en un estado de ocupación militar por las fuerzas bajo mi mando, y queda sometida al Gobierno Militar y al ejercicio de la Ley Militar, aplicable a tal ocupación.",
+     "traduccion": "Versión española oficial de la proclama del 29-XI-1916 (coincide con el texto inglés de FRUS 1916, doc. 265).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Reglamento 'Armas y explosivos', G. O. núm. 2758, p. 6 de la colección",
+     "cita_original": "Queda prohibido a todo individuo y a toda organización, con excepción de las Fuerzas de la ocupación, el porte de armas de fuego o el tenerlas en posesión, lo mismo que las municiones para ellas y toda clase de explosivo.",
+     "traduccion": "Desarme de la población civil desde el primer día de la ocupación; la misma G. O. establece la censura de prensa ('Con la declaración de la ocupación Militar en Santo Domingo se restablece, pues, una censura').",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 1, 4-XII-1916, G. O. núm. 2759, p. 9",
+     "cita_original": "Siendo necesario a los propósitos de la Ocupación que los Despachos de Secretario de Estado de los Departamentos de Guerra y Marina, y de Interior y Policía, no continúen bajo la administración de ciudadanos dominicanos, sino que sean administrados por oficiales de las fuerzas de Ocupación de los Estados Unidos",
+     "traduccion": "Los ministerios de Guerra y Marina y de Interior y Policía pasan a oficiales estadounidenses (reorganización directa del Estado y del aparato armado).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 10, 20-XII-1916, G. O. núm. 2763, p. 16",
+     "cita_original": "En los puertos habilitados de Santo Domingo, donde haya Fuerzas Militares de los Estados Unidos, los deberes de los Inspectores de Inmigración serán desempeñados por Oficiales de las Fuerzas de Ocupación [...] El desembarco de inmigrantes en los puertos no habilitados, queda prohibido.",
+     "traduccion": "Control militar estadounidense de la inmigración desde diciembre de 1916; desembarco solo por puertos habilitados.",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 47, 7-IV-1917, G. O. núm. 2792, pp. 44-45",
+     "cita_original": "El nombre de la fuerza de policía nacional creada por la presente orden será el de Guardia Nacional Dominicana. [...] Habiéndose disuelto el Ejército, éste ha dejado ya de existir y por la presente queda abolido",
+     "traduccion": "Crea la Guardia Nacional Dominicana (500.000 dólares de apropiación), que sustituye al Ejército, la Marina y la Guardia Republicana; el mando y otros oficiales deberán ser estadounidenses. Hecho fundamental para 'reorganizó ejército' de A-157.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: contenido y fechas de las órdenes. Interpretación del ocupante: 'restaurar el orden'; la tradición dominicana nacionalista lo llama 'intervención' (Lugo) y la vincula con la ruptura de la soberanía. El OCR del PDF corta algunas frases; las citas se limpiaron de erratas obvias (p. ej. 'miiitar'→'militar') y se cotejaron con el texto inglés de la misma colección. [POR VERIFICAR] la fecha exacta de entrada en vigor de la Guardia Nacional (el folleto oficial de 1920 dice que se organizó el 21-VIII-1917)."
+  },
+  {
+   "titulo": "Colección de órdenes ejecutivas del núm. 117 al 248 inclusive y reglamentos administrativos del 8 al 13 inclusives: de enero 1, 1918 hasta diciembre 31, 1918 (Santo Domingo, 1919)",
+   "autor": "Gobierno Militar de Santo Domingo (Knapp; Pendleton, interino)",
+   "anio": "1919",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/6887cf7b-d112-4624-8279-822f863ffb5a/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/62366e29-ad33-4c32-93fa-c1b2714c55c9"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial del Gobierno Militar con capa de texto; las partidas citadas se cotejaron con la imagen de la página.",
+   "proveniencia": "Colección anual de las órdenes ejecutivas de 1918 (O. E. 117-248) impresa en 1919; contiene la enmienda al presupuesto de 1918 (O. E. 139, 17-III-1918) que añade el personal de la 'Guardia de Fronteras', y la O. E. 154 sobre extradición a Haití. Fuente oficial del ocupante; 261,7 MB.",
+   "extractos": [
+    {
+     "ubicacion": "O. E. núm. 139, 17-III-1918, G. O. núm. 2893, art. 262a (Capítulo VIII), p. 40 (cotejado con la imagen)",
+     "cita_original": "Personal que se agrega para hacer las veces de la Guardia de Fronteras, como sigue: 3 Tenientes Segundos [...] 4 Sargentos [...] 8 Cabos [...] 42 Guardias",
+     "traduccion": "El Gobierno Militar añade al presupuesto de 1918 una 'Guardia de Fronteras' de 57 hombres (3 tenientes, 4 sargentos, 8 cabos, 42 guardias) por 13.068 dólares anuales: primera partida presupuestaria específica de vigilancia fronteriza bajo la ocupación. Es un dato de estructura, no de represión racializada (A-160 afirma que esa represión comienza en 1919).",
+     "afirmaciones": [
+      "A-157",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 154, 26-IV-1918, G. O. núm. 2903, p. 96",
+     "cita_original": "aunque no existe ya ningún Tratado Especial con la República de Haití en virtud del cual pueda exigirse legalmente la extradición, nada se opone a que ésta pueda acordarse por simple cortesía internacional",
+     "traduccion": "El Gobierno Militar concede la extradición a Haití de José Oquet (alias José Augusto Gabriel), acusado de asesinar a la tripulación de la goleta 'Dieu Devant', 'por simple cortesía internacional' a petición de la Legación haitiana: cooperación bilateral bajo ocupación y ausencia de tratado de extradición dominico-haitiano.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El texto español de O. E. 139 art. 262a se leyó con OCR y con la imagen de la p. 40; el número de la G. O. (2893) viene del OCR del encabezado de la O. E. 139 [POR VERIFICAR contra la imagen]. No leí el resto del volumen (493 pp.): quedan sin examinar otras órdenes de 1918 sobre frontera, desarme e inmigración."
+  },
+  {
+   "titulo": "Colección de órdenes ejecutivas del núm. 249 al 380 inclusive: de enero 1, 1919 hasta diciembre 31, 1919 (Santo Domingo, 1920; O. E. 259, 268, 278 y 372)",
+   "autor": "Gobierno Militar de Santo Domingo (Fuller, interino; Snowden)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/887b0b48-6476-45d5-8601-e04ac9725e75/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/a09adfcb-d33c-45c3-bb7f-c1a3041cfc1a",
+    "https://do.vlex.com/vid/ley-n-259-relativa-840870851"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial en español e inglés de las órdenes de 1919; las O. E. 259 y 372 se cotejaron visualmente con la imagen de la página (OCR propio) y la O. E. 259 también con el texto OCR de vLex (Gaceta Oficial n.º 2989).",
+   "proveniencia": "Colección anual del Gobierno Militar (contraalmirante Thomas Snowden desde el 25-II-1919, que además asumió 'la Representación Militar de los Estados Unidos en Haití', O. E. 268). Digitalizada por el Senado (126,7 MB; el PDF es imagen con casi nada de capa de texto: OCR propio, 576 pp.). Interés: normar la inmigración azucarera y cerrarla a los braceros no 'caucásicos' salvo permiso.",
+   "extractos": [
+    {
+     "ubicacion": "O. E. núm. 259, 18-II-1919 (G. O. núm. 2989), art. 1, pp. 12-13",
+     "cita_original": "Un mes a lo sumo después de haberse terminado la zafra, los tenedores de permisos de inmigración deberán proveer, á cada bracero extranjero que haya inmigrado á este país en virtud de tal permiso [...] del dinero suficiente para pagar su pasaje al puerto del cual haya emigrado",
+     "traduccion": "Obliga a los ingenios con permiso de inmigración a pagar el pasaje de retorno a cada bracero un mes después de la zafra: control de la mano de obra importada (no menciona haitianos: 'bracero extranjero').",
+     "afirmaciones": [
+      "A-157",
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 259, art. 2, p. 13 (cotejado con la imagen)",
+     "cita_original": "Se prohibe á todo bracero extranjero que haya inmigrado á este país en virtud del permiso mencionado en el artículo anterior, salir del país antes que haya terminado la zafra para la cual haya venido á trabajar.",
+     "traduccion": "Los braceros no pueden salir del país antes de terminar la zafra; el art. 3 prohíbe a navieras y agentes inducirlos a irse (multa de 100 a 1.000 dólares o prisión de 1 a 6 meses). Mercado de trabajo cautivo bajo la ocupación.",
+     "afirmaciones": [
+      "A-157",
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 268, 25-II-1919, G. O. núm. 2990, p. 23",
+     "cita_original": "he asumido en esta fecha el cargo de Gobernador Militar de Santo Domingo y la Representación Militar de los Estados Unidos en Haití.",
+     "traduccion": "El contraalmirante Snowden gobierna Santo Domingo y a la vez representa militarmente a EE.UU. en Haití: coordinación de las dos ocupaciones bajo un mismo mando (hecho de organización, relevante para A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 278, 4-IV-1919, G. O. núm. 3001, p. 56",
+     "cita_original": "Hasta el 1 de Abril del año 1921, y a menos que no se obtenga la autorización especial del Poder Ejecutivo, QUEDA PROHIBIDO (a) Que se induzca o se trate de inducir [...] a que trabajadores salgan del país, para ser empleados en el extranjero",
+     "traduccion": "Prohíbe reclutar trabajadores para emplearlos fuera del país hasta el 1-IV-1921 (multa 100-500 dólares o 2-6 meses de prisión). Junto con la O. E. 259, muestra regulación de la oferta de trabajo en el marco de la economía azucarera.",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 372, 16-XII-1919 (G. O. núm. 3075), art. 1, pp. 390-391 (cotejado con la imagen)",
+     "cita_original": "Queda prohibido en la República Dominicana la inmigración de braceros de cualquier raza que no sea la caucásica, sus familiares inmediatos y otros dependientes, á menos que sea por los puertos habilitados y puntos de la frontera que se prescriban por la Secretaría de Estado de Agricultura é Inmigración.",
+     "traduccion": "Prohibición racial de la inmigración de braceros 'no caucásicos', salvo por puertos y puntos fronterizos habilitados y con permiso; el art. 1 impone multa de 10 a 100 dólares o prisión y deportación; el art. 2 exige 50 dólares oro; el art. 3 da cuatro meses a los braceros no caucásicos ya presentes para obtener permiso; el art. 4 autoriza al Secretario de Agricultura e Inmigración a suspender cualquier deportación 'siempre que crea un beneficio para el país'. Firma: Thomas Snowden.",
+     "afirmaciones": [
+      "A-157",
+      "A-158",
+      "A-160",
+      "A-163"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159",
+    "A-160",
+    "A-163"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: la O. E. 372 existe, fecha del 16-XII-1919 y es una norma racial explícita ('raza que no sea la caucásica') que no nombra a Haití ni a los haitianos; incluye una cláusula de suspensión de deportaciones (art. 4) que permite a los ingenios mantener braceros. INTERPRETACIÓN (Cadeau, A-160): este tipo de norma es el inicio de una represión racializada que culmina en 1937; contra: la norma reproduce el art. 3 de la Ley de Inmigración de 1912 (previa a la ocupación; ficha propia) y apunta a toda mano de obra no caucásica (cocolos y haitianos), no a una frontera concreta. No he visto el documento de Cadeau que cite 1919 como inicio de la represión fronteriza (no leí su capítulo). El 'bracero' de las O. E. de 1919 es sobre todo el de las islas del Caribe oriental (ver Memoria SEA 1916-1918 y folleto oficial de 1920). El PDF está sin OCR; el texto de las O. E. 259 y 372 se verificó contra la imagen; el resto del volumen solo por OCR de baja resolución. En las citas de OCR (O. E. 268, 278) se restituyeron acentos y se modernizó la ortografía ('extranjero' donde el OCR lee 'extrangero')."
+  },
+  {
+   "titulo": "Colección de órdenes ejecutivas del núm. 386 al 586 inclusive: de enero 1 hasta diciembre 29, 1920 (Santo Domingo, 1921; O. E. 511 'Ley de Registro de Tierras' y O. E. 552 'Primer Censo Nacional')",
+   "autor": "Gobierno Militar de Santo Domingo (Snowden)",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/428f3dd4-5d22-421a-af3c-8b4c69c1aaf8/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/9389bff9-f874-42ce-a670-5598b555a1d0"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición oficial de las órdenes de 1920; la O. E. 552 se cotejó con la imagen de la p. 488 y la O. E. 511 con OCR propio.",
+   "proveniencia": "Colección del Gobierno Militar del año 1920 (806 pp., 190 MB, sin capa de texto; OCR propio de las pp. 280-568). La O. E. 505 autoriza el primer censo nacional; la O. E. 552 (18-X-1920) lo reglamenta. La O. E. 511 (1-VII-1920) crea el Tribunal Superior de Tierras y el registro de tierras.",
+   "extractos": [
+    {
+     "ubicacion": "O. E. núm. 552, 18-X-1920 (G. O. núm. 3161), preámbulo, p. 488 (cotejado con la imagen)",
+     "cita_original": "De acuerdo con la Orden Ejecutiva No. 505, que autoriza a levantar un Censo en la República Dominicana, bajo la dirección de la Secretaría de Estado de lo Interior y Policía",
+     "traduccion": "El censo de 1920 lo autoriza la O. E. 505 y lo reglamenta la O. E. 552 (título: 'Para Reglamentar las Operaciones del Primer Censo Nacional'). Resuelve la discrepancia de la bibliografía, que da 505 o 552 como 'la' orden del censo.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 552, art. 2, p. 488",
+     "cita_original": "cuyos nombramientos recaerán en las personas indicadas por la Superintendencia General de Enseñanza, entre los Empleados del Servicio Escolar.",
+     "traduccion": "Los enumeradores salen del Servicio Escolar (maestros); los alcaldes pedáneos o jefes de sección los acompañan a todas las viviendas (art. 3) 'a fin de que ninguna persona se sustraiga a la enumeración'. Cobertura rural a través de autoridades locales. La orden no define la nacionalidad ni la categoría 'haitiano': eso estaba en las planillas, que no localicé.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "O. E. núm. 511, 1-VII-1920 (G. O. núm. 3138 según el encabezado español), preámbulo, p. 307",
+     "cita_original": "Es notorio el hecho de que muchos títulos de terrenos en Santo Domingo son tan confusos y dudosos que impiden el fomento de la riqueza del país, se prestan al fraude y al chantage en gran escala",
+     "traduccion": "Justificación oficial de la Ley de Registro de Tierras: títulos confusos y fraude. Art. 1: registrar 'todas las tierras' y deslindar y partir los terrenos comuneros (reorganización de la tenencia de la tierra bajo la ocupación, A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "El número de la G. O. de la O. E. 511 aparece como 3138 en el encabezado español y como 3147 en el inglés (OCR): [POR VERIFICAR]. El censo cuyo texto de resultados (28.258 haitianos en 1920) no pudo abrirse: ONE bloqueó la descarga (fallo-fetch 403, ver ficha aparte). No leí las demás órdenes de 1920 (OE 386-586)."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año XXIX, n.º 2295 (Santo Domingo, 11 de mayo de 1912): 'Ley sobre Inmigración' (promulgada por E. Victoria el 9-V-1912), en 'Gaceta Oficial... nos. 2259-2361 (Ene.-Dic. 1912)'",
+   "autor": "Congreso Nacional de la República Dominicana; Victoria, Eladio (presidente)",
+   "anio": "1912",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/c7eacaec-be61-4c87-9844-5201ad7a9f8c/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/5b0d67af-9ff5-4013-b09e-a7961625c09b"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto legal publicado en la Gaceta Oficial el 11-V-1912; artículos 1, 3, 4 y el bloque de fechas y firmas cotejados con la imagen de las pp. 291-292 del PDF (809 pp.).",
+   "proveniencia": "Ley aprobada por la Cámara de Diputados el 22-IV-1912 y por el Senado el 4-V-1912, promulgada por el presidente Eladio Victoria el 7-V-1912 y refrendada por el Secretario de Estado de Agricultura e Inmigración (Luis Pelletier, según la imagen de la p. 292); publicada en la Gaceta Oficial n.º 2295, Año XXIX (11-V-1912), dirigida por Francisco Sanabia hijo; entraba en vigor 90 días después de su publicación (art. 8). Anterior a la ocupación estadounidense: es una política dominicana que se aplica a toda inmigración.",
+   "extractos": [
+    {
+     "ubicacion": "Art. 3, Gaceta Oficial n.º 2295 (11-V-1912), PDF p. 291 (cotejado con la imagen)",
+     "cita_original": "Necesitan previo permiso para inmigrar al país los naturales de colonias europeas en América, los de Asia, los de África y los de Oceanía, así como los braceros de otra raza que no sea la caucasiana.",
+     "traduccion": "No prohíbe: exige permiso previo del Poder Ejecutivo, que 'deberá negarlo cada vez que no esté convencido de la utilidad general del inmigrante'; sin permiso, repatriación en el mismo buque y multa de 100 pesos al capitán por inmigrante. Es el texto de A-163 ('prohibían importar trabajadores de origen africano o asiático', Schoenrich): la ley condiciona, no prohíbe.",
+     "afirmaciones": [
+      "A-163",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Art. 1, Gaceta Oficial n.º 2295, PDF p. 291",
+     "cita_original": "El territorio de la República está abierto á la inmigración de todas las personas civilizadas y de buena salud.",
+     "traduccion": "Principio general de apertura a la inmigración 'civilizada y de buena salud'; la excepción racial/colonial está en el art. 3.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "Art. 4, Gaceta Oficial n.º 2295, PDF pp. 291-292 (cotejado con la imagen de p. 292)",
+     "cita_original": "para que promuevan la emigración á la República Dominicana, celebrando contratos con los inmigrantes de organismo bien equilibrado y de buena salud, que sean agricultores y hayan cursado por lo menos la instrucción, y procurando que el capital representado por cada grupo de ellos corresponda á un mínimum de quinientos pesos 'per cápita'",
+     "traduccion": "El Estado creará agencias de inmigración en Europa, EE.UU. y las Antillas que fueron españolas hasta el final del siglo XIX, para atraer agricultores con instrucción y capital mínimo de 500 pesos por cabeza: política de poblamiento selectivo. El art. 5 prevé conducirlos a terrenos del Estado.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-163",
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE el '[POR VERIFICAR] ley de inmigración de 1912' de A-163: existe, es la ley votada en abril-mayo de 1912 y publicada el 11-V-1912; el texto es de permiso previo, no prohibición. Un documento del repositorio de UNAPEC (repositorio.unapec.edu.do, resumen divulgativo) la cita como 'Ley n.º 5074' con un 'reglamento n.º 5280' de 1913: el encabezado de la ley en la Gaceta no lleva ese número [POR VERIFICAR su origen; no leí el reglamento de 1913]. El pasaje de Schoenrich 1918 (l. 5354-5362 del texto local) es una descripción de esta política sin citar la ley. La Memoria de 1916 de la Secretaría de Agricultura e Inmigración muestra el efecto práctico (ficha siguiente)."
+  },
+  {
+   "titulo": "Memoria de la Secretaría de Estado de Agricultura e Inmigración (del 1 de enero de 1916 al 1 de julio de 1918) (Santo Domingo, Tip. El Progreso, 1918), cuadro 'Inmigración', p. 33",
+   "autor": "Secretaría de Estado de Agricultura e Inmigración (Baughman, C. C., Lt. Cdr. USN, encargado)",
+   "anio": "1918 (ed. 1919)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/5e6cb0fc-d9ab-4108-999a-3478d104e21c/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/b3f75557-5303-4d45-a014-f4c2fc8b8c26"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial al Gobernador Militar con cuadro numérico de inmigración por destino y procedencia; se lee con la imagen de la página (OCR correcto en el texto); registra solo entradas con permiso/inspección, no el cruce informal por tierra.",
+   "proveniencia": "Memoria de la secretaría dirigida por el teniente comandante C. C. Baughman (USN) durante el Gobierno Militar; los datos de inmigración (1-I-1916 a 1-VII-1917) se basan en el nuevo sistema de tarjetas de inmigración que, según el mismo informe, sustituyó a la ausencia de registro previo. Archivo General de la Nación (sello) y Senado (digitalizado).",
+   "extractos": [
+    {
+     "ubicacion": "Memoria SEA 1916-1918, cuadro 'Inmigración. República Dominicana', p. 33 (cotejado con la imagen)",
+     "cita_original": "Hubo un movimiento de 6406 inmigrantes, de los cuales 6325 fueron braceros para distintos Ingenios azucareros",
+     "traduccion": "Entre el 1-I-1916 y el 1-VII-1917 entraron 6.406 inmigrantes, 6.325 de ellos braceros para ingenios (Consuelo, Angelina, Porvenir, Santa Fe, Cristóbal Colón, Quisqueya, San Luis, San Isidro y Romana). Procedencia en el cuadro: 'St. Thomas, St. Kitts, St. Martin, Antigua', Guánica (Puerto Rico), Turks Islands; nacionalidad 'Inglesa' y 'Diversas'. No figura Haití.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "Memoria SEA 1916-1918, sección 'Inmigración', p. 8",
+     "cita_original": "Nunca se llevó un registro conveniente de inmigrantes, tanto que una información cierta sobre cada individuo no podía obtenerse de los records.",
+     "traduccion": "Hasta el sistema de tarjetas de la ocupación no había un registro fiable de inmigrantes: cualquier serie de reclutamiento por ingenio anterior a 1916 carece de base documental fiable (límite de A-159).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "HECHO: en la contabilidad oficial 1916-17 los braceros con permiso para ingenios proceden de las Antillas orientales, no de Haití. INTERPRETACIÓN: la 'institucionalización' de la migración haitiana bajo las ocupaciones (A-158) no se apoya en estos datos de permisos; el flujo haitiano de los años 20 pudo ser informal (por la frontera) y por empresas del sur (Barahona). Faltan las memorias posteriores (1919-1929) de la secretaría; no localicé las series por ingenio."
+  },
+  {
+   "titulo": "Santo Domingo, its past and its present condition (Santo Domingo City, D. R., January 1, 1920)",
+   "autor": "Gobierno Militar de Santo Domingo (Snowden, Thomas)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/cu31924008449799/cu31924008449799_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/cu31924008449799"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de gestión del propio Gobierno Militar (autopromoción, 'logros' de la ocupación); sus cifras de inmigración proceden de la secretaría y son útiles como dato oficial, no como valoración independiente.",
+   "proveniencia": "Folleto publicado por el Gobierno Militar del contraalmirante Snowden el 1-I-1920 para exponer la situación del país y los resultados de la ocupación; ejemplar de la Cornell University Library digitalizado en archive.org (OCR de Cornell, legible con errores). Dirigido a lectores estadounidenses (Washington) y, según su estructura, a justificar la continuidad de la ocupación.",
+   "extractos": [
+    {
+     "ubicacion": "Sección 'Immigration', p. 25 (djvu.txt, l. 2339-2360)",
+     "cita_original": "During the period from November 29, 1916, to October 31, 1919, there has been a general movement of 10,617 immigrants, of which 9,600 have been workmen for the sugar companies.",
+     "traduccion": "Entre el 29-XI-1916 y el 31-X-1919 hubo 10.617 inmigrantes, 9.600 de ellos obreros de las compañías azucareras (473 con permiso para quedarse). Cifra del ocupante; no desagrega nacionalidad.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "Sección 'Immigration', p. 25 (djvu.txt, l. 2344-2348)",
+     "cita_original": "There being insufficient workmen to harvest the sugar crops, permission was granted for the entry of workmen from the neighboring islands, on request from the sugar companies",
+     "traduccion": "La inmigración de obreros se autorizó 'a petición de las compañías azucareras' y de 'islas vecinas', con retorno obligatorio al terminar la zafra salvo permiso: apoya A-159 (demanda de la economía azucarera) pero habla de 'islas vecinas', no de Haití.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "Sección 'Guardia Nacional Dominicana', p. 52 (djvu.txt, l. 3740-3765)",
+     "cita_original": "In general the Guardia is stationed by companies at the provincial capitals, with detachments at many smaller towns and along the Haitian border.",
+     "traduccion": "La Guardia Nacional (organizada el 21-VIII-1917 según este folleto) tiene destacamentos 'a lo largo de la frontera haitiana' (1920): presencia armada fronteriza bajo la ocupación.",
+     "afirmaciones": [
+      "A-157",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El OCR de la sección sobre la Guardia (l. 3740-3765) tiene errores (p. ej. 'oflScered'); las frases citadas se leyeron con corrección tipográfica obvia. Fuente oficial del ocupante, con su sesgo de promoción de la ocupación. El folleto menciona bandidos en el este y la lucha de la Guardia con los marines (no desarrollado aquí)."
+  },
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo: Hearings before a Select Committee on Haiti and Santo Domingo, United States Senate, 67th Congress, 1st and 2nd sessions, pursuant to S. Res. 112 (Washington, GPO, 1921-1922); pp. 1271, 1296, 1328 y 1354 (testimonio de Carl Kelsey, 9-10 de marzo de 1922, y de McIlhenny)",
+   "autor": "Senado de EE. UU., Select Committee on Haiti and Santo Domingo (McCormick, pres.); Kelsey, Carl; McIlhenny; Howe, Walter Bruce; Angell, Ernest (testigos)",
+   "anio": "1921-1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog",
+    "https://archive.org/download/inquiryintooccu00conggoog/inquiryintooccu00conggoog_djvu.txt",
+    "https://archive.org/details/inquiryintooccu00conggoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Transcripción oficial de testimonios jurados ante un comité del Senado (con preguntas y respuestas), con las salvedades de que cada testigo habla desde su posición (Kelsey, sociólogo enviado por la American Academy of Political and Social Science; McIlhenny, funcionario estadounidense en Haití) y de que el escaneo de Google corta los márgenes de algunas páginas.",
+   "proveniencia": "Audiencias del Comité Selecto del Senado (presidente Medill McCormick) sobre la ocupación de Haití y Santo Domingo (S. Res. 112), 1921-1922. Carl Kelsey (Universidad de Pennsylvania) estuvo en Haití del 2-II al 2-VII-1920 y declaró el 9 y 10 de marzo de 1922; el comité escuchó también a Dominicanos, a marines y a funcionarios. Escaneo de Google (Library of Congress) en archive.org (1.723 hojas; el djvu.txt tiene OCR ruidoso con los márgenes recortados). Interés del comité: investigar los abusos de la ocupación (iniciativa de McCormick y críticos); no es una fuente neutra.",
+   "extractos": [
+    {
+     "ubicacion": "p. 1271 (hoja 1265 del escaneo; djvu.txt l. 118529-118533), testimonio de C. Kelsey, 10-III-1922",
+     "cita_original": "The older practice in Santo Domingo was to issue a per[mit to th]ese cane plantations to bring in laborers, which were brought miscel[laneously] from the West Indies, not primarily from Haiti. So far as my infor[mation go]es, the Barahona Co., in the west, is the only one which has drawn [to a co]nsiderable extent upon Haiti.",
+     "traduccion": "Según Kelsey (1920), la práctica antigua era dar permisos a los ingenios para traer obreros 'de las Antillas' y 'no principalmente de Haití'; la única compañía que se había nutrido de forma considerable de Haití era la Barahona (oeste). Texto con margen izquierdo recortado en el escaneo: las palabras entre corchetes son reconstrucción mía.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "p. 1271 (djvu.txt l. 118520-118522), testimonio de C. Kelsey, 10-III-1922",
+     "cita_original": "Haiti is now invading Santo Domingo. I mean a [mi]gration of Haitians into Santo Domingo is taking place, because [of la]rger economic opportunities.",
+     "traduccion": "Kelsey (pregunta del senador Pomerene) describe una migración haitiana a la RD 'por mayores oportunidades económicas', con la metáfora de 'invasión' (término cargado del entrevistador y del testigo; ver glosario: invasión). Hecho: hay inmigración haitiana en 1920-22; interpretación: 'invasión'.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "p. 1271 (djvu.txt l. 118504-118506), testimonio de C. Kelsey, 10-III-1922",
+     "cita_original": "[T]he Dominicans despise the Haitians. I never have seen a sharper [li]ne of color prejudice than is manifested there.",
+     "traduccion": "Observador estadounidense, 1920: 'los dominicanos desprecian a los haitianos' y no había visto una línea de prejuicio de color más marcada. Testimonio de una impresión; no es medida del antihaitianismo (A-160). La palabra 'line' está reconstruida por el recorte del margen.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "p. 1296 (hoja 1290 del escaneo; djvu.txt l. 120585-120587), sección 'The corvée system' del informe impreso en las audiencias",
+     "cita_original": "[...] revived a law, dating from 186[5], requiring citizens to work on local roads [...] thus initiated the corvée system.",
+     "traduccion": "En Haití, el comandante estadounidense (el texto nombra al 'General Butler', es decir, Smedley D. Butler [POR VERIFICAR]) revivió una ley de 186[5] (la última cifra es ilegible en el escaneo; el OCR da 1866) que obligaba a los ciudadanos a trabajar en los caminos locales, 'iniciando' la corvée; la ejecución quedó en manos de la gendarmería (reorganización del trabajo y del Estado, A-157). El margen derecho del escaneo está recortado; las palabras omitidas se indican con [...]. Autoría del pasaje: texto del informe de Kelsey impreso en las audiencias [POR VERIFICAR].",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "p. 1328 (hoja 1320 del escaneo; djvu.txt l. 123056-123060), sección 'Roads' del informe impreso",
+     "cita_original": "The Dominicans had opposed the introduction of Haitians for road [work] and had been supported by Knapp. But other labor was not available [in suf]ficient numbers. Admiral Snowden [...] shortly thereafter gave his consent to the importation of Haitia[ns]",
+     "traduccion": "Obras públicas de la ocupación dominicana: los dominicanos se opusieron a introducir haitianos para construir caminos y Knapp los apoyó; Snowden, poco después de asumir el cargo, consintió su importación. Apoya la hipótesis de que la ocupación estadounidense de la RD contrató mano de obra haitiana (A-159), aunque no para ingenios y sin cifras. Margen derecho recortado.",
+     "afirmaciones": [
+      "A-157",
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "p. 1354 (hoja 1339 del escaneo; djvu.txt l. 124641-124644), testimonio de McIlhenny",
+     "cita_original": "During the fiscal year 1919-20, 29,181 Haitian laborers went to Cuba to work in the plant[ations] there. From each of these laborers a fee of $2 was collected",
+     "traduccion": "En el año fiscal 1919-20, 29.181 braceros haitianos fueron a Cuba (cifra de un funcionario estadounidense a partir de las tasas consulares de 2 dólares por emigrante; el testigo dice que la práctica continuó 'hasta la suspensión de la emigración de trabajadores' el año anterior). La mayor corriente de emigración laboral haitiana de esos años iba a Cuba, no a la RD.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Las páginas se localizaron en la hoja del escaneo con el djvu.xml (hoja 1265 = p. 1271; 1290 = 1296; 1320 = 1328; 1339 = 1354) y se leyeron como imagen: el OCR de Google es ruidoso y los escaneos recortan un margen. HECHOS: permisos a ingenios para obreros de las Antillas (Kelsey 1920); importación de haitianos para caminos tras el visto bueno de Snowden; emigración laboral haitiana a Cuba. INTERPRETACIÓN: 'invasión', 'desprecio' (impresión del testigo). SESGO: comité con fines de crítica de la ocupación; testigos estadounidenses, sin voz dominicana ni haitiana en estos fragmentos (otras sesiones recogen testimonios dominicanos y haitianos; no se leyeron). McIlhenny: probablemente el consejero financiero de Haití (John A. McIlhenny) [POR VERIFICAR]. El texto de la p. 1370 incluye correspondencia haitiana sobre pasaportes y contratos de braceros a centrales cubanos (no citada)."
+  },
+  {
+   "titulo": "Through Santo Domingo and Haiti: A Cruise with the Marines (New York, Committee on Cooperation in Latin America, 1919)",
+   "autor": "Inman, Samuel Guy",
+   "anio": "1919",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/throughsantodomi00inma/throughsantodomi00inma_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/throughsantodomi00inma"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relato de viaje de un secretario misionero protestante (1919), de primera mano para lo que vio y con simpatía hacia la ocupación; la fiabilidad estadística es baja, la descriptiva es aceptable.",
+   "proveniencia": "Samuel Guy Inman (1877-1965), secretario del Committee on Cooperation in Latin America, viajó en 1919 con marines por la República Dominicana y Haití; el libro se publicó en Nueva York en 1919 para un público protestante estadounidense. Primer testimonio que describe el mercado fronterizo de Dajabón en la época de la ocupación.",
+   "extractos": [
+    {
+     "ubicacion": "djvu.txt l. 2940-2948 (capítulo sobre Santo Domingo, viaje a Dajabón)",
+     "cita_original": "It is a real international exchange as the Haitians come across the river to buy and sell, expecting the same thing of the Dominicans on their market day in Quanaminth",
+     "traduccion": "En 1919 Dajabón funciona como 'un auténtico intercambio internacional': los haitianos cruzan el río Masacre para comprar y vender y los dominicanos hacen lo mismo en el mercado de Ouanaminthe (escrito 'Quanaminth'). Retrato de la frontera bicultural contemporáneo del inicio, según A-160, de la represión racializada (1919): no la contradice, pero muestra la convivencia comercial.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "djvu.txt l. 1716-1720",
+     "cita_original": "Along the coast and on the plantations there are many negroes from Turks Island, the Bahamas, Jamaica and the other West Indies",
+     "traduccion": "En la costa y en las plantaciones hay muchos negros de las Turks, Bahamas, Jamaica y otras Antillas (coincide con las procedencias de la Memoria de 1916-18); en Montecristi y otras localidades, 'muchos negros dominicanos y haitianos nativos'.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Simpatizante de la ocupación; vocabulario racial de la época ('negroes'). Su descripción de la Convención de 1915 (l. 2884-2912) resume sus cláusulas y confirma la fecha del desembarco ('July 29th', una fecha distinta de la de Lansing, 28-VII; no resuelto: [POR VERIFICAR])."
+  },
+  {
+   "titulo": "Ainsi parla l'Oncle. Essais d'ethnographie (Port-au-Prince, 1928; nueva edición, New York, Parapsychology Foundation, 1954; edición digital de Les Classiques des sciences sociales, UQAC, 2009)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1928",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/price_mars_jean/ainsi_parla_oncle/ainsi_parla_oncle.pdf",
+   "urls_alternativas": [
+    "https://memoiredencrier.com/wp-content/uploads/2023/09/f7c35cd52153b3fa171b4b7b6718974d8574a7.pdf",
+    "https://archive.org/details/ainsiparlaloncle0000pric"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto de la propia obra fundacional del indigenismo haitiano, leído en una edición digital con aparato (nota: se basa en la edición de 1954, no en la princeps de 1928); la crítica de las ediciones no se ha hecho.",
+   "proveniencia": "Jean Price-Mars (1876-1969), médico, etnólogo y diplomático haitiano; el prefacio (avant-propos) está fechado en Pétionville el 15-XII-1927 y el libro se publicó en Port-au-Prince en 1928, en plena ocupación estadounidense, a partir de conferencias; dirigido a la élite letrada haitiana, a la que critica. La edición digital de UQAC reproduce la edición de 1954 (Parapsychology Foundation, Nueva York, 243 pp.). El PDF Mémoire d'encrier (1,8 MB) es un extracto del prefacio y del primer capítulo.",
+   "extractos": [
+    {
+     "ubicacion": "Avant-propos (Pétionville, 15-XII-1927), ed. digital UQAC, p. 10 (PDF)",
+     "cita_original": "c'est bien cette curieuse démarche que la métaphysique de M. de Gaultier appelle un bovarysme collectif, c'est-à-dire la faculté que s'attribue une société de se concevoir autre qu'elle n'est.",
+     "traduccion": "Price-Mars define 'bovarysme collectif' (concepto de Jules de Gaultier) como la facultad de una sociedad de concebirse distinta de lo que es, y lo aplica a la élite haitiana que, tras 1804, se esforzó 'en parecerse' a la antigua metrópoli. Confirma el uso del término en 1927-28.",
+     "afirmaciones": [
+      "A-162"
+     ]
+    },
+    {
+     "ubicacion": "Avant-propos, ed. digital UQAC, p. 10 (PDF)",
+     "cita_original": "tout ce qui est authentiquement indigène - langage, mœurs, sentiments, croyances - devient-il suspect, entaché de mauvais goût aux yeux des élites éprises de la nostalgie de la patrie perdue.",
+     "traduccion": "Lo 'auténticamente indígena' (lengua, costumbres, sentimientos, creencias) se vuelve sospechoso para las élites. 'Indigène' significa aquí lo nativo y popular haitiano (no el taíno): coincide con el glosario ('Indigénisme'). El mismo párrafo: 'Africano' es 'la apóstrofe más humillante que puede dirigirse a un haitiano'.",
+     "afirmaciones": [
+      "A-162"
+     ]
+    },
+    {
+     "ubicacion": "cap. I, sección sobre la lengua, ed. digital UQAC, p. 29 (PDF)",
+     "cita_original": "C'est grâce au créole que nos traditions orales existent, se perpétuent et se transforment, et c'est par son intermédiaire que nous pouvons espérer combler un jour le fossé qui fait de nous et du peuple deux entités apparemment distinctes et souvent antagonistes.",
+     "traduccion": "Price-Mars atribuye al créole un papel social indispensable (transmite las tradiciones orales y puede salvar la brecha entre élite y pueblo); en la misma página lo llama 'idiome, dialecte, patois' y se pregunta (p. 28) si el créole 'debe llegar a ser la lengua haitiana'. Revalora el créole sin proclamarlo todavía lengua nacional.",
+     "afirmaciones": [
+      "A-162"
+     ]
+    },
+    {
+     "ubicacion": "Índice (Chapitre II. 'Les croyances populaires'), ed. digital UQAC, pp. 5-6 (PDF)",
+     "cita_original": "Nos croyances populaires et le vaudou. - Le vaudou est-il une religion ?",
+     "traduccion": "El capítulo II examina el vodou como religión y el cap. VI los sentimientos religiosos de las masas haitianas; el cap. III-V tratan de África, sus razas y su civilización. Confirma la revalorización del folclore africano y del vodou que menciona A-162.",
+     "afirmaciones": [
+      "A-162"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-162"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-0109",
+   "notas": "A-162: confirmado en lo textual (bovarysme collectif, folclore, vodou, créole). Matices: (1) el texto de la edición UQAC es el de 1954, hay que cotejar con la de 1928; (2) la palabra 'indigénisme' como etiqueta de movimiento no aparece en el cuerpo del libro (se lee 'indigène' como adjetivo); el movimiento se llama así por la Revue indigène (1927-28), cuya digitalización no localicé; (3) Price-Mars no propone aquí que el créole sea lengua oficial, sólo lo trata como vehículo de la cultura popular; (4) el libro no habla de la RD ni de los dominicanos (las dos únicas menciones a 'dominicain' se refieren al santuario de Higüey y a la geografía). Fuente primaria de pensamiento, no del hecho: el 'fundación del indigenismo' es interpretación (Britannica, Trinity)."
+  },
+  {
+   "titulo": "La vocation de l'élite (Port-au-Prince, Imprimerie Edmond Chenet, 1919; reedición 1976-77)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1919",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/download/lavocationdell00pric/lavocationdell00pric_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/lavocationdell00pric"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de la obra en archive.org (OCR ruidoso de una reedición de 1976-77); solo se leyó el prefacio; autoría y contexto son seguros.",
+   "proveniencia": "Recopilación de conferencias de Jean Price-Mars (Port-au-Prince, 1919), escrita dos años después de su regreso de una misión a Francia y en pleno periodo de la ocupación estadounidense (1915-1934); la reedición de 1976-77 se hizo a petición de la clase de filosofía del Collège Jean Price Mars. Dirigida a la élite haitiana.",
+   "extractos": [
+    {
+     "ubicacion": "Prefacio, djvu.txt l. 56-60",
+     "cita_original": "c'est le désarroi dans lequel j'ai trouvé l'élite de ce pays depuis l'intervention américaine dans les affaires d'Haïti.",
+     "traduccion": "Price-Mars constata el 'desconcierto' de la élite haitiana desde la 'intervención americana' (así la llama en 1919), preludio del diagnóstico de 'bovarysme collectif' de 1927-28 (A-162). El prefacio añade que el voto de la 'Convention haïtiano-américaine' (1915) y su 'âpre discussion' habían agravado la división de los hombres de pensamiento.",
+     "afirmaciones": [
+      "A-162",
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-162",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Solo se leyó el prefacio; no se leyeron los capítulos. El término del autor es 'intervention américaine', no 'occupation': recoge cómo la nombra la tradición haitiana de la época antes de 'Occupation'. [POR VERIFICAR] la fecha del prefacio (OCR ilegible)."
+  },
+  {
+   "titulo": "Constitution du 19 juin 1918 (Haïti), Digithèque MJP, Univ. de Perpiñán (art. 5 sobre propiedad inmobiliaria de extranjeros; 'Article spécial' que ratifica los actos de la ocupación)",
+   "autor": "Haití (Constitution de 1918); transcripción: Digithèque MJP (Univ. de Perpiñán)",
+   "anio": "1918",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://mjp.univ-perp.fr/constit/ht1918.htm",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto constitucional transcrito por una base jurídica universitaria con fuentes declaradas (Bulletin des lois et actes, 1919); la nota introductoria es obra de la Digithèque (secundaria).",
+   "proveniencia": "Constitución haitiana de 1918, redactada bajo la ocupación estadounidense y aprobada por plebiscito el 12-VI-1918 (98.294 sí contra 769 no, según la nota de la Digithèque, que cita el Bulletin des lois et actes, 1919, p. 45); promulgada el 19-VI-1918. La asamblea nacional se negó a aprobar el proyecto estadounidense y fue disuelta por Dartiguenave, según la misma nota. El texto lo reproduce una base francesa; el interés político es el de justificar la ocupación a posteriori.",
+   "extractos": [
+    {
+     "ubicacion": "Art. 5",
+     "cita_original": "Le droit de propriété immobilière est accordé à l'étranger résidant en Haïti et aux sociétés formées par des étrangers pour les besoins de leurs demeures, de leurs entreprises agricoles, commerciales, industrielles ou d'enseignement.",
+     "traduccion": "Se concede el derecho de propiedad inmobiliaria a los extranjeros residentes y a las sociedades formadas por extranjeros (anula la prohibición haitiana tradicional de la propiedad a los no haitianos). Tierra: A-157. El informe Forbes (1930) no halló 'abuso' de esa cláusula.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "'Article spécial' (disposiciones finales, antes del Título VIII)",
+     "cita_original": "Tous les actes du Gouvernement des États-Unis pendant son occupation militaire en Haïti sont ratifiés et valides. Aucun Haïtien ne peut être passible de poursuites civiles ou criminelles pour aucun acte exécuté en vertu des ordres de l'Occupation ou sous son autorité.",
+     "traduccion": "Todos los actos del Gobierno de EE.UU. durante la ocupación son ratificados y válidos; ningún haitiano puede ser perseguido por actos ejecutados bajo las órdenes de la Ocupación. Dispositivo constitucional que reorganiza el Estado en favor del ocupante.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Nota introductoria de la Digithèque MJP (secundaria), párr. sobre 1918",
+     "cita_original": "L'Occupation durera jusqu'au 21 août 1934.",
+     "traduccion": "La ocupación duró hasta el 21 de agosto de 1934 (fecha de salida de los últimos marines según la nota de la Digithèque; coincide con 'hasta 1934' de A-157). La misma nota afirma que la gendarmería sofocó 'las revueltas suscitadas por la imposición de la corvée'; es comentario del transcriptor, no de la constitución.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "F-1902",
+   "notas": "F-1902 se leyó solo por el título territorial; esta ficha añade art. 5 y el 'Article spécial'. El texto no menciona expresamente a la RD en estos pasajes. La nota de la Digithèque (secundaria) atribuye a F. D. Roosevelt la redacción del proyecto 'según ciertas fuentes' [POR VERIFICAR]; no lo uso como hecho."
+  },
+  {
+   "titulo": "Report of the President's Commission for the Study and Review of Conditions in the Republic of Haiti (Washington, 26-III-1930), FRUS 1930, vol. III, doc. 185",
+   "autor": "Forbes, W. Cameron; Fletcher, Henry P.; Vezina, Elie; Kerney, James; White, William Allen (Comisión presidencial)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1930v03/d185",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1930v03/ch23",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1930v03.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial de una comisión presidencial que visitó Haití quince días (febrero-marzo de 1930); es evaluación estadounidense con intereses políticos (el presidente Hoover buscaba salida de la ocupación) y no recoge las quejas del campesinado.",
+   "proveniencia": "Informe de la comisión presidencial nombrada el 7-II-1930 (Forbes, Fletcher, Vezina, Kerney, White) para estudiar 'cuándo y cómo retirarse de Haití'. Fecha del informe: 26-III-1930. Publicado en FRUS 1930, vol. III (XML TEI en GitHub, leído completo; doc. 185 reabierto en history.state.gov, HTTP 200). Dirigido al presidente Hoover.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1930 v. III, doc. 185, sección sobre el sistema político (informe, párr. sobre el Consejo de Estado)",
+     "cita_original": "The Council of State under the legislative authority vested in it by the 1918 constitution has exercised the powers of a National Assembly in electing the President.",
+     "traduccion": "El Consejo de Estado, nombrado por el presidente, ejerció los poderes de la Asamblea Nacional y eligió al presidente; la comisión observa que desde la disolución de la Asamblea los haitianos no han tenido 'representantes elegidos' (Estado reorganizado, A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1930 v. III, doc. 185, sección 'Race Prejudice'",
+     "cita_original": "Race antipathies lie behind many of the difficulties which the United States military and civil forces have met in Haiti.",
+     "traduccion": "La comisión atribuye a las antipatías raciales muchas de las dificultades de la ocupación y describe una élite 'consciente de su raza' (<5 % de la población) frente a las masas campesinas; los bandidos 'cacos' 'han sido deshechos y han desaparecido bajo el gobierno estadounidense'.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1930 v. III, doc. 185, sección sobre propiedad inmobiliaria (párr. final)",
+     "cita_original": "The commission found no instance of undue advantage having been taken by Americans of the clause enabling foreigners, under certain restrictions, to acquire real estate.",
+     "traduccion": "La comisión no halló 'ventaja indebida' de estadounidenses en la cláusula constitucional de 1918 que permite a extranjeros adquirir inmuebles; recomienda no oponerse si los haitianos quieren enmendarla. Tierra: A-157 (el informe no cuantifica compras).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Interpretación estadounidense; faltan las voces haitianas críticas (Moton report, informes de la 'Union Patriotique'): [POR VERIFICAR] su disponibilidad. La cita 'Dartignave' del texto original (errata de FRUS por Dartiguenave) no se reproduce."
+  },
+  {
+   "titulo": "Expedientes 1828 (23-I-1935: proyecto de ley que dispone la realización de un censo nacional) y 1905 (1-V-1935: modifica los arts. 4, 6, 8, 9, 10, 11 y 19 de la ley n.º 821 sobre Censo Nacional), Senado de la República Dominicana",
+   "autor": "Presidencia de la República (Trujillo); Congreso Nacional de la República Dominicana",
+   "anio": "1935",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/eec75521-f6a7-4986-ad68-aff0063ff671/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/bitstreams/34e576bd-cfd5-4581-8522-754d4b1e3777/download",
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/3ac679be-7e9b-4dc3-a188-7f7a632049da",
+    "https://memoriahistorica.senadord.gob.do/server/api/core/items/78beff71-6b23-4751-ba39-0db4e1e80957"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Expedientes legislativos originales con el mensaje presidencial y el texto aprobado; OCR propio de las páginas de texto (la capa de texto del PDF es ilegible); el texto se leyó íntegro (17 y 8 pp.).",
+   "proveniencia": "Mensaje del presidente Trujillo al Senado (n.º 2494, 23-I-1935) con el proyecto de ley, aprobado por el Senado el 24-I-1935 (presidente Mario Fermín Cabral) y convertido en la ley n.º 821 del 28-I-1935; el expediente 1905 (1-V-1935) modifica varios artículos para que los jefes de familia llenen formularios. Interés: censo nacional bajo Trujillo, base de la cifra de 52.657 haitianos de 1935 (A-158).",
+   "extractos": [
+    {
+     "ubicacion": "Expediente 1828, art. 3 del proyecto (PDF p. 5)",
+     "cita_original": "Los trabajos del censo se ejecutarán en el orden siguiente: censo de habitaciones, censo de población, censo agro-pecuario, censo forestal y minero.",
+     "traduccion": "Orden de los trabajos: habitaciones, población, agropecuario, forestal y minero. Art. 2: dirigido por 'un Director General, cuyo cargo será temporal'.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Expediente 1828, art. 4 (PDF p. 5)",
+     "cita_original": "Todas las personas, sea cual fuere su estado civil, están en el deber de contestar las preguntas del Enumerador, relativas a sus bienes, a su persona, a su familia",
+     "traduccion": "Deber de contestar al enumerador; el art. 6 castiga a quien se niegue o dé informes falsos con prisión de 6 días a 3 meses o multa hasta 100 dólares. La ley no define 'nacionalidad' ni 'haitiano': eso quedaba en las instrucciones del Director General y en las planillas, que no localicé.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Expediente 1905, art. único (PDF p. 3)",
+     "cita_original": "los articulos 4,6,8,9,10,11 y 19 de la ley No 821, de fecha 28 de enero de 1935, quedan modificados así",
+     "traduccion": "Identifica la ley: n.º 821 del 28-I-1935. La modificación (1-V-1935) añade formularios que llenan los jefes de familia, con pena por datos falsos: método mixto (enumerador y formulario).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "RESUELVE solo parcialmente la petición de A-158 ('instrucciones a empadronadores, definición de nacionalidad y cobertura de la zona fronteriza'): sólo se localizó el marco legal. Siguen sin localizar: las instrucciones del Director General, las planillas de 1935 y la tabla de nacionalidades del censo de 1935. El texto está en OCR propio de baja resolución; las citas se cotejaron con el texto de ambas páginas pero no con imágenes: accentuación restituida [POR VERIFICAR contra imagen]."
+  },
+  {
+   "titulo": "Informe de Francisco Henríquez y Carvajal sobre las causas de la inmigración haitiana (Puerto Príncipe, 15-VII-1931, n.º 162), en 'República Dominicana y Haití: el derecho a vivir' (CLACSO, 2014, pp. 263-266)",
+   "autor": "Henríquez y Carvajal, Francisco (ministro plenipotenciario dominicano en Haití)",
+   "anio": "1931 (ed. 2014)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://biblioteca-repositorio.clacso.edu.ar/libreria_cm_archivos/pdf_315.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe oficial contemporáneo del ministro dominicano a su cancillería, con referencia de archivo (AGN, Fondo SE Guerra y Marina, Interior y Policía, leg. 4, exp. 2944); la edición de 2014 lo transcribe y lo presenta con comentario editorial.",
+   "proveniencia": "Francisco Henríquez y Carvajal (padre de Pedro Henríquez Ureña y esposo de Salomé Ureña, según la presentación del volumen), ministro plenipotenciario en Haití, responde el 15-VII-1931 a un expediente de la Secretaría de Relaciones Exteriores de la era Trujillo sobre la inmigración haitiana; escrito en plena crisis mundial del trabajo. Publicado en el libro de CLACSO (2014), con una nota editorial (n. 301) y una presentación del volumen (sección 'El informe de Henríquez y Carvajal') que lo interpretan y lo atribuyen al 'postulado' de la ocupación.",
+   "extractos": [
+    {
+     "ubicacion": "Informe n.º 162 (15-VII-1931), p. 264 del volumen",
+     "cita_original": "Lo que precipitó sobre nuestro país la gran masa de inmigrantes haitianos fue la realización parcial del postulado financiero que sirvió de base económica a la ocupación del territorio de la República Dominicana por las fuerzas navales norteamericanas. Ese postulado, no publicado, pero sí perfectamente conocido, fue: «tierras baratas en Santo Domingo, mano de obra barata en Haití».",
+     "traduccion": "Henríquez y Carvajal (1931) atribuye la llegada masiva de haitianos a la ocupación estadounidense y a un 'postulado' no publicado: tierras baratas en RD y mano de obra barata en Haití. Fuente de A-159: es la lectura de un contemporáneo dominicano oficial (hecho: testimonio de la lectura; interpretación: causalidad; el 'postulado' no está documentado: 'no publicado').",
+     "afirmaciones": [
+      "A-159",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Informe n.º 162, pp. 263-264 del volumen",
+     "cita_original": "las leyes y los reglamentos sucesivos que sobre ella ha dictado el gobierno, no han sido bien aplicados sino en cuanto a la inmigración insular que de las Pequeñas Antillas venía, por importación o espontáneamente, a tomar parte en los trabajos agrícolas del cultivo de la caña y elaboración del azúcar.",
+     "traduccion": "Según el Director General de Inmigración, las leyes de inmigración solo se aplicaron bien a la inmigración insular de las Pequeñas Antillas (cocolos) hacia la caña; la inmigración haitiana, que 'se desborda por las fronteras', no fue sometida a esas leyes: apoya que el flujo haitiano fue en gran parte informal.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "Informe n.º 162, p. 265 del volumen",
+     "cita_original": "el pensamiento primordial de nuestras leyes de inmigración parece ser el de evitar un aumento excesivo de la raza negra… elementos de la misma raza venidos del exterior",
+     "traduccion": "El ministro resume el 'pensamiento primordial' de las leyes de inmigración dominicanas como evitar un aumento excesivo de la raza negra (los puntos suspensivos son del volumen); lectura contemporánea del art. 3 de la ley de 1912 y de la O. E. 372.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159",
+    "A-163"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1249",
+   "notas": "Segunda lectura de F-1249 centrada en M12. El texto es de 1931: es interpretación retrospectiva de un funcionario dominicano de la era Trujillo, no evidencia contemporánea del reclutamiento de 1916-1924. La edición lleva comentario editorial (nota 301 del volumen). 'Cocolos' (ver terminos_nuevos). [POR VERIFICAR] el texto cortado entre 'la fundación del gran central Barahona' y la frase siguiente (corte del PDF)."
+  },
+  {
+   "titulo": "Santo Domingo: A Country with a Future (New York, Macmillan, 1918), pasajes sobre inmigración, trabajo azucarero y frontera haitiana (texto local schoenrich-santo-domingo-1918.txt)",
+   "autor": "Schoenrich, Otto",
+   "anio": "1918",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/GITenberg/Santo-Domingo--A-Country-with-a-Future_9813/master/9813.txt",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200 (descarga previa registrada en F-0054; lectura de la copia local)",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Libro de un abogado estadounidense (Otto Schoenrich) escrito durante la ocupación dominicana y favorable a EE.UU.; las observaciones directas son valiosas, las valoraciones son de parte (sus datos biográficos y su cargo no se verificaron: [POR VERIFICAR]).",
+   "proveniencia": "Otto Schoenrich publica en 1918 una descripción del país (Nueva York, Macmillan) escrita durante la ocupación [datos de su cargo en Santo Domingo: POR VERIFICAR]. Texto local descargado (02-fuentes/textos/gutenberg/schoenrich-santo-domingo-1918.txt); las líneas se citan por ese archivo.",
+   "extractos": [
+    {
+     "ubicacion": "l. 4881-4884 del txt local (San Pedro de Macorís)",
+     "cita_original": "as native labor is not abundant, large numbers of negroes come from the British West Indies to work on the plantations, returning to their homes when the cane has been cut.",
+     "traduccion": "En 1917-18 los obreros estacionales de los ingenios (San Pedro de Macorís) llegaban de las Antillas británicas y volvían a casa al terminar la zafra: contradice la tesis de que ya fuera sobre todo haitiana la mano de obra azucarera (A-158).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "l. 3731-3733 del txt local (frontera)",
+     "cita_original": "the tendency of the rapidly increasing Haitian population to establish homes in the uninhabited frontier region of Santo Domingo.",
+     "traduccion": "Observación de 1917-18: la población haitiana, en rápido aumento, tiende a establecerse en la región fronteriza 'despoblada' de la RD (frontera provisionalmente fijada por el gobierno de EE.UU. en 1912, l. 3741). Dato de contexto para A-160 y para el flujo informal.",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "l. 5354-5362 del txt local (ya verificado en A-163)",
+     "cita_original": "I have often heard Dominican statesmen express an eager desire for immigration, but only white immigration. This sentiment is reflected in immigration laws and in several concessions",
+     "traduccion": "Se verifica de nuevo el pasaje de A-163; la ley de 1912 (ficha propia) exige permiso previo, no prohíbe. Schoenrich añade que las concesiones prohibían importar obreros 'de ascendencia africana o asiática'.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159",
+    "A-160",
+    "A-163"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "F-0054",
+   "notas": "Segunda lectura de F-0054 con foco en M12. La nota de A-163 dice 'las leyes de inmigración... prohibían': el texto de Schoenrich dice que 'esto se refleja en las leyes de inmigración' y que 'las concesiones prohibían'. El texto de la ley de 1912 no prohíbe: exige permiso previo (Gaceta Oficial n.º 2295). Schoenrich no cita la ley."
+  },
+  {
+   "titulo": "Orígenes de la inmigración regulada (Diario Libre, sección Lecturas, 9 de noviembre de 2013)",
+   "autor": "[autor no identificado en la extracción]",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/opinion/lecturas/orgenes-de-la-inmigracin-regulada-ANDL410202",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de divulgación sin autor visible en la extracción, pero que cita textualmente el art. 3 de la ley de 1912 (cotejado con la Gaceta Oficial) y una carta oficial de 1916; las cifras y juicios son del articulista.",
+   "proveniencia": "Columna de la sección Lecturas de Diario Libre (Santo Domingo, 9-XI-2013), serie con 'Algo de background' (F-0377), que resume la historia de la regulación migratoria desde 1879; no da la fuente de la carta de 1916 (probablemente AGN [POR VERIFICAR]).",
+   "extractos": [
+    {
+     "ubicacion": "párrafo sobre la ley de mayo de 1912",
+     "cita_original": "Necesitan previo permiso para inmigrar al país los naturales de colonias europeas en América, los de Asia, los de África y los de Oceanía, así como los braceros de otra raza que no sea la caucasiana",
+     "traduccion": "Cita correcta del art. 3 de la Ley de Inmigración de 1912 (coincide con la Gaceta Oficial n.º 2295). La columna afirma que la ley buscaba restringir el flujo de jornaleros azucareros 'autorizándola sólo' donde fuera demostrable su 'utilidad general' (interpretación del articulista).",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "párrafo sobre el 4-VII-1916",
+     "cita_original": "una comunicación del Secretario de Agricultura e Inmigración al Sr. Juan B. Vicini, fechada el 4 de julio de 1916, en respuesta a la solicitud del permiso del Ejecutivo para introducir 1,000 braceros con destino al ingenio Angelina",
+     "traduccion": "Carta del Secretario dominicano a Juan B. Vicini (4-VII-1916): el funcionario deniega o aplaza el permiso para 1.000 braceros del ingenio Angelina y dice que los dominicanos aceptarían trabajar con buenos salarios; la columna añade que 'la respuesta... fue contundente: los marines'. El cuadro de la Memoria de 1916-18 muestra 1.000 braceros para Angelina.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159",
+    "A-163"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Terciaria/divulgación: sólo vale como índice hacia fuentes primarias (Gaceta de 1912; archivo de la Vicini). El artículo cita 'cocolos' (islas pequeñas) como los braceros de entonces, no a haitianos. La carta de 1916 se cita de segunda mano: [POR VERIFICAR] contra el original."
+  },
+  {
+   "titulo": "FRUS 1922, vol. II, docs. 11, 21 y 22 (proclama del 6-III-1922; Memorándum del Plan del 30-VI-1922 para la retirada del Gobierno Militar, firmado en Washington el 3-VII-1922; carta de White a Welles, 6-VII-1922)",
+   "autor": "Departamento de Estado de EE. UU. (Hughes; White; Welles); Gobierno Militar de Santo Domingo; representantes dominicanos (Velásquez, Vásquez, Brache, Peynado)",
+   "anio": "1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1922v02/d21",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1922v02/d22",
+    "https://history.state.gov/historicaldocuments/frus1922v02/d11",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1922v02.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documentos oficiales contemporáneos publicados por el Departamento de Estado; los docs. 21 y 22 se reabrieron en history.state.gov (HTTP 200) y los tres se leyeron en el XML TEI (el doc. 11 solo por el XML).",
+   "proveniencia": "FRUS 1922, vol. II: la proclama de marzo de 1922 que preveía continuar la ocupación 'hasta aproximadamente el 1 de julio de 1924'; el Plan del 30-VI-1922 (Hughes-Peynado) para la retirada del Gobierno Militar, firmado en Washington el 3-VII-1922; la carta de Francis White (6-VII-1922) a Sumner Welles, comisionado en Santo Domingo. Interés: documentar la salida pactada de la RD.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1922 v. II, doc. 21 (Memorandum of the Plan of June 30, 1922)",
+     "cita_original": "Announcement by the Military Government that a Provisional Government will be set up for the purpose of promulgating legislation to regulate the holding of elections",
+     "traduccion": "Plan Hughes-Peynado: gobierno provisional que reglamenta elecciones y reorganiza gobiernos provinciales y municipales; las fuerzas estadounidenses se concentran en uno a tres lugares y la Policía Nacional Dominicana mantiene el orden. Marca el comienzo del fin de la ocupación dominicana (cierra en 1924).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1922 v. II, doc. 22 (White a Welles, 6-VII-1922)",
+     "cita_original": "Peynado and Velasquez were rather insistent that Article I of the Convention should state that “the Dominican Government hereby validates all the executive and departmental orders”",
+     "traduccion": "Los negociadores dominicanos querían que el art. I dijera que el gobierno dominicano 'valida' las órdenes ejecutivas y departamentales; White se negó y se firmó 'recognizes the validity'. Reorganización jurídica del Estado: las órdenes del Gobierno Militar quedan reconocidas (A-157).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Los documentos 21 y 22 dan fechas de 1922; la salida efectiva de las tropas (1924) no está en estos documentos. Sin comparar con las fuentes dominicanas (Peynado, Lugo 'El plan de validación Hughes-Peynado', 1922, archive.org elplandevalidaci00lugo, no leído en profundidad)."
+  },
+  {
+   "titulo": "FRUS 1918 (informe trimestral del Gobernador Militar, 18-X-1918, doc. 394) y FRUS 1919, vol. II (cónsul Edwards, Santo Domingo, 1-V-1919, doc. 53) sobre 'banditry' en el este dominicano",
+   "autor": "Departamento de Estado de EE. UU.; Gobierno Militar de Santo Domingo; Edwards (cónsul encargado de la Legación)",
+   "anio": "1918-1919",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1918/d394",
+   "urls_alternativas": [
+    "https://history.state.gov/historicaldocuments/frus1919v02/d53",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1918.xml",
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1919v02.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informes del ocupante sobre su propia lucha contra los 'bandidos'; las cifras y la calificación política ('sin objetivos políticos') son del ocupante y sin contraste dominicano.",
+   "proveniencia": "FRUS reproduce el informe trimestral del Gobernador Militar (18-X-1918) y un telegrama del cónsul Edwards (1-V-1919) transmitiendo datos de los militares sobre los 'bandidos' en San Pedro de Macorís y Hato Mayor/El Seibo (los 'gavilleros' en español). Los docs. 394 (FRUS 1918) y 53 (FRUS 1919 v. II) se reabrieron en history.state.gov (HTTP 200) y se leyeron también en el XML.",
+   "extractos": [
+    {
+     "ubicacion": "FRUS 1918, doc. 394, informe del 18-X-1918",
+     "cita_original": "The banditry is confined entirely to the two provinces of Seibo and Macoris.",
+     "traduccion": "El ocupante circunscribe el 'bandidaje' (gavilleros) a las provincias del Seibo y de San Pedro de Macorís (las del este azucarero); el informe atribuye apoyo alemán a los brotes (versión del ocupante).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "FRUS 1919 v. II, doc. 53, Edwards, 1-V-1919",
+     "cita_original": "It is estimated that there are no more than 300 bandits in the region who are without organization and short of ammunition; they have no political aims and are considered as outlaws and fugitives from justice.",
+     "traduccion": "Estimación militar: no más de 300 'bandidos' sin organización ni municiones, sin 'objetivos políticos'. Cifra del ocupante; la lectura dominicana nacionalista de los gavilleros como resistencia a la ocupación no está aquí.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El término 'gavillero' no aparece en estos documentos (dicen 'bandits'): ver terminos_nuevos. Los gavilleros no son un tema de la represión fronteriza (A-160) sino del este azucarero. El doc. 394 de FRUS 1918 es el informe del Gobernador Militar (Knapp) al Secretario de Marina (Daniels), confirmado en history.state.gov."
+  },
+  {
+   "titulo": "Primer Censo Nacional de República Dominicana 1920 (reedición digital de la ONE, 2020) y 'Los censos dominicanos: 100 años contando nuestra gente'",
+   "autor": "Oficina Nacional de Estadística (ONE) de la República Dominicana; Dirección del Primer Censo Nacional (1920)",
+   "anio": "1920 (publ. 1923; reed. UASD 1975; reed. ONE 2020)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://www.one.gob.do/publicaciones/2020/primer-censo-nacional-de-republica-dominicana-1920/",
+   "urls_alternativas": [
+    "https://www.one.gob.do/media/h1id11mf/los-censos-dominicanos-100-a%C3%B1os-contando-nuestra-gente-1920-2020.pdf",
+    "https://one.gob.do/media/2qsjelvl/estudiosobrelaevoluciondelasvariablesdelasboletascensalesderepdom1920-2002.pdf"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Reedición oficial del censo de 1920 por el organismo de estadística (URL localizada en una búsqueda web, no abierta); la fiabilidad se asigna por la naturaleza de la fuente, no por lectura.",
+   "proveniencia": "El censo de 1920 lo ordenó el Gobierno Militar (O. E. 505, reglamentada por la 552 del 18-X-1920, leída en la Colección de órdenes ejecutivas de 1920); los resultados se publicaron en 1923; la UASD hizo una segunda edición en 1975 y la ONE una reedición digital en 2020. El portal de la ONE responde 403 (desafío de Cloudflare) a curl y a WebFetch.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Sin extractos: no se abrió el documento. Según los resúmenes de la búsqueda web (secundarios, no verificados por mí), el censo registró 28.258 haitianos (57 % de los extranjeros; 3,1 % de la población de 894.665 habitantes) [POR VERIFICAR]: esta es la cifra que A-158 atribuye a 1920. Hay que abrirlo con navegador (la Fase 3 puede usar el navegador integrado) y comparar con el resumen oficial del Primer Censo. Alternativa: HathiTrust record 008976127 (ficha siguiente, también 403)."
+  },
+  {
+   "titulo": "Censo de la República dominicana (registro de catálogo HathiTrust 008976127)",
+   "autor": "República Dominicana (Gobierno Militar / Dirección General del Censo)",
+   "anio": "1923",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://catalog.hathitrust.org/Record/008976127",
+   "urls_alternativas": [],
+   "verificacion": "fallo-fetch",
+   "http_status": "403",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Registro de catálogo de una biblioteca digital (URL localizada en una búsqueda web, no abierta); la fiabilidad se asigna por la naturaleza de la fuente.",
+   "proveniencia": "Registro HathiTrust 'Censo de la República dominicana' que apareció en una búsqueda web sobre el primer censo; no pude comprobar volumen, año ni derechos de acceso (HTTP 403 desde WebFetch). Un impreso de 1923 es de dominio público en EE.UU. [POR VERIFICAR].",
+   "extractos": [],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Sin contenido leído. Para la Fase 3: probar babel.hathitrust.org desde navegador."
+  }
+ ]
+}

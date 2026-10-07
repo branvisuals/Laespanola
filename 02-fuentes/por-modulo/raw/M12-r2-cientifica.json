@@ -1,0 +1,1088 @@
+{
+ "lente": "cientifica",
+ "modulo": "M12",
+ "ronda": 2,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 15,
+ "busquedas_pendientes": [
+  "Abrir con un navegador humano el ejemplar de HathiTrust del Censo de la República dominicana (1923), njp.32101068975901, y buscar «haitianos», «nacionalidad» y «extranjeros» (bloqueado para el agente)",
+  "Pedir copia (formulario «pedir copia») de las Instrucciones a los enumeradores de 1920, BNPHU/1938 (31 pp.), desde una cuenta del usuario",
+  "Abrir con navegador humano la reedición ONE 2020 del Primer Censo Nacional (one.gob.do/publicaciones/2020/primer-censo-nacional-de-republica-dominicana-1920/), tras la verificación de Cloudflare",
+  "Castillo, José del (1978), La inmigración de braceros azucareros en la RD, 1900-1930: cuadro del censo de 1920 por provincia y nacionalidad (base de los cálculos de Coulange-Méroné y del 71 %)",
+  "Castor, Suzy (1983), Migración y relaciones internacionales, p. 57: fuente declarada de 52.657 (1935)",
+  "Prensa dominicana del 17 y 18-XII-1937 (Listín Diario, La Opinión, La Nación): aviso de Tolentino y Fermín Cabral con los haitianos del Cibao «al 13-V-1935»; y Vega, Trujillo y Haití, vol. II",
+  "Murphy, Martin F. (1991), Dominican Sugar Plantations, p. 76: cuadro «estimaciones oficiales» que cita Corten y Duarte",
+  "Cadeau (2022, More than a Massacre) y Turits (2002, HAHR 82:3): pasajes y notas sobre el censo de 1920 vs 1935 en Monte Cristi y Dajabón (el excerpt de Cambridge dio tiempo de espera; WebFetch falló)",
+  "Google Books (snippets de «28,258», «52,657», «49,520») y archive.org FTS sobre el Bulletin of the Pan American Union 1921-1923: cuota de Google Books agotada; el FTS de archive.org solo devolvió libros secundarios modernos",
+  "site:one.gob.do «Segundo Censo» 1935 nacionalidad; Resumen general del Cuarto Censo de 1960 (BNPHU/3279, 401) para comprobar 29.500",
+  "Memoria 1920-1921 de la Secretaría de lo Interior y Policía (informe de la Dirección del Censo) y boletas censales de 1920 y 1935 (AGN; ONE, Departamento de Investigaciones)"
+ ],
+ "lagunas": [
+  "Primer Censo Nacional (1923; ed. UASD 1975; reed. ONE 2020): no se leyó la tabla de nacionalidad, ni las provincias, ni la definición de «haitiano». HathiTrust (vista completa, njp.32101068975901) y la ONE están bloqueados al agente; BNPHU/1938 solo se entrega con «pedir copia». Las cifras de 28.258 haitianos y 49.520 extranjeros (1920) llegan por Wikipedia (terciaria; suma cuadrada), Castillo 1978 vía Coulange-Méroné, Diario Libre y Corten-Duarte: ninguna es primaria.",
+  "Censo de 1935: no hay volumen oficial con tabla de nacionalidades (publicado en 1946 solo con población por provincia, común y distrito; «publicado parcialmente» según el resumen de 1950). El resumen de 1950 confirma 73.070 extranjeros y el folleto de 1936 que 60.517 son «negros», pero 52.657 haitianos sigue sin tabla primaria leída (Castor 1983 p. 57; Corten-Duarte: «Dirección general de estadísticas»).",
+  "Aviso oficial del 17-XII-1937 (8.442 haitianos en 7 provincias del Cibao «al 13-V-1935»): el original no se localizó (la Gaceta Oficial oct.-dic. 1937 y las Memorias MIREX 1937 y 1938 no lo contienen); solo Herrera 2022 vía Vega.",
+  "Definición de «haitiano» y trato de los hijos de haitianos nacidos en RD en 1920 y 1935: ninguna instrucción leída. Solo se sabe que la boleta de 1920 no ofrecía país de nacimiento, que no hay evidencia de esa pregunta en 1935 (ONE 2011) y que en 1950 la nacionalidad fue autodeclarada.",
+  "El total de la Gaceta Oficial n.º 3267 (897.405, 26-X-1921) difiere del definitivo (894.665) en 2.740 sin explicación.",
+  "La tabla 4.2 de Tillman (¿distribución de los extranjeros por provincia?) genera contradicciones no resueltas sin ver la tabla del censo: 61 % de haitianos en Monte Cristi, Barahona y Azua (cálculo propio) frente al 71 % de Coulange-Méroné; ≈ 9.740 haitianos en Monte Cristi en 1920 frente a 3.816 en 1935; ≈ 1.770 extranjeros en la provincia de Santo Domingo en 1920 frente a 2.909 en la ciudad en 1919.",
+  "Cifra de 1960 (29.500) solo por Wikipedia y Diario Libre; el resumen de 1960 (BNPHU/3279) devuelve 401.",
+  "Sigue sin leerse ninguna serie primaria de reclutamiento de braceros por ingenio y país de origen (fuera del alcance de esta ronda)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "haitianos (categoría censal de nacionalidad en los censos de 1920, 1935 y 1950)",
+   "tradicion": "oficial-rd",
+   "nota": "El censo cuenta NACIONALIDAD (declarada o apreciada por el enumerador; en 1950, autodeclarada), no ascendencia ni lugar de nacimiento: en 1950 hay 18.772 «haitianos» por nacionalidad y 19.193 «nacidos en Haití». No equivale a «haitianos étnicos» (Cadeau) ni a «dominicanos de ascendencia haitiana», y la bibliografía mezcla las dos cifras. Añadir al glosario con esta advertencia."
+  },
+  {
+   "termino": "gobierno interventor",
+   "tradicion": "oficial-rd",
+   "nota": "Expresión de Trujillo (Mensaje del 27-II-1936) para el Gobierno Militar estadounidense de 1916-1924; entra en la fila «ocupación / intervención / Gobierno Militar» ya propuesta por M12."
+  },
+  {
+   "termino": "extranjeros (por nacionalidad) vs. nacidos en el extranjero (censos de 1950)",
+   "tradicion": "oficial-rd",
+   "nota": "Dos categorías distintas del mismo censo (cuadro 14: 32.623 extranjeros; cuadros 11 y 13: 34.654 nacidos en el extranjero). Wikipedia y los autores que citan «extranjeros: 34.654» mezclan ambas."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Tercer censo nacional de población 1950: resumen general (introducción histórica y cuadros comparativos con 1935 y 1920); relectura sobre imagen de los cuadros 1, 2, 13, 14 y 15 y de la p. XIV",
+   "autor": "República Dominicana, Dirección General de Estadística (Sección de Publicaciones)",
+   "anio": "1953",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3281",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/0430a5ca-97e3-41e8-9a46-08a5357f4f3b/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tabulación oficial de la oficina censal; las cifras se leyeron sobre la imagen de la página (no sobre el OCR, ilegible en los cuadros apaisados) y las sumas cuadran.",
+   "proveniencia": "Dirección General de Estadística, Ciudad Trujillo, 1953 (la ONE 2020 la cita como 1954): resumen de resultados definitivos del Tercer Censo Nacional (6-VIII-1950), con introducción histórica de tono encomiástico al régimen de Trujillo. Es el único documento oficial leído que pone en un mismo cuadro los extranjeros de 1935 y los de 1950 y que declara cómo se preguntó la nacionalidad en 1950. Cita el prólogo del volumen de 1920 y dice que el de 1935 lo ejecutó el Partido Dominicano y se publicó solo en parte.",
+   "extractos": [
+    {
+     "ubicacion": "cuadros 1 y 2, p. 1 (PDF p. 29; leído sobre imagen)",
+     "cita_original": "Cuadro 1. Población total: 1950, 2,135,872; 1935, 1,479,417; 1920, 894,665. Cuadro 2. Zona urbana / rural: 1920, 148,894 (16.6 %) / 745,771 (83.4 %); 1935, 266,565 (18.0 %) / 1,212,852 (82.0 %)",
+     "traduccion": "Totales de los tres primeros censos. La nota (*) del cuadro 2 dice que el urbano de 1935 incluye los distritos municipales (por eso difiere de los 263,625 del cuadro 14).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 14, p. 23 (PDF p. 55; leído sobre imagen), fila «2.- Extranjeros» y filas de dominicanos",
+     "cita_original": "LA REPUBLICA 2,135,872 (1950) | 1,479,417 (1935). 1.- Dominicanos 2,103,249 | 1,406,347 [b) Naturalizados 1,767 | 750]. 2.- Extranjeros 32,623 | 73,070 [zona urbana 9,953 | 13,721; zona rural 22,670 | 59,349]",
+     "traduccion": "Extranjeros por nacionalidad: 73.070 en 1935 (4,9 % de la población; cálculo propio) y 32.623 en 1950. La cifra de 1935 coincide con la de la proclama de 1936 (F-1358: 1.406.347 dominicanos y 73.070 extranjeros). El cuadro no separa haitianos de otros extranjeros.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 14, p. 23 (imagen), varones y hembras",
+     "cita_original": "VARONES 2.- Extranjeros 22,506 | 46,029. HEMBRAS 2.- Extranjeras 10,117 | 27,041",
+     "traduccion": "En 1935, el 63 % de los extranjeros eran varones (cálculo propio: 46.029 / 73.070); 46.029 + 27.041 = 73.070.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 15, p. 24 (PDF p. 56; imagen), fila «Haitiana»",
+     "cita_original": "Haitiana ... 18,772 | 13,275 | 5,497 [zona urbana 1,080 | 654 | 426; zona rural 17,692 | 12,621 | 5,071]",
+     "traduccion": "Nacionalidad haitiana en 1950: 18.772 (13.275 varones, 5.497 mujeres), el 94 % en zona rural. Cifra por NACIONALIDAD; resuelve la discrepancia de M12 sobre 1950 (18.772 y no 29.500).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cuadro 13, p. 22 (PDF p. 54; imagen), fila «Haití» y total de nacidos en el extranjero",
+     "cita_original": "LA REPUBLICA 34,654 | 23,623 | 11,032. Haití ... 19,193 | 13,543 | 5,650 [zona urbana 1,195 | 715 | 480; zona rural 17,998 | 12,828 | 5,170]",
+     "traduccion": "Nacidos en Haití: 19.193 (no es la nacionalidad haitiana, 18.772); los nacidos en el extranjero suman 34.654, frente a 32.623 extranjeros por nacionalidad (cuadro 14).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. XIV (PDF p. 24; leído sobre imagen), definición de la pregunta de 1950",
+     "cita_original": "Nacionalidad.- Esta pregunta cubrió dos aspectos: en primer lugar se anotó «dominicano», «naturalizado dominicano» o «extranjero», de acuerdo con la declaración de la persona interrogada.",
+     "traduccion": "En 1950 la nacionalidad fue AUTODECLARADA. Es la única definición censal de nacionalidad leída; no puede proyectarse a 1920 ni a 1935.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. VII (PDF p. 17; imagen), cita del prólogo del volumen de 1920 (primera parte)",
+     "cita_original": "realizada la tarea del Censo con recursos insuficientes, sin el completo dominio de la instrucción necesaria acerca de la materia, en el interior, por parte de los Enumeradores, Inspectores y Sub-Inspectores, sin asistencia de un Asesor Técnico en la Oficina Central",
+     "traduccion": "El propio prólogo oficial de 1920 admite falta de preparación de enumeradores e inspectores y de asesor técnico (cita de segunda mano, dentro del resumen de 1950).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. VII (imagen), cita del prólogo de 1920 (segunda parte)",
+     "cita_original": "estorbada la recolección de datos por la epidemia de viruelas que [...] azotó todas las provincias y convulcionada la parte Este de la República, hay que suponer que no reviste toda la corrección deseable",
+     "traduccion": "El prólogo de 1920 atribuye inexactitudes a una epidemia de viruela que afectó a todas las provincias y, sobre todo, al Este (la zona azucarera); «convulcionada» es errata del impreso.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. VII-VIII (imagen)",
+     "cita_original": "El Segundo Censo Nacional de Población fue levantado el 13 de mayo de 1935. Se encargó de su ejecución el Partido Dominicano, siendo publicado parcialmente, en sus más destacadas características por la Dirección General de Estadística.",
+     "traduccion": "El censo de 1935 lo ejecutó el partido del régimen y se publicó solo en parte: explica que no haya tabla oficial de «haitianos» de 1935 en los volúmenes impresos.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1350",
+   "notas": "Cuadros 1, 2, 13, 14, 15 y p. VII y XIV leídos sobre imagen (PyMuPDF, 100-170 dpi); el texto del cuadro 15 en la capa OCR es ilegible. Comprobaciones aritméticas propias: 32.623 = 22.506 + 10.117; 73.070 = 46.029 + 27.041; 1.406.347 + 73.070 = 1.479.417; 18.772 = 1.080 + 17.692; 19.193 = 1.195 + 17.998. RESUELVE lo que M12/F-0067 dejó abierto para 1950: el cuadro 15 da 18.772 por nacionalidad (coincide con Wikipedia y con Corten y Duarte); 19.193 es el cuadro 13 (nacidos en Haití) y es el dato que repite Diario Libre (F-0377); 29.500 NO es de 1950 sino de 1960 según Diario Libre y Wikipedia (secundaria/terciaria), y Nova et Vetera lo atribuyó mal a 1950. LÍMITE: el resumen no da haitianos de 1935 (el cuadro 14 solo separa dominicanos, naturalizados y extranjeros), así que 52.657 sigue sin tabla primaria leída. Sesgo: introducción encomiástica del régimen; el prólogo de 1920 es cita de segunda mano. [POR VERIFICAR] la cita del prólogo contra el volumen de 1920."
+  },
+  {
+   "titulo": "Algo de Background (Diario Libre, sección Lecturas, 2-XI-2013)",
+   "autor": "[firma: «Diario Libre»; autoría probable José del Castillo Pichardo, POR VERIFICAR]",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/opinion/lecturas/algo-de-background-KMDL409366",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de contexto histórico con datos censales sin fuente ni página, pero coherente con tres líneas independientes (Corten y Duarte, Wikipedia, Coulange-Méroné).",
+   "proveniencia": "Columna del suplemento Lecturas de Diario Libre (Santo Domingo, 2-XI-2013; unos 10 min de lectura), primera entrega de una serie cuya segunda parte es «Orígenes de la inmigración regulada» (M12-N21), donde el autor habla de «el autor de esta columna» como quien levantó el registro de braceros de su libro de 1978. Escribe desde la historia económica y social crítica de la UASD. Fuente de las cifras de 1920 y 1935: no declarada.",
+   "extractos": [
+    {
+     "ubicacion": "párr. «Volviendo a la presencia haitiana en la zafra dominicana» (l. 185 del txt)",
+     "cita_original": "se evidenció en el Censo de Población de 1920, que arrojó 894 mil habitantes y registró 28,258 nacionales haitianos, representando éstos el 57% de la población extranjera en el país",
+     "traduccion": "Da 28.258 haitianos en 1920 como el 57 % de los extranjeros (denominador implícito ≈ 49.5xx, compatible con los 49.520 de la tabla de Wikipedia y no con los 47.780 que otros autores usan para el 59 %).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente (l. 187 del txt)",
+     "cita_original": "Quince años después, el Censo de 1935 mostró la duplicación de los haitianos en ese lapso: 52,657 sobre 1 millón 479 mil habitantes. Aunque se mantuvo en ambas fechas en torno al 3% de la población total, 3.1% y 3.5%, respectivamente.",
+     "traduccion": "Da 52.657 en 1935 sobre 1.479.417; los porcentajes (3,1 % y 3,5 %) están truncados: 28.258/894.665 = 3,16 % y 52.657/1.479.417 = 3,56 % (cálculo propio).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. final (l. 197 del txt)",
+     "cita_original": "Los censos de población de 1950 y 1960 registraron 19,193 y 29,500 haitianos, respectivamente, casi la mitad de 1935.",
+     "traduccion": "Atribuye 19.193 a 1950 y 29.500 a 1960. El 19.193 es en el resumen oficial el cuadro de NACIDOS en Haití (cuadro 13), no el de nacionalidad (18.772, cuadro 15).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. de l. 187 del txt (continuación)",
+     "cita_original": "Sin embargo, esta cifra es un referente demográfico del denominado «Corte» de 1937.",
+     "traduccion": "Interpretación del autor: la cifra de 1935 como base demográfica de la matanza de 1937 (término «Corte»: tradición dominicana).",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "párr. de l. 185 del txt",
+     "cita_original": "pronto se reveló la existencia de un fuerte componente ilegal de esta inmigración, facilitado por la contigüidad territorial de ambos países",
+     "traduccion": "El autor afirma que el censo de 1920 «evidenció» una corriente clandestina; la cifra censal por sí sola no distingue entre inmigración regulada e ilegal (no hay base en el texto).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159",
+    "A-160"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0377",
+   "notas": "Resuelve la petición del crítico de 'trazar de dónde salen las cifras': esta columna NO cita fuente de los censos, pero coincide con Corten y Duarte (F-1100: «Gobierno provisorio de RD» para 1920 y «Dirección general de estadísticas» para 1935), con Wikipedia (1920: 28.258 y 49.520 extranjeros) y con Coulange-Méroné (F-1946, vía Castillo 1978 y Castor 1983 p. 57). Las tres líneas coinciden en 28.258 y 52.657; ninguna es primaria. Sesgo: tono de historia económica crítica; vincula 1935 con 1937. [POR VERIFICAR] autoría (la página muestra solo «Diario Libre»; M12-N21 de la misma serie sí se atribuye a Del Castillo por el propio texto)."
+  },
+  {
+   "titulo": "Los censos marcan la ruta de la revolución dominicana en cien años (El Día, 8-VIII-2023)",
+   "autor": "Febles, Miguel",
+   "anio": "2023",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://eldia.com.do/los-censos-marcan-la-ruta-de-revolucion-dominicana/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna periodística que solo repite el total de 1920; no trata nacionalidad ni 1935.",
+   "proveniencia": "Miguel Febles, columnista de El Día (Santo Domingo), escribe a pocos días de la presentación de resultados del X Censo (agosto de 2023) para público general; compara 1920 y 2022.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 4 de la columna (l. 100 del txt)",
+     "cita_original": "el censo de 1920 registró una población de 894 mil 665 habitantes",
+     "traduccion": "Repite el total de 1920 (coincide con el resumen oficial de 1950 y la ONE 2020). Nada sobre haitianos, extranjeros o 1935.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. «Y como pueden aparecer algunos...» (l. 95 del txt)",
+     "cita_original": "personas como [...], que si no fue contada como niña en 1920 se debió a una falta de los empadronadores, porque estaba nacida",
+     "traduccion": "Anécdota de una centenaria (nombre omitido aquí) que no fue censada en 1920 por omisión de los empadronadores: ilustra el subregistro de 1920 que admite el prólogo oficial, pero un caso no mide su magnitud.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-1584",
+   "notas": "Leída por petición del crítico: no aporta cifras de nacionalidad ni definición; solo confirma el total de 894.665. Valor nulo para la definición de «haitiano»."
+  },
+  {
+   "titulo": "Mensaje depositado en el Congreso Nacional el 27 de febrero de 1936 (rendición de cuentas de 1935): pasaje sobre el Censo Nacional",
+   "autor": "Presidencia de la República Dominicana (Trujillo Molina, Rafael L.)",
+   "anio": "1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/6839efca-bea9-46c2-9365-2437a5d05dc1/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/72171",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/b9810f78-4fef-4870-b7ea-db33ab03759f/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial auténtico y fechado, pero es un balance favorable del propio régimen que ejecutó el censo de 1935, sin cifras ni método.",
+   "proveniencia": "Mensaje anual del Poder Ejecutivo al Congreso (27-II-1936) sobre el año 1935, redactado por la Presidencia para legisladores y público. Aquí habla del censo del 13-V-1935, hecho por el Partido Dominicano, y desacredita el de 1920, hecho por el Gobierno Militar estadounidense. Ambas copias (Senado, 56 pp., y BNPHU/3387, 12,6 MB) llevan la misma capa de texto OCR.",
+   "extractos": [
+    {
+     "ubicacion": "p. 9 impreso (PDF p. 6); l. 121-125 del txt de la copia del Senado",
+     "cita_original": "Sólo el gobierno interventor acometió la empresa de hacer un Censo Nacional, y aunque disfrutaba de riqueza, orden y poder, no pudo presentar uno que expresara la verdad y pusiera de relieve las necesidades del país.",
+     "traduccion": "Juicio de Trujillo sobre el censo de 1920: no «expresó la verdad». Sin cifras; coincide con el prólogo de 1920 citado en 1950 (inexactitudes), pero viene de quien ejecutó el censo siguiente (conflicto de interés).",
+     "afirmaciones": [
+      "A-158",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "p. 9 impreso; l. 129-132 y 141-143 del txt",
+     "cita_original": "Ese organismo es el Partido Dominicano, creación mía [...] Tras la dura lucha surgió el Censo Nacional, obra tan perfecta como la mejor de su clase",
+     "traduccion": "El censo de 1935 lo hizo el Partido Dominicano (confirma el resumen de 1950). El texto no dice cómo se definió la nacionalidad ni cómo se contó a los haitianos.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. 10 impreso; l. 152-153 del txt",
+     "cita_original": "Como consecuencia de la elaboración del Censo ha sido creada la Oficina de Estadística Nacional con carácter permanente",
+     "traduccion": "El censo de 1935 fundó la Oficina de Estadística Nacional (origen de la serie estadística trujillista).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1238",
+   "notas": "Resolución de F-1238 para el tema censal (el registro lo tenía para A-181, A-188 y A-189). Texto OCR cotejado en las dos copias; la marca '--9-' (pie de la p. 9) está en la copia del Senado. El mensaje menciona además la ley de inmigración n.º 739 del 14-VIII-1934 (sección «Inmigración») [no leída en detalle; POR VERIFICAR para A-163 y M13]. Sesgo: propaganda de gestión; llama «gobierno interventor» al Gobierno Militar de 1916-1924."
+  },
+  {
+   "titulo": "Imperialism Revised: Military, Society, and U.S. Occupation in the Dominican Republic, 1880-1924 (tesis doctoral, Univ. of Illinois at Urbana-Champaign): tabla 4.2 y nota 98, tomadas del Primer Censo Nacional 1920, pp. 145-146",
+   "autor": "Tillman, Ellen Davies",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.ideals.illinois.edu/items/18524/bitstreams/66663/data.pdf",
+   "urls_alternativas": [
+    "https://hdl.handle.net/2142/18434",
+    "https://www.ideals.illinois.edu/items/18524"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tesis de 451 pp. que reproduce una tabla del censo con página de origen y distingue su propio cálculo; la lectura de la tabla (qué miden los porcentajes) es mía y se marca.",
+   "proveniencia": "Ellen Tillman (Illinois, dir. Nils Jacobsen, con Bruce Calder): historia de la constabulary de los marines y de su relación con la sociedad dominicana; usa archivos militares estadounidenses y el AGN. La tabla 4.2 sirve para explicar por qué había poca red de informantes extranjeros en el Cibao. Ya figura en M12.md como M12-N65 (con su nota 98 sobre el carácter «menos extranjero» de los haitianos fronterizos); aquí se añade la tabla completa. La descarga directa devuelve 403 con un User-Agent genérico y sin Referer; con User-Agent de navegador y Referer del ítem devuelve 200 (2 MB).",
+   "extractos": [
+    {
+     "ubicacion": "tabla 4.2, p. 223 impreso (PDF p. 228); datos «from numbers given in: Dominican Republic, Primer Censo Nacional, 145-146»",
+     "cita_original": "Table 4.2 Percentage of foreigners residing in the Dominican Republic, by province. Pacificador 1.06%; La Vega 1.06%; Espaillat .87%; Santiago 1.53%; Puerto Plata 5.16%; San Pedro de Macorís 35.64%; Seibo 9.08%; Santo Domingo 3.58%; Azua 5.11%; Barahona 12.7%; Samaná 4.32%; Monte Cristi 20.17%",
+     "traduccion": "Distribución por provincia de los extranjeros del censo de 1920. LECTURA PROPIA: las doce cifras suman 100,28 % y la tabla incluye las doce provincias, lo que indica que reparte el total de extranjeros (49.520 según la tabla de Wikipedia) y no mide el porcentaje de extranjeros dentro de cada provincia [POR VERIFICAR contra el censo].",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "nota 98, p. 223 impreso (PDF p. 228)",
+     "cita_original": "Of the foreign population in Azua Province, 92.42% were Haitian. Of the foreign population in Barahona Province, 82.71% were Haitian. Of the foreign population in Monte Cristi, 97.48% were Haitian.",
+     "traduccion": "Porcentaje de haitianos entre los extranjeros de cada provincia fronteriza (cálculo de la autora sobre el censo). Con la lectura propia de la tabla resultarían ≈ 9.740 haitianos en Monte Cristi, ≈ 5.200 en Barahona y ≈ 2.340 en Azua (≈ 17.300, 61 % de los 28.258; cálculo propio).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Misma fuente que M12-N65 (M12.md). Cálculos propios (no de Tillman): suma de la tabla 4.2 = 100,28 %; con 49.520 extranjeros: Monte Cristi 9.988 extranjeros (97,48 % haitianos = 9.736), Barahona 6.289 (82,71 % = 5.202), Azua 2.530 (92,42 % = 2.339). Estos recuentos NO coinciden con el 71 % de haitianos en Monte Cristi, Barahona y Azua que da Coulange-Méroné con cálculos propios sobre Castillo 1978 (F-1946), ni con la lectura alternativa (porcentaje de la población provincial: 22.999 haitianos, 81 %): ninguna de las tres reconcilia, lo que obliga a ver la tabla del censo [POR VERIFICAR]. Contraste con 1935: «Montecristi» tenía 3.816 haitianos según el aviso del 17-XII-1937 (Herrera): caída de ≈ 5.900 en el territorio con más haitianos en 1920 mientras el total nacional casi se duplicaba [POR VERIFICAR: límites provinciales, definición, subregistro]. Discordancia con el censo municipal de 1919 (BNPHU/141): 3,58 % de 49.520 ⇒ ≈ 1.770 extranjeros en toda la provincia de Santo Domingo, menos que los 2.909 extranjeros de la sola ciudad en 1919."
+  },
+  {
+   "titulo": "Censo y catastro de la común de Santo Domingo: año 1919 (Informe al Honorable Ayuntamiento del Director del Censo y Catastro de 1919)",
+   "autor": "López, José R. (Director del Censo y Catastro de 1919); República Dominicana (Ayuntamiento de Santo Domingo)",
+   "anio": "1919",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/141",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/1fd9b890-a9c0-40a3-8480-79ea110afdce/content",
+    "https://bd.bnphu.gob.do/server/api/core/items/dcca56c9-a545-4ca8-baef-b7baba85d00c"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe municipal original de un censo urbano hecho antes de la ocupación nacional del censo, con cuadro de nacionalidades que suma exactamente; solo se leyó el OCR (el PDF original devuelve 401).",
+   "proveniencia": "José R. López, director del censo y catastro municipal, informa al Ayuntamiento de Santo Domingo el 15-V-1919 (fecha de la ficha DSpace; Tipografía El Progreso, 69 pp.), bajo el Gobierno Militar estadounidense. Es un censo de la ciudad y sus secciones rurales, no el nacional; sirve de línea de base de la presencia haitiana en la capital justo antes del Primer Censo Nacional.",
+   "extractos": [
+    {
+     "ubicacion": "apartado «Extranjeros» (l. 1327-1347 del txt de OCR)",
+     "cita_original": "Entre la población de la ciudad, que es un total de 26,870, hay 2,909 extranjeros de diversas nacionalidades. La proporción es, pues, de 10.80 p%.",
+     "traduccion": "10,8 % de extranjeros en la zona urbana de la común de Santo Domingo en 1919.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cuadro «Nacionalidad. Zona urbana» (l. 1383-1415 del txt; marcador de página «84» del OCR)",
+     "cita_original": "Puertorriqueños 916; Haitianos 90; Cubanos 142; Españoles 410; Ingleses 165; Franceses 131; Holandeses 318; [...] Daneses 111; [...] Norte Americanos 185; [...] Sirios 138 [...] 2,909. Nacionales 23,961. Total 26,870",
+     "traduccion": "Haitianos: 90 (3,1 % de los extranjeros; 0,33 % de la población urbana). Las 28 filas suman 2.909 y 23.961 + 2.909 = 26.870 (comprobación propia). Los antillanos aparecen por bandera colonial («ingleses», «holandeses», «daneses»), no como bloque «West Indies».",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "apartado «Extranjeros» (l. 1332-1333 del txt)",
+     "cita_original": "Hasta poco ha casi todos los inmigrantes eran peones y sirvientes de las Antillas Menores y de Haití.",
+     "traduccion": "Testimonio contemporáneo: antes de 1919 la mano de obra inmigrante venía sobre todo de las Antillas Menores (cocolos) y, en menor medida, de Haití.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "apartado «Extranjeros» (l. 1351-1353 del txt; la cita corrige «do» por «de» del OCR)",
+     "cita_original": "El ejército de ocupación no ha sido empadronado. En el Censo sólo figuran, de ese ejército, los oficiales que habitan fuera de los cuartoles.",
+     "traduccion": "El censo municipal de 1919 excluyó a las tropas de ocupación; la tabla de 1920 reproducida en Wikipedia dice «United States (excluding marines)»: ambos censos dejan fuera al ejército de ocupación.",
+     "afirmaciones": [
+      "A-158",
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Solo OCR (copia de texto pública «CensoCatastroComun1919.pdf.txt»; el PDF original de 166 MB y la otra copia de texto devuelven 401): citas con errores de OCR corregidos («lus»→«las», «do»→«de»). La cifra rural («el número de extranjeros es de -159 ... 3.08 p%», probablemente 459 y 3,80 %) es ilegible [POR VERIFICAR]; la fecha del informe (15-V-1919) sale de la ficha, no del OCR. Interpretación (POR VERIFICAR): «holandeses» (318) y «daneses» (111) en una capital caribeña son probablemente antillanos de colonias holandesas y danesas (cocolos). La categoría «haitianos» es de nacionalidad; el informe no explica cómo se averiguaba. Discordancia con Tillman (ver su ficha): provincia de Santo Domingo 1920 vs ciudad 1919."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año XXXVI, nos. 3112-3181 (mayo-dic. 1920): n.º 3132 (10-VII-1920), Orden Ejecutiva n.º 505 que destina $75,000 al censo",
+   "autor": "Gobierno Militar de Santo Domingo (Snowden, Thomas, contraalmirante)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/ca3cf66b-34ff-4c67-a2ec-ff0e5fbf27d3/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/71792",
+    "https://memoriahistorica.senadord.gob.do/bitstreams/be39d366-3cea-4e5e-8d1c-5f7033f6ad0a/download"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Boletín oficial bilingüe del Gobierno Militar; la orden se leyó en la capa de texto OCR (ruidosa pero legible en este pasaje), sin cotejar con la imagen.",
+   "proveniencia": "Gaceta Oficial del Gobierno Militar de Santo Domingo (dir. Fed. Antonio García), 10-VII-1920; la orden está firmada por Thomas Snowden. Fija el origen del gasto del Primer Censo Nacional bajo la Secretaría de lo Interior y Policía. La ONE (2020) fecha la orden el 1-VII-1920.",
+   "extractos": [
+    {
+     "ubicacion": "n.º 3132, 10-VII-1920, O. E. n.º 505 (l. 9979-9992 del txt)",
+     "cita_original": "se destina de los fondos del Tesoro Nacional [...] la suma de SETENTICINCO MIL DOLARES ($75,000.00), para ser gastados bajo la dirección de la Secretaría de lo Interior y Policía en el censo de la República Dominicana.",
+     "traduccion": "El censo de 1920 lo financió el Gobierno Militar con $75.000 (O. E. 505) y lo dirigió la Secretaría de lo Interior y Policía (a cargo de funcionarios dominicanos bajo tutela militar).",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Texto corregido del OCR («DOLARS»→«DOLARES», «:MIL»→«MIL»). La orden que reglamenta el censo (O. E. 552, 18-X-1920, G. O. 3161) ya está en M12.md como M12-N39 (sin definición de nacionalidad); el OCR de esa Gaceta es demasiado ruidoso para añadirle texto. [POR VERIFICAR] la fecha de la O. E. 505 contra la imagen: el OCR dice «lo de Julio»; la ONE da 1-VII-1920."
+  },
+  {
+   "titulo": "Gaceta Oficial de la República Dominicana, Año XXXVII, nos. 3182-3286 (1921): n.º 3267 (26-X-1921), «Censo Nacional» (población por común), y O. E. n.º 663 (fondos adicionales para el censo)",
+   "autor": "Gobierno Militar de Santo Domingo (Robison, S. S., contraalmirante); Secretaría de lo Interior y Policía",
+   "anio": "1921",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-eeuu",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/727528ee-08f3-4b19-bc9d-b092bee58a49/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/71758",
+    "https://memoriahistorica.senadord.gob.do/bitstreams/7da20307-bd2f-4800-9ff9-50da560d0db3/download"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Boletín oficial; el cuadro de población se cotejó con la imagen (pp. 9 y 11 de la Gaceta; PDF pp. 1525 y 1527) y las doce provincias suman el total impreso.",
+   "proveniencia": "Gaceta Oficial del Gobierno Militar (Imprenta J. R. Vda. García), n.º 3267 del 26-X-1921 (sumario: «Datos relativos al Censo Nacional»): publica, sin firma ni nota, la población de cada común y provincia, primer dato público del censo de diciembre de 1920 entre los leídos. La O. E. 663 (23-VIII-1921) añade $3,000 para terminarlo.",
+   "extractos": [
+    {
+     "ubicacion": "n.º 3267, 26-X-1921, «CENSO NACIONAL», pp. 9-11 (PDF pp. 1525-1527; cotejado con la imagen)",
+     "cita_original": "Provincia de Santo Domingo 146.446; San P. de Macorís 43.612; Seybo 58.408; Azua 100.577; Barahona 48.180; Samaná 16.915; La Vega 105.820; Pacificador 77.620; Espaillat 50.956; Santiago 122.773; Puerto Plata 59.025; Monte Cristy 67.073; [total] 897.405",
+     "traduccion": "Población por provincia en la primera publicación oficial leída del censo de 1920. El total (897.405) NO coincide con el definitivo de 894.665 (resumen de 1950, cuadro 1): +2.740 (+0,31 %). La tabla no tiene nacionalidades.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "O. E. n.º 663, 23-VIII-1921 (l. 35985-35996 del txt)",
+     "cita_original": "Se destina [...] la suma de TRES MIL DOLARES, ($3,000.00) para terminar el Primer Censo Nacional de la República Dominicana.",
+     "traduccion": "En agosto de 1921, ocho meses después del día del censo (24-XII-1920), el Gobierno Militar aún asignaba fondos «para terminar» el censo: confirma que la tabulación se prolongó (publicación en 1923).",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Gaceta de 1921, publicación de la Ley Electoral y de la proclama (l. 41641 del txt; n.º de la Gaceta por verificar)",
+     "cita_original": "fijar el número de electores y diputados con arreglo al número de habitantes arrojado por el censo que hace poco se llevó a cabo",
+     "traduccion": "Uso político del censo: reparto de diputados y electores bajo la Ley Electoral (O. E. 646, 9-VII-1921). El censo sirve al registro electoral del Gobierno Militar.",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Comprobaciones propias: las doce provincias suman 897.405 (146.446 + 43.612 + 58.408 + 100.577 + 48.180 + 16.915 + 105.820 + 77.620 + 50.956 + 122.773 + 59.025 + 67.073). La Gaceta no explica la diferencia con el total definitivo de 894.665 ni con «Department of Santo Domingo 146.652» de la tabla de Wikipedia: hipótesis sin verificar, recuento provisional por comunes anterior a correcciones. «Común de Santo Domingo 45.021» frente a los 38.930 (26.870 + 12.060) del censo municipal de 1919: +15,6 % en dos años (cálculo propio). El texto de la Ley Electoral está en OCR («anojado»→«arrojado»). Sesgo: publicación del Gobierno Militar, que dirigió el censo; no declara método."
+  },
+  {
+   "titulo": "Colección de Leyes, Decretos y Resoluciones emanadas de los poderes Legislativo y Ejecutivo de la República Dominicana, 1935: Ley n.º 821 (Censo Nacional, G. O. 4761), Ley n.º 901 (G. O. 4792) y Decreto n.º 1269 (día del censo de población, G. O. 4791)",
+   "autor": "Congreso Nacional y Poder Ejecutivo de la República Dominicana (Trujillo Molina, Rafael L.)",
+   "anio": "1935",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://memoriahistorica.senadord.gob.do/bitstreams/8adcf161-cd91-42ac-af90-8e46ebc9b992/download",
+   "urls_alternativas": [
+    "https://memoriahistorica.senadord.gob.do/handle/123456789/70682",
+    "https://memoriahistorica.senadord.gob.do/bitstreams/8e1b30d8-f012-4fa5-845f-5baeee946f12/download"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto oficial promulgado y con número de Gaceta; la lectura es de la capa OCR (ruidosa), sin cotejar con imagen.",
+   "proveniencia": "Compilación oficial de las leyes y decretos de 1935 (PDF de 194 MB en el portal «Memoria Histórica» del Senado). Completa a F-1317 (expedientes del Senado con el mensaje y los proyectos) con el texto promulgado, las fechas de Gaceta y el decreto que fija el día del censo de población.",
+   "extractos": [
+    {
+     "ubicacion": "Ley n.º 821 (G. O. 4761, 30-I-1935), art. 4, p. 21 de la Colección (l. 742-748 del txt)",
+     "cita_original": "Todas las personas, sea cual fuere su estado civil, están en el deber de contestar las preguntas del Enumerador, relativas a sus bienes, a su persona, a su familia",
+     "traduccion": "El deber de responder alcanza a «todas las personas»: la ley no distingue residentes regulares de irregulares ni define «nacionalidad», «extranjero» ni «haitiano».",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Ley n.º 901 (G. O. 4792, 8-V-1935), art. 6 modificado, p. 193 de la Colección (l. 7577-7581 del txt)",
+     "cita_original": "los Jefes de Familia que llenaren un formulario con datos falsos en parte o en total, serán condenadas a prisión de seis días a tres meses",
+     "traduccion": "La Ley 901, promulgada cinco días antes del día del censo, añade el autollenado de formularios por jefes de familia (método mixto con el enumerador), con pena por datos falsos.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Decreto n.º 1269 (G. O. 4791, 4-V-1935), p. 546 (l. 21236-21249 del txt)",
+     "cita_original": "Se fija el lunes día 13 del mes de mayo del año en curso como DIA DEL CENSO DE POBLACION, para la ejecución de la segunda parte del Censo Nacional.",
+     "traduccion": "El censo de población del 13-V-1935 fue la «segunda parte» del Censo Nacional (la primera, el de habitaciones, el lunes 8-IV-1935 por otro decreto).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Citas con errores de OCR corregidos («Jefos»→«Jefes», «DIA DEL CEN:S0»→«DIA DEL CENSO»). Valor: (1) completa F-1317: texto promulgado y fechas de Gaceta; (2) permite descartar que la ley restringiera el censo a residentes «regulares», como afirma la nota 14 de Coulange-Méroné (atribuida a Castor 1983 p. 57) [POR VERIFICAR: esa afirmación puede referirse al uso, no a la ley]; (3) el censo de 1935 se hizo con una reforma legal de última hora: el Reglamento o las instrucciones del Director General y las planillas no se localizaron. Gastos: $30.000 (art. 20 de la ley 821). La ley no menciona nacionalidad."
+  },
+  {
+   "titulo": "Censos de población y vivienda de RD: apuntes para su historia (1) (Acento, 31-VIII-2022)",
+   "autor": "Mejía Santana, Julio César",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/censos-de-poblacion-y-vivienda-de-rd-apuntes-para-su-historia-1-9100279.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de un conocedor de la historia censal, sin referencias ni cifras de apoyo para sus hipótesis; las dos afirmaciones sobre 1920 y 1935 coinciden con el resumen oficial de 1950.",
+   "proveniencia": "Julio César Mejía Santana (la página no indica cargo; la columna se refiere a gestiones de la ONE y a su propio concepto de «crimen de lesa demografía»: [POR VERIFICAR] si fue funcionario o consultor de la ONE) escribe en Acento (Santo Domingo) a dos meses del X Censo (nov. 2022) para un público general. Interés: diagnosticar los problemas crónicos de cobertura y publicación de los censos dominicanos.",
+   "extractos": [
+    {
+     "ubicacion": "párr. «Respecto de la escasa y tardía publicación...»",
+     "cita_original": "Los dos primeros censos de 1920 y 1935 se publicaron con significados retrasos, el primero en 1923 y el segundo en 1946, del cual sólo se publicó la población total por provincia, comunes y distritos municipales.",
+     "traduccion": "El censo de 1935 se publicó en 1946 solo con población total por provincia, común y distrito municipal: no hay volumen oficial con nacionalidades. Coincide con «publicado parcialmente» del resumen de 1950.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. «En relación con la cobertura de los censos...»",
+     "cita_original": "el muy alto crecimiento de la población en esos 15 años podría estar revelando una muy alta omisión en el primero [...] o un sobre ajuste en el segundo censo con la intencionalidad del régimen trujillista de mostrar el crecimiento demográfico",
+     "traduccion": "Para el autor, el salto de 894.665 a 1.479.417 (3,5 % anual) apunta a omisión en 1920 (gripe española, inestabilidad, resistencia armada) o a sobreajuste en 1935 con intención política; sin medición que lo pruebe.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Contrapunto interpretativo de la ONE 2020 (que atribuye el 3,5 % a inmigración azucarera): ninguna de las dos lecturas viene con conciliación demográfica. INTERPRETACIÓN, no hecho. Sesgo: crítica a la gestión estadística dominicana; la hipótesis sobre 1935 atribuye intención al régimen sin prueba. Primera de una serie («próxima entrega» no leída)."
+  },
+  {
+   "titulo": "La cantidad de víctimas del genocidio de 1937 (Acento, 26-II-2022)",
+   "autor": "Herrera, Rafael Darío",
+   "anio": "2022",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://acento.com.do/opinion/la-cantidad-de-victimas-del-genocidio-de-1937-9036506.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna bien informada que transmite una cifra oficial de 1937 con fecha, firmantes y desglose, pero de segunda mano (Vega) y sin cita del documento original.",
+   "proveniencia": "Rafael Darío Herrera (datos biográficos [POR VERIFICAR]; la columna trata la historiografía de las cifras de 1937) resume las estimaciones de víctimas de 1937 por autor y recoge el cálculo de Bernardo Vega en «Trujillo y Haití», vol. II, que parte de un aviso oficial del 17-XII-1937. Escribe en Acento para público general.",
+   "extractos": [
+    {
+     "ubicacion": "párr. «La publicación en la prensa internacional...»",
+     "cita_original": "El 17 de diciembre de 1937 los directores de Estadística, Vicente Tolentino, y del Censo, Mario Fermín Cabral, publicaron de nuevo la población residente en las siete provincias del Cibao, según datos del censo de 1935. Dicha población haitiana ascendía a 8,442",
+     "traduccion": "El régimen publicó, en plena crisis diplomática, una tabla del censo de 1935 con los haitianos de siete provincias del Cibao: 8.442. Es el único desglose por provincia de 1935 hallado, y es de segunda mano.",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "mismo párrafo",
+     "cita_original": "al 13 de mayo de 1935 se hallaba distribuida del siguiente modo: Montecristi (3,816), Santiago (1,255), Puerto Plata (2,313), Moca (112), La Vega (284), Duarte (301) y Samaná (361)",
+     "traduccion": "Desglose: 3.816 + 1.255 + 2.313 + 112 + 284 + 301 + 361 = 8.442 (suma comprobada). Los 52.657 de 1935 serían, entonces, 8.442 en el Cibao y 44.215 (84 %) en el resto del país (cálculo propio).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente",
+     "cita_original": "Para realizar un estimado de las víctimas del genocidio, el historiador Bernardo Vega toma como referencia los 8,442 haitianos registrados por el censo de 1935.",
+     "traduccion": "Vega usa la cifra del censo como base de la aritmética de víctimas (suma 3.000 de Cuba y resta 6.150 que huyeron: ≈ 5.292); la columna presenta ese cálculo como el más acertado de la historiografía dominicana (juicio del autor).",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-160"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Fuente última: Vega, Trujillo y Haití, vol. II (F-0077), no leído; el aviso original no se localizó: la Gaceta Oficial oct.-dic. 1937 y las Memorias MIREX de 1937 y 1938 (portal del Senado) se rastrearon por «censo», «Tolentino» y «8.442» sin resultado. Es una publicación del régimen con propósito declarado (minimizar el número de víctimas); [POR VERIFICAR] si el desglose cubre el mismo universo y definición que los 52.657 nacionales. «Moca» y «Duarte» corresponden probablemente a las provincias Espaillat y Pacificador de 1920 (con otros nombres en 1935) [POR VERIFICAR]. Anomalía: con la lectura propia de la tabla 4.2 de Tillman habría ≈ 9.740 haitianos en Monte Cristi en 1920 frente a 3.816 en 1935 (−5.900); una búsqueda devolvió un resumen que hablaba de una caída de más de 5.000 haitianos en Montecristi y el Cibao entre 1920 y 1935 sin que pudiera abrirse su fuente [POR VERIFICAR: ¿Turits 2002 o Cadeau 2022?]. Término cargado: la columna dice «genocidio» (glosario: «matanza de haitianos y dominicanos de ascendencia haitiana de octubre de 1937»)."
+  },
+  {
+   "titulo": "Quinientos mil haitianos en República Dominicana (Estudios Sociales, vol. XXVII, n.º 98, oct.-dic. 1994, pp. 7-31): cuadro 1, «Estimaciones oficiales del número de residentes haitianos en RD»",
+   "autor": "Corten, André; Duarte, Isis",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/403/389/777",
+   "urls_alternativas": [
+    "https://estudiossociales.bono.edu.do/index.php/es/article/download/403/389"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo académico de dos especialistas, pero el cuadro es una compilación de cifras oficiales de segunda mano (parcialmente de Murphy 1991) sin página ni definición.",
+   "proveniencia": "André Corten (politólogo) e Isis Duarte (UASD, IEPO) publican en la revista del Centro Bonó (traducción de Viviana Fridman; versión inglesa en Latin American Perspectives, 1995) un estudio sobre el número y la condición de los haitianos en RD. El cuadro 1 reúne las cifras «oficiales» de 1920 a 1991 con la oficina que las produjo. Ya registrada como F-1100 para M13-M16; aquí se lee para M12.",
+   "extractos": [
+    {
+     "ubicacion": "cuadro 1, p. 14 (l. 374-384 del txt)",
+     "cita_original": "Estimaciones oficiales del número de residentes haitianos en RD: 1920, 28,258, Gobierno provisorio de RD; 1935, 52,657, Dirección general de estadísticas; 1950, 18,772, Dirección general de estadisticas",
+     "traduccion": "Atribuye la cifra de 1920 al «Gobierno provisorio» (= Gobierno Militar de 1916-1924) y las de 1935 y 1950 a la Dirección General de Estadística: confirma la cadena oficial de las tres cifras, sin página censal. Confirma 18.772 para 1950.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "p. 14 (l. 342 del txt)",
+     "cita_original": "De 1935 a 1950, la cifra pasa de 52,657 a 18,722.",
+     "traduccion": "Errata de la edición (el cuadro 1 de la misma página da 18,772). El texto interpreta la caída entre 1935 y 1950 con la matanza de 1937 y huidas posteriores («al menos 12.000 haitianos son masacrados», cifra del autor, de segunda mano).",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-160"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1100",
+   "notas": "Resuelve la petición «trazar de dónde salen las cifras»: estas dos cifras de los censos llegan en la bibliografía como «oficiales» sin tabla; el cuadro dice tomarse «parcialmente de Murphy (1991: 76)» (obra no leída). El título del artículo («500.000») es una hipótesis de los autores, no una cifra censal. Sesgo: crítica de la política dominicana hacia la inmigración; interpreta la caída 1935-1950 como efecto de 1937 sin separar la definición censal (nacionalidad vs nacimiento). [POR VERIFICAR] contra Murphy 1991."
+  },
+  {
+   "titulo": "Estudio sobre la evolución de las variables de las boletas censales de República Dominicana 1920-2002 (Oficina Nacional de Estadística, diciembre de 2011)",
+   "autor": "Oficina Nacional de Estadística (ONE), Departamento de Investigaciones; Féliz, Jafmary; Contreras Tejeda, Marcia; Montilla Pujols, Rosario; Eloy Júpiter, Edgar Abraham; Ortega, Francisca; Meregildo, Luiscar (asesoría técnica: Escobedo, Antonio; director: Tactuk, Pablo)",
+   "anio": "2011",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/2024id_/https://one.gob.do/media/2qsjelvl/estudiosobrelaevoluciondelasvariablesdelasboletascensalesderepdom1920-2002.pdf",
+   "urls_alternativas": [
+    "https://one.gob.do/media/2qsjelvl/estudiosobrelaevoluciondelasvariablesdelasboletascensalesderepdom1920-2002.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Estudio metodológico de la propia oficina censal, hecho sobre las boletas originales de 1920 a 2002 (bibliografía: «Boleta Censal I Censo Nacional de Población, 1920»); distingue lo que halló de lo que no pudo hallar.",
+   "proveniencia": "Documento de 126 pp. del Departamento de Investigaciones de la ONE (fecha técnica: diciembre de 2011), que compara pregunta a pregunta las boletas censales de 1920, 1935, 1950, 1960, 1970, 1981, 1993 y 2002. Escrito para uso técnico e institucional; no tiene tesis política. Se leyó la copia del Wayback Machine (captura de 2024), porque el portal de la ONE devuelve 403 (Cloudflare) a curl y a WebFetch; la URL viva de este PDF no se probó.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Evolución de la medición – Descripción», p. 29 (tras el cuadro 4, p. 28)",
+     "cita_original": "la pregunta «Lugar de nacimiento» ha aparecido en todos los censos dominicanos con aparente excepción en el II Censo Nacional de Población del año 1935 en donde no se encontró evidencia de la existencia de la misma",
+     "traduccion": "La ONE no halló la pregunta de lugar de nacimiento en la boleta de 1935.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, p. 31",
+     "cita_original": "Para las personas nacidas en el extranjero, en el I Censo Nacional de Población en 1920 no aparece una opción de respuesta que recoja su lugar de nacimiento.",
+     "traduccion": "En 1920 la pregunta «Lugar de nacimiento» solo ofrecía ciudad/común/provincia: no había opción de país. Un extranjero no declaraba su país de nacimiento en la boleta de 1920.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, p. 31",
+     "cita_original": "es a partir del III Censo Nacional de Población de 1950 en que indagar sobre el país de nacimiento de la persona empadronada se convirtió en una constante en todos los censos dominicanos",
+     "traduccion": "El país de nacimiento es constante desde 1950; antes de ese censo no se puede reconstruir «haitianos por nacimiento».",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Para A-158: (1) la cifra de «haitianos» de 1920 y la de 1935 no pudieron salir del país de nacimiento (no se preguntaba o no consta que se preguntara), sino de una pregunta de nacionalidad o de la apreciación del enumerador; (2) en 1950 hay dos cifras distintas para el mismo concepto aparente (18.772 por nacionalidad; 19.193 por nacimiento en Haití); (3) el estudio no incluye una sección sobre la variable «nacionalidad» ni reproduce la boleta de 1920 en el texto leído: la definición de «haitiano» sigue sin hallarse [inferencia propia; POR VERIFICAR contra las boletas de 1920 y 1935]. El cuadro 4 (p. 28) marca 1920 y deja en blanco 1935 para «Lugar de nacimiento»; la ausencia de 1935 es «aparente» según el propio texto. Capa de texto del PDF correcta; páginas según la numeración impresa."
+  },
+  {
+   "titulo": "Los censos dominicanos: 100 años contando nuestra gente, 1920-2020",
+   "autor": "Cáceres Ureña, Francisco I.; López Villar, Dario Antonio (Oficina Nacional de Estadística)",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://web.archive.org/web/2023id_/https://www.one.gob.do/media/h1id11mf/los-censos-dominicanos-100-a%C3%B1os-contando-nuestra-gente-1920-2020.pdf",
+   "urls_alternativas": [
+    "https://www.one.gob.do/media/h1id11mf/los-censos-dominicanos-100-a%C3%B1os-contando-nuestra-gente-1920-2020.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Publicación oficial del centenario de la ONE, con las cifras de los nueve censos y una cadena de fuentes declarada; las explicaciones de la tasa de 1920-1935 son interpretación (citan a Cáceres 2018).",
+   "proveniencia": "Libro de 76 pp. de la ONE (director de Censos y Encuestas y encargado del Departamento de Censos), publicado para el centenario del primer censo; también lo localizó la lente haitiana como URL alterna de M12-N49 sin poder abrirlo (403). Se leyó la copia del Wayback Machine (captura de 2023). Sus datos de 1935 proceden, según su bibliografía, del Resumen General del Tercer Censo (1950).",
+   "extractos": [
+    {
+     "ubicacion": "Introducción, p. 11",
+     "cita_original": "mediante la Orden Ejecutiva número 505 de fecha 1o. de julio de 1920, el Contraalmirante Thomas Snowden, gobernador militar de Santo Domingo ordenó la realización del Censo de la República Dominicana",
+     "traduccion": "La ONE fecha la O. E. 505 el 1-VII-1920 (la Gaceta n.º 3132 es del 10-VII-1920) y reconoce que el primer censo lo ordenó el Gobierno Militar.",
+     "afirmaciones": [
+      "A-157",
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cap. 1, p. 15",
+     "cita_original": "En 1920, el volumen de la población ascendía a 894,665 personas, pero, solo 15 años después, en 1935, esa cifra se había incrementado a 1,479,417 habitantes.",
+     "traduccion": "Totales de 1920 y 1935 (coinciden con el resumen de 1950, cuadros 1 y 10).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cap. 1, §1.2, p. 17 (cita a Cáceres, 2018)",
+     "cita_original": "Ese valor puede considerarse elevado, pero este comportamiento podría tener una explicación en la entrada de un contingente inmigratorio de gran magnitud durante ese período, derivada de la expansión de la industria azucarera",
+     "traduccion": "Interpretación oficial de la ONE: la tasa de 3,5 % anual de 1920-1935 se explicaría por inmigración azucarera. Contrasta con la lectura de Mejía Santana (omisión de 1920 y sobreajuste de 1935).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "bibliografía, PDF p. 71 (hoja 70 de 76)",
+     "cita_original": "Dirección Nacional de Estadística. Censo de población de 1935. In: Resumen General del Tercer Censo Nacional de Población, 1950.",
+     "traduccion": "La ONE cita el resumen de 1950 (y no un volumen propio de 1935) como fuente de los datos de 1935: no hay volumen oficial de resultados del censo de 1935 con tablas de nacionalidad.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "Capítulos de migración (6.1-6.2) solo para 1960-2010; no hay tabla de nacionalidad 1920 ni 1935. Cálculos propios sobre cifras de la ONE y de la tabla de Wikipedia: 894.665 → 1.479.417 = +65,4 % entre el 24-XII-1920 y el 13-V-1935 (14,4 años) = 3,56 % anual compuesto (la ONE dice 3,5 %); el stock de extranjeros declarados creció de 49.520 a 73.070 (+23.550), solo el 4 % del aumento total de 584.752, de modo que la inmigración registrada (el «stock» censado) no explica por sí sola la tasa; quedan las hipótesis de omisión en 1920, sobreajuste en 1935 o hijos de inmigrantes nacidos en el país (ninguna medida). La misma página de la bibliografía cita «Secretaria de Estado de lo Interior y Policía, Oficina de la Dirección del Censo. Primer Censo Nacional, 1920. Santo Domingo, 1923», el volumen que sigue sin leerse."
+  },
+  {
+   "titulo": "Primer censo nacional (1920): Instrucciones a los enumeradores, 31 pp. (ficha DSpace del repositorio de la Biblioteca Nacional Pedro Henríquez Ureña)",
+   "autor": "República Dominicana, Secretaría de Estado de lo Interior y Policía (Dirección del Primer Censo Nacional)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1938",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/5221ff87-3160-4190-8b6c-2e15987aa5af",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/743cc7ce-809d-4780-b4fe-9b4a3b426a04/content"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha); 401 (PDF 743cc7ce-… y texto 9136f76a-…)",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento primario de la propia dirección del censo, pero solo se leyó la ficha: el PDF y su copia de texto están reservados («pedir copia»).",
+   "proveniencia": "Folleto de 31 pp. de la Dirección del Primer Censo Nacional (Secretaría de Estado de lo Interior y Policía, 1920) con las instrucciones a inspectores, subinspectores y enumeradores, nombrados entre los empleados del servicio escolar por la Superintendencia General de Enseñanza (Gobierno Militar). Ejemplar de la biblioteca personal de Martínez Boog. La ficha lleva licencia CC BY-NC-ND y el PDF pesa 7,74 MB.",
+   "extractos": [
+    {
+     "ubicacion": "ficha DSpace, dc.description",
+     "cita_original": "Estas Instrucciones deben ser estudiadas cuidadosamente por los Enumeradores antes de comenzar la enumeración y llevarlas siempre consigo.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "ficha DSpace, dc.description.abstract",
+     "cita_original": "La Dirección del Primer Censo Nacional ha hecho los siguientes nombramientos en cada Provincia de la República. Un «Inspector del Censo» con asiento en la cabecera de su Provincia y tantos «Sub-Inspectores» como Comunes tenga esa Provincia y el número necesario de «Enumeradores».",
+     "traduccion": "Estructura de mando del censo de 1920: un inspector por provincia, un subinspector por común y enumeradores.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-1404",
+   "notas": "Se reintentó lo que pedía el crítico: la API REST devuelve 401 en el PDF y en su texto; el navegador integrado (sin credenciales) abre la página del ítem y muestra solo «pedir copia» (formulario «request a copy»). No es un bloqueo anti-bot sino de acceso, y la solicitud exige enviar un mensaje con el correo del usuario a la biblioteca: NO se envió (acción en nombre del usuario). Acción pendiente para el usuario: pedir la copia (o consultar en sala de la BNPHU o UASD). Sigue sin leerse la definición de «nacionalidad» o «haitiano» de 1920. Para el censo de 1935 (BNPHU/138), el PDF también es 401 pero su copia de texto OCR es pública y ya está leída (F-1358, folleto de 23 pp. sin desglose por nacionalidad)."
+  },
+  {
+   "titulo": "Censo de la República dominicana (1923; Primer Censo Nacional): ejemplar de HathiTrust (Princeton, vista completa) y reedición digital de la ONE (2020): localización y bloqueos",
+   "autor": "República Dominicana, Secretaría de Estado de lo Interior y Policía (Dirección del Primer Censo Nacional); ed. UASD 1975 (León, David C.); reed. ONE 2020",
+   "anio": "1923",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://catalog.hathitrust.org/api/volumes/brief/recordnumber/008976127.json",
+   "urls_alternativas": [
+    "https://catalog.hathitrust.org/Record/008976127",
+    "https://babel.hathitrust.org/cgi/pt?id=njp.32101068975901",
+    "https://www.one.gob.do/publicaciones/2020/primer-censo-nacional-de-republica-dominicana-1920/"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (API de catálogo de HathiTrust); 403 (babel.hathitrust.org y one.gob.do)",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el volumen oficial de resultados del censo de 1920, pero no se pudo abrir: solo se confirmó que existe un ejemplar en vista completa.",
+   "proveniencia": "Volumen del censo de 1920 publicado en 1923 por la Secretaría de Estado de lo Interior y Policía (Santo Domingo), con segunda edición de la UASD en 1975 y reedición digital de la ONE en 2020. La API pública de catálogo de HathiTrust devuelve el registro 008976127 («Censo de la República dominicana», 1923; OCLC 13507453; LCCN 32010273) y un ejemplar de la Universidad de Princeton con derechos «pdus» (dominio público en EE. UU., vista completa).",
+   "extractos": [
+    {
+     "ubicacion": "API de catálogo de HathiTrust, registro 008976127",
+     "cita_original": "\"titles\":[\"Censo de la República dominicana\"], \"publishDates\":[\"1923\"], \"htid\":\"njp.32101068975901\", \"orig\":\"Princeton University\", \"rightsCode\":\"pdus\", \"usRightsString\":\"Full view\"",
+     "traduccion": "Existe un ejemplar digital completo y de libre acceso en EE. UU.: njp.32101068975901. Debe leerse con un navegador humano: https://babel.hathitrust.org/cgi/pt?id=njp.32101068975901",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Reintento de M12-N49: (1) babel.hathitrust.org devuelve a curl una página «Blocked from HathiTrust» (reputación de la IP, Cloudflare); (2) la reedición de la ONE devuelve 403 a curl y WebFetch, y en el navegador integrado muestra una verificación de Cloudflare («Verify you are human») que NO se resolvió (no se hace clic en verificaciones anti-bot); (3) la API de Google Books agotó su cuota. Acción pendiente para el usuario: abrir con su navegador el ejemplar de HathiTrust (vista completa) y buscar «haitianos» y «Nacionalidad»; es lo único que daría la tabla primaria de 1920 (28.258 y 49.520), las provincias y, tal vez, la definición. Las cifras de 1920 que circulan salen de Castillo (1978) y del propio volumen de 1923."
+  },
+  {
+   "titulo": "1920 Santo Domingo census (Wikipedia en inglés; revisión del 26-X-2024)",
+   "autor": "Colaboradores de Wikipedia",
+   "anio": "2024",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "ninguna",
+   "url": "https://en.wikipedia.org/wiki/1920_Santo_Domingo_census",
+   "urls_alternativas": [
+    "https://en.wikipedia.org/w/index.php?title=1920_Santo_Domingo_census&oldid=1253593833"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Enciclopedia colaborativa: solo sirve de índice; cita el volumen de 1923 sin página, pero su tabla de nacionalidad cierra aritméticamente.",
+   "proveniencia": "Artículo breve, escrito por colaboradores anónimos a partir del volumen de 1923 («Secretary of State of Home Affairs and Police (1923). First National Census of Population, 1920. University of Santo Domingo Publishing House»). Es la única parte del texto de 1920 que se pudo ver transcrita: la tabla de nacionalidad y raza. F-0067 ya la lista como URL alterna.",
+   "extractos": [
+    {
+     "ubicacion": "tabla «Results on Nationality and Race»",
+     "cita_original": "Dominicans 845,145 (94.5 %); Foreigners 49,520 (5.5 %): from Haiti 28,258 (3.1); from the West Indies 8,305 (0.9); from Puerto Rico 6,069 (0.7); from Spain 1,443 (0.2); from the United States (excluding marines) 891 (0.1); from Cuba 741 (0.1); from another country 3,813 (0.4)",
+     "traduccion": "Extranjeros de 1920 por origen. Comprobaciones propias: 28.258 + 8.305 + 6.069 + 1.443 + 891 + 741 + 3.813 = 49.520; 845.145 + 49.520 = 894.665; haitianos = 57,1 % de los extranjeros y 3,16 % de la población.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "tabla «Results on Nationality and Race» (raza)",
+     "cita_original": "Whites 223,144 (24.9); Mestizos and yellows 444,587 (49.7); Blacks 226,934 (25.4). Total population 894,665; Men 446,384; Women 448,281",
+     "traduccion": "Raza según el empadronador; las tres categorías suman 894.665. «Mestizos and yellows» agrupa a mestizos y amarillos.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "TERCIARIA: índice, no evidencia. Corroboración parcial independiente: Coulange-Méroné (F-1946, vía Castillo 1978) da 28.258 haitianos y 6.069 puertorriqueños; Diario Libre (F-0377) da 28.258 y 57 % de los extranjeros; las tres líneas coinciden en tres cifras, sin fuente primaria leída. La nota «excluding marines» es coherente con el censo municipal de 1919 (ejército de ocupación no empadronado). No da la definición de «haitiano» ni la fuente por página. El denominador de 49.520 (57 %) contradice los 47.780 (59 %) que otros autores usan [POR VERIFICAR: ¿se excluyó alguna categoría, p. ej. «otros»?]. Un artículo hermano de Wikipedia sobre los haitianos en RD cita 28.258 (1920) y 52.657 (1935)."
+  },
+  {
+   "titulo": "1960 Dominican Republic census y 1950 Dominican Republic census (Wikipedia en inglés): tablas de nacionalidad",
+   "autor": "Colaboradores de Wikipedia",
+   "anio": "2024",
+   "tipo": "terciaria",
+   "idioma": "en",
+   "tradicion": "ninguna",
+   "url": "https://en.wikipedia.org/wiki/1960_Dominican_Republic_census",
+   "urls_alternativas": [
+    "https://en.wikipedia.org/wiki/1950_Dominican_Republic_census"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Enciclopedia colaborativa; la tabla de 1950 mezcla dos categorías del resumen oficial y la de 1960 no tiene verificación primaria.",
+   "proveniencia": "Artículos breves de colaboradores anónimos sobre los censos de 1950 y 1960. Se leyeron solo para fijar qué año corresponde a 18.772 y a 29.500, discrepancia que M12 arrastraba (F-0067).",
+   "extractos": [
+    {
+     "ubicacion": "1960, tabla «Results on nationality»",
+     "cita_original": "Dominicans 3,002,370 (98.533 %); Foreigners 44,700 (1.467 %); from Haiti 29,500 (0.968 %); from Spain 4,060; from Great Britain 2,020; from Japan 1,200; from Puerto Rico 1,160",
+     "traduccion": "29.500 es la cifra de haitianos de 1960 (no de 1950): 29.500/3.047.070 = 0,968 % (cálculo propio con el total de la ONE).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "1950, tabla «Results on Nationality and Race»",
+     "cita_original": "Dominicans 2,101,218 (98.4 %); Foreigners 34,654 (1.6 %); from Haiti 18,772 (0.9 %); from another country 15,882 (0.7 %)",
+     "traduccion": "La tabla mezcla categorías: 34.654 es el total de nacidos en el extranjero (cuadros 11 y 13 del resumen oficial), 18.772 es la nacionalidad haitiana (cuadro 15) y 15.882 es su diferencia; los extranjeros por nacionalidad son 32.623 y los dominicanos 2.103.249 (cuadro 14).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "TERCIARIA. Resuelve por contraste con el resumen de 1950 (F-1350) la discrepancia de F-0067: 18.772 es 1950 (nacionalidad), 29.500 es 1960. Para 1960 solo hay Wikipedia y Diario Libre (F-0377); el resumen del censo de 1960 (BNPHU/3279) devuelve 401. No usar como evidencia."
+  },
+  {
+   "titulo": "Censo nacional: Proclama del Generalísimo Dr. Rafael Leonidas Trujillo Molina con los primeros resultados del Censo de 1935 (Ciudad Trujillo, Editorial La Nación, 16-VIII-1936, 23 pp.)",
+   "autor": "República Dominicana, Presidencia (Trujillo Molina, Rafael L.)",
+   "anio": "1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/138",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/89b5aa19-c6d9-4469-96f6-7dc274d90965/content",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/8d8b7f69-3b91-4787-8e53-22584b302184/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primer resumen oficial del censo de 1935, difundido como proclama del dictador; los totales cuadran entre sí, pero no hay método ni desglose por nacionalidad.",
+   "proveniencia": "Folleto de 23 pp. con la proclama de Trujillo del 16-VIII-1936 que anticipa «como un anticipo, mientras se hace la publicación total de esta gran obra» las primeras cifras del Censo Nacional (población, ocupaciones, estado civil) hecho por el Partido Dominicano. El PDF original (6,6 MB) devuelve 401, pero las dos copias de texto OCR (89b5aa19-… y 8d8b7f69-…) son públicas: el registro lo tenía como localizada-bloqueada.",
+   "extractos": [
+    {
+     "ubicacion": "sección «Censo de población» (l. 366-375 del txt de la copia 89b5aa19)",
+     "cita_original": "La República contaba, el día 13 de Mayo de 1935, con una población de 1.479.417 habitantes, de los cuales 1.406.347 son dominicanos y 73.070 extrangeros. [...] el total de extrangeros por 46.029 varones y 27.041 hembras.",
+     "traduccion": "Coincide exactamente con el cuadro 14 del resumen de 1950 (73.070 extranjeros: 46.029 varones y 27.041 mujeres): dos publicaciones de años y dependencias distintos con la misma cifra.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sección (l. 383-384 del txt)",
+     "cita_original": "Los extrangeros son: blancos, 7.992; mestizos, 4.248; negros, 60.517, y amarillos, 313.",
+     "traduccion": "Color de los extranjeros de 1935: 60.517 «negros» (82,8 % de 73.070; cálculo propio). Los 52.657 haitianos citados por otros no figuran; la diferencia con los «negros» sería de 7.860, probablemente antillanos no haitianos (deducción propia).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, ocupaciones (l. 456-474 del txt)",
+     "cita_original": "profesiones liberales, 4.243, de los cuales 3.744 son dominicanos y 499 extrangeros; agricultores, 871.053 [sic], de los cuales hay 357.180 dominicanos y 13.873 extrangeros; con diversos oficios hay 536.959, divididos en 491.404 dominicanos y 45.555 extrangeros; miembros de familia, 567.162, de los cuales [...] extrangeros 13.143.",
+     "traduccion": "Ocupación de los extranjeros de 1935: 499 profesionales, 13.873 agricultores, 45.555 en «diversos oficios» (62 % de los extranjeros) y 13.143 miembros de familia: suman 73.070. «871.053» es errata del impreso u OCR por 371.053 (357.180 + 13.873; y 4.243 + 371.053 + 536.959 + 567.162 = 1.479.417). La categoría «diversos oficios» no se define: no se puede identificar a los braceros azucareros.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-1358",
+   "notas": "Resuelve el acceso de F-1358 (el registro decía localizada-bloqueada; las copias de texto OCR son públicas). Ya estaba leída en M12.md; se añaden las ocupaciones y las comprobaciones cruzadas con el cuadro 14 del resumen de 1950. Sesgo: propaganda del régimen; se publica «como un anticipo» y no incluye nacionalidades. Las 12.395 y 14.129 bytes de las dos copias corresponden a OCR con ruido: cifras cotejadas por sumas, no con imagen."
+  }
+ ]
+}

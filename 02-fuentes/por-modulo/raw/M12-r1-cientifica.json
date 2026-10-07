@@ -1,0 +1,2033 @@
+{
+ "lente": "cientifica",
+ "modulo": "M12",
+ "ronda": 1,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 27,
+ "busquedas_pendientes": [
+  "Texto completo de Calder 1984 (The Impact of Intervention; ed. esp. Fundación Cultural Dominicana 1989/1998): el PDF de la ADH (academiadominicanahistoria.org.do/wp-content/uploads/2020/02/ImpactoIntervencion.pdf) es solo un índice de 41 KB; buscar copia en bibliotecas digitales dominicanas o en préstamo de archive.org",
+  "Renda, Taking Haiti (2001): archive.org takinghaiti00mary devolvió HTTP 500; probar préstamo o Google Books con site:",
+  "Del Castillo 1978/1984, La inmigración de braceros azucareros en la República Dominicana, 1900-1930 (Cuadernos del CENDIA 7): cuadro de braceros autorizados por zafra 1912-1928",
+  "Inoa, Orlando (2000), Azúcar: árabes, cocolos y haitianos: la prueba documental de braceros haitianos antes de 1916",
+  "León, David C. [1920] 1975, Primer Censo Nacional de la República Dominicana 1920 (UASD): tablas de nacionalidad por provincia y definición de «haitiano»",
+  "Segundo Censo Nacional 1935: tablas de nacionalidad (52.657 haitianos) y de las provincias fronterizas; el PDF de bd.bnphu.gob.do (BNPHU/138) exige autenticación",
+  "Texto de la Orden Ejecutiva 372 (dic. 1919) y de la ley de inmigración de 1912 (Gaceta Oficial; Colección de órdenes ejecutivas del Gobierno Militar, BNPHU/1361 devuelve 401)",
+  "Memorias de Agricultura e Inmigración 1916-18, 1923, 1927, 1928; Apuntes sobre inmigración (Vidal, 1926); Informe de la comisión de la Ley 77 (1925): todas en bd.bnphu.gob.do con PDF y texto en 401",
+  "Lozano, Wilfredo (1976), La dominación imperialista en la República Dominicana, 1900-1930: tablas de producción azucarera y de tierras",
+  "Millet, Kethly (1978), Les paysans haïtiens et l'occupation américaine d'Haïti, 1915-1930: cifras de cacos y de campesinos desplazados",
+  "FRUS 1922 vol. II docs. 402-437 (préstamo haitiano de 1922) e informes anuales del Receptor General de aduanas de Haití y de la RD, 1916-1930",
+  "Series de exportación de café y azúcar en OxLAD (oxlad.qeh.ox.ac.uk no respondió) y en Bulmer-Thomas (2012), The Economic History of the Caribbean since the Napoleonic Wars",
+  "Parte dominicana de las audiencias del Senado de 1921-22 (vol. 2, desde la l. ~83000 del djvu_txt): muertos civiles, testimonios de El Seibo",
+  "Cuba: Censo de 1919 (tabla de nacidos en Haití; el OCR de archive.org ajb5563.0001.001.umich.edu está ilegible en esa tabla) y Censo de 1931 original, para contrastar los 79.838 haitianos de Buell",
+  "Genética de poblaciones: Schurr et al. 2026 (Proyecto Genómico Dominicano; cris.unibe.edu.do devuelve 403 de Cloudflare) y cualquier estudio de ancestría por municipio fronterizo con fechado de mezcla del siglo XX",
+  "Folleto del Cuerpo de Marines sobre la ocupación de Haití (marines.mil y usmcu.edu devuelven 403 a curl)",
+  "Texto de la ley de inmigración de mayo de 1912 (Gaceta Oficial de 1912; una búsqueda en la web solo devolvió reseñas y la cita parcial de Diario Libre)",
+  "González Canalda 1996, Gavilleros, 1904-1924 (Ecos 5): se descargó pero solo aporta cronología sin conteos; el conteo de muertos depende de Calder 1984"
+ ],
+ "lagunas": [
+  "Genética de poblaciones y ADN antiguo: ninguna de las fuentes de la lente (Fernandes 2021, Nägele 2020, Sirak 2026, Moreno-Estrada 2013, Bryc 2010, D'Atanasio 2020, Schurr 2026) puede fechar ni medir la migración haitiana de 1915-1934: los modelos de mezcla que publican fechan el contacto en los siglos XV-XVIII; no hay estudio de ancestría por municipio fronterizo ni genómica dentro de Haití. No se incluyen fichas para no rellenar.",
+  "Arqueología, slavevoyages.org (la trata terminó en el siglo XIX), epidemiología de 1518, ecología y lingüística no tocan el módulo; solo series de deforestación de 1915-1934 habrían servido (no se buscaron).",
+  "No se localizó el texto del Primer Censo Nacional de 1920 (tablas de nacionalidad, instrucciones a enumeradores) ni las tablas de 1935 por nacionalidad: las 28.258 y 52.657 siguen sin fuente primaria leída; la segunda tiene como fuente solo secundarias (Báez, Corten, Montiel et al. vía Nova et Vetera).",
+  "El censo de 1920 da 894.665; Kelsey (1922) cita 894.587; el censo de 1950 reconoce inexactitud y una epidemia de viruela en el Este; Kelsey señala 3.000-4.000 trabajadores extranjeros de San Pedro de Macorís no incluidos. La cobertura de la frontera sigue sin evaluarse con datos primarios.",
+  "Muertos haitianos 1915-1920 con tres valores (2.250, 3.250 y 3.071) y sin recuento civil independiente; para la RD, 1.137 «muertos o heridos» (Marines) y 320 (Guardia Nacional) son recuentos de los ocupantes que no distinguen muertos de heridos; faltan cifras de víctimas civiles dominicanas.",
+  "Cifras de migración sin conciliar: emigración haitiana a Cuba 1915-1929 = 221.250 (Castor vía Báez) frente a ~200.000 (Casey), 114.459 entradas en 1921-1930 (estadística cubana vía Corten) y la serie anual de entradas legales de Buell; deportados de Cuba: 8.000 (Buell, hasta junio de 1934), casi 40.000 (Casey), 70.000 (Le Riverend vía Báez).",
+  "Presencia de braceros haitianos en la RD antes de 1916: Báez da 26 de 6.448 inmigrantes de 1915; Yunén resume que Inoa documenta braceros haitianos antes de 1916. No se leyó a Inoa ni las memorias oficiales (401).",
+  "No hay serie anual legible de producción de azúcar dominicana en toneladas 1916-1934; solo crecimiento por quinquenios (Martínez Moya) y porcentajes de participación (García Muñiz). Haití no tuvo censo hasta 1950: la población 1915-1934 va de 1,5 a 4 millones según la fuente, con 2 a 2,65 millones como núcleo.",
+  "Encuestas de actitudes (LAPOP, Latinobarómetro) y estadísticas modernas de deportación (OIM, DGM, CIDH) no pertenecen al periodo.",
+  "Portales con acceso denegado o sin respuesta: repositorio BNPHU (PDF 401), cris.unibe.edu.do (Cloudflare 403), marines.mil y usmcu.edu (403), assets.cambridge.org para el extracto de Cadeau (sin respuesta), oxlad.qeh.ox.ac.uk (sin respuesta), revistas UNPHU (403), repositorio FLACSO-Andes (403), UNAM Archipiélago (403)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "bandidos (Haití) / caco / gavillero (RD)",
+   "tradicion": "oficial-eeuu / haitiana / dominicana",
+   "nota": "Los partes de los Marines llaman «bandits» tanto a los cacos haitianos (insurgencia de 1915-1920, con jefes como Charlemagne Péralte) como a los gavilleros dominicanos del Este (1916-1922); las tradiciones nacionales los ven como resistencia campesina o patriótica (González Canalda los trata como movimiento campesino «pre-político»). Término cargado: usar «insurgentes rurales» y anotar cómo lo nombra cada fuente."
+  },
+  {
+   "termino": "cocolo",
+   "tradicion": "dominicana",
+   "nota": "Jornalero y artesano antillano anglófono (Antigua, St. Kitts, Tortola, etc.) llegado a los ingenios del Este desde 1893; desplazado por braceros haitianos desde finales de los años veinte. Término dominicano de origen incierto, a veces peyorativo; en la UNIA-ACL de San Pedro de Macorís se identificaban como «West Indians»."
+  },
+  {
+   "termino": "ocupación / intervención / gobierno militar (1915-1934 en Haití; 1916-1924 en la RD)",
+   "tradicion": "dominicana / haitiana / oficial-eeuu",
+   "nota": "Las fuentes estadounidenses dicen «intervention», «military government» (RD, 1916-1922) y «treaty services» (Haití); la tradición dominicana, «ocupación» o «intervención norteamericana»; la haitiana, «Occupation américaine». Haití firmó una convención en 1915 (ratificada el 11-XI-1915 bajo presión); la RD no tuvo tratado y el Gobierno Militar se proclamó en noviembre de 1916. Término descriptivo propuesto: «ocupación militar estadounidense», con las demás formas anotadas."
+  },
+  {
+   "termino": "bracero de color / «non-Caucasian bracero» (Orden Ejecutiva 372, 1919)",
+   "tradicion": "oficial-eeuu / dominicana",
+   "nota": "La Orden Ejecutiva 372 (dic. 1919) exige permiso individual de inmigración a todo «bracero de color» (H. L. Martínez 1994); Cadeau (2022) la lee como ley racializada que acabó clasificando a los haitianos étnicos como extranjeros. Es una categoría legal racial que no figura en el glosario."
+  },
+  {
+   "termino": "Receptoría de Aduanas / General Receivership",
+   "tradicion": "oficial-eeuu / dominicana / haitiana",
+   "nota": "Control estadounidense de los ingresos aduaneros (RD desde 1905-1907; Haití desde 1916-1917): en Haití, 50 % de los ingresos del comercio exterior al servicio de la deuda, 5 % a la administración aduanera y 45 % al gasto público (Morales Álvarez, sec. «Comportamiento del comercio exterior»). Los defensores lo llamaron asistencia financiera; los críticos, protectorado o «saqueo financiero» (Castor)."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Inquiry into Occupation and Administration of Haiti and Santo Domingo: Hearings before a Select Committee on Haiti and Santo Domingo, U.S. Senate, 67th Congress, 1st and 2nd sessions (S. Res. 112), 1921-1922",
+   "autor": "Estados Unidos, Senado, Select Committee on Haiti and Santo Domingo (pres. Medill McCormick)",
+   "anio": "1921-1922",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/inquiryintooccu00conggoog",
+   "urls_alternativas": [
+    "https://archive.org/details/inquiryintooccu00domigoog",
+    "https://archive.org/download/inquiryintooccu00conggoog/inquiryintooccu00conggoog_djvu.txt",
+    "https://archive.org/download/inquiryintooccu00domigoog/inquiryintooccu00domigoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Transcripción oficial de testimonios bajo juramento pero en una comisión política que buscaba responsabilidades, con OCR de Google a veces ilegible en el margen derecho.",
+   "proveniencia": "Audiencias del Senado de EE. UU. (octubre-noviembre de 1921 y 1922), convocadas por la resolución 112 tras las denuncias de atrocidades en Haití y la República Dominicana durante la campaña de Harding. Recogen declaraciones de mandos de Marines (Barnett, Lejeune, Russell), funcionarios del Gobierno Militar, civiles dominicanos y haitianos, y anexos con partes de operaciones. Las cifras de bajas son cifras de los propios mandos, no recuento independiente.",
+   "extractos": [
+    {
+     "ubicacion": "Testimonio del Brig. Gen. George Barnett, pp. 433-434; l. 37004 de inquiryintooccu00conggoog_djvu.txt",
+     "cita_original": "had made a mistake in addition, and instead of being 3,250 [...] there were 2,250 killed.",
+     "traduccion": "«Cometió un error de suma, y en vez de 3.250 hubo 2.250 muertos.» (Barnett explica por qué corrigió su informe a Daniels de 1920.)",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "Interrogatorio del Sr. Angell a Barnett, p. 451 (Barnett responde «Yes»; bajas propias «14 o 16»); l. 38634 de inquiryintooccu00conggoog_djvu.txt",
+     "cita_original": "casualties amounting to 2,250, I believe are the official figures?",
+     "traduccion": "«...bajas que ascienden a 2.250, creo que son las cifras oficiales?» (Barnett: «Sí»; marines y gendarmes: «una cifra muy pequeña», 14 o 16 en el pasaje.)",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Leídos solo los pasajes de bajas y la rectificación de Barnett (volumen 1: pp. 433-434 y 451; anexo del vol. 2 cerca de p. 1727). La parte dominicana de las audiencias (testimonios de El Seibo, Vicentico Evangelista, etc.; vol. 2 desde la l. ~83000 del djvu_txt) no se ha explotado para cifras: queda pendiente. Sesgo: audiencias de un comité hostil a la política de Wilson; los mandos tienen interés en minimizar. La cifra de 3.250 frente a 2.250 se discute en Schmidt 1971 (n. de p. 104) con otro recuento de 3.071."
+  },
+  {
+   "titulo": "FRUS 1930, vol. III, doc. 185 (838.00 Commission of Investigation/127): Report of the President's Commission for the Study and Review of Conditions in the Republic of Haiti (Forbes Commission), 26-III-1930",
+   "autor": "Estados Unidos, Comisión Forbes (W. Cameron Forbes, Henry P. Fletcher, Elie Vezina, James Kerney, William Allen White)",
+   "anio": "1930",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1930v03/d185",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1930v03.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial de una comisión presidencial con visita de 15 días; tiene datos útiles (porcentajes, plantilla) pero con sesgo favorable a la ocupación y sin anexos estadísticos en la edición FRUS.",
+   "proveniencia": "Informe a Hoover de la comisión nombrada el 7-II-1930 para decidir cuándo y cómo retirarse de Haití, redactado tras 15 días en el país y entrevistas con funcionarios del tratado y notables haitianos. Fue crítico en parte (admite que la ocupación no avanzó la educación) y recomendó retirada gradual hasta 1936. Los anexos con gráficos no están en FRUS.",
+   "extractos": [
+    {
+     "ubicacion": "Informe de la Comisión Forbes, sec. «Finances»",
+     "cita_original": "until 60 per cent of the revenues are [...] now expended under American supervision, including the Service of the Public Debt.",
+     "traduccion": "«...hasta que el 60 % de los ingresos se gasta ahora bajo supervisión estadounidense, incluido el servicio de la deuda pública.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. «Marines»",
+     "cita_original": "consisting, as it now [...] does, of about eight hundred officers and men",
+     "traduccion": "La Brigada de Marines en Haití, en marzo de 1930, constaba de unos ochocientos oficiales y soldados.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. «Law and Order»",
+     "cita_original": "There are now but 2 Haitian captains on duty with troops out of a total [...] of 23, 17 Haitian first lieutenants out of a total of 58",
+     "traduccion": "En 1930 la Gendarmería (Garde) tenía solo 2 capitanes haitianos de 23 con tropa y 17 primeros tenientes haitianos de 58: el mando seguía siendo estadounidense.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la Iglesia («dioceses with their respective populations»)",
+     "cita_original": "Archdiocese of Port au Prince [...] 942,700 [...] 453,000 [...] 628,000 [...] 475,000 [...] 153,490",
+     "traduccion": "Población por diócesis según las autoridades eclesiásticas: Puerto Príncipe 942.700; Cabo Haitiano 453.000; Los Cayos 628.000; Gonaïves 475.000; Port-de-Paix 153.490. Suma (cálculo propio): 2.652.190.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec.",
+     "cita_original": "These population statistics are based on the statistics [...] of births covering more than fifty years and are probably the most [...] accurate estimate available.",
+     "traduccion": "«Estas cifras se basan en las estadísticas de nacimientos de más de cincuenta años y son probablemente la estimación más precisa disponible.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Las cifras de población por diócesis son las de la Iglesia, de series de nacimientos de más de 50 años; la suma 2.652.190 es cálculo propio, no del informe. Los anexos (tablas de haitianización, series de ingresos) remiten a Latin American Series No. 2 del Departamento de Estado y no se leyeron."
+  },
+  {
+   "titulo": "FRUS 1920, vol. II, doc. 96 (839.00/2214): Acting Secretary of the Navy (Coontz) a Secretary of State, con extractos del informe trimestral del Gobernador Militar de Santo Domingo (Snowden), 1-IV-1920",
+   "autor": "Coontz, R. E.; Snowden, Thomas (gobernador militar)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://history.state.gov/historicaldocuments/frus1920v02/d96",
+   "urls_alternativas": [
+    "https://raw.githubusercontent.com/HistoryAtState/frus/master/volumes/frus1920v02.xml"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe oficial contemporáneo del propio gobernante militar, con cifras fiscales verificables en principio pero con propósito de justificar la continuación del Gobierno Militar.",
+   "proveniencia": "Informe trimestral del contraalmirante Snowden, gobernador militar (1919-1921), al Departamento de la Marina, transmitido al Departamento de Estado en junio de 1920. Es una autoevaluación en extractos (puntos 1-22 con elipsis) que pide diez años más de control estadounidense.",
+   "extractos": [
+    {
+     "ubicacion": "Informe trimestral del Gobernador Militar Snowden (1-IV-1920), párr. 4, en FRUS 1920 vol. II, doc. 96",
+     "cita_original": "The Customs collections for the three months ending March 31 were $1,661,000.00 as against $976,067.71 for the corresponding period of 1919",
+     "traduccion": "Recaudación aduanera del primer trimestre de 1920: 1.661.000 dólares, frente a 976.067,71 en el mismo periodo de 1919.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., párr. sobre educación",
+     "cita_original": "there are about 200,000 children in the country of school age, but we have so far provided for about 130,000",
+     "traduccion": "«...hay unos 200.000 niños en edad escolar en el país, pero hasta ahora hemos provisto lugar para unos 130.000.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., párr. sobre títulos de tierra",
+     "cita_original": "The only unusual feature of the remedy which will be adopted here is that the adjudication and registration are compulsory. [...] It is expected it will take about five years to complete the settlement of titles.",
+     "traduccion": "Ley de registro Torrens con adjudicación y registro obligatorios, tribunal central de tierras con dos jueces estadounidenses y uno dominicano; se prevén unos cinco años para fijar los títulos.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., párr. sobre la frontera",
+     "cita_original": "agreement has been made to submit the matter to the arbitration of His Holiness, The Pope",
+     "traduccion": "En 1919-1920 el Gobernador Militar y el presidente de Haití convinieron someter la cuestión de límites al arbitraje del Papa (voto plebiscitario dominicano de 1895).",
+     "afirmaciones": [
+      "A-161"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-161"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Solo extractos. Datos de aduanas del primer trimestre de 1920 y plan de registro Torrens (ley de julio de 1920). El pasaje sobre la frontera habla de «Haitian invasions» como causa del desorden de títulos: lenguaje de la fuente."
+  },
+  {
+   "titulo": "Santo Domingo: Its Past and Its Present Condition (folleto del Gobierno Militar, Ciudad de Santo Domingo, 1-I-1920)",
+   "autor": "República Dominicana, Gobierno Militar (Thomas Snowden)",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/santodomingoitsp00domi",
+   "urls_alternativas": [
+    "https://archive.org/stream/santodomingoitsp00domi/santodomingoitsp00domi_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Folleto oficial de autopromoción de la administración militar, con datos administrativos propios (inmigración, comercio) que no se pueden cotejar con otra fuente independiente.",
+   "proveniencia": "Preparado por miembros del Gobierno Militar estadounidense a comienzos de 1920 para presentar logros (escuelas, caminos, aduanas, inmigración registrada) ante el público y el Congreso. Los datos de inmigración vienen de la ficha de inmigración creada en noviembre de 1916.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «Immigration», p. 18; l. 1993 de santodomingoitsp00domi_djvu.txt",
+     "cita_original": "During the period from November 29, 1916, to October 31, [...] there has been a general movement of 10,617 immigrants, of [...] which 9,600 have been workmen for the sugar companies.",
+     "traduccion": "Entre el 29-XI-1916 y el 31-X-1919 hubo «un movimiento general de 10.617 inmigrantes», de los cuales 9.600 fueron trabajadores para las compañías azucareras (473 con permiso de permanencia).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 18; l. 1978 de santodomingoitsp00domi_djvu.txt",
+     "cita_original": "Prior to November, 1916, there was no accurate record made [...] of immigration.",
+     "traduccion": "«Antes de noviembre de 1916 no se llevaba un registro exacto de la inmigración.» El Gobierno Militar instaló un sistema de fichas y de inspectores de inmigración.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 18; l. 1981 de santodomingoitsp00domi_djvu.txt",
+     "cita_original": "There being insufficient workmen to harvest the sugar crops, permission was granted for the [...] entry of workmen from the neighboring islands",
+     "traduccion": "«Al no haber obreros suficientes para cosechar el azúcar, se concedió permiso para la entrada de trabajadores de las islas vecinas», con retorno obligado al terminar la zafra salvo permisos de permanencia.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre comercio exterior, p. 13; l. 783 de santodomingoitsp00domi_djvu.txt",
+     "cita_original": "in 1918 eighty-six per cent of imports came [...] from the United States, and eighty-one per cent of the exports went",
+     "traduccion": "En 1918, el 86 % de las importaciones procedía de EE. UU. y el 81 % de las exportaciones iba allí (83 % del comercio total).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cuadro «The Thirteen Principal Articles of Exports», 1918 y 1917 (el 1917 da 13.386.463 dólares y 59,61 %; página no determinada); l. 1533 de santodomingoitsp00domi_djvu.txt",
+     "cita_original": "Sugar, raw [...] 11,991,399 [...] 53.60",
+     "traduccion": "Azúcar crudo: 11.991.399 dólares en 1918, el 53,60 % del total exportado (alineación fila-cifra inferida del OCR; el total implícito, 22,4 millones, cuadra en ambos años).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159",
+    "A-163"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El djvu_txt de archive.org se descargó con HTTP 200 al inicio de la sesión y después devolvió 500 de forma intermitente; la ruta /stream/ responde 200. Los 10.617 inmigrantes de nov. 1916-oct. 1919 (9.600 braceros azucareros) no desglosan por origen; contrastar con los 10.124 permisos de residencia a haitianos en 1919-20 que cita Báez Evertsz (F-1327) y con los 900 braceros haitianos autorizados que cita Del Castillo. La alineación fila-cifra del cuadro de exportaciones se infirió del OCR."
+  },
+  {
+   "titulo": "Censo nacional: Proclama del Generalísimo Dr. Rafael Leonidas Trujillo Molina... (resultados del Censo de 1935), Ciudad Trujillo, 16-VIII-1936",
+   "autor": "República Dominicana, Presidencia (Rafael L. Trujillo); Editorial La Nación",
+   "anio": "1936",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/138",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/9c5c76bc-2f22-4545-8183-e508114e1aae",
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/8d8b7f69-3b91-4787-8e53-22584b302184/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primer resumen oficial del censo de 1935, difundido como proclama del dictador; los totales cuadran entre sí (suma de razas = nacionales y extranjeros) pero no hay método ni desglose por nacionalidad.",
+   "proveniencia": "Folleto de 23 pp. con la proclama de Trujillo del 16-VIII-1936, aniversario de la Restauración, que anticipa las primeras cifras del Censo Nacional (población, agrícola, pecuario, habitación, electoral) hecho por el Partido Dominicano a un costo declarado de 65.000 dólares. Es propaganda del régimen con datos oficiales. El PDF original del repositorio exige autenticación (401); se leyó la capa de texto OCR.",
+   "extractos": [
+    {
+     "ubicacion": "Proclama de Trujillo, «Censo de población» (16-VIII-1936), p. 13 del folleto",
+     "cita_original": "La República contaba, el día 13 de Mayo de 1935, con una población de 1.479.417 habitantes, de los cuales 1.406.347 son dominicanos y 73.070 extrangeros.",
+     "traduccion": "Población al 13-V-1935: 1.479.417; 1.406.347 dominicanos y 73.070 «extrangeros».",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec.",
+     "cita_original": "blancos, 184.741; mestizos, 994.420; negros, 227.160 [...] Los extrangeros son: blancos, 7.992; mestizos, 4.248; negros, 60.517",
+     "traduccion": "Dominicanos: 184.741 blancos, 994.420 mestizos, 227.160 negros, 26 amarillos. Extranjeros: 7.992 blancos, 4.248 mestizos, 60.517 negros, 313 amarillos. Suma de ambos (cálculo propio): 13,0 % blancos, 67,5 % mestizos, 19,4 % negros; la cifra de 52.657 haitianos no figura en este folleto.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cierre de la proclama",
+     "cita_original": "Aunque la publicación de los censos con todos sus [...] detalles no ha podido hacerse ahora",
+     "traduccion": "«Aunque la publicación de los censos con todos sus detalles no ha podido hacerse ahora...»: en 1936 solo se difundió un resumen con fines de propaganda del régimen; la categoría «haitiano» no está desglosada.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "",
+   "notas": "La fecha del OCR («1030»/«1990») se lee 1936 por los metadatos del repositorio. El folleto no desglosa haitianos: la cifra de 52.657 de 1935 no está aquí y debe verificarse en otra edición. Extranjeros negros 60.517 frente a 52.657 haitianos citados por otros: diferencia de unos 7.900 (probablemente cocolos y otros antillanos), cálculo y deducción propios. Citas con espaciado OCR normalizado."
+  },
+  {
+   "titulo": "Primer censo nacional (Instrucciones a los enumeradores, 31 pp.), 1920",
+   "autor": "República Dominicana, Secretaría de Estado de lo Interior y Policía, Dirección del Primer Censo Nacional",
+   "anio": "1920",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1938",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/5221ff87-3160-4190-8b6c-2e15987aa5af"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento primario de la propia oficina censal, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Instrucciones del Primer Censo Nacional, levantado el 24-XII-1920 bajo el Gobierno Militar (Orden Ejecutiva 552), con nombramientos de inspectores, subinspectores y enumeradores por provincia. Perteneció a la biblioteca de Martínez Boog. Es justo el documento que pide A-158 (definición de nacionalidad y cobertura de la zona fronteriza).",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem 5221ff87-3160-4190-8b6c-2e15987aa5af)",
+     "cita_original": "La Dirección del Primer Censo Nacional ha hecho los siguientes nombramientos en cada Provincia de la República.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura: pedir el PDF por otra vía (sala de la BNPHU o UASD). El resumen de la ficha dice: «La Dirección del Primer Censo Nacional ha hecho los siguientes nombramientos en cada Provincia de la República...». No se pudo leer la definición de «nacionalidad» ni de «haitiano». Los resultados del censo (UASD, reed. 1975, David C. León) tampoco se localizaron en texto."
+  },
+  {
+   "titulo": "Tercer censo nacional de población 1950: resumen general (introducción histórica y comparación con los censos de 1920 y 1935)",
+   "autor": "República Dominicana, Dirección General de Estadística",
+   "anio": "1953",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3281",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/bitstreams/0430a5ca-97e3-41e8-9a46-08a5357f4f3b/content"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tabulación oficial de la oficina censal que reconoce de forma expresa las limitaciones del censo de 1920; la capa de texto OCR deforma tildes y cuadros.",
+   "proveniencia": "Resumen publicado en Ciudad Trujillo en 1953 con cuadros comparativos de 1950, 1935 y 1920; incluye una introducción histórica de tono encomiástico al régimen que cita el prólogo del volumen de 1920. Ya registrada (F-1350) por otro agente; aquí se aportan los pasajes sobre la exactitud del censo de 1920.",
+   "extractos": [
+    {
+     "ubicacion": "Introducción histórica, p. xii (OCR con acentos corrompidos)",
+     "cita_original": "el 24 de diciembre, cuando se efectúa en el país el Primer Censo Nacional [...] durante la intervención americana",
+     "traduccion": "El censo de 1950 recuerda que el primer censo nacional se hizo «el 24 de diciembre [de 1920], durante la intervención americana».",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Introducción histórica (cita del prólogo de 1920)",
+     "cita_original": "carece de cierta exactitud [...] epidemia de viruelas",
+     "traduccion": "Reconoce que ese primer censo «carece de cierta exactitud» por la falta de recursos y de asesor técnico en la oficina central y por una epidemia de viruela que afectó al Este.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "Introducción histórica",
+     "cita_original": "894,665 habitantes",
+     "traduccion": "Total del censo de 1920: 894.665 habitantes.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158"
+   ],
+   "modulos": [
+    "M12",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-1350",
+   "notas": "Los cuadros de nacionalidad (cuadro 15) son ilegibles en el OCR. Citas con espaciado OCR normalizado y tildes restauradas donde el OCR las separó."
+  },
+  {
+   "titulo": "Monograph of the Republic of Haiti (compiled 1932)",
+   "autor": "Estados Unidos, Cuerpo de Marines, Intelligence Section, Division of Operations and Training",
+   "anio": "1932",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/MonographOfHaiti1932",
+   "urls_alternativas": [
+    "https://archive.org/download/MonographOfHaiti1932/MonographOfHaiti1932_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Manual de inteligencia militar sin metodología estadística y con OCR muy deteriorado; las cifras clave son ilegibles.",
+   "proveniencia": "Manual de planificación operativa del Cuerpo de Marines para Haití (marcado «for official use only»), actualizado hasta 1932, con descripción por departamentos militares, puertos, población estimada, analfabetismo y personalidades. Fue elaborado por oficiales sin base censal.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «General Description», «Population»; l. 3122 de MonographOfHaiti1932_djvu.txt",
+     "cita_original": "The population of Haiti is estimated at £,250,000.",
+     "traduccion": "«La población de Haití se estima en £.250.000» (el OCR ilegible de la primera cifra impide leer la cifra; los totales departamentales del mismo volumen, 275.000 en el Norte, sugieren del orden de 2 a 2,5 millones; no se usa como cifra).",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la Constitución, representación parlamentaria; l. 4296 de MonographOfHaiti1932_djvu.txt",
+     "cita_original": "Pending a census of the population",
+     "traduccion": "«A la espera de un censo de la población...»: el propio manual militar de 1932 confirma que no había censo.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La estimación general de población está en OCR ilegible (2.250.000 es lectura probable, [POR VERIFICAR]); dice que el 90 % de la población es analfabeta. Su valor aquí es mostrar que el propio Estado Mayor decía en 1932 que no había censo."
+  },
+  {
+   "titulo": "Problems of the New Cuba: Report of the Commission on Cuban Affairs (Foreign Policy Association), cap. «The Government and the Labor Question», sec. «The Haitian Deportations»",
+   "autor": "Buell, Raymond Leslie, et al. (Commission on Cuban Affairs)",
+   "anio": "1935",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/problemsofthenew027158mbp",
+   "urls_alternativas": [
+    "https://archive.org/download/problemsofthenew027158mbp/problemsofthenew027158mbp_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Informe de una comisión investigadora que cita las estadísticas oficiales cubanas de inmigración y el censo de 1931; el OCR deforma algunas cifras de columna.",
+   "proveniencia": "Informe de la Comisión de Asuntos Cubanos nombrada por la Foreign Policy Association a petición del Gobierno cubano; trabajo de campo en 1934, con datos de la Secretaría de Hacienda cubana (Inmigración y movimiento de pasajeros) hasta 1931 y datos inéditos de 1932-33. Es la mejor serie anual de entradas legales de haitianos a Cuba que he localizado.",
+   "extractos": [
+    {
+     "ubicacion": "cap. «The Government and the Labor Question», sec. 3 «The Haitian Deportations», p. 214; l. 13693 de problemsofthenew027158mbp_djvu.txt",
+     "cita_original": "During the administration of President Menocal, from 1913 to 1921, 75,000 Haitians and 76,000 [...] Jamaicans entered Cuba.",
+     "traduccion": "Durante la presidencia de Menocal (1913-1921) entraron en Cuba 75.000 haitianos y 76.000 jamaicanos.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., cuadro de entradas legales por año (fuente: Secretaría de Hacienda cubana, Inmigración y movimiento de pasajeros), p. 215; l. 13719 de problemsofthenew027158mbp_djvu.txt",
+     "cita_original": "1921 12,483 12,469 [...] 1922 639 4,455 [...] 1924 21,013 5,086 [...] 1925 18,750 4,747",
+     "traduccion": "Entradas legales de haitianos y jamaicanos en Cuba: 1921, 12.483 y 12.469; 1922, 639 y 4.455; 1924, 21.013 y 5.086; 1925, 18.750 y 4.747. La serie continúa: 1926, 12.346; 1927, 14.312; 1928, 14.353; 1929, 4.339; 1930, 5.126; 1931-1933, entre 8 y 22 por año.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 215; l. 13747 de problemsofthenew027158mbp_djvu.txt",
+     "cita_original": "the 1931 census revealed that Cuba as a whole had 79,838 Haitians and 40,471 Jamaicans",
+     "traduccion": "«...el censo de 1931 reveló que Cuba en conjunto tenía 79.838 haitianos y 40.471 jamaicanos», con entradas ilegales no contadas; el Departamento de Inmigración cubano estimaba cerca de 150.000 antillanos en total.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 216; l. 13793 de problemsofthenew027158mbp_djvu.txt",
+     "cita_original": "by June 1934 approximately 8,000 of these immi [...] grants had been sent out of the country.",
+     "traduccion": "A partir del decreto cubano del 19 de octubre de 1933, hacia junio de 1934 unos 8.000 de estos inmigrantes (sobre todo haitianos) habían sido expulsados del país.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La serie cuenta solo entradas legales; los autores admiten una gran inmigración ilegal. Contraste: la serie de «emigración haitiana a Cuba» de Castor (vía Báez Evertsz) da 17.600 (1921), 10.250 (1922), 20.100 (1923), 21.500 (1924), 23.000 (1925): no coincide con las entradas legales de Buell (12.483, 639, 11.088, 21.013, 18.750); son magnitudes distintas (salidas de Haití frente a entradas legales a Cuba) y no hay conciliación publicada. Cifras OCR dudosas: 1927 («14,3 12»), 1929 («4>339»)."
+  },
+  {
+   "titulo": "The Americans in Santo Domingo (Studies in American Imperialism, American Fund for Public Service)",
+   "autor": "Knight, Melvin M.",
+   "anio": "1928",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/americansinsanto0000melv",
+   "urls_alternativas": [
+    "https://archive.org/download/americansinsanto0000melv/americansinsanto0000melv_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio de un economista que vivió en el país hasta 1926 y reproduce cifras del Receptor General y del fisco dominicano, pero con tesis crítica del imperialismo y estimaciones propias sin método.",
+   "proveniencia": "Melvin M. Knight, economista de Berkeley, publicó este volumen en 1928 (Vanguard Press, serie dirigida por Harry Elmer Barnes y financiada por el American Fund for Public Service) tras una estancia en Santo Domingo hasta 1926. Tiene cuadros de ingenios por superficie y valor fiscal de 1925 y estimaciones de salarios y de inmigración haitiana. Edición dominicana de 1939 (Editora de Santo Domingo) citada por Báez y Martínez Moya.",
+   "extractos": [
+    {
+     "ubicacion": "cap. «Sugar—Industrial Feudalism», p. 158 (c. 1926); l. 7159 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "their 100,000 or so of annual Haitian visitors. This alien and undesired element is about a tenth of the population of the country.",
+     "traduccion": "«...sus unos 100.000 visitantes haitianos anuales. Este elemento extranjero e indeseado es alrededor de una décima parte de la población del país.» Estimación del autor, que residió en el país hasta 1926; no declara método.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 158; l. 7138 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "A Haitian day-laborer at home is paid 30 American [...] cents by the Public Works Department",
+     "traduccion": "«Un jornalero haitiano en su país cobra 30 centavos de dólar del Departamento de Obras Públicas, y de 20 a 30 fuera de ese empleo.»",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 157 (OCR: «go cents» = probable 90 centavos en La Romana); l. 7129 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "but not over 80 for the whole Republic",
+     "traduccion": "Estimación del autor de las ganancias diarias del trabajo a destajo no cualificado: hasta unos 90 centavos en La Romana y no más de 80 en toda la República.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 140; l. 6404 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "Sugar estates own something like a quarter of the best of this.",
+     "traduccion": "«Los ingenios poseen algo así como una cuarta parte de lo mejor de esto [la sexta parte de la superficie, habitada: costa y valles].» No «la cuarta parte de la superficie total».",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 139 (cuadro de 1925 por ingenio, valoración fiscal dominicana); l. 6379 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "Of the total of 438,182 acres, about 125,000 were [...] given by the tax estimate as in cane",
+     "traduccion": "Del total de 438.182 acres de los ingenios en 1925, unos 125.000 estaban en caña según la valoración fiscal; el Receptor General daba 146.903 acres cultivados.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 141 (año 1925); l. 6434 de americansinsanto0000melv_djvu.txt",
+     "cita_original": "Sugar, sugar cane and molasses to the value of $16,868,734, or [...] 63 percent of the total exports",
+     "traduccion": "Azúcar, caña y melaza sumaron 16.868.734 dólares, el 63 % de las exportaciones, en 1925.",
+     "afirmaciones": [
+      "A-157",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "El pasaje de «100.000 visitantes haitianos» es estimación personal; Báez Evertsz la usa como cifra «máxima» de 1925. Castor (1974) convierte lo que Knight dice de «una cuarta parte de lo mejor» del suelo habitado en «la cuarta parte de la superficie total del país»; con los datos de Knight (438.182 acres en 1925 frente a 12.000.000 de acres de superficie, 3,7 %), la lectura de Castor no se sostiene. OCR: «go cents» = probable 90 centavos."
+  },
+  {
+   "titulo": "The American Intervention in Haiti and the Dominican Republic (Annals of the American Academy of Political and Social Science, vol. 100, marzo de 1922; Publication No. 1596)",
+   "autor": "Kelsey, Carl",
+   "anio": "1922",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/cu31924104730076",
+   "urls_alternativas": [
+    "https://archive.org/download/cu31924104730076/cu31924104730076_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Informe de un sociólogo de la Universidad de Pensilvania basado en una visita de 1921, con cifras de segunda mano y tono paternalista, pero cercano en el tiempo.",
+   "proveniencia": "Carl Kelsey, profesor de sociología, fue Research Fellow de la Academia en 1921 y visitó ambas repúblicas; su informe se publicó como volumen de los Annals y se reimprimió. Describe población, razas, economía y administración con estimaciones oficiales de la época.",
+   "extractos": [
+    {
+     "ubicacion": "cap. I «The Haitians», «Population»; l. 760 de cu31924104730076_djvu.txt",
+     "cita_original": "No census has ever [...] ulation of Haiti is 2,000,000, or about",
+     "traduccion": "«Nunca se ha levantado un censo, pero la población estimada de Haití es de 2.000.000, unos 200 por milla cuadrada.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. sobre la República Dominicana, «Population»; l. 6420 de cu31924104730076_djvu.txt",
+     "cita_original": "The first census of the [...] Dominican Republic ever taken was [...] completed in the summer of 1921. [...] This showed a total population of [...] 894,587",
+     "traduccion": "El primer censo dominicano habría concluido en el verano de 1921 con 894.587 habitantes (el resultado oficial es 894.665; Kelsey no cita la fuente).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec.; l. 6435 de cu31924104730076_djvu.txt",
+     "cita_original": "three or four thousand should be added to allow [...] for foreign workers at San Pedro de Macoris. Why these were not included [...] is not stated.",
+     "traduccion": "«Se afirma que al total anterior habría que añadir tres o cuatro mil para los trabajadores extranjeros de San Pedro de Macorís. No se dice por qué no se incluyeron.» Nota contemporánea de subregistro en el censo de 1920.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Da 894.587 para el censo dominicano y lo llama «completado en el verano de 1921», frente a 894.665 y diciembre de 1920 en la fuente oficial: error de transcripción o de fecha de publicación; no se usa su cifra. Su nota sobre los 3.000-4.000 trabajadores extranjeros de San Pedro de Macorís no incluidos es la única observación contemporánea de subregistro que he hallado."
+  },
+  {
+   "titulo": "The Seizure of Haiti by the United States: A Report on the Military Occupation of the Republic of Haiti and the History of the Treaty Forced upon Her",
+   "autor": "Foreign Policy Association (comité de juristas: Bausman, F.; Henry, F. A.; Bettman, A.; Hess, J. S.; Brynes, W. H.; Holly, W. H.; et al.)",
+   "anio": "1922",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/seizureofhaitiby00newy",
+   "urls_alternativas": [
+    "https://archive.org/download/seizureofhaitiby00newy/seizureofhaitiby00newy_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Folleto de abogacía contra la ocupación, redactado por juristas sin trabajo de campo y sin método para sus cifras.",
+   "proveniencia": "Informe publicado por la Foreign Policy Association en 1922, avalado por una lista de juristas y activistas (Frankfurter, Storey, Burlingham, Chafee, Marshall, etc.), para pedir el retiro de EE. UU. de Haití. Se usa solo como contraste de la estimación de población.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «Relations between the United States and Haiti»; l. 180 de seizureofhaitiby00newy_djvu.txt",
+     "cita_original": "The population of Haiti is somewhat less than three million.",
+     "traduccion": "«La población de Haití es algo menor de tres millones.» Folleto de abogacía de una comisión de juristas (1922); sin método declarado.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La autoría exacta del texto no se pudo precisar; la portada lista un comité. Un solo dato aprovechable: «algo menos de tres millones»."
+  },
+  {
+   "titulo": "Le régime foncier en Haïti (tesis de doctorado, Faculté de Droit de Paris; prefacio del presidente Sténio Vincent)",
+   "autor": "Renaud, Raymond",
+   "anio": "1934",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/IA41550416_0001",
+   "urls_alternativas": [
+    "https://archive.org/download/IA41550416_0001/IA41550416_0001_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis jurídica de un jurista haitiano de la élite, escrita en 1934 con aval presidencial; reconoce de forma explícita que no hay censo y no oculta la ocupación.",
+   "proveniencia": "Raymond Renaud, jurista haitiano (Chevalier de l'Ordre national de l'Honneur et du Mérite d'Haïti), presentó la tesis en París en 1934 con prefacio del presidente Vincent. Trata la evolución de la propiedad de la tierra y menciona el control estadounidense de las finanzas públicas. Sesgo: élite urbana, interés en el cadastre y la titulación.",
+   "extractos": [
+    {
+     "ubicacion": "Ire partie, §3 «La Population»; l. 1379 de IA41550416_0001_djvu.txt",
+     "cita_original": "Faute de recensement sérieux et complet on ne peut [...] certifier quel est le total exact de La population [...] Les deux chiffres de quatre millions et un million et [...] demi d'habitants ont été avancés.",
+     "traduccion": "«A falta de un censo serio y completo no se puede certificar el total exacto de la población... Se han avanzado dos cifras: cuatro millones y un millón y medio de habitantes.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "tesis, cap. sobre la historia reciente de la propiedad y el Estado; l. 2624 de IA41550416_0001_djvu.txt",
+     "cita_original": "L'occupation américaine a entraîné, outre la présence [...] de troupes armées sur le territoire haïtien, un véritable con- [...] trôle sur les finances publiques",
+     "traduccion": "«La ocupación estadounidense implicó, además de la presencia de tropas armadas, un verdadero control sobre las finanzas públicas y la decapitación de todos los grandes servicios de la República.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Aporta el rango de población de la época: 1,5 millones a 4 millones, «sin censo serio». No da cifras de concesiones a compañías estadounidenses en el pasaje leído; queda pendiente leer sus capítulos sobre la legislación agraria de 1915-1930."
+  },
+  {
+   "titulo": "Marines in the Dominican Republic, 1916-1924 (Marine Corps Historical Reference Pamphlet)",
+   "autor": "Fuller, Stephen M.; Cosmas, Graham A.",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "oficial-eeuu",
+   "url": "https://archive.org/details/MarinesInTheDominicanRepublic",
+   "urls_alternativas": [
+    "https://archive.org/download/MarinesInTheDominicanRepublic/MarinesInTheDominicanRepublic_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Historia oficial redactada a partir de partes de operaciones, memorias y correspondencia de los marines; las cifras de «bandidos muertos» son recuentos de los propios mandos, no verificados.",
+   "proveniencia": "Capitán Stephen M. Fuller (USMCR) y Graham A. Cosmas, de la History and Museums Division del Cuerpo de Marines, 1974; texto a partir de fuentes primarias (partes oficiales, memorias, entrevistas). Escrito por la institución que ocupó el país: sesgo institucional pero sin retórica de propaganda.",
+   "extractos": [
+    {
+     "ubicacion": "cap. sobre la ocupación de 1919, p. 28; l. 1332 de MarinesInTheDominicanRepublic_djvu.txt",
+     "cita_original": "numbering 50 officers and 1,041 men [...] peak strength of about 3,000 officers and men",
+     "traduccion": "El 15.º Regimiento (50 oficiales y 1.041 hombres) llegó en febrero de 1919 y elevó la 2.ª Brigada a su máximo, unos 3.000 oficiales y soldados.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. sobre la lucha contra el bandolerismo, p. 41; l. 1901 de MarinesInTheDominicanRepublic_djvu.txt",
+     "cita_original": "467 bandit contacts in which they claimed 1,137 [...] bandits killed or wounded for a Marine loss of 20 killed [...] and 67 wounded.",
+     "traduccion": "Informe de mediados de 1922 del comandante de la 2.ª Brigada: desde 1916, 467 contactos con «bandidos», 1.137 «muertos o heridos» según los propios marines, a cambio de 20 marines muertos y 67 heridos.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. sobre la Guardia Nacional Dominicana, p. 46; l. 2091 de MarinesInTheDominicanRepublic_djvu.txt",
+     "cita_original": "fixed the strength of the GND at 88 commissioned officers and 1,200 enlisted men",
+     "traduccion": "El Gobernador Militar fijó la Guardia Nacional Dominicana en 88 oficiales y 1.200 alistados, bajo mando de un oficial marine.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. sobre la Guardia Nacional Dominicana, p. 48; l. 2171 de MarinesInTheDominicanRepublic_djvu.txt",
+     "cita_original": "Guardia sent out over 5,500 patrols and had 122 contacts with bandits in which it claimed 320 enemy killed or wounded.",
+     "traduccion": "Entre 1917 y 1921 la Guardia envió más de 5.500 patrullas y tuvo 122 contactos con bandidos, con 320 enemigos «muertos o heridos» según su propio recuento.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "La URL oficial de marines.mil (…/Marines in the Dominican Republic PCN 19000412600_1.pdf) devolvió 403 a curl y no se incluye como alternativa; se leyó la copia de archive.org (mismo folleto). El apéndice B (instrucción de reclutas de la Policía Nacional) está en tabla no legible en el OCR. Faltan cifras de víctimas civiles: el pamphlet no las da."
+  },
+  {
+   "titulo": "The United States Occupation of Haiti, 1915-1934",
+   "autor": "Schmidt, Hans",
+   "anio": "1971 (2.ª impr. 1995)",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/details/occupationofhaiti",
+   "urls_alternativas": [
+    "https://archive.org/download/occupationofhaiti/occupationofhaiti_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía académica de Rutgers UP, basada en archivos de los Marines y del Departamento de Estado, que contrasta cifras oficiales con los registros mensuales.",
+   "proveniencia": "Hans Schmidt (historiador, Rutgers), tesis de 1971 con archivos de NARA (RG 80, RG 38, Haiti MSS del Cuerpo de Marines) y las audiencias del Senado de 1921-22. Es la historia estándar de la ocupación en inglés; crítico de la ocupación, con prólogo de Solarz en la reimpresión de 1995.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 5, p. 103; l. 5289 de occupationofhaiti_djvu.txt",
+     "cita_original": "listing 1,861 Haitians killed in that year out of a total of 2,250",
+     "traduccion": "«...estadísticas oficiales del Cuerpo de Marines que registran 1.861 haitianos muertos en ese año de un total de 2.250 en los cinco primeros años de la ocupación.»",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, nota al pie, p. 104; l. 5345 de occupationofhaiti_djvu.txt",
+     "cita_original": "Earlier, Barnett had reported to Secretary Daniels that 3,250 Haitians had been [...] total 3,071 Haitians killed.",
+     "traduccion": "Nota de Schmidt: Barnett informó antes a Daniels de 3.250 haitianos muertos y en el Senado dijo que eran 2.250 por un error de suma; los registros del Cuerpo de Marines indican que 3.250 era correcto, y los partes mensuales de marzo de 1919 a noviembre de 1920 suman 3.071.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. 5, p. 103; l. 5284 de occupationofhaiti_djvu.txt",
+     "cita_original": "Russell estimated that Peralte had 2,000 “bandits” under his command in the fall of 1919 [...] while Peralte earlier claimed to have had 30,000 to 40,000 followers.",
+     "traduccion": "El comandante de la brigada (Russell) estimó que Péralte tenía 2.000 «bandidos» en otoño de 1919; Péralte afirmó antes tener de 30.000 a 40.000 seguidores.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. 9, p. 179; l. 9037 de occupationofhaiti_djvu.txt",
+     "cita_original": "maintained wage levels at the abysmally low rate of 20 cents per day",
+     "traduccion": "Las pocas plantaciones estadounidenses en Haití pagaban «niveles salariales abismalmente bajos, de 20 centavos por día».",
+     "afirmaciones": [
+      "A-157",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "cap. 8, p. 172 (el OCR dice «mid-1980s»: errata evidente por mediados de los años veinte); l. 8738 de occupationofhaiti_djvu.txt",
+     "cita_original": "to $8.7 million in 1929 and HASCO was employing over 1,000 men",
+     "traduccion": "Las inversiones azucareras estadounidenses en Haití pasaron de 7 a 8,7 millones de dólares entre 1919 y 1929; HASCO empleaba más de 1.000 hombres.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "cap. 10, p. 197; l. 9868 de occupationofhaiti_djvu.txt",
+     "cita_original": "the restriction of migrant labor emigration to Cuba",
+     "traduccion": "Schmidt cuenta entre los factores de la tensión de 1929 la mala cosecha de café de 1928, el hundimiento del mercado en 1929 y «la restricción de la emigración laboral a Cuba».",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Discute con documentos la rectificación de Barnett (3.250 → 2.250) y da 3.071 sumando los partes mensuales de marzo de 1919 a noviembre de 1920. El OCR dice «mid-1980s» donde debe leer «mid-1920s». No cubre la migración haitiana a la República Dominicana."
+  },
+  {
+   "titulo": "Braceros haitianos en la República Dominicana (3.ª ed., colección «Clásicos de la Migración Dominicana»)",
+   "autor": "Báez Evertsz, Franc",
+   "anio": "1985 (3.ª ed. 2022)",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://inm.panel-dev-pys.ogtic.gob.do/wp-content/uploads/2024/07/Braceros_coleccion-migratoria_6x9_web.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía con aparato crítico que da cada serie con su fuente; los cuadros mezclan censos y estimaciones de autores con intereses distintos y tienen erratas de transcripción.",
+   "proveniencia": "Franc Báez Evertsz, sociólogo dominicano; estudio de economía política de la migración haitiana publicado en 1985 y reeditado por el Instituto Nacional de Migración y Banreservas (2022). Usa censos, boletines estadísticos haitianos, Del Castillo (1978), Castor (1971) y otros.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 3, §3.4, Cuadro 3.4.2, p. 214",
+     "cita_original": "Cuadro 3.4.2. Evaluación mínima y máxima del total de inmigrantes haitianos en la República Dominicana: 1920-1980 [...] 28,258 52,657 18,772 29,350 19,065 [...] 100,000h 400,000i 60,000j 81,000k 200,000l 400,000m",
+     "traduccion": "Serie mínima (censos): 28.258 (1920), 52.657 (1935), 18.772 (1950), 29.350 (1960), 19.065 (1970). Serie máxima (estimaciones de autores): 100.000 en 1925 (Knight), 400.000 en 1935 (carta de Balaguer de 1945), 60.000 en 1938 (Romain), 81.000 en 1943 (Jimenes Grullón), 200.000 en 1968, 400.000 en 1979.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cap. 3, §3.4, p. 213",
+     "cita_original": "Las cifras proporcionadas por los censos de la población de 1920, 1935, 1950, 1960 y 1970 subvaloran la importancia de esta inmigración al incluir solo la fracción de migrantes legales",
+     "traduccion": "Báez Evertsz sostiene que los censos subvaloran esta inmigración porque solo cuentan la fracción legal; la razón entre cifra oficial y estimación va de 1 a 2 hasta 1 a 8.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cap. 3, §3.4, p. 218",
+     "cita_original": "de los 6,448 inmigrantes que ingresaron a Dominicana en 1915, según el informe de José R. López, solo 26 eran haitianos [...] fueron concedidos a haitianos 10,124 de un total de 22,121",
+     "traduccion": "De los 6.448 inmigrantes de 1915 solo 26 eran haitianos (informe de José R. López); de los permisos de residencia para braceros de 1919-20, 10.124 de 22.121 fueron a haitianos (Del Castillo, p. 35).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "cap. 3, §3.4, p. 218",
+     "cita_original": "Según el censo de 1920, el 84 % del total consignado estaba distribuido en: Montecristi (10,907), Barahona (4,447), Azua (4,495), San Pedro de Macoris (1,951) y El Seibo (1,711)",
+     "traduccion": "Según el censo de 1920, el 84 % de los 28.258 haitianos estaba en Montecristi (10.907), Barahona (4.447), Azua (4.495), San Pedro de Macorís (1.951) y El Seibo (1.711). Suma de las cinco cifras (cálculo propio): 23.511, es decir 83,2 %.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "cap. 3, §3.4, p. 218",
+     "cita_original": "1919-20: 900 (17.4 % del total), 1920-21: 1,400 (21.5 %), 1925-26: 1,000 (13.8 %)",
+     "traduccion": "Braceros haitianos autorizados por zafra (cuadro de Del Castillo): 900 (17,4 % del total) en 1919-20; 1.400 (21,5 %) en 1920-21; 1.000 (13,8 %) en 1925-26. Cifras incompatibles con los 10.124 permisos de residencia de la misma zafra: son series distintas (autorizaciones colectivas frente a permisos individuales).",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "cap. 2, §2.2, Cuadro 2.2.2, p. 74 (fuentes: Guerra 1970 para 1912; Castor 1971, p. 83, para 1915-29)",
+     "cita_original": "Cuadro 2.2.2. Emigración haitiana a Cuba: 1912-1929 [...] 1,400 23,300 4,900 10,200 11,300 7,300 30,700 17,600 10,250 20,100 21,500 23,000 21,600 14,000 5,500",
+     "traduccion": "Emigrantes haitianos a Cuba: 1.400 (1912); 23.300 (1915); 4.900 (1916); 10.200 (1917); 11.300 (1918); 7.300 (1919); 30.700 (1920); 17.600 (1921); 10.250 (1922); 20.100 (1923); 21.500 (1924); 23.000 (1925); 21.600 (1926); 14.000 (1927); 5.500 (1928-29). Suma de 1915-1929 (cálculo propio): 221.250. Posible desfase de columnas en la transcripción de 1915 (23.300).",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "cap. 2, §2.2, p. 75",
+     "cita_original": "Cuba no solo cerró las compuertas de la inmigración haitiana, sino que expulsó a unos 70,000 migrantes laborales haitianos",
+     "traduccion": "«Cuba no solo cerró las compuertas de la inmigración haitiana, sino que expulsó a unos 70.000 migrantes laborales haitianos» (años treinta; fuente: Le Riverend 1974).",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M13",
+    "M14"
+   ],
+   "id_existente": "F-1327",
+   "notas": "Ya registrada; aquí se aportan los cuadros 3.4.2 (series mínima y máxima 1920-1980) y 2.2.2 (emigración a Cuba) con sus fuentes. El cuadro 2.2.2 tiene probable desfase de columnas en 1915 (23.300) respecto de 1916 (4.900). La suma de las cinco provincias de 1920 (23.511) da 83,2 %, no 84 %. Los 900 braceros haitianos de 1919-20 (Del Castillo, cuadro de autorizaciones) y los 10.124 permisos de residencia del mismo año (Del Castillo, p. 35) son series distintas; no se concilian en la fuente. Cifra «máxima» de 400.000 en 1935 procede de una carta de Balaguer de 1945 (interés político)."
+  },
+  {
+   "titulo": "El impacto de la ocupación norteamericana en Haití (1915-1934) y en la República Dominicana (1916-1924), en Política y sociología en Haití y la República Dominicana (UNAM, 1974)",
+   "autor": "Castor, Suzy",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://ru.iis.sociales.unam.mx/bitstream/IIS/6013/2/04PoliticaYSociologiaEnHaitiYLaRepublicaDominicana.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ponencia de una historiadora marxista haitiana apoyada en Knight, Bosch y Millet, con cifras de segunda mano que a veces desvirtúan la fuente; no cita base para varias cifras.",
+   "proveniencia": "Suzy Castor, historiadora haitiana, ponencia del coloquio de México de 1971 (UNAM), síntesis de su libro «La ocupación norteamericana de Haití y sus consecuencias, 1915-1934» (1971). El volumen reúne también el capítulo de Corten.",
+   "extractos": [
+    {
+     "ubicacion": "cap. «El impacto de la ocupación norteamericana», B.1 «El desarrollo de la plantación», p. 55",
+     "cita_original": "De 1915 a 1930, por lo menos 33 disposiciones legislativas agrarias fueron adoptadas para favorecer la instalación de las grandes compañías.",
+     "traduccion": "Castor: de 1915 a 1930 se adoptaron al menos 33 disposiciones agrarias en Haití para favorecer a las grandes compañías.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 56 (la afirmación sobre «la cuarta parte de la superficie total» no lleva fuente directa; cf. Knight, p. 140)",
+     "cita_original": "la cuarta parte de la superficie total del país pertenecía a las empresas azucareras. [...] concedidas a compañías norteamericanas, durante la ocupación, más de 100 mil hectáreas",
+     "traduccion": "Castor: al terminar la ocupación dominicana (1925) «la cuarta parte de la superficie total del país pertenecía a las empresas azucareras»; en Haití se concedieron a compañías estadounidenses más de 100.000 hectáreas, de las que en 1934 quedaban dos plantaciones con 60.000. Knight (1928) habla de «una cuarta parte de lo mejor» del suelo habitado, que es otra magnitud.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., nota 27 (c. p. 60)",
+     "cita_original": "entonces unos dos millones de habitantes",
+     "traduccion": "Nota 27 de Castor: la población haitiana era entonces de «unos dos millones de habitantes» y la dominicana de alrededor de un millón.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-1499",
+   "notas": "Ya registrada; aquí se añaden tres cifras. «La cuarta parte de la superficie total del país» en manos azucareras (1925) debe compararse con Knight (1928, p. 140), que habla de una cuarta parte de lo mejor del suelo habitado; no tiene base trazable en Castor. Las 100.000 hectáreas concedidas en Haití y los 60.000 que quedaban en 1934 son de Castor, [POR VERIFICAR] en fuentes primarias."
+  },
+  {
+   "titulo": "Migraciones e intereses de clases (André Corten, trad. de Rocío Cudoso Beltrán), en Política y sociología en Haití y la República Dominicana (UNAM, 1974)",
+   "autor": "Corten, André",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://ru.iis.sociales.unam.mx/bitstream/IIS/6013/2/04PoliticaYSociologiaEnHaitiYLaRepublicaDominicana.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo de un sociólogo marxista que compila estimaciones de varios autores con sus fuentes; el cuadro tiene fechas y celdas deterioradas por el OCR.",
+   "proveniencia": "André Corten, sociólogo (Université du Québec à Montréal), capítulo «Migrations et intérêts de classes» traducido para el volumen de la UNAM de 1974, en el mismo PDF que el capítulo de Castor (F-1499). Hace un inventario de estimaciones del número de haitianos en la RD de 1884 a 1950 y un análisis de la emigración clandestina.",
+   "extractos": [
+    {
+     "ubicacion": "cap. de A. Corten «Migraciones e intereses de clases», sec. I, nota 1, p. 66",
+     "cita_original": "de 79 838 y, según las estadísticas de migración, la corriente migratoria fue de 1921 a 1930 de cerca de 114 459 haitianos",
+     "traduccion": "Nota de Corten: censo cubano de 1931, 79.838 haitianos; estadísticas de migración 1921-1930, cerca de 114.459 haitianos; Paul (1961) estima entre 300.000 y 400.000 salidas oficiales o clandestinas entre 1915 y 1930 y 70.000 haitianos residentes en Cuba en 1920.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., cuadro de estimaciones (Hostos 1884; censo 1920; Knight 1925; censo 1935; ...), p. 67",
+     "cita_original": "28 258 haitianos residen oficialmente en la República [...] 52 657 haitianos residen",
+     "traduccion": "Cuadro de Corten: 28.258 haitianos residentes oficialmente (censo de 1920); 100.000 legal o ilegalmente (Knight, 1925); 52.657 (censo de 1935).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 67",
+     "cita_original": "sólo registra 9 129 haitianos en las provincias fronterizas",
+     "traduccion": "En el cuadro de Corten se señala que, frente a por lo menos 12.000 víctimas de 1937, el censo «solo registra 9.129 haitianos en las provincias fronterizas» (fecha y definición de esa cifra por verificar).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M14"
+   ],
+   "id_existente": "",
+   "notas": "Distinto de Corten y Duarte, «Quinientos mil haitianos en República Dominicana» (F-1100). Las estimaciones de Paul 1961 sobre Cuba (70.000 en 1920; 300.000-400.000 salidas 1915-1930) y la nota de Cuba 1931 (79.838) tienen su fuente en notas con OCR parcialmente ilegible. La cifra de 9.129 haitianos en provincias fronterizas, con fecha y definición no precisadas, [POR VERIFICAR]."
+  },
+  {
+   "titulo": "La fuerza de trabajo en el proceso de modernización de la industria azucarera dominicana: caso de San Pedro de Macorís (Ecos, UASD, año 2, n.º 3, pp. 111-125)",
+   "autor": "Martínez, Héctor Luis",
+   "anio": "1994",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://revistas.uasd.edu.do/index.php/ecos/article/download/50/62/68",
+   "urls_alternativas": [
+    "https://doi.org/10.51274/ecos.v2i3.pp111-125"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo con apoyo en memorias de gobernadores y de Interior y Policía del AGN y prensa local; la fuente de la Orden Ejecutiva 372 es una memoria oficial de 1928 y no el texto de la orden.",
+   "proveniencia": "Héctor Luis Martínez, historiador de la UASD, estudio del mercado laboral azucarero de San Pedro de Macorís de 1880 a 1930, con base en memorias de gobernadores (AGN, Interior y Policía, leg. 72) y de Agricultura e Inmigración (1919, 1928). Escribe en el marco de Del Castillo (1977).",
+   "extractos": [
+    {
+     "ubicacion": "sec. sobre la inmigración «cocola», pp. 122-123",
+     "cita_original": "La orden ejecutiva número 372, dictada en diciembre de 1919 [...] sin permiso de inmigración individual.",
+     "traduccion": "La Orden Ejecutiva n.º 372 (diciembre de 1919): «Ningún bracero de color puede encontrarse en el país sin permiso de inmigración individual.»",
+     "afirmaciones": [
+      "A-160",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 123 (cita de la Memoria de Agricultura e Inmigración de 1928)",
+     "cita_original": "no prosperó por carencia de personal y medios de transporte",
+     "traduccion": "Según la Memoria de Agricultura e Inmigración de 1928, esa medida «no prosperó por carencia de personal y medios de transporte» para deportar a los inmigrantes indeseables y por falta de una policía de inmigración.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la inmigración «cocola», p. 119 (Memoria de Interior y Policía de 1909)",
+     "cita_original": "de 3 a 4 mil cocolos entraban al país a comienzos de cada zafra",
+     "traduccion": "En 1909 entraban de 3.000 a 4.000 cocolos al comienzo de cada zafra: antes de la ocupación la mano de obra importada era antillana anglófona, no haitiana.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 122",
+     "cita_original": "mayor repudio a partir del año 1916",
+     "traduccion": "El trabajador inmigrante, sobre todo el de las posesiones inglesas, recibió desde 1916 un mayor repudio, con apresamientos, maltratos y a veces asesinatos a cargo de la seguridad de los ingenios y de militares.",
+     "afirmaciones": [
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-159",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-1934",
+   "notas": "Ya registrada; aporta la cita de la Orden Ejecutiva 372 (dic. de 1919) y su ineficacia, que enlaza con Cadeau 2022 (cap. 1). El texto citado de la orden parece venir de la Memoria de Agricultura e Inmigración, no de la Gaceta Oficial; el texto original de la orden queda pendiente."
+  },
+  {
+   "titulo": "La inmigración española en la República Dominicana en el tránsito de los siglos XIX-XX (Estudios Sociales, vol. 34, n.º 123)",
+   "autor": "Romero Valiente, Juan Manuel",
+   "anio": "2001",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/240/226/455",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Estudio de un historiador de la Universidad de Huelva con fuentes consulares españolas y memorias dominicanas de 1927-1931, de alcance limitado por la documentación conservada.",
+   "proveniencia": "Juan Manuel Romero Valiente (Universidad de Huelva), ponencia del Congreso de la ADEH (Logroño, 1998), publicada en Estudios Sociales 123 (2001). Reconstruye la inmigración española a la RD en 1880-1930 con censos, registros de extranjeros y memorias consulares; recoge el intento dominicano de 1927 de traer 1.000 familias.",
+   "extractos": [
+    {
+     "ubicacion": "sec. sobre la colonización de los años veinte, p. 56 (Memoria de Agricultura de 1927)",
+     "cita_original": "traer durante el año 1927 hasta 1.000 familias españolas",
+     "traduccion": "El Gobierno dominicano quería traer en 1927 hasta 1.000 familias españolas con 100 tareas de tierra cada una.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 57",
+     "cita_original": "sólo aproximadamente un centenar de españoles residían en las colonias agrícolas estatales",
+     "traduccion": "El resultado: hacia 1927 solo unos cien españoles residían en las colonias agrícolas estatales; en 1930 la mayoría había desaparecido de ellas.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 56 (folleto «Informaciones para emigrantes», Ministerio de Trabajo español, 1928)",
+     "cita_original": "como jornalero contaba con la gran competencia de la población negra, más abundante y peor retribuida",
+     "traduccion": "El Ministerio de Trabajo español advertía en 1928 a los emigrantes que como jornaleros competirían con «la población negra, más abundante y peor retribuida».",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la ocupación estadounidense y la inmigración española, p. 53",
+     "cita_original": "En 1919 la Secretaría de Estado de Agricultura e Inmigración de la República Dominicana envió un agente a España",
+     "traduccion": "En 1919 el Gobierno dominicano (bajo el Gobierno Militar) envió un agente a España para reclutar inmigrantes españoles; Romero lo liga a la expansión azucarera hacia el interior.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "introducción, p. 47 (datos del censo de 1920)",
+     "cita_original": "representaba el 0,16% de la población total del país [...] el 2,9% de los residentes extranjeros",
+     "traduccion": "La colonia española en 1920 era el 0,16 % de la población total y el 2,9 % de los residentes extranjeros.",
+     "afirmaciones": [
+      "A-163",
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-163",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Útil para A-163 por los números de la política de colonos blancos de los años veinte (plan de 1.000 familias, ~100 colonos efectivos, fracaso hacia 1930). La ley de inmigración de 1912 sigue [POR VERIFICAR]: este artículo no la cita en los pasajes leídos."
+  },
+  {
+   "titulo": "Aporte de los braceros al desarrollo azucarero dominicano, 1900-1930 (Clío, año 79, n.º 179, pp. 133-200)",
+   "autor": "Martínez Moya, Arturo",
+   "anio": "2010",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2010-179-133-200.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Capítulo de tesis doctoral (Sevilla, 2010) con series reconstruidas de fuentes primarias (Reporte de la Receptoría de Aduanas, nóminas del Angelina y Cristóbal Colón) y método econométrico explícito; las tablas son ilegibles en el OCR y los datos de base están «disponibles a solicitud».",
+   "proveniencia": "Arturo Martínez Moya (licenciado en Economía y doctor en Historia, Universidad de Sevilla, miembro de la ADEH), estudio publicado por la Academia Dominicana de la Historia. Parte de datos de los ingenios Angelina y Cristóbal Colón (Casa Vicini) y de los informes de la Receptoría de Aduanas para reconstruir población, jornal, nómina y producción de azúcar 1900-1930.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «Población e ingresos»",
+     "cita_original": "que reporto 894,665 personas",
+     "traduccion": "Parte del censo de 1920, «un punto de referencia obligatorio», 894.665 personas, e interpola con estimaciones de 457.000 (1908), 638.000 (1918) y 794.432 (1919).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "sec. «Población e ingresos», comentario al Gráfico 1",
+     "cita_original": "sugiriendo que la flotante, compuesta por inmigrantes de Haiti y de las islas del Caribe, definieron la poblacion dominicana en la decada de 1920",
+     "traduccion": "Observa un quiebre de la curva de población en 1919 que sugiere que la población flotante de inmigrantes de Haití y de las islas del Caribe definió el crecimiento demográfico de los años veinte.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "sec. «Industria azucarera: trabajadores», comentario al Cuadro 4",
+     "cita_original": "El porcentaje de trabajadores importados con relacion al total, en los quinquenios 1915116 a 1919120 y 1925126 a 1929130, con seis y cuatro puntos porcentuales superan [...] el promedio de 30 por ciento.",
+     "traduccion": "Porcentaje de trabajadores extranjeros en la industria azucarera: 36 % en 1915/16-1919/20 y 34 % en 1925/26-1929/30, frente a un promedio de 30 %. Cuadro 4 (promedio de trabajadores por zafra): 13.795 (1915-20), 17.577 (1920-25), 25.572 (1925-30); extranjeros por zafra: 5.023, 4.145 y 8.759.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la entrada de braceros, comentario al Cuadro 3 (datos básicos de Lluberes Navarro)",
+     "cita_original": "los de origen haitiano representaron 7,30 y 48 por ciento",
+     "traduccion": "De los braceros ingresados, los de origen haitiano fueron en promedio el 7 %, el 30 % y el 48 % en los tres quinquenios del cuadro (1912/13-1916/17, 1917/18-1921/22, 1922/23-1926/27). Las columnas del cuadro no son legibles en el OCR.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "nota 6 (datos del Reporte Anual de la Receptoría de Aduanas, 1900-1930)",
+     "cita_original": "crecio a una tasa media anual de 2.82 por ciento [...] 13.70por ciento [...] 0.988por ciento",
+     "traduccion": "Crecimiento medio anual de la zafra azucarera: 2,82 % (1899/1900-1907/08); 12,9 % (1908/09-1917/18); 13,70 % (1918/19-1924/25); 0,988 % (1925/26-1929/30). Toda la serie: 7,2 % anual.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. «Salario nominal»",
+     "cita_original": "con un jornal promedio diario de 60 centavos [...] 80 centavos para la zafra 1919/20 [...] 40 centavos para la zafra 1929/30",
+     "traduccion": "Jornal diario en los ingenios: 60 centavos (1914/15-1916/17), 80 (1919/20), 60,51 (1920/21), 75 (1921/22), 60 (1927/28), 40 (1929/30). El salario real habría caído 6,5 % anual de 1900 a 1930 (cálculo del autor).",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "Las cuadros 3 y 4 (braceros y trabajadores extranjeros por quinquenio) tienen OCR defectuoso; las cifras citadas se reconstruyeron de columnas y del texto de comentario (36 % y 34 % de extranjeros). No distingue siempre origen haitiano/cocolo; solo da 7 %, 30 % y 48 % de haitianos entre los braceros ingresados en tres quinquenios (1912/13-1916/17, 1917/18-1921/22, 1922/23-1926/27) según los datos de Lluberes Navarro. Apéndice de la tesis (PIB, población) no consultado."
+  },
+  {
+   "titulo": "Garveyismo y racismo en el Caribe: el caso de la población cocola en la República Dominicana (Clío, n.º 168, pp. 119-202)",
+   "autor": "García Muñiz, Humberto; Giovannetti, Jorge L.",
+   "anio": "2004",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/ppcodice/CLIO-2004-168-119-202.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo académico del Instituto de Estudios del Caribe (UPR) con aparato crítico y uso directo del censo de 1920 (León [1920] 1975).",
+   "proveniencia": "Humberto García Muñiz (Instituto de Estudios del Caribe, Universidad de Puerto Rico) y Jorge L. Giovannetti, sobre la población cocola y la UNIA-ACL en San Pedro de Macorís hacia 1919-1930. Citan las tablas del Primer Censo Nacional de 1920.",
+   "extractos": [
+    {
+     "ubicacion": "sec. sobre San Pedro de Macorís y el censo de 1920, pp. 127-128 (cita a León [1920] 1975)",
+     "cita_original": "alcanzaba unos 37,451 habitantes, o 4.2% de la población total del país [...] unos 28,258 {75%) eran haitianos y 9,191 (25%)",
+     "traduccion": "En 1920 la población «de color» caribeña era de 37.451 personas (4,2 % del total): 28.258 (75 %) haitianos y 9.191 (25 %) del resto del Caribe no hispanohablante.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 128",
+     "cita_original": "Los haitianos en San Pedro de Macorís llegaban sólo al 5% de la población",
+     "traduccion": "En San Pedro de Macorís los haitianos eran solo el 5 % de la población y los demás inmigrantes «de color» el 15 %; los cocolos superaban a los haitianos solo en San Pedro de Macorís y Samaná (censo de 1920).",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 127",
+     "cita_original": "En los años 1919, 1920 y 1921 la ciudad de San Pedro de Macorís fue el puerto de entrada del 48% de los inmigrantes que desembarcaron en el país",
+     "traduccion": "En 1919-1921 el puerto de San Pedro de Macorís recibió el 48 % de los inmigrantes que desembarcaron en el país, de los que el 76 % era «de color» según la clasificación censal.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Cifras de 1920 por origen: 28.258 haitianos; 9.191 del resto del Caribe no hispanohablante; 5.666 en San Pedro de Macorís (3.615 británicas, 1.498 holandesas, 732 francesas, 552 danesas). Conviene cotejar con León [1920] 1975, que no se localizó en texto."
+  },
+  {
+   "titulo": "La plantación que no se repite: las historias azucareras de la República Dominicana y Puerto Rico, 1870-1930 (Revista de Indias, vol. 65, n.º 233, pp. 173-192)",
+   "autor": "García Muñiz, Humberto",
+   "anio": "2005",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://revistadeindias.revistas.csic.es/index.php/revistadeindias/article/download/380/449/866",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de revista arbitrada (CSIC) con gráfico de producción de la FAO y citas a documentos del Departamento de Estado; las cifras de participación estadounidense vienen de Lluveras (1982) y Gilmore (1930).",
+   "proveniencia": "Humberto García Muñiz (Instituto de Estudios del Caribe, UPR), análisis comparativo de la industria azucarera dominicana y puertorriqueña 1870-1930. Cita el informe del Departamento de Estado de 1926 sobre la penetración fronteriza y la participación estadounidense en la producción de azúcar.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «El capital financiero y la inmigración haitiana», p. 187",
+     "cita_original": "En 1920 las compañías estadounidenses en la República Dominicana producían el 65% del azúcar del país, un 13% más que 1910.",
+     "traduccion": "En 1920 las compañías estadounidenses producían el 65 % del azúcar dominicano (13 puntos más que en 1910); en 1930, el 91 %.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 188 (cita del Departamento de Estado, 1926)",
+     "cita_original": "La penetración a través de la frontera es constante y la cantidad al presente se sabe que es superior a los 60.000 y quizás alcance los 100.000",
+     "traduccion": "«La penetración a través de la frontera es constante y la cantidad al presente se sabe que es superior a los 60.000 y quizás alcance los 100.000 [inmigrantes].» Estimación del Departamento de Estado de 1926 citada por García Muñiz; sin método.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., p. 187",
+     "cita_original": "En 1926 la Central Romana se convirtió en la mayor terrateniente de la nación al adquirir el Yngenio Santa Fe, C. por A. y sus 75.000 acres de tierra.",
+     "traduccion": "En 1926 la Central Romana se hizo la mayor terrateniente del país al adquirir el ingenio Santa Fe y sus 75.000 acres.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157",
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M11"
+   ],
+   "id_existente": "",
+   "notas": "La estimación de 60.000 a 100.000 inmigrantes haitianos en 1926 es del Departamento de Estado (sin método) y coincide con la que Knight (1928) y Báez (cuadro 3.4.2, 100.000 en 1925) dan como cifra máxima. El gráfico de producción por quinquenios (fuente FAO 1960) no es legible en el OCR."
+  },
+  {
+   "titulo": "Un mundo destruido, una nación impuesta: la masacre haitiana de 1937 en la República Dominicana (Estudios Sociales, vol. 36, n.º 133; versión resumida de HAHR 82:3, 2002)",
+   "autor": "Turits, Richard Lee",
+   "anio": "2003",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/191/178/360",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Artículo de HAHR con archivos de NARA y AGN y entrevistas de campo; las cifras de censo de la nota 5 son de segunda mano.",
+   "proveniencia": "Richard Turits (historiador, Universidad de Michigan, ahora William & Mary), versión resumida en español del artículo de HAHR 2002; sostiene que la frontera previa a 1937 era un mundo bicultural poroso y que la política antihaitiana fue posterior. Cita el acuerdo fronterizo de 1920 de los comandantes de la Gendarmería y de la Guardia Nacional.",
+   "extractos": [
+    {
+     "ubicacion": "nota 5 (a partir de Price-Mars 1958, p. 181; Lyonnet 1955; Larrazábal 1975)",
+     "cita_original": "en un censo de 1935, 13% de la población fue registrada como",
+     "traduccion": "Turits recuerda que en el censo de 1935 el 13 % de la población fue registrada como «blanca», el 19 % como «negra» y el 68 % como «mestiza». Cifras de segunda mano que coinciden con la suma del folleto oficial de 1936.",
+     "afirmaciones": [
+      "A-158"
+     ]
+    },
+    {
+     "ubicacion": "nota 11",
+     "cita_original": "Agreement Respecting Border Troubles\", Harold Utley, Comandante de la Gendarmería de Haiti, y Glenn Miller, Comandante de la Guardia Nacional Dominicana, 12 de mayo de 1920",
+     "traduccion": "Acuerdo del 12-V-1920 entre los comandantes de la Gendarmería de Haití y de la Guardia Nacional Dominicana (ambos oficiales estadounidenses) sobre los problemas fronterizos; muestra el control conjunto de la frontera durante las ocupaciones.",
+     "afirmaciones": [
+      "A-160",
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. «El mundo bicultural de la frontera»",
+     "cita_original": "la misma permaneció enteramente porosa al tránsito y no significó mucho para los lugareños",
+     "traduccion": "Turits: durante 1900-1920 la línea fronteriza de facto «permaneció enteramente porosa al tránsito y no significó mucho para los lugareños».",
+     "afirmaciones": [
+      "A-158",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-160",
+    "A-157"
+   ],
+   "modulos": [
+    "M12",
+    "M11",
+    "M13"
+   ],
+   "id_existente": "F-0174",
+   "notas": "Ya registrada; aquí se añaden la nota 5 (porcentajes raciales de 1935, de segunda mano: Price-Mars 1958, p. 181) y la nota 11 (acuerdo de 12-V-1920). El texto de ese acuerdo (NARA RG 38, box 6) queda pendiente."
+  },
+  {
+   "titulo": "Haitian Migration to Cuba (ensayo de Matthew Casey, Island Luminous, parte 7, diapositiva 6)",
+   "autor": "Casey, Matthew",
+   "anio": "s. f. (c. 2013)",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part07-slide06.html",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo breve de divulgación de un historiador académico (Casey, autor de Empire's Guestworkers, CUP 2017), sin aparato crítico en la página; las cifras son resúmenes de su investigación.",
+   "proveniencia": "Matthew Casey (Universidad del Sur de Misisipi; entonces profesor asistente) para la exposición digital «Haiti: An Island Luminous» de la Universidad Internacional de Florida y dLOC. Sintetiza su tesis sobre migración laboral haitiana a Cuba en la era de la ocupación de EE. UU. Parte de la exposición ya registrada como F-0260.",
+   "extractos": [
+    {
+     "ubicacion": "ensayo «Haitian Migration to Cuba» (Island Luminous, parte 7, diapositiva 6), párr. 1-2",
+     "cita_original": "approximately 200,000 Haitians left their rural homes for eastern Cuba [...] approximately 10,000 women also made the journey",
+     "traduccion": "«Aproximadamente 200.000 haitianos dejaron sus hogares rurales para ir al este de Cuba» en las primeras décadas del siglo XX; unas 10.000 eran mujeres.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma página, párr. final",
+     "cita_original": "Throughout the 1930s, almost 40,000 Haitians were forcefully deported from Cuban soil.",
+     "traduccion": "«Durante los años treinta casi 40.000 haitianos fueron deportados por la fuerza de suelo cubano.»",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Cifras sin base declarada: «unos 200.000» a Cuba y «casi 40.000 deportados» en los años treinta; frente a ellas Báez/Castor dan 221.250 emigrantes a Cuba entre 1915 y 1929 y 70.000 expulsados (Le Riverend), y Buell/FPA da 8.000 deportados hasta junio de 1934. Se presentan como rango, no se concilian."
+  },
+  {
+   "titulo": "Empire's Guestworkers: Haitian Migrants in Cuba during the Age of US Occupation, cap. 7 «Returning to Haiti and the Aftermath of US Occupation»",
+   "autor": "Casey, Matthew",
+   "anio": "2017",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.cambridge.org/core/books/empires-guestworkers/returning-to-haiti-and-the-aftermath-of-us-occupation/AB41CF80F2EB35C753D4875DDF4661C7",
+   "urls_alternativas": [
+    "https://doi.org/10.1017/9781316412428.009",
+    "https://resolve.cambridge.org/core/books/empires-guestworkers/returning-to-haiti-and-the-aftermath-of-us-occupation/AB41CF80F2EB35C753D4875DDF4661C7"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía de Cambridge UP con archivos cubanos y haitianos; solo se leyó el resumen del capítulo (el texto completo es de pago).",
+   "proveniencia": "Matthew Casey, Cambridge University Press, 2017; reconstruye la experiencia de los trabajadores haitianos en Cuba entre 1913 y 1940, la política de reclutamiento y la repatriación forzosa desde 1928. Fuente de los datos de Cuba para A-159.",
+   "extractos": [
+    {
+     "ubicacion": "resumen del cap. 7 «Returning to Haiti and the Aftermath of US Occupation» (solo resumen visible)",
+     "cita_original": "Almost 20 percent of the Haitians who migrated to Cuba annually during the 1920s had already entered the country at least once",
+     "traduccion": "«Casi el 20 % de los haitianos que migraron a Cuba cada año durante los años veinte ya había entrado en el país al menos una vez.»",
+     "afirmaciones": [
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma página",
+     "cita_original": "the Cuban government forcefully repatriated over 2000 Haitians from the country",
+     "traduccion": "«En 1928... el Gobierno cubano repatrió por la fuerza a más de 2000 haitianos del país.»",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "F-0391",
+   "notas": "Ya registrada con acceso fragmento-busqueda; la página del capítulo 7 se abre (HTTP 200) pero solo muestra el resumen. Cifras del resumen: casi 20 % de retornos repetidos en los años veinte; más de 2.000 haitianos repatriados por la fuerza por Cuba en 1928. El texto completo queda pendiente (biblioteca)."
+  },
+  {
+   "titulo": "More than a Massacre: Racism, Genocide, and Citizenship on the Haitian-Dominican Border (con cap. 1 «From Natives to Foreigners: Executive Order 372 and the Origins of Denationalization», pp. 59-87)",
+   "autor": "Cadeau, Sabine F.",
+   "anio": "2022",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://www.cambridge.org/core/books/more-than-a-massacre/6CD7AA4DC466D44D23F3C9BB1CDE55B1",
+   "urls_alternativas": [
+    "https://www.cambridge.org/core/books/more-than-a-massacre/from-natives-to-foreigners/7CDA2D507721FA70EA553B70B822509B",
+    "https://doi.org/10.1017/9781108942508.003"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "via-resena",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Monografía premiada (Lemkin 2023, Bryce Wood 2023) con archivos judiciales y policiales y entrevistas a supervivientes; solo se leyeron las descripciones editoriales y el resumen del capítulo.",
+   "proveniencia": "Sabine F. Cadeau (Universidad de Cambridge), Cambridge University Press, 2022. Sostiene que la represión antihaitiana racializada comenzó en 1919 bajo la ocupación estadounidense, se aceleró en 1930 y culminó en 1937. El capítulo 1 examina la Orden Ejecutiva 372 y los registros judiciales y policiales de los años veinte y treinta.",
+   "extractos": [
+    {
+     "ubicacion": "descripción editorial del libro (Cambridge Core; solo resumen visible)",
+     "cita_original": "a successively worsening campaign of explicitly racialized anti-Haitian repression that began in 1919 under the American Occupiers [...] culminated in 1937 with the slaughter of an estimated twenty thousand civilians",
+     "traduccion": "Cadeau sostiene «una campaña cada vez peor de represión antihaitiana explícitamente racializada que comenzó en 1919 bajo los ocupantes estadounidenses... y culminó en 1937 con la matanza de unos veinte mil civiles» (cifra citada sin base visible en el resumen).",
+     "afirmaciones": [
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-160"
+   ],
+   "modulos": [
+    "M12",
+    "M13"
+   ],
+   "id_existente": "F-0154",
+   "notas": "Ya registrada (via-resena). Matiz cronológico leído en el resumen del capítulo 1: Cadeau sitúa «un parteaguas» en 1930 y una «marcada diferencia» entre la aplicación en los años veinte y treinta, de modo que A-160 («comenzó en 1919») es cierta como origen legal de la Orden 372 pero no como represión sistemática. Cifra de ~20.000 muertos de 1937 sin base visible en el resumen. El número de arrestos por la Orden 372 que circula en prensa [POR VERIFICAR] no se ha leído."
+  },
+  {
+   "titulo": "La evolución del comercio exterior de Haití, 1915-1955 (Memorias, Univ. del Norte, n.º 22; ponencia del I Congreso de la Asociación de Historia Económica del Caribe, 2011)",
+   "autor": "Morales Álvarez, Rocío",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://dialnet.unirioja.es/descarga/articulo/4653975.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Base de datos nueva de comercio exterior haitiano a precios constantes de 1934 a partir de los informes anuales de la receptoría; no publica las series en tabla legible y señala dudas sobre la calidad de los datos oficiales.",
+   "proveniencia": "Rocío Morales Álvarez (candidata a doctora en Historia e Instituciones Económicas, UAB), resultado de su tesis sobre la economía haitiana a través del comercio internacional, 1915-1979. Usa los reportes anuales de comercio (Customs Receivership) y los deflacta con base 1934.",
+   "extractos": [
+    {
+     "ubicacion": "sec. «Comportamiento del comercio exterior haitiano»",
+     "cita_original": "las exportaciones e importaciones crecieron a una tasa de 9.73 y 5.51%, respectivamente, entre 1914 y 1928",
+     "traduccion": "El comercio exterior haitiano creció, a precios constantes, 9,73 % anual (exportaciones) y 5,51 % (importaciones) entre 1914 y 1928.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec.",
+     "cita_original": "el valor total exportado en 1919, en dólares constantes, fue 8 veces el valor del periodo anterior, con lo cual superó los 47 millones de dólares",
+     "traduccion": "Las exportaciones haitianas de 1919 superaron los 47 millones de dólares constantes de 1934, ocho veces el valor del periodo anterior; en 1920-1921 cayeron más del 30 % y de nuevo en 1927 casi 35 %.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "misma sec., nota 16 (Report of the Receivership of the Customs, 1919-1920, pp. 40-45)",
+     "cita_original": "el 50% de los ingresos derivados del comercio exterior debería destinarse al pago de la deuda [...] 5% a la administración de las aduanas y sólo el 45% al gasto público",
+     "traduccion": "La receptoría general estadounidense destinaba el 50 % de los ingresos del comercio exterior a la deuda, el 5 % a la administración aduanera y solo el 45 % al gasto público. El mismo pasaje da una deuda de 124,4 millones de dólares en 1915, cifra de moneda dudosa (fuente CEPAL 1951) que no se usa.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    },
+    {
+     "ubicacion": "sec. sobre la estructura de las exportaciones",
+     "cita_original": "exportaciones de café, que era el principal producto de exportación, se redujeron de las más de 10,200 [...] toneladas, promedio, de 1918 – 1928 a poco más de 9,600 toneladas entre 1929 y 1940",
+     "traduccion": "Las exportaciones de café, el principal producto, pasaron de más de 10.200 toneladas de promedio anual en 1918-1928 a poco más de 9.600 en 1929-1940.",
+     "afirmaciones": [
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Año de publicación (2014) por [POR VERIFICAR]: el volumen de Memorias n.º 22 (DOI 10.14482/memor.22.5949) corresponde a esa fecha pero el PDF no la muestra. La deuda de 124,4 millones de dólares en 1915 (CEPAL 1951) es de moneda y unidad dudosas; no se usa. No cubre migración."
+  },
+  {
+   "titulo": "Palabras pronunciadas por Rafael Emilio Yunén en la presentación del libro «Azúcar: árabes, cocolos y haitianos», de Orlando Inoa (Estudios Sociales, vol. 33, n.º 120, pp. 107-113)",
+   "autor": "Yunén, Rafael Emilio (sobre Inoa, Orlando)",
+   "anio": "2000",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/264/250/503",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Reseña oral de un académico a una obra de otro; atribuye a Inoa una prueba documental que no se reproduce.",
+   "proveniencia": "Rafael Emilio Yunén, sociólogo dominicano, pronunció el 28-II-2000 en el Gran Teatro del Cibao una presentación de «Azúcar: árabes, cocolos y haitianos» (Orlando Inoa, 2000), publicada en Estudios Sociales 120. Resume la tesis de Inoa sobre los braceros haitianos, los cocolos y los gavilleros.",
+   "extractos": [
+    {
+     "ubicacion": "intervención oral de Yunén (28-II-2000), publicada en Estudios Sociales 120, p. 110",
+     "cita_original": "Un importante aporte de Inoa es su demostración documental de que los azucareros norteamericanos empezaron a traer los braceros haitianos para sus ingenios antes de la intervención norteamericana del 1916. [...] Hasta hace poco, los principales estudiosos de este tema consideraban que no habían habido braceros haitianos en Dominicana sino hasta después de la legalización de su entrada en 1919.",
+     "traduccion": "Yunén resume que Inoa demuestra documentalmente que los azucareros estadounidenses trajeron braceros haitianos antes de la intervención de 1916, contra la idea de que solo hubo braceros haitianos tras la legalización de 1919. Es una reseña oral: la prueba documental de Inoa no se ha leído.",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "misma intervención, p. 112 (sobre los cocolos, tras 1932)",
+     "cita_original": "las nuevas leyes dominicanas de inmigración convirtieron a los haitianos en el grupo extranjero más barato para el corte de la caña",
+     "traduccion": "Según la síntesis de Yunén sobre Inoa, los cocolos desaparecieron a partir de 1932 porque las nuevas leyes de inmigración dominicanas hicieron de los haitianos el grupo extranjero más barato para el corte de caña.",
+     "afirmaciones": [
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12",
+    "M11",
+    "M13"
+   ],
+   "id_existente": "F-1935",
+   "notas": "Ya registrada (F-1935, M11;M13). La afirmación de Inoa de que había braceros haitianos antes de 1916 contradice a Báez Evertsz (F-1327), que da 26 haitianos de 6.448 inmigrantes en 1915; hay que leer a Inoa (Azúcar: árabes, cocolos y haitianos, 2000), no localizado en texto. Disputa abierta, no resuelta."
+  },
+  {
+   "titulo": "Memoria de la Secretaría de Estado de Agricultura e Inmigración, año 1923 (197 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado de Agricultura e Inmigración",
+   "anio": "1924",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3359",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/2b6b009d-dc21-4e2a-bfe4-c750fce101f5"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la época, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Memoria anual presentada por el secretario del Gobierno Provisional tras la entrega de la administración por el Gobierno Militar a fines de octubre de 1922. Por su título debería contener datos de inmigración y de permisos de braceros [POR VERIFICAR: no se pudo abrir el texto].",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem 2b6b009d-dc21-4e2a-bfe4-c750fce101f5)",
+     "cita_original": "El que suscribe, Secretario de Estado de Agricultura e Inmigración, se hizo cargo de ambos Departamentos a fines de Octubre del año 1922, cuando el Gobierno Militar entregó la Administración Pública al actual Gobierno Provisional.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Es uno de los años que Del Castillo y Báez usan para las autorizaciones de braceros [POR VERIFICAR qué memorias exactas usan]. La ficha dice que el secretario recibió ambos departamentos a fines de octubre de 1922."
+  },
+  {
+   "titulo": "Memoria de la Secretaría de Estado de Agricultura e Inmigración, 1-I-1916 a 1-VII-1918 (201 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado de Agricultura e Inmigración (Gobierno Militar)",
+   "anio": "1918",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3358",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/e477ad7f-6c41-4f84-b186-f74093ace197"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la época, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Memoria del primer periodo del Gobierno Militar (1-I-1916 a 1-VII-1918) sobre agricultura e inmigración; es el tipo de documento del que salen las cifras de inmigración de 1915-1918 que cita Báez [POR VERIFICAR si contiene el informe de José R. López].",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem e477ad7f-6c41-4f84-b186-f74093ace197)",
+     "cita_original": "Debido a las condiciones turbulentas de la República antes de constituirse el Gobierno Militar, la explotación de los recursos naturales del país hallábase estacionada.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-158",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-158",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Contraste necesario: Báez (F-1327) da 26 haitianos de 6.448 inmigrantes de 1915 según el informe de José R. López, y Yunén resume que Inoa (2000) documenta braceros haitianos antes de 1916."
+  },
+  {
+   "titulo": "Memoria correspondiente al año 1927 (Secretaría de Estado de Agricultura e Inmigración; M. Martín de Moya) (285 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado de Agricultura e Inmigración",
+   "anio": "1928",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3314",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/3717bc91-b444-4367-8fcd-d88fee2caaa5"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la época, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Memoria del gobierno de Horacio Vásquez con la política de colonias agrícolas y de inmigración (plan de 1.000 familias españolas de 1927, según Romero Valiente 2001).",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem 3717bc91-b444-4367-8fcd-d88fee2caaa5)",
+     "cita_original": "Vengo a cumplir el precepto constitucional que me impone la obligación de daros cuenta de la labor realizada por esta Secretaría de Estado, a mi cargo, durante el año de 1927.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-163",
+      "A-158"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-163",
+    "A-158"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Romero Valiente cita esta memoria (pp. 150-163 y colonización) para el plan de 1927."
+  },
+  {
+   "titulo": "Memoria correspondiente al año 1928 (Secretaría de Estado de Agricultura e Inmigración; Rafael A. Espaillat) (366 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado de Agricultura e Inmigración",
+   "anio": "1929",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/3348",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/a154800c-b5e9-435f-98d5-911470452b1d"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la época, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Memoria de 1928 que, según H. L. Martínez (1994), reconoce que la Orden Ejecutiva 372 no prosperó por falta de personal y transporte para deportar inmigrantes indeseables.",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem a154800c-b5e9-435f-98d5-911470452b1d)",
+     "cita_original": "UNA vez más, la quinta, cumplo el honroso deber de rendirle detallada y cumplida cuenta de la labor realizada durante el año 1928, por ésta Secretaría de Estado de Agricultura é Inmigración",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-160",
+      "A-159"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-160",
+    "A-159"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Es la fuente de la que H. L. Martínez extrae el fracaso de la Orden Ejecutiva 372 (pp. 122-123)."
+  },
+  {
+   "titulo": "Apuntes sobre inmigración (37 pp.)",
+   "autor": "Vidal, Luis Felipe",
+   "anio": "1926",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/1903",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/7b8bd768-ab21-4a8b-8811-f7da871c0eee"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Panfleto de opinión de un autor del sector azucarero; solo se leyó la ficha porque el PDF devuelve 401.",
+   "proveniencia": "Panfleto de L. F. Vidal, autor de «El mosaico de la caña de azúcar» (1931), sobre el debate público de 1926 acerca de la inmigración de braceros y la industria azucarera.",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem 7b8bd768-ab21-4a8b-8811-f7da871c0eee)",
+     "cita_original": "Dada la actualidad que la discusión en la Prensa Nacional le ha dado al problema de la inmigración, el autor se ha decidido a publicar el presente panfleto",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-159",
+      "A-163"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-159",
+    "A-163"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Sesgo: panfleto de autor vinculado a la industria azucarera de San Pedro de Macorís. Muestra que la inmigración era tema de debate en la prensa de 1926."
+  },
+  {
+   "titulo": "Informe que presenta al Poder Ejecutivo la comisión creada por la ley núm. 77 para estudiar las tierras de la frontera y señalar los sitios en que se han de establecer las colonias inmigrantes (59 pp.)",
+   "autor": "República Dominicana, Secretaría de Estado de Agricultura e Inmigración",
+   "anio": "1925",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "oficial-rd",
+   "url": "https://bd.bnphu.gob.do/handle/BNPHU/2509",
+   "urls_alternativas": [
+    "https://bd.bnphu.gob.do/server/api/core/items/f1db7a62-e055-4b62-82d6-54a9f32d2c4f"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200 (ficha DSpace); PDF y texto 401",
+   "formato": "pdf",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Documento oficial de la época, pero solo se leyó el resumen de la ficha: el PDF y su capa de texto devuelven 401.",
+   "proveniencia": "Informe de la comisión creada por la Ley 77 (4-XII-1924) para escoger tierras en la frontera con Haití donde establecer colonias de inmigrantes. Documento primario clave para A-163 (política de colonización fronteriza); el perfil racial de los colonos buscados [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "ficha del repositorio, dc.description.abstract (API DSpace, ítem f1db7a62-e055-4b62-82d6-54a9f32d2c4f)",
+     "cita_original": "En mi calidad de presidente de la Comisión creada de acuerdo con lo que establece la Iey No. 77 de fecha 4 de diciembre del año 1924, tengo el honor de remitir a Ud. el Informe redactado por los miembros de la misma relativo a los estudios realizados en los terrenos fronterizos a la República de Hai",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-163",
+      "A-160"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-163",
+    "A-160"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Pendiente de lectura. Muy relevante para A-163 y para la política de «blanqueamiento» de la frontera antes de Trujillo."
+  },
+  {
+   "titulo": "Orígenes de la inmigración regulada (Diario Libre, sección Lecturas, 9-XI-2013)",
+   "autor": "Del Castillo, José [atribución por el texto: «el autor de esta columna» cita su obra de 1978]; firma visible: Diario Libre",
+   "anio": "2013",
+   "tipo": "divulgacion",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://www.diariolibre.com/opinion/lecturas/orgenes-de-la-inmigracin-regulada-ANDL410202",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Columna de divulgación de un historiador que cita el art. 3 de la ley de 1912 y una carta oficial de 1916 con fecha, pero sin referencias a pie ni cita del documento original.",
+   "proveniencia": "Columna dominical del suplemento Lecturas de Diario Libre, 9-XI-2013, que resume el marco legal de la inmigración dominicana de 1879 a 1916 como introducción a los datos de su libro «Inmigración de braceros azucareros en la República Dominicana, 1900-1930» (UASD, 1978); la página atribuye la firma a «Diario Libre» y el texto remite al autor de ese libro (José del Castillo), de modo que la autoría es [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "párr. sobre la Ley de Inmigración de 1912 (art. 3.º citado)",
+     "cita_original": "A partir de mayo de 1912, entró en vigencia una Ley de Inmigración votada por el Congreso [...] Necesitan previo permiso para inmigrar al país los naturales de colonias europeas en América, los de Asia, los de África y los de Oceanía, así como los braceros de otra raza que no sea la caucasiana",
+     "traduccion": "La ley de mayo de 1912 exigía permiso previo del Ejecutivo a los naturales de colonias europeas de América, Asia, África y Oceanía y «a los braceros de otra raza que no sea la caucasiana»; el texto de la ley no se ha leído, solo esta cita.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "párr. siguiente (colonos agrícolas)",
+     "cita_original": "caucasianos\" por definición y con un \"minimum\" de quinientos pesos \"per cápita\"",
+     "traduccion": "La misma ley fomentaba la inmigración de familias de agricultores «caucasianos por definición» y con un mínimo de quinientos pesos per cápita.",
+     "afirmaciones": [
+      "A-163"
+     ]
+    },
+    {
+     "ubicacion": "párr. de interpretación",
+     "cita_original": "Con la promulgación de esta ley se buscaba restringir la inmigración de jornaleros destinados a la industria azucarera",
+     "traduccion": "«Con la promulgación de esta ley se buscaba restringir la inmigración de jornaleros destinados a la industria azucarera»; el autor la liga al temor del comercio y de la élite política por los salarios y las remesas de braceros.",
+     "afirmaciones": [
+      "A-163",
+      "A-159"
+     ]
+    },
+    {
+     "ubicacion": "párr. sobre la carta del 4-VII-1916 al Sr. Juan B. Vicini",
+     "cita_original": "introducir 1,000 braceros con destino al ingenio Angelina, a ser utilizados en la zafra 1916-17",
+     "traduccion": "Carta del Secretario de Agricultura e Inmigración de 4-VII-1916 que cuestiona la solicitud de introducir 1.000 braceros para el Angelina en la zafra 1916-17; la ocupación de mayo-noviembre de 1916 desplazó esa resistencia oficial.",
+     "afirmaciones": [
+      "A-159",
+      "A-157"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-163",
+    "A-159",
+    "A-157"
+   ],
+   "modulos": [
+    "M12"
+   ],
+   "id_existente": "",
+   "notas": "Resuelve parcialmente la marca [POR VERIFICAR] de A-163 sobre la ley de 1912: da la fecha (mayo de 1912) y cita su art. 3, pero el texto de la Gaceta Oficial queda sin leer. Una búsqueda sin éxito de la Gaceta de 1912 se anota en pendientes. La columna anuncia otra entrega con las series de braceros, que no se localizó."
+  }
+ ]
+}
