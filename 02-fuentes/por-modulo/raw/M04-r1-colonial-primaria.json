@@ -1,0 +1,1829 @@
+{
+ "lente": "colonial-primaria (fuentes primarias coloniales españolas y francesas y documentos oficiales de la época)",
+ "modulo": "M04",
+ "ronda": 1,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 16,
+ "busquedas_pendientes": [
+  "Tratado de Ryswick 1697, versión española de la Corona (BNE/BDH; 'Tratados internacionales de España. Carlos II'): una consulta sin resultado, sin repetir con otros operadores",
+  "Real cédula de 27-XI-1697 'que se publique paz concertada con Francia' (AGI Santo Domingo 250) en PARES: portal con HTTP 429, sin reintento",
+  "Acta de 1679 (Escoso-Pouançay) con el río Rebouc como línea provisional: texto primario en Gallica, archive.org o AGI",
+  "Concordato de 1684 (Robles-Cussy) y convención de 1699 (Duquesnot-Manzaneda) sobre vigías y límites: texto primario",
+  "Instrucciones de Luis XIV y memorias de Du Casse sobre la parte española (1698-1700), serie ANOM C9A: portal sin conexión",
+  "Jean-Baptiste Le Pers, Histoire de Saint-Domingue y de la Tortue (c. 1715), texto en Manioc",
+  "Raveneau de Lussan, Journal du voyage fait à la mer du Sud (1690) y Rochefort, Histoire naturelle et morale des îles Antilles (1658) para la Tortuga antes de 1664",
+  "Du Tertre, t. II y III (1667-1671) y Labat (1722), partes sobre Saint-Domingue: solo se contrastó el t. I de Du Tertre y se leyó Labat t. V como derivado",
+  "Dutch West India Company / archivos de Zelanda: comercio de cueros en la Española, 1606-1650 (contrabando)",
+  "Ponce Vázquez 2020: documentos primarios (AGI Santo Domingo 51-52, 85-90) citados sobre rescates y contrabando",
+  "Mercure galant, Gazette de France y Gaceta de Madrid de 1697-1698 sobre la paz y Saint-Domingue",
+  "Relaciones históricas de Santo Domingo, vols. I y III (ADH): facsímiles sin capa de texto; leer el índice por 'Tortuga', 'Francia', 'Riswick'",
+  "BAGN 1941 n.º 18 y otros números del Boletín con documentos del siglo XVII",
+  "Recopilación diplomática relativa a las colonias española y francesa de la isla de Santo Domingo, 1640-1701 (1944): búsqueda de copia digital en HathiTrust/Google Books/ADH",
+  "Utrera, Historia militar de Santo Domingo y Dilucidaciones históricas (ADH): secundarias de archivo sobre Tortuga, 1691 y Ryswick",
+  "Peña Batlle, La isla de la Tortuga (1951) y Montolío, El tratado de Ryswick y otros temas: secundarias dominicanas para A-052/A-053"
+ ],
+ "lagunas": [
+  "No se localizó el texto español de Ryswick (versión de la Corona): solo la versión francesa de Dumont (impreso de París, 1697) y la inglesa de 1698 (TCP A27483); ambas coinciden en que el tratado franco-español no contiene ninguna cláusula sobre la Española.",
+  "No hay acceso a la correspondencia diplomática hispano-francesa de 1697-1700 (AHN Estado, AGI Santo Domingo 250, ANOM C9A): PARES devolvió 429 y ANOM no respondió. A-053 solo puede apoyarse en regestos de Utrera, en Moreau y en las piezas oficiales francesas impresas (Loix et constitutions).",
+  "La Recopilación diplomática de 1944 (Colección Trujillo), edición de la correspondencia franco-española de 1640-1701, no está digitalizada en las fuentes consultadas; solo se conoce su contenido por el índice de Utrera.",
+  "Las tres 'Relaciones históricas de Santo Domingo' de la ADH son facsímiles sin capa de texto (sin OCR disponible); solo se leyeron en imagen las pp. 443-444 del vol. II.",
+  "El acta de 1679 que fijó el Rebouc como límite provisional y los acuerdos de 1684 y 1699 se conocen solo por la cronología de Moreau (1796) y por la biografía de Du Casse (1876); no se halló su texto.",
+  "El contrabando neerlandés de 1606-1650 queda cubierto solo por Alcocer (1650), los regestos de Utrera y el testimonio de Azpichueta; no hay fuente neerlandesa ni documento primario completo.",
+  "El OCR de archive.org (s larga leída 'f', glifos dañados, márgenes intercalados) obliga a restituir las citas; las restituciones van entre corchetes o se describen en 'ubicacion'.",
+  "La discrepancia sobre el desalojo español de la Tortuga (1635-36 en documentos y regestos españoles frente a 1638 en Du Tertre, Charlevoix y Moreau) queda sin resolver; puede tratarse de dos operaciones distintas.",
+  "Secuencia de la comisión de Ogeron: 7-X-1664 (nombramiento por la Compañía), 27-X-1664 (carta real), febrero de 1665 (Charlevoix), 6-VI-1665 (procès-verbal; Moreau da 5, 6 y 7 de junio en distintas piezas)."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Flibustier / filibustero / boucanier / bucanero / 'Corps des Avanturiers' (aventureros)",
+   "tradicion": "francesa / internacional",
+   "nota": "Categorías de época: Charlevoix (1731) hace derivar flibustier del inglés 'freebooter' y boucanier de 'boucan' (Du Tertre dice que es palabra india); los documentos españoles de 1654-1691 hablan de 'piratas', 'enemigos' y 'los Franceses del Norte'. Charlevoix distingue en la colonia boucaniers (caza), flibustiers (corso), habitans (cultivo) y engagés. Conviene un término descriptivo que no adopte ni el apelativo 'pirata' ni el de 'aventurero'."
+  },
+  {
+   "termino": "'Isle de la Tortue et Côte de Saint-Domingue' (costa de Santo Domingo)",
+   "tradicion": "francesa (oficial)",
+   "nota": "Título oficial del gobierno francés de 1664 a c. 1705 (nombramiento de Ogeron; tabla de gobernadores de Moreau). La 'Côte Saint-Domingue' designa solo la costa ocupada por franceses; en español 'costa del Norte'. No equivale a 'Saint-Domingue' colonial ni a 'Santo Domingo' español."
+  },
+  {
+   "termino": "'Seminario de la Tortuga'",
+   "tradicion": "dominicana / española",
+   "nota": "Expresión de Franco de Torquemada (Representación, c. 1691): la Tortuga como 'seminario para sus robos y piraterías'; título de la obra de Peña Batlle (1951). Encierra la causalidad Osorio -> franceses -> Tortuga -> Estado haitiano; es interpretación, no hecho."
+  },
+  {
+   "termino": "Ocupación / usurpación / establecimiento (établissement) de la costa norte por franceses",
+   "tradicion": "española / francesa",
+   "nota": "Sigüenza (1691): isla 'ocupada de franceses', 'lo que tenía usurpado'; Du Casse (1699): tierras de Su Majestad Católica al este del Rebouc y 'borne reconnue de leurs possessions'; edicto de 1698: 'la portion de l'isle de Saint-Domingue qui nous appartient'. Cada lado nombra de modo distinto el mismo hecho."
+  },
+  {
+   "termino": "Reconocimiento tácito / uti possidetis / statu quo ante bellum (Ryswick)",
+   "tradicion": "internacional",
+   "nota": "A-052 y A-053 usan 'reconocimiento tácito'. Moreau (1796) parafrasea Ryswick como 'las posesiones de las dos potencias quedarán tal como están'; el art. VII del tratado anglo-español de 1670 es un uti possidetis expreso para Inglaterra; el art. XXIX de Ryswick confirma Nimega y los tratados anteriores. Debe definirse en el glosario qué se entiende por cada término."
+  },
+  {
+   "termino": "Despoblación forzosa de la banda norte (1605-1606) / 'devastaciones' / 'reducción'",
+   "tradicion": "dominicana / española",
+   "nota": "Alcocer (1650) y la cédula de 1607 hablan de 'despoblación' y 'reducción de la banda del Norte'; Peña Batlle (1938) y Rodríguez Demorizi, de 'devastaciones' (con carga: 'inicua disposición de Osorio'). Término descriptivo propuesto: despoblación forzosa."
+  },
+  {
+   "termino": "Rescates (contrabando) / 'tratos y contratos' con extranjeros",
+   "tradicion": "española",
+   "nota": "Término de época para el comercio no autorizado con extranjeros (Alcocer 1650; cédulas de 1603-1607); la historiografía moderna dice 'contrabando' (Ponce Vázquez, Deive). 'Rescate' es el término de la propia administración colonial; 'contrabando' es la valoración jurídica."
+  },
+  {
+   "termino": "Más allá de la Línea / 'no peace beyond the line' / 'extra Europam, tam cis quam trans Lineam'",
+   "tradicion": "internacional",
+   "nota": "Concepto jurídico-diplomático del siglo XVII: la paz de Europa no rige en América salvo cláusula expresa. La tregua de Ratisbona (1684) la extiende expresamente ('trans Lineam'); la carta de Luis XIV a d'Estrées (1669) la niega en la práctica ('exécuter la Paix ... dans l'étendue desdits Pays'); Ryswick (art. XXV) la usa solo para presas."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Histoire de l'Isle Espagnole ou de S. Domingue, t. II (París, Guérin, 1731), Livre VII (Tortue, flibustiers, d'Ogeron) y Livre XI (1697-1698)",
+   "autor": "Charlevoix, Pierre-François-Xavier de",
+   "anio": "1731",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoiredelislee02char/histoiredelislee02char_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/histoiredelislee02char"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador jesuita que escribe en 1730 con memorias remitidas desde Saint-Domingue (Le Pers y otros) y que discute y corrige a Du Tertre con documentos (comisión de du Rausset de 1656); no es testigo, y su relato de los años 1630-1640 depende de Du Tertre y de memorias coloniales.",
+   "proveniencia": "Pierre-François-Xavier de Charlevoix, S.J. (1682-1761), enviado por el regente de Francia a visitar la colonia y escribir su historia; publica en París en 1730-1731 una historia 'de la isla española o de Santo Domingo' para el público francés y para el ministerio de Marina. Reconoce en el texto que no sigue escrupulosamente la memoria que le llegó de Saint-Domingue y que halló la comisión de 1656 de du Rausset. Sabe de primera mano solo lo que vio en su viaje de 1722; el resto es compilación.",
+   "extractos": [
+    {
+     "ubicacion": "t. II, Liv. VII, hacia p. 5-6 (margen '1630'); l. 954-959 del txt descargado de la URL",
+     "cita_original": "quelques-uns de ceux, qui en étoient sortis avec MM. d'Enambuc & du Rosley, s'étant joints à d'autres Avanturiers Anglois & François, s'approchèrent de l'Isle Espagnole, & en ayant trouvé la Côte Septentrionale presqu'entierement abandonnée par les Castillans, ils s'y arrêtèrent & s'y établirent.",
+     "traduccion": "algunos de los que habían salido con d'Esnambuc y du Rossey, unidos a otros aventureros ingleses y franceses, se acercaron a la Isla Española y, al hallar la costa septentrional casi del todo abandonada por los castellanos, se detuvieron y se establecieron allí.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. VII, hacia p. 7 (OCR dañado al final de la frase); l. 1015-1016 del txt descargado de la URL",
+     "cita_original": "un Havre commode, & qu'ils s'y [...] croyoient plus en sûreté contre les [entreprises] des Espagnols",
+     "traduccion": "un puerto cómodo, y se creían allí más seguros frente a las empresas de los españoles [las palabras que siguen están ilegibles en el OCR].",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. VII, hacia p. 9-10 (margen ilegible; Du Tertre da 1638); l. 1121-1123 del txt descargado de la URL",
+     "cita_original": "le General des Galions eut ordre d'attaquer cette Isle, & sans s'amuser à capituler, de faire main [basse] sur tout",
+     "traduccion": "el General de los Galeones recibió la orden de atacar esta isla y, sin perder tiempo en capitular, de pasar a cuchillo todo [lo que allí hallase; el final de la frase lo da el OCR de forma dudosa].",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. VII, hacia p. 36-37; l. 2389-2395 del txt descargado de la URL",
+     "cita_original": "proposa à sa Majesté pour Gouverneur Bertrand d'Ogeron [...] la Commission lui en fut expediée au mois de Février 1665. [...] il se rendit à la Tortue le 6. de Juin de la même année.",
+     "traduccion": "propuso a Su Majestad como gobernador a Bertrand d'Ogeron [...] la comisión se le expidió en febrero de 1665 [...] se trasladó a la Tortuga el 6 de junio del mismo año.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. VII, hacia p. 37; l. 2406-2410 del txt descargado de la URL",
+     "cita_original": "que je viens de raconter, pouvant être regardé comme l'époque de l'Etablissement de la Colonie Françoise de S. Domingue, [& le] nouveau Gouverneur pouvant [passer] pour en être le Père, & le véritable fondateur",
+     "traduccion": "[el suceso] que acabo de contar, al poder considerarse la época del establecimiento de la colonia francesa de Santo Domingo, y el nuevo gobernador poder pasar por su padre y verdadero fundador.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. XI, hacia p. 359 (margen 1698); l. 17995-17998 del txt descargado de la URL",
+     "cita_original": "M. Ducasse ayant [...] reçu avis que la Paix avoit été [signée à Riswick], se rendit [...] au Cap, d'où il écrivit au Gouverneur de [Saint]-Yago, pour [...] lui faire part de cette nouvelle.",
+     "traduccion": "Ducasse, habiendo recibido noticia de que se había firmado la paz en Ryswick, fue al Cabo (Cap) y desde allí escribió al gobernador de Santiago para comunicarle la noticia. [Las omisiones son texto marginal intercalado por el OCR.]",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. II, Liv. XI, hacia p. 359 (OCR: 'par vache?' = 'par ce Gouverneur'); l. 17999-18002 del txt descargado de la URL",
+     "cita_original": "cinq cens cinquante Espagnols envoyés par [...] ce Gouverneur avoient déjà pénétré par les montagnes dans la Plaine du Cap, & ils furent rappellés au moment, qu'ils alloient commencer leurs ravages",
+     "traduccion": "quinientos cincuenta españoles enviados por ese gobernador habían penetrado ya por las montañas en la llanura del Cabo, y fueron llamados de vuelta en el momento en que iban a empezar sus estragos.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M00"
+   ],
+   "id_existente": "F-0019",
+   "notas": "Hecho: el pasaje de Charlevoix sobre 1697-1698 presenta Ryswick como fin de las hostilidades y no menciona cesión alguna (se leyeron los pasajes del Liv. XI sobre 1697-1698; no se leyó el libro entero). Fechas de Ogeron: Charlevoix da comisión en febrero de 1665 y toma de posesión el 6-VI-1665; las piezas primarias impresas por Moreau dan nombramiento por la Compañía el 7-X-1664, carta real del 27-X-1664 y procès-verbal del 6-VI-1665 (ver ficha de Moreau, Loix et constitutions t. I): la 'comisión de febrero de 1665' de Charlevoix no coincide con el 27-X-1664 de Moreau. Charlevoix corrige expresamente a Du Tertre sobre la reconquista de la Tortuga (comisión de du Rausset de dic. 1656). Los márgenes de año del OCR son poco fiables ('i6j8', 'i630'). OCR con 's larga' leída 'f': las citas se dan restituidas. Sesgo: jesuita francés, apologético del 'fundador' d'Ogeron; usa la palabra 'flibustiers' y 'boucaniers' como categorías propias."
+  },
+  {
+   "titulo": "The Buccaneers and Marooners of America: being an account of the famous adventures and daring deeds of certain notorious freebooters of the Spanish Main (ed. Howard Pyle, Londres, Unwin, 1891; basada en la traducción inglesa de 1684 de Exquemelin, 'Bucaniers of America')",
+   "autor": "Exquemelin (Esquemeling, Oexmelin), Alexandre Olivier",
+   "anio": "1678 (ed. neerlandesa); 1684 (trad. inglesa); ed. 1891",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/buccaneersmaroon00exqu/buccaneersmaroon00exqu_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/buccaneersmaroon00exqu"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Testigo directo de la Tortuga (1666-1672) pero el texto inglés es una traducción retocada respecto del neerlandés original, y su relato de los años 1630-1660 es de oídas.",
+   "proveniencia": "Exquemelin llegó a la Tortuga en 1666 como engagé (contratado) de la Compañía francesa de las Indias Occidentales, fue vendido a un plantador y luego a un cirujano de los bucaneros; publicó en Ámsterdam en 1678 (neerlandés), con traducciones al español (1681-82), inglés (1684) y francés (1686) que difieren entre sí. Esta edición de 1891 reproduce la inglesa de 1684 con introducción de Pyle.",
+   "extractos": [
+    {
+     "ubicacion": "cap. 'A description of Tortuga', p. 57 de la ed. 1891; l. 2008-2011 del txt descargado de la URL",
+     "cita_original": "they thought it convenient to enter upon and seize the island of Tortuga. This they performed without any difficulty, there being upon the island no more than ten or twelve Spaniards to guard it.",
+     "traduccion": "juzgaron conveniente entrar y apoderarse de la isla de la Tortuga. Lo hicieron sin dificultad, pues en la isla no había más que diez o doce españoles de guardia.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "mismo capítulo, hacia pp. 60-61 de la ed. 1891; l. 2156-2159 del txt descargado de la URL",
+     "cita_original": "The governors of this island behaved themselves as proprietors and absolute lords thereof till 1664, when the West-India company of France took possession thereof, and sent thither, for their governor, Monsieur Ogeron.",
+     "traduccion": "Los gobernadores de esta isla se comportaron como propietarios y señores absolutos de ella hasta 1664, cuando la Compañía francesa de las Indias Occidentales tomó posesión y envió como gobernador a Monsieur Ogeron.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "F-0017",
+   "notas": "Resuelve F-0017 (antes 'localizada-bloqueada'). En el texto inglés falta la frase que sí traen el original neerlandés y la traducción española de 1682 sobre la 'tierra que no es del Rey ni de la Compañía' (ver fichas aparte); es una divergencia de traducción, no un segundo testimonio. La fecha 1664 es la de la llegada de la Compañía (coherente con el nombramiento del 7-X-1664 y la venta de du Rausset del 15-XI-1664), no la del procès-verbal de posesión (6-VI-1665). Esta edición de 1891 no es la 'ed. de 1684 en la Univ. de Illinois' que citaba el registro; el texto de 1684 se conoce por esta reedición."
+  },
+  {
+   "titulo": "De Americaensche zee-roovers (Ámsterdam, Jan ten Hoorn, 1678), texto neerlandés en la edición de 1931 (DBNL)",
+   "autor": "Exquemelin, Alexander Olivier",
+   "anio": "1678 (ed. 1931)",
+   "tipo": "primaria",
+   "idioma": "nl",
+   "tradicion": "internacional",
+   "url": "https://www.dbnl.org/arch/exqu001amer02_01/pag/exqu001amer02_01.txt",
+   "urls_alternativas": [
+    "https://dbnl.org/tekst/exqu001amer02_01/exqu001amer02_01_0001.php"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es el texto original del testigo (1678), reimpreso con la paginación de la edición príncipe; el aparato crítico de 1931 es de un editor moderno.",
+   "proveniencia": "Texto neerlandés original de Exquemelin, publicado por Jan ten Hoorn en Ámsterdam en 1678; la edición de 1931 (reimpresión por primera vez desde 1709, con introducción y notas) conserva la paginación original en el cuerpo del texto. Exquemelin vivió en la Tortuga y la costa de Santo Domingo entre 1666 y 1672 al servicio de la Compañía y de bucaneros.",
+   "extractos": [
+    {
+     "ubicacion": "p. 10-11 de la ed. 1678 (cap. sobre la Tortuga); l. 480-482 del txt descargado de la URL",
+     "cita_original": "soo vonden sy goet het Eylandt Tortuga in te nemen, het geen sy deden, verjagende tien of twaelf Spanjaerden, die daer op waren",
+     "traduccion": "juzgaron bueno tomar la isla de la Tortuga, lo que hicieron expulsando a diez o doce españoles que había en ella.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 56 de la ed. 1678; l. 1998-2001 del txt descargado de la URL",
+     "cita_original": "In het Jaer sestien hondert vier en sestigh heeft de Franse West-Indische Compagnie mede eene Colonie op Tortuga geplant, waer onder de Planters van Hispaniola mede begrepen waren.",
+     "traduccion": "En el año 1664 la Compañía francesa de las Indias Occidentales plantó también una colonia en la Tortuga, en la cual se incluía a los plantadores de la Española.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 56 de la ed. 1678; l. 2002-2003 del txt descargado de la URL",
+     "cita_original": "in een Landt dat de Koningh noch de Compagnie niet toebehoort",
+     "traduccion": "en una tierra que no pertenece ni al Rey ni a la Compañía [razón por la que los plantadores de la Española rechazaban someterse a la Compañía].",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Hecho (atribuido a los plantadores de 1664-1666, referido por Exquemelin en 1678): los habitantes de la costa de la Española sostenían que su tierra no era del Rey de Francia ni de la Compañía. Es una percepción de los propios colonos y de un testigo no francés, no un acto jurídico. Esta frase no figura en la traducción inglesa de 1684 (ver ficha del texto inglés) pero sí en la española de 1682. Nota editorial de 1931 (DBNL, notas al texto, 'Bij blz. 14'): Ogeron 'van 1664-1665 gouverneur van Tortuga' tras expulsar la Compañía a los españoles 'que desde 1654 habían vuelto a poseer la isla': es interpretación del editor, no del texto, y no coincide con Du Rausset 1656-1664. El OCR de archive.org de la ed. neerlandesa (deamericaenschez00exqu) está en fraktur y es ilegible; el texto de DBNL es el utilizable. Derechos: DBNL marca 'mogelijk auteursrechtelijk beschermd' el aparato de 1931, no el texto de 1678."
+  },
+  {
+   "titulo": "Piratas de la América, y luz a la defensa de las costas de Indias Occidentales (Colonia Agripina, Lorenzo Struickman, 1682; 2.ª impresión), trad. del flamenco por el Dr. de Buena-Maison",
+   "autor": "Exquemelin, Alexandre Olivier",
+   "anio": "1682",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/piratasdelaameri00exqu_0/piratasdelaameri00exqu_0_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/piratasdelaameri00exqu_0"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Traducción contemporánea (1681-82) del neerlandés; conserva pasajes que suprime la inglesa, pero con OCR dañado y traductor interpuesto.",
+   "proveniencia": "Traducción al español hecha por Buena-Maison (médico de Ámsterdam) del texto flamenco de Exquemelin, impresa en Colonia en 1682 con dedicatoria a Francisco López Suazo; el ejemplar es el de la John Carter Brown Library. Dirigida a lectores españoles ('luz a la defensa de las costas de Indias').",
+   "extractos": [
+    {
+     "ubicacion": "p. 86, cap. sobre los plantadores franceses de la Española; l. 4002-4008 del txt descargado de la URL",
+     "cita_original": "Sucedió el Año [de] 1664. que la Compañía de las Indias Occidentales [Francesa], fundó en Tortuga una Colonia, debaxo de la qual los Plantadores de la [Española] fueron nombrados por sugetos",
+     "traduccion": "Sucedió el año de 1664 que la Compañía francesa de las Indias Occidentales fundó en la Tortuga una colonia, bajo la cual los plantadores de la Española fueron declarados sujetos.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 86-87 (OCR: 'Dominicacion' = 'dominación'); l. 4013-4016 del txt descargado de la URL",
+     "cita_original": "estando en una tierra que no es [de] la [Dominación] del Rey de Francia; con que [resolvieron] el no querer trabaxar mas para ellos",
+     "traduccion": "estando en una tierra que no es del dominio del Rey de Francia, con lo que resolvieron no querer trabajar más para ellos.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Segundo testimonio (traducción) de la frase del original neerlandés sobre la tierra que no pertenece al Rey de Francia; no es independiente: traduce el mismo original. El OCR es defectuoso ('Dominicacion', 'Tortugai'); las citas están restituidas con cuidado. No se leyó el libro entero."
+  },
+  {
+   "titulo": "Histoire des avanturiers qui se sont signalez dans les Indes (París, Jacques Le Febvre, 1686), trad. francesa de Exquemelin (Oexmelin), con la vida y costumbres de los habitantes de Saint-Domingue y de la Tortue",
+   "autor": "Oexmelin (Exquemelin), Alexandre-Olivier",
+   "anio": "1686",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoiredesavant01exqu/histoiredesavant01exqu_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/histoiredesavant01exqu"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Versión francesa ampliada por el propio autor para el público francés; testigo directo de 1666-1672 pero con retoques de traductor y editor.",
+   "proveniencia": "Edición francesa de 1686 de la obra de Exquemelin, publicada en París por Jacques Le Febvre, 'avec la vie, les moeurs, les coûtumes des habitans de Saint Domingue & de la Tortuë'. Se vendió a un público francés que veía en los flibustiers un asunto de Estado.",
+   "extractos": [
+    {
+     "ubicacion": "p. 59-60; l. 3485-3489 del txt descargado de la URL",
+     "cita_original": "[Il y] gouverna paisiblement [jusques] en [l']année 1664 que la Compagnie [des] Indes Occidentales fut rétablie.",
+     "traduccion": "Monsieur de la Place gobernó allí en paz hasta el año 1664, en que se restableció la Compañía de las Indias Occidentales.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 60; l. 3501-3510 del txt descargado de la URL",
+     "cita_original": "se rendirent [aussi] les maistres [de] la Tortue, & y envoyèrent un navire en l'année 1664 avec [un] Lieutenant & soixante Soldats de garnison, un Commis General, avec trois Sous-commis & plusieurs engagez [...] [Ils] apportèrent en mesme temps une [commission] à [Monsieur] d'Ogeron Gentilhomme Angevin",
+     "traduccion": "se hicieron también dueños de la Tortuga y enviaron un navío en 1664 con un teniente y sesenta soldados de guarnición, un comisario general [...]. Llevaron a la vez una comisión para Monsieur d'Ogeron, gentilhombre de Anjou.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 60; l. 3512-3518 del txt descargado de la URL",
+     "cita_original": "[Monsieur] de la Place eut ordre du Roy de se retirer en France. [Monsieur] d'Ogeron [luy] succeda en qualité de Gouverneur pour le Roy, & pour [Messieurs] de la Compagnie.",
+     "traduccion": "Monsieur de la Place recibió orden del Rey de retirarse a Francia. Monsieur d'Ogeron le sucedió como gobernador por el Rey y por los señores de la Compañía.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Dato: la edición francesa sitúa en 1664 la llegada de los agentes de la Compañía, y da por sucesor de du Rausset a La Place (su sobrino/heredero), coherente con el procès-verbal del 6-VI-1665. El texto francés no contiene la frase de la 'tierra que no es del Rey' en las páginas leídas (no se leyó entero). Numeración de página tomada de los encabezados del OCR ('(y o' = p. 60): [POR VERIFICAR] en cotejo con el ejemplar."
+  },
+  {
+   "titulo": "Histoire générale des Antilles habitées par les François, t. I: 'contenant tout ce qui s'est passé dans l'establissement des Colonies Françoises' (París, Thomas Iolly, 1667)",
+   "autor": "Du Tertre, Jean-Baptiste (O.P.)",
+   "anio": "1667",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/histoiregenerale00dute_0/histoiregenerale00dute_0_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/histoiregenerale00dute_0",
+    "https://archive.org/download/histoiregenerale00dute_2/histoiregenerale00dute_2_djvu.txt (otro ejemplar del t. I)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Dominico misionero en las Antillas, contemporáneo de los hechos y con documentos originales insertados (concordato de 1641); pero relata la Tortuga por informantes y con la hostilidad hacia du Rausset que Charlevoix corrige.",
+   "proveniencia": "Jean-Baptiste Du Tertre (1610-1687), dominico misionero en las Antillas francesas; el t. I de 1667 reúne la historia del establecimiento de las colonias francesas (San Cristóbal, Guadalupe, Martinica, Tortuga) con textos oficiales de la Compañía de las Islas y del general de Poincy. Escrito para la Compañía y el público francés, en defensa de los intereses de la Compañía de las Islas y de la ortodoxia católica frente a los hugonotes (Le Vasseur).",
+   "extractos": [
+    {
+     "ubicacion": "t. I, I.ª parte, p. 169 (OCR '1S38'); l. 8049-8058 del txt descargado de la URL",
+     "cita_original": "Il y avoit déjà quelques années que les Anglois s'estoient [establis] dans [l'isle] de la Tortue [...] le General de l'armée [Espagnolle] y fut avec toute l'armée en l'année [1638]. & les ayant pris au [dépourveu], [passa] au fil de l'épée tous ceux qui tombèrent entre ses mains",
+     "traduccion": "Hacía ya algunos años que los ingleses se habían establecido en la isla de la Tortuga [...] el general del ejército español fue allí con todo el ejército en el año 1638 y, tomándolos desprevenidos, pasó a cuchillo a todos los que cayeron en sus manos.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, I.ª parte, p. 170; l. 8113-8115 del txt descargado de la URL",
+     "cita_original": "il [descendit] vers la fin d'[Aoust] de l'année 1640. dans l'Isle de la Tortue.",
+     "traduccion": "desembarcó hacia fines de agosto del año 1640 en la isla de la Tortuga (Le Vasseur, enviado por Poincy).",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 591-592 ('Copie des Concordats entre Monseigneur le General de Poincy & le Sieur le Chevalier de Fontenay', 2-XI-1641); l. 26779-26781 del txt descargado de la URL",
+     "cita_original": "pour réprimer les [insolences] commises par le Sieur le [Vasseur], soy disant Gouverneur de [l'isle] de la Tortue sans aveu",
+     "traduccion": "para reprimir las insolencias cometidas por el señor Le Vasseur, que se hace llamar gobernador de la isla de la Tortuga sin autorización.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Du Tertre fecha el ataque español a la Tortuga en 1638 y el desembarco de Le Vasseur a fines de agosto de 1640 (Moreau da noviembre de 1641 para Le Vasseur; el concordato Poincy-Fontenay lleva fecha 2-XI-1641). Los documentos españoles (ver BAGN 1941 n.º 17 y Utrera) sitúan el desalojo español de la Tortuga en 1635-1636: discrepancia de tres años entre fuentes francesas y españolas, no resuelta aquí. Labat (1722, t. V; F-0018) reproduce este relato de Du Tertre (un 'i(TiS' ilegible por 1638) y no cuenta como testimonio independiente. Du Tertre sitúa además a los 'boucaniers' franceses en la Tortuga antes de Le Vasseur. OCR con 's larga'; citas restituidas."
+  },
+  {
+   "titulo": "Traité de Paix entre Louis XIV et Charles II, Roi d'Espagne (Ryswick, 20-IX-1697), en Dumont, Corps universel diplomatique du droit des gens, t. VII, parte II (La Haya, 1731), doc. CXCVIII",
+   "autor": "Dumont, Jean (compilador); Louis XIV y Charles II (partes)",
+   "anio": "1697 (ed. 1731)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/corpsuniverseldi72dumo/corpsuniverseldi72dumo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/corpsuniverseldi72dumo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro de 37 artículos impreso en París en 1697 'chez Frédéric Léonard avec Privilège du Roi' y recogido por Dumont con remisión a las Actes et mémoires de la paix de Ryswick; es el instrumento mismo.",
+   "proveniencia": "Tratado franco-español firmado el 20-IX-1697 en el castillo de Ryswick por los plenipotenciarios Harlay de Bonnelle, Verjus de Crécy y Callières (Francia) y Quiros y Tirimont (España) bajo mediación sueca; Dumont lo transcribe del impreso parisino de 1697. Documento oficial redactado por ambas cancillerías, con ratificaciones de Luis XIV (Fontainebleau, 3-X-1697, la del artículo separado) y de Carlos II (Madrid, 8-X-1697).",
+   "extractos": [
+    {
+     "ubicacion": "doc. CXCVIII, sumario de Dumont; l. 82568-82573 del txt descargado de la URL",
+     "cita_original": "Traité de Paix entre Louis XIV. Roi de France & Charles II. Roi d'[Espagne], [par lequel toutes les Conquêtes], Occupations & Réunions faites [par Sa Majesté T. C. sur Sa Majesté Catholique] tant en [Espagne] qu'aux [Pays-Bas] depuis la Paix de Nimegue sont restituées",
+     "traduccion": "Tratado de paz entre Luis XIV, rey de Francia, y Carlos II, rey de España, por el cual todas las conquistas, ocupaciones y reuniones hechas por Su Majestad Cristianísima sobre Su Majestad Católica, tanto en España como en los Países Bajos, desde la paz de Nimega, son restituidas.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "art. II; l. 82680-82683 del txt descargado de la URL",
+     "cita_original": "tous A[ctes] d'Hostilitez cesseront entre lesd[its] Seigneurs Rois, leurs Sujets & Vassaux, tant par Mer & autres Eaux que par Terre, & généralement en tous Lieux où la Guerre se fait par les Armes de leurs Majestez",
+     "traduccion": "cesarán todos los actos de hostilidad entre dichos señores reyes, sus súbditos y vasallos, tanto por mar y demás aguas como por tierra, y en general en todos los lugares donde se haga la guerra con las armas de sus majestades.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "art. IV; l. 82724-82729 del txt descargado de la URL",
+     "cita_original": "toutes les autres Villes, Places, Forts, Lieux & Châtellenies généralement quelconques, qui ont été occupez, pendant cette Guerre, par les Armes de Sa Majesté [Très-Chrêtienne], & depuis le Traité de [Nimegue] dans la Principauté de Catalogne, ou ailleurs en [Espagne]",
+     "traduccion": "todas las demás villas, plazas, fuertes, lugares y castellanías, sean las que fueren, ocupadas durante esta guerra por las armas de Su Majestad Cristianísima, y desde el tratado de Nimega, en el Principado de Cataluña o en otra parte de España",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "art. XXV; l. 83083-83086 del txt descargado de la URL",
+     "cita_original": "au delà de la Ligne [&] en tous les autres Endroits du Monde dans l'espace de huit mois, à compter du jour que se fera la Publication du present Traité",
+     "traduccion": "más allá de la Línea y en todos los demás lugares del mundo, en el plazo de ocho meses contados desde la publicación del presente tratado [cláusula de presas marítimas].",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "art. XXIX; l. 83140-83144 del txt descargado de la URL",
+     "cita_original": "Le Traité de Nimegue, & les précédents feront exécutez, felon leur forme & teneur, excepté dans les Points & Articles, où il y aura été ci-devant dérogé, ou fait en dernier lieu quelque changement par le prefent Traité.",
+     "traduccion": "El tratado de Nimega y los anteriores serán ejecutados según su forma y tenor, salvo en los puntos y artículos en que se haya derogado antes o se haya hecho en último lugar algún cambio por el presente tratado.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0016",
+   "notas": "BÚSQUEDA NEGATIVA (A-051): sobre las líneas 82600-83400 del txt (los 37 artículos, el artículo separado y las ratificaciones) se buscaron 'Indes', 'Amérique/Amerique', 'Ifles/Isles', 'Domingue', 'Efpagnole', 'Hifpan', 'colon', 'conquis' y 'Occident' y no hay ninguna aparición dentro de los artículos: solo 'Mer', 'au delà de la Ligne' (art. XXV, presas) y la isla de Ponza (art. XXXII, que se devuelve al duque de Parma). Los arts. IV-XI restituyen plazas de Cataluña, Luxemburgo, Países Bajos, etc. Lectura del OCR de archive.org con 's larga' leída 'f'; falta cotejar con el impreso de 1697 y con la versión española de la Corona [POR VERIFICAR]. Nota de método: la ausencia de la isla en el texto no prueba por sí sola que España no reconociera de hecho a los franceses; es lo que el texto dice y no dice (hecho), distinto de lo que cada tradición infiere (interpretación). El art. XXIX confirma Nimega y los tratados anteriores salvo derogación: sobre su alcance americano ver la tregua de Ratisbona de 1684 (ficha aparte)."
+  },
+  {
+   "titulo": "The acts and negotiations, together with the particular articles at large of the general peace, concluded at Ryswick (Londres, 1698; trad. inglesa de Jacques Bernard, Actes et mémoires des négociations de la paix de Ryswick, La Haya)",
+   "autor": "Bernard, Jacques (comp.); trad. anónimo",
+   "anio": "1698",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://raw.githubusercontent.com/textcreationpartnership/A27483/master/A27483.xml",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Traducción contemporánea (1698) de la compilación oficiosa de la paz publicada en La Haya, con los tratados con España, Países Bajos, Inglaterra y el Imperio; transcrita por el Text Creation Partnership (EEBO-TCP, dominio público CC0).",
+   "proveniencia": "Compilación publicada por Jacques Bernard (La Haya, 1699; traducción inglesa de 1698) con las actas de las negociaciones y los artículos de cada tratado de Ryswick; el TCP A27483 transcribe el ejemplar Wing B1994. Es una vía independiente de la de Dumont (otra tradición impresa: La Haya/Londres frente a París).",
+   "extractos": [
+    {
+     "ubicacion": "'Articles of Peace, betwixt His Catholick Majesty and the Most Christian King', art. IV; carácter 206791-207400 del texto plano",
+     "cita_original": "all other Towns, Places, Forts and Chastelenies whatsoever, that have been possessed during this War by the Arms of his most Christian Majesty, and since the Treaty of Nimeguen, in the Principality of Catalonia, or elsewhere in Spain",
+     "traduccion": "todas las demás villas, plazas, fuertes y castellanías, sean las que fueren, poseídas durante esta guerra por las armas de Su Majestad Cristianísima, y desde el tratado de Nimega, en el Principado de Cataluña o en otra parte de España",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "mismo tratado, art. XXV (presas); carácter 224344-224500",
+     "cita_original": "beyond the said Line throughout the whole World within the space of eight Months, to be reckoned from the Publication of the present Treaty",
+     "traduccion": "más allá de dicha Línea, en todo el mundo, en el plazo de ocho meses contados desde la publicación del presente tratado.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "art. XXXII del tratado con los Estados Generales (identificación por el contexto de la compilación: partes 'his most Christian Majesty' y 'the States General'); carácter 158317",
+     "cita_original": "If any Places, Countries, or Colonies have been taken by the Arms of the most Christian King, upon the Coasts of Africa, or in the East or West Indies: or if the States General have taken any Places, Countries, or Colonies belonging to his most Christian Majesty, all such Conquests shall be restor'd on both sides",
+     "traduccion": "Si se han tomado plazas, países o colonias por las armas del Rey Cristianísimo en las costas de África o en las Indias Orientales u Occidentales, o si los Estados Generales han tomado plazas, países o colonias pertenecientes a Su Majestad Cristianísima, todas esas conquistas serán restituidas por ambas partes.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "BÚSQUEDA NEGATIVA (A-051): en la traducción inglesa del tratado con España (carácter 201631 en adelante, 'Articles of Peace, betwixt His Catholick Majesty and the Most Christian King') no aparece 'Indies', 'America', 'Hispaniola' ni 'St. Domingo'; en todo el volumen 'Indies' aparece solo dos veces (un discurso y el art. XXXII del tratado con los Estados Generales). Es decir: los tratados de Ryswick con otras potencias sí tienen cláusulas coloniales explícitas (art. XXXII con los Estados Generales; arts. VII-VIII con Inglaterra sobre San Cristóbal y la bahía de Hudson según los papeles del Consejo de Comercio inglés, ver ficha del CSP vol. 16), pero el tratado con España no. La compilación es un texto independiente del de Dumont solo en la cadena de impresión, no en el original. Falta cotejar con el original francés de La Haya, 1699 [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Tractatus Induciarum vicennalium inter Carolum Hispaniarum Regem Catholicum et Ludovicum Christianissimum Galliae Regem (Ratisbona, 15-VIII-1684), con ratificación y artículo separado, en Dumont, Corps universel diplomatique, t. VII, parte II, p. 83 ss.",
+   "autor": "Dumont, Jean (compilador); Carlos II y Luis XIV (partes)",
+   "anio": "1684 (ed. 1731)",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/corpsuniverseldi72dumo/corpsuniverseldi72dumo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/corpsuniverseldi72dumo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto íntegro del instrumento transcrito por Dumont de una edición impresa; OCR con 's larga' pero el art. I es legible.",
+   "proveniencia": "Tregua de veinte años firmada en Ratisbona el 15-VIII-1684 entre Luis XIV y Carlos II de España (paralela a la francoimperial), tras la guerra de las Reuniones; ratificada por el rey católico. Texto latino redactado por las dos cancillerías.",
+   "extractos": [
+    {
+     "ubicacion": "art. I (texto latino); Dumont VII.2, p. 83 ss.; l. 19874-19879 del txt descargado de la URL",
+     "cita_original": "cessent utrimque tàm Terra, quàm Mari, aliisque Aquis omnes Hostilitates in omnibus Regnis & Dominiis, in & extra Europam, tàm cis, quàm trans Lineam, omniaque restituantur hinc indè in eum statum, in quem Pace Neomagensi fuêre constituta",
+     "traduccion": "cesen por ambas partes, tanto por tierra como por mar y demás aguas, todas las hostilidades en todos los reinos y dominios, dentro y fuera de Europa, tanto de este lado como del otro de la Línea, y que todo sea restituido de una y otra parte al estado en que fue establecido por la paz de Nimega.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-053"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: la tregua de 1684 extiende expresamente el cese de hostilidades 'extra Europam, tam cis quam trans Lineam' y devuelve todo al estado de Nimega (1678): es una cláusula con alcance americano explícito, que el tratado de 1697 no repite en esos términos (el art. II de Ryswick habla de 'todos los lugares donde se hace la guerra'). Luis XIV ordenó a Cussy en 1685 aplicar la tregua en la isla de Santo Domingo 'si el comandante español tiene el mismo poder' (ver Moreau, Loix et constitutions t. I). Hipótesis (no comprobada aquí): que la remisión a 'Nimega' implicara en 1684 la raya del Rebouc acordada en 1679. Falta localizar el acta de 1679 (Escoso-Pouançay) en texto primario [POR VERIFICAR]."
+  },
+  {
+   "titulo": "Tractatus ... ad bonam correspondentiam in America interruptam rursus instaurandam (Madrid, 18-VII-1670), tratado anglo-español 'de América' (Godolphin-Peñaranda), en Dumont, Corps universel diplomatique, t. VII, parte I",
+   "autor": "Dumont, Jean (compilador); Carlos II de Inglaterra y Carlos II de España (partes)",
+   "anio": "1670 (ed. 1731)",
+   "tipo": "primaria",
+   "idioma": "la",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/corpsuniverseldi71dumo/corpsuniverseldi71dumo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/corpsuniverseldi71dumo"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Tratado impreso en Madrid en 1670 (Domingo García Morrás) y recogido por Dumont con las plenipotencias de ambas partes.",
+   "proveniencia": "Tratado entre Inglaterra y España negociado en Madrid por William Godolphin y el conde de Peñaranda en 1670 para restablecer la correspondencia en América y poner fin a las depredaciones; Dumont transcribe el impreso madrileño de 1670. Incluye el reconocimiento mutuo de posesiones americanas 'que ahora tienen'.",
+   "extractos": [
+    {
+     "ubicacion": "art. VII; Dumont VII.1 (tratado n.º LXI); l. 30721-30726 del txt descargado de la URL",
+     "cita_original": "Terras omnes, Regio[nes], Insulas, Colonias, ac Dominia in Occidentali India aut quavis parte Americae sita habebunt, tenebunt, & possidebunt in perpetuum, quascunque [dictus] Magn[ae] Britanniae Rex, & Subditi ejus impraesentiarum tenent, ac [possident]",
+     "traduccion": "tendrán, mantendrán y poseerán para siempre todas las tierras, regiones, islas, colonias y dominios situados en las Indias Occidentales o en cualquier parte de América que el Rey de la Gran Bretaña y sus súbditos tienen y poseen en la actualidad [sujeto: el Serenísimo Rey de la Gran Bretaña y sus herederos y sucesores, art. VII].",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Pieza de contraste: el único tratado europeo del periodo que reconoce expresamente a una potencia las posesiones americanas que tiene (Inglaterra, 1670, con la Jamaica) lo hace con cláusula nominativa de uti possidetis; el tratado de Ryswick con España (1697) y la tregua de 1684 no contienen cláusula equivalente para Francia en la Española. Esto describe lo que dicen los textos (hecho); inferir de ello 'reconocimiento tácito' o 'no reconocimiento' es interpretación. Texto latino con OCR de 's larga'; las citas están restituidas. Para el contexto de 1666-1670 ver la ficha del Calendar of State Papers (vol. 5)."
+  },
+  {
+   "titulo": "Loix et constitutions des colonies françoises de l'Amérique sous le vent, t. I (leyes y constituciones de 1550 a 1703) (París, el autor, 1784)",
+   "autor": "Moreau de Saint-Méry, Médéric-Louis-Élie (comp.)",
+   "anio": "1784",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/loixetconstituti00fran/loixetconstituti00fran_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/loixetconstituti00fran"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Compilación de textos oficiales (edictos, arrêts, procès-verbaux, cartas del Rey y ordenanzas de gobernadores) copiados de originales y registros del Conseil Souverain; la tabla de gobernadores es de síntesis del compilador y pierde fiabilidad.",
+   "proveniencia": "Moreau de Saint-Méry, abogado y archivista colonial, recopila y publica en París (1784-1790) las leyes y actos oficiales de las colonias francesas de Sotavento; el t. I cubre 1550-1703. Escribió para magistrados y administradores del ministerio de Marina, con la intención declarada de fundar el derecho colonial en los textos. Sabe de primera mano los registros del Conseil Supérieur del Cabo.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, tabla 'Gouverneurs de la partie françoise de Saint-Domingue', años 1630-1638 (años con OCR dudoso: '1632', '1639'); l. 1411-1417 del txt descargado de la URL",
+     "cita_original": "Les François chassés de Saint-Christophe par les Espagnols, se répandirent sur la Côte Septentrionale de Saint-Domingue, et dans la Petite Isle de la Tortue. [...] Ces François, composés de Flibustiers et de Boucaniers, chassent de la Tortue le petit nombre d'Espagnols qui y étoient, et s'y établissent",
+     "traduccion": "Los franceses expulsados de San Cristóbal por los españoles se esparcieron por la costa septentrional de Santo Domingo y por la pequeña isla de la Tortuga. [...] Estos franceses, compuestos de filibusteros y bucaneros, expulsan de la Tortuga al pequeño número de españoles que había y se establecen allí.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, misma tabla (entrada de 1638); l. 1421-1422 del txt descargado de la URL",
+     "cita_original": "Les Espagnols massacrent presque toute la Colonie, et expulsent le reste de la Tortue.",
+     "traduccion": "Los españoles masacran a casi toda la colonia y expulsan al resto de la Tortuga.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Nomination par les Directeurs Généraux de la Compagnie des Indes Occidentales du Sieur d'Ogeron au Gouvernement de l'Isle de la Tortue', París, 7-X-1664; l. 8684-8688 del txt descargado de la URL",
+     "cita_original": "nommons et présentons au Roi notre Souverain Seigneur ledit sieur d'Ogeron pour être pourvu par Sa Majesté du Gouvernement de l'Isle de la Tortue et Côte de l'Isle de Saint-Domingue en l'Amérique pour par lui l'exercer pendant trois années",
+     "traduccion": "nombramos y presentamos a Nuestro Soberano Señor el Rey al dicho señor d'Ogeron para que Su Majestad lo provea del gobierno de la isla de la Tortuga y costa de la isla de Santo Domingo en América, para ejercerlo durante tres años.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Lettre du Roi au Commandant dans l'Isle de la Tortue', 27-X-1664 (el año está ilegible en el OCR: '166^'; Moreau, Description, da 27-X-1664 para el nombramiento real); l. 11831-11834 del txt descargado de la URL",
+     "cita_original": "ayant pourvu le sieur d'Ogeron, au lieu du sieur du Rausset, du Gouvernement de l'Isle de la Tortue sur la nomination des Directeurs de la nouvelle Compagnie des Indes Occidentales à qui appartient maintenant ladite Isle",
+     "traduccion": "habiendo provisto al señor d'Ogeron, en lugar del señor du Rausset, del gobierno de la isla de la Tortuga a propuesta de los directores de la nueva Compañía de las Indias Occidentales, a quien pertenece ahora dicha isla.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Vente de l'Isle de la Tortue par le Sieur Deschamps, sieur du Rausset, à la Compagnie des Indes Occidentales', París, 15-XI-1664 (según el procès-verbal de 1665); l. 8915-8918 del txt descargado de la URL",
+     "cita_original": "Tortue, située en l'Amérique, conquise par ledit sieur du Rausset, et dont Sa Majesté lui a accordé le Brevet dès l'année mil six cent cinquante-sept, [...] étant de présent Prisonnier au Château de la Bastille",
+     "traduccion": "la Tortuga, situada en América, conquistada por dicho señor du Rausset y de la cual Su Majestad le concedió el brevete desde el año 1657, [...] hallándose preso en la Bastilla.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 146-147 (cabecera OCR '146'/'147'), 'Procès-verbal de prise de possession de l'Isle de la Tortue par M. d'Ogeron', 6-VI-1665; l. 9823-9826 del txt descargado de la URL",
+     "cita_original": "sixième jour de Juin mil six cent soixante-cinq, seroit arrivé dans le [Port] de l'isle de la Tortue, la Personne de Bertrand d'Ogeron, Ecuyer, Sieur de la [Bouëre], avec Commission et Lettres de Cachet de Sa Majesté",
+     "traduccion": "El día seis de junio de 1665 habría llegado al puerto de la isla de la Tortuga la persona de Bertrand d'Ogeron, con comisión y lettres de cachet de Su Majestad.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, mismo procès-verbal; l. 9834-9837 del txt descargado de la URL",
+     "cita_original": "lesdits Habitans reçu ledit sieur d'[Ogeron] pour leur seul vrai Gouverneur, criant à haute voix: [Vive le] Roi, et Nosseigneurs de la Compagnie des Indes Occidentales, dont ladite [Isle] dépend",
+     "traduccion": "dichos habitantes recibieron al señor d'Ogeron por su único y verdadero gobernador, gritando en voz alta: ¡Viva el Rey y los Señores de la Compañía de las Indias Occidentales, de quienes depende dicha isla!",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Extrait de la Lettre du Roi à M. le Comte d'Estrées, touchant l'exécution de la Paix entre la France et l'Espagne', 15 (o 13)-VI-1669 [el OCR da dos días; Clément, ed. de Colbert, lee '28 juin']; l. 11567-11570 del txt descargado de la URL",
+     "cita_original": "ne souffrant point qu'aucun de mes Sujets abordent en aucun de leurs Ports, je ne suis pas obligé aussi de ma part à exécuter la [Paix] établie par [lesdits] Traités dans l'étendue desdits Pays",
+     "traduccion": "no tolerando que ninguno de mis súbditos arribe a ninguno de sus puertos, yo no estoy obligado a cumplir por mi parte la paz establecida por dichos tratados en la extensión de dichos países [los dominios españoles fuera de Europa].",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Lettre du Roi à M. de Cussy, touchant l'exécution de la Trêve avec les Espagnols', 13-VIII-1685 (OCR: 'i^Sj-'; lectura probable 1685); l. 24331-24337 del txt descargado de la URL",
+     "cita_original": "mon intention étant que la Trêve de Ratisbonne soit ponctuellement exécutée dans tous les Terres et Pays de mon obéissance, [...] dans [l'isle] de Saint-Domingue entre mes Sujets et ceux du Roi d'Espagne, en cas que vous soyez assuré que le Commandant pour Sa Majesté Catholique dans ladite [Isle] ait le même pouvoir",
+     "traduccion": "siendo mi intención que la tregua de Ratisbona se cumpla puntualmente en todas las tierras y países de mi obediencia, [...] en la isla de Santo Domingo entre mis súbditos y los del Rey de España, siempre que estéis seguro de que el comandante de Su Majestad Católica en dicha isla tiene el mismo poder.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Edit [...] du mois de Mai [1664] portant Etablissement d'une Compagnie des Indes Occidentales' (preámbulo); l. 7510-7513 del txt descargado de la URL",
+     "cita_original": "pour faire tout le Commerce qui se peut faire en l'étendue desdits Pays de la Terre [ferme] de l'Amérique depuis la rivière des Amazones jusqu'à celle d'Orenoc et Isles appellées Antilles, possédées par les François",
+     "traduccion": "para hacer todo el comercio que pueda hacerse en la extensión de dichos países de la Tierra Firme de América desde el río de las Amazonas hasta el Orinoco y las islas llamadas Antillas, poseídas por los franceses.",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Edit en forme de Lettres-Patentes pour l'Etablissement de la Compagnie Royale de Saint-Domingue, dite de la Nouvelle-Bourgogne', septiembre de 1698 (preámbulo); l. 33582-33589 del txt descargado de la URL",
+     "cita_original": "notre premier soin a été, après la conclusion de la Paix générale, [...] particulièrement de celles qui sont dans la partie du Sud de la portion de [l'isle] de Saint-Domingue qui nous appartient",
+     "traduccion": "nuestro primer cuidado ha sido, tras la conclusión de la paz general, [...] en particular las que están en la parte sur de la porción de la isla de Santo Domingo que nos pertenece.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, mismo edicto de septiembre de 1698 (artículo constitutivo); l. 33606-33609 del txt descargado de la URL",
+     "cita_original": "pour faire seule pendant l'espace de cinquante années le Commerce dans la partie de l'Isle de Saint-Domingue, située et comprise depuis le Cap Tiberon, jusqu'à la Rivière de Naybe inclusivement",
+     "traduccion": "para hacer sola, durante cincuenta años, el comercio en la parte de la isla de Santo Domingo situada y comprendida desde el cabo Tiburón hasta el río Neiba inclusive.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, 'Ordonnance de M. Du Casse, qui défend aux François la Chasse dans la Partie Espagnole', Léogane, 24-II-1699; l. 34262-34264 del txt descargado de la URL",
+     "cita_original": "des Chasseurs François qui entrent dans les terres de Sa Majesté Catholique, [...] ce qui est contraire aux Droits des Gens et au Traité de Paix",
+     "traduccion": "de cazadores franceses que entran en las tierras de Su Majestad Católica [...], lo cual es contrario al derecho de gentes y al tratado de paz.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, misma ordenanza de Du Casse de 24-II-1699; l. 34267-34269 del txt descargado de la URL",
+     "cita_original": "depuis la Rivière de Rebouc tirant à [l'Est], qui est la Borne reconnue de tous les François, de leurs possessions avant la dernière guerre",
+     "traduccion": "desde el río Rebouc hacia el Este, que es el límite reconocido por todos los franceses de sus posesiones antes de la última guerra.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, carta de los Generales de Saint-Domingue a Vincent Gonne (22-VIII-1754), que acompaña la concesión de Ducasse del 11-IX-1698 a André Minguet (Trou Dondon); l. 33561-33562 del txt descargado de la URL",
+     "cita_original": "Comme cette Pièce est extrêmement intéressante pour [convaincre] [les] Espagnols de l'étendue de nos anciennes Possessions",
+     "traduccion": "Como esta pieza es extremadamente interesante para convencer a los españoles de la extensión de nuestras antiguas posesiones.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Hechos (documentales): (1) nombramiento de d'Ogeron por la Compañía el 7-X-1664, carta real del 27-X-1664, venta de la Tortuga por du Rausset el 15-XI-1664, procès-verbal del 6-VI-1665 (la tabla de gobernadores del mismo tomo dice 'Il prend possession le 5 Juin 1665' con OCR dudoso; Moreau, Description, da 6 y 7 de junio: discrepancia de un día entre piezas de la misma mano). (2) El edicto de mayo de 1664 de la Compañía de las Indias Occidentales no nombra Saint-Domingue ni la Tortue en el tramo leído (preámbulo y artículos del edicto, unas 900 líneas del txt): concede 'las Antillas poseídas por los franceses', Tierra Firme, Canadá y África; la Tortuga entra por compra a du Rausset (15-XI-1664) y no por concesión nominativa. (3) La carta del Rey al conde d'Estrées (junio de 1669) vincula la guerra de corsarios y bucaneros a que los españoles no ejecutan el artículo de los 'traités de paix' sobre libertad de comercio 'fuera de Europa' (la carta no nombra los tratados; probablemente Pirineos 1659 y Aquisgrán 1668 [POR VERIFICAR]): es la posición del Estado francés expuesta por el propio Rey, no un hecho. (4) El edicto de septiembre de 1698 habla de 'la porción de la isla de Saint-Domingue que nos pertenece' sin citar Ryswick como título, y fija una concesión Cap Tiburon-Neiba; la ordenanza de Du Casse de 24-II-1699 trata el este del Rebouc como 'tierras de Su Majestad Católica' por la 'borne reconnue ... avant la dernière guerre': es decir, los propios franceses tomaron como límite la posesión anterior a la guerra de 1689-1697, no una cesión. (5) La carta de 1754 confirma que Francia seguía usando las concesiones de 1698 como prueba frente a España hasta Aranjuez. Interpretación (no hecho): lo anterior es coherente con un statu quo ante bellum más que con una cesión; las tradiciones dominicana y haitiana lo leen de modo distinto. Páginas: el OCR no da folio fiable salvo '146-147' (procès-verbal); el resto se cita por título y fecha del acto con la línea del txt. Sesgo: Moreau compila para el ministerio y es partidario de la Corona francesa."
+  },
+  {
+   "titulo": "Description topographique et politique de la partie espagnole de l'isle Saint-Domingue, t. I (Filadelfia, el autor, 1796), Introducción: 'De ce qui a eu lieu relativement aux limites, entre la partie française et la partie espagnole' y cap. sobre Santiago",
+   "autor": "Moreau de Saint-Méry, Médéric-Louis-Élie",
+   "anio": "1796",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/A086B262/A086B262_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/A086B262"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Cronología de límites compilada por Moreau sobre los papeles del depósito de Saint-Domingue; es síntesis posterior (más de un siglo a los hechos) y de parte, publicada en 1796 cuando se discutía la cesión de Basilea.",
+   "proveniencia": "Moreau de Saint-Méry, exiliado en Filadelfia, publica en 1796 su 'Description' de la parte española a partir de los papeles del depósito de Saint-Domingue; según su propio Avertissement la obra se escribió antes de la Revolución y no modificó el texto sobre si la cesión de la parte española era ventajosa para Francia (cesión pactada en Basilea, 1795). Escribe para un público colonial francés y para los gobiernos que debían decidir sobre la cesión.",
+   "extractos": [
+    {
+     "ubicacion": "Introducción, tabla cronológica de límites, año 1664; l. 898-899 del txt descargado de la URL",
+     "cita_original": "D'Ogeron, successeur de M. Deschamps de la Place, forme une habitation au Port-Margot",
+     "traduccion": "D'Ogeron, sucesor de M. Deschamps de la Place, forma una habitación (plantación) en Port-Margot.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, tabla cronológica de límites, año 1676 (OCR dañado: 'A cette époque où Pouancay, neveu de d'Ogeron, lui succéda'); l. 917-922 del txt descargado de la URL",
+     "cita_original": "des Français avaient poussé leurs [établissemens], le long de la mer, depuis le Port-de-Paix, [jusqu'à] la rivière du Rebouc, & [possédaient] l'île de Tortue & la péninsule de Samana",
+     "traduccion": "los franceses habían extendido sus establecimientos a lo largo del mar desde Port-de-Paix hasta el río Rebouc, y poseían la isla de la Tortuga y la península de Samaná.",
+     "afirmaciones": [
+      "A-050",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, tabla cronológica de límites, tras la paz de Nimega (año ilegible en el OCR; 1679 según el contexto); l. 930-938 del txt descargado de la URL",
+     "cita_original": "Don Francisque de Segura, Sandoval [&] Castill, [Président] de la partie Espagnole, écrit le 10 Juillet & envoye à M. de Pouançay, le Licentié, Don Jean Baptiste Escoso, pour lui notifier la paix, & lui [proposer] de fixer les limites entre les deux Nations.",
+     "traduccion": "Don Francisco de Segura Sandoval y Castilla, presidente de la parte española, escribe el 10 de julio y envía a M. de Pouançay al licenciado don Juan Bautista Escoso para notificarle la paz y proponerle fijar los límites entre las dos naciones.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, misma tabla, año 1684 (OCR: 'Roblès'); l. 993-995 del txt descargado de la URL",
+     "cita_original": "Don André de Roblès, président, rejetta la proposition",
+     "traduccion": "Don Andrés de Robles, presidente, rechazó la propuesta [de reconocer como límites el Rebouc por un lado y el cabo de la Beata por el otro].",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, misma tabla, año 1697 (OCR truncado al final de la línea: '... resteront telles qu'elles'); l. 1078-1085 del txt descargado de la URL",
+     "cita_original": "Traité de paix de Rifwick, portant que les pos[sessions] des deux puissances, resteront telles qu'elles",
+     "traduccion": "Tratado de paz de Ryswick, por el cual las posesiones de las dos potencias permanecerán tal como están [el OCR corta la frase].",
+     "afirmaciones": [
+      "A-051",
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, misma tabla, año 1698; l. 1104-1106 del txt descargado de la URL",
+     "cita_original": "M. [Ducasse] répond que le président n'a nulle plainte à faire sur [les] vigies puisqu'elles ne sont pas hors des limites.",
+     "traduccion": "M. Ducasse responde que el presidente no tiene queja alguna que formular sobre las vigías, puesto que no están fuera de los límites.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Introducción, misma tabla, año 1699 (OCR dañado en la segunda mitad); l. 1119-1122 del txt descargado de la URL",
+     "cita_original": "sommation au nom du président par intérim, Don Sever[ino] de Manzaneda, à [M. Ducasse] de faire retirer ses vigies ou gardes avancées jusqu'à Caracol",
+     "traduccion": "intimación, en nombre del presidente interino don Severino de Manzaneda, a M. Ducasse para que retire sus vigías o guardias avanzadas hasta Caracol.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Descripción de Santiago, hacia p. 234 (); l. 13778-13782 del txt descargado de la URL",
+     "cita_original": "sans la nouvelle de la paix de Rifwicke que M. [Ducasse] fit porter au gouverneur [de ce] lieu en 1698, cinq cens cinquante hommes envoyés par lui & qui pénétraient déjà dans la partie française y auraient commis de grand[s] ravages",
+     "traduccion": "de no ser por la noticia de la paz de Ryswick que M. Ducasse hizo llevar al gobernador de ese lugar en 1698, quinientos cincuenta hombres enviados por él, que ya penetraban en la parte francesa, habrían causado grandes estragos.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0021",
+   "notas": "Moreau (1796) resume Ryswick como 'las posesiones de las dos potencias quedarán tal como están': es una paráfrasis suya; el texto del tratado franco-español (ver Dumont VII.2) no contiene esa cláusula en los artículos leídos; la frase se corta en el OCR. Sirve como testimonio de cómo el funcionario francés leyó el tratado en 1796, no como prueba de lo que el tratado dice. La cronología de 1698-1700 muestra un litigio sobre vigías y límites (Caracol, Rebouc, Jaquezy) que Moreau data en 1698-1700, es decir, el límite no quedó fijado por Ryswick; las fechas de la tabla tienen OCR dañado en varias líneas (años 1679, 1684, 1699-1700 por contexto). El txt de archive.org (A086B262) corresponde al tomo I; la tabla cronológica está en el preliminar (Introducción). Ver M05 para el resto de la obra."
+  },
+  {
+   "titulo": "Description topographique, physique, civile, politique et historique de la partie française de l'isle Saint-Domingue, t. I (Filadelfia, el autor, 1797-98): historia de la Tortue y de d'Ogeron",
+   "autor": "Moreau de Saint-Méry, Médéric-Louis-Élie",
+   "anio": "1797",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/descriptiontopog00more/descriptiontopog00more_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/descriptiontopog00more"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis erudita de Moreau sobre registros coloniales, con remisión a su propia recopilación de leyes (procès-verbal de 1665); posterior en 130 años a los hechos y con variantes internas de fechas.",
+   "proveniencia": "Moreau de Saint-Méry, antiguo magistrado del Conseil Supérieur del Cabo, redacta en el exilio la descripción de la parte francesa de Saint-Domingue; usa los papeles de la colonia y su compilación de 1784. Escribe para un público francés y colonial tras la Revolución.",
+   "extractos": [
+    {
+     "ubicacion": "'Observations générales', historia de la Tortuga; l. 36972-36974 del txt descargado de la URL",
+     "cita_original": "la Compagnie choisit d'Ogeron pour prendre [possession] de la Tortue en son nom, & sur sa présentation, le roi l'en fit gouverneur, le 27. [Octobre] 1664.",
+     "traduccion": "la Compañía eligió a d'Ogeron para tomar posesión de la Tortuga en su nombre y, a propuesta de ella, el rey lo hizo gobernador el 27 de octubre de 1664.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "mismo pasaje; l. 36976-36979 del txt descargado de la URL",
+     "cita_original": "il eut cependant dès-lors le plan d'étendre les établissemens de l'île même de Saint-Domingue &, en outre, celui d'en expulser, un jour, les Espagnols, de manière que cette île fût, dans sa totalité, une pos[session] française.",
+     "traduccion": "tuvo, sin embargo, desde entonces el plan de extender los establecimientos a la isla misma de Santo Domingo y, además, el de expulsar de ella algún día a los españoles, de modo que esa isla fuese, en su totalidad, una posesión francesa.",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "Descripción de la Tortuga, nota; l. 39259-39260 del txt descargado de la URL",
+     "cita_original": "le procès-verbal de remise de la Tortue à d'Ogeron par M. Deschamps de la Place, neveu de Du [Rausset], le 7 Juin 1665",
+     "traduccion": "el procès-verbal de entrega de la Tortuga a d'Ogeron por M. Deschamps de la Place, sobrino de Du Rausset, el 7 de junio de 1665.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Descripción de la Tortuga; l. 38547-38548 del txt descargado de la URL",
+     "cita_original": "Lorsque d'Ogeron fut mis en [possession] de la Tortue, le 6 Juin 1665, cette [Isle] avait 400 hommes portant armes.",
+     "traduccion": "Cuando d'Ogeron fue puesto en posesión de la Tortuga, el 6 de junio de 1665, esta isla tenía 400 hombres en condiciones de llevar armas.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Descripción de Port-de-Paix; l. 37369-37371 del txt descargado de la URL",
+     "cita_original": "Les représentations de M. Danzé & l'effet de la paix de Riswick sauvèrent enfin le Port-de-Paix de la fatale [suppression]",
+     "traduccion": "Las representaciones de M. Danzé y el efecto de la paz de Ryswick salvaron al fin a Port-de-Paix de la fatal supresión.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0022",
+   "notas": "Moreau da dos días distintos (6 y 7 de junio de 1665) para la toma de posesión en la misma obra; el procès-verbal original impreso por él mismo en 1784 dice 6 de junio. La fecha 27-X-1664 de la carta real coincide con la 'Lettre du Roi' de Loix et constitutions t. I. La frase del 'plan de expulsar un día a los españoles' es juicio de Moreau (1797) sobre las intenciones de d'Ogeron: lo apoyan, por separado, Colbert (instrucción a Baas de 16-IX-1668: 'entreprendre sur la ville de Saint-Domingue') y Sánchez Valverde (1785: 'proyecto de apoderarse de toda la Española por los años de 1673'), pero ambos son de cadena distinta (documento oficial francés y crónica española dependiente de Charlevoix). Moreau en esta obra no usa Ryswick como título de cesión en los pasajes leídos."
+  },
+  {
+   "titulo": "Lettres, instructions et mémoires de Colbert, t. III, 2.ª parte (Marine et galères; 'Colonies'), ed. Pierre Clément (París, Imprimerie impériale, 1864)",
+   "autor": "Clément, Pierre (ed.); Colbert, Jean-Baptiste; Luis XIV",
+   "anio": "1665-1673 (ed. 1864)",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/colbert-lettres-instructions-et-memoires-de-colbert-v-3-p-2/Colbert%20Lettres%20instructions%20et%20memoires%20de%20Colbert%20v%203%20p%202_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/colbert-lettres-instructions-et-memoires-de-colbert-v-3-p-2"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Edición crítica del siglo XIX de minutas y copias oficiales de Colbert con signatura de archivo; el OCR es ruidoso pero las piezas son oficiales y fechadas.",
+   "proveniencia": "Cartas e instrucciones del ministro de Marina de Luis XIV, editadas por Pierre Clément por orden de Napoleón III; las piezas sobre 'Colonies' reflejan la política oficial frente a la Compañía de las Indias Occidentales, a Ogeron y a los bucaneros. Autor real: Colbert o el Rey; destinatarios: Treillebois, Baas, d'Estrées.",
+   "extractos": [
+    {
+     "ubicacion": "'Instruction au sieur de la Rabesnières de Treillebois', Saint-Germain, 1-X-1665; l. 37294-37296 del txt descargado de la URL",
+     "cita_original": "qu'il confère avec le sieur d'Ogeron, gouverneur de la Tortue, sur tout ce qui se peut entreprendre dans l'estendue de ces mers",
+     "traduccion": "que consulte con el señor d'Ogeron, gobernador de la Tortuga, sobre todo lo que pueda emprenderse en la extensión de esos mares.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "'Instruction à M. de Baas, gouverneur et lieutenant général des isles françoises d'Amérique', Saint-Germain, 16-IX-1668; l. 37680-37682 del txt descargado de la URL",
+     "cita_original": "Par les Espagnols, qui les premiers ont fait [cette] découverte, celles de Cuba, Saint-Domingue ou l'Espagnol, et Porto-Rico, qui sont les plus considérables",
+     "traduccion": "Por los españoles, que fueron los primeros en hacer este descubrimiento, las de Cuba, Santo Domingo o la Española y Puerto Rico, que son las más importantes.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "misma instrucción a Baas, 16-IX-1668; l. 38100-38103 del txt descargado de la URL",
+     "cita_original": "le sieur d'Ogeron, gouverneur de l'isle de la Tortue, qui s'est acquis une grande créance parmy les boucaniers de cette isle et de la coste de Saint-Domingue où ils se maintiennent depuis plusieurs années",
+     "traduccion": "el señor d'Ogeron, gobernador de la isla de la Tortuga, que ha adquirido gran crédito entre los bucaneros de esa isla y de la costa de Santo Domingo, donde se mantienen desde hace varios años.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "misma instrucción a Baas, 16-IX-1668 (continuación de la frase); l. 38103-38109 del txt descargado de la URL",
+     "cita_original": "il importe de maintenir cet establissement, tant dans ladite isle de la Tortue que dans celle de Saint-Domingue [...] pour entreprendre sur la ville de [Saint-Domingue], sur l'isle de Cuba",
+     "traduccion": "importa mantener este establecimiento, tanto en la isla de la Tortuga como en la de Santo Domingo [...] para emprender contra la ciudad de Santo Domingo y la isla de Cuba.",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "'Louis XIV au comte d'Estrées, vice-amiral de Ponant', junio de 1669 (día ilegible en el OCR: '38 juin'; Moreau lo imprime con el 15 o 13 de junio); l. 41048-41050 del txt descargado de la URL",
+     "cita_original": "les Espagnols n'exécutant point l'article des traités qui donne la liberté entière du commerce à [mes] sujets dans [tous les] pays de leur obéissance",
+     "traduccion": "no ejecutando los españoles el artículo de los tratados que da libertad plena de comercio a mis súbditos en todos los países de su obediencia.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "'A M. de Baas', París, 5-IX-1673; l. 48546-48547 del txt descargado de la URL",
+     "cita_original": "la perte du sieur d'Ogeron et du nombre considérable de [François] de l'isle de Saint-Domingue qui estoient embarqués avec luy",
+     "traduccion": "la pérdida del señor d'Ogeron y del considerable número de franceses de la isla de Santo Domingo que se habían embarcado con él.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: la instrucción de 1668 trata a Saint-Domingue como isla 'poseída por los españoles' y a la Tortuga y la costa como un establecimiento a mantener, desde el cual se puede 'emprender contra la ciudad de Santo Domingo': es decir, en 1668 el Estado francés no se consideraba poseedor de la isla entera ni de la costa por título español. Interpretación: lectura de intención (ataque o expansión) discutible; el verbo 'entreprendre sur' admite el sentido militar. Las piezas en las notas del editor identifican a Ogeron ('gentilhomme angevin'; OCR dañado). Reproducción del mismo texto del 1669 (carta a d'Estrées) en Moreau, Loix et constitutions t. I (no es segunda prueba: es la misma pieza). Página: el OCR da 'COLONIES' y folio solo en parte ('400 COLONIES' para la instrucción a Treillebois); se citan por pieza y fecha."
+  },
+  {
+   "titulo": "Relación impresa 'De la vitoria que han tenido las católicas armas de Su Majestad en la recuperación de la Isla de la Tortuga, mandada ejecutar por el doctor don Juan Francisco Montemayor de Cuenca' (Madrid, 1654), reproducida en Boletín del Archivo General de la Nación n.º 20-21 (1942), con notas de E. Rodríguez Demorizi",
+   "autor": "Anónimo (relación oficial impresa, 1654); Rodríguez Demorizi, Emilio (ed., 1942)",
+   "anio": "1654 (ed. 1942)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1942_No_20-21.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Relación oficial de una victoria, publicada por la propia administración de Santo Domingo con interés propagandístico, pero con nombres, fechas y cifras verificables; la edición de 1942 añade notas de archivo.",
+   "proveniencia": "Relación impresa en 1654 por el Presidente interino de la Audiencia de Santo Domingo, Juan Francisco Montemayor de Cuenca, tras recuperar la Tortuga en enero de 1654; destinada a la Corte y al público español para justificar la jornada. Rodríguez Demorizi (Boletín del AGN, 1942) la reproduce con anotaciones del AGN y de la Biblioteca de Palacio, y precede el texto con una introducción propia.",
+   "extractos": [
+    {
+     "ubicacion": "BAGN 20-21 (1942), relación de 1654, párr. inicial; l. 5874-5877 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "Hallandose la Isla Española (dicha comunmente de Santo Domingo) muy apretada de algunos años a esta parte, por las [amenaças], robos, invasiones, entradas que los Franceses del Norte [hazian] en ella y en sus Calas y Puertos",
+     "traduccion": "Hallándose la Isla Española (llamada comúnmente de Santo Domingo) muy apretada desde hace algunos años por las amenazas, robos, invasiones y entradas que los franceses del Norte hacían en ella, en sus calas y puertos.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 20-21, relación de 1654; l. 5888-5906 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "se llegaron a alcancar noticias muy ciertas de que el enemigo tenia 22 poblaciones en la dicha Isla de Santo Domingo [...] algunas Islas circunvezinas, que por aqui han ocupado los dichos piratas, especialmente la de la Tortuga",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 20-21, relación de 1654 (capitulación del 18-19 de enero de 1654); l. 6231-6235 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "el [Gouernador] Frances rendiria à las Armas del Rey nuestro señor la Placa nombrada el Santissimo Sacra[mento] [12], que esta en la Isla de la Tortuga, con toda la [artilleria], municion, y bastimento",
+     "traduccion": "el gobernador francés rendiría a las armas del Rey nuestro señor la plaza llamada el Santísimo Sacramento, que está en la isla de la Tortuga, con toda la artillería, munición y bastimento [el número 12 es una llamada de nota].",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 20-21, relación de 1654; l. 6242-6245 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "salieron rendidos el dicho dia a la hora [propuesta] 330 hombres, sin las mugeres, y niños y 55 soldados de Presidio, que por todas serian mas de 500 personas",
+     "traduccion": "salieron rendidos ese día a la hora [convenida] 330 hombres, sin las mujeres y niños, y 55 soldados de presidio, que por todas serían más de 500 personas.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 20-21, introducción de Rodríguez Demorizi (1942) al texto (interpretación del editor); l. 5783-5786 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "Deplorable consecuencia de la devastación de las ciudades del norte de Santo Domingo, realizada por inicua [disposición] de Osorio, fue la ocupación de la Isla Tortuga, hacia el año de 1630, por aventureros enemigos de España.",
+     "traduccion": "Deplorable consecuencia de la devastación de las ciudades del norte de Santo Domingo, realizada por inicua disposición de Osorio, fue la ocupación de la isla Tortuga, hacia el año de 1630, por aventureros enemigos de España [Rodríguez Demorizi, 1942].",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Hecho (según el documento de 1654, del bando español): 'los Franceses del Norte' acosaban la Española y, según noticias recogidas por el presidente interino Montemayor, el enemigo tenía 22 poblaciones en la isla; la plaza de la Tortuga capituló el 18-19 de enero de 1654 ante el general de la facción Gabriel de Rojas Valle y Figueroa y el general de la armada Juan Morfa Geraldino: salieron 330 hombres, sin mujeres ni niños, y 55 soldados de presidio (más de 500 personas en total); el texto llama al gobernador francés 'Monsiur Timoleón de Fontanay' (la nota 10 del editor propone Louis d'Aché de Fontenay, caballero de Malta, según Vaissière). Interpretación (editor, 1942): la ocupación de la Tortuga hacia 1630 'consecuencia' de las devastaciones de Osorio (1605-06) y 'origen del Estado haitiano': tesis de la tradición dominicana, no del documento de 1654; el texto de 1654 no menciona a Osorio. Rodríguez Demorizi recoge, en nota, regestos del AGI (Biblioteca de Palacio, ms. 2856): 'En 2 de agosto de 1635, se dio cuenta de haber desalojado al enemigo de esta Isla ... En el de 1654, ... se hicieron varias consultas, dando cuenta de haberse desalojado de esta propia isla a los franceses'. El texto del PDF tiene OCR del 1942 con errores ('Placa' = Plaça); citas restituidas. Cifras de la relación son del bando vencedor [POR VERIFICAR contra una fuente francesa]."
+  },
+  {
+   "titulo": "Relación sumaria del estado presente de la isla Española en las Indias Occidentales ... hasta el año de 1650 (ms. Biblioteca Nacional, Madrid), ed. E. Rodríguez Demorizi, Boletín del AGN n.º 20-21 (1942)",
+   "autor": "Alcocer, Luis Jerónimo de (canónigo); Rodríguez Demorizi, Emilio (ed.)",
+   "anio": "1650 (ed. 1942)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1942_No_20-21.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Canónigo de la catedral de Santo Domingo que escribe hacia 1650 con experiencia local y hostilidad conocida hacia Osorio; testimonio directo del estado de la costa norte, no documento de archivo.",
+   "proveniencia": "Luis Jerónimo de Alcocer (Santo Domingo, s. XVII), canónigo de la catedral, escribe en 1650 una relación general de la isla y de su arzobispado para la Corte; Rodríguez Demorizi la publica en 1942 desde el manuscrito de la BN de Madrid.",
+   "extractos": [
+    {
+     "ubicacion": "f. 68 del ms. (BAGN 20-21, 1942); l. 2230-2238 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "La vanda del norte desta ysla esta despoblada siendo la parte della mas sana, mas fresca y mas fertil. Esta llena de ganados de todas suertes de que se aprouechan oy los estrangeros [f. 68 v.] destos reinos de España y vienen a hacer cueros y carne de vacas",
+     "traduccion": "La banda del norte de esta isla está despoblada, siendo la parte de ella más sana, más fresca y más fértil. Está llena de ganados de toda suerte, de los que se aprovechan hoy los extranjeros de estos reinos de España y vienen a hacer cueros y carne de vacas.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "ff. 68-68 v. del ms.; l. 2304-2312 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "las causas que dio fue que los vecinos de estas quatro ciudades [rescataban] con los estranjeros de la corona de España sin [f. 68 v.] licencia de Su [Magestad] y sin pagar los [derechos] reales",
+     "traduccion": "las causas que dio fueron que los vecinos de estas cuatro ciudades rescataban con los extranjeros de fuera de la corona de España sin licencia de Su Majestad y sin pagar los derechos reales.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M03",
+    "M04"
+   ],
+   "id_existente": "F-2057",
+   "notas": "Añade a F-2057 (ya resuelta por M03 para A-047) dos pasajes útiles para el contexto del M04: hacia 1650 la costa norte de la Española 'está despoblada' y 'los extranjeros' hacen cueros y carne de res en ella (marco de la caza de ganado por bucaneros) y Alcocer atribuye la despoblación de 1605 a los rescates con extranjeros. No menciona la Tortuga ni a los franceses por nombre en los pasajes leídos (búsqueda de 'Tortuga', 'Francés', 'bucan' en el txt del Boletín: solo aparece 'tortuga' como animal). El segundo extracto se deja sin A-### porque trata de 1605-06 (M03). Alcocer escribe en 1650, es decir, antes de la reconquista francesa de la Tortuga (c. 1656-1664)."
+  },
+  {
+   "titulo": "Representación de don Francisco Franco de Torquemada, alférez mayor de la ciudad de Santo Domingo y su procurador general en la Corte (impreso, Madrid, hacia 1691), publicada en Boletín del Archivo General de la Nación n.º 17 (1941)",
+   "autor": "Franco de Torquemada, Francisco; Rodríguez Demorizi, Emilio (ed.)",
+   "anio": "c. 1691 (ed. 1941)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://agn.gob.do/wp-content/uploads/2025/07/BAGN_1941_No_17.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial de un procurador de la ciudad con interés manifiesto (obtener socorros para Santo Domingo), de hacia 1691; relata de oídas la historia de la Tortuga pero con fechas que concuerdan con registros de la Corona (1635-36).",
+   "proveniencia": "Escrito en Madrid hacia 1691 (según el editor) por el procurador general de la Española para pedir al Rey la defensa y el fomento de la isla frente a la vecindad francesa; impreso sin pie de imprenta (ejemplar en la Biblioteca de Palacio; copia de Utrera en el AGN, Colección Lugo, libreta 15). Rodríguez Demorizi lo edita en el BAGN n.º 17 (1941) y señala que se atribuyó por error a Juan de Torquemada.",
+   "extractos": [
+    {
+     "ubicacion": "BAGN 17 (1941), 'Representación', proemio; l. 1297-1301 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "el miserable [estado en que se halla aquella] Isla, con la vezindad del Francés, que [está] poblado en las Costas del Norte, Oeste, y Sur de [ella], con que se [ha] reducido al [último punto] de su total [perdición]",
+     "traduccion": "el miserable estado en que se halla aquella isla, con la vecindad del francés, que está poblado en las costas del Norte, Oeste y Sur de ella, con lo que se ha reducido al último punto de su total perdición.",
+     "afirmaciones": [
+      "A-050",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 17 (1941), 'Representación'; l. 1448-1453 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "[començó] el enemigo Francés a poner el pie en aquellas Costas, haziendo en ellas grandes [cantidades] de corambre, y carnajes; y aviendo poblado la Isla de la Tortuga, que dista dos [leguas] de la Española, por la vanda del Norte, la hizo como Seminario para sus robos, y [piraterías]",
+     "traduccion": "comenzó el enemigo francés a poner el pie en aquellas costas, haciendo en ellas grandes cantidades de corambre y carnajes; y habiendo poblado la isla de la Tortuga, que dista dos leguas de la Española por la banda del Norte, la hizo como seminario para sus robos y piraterías.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 17 (1941), 'Representación'; l. 1454-1457 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "fueron desalojados por nuestras armas el año de seiscientos y treinta y cinco, o treinta y seis; y como no se atendió por entonces a conservarla, [y] se desamparó, la [ocupó] otra vez el [Francés] Enemigo",
+     "traduccion": "fueron desalojados por nuestras armas el año de 1635 o 1636; y como no se atendió entonces a conservarla y se desamparó, la ocupó otra vez el francés enemigo.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 17 (1941), 'Representación'; l. 1479-1490 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "todo el daño [que] padecia la Isla Española, venia del Seminario de la Tortuga; pues en [el] tiempo que estuvo por de V. Magestad, gozamos del fruto de la paz [...] se acordó [desmantelar] dicha Isla, no previniendo la futura ruina de la [Española]",
+     "traduccion": "todo el daño que padecía la Isla Española venía del seminario de la Tortuga; pues en el tiempo que estuvo por de Vuestra Majestad gozamos del fruto de la paz [...] se acordó desmantelar dicha isla, no previniendo la futura ruina de la Española.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "BAGN 17 (1941), 'Representación'; l. 1493-1505 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "Con esta noticia bolvio a ocupar luego al punto el [Francés] la dicha Isla de la Tortuga [...] con Governador nombrado por el Rey de Francia [...] oy se hallan los dichos [Franceses] arraygados en la tierra",
+     "traduccion": "Con esta noticia volvió a ocupar luego al punto el francés dicha isla de la Tortuga [...] con gobernador nombrado por el Rey de Francia [...] hoy se hallan los dichos franceses arraigados en la tierra.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M03"
+   ],
+   "id_existente": "",
+   "notas": "Es el origen de la expresión 'seminario de la Tortuga' (título de la obra de Peña Batlle, 1951). Hecho (según el memorial): la Corona desalojó a franceses/ingleses de la Tortuga en 1635-36, la volvió a perder, la tomó en 1653-54 (jornada de Montemayor) y la mandó desmantelar en 1655 (junta de guerra presidida por el conde de Peñalva); los franceses volvieron a ocuparla de inmediato, y hacia 1691 estaban 'arraigados' en las costas Norte, Oeste y Sur con gobernador nombrado por el Rey de Francia. Interpretación: la causalidad 'Osorio -> franceses' es la tesis del autor del memorial, procurador interesado; la repiten Alcocer (1650) y la tradición dominicana posterior. Cotejo: el mismo desalojo de 1635 figura en cédulas de 1635-1637 resumidas por Utrera (AGI Santo Domingo 85, 86, 900). El memorial no menciona tratados ni a Ryswick (búsqueda de 'Tratado', 'Paz', 'Nimega', 'Ratisbona' en el pasaje: solo 'fruto de la paz'). Páginas: el pasaje de la Tortuga está en las pp. PDF 32-35 (págs. impresas ~203-207); Rodríguez Demorizi lo cita como 'BAGN 1941, n.º 17, p. 207'. OCR dañado en el aparato crítico; el texto del memorial es legible."
+  },
+  {
+   "titulo": "Relación de lo sucedido a la Armada de Barlovento ... victoria que contra los franceses, que ocupan la costa del norte de la isla de Santo Domingo, tuvieron los lanceros y milicia española de aquella isla (México, herederos de la viuda de Bernardo Calderón, 1691)",
+   "autor": "Sigüenza y Góngora, Carlos de",
+   "anio": "1691",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://www.biblioteca-antologica.org/es/wp-content/uploads/2019/08/SIG%C3%9CENZA-Y-G%C3%93NGORA-Relaci%C3%B3n-de-la-Armada-Barlovento.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Crónica contemporánea (1691) escrita con las cartas y diarios del virrey de Nueva España; relato oficial de una victoria, con las cifras del vencedor.",
+   "proveniencia": "Carlos de Sigüenza y Góngora (1645-1700), erudito novohispano, redacta por encargo y con cartas y diarios del virrey conde de Galve la relación de la campaña de la Armada de Barlovento y los lanceros de Santo Domingo contra los franceses del Cabo (batalla de la Sabana Real de la Limonada, 21-I-1691), impresa en México en 1691; transcripción moderna (biblioteca-antologica.org).",
+   "extractos": [
+    {
+     "ubicacion": "Relación, proemio (transcripción moderna, p. 1-2 del PDF)",
+     "cita_original": "Fue la isla de Santo Domingo la primera de América en que se enseñó por los españoles la religión católica, y es hoy la que ocupada de franceses (y por la mayor parte hugonotes), por su costa septentrional está siempre clamando a quien puede hacerlo, el que lo remedie.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Relación, llegada a Santo Domingo, 9-XI-1690",
+     "cita_original": "desalojar el enemigo francés de lo que tenía usurpado en la costa del Norte de aquella isla",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Relación, tras la batalla de la Sabana de Caracoles/Limonal (21-I-1691)",
+     "cita_original": "Quedaron allí muertos 250 franceses, y entre ellos como valerosos sus primeros cabos, y fueron monsiur Cutsi, gobernador de toda la isla, su teniente Franquinet",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Relación, antecedentes (10-VII-1690)",
+     "cita_original": "monsiur Cutsi, gobernador de las seis poblaciones que tienen los franceses en la costa septentrional y llaman del Cap, hizo una entrada con 900 hombres hasta la ciudad de Santiago de los Caballeros",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-053"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Hecho: en 1691 las autoridades de Nueva España y Santo Domingo hablan de franceses que 'ocupan' y 'han usurpado' la costa del norte, no de franceses establecidos por tratado; la campaña es de desalojo (batalla del 21-I-1691: Cussy muerto; ver Charlevoix, Livre IX, y Sánchez Valverde, 1785, p. 98). Cifras de la relación: mil lanceros y doscientos mosqueteros del presidio (mil ciento cincuenta hombres con el maestre de campo) frente a 1.200 franceses; 250 franceses muertos, entre ellos Cussy ('gobernador de toda la isla'), y 55 muertos y 90 heridos propios; son del bando vencedor y distan de las de Sánchez Valverde ('Once mil' enemigos contra '700' españoles según un poeta citado). Sesgo: obra de propaganda del virreinato (halago al virrey Galve); el autor no estuvo en Santo Domingo. Transcripción del PDF con codificación Latin-1 mal convertida en la salida local; el texto citado se cotejó tras corregir la codificación."
+  },
+  {
+   "titulo": "Noticias históricas de Santo Domingo (regestos de documentos del AGI y del AGN), vols. III-VI (Santo Domingo, Editora Taller, 1979-1983), ed. E. Rodríguez Demorizi",
+   "autor": "Utrera, Cipriano de (fray); Rodríguez Demorizi, Emilio (ed.)",
+   "anio": "1978-1983",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/UtreraCiprianode_Noticias_Historicas_SD_Vol_IV.pdf",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/UtreraCiprianode_Noticias_Historicas_SD_Vol_III.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/UtreraCiprianode_Noticias_Historicas_SD_Vol_V.pdf",
+    "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/UtreraCiprianode_Noticias_Historicas_SD_Vol_VI.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Regestos de un archivero con signatura AGI (SD 85, 86, 88, 250...), pero parafraseados y con OCR sin tildes; sirven para datar documentos, no para citar su texto.",
+   "proveniencia": "Fray Cipriano de Utrera (1886-1958) copió y resumió miles de documentos del AGI y del AGN en libretas; Rodríguez Demorizi las edita en 1978-1983. En el vol. VI aparece un índice de la Recopilación diplomática relativa a las colonias española y francesa (1640-1701) con regestos de documentos franceses.",
+   "extractos": [
+    {
+     "ubicacion": "vol. IV (libreta G), regesto de 27-XI-1697 (AGI Santo Domingo 250), hacia p. 269; l. 11849-11850 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "27 nov. 1697.- C.R. que se publique paz concertada con Francia.- ibidem.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "vol. IV (libreta G), regesto de 10-IV-1699 (AGI Santo Domingo 250); l. 11949-11951 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "10 abril 1699.- C.R. al [Gobernador]; que [esté] sobre aviso acerca de las operaciones que puedan intentar navios de Francia que pasan a los mares de América.- SD 250",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "vol. V (libreta H), regesto de Madrid, 27-III-1637 (AGI Santo Domingo 900), hacia p. 183-184; l. 7418-7423 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "C.R. el capitan Francisco Turrillo de Yebra fue en 1635 a la jornada de la Tortuga, que estuvo a cargo de [...] Ruy Fernandez de [Fuenmayor], y a [él] se [debió] en gran manera el suceso de la misma",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "vol. IV (libreta G), regesto de 22-I-1653 (AGI Santo Domingo 88) (OCR dañado); l. 6578-6579 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "donde tienen ya dos [poblaciones] hechas, y en la Tortuga dos fuertes",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "vol. VI, 'Tortuga (Nota mía)', índice de la Recopilación diplomática (REC 4), año 1640; l. 5206-5214 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "2 dic. 1640.- El [mismo] al Card. [Richelieu], dando cuenta de la toma a ingleses de la isla Tortuga por Levasseur. Califica a la Tortuga como la ciudadela o fortaleza de la isla de SD. Solicita se le conceda el gobierno de dicha isla Tortuga, y que [haría] todo lo posible para desde allí intentar la conquista de SD.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "vol. VI, mismo índice (REC 16, 24), años 1664-1670; l. 5224-5235 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "Santo Domingo.- Lo que pensaba d'Ogeron acerca de la parte española, su estado y su conquista, en 1664.- REC 16. [...] D'Ogeron y sus intentos de conquistar la Isla de Santo Domingo.- REC. 24.",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "vol. VI, mismo índice (REC 126), 1686; l. 5239-5242 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "8 enero 1686.- Cusy al Gobernador español. Que está cumpliendo con el tratado de Ratisbona y que si las relaciones francoespañolas se rompen en la isla es por los actos de hostilidad de los españoles.- REC. 126",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "vol. IV (libreta G), regesto de 1635 (AGI Santo Domingo 85); l. 5694-5696 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "1635. Neg[ros] procedentes de la Tortuga que se metieron en la Isla de SD fueron 70, se fortificaron como pudieron cuando vieron que se les hacia [persecución] y fueron tomados 59",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "vol. III (libreta C), regesto de 'Consulta 2 de agosto de 1607' (AGI Santo Domingo 1); l. 23-25 del txt generado con pdftotext -enc UTF-8 -layout sobre el PDF",
+     "cita_original": "Se ha visto carta de Osorio de 12 de octubre, en que dice que despues de quitados los rescates, no hay como sino entablar el trabajo de las minas de plata y oro",
+     "traduccion": "",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M03",
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-2056",
+   "notas": "Utrera es secundaria (regestos); los extractos son de sus resúmenes, no del texto de los documentos. (1) La cédula de 27-XI-1697 'que se publique paz concertada con Francia' es regesto de una real cédula a la Audiencia: el regesto no habla de territorio (no se leyó el original, AGI SD 250). (2) Los regestos de 1635-1637 sitúan el desalojo español de la Tortuga en 1635 (Ruy Fernández de Fuenmayor), no en 1638 (fecha de Du Tertre, Charlevoix y Moreau): discrepancia no resuelta. (3) 'Negros de la Tortuga' en 1635: presencia de africanos esclavizados en la Tortuga en la fase inglesa-neerlandesa, relevante para 'Silencios'. (4) Los regestos del vol. VI son un índice de la 'Recopilación diplomática relativa a las colonias española y francesa de la isla de Santo Domingo, 1640-1701' (Colección Trujillo, 1944; REC = página de ese libro); ver ficha aparte de esa colección. OCR de Utrera sin tildes; citas restituidas. Los volúmenes pesan 100-220 MB (imagen con capa de texto); el txt local se generó con pdftotext."
+  },
+  {
+   "titulo": "Idea del valor de la isla Española, y utilidades que de ella puede sacar su monarquía (Madrid, Pedro Marín, 1785)",
+   "autor": "Sánchez Valverde, Antonio",
+   "anio": "1785",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "dominicana",
+   "url": "https://archive.org/download/ideadelvalordela00snch/ideadelvalordela00snch_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/ideadelvalordela00snch"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Memorial criollo de 1785 para la Corte; para el s. XVII depende de Charlevoix (lo cita) y de la tradición local, no de documentos propios.",
+   "proveniencia": "Antonio Sánchez Valverde (Santo Domingo, 1729-1790), clérigo y jurista criollo, escribe en 1785 para el ministro José de Gálvez una apología de la isla y un programa de fomento; aboga por frenar la expansión francesa. Es sobre todo una fuente de la mentalidad criolla del siglo XVIII.",
+   "extractos": [
+    {
+     "ubicacion": "Parte I, pp. 97-98 (OCR '98' en l. 26832); l. 26404-26833 del txt descargado de la URL",
+     "cita_original": "asi como les echamos de la Tort[uga], de Santo Domingo, y de Saman[á], tambien [...] les hicimos salir de Isla Baca.",
+     "traduccion": "así como los echamos de la Tortuga, de Santo Domingo y de Samaná, también [...] los hicimos salir de Isla Vaca.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Parte I, p. 98 (nota (1): 'Charlev. lib. 8'); l. 26840-26843 del txt descargado de la URL",
+     "cita_original": "Beltrán de Ogeron, Señor de la Boijere, Gobernador de la última, formó el [proyecto] de apoderarse de toda la Española por los años de 1673",
+     "traduccion": "",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052"
+   ],
+   "modulos": [
+    "M05",
+    "M04"
+   ],
+   "id_existente": "F-0020",
+   "notas": "Sánchez Valverde dice 'les echamos de la Tortuga, de Santo Domingo y de Samaná' y cita a Charlevoix (lib. 8, lib. 9) para el proyecto de Ogeron de 1673 y para la batalla de 1691; no es testimonio independiente de Charlevoix. Búsqueda de 'Ryswick/Riswick/Rijswick/Ryfwick' en el OCR del libro: sin resultados, es decir, el libro no menciona Ryswick (el OCR tiene huecos; no se leyó entero). Hecho (según él): Francia 'iba siempre engrosando su partido'; interpretación: 'les echamos' es la versión criolla de una ocupación francesa vista como usurpación."
+  },
+  {
+   "titulo": "Tratado de límites en la isla de Santo Domingo entre los reyes de España y Francia (Aranjuez, 3-VI-1777), en Cantillo, Colección de los tratados, convenios y declaraciones de paz y de comercio que han hecho con las potencias estranjeras los monarcas españoles de la casa de Borbón (Madrid, 1843)",
+   "autor": "Cantillo, Alejandro del (comp.); Carlos III y Luis XVI (partes)",
+   "anio": "1777 (ed. 1843)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "internacional",
+   "url": "https://archive.org/download/tratadosconveni00cantgoog/tratadosconveni00cantgoog_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/tratadosconveni00cantgoog"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del tratado impreso por la Corona; la compilación de Cantillo (1843) lo reproduce del impreso oficial.",
+   "proveniencia": "Tratado hispano-francés de límites firmado en Aranjuez el 3-VI-1777 por el conde de Floridablanca y el marqués de Ossun, con su preámbulo sobre los convenios anteriores de 1773 y 1776; Cantillo lo publica en su colección de 1843.",
+   "extractos": [
+    {
+     "ubicacion": "preámbulo, Aranjuez 1777; l. 59809-59816 del txt descargado de la URL",
+     "cita_original": "Las frecuentes desavenencias que de muchos [años] a esta parte ha habido en la isla de Santo Domingo entre los habitantes [españoles] y franceses, ya sobre extension de terrenos [o] ya sobre otros goces [particulares], sin que bastasen a atajarlas los convenios que interinamente han solido hacerse por los comandantes de ambas posesiones",
+     "traduccion": "Las frecuentes desavenencias que desde hace muchos años ha habido en la isla de Santo Domingo entre los habitantes españoles y franceses, ya sobre extensión de terrenos, ya sobre otros goces particulares, sin que bastasen a atajarlas los convenios que interinamente han solido hacer los comandantes de ambas posesiones.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "art. 1; l. 59896-59900 del txt descargado de la URL",
+     "cita_original": "Que quedaran por limites perp[etuos] [o] invariables entre las dos nacio[nes] la boca del rio Daxab[ón] [o] de Massacre por la parte del Norte de la citada isla; y por la del Sur la bo[ca] del rio Pedernales [o] des Anses [a] Pitre",
+     "traduccion": "Que quedarán por límites perpetuos o invariables entre las dos naciones la boca del río Dajabón o del Masacre por la parte del Norte de dicha isla, y por la del Sur la boca del río Pedernales o des Anses à Pitre.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0024",
+   "notas": "Hecho: el tratado de Aranjuez se presenta como 'tratado de límites' entre 'posesiones españolas y francesas' en la isla y no como cesión; su preámbulo no cita Ryswick (preámbulo y art. 1 leídos) sino los convenios de 1773 y 1776 entre los comandantes. Aranjuez fija la primera frontera formal (Dajabón/Masacre a Pedernales). La cesión de la parte española a Francia es de Basilea 1795 (art. IX), fuera de M04. Interpretación: A-053 dice 'cesión formal es de Aranjuez y Basilea': desde el texto, Aranjuez delimita y Basilea cede; de ahí que 'cesión formal' no se aplique a Aranjuez. OCR con tildes dañadas; citas restituidas."
+  },
+  {
+   "titulo": "Haring, The Buccaneers in the West Indies in the XVII Century (Londres, Methuen, 1910) y Burney, History of the Buccaneers of America (Londres, 1816)",
+   "autor": "Haring, Clarence Henry; Burney, James",
+   "anio": "1910; 1816",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.gutenberg.org/cache/epub/19139/pg19139.txt",
+   "urls_alternativas": [
+    "https://www.gutenberg.org/ebooks/19139",
+    "https://www.gutenberg.org/cache/epub/37116/pg37116.txt",
+    "https://www.gutenberg.org/ebooks/37116"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Haring (1910) es la monografía académica clásica, con aparato de fuentes (PRO, Charlevoix); Burney (1816) es compilación de un oficial de marina que sigue a Charlevoix y no aporta documento nuevo.",
+   "proveniencia": "Clarence H. Haring (Harvard) estudia las colonias de bucaneros usando fuentes inglesas (State Papers, Jamaica) y a Charlevoix, Exquemelin y Du Tertre; James Burney (1750-1821, Royal Navy) compila en 1816 una historia de los bucaneros desde cronistas ingleses y franceses. Ambos escriben desde la tradición anglosajona.",
+   "extractos": [
+    {
+     "ubicacion": "Haring, cap. V, p. ~118 (nota 219: 'Charlevoix, op. cit., liv. vii, pp. 57-65'); l. 4056-4057 del txt descargado de la URL",
+     "cita_original": "the arrival of Bertrand d'Ogeron, the governor sent out in 1665 by the new French West India Company",
+     "traduccion": "la llegada de Bertrand d'Ogeron, el gobernador enviado en 1665 por la nueva Compañía francesa de las Indias Occidentales.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Haring, cap. V, pp. 118-119; l. 4079-4081 del txt descargado de la URL",
+     "cita_original": "The settlements soon put on a new air of prosperity, and really owed their existence as a permanent French colony to the efforts of this new governor.",
+     "traduccion": "Los asentamientos cobraron pronto un nuevo aire de prosperidad y debieron realmente su existencia como colonia francesa permanente a los esfuerzos de este nuevo gobernador.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Burney, cap. sobre 'French West-India Company' (margen '1665'), parte II; l. 2410-2412 del txt descargado de la URL",
+     "cita_original": "In February 1665, M. d'Ogeron was appointed Governor of Tortuga, and of the French settlements in Hispaniola, or St. Domingo, as the Island was now more commonly called.",
+     "traduccion": "En febrero de 1665 M. d'Ogeron fue nombrado gobernador de la Tortuga y de los asentamientos franceses en la Española, o Santo Domingo, como se llamaba ya más comúnmente a la isla.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "Burney, año 1697 (margen 'Peace of Ryswick'); l. 10157-10160 del txt descargado de la URL",
+     "cita_original": "In September 1697, an end was put to the war, by a Treaty signed at Ryswick. By this treaty, the part of the Island St. Christopher which had belonged to the French was restored to them.",
+     "traduccion": "En septiembre de 1697 se puso fin a la guerra con un tratado firmado en Ryswick. Por este tratado se restituyó a los franceses la parte de la isla de San Cristóbal que les había pertenecido.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051"
+   ],
+   "modulos": [
+    "M04",
+    "M12",
+    "M06"
+   ],
+   "id_existente": "F-0184",
+   "notas": "Resuelve F-0184 (repos GITenberg 19139 y 37116, 'sin probar'): ambos descargados y leídos en las partes citadas. Burney (1816) sigue a Charlevoix para la comisión de febrero de 1665 (no es independiente); su resumen de Ryswick (solo San Cristóbal) coincide por silencio con el texto: no dice nada de la Española. Haring (1910) usa 'governor sent out in 1665' (fecha de llegada), distinta de la fecha de nombramiento por la Compañía (7-X-1664) y de la carta real (27-X-1664) de Moreau. En el texto de Haring, nota 527, Luis XIV envió tras Ryswick la plata sacada de las iglesias de Cartagena 'to the governor and clergy of the Spanish part of the island' [de Santo Domingo, vía Duro, Armada española v]: [POR VERIFICAR] leyendo el original de Duro. Haring escribe 'Spanish part of the island' sin discutir título jurídico."
+  },
+  {
+   "titulo": "L'amiral Du Casse, chevalier de la Toison d'Or (1646-1715), Livre IV y V (París, 1876)",
+   "autor": "Du Casse, baron Robert Emmanuel Léon",
+   "anio": "1876",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://www.gutenberg.org/cache/epub/57655/pg57655.txt",
+   "urls_alternativas": [
+    "https://www.gutenberg.org/ebooks/57655"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-descargado",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Biografía apologética de un descendiente, sin aparato crítico completo; útil solo como indicio y por la carta del virrey de México que transcribe.",
+   "proveniencia": "Baron Du Casse, historiador familiar, redacta en 1876 la vida del almirante con papeles de familia y de archivos de Marina; transcribe una carta del virrey de México a Du Casse tras la paz de Ryswick.",
+   "extractos": [
+    {
+     "ubicacion": "Livre IV, tras la paz de Riswick (aprox.); l. 4430-4435 del txt descargado de la URL",
+     "cita_original": "Des pourparlers s'établirent alors entre le gouverneur de Saint-Domingue et le commandant de la partie espagnole de l'île pour arriver à la délimitation des frontières des contrées appartenant aux deux royaumes. Une année entière s'écoula sans que la question eût fait un pas.",
+     "traduccion": "Se entablaron entonces conversaciones entre el gobernador de Saint-Domingue y el comandante de la parte española de la isla para llegar a la delimitación de las fronteras de las comarcas pertenecientes a los dos reinos. Pasó un año entero sin que la cuestión avanzara un paso.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "Livre IV, final (aprox.); l. 4435-4437 del txt descargado de la URL",
+     "cita_original": "Louis XIV, voulant la voir résolue, envoya l'ordre à du Casse de se rendre en France pour traiter cette affaire directement avec la cour d'Espagne.",
+     "traduccion": "Luis XIV, queriendo verla resuelta, ordenó a Du Casse que fuera a Francia para tratar el asunto directamente con la corte de España.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Dato de segunda mano: después de Ryswick la delimitación de fronteras seguía abierta y Luis XIV mandó a Du Casse a España (mediados de 1700) para tratarla con la corte española; coincide con la tabla de Moreau (1698-1700). No se cotejó con documentos de ANOM (bloqueado) [POR VERIFICAR]. La biografía añade en el Livre V que Pontchartrain habló a Du Casse de 'las dificultades surgidas a propósito de la delimitación de fronteras en la isla de Saint-Domingue' (tras la sucesión de Felipe V, 1700). Verificación 'parcial': se leyeron solo los pasajes citados y el sumario de capítulos."
+  },
+  {
+   "titulo": "Calendar of State Papers, Colonial Series, America and West Indies, vol. 5: 1661-1668 (ed. W. N. Sainsbury, Londres, 1880), nn. 1263 y 1265 (agosto de 1666)",
+   "autor": "Sainsbury, W. Noel (ed.); Modyford, Thomas; Cary, ?",
+   "anio": "1666 (ed. 1880)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.british-history.ac.uk/cal-state-papers/colonial/america-west-indies/vol5/pp402-411",
+   "urls_alternativas": [
+    "https://www.british-history.ac.uk/cal-state-papers/colonial/america-west-indies/vol5/vii-lxxxiii"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Calendario (resumen editorial) de cartas oficiales inglesas con signatura del PRO (Col. Papers, vol. XX); el texto es resumen de Sainsbury, no la carta.",
+   "proveniencia": "Cartas del gobernador de Jamaica Thomas Modyford (21-VIII-1666) y un memorial atribuido al coronel Cary (1666) a la Corona inglesa durante la guerra con Francia; ven a los franceses de la Tortuga y de la Española como enemigos y rivales de los bucaneros ingleses.",
+   "extractos": [
+    {
+     "ubicacion": "n. 1265 (Jamaica, 1666), p. 408 del calendario",
+     "cita_original": "The French interest daily increases in the Caribbees, Hispaniola, and Tortugas, and if suffered to grow will in short time prove of dangerous consequence, both to the English and Spanish settlements.",
+     "traduccion": "El interés francés crece cada día en las Caribes, la Española y las Tortugas y, si se le deja crecer, será en poco tiempo de peligrosa consecuencia para los establecimientos ingleses y españoles.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "n. 1263 (Jamaica, 21-VIII-1666), Modyford a Albemarle, p. 407 del calendario",
+     "cita_original": "hopes this month to have a good strength to wait on the French at Tortuga and Hispaniola",
+     "traduccion": "espera este mes contar con una buena fuerza para ir a esperar a los franceses en la Tortuga y la Española.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Visión inglesa de 1666: la Tortuga y 'la Española' (la parte francesa) figuran como posesión francesa y como refugio de bucaneros; no hay en los pasajes leídos referencia a título jurídico. El calendario es un resumen editorial del siglo XIX; las citas son del texto del calendario (en inglés del siglo XIX), no de la carta original. Autor del n. 1265: 'Col. Cary' según el propio resumen; el nombre completo no se verificó [POR VERIFICAR]. No se leyeron los demás números del volumen sobre Tortuga/Ogeron (el buscador de BHO citaba otros, ej. nov. 1664 y dic. 1663)."
+  },
+  {
+   "titulo": "Calendar of State Papers, Colonial Series, America and West Indies, vol. 16: 1697-1698 (ed. J. W. Fortescue, Londres, 1905), nn. 78 y 124 (noviembre-diciembre de 1697)",
+   "autor": "Fortescue, J. W. (ed.); Popple, William; Council of Trade and Plantations",
+   "anio": "1697 (ed. 1905)",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://www.british-history.ac.uk/cal-state-papers/colonial/america-west-indies/vol16/pp61-78",
+   "urls_alternativas": [
+    "https://www.british-history.ac.uk/cal-state-papers/colonial/america-west-indies/vol16/pp37-53"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Calendario (resumen editorial) de papeles del Board of Trade con signatura (Board of Trade, Leeward Islands, 45; Plantations General, 34).",
+   "proveniencia": "Papeles del Consejo de Comercio y Plantaciones inglés: circular de William Popple a los gobernadores (30-XI-1697) con copias del tratado de Ryswick, e informe al Rey (24-XII-1697) sobre San Cristóbal y la bahía de Hudson.",
+   "extractos": [
+    {
+     "ubicacion": "n. 78 (Whitehall, 30-XI-1697), p. 53 del calendario",
+     "cita_original": "Circular letter from William Popple to the Governors of all the Colonies. Forwarding them copies of the Treaty of Peace of Ryswick.",
+     "traduccion": "Carta circular de William Popple a los gobernadores de todas las colonias. Les remite copias del tratado de paz de Ryswick.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "n. 124 (24-XII-1697), Consejo de Comercio al Rey, p. 73-74 del calendario",
+     "cita_original": "by the 7th Article of the Treaty of Ryswick the two French quarters are to be restored to them. By the 8th Article of the said Treaty, Commissioners are to be appointed to settle the rights and pretensions of both parties to Hudson's Bay",
+     "traduccion": "por el art. 7 del tratado de Ryswick los dos cuarteles franceses [de San Cristóbal] les han de ser restituidos. Por el art. 8 del mismo tratado se han de nombrar comisarios para fijar los derechos y pretensiones de ambas partes sobre la bahía de Hudson.",
+     "afirmaciones": [
+      "A-051"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Contraste: en el tratado anglo-francés de Ryswick (arts. 7-8) hay cláusulas coloniales explícitas (San Cristóbal, bahía de Hudson), de modo que los funcionarios ingleses que leyeron el tratado en 1697 anotaron las cláusulas americanas de su tratado; el tratado franco-español no se discute en estos papeles (no es el que ellos negociaban). Solo se leyeron los pasajes citados; resumen de Fortescue (1905). No prueba nada sobre el tratado franco-español por sí solo."
+  },
+  {
+   "titulo": "Testimonio de Gaspar de Azpichueta, escribano, sobre el número de esclavos, hatos y vecinos de la isla Española (Santo Domingo, 11-X-1606), en Rodríguez Demorizi, Relaciones históricas de Santo Domingo, vol. II, 'Devastaciones de 1605 y 1606', pp. 443-444",
+   "autor": "Azpichueta, Gaspar de (escribano); Osorio, Antonio de (gobernador que lo mandó); Rodríguez Demorizi, Emilio (ed.)",
+   "anio": "1606 (ed. 1945)",
+   "tipo": "primaria",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziEmilio_RelacionesHistoricasDeSantoDomingoV2.pdf",
+   "urls_alternativas": [
+    "http://catalogo.academiadominicanahistoria.org.do/opac-tmpl/files/libros/RodriguezDemoriziE_Relaciones_Historicas_SD_2008.pdf"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Certificación notarial del escribano de Santo Domingo, fechada y firmada, que resume las manifestaciones de esclavos ordenadas por el presidente Osorio; impreso en una edición documental con signatura de archivo.",
+   "proveniencia": "Gaspar de Azpichueta, escribano de la ciudad de Santo Domingo, certifica el 11-X-1606, a petición del Presidente (Antonio de Osorio), los resultados de las manifestaciones de esclavos hechas en la isla tras las devastaciones del norte (1605-06); para la Corona, con interés de justificar la medida. Rodríguez Demorizi la edita en Relaciones históricas de Santo Domingo II (Ciudad Trujillo, 1945).",
+   "extractos": [
+    {
+     "ubicacion": "Relaciones históricas de Santo Domingo, II, p. 443 (PDF p. 443, facsímil sin capa de texto; leído en la imagen)",
+     "cita_original": "consta aver en ella nueve mil y seiscientos y quarenta y ocho esclavos, de los quales magnifestaron los dueños de los yngenios de açucar ochocientos y ochenta y ocho esclavos",
+     "traduccion": "consta que hay en ella 9.648 esclavos, de los cuales manifestaron los dueños de los ingenios de azúcar 888.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ibid., p. 443",
+     "cita_original": "en los ciento y setenta hatos de bacas y otros de obejas y de ganado de cerda, que parese aver en esta ysla, deven de andar ocupados quinientos y cinquenta esclavos",
+     "traduccion": "en los 170 hatos de vacas y otros de ovejas y de ganado de cerda que parece haber en esta isla, deben de andar ocupados quinientos cincuenta esclavos.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ibid., p. 444",
+     "cita_original": "restan que están ocupados en las labranças de gengibre, casave, maís, seys mill y setecientos y noventa esclavos",
+     "traduccion": "restan ocupados en las labranzas de jengibre, casabe y maíz 6.790 esclavos.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M03",
+    "M04"
+   ],
+   "id_existente": "F-0015",
+   "notas": "Resuelve F-0015 (antes 'fragmento-busqueda' vía columna de prensa de acento.com.do): la fuente es el testimonio del escribano Azpichueta del 11-X-1606, no un 'censo de Osorio'; la cifra 9.648 es la de esta certificación (M03 la usó para A-046). Lo que el testimonio impreso no da son los '1.117 vecinos y 40 clérigos' del registro: son tabulación de Julián (Clío 187), ver nota de M03. Aquí solo se aporta el cuadro económico (ingenios, hatos, labranzas) que interesa al contexto del contrabando y la ganadería del s. XVII (M04): 170 hatos en 1606. Leído en imagen (PDF sin capa de texto): transcripción mía, con ortografía del original; sin 'v' de verificación automática. El PDF tiene la misma foliación en pantalla y en el impreso (p. 443 = PDF 443); las págs. 449-509 son el índice onomástico."
+  },
+  {
+   "titulo": "Recopilación diplomática relativa a las colonias española y francesa de la isla de Santo Domingo, 1640-1701 (Colección Trujillo, Centenario de la República, 1844-1944, Serie 3, vol. 1; Santiago de los Caballeros, Editorial El Diario, 1944; xlviii + 434 pp.)",
+   "autor": "República Dominicana (Comisión del Centenario); Peña Batlle, Manuel Arturo (dir.)",
+   "anio": "1944",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-rd",
+   "url": "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=3186",
+   "urls_alternativas": [
+    "https://catalogo.academiadominicanahistoria.org.do/cgi-bin/koha/opac-detail.pl?biblionumber=2691"
+   ],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "archivo-fisico",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Edición oficial dominicana de documentos diplomáticos franceses y españoles de 1640-1701 dirigida por Peña Batlle; no se pudo leer ningún texto, solo la ficha del catálogo y el índice parcial que da Utrera (vol. VI); su fiabilidad depende de la fidelidad de las copias (de archivos franceses y del AGI) [POR VERIFICAR].",
+   "proveniencia": "Obra de la Colección Trujillo del Centenario (1944), dirigida por Manuel Arturo Peña Batlle, con documentos sobre las relaciones entre las colonias francesa y española de la isla; ideológicamente vinculada al nacionalismo trujillista y a la tesis de Peña Batlle de la frontera como obra de España. El volumen siguiente (1684-1801) lo compiló Carlos Esteban Deive (biblionumber=2691). Contenido conocido solo por el índice de Utrera: cartas de Poincy a Richelieu (1640), memoria de d'Ogeron (1664), descripciones de la Tortuga (1665) y de los fuertes de Santo Domingo, cartas de Cussy al gobernador español (1686).",
+   "extractos": [],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Pieza clave para la Fase 3: es la edición documental que reúne la correspondencia francesa y española de 1640-1701 (incluidas las cartas de Cussy de 1686 y, probablemente, la de 1697-1701 sobre límites tras Ryswick: [POR VERIFICAR] el rango final). No hay copia digital localizada: la ficha del catálogo de la Biblioteca Vetilio Alfau Durán (ADH) no ofrece PDF; el volumen aparece citado por Utrera (vol. VI) con las páginas 'REC' (1, 4, 7, 9, 12, 16, 21, 24, 25, 28, 29, 30, 32, 36, 46, 49, 50, 58, 65, 68, 75, 86, 89, 126, 129). Los regestos de Utrera dan datos que no he podido cotejar con el texto de la edición. Solicitar el volumen a la ADH o buscar en HathiTrust/Google Books (no comprobado)."
+  },
+  {
+   "titulo": "PARES - Portal de Archivos Españoles (AGI, Santo Domingo; AHN Estado)",
+   "autor": "Ministerio de Cultura de España",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "es",
+   "tradicion": "espanola",
+   "url": "https://pares.cultura.gob.es/inicio.html",
+   "urls_alternativas": [
+    "https://pares.mcu.es"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "429",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Portal oficial de los archivos españoles; imágenes de manuscritos sin texto transcrito.",
+   "proveniencia": "Portal de descripción e imágenes digitales del AGI, AHN y otros archivos estatales españoles; para este módulo: AGI Santo Domingo 250 (cédulas 1697-1700), 85-88 y 900 (cédulas de 1635-1655), y AHN Estado para la correspondencia diplomática de 1697-1700.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0239",
+   "notas": "Intento del 2026-10-07: curl a pares.cultura.gob.es/inicio.html y pares.mcu.es devolvió HTTP 429 (Too Many Requests; la redirección de pares.mcu.es llega a pares.cultura.gob.es/inicio.html). No se reintentó más. Los manuscritos del AGI están en imagen sin OCR: incluso con acceso, esta vía no es útil para un agente salvo con consulta humana. Signaturas a pedir para A-053: AGI Santo Domingo 250 (real cédula de 27-XI-1697 'que se publique paz concertada con Francia', según el regesto de Utrera); AHN Estado, correspondencia con París 1697-1700 [POR VERIFICAR la signatura]."
+  },
+  {
+   "titulo": "ANOM (Archives nationales d'outre-mer) y Archives Nationales d'Haïti",
+   "autor": "Archives nationales d'outre-mer (Aix-en-Provence)",
+   "anio": "",
+   "tipo": "portal",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://anom.archivesnationales.culture.gouv.fr",
+   "urls_alternativas": [
+    "https://recherche-anom.culture.gouv.fr/"
+   ],
+   "verificacion": "fallo-fetch",
+   "http_status": "000",
+   "formato": "html",
+   "acceso": "localizada-bloqueada",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Archivo estatal francés de las colonias; instrumentos de búsqueda e imágenes sin transcripción.",
+   "proveniencia": "ANOM conserva las series C9A (correspondencia general de Saint-Domingue, 1650-1789), C9B y la colección Moreau de Saint-Méry (F3), de donde proceden las ordenanzas, procès-verbaux y cartas que Moreau imprime en Loix et constitutions t. I.",
+   "extractos": [],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0247",
+   "notas": "Intento del 2026-10-07: curl a anom.archivesnationales.culture.gouv.fr devolvió código 000 (sin conexión) y a recherche-anom.culture.gouv.fr HTTP 500 (2.002 bytes). No se obtuvo contenido. Pista para Fase 3: pedir ANOM C9A (Saint-Domingue, correspondencia 1665-1700: Ogeron, Pouançay, Cussy, Ducasse) y F3; el procès-verbal del 6-VI-1665 y la ordenanza de Du Casse del 24-II-1699 ya están impresos en Moreau, Loix et constitutions t. I (ver ficha), de modo que el cotejo con ANOM es de verificación, no de acceso."
+  }
+ ]
+}

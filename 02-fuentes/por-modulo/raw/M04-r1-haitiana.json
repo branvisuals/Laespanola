@@ -1,0 +1,1966 @@
+{
+ "lente": "TRADICION HAITIANA",
+ "modulo": "M04",
+ "ronda": 1,
+ "fecha": "2026-10-07",
+ "busquedas_usadas": 31,
+ "busquedas_pendientes": [
+  "Jean Casimir, The Haitians: A Decolonial History, pasajes sobre Tortuga y Ryswick (obra bajo derechos; no se buscó extracto)",
+  "Vertus Saint-Louis, Aux origines du drame d'Haïti. Droit et commerce maritime (1492-1792) (Port-au-Prince, 2006): localizar texto o reseña",
+  "Radio Haïti (repository.duke.edu): programas sobre flibustiers/Tortue/Ryswick (bloqueo Anubis; no evadido)",
+  "Fuentes en kreyòl (Libète, Potomitan, AlterPresse kreyòl): Latòti, bukanye, filibistye, 'Trete Riswik' (búsquedas sin resultados útiles)",
+  "dLOC: Bulletin/Revue de la Société haïtienne d'histoire et de géographie, artículos sobre la Tortuga, d'Ogeron, Port-de-Paix, Padrejean",
+  "MENFP: texto original de los manuales de 7e y 8e année fondamentale y del plan de estudios 3e secondaire 2016-2017 (solo vistos vía Candio)",
+  "Hector, Colonisation et esclavage en Haïti (1990) y Hector y Moïse, Le régime colonial français: localizar ejemplar o reseña",
+  "Cabon, Histoire d'Haïti t. I (edición impresa) y cotejo con Vaissière, Saint-Domingue (1909) para Levasseur 1640 / Rausset 1659",
+  "Moreau de Saint-Méry (reimpresiones haitianas): origen de la fórmula 'Cap Rose-Béate' y cifra de 1681 (t. II, pp. 1130-1131)",
+  "Columnas de Le Nouvelliste/Le National/Loop Haïti de historiadores (Jadotte, Michel, Soukar) sobre 'traité de Ryswick'",
+  "Gallica/HathiTrust: reedición de Madiou (Deschamps 1989) para cotejar paginación",
+  "Discursos de Estado (1 de enero, 18 de noviembre, 17 de octubre): no se buscaron porque no tratan 1606-1697"
+ ],
+ "lagunas": [
+  "Voces en kreyòl: no se localizó ninguna fuente kreyòl sobre bucaneros, Tortuga o Ryswick; Radio Haïti (Duke), AlterPresse y OpenEdition devuelven verificación Anubis (prueba de trabajo) que no se evadió; se usaron copias de Wayback cuando existían.",
+  "Textos y programas del MENFP (manuales de 7e/8e AF, plan de estudios 2016-2017): solo conocidos de segunda mano por Candio (2020); el original no se obtuvo.",
+  "Obras de Vertus Saint-Louis (2006), M. Hector (1990) y A. F. Pierre (CIDIHCA): ficha o cubierta únicamente; sin texto.",
+  "Contrabando (Ponce Vázquez) y Devastaciones de Osorio: ninguna fuente haitiana lo trata como tema; solo menciones breves (Ardouin 1832, Cabon p. 22 y p. 10, Price-Mars, Théodat 1997 p. 124).",
+  "No se halló ningún texto haitiano que sostenga que España 'omitió la isla a propósito' (A-053); lo más cercano: Cabon (statu quo ante, línea del Rebouc), Price-Mars (Saint-Domingue 'sans être expressément dénommée'), Livre Blanc ('sans toutefois en fixer les frontières').",
+  "La fórmula escolar 'Cap Rose-pointe de la Béate' (Placide-Justin 1826, Bellegarde-Lhérisson 1906, Léger 1907) no aparece en el tratado franco-español (Dumont); su origen sigue sin trazar.",
+  "Fechas de la Tortuga divergentes entre textos haitianos (1625, 1629/1630, 1632, 1635, 1640, 1641; Rausset 1656, 1659, 1660; d'Ogeron 1664, 1665, 1666) sin resolver; no se cotejó Vaissière.",
+  "Cifras sin base primaria: 400 vs 4.000 habitantes de la Tortuga (Madiou vs Price-Mars/Le Pers); 1681 (Fouchard/Moreau), 1687 (Price-Mars), 1697 (Manigat) y '20.000-30.000 negros por año' (Bellegarde): todas D hasta trazar la fuente.",
+  "Eje noirisme/mulâtrisme: solo se comparó a Madiou y Ardouin sobre la ausencia de prejuicio de color en la sociedad bucanera; no se exploró sistemáticamente.",
+  "Dumont (F-0016): comprobación cruzada propia por OCR (sin Domingue/Hispaniola/Indes); la lectura completa del tratado corresponde a los lentes colonial-primaria e internacional."
+ ],
+ "terminos_nuevos": [
+  {
+   "termino": "Frères de la Côte (Hermanos de la Costa)",
+   "tradicion": "haitiana",
+   "nota": "Nombre que Bellegarde (1953, p. 28, orig. [21]) y Icart (2014) dan a la asociación libre de filibusteros y bucaneros; Bellegarde cita al P. Cabon, que habla de 'république des aventuriers'. Se presenta como sociedad 'sans préjugés' (Icart, Madiou, Ardouin vía J. Raymond): es una interpretación, no un hecho verificado."
+  },
+  {
+   "termino": "flibustier / boucanier / engagé ('trente-six mois')",
+   "tradicion": "haitiana",
+   "nota": "Madiou y Ardouin los tratan como fundadores de la colonia; Dorsainvil (1934) llama 'pirates' a los flibustiers; los engagés se describen como 'esclaves blancs' (Bellegarde, Madiou). Etimologías divergentes del manual (fly-boat; 'boucan' como parrilla caribe/taína) en B&L 1906, Gentil-Chauvet 1896, Taber."
+  },
+  {
+   "termino": "cesión / reconocimiento / reparto ('partage') / 'division' de la isla en 1697",
+   "tradicion": "haitiana",
+   "nota": "Verbos para Ryswick en los textos haitianos: 'cédée' (Madiou), 'céda' (Dorsainvil), 'cession régulière' (Placide-Justin), 'dut céder' (Ledan 2016), 'cession en vertu d'une clause générale sans nommer Saint-Domingue' (Price-Mars), 'reconnut les droits' (B&L 1906), 'reconnu comme définitive la possession' (Bellegarde 1953), 'acknowledgment of the effective occupation' (Trouillot), 'rétablies telles qu'elles étaient' (Cabon), 'séparèrent entre eux les terres et les esclaves' (Lodimus). Cada verbo es ya una tesis; el glosario debería incluir la entrada."
+  },
+  {
+   "termino": "commerce d'interlope / interlope (contrabando)",
+   "tradicion": "haitiana",
+   "nota": "Término de Ardouin (1832) y Price-Mars; Cabon dice 'commerce de fraude' y 'marchands interlopes' (p. 22). En la tradición dominicana 'contrabando' y 'rescates'; el sentido moral difiere (los haitianos suelen presentarlo como causa del asentamiento francés, no como delito)."
+  },
+  {
+   "termino": "démolition / suppression des villes de l'Ouest (1606) = Devastaciones de Osorio",
+   "tradicion": "haitiana",
+   "nota": "Ardouin 1832: 'ordonna la démolition de plusieurs villes de la partie occidentale'; Cabon p. 22 y p. 10: 'suppression en 1606 de certaines villes d'Hispaniola', 'd'ordre de la Cour avaient abandonné leurs villes'; Théodat 1997: 'devastación... (1605)'. En ningún texto haitiano leído aparece 'Osorio' salvo Théodat."
+  },
+  {
+   "termino": "Révolte de Padrejean / Padrejan (1678-1679)",
+   "tradicion": "haitiana",
+   "nota": "'Première révolte importante de Noirs' (Madiou, B&L 1906); 'ancien esclave espagnol, affranchi par les Français' (Cabon p. 48); esclavo de un español que mató a su amo (Fouchard, vía Charlevoix). Grafías Padrejean/Padrejan; años 1678 (B&L, Léger) y 1679 (Cabon, Fouchard)."
+  },
+  {
+   "termino": "línea del Rebouc (Guayabín) / acta de julio de 1680",
+   "tradicion": "haitiana",
+   "nota": "Cabon (p. 49 y p. 67) llama así al límite pactado ante notario en 1680 entre Pouancey y el Presidente de Santo Domingo y 'repris' por Ryswick; Théodat (1997) lo llama 'Tratados del Cabo Francés (1680)'. No es un tratado en sentido estricto [POR VERIFICAR contra Moreau]."
+  }
+ ],
+ "fuentes": [
+  {
+   "titulo": "Histoire d'Haïti, t. I (1492-1799; Port-au-Prince, J. Courtois, 1847): Livre deuxième 'De 1659 à 1789' (Tortue, d'Ogeron, Padrejean, 'paix de Riswich', origen de los prejuicios)",
+   "autor": "Madiou, Thomas",
+   "anio": "1847",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/histoiredhaiti01madi",
+   "urls_alternativas": [
+    "https://archive.org/download/histoiredhaiti01madi/histoiredhaiti01madi_djvu.txt",
+    "https://archive.org/download/histoiredhaiti01madi/page/n35_w1200.jpg (p. 20; imagen leída)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Primera historia general de Haití, de síntesis y con fechas que otros textos haitianos corrigen (Levasseur 1640, 'Willis', Rausset 1660; ver Cabon p. 10 n. 1), pero es la versión fundacional que repiten los manuales.",
+   "proveniencia": "Thomas Madiou (1814-1884, fechas según archive.org), historiador y político haitiano, publica el t. I en Puerto Príncipe (Courtois, 1847) como primera historia completa de la isla desde 1492 (descripción de archive.org: v. 1, 1492-1799); escribe para el público haitiano cuando el Estado aún gobernaba toda la isla (1822-1844). En el pasaje leído no cita las fuentes del siglo XVII [POR VERIFICAR cuáles usó]; escribe 'Riswich'.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 17 (l. 1762-1768 del djvu.txt; OCR con ruido, restituido)",
+     "cita_original": "comme ils étaient presque tous Français, ils s'adressèrent au gouverneur des îles du vent, qui leur envoya Levasseur en 1640.",
+     "traduccion": "como casi todos eran franceses, se dirigieron al gobernador de las islas de Barlovento, que les envió a Levasseur en 1640.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 17 (l. 1793-1796 del djvu.txt)",
+     "cita_original": "En Octobre 1664, d'Ogeron fut nommé gouverneur de l'île de la Tortue par les directeurs généraux de la compagnie des Indes Occidentales.",
+     "traduccion": "En octubre de 1664, d'Ogeron fue nombrado gobernador de la isla de la Tortuga por los directores generales de la Compañía de las Indias Occidentales.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 18 (l. 1806 del djvu.txt)",
+     "cita_original": "La population de la Tortue ne s'élevait qu'à 400 aventuriers.",
+     "traduccion": "La población de la Tortuga no pasaba de 400 aventureros. [Cifra sin base declarada; cf. Bellegarde-Lhérisson: 400 personas al llegar d'Ogeron; Price-Mars cita 4.000 habitantes hacia 1660.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 18 (l. 1842-1849 del djvu.txt; OCR restituido)",
+     "cita_original": "une révolte d'esclaves africains, sous les ordres d'un nommé Padrejean, noir espagnol, faillit bouleverser le quartier du Port-de-Paix.",
+     "traduccion": "una revuelta de esclavos africanos, a las órdenes de un tal Padrejean, negro español, estuvo a punto de trastornar el cuartel de Port-de-Paix.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. I, p. 20 (imagen archive.org n35 leída; l. 1982-1986 del djvu.txt)",
+     "cita_original": "quand la nouvelle de la paix de Riswich vint au Cap. Par ce traité conclu en 1697, entre la France, l'Espagne, la Hollande, l'Allemagne et l'Angleterre, toute la partie occidentale de St-Domingue, fut cédée à la France, par la cour de Madrid.",
+     "traduccion": "cuando llegó al Cabo la noticia de la paz de Ryswick. Por este tratado, concluido en 1697 entre Francia, España, Holanda, Alemania e Inglaterra, toda la parte occidental de Santo Domingo fue cedida a Francia por la corte de Madrid.",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 22 (l. 2110-2116 del djvu.txt; OCR con ruido, restituido)",
+     "cita_original": "Dans les premiers temps de la colonisation française, les préjugés de castes étaient inconnus. Le flibustier n'établissait qu'une légère différence entre le nègre africain, et l'engagé européen",
+     "traduccion": "En los primeros tiempos de la colonización francesa los prejuicios de casta eran desconocidos. El filibustero apenas distinguía entre el negro africano y el engagé europeo. [Interpretación; Ardouin la comparte vía J. Raymond.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06"
+   ],
+   "id_existente": "F-0106",
+   "notas": "HECHO/INTERPRETACIÓN: Madiou dice 'cédée à la France, par la cour de Madrid' (cesión explícita) y atribuye a Ryswick lo que el texto del tratado no dice (ver F-0016 y la entrada de Price-Mars). Su cronología de la Tortuga (Levasseur 1640; 'en 1660 de Rausset la leur enleva à tout jamais'; 1648 ataque español) mezcla fechas que Cabon corrige con documentos (Rausset 1659-60; toma española de 1654). Dato propio de Madiou frente a otros haitianos: nombramiento de d'Ogeron en oct. 1664 (Bellegarde: toma de posesión 6-VI-1665; Livre Blanc: 1665; Bellegarde-Lhérisson: 1666-1675). Escribe 'Riswich'. Sesgo: relato noiriste fundacional, favorable a presentar a los filibusteros como fundadores y a la sociedad inicial como sin castas. OCR de archive.org con ruido; la p. 20 se verificó contra imagen."
+  },
+  {
+   "titulo": "Études sur l'histoire d'Haïti, t. I (Paris, Dézobry et Magdeleine, 1853): Introducción, pp. 71-72 (cita de J. Raymond sobre los primeros colonos)",
+   "autor": "Ardouin, Beaubrun (cita a Raymond, Julien, 1791)",
+   "anio": "1853",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/tudessurlhisto01ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/tudessurlhisto01ardo/tudessurlhisto01ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador mulatrista con acceso a documentos de la época de Boyer; aquí solo parafrasea a Julien Raymond (1791), de modo que vale como testimonio de una tesis, no como evidencia del siglo XVII.",
+   "proveniencia": "Beaubrun Ardouin (1796-1865), historiador y político haitiano, publica en París los 11 vols. de las Études (1853-60) como contrapunto de Madiou; en la Introducción resume lo que escribió el mulato Julien Raymond en enero de 1791 sobre el origen del prejuicio de color, para defender a los libres de color.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, Introducción, p. 71-72 (l. 2972 del djvu.txt)",
+     "cita_original": "dans l'origine de l'établissement de la colonie de Saint-Domingue, les premiers colons (connus sous les dénominations de boucaniers, de flibustiers, d'engagés), gens de basse extraction sociale, ne pratiquaient pas ce préjugé de la couleur",
+     "traduccion": "en el origen del establecimiento de la colonia de Santo Domingo, los primeros colonos (conocidos como bucaneros, filibusteros y engagés), gente de baja extracción social, no practicaban ese prejuicio de color.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0107",
+   "notas": "INTERPRETACIÓN (no hecho verificado): la sociedad de bucaneros y filibusteros como espacio sin prejuicio de color es una tesis compartida por Madiou (noirista) y Ardouin (mulatrista) y reaparece en Icart (2014, vía Dictionnaire de Moïse). La fuente primaria es Raymond (1791), no leída aquí [POR VERIFICAR]. El archivo archive.org 'etudessurlhisto01ardo' devolvió 503; funciona 'tudessurlhisto01ardo'. El t. I no trata Ryswick ni la Tortuga como narración."
+  },
+  {
+   "titulo": "Géographie de l'île d'Haïti, précédée du précis et de la date des événements les plus remarquables de son histoire (Port-au-Prince, 1832): Précis historique, párrafo sobre los siglos XVI-XVII",
+   "autor": "Ardouin, Beaubrun",
+   "anio": "1832",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/gographiedelil05784ardo",
+   "urls_alternativas": [
+    "https://archive.org/download/gographiedelil05784ardo/gographiedelil05784ardo_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de un historiador haitiano de 1832 que sintetiza sin citar fuentes; el OCR es deficiente y la fecha de asentamiento definitivo ('1694') es dudosa.",
+   "proveniencia": "Beaubrun Ardouin publica en Puerto Príncipe en 1832, bajo el gobierno de Boyer, un manual-geografía con un 'précis historique' de la isla para uso de los haitianos; escribe cuando el Estado haitiano gobernaba toda la isla (1822-1844), lo que explica el interés por explicar el origen de la parte francesa.",
+   "extractos": [
+    {
+     "ubicacion": "Précis historique, l. 337 del djvu.txt (página impresa no legible en el OCR; OCR con ruido)",
+     "cita_original": "au commencement du dix-septième siècle, la cour d'Espagne, qui voyait avec répugnance le commerce d'interlope qu'entretenait cette colonie avec les hollandais et d'autres nations, ordonna la démolition de plusieurs villes de la partie occidentale",
+     "traduccion": "a comienzos del siglo XVII la corte de España, que veía con repugnancia el comercio de interlope que esta colonia mantenía con los holandeses y otras naciones, ordenó la demolición de varias ciudades de la parte occidental. [Las Devastaciones de Osorio de 1605-06, nombradas por su causa.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M04",
+    "M03",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0784",
+   "notas": "HECHO + INTERPRETACIÓN: Ardouin (1832) explica el asentamiento de filibusteros y bucaneros como consecuencia de la 'démolition' española de las ciudades del oeste por causa del comercio de interlope; añade que se fijaron en la 'grande île' hacia '1694' (OCR; probablemente error de lectura de una fecha de 1660s; [POR VERIFICAR] contra la imagen) y que los 'secours du gouvernement français' asignaron la parte a Francia sin mencionar Ryswick en este párrafo. Convergen con Cabon (p. 22: contrabando entre los motivos de la supresión de ciudades en 1606) y con Théodat 1997 (p. 124). Para A-050 aporta la fecha de 1630 para la llegada a la Tortuga."
+  },
+  {
+   "titulo": "Manuel d'histoire d'Haïti, conforme aux programmes officiels, à l'usage des écoles de la République (Port-au-Prince, 1906): Livre III 'Période française', caps. VII-VIII (pp. 24-28)",
+   "autor": "Bellegarde, Windsor; Lhérisson, Justin",
+   "anio": "1906",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/manueldhistoired00bell",
+   "urls_alternativas": [
+    "https://archive.org/download/manueldhistoired00bell/manueldhistoired00bell_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Manual escolar 'adopté par le Département de l'Instruction publique': útil como testimonio de la versión escolar oficial de 1906, no como fuente de hechos del siglo XVII.",
+   "proveniencia": "Windsor Bellegarde (1871-?) y Justin Lhérisson, docentes, publican en Puerto Príncipe en 1906 un manual conforme a los programas oficiales, aprobado por el Département de l'Instruction publique (portada según archive.org); lo escriben para alumnos de curso medio y superior y del certificado de estudios primarios.",
+   "extractos": [
+    {
+     "ubicacion": "p. 27 (l. 1124 del djvu.txt; OCR 'Tile' = l'île)",
+     "cita_original": "Une des clauses de ce traité reconnut les droits de la France sur la partie occidentale de l'île, du Cap Rose, au nord, à la pointe de la Béate au sud.",
+     "traduccion": "Una de las cláusulas de este tratado reconoció los derechos de Francia sobre la parte occidental de la isla, del Cabo Rose, al norte, a la punta de la Béate, al sur. [Esa delimitación no figura en el texto del tratado; ver F-0016.]",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "p. 27 (l. 1120) [l. = línea del txt local]",
+     "cita_original": "les cours d'Espagne et de France mirent fin, en 1697, à ces trop coûteuses hostilités par la signature du traité de Ryswick.",
+     "traduccion": "las cortes de España y de Francia pusieron fin, en 1697, a estas hostilidades demasiado costosas mediante la firma del tratado de Ryswick.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "p. 24 (l. 980) [l. = línea del txt local]",
+     "cita_original": "Ils occupèrent d'abord l'île de la Tortue, puis créèrent des établissements sur les côtes septentrionales de la grande Terre vers 1626 et s'y établirent définitivement en 1629.",
+     "traduccion": "Ocuparon primero la isla de la Tortuga y luego crearon establecimientos en las costas septentrionales de la Gran Tierra hacia 1626 y se establecieron definitivamente en 1629.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 25 (l. 1023) [l. = línea del txt local]",
+     "cita_original": "Le premier gouverneur officiellement nommé par la France fut Bertrand d'Ogeron (1666-1675).",
+     "traduccion": "El primer gobernador oficialmente nombrado por Francia fue Bertrand d'Ogeron (1666-1675). [Añade: a su llegada solo encontró 400 personas; en 1670 fundó la ciudad del Cabo.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 25 (l. 1039) [l. = línea del txt local]",
+     "cita_original": "une révolte d'esclaves éclata en 1678, à Port-de-Paix.",
+     "traduccion": "estalló una revuelta de esclavos en 1678, en Port-de-Paix. [Conducida por un negro llamado Padrejan.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0797",
+   "notas": "VERSIÓN ESCOLAR: la fórmula 'reconnut les droits de la France ... du Cap Rose ... à la pointe de la Béate' coincide casi palabra por palabra con Léger (1907) y con Placide-Justin (1826, p. 99: 'fixées à la pointe du cap Rose ... pointe de la Béate'); es probable que se copien entre sí [POR VERIFICAR]; no está en el texto del tratado (Dumont, art. IX). Fechas propias: 1626/1629 (Tortuga/gran tierra), d'Ogeron 1666-1675, Padrejan 1678 (Cabon y Fouchard: 1679). Hechos del siglo XVII sin cita de fuentes."
+  },
+  {
+   "titulo": "Manuel d'histoire d'Haïti (Port-au-Prince, Procure des Frères de l'Instruction chrétienne, 1934; aprobado por el Conseil de l'Instruction publique el 29-III-1924): resumen 16*-19* (pp. 34-35) y §§ 16-18 (pp. 38-43)",
+   "autor": "Dorsainvil, Justin-Chrysostome; Frères de l'Instruction chrétienne",
+   "anio": "1934",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://manioc.martinique.univ-antilles.fr/omeka-s/files/original/2821/PAP11077.pdf",
+   "urls_alternativas": [
+    "https://www.manioc.org/patrimon/PAP11077",
+    "https://beta-omk.manioc.org/files/original/2821/PAP11077.pdf (descarga truncada: xref dañado; no usada)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Manual de la enseñanza católica aprobado oficialmente en 1924: sirve como prueba de la versión escolar vigente en el periodo de la ocupación estadounidense, no como fuente primaria del siglo XVII.",
+   "proveniencia": "El Dr. J.-C. Dorsainvil (médico e historiador haitiano) con los Frères de l'Instruction chrétienne publica en Puerto Príncipe (1934) este manual (nihil obstat e imprimatur de julio de 1934; 'ouvrage approuvé par le Conseil de l'Instruction publique d'Haïti, le 29 mars 1924') para la enseñanza primaria y media; la edición de Manioc es el escaneo de la biblioteca de Pointe-à-Pitre.",
+   "extractos": [
+    {
+     "ubicacion": "pp. 42-43, § 18 'Le traité de Ryswick (1697)' (l. 2050-2058 del txt; salto de página entre 'le' y 'tiers')",
+     "cita_original": "En 1697, le traité de Ryswick, en terminant la guerre de la Ligue d'Augsbourg, eut des conséquences heureuses pour Saint-Domingue : l'Espagne céda à la France le tiers occidental d'Hispaniola.",
+     "traduccion": "En 1697, el tratado de Ryswick, al poner fin a la guerra de la Liga de Augsburgo, tuvo consecuencias felices para Santo Domingo: España cedió a Francia el tercio occidental de La Española.",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "p. 35, resumen 19* (l. 1657) [l. = línea del txt local]",
+     "cita_original": "L'Espagne céda à la France par le traité de Ryswick (1697) le tiers occidental d'Hispaniola.",
+     "traduccion": "España cedió a Francia por el tratado de Ryswick (1697) el tercio occidental de La Española.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "pp. 38-39, § 16 (l. 1840) [l. = línea del txt local]",
+     "cita_original": "En 1641 seulement, ils trouvèrent un vrai chef, Le Vasseur. Le Gouverneur général des Iles françaises, de Poincy, l'avait chargé d'expulser les Anglais de la Tortue.",
+     "traduccion": "Solo en 1641 encontraron un verdadero jefe, Le Vasseur. El gobernador general de las islas francesas, de Poincy, le había encargado expulsar a los ingleses de la Tortuga.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 42, § 18 (l. 2039) [l. = línea del txt local]",
+     "cita_original": "Par tous les moyens, il essaya de transformer les aventuriers en agriculteurs paisibles. Il n'y réussit guère. La France, étant alors en guerre avec la moitié de l'Europe, on eut trop besoin de flibustiers pour ravager en Amérique les colonies espagnoles, anglaises ou hollandaises.",
+     "traduccion": "Por todos los medios intentó convertir a los aventureros en agricultores pacíficos. Apenas lo logró. Francia, en guerra con media Europa, necesitaba demasiado a los filibusteros para asolar las colonias españolas, inglesas u holandesas de América. [Sobre d'Ogeron; contrasta con el resumen 18* de la p. 35, 'eut le mérite de préparer'...]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M16"
+   ],
+   "id_existente": "F-0481",
+   "notas": "VERSIÓN ESCOLAR (cesión): 'céda ... le tiers occidental' en la narración y en el resumen. Fechas propias: Le Vasseur 1641 (Madiou: 1640; Cabon: 31-VIII-1640, nota 'doit avoir lieu en 1640'); d'Ogeron como organizador (resumen 18*, p. 35) pero con éxito escaso (p. 42). Llama 'pirates' a los filibusteros (p. 35, 17*), a diferencia de Madiou/Ardouin (fundadores). La descarga desde beta-omk.manioc.org quedó truncada; se usó el espejo de manioc.martinique.univ-antilles.fr (50 MB)."
+  },
+  {
+   "titulo": "Histoire du peuple haïtien (1492-1952) (Port-au-Prince, 1953; ed. electrónica UQAC 2004): cap. II 'La colonie française de Saint-Domingue' y cap. V (inicio)",
+   "autor": "Bellegarde, Dantès",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/classiques/bellegarde_dantes/histoire_du_peuple_haitien/histoire_du_peuple_haitien.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Síntesis de un intelectual y diplomático haitiano con notas a Cabon, Peytraud y Moreau, pero sin aparato de archivo; la fecha de Ryswick (30-IX) es errónea frente al texto del tratado.",
+   "proveniencia": "Dantès Bellegarde, ensayista y diplomático haitiano [fechas biográficas POR VERIFICAR], publica en 1953 su historia del pueblo haitiano para un público culto y escolar; la UQAC la digitalizó en 2004. Cita al P. Cabon (Histoire d'Haïti, t. I) para la 'república' de los aventureros y a Peytraud para la sociedad colonial.",
+   "extractos": [
+    {
+     "ubicacion": "ed. UQAC p. 28 (orig. [21]; l. 880 del txt)",
+     "cita_original": "Ces aventuriers finirent par choisir comme quartier général permanent l'île de la Tortue, qui devint ainsi le repaire des redoutables écumeurs de mer connus dans l'histoire sous le nom de flibustiers.",
+     "traduccion": "Estos aventureros acabaron eligiendo como cuartel general permanente la isla de la Tortuga, que se convirtió así en guarida de los temibles piratas conocidos en la historia como filibusteros.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC pp. 30-31 (orig. [22]-[23]; l. 958) [l. = línea del txt local]",
+     "cita_original": "Le plus redoutable de ces postes était la petite île de la Tortue devenue depuis 1632 le siège permanent de la flibuste.",
+     "traduccion": "El más temible de estos puestos era la pequeña isla de la Tortuga, convertida desde 1632 en sede permanente de la filibustería.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC p. 32 (orig. [24]; l. 1025) [l. = línea del txt local]",
+     "cita_original": "Amené en grand apparat à la Tortue le 6 juin 1665, Bertrand d'Ogeron, coureur de mer lui-même, sut se faire accepter par ses rudes compagnons",
+     "traduccion": "Llevado con gran aparato a la Tortuga el 6 de junio de 1665, Bertrand d'Ogeron, él mismo hombre de mar, supo hacerse aceptar por sus rudos compañeros.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC p. 31 (orig. [23]; l. 1007) [l. = línea del txt local]",
+     "cita_original": "Les Français, à partir de ce moment, considérèrent comme possible l'établissement dans les Antilles d'un empire colonial, dont Haïti deviendrait le centre.",
+     "traduccion": "Los franceses, a partir de ese momento, consideraron posible el establecimiento en las Antillas de un imperio colonial cuyo centro sería Haití. [Sobre el asalto de 1659 a Santiago de los Caballeros; significado atribuido.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC p. 73 (orig. [55]; l. 2614) [l. = línea del txt local]",
+     "cita_original": "Par le traité de Ryswick du 30 septembre 1697, l'Espagne avait reconnu comme définitive la possession française de la partie occidentale d'Hispaniola",
+     "traduccion": "Por el tratado de Ryswick del 30 de septiembre de 1697, España había reconocido como definitiva la posesión francesa de la parte occidental de La Española.",
+     "afirmaciones": [
+      "A-051",
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC pp. 32-33 (orig. [24]; l. 1054) [l. = línea del txt local]",
+     "cita_original": "Dès la promulgation de cette mesure, le nombre des bateaux négriers augmenta considérablement dans les ports de Saint-Domingue. Chaque année, ils y débarquaient de vingt à trente mille noirs enlevés des côtes d'Afrique.",
+     "traduccion": "Desde la promulgación de esta medida, el número de barcos negreros aumentó considerablemente en los puertos de Santo Domingo. Cada año desembarcaban allí de veinte a treinta mil negros arrancados de las costas de África. [Cifra sin base; Cabon p. 71 dice que en 1697 la trata africana no había aportado ni un esclavo en quince años.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M13"
+   ],
+   "id_existente": "F-0108",
+   "notas": "CRÍTICA: (a) usa 'reconnu comme définitive la possession' (reconocimiento, no cesión) y data Ryswick el 30-IX-1697; el tratado franco-español se firmó el 20-IX-1697 (Dumont, doc. CXCVIII, 'le vingtième Septembre'; Sannon y Cabon: 20-IX): error de fecha. (b) Tortuga: 1632 sede permanente; Levasseur 1640; asesinado 1652; toma española 1654; Santiago 1659; d'Ogeron 6-VI-1665; Ogeron 'jeta les bases'. (c) la cifra de 20.000-30.000 negros desembarcados 'cada año' después de 1670 carece de base y contradice a Cabon (1697: ninguno desde hacía 15 años). Numeración [N] = páginas de la edición de 1953. Fiabilidad de las cifras: D."
+  },
+  {
+   "titulo": "La République d'Haïti et la République Dominicaine: les aspects divers d'un problème d'histoire, de géographie et d'ethnologie, t. I (Port-au-Prince, 1953), pp. 44-52 y 112",
+   "autor": "Price-Mars, Jean",
+   "anio": "1953",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00001/Mars_RD_Haiti_fr_1.pdf",
+   "urls_alternativas": [
+    "https://dloc.com/UF00095932/00001",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/09/59/32/00001/Mars_RD_Haiti_fr_1_Page_044.jpg (p. 46; imagen leída)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Es la única fuente haitiana de este módulo que cita la cláusula del tratado y reconoce que Santo Domingo no se nombra; la p. 46 se verificó contra la imagen, y apoya su lectura en García, Moreau y Lepelletier.",
+   "proveniencia": "Jean Price-Mars, etnólogo, médico y diplomático haitiano [datos biográficos no verificados aquí], publica en Puerto Príncipe en 1953 (portada, OCR: '...inquantenaire de l'Indépendance d'Haïti' [POR VERIFICAR el rótulo exacto]) esta obra que quiere mostrar que ambos Estados podían desarrollarse en paz; dialoga con José Gabriel García, Moreau de Saint-Méry y Lepelletier de Saint-Rémy. Numeración impresa = página del PDF + 2 (verificada en la imagen de la p. 46).",
+   "extractos": [
+    {
+     "ubicacion": "t. I, p. 46 (PDF p. 44; imagen leída)",
+     "cita_original": "Ce fut donc en vertu de cette clause et sans que Saint-Domingue y fût expressément dénommée que S. M. Catholique fit cession à S. M. Très Chrétienne de la partie occidentale de l'île, légalisant ainsi un état de fait vieux de plus de trois quarts de siècle.",
+     "traduccion": "Fue pues en virtud de esta cláusula, y sin que Santo Domingo fuera expresamente nombrado, que S. M. Católica cedió a S. M. Cristianísima la parte occidental de la isla, legalizando así un estado de hecho de más de tres cuartos de siglo.",
+     "afirmaciones": [
+      "A-051",
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 46 (imagen leída)",
+     "cita_original": "le Traité de Ryswick, conclu en 1697 à la fin du conflit qui mit la France aux prises avec les Princes de la Ligue d'Augsbourg, l'art. IX reproduisit textuellement l'art. VII du Traité de Nimègue de 1678",
+     "traduccion": "el tratado de Ryswick, concluido en 1697 al final del conflicto que enfrentó a Francia con los príncipes de la Liga de Augsburgo, en su art. IX reprodujo textualmente el art. VII del tratado de Nimega de 1678. [El art. IX del tratado franco-español de Dumont es una cláusula general de restitución 'en quelque Lieu du Monde'; la identidad con Nimega no se cotejó.]",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 46 (imagen leída)",
+     "cita_original": "Il ne s'agissait, en définitive, que du droit du plus fort sur un bien ravi par l'un et par l'autre concurrent à l'Indien éliminé — le véritable propriétaire.",
+     "traduccion": "No se trataba, en definitiva, sino del derecho del más fuerte sobre un bien arrebatado por uno y otro competidor al indio eliminado, el verdadero propietario. [Interpretación/significado: niega legitimidad a ambos títulos.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. I, p. 45 (PDF p. 43; l. 1791 del txt)",
+     "cita_original": "l'île de la Tortue située dans le Canal du Vent, fut choisie par la flibuste comme le meilleur pivot d'attaque pour entreprendre ses exploits de la haute mer en même temps qu'elle servait de base pour assaillir les côtes occidentales de la colonie espagnole.",
+     "traduccion": "la isla de la Tortuga, situada en el Canal de Barlovento, fue elegida por la filibustería como mejor pivote de ataque para sus hazañas en alta mar y como base para asaltar las costas occidentales de la colonia española.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "t. I, pp. 50-51 (PDF pp. 48-49; l. 2059 del txt; nota 1 con el original de J. G. García)",
+     "cita_original": "Quand, à la fin de 1697, la cession de la partie occidentale fut accordée à la France, la situation de l'île était [p. 51] aussi triste que désolée à cause des différents événements auxquels la paix de Ryswick apporta un terme.",
+     "traduccion": "Cuando, a fines de 1697, se concedió a Francia la cesión de la parte occidental, la situación de la isla era tan triste como desoladora por los diversos acontecimientos a los que la paz de Ryswick puso fin. [Price-Mars traduce a José Gabriel García, Compendio, t. I, p. 185: 'la cesión a la Francia de la parte occidental'; el original español está en la nota de la p. 51, con OCR corrupto.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "t. I, p. 52 (PDF p. 50; l. 2149-2153 del txt)",
+     "cita_original": "l'Espagne ... ne fut pas en mesure, cependant, de fournir une main-d'œuvre servile à sa colonie antillaise parce que les puissances maritimes d'alors, l'Angleterre, la France, la Hollande, le Portugal, monopolisaient la traite négrière et obligeaient les Espagnols à recourir à la pratique interlope pour se pourvoir d'esclaves.",
+     "traduccion": "España no pudo, sin embargo, proporcionar mano de obra servil a su colonia antillana porque las potencias marítimas de entonces monopolizaban la trata y obligaban a los españoles a recurrir a la práctica interlope para abastecerse de esclavos. [Sin fecha precisa; marco del contrabando.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "t. I, p. 112 (PDF p. 110; l. 5144 del txt)",
+     "cita_original": "la ligne tracée par le crayon des diplomates de Ryswick est devenue avec le temps un obstacle plus infranchissable que les Pyrénées ou les Balkans.",
+     "traduccion": "la línea trazada por el lápiz de los diplomáticos de Ryswick se ha convertido con el tiempo en un obstáculo más infranqueable que los Pirineos o los Balcanes. [Cita del general español José de la Gándara (1861) que Price-Mars reproduce para criticarla; ejemplo de la 'línea de Ryswick' como mito fronterizo.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+   ],
+   "id_existente": "F-0109",
+   "notas": "HECHO/INTERPRETACIÓN: Price-Mars separa (i) el hecho de que Ryswick no nombra Saint-Domingue ('sans que Saint-Domingue y fût expressément dénommée') y (ii) la interpretación jurídica de que la cesión se hizo 'en vertu de' la cláusula general de restitución (art. IX). Contrasta con Cabon (restablecimiento del statu quo ante, línea del Rebouc, sin cesión) y con Madiou/Dorsainvil ('cédée'). Verificado por mí contra Dumont (F-0016): el texto franco-español, firmado el 20-IX-1697, no contiene 'Saint-Domingue', 'Hispaniola' ni 'Indes' (búsqueda en el OCR) y su art. IX es la restitución recíproca 'en quelque Lieu du Monde'. Price-Mars incluye también la 'validez de los títulos' como disputa (p. 46) y el efecto de 'états de fait'. El número de página impreso se leyó en la imagen (46)."
+  },
+  {
+   "titulo": "Formation ethnique, folk-lore et culture du peuple haïtien (Port-au-Prince, 1939; ed. electrónica UQAC, 1956): cap. sobre la población de Saint-Domingue, pp. [22]-[26] y [35]",
+   "autor": "Price-Mars, Jean",
+   "anio": "1939",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/price_mars_jean/formation_ethnique_haiti/formation_ethnique_haiti.pdf",
+   "urls_alternativas": [
+    "https://classiques.uqam.ca/classiques/price_mars_jean/formation_ethnique_haiti/formation_ethnique_haiti.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de síntesis de un autor sólido, con cifras de 1687 sin base declarada que él mismo juzga de 'médiocre estime'.",
+   "proveniencia": "Price-Mars publica en 1939 (Valcin, Puerto Príncipe) este ensayo etnográfico sobre el origen del pueblo haitiano; la UQAC lo digitalizó (el encabezado repetido del PDF dice por error 'Ainsi parla l'oncle'). Usa a Scelle, Le Pers, Moreau y Barbé de Marbois.",
+   "extractos": [
+    {
+     "ubicacion": "ed. UQAC, p. [24] de la edición de 1939 (l. 544 del txt)",
+     "cita_original": "au Traité de Riswick, en 1697, l'Espagne leur en reconnut officiellement la possession",
+     "traduccion": "en el tratado de Ryswick, en 1697, España les reconoció oficialmente la posesión [de la parte occidental].",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "ed. UQAC, pp. [24]-[25] (l. 572 del txt)",
+     "cita_original": "en ce qui concerne Saint-Domingue qui nous intéresse de façon particulière, nous n'avons de statistique que pour le nombre des nègres et de mulâtres évalués seulement à 3.582 âmes soit 3.358 noirs et 224 mulâtres en 1687.",
+     "traduccion": "en lo que concierne a Santo Domingo no hay estadística sino para el número de negros y mulatos, estimados solo en 3.582 almas, 3.358 negros y 224 mulatos en 1687. [Para todas las Antillas francesas da 47.321 habitantes en 1687; base no declarada; Price-Mars: 'tenue en médiocre estime'.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "ed. UQAC, p. [35] (l. 884 del txt)",
+     "cita_original": "Le jésuite Le Pers en accuse 4 ou 5 pour les 4.000 habitants qu'il y avait à la Tortue et sur la côte, vers 1660.",
+     "traduccion": "El jesuita Le Pers cuenta solo 4 o 5 [mujeres] entre los 4.000 habitantes que había en la Tortuga y en la costa hacia 1660. [Cifra de Le Pers (h. 1715) no cotejada aquí; contrasta con los 400 de Madiou.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M08"
+   ],
+   "id_existente": "F-0109",
+   "notas": "CIFRAS: 1687, Saint-Domingue: 3.358 negros y 224 mulatos (Price-Mars; base no declarada, probablemente un recuento de las Antillas francesas); total Antillas francesas 47.321. Comparar con Fouchard (1681: 1.063 hombres africanos, 314 niños, 210 mulatos, 725 negras, 1.421 colonos y 1.565 engagés; Moreau t. II pp. 1130-1131) y con Manigat (1697: 8.000 blancos, 500 mulatos, 5.000 negros). Todas D hasta trazar la fuente. 4-5 mujeres entre 4.000 habitantes hacia 1660 según Le Pers [POR VERIFICAR contra Le Pers, Manioc SCH13003]."
+  },
+  {
+   "titulo": "Ainsi parla l'Oncle. Essais d'ethnographie (1928; ed. electrónica UQAC): pasaje sobre el origen del pueblo haitiano (ed. electrónica pp. 114-115)",
+   "autor": "Price-Mars, Jean",
+   "anio": "1928",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://classiques.uqam.ca/classiques/price_mars_jean/ainsi_parla_oncle/ainsi_parla_oncle.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Obra fundacional del indigenismo haitiano; el pasaje es una síntesis breve del origen del pueblo, sin cifras.",
+   "proveniencia": "Jean Price-Mars publica en 1928, en plena ocupación estadounidense, el ensayo que funda el 'indigénisme' haitiano; en su cierre resume cómo se formó el pueblo haitiano a partir de africanos, indígenas y aventureros.",
+   "extractos": [
+    {
+     "ubicacion": "ed. electrónica UQAC, pp. 114-115 (l. 3920 del txt)",
+     "cita_original": "ceux qui, par le commerce interlope des Hollandais, des Normands, des Bretons et autres écumeurs de mer, participèrent à la fondation des premiers établissements français à Saint-Domingue, tous ceux-là qui, en nombre restreint il est vrai, mêlèrent leur vie à celle des boucaniers ou flibustiers",
+     "traduccion": "los que, por el comercio interlope de los holandeses, normandos, bretones y otros piratas, participaron en la fundación de los primeros establecimientos franceses en Santo Domingo, todos esos que, en número restringido, mezclaron su vida con la de los bucaneros o filibusteros. [Silencio: los primeros africanos entre bucaneros.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04",
+    "M01",
+    "M05"
+   ],
+   "id_existente": "F-0109",
+   "notas": "Aporta un silencio: los africanos y afrodescendientes (esclavos fugados de los españoles, llegados por el comercio interlope) como parte de la sociedad bucanera original; Taber (Island Luminous) lo formula como probable ('probably part of the filibusters and buccaneers'). Sin cifras."
+  },
+  {
+   "titulo": "Génesis de las naciones haitiana y dominicana (en Política y sociología en Haití y la República Dominicana, México, UNAM-IIS, 1974), pp. 16-17",
+   "autor": "Pierre-Charles, Gérard",
+   "anio": "1974",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://ru.iis.sociales.unam.mx/bitstream/IIS/6013/2/04PoliticaYSociologiaEnHaitiYLaRepublicaDominicana.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ponencia de un economista y sociólogo marxista haitiano presentada en el Coloquio de México (1971); interpretación estructural con pocas citas del siglo XVII.",
+   "proveniencia": "Gérard Pierre-Charles (economista y sociólogo haitiano) presenta en el Coloquio Dominico-Haitiano de México (julio de 1971) esta lectura de la formación de ambas naciones; la UNAM-IIS la publicó en 1974. Lee la Tortuga como 'creación antillana del mercantilismo' francés.",
+   "extractos": [
+    {
+     "ubicacion": "p. 17 (l. 566 del txt)",
+     "cita_original": "Saint Domingue como colonia francesa nació, pues, de la creación antillana del mercantilismo: la Tortuga, esa famosa plaza fuerte de los corsarios franceses.",
+     "traduccion": "[Texto original en español.] Interpretación: la colonia nace del mercantilismo; la piratería y el contrabando como 'primeros eslabones' de la expansión.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 17 (l. 571) [l. = línea del txt local]",
+     "cita_original": "El mercantilismo español decadente tuvo que reconocer los derechos adquiridos por Francia sobre la parte occidental de la antigua Española.",
+     "traduccion": "[Texto original en español.] Interpretación estructural: reconocimiento de derechos adquiridos, no cesión expresa.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0807",
+   "notas": "La nota 4 (p. 16) dice que el nombre Saint Domingue 'se institucionaliza oficialmente con el tratado de Ryswick en 1697' (OCR con ruido; sin cita textual). Añade que la tierra 'despoblada de unos 25.000 km²' al firmarse Ryswick (cifra sin base). Pierre-Charles usa 'reconocer los derechos adquiridos': formulación intermedia entre cesión (Madiou) y reconocimiento (Bellegarde)."
+  },
+  {
+   "titulo": "Haití, Quisqueya; Los límites de la insularidad (1630-1916) (Estudios Fronterizos, n.º 40, jul.-dic. 1997, pp. 115-139; trad. D. Wynants): secc. sobre la frontera imperial, pp. 116 y 124-125",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "1997",
+   "tipo": "secundaria",
+   "idioma": "es",
+   "tradicion": "haitiana",
+   "url": "https://ref.uabc.mx/ojs/index.php/ref/article/download/309/519",
+   "urls_alternativas": [
+    "https://ref.uabc.mx/ojs/index.php/ref/article/view/309"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo académico de un geógrafo haitiano con buena síntesis pero sin citas de archivo para el siglo XVII; el '1680, Tratados del Cabo Francés' solo se corrobora por Cabon (acta notarial de julio de 1680).",
+   "proveniencia": "Jean-Marie Théodat, geógrafo haitiano (Paris X / Paris 1 y UEH según el registro), publica en 1997 en Estudios Fronterizos (UABC, Mexicali), traducido del francés, un ensayo sobre la frontera como 'viento blando del imperio'; resume su tesis (París X, 1998) sobre dos Estados nacidos en interdependencia.",
+   "extractos": [
+    {
+     "ubicacion": "p. 124 (l. 438 del txt)",
+     "cita_original": "en 1630, un grupo de franceses rechazados en la isla San Cristobal, se asentó en la isla de la Tortuga.",
+     "traduccion": "[Original en español.] Dato: Tortuga 1630, tras la expulsión de San Cristóbal.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 125 (l. 449 del txt; guiones de línea eliminados)",
+     "cita_original": "en 1655, la última guarnición española dejó definitivamente la isla de la Tortuga. Veinte años más tarde, en 1676, la presencia francesa fue reconocida oficialmente, y en 1680, los Tratados del Cabo Francés establecieron los acuerdos sobre el primer trazado de la frontera",
+     "traduccion": "[Original en español.] Fechas: 1655 (fin de la guarnición española en la Tortuga), 1676 (reconocimiento francés), 1680 ('Tratados del Cabo Francés').",
+     "afirmaciones": [
+      "A-050",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 125 (l. 453) [l. = línea del txt local]",
+     "cita_original": "(pero fue en 1697 [Tratado de Ryswick] que la presencia francesa fue reconocida oficialmente por España)",
+     "traduccion": "[Original en español.] Formulación: reconocimiento oficial por España en 1697.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 124 (l. 412-420 del txt)",
+     "cita_original": "bajo el gobierno de Osorio, quien ocasionó la devastación de los establecimientos de la parte occidental (1605) ... Las idea era castigar a los habitantes que comerciaban con los extranjeros, a pesar de la interdicción formal de la corona.",
+     "traduccion": "[Original en español.] Osorio y el castigo del comercio con extranjeros; 'ideal para la instalación de nuevos aventureros holandeses, franceses e ingleses'.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 125 (l. 475) [l. = línea del txt local]",
+     "cita_original": "La frontera resultó de la incapacidad por parte de España para defender eficazmente los límites de un imperio desmesurado en relación con sus medios.",
+     "traduccion": "[Original en español.] Interpretación de la frontera como producto de la debilidad imperial española, no de un acto de cesión.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M03",
+    "M05",
+    "M06",
+    "M08",
+    "M09",
+    "M11"
+   ],
+   "id_existente": "F-0895",
+   "notas": "El pasaje de 1680 coincide con el acta notarial que Cabon (p. 49) data en julio de 1680 (Pouancey-Presidente de Santo Domingo, línea del Rebouc); Théodat lo llama 'Tratados del Cabo Francés' sin fuente [POR VERIFICAR contra Moreau o Charlevoix]. Las páginas se leyeron con el número al pie de cada hoja del PDF (115 en la primera). Síntesis consistente con A-053 (reconocimiento oficial por España en 1697; Aranjuez 1777 renueva el reconocimiento)."
+  },
+  {
+   "titulo": "«État et territoire : la question de la naissance de la République dominicaine», en M. Hector y L. Hurbon (dirs.), Genèse de l'État haïtien (1804-1859) (Paris, MSH, 2009), ¶ 14-15",
+   "autor": "Théodat, Jean-Marie",
+   "anio": "2009",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://books.openedition.org/editionsmsh/9766",
+   "urls_alternativas": [
+    "https://web.archive.org/web/20240604174709/https://books.openedition.org/editionsmsh/9766 (copia leída; el sitio original devuelve verificación Anubis)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Capítulo académico de calidad alta, pero el pasaje sobre 1697-1777 es un aside de síntesis sin citas.",
+   "proveniencia": "Jean-Marie Théodat, geógrafo (Paris 1 y UEH), contribuye a la obra dirigida por Michel Hector y Laënnec Hurbon (MSH, 2009) con un capítulo sobre territorio y Estado; la copia leída es la de Wayback del 4-VI-2024.",
+   "extractos": [
+    {
+     "ubicacion": "¶ 15 (l. 186 del txt de la copia Wayback)",
+     "cita_original": "Les rivalités impériales entre la France et l'Espagne avaient donné lieu à ce partage paradoxal de l'île en deux entités coloniales séparées par une frontière imprécise fixée seulement à partir de 1777",
+     "traduccion": "Las rivalidades imperiales entre Francia y España habían dado lugar a este reparto paradójico de la isla en dos entidades coloniales separadas por una frontera imprecisa, fijada solo a partir de 1777.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0735",
+   "notas": "Para A-053: la frontera 'fijada solo a partir de 1777' (sin mencionar Ryswick en este párrafo). El sitio de OpenEdition devuelve hoy un desafío Anubis (prueba de trabajo) que no se evadió; se usó la copia de Wayback."
+  },
+  {
+   "titulo": "Haiti: State Against Nation. The Origins and Legacy of Duvalierism (New York, Monthly Review Press, 1990), cap. 1 'The Legacies of French Saint-Domingue', pp. 35-36",
+   "autor": "Trouillot, Michel-Rolph",
+   "anio": "1990",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/stateagainstnation",
+   "urls_alternativas": [
+    "https://archive.org/download/stateagainstnation/stateagainstnation_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Antropólogo e historiador haitiano de referencia; el pasaje es una frase de contexto, sin cita, pero con un lenguaje jurídico cuidadoso ('acknowledgment', 'effective occupation').",
+   "proveniencia": "Michel-Rolph Trouillot, antropólogo haitiano, publica en 1990 (Monthly Review Press, Nueva York) un estudio sobre el Estado duvalierista; en el capítulo 1 explica los límites heredados de Saint-Domingue y fija el origen de la frontera.",
+   "extractos": [
+    {
+     "ubicacion": "p. 35-36 (l. 1390 del djvu.txt; salto de página entre 'acknowledgment' y 'by')",
+     "cita_original": "In 1697, the acknowledgment [p. 36] by the Spanish Crown of the effective occupation of the western third of the Caribbean island of Hispaniola by a few French adventurers established the first internationally recognized political division of the island",
+     "traduccion": "En 1697, el reconocimiento por la Corona española de la ocupación efectiva del tercio occidental de La Española por unos pocos aventureros franceses estableció la primera división política internacionalmente reconocida de la isla.",
+     "afirmaciones": [
+      "A-051",
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 36 (l. 1413) [l. = línea del txt local]",
+     "cita_original": "Nevertheless, the border has its origins in the 1697 division, which was confirmed internationally and which first signified two different colonies within the same island.",
+     "traduccion": "No obstante, la frontera tiene su origen en la división de 1697, que fue confirmada internacionalmente y que significó por primera vez dos colonias distintas dentro de la misma isla.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M11",
+    "M14"
+   ],
+   "id_existente": "F-0111",
+   "notas": "Formulación precisa: 'acknowledgment ... of the effective occupation' (reconocimiento de una ocupación efectiva), sin decir 'cesión' ni 'tratado de Ryswick'; compatible con A-053 (reconocimiento) y tensiona A-052 (cesión). También: el territorio haitiano se expandió después más allá de los límites de Saint-Domingue (1805, 1822, 1849, 1855)."
+  },
+  {
+   "titulo": "Livre Blanc sur la sécurité et la défense nationale pour le développement économique et social durable d'Haïti (junio de 2015), cap. I.1 'Survol historique', pp. 20-21",
+   "autor": "République d'Haïti, Commission d'élaboration du Livre Blanc (Ministerio de la Defensa)",
+   "anio": "2015",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "oficial-haiti",
+   "url": "https://www.haitilibre.com/docs/Livre_Blanc.pdf",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Documento oficial de política de defensa, cuyo 'survol historique' es una síntesis sin citas; vale como discurso de Estado, no como fuente de hechos.",
+   "proveniencia": "Documento oficial del Estado haitiano (junio de 2015, bajo la presidencia de Michel Martelly) que fija la visión estratégica de seguridad y defensa; su capítulo I resume la historia nacional en tres periodos (española, francesa, haitiana).",
+   "extractos": [
+    {
+     "ubicacion": "p. 21 (PDF p. 22; l. 525 del txt)",
+     "cita_original": "Cette période de l'histoire du pays prit fin officiellement par le Traité de Ryswick, en 1697, par lequel l'Espagne avait cédé à la France la partie occidentale de l'île, qui constitue l'Haïti d'aujourd'hui.",
+     "traduccion": "Este periodo de la historia del país terminó oficialmente con el Tratado de Ryswick, en 1697, por el cual España había cedido a Francia la parte occidental de la isla, que constituye la Haití de hoy.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "p. 21 (l. 538) [l. = línea del txt local]",
+     "cita_original": "l'Espagne reconnut officiellement par le Traité de Ryswick antérieurement référencé le droit à la France de conserver la partie occidentale sans toutefois en fixer les frontières.",
+     "traduccion": "España reconoció oficialmente, por el Tratado de Ryswick antes referido, el derecho de Francia a conservar la parte occidental sin fijar por ello sus fronteras.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 21 (l. 528) [l. = línea del txt local]",
+     "cita_original": "La présence française sur l'île d'Hispaniola remonte à l'année 1635 sur la côte nord-ouest, particulièrement à l'île de la Tortue.",
+     "traduccion": "La presencia francesa en la isla de La Española se remonta al año 1635 en la costa noroeste, en particular a la isla de la Tortuga. [Añade: Colbert 'reconnut' a los franceses en 1664 y d'Ogeron fue el primer gobernador en 1665.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M01",
+    "M02",
+    "M16"
+   ],
+   "id_existente": "F-0885",
+   "notas": "El mismo documento oficial contiene las dos formulaciones de Ryswick: 'cédé' (periodo español) y 'reconnut ... le droit ... de conserver ... sans en fixer les frontières' (periodo francés); este segundo es el más cercano a A-051/A-053. Fechas oficiales: Tortuga 1635; d'Ogeron 1665; 'Colbert la rebautizó Saint-Domingue' en 1664 [afirmación sin fuente; POR VERIFICAR]."
+  },
+  {
+   "titulo": "Key Dates in Haiti's History [Embassy of Haiti, Washington, D.C.], entrada '1697'",
+   "autor": "Embassy of Haiti in Washington, D.C. (Estado haitiano)",
+   "anio": "s.f.",
+   "tipo": "primaria",
+   "idioma": "en",
+   "tradicion": "oficial-haiti",
+   "url": "https://www.haiti.org/key-dates/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Cronología divulgativa de una embajada, sin autor ni fuentes; vale como formulación oficial de la fecha.",
+   "proveniencia": "Sitio oficial de la Embajada de Haití en Washington; la sección 'Key Dates' resume la historia del país para el público estadounidense; sin autor ni fecha de redacción (consultada 2026-10-07).",
+   "extractos": [
+    {
+     "ubicacion": "sección 'Key Dates', entrada 1697 (l. 86 del txt)",
+     "cita_original": "Spanish control over the colony ends with the Treaty of Ryswick, which divided the island into French-controlled St. Domingue and Spanish Santo Domingo.",
+     "traduccion": "El control español sobre la colonia termina con el Tratado de Ryswick, que dividió la isla en Saint-Domingue, bajo control francés, y Santo Domingo español.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M06",
+    "M08",
+    "M16",
+    "M03"
+   ],
+   "id_existente": "F-0493",
+   "notas": "Formulación estatal de A-052 en inglés: 'divided the island'. Ni 'cesión' ni 'reconocimiento'."
+  },
+  {
+   "titulo": "«Premier janvier 1804 : naissance de l'État haïtien et renaissance de l'île d'Haïti» (Le Nouvelliste, 30-XII-2024), apartado 1",
+   "autor": "Denis, Watson",
+   "anio": "2024",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/252245/premier-janvier-1804-naissance-de-letat-haitien-et-renaissance-de-lile-dhaiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Artículo largo de un académico haitiano (Ph.D.) que defiende la lectura 'isla una', con un pasaje incidental sobre 1697 sin citas.",
+   "proveniencia": "Watson Denis (Ph.D., profesor, según el registro) publica el 30-XII-2024 en Le Nouvelliste un artículo sobre la Revolución haitiana y la unificación de la isla; escribe en el contexto del bicentenario y de las tensiones fronterizas con la República Dominicana.",
+   "extractos": [
+    {
+     "ubicacion": "apartado 1, párrafo sobre 1801 (l. 59 del txt)",
+     "cita_original": "depuis le Traité de Ryswick en 1697, cette ile d'Haïti était divisée sous la domination de deux puissances colonisatrices et esclavagistes : l'Espagne (qui garda les 2/3 de sa superficie) et la France (qui obtint le 1/3).",
+     "traduccion": "desde el Tratado de Ryswick de 1697, esta isla de Haití estaba dividida bajo la dominación de dos potencias colonizadoras y esclavistas: España (que conservó los 2/3 de su superficie) y Francia (que obtuvo el 1/3).",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "apartado 1 (l. 59) [l. = línea del txt local]",
+     "cita_original": "Par son action osée, Toussaint-Louverture a défait ce que deux grandes puissances de l'époque ont institué (une division territoriale) depuis plus d'un siècle.",
+     "traduccion": "Con su acción osada, Toussaint Louverture deshizo lo que dos grandes potencias de la época habían instituido (una división territorial) desde hacía más de un siglo.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M16"
+   ],
+   "id_existente": "F-0479",
+   "notas": "SIGNIFICADO: Ryswick como 'división territorial' instituida por dos potencias, que 1801 deshace (doctrina de la isla indivisible). Verbo: 'obtint'. Es la lectura política de A-052 (la partición nace del tratado), sin discutir su texto."
+  },
+  {
+   "titulo": "«Haïti/La crise de la rivière Massacre : perspectives historiques» (AlterPresse, 15-IX-2023), sección 'L'éternelle dispute autour de la frontière depuis la séparation de l'île en 1697'",
+   "autor": "Pierre, Louis Naud",
+   "anio": "2023",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://web.archive.org/web/20260117183437/https://www.alterpresse.org/spip.php?article29659",
+   "urls_alternativas": [
+    "https://www.alterpresse.org/spip.php?article29659 (el sitio original devuelve verificación Anubis; no evadida)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Ensayo de un sociólogo (Ph.D.) en un portal de prensa alternativa, con notas pero con afirmaciones sobre Ryswick que el texto del tratado no sostiene.",
+   "proveniencia": "Louis Naud Pierre (Ph.D., sociólogo) somete el 14-IX-2023 a AlterPresse un documento sobre la crisis del canal del río Masacre; defiende que la tensión nace de la 'séparation' de 1697 y la ubica en un relato histórico desde 1492.",
+   "extractos": [
+    {
+     "ubicacion": "sección 'L'éternelle dispute...', párr. 3 (l. 45 del txt)",
+     "cita_original": "La France profite de la présence de ses ressortissants menant des activités de piraterie et de flibusterie autour de l'île de la Tortue pour y déployer des forces de guerre. Ce qui a conduit au traité de Ryswick signé en 1697, par lequel l'Espagne cède à la France la partie Ouest de l'île",
+     "traduccion": "Francia aprovecha la presencia de sus nacionales dedicados a la piratería y la filibustería en torno a la isla de la Tortuga para desplegar fuerzas de guerra. Lo cual condujo al tratado de Ryswick firmado en 1697, por el cual España cede a Francia la parte oeste de la isla.",
+     "afirmaciones": [
+      "A-050",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "misma sección, párr. 4 (l. 58) [l. = línea del txt local]",
+     "cita_original": "Il s'agit plus précisément de la partie centrale qui avait été accordée à la France, lors du Traité de Ryswick de 1697.",
+     "traduccion": "Se trata más precisamente de la parte central que había sido concedida a Francia durante el tratado de Ryswick de 1697. [Sobre Aranjuez 1777; el texto de Ryswick no concede territorios por nombre.]",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M07",
+    "M08",
+    "M16"
+   ],
+   "id_existente": "F-0681",
+   "notas": "Ejemplo contemporáneo de la versión 'cesión' (A-052) con una elaboración adicional (que Ryswick 'concedió' la parte central) que no está en el texto franco-español (Dumont, art. IX). Menciona una convención de 1731 como fijación de la frontera [POR VERIFICAR]. El texto original de AlterPresse está protegido por Anubis; se leyó la copia de Wayback de 17-I-2026."
+  },
+  {
+   "titulo": "Histoire d'Haïti, cours professé au Petit séminaire-collège Saint-Martial (v. 1, Port-au-Prince, s.f.): cap. I-III 'Les aventuriers de Saint-Domingue' (pp. 9-23), Padrejean (p. 48), Frontières (p. 49), Traité de Riswick (p. 67), traite (p. 71)",
+   "autor": "Cabon, Adolphe (R. P., C.S.Sp.)",
+   "anio": "s.f. [192-?]",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00022059/00001",
+   "urls_alternativas": [
+    "https://api.dloc.patron.uflib.ufl.edu/pagetext?bibid=AA00022059&vid=00001&size=100&start=0",
+    "https://ufdcimages.uflib.ufl.edu/AA/00/02/20/59/00001/00077.jpg (p. 67; imagen leída)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Curso con aparato documental (Vaissière, documentos coloniales) y con autocrítica explícita sobre los primeros historiadores; es el texto haitiano que más se acerca al tratado; las pp. 9, 10, 22, 48, 49, 67 y 71 se verificaron contra las imágenes.",
+   "proveniencia": "El R. P. Adolphe Cabon (espiritano) dictó este curso en el Petit Séminaire-Collège Saint-Martial de Puerto Príncipe; el volumen reunido (dLOC, h. 1920-1930) es un manual de referencia de la historiografía escolar haitiana. Según el Avant-propos que recoge el registro (M05), no era haitiano de nacimiento [POR VERIFICAR], pero escribe para alumnos haitianos y usa a Pierre de Vaissière.",
+   "extractos": [
+    {
+     "ubicacion": "p. 67 (imagen dLOC 00077.jpg leída)",
+     "cita_original": "le seul qui nous intéresse dans ses stipulations est celui de l'Espagne avec la France (20 septembre 1697). Il y est convenu que les possessions des deux Puissances seraient rétablies telles qu'elles étaient au moment où la paix avait été rompue. A Saint-Domingue, c'était donc la limite du Rebouc reprise entre les deux nations.",
+     "traduccion": "[Cabon: 'Trois traités furent signés à Reswick en 1697'] el único que nos interesa por sus estipulaciones es el de España con Francia (20 de septiembre de 1697). En él se convino que las posesiones de las dos potencias serían restablecidas tal como estaban en el momento en que se rompió la paz. En Santo Domingo, era pues el límite del Rebouc el que volvían a adoptar las dos naciones.",
+     "afirmaciones": [
+      "A-051",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 49 (imagen 00059.jpg leída)",
+     "cita_original": "En juillet 1680, le Président de Santo-Domingo notifia la paix à Pouancey et lui proposa de fixer les limites entre les deux nations: on dressa un acte devant notaire constatant que les établissements français s'étendaient jusqu'à la rive droite du Rebouc (Guayabin)",
+     "traduccion": "En julio de 1680 el Presidente de Santo Domingo notificó la paz a Pouancey y le propuso fijar los límites entre las dos naciones: se levantó un acta ante notario que hacía constar que los establecimientos franceses llegaban hasta la orilla derecha del Rebouc (Guayabín). [Esto es lo que Théodat llama 'Tratados del Cabo Francés' de 1680.]",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 22 (imagen 00032.jpg leída)",
+     "cita_original": "Ils se contentèrent souvent de faire le commerce avec les espagnols dans les lieux écartés et hors de la surveillance des premières autorités; mais ce commerce de fraude en pays hostile ne donnait pas de profit assuré; il fut pourtant l'un des motifs qui entraînèrent la suppression en 1606 de certaines villes d'Hispaniola.",
+     "traduccion": "Se contentaban a menudo con comerciar con los españoles en lugares apartados y fuera de la vigilancia de las primeras autoridades; pero este comercio de fraude en país hostil no daba beneficio seguro; fue sin embargo uno de los motivos que provocaron la supresión en 1606 de ciertas ciudades de La Española.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 10 (imagen 00020.jpg leída)",
+     "cita_original": "Depuis 1606, les Espagnols de l'Ouest s'étaient repliés vers l'Est et d'ordre de la Cour avaient abandonné leurs villes qu'ils ne pouvaient plus défendre.",
+     "traduccion": "Desde 1606, los españoles del Oeste se habían replegado hacia el Este y, por orden de la Corte, habían abandonado sus ciudades, que ya no podían defender.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 9, nota 1 (imagen 00019.jpg leída)",
+     "cita_original": "Les données des premiers historiens français sur les débuts de Saint-Domingue et de la Tortue sont souvent inexactes ou imprécises. Nous tâchons de les faire concorder de notre mieux avec les documents plus certains qui ont été publiés ces dernières années.",
+     "traduccion": "Los datos de los primeros historiadores franceses sobre los comienzos de Santo Domingo y de la Tortuga son a menudo inexactos o imprecisos. Procuramos hacerlos concordar lo mejor posible con los documentos más seguros publicados estos últimos años.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 10, nota 1 (imagen 00020.jpg leída)",
+     "cita_original": "L'intervention de Le Vasseur et la reprise de l'île par les Français doit avoir lieu en 1640. (Cf. Saint Domingue de Pierre de Vaissières).",
+     "traduccion": "La intervención de Le Vasseur y la recuperación de la isla por los franceses debe haber tenido lugar en 1640. (Cf. Saint-Domingue de Pierre de Vaissière). [Cabon descarta al inglés 'Willis' de la tradición: 'dont ne parlent pas les documents anglais'.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 48 (imagen 00058.jpg leída)",
+     "cita_original": "L'année suivante 1679, un péril, jusque là inconnu, menaça la Colonie. Un ancien esclave espagnol, affranchi par les Français, attroupa des esclaves venus comme lui de la Partie espagnole, les arma et à leur tête ravagea le quartier",
+     "traduccion": "Al año siguiente, 1679, un peligro hasta entonces desconocido amenazó a la Colonia. Un antiguo esclavo español, liberado por los franceses, reunió a esclavos venidos como él de la Parte española, los armó y a su cabeza devastó el cuartel [de Saint-Louis du Nord a Port-Margot].",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 71 (imagen 00081.jpg leída)",
+     "cita_original": "Quant à la traite à la côte d'Afrique, elle ne donnait guère d'esclaves à Saint-Domingue: on comptait même, en 1697, qu'elle n'en avait pas fourni un seul depuis quinze ans. Les esclaves de Saint-Domingue venaient à cette époque des colonies anglaises ou espagnoles",
+     "traduccion": "En cuanto a la trata en la costa de África, apenas daba esclavos a Santo Domingo: se contaba incluso, en 1697, que no había suministrado ni uno solo desde hacía quince años. Los esclavos de Santo Domingo venían en esa época de colonias inglesas o españolas. [Cifra sin base declarada; contradice a Bellegarde 1953.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M03"
+   ],
+   "id_existente": "F-1637",
+   "notas": "LA LECTURA HAITIANA MÁS CERCANA AL TEXTO: Cabon no habla de 'cesión' en Ryswick, sino de restablecimiento de las posesiones a su estado de antes de la guerra y de retorno a la línea del Rebouc (acta notarial de julio de 1680); añade que los españoles 'usurparon' territorio entre el Rebouc y el Masacre. Esto apoya A-051 (el tratado no cede expresamente) y A-053 (reconocimiento tácito y límites inciertos hasta 1777), y contradice la fórmula 'Cap Rose-Béate' de Placide-Justin/Bellegarde-Lhérisson/Léger. Verificado contra Dumont: el tratado se firmó el 20-IX-1697 (Cabon y Sannon aciertan; Bellegarde 1953 da el 30). Cabon sitúa Le Vasseur en 1640 (31-VIII-1640 según p. 11) frente a 1639-41 de otros."
+  },
+  {
+   "titulo": "Histoire de Toussaint-Louverture, t. I (Port-au-Prince, 1920): Introducción 'La colonisation française à St-Domingue', pp. i-ii ('Traités de Ryswick et d'Aranjuez')",
+   "autor": "Sannon, H. Pauléus",
+   "anio": "1920",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/AA00008866/00001",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/AA/00/00/88/66/00001/00001-00016.jpg (p. ii; imagen leída)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano riguroso con la documentación francesa; la Introducción es una síntesis breve que sirve de preámbulo a la biografía de Toussaint.",
+   "proveniencia": "H. Pauléus Sannon (historiador haitiano) publica en 1920, durante la ocupación estadounidense, el t. I de su biografía de Toussaint Louverture, con una Introducción sobre la colonización francesa; escribe para un público haitiano culto.",
+   "extractos": [
+    {
+     "ubicacion": "p. ii (imagen leída)",
+     "cita_original": "Jusqu'au Traité de Ryswick du 20 septembre 1697, l'Espagne n'avait cessé de contester les droits de la Couronne de France sur la partie occidentale de l'Ile. Les rapports de voisinage devaient rester des plus difficiles, même après le traité, à cause de l'absence de frontières définies",
+     "traduccion": "Hasta el Tratado de Ryswick del 20 de septiembre de 1697, España no había dejado de disputar los derechos de la Corona de Francia sobre la parte occidental de la isla. Las relaciones de vecindad seguirían siendo muy difíciles, incluso después del tratado, por la ausencia de fronteras definidas.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. ii (imagen leída)",
+     "cita_original": "Mais la Tortue ne devait changer définitivement de main qu'en 1659. Cette année là, un rusé gentilhomme, Jérémie Deschamps, seigneur du Rausset, après s'être fait commissionner gouverneur de la Tortue par la Cour de France, se rendit à la Jamaïque où il obtint du gouverneur anglais une deuxième commission au nom de l'Angleterre.",
+     "traduccion": "Pero la Tortuga no debía cambiar definitivamente de manos hasta 1659. Ese año, un astuto caballero, Jérémie Deschamps, señor du Rausset, tras hacerse nombrar gobernador de la Tortuga por la Corte de Francia, fue a Jamaica, donde obtuvo del gobernador inglés una segunda comisión en nombre de Inglaterra.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06"
+   ],
+   "id_existente": "F-1638",
+   "notas": "Sannon da fechas distintas de Madiou: Rausset 1659 (Madiou: 1660), Le Vasseur 1641-1650 (Dorsainvil 1641), Tortuga con ocupación inglesa hasta ~1640. Reconoce que los españoles tenían derechos 'sinon l'occupation' desde el descubrimiento (p. i, OCR). Usa la fecha 20-IX-1697, coincidente con Dumont."
+  },
+  {
+   "titulo": "Grande géographie de l'île d'Haïti (Paris, Goupy, 1896; manual aprobado por el Département de l'Instruction publique): p. 24 (historia) y pp. 127-128 'Frontières de la République d'Haïti et de la Dominicanie'",
+   "autor": "Gentil, Robert; Chauvet, Henri",
+   "anio": "1896",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://dloc.com/UF00073987/00001",
+   "urls_alternativas": [
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/39/87/00001/00042.jpg (p. 24; imagen leída)",
+    "https://ufdcimages.uflib.ufl.edu/UF/00/07/39/87/00001/00147.jpg (p. 127; imagen leída)"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "xml",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Manual escolar aprobado oficialmente en 1896 (año del arbitraje papal): prueba de la versión escolar vigente, con descripción exacta de la línea de 1777 pero sin documentos.",
+   "proveniencia": "Robert Gentil y Henri Chauvet (ex profesor de historia y geografía del Liceo Nacional) publican en París, en 1896, un texto escolar aprobado por el Departamento de Instrucción Pública de Haití; coincide con la preparación del arbitraje del Papa (1896) entre Haití y la República Dominicana.",
+   "extractos": [
+    {
+     "ubicacion": "p. 24 (imagen leída)",
+     "cita_original": "Les Français finirent par s'emparer de toute la partie de l'Ouest connue depuis sous le nom de Saint-Domingue : vaincue partout, l'Espagne fut obligée de reconnaître cette colonie au traité de Ryswick (1697).",
+     "traduccion": "Los franceses acabaron apoderándose de toda la parte del Oeste, conocida desde entonces como Santo Domingo: vencida en todas partes, España se vio obligada a reconocer esta colonia en el tratado de Ryswick (1697).",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "pp. 127-128 (imagen de la p. 127 leída; el número impreso no es legible)",
+     "cita_original": "ce ne fut qu'à la fin du XVIIe siècle, c'est-à-dire au traité de Ryswick (1697) qu'ils parvinrent à faire reconnaître la nouvelle colonie. Depuis ce fameux traité, l'île se trouva donc partagée en deux grandes parties",
+     "traduccion": "no fue sino a fines del siglo XVII, es decir, en el tratado de Ryswick (1697), cuando lograron hacer reconocer la nueva colonia. Desde este famoso tratado, la isla quedó pues repartida en dos grandes partes.",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M00",
+    "M01",
+    "M08",
+    "M09",
+    "M10",
+    "M11"
+   ],
+   "id_existente": "F-1416",
+   "notas": "Formulación escolar de 1896: 'reconnaître' (obligar a reconocer) y 'faire reconnaître' (los franceses lograron que se reconociera), con 1630 para la Tortuga y 'boucaniers' invadiendo la Grande-Terre; es una de las más cercanas a A-053 (reconocimiento) dentro de los manuales."
+  },
+  {
+   "titulo": "Histoire politique et statistique de l'île d'Hayti, Saint-Domingue (Paris, Brière, 1826), Livre II, pp. 98-99",
+   "autor": "Placide-Justin, M.; Barskett, James (notas comunicadas)",
+   "anio": "1826",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/details/histoirepolitiq00justgoog",
+   "urls_alternativas": [
+    "https://archive.org/download/histoirepolitiq00justgoog/histoirepolitiq00justgoog_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Compilación de 1826 con documentos oficiales haitianos facilitados por un agente británico; su nacionalidad no está confirmada.",
+   "proveniencia": "Obra impresa en París (Brière, 1826) bajo el nombre 'M. Placide-Justin', con notas del agente británico James Barskett; el registro la trata como francesa pero circulaba como versión de la república haitiana en esos años; su autor y su filiación no están confirmados en las fuentes leídas [POR VERIFICAR].",
+   "extractos": [
+    {
+     "ubicacion": "Livre II, pp. 98-99 (l. 3591 del djvu.txt; OCR 'ce^ion' = 'cession')",
+     "cita_original": "obtint du moins en retour une cession régulière de la partie de Saint-Domingue que le droit de conquête avait rendue française depuis près de quarante ans",
+     "traduccion": "obtuvo al menos a cambio una cesión regular de la parte de Santo Domingo que el derecho de conquista había hecho francesa desde hacía casi cuarenta años.",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "Livre II, p. 99 (l. 3601) [l. = línea del txt local]",
+     "cita_original": "D'après ce traité, les limites des possessions françaises furent fixées à la pointe du cap Rose pour la côte septentrionale",
+     "traduccion": "Según este tratado, los límites de las posesiones francesas se fijaron en la punta del cabo Rose para la costa septentrional [y en la punta de la Béate para la costa meridional].",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-0795",
+   "notas": "ORIGEN PROBABLE de la fórmula 'cap Rose-Béate' que repiten Bellegarde-Lhérisson (1906) y Léger (1907): en 1826 ya se lee 'D'après ce traité, les limites ... furent fixées', afirmación que no está en el texto del tratado (Dumont). Dice también que el derecho de conquista 'pouvait aussi rendre espagnole une seconde fois' (p. 99): reconoce la fragilidad del título. Es mencionado por M05 con id F-0795; aquí se añaden pp. 98-99 como evidencia para A-051/A-052."
+  },
+  {
+   "titulo": "Haiti: Her History and Her Detractors (New York y Washington, Neale, 1907), cap. III 'The French freebooters and buccaneers', pp. 31-34",
+   "autor": "Léger, Jacques Nicolas",
+   "anio": "1907",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/haitiherhistoryh00lguoft",
+   "urls_alternativas": [
+    "https://archive.org/download/haitiherhistoryh00lguoft/haitiherhistoryh00lguoft_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra apologética de un diplomático haitiano para el público angloamericano, con resumen sin citas del siglo XVII.",
+   "proveniencia": "Jacques Nicolas Léger, ministro plenipotenciario de Haití en Estados Unidos (portada), publica en 1907 en Nueva York y Washington una defensa de Haití frente a sus detractores; su cap. III narra el origen de la colonia desde los filibusteros.",
+   "extractos": [
+    {
+     "ubicacion": "p. 32 (l. 1128 del djvu.txt)",
+     "cita_original": "In 1640 the French drove the English from this small island, thus remaining the sole masters. That was the starting point of their settlement in Saint-Domingue.",
+     "traduccion": "En 1640 los franceses expulsaron a los ingleses de esta pequeña isla, quedando como únicos amos. Ese fue el punto de partida de su establecimiento en Santo Domingo.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 34 (l. 1242) [l. = línea del txt local]",
+     "cita_original": "Fortunately for the French the timely peace of Riswick put an end to the hostilities. By the treaty signed in 1697 Louis XIV acquired a clear title to the possession of the western part of the island, the limits of which were established from Cap-Rose in the north to La Beate in the south.",
+     "traduccion": "Afortunadamente para los franceses, la oportuna paz de Ryswick puso fin a las hostilidades. Por el tratado firmado en 1697 Luis XIV adquirió un título claro a la posesión de la parte occidental de la isla, cuyos límites se establecieron del Cap-Rose, al norte, a La Beate, al sur.",
+     "afirmaciones": [
+      "A-051",
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "p. 34 (l. 1238) [l. = línea del txt local]",
+     "cita_original": "In 1678 Padrejean had roused them to rebellion. In 1697, in the Quartier-Morin, 300 Africans took up arms again.",
+     "traduccion": "En 1678 Padrejean los había levantado en rebelión. En 1697, en el Quartier-Morin, 300 africanos tomaron las armas de nuevo.",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-051",
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M03"
+   ],
+   "id_existente": "F-0969",
+   "notas": "El título de capítulo dice 'Treaty recognizing the French occupation'; el texto dice 'acquired a clear title'. Repite 'Cap-Rose ... La Beate' (cf. Placide-Justin 1826 y Bellegarde-Lhérisson 1906). Fechas: Tortuga 1630; 1640 expulsión de los ingleses; Padrejean 1678; revuelta de 1697 (Madiou: mayo de 1697, 300 esclavos)."
+  },
+  {
+   "titulo": "The Haitian Maroons: Liberty or Death (New York, E. W. Blyden Press, 1981; orig. Les marrons de la liberté, Paris, L'École, 1972): 'A Chronology of Marronage', 1679 (Padrejean) y 1681, pp. 307-308",
+   "autor": "Fouchard, Jean (trad. A. Faulkner Watts)",
+   "anio": "1972",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/Fouchard-Maroons",
+   "urls_alternativas": [
+    "https://archive.org/download/Fouchard-Maroons/The%20Haitian%20Maroons--Liberty%20or%20Death_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Historiador haitiano de referencia sobre el cimarronaje, pero en el siglo XVII depende de Charlevoix y Moreau (notas 31-32) y el OCR de la traducción es ruidoso.",
+   "proveniencia": "Jean Fouchard (1912-1990), historiador, periodista y diplomático haitiano, publica en 1972 en París la obra que ganó el Grand Prix Littéraire des Caraïbes; la traducción inglesa de 1981 (prefacio de C. L. R. James) es la copia leída. Su 'Chronology of Marronage' compila relatos coloniales.",
+   "extractos": [
+    {
+     "ubicacion": "p. 306-307 (l. 15882 del djvu.txt)",
+     "cita_original": "in 1679, Padrejean \"who determined to strangle every white in the Northwest\"",
+     "traduccion": "en 1679, Padrejean, 'que determinó estrangular a todos los blancos del Noroeste'. [Fouchard sigue a Charlevoix, t. II, pp. 122-124 (nota 32).]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "p. 308 (l. 16546; nota 31 = Moreau, t. II, pp. 1130-1131) [l. = línea del txt local]",
+     "cita_original": "In 1681, there were in Saint-Domingue 1063 male Africans, 314 boys, 210 mulattoes, 725 black women as against 1421 colonists and 1565 indentured persons",
+     "traduccion": "En 1681 había en Santo Domingo 1.063 africanos varones, 314 niños, 210 mulatos y 725 negras, frente a 1.421 colonos y 1.565 engagés. [Cifra de Moreau; Taber: esclavizados algo menos de un tercio en 1681.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06",
+    "M03"
+   ],
+   "id_existente": "F-0110",
+   "notas": "Padrejean: Madiou (sin año, bajo Pouancey), Bellegarde-Lhérisson y Léger 1678; Cabon y Fouchard 1679. Fouchard dice que Padrejean fue esclavo de un español, mató a su amo y huyó a la Tortuga; Cabon, que era antiguo esclavo español liberado por los franceses; los veinte bucaneros que lo mataron (Cabon: 'une bande de vingt boucaniers, de passage'). Cifra de 1681: [POR VERIFICAR contra Moreau t. II p. 1130-1131]; suma 5.298; los esclavizados africanos (2.102) serían ~40% y no 'menos de un tercio' (Taber)."
+  },
+  {
+   "titulo": "Éventail d'histoire vivante d'Haïti, t. I (Port-au-Prince, CHUDAC, 2001): cuadro de población de Saint-Domingue 1697-1790 (Marin-Lemesle)",
+   "autor": "Manigat, Leslie F.",
+   "anio": "2001",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://archive.org/details/eventaildhistoir01mani",
+   "urls_alternativas": [
+    "https://archive.org/download/eventaildhistoir01mani/eventaildhistoir01mani_djvu.txt"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra académica de un historiador-politólogo, pero el cuadro de 1697 es una cita de segunda mano (Marin-Lemesle, a su vez de Lara, Wismes y Cornevin) sin base primaria.",
+   "proveniencia": "Leslie F. Manigat (historiador-politólogo, 'ancien Président constitutionnel' según la portada) publica en 2001 (colección del CHUDAC) el primer tomo de su 'Éventail', que comienza en 1789; incluye un cuadro demográfico retrospectivo que llega a 1697.",
+   "extractos": [
+    {
+     "ubicacion": "t. I, cap. sobre la sociedad colonial (l. 7510-7535 del djvu.txt; página impresa no localizada)",
+     "cita_original": "Années / Blancs / Mulâtres / Noirs / Total — 1697 : 8.000 / 500 / 5.000 / 13.500 (essai statistique de Raymond Marin-Lemesle, d'après Oruno D. Lara, Armel de Wismes et Robert Cornevin)",
+     "traduccion": "Año 1697: 8.000 blancos, 500 mulatos, 5.000 negros, total 13.500 (ensayo estadístico de R. Marin-Lemesle a partir de Lara, De Wismes y Cornevin). [Cifra D: base de 1697 sin trazar.]",
+     "afirmaciones": []
+    }
+   ],
+   "afirmaciones": [],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08"
+   ],
+   "id_existente": "F-0113",
+   "notas": "CIFRA con autor y base de segunda mano: 13.500 (1697) frente a 1789-90 de 518.000 (28.000 blancos, 30.000 mulatos, 460.000 negros en este cuadro). No contradice las cifras de 1681 (Fouchard/Moreau) ni de 1687 (Price-Mars), pero las tres series usan categorías distintas. Rango para 1681-1697: 5.298 (1681, todos los grupos) a 13.500 (1697); base primaria no accesible."
+  },
+  {
+   "titulo": "À propos de la représentation de l'histoire et de la géographie dans les manuels scolaires de la république d'Haïti et de la République Dominicaine au collège et au lycée (tesis, Université des Antilles, 2020): pp. 215-216, 358, 360-361, 416",
+   "autor": "Candio, Datrice",
+   "anio": "2020",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "internacional",
+   "url": "https://theses.fr/2020ANTI0510.pdf",
+   "urls_alternativas": [
+    "https://theses.fr/2020ANTI0510"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "pdf-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Tesis doctoral (jurado de cinco miembros) que cita manuales y programas del MENFP y de la RD con número de página, pero que repite ella misma la versión 'Ryswick partió la isla' y fecha mal el tratado ('juillet 1697').",
+   "proveniencia": "Datrice Candio (nacionalidad no verificada aquí) defiende el 28-V-2020 en la Université des Antilles (dir. C. Bertin-Élisabeth) un análisis comparado de los manuales escolares de Haití y de la República Dominicana; sirve para ver cómo presentan la historia de 1625-1697 los textos y programas del MENFP, que no se pudieron obtener directamente.",
+   "extractos": [
+    {
+     "ubicacion": "p. 358 (cita de manuales de 7.º y 8.º año fundamental de Haití, 'Histoire-Géographie et Éducation à la Citoyenneté', n. 965)",
+     "cita_original": "La colonisation française s’étend sur l’île de la Tortue et sur quelques points côtiers de la Grande île",
+     "traduccion": "La colonización francesa se extiende por la isla de la Tortuga y por algunos puntos costeros de la Gran isla. [Frase repetida en los manuales de 7.º y 8.º años fundamentales de Haití, según Candio.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 358",
+     "cita_original": "Après la signature du Traité de Ryswick, en juillet 1697, le mot « Saint-Domingue » se substitue peu à peu à celui d’« île ».",
+     "traduccion": "Tras la firma del Tratado de Ryswick, en julio de 1697, la palabra 'Saint-Domingue' sustituye poco a poco a la de 'isla'. [Candio da 'julio de 1697'; el franco-español se firmó el 20-IX-1697.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    },
+    {
+     "ubicacion": "pp. 215-216, cuadro 'Programme officiel de la classe de 3e secondaire' (MENFP, Histoire d'Haïti 3e / Plan d'étude 2016-2017, pp. 1-7; n. 569)",
+     "cita_original": "•Les débuts de la colonisation française des Antilles 1625 – 1697 •Début de la colonisation française de Saint-Domingue (1625-1697) •La Révolution de la canne •La société de Saint-Domingue à la veille de 1789",
+     "traduccion": "Programa oficial del MENFP (3.º de secundaria, 2016-2017) según Candio: 'Los comienzos de la colonización francesa de las Antillas 1625-1697; Comienzo de la colonización francesa de Santo Domingo (1625-1697); La revolución de la caña; la sociedad de Santo Domingo en vísperas de 1789'. [El programa periodiza 1625-1697 como 'comienzos'; segunda mano.]",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "p. 361, n. 977 (cita del manual dominicano Sociedad 7, Santillana RD, p. 12)",
+     "cita_original": "Con la Paz de Nimega y la de Ryswick España reconoció la presencia francesa en la Española y la isla quedó dividida en dos colonias",
+     "traduccion": "[Original en español.] Manual dominicano de 7.º básico: España reconoció la presencia francesa y la isla quedó dividida en dos colonias. [Contraste simétrico con los manuales haitianos.]",
+     "afirmaciones": [
+      "A-052",
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "p. 416 (texto propio de Candio, cita la n. 1147)",
+     "cita_original": "Ce traité stipulait que la partie occidentale du territoire (l’actuelle Haïti) appartient à la France et que la partie orientale (l’actuelle République Dominicaine) revenait à l’Espagne.",
+     "traduccion": "Este tratado estipulaba que la parte occidental del territorio (la actual Haití) pertenece a Francia y que la parte oriental (la actual República Dominicana) correspondía a España. [Afirmación propia de la autora, no del tratado; repite la versión popular, A-052.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M08",
+    "M09",
+    "M13",
+    "M16"
+   ],
+   "id_existente": "F-0162",
+   "notas": "Uso: evidencia de segunda mano sobre cómo los manuales haitianos y dominicanos narran 1625-1697; no sustituye la lectura directa de los manuales (7e AF, 8e AF; Wesner Emmanuel, 3e secondaire 2010) ni del plan de estudios del MENFP (pendiente). La propia autora reproduce A-052 sin contrastar con el texto de Ryswick: ejemplo de cómo la versión popular entra en la literatura académica. Página impresa = página PDF (verificado en 6 extractos)."
+  },
+  {
+   "titulo": "«The Filibusters» (Haiti: An Island Luminous, parte I, diapositiva 8) y texto introductorio de la parte I",
+   "autor": "Taber, Robert (doctorando, Univ. de Florida, según la ficha); Island Luminous Editorial Board (FIU)",
+   "anio": "s.f.",
+   "tipo": "secundaria",
+   "idioma": "en",
+   "tradicion": "internacional",
+   "url": "https://islandluminous.fiu.edu/part01-slide08.html",
+   "urls_alternativas": [
+    "https://islandluminous.fiu.edu/1.html"
+   ],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto breve de divulgación académica de un historiador en formación, sin notas, pero con precisiones que concuerdan con Charlevoix y con Cabon (contrabando y evacuación).",
+   "proveniencia": "Robert Taber, entonces doctorando en historia en la Universidad de Florida (disertación sobre los blancos pobres de Saint-Domingue, según la ficha), redacta para la exposición en línea 'Haiti: An Island Luminous' (FIU; incluye textos de autores haitianos como Nau y Fouchard) una diapositiva sobre los filibusteros.",
+   "extractos": [
+    {
+     "ubicacion": "diapositiva 8, párr. 1",
+     "cita_original": "To end this contraband trade, during the first decade of the 1600s the Spanish governor at Santo Domingo forcibly evacuated the western settlements, leaving behind large populations of cattle and pigs.",
+     "traduccion": "Para acabar con este comercio de contrabando, durante la primera década de 1600 el gobernador español de Santo Domingo evacuó por la fuerza los asentamientos del oeste, dejando grandes poblaciones de ganado vacuno y porcino.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "diapositiva 8, párr. 2",
+     "cita_original": "By the mid-1650s, the French had won control of Tortuga and the filibuster settlements on the north coast of Hispaniola, and in 1665 the French monarchy dispatched Bertrand D’Ogeron to work as the first official governor of Tortuga and Saint-Domingue",
+     "traduccion": "Hacia mediados de la década de 1650, los franceses habían ganado el control de la Tortuga y de los asentamientos filibusteros de la costa norte de La Española, y en 1665 la monarquía francesa envió a Bertrand d'Ogeron como primer gobernador oficial de la Tortuga y de Saint-Domingue.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    },
+    {
+     "ubicacion": "diapositiva 8, párr. 3",
+     "cita_original": "filibuster raids on Cartagena and Jamaica during the Nine Years’ War (1688-97), described by Charlevoix, increased the number of slaves in the colony by 50% and won official Spanish recognition for the French colony, leading to a sugar boom after 1700.",
+     "traduccion": "las incursiones filibusteras contra Cartagena y Jamaica durante la guerra de los Nueve Años (1688-97), descritas por Charlevoix, aumentaron en un 50 % el número de esclavos de la colonia y consiguieron el reconocimiento oficial español de la colonia francesa, con un auge del azúcar después de 1700.",
+     "afirmaciones": [
+      "A-053"
+     ]
+    },
+    {
+     "ubicacion": "parte I, texto introductorio (islandluminous.fiu.edu/1.html)",
+     "cita_original": "In the 1697 Treaty of Ryswick, Spain ceded dominion over western Hispaniola to France.",
+     "traduccion": "En el Tratado de Ryswick de 1697, España cedió el dominio sobre el oeste de La Española a Francia. [Texto editorial de la exposición.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050",
+    "A-052",
+    "A-053"
+   ],
+   "modulos": [
+    "M04",
+    "M00",
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "El portal está registrado (F-0260 Island Luminous); esta diapositiva y el texto de la parte I son entradas nuevas. Taber atribuye a las incursiones de 1688-97 el reconocimiento español, una causalidad que otros textos no dan [POR VERIFICAR contra Charlevoix]. 'Slightly less than one-third' de esclavos en 1681 no cuadra con los 2.102 africanos de 5.298 que da Fouchard (≈40 %), a menos que cuente solo adultos varones [POR VERIFICAR]. Taber explica 'buccaneers' por la parrilla taína (boucan)."
+  },
+  {
+   "titulo": "«L'isolement d'Haïti» (Le Nouvelliste, 29-XII-2016; serie 'Face au monde')",
+   "autor": "Ledan fils, Jean",
+   "anio": "2016",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/166854/lisolement-dhaiti",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión que cita fuentes estadounidenses (Library of Congress, Florida Museum) y repite la fórmula de cesión sin contrastarla.",
+   "proveniencia": "Jean Ledan fils firma una columna de Le Nouvelliste (29-XII-2016) sobre el aislamiento internacional de Haití, con un resumen histórico inicial.",
+   "extractos": [
+    {
+     "ubicacion": "entradilla (l. 37 del txt)",
+     "cita_original": "Par le traité de Ryswick (1697), l’Espagne dut céder à la France le tiers occidental de l’île.",
+     "traduccion": "Por el tratado de Ryswick (1697), España tuvo que ceder a Francia el tercio occidental de la isla.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M16"
+   ],
+   "id_existente": "",
+   "notas": "Prensa: 'dut céder' (obligación), 'les Français en profitèrent pour s'y établir' tras un siglo de abandono. Ejemplo de A-052 en prensa haitiana 2016."
+  },
+  {
+   "titulo": "«Île de la Tortue a haven of Caribbean piracy» (Le Nouvelliste, 28-VII-2016, serie 'Lakay Weekly')",
+   "autor": "Le Nouvelliste (sin firma)",
+   "anio": "2016",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/161469/ile-de-la-tortue-a-haven-of-caribbean-piracy",
+   "urls_alternativas": [],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "fragmento-busqueda",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Texto de 2 minutos de lectura, sin firma, cortado por muro de registro después de la fecha de 1630.",
+   "proveniencia": "Pieza turística-histórica de Le Nouvelliste (sección de lectura rápida) sobre la Isla de la Tortuga; solo se pudo leer el principio, hasta la frase sobre 1630.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 3 (l. 43 del txt; texto visible antes del muro)",
+     "cita_original": "In 1625 French and English buccaneers disembarked on the island.  They established plantations and populated Île de la Tortue in a short time.  Don Fabrique de Toledo launched an attack in 1629 and got rid of the buccanners.",
+     "traduccion": "En 1625 bucaneros franceses e ingleses desembarcaron en la isla. Establecieron plantaciones y poblaron la Isla de la Tortuga en poco tiempo. Don Fadrique de Toledo lanzó un ataque en 1629 y se deshizo de los bucaneros.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "",
+   "notas": "Dato propio: 'Toledo 1629' (Sannon y Cabon: 1630, Saint-Christophe). El resto del artículo queda tras muro de registro [POR VERIFICAR]. Otros dos artículos de Le Nouvelliste sobre la Tortuga (articles 49039 de 2007, 48395, 173135 de 2017) también están cortados por el muro y se descartaron como solo-localizada."
+  },
+  {
+   "titulo": "«La question de couleur dans la révolution haïtienne» (texto aparecido en el Dictionnaire historique de la révolution haïtienne, 2.ª ed., Montréal, CIDIHCA, 2014, rúbrica 'Le préjugé de couleur'; copia en Potomitan), secc. 1.3 'Le temps des Frères de la côte'",
+   "autor": "Icart, Jean-Claude",
+   "anio": "2014",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "http://www.potomitan.info/ayiti/couleur.php",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Texto de síntesis en un diccionario con bibliografía (Dubois, Tolentino), pero con un error de dirección ('la partie orientale') en el pasaje de 1600 y sin citas del siglo XVII.",
+   "proveniencia": "Jean-Claude Icart (datos biográficos no verificados aquí) escribe la rúbrica 'Le préjugé de couleur' del Dictionnaire historique de la révolution haïtienne (Claude Moïse, ed., CIDIHCA, 2014), reproducida en Potomitan; relaciona el nacimiento del racismo en La Española con la sociedad bucanera.",
+   "extractos": [
+    {
+     "ubicacion": "secc. 1.3 (l. 48 del txt)",
+     "cita_original": "Cette époque verra se constituer en marge des États, une société relativement égalitaire, multinationale, multiethnique et exempte de préjugés raciaux ou sexuels, les Frères de la côte.",
+     "traduccion": "Esta época verá constituirse al margen de los Estados una sociedad relativamente igualitaria, multinacional, multiétnica y exenta de prejuicios raciales o sexuales: los Hermanos de la Costa.",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "secc. 1.3 (l. 51) [l. = línea del txt local]",
+     "cita_original": "Dès 1600, les Espagnols abandonnent la partie orientale d’Haïti, devenue trop exposée aux attaques incessantes des pirates et des flibustiers, et les boucaniers s’installent progressivement sur les côtes de la grande île.",
+     "traduccion": "Desde 1600 los españoles abandonan la parte oriental de Haití [sic: occidental], demasiado expuesta a los ataques incesantes de piratas y filibusteros, y los bucaneros se instalan progresivamente en las costas de la gran isla. [Explica el abandono por la piratería, no por Osorio ni por el contrabando.]",
+     "afirmaciones": []
+    },
+    {
+     "ubicacion": "secc. 1.3 (l. 53) [l. = línea del txt local]",
+     "cita_original": "En 1697, l’Espagne cède à la France, par le Traité de Ryswick, le tiers occidental de l’île, que les Français nommeront Saint-Domingue",
+     "traduccion": "En 1697 España cede a Francia, por el Tratado de Ryswick, el tercio occidental de la isla, que los franceses llamarán Saint-Domingue. [Añade: 'Cet acte marque le début de la fin pour la flibuste et le déclin de La Tortue'.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "INTERPRETACIÓN/SIGNIFICADO: la 'sociedad igualitaria sin prejuicios' de los Frères de la côte (también en Madiou y en Ardouin vía Raymond). Error evidente 'partie orientale' (los pueblos abandonados fueron los del oeste). Cita a Dubois p. 37 (Avengers of the New World) para la fórmula 'frontière marginale de la Caraïbe'."
+  },
+  {
+   "titulo": "My country is Haiti: a summary of Haiti's history from colonial times to 1994 (Potomitan), secc. sobre la colonización francesa",
+   "autor": "Védrine, Emmanuel W.",
+   "anio": "s.f.",
+   "tipo": "divulgacion",
+   "idioma": "en",
+   "tradicion": "haitiana",
+   "url": "http://www.potomitan.info/vedrine/peyi2.php",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Resumen escolar en inglés de un autor de la diáspora, sin citas y con errores gramaticales; vale solo como muestra de la versión divulgativa.",
+   "proveniencia": "Emmanuel W. Védrine, autor haitiano de la diáspora, publica en Potomitan (sitio de promoción de las lenguas y culturas criollas) un resumen de la historia de Haití hasta 1994, con notas y refranes en criollo; escribe en inglés para estudiantes.",
+   "extractos": [
+    {
+     "ubicacion": "secc. sobre la colonización francesa (l. 71 del txt; números de nota 9 y 10 insertos en el original)",
+     "cita_original": "The last war between these two colonial powers resulted in the Ryswick Treaty. It was a treaty signed between them in 1697. According to this treaty, the West part of island of Hispaniola had felt under the control of France and the East one under the control of Spain.",
+     "traduccion": "La última guerra entre las dos potencias coloniales dio lugar al tratado de Ryswick, firmado en 1697. Según este tratado, la parte oeste de la isla quedó bajo el control de Francia y la este bajo el de España. ['had felt' = sic.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Versión divulgativa de A-052 con proverbio criollo 'Deux taureaux ne courent pas dans la même prairie' (citado en inglés). Sesgo: lectura de historia escolar del siglo XX; no verificada."
+  },
+  {
+   "titulo": "«Qui veulent la guerre entre les Dominicains et les Haïtiens ?» (Haïti Liberté, 28-III-2018)",
+   "autor": "Lodimus, Robert",
+   "anio": "2018",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://haitiliberte.com/qui-veulent-la-guerre-entre-les-dominicains-et-les-haitiens/",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de opinión de un periodista haitiano, sin fuentes, con formulaciones llamativas sobre Ryswick.",
+   "proveniencia": "Robert Lodimus escribe en Haïti Liberté (semanario) el 28-III-2018 una columna sobre la convivencia haitiano-dominicana, con un repaso histórico inicial.",
+   "extractos": [
+    {
+     "ubicacion": "párr. de recapitulación histórica (l. 237 del txt)",
+     "cita_original": "En 1697, par le traité baptisé Ryswick, les rois Charles II d’Espagne et Louis XIV de France séparèrent entre eux les terres et les esclaves.",
+     "traduccion": "En 1697, por el tratado llamado de Ryswick, los reyes Carlos II de España y Luis XIV de Francia repartieron entre ellos las tierras y los esclavos. [Añade: Aranjuez 1777 'acheva le tracé de la ligne frontalière'.]",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M08",
+    "M09"
+   ],
+   "id_existente": "F-0844",
+   "notas": "Formulación política de A-052: reparto de 'terres et esclaves' entre dos reyes (SIGNIFICADO anticolonial). En el texto de Ryswick no hay mención de esclavos ni de tierras de la isla. El texto del tratado no la respalda (Dumont)."
+  },
+  {
+   "titulo": "«La Plaine-du-Fond des Cayes : une histoire singulière…» (Le Nouvelliste, 18-VIII-2016)",
+   "autor": "Hall, Alin Louis",
+   "anio": "2016",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/162075/la-plaine-du-fond-des-cayes-une-histoire-singuliere",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de historia local que cita a Moreau de Saint-Méry y reproduce, sin citarlas, frases de tipo enciclopédico; fechas no contrastadas.",
+   "proveniencia": "Alin Louis Hall, columnista de Le Nouvelliste, publica el 18-VIII-2016 una historia de la llanura de Les Cayes y del sur; usa a Moreau de Saint-Méry.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 2 (l. 46 del txt)",
+     "cita_original": "Le site fut abandonné en 1606 et détruit par un incendie en 1630. En 1662, les boucaniers prennent possession de la Plaine du Fond et de l’Ile-à-Vache. Le 20 janvier 1666, Bertrand d’Ogeron sollicita du Ministère de la Marine et des Colonies, la permission de fonder la ville des Cayes.",
+     "traduccion": "El sitio [Salvatierra de la Sabana] fue abandonado en 1606 y destruido por un incendio en 1630. En 1662 los bucaneros toman posesión de la llanura del Fond y de la Isla de las Vacas. El 20 de enero de 1666 Bertrand d'Ogeron solicitó al Ministerio de la Marina permiso para fundar la ciudad de Les Cayes.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04",
+    "M06"
+   ],
+   "id_existente": "",
+   "notas": "Fechas locales: 1606 (abandono; Osorio), 1662 (bucaneros), 1666 (Ogeron). La frase 'avant 1666, des boucaniers ... Ile-à-Vache' la atribuye a Moreau de Saint-Méry [POR VERIFICAR contra Moreau]. Posible dependencia de fichas enciclopédicas (Wikipedia como índice solamente) [POR VERIFICAR]."
+  },
+  {
+   "titulo": "«Cap-Haïtien : une ville méconnaissable (2 de 3)» (Le Nouvelliste, 16-IX-2016)",
+   "autor": "Etienne, Islam Louis",
+   "anio": "2016",
+   "tipo": "divulgacion",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://lenouvelliste.com/article/163122/cap-haitien-une-ville-meconnaissable-2-de-3",
+   "urls_alternativas": [],
+   "verificacion": "descargada-y-leida",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "baja",
+   "justificacion_fiabilidad": "Columna de patrimonio urbano con una atribución anacrónica (el plano de la ciudad a Ryswick), sin fuente.",
+   "proveniencia": "Islam Louis Etienne firma en Le Nouvelliste (16-IX-2016) la segunda entrega de una serie sobre la degradación urbana de Cap-Haïtien.",
+   "extractos": [
+    {
+     "ubicacion": "párr. 1 (l. 45 del txt)",
+     "cita_original": "Le premier tracé en échiquier qui a fait son charme et sa beauté remonte au traité de Ryswick en 1697.",
+     "traduccion": "El primer trazado en cuadrícula, que hizo su encanto y su belleza, se remonta al tratado de Ryswick de 1697.",
+     "afirmaciones": [
+      "A-052"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-052"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "Ejemplo de la memoria pública: Ryswick como 'acta de nacimiento' de un trazado urbano (el plano del Cap no figura en el tratado; Madiou y Bellegarde atribuyen la fundación a d'Ogeron en 1670). Fiabilidad baja; sin valor probatorio, solo sociológico."
+  },
+  {
+   "titulo": "Le commerce de la viande dans la colonie française de Saint-Domingue aux XVIIe et XVIIIe siècles (Montréal, Éditions du CIDIHCA; ficha-cubierta)",
+   "autor": "Pierre, Antoine Fritz",
+   "anio": "s.f. [POR VERIFICAR]",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://cidihca.com/couvertures/L978-2-89454-341-2.pdf",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "pdf",
+   "acceso": "bajo-derechos",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Solo se leyó la cubierta y la reseña del editor; la fiabilidad es provisional por la tesis veterinaria de 1966 y las fuentes de archivo que el editor declara.",
+   "proveniencia": "Antoine Fritz Pierre (veterinario de Puerto Príncipe) defendió en 1966 en Alfort una tesis veterinaria con investigación en archivos franceses y publicó la obra en CIDIHCA (Montréal, ISBN 978-2-89454-341-2); según la reseña, estudia el comercio de carne y cueros de bucaneros como 'primer hecho económico' de la parte occidental.",
+   "extractos": [
+    {
+     "ubicacion": "cubierta (texto de la reseña)",
+     "cita_original": "La colonie française de Saint-Domingue des XVIIe et XVIIIe siècles est fille de la flibuste et de la boucane. L’île de la Tortue demeura la base par laquelle d’intrépides aventuriers transitaient avant de s’installer en nombre sur la partie occidentale de la grande terre",
+     "traduccion": "La colonia francesa de Santo Domingo de los siglos XVII y XVIII es hija de la filibusta y del boucan. La isla de la Tortuga siguió siendo la base por la que intrépidos aventureros transitaban antes de instalarse en gran número en la parte occidental de la gran tierra.",
+     "afirmaciones": [
+      "A-050"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-050"
+   ],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "",
+   "notas": "[POR VERIFICAR] contenido, año de publicación y paginación (no hay texto completo). Candidato de búsqueda en archivos físicos / CIDIHCA para el comercio de cueros y carne (hato y contrabando)."
+  },
+  {
+   "titulo": "Colonisation et esclavage en Haïti: le régime colonial français à Saint-Domingue (1625-1789) (Port-au-Prince, Henri Deschamps, 1990; ficha del agregador Grafiati)",
+   "autor": "Hector, Michel",
+   "anio": "1990",
+   "tipo": "secundaria",
+   "idioma": "fr",
+   "tradicion": "haitiana",
+   "url": "https://www.grafiati.com/en/literature-selections/esclavage-haiti/book/",
+   "urls_alternativas": [],
+   "verificacion": "solo-localizada",
+   "http_status": "200",
+   "formato": "html",
+   "acceso": "no-localizada",
+   "fiabilidad": "media",
+   "justificacion_fiabilidad": "Obra de un historiador de la UEH (no leída); la fiabilidad por la autoría no sube por falta de texto.",
+   "proveniencia": "Michel Hector, historiador haitiano (UEH), publica en Port-au-Prince (Henri Deschamps, 1990) una historia del régimen colonial francés que arranca en 1625 (Tortuga); la ficha de Grafiati confirma título, autor, editorial y año, sin ISBN ni páginas.",
+   "extractos": [],
+   "afirmaciones": [],
+   "modulos": [
+    "M04",
+    "M05"
+   ],
+   "id_existente": "F-1750",
+   "notas": "Confirmada solo la ficha bibliográfica (Grafiati; el registro ya la tenía). El título adopta 1625 (llegada a Saint-Christophe/Tortuga) como inicio del 'régimen colonial'. Pierre-Charles cita 'Héctor y Moïse, Le régime colonial français à Saint-Domingue, Port-au-Prince, 1962 (sic)' en su nota 6 (p. 17): posible primera edición/otra obra [POR VERIFICAR]. No hay texto completo en dLOC, archive.org ni Manioc."
+  },
+  {
+   "titulo": "Corps universel diplomatique du droit des gens, t. VII, 2.ª parte (Amsterdam, 1726): doc. CXCVIII, tratado de paz franco-español firmado en Ryswick el 20-IX-1697 (verificación cruzada de las citas haitianas)",
+   "autor": "Dumont, Jean (comp.)",
+   "anio": "1726",
+   "tipo": "primaria",
+   "idioma": "fr",
+   "tradicion": "francesa",
+   "url": "https://archive.org/download/corpsuniverseldi72dumo/corpsuniverseldi72dumo_djvu.txt",
+   "urls_alternativas": [
+    "https://archive.org/details/corpsuniverseldi72dumo"
+   ],
+   "verificacion": "descargada-parcial",
+   "http_status": "200",
+   "formato": "txt",
+   "acceso": "texto-completo-en-linea",
+   "fiabilidad": "alta",
+   "justificacion_fiabilidad": "Texto del tratado impreso en la compilación más usada de la época, leído en OCR con ſ=f; se leyeron los arts. III-XII y la fórmula final, y se buscó 'Domingue/Hispaniola/Indes' en todo el documento sin hallarlos.",
+   "proveniencia": "Jean Dumont, barón de Carlscroon (1667-1727), compila en Ámsterdam el Corps diplomatique; el doc. CXCVIII recoge el 'Traité de Paix entre Louis XIV. Roi de France & Charles II. Roi d'Espagne' con la fecha 20-IX-1697. Esta entrada es una comprobación de mi lente (haitiana) de las citas de Price-Mars y Cabon; la lectura principal corresponde al buscador de tradición francesa/internacional.",
+   "extractos": [
+    {
+     "ubicacion": "doc. CXCVIII, art. IX (pp. ca. 408-409; l. 82803-82814 del djvu.txt; OCR con ſ y errores: 'Portes' por 'Postes' y ortografía modernizada)",
+     "cita_original": "Ledit Seigneur Roi Très-Chrétien fera aussi restituer à Sa Majesté Catholique toutes les Villes, Places, Forts, Châteaux et Postes que ses Armées ont ou pourroient avoir occupez jusqu'au jour de la Paix, et même depuis icelle, en quelque Lieu du Monde qu'elles soient situées",
+     "traduccion": "El dicho señor Rey Cristianísimo hará también restituir a Su Majestad Católica todas las villas, plazas, fuertes, castillos y puestos que sus ejércitos hayan ocupado o puedan haber ocupado hasta el día de la paz, e incluso después de ella, en cualquier lugar del mundo en que estén situados. [Cláusula general de restitución recíproca.]",
+     "afirmaciones": [
+      "A-051"
+     ]
+    },
+    {
+     "ubicacion": "doc. CXCVIII, fórmula final (l. 83269-83272 del djvu.txt)",
+     "cita_original": "Fait à Ryswic, en Hollande, le vingtième Septembre seize cent quatre-vingt dix-sept.",
+     "traduccion": "Hecho en Ryswick, en Holanda, el veinte de septiembre de mil seiscientos noventa y siete. [Corrige el '30 de septiembre' de Bellegarde 1953.]",
+     "afirmaciones": [
+      "A-051"
+     ]
+    }
+   ],
+   "afirmaciones": [
+    "A-051"
+   ],
+   "modulos": [
+    "M04"
+   ],
+   "id_existente": "F-0016",
+   "notas": "VERIFICACIÓN CRUZADA: en el texto franco-español del doc. CXCVIII no aparecen 'Domingue', 'Hispan', 'Indes', 'Amérique' ni 'Antilles' (búsqueda en el OCR de las ll. 82560-84100; las únicas 'isle' son Fort-Isle y la isla de Ponza). Su art. IX es general ('en quelque Lieu du Monde'), no una cesión nominal; esto respalda a Price-Mars (p. 46) y a Cabon (p. 67) y no a Madiou, Dorsainvil, Bellegarde-Lhérisson (Cap Rose-Béate) ni al Livre Blanc ('cédé'). Páginas exactas por precisar contra la imagen. Esta entrada solo documenta mi comprobación; el lente colonial-primaria/internacional debe leer el tratado completo."
+  }
+ ]
+}
